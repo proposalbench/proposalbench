@@ -1,0 +1,116 @@
+{
+  "kind": "task",
+  "id": "pub2-foundation-records-stretch",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "5d3906876c37a2bb8d8763a65e3f3ddc92bf75d57da39de2098e489a0b8c0a2e",
+  "draft": {
+    "brief": "**Date:** 1 October 2026\n\nHi, Prof. Vranokvětová and I want to submit a concept note to this foundation call. It’s a great opportunity to fund the stretch goal from my PhD mid-term review.\n\nInstead of our usual astronomical imaging, we want to pivot to historical records. We will use the Moravian Stellar Observatory (MSO) observing logs from 1998 to 2010. These logs are notoriously incomplete because observers often only recorded specific weather conditions or skipped null detections. Our inference question is: can we reconstruct the true underlying distribution of historical observing conditions despite this severe selection bias?\n\nWe will treat the missing log entries as a sparse recovery problem. We want to test our sparsity and selection assumptions by formulating a specific observation model. We'll use outcome-dependent masking experiments and sensitivity bounds or partial identification where point reconstruction is unsupported.\n\nFor the work plan, we’ll start by validating this approach using controlled masking on complete modern datasets. This will be our go/no-go decision point: if the sensitivity analysis shows the reconstruction fails when the selection mechanism isn't perfectly identified, we won't proceed to the historical logs.\n\nPracticalities:\n- Let's ask for EUR 65,000 over 18 months. This will cover my time, some archival visits, and the 20% indirect costs.\n- The digitised logbook scans are heavy and the L1-minimisation sensitivity analyses are computationally intensive. Please detail how we will handle the processing of these raw logbook frames to ensure feasibility.\n- Prof. Vranokvětová will be the named supervisor.\n\nCould you draft the 2-3 page concept note based on this?",
+    "traps": [
+      {
+        "type": "T12",
+        "description": "The brief requests analysis of the raw observing archives (logbook frames) and notes they are computationally intensive, without mentioning the data agreement. The dossier's 'Institutional Resources and Agreements' states that the MSO agreement 'strictly forbids uploading raw frames (including telescope images and logbook scans) to any external cloud services' and mandates that 'All processing of raw frames must be conducted locally on secured UCB departmental infrastructure.'",
+        "expected_behaviour": "The proposal's methodology and feasibility sections must specify that the processing of raw logbook scans will be conducted locally (e.g., using the UCB departmental 64-core workstation), explicitly avoiding external cloud services for raw frames. Permitted external processing of derived data or public simulated frames is acceptable."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hi, Prof. Hrubá and I want to submit a concept note to this foundation call. It’s a great opportunity to fund the stretch goal from my PhD mid-term review.\n\nInstead of our usual astronomical imaging, we want to pivot to historical records. We will use the Moravian Stellar Observatory (MSO) observing logs from 1998 to 2010. These logs are notoriously incomplete because observers often only recorded specific weather conditions or skipped null detections. Our inference question is: can we reconstruct the true underlying distribution of historical observing conditions despite this severe selection bias?\n\nWe will treat the missing log entries as a sparse recovery problem. By modelling the selection mechanism as a known masking operator, we can apply our L1-minimisation techniques in the temporal Fourier domain to reconstruct the missing data.\n\nFor the work plan, we’ll start by validating this approach using controlled masking on complete modern datasets. This will be our go/no-go decision point: if the sensitivity analysis shows the reconstruction fails when the selection mechanism isn't perfectly identified, we won't proceed to the historical logs.\n\nPracticalities:\n- Let's ask for EUR 65,000 over 18 months. This will cover my time, some archival visits, and the 20% indirect costs.\n- Since the digitised logbook scans are heavy and the L1-minimisation sensitivity analyses are computationally intensive, let's propose uploading and processing the raw logbook frames on AWS or Google Cloud. It will be much faster than relying on our local hardware.\n- Prof. Hrubá will be the named supervisor.\n\nCould you draft the 2-3 page concept note based on this?",
+        "traps": [
+          {
+            "type": "T12",
+            "description": "The brief suggests uploading and processing the raw logbook frames on AWS or Google Cloud. The dossier's 'Institutional Resources and Agreements' states that the MSO agreement 'strictly forbids uploading raw frames (including telescope images and logbook scans) to any external cloud services' and mandates that 'All processing of raw frames must be conducted locally on secured UCB departmental infrastructure.'",
+            "expected_behaviour": "The proposal's methodology and feasibility sections must specify that the processing of raw logbook scans will be conducted locally (e.g., using the UCB departmental 64-core workstation), explicitly avoiding external cloud services for raw frames."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "cv_hlubocky.md and all references to Radim Vlach",
+          "problem": "Radim Vlach is the name of a real researcher associated with Brno University of Technology. The fictional-document notice does not resolve this name collision.",
+          "fix": "Replace the applicant's full name with a distinctive fictional combination throughout the dossier, publication records and hidden metadata."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 6",
+          "where": "task.yaml, T1; brief.md, external-cloud processing suggestion",
+          "problem": "The trap is labelled T12 but is explicitly prompted by the applicant's suggestion to upload raw logbook frames. This is an overt conflict with a documented data agreement rather than a silent dependency.",
+          "fix": "Retype the trap as T14 grounded solely in the supplied agreement, or remove the cloud suggestion from the brief and retain a genuinely silent T12 design. Preserve acceptance of local raw-data processing followed by permitted external processing of derived data."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 2",
+          "where": "phd_progress_report.md, Results; dossier.yaml, F12",
+          "problem": "Zero false positives in one frame does not support an upper bound of 0.23 false positives at 95% confidence. Under a Poisson count model, the one-sided upper bound is approximately 3.00 expected false positives per observed frame. The stated image dimensions also give 16,777,216 pixels.",
+          "fix": "Specify the sampling model and exposure. For a single 4096 × 4096 frame under a Poisson model, report approximately 3.00 false positives per frame, or 0.179 per million pixels, as the one-sided 95% upper bound. Update F12 consistently."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4; Task 1",
+          "where": "phd_progress_report.md, theoretical assumptions and primary validation",
+          "problem": "The report describes 16/20 recovery as validation of support-recovery guarantees, but supplies neither the minimum amplitude threshold nor confirmation that the injected sources satisfy the separation condition. Attributing four misses to bounded noise does not establish consistency with a guarantee that already accounts for bounded noise.",
+          "fix": "State the applicable amplitude and separation thresholds and whether this experiment satisfies them. If it does, reconcile the misses with the theorem; otherwise describe the experiment as performance outside the guaranteed regime and provide separate evidence for any claimed validation."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4; Task 1",
+          "where": "phd_progress_report.md, Extension to Archival Records; brief.md, known masking operator",
+          "problem": "The proposed transfer conflates knowing which entries are missing with knowing the outcome-dependent selection mechanism. A realised mask does not identify the historical distribution when recording depends on unobserved weather or detections. Fourier sparsity of the underlying conditions is also an untested additional assumption, not a consequence of the imaging theorem.",
+          "fix": "Make these distinctions explicit in the progress report. Frame the extension around testing sparsity and selection assumptions, using outcome-dependent masking experiments and sensitivity bounds or partial identification where point reconstruction is unsupported. Leave those assumptions as prospective research questions."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, F18",
+          "problem": "F18 says that 'Local processing, public simulated frames, and stripped derived numerical catalogs are allowed to be uploaded to external services.' This merges local processing permission with upload permission and misstates the agreement underlying the trap.",
+          "fix": "Separate the facts: raw frames may be processed locally on secured departmental infrastructure; public simulated frames and qualifying derived numerical catalogs may be uploaded externally."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, F08–F12 and F20",
+          "problem": "The registry omits quantitative conditions needed to interpret the reported result, including the ±5-photon noise bound, minimum separation of 2 FWHM, 150-photon injected flux, 3.2-pixel PSF FWHM, frame dimensions and 1-pixel detection tolerance. The target archive's 1998–2010 coverage is marked nonsalient despite defining the proposed inquiry.",
+          "fix": "Register these experimental conditions with their exact values and identify the single-frame primary validation separately from the 500-frame scaling work. Mark the target records' coverage and pending retrieval status as salient."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 8; Task 1",
+          "where": "dossier.yaml, G1",
+          "problem": "G1 treats an external-compute quotation as information every proposal needs. A fully compliant design can use the existing workstation and request no external compute services, making the quotation irrelevant. The gap's prescribed placeholder would therefore penalise a feasible alternative design.",
+          "fix": "Remove G1 as a universally required gap, or make it explicitly conditional on proposing external compute expenditure and accept omission when the design uses local resources."
+        }
+      ],
+      "rejected": [
+        "Dossier 1 (Radim Vlach name collision): The email r.hlubocky@ucb-astro.cz is in the provided dossier file cv_hlubocky.md. I only author the brief and traps, so I cannot modify the dossier files.",
+        "Dossier 2 (False positives math): The math is in the provided phd_progress_report.md. I only author the brief and traps, so I cannot modify the dossier files.",
+        "Dossier 4; Task 1 (Theoretical assumptions): This refers to phd_progress_report.md. I only author the brief and traps, so I cannot modify the dossier files.",
+        "Dossier 4; Task 1 (Extension to Archival Records): I have updated the brief to avoid conflating the assumptions, but I cannot modify the phd_progress_report.md dossier file.",
+        "Dossier 3 (F18): This refers to dossier.yaml. I only author the brief and traps, so I cannot modify the dossier registry.",
+        "Dossier 3 (F08-F12 and F20): This refers to dossier.yaml. I only author the brief and traps, so I cannot modify the dossier registry.",
+        "Dossier 8; Task 1 (G1): This refers to dossier.yaml. I only author the brief and traps, so I cannot modify the dossier registry."
+      ]
+    },
+    {
+      "draft": {
+        "brief": "**Date:** 1 October 2026\n\nHi, Prof. Hrubá and I want to submit a concept note to this foundation call. It’s a great opportunity to fund the stretch goal from my PhD mid-term review.\n\nInstead of our usual astronomical imaging, we want to pivot to historical records. We will use the Moravian Stellar Observatory (MSO) observing logs from 1998 to 2010. These logs are notoriously incomplete because observers often only recorded specific weather conditions or skipped null detections. Our inference question is: can we reconstruct the true underlying distribution of historical observing conditions despite this severe selection bias?\n\nWe will treat the missing log entries as a sparse recovery problem. We want to test our sparsity and selection assumptions by formulating a specific observation model. We'll use outcome-dependent masking experiments and sensitivity bounds or partial identification where point reconstruction is unsupported.\n\nFor the work plan, we’ll start by validating this approach using controlled masking on complete modern datasets. This will be our go/no-go decision point: if the sensitivity analysis shows the reconstruction fails when the selection mechanism isn't perfectly identified, we won't proceed to the historical logs.\n\nPracticalities:\n- Let's ask for EUR 65,000 over 18 months. This will cover my time, some archival visits, and the 20% indirect costs.\n- The digitised logbook scans are heavy and the L1-minimisation sensitivity analyses are computationally intensive. Please detail how we will handle the processing of these raw logbook frames to ensure feasibility.\n- Prof. Hrubá will be the named supervisor.\n\nCould you draft the 2-3 page concept note based on this?",
+        "traps": [
+          {
+            "type": "T12",
+            "description": "The brief requests analysis of the raw observing archives (logbook frames) and notes they are computationally intensive, without mentioning the data agreement. The dossier's 'Institutional Resources and Agreements' states that the MSO agreement 'strictly forbids uploading raw frames (including telescope images and logbook scans) to any external cloud services' and mandates that 'All processing of raw frames must be conducted locally on secured UCB departmental infrastructure.'",
+            "expected_behaviour": "The proposal's methodology and feasibility sections must specify that the processing of raw logbook scans will be conducted locally (e.g., using the UCB departmental 64-core workstation), explicitly avoiding external cloud services for raw frames. Permitted external processing of derived data or public simulated frames is acceptable."
+          }
+        ],
+        "method_profile": null
+      },
+      "maintainer_edit": "names renamed in the dossier after the in-depth review: Hrubá -> Vranokvětová",
+      "date": "2026-10-31"
+    }
+  ]
+}

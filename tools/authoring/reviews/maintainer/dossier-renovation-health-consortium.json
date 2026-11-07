@@ -1,0 +1,19 @@
+{
+ "reviewer": "maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 7",
+   "where": "all files",
+   "problem": "The documents are not consistently current as of the benchmark's present date, 1 October 2026 (some are written as of 2024 or early 2025, leaving unexplained gaps before calls with 2027 deadlines).",
+   "fix": "Make every document current as of September 2026: update 'as of' dates, contract periods, CV entries, publication lists through 2026, statuses of submissions, reviews, ethics approvals and recruitments, keeping the same career stage and every fact the traps rely on (re-dated consistently). Keep all numbers internally consistent after the shift."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "all files",
+   "problem": "Names of people, institutions, companies, projects or journals may collide with real ones.",
+   "fix": "Replace every person name with a coined, distinctive name (no common names such as Matteo Rossi); replace every real institution, research centre, archive, company, project or journal name of the applicant's world with a fictional one; the applicant's own publications appear in fictional journals. Real funders, real places and real funding schemes stay."
+  }
+ ]
+}

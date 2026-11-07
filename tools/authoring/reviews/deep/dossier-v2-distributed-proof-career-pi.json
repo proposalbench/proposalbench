@@ -1,0 +1,47 @@
+{
+  "kind": "dossier",
+  "id": "v2-distributed-proof-career-pi",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1; Dossier 6",
+      "where": "data/public/dossiers/v2-distributed-proof-career-pi/publications.md items 1 and 5: 'Transactions on Mathematical Foundations of Computing' and 'Mathematics of Computation and Communication'; matching dossier.yaml own_publications.",
+      "problem": "These fictional titles incorporate the entire names of real journals in the same field: AIMS's Mathematical Foundations of Computing and AMS's Mathematics of Computation. A generic prefix or appended 'and Communication' leaves a confusable scholarly venue, which the requested fiction check explicitly disallows.",
+      "fix": "Rename the first venue to 'Oakhaven Spectral Systems Studies' and the second to 'Meridian Network Mathematics Review', in publications.md and dossier.yaml. Preserve titles, statuses and 10.99999/pb. DOIs. Exact searches for these replacement titles returned no match.",
+      "evidence": [
+        "https://www.aimsciences.org/mfc",
+        "https://www.ams.org/journals/mcom/2023-92-344/mcom-92-344-print-matter.pdf",
+        "data/public/dossiers/v2-distributed-proof-career-pi/publications.md",
+        "data/public/dossiers/v2-distributed-proof-career-pi/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/v2-distributed-proof-career-pi/resources_team.md §3: '*Eligibility Constraints:* Dr. Quenneville is ineligible to replace me as the PI on any early-career (e.g., CAREER) submissions. Furthermore, she will not serve as a co-PI or senior personnel ... ensuring that I maintain sole intellectual leadership and independent PI status as required by early-career funding mechanisms.'",
+      "problem": "The facilities document supplies a grant-eligibility lesson and the exact answer to the mentor-PI trap instead of an ordinary record of resources and appointments. The blanket suggestion that early-career awards forbid senior personnel is also broader than CAREER's actual restriction on co-PIs. CAREER permits limited senior-personnel roles. The mentor's tenured associate-professor rank already gives the necessary factual premise.",
+      "fix": "Replace the Eligibility Constraints bullet with 'Current project appointment: departmental career mentor; no funded research appointment has been allocated to Dr. Quenneville on this project.' Keep her rank and existing career/advice role. Replace F23 with that ordinary appointment fact. In pub2-nsf-autonomy-close's trap description, remove the quote of the deleted eligibility lesson and retain the call rule plus her tenured associate-professor status; the expected sole-PI outcome remains unchanged.",
+      "evidence": [
+        "data/public/dossiers/v2-distributed-proof-career-pi/resources_team.md",
+        "data/public/dossiers/v2-distributed-proof-career-pi/dossier.yaml",
+        "data/public/tasks/pub2-nsf-autonomy-close/task.yaml",
+        "https://www.nsf.gov/funding/opportunities/career-faculty-early-career-development-program/nsf22-586/solicitation",
+        "docs/task_review_checklist.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all four visible files, 30 facts and five own-publication entries; all non-null fact values occur in their source files. Fiction notices present. No declared gaps, inconsistencies or reviewer criticisms. CV/appointment/project/publication chronology is consistent through September 2026.",
+    "Numbers: $11,500+$24,000+$3,500+$6,000=$45,000; January 2025–August 2026 is 20 months; 15/18 is a confidence survey, correctly distinguished from a causal learning gain. HPC nodes, GPU nodes, teaching release and TA capacity are consistent.",
+    "Science: the delayed symmetric-Laplacian condition agrees with https://www.ee.iitb.ac.in/~dc/EE749/Olfati.pdf; 0.1×1.5×10=1.5<π/2. This is a familiar result, not independent evidence of fictional novelty. The conjectural extension is not asserted as proved.",
+    "Science: noiseless fixed-channel adversarial recovery under 2s-sparse observability is consistent with https://www.damtp.cam.ac.uk/user/hf323/security_allerton2011.pdf. Planned ROS2 simulations do not imply existing robot hardware or completed validation.",
+    "Exact-name searches covered Elias V. Thorne, Sarah L. Quenneville, Helena R. Quenneville, Julian C. Sterling, Marcus R. Lin, Oakhaven University, Bayside Institute of Technology, Meridian State University, University of the Northern Plains, the seed-grant label, Pacific Symposium on Theoretical Computing and all five journals. No substantiated full-identity collision beyond the confusable venues above. Shorter Elias Thorne hits include fictional/generated identities and were not treated as proof that this full identity is a known real researcher.",
+    "All own DOIs use 10.99999/pb.; titles, author order, years and the under-review versus published/accepted distinction agree. Under-review submission July 2026 and status 25 September 2026 support T06. Sole eligible assistant-professor PI, mentor rank and bounded role support T03.",
+    "Read prior automated review context and the scoring rules: no RESUB applies to these full tasks; status facts are present for GR-T. Negative web searches cannot establish global uniqueness."
+  ]
+}

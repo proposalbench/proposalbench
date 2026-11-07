@@ -1,0 +1,46 @@
+# USD per million tokens at standard (non-batch, short-context) rates. The report uses these only to
+# estimate a cost a system did not record itself, and to price judge tokens. Reported, not scored
+# (docs/scoring_spec.md, diagnostics). `cached_input` is the cache-hit rate; it applies only where a
+# submission recorded how many input tokens were cache hits.
+#
+# Bedrock rates are the ones AWS actually billed this account (Cost Explorer, usage type cost /
+# quantity, 2026-10-30 to 2026-11-02); the `us.` inference profiles carry a 10% premium over the
+# list price.
+models:
+  claude-opus-5-5:
+    {input: 4.00, cached_input: 0.20, output: 20.00, aliases: [opus],
+     source: "https://platform.claude.com/docs/en/about-claude/pricing", checked: 2026-11-05}
+  claude-sonnet-5-5:
+    {input: 2.00, cached_input: 0.10, output: 10.00,
+     source: "https://platform.claude.com/docs/en/about-claude/pricing", checked: 2026-11-05}
+  claude-haiku-5-5:  # prompts up to 100k tokens
+    {input: 0.10, cached_input: 0.01, output: 0.50,
+     source: "https://platform.claude.com/docs/en/about-claude/pricing", checked: 2026-11-05}
+  us.anthropic.claude-opus-4-6-v1:
+    {input: 5.50, cached_input: 0.55, output: 27.50,
+     source: "AWS Cost Explorer, USE1-MP:USE1_InputTokenCount / OutputTokenCount", checked: 2026-11-05}
+  gpt-6-astra:
+    {input: 10.00, cached_input: 1.00, output: 50.00,
+     source: "https://developers.openai.com/api/docs/pricing", checked: 2026-11-05}
+  gpt-6-sol:
+    {input: 2.00, cached_input: 0.20, output: 10.00,
+     source: "https://developers.openai.com/api/docs/pricing", checked: 2026-11-05}
+  gpt-6-luna:
+    {input: 0.10, cached_input: 0.01, output: 0.50,
+     source: "https://developers.openai.com/api/docs/pricing", checked: 2026-11-05}
+  gemini-3.1-pro-preview:  # prompts up to 200k tokens; output includes thinking
+    {input: 2.00, cached_input: 0.20, output: 12.00,
+     source: "https://aistudio.google.com/docs/pricing", checked: 2026-11-05}
+  gemini-3.8-flash:  # introductory rate through 2026-12-31 (doubles on 2027-01-01)
+    {input: 0.75, cached_input: 0.075, output: 3.75,
+     source: "https://aistudio.google.com/docs/pricing", checked: 2026-11-05}
+  # Judges
+  us.moonshotai.kimi-k3:
+    {input: 3.30, cached_input: 0.33, output: 16.50,
+     source: "AWS Cost Explorer, USE1-moonshotai.kimi-k3-mantle-*-tokens-standard", checked: 2026-11-05}
+  zai.glm-5:
+    {input: 1.20, output: 3.20,
+     source: "AWS Cost Explorer, USE1-zai.glm-5-*-tokens", checked: 2026-11-05}
+  deepseek.v3.2:
+    {input: 0.62, output: 1.85,
+     source: "AWS Cost Explorer, USE1-deepseek.v3.2-*-tokens", checked: 2026-11-05}

@@ -1,0 +1,139 @@
+schema_version: 1
+id: v2-nih-a1-care-transitions
+scheme: nih_r21
+language: en
+title: Attention, Stress, and Medication Self-Management Across Adult Service Transitions
+topic_code: PB2-NIH-R21-A1-01
+proposal_type: full
+length_contract:
+  max_words: 4800
+  enforcement: inadmissible
+  tolerance: 0.0
+  counted_sections:
+  - introduction
+  - aims
+  - strategy
+  exempt:
+  - references
+  - title
+  per_section_max_words:
+    aims: 600
+    strategy: 3600
+    introduction: 600
+  page_limit: 8
+  words_per_page: 600
+  source_note: |
+    Verified 2026-10-31: https://grants.nih.gov/grants-process/write-application/how-to-apply-application-guide/page-limits; https://grants.nih.gov/grants-process/submit/submission-policies/resubmission-applications; https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html.
+    One-page Introduction plus one-page Specific Aims plus six-page Research Strategy,
+    non-transferable. 600 words/page gives 600 + 600 + 3600 = 4800 words; zero tolerance.
+    US Letter, Arial 11 pt and NIH-compliant margins/line density: a practical prose estimate,
+    not an NIH word rule. Title/references exempt, tables/captions count.
+required_sections:
+- id: introduction
+  title: Introduction to Resubmission
+- id: aims
+  title: Specific Aims
+- id: strategy
+  title: Research Strategy
+- id: significance
+  title: Significance
+  parent: strategy
+- id: innovation
+  title: Innovation
+  parent: strategy
+- id: approach
+  title: Approach
+  parent: strategy
+expected_outcomes:
+- id: EO1
+  text: Researchers have a clearer account of the temporal relationships among service transitions, attention,
+    stress, and medication self-management, including findings that challenge the proposed relationships.
+- id: EO2
+  text: Care teams have evidence identifying transition circumstances in which medication self-management
+    difficulties warrant further investigation, with uncertainty and limits on transferability made explicit.
+- id: EO3
+  text: Investigators have an empirically grounded basis for deciding whether the measurement and follow-up
+    approach is suitable for a subsequent study, requires modification, or should be discontinued.
+scope:
+- id: SC1
+  text: Define the service transition and observation period in relation to changes in medication routines,
+    instructions, or responsibility for self-management.
+- id: SC2
+  text: Measure attention with performance-based tests, stress with validated self-report or physiological
+    measures, and medication self-management with objective or validated behavioral measures, each appropriate
+    to the population and setting.
+- id: SC3
+  text: Characterize temporal relationships among transition events, attention, stress, and medication
+    self-management through observations timed to the proposed scientific question.
+- id: SC4
+  text: Examine alternative explanations for observed relationships, including illness burden, regimen
+    complexity, medication changes, and available assistance.
+- id: SC5
+  text: Assess the feasibility of recruitment, repeated measurement, and follow-up, including participant
+    burden, missing observations, and the interpretability of collected measures.
+exclusions:
+- id: EX1
+  text: Clinical trials as defined by NIH are not allowed.
+- id: EX2
+  text: Development or evaluation of a service-redesign, medication-coaching, reminder, or attention-training
+    intervention as the principal scientific objective.
+- id: EX3
+  text: Studies limited to readmissions, appointment attendance, prescription claims, or other administrative
+    indicators without direct assessment of the proposed attention, stress, and self-management relationships.
+- id: EX4
+  text: Definitive prediction-tool validation, clinical effectiveness testing, or implementation at scale
+    presented as the purpose of the exploratory study.
+- id: EX5
+  text: A replacement scientific project presented as a revision of the prior application.
+mandatory_elements:
+- id: ME1
+  text: Critically appraise the rigor of the published or unpublished evidence supporting the proposed
+    research.
+- id: ME2
+  text: Justify the sample size for the proposed unit of analysis.
+- id: ME3
+  text: Describe the measures used to control bias in the proposed study.
+- id: ME4
+  text: Specify how the collected data will be analysed to answer the research questions.
+- id: ME5
+  text: Describe contingency approaches for the main anticipated threats to feasibility.
+- id: ME6
+  text: Where applicable, explain how relevant biological variables such as sex and age enter the design
+    and analysis, with scientific reasons for restrictions.
+- id: ME7
+  text: Where applicable to human-participant research, justify the study population’s inclusion across
+    sex/gender, race, ethnicity and age.
+- id: ME8
+  text: In the Introduction to Resubmission, explain how the revised application responds to the previous
+    review through substantive changes or reasoned rebuttals.
+- id: ME9
+  text: State how the central question, population, transition setting and proposed mechanisms compare
+    with the A0, and give the reason for each substantive change.
+- id: ME10
+  text: In the Introduction to Resubmission, identify any major criticism that the revision does not fully
+    resolve and state how it limits the conclusions the study can support.
+- id: ME11
+  text: Distinguish measured medication-taking behavior from medication knowledge, confidence, prescription
+    availability and assistance received.
+- id: ME12
+  text: State which directions of effect the design can and cannot distinguish, including effects of medication
+    difficulties on stress and attention, and do not present associations as causal effects.
+- id: ME13
+  text: Prespecify numeric thresholds for each feasibility outcome (e.g. enrollment rate, proportion of
+    scheduled repeated assessments completed, retention at final follow-up) and state which result leads
+    to continuation, modification or discontinuation.
+- id: ME14
+  text: Describe whether study assessments, feedback, or contact with care teams could alter medication
+    management. Explain how these procedures remain observational and how clinically concerning findings
+    will be handled without introducing a prospectively assigned intervention.
+eligibility:
+  budget_in_narrative: false
+  currency: USD
+  max_budget: 275000
+  duration_months_max: 24
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 9314ed24-3b46-46f2-8356-629d2ff925ed

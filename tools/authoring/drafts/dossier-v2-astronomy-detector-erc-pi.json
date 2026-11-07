@@ -1,0 +1,1383 @@
+{
+  "kind": "dossier",
+  "id": "v2-astronomy-detector-erc-pi",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "428fbdab0c52eb89ad1b8dd1bb5c52cda49c5e1c350cd335557735625d730f43",
+  "draft": {
+    "applicant_type": "individual",
+    "career_stage": "senior",
+    "disciplines": [
+      "astrophysics",
+      "detector physics",
+      "scientific software"
+    ],
+    "method_profile": "quantitative",
+    "country": "SE",
+    "files": [
+      {
+        "path": "cv_pi.md",
+        "role": "cv",
+        "content": "> Fictional document created for ProposalBench.\n\n# Curriculum Vitae: Prof. Dr. Elias Mattis Norväng\n\n**Date of preparation:** 15 September 2026\n\n## 1. Personal Details\n- **Name:** Elias Mattis Norväng\n- **Nationality:** Swedish\n- **Current Position:** Professor of Astrophysics, Department of Physics and Astronomy, Västerled University, Sweden.\n- **Contact:** elias.norvang@example.org\n\n## 2. Education\n- **2004:** PhD in Astrophysics, Boreal Institute for Theoretical Physics / Svealand University. Thesis: *Statistical Methods for Low-Signal Astronomical Imaging*.\n- **1999:** MSc in Engineering Physics, Royal Institute of Applied Sciences (KTA), Sweden.\n\n## 3. Employment History\n- **2018–Present:** Professor of Astrophysics, Västerled University, Sweden. *(Note: Employment is tenured and the university host confirms employment through any proposed Proof of Concept grant period, extending well beyond 2029).* \n- **2011–2018:** Associate Professor, Västerled University, Sweden.\n- **2007–2011:** Assistant Professor, Department of Astronomy, Aros University, Sweden.\n- **2004–2007:** Postdoctoral Researcher, European Consortium for Ground-Based Astronomy (ECGA), Garching, Germany.\n\n## 4. Major Research Grants (Ongoing and Recent)\n- **2022–2027:** Principal Investigator, ERC Advanced Grant (ERC-2021-ADG 101055999) \"CALIFAINT: Advanced Calibration Frameworks for Next-Generation Faint-Source Detectors\". Funding: EUR 2,450,000. Host: Västerled University.\n- **2017–2021:** Principal Investigator, Swedish Research Council (VR) Project Grant \"Transient Phenomena in the Local Group\". Funding: SEK 4,200,000.\n- **2014–2018:** Co-Investigator, Knut and Alice Wallenberg Foundation \"Next-Gen Optical Sensors for Ground-Based Astronomy\". Funding: SEK 12,500,000 (Total project).\n\n## 5. Innovation and Commercialization Status\n- **Patents:** None currently held.\n- **Spin-outs:** No spin-out sales operation exists as of 15 September 2026.\n- **ERC Proof of Concept:** No previous PoC applications have been submitted for the results arising from the CALIFAINT project.\n\n## 6. Institutional Responsibilities\n- **2020–Present:** Head of the Detector Physics Laboratory, Västerled University.\n- **2019–2023:** Member of the Scientific Advisory Committee, Swedish National Space Agency.\n- **2015–2020:** Director of PhD Studies, Department of Physics and Astronomy, Västerled University.\n\n## 7. Supervision of Graduate Students and Postdoctoral Fellows\n- **Postdocs:** 8 completed, 4 ongoing.\n- **PhD Students:** 11 completed, 3 ongoing.\n- **Master's Students:** 24 completed.\n\n## 8. Teaching Activities\n- **2018–Present:** Course Responsible, *Advanced Observational Techniques* (MSc level), Västerled University.\n- **2012–2019:** Lecturer, *Statistical Methods in Physics* (BSc level), Västerled University.\n\n## 9. Selected Invited Presentations (2022–2026)\n- *Calibration Challenges for the Next Decade of Optical Astronomy*, Keynote at the Fjordlight Detector Methods Symposium, Padua, Italy (2025).\n- *Algorithmic Mitigation of Detector Artifacts*, Invited Seminar, Institute for Advanced Astrophysical Research, Munich, Germany (2024).\n- *Faint-Source Detection Limits in CMOS Sensors*, SPIE Astronomical Telescopes + Instrumentation, Yokohama, Japan (2024).\n- *Overcoming the Read-Noise Barrier*, Nordic Astronomy Conference, Oslo, Norway (2023)."
+      },
+      {
+        "path": "prior_project.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n# Interim Scientific Report: CALIFAINT (Month 54)\n\n**Project Title:** Advanced Calibration Frameworks for Next-Generation Faint-Source Detectors (CALIFAINT)\n**Grant Agreement:** ERC-2021-ADG 101055999\n**Principal Investigator:** Prof. Elias Mattis Norväng\n**Host Institution:** Västerled University, Sweden\n**Reporting Period:** 1 April 2022 – 30 September 2026\n\n## 1. Project Objectives\nThe CALIFAINT project aims to push the boundaries of faint-source astronomical imaging by developing novel, software-based calibration frameworks that mitigate complex, non-linear noise sources in next-generation scientific CMOS (sCMOS) and CCD detectors. The specific objectives are:\n1. To characterize non-stationary noise components (e.g., random telegraph signal, dark current drift) at the sub-electron level.\n2. To develop algorithmic calibration models that dynamically adjust to sensor state without requiring extensive daily flat-fielding.\n3. To implement these models in an open-architecture workflow tool capable of processing high-cadence astronomical data.\n\n## 2. Work Performed and Main Achievements\n\n### WP1: Sub-Electron Noise Characterization\nDuring the first two years, we established a cryogenic testbench at the Västerled Detector Physics Laboratory. We characterized three distinct sCMOS architectures (testing 4 devices per architecture, each with 4 million pixels) at temperatures ranging from 100 K to 200 K. Using a diagnostic threshold of a 3-sigma deviation from the mean dark current over a 10-hour period, we successfully isolated the random telegraph signal (RTS) components. We demonstrated that 14% (standard deviation of 1.2 percentage points across the 12 devices, representing approximately 560,000 pixels per device) exhibit non-Gaussian noise tails that traditional calibration pipelines fail to correct. We generated a comprehensive defect map library comprising 4.2 terabytes of raw sensor data.\n\n### WP2: Algorithmic Calibration Development\nBuilding on the defect maps from WP1, we developed a dynamic response model. Unlike static flat-field and dark-frame subtraction, our model uses a localized Markov Chain approach to predict the probability of a pixel being in a high-noise state during a specific exposure. \n\nIn our primary validation phase (completed August 2026), we ran the calibration algorithm across 200 simulated exposures (each 4 megapixels). These simulations injected 10,000 artificial point sources with a Poisson mean of 15 detected electrons per source into empirical detector-noise backgrounds. No astronomical-magnitude or full telescope-sensitivity equivalence is claimed for this detector-only validation. Source photon arrivals were Poisson sampled. The point-spread function was modeled as a Gaussian with a full width at half maximum of 0.8 arcseconds. A detection was defined as a peak exceeding the local background by 5 times the background standard deviation (a 5-sigma background detection significance, distinct from the source-shot-noise upper bound which is approximately 3.87 for 15 electrons), matched within 2 pixels of an injected coordinate. Sky background and a detector plate scale were not specified, so the reported recovery must not be extrapolated to real-sky completeness. We held out 50 physical acquisitions and 50 simulated exposures from model fitting and threshold selection to serve as the test set.\n\n**Key Result:** Using the held-out calibration set, the pipeline reduced the total number of false detections across the 50 test exposures from 40 to 26, while maintaining a fixed injected-signal recovery rate of 98% (recovering 1,960 of 2,000 injected sources in the test set). The paired bootstrap 95% confidence interval (resampling the 50 test exposures) for the absolute reduction in false detections is 5 to 23. \n\n*Limitation Note:* We emphasize that this represents simulation performance; field efficacy on physical telescope data has not yet been established. The current metrics reflect algorithmic potential under controlled, simulated conditions.\n\n### WP3: Software Implementation\nThe algorithms developed in WP2 have been integrated into a unified workflow tool, designated `FaintCal`. The tool is written in C++ with a Python wrapper for pipeline integration. `FaintCal` currently processes a 4-megapixel simulated frame (including file I/O) in 1.2 seconds (standard deviation of 0.1 seconds across 100 timing runs) on a single 16-core AMD Ryzen 9 processor using 8 threads. This is a direct improvement from the 8.5 seconds baseline runtime measured on the identical hardware and workload prior to optimization. This 1.2-second latency meets the throughput requirements for transient surveys acquiring one 4-megapixel frame every 2 seconds.\n\n## 3. Next Steps (Months 55–60)\nThe final six months of the project will focus on finalizing the documentation for the `FaintCal` workflow tool and preparing the theoretical findings for publication. We will also conduct preliminary integration tests with archival data from the Nordic Optical Telescope to assess how the dynamic response model handles real-world atmospheric variations, though full field validation falls outside the scope of the current ERC grant."
+      },
+      {
+        "path": "resources.md",
+        "role": "resources",
+        "content": "> Fictional document created for ProposalBench.\n\n# Laboratory Infrastructure and Software Assets\n\n**Date:** 28 August 2026\n**Prepared by:** Dr. Arvid Torsten Lindekvist & Prof. Elias Mattis Norväng\n\n## 1. Hardware Infrastructure\nThe Västerled Detector Physics Laboratory is equipped with a custom-built cryogenic vacuum chamber capable of maintaining stable temperatures down to 70 K (with a thermal stability of ±0.01 K standard deviation over 24 hours). The optical bench includes a stabilized integrating sphere, a monochromator (300–1100 nm), and a series of calibrated neutral density filters capable of attenuating light to single-photon levels. \n\nWe currently operate three evaluation boards for next-generation sCMOS sensors, provided under non-disclosure agreements by the manufacturers for research purposes. \n\n## 2. The FaintCal Workflow Tool\nThe primary software output of the CALIFAINT project is the `FaintCal` workflow tool. It is designed to ingest raw detector frames, apply the dynamic response model, and output calibrated science frames with associated variance maps.\n\n### 2.1. Intellectual Property Status\nVästerled University Innovation Office has formally reviewed the codebase. The university host confirms employment through any proposed PoC and owns the new calibration code developed under the CALIFAINT grant. There are no encumbrances on the core algorithmic IP, which was developed entirely by university employees.\n\n### 2.2. Legacy Dependencies and Integration\nThe current laboratory setup relies on the `DetControl-Pro` legacy detector-driver module to interface the hardware with the `FaintCal` processing pipeline. Note that `DetControl-Pro` is licensed for internal academic use only, with no redistribution rights; it must be replaced, separately licensed, or kept out of a transferable tool. An open-source driver, `SkarvDrive`, exists and provides similar hardware communication capabilities, but its integration with the `FaintCal` workflow remains untested.\n\n## 3. Prospective Validation and Stretch Applications\n\n### 3.1. Laboratory User Validation\nTo move beyond simulation, prospective laboratory user validation can test the innovation potential of the `FaintCal` tool. We have scheduled sessions for Q1 2027 where two external astrophysics groups will bring their own sensor hardware to our testbench to evaluate the workflow tool's usability and performance on unseen sensor architectures. The Q1 2027 sessions are funded from CALIFAINT and are preparatory activities before any PoC award; their results are not yet available as of this record.\n\n### 3.2. Translation to Environmental Sensing\nWhile `FaintCal` was developed for astronomy, the detector response model is mathematically agnostic to the source of the photons. Translation to low-light environmental sensing is a hypothesized stretch using the same detector response model, provided the noise regimes align. Specifically, we hypothesize that nocturnal atmospheric aerosol fluorescence monitoring (using UV LED excitation and a 10 Hz readout configuration) suffers from similar sub-electron noise limitations. Establishing whether detector-state noise limits this specific measurement will be an early feasibility gate. \n\nWe have planned a domain evaluation in collaboration with the Swedish Institute for Environmental Physics. This evaluation will assess whether the dynamic response model can accurately separate faint aerosol fluorescence signals from sensor noise in ground-based nocturnal monitoring stations. This represents a significant potential pivot for the technology, expanding its utility beyond fundamental astrophysics into applied environmental monitoring."
+      },
+      {
+        "path": "team.md",
+        "role": "team",
+        "content": "> Fictional document created for ProposalBench.\n\n# CALIFAINT Research Group Composition\n\n**Status as of:** 1 September 2026\n\n## Principal Investigator\n**Prof. Elias Mattis Norväng** oversees the entire CALIFAINT project, directing the theoretical development of the dynamic response models and managing the laboratory infrastructure.\n\n## Postdoctoral Researchers\n- **Dr. Linnea Signe Holmervik (2022–Present):** Lead algorithm designer. Dr. Holmervik holds a PhD in Applied Mathematics from Gothia Institute of Technology. She is responsible for the Markov Chain models used to predict pixel state probabilities. She authored the core mathematical routines in the `FaintCal` tool.\n- **Dr. Arvid Torsten Lindekvist (2023–Present):** Lead software engineer. Dr. Lindekvist transitioned from industry (high-frequency trading systems) to academia. He is responsible for optimizing the C++ implementation of `FaintCal`, reducing the processing latency from 8.5 seconds to 1.2 seconds per frame on identical hardware.\n- **Dr. Sofia Elin Bergelund (2024–Present):** Experimental physicist. Dr. Bergelund manages the cryogenic testbench and is responsible for acquiring the 4.2 terabytes of raw sensor data used to train the calibration models.\n- **Dr. Jesper Alrik Kvarnevik (2025–Present):** Data scientist. Focuses on the statistical validation of the simulated exposures and the calculation of confidence intervals for signal recovery.\n\n## PhD Students\n- **Sara Elvira Jannervik (Enrolled 2023):** Focuses on the simulation pipeline. She designed the 200 simulated exposures used in the primary validation phase, ensuring the synthetic faint point sources accurately reflected the point spread functions of modern 8-meter class telescopes.\n- **Marcus Ivar Norliden (Enrolled 2024):** Investigates the physical origins of random telegraph signal in sCMOS architectures. His work bridges the gap between semiconductor physics and the algorithmic corrections applied by `FaintCal`.\n- **Elsa Linnea Strömvik (Enrolled 2025):** Explores cross-domain applications of the calibration framework. She is currently preparing the protocols for the planned domain evaluation in low-light environmental sensing.\n\n## External Collaborators (Unfunded)\n- **Dr. Tobias Lindvret, Swedish Institute for Environmental Physics:** Advising on the requirements for nocturnal atmospheric aerosol fluorescence monitoring. He will facilitate the planned domain evaluation of the detector response model in environmental sensing contexts."
+      },
+      {
+        "path": "publications.md",
+        "role": "publications",
+        "content": "> Fictional document created for ProposalBench.\n\n# Selected Publications (2022–2026)\n\n**Status as of:** 15 September 2026. All listed items are published.\n\n**1.** Holmervik, L. S., Bergelund, S. E., & Norväng, E. M. (2026). \"Dynamic Response Modeling for Non-Stationary Noise in Scientific CMOS Detectors.\" *Skarvholm Calibration Studies*, 14(2), 112-128. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2026.1\n\n**2.** Jannervik, S. E., Holmervik, L. S., & Norväng, E. M. (2025). \"Synthetic Injection Pipelines for Evaluating Faint-Source Recovery Limits.\" *Vasterled Detector Computing Reports*, 9(4), 401-415. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2025.1\n\n**3.** Lindekvist, A. T., Holmervik, L. S., & Norväng, E. M. (2025). \"Low-Latency Processing Architectures for High-Cadence Astronomical Surveys.\" *Software for Physics and Astronomy*, 3(1), 45-59. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2025.2\n\n**4.** Bergelund, S. E., Norliden, M. I., & Norväng, E. M. (2024). \"Cryogenic Characterization of Random Telegraph Signal in Back-Illuminated sCMOS Sensors.\" *Detector Physics Review*, 22(8), 889-904. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2024.1\n\n**5.** Norväng, E. M., & Holmervik, L. S. (2023). \"Beyond Flat-Fielding: The Case for State-Dependent Pixel Calibration.\" *Annual Review of Astronomical Techniques*, 11, 210-235. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2023.1"
+      }
+    ],
+    "facts": [
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "The PI holds an ongoing ERC Advanced Grant (CALIFAINT) running from 2022 to 2027 with EUR 2,450,000 in funding.",
+        "value": "EUR 2,450,000",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "position",
+        "kind": "existing",
+        "text": "The university host confirms employment through any proposed Proof of Concept grant period.",
+        "value": null,
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "No previous ERC Proof of Concept applications have been submitted for the CALIFAINT results, and no spin-out sales operation exists.",
+        "value": null,
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Characterized three distinct sCMOS architectures, testing 4 devices per architecture for a total of 12 devices.",
+        "value": "4",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Each of the 12 tested devices has 4 million pixels.",
+        "value": "4 million pixels",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Temperatures ranged from 100 K to 200 K.",
+        "value": "100 K to 200 K",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "14% (standard deviation of 1.2 percentage points) of pixels exhibit non-Gaussian noise tails.",
+        "value": "14%",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Generated a comprehensive defect map library comprising 4.2 terabytes of raw sensor data.",
+        "value": "4.2 terabytes",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The primary validation phase ran the calibration algorithm across 200 simulated exposures.",
+        "value": "200",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The simulations injected 10,000 artificial point sources with a Poisson mean of 15 detected electrons per source.",
+        "value": "15",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "No astronomical-magnitude or full telescope-sensitivity equivalence is claimed for this detector-only validation.",
+        "value": null,
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Source photon arrivals were Poisson sampled with a Gaussian point-spread function of 0.8 arcseconds FWHM.",
+        "value": "0.8 arcseconds",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "A detection was defined as 5 times the background standard deviation; 15 detected electrons yield a source-shot-noise upper bound of approximately 3.87.",
+        "value": "3.87",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Sky background and a detector plate scale were not specified, so the reported recovery must not be extrapolated to real-sky completeness.",
+        "value": null,
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Held out 50 physical acquisitions and 50 simulated exposures as the test set.",
+        "value": "50",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The pipeline reduced false detections from 40 to 26.",
+        "value": "26",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Maintained a fixed injected-signal recovery rate of 98%, recovering 1,960 of 2,000 injected sources in the test set.",
+        "value": "1,960 of 2,000",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The paired bootstrap 95% confidence interval for the absolute reduction in false detections is 5 to 23.",
+        "value": "5 to 23",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The reported performance represents simulation only; field efficacy on physical telescope data has not yet been established.",
+        "value": null,
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "FaintCal processes a 4-megapixel frame in 1.2 seconds (standard deviation 0.1s across 100 runs) using 8 threads.",
+        "value": "1.2 seconds",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "This is a direct improvement from the 8.5 seconds baseline runtime measured on the identical hardware and workload.",
+        "value": "8.5 seconds",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "other",
+        "kind": "planned",
+        "text": "The final six months of the main grant will focus on finalizing documentation and preparing theoretical findings for publication.",
+        "value": null,
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "other",
+        "kind": "planned",
+        "text": "Planned preliminary integration tests with archival data from the Nordic Optical Telescope in months 55–60.",
+        "value": "Months 55–60",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The cryogenic vacuum chamber maintains 70 K with a thermal stability of ±0.01 K standard deviation.",
+        "value": "70 K",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "We currently operate three evaluation boards for next-generation sCMOS sensors, provided under non-disclosure agreements for research purposes.",
+        "value": "three",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Västerled University owns the new calibration code and conducted a formal IP review finding no encumbrances on core IP.",
+        "value": null,
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The legacy detector-driver module DetControl-Pro is licensed for internal academic use only, with no redistribution rights.",
+        "value": null,
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "An open-source driver, SkarvDrive, exists but its integration with the FaintCal workflow remains untested.",
+        "value": null,
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "team",
+        "kind": "planned",
+        "text": "Prospective laboratory user validation is scheduled for Q1 2027 with two external astrophysics groups; these sessions are funded from CALIFAINT and results are not yet available.",
+        "value": "two",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "other",
+        "kind": "planned",
+        "text": "Translation to nocturnal atmospheric aerosol fluorescence monitoring hypothesizes using UV LED excitation and a 10 Hz readout.",
+        "value": "10 Hz",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "Dr. Linnea Signe Holmervik authored the core mathematical routines, and Dr. Arvid Torsten Lindekvist optimized the C++ implementation.",
+        "value": null,
+        "salient": true,
+        "source": "team.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "Dr. Tobias Lindvret serves as an unfunded external collaborator advising on environmental sensing.",
+        "value": null,
+        "salient": true,
+        "source": "team.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "Holmervik2026",
+        "authors": [
+          "Holmervik, L. S.",
+          "Bergelund, S. E.",
+          "Norväng, E. M."
+        ],
+        "year": 2026,
+        "title": "Dynamic Response Modeling for Non-Stationary Noise in Scientific CMOS Detectors",
+        "venue": "Skarvholm Calibration Studies",
+        "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2026.1"
+      },
+      {
+        "key": "Jannervik2025",
+        "authors": [
+          "Jannervik, S. E.",
+          "Holmervik, L. S.",
+          "Norväng, E. M."
+        ],
+        "year": 2025,
+        "title": "Synthetic Injection Pipelines for Evaluating Faint-Source Recovery Limits",
+        "venue": "Vasterled Detector Computing Reports",
+        "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2025.1"
+      },
+      {
+        "key": "Lindekvist2025",
+        "authors": [
+          "Lindekvist, A. T.",
+          "Holmervik, L. S.",
+          "Norväng, E. M."
+        ],
+        "year": 2025,
+        "title": "Low-Latency Processing Architectures for High-Cadence Astronomical Surveys",
+        "venue": "Software for Physics and Astronomy",
+        "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2025.2"
+      },
+      {
+        "key": "Bergelund2024",
+        "authors": [
+          "Bergelund, S. E.",
+          "Norliden, M. I.",
+          "Norväng, E. M."
+        ],
+        "year": 2024,
+        "title": "Cryogenic Characterization of Random Telegraph Signal in Back-Illuminated sCMOS Sensors",
+        "venue": "Detector Physics Review",
+        "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2024.1"
+      },
+      {
+        "key": "Norvang2023",
+        "authors": [
+          "Norväng, E. M.",
+          "Holmervik, L. S."
+        ],
+        "year": 2023,
+        "title": "Beyond Flat-Fielding: The Case for State-Dependent Pixel Calibration",
+        "venue": "Annual Review of Astronomical Techniques",
+        "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2023.1"
+      }
+    ],
+    "reviewer_criticisms": [],
+    "gaps": [],
+    "inconsistencies": []
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "individual",
+        "career_stage": "senior",
+        "disciplines": [
+          "astrophysics",
+          "detector physics",
+          "scientific software"
+        ],
+        "method_profile": "quantitative",
+        "country": "SE",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum Vitae: Prof. Dr. Elias Nordström\n\n**Date of preparation:** 15 September 2026\n\n## 1. Personal Details\n- **Name:** Elias Nordström\n- **Nationality:** Swedish\n- **Current Position:** Professor of Astrophysics, Department of Physics and Astronomy, Västerled University, Sweden.\n- **Contact:** elias.nordstrom@vasterled.se\n\n## 2. Education\n- **2004:** PhD in Astrophysics, Nordic Institute for Theoretical Physics (NORDITA) / Stockholm University. Thesis: *Statistical Methods for Low-Signal Astronomical Imaging*.\n- **1999:** MSc in Engineering Physics, Royal Institute of Technology (KTH), Sweden.\n\n## 3. Employment History\n- **2018–Present:** Professor of Astrophysics, Västerled University, Sweden. *(Note: Employment is tenured and the university host confirms employment through any proposed Proof of Concept grant period, extending well beyond 2029).* \n- **2011–2018:** Associate Professor, Västerled University, Sweden.\n- **2007–2011:** Assistant Professor, Department of Astronomy, Uppsala University, Sweden.\n- **2004–2007:** Postdoctoral Researcher, European Southern Observatory (ESO), Garching, Germany.\n\n## 4. Major Research Grants (Ongoing and Recent)\n- **2022–2027:** Principal Investigator, ERC Advanced Grant (ERC-2021-ADG 101055999) \"CALIFAINT: Advanced Calibration Frameworks for Next-Generation Faint-Source Detectors\". Funding: EUR 2,450,000. Host: Västerled University.\n- **2017–2021:** Principal Investigator, Swedish Research Council (VR) Project Grant \"Transient Phenomena in the Local Group\". Funding: SEK 4,200,000.\n- **2014–2018:** Co-Investigator, Knut and Alice Wallenberg Foundation \"Next-Gen Optical Sensors for Ground-Based Astronomy\". Funding: SEK 12,500,000 (Total project).\n\n## 5. Innovation and Commercialization Status\n- **Patents:** None currently held.\n- **Spin-outs:** No spin-out sales operation exists as of 1 October 2026.\n- **ERC Proof of Concept:** No previous PoC applications have been submitted for the results arising from the CALIFAINT project.\n\n## 6. Institutional Responsibilities\n- **2020–Present:** Head of the Detector Physics Laboratory, Västerled University.\n- **2019–2023:** Member of the Scientific Advisory Committee, Swedish National Space Agency.\n- **2015–2020:** Director of PhD Studies, Department of Physics and Astronomy, Västerled University.\n\n## 7. Supervision of Graduate Students and Postdoctoral Fellows\n- **Postdocs:** 8 completed, 4 ongoing.\n- **PhD Students:** 11 completed, 3 ongoing.\n- **Master's Students:** 24 completed.\n\n## 8. Teaching Activities\n- **2018–Present:** Course Responsible, *Advanced Observational Techniques* (MSc level), Västerled University.\n- **2012–2019:** Lecturer, *Statistical Methods in Physics* (BSc level), Västerled University.\n\n## 9. Selected Invited Presentations (2022–2026)\n- *Calibration Challenges for the Next Decade of Optical Astronomy*, Keynote at the European Astronomical Society Annual Meeting, Padua, Italy (2025).\n- *Algorithmic Mitigation of Detector Artifacts*, Invited Seminar, Max Planck Institute for Astronomy, Heidelberg, Germany (2024).\n- *Faint-Source Detection Limits in CMOS Sensors*, SPIE Astronomical Telescopes + Instrumentation, Yokohama, Japan (2024).\n- *Overcoming the Read-Noise Barrier*, Nordic Astronomy Conference, Oslo, Norway (2023)."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Interim Scientific Report: CALIFAINT (Month 54)\n\n**Project Title:** Advanced Calibration Frameworks for Next-Generation Faint-Source Detectors (CALIFAINT)\n**Grant Agreement:** ERC-2021-ADG 101055999\n**Principal Investigator:** Prof. Elias Nordström\n**Host Institution:** Västerled University, Sweden\n**Reporting Period:** 1 April 2022 – 30 September 2026\n\n## 1. Project Objectives\nThe CALIFAINT project aims to push the boundaries of faint-source astronomical imaging by developing novel, software-based calibration frameworks that mitigate complex, non-linear noise sources in next-generation scientific CMOS (sCMOS) and CCD detectors. The specific objectives are:\n1. To characterize non-stationary noise components (e.g., random telegraph signal, dark current drift) at the sub-electron level.\n2. To develop algorithmic calibration models that dynamically adjust to sensor state without requiring extensive daily flat-fielding.\n3. To implement these models in an open-architecture workflow tool capable of processing high-cadence astronomical data.\n\n## 2. Work Performed and Main Achievements\n\n### WP1: Sub-Electron Noise Characterization\nDuring the first two years, we established a cryogenic testbench at the Västerled Detector Physics Laboratory. We characterized three distinct sCMOS architectures at temperatures ranging from 100 K to 200 K. We successfully isolated the random telegraph signal (RTS) components, demonstrating that 14% of pixels exhibit non-Gaussian noise tails that traditional calibration pipelines fail to correct. We generated a comprehensive defect map library comprising 4.2 terabytes of raw sensor data.\n\n### WP2: Algorithmic Calibration Development\nBuilding on the defect maps from WP1, we developed a dynamic response model. Unlike static flat-field and dark-frame subtraction, our model uses a localized Markov Chain approach to predict the probability of a pixel being in a high-noise state during a specific exposure. \n\nIn our primary validation phase (completed August 2026), we ran the calibration algorithm across 200 simulated exposures. These simulations injected synthetic faint point sources (magnitude 28 equivalent) into empirical noise backgrounds derived from our testbench data. \n\n**Key Result:** Using a held-out calibration set, the pipeline reduced false detections from 40 to 26 at a fixed injected-signal recovery rate of 98%. The bootstrap 95% confidence interval for the absolute reduction in false detections is 5 to 23. \n\n*Limitation Note:* We emphasize that this represents simulation performance; field efficacy on physical telescope data has not yet been established. The current metrics reflect algorithmic potential under controlled, simulated conditions.\n\n### WP3: Software Implementation\nThe algorithms developed in WP2 have been integrated into a unified workflow tool, designated `FaintCal`. The tool is written in C++ with a Python wrapper for pipeline integration. `FaintCal` currently processes a 4-megapixel simulated frame in 1.2 seconds on a standard workstation, meeting the latency requirements for most high-cadence transient surveys.\n\n## 3. Next Steps (Months 55–60)\nThe final six months of the project will focus on finalizing the documentation for the `FaintCal` workflow tool and preparing the theoretical findings for publication. We will also conduct preliminary integration tests with archival data from the Nordic Optical Telescope to assess how the dynamic response model handles real-world atmospheric variations, though full field validation falls outside the scope of the current ERC grant."
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Laboratory Infrastructure and Software Assets\n\n**Date:** 28 August 2026\n**Prepared by:** Dr. Arvid Lindström & Prof. Elias Nordström\n\n## 1. Hardware Infrastructure\nThe Västerled Detector Physics Laboratory is equipped with a custom-built cryogenic vacuum chamber capable of maintaining stable temperatures down to 70 K (±0.01 K). The optical bench includes a stabilized integrating sphere, a monochromator (300–1100 nm), and a series of calibrated neutral density filters capable of attenuating light to single-photon levels. \n\nWe currently operate three evaluation boards for next-generation sCMOS sensors, provided under non-disclosure agreements by the manufacturers for research purposes. \n\n## 2. The FaintCal Workflow Tool\nThe primary software output of the CALIFAINT project is the `FaintCal` workflow tool. It is designed to ingest raw detector frames, apply the dynamic response model, and output calibrated science frames with associated variance maps.\n\n### 2.1. Intellectual Property Status\nVästerled University Innovation Office has formally reviewed the codebase. The university host confirms employment through any proposed PoC and owns the new calibration code developed under the CALIFAINT grant. There are no encumbrances on the core algorithmic IP, which was developed entirely by university employees.\n\n### 2.2. Legacy Dependencies and Integration\nThe current laboratory setup relies on the `DetControl-Pro` legacy detector-driver module to interface the hardware with the `FaintCal` processing pipeline. Note that `DetControl-Pro` is licensed for internal academic use only, with no redistribution rights; it must be replaced, separately licensed, or kept out of a transferable tool. An open-source driver, `SkarvDrive`, exists and provides similar hardware communication capabilities, but its integration with the `FaintCal` workflow remains untested.\n\n## 3. Prospective Validation and Stretch Applications\n\n### 3.1. Laboratory User Validation\nTo move beyond simulation, prospective laboratory user validation can test the innovation potential of the `FaintCal` tool. We have scheduled sessions for Q1 2027 where two external astrophysics groups will bring their own sensor hardware to our testbench to evaluate the workflow tool's usability and performance on unseen sensor architectures.\n\n### 3.2. Translation to Environmental Sensing\nWhile `FaintCal` was developed for astronomy, the detector response model is mathematically agnostic to the source of the photons. Translation to low-light environmental sensing is a credible stretch using the same detector response model. Specifically, nocturnal atmospheric aerosol fluorescence monitoring suffers from identical sub-electron noise limitations. \n\nWe have planned a domain evaluation in collaboration with the Swedish Institute for Environmental Physics. This evaluation will assess whether the dynamic response model can accurately separate faint aerosol fluorescence signals from sensor noise in ground-based nocturnal monitoring stations. This represents a significant potential pivot for the technology, expanding its utility beyond fundamental astrophysics into applied environmental monitoring."
+          },
+          {
+            "path": "team.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# CALIFAINT Research Group Composition\n\n**Status as of:** 1 September 2026\n\n## Principal Investigator\n**Prof. Elias Nordström** oversees the entire CALIFAINT project, directing the theoretical development of the dynamic response models and managing the laboratory infrastructure.\n\n## Postdoctoral Researchers\n- **Dr. Linnea Holmberg (2022–Present):** Lead algorithm designer. Dr. Holmberg holds a PhD in Applied Mathematics from Chalmers University of Technology. She is responsible for the Markov Chain models used to predict pixel state probabilities. She authored the core mathematical routines in the `FaintCal` tool.\n- **Dr. Arvid Lindström (2023–Present):** Lead software engineer. Dr. Lindström transitioned from industry (high-frequency trading systems) to academia. He is responsible for optimizing the C++ implementation of `FaintCal`, reducing the processing latency from 8.5 seconds to 1.2 seconds per frame.\n- **Dr. Sofia Berggren (2024–Present):** Experimental physicist. Dr. Berggren manages the cryogenic testbench and is responsible for acquiring the 4.2 terabytes of raw sensor data used to train the calibration models.\n- **Dr. Henrik Olofsson (2025–Present):** Data scientist. Focuses on the statistical validation of the simulated exposures and the calculation of confidence intervals for signal recovery.\n\n## PhD Students\n- **Sara Jansson (Enrolled 2023):** Focuses on the simulation pipeline. She designed the 200 simulated exposures used in the primary validation phase, ensuring the synthetic faint point sources accurately reflected the point spread functions of modern 8-meter class telescopes.\n- **Marcus Nordin (Enrolled 2024):** Investigates the physical origins of random telegraph signal in sCMOS architectures. His work bridges the gap between semiconductor physics and the algorithmic corrections applied by `FaintCal`.\n- **Elsa Ström (Enrolled 2025):** Explores cross-domain applications of the calibration framework. She is currently preparing the protocols for the planned domain evaluation in low-light environmental sensing.\n\n## External Collaborators (Unfunded)\n- **Dr. Tobias Lindvret, Swedish Institute for Environmental Physics:** Advising on the requirements for nocturnal atmospheric aerosol fluorescence monitoring. He will facilitate the planned domain evaluation of the detector response model in environmental sensing contexts."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Selected Publications (2022–2026)\n\n**1.** Holmberg, L., Berggren, S., & Nordström, E. (2026). \"Dynamic Response Modeling for Non-Stationary Noise in Scientific CMOS Detectors.\" *Journal of Astronomical Instrumentation and Methods*, 14(2), 112-128. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2026.1\n\n**2.** Jansson, S., Holmberg, L., & Nordström, E. (2025). \"Synthetic Injection Pipelines for Evaluating Faint-Source Recovery Limits.\" *Computational Astrophysics*, 9(4), 401-415. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2025.1\n\n**3.** Lindström, A., Holmberg, L., & Nordström, E. (2025). \"Low-Latency Processing Architectures for High-Cadence Astronomical Surveys.\" *Software for Physics and Astronomy*, 3(1), 45-59. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2025.2\n\n**4.** Berggren, S., Nordin, M., & Nordström, E. (2024). \"Cryogenic Characterization of Random Telegraph Signal in Back-Illuminated sCMOS Sensors.\" *Detector Physics Review*, 22(8), 889-904. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2024.1\n\n**5.** Nordström, E., & Holmberg, L. (2023). \"Beyond Flat-Fielding: The Case for State-Dependent Pixel Calibration.\" *Annual Review of Astronomical Techniques*, 11, 210-235. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2023.1"
+          }
+        ],
+        "facts": [
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The PI holds an ongoing ERC Advanced Grant (CALIFAINT) running from 2022 to 2027.",
+            "value": "2022–2027",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "The CALIFAINT ERC Advanced Grant has a funding value of EUR 2,450,000.",
+            "value": "EUR 2,450,000",
+            "salient": false,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "The university host confirms employment through any proposed Proof of Concept grant period.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "No previous ERC Proof of Concept applications have been submitted for the CALIFAINT results.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "No spin-out sales operation exists as of 1 October 2026.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The calibration algorithm was validated across 200 simulated exposures.",
+            "value": "200",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Using a held-out calibration set, the pipeline reduced false detections from 40 to 26.",
+            "value": "26",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The reduction in false detections was achieved at a fixed injected-signal recovery rate of 98%.",
+            "value": "98%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The bootstrap 95% confidence interval for the absolute reduction in false detections is 5 to 23.",
+            "value": "5 to 23",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The reported performance represents simulation only; field efficacy on physical telescope data has not yet been established.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "A workflow tool named FaintCal exists and processes a 4-megapixel simulated frame in 1.2 seconds.",
+            "value": "1.2 seconds",
+            "salient": false,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Västerled University owns the new calibration code developed under the CALIFAINT grant.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The legacy detector-driver module DetControl-Pro is licensed for internal academic use only, with no redistribution rights.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "An open-source driver, SkarvDrive, exists but its integration with the FaintCal workflow remains untested.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "team",
+            "kind": "planned",
+            "text": "Prospective laboratory user validation is scheduled for Q1 2027 to test the innovation potential of the workflow tool.",
+            "value": "Q1 2027",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Translation to low-light environmental sensing is a credible stretch using the same detector response model.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "A domain evaluation is planned with the Swedish Institute for Environmental Physics to test the model in nocturnal atmospheric monitoring.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The CALIFAINT research group currently includes 4 postdoctoral researchers and 3 PhD students.",
+            "value": "4",
+            "salient": false,
+            "source": "team.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "Holmberg2026",
+            "authors": [
+              "Holmberg, L.",
+              "Berggren, S.",
+              "Nordström, E."
+            ],
+            "year": 2026,
+            "title": "Dynamic Response Modeling for Non-Stationary Noise in Scientific CMOS Detectors",
+            "venue": "Journal of Astronomical Instrumentation and Methods",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2026.1"
+          },
+          {
+            "key": "Jansson2025",
+            "authors": [
+              "Jansson, S.",
+              "Holmberg, L.",
+              "Nordström, E."
+            ],
+            "year": 2025,
+            "title": "Synthetic Injection Pipelines for Evaluating Faint-Source Recovery Limits",
+            "venue": "Computational Astrophysics",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2025.1"
+          },
+          {
+            "key": "Lindstrom2025",
+            "authors": [
+              "Lindström, A.",
+              "Holmberg, L.",
+              "Nordström, E."
+            ],
+            "year": 2025,
+            "title": "Low-Latency Processing Architectures for High-Cadence Astronomical Surveys",
+            "venue": "Software for Physics and Astronomy",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2025.2"
+          },
+          {
+            "key": "Berggren2024",
+            "authors": [
+              "Berggren, S.",
+              "Nordin, M.",
+              "Nordström, E."
+            ],
+            "year": 2024,
+            "title": "Cryogenic Characterization of Random Telegraph Signal in Back-Illuminated sCMOS Sensors",
+            "venue": "Detector Physics Review",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2024.1"
+          },
+          {
+            "key": "Nordstrom2023",
+            "authors": [
+              "Nordström, E.",
+              "Holmberg, L."
+            ],
+            "year": 2023,
+            "title": "Beyond Flat-Fielding: The Case for State-Dependent Pixel Calibration",
+            "venue": "Annual Review of Astronomical Techniques",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2023.1"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "cv_pi.md, Education, Employment History and Selected Invited Presentations; team.md, Linnea Holmberg biography",
+          "problem": "The dossier assigns fictional people credentials and employment at real institutions, including NORDITA, Stockholm University, KTH, Uppsala University, ESO and Chalmers University of Technology. The invited seminar also names the real Max Planck Institute for Astronomy. The fiction requirement applies to these institutions, not just the current host.",
+          "fix": "Replace these institutions with distinctive fictional institutions and update every associated affiliation consistently."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "team.md, Postdoctoral Researchers",
+          "problem": "Henrik Olofsson is the full name of a known Swedish astronomer. Using that name for an astrophysics research-group member violates the fictional-person requirement.",
+          "fix": "Give the data scientist a distinctive fictional full name and use it consistently throughout the dossier."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 7",
+          "where": "cv_pi.md, preparation date and Innovation and Commercialization Status; dossier.yaml, F05; publications.md",
+          "problem": "The CV prepared on 15 September asserts that no spin-out sales operation exists as of 1 October, a future status relative to its preparation date and outside the permitted September status cutoff. The publications list has no preparation or status date establishing that all listed publications were already published by September.",
+          "fix": "Date the spin-out status no later than 30 September and update F05 to match. Add a September preparation/status date to the publications list and explicitly distinguish published, accepted and forthcoming items if necessary."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 2",
+          "where": "prior_project.md, WP2 primary validation and Key Result",
+          "problem": "The central performance result lacks the denominators and measurement definitions needed to check it. It is unclear whether 40 and 26 are totals across 200 exposures or another statistic. The number of injected sources and recovered sources underlying 98% is absent. The confidence interval does not identify its resampling unit. Consequently, neither the recovery percentage nor the interpretation of the count reduction can be verified.",
+          "fix": "State the number of injected sources, the recovered counts for both methods, the aggregation used for false detections, the matching and detection rules, and the paired bootstrap unit. Clarify which physical acquisitions and simulated exposures were held out from model fitting and threshold selection."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 2",
+          "where": "prior_project.md, WP1 and WP2",
+          "problem": "The claim that 14% of pixels exhibit non-Gaussian tails has no pixel counts, device replication, uncertainty or definition of a positive pixel. Three architectures alone does not provide those denominators. Likewise, 'magnitude 28 equivalent' does not specify a passband, magnitude system, exposure duration or conversion to detected electrons, so the claimed faint-source regime is not quantitatively defined.",
+          "fix": "Provide tested-device and pixel counts, affected counts, the diagnostic threshold and an uncertainty estimate accounting for the sampling structure. Define the simulated photometric system and observing assumptions, and give the corresponding injected signal in detected electrons."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, facts",
+          "problem": "The facts registry omits numerous proposal-relevant numbers, restrictions and statuses: the 14% pixel result, three tested architectures, 100–200 K range, 4.2 TB dataset, magnitude-28 injection level, 70 K chamber capability and ±0.01 K stability, 300–1100 nm coverage, three evaluation boards and their research-use NDAs, two scheduled external groups, the 8.5-second baseline runtime, absence of patents, formal IP review and claimed lack of core-IP encumbrances, unfunded collaborator status, and planned archival integration tests. The main runtime resource and existing team counts are also marked non-salient despite their relevance to feasibility.",
+          "fix": "Register each salient result, resource, restriction, limitation and planned activity with its exact source wording and value. Distinguish existing capabilities from scheduled or proposed work, and mark feasibility-critical resources as salient."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4; Task 1",
+          "where": "resources.md, Translation to Environmental Sensing; dossier.yaml, F16",
+          "problem": "The environmental translation is justified by asserting that aerosol fluorescence monitoring suffers from 'identical sub-electron noise limitations'. A detector model being independent of photon origin does not establish this. The dossier supplies no excitation method, detector configuration, signal and background regime, or evidence that detector-state noise limits the proposed measurement. F16 then records the credibility of the stretch as an existing fact rather than a hypothesis.",
+          "fix": "Describe a concrete prospective fluorescence measurement and its detector/readout configuration. Supply preliminary evidence for the relevant noise regime, or explicitly make establishing that regime an early feasibility gate. Replace the assertion of identical limitations with a conditional hypothesis and register it accordingly."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "prior_project.md, WP3; team.md, Arvid Lindström biography",
+          "problem": "The runtime claim uses an unspecified 'standard workstation' and provides no timing protocol. The stated improvement from 8.5 to 1.2 seconds does not establish that both measurements used the same hardware and workload. A 1.2-second frame-processing time also does not establish suitability for 'most high-cadence transient surveys', whose cadence, detector volume and throughput requirements vary.",
+          "fix": "Specify the processor, thread count, workload, inclusion of input/output, number of timing runs and timing variability. Confirm comparable conditions for the two runtimes and restrict the suitability claim to a defined acquisition cadence and data volume."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "applicant_type": "individual",
+        "career_stage": "senior",
+        "disciplines": [
+          "astrophysics",
+          "detector physics",
+          "scientific software"
+        ],
+        "method_profile": "quantitative",
+        "country": "SE",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum Vitae: Prof. Dr. Elias Nordström\n\n**Date of preparation:** 15 September 2026\n\n## 1. Personal Details\n- **Name:** Elias Nordström\n- **Nationality:** Swedish\n- **Current Position:** Professor of Astrophysics, Department of Physics and Astronomy, Västerled University, Sweden.\n- **Contact:** elias.nordstrom@vasterled.se\n\n## 2. Education\n- **2004:** PhD in Astrophysics, Boreal Institute for Theoretical Physics / Svealand University. Thesis: *Statistical Methods for Low-Signal Astronomical Imaging*.\n- **1999:** MSc in Engineering Physics, Royal Institute of Applied Sciences (KTA), Sweden.\n\n## 3. Employment History\n- **2018–Present:** Professor of Astrophysics, Västerled University, Sweden. *(Note: Employment is tenured and the university host confirms employment through any proposed Proof of Concept grant period, extending well beyond 2029).* \n- **2011–2018:** Associate Professor, Västerled University, Sweden.\n- **2007–2011:** Assistant Professor, Department of Astronomy, Aros University, Sweden.\n- **2004–2007:** Postdoctoral Researcher, European Consortium for Ground-Based Astronomy (ECGA), Garching, Germany.\n\n## 4. Major Research Grants (Ongoing and Recent)\n- **2022–2027:** Principal Investigator, ERC Advanced Grant (ERC-2021-ADG 101055999) \"CALIFAINT: Advanced Calibration Frameworks for Next-Generation Faint-Source Detectors\". Funding: EUR 2,450,000. Host: Västerled University.\n- **2017–2021:** Principal Investigator, Swedish Research Council (VR) Project Grant \"Transient Phenomena in the Local Group\". Funding: SEK 4,200,000.\n- **2014–2018:** Co-Investigator, Knut and Alice Wallenberg Foundation \"Next-Gen Optical Sensors for Ground-Based Astronomy\". Funding: SEK 12,500,000 (Total project).\n\n## 5. Innovation and Commercialization Status\n- **Patents:** None currently held.\n- **Spin-outs:** No spin-out sales operation exists as of 15 September 2026.\n- **ERC Proof of Concept:** No previous PoC applications have been submitted for the results arising from the CALIFAINT project.\n\n## 6. Institutional Responsibilities\n- **2020–Present:** Head of the Detector Physics Laboratory, Västerled University.\n- **2019–2023:** Member of the Scientific Advisory Committee, Swedish National Space Agency.\n- **2015–2020:** Director of PhD Studies, Department of Physics and Astronomy, Västerled University.\n\n## 7. Supervision of Graduate Students and Postdoctoral Fellows\n- **Postdocs:** 8 completed, 4 ongoing.\n- **PhD Students:** 11 completed, 3 ongoing.\n- **Master's Students:** 24 completed.\n\n## 8. Teaching Activities\n- **2018–Present:** Course Responsible, *Advanced Observational Techniques* (MSc level), Västerled University.\n- **2012–2019:** Lecturer, *Statistical Methods in Physics* (BSc level), Västerled University.\n\n## 9. Selected Invited Presentations (2022–2026)\n- *Calibration Challenges for the Next Decade of Optical Astronomy*, Keynote at the European Astronomical Society Annual Meeting, Padua, Italy (2025).\n- *Algorithmic Mitigation of Detector Artifacts*, Invited Seminar, Institute for Advanced Astrophysical Research, Munich, Germany (2024).\n- *Faint-Source Detection Limits in CMOS Sensors*, SPIE Astronomical Telescopes + Instrumentation, Yokohama, Japan (2024).\n- *Overcoming the Read-Noise Barrier*, Nordic Astronomy Conference, Oslo, Norway (2023)."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Interim Scientific Report: CALIFAINT (Month 54)\n\n**Project Title:** Advanced Calibration Frameworks for Next-Generation Faint-Source Detectors (CALIFAINT)\n**Grant Agreement:** ERC-2021-ADG 101055999\n**Principal Investigator:** Prof. Elias Nordström\n**Host Institution:** Västerled University, Sweden\n**Reporting Period:** 1 April 2022 – 30 September 2026\n\n## 1. Project Objectives\nThe CALIFAINT project aims to push the boundaries of faint-source astronomical imaging by developing novel, software-based calibration frameworks that mitigate complex, non-linear noise sources in next-generation scientific CMOS (sCMOS) and CCD detectors. The specific objectives are:\n1. To characterize non-stationary noise components (e.g., random telegraph signal, dark current drift) at the sub-electron level.\n2. To develop algorithmic calibration models that dynamically adjust to sensor state without requiring extensive daily flat-fielding.\n3. To implement these models in an open-architecture workflow tool capable of processing high-cadence astronomical data.\n\n## 2. Work Performed and Main Achievements\n\n### WP1: Sub-Electron Noise Characterization\nDuring the first two years, we established a cryogenic testbench at the Västerled Detector Physics Laboratory. We characterized three distinct sCMOS architectures (testing 4 devices per architecture, each with 4 million pixels) at temperatures ranging from 100 K to 200 K. Using a diagnostic threshold of a 3-sigma deviation from the mean dark current over a 10-hour period, we successfully isolated the random telegraph signal (RTS) components. We demonstrated that 14% (±1.2% across the 12 devices, representing approximately 560,000 pixels per device) exhibit non-Gaussian noise tails that traditional calibration pipelines fail to correct. We generated a comprehensive defect map library comprising 4.2 terabytes of raw sensor data.\n\n### WP2: Algorithmic Calibration Development\nBuilding on the defect maps from WP1, we developed a dynamic response model. Unlike static flat-field and dark-frame subtraction, our model uses a localized Markov Chain approach to predict the probability of a pixel being in a high-noise state during a specific exposure. \n\nIn our primary validation phase (completed August 2026), we ran the calibration algorithm across 200 simulated exposures (each 4 megapixels). These simulations injected 10,000 synthetic faint point sources (magnitude 28 equivalent in the V-band, corresponding to 15 detected electrons per source) into empirical noise backgrounds derived from our testbench data. We held out 50 physical acquisitions and 50 simulated exposures from model fitting and threshold selection to serve as the test set. A detection was defined as a 5-sigma peak matched within 2 pixels of an injected coordinate.\n\n**Key Result:** Using the held-out calibration set, the pipeline reduced the total number of false detections across the 50 test exposures from 40 to 26, while maintaining a fixed injected-signal recovery rate of 98% (recovering 1,960 of 2,000 injected sources in the test set). The paired bootstrap 95% confidence interval (resampling the 50 test exposures) for the absolute reduction in false detections is 5 to 23. \n\n*Limitation Note:* We emphasize that this represents simulation performance; field efficacy on physical telescope data has not yet been established. The current metrics reflect algorithmic potential under controlled, simulated conditions.\n\n### WP3: Software Implementation\nThe algorithms developed in WP2 have been integrated into a unified workflow tool, designated `FaintCal`. The tool is written in C++ with a Python wrapper for pipeline integration. `FaintCal` currently processes a 4-megapixel simulated frame (including file I/O) in 1.2 seconds (±0.1s across 100 timing runs) on a single 16-core AMD Ryzen 9 processor using 8 threads. This is a direct improvement from the 8.5 seconds baseline runtime measured on the identical hardware and workload prior to optimization. This 1.2-second latency meets the throughput requirements for transient surveys acquiring one 4-megapixel frame every 2 seconds.\n\n## 3. Next Steps (Months 55–60)\nThe final six months of the project will focus on finalizing the documentation for the `FaintCal` workflow tool and preparing the theoretical findings for publication. We will also conduct preliminary integration tests with archival data from the Nordic Optical Telescope to assess how the dynamic response model handles real-world atmospheric variations, though full field validation falls outside the scope of the current ERC grant."
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Laboratory Infrastructure and Software Assets\n\n**Date:** 28 August 2026\n**Prepared by:** Dr. Arvid Lindström & Prof. Elias Nordström\n\n## 1. Hardware Infrastructure\nThe Västerled Detector Physics Laboratory is equipped with a custom-built cryogenic vacuum chamber capable of maintaining stable temperatures down to 70 K (±0.01 K). The optical bench includes a stabilized integrating sphere, a monochromator (300–1100 nm), and a series of calibrated neutral density filters capable of attenuating light to single-photon levels. \n\nWe currently operate three evaluation boards for next-generation sCMOS sensors, provided under non-disclosure agreements by the manufacturers for research purposes. \n\n## 2. The FaintCal Workflow Tool\nThe primary software output of the CALIFAINT project is the `FaintCal` workflow tool. It is designed to ingest raw detector frames, apply the dynamic response model, and output calibrated science frames with associated variance maps.\n\n### 2.1. Intellectual Property Status\nVästerled University Innovation Office has formally reviewed the codebase. The university host confirms employment through any proposed PoC and owns the new calibration code developed under the CALIFAINT grant. There are no encumbrances on the core algorithmic IP, which was developed entirely by university employees.\n\n### 2.2. Legacy Dependencies and Integration\nThe current laboratory setup relies on the `DetControl-Pro` legacy detector-driver module to interface the hardware with the `FaintCal` processing pipeline. Note that `DetControl-Pro` is licensed for internal academic use only, with no redistribution rights; it must be replaced, separately licensed, or kept out of a transferable tool. An open-source driver, `SkarvDrive`, exists and provides similar hardware communication capabilities, but its integration with the `FaintCal` workflow remains untested.\n\n## 3. Prospective Validation and Stretch Applications\n\n### 3.1. Laboratory User Validation\nTo move beyond simulation, prospective laboratory user validation can test the innovation potential of the `FaintCal` tool. We have scheduled sessions for Q1 2027 where two external astrophysics groups will bring their own sensor hardware to our testbench to evaluate the workflow tool's usability and performance on unseen sensor architectures.\n\n### 3.2. Translation to Environmental Sensing\nWhile `FaintCal` was developed for astronomy, the detector response model is mathematically agnostic to the source of the photons. Translation to low-light environmental sensing is a hypothesized stretch using the same detector response model, provided the noise regimes align. Specifically, we hypothesize that nocturnal atmospheric aerosol fluorescence monitoring (using UV LED excitation and a 10 Hz readout configuration) suffers from similar sub-electron noise limitations. Establishing whether detector-state noise limits this specific measurement will be an early feasibility gate. \n\nWe have planned a domain evaluation in collaboration with the Swedish Institute for Environmental Physics. This evaluation will assess whether the dynamic response model can accurately separate faint aerosol fluorescence signals from sensor noise in ground-based nocturnal monitoring stations. This represents a significant potential pivot for the technology, expanding its utility beyond fundamental astrophysics into applied environmental monitoring."
+          },
+          {
+            "path": "team.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# CALIFAINT Research Group Composition\n\n**Status as of:** 1 September 2026\n\n## Principal Investigator\n**Prof. Elias Nordström** oversees the entire CALIFAINT project, directing the theoretical development of the dynamic response models and managing the laboratory infrastructure.\n\n## Postdoctoral Researchers\n- **Dr. Linnea Holmberg (2022–Present):** Lead algorithm designer. Dr. Holmberg holds a PhD in Applied Mathematics from Gothia Institute of Technology. She is responsible for the Markov Chain models used to predict pixel state probabilities. She authored the core mathematical routines in the `FaintCal` tool.\n- **Dr. Arvid Lindström (2023–Present):** Lead software engineer. Dr. Lindström transitioned from industry (high-frequency trading systems) to academia. He is responsible for optimizing the C++ implementation of `FaintCal`, reducing the processing latency from 8.5 seconds to 1.2 seconds per frame on identical hardware.\n- **Dr. Sofia Berggren (2024–Present):** Experimental physicist. Dr. Berggren manages the cryogenic testbench and is responsible for acquiring the 4.2 terabytes of raw sensor data used to train the calibration models.\n- **Dr. Jesper Kvarnström (2025–Present):** Data scientist. Focuses on the statistical validation of the simulated exposures and the calculation of confidence intervals for signal recovery.\n\n## PhD Students\n- **Sara Jansson (Enrolled 2023):** Focuses on the simulation pipeline. She designed the 200 simulated exposures used in the primary validation phase, ensuring the synthetic faint point sources accurately reflected the point spread functions of modern 8-meter class telescopes.\n- **Marcus Nordin (Enrolled 2024):** Investigates the physical origins of random telegraph signal in sCMOS architectures. His work bridges the gap between semiconductor physics and the algorithmic corrections applied by `FaintCal`.\n- **Elsa Ström (Enrolled 2025):** Explores cross-domain applications of the calibration framework. She is currently preparing the protocols for the planned domain evaluation in low-light environmental sensing.\n\n## External Collaborators (Unfunded)\n- **Dr. Tobias Lindvret, Swedish Institute for Environmental Physics:** Advising on the requirements for nocturnal atmospheric aerosol fluorescence monitoring. He will facilitate the planned domain evaluation of the detector response model in environmental sensing contexts."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Selected Publications (2022–2026)\n\n**Status as of:** 15 September 2026. All listed items are published.\n\n**1.** Holmberg, L., Berggren, S., & Nordström, E. (2026). \"Dynamic Response Modeling for Non-Stationary Noise in Scientific CMOS Detectors.\" *Journal of Astronomical Instrumentation and Methods*, 14(2), 112-128. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2026.1\n\n**2.** Jansson, S., Holmberg, L., & Nordström, E. (2025). \"Synthetic Injection Pipelines for Evaluating Faint-Source Recovery Limits.\" *Computational Astrophysics*, 9(4), 401-415. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2025.1\n\n**3.** Lindström, A., Holmberg, L., & Nordström, E. (2025). \"Low-Latency Processing Architectures for High-Cadence Astronomical Surveys.\" *Software for Physics and Astronomy*, 3(1), 45-59. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2025.2\n\n**4.** Berggren, S., Nordin, M., & Nordström, E. (2024). \"Cryogenic Characterization of Random Telegraph Signal in Back-Illuminated sCMOS Sensors.\" *Detector Physics Review*, 22(8), 889-904. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2024.1\n\n**5.** Nordström, E., & Holmberg, L. (2023). \"Beyond Flat-Fielding: The Case for State-Dependent Pixel Calibration.\" *Annual Review of Astronomical Techniques*, 11, 210-235. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2023.1"
+          }
+        ],
+        "facts": [
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The PI holds an ongoing ERC Advanced Grant (CALIFAINT) running from 2022 to 2027.",
+            "value": "2022–2027",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "The university host confirms employment through any proposed Proof of Concept grant period.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "No previous ERC Proof of Concept applications have been submitted for the CALIFAINT results.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "No spin-out sales operation exists as of 15 September 2026.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "award",
+            "kind": "existing",
+            "text": "There are no patents currently held.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Characterized three distinct sCMOS architectures at temperatures ranging from 100 K to 200 K.",
+            "value": "three",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "14% (±1.2%) of pixels exhibit non-Gaussian noise tails.",
+            "value": "14%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Generated a defect map library comprising 4.2 terabytes of raw sensor data.",
+            "value": "4.2 terabytes",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Injected synthetic faint point sources were magnitude 28 equivalent in the V-band, corresponding to 15 detected electrons.",
+            "value": "15",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The pipeline reduced false detections from 40 to 26 across 50 held-out test exposures.",
+            "value": "26",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The reduction was achieved at a fixed injected-signal recovery rate of 98% (1,960 of 2,000 sources).",
+            "value": "98%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The paired bootstrap 95% confidence interval for the absolute reduction in false detections is 5 to 23.",
+            "value": "5 to 23",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The reported performance represents simulation only; field efficacy on physical telescope data has not yet been established.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "FaintCal processes a 4-megapixel frame in 1.2 seconds (±0.1s) on a 16-core processor.",
+            "value": "1.2 seconds",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The baseline runtime was 8.5 seconds measured on identical hardware and workload.",
+            "value": "8.5 seconds",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Preliminary integration tests are planned with archival data from the Nordic Optical Telescope.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The laboratory features a cryogenic vacuum chamber capable of 70 K (±0.01 K) and a monochromator covering 300–1100 nm.",
+            "value": "70 K",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Three evaluation boards are operated under non-disclosure agreements for research purposes.",
+            "value": "three",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Västerled University owns the new calibration code and conducted a formal IP review finding no encumbrances on core IP.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The legacy detector-driver module DetControl-Pro is licensed for internal academic use only, with no redistribution rights.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "An open-source driver, SkarvDrive, exists but its integration with the FaintCal workflow remains untested.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "team",
+            "kind": "planned",
+            "text": "Prospective laboratory user validation is scheduled for Q1 2027 with two external astrophysics groups.",
+            "value": "two",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Translation to nocturnal atmospheric aerosol fluorescence monitoring is a hypothesized stretch requiring feasibility gates.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Dr. Tobias Lindvret is an unfunded external collaborator advising on environmental sensing.",
+            "value": null,
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The CALIFAINT research group currently includes 4 postdoctoral researchers and 3 PhD students.",
+            "value": "4",
+            "salient": true,
+            "source": "team.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "Holmberg2026",
+            "authors": [
+              "Holmberg, L.",
+              "Berggren, S.",
+              "Nordström, E."
+            ],
+            "year": 2026,
+            "title": "Dynamic Response Modeling for Non-Stationary Noise in Scientific CMOS Detectors",
+            "venue": "Journal of Astronomical Instrumentation and Methods",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2026.1"
+          },
+          {
+            "key": "Jansson2025",
+            "authors": [
+              "Jansson, S.",
+              "Holmberg, L.",
+              "Nordström, E."
+            ],
+            "year": 2025,
+            "title": "Synthetic Injection Pipelines for Evaluating Faint-Source Recovery Limits",
+            "venue": "Computational Astrophysics",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2025.1"
+          },
+          {
+            "key": "Lindstrom2025",
+            "authors": [
+              "Lindström, A.",
+              "Holmberg, L.",
+              "Nordström, E."
+            ],
+            "year": 2025,
+            "title": "Low-Latency Processing Architectures for High-Cadence Astronomical Surveys",
+            "venue": "Software for Physics and Astronomy",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2025.2"
+          },
+          {
+            "key": "Berggren2024",
+            "authors": [
+              "Berggren, S.",
+              "Nordin, M.",
+              "Nordström, E."
+            ],
+            "year": 2024,
+            "title": "Cryogenic Characterization of Random Telegraph Signal in Back-Illuminated sCMOS Sensors",
+            "venue": "Detector Physics Review",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2024.1"
+          },
+          {
+            "key": "Nordstrom2023",
+            "authors": [
+              "Nordström, E.",
+              "Holmberg, L."
+            ],
+            "year": 2023,
+            "title": "Beyond Flat-Fielding: The Case for State-Dependent Pixel Calibration",
+            "venue": "Annual Review of Astronomical Techniques",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2023.1"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, facts",
+          "problem": "The registry omits salient source facts and qualifications. Examples include the EUR 2,450,000 main-grant award; four devices per architecture and 12 devices overall; 200 simulated exposures and 10,000 injected sources; the separate 50 physical acquisitions held out; eight processing threads and 100 timing runs; the environmental application's UV LED excitation and 10 Hz readout; and the named team members' capabilities. The planned documentation and publication work under the main grant is also missing, although distinguishing existing funded work matters to EX1.",
+          "fix": "Add source-linked facts for these quantities, capabilities and scheduled activities. Preserve measurement conditions and distinguish existing resources, scheduled main-grant work and proposed environmental validation.",
+          "from_task_review": "pub2-erc-field-stretch"
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 2",
+          "where": "prior_project.md, WP1 and WP3; resources.md, Hardware Infrastructure; dossier.yaml, F07, F14 and F17",
+          "problem": "The uncertainty notation is undefined. '±1.2% across the 12 devices' does not identify standard deviation, standard error or a confidence interval, or distinguish percentage points from relative percent. The runtime's ±0.1 seconds and chamber's ±0.01 K likewise lack a defined statistical or engineering meaning.",
+          "fix": "Specify the uncertainty convention and experimental unit for each result. Express the pixel-fraction spread in percentage points if that is intended, define the timing spread across 100 runs, and distinguish chamber stability from temperature measurement accuracy.",
+          "from_task_review": "pub2-erc-field-stretch"
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "prior_project.md, WP2, simulation design and Key Result",
+          "problem": "The central sensitivity claim is insufficiently specified to assess scientifically. Magnitude 28 does not determine 15 detected electrons without an exposure and instrument conversion. The report also does not state whether injected sources include photon shot noise or what variance defines the '5-sigma peak'. These distinctions are consequential: 15 detected electrons give a photon-limited total-flux signal-to-noise ratio of only about 3.87, although a background-based detection significance can differ. The stated 98% recovery therefore cannot be interpreted reliably from the supplied description.",
+          "fix": "Specify the exposure and photometric conversion, point-spread function, photon sampling, and detection statistic with its noise model. Recompute the recovery result if necessary, and preserve the distinction between background detection significance and source-flux signal-to-noise ratio in the facts registry.",
+          "from_task_review": "pub2-erc-field-stretch"
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "prior_project.md §2, WP2: magnitude 28, 15 detected electrons, 5-sigma peak and 98% recovery",
+          "problem": "The simulation description does not establish the physical meaning of its central performance claim. Fifteen source electrons give a source-shot-noise-limited integrated signal-to-noise ratio of approximately 3.87; a 5-sigma detection can mean something different if sigma measures background fluctuations, but the report never defines it. Source shot noise, sky background and the PSF distribution are unspecified. The conversion from V-band magnitude to detected electrons also lacks exposure time and collecting-area/throughput assumptions.",
+          "fix": "Define the detection statistic and its noise model, state whether source photon arrivals were Poisson sampled, and supply the PSF, background and photometric conversion assumptions. Confirm or revise the recovery result under that explicit model, updating the registry if necessary.",
+          "from_task_review": "pub2-erc-workflow-close"
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml: facts, particularly F06–F14, F16 and F23",
+          "problem": "The registry omits salient evidence and constraints that a proposal could quote: the EUR 2,450,000 main-grant funding; four devices per architecture and four million pixels per device; 200 simulated exposures and 10,000 injected sources; 50 held-out physical acquisitions; timing over 100 runs using eight threads and including file I/O; documentation and publication work scheduled under the main grant; and the environmental application's UV LED excitation and 10 Hz readout. The last omission conceals a material validation challenge relative to the reported 1.2-second processing time per frame.",
+          "fix": "Register these quantities and statuses with their exact source wording and existing/planned classifications. Preserve the simulated-workload qualification for runtime and record the environmental acquisition configuration separately from demonstrated processing performance.",
+          "from_task_review": "pub2-erc-workflow-close"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "applicant_type": "individual",
+        "career_stage": "senior",
+        "disciplines": [
+          "astrophysics",
+          "detector physics",
+          "scientific software"
+        ],
+        "method_profile": "quantitative",
+        "country": "SE",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum Vitae: Prof. Dr. Elias Nordström\n\n**Date of preparation:** 15 September 2026\n\n## 1. Personal Details\n- **Name:** Elias Nordström\n- **Nationality:** Swedish\n- **Current Position:** Professor of Astrophysics, Department of Physics and Astronomy, Västerled University, Sweden.\n- **Contact:** elias.nordstrom@vasterled.se\n\n## 2. Education\n- **2004:** PhD in Astrophysics, Boreal Institute for Theoretical Physics / Svealand University. Thesis: *Statistical Methods for Low-Signal Astronomical Imaging*.\n- **1999:** MSc in Engineering Physics, Royal Institute of Applied Sciences (KTA), Sweden.\n\n## 3. Employment History\n- **2018–Present:** Professor of Astrophysics, Västerled University, Sweden. *(Note: Employment is tenured and the university host confirms employment through any proposed Proof of Concept grant period, extending well beyond 2029).* \n- **2011–2018:** Associate Professor, Västerled University, Sweden.\n- **2007–2011:** Assistant Professor, Department of Astronomy, Aros University, Sweden.\n- **2004–2007:** Postdoctoral Researcher, European Consortium for Ground-Based Astronomy (ECGA), Garching, Germany.\n\n## 4. Major Research Grants (Ongoing and Recent)\n- **2022–2027:** Principal Investigator, ERC Advanced Grant (ERC-2021-ADG 101055999) \"CALIFAINT: Advanced Calibration Frameworks for Next-Generation Faint-Source Detectors\". Funding: EUR 2,450,000. Host: Västerled University.\n- **2017–2021:** Principal Investigator, Swedish Research Council (VR) Project Grant \"Transient Phenomena in the Local Group\". Funding: SEK 4,200,000.\n- **2014–2018:** Co-Investigator, Knut and Alice Wallenberg Foundation \"Next-Gen Optical Sensors for Ground-Based Astronomy\". Funding: SEK 12,500,000 (Total project).\n\n## 5. Innovation and Commercialization Status\n- **Patents:** None currently held.\n- **Spin-outs:** No spin-out sales operation exists as of 15 September 2026.\n- **ERC Proof of Concept:** No previous PoC applications have been submitted for the results arising from the CALIFAINT project.\n\n## 6. Institutional Responsibilities\n- **2020–Present:** Head of the Detector Physics Laboratory, Västerled University.\n- **2019–2023:** Member of the Scientific Advisory Committee, Swedish National Space Agency.\n- **2015–2020:** Director of PhD Studies, Department of Physics and Astronomy, Västerled University.\n\n## 7. Supervision of Graduate Students and Postdoctoral Fellows\n- **Postdocs:** 8 completed, 4 ongoing.\n- **PhD Students:** 11 completed, 3 ongoing.\n- **Master's Students:** 24 completed.\n\n## 8. Teaching Activities\n- **2018–Present:** Course Responsible, *Advanced Observational Techniques* (MSc level), Västerled University.\n- **2012–2019:** Lecturer, *Statistical Methods in Physics* (BSc level), Västerled University.\n\n## 9. Selected Invited Presentations (2022–2026)\n- *Calibration Challenges for the Next Decade of Optical Astronomy*, Keynote at the European Astronomical Society Annual Meeting, Padua, Italy (2025).\n- *Algorithmic Mitigation of Detector Artifacts*, Invited Seminar, Institute for Advanced Astrophysical Research, Munich, Germany (2024).\n- *Faint-Source Detection Limits in CMOS Sensors*, SPIE Astronomical Telescopes + Instrumentation, Yokohama, Japan (2024).\n- *Overcoming the Read-Noise Barrier*, Nordic Astronomy Conference, Oslo, Norway (2023)."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Interim Scientific Report: CALIFAINT (Month 54)\n\n**Project Title:** Advanced Calibration Frameworks for Next-Generation Faint-Source Detectors (CALIFAINT)\n**Grant Agreement:** ERC-2021-ADG 101055999\n**Principal Investigator:** Prof. Elias Nordström\n**Host Institution:** Västerled University, Sweden\n**Reporting Period:** 1 April 2022 – 30 September 2026\n\n## 1. Project Objectives\nThe CALIFAINT project aims to push the boundaries of faint-source astronomical imaging by developing novel, software-based calibration frameworks that mitigate complex, non-linear noise sources in next-generation scientific CMOS (sCMOS) and CCD detectors. The specific objectives are:\n1. To characterize non-stationary noise components (e.g., random telegraph signal, dark current drift) at the sub-electron level.\n2. To develop algorithmic calibration models that dynamically adjust to sensor state without requiring extensive daily flat-fielding.\n3. To implement these models in an open-architecture workflow tool capable of processing high-cadence astronomical data.\n\n## 2. Work Performed and Main Achievements\n\n### WP1: Sub-Electron Noise Characterization\nDuring the first two years, we established a cryogenic testbench at the Västerled Detector Physics Laboratory. We characterized three distinct sCMOS architectures (testing 4 devices per architecture, each with 4 million pixels) at temperatures ranging from 100 K to 200 K. Using a diagnostic threshold of a 3-sigma deviation from the mean dark current over a 10-hour period, we successfully isolated the random telegraph signal (RTS) components. We demonstrated that 14% (standard deviation of 1.2 percentage points across the 12 devices, representing approximately 560,000 pixels per device) exhibit non-Gaussian noise tails that traditional calibration pipelines fail to correct. We generated a comprehensive defect map library comprising 4.2 terabytes of raw sensor data.\n\n### WP2: Algorithmic Calibration Development\nBuilding on the defect maps from WP1, we developed a dynamic response model. Unlike static flat-field and dark-frame subtraction, our model uses a localized Markov Chain approach to predict the probability of a pixel being in a high-noise state during a specific exposure. \n\nIn our primary validation phase (completed August 2026), we ran the calibration algorithm across 200 simulated exposures (each 4 megapixels). These simulations injected 10,000 synthetic faint point sources (magnitude 28 equivalent in the V-band, corresponding to 15 detected electrons per source) into empirical noise backgrounds derived from our testbench data. The photometric conversion assumes a 300-second exposure on an 8-meter telescope with 60% total system throughput. Source photon arrivals were Poisson sampled. The point-spread function was modeled as a Gaussian with a full width at half maximum of 0.8 arcseconds. A detection was defined as a peak exceeding the local background by 5 times the background standard deviation (a 5-sigma background detection significance, distinct from the source-flux signal-to-noise ratio which is approximately 3.87 for 15 electrons), matched within 2 pixels of an injected coordinate. We held out 50 physical acquisitions and 50 simulated exposures from model fitting and threshold selection to serve as the test set.\n\n**Key Result:** Using the held-out calibration set, the pipeline reduced the total number of false detections across the 50 test exposures from 40 to 26, while maintaining a fixed injected-signal recovery rate of 98% (recovering 1,960 of 2,000 injected sources in the test set). The paired bootstrap 95% confidence interval (resampling the 50 test exposures) for the absolute reduction in false detections is 5 to 23. \n\n*Limitation Note:* We emphasize that this represents simulation performance; field efficacy on physical telescope data has not yet been established. The current metrics reflect algorithmic potential under controlled, simulated conditions.\n\n### WP3: Software Implementation\nThe algorithms developed in WP2 have been integrated into a unified workflow tool, designated `FaintCal`. The tool is written in C++ with a Python wrapper for pipeline integration. `FaintCal` currently processes a 4-megapixel simulated frame (including file I/O) in 1.2 seconds (standard deviation of 0.1 seconds across 100 timing runs) on a single 16-core AMD Ryzen 9 processor using 8 threads. This is a direct improvement from the 8.5 seconds baseline runtime measured on the identical hardware and workload prior to optimization. This 1.2-second latency meets the throughput requirements for transient surveys acquiring one 4-megapixel frame every 2 seconds.\n\n## 3. Next Steps (Months 55–60)\nThe final six months of the project will focus on finalizing the documentation for the `FaintCal` workflow tool and preparing the theoretical findings for publication. We will also conduct preliminary integration tests with archival data from the Nordic Optical Telescope to assess how the dynamic response model handles real-world atmospheric variations, though full field validation falls outside the scope of the current ERC grant."
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Laboratory Infrastructure and Software Assets\n\n**Date:** 28 August 2026\n**Prepared by:** Dr. Arvid Lindström & Prof. Elias Nordström\n\n## 1. Hardware Infrastructure\nThe Västerled Detector Physics Laboratory is equipped with a custom-built cryogenic vacuum chamber capable of maintaining stable temperatures down to 70 K (with a thermal stability of ±0.01 K standard deviation over 24 hours). The optical bench includes a stabilized integrating sphere, a monochromator (300–1100 nm), and a series of calibrated neutral density filters capable of attenuating light to single-photon levels. \n\nWe currently operate three evaluation boards for next-generation sCMOS sensors, provided under non-disclosure agreements by the manufacturers for research purposes. \n\n## 2. The FaintCal Workflow Tool\nThe primary software output of the CALIFAINT project is the `FaintCal` workflow tool. It is designed to ingest raw detector frames, apply the dynamic response model, and output calibrated science frames with associated variance maps.\n\n### 2.1. Intellectual Property Status\nVästerled University Innovation Office has formally reviewed the codebase. The university host confirms employment through any proposed PoC and owns the new calibration code developed under the CALIFAINT grant. There are no encumbrances on the core algorithmic IP, which was developed entirely by university employees.\n\n### 2.2. Legacy Dependencies and Integration\nThe current laboratory setup relies on the `DetControl-Pro` legacy detector-driver module to interface the hardware with the `FaintCal` processing pipeline. Note that `DetControl-Pro` is licensed for internal academic use only, with no redistribution rights; it must be replaced, separately licensed, or kept out of a transferable tool. An open-source driver, `SkarvDrive`, exists and provides similar hardware communication capabilities, but its integration with the `FaintCal` workflow remains untested.\n\n## 3. Prospective Validation and Stretch Applications\n\n### 3.1. Laboratory User Validation\nTo move beyond simulation, prospective laboratory user validation can test the innovation potential of the `FaintCal` tool. We have scheduled sessions for Q1 2027 where two external astrophysics groups will bring their own sensor hardware to our testbench to evaluate the workflow tool's usability and performance on unseen sensor architectures.\n\n### 3.2. Translation to Environmental Sensing\nWhile `FaintCal` was developed for astronomy, the detector response model is mathematically agnostic to the source of the photons. Translation to low-light environmental sensing is a hypothesized stretch using the same detector response model, provided the noise regimes align. Specifically, we hypothesize that nocturnal atmospheric aerosol fluorescence monitoring (using UV LED excitation and a 10 Hz readout configuration) suffers from similar sub-electron noise limitations. Establishing whether detector-state noise limits this specific measurement will be an early feasibility gate. \n\nWe have planned a domain evaluation in collaboration with the Swedish Institute for Environmental Physics. This evaluation will assess whether the dynamic response model can accurately separate faint aerosol fluorescence signals from sensor noise in ground-based nocturnal monitoring stations. This represents a significant potential pivot for the technology, expanding its utility beyond fundamental astrophysics into applied environmental monitoring."
+          },
+          {
+            "path": "team.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# CALIFAINT Research Group Composition\n\n**Status as of:** 1 September 2026\n\n## Principal Investigator\n**Prof. Elias Nordström** oversees the entire CALIFAINT project, directing the theoretical development of the dynamic response models and managing the laboratory infrastructure.\n\n## Postdoctoral Researchers\n- **Dr. Linnea Holmberg (2022–Present):** Lead algorithm designer. Dr. Holmberg holds a PhD in Applied Mathematics from Gothia Institute of Technology. She is responsible for the Markov Chain models used to predict pixel state probabilities. She authored the core mathematical routines in the `FaintCal` tool.\n- **Dr. Arvid Lindström (2023–Present):** Lead software engineer. Dr. Lindström transitioned from industry (high-frequency trading systems) to academia. He is responsible for optimizing the C++ implementation of `FaintCal`, reducing the processing latency from 8.5 seconds to 1.2 seconds per frame on identical hardware.\n- **Dr. Sofia Berggren (2024–Present):** Experimental physicist. Dr. Berggren manages the cryogenic testbench and is responsible for acquiring the 4.2 terabytes of raw sensor data used to train the calibration models.\n- **Dr. Jesper Kvarnström (2025–Present):** Data scientist. Focuses on the statistical validation of the simulated exposures and the calculation of confidence intervals for signal recovery.\n\n## PhD Students\n- **Sara Jansson (Enrolled 2023):** Focuses on the simulation pipeline. She designed the 200 simulated exposures used in the primary validation phase, ensuring the synthetic faint point sources accurately reflected the point spread functions of modern 8-meter class telescopes.\n- **Marcus Nordin (Enrolled 2024):** Investigates the physical origins of random telegraph signal in sCMOS architectures. His work bridges the gap between semiconductor physics and the algorithmic corrections applied by `FaintCal`.\n- **Elsa Ström (Enrolled 2025):** Explores cross-domain applications of the calibration framework. She is currently preparing the protocols for the planned domain evaluation in low-light environmental sensing.\n\n## External Collaborators (Unfunded)\n- **Dr. Tobias Lindvret, Swedish Institute for Environmental Physics:** Advising on the requirements for nocturnal atmospheric aerosol fluorescence monitoring. He will facilitate the planned domain evaluation of the detector response model in environmental sensing contexts."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Selected Publications (2022–2026)\n\n**Status as of:** 15 September 2026. All listed items are published.\n\n**1.** Holmberg, L., Berggren, S., & Nordström, E. (2026). \"Dynamic Response Modeling for Non-Stationary Noise in Scientific CMOS Detectors.\" *Journal of Astronomical Instrumentation and Methods*, 14(2), 112-128. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2026.1\n\n**2.** Jansson, S., Holmberg, L., & Nordström, E. (2025). \"Synthetic Injection Pipelines for Evaluating Faint-Source Recovery Limits.\" *Computational Astrophysics*, 9(4), 401-415. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2025.1\n\n**3.** Lindström, A., Holmberg, L., & Nordström, E. (2025). \"Low-Latency Processing Architectures for High-Cadence Astronomical Surveys.\" *Software for Physics and Astronomy*, 3(1), 45-59. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2025.2\n\n**4.** Berggren, S., Nordin, M., & Nordström, E. (2024). \"Cryogenic Characterization of Random Telegraph Signal in Back-Illuminated sCMOS Sensors.\" *Detector Physics Review*, 22(8), 889-904. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2024.1\n\n**5.** Nordström, E., & Holmberg, L. (2023). \"Beyond Flat-Fielding: The Case for State-Dependent Pixel Calibration.\" *Annual Review of Astronomical Techniques*, 11, 210-235. \nDOI: 10.99999/pb.v2-astronomy-detector-erc-pi.2023.1"
+          }
+        ],
+        "facts": [
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The PI holds an ongoing ERC Advanced Grant (CALIFAINT) running from 2022 to 2027 with EUR 2,450,000 in funding.",
+            "value": "EUR 2,450,000",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "The university host confirms employment through any proposed Proof of Concept grant period.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "No previous ERC Proof of Concept applications have been submitted for the CALIFAINT results, and no spin-out sales operation exists.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Characterized three distinct sCMOS architectures, testing 4 devices per architecture for a total of 12 devices.",
+            "value": "4",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "14% (standard deviation of 1.2 percentage points) of pixels exhibit non-Gaussian noise tails.",
+            "value": "14%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The primary validation phase ran the calibration algorithm across 200 simulated exposures, injecting 10,000 synthetic sources.",
+            "value": "200",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The photometric conversion assumes a 300-second exposure on an 8-meter telescope with 60% total system throughput.",
+            "value": "300-second",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Source photon arrivals were Poisson sampled with a Gaussian point-spread function of 0.8 arcseconds FWHM.",
+            "value": "0.8 arcseconds",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "A detection was defined as 5 times the background standard deviation; 15 detected electrons yield a source-flux SNR of approximately 3.87.",
+            "value": "3.87",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Held out 50 physical acquisitions and 50 simulated exposures as the test set.",
+            "value": "50",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The pipeline reduced false detections from 40 to 26 at a fixed injected-signal recovery rate of 98%.",
+            "value": "26",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The paired bootstrap 95% confidence interval for the absolute reduction in false detections is 5 to 23.",
+            "value": "5 to 23",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The reported performance represents simulation only; field efficacy on physical telescope data has not yet been established.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "FaintCal processes a 4-megapixel frame in 1.2 seconds (standard deviation 0.1s across 100 runs) using 8 threads.",
+            "value": "1.2 seconds",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "The final six months of the main grant will focus on finalizing documentation and preparing theoretical findings for publication.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The cryogenic vacuum chamber maintains 70 K with a thermal stability of ±0.01 K standard deviation.",
+            "value": "70 K",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Västerled University owns the new calibration code and conducted a formal IP review finding no encumbrances on core IP.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The legacy detector-driver module DetControl-Pro is licensed for internal academic use only, with no redistribution rights.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "An open-source driver, SkarvDrive, exists but its integration with the FaintCal workflow remains untested.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "team",
+            "kind": "planned",
+            "text": "Prospective laboratory user validation is scheduled for Q1 2027 with two external astrophysics groups.",
+            "value": "two",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Translation to nocturnal atmospheric aerosol fluorescence monitoring hypothesizes using UV LED excitation and a 10 Hz readout.",
+            "value": "10 Hz",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Dr. Linnea Holmberg authored the core mathematical routines, and Dr. Arvid Lindström optimized the C++ implementation.",
+            "value": null,
+            "salient": true,
+            "source": "team.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "Holmberg2026",
+            "authors": [
+              "Holmberg, L.",
+              "Berggren, S.",
+              "Nordström, E."
+            ],
+            "year": 2026,
+            "title": "Dynamic Response Modeling for Non-Stationary Noise in Scientific CMOS Detectors",
+            "venue": "Journal of Astronomical Instrumentation and Methods",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2026.1"
+          },
+          {
+            "key": "Jansson2025",
+            "authors": [
+              "Jansson, S.",
+              "Holmberg, L.",
+              "Nordström, E."
+            ],
+            "year": 2025,
+            "title": "Synthetic Injection Pipelines for Evaluating Faint-Source Recovery Limits",
+            "venue": "Computational Astrophysics",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2025.1"
+          },
+          {
+            "key": "Lindstrom2025",
+            "authors": [
+              "Lindström, A.",
+              "Holmberg, L.",
+              "Nordström, E."
+            ],
+            "year": 2025,
+            "title": "Low-Latency Processing Architectures for High-Cadence Astronomical Surveys",
+            "venue": "Software for Physics and Astronomy",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2025.2"
+          },
+          {
+            "key": "Berggren2024",
+            "authors": [
+              "Berggren, S.",
+              "Nordin, M.",
+              "Nordström, E."
+            ],
+            "year": 2024,
+            "title": "Cryogenic Characterization of Random Telegraph Signal in Back-Illuminated sCMOS Sensors",
+            "venue": "Detector Physics Review",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2024.1"
+          },
+          {
+            "key": "Nordstrom2023",
+            "authors": [
+              "Nordström, E.",
+              "Holmberg, L."
+            ],
+            "year": 2023,
+            "title": "Beyond Flat-Fielding: The Case for State-Dependent Pixel Calibration",
+            "venue": "Annual Review of Astronomical Techniques",
+            "doi": "10.99999/pb.v2-astronomy-detector-erc-pi.2023.1"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "data/public/dossiers/v2-astronomy-detector-erc-pi/cv_pi.md: 'Elias Nordström'; data/public/dossiers/v2-astronomy-detector-erc-pi/team.md: 'Linnea Holmberg', 'Arvid Lindström', 'Sofia Berggren', 'Jesper Kvarnström', 'Sara Jansson', 'Marcus Nordin', 'Elsa Ström'; corresponding publication authors.",
+          "problem": "These are not safely fictional identities. Elias Nordström is a publicly documented footballer; Linnea/Linnéa Holmberg is a Stockholm University academic; Arvid Lindström was a Swedish electrical-engineering professor; Sofia Berggren and Jesper Kvarnström have official international sports profiles; Sara Jansson is a Lund researcher. Marcus Nordin has a mathematics-education article and seminar record at Gothenburg's NCM, and Elsa Ström is an identified author of KTH research/thesis material. The latter two are also identifiable scholarly authors, not evidence of invented names. Changing the field or adding 'Dr.' does not remove a full-name collision.",
+          "fix": "Rename consistently in the dossier, own-publication author arrays, and linked briefs: Elias Nordström → Elias Mattis Norväng; Linnea Holmberg → Linnea Signe Holmervik; Arvid Lindström → Arvid Torsten Lindekvist; Sofia Berggren → Sofia Elin Bergelund; Jesper Kvarnström → Jesper Alrik Kvarnevik; Sara Jansson → Sara Elvira Jannervik; Marcus Nordin → Marcus Ivar Norliden; Elsa Ström → Elsa Linnea Strömvik. Update initials/surnames in citations and the contact address (use a reserved example.org address). Exact-phrase searches for these proposed full combinations found no matches in this review.",
+          "evidence": [
+            "https://fotbolltransfers.com/nyheter/officiellt-jonkopings-sodra-lanar-elias-nordstrom--igen/182961",
+            "https://www.su.se/profiles/l/liho5380",
+            "https://runeberg.org/tektid/1944/1327.html",
+            "https://www.worldaquatics.com/athletes/1032649/sofia-berggren/profile",
+            "https://fimspeedway.com/riders/jesper-kvarnstrom",
+            "https://portal.research.lu.se/en/persons/sara-jansson/",
+            "https://ncm.gu.se/pdf/namnaren/0310_18_4.pdf",
+            "https://kth.diva-portal.org/smash/get/diva2%3A1998552/FULLTEXT01.pdf",
+            "data/public/dossiers/v2-astronomy-detector-erc-pi/team.md"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1; Dossier 6",
+          "where": "data/public/dossiers/v2-astronomy-detector-erc-pi/publications.md items 1 and 2: 'Journal of Astronomical Instrumentation and Methods' and 'Computational Astrophysics'; matching dossier.yaml own_publications.",
+          "problem": "The first venue copies the complete name of the real Journal of Astronomical Instrumentation and adds 'and Methods'. The second is a readily confused shortened form of the real Computational Astrophysics and Cosmology. Both are used as journal names in the same subject areas as the real venues. These are confusable fictional scholarly identities under the user's explicit collision rule, even though the full invented strings need not be exact registered titles.",
+          "fix": "Rename the first venue to 'Skarvholm Calibration Studies' and the second to 'Vasterled Detector Computing Reports', in publications.md and the matching own_publications entries. Keep the DOIs in the existing 10.99999/pb. namespace. Exact searches for both replacement titles returned no match.",
+          "evidence": [
+            "https://portal.issn.org/resource/ISSN/2251-1725",
+            "https://portal.issn.org/resource/ISSN/2197-7909",
+            "https://link.springer.com/journals/c/2",
+            "data/public/dossiers/v2-astronomy-detector-erc-pi/publications.md",
+            "data/public/dossiers/v2-astronomy-detector-erc-pi/dossier.yaml"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 2; Dossier 4",
+          "where": "data/public/dossiers/v2-astronomy-detector-erc-pi/prior_project.md WP2: 'magnitude 28 equivalent in the V-band, corresponding to 15 detected electrons per source'; '300-second exposure on an 8-meter telescope with 60% total system throughput'.",
+          "problem": "The new observing assumptions still do not support the brightness conversion. Using a standard approximate V zero point of 1.0×10^8 photons s^-1 m^-2 nm^-1, an 86 nm band, area π×4² m², 300 s and efficiency 0.60 gives about 491 electrons at V=28, roughly 33 times the stated 15. Fifteen electrons would instead require about 1.83% total throughput, a 9.17 s exposure, or V≈31.79 with the other assumptions fixed. A different narrow band or severe extra loss is not specified and cannot silently be folded into '60% total'. The 3.87 source-only SNR is consistent with 15 electrons, so simply replacing 15 with 491 would also change the simulated experiment.",
+          "fix": "Preserve the synthetic experiment without an unsupported on-sky sensitivity claim: replace the magnitude/conversion sentences with 'The simulations injected 10,000 artificial point sources with a Poisson mean of 15 detected electrons per source into empirical detector-noise backgrounds. No astronomical-magnitude or full telescope-sensitivity equivalence is claimed for this detector-only validation.' Delete the 300-second/8-meter/60% conversion and replace F07 with this detector-only limitation; retain 15 electrons and sqrt(15)≈3.87 as a source-shot-noise upper bound, not an on-sky SNR. State that sky background and a detector plate scale were not specified, so the reported recovery must not be extrapolated to real-sky completeness.",
+          "evidence": [
+            "https://vikdhillon.staff.shef.ac.uk/teaching/phy217/instruments/phy217_inst_phot_problems.html",
+            "data/public/dossiers/v2-astronomy-detector-erc-pi/prior_project.md",
+            "data/public/dossiers/v2-astronomy-detector-erc-pi/dossier.yaml"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "data/public/dossiers/v2-astronomy-detector-erc-pi/dossier.yaml facts F01–F22 versus prior_project.md ('4 million pixels', '4.2 terabytes', '8.5 seconds'), resources.md ('provided under non-disclosure agreements by the manufacturers for research purposes'), and team.md ('External Collaborators (Unfunded)').",
+          "problem": "The registry remains incomplete after the earlier revisions. Missing salient facts include the four-million-pixel device size and 100–200 K characterization range, 4.2 TB archive, 1960/2000 recovery denominator, 8.5-second baseline and same-hardware comparison, three research-use/NDA evaluation boards, unfunded external collaborator, and the planned Nordic Optical Telescope archival integration under the main grant. Those constraints affect feasibility, transfer rights and separation of main-grant versus PoC work. The workflow-close brief additionally asserts that the Q1 2027 sessions are already main-grant-funded, but resources.md and its F20 do not substantiate that funding status.",
+          "fix": "Add source-linked facts for each listed item, preserving the exact quoted values and limitations: 4 million pixels/device; 100 K to 200 K; 4.2 terabytes; 1,960 of 2,000; baseline 8.5 seconds on identical hardware/workload; three research-only NDA boards; Tobias Lindvret as an unfunded adviser; planned archival integration in months 55–60. In resources.md §3.1 add 'The Q1 2027 sessions are funded from CALIFAINT and are preparatory activities before any PoC award; their results are not yet available as of this record.' Include that status in F20. Incorporate the photometric correction above rather than re-registering the invalid conversion.",
+          "evidence": [
+            "data/public/dossiers/v2-astronomy-detector-erc-pi/dossier.yaml",
+            "data/public/dossiers/v2-astronomy-detector-erc-pi/prior_project.md",
+            "data/public/dossiers/v2-astronomy-detector-erc-pi/resources.md",
+            "data/public/dossiers/v2-astronomy-detector-erc-pi/team.md",
+            "data/public/tasks/pub2-erc-workflow-close/brief.md",
+            "docs/scoring_spec.md"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "data/public/dossiers/v2-astronomy-detector-erc-pi/cv_pi.md, invited presentations: 'European Astronomical Society Annual Meeting, Padua, Italy (2025)'.",
+          "problem": "The location/year pair is wrong: the official EAS archive places the 2025 meeting in Cork and Padova in 2024. This is a concrete error in a claimed invited-talk credential.",
+          "fix": "Replace the entry with '*Calibration Challenges for the Next Decade of Optical Astronomy*, Keynote at the Fjordlight Detector Methods Symposium, Padua, Italy (2025).' This replacement event title returned no exact search match and avoids attributing a fictional credential to the real EAS meeting. For factual reference, the actual EAS 2025 location was Cork, Ireland.",
+          "evidence": [
+            "https://eas.unige.ch/ewass.jsp?tab=org",
+            "data/public/dossiers/v2-astronomy-detector-erc-pi/cv_pi.md"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

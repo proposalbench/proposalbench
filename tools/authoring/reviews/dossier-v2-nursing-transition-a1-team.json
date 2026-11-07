@@ -1,0 +1,59 @@
+{
+  "kind": "dossier",
+  "id": "v2-nursing-transition-a1-team",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "cv_pi.md, Methods experience; resources.md, Equipment and software",
+      "problem": "AARDEX Group is a real company. The fiction rules permit real instruments but require companies to be fictional.",
+      "fix": "Remove the manufacturer attribution while retaining MEMS Cap as the permitted real instrument."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "cv_pi.md, update date and Applications",
+      "problem": "The CV is dated 15 September 2026 but asserts application statuses as of 30 September 2026, after its stated update date.",
+      "fix": "Change the CV update date to 30 September 2026."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts",
+      "problem": "The registry omits numerous proposal-relevant results, resources and limitations. Examples include Phase 1 EMA and PVT completion counts, stress ICC, dropout reasons and group SDs; Phase 2 recruitment denominators, PVT completion, MEMS correct-dosing distribution and burden ratings; the PI's research allocation, institutionally funded coordinator, smartphone inventory and EMA subscription expiry; and the protocols' approval and analysis statuses. The missing-data plan's outcome-only scope and lack of causal interpretation are also absent.",
+      "fix": "Add source-linked facts for these quantities and statuses, retaining their denominators, uncertainty, dates and limitations. Record the missing-data procedures as an existing written plan whose application remains prospective."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, F23 and F25",
+      "problem": "F23 says consent covers caps, diaries and visits 'only', but resources.md explicitly also authorizes discharge-summary review. F25 attributes the absence of a pharmacist anywhere on the team to cv_pi.md, which establishes only the PI's experience; the team-wide statement is in team.md.",
+      "fix": "Rewrite F23 to include authorized discharge-summary review and preserve the explicit exclusions for pharmacy access, linkage and recontact. Split F25 into separately sourced PI-experience and team-expertise facts."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "feasibility_report.md, Phase 2 Methods and weekly PSS-10 result",
+      "problem": "The weekly PSS-10 administration does not specify its recall period. The standard PSS-10 asks about the previous month, so weekly administrations have substantially overlapping reference periods. Without clarification, the reported week-to-week changes and their relevance to measuring stress throughout the transition are ambiguous.",
+      "fix": "Specify whether the standard past-month wording was retained. If so, describe the overlapping recall windows and their limitation for week-specific exposure analysis. If wording was changed to the previous week, identify the adaptation and its measurement limitations."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 9",
+      "where": "summary_statement.md, Additional Review Considerations",
+      "problem": "The report presents the Data Management and Sharing Plan as receiving an 'Acceptable' peer-review judgment. Under the NIH framework applicable to this application, the DMS Plan is assessed by NIH program staff rather than evaluated as a separate peer-review consideration. Protection of Human Subjects and Inclusion are also placed under Additional Review Considerations instead of Additional Review Criteria.",
+      "fix": "Move Human Subjects and Inclusion to Additional Review Criteria. Remove the DMS peer-review determination; if a program-staff assessment is necessary, document it separately with its date and status."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "planned tasks, pub2-nih-transition-close, T13",
+      "problem": "The expected behavior requires objective-monitoring plans as the response to the self-report criticism and does not allow a reasoned rebuttal with concrete mitigation. This makes the planned reviewer-criticism trap narrower than the permitted T13 behavior.",
+      "fix": "Explicitly accept either a substantive revision addressing the measurement criticism or a reasoned rebuttal with concrete mitigation, subject to the call's actual requirements. Continue requiring accurate characterization of the limited Phase 2 feasibility evidence."
+    }
+  ]
+}

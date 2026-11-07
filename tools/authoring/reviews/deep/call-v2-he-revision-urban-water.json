@@ -1,0 +1,66 @@
+{
+  "kind": "call",
+  "id": "v2-he-revision-urban-water",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "data/public/calls/v2-he-revision-urban-water/call.md, Proposal template: \"Write Part B with exactly these sections\" including \"2.3 Summary (key elements of the impact section)\"; call.yaml required_sections includes 2.3.",
+      "problem": "The official January 2026 RIA/IA form makes section 2.3 optional and removable. These calls instead make it mandatory while asserting that their template follows the 2026–2027 official form. The general fictional-topic notice does not identify this template departure.",
+      "fix": "Preserve the benchmark's section requirement by adding immediately before the section list: 'Benchmark layout restriction: section 2.3 is required for this fictional call, although it is optional in the official 2026–2027 RIA/IA template.' Qualify the opening fidelity notice with 'subject to the explicitly identified benchmark layout and length adaptations'. This keeps the existing required_sections key consistent.",
+      "evidence": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia_en.pdf",
+        ".codex-handoff/deep_review_c_sources/af_he-ria-ia_en.txt"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "data/public/calls/v2-he-revision-urban-water/call.md, section 3.1: \"the justification of a participant's purchase costs (travel and subsistence, equipment, other goods, works and services) when they exceed 15% of its personnel costs\".",
+      "problem": "This is the superseded aggregate-purchase-cost rule. For the current actual-cost form, table 3.1h concerns equipment costs exceeding 15% of that participant's personnel costs. The allegedly complete 3.1 list also omits the current subcontracting description/justification table 3.1g. Both changes affect information applicants are told to provide.",
+      "fix": "Replace that cost phrase with: 'a table describing and justifying subcontracting costs for each participant where applicable (3.1g), and justification of equipment costs under purchase costs for participants whose equipment costs exceed 15% of their personnel costs (3.1h)'. Retain the explicitly adapted narrative statement of total EU contribution. Do not apply the older lump-sum purchase-cost guidance to these actual-cost calls.",
+      "evidence": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia_en.pdf",
+        ".codex-handoff/deep_review_c_sources/af_he-ria-ia_en.txt"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "data/public/calls/v2-he-revision-urban-water/call.md, Impact award criterion: \"and the likely scale and significance of the contributions due to the project\".",
+      "problem": "This extra assessment aspect was removed from the 2026–2027 RIA/IA award criteria. It is still presented here as official. Topic-specific impact evidence can remain required, but it must not be attributed to an obsolete official criterion.",
+      "fix": "Delete the quoted clause from the award-criteria paragraph, so the first Impact aspect ends at 'specified in the work programme'. Preserve the second aspect concerning measures to maximise outcomes and impacts. Do not alter the historical 2025 ESR wording in the coastal dossier; it describes the earlier competition.",
+      "evidence": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf",
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia_en.pdf"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "data/public/calls/v2-he-revision-urban-water/call.md, Length: \"18,000 words\" and \"Text beyond the limit is not evaluated\"; call.yaml length_contract.tolerance: 0.03.",
+      "problem": "The hidden key allows and evaluates 18,540 counted words, not the visible 18,000. admissibility.py computes int(max_words * (1 + tolerance)) and uses that threshold both to trigger and to perform truncation. This can alter which work-plan content the judges see.",
+      "fix": "Set length_contract.tolerance to 0.0 in this call.yaml and add 'with zero tolerance' to the visible benchmark word contract. Keep max_words 18000, tables counted, title/references exempt and disregard_excess unchanged.",
+      "evidence": [
+        "data/public/calls/v2-he-revision-urban-water/call.md",
+        "data/public/calls/v2-he-revision-urban-water/call.yaml",
+        "src/proposalbench/checks/admissibility.py:131",
+        "src/proposalbench/checks/admissibility.py:162"
+      ]
+    }
+  ],
+  "checked": [
+    "Read both visible and hidden call, horizon_ria.yaml, authoring design and scoring documents; rechecked earlier automated-review leads against the current files.",
+    "Verified independent-entity/country consortium rule, 40-page actual-cost / 45-page lump-sum distinction, excess-page treatment, 0–5 criteria, 3-per-criterion / 10-total thresholds and absence of an RIA Impact multiplier against https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf.",
+    "Inspected the official form V5.1 dated 22 January 2026, downloaded directly after web-open timeouts: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia_en.pdf; local source copy and pdftotext output are in .codex-handoff/deep_review_c_sources/.",
+    "Verified standard full-proposal sections, substantive methodology/open-science/gender content, implementation tables and fresh evaluation of resubmitted proposals. No separate rebuttal section is required.",
+    "All hidden outcome/scope/exclusion/mandatory-element text occurs in call.md after whitespace normalization. EUR 4.8 million, 36 months and the minimum consortium match; word tolerance is the identified exception.",
+    "Topic conditions are expressly fictional. DNSH or mandatory multi-actor/SSH requirements can therefore be stricter than generic programme defaults. Proposed stormwater/receiving-water research is plausible; literature on fluorescence proxies and stormwater solids supports the domain, with prospective validation essential.",
+    "Checked that each paired dossier admits a feasible conditional design: existing multi-country beneficiaries can be retained; missing microbial services, manager participation and data feeds may be planned with gates and fallbacks. The 18,000-word allowance can accommodate the full narrative."
+  ]
+}

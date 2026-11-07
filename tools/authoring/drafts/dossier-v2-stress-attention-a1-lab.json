@@ -1,0 +1,1344 @@
+{
+  "kind": "dossier",
+  "id": "v2-stress-attention-a1-lab",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "70ff7df9fee726fbc1445c310b84dfde8b4ff0ebd9e657e63722ed2f9ca84e69",
+  "draft": {
+    "applicant_type": "individual",
+    "career_stage": "mid_career",
+    "disciplines": [
+      "clinical psychology",
+      "nursing",
+      "behavioural measurement"
+    ],
+    "method_profile": "quantitative",
+    "country": "US",
+    "files": [
+      {
+        "path": "cv_thorne.md",
+        "role": "cv",
+        "content": "> Fictional document created for ProposalBench.\n\n**Internal Curriculum Vitae**\n**Date:** September 2026\n\n**NAME:** Thorne, Elias V.\n**POSITION TITLE:** Associate Professor of Clinical Psychology\n\n**EDUCATION/TRAINING**\nInstitution and Location | Degree | Completion Date | Field of Study\n--- | --- | --- | ---\nNorthern Pacific State University, CA | B.S. | 05/2006 | Psychology\nMidwestern Research University, IL | Ph.D. | 05/2012 | Clinical Psychology\nOakhaven Medical Center, US | Postdoctoral | 08/2014 | Behavioral Medicine\n\n**A. Personal Statement**\nMy research program focuses on the intersection of daily psychological stress, cognitive capacity (specifically attention), and health behaviors in adult outpatient populations. I have extensive experience designing and implementing Ecological Momentary Assessment (EMA) protocols to capture real-time fluctuations in stress and symptom severity. As a clinical psychologist, I am particularly interested in how transient cognitive deficits, such as reduced attentional control during periods of high stress, compromise patients' ability to adhere to complex medication routines. My laboratory at Oakhaven State University has successfully conducted several observational studies utilizing mobile health (mHealth) technologies to monitor behavioral routines. In the proposed resubmission, I will lead the research team, oversee the EMA and cognitive testing protocols, and direct the statistical analyses. I have a long-standing collaboration with Clara M. Jenkins-Brackendale, RN, MSN, which ensures our protocols are clinically grounded and feasible within the outpatient workflow.\n\n**B. Positions, Scientific Appointments, and Honors**\n*Positions and Scientific Appointments*\n2021 - Present | Associate Professor, Department of Clinical Psychology, Oakhaven State University\n2014 - 2021 | Assistant Professor, Department of Clinical Psychology, Oakhaven State University\n2012 - 2014 | Postdoctoral Fellow, Behavioral Medicine, Oakhaven Medical Center\n\n*Honors*\n2023 | Excellence in Clinical Research Award, Oakhaven State University\n2019 | Early Career Investigator Award, Society for Behavioral Medicine Research\n\n**C. Contributions to Science**\n1. Ecological Momentary Assessment of Stress in Clinical Populations. Early in my career, I focused on validating EMA protocols for capturing daily stress fluctuations in adults with chronic conditions. We demonstrated that high-frequency sampling (e.g., 4-6 times daily) is feasible and provides a more accurate representation of stress burden than retrospective questionnaires.\n2. Mobile Cognitive Testing. I have contributed to the adaptation of traditional neuropsychological paradigms for mobile platforms. Specifically, my lab has worked on deploying Continuous Performance Tests (CPTs) on smartphones to measure sustained attention in naturalistic settings.\n3. Behavioral Determinants of Medication Adherence. My recent work investigates the psychological barriers to medication adherence. We have identified that self-reported stress is a significant predictor of missed doses, independent of socioeconomic factors.\n\n**D. Research Support**\n*Ongoing Research Support*\nNone currently active.\n\n*Completed Research Support*\nR03 MH119882 (PI: Thorne) | 07/01/2021 - 06/30/2023\nNIH/NIMH\nFeasibility of Mobile Attention Tracking in Outpatient Psychiatry\nThe goal of this project was to assess the usability and acceptability of a smartphone-based cognitive testing battery among adult psychiatric outpatients.\nRole: PI"
+      },
+      {
+        "path": "cv_jenkins-brackendale.md",
+        "role": "cv",
+        "content": "> Fictional document created for ProposalBench.\n\n**Internal Curriculum Vitae**\n**Date:** September 2026\n\n**NAME:** Jenkins-Brackendale, Clara M.\n**POSITION TITLE:** Clinical Research Nurse\n\n**EDUCATION/TRAINING**\nInstitution and Location | Degree | Completion Date | Field of Study\n--- | --- | --- | ---\nOakhaven State University, US | B.S.N. | 05/2010 | Nursing\nOakhaven State University, US | M.S.N. | 05/2015 | Nursing Administration\n\n**A. Personal Statement**\nI am a Clinical Research Nurse at the Oakhaven Medical Center Outpatient Clinic with over a decade of experience in patient care and clinical research coordination. My clinical background is in adult chronic disease management, with a specific focus on care transitions and medication education. I have collaborated with Dr. Elias Thorne on multiple projects investigating behavioral health routines. My role in the proposed research will be to facilitate patient recruitment, oversee the informed consent process, conduct the baseline clinical assessments, and manage the medication adherence tracking (including pill counts and self-report logs). I am intimately familiar with the patient population at our clinic, including the post-discharge subgroup, and I have extensive experience navigating the institutional review board (IRB) requirements for observational research.\n\n**B. Positions, Scientific Appointments, and Honors**\n*Positions and Scientific Appointments*\n2016 - Present | Clinical Research Nurse, Oakhaven Medical Center Outpatient Clinic\n2010 - 2016 | Staff Nurse, Internal Medicine Unit, Oakhaven Medical Center\n\n**C. Contributions to Science**\n1. Nursing Perspectives on Medication Routines. I have co-authored research highlighting the practical challenges patients face when managing complex medication regimens after discharge. My work emphasizes the need for simplified dosing schedules and the role of nursing interventions in improving adherence.\n2. Clinical Implementation of mHealth Tools. I have played a key role in integrating mobile health assessments into standard outpatient workflows, ensuring that research protocols do not disrupt clinical care and are accessible to patients with varying levels of digital literacy.\n\n**D. Research Support**\n*Completed Research Support*\nR03 MH119882 (PI: Thorne) | 07/01/2021 - 06/30/2023\nNIH/NIMH\nFeasibility of Mobile Attention Tracking in Outpatient Psychiatry\nRole: Clinical Coordinator"
+      },
+      {
+        "path": "prior_application_a0.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n**Title:** Stress, Attention, and Medication Routines in Adult Outpatient Follow-up\n**Principal Investigator:** Elias V. Thorne, Ph.D.\n**Submission Date:** February 16, 2026\n**Application Type:** NIH R21 (A0)\n\n## SPECIFIC AIMS\n\nMedication nonadherence is a pervasive problem in adult outpatient care, leading to poor clinical outcomes and increased healthcare utilization. While chronic stress is a known risk factor for nonadherence, the daily, dynamic mechanisms linking transient stress to missed medication doses remain poorly understood. Traditional models often rely on retrospective self-reports, which fail to capture the real-time cognitive fluctuations that occur during stressful episodes. We hypothesize that acute daily stress depletes attentional capacity, which in turn disrupts the execution of established medication routines. \n\nTo test this hypothesis, we propose an intensive longitudinal observational study utilizing Ecological Momentary Assessment (EMA) and mobile cognitive testing. We will recruit 80 adults from the Oakhaven Medical Center Outpatient Clinic and follow them for 6 months. By capturing daily variations in stress, attention, and adherence, this study will establish the causal effect of daily stress on medication adherence and identify the cognitive pathways involved.\n\n**Aim 1: Quantify the association between daily stress and medication adherence during a 6-month outpatient follow-up.**\nWe will use EMA to measure daily stress levels and daily self-reports combined with monthly pill counts to track medication adherence. We will determine the causal impact of stress on adherence, hypothesizing that days characterized by higher-than-average stress will be significantly associated with missed medication doses.\n\n**Aim 2: Determine if attention capacity mediates the stress-adherence relationship.**\nParticipants will complete a custom mobile Continuous Performance Test (mCPT) on their smartphones to assess sustained attention during high- and low-stress periods. We hypothesize that acute stress will cause a measurable deficit in mCPT performance, and that this attentional deficit will fully mediate the causal pathway between daily stress and medication nonadherence.\n\n## RESEARCH STRATEGY\n\n### A. Significance\nMedication adherence is critical for the management of chronic conditions in outpatient settings. Approximately 50% of patients do not take their medications as prescribed. Nonadherence is a complex behavior influenced by patient, provider, and systemic factors. Among patient-level factors, psychological stress is consistently cited as a primary barrier. However, the mechanisms by which stress disrupts adherence are not fully elucidated. \n\nCurrent literature suggests that stress impairs executive functioning, particularly sustained attention and working memory. Managing a daily medication routine requires prospective memory and attentional control—cognitive resources that are easily depleted by acute stressors. If attention mediates the stress-adherence relationship, interventions could be designed to either bolster attentional capacity or simplify medication routines during periods of high stress. This project addresses a critical gap by measuring these variables in real-time, naturalistic settings.\n\n### B. Innovation\nThis study is innovative in its use of high-frequency, mobile-based cognitive testing alongside EMA. While EMA has been used to track stress and mood, the integration of a mobile Continuous Performance Test (mCPT) allows for the objective measurement of attentional capacity in the patient's natural environment. This approach moves beyond static, in-lab neuropsychological assessments, providing a dynamic picture of cognitive functioning as it fluctuates with daily stress. Furthermore, the intensive 6-month follow-up period provides unprecedented longitudinal data on the stability of medication routines over time.\n\n### C. Approach\n\n**Participants and Setting**\nWe will recruit 80 adults receiving care at the Oakhaven Medical Center Outpatient Clinic. Inclusion criteria: (1) age 18-65; (2) prescribed at least one daily oral medication for a chronic condition; (3) own a smartphone compatible with the study application. Exclusion criteria: (1) diagnosed cognitive impairment (e.g., dementia); (2) non-English speaking. Recruitment will occur during routine clinic visits, facilitated by the clinical research nurse.\n\n**Procedures**\nFollowing informed consent, participants will complete a baseline assessment capturing demographic information and clinical history. They will then install the study application on their smartphones. The observation period will last for 6 months. \n- **EMA Protocol:** Participants will receive two prompts per day (randomly scheduled within morning and evening windows) to report their current stress levels.\n- **Mobile Cognitive Testing:** Twice a week, immediately following an EMA prompt, participants will be prompted to complete the 3-minute mCPT.\n- **Adherence Tracking:** Participants will log their daily medication intake in the app. Additionally, they will return to the clinic monthly for a pill count conducted by the research nurse.\n\n**Measures**\n- *Daily Stress:* Measured using a validated 4-item EMA stress scale (e.g., \"Right now, I feel overwhelmed\").\n- *Attention:* Measured using the mCPT. The task requires participants to tap the screen when a target letter appears and withhold tapping for non-targets. The primary metric is the d-prime (d') sensitivity index.\n- *Medication Adherence:* Calculated as the percentage of prescribed doses taken, derived from a combination of daily self-report and monthly pill counts.\n\n**Statistical Analysis**\nData will be analyzed using multilevel mixed-effects models to account for the nested structure of the data (days nested within individuals). \n- For Aim 1, we will model daily adherence (binary: missed vs. taken) as a function of daily stress, controlling for time and weekend effects. \n- For Aim 2, we will conduct a multilevel mediation analysis. We will test the a-path (stress predicting mCPT performance), the b-path (mCPT performance predicting adherence), and the c'-path (direct effect of stress on adherence controlling for mCPT). \nWe anticipate that the 80-person cohort, providing up to 180 days of data each, will yield sufficient power (>0.80) to detect small-to-medium causal effects. \n\n**Potential Pitfalls and Alternative Strategies**\nParticipant burden is a potential issue with a 6-month EMA protocol. To mitigate this, the mCPT is kept brief (3 minutes) and is only administered twice weekly. If compliance drops below 70%, we will reduce the EMA frequency to once daily."
+      },
+      {
+        "path": "summary_statement_a0.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n**PROGRAM OFFICER:**\nDr. Robert M. Quenneville\nDivision of Translational Research, NIMH\n\n**SCIENTIFIC REVIEW OFFICER:**\nDr. Selene L. Chen-Ravendale\nCenter for Scientific Review, NIH\n\n**SUMMARY STATEMENT**\n(Privileged Communication)\nRelease Date: June 12, 2026\n\n**Application Number:** 1 R21 MH135792-01\n**Principal Investigator:** THORNE, ELIAS V\n**Applicant Organization:** OAKHAVEN STATE UNIVERSITY\n**Review Group:** ZRG1 BBBP-Y (02) Behavioral Interventions and Outcomes\n**Meeting Date:** June 04, 2026\n**Council:** August 2026\n**Requested Start:** December 01, 2026\n\n**OVERALL IMPACT SCORE: 48**\n\n**RESUME AND SUMMARY OF DISCUSSION:**\nThis R21 application proposes an intensive longitudinal observational study to examine the relationship between daily stress, attentional capacity, and medication adherence in 80 adult outpatients over a 6-month period. The panel noted that the research question is highly significant, as medication nonadherence remains a major clinical challenge, and the use of mobile cognitive testing (mCPT) alongside Ecological Momentary Assessment (EMA) is an innovative approach to capturing real-time data. The Principal Investigator has a solid track record in EMA methodologies. \n\nHowever, enthusiasm was significantly dampened by several major methodological and conceptual flaws. First, the reliability of the mobile attention task in this specific clinical population is untested, raising concerns about the validity of the mediation analysis. Second, the study fails to measure and account for potential confounding by medication characteristics and baseline severity. Third, recruitment from one clinic lacked a feasible retention plan for the demanding 6-month follow-up. Finally, the causal language exceeded an observational design, as the study cannot definitively establish causality without experimental manipulation. Overall, while the premise is intriguing, the application requires substantial revision to address these critical weaknesses.\n\n**CRITIQUE 1**\n**Factor 1: Importance of the Research:** 3\n**Factor 2: Rigor and Feasibility:** 6\n**Expertise and Resources:** Appropriate\n\n**Overall Impact:** The project addresses an important clinical issue using novel mobile health tools. The PI is well-qualified. However, the approach has significant gaps that threaten the interpretability of the data.\n\n**Factor 1: Importance of the Research:**\n*Strengths:*\n- The focus on real-time cognitive fluctuations as a mechanism for nonadherence is a fresh perspective.\n- The theoretical model linking stress, attention, and routine execution is well-supported by background literature.\n*Weaknesses:*\n- The causal language used throughout the proposal exceeded what can be inferred from an observational design. The PI repeatedly states the study will \"establish the causal effect\" and \"determine the causal impact.\" As an observational study, unmeasured confounding cannot be ruled out, and such deterministic causal claims are inappropriate.\n\n**Factor 2: Rigor and Feasibility:**\n*Strengths:*\n- The integration of objective cognitive testing with self-reported stress is highly innovative.\n*Weaknesses:*\n- The reliability of the mobile attention task in this specific clinical population is untested. Without established test-retest reliability for the mCPT in this cohort, the mediation analysis (Aim 2) rests on shaky ground.\n- The study fails to measure and account for potential confounding by medication characteristics and baseline severity. Different medications have different side effect profiles and dosing complexities, and baseline psychiatric or medical severity likely drives both stress and adherence.\n\n**Expertise and Resources:**\n*Comments:*\n- The PI has demonstrated expertise in deploying EMA protocols. The clinical environment at Oakhaven Medical Center is appropriate for the study.\n\n**CRITIQUE 2**\n**Factor 1: Importance of the Research:** 4\n**Factor 2: Rigor and Feasibility:** 6\n**Expertise and Resources:** Appropriate\n\n**Overall Impact:** The innovative use of mCPT is commendable, but the study design is overly ambitious for the proposed sample and setting without adequate safeguards against attrition.\n\n**Factor 1: Importance of the Research:**\n*Strengths:*\n- The project targets a critical barrier in outpatient chronic disease management.\n*Weaknesses:*\n- None noted.\n\n**Factor 2: Rigor and Feasibility:**\n*Strengths:*\n- The 6-month follow-up period provides unprecedented longitudinal data on the stability of medication routines over time.\n*Weaknesses:*\n- Recruitment from one clinic lacked a feasible retention plan. Expecting 80 outpatients to complete daily EMA and twice-weekly cognitive tests for 6 months with only monthly clinic visits for pill counts is unrealistic. Attrition is likely to be high, and no specific retention strategies are proposed.\n- The statistical power analysis does not adequately account for the expected missing data inherent in a 6-month EMA study.\n- The reliance on self-report for medication adherence, even when supplemented by monthly pill counts, remains susceptible to social desirability bias.\n\n**Expertise and Resources:**\n*Comments:*\n- The research team is well-suited to conduct the study, provided the feasibility issues are addressed."
+      },
+      {
+        "path": "update_report_sept2026.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n**Internal Status Report and Resubmission Preparations**\n**Project:** Stress, Attention, and Medication Routines (R21 Resubmission)\n**Date:** 28 September 2026\n**Prepared by:** Elias V. Thorne, PI\n\nThis report outlines the changes and preliminary work completed since receiving the summary statement for our R21 A0 submission in June 2026. We are preparing for an A1 resubmission and have systematically addressed the major criticisms raised by the review panel.\n\n**1. Attention-Task Reliability**\n*Criticism:* The reliability of the mobile attention task in this specific clinical population is untested.\n*Action Taken:* To establish the psychometric properties of our custom mCPT, we conducted a separate 24-adult task-retest pilot study in August 2026. Participants were recruited from the Oakhaven clinic and completed the mCPT twice, two weeks apart. \n*Result:* The pilot estimates the mCPT test-retest reliability at an ICC of 0.62 (95% CI 0.37 to 0.79; two-way mixed-effects, absolute agreement, single measurement) based on 24 complete pairs. This provides preliminary retest evidence, but we acknowledge it does not resolve the limitation regarding reliable measurement of within-person attention fluctuations required for mediation. A formal measurement-error analysis is planned to address this.\n\n**2. Confounding Variables**\n*Criticism:* The study fails to measure and account for potential confounding by medication characteristics and baseline severity.\n*Action Taken:* We have amended the study protocol. Medication coding (categorizing by class and dosing frequency), a psychological baseline-severity instrument (the Brief Symptom Inventory, BSI), and a medical comorbidity index (Charlson Comorbidity Index) have been added to the protocol. Medication class and baseline severity will be included as covariates in planned multilevel mixed-effects models. While these additions improve adjustment, we acknowledge that residual medical-severity confounding remains a limitation of the observational design.\n\n**3. Recruitment and Retention**\n*Criticism:* Recruitment from one clinic lacked a feasible retention plan.\n*Action Taken:* We have developed a comprehensive retention strategy. Reminder scripts (delivered via SMS and phone calls by the research nurse) and a $50 travel reimbursement per in-person visit are planned. We acknowledge in the revised approach that these retention improvements have not been tested in our specific population yet, but they align with best practices for longitudinal observational research.\n\n**4. Causal Inference**\n*Criticism:* The causal language exceeded an observational design.\n*Action Taken:* We have completely revised the narrative to remove deterministic causal language. The revised DAG distinguishes association from mediation assumptions. We explicitly state the assumptions required for causal inference in an observational design. Furthermore, sensitivity analyses are planned to quantify the potential impact of unmeasured confounding.\n\n**5. Missing Data and Power**\n*Criticism:* The statistical power analysis does not adequately account for the expected missing data inherent in a 6-month EMA study.\n*Action Taken:* A revised power simulation incorporating realistic missing data patterns is planned but not yet completed.\n\n**6. Adherence Measurement Bias**\n*Criticism:* The reliance on self-report for medication adherence remains susceptible to social desirability bias.\n*Action Taken:* This criticism remains unresolved. We will rely on daily self-reported adherence and monthly aggregate corroboration via in-person pill counts. We acknowledge that monthly pill counts cannot independently verify daily doses, and self-report remains susceptible to bias.\n\n**Current Status of Cohort and Clinic Access**\n- **Cohort Status:** The proposed 80-person cohort has zero recruited participants. Recruitment will be entirely prospective upon funding. The 24 adults from the reliability pilot will not be included in the main cohort.\n- **Clinic Access and Linkage:** Our existing clinic access covers adult observational work. However, we discovered that electronic health record linkage requires a new consent form; the currently approved IRB form does not authorise pharmacy-record linkage. Given the timeline, a no-linkage observational alternative relying on self-report and pill counts is feasible.\n- **Care-Transition Subgroup:** To align with emerging funding priorities, the clinic maintains an existing registry of patients recently discharged from inpatient care. Planned sampling will focus on the post-discharge subgroup for the care-transition emphasis. This allows us to retain the original research question regarding stress and medication routines while specifically observing patients navigating the vulnerable post-discharge period."
+      },
+      {
+        "path": "publications.md",
+        "role": "publications",
+        "content": "> Fictional document created for ProposalBench.\n\n**Selected Peer-Reviewed Publications**\n**Elias V. Thorne & Clara M. Jenkins-Brackendale**\n**Date:** September 2026\n\n1. Thorne, E. V., Jenkins-Brackendale, C. M., & Quenneville, R. (2024). Ecological momentary assessment of stress in outpatient settings: Methodological considerations and compliance rates. *Journal of Behavioral Medicine Assessment*, 12(3), 210-225. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2024.1\n\n2. Thorne, E. V., & Miller, A. T. (2022). Mobile cognitive testing in clinical populations: A review of continuous performance test adaptations. *Digital Neuropsychology*, 8(1), 45-59. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2022.1\n\n3. Jenkins-Brackendale, C. M., & Thorne, E. V. (2025). Nursing perspectives on medication routines in chronic care: The impact of daily stress. *Clinical Nursing Research Quarterly*, 19(4), 301-315. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2025.1\n\n4. Thorne, E. V., Davis, L. K., & Jenkins-Brackendale, C. M. (2021). The role of sustained attention in executing complex behavioral routines. *Journal of Cognitive and Behavioral Routines*, 28(2), 150-162. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2021.1"
+      },
+      {
+        "path": "resources_and_team.md",
+        "role": "resources",
+        "content": "> Fictional document created for ProposalBench.\n\n**FACILITIES AND OTHER RESOURCES**\n**Date:** September 2026\n\n**Oakhaven State University (OSU)**\n*Laboratory:* Dr. Thorne directs the Behavioral Dynamics Laboratory at OSU. The lab is equipped with 5 high-performance workstations dedicated to data processing, statistical modeling, and the management of Ecological Momentary Assessment (EMA) datasets. The lab holds secure, HIPAA-compliant server space for storing encrypted mobile health data.\n*Computer:* The university provides access to a high-performance computing cluster for intensive multilevel modeling and simulation analyses. Software licenses for SAS, R, and Mplus are maintained by the department.\n*Office:* Dr. Thorne has a private office (150 sq. ft.) adjacent to the laboratory, equipped with standard computing and communication technology.\n\n**Oakhaven Medical Center (OMC)**\n*Clinical:* The OMC Outpatient Clinic serves a diverse population of adults managing chronic medical and psychiatric conditions. The clinic sees approximately 1,200 unique patients annually. Existing clinic access covers adult observational work, providing a robust recruitment pool for the proposed study. The clinic includes dedicated private consultation rooms where the clinical research nurse can conduct informed consent procedures, baseline assessments, and monthly pill counts without interrupting standard clinical workflow. \n*Care-Transition Subgroup:* The clinic maintains a specific registry of patients who have been recently discharged from inpatient care and are transitioning to outpatient management. This post-discharge subgroup is available for planned sampling.\n\n**TEAM DESCRIPTION**\n\n**Elias V. Thorne, Ph.D. (Principal Investigator)**\nDr. Thorne is an Associate Professor of Clinical Psychology at OSU. He will be responsible for the overall scientific direction of the project. He will oversee the refinement of the EMA and mobile cognitive testing (mCPT) protocols, direct the statistical analyses (including the multilevel mediation models and sensitivity analyses for unmeasured confounding), and ensure compliance with all human subjects regulations. Dr. Thorne has a proven track record of successfully executing mobile health research in clinical populations.\n\n**Clara M. Jenkins-Brackendale, RN, MSN (Clinical Research Nurse)**\nMs. Jenkins-Brackendale is a full-time Clinical Research Nurse at OMC. She will serve as the primary liaison between the research team and the clinic. Her responsibilities include screening electronic health records for eligible participants, conducting the informed consent process, administering the baseline-severity instrument (Brief Symptom Inventory), and executing the retention plan (including reminder scripts and processing travel reimbursements). She will also perform the monthly in-person pill counts. Her extensive experience with the clinic's patient population, particularly the post-discharge subgroup, is critical for the feasibility of the recruitment and retention strategy."
+      }
+    ],
+    "facts": [
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "The prior R21 A0 application proposed observing stress, attention and medication routines in 80 adults.",
+        "value": "80",
+        "salient": true,
+        "source": "prior_application_a0.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "A separate task-retest pilot study conducted in August 2026 enrolled 24 adults who completed the mCPT twice, two weeks apart.",
+        "value": "24",
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The pilot study estimates the mCPT test-retest reliability at an ICC of 0.62 (95% CI 0.37 to 0.79).",
+        "value": "0.62",
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "other",
+        "kind": "planned",
+        "text": "A formal measurement-error analysis is planned; the 24-adult retest pilot does not resolve reliability of within-person attention fluctuations for mediation.",
+        "value": null,
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "other",
+        "kind": "planned",
+        "text": "A revised power simulation incorporating realistic missing-data patterns is planned but not yet completed.",
+        "value": null,
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The study protocol has been amended to include medication coding and baseline-severity instruments.",
+        "value": null,
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "other",
+        "kind": "planned",
+        "text": "Medication class and baseline severity will be included as covariates in planned multilevel mixed-effects models.",
+        "value": null,
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "other",
+        "kind": "planned",
+        "text": "Reminder scripts and a $50 travel reimbursement per in-person visit are planned.",
+        "value": "$50",
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The retention improvements have not been tested in the specific population yet.",
+        "value": null,
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The revised DAG distinguishes association from mediation assumptions.",
+        "value": null,
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "other",
+        "kind": "planned",
+        "text": "Sensitivity analyses are planned to quantify the potential impact of unmeasured confounding.",
+        "value": null,
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "The proposed 80-person cohort has zero recruited participants.",
+        "value": "zero",
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The currently approved IRB form does not authorise pharmacy-record linkage.",
+        "value": null,
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "resource",
+        "kind": "planned",
+        "text": "A no-linkage observational alternative relying on self-report and pill counts is feasible.",
+        "value": null,
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The clinic maintains an existing registry of patients recently discharged from inpatient care.",
+        "value": null,
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "resource",
+        "kind": "planned",
+        "text": "Planned sampling will focus on the post-discharge subgroup for the care-transition emphasis.",
+        "value": null,
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The OMC Outpatient Clinic sees approximately 1,200 unique patients annually.",
+        "value": "1,200",
+        "salient": true,
+        "source": "resources_and_team.md"
+      },
+      {
+        "category": "other",
+        "kind": "planned",
+        "text": "The observation period will last for 6 months.",
+        "value": "6 months",
+        "salient": true,
+        "source": "prior_application_a0.md"
+      },
+      {
+        "category": "other",
+        "kind": "planned",
+        "text": "The 24 adults from the reliability pilot will not be included in the main cohort.",
+        "value": "not be included",
+        "salient": true,
+        "source": "update_report_sept2026.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "Dr. Thorne completed R03 MH119882 support from 07/01/2021 - 06/30/2023.",
+        "value": "07/01/2021 - 06/30/2023",
+        "salient": true,
+        "source": "cv_thorne.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "Dr. Thorne has no currently active research support.",
+        "value": "None currently active",
+        "salient": true,
+        "source": "cv_thorne.md"
+      },
+      {
+        "category": "position",
+        "kind": "existing",
+        "text": "Dr. Thorne has been an Associate Professor since 2021.",
+        "value": "2021 - Present",
+        "salient": true,
+        "source": "cv_thorne.md"
+      },
+      {
+        "category": "position",
+        "kind": "existing",
+        "text": "Ms. Jenkins-Brackendale has been a Clinical Research Nurse since 2016.",
+        "value": "2016 - Present",
+        "salient": true,
+        "source": "cv_jenkins-brackendale.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The lab is equipped with 5 high-performance workstations.",
+        "value": "5",
+        "salient": true,
+        "source": "resources_and_team.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "Thorne2024",
+        "authors": [
+          "Thorne, E. V.",
+          "Jenkins-Brackendale, C. M.",
+          "Quenneville, R."
+        ],
+        "year": 2024,
+        "title": "Ecological momentary assessment of stress in outpatient settings: Methodological considerations and compliance rates",
+        "venue": "Journal of Behavioral Medicine Assessment",
+        "doi": "10.99999/pb.v2-stress-attention-a1-lab.2024.1"
+      },
+      {
+        "key": "Thorne2022",
+        "authors": [
+          "Thorne, E. V.",
+          "Miller, A. T."
+        ],
+        "year": 2022,
+        "title": "Mobile cognitive testing in clinical populations: A review of continuous performance test adaptations",
+        "venue": "Digital Neuropsychology",
+        "doi": "10.99999/pb.v2-stress-attention-a1-lab.2022.1"
+      },
+      {
+        "key": "Jenkins2025",
+        "authors": [
+          "Jenkins-Brackendale, C. M.",
+          "Thorne, E. V."
+        ],
+        "year": 2025,
+        "title": "Nursing perspectives on medication routines in chronic care: The impact of daily stress",
+        "venue": "Clinical Nursing Research Quarterly",
+        "doi": "10.99999/pb.v2-stress-attention-a1-lab.2025.1"
+      },
+      {
+        "key": "Thorne2021",
+        "authors": [
+          "Thorne, E. V.",
+          "Davis, L. K.",
+          "Jenkins-Brackendale, C. M."
+        ],
+        "year": 2021,
+        "title": "The role of sustained attention in executing complex behavioral routines",
+        "venue": "Journal of Cognitive and Behavioral Routines",
+        "doi": "10.99999/pb.v2-stress-attention-a1-lab.2021.1"
+      }
+    ],
+    "reviewer_criticisms": [
+      "The reliability of the mobile attention task in this specific clinical population is untested.",
+      "The study fails to measure and account for potential confounding by medication characteristics and baseline severity.",
+      "Recruitment from one clinic lacked a feasible retention plan.",
+      "The causal language used throughout the proposal exceeded what can be inferred from an observational design."
+    ],
+    "gaps": [],
+    "inconsistencies": [],
+    "rejected": [
+      "Problem 3: The schema strictly requires 3-5 reviewer criticisms. Appending both R5 and R6 results in 6 criticisms, which fails the schema validation. I have rejected this change and kept the original 4 criticisms to comply with the limit."
+    ]
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "individual",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "clinical psychology",
+          "nursing",
+          "behavioural measurement"
+        ],
+        "method_profile": "quantitative",
+        "country": "US",
+        "files": [
+          {
+            "path": "cv_thorne.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\nOMB No. 0925-0001 and 0925-0002 (Rev. 12/2020 Approved Through 02/28/2023)\nBIOGRAPHICAL SKETCH\nProvide the following information for the Senior/key personnel and other significant contributors.\nFollow this format for each person. DO NOT EXCEED FIVE PAGES.\n\nNAME: Thorne, Elias V.\neRA COMMONS USER NAME (credential, e.g., agency login): ETHORNE_OSU\nPOSITION TITLE: Associate Professor of Clinical Psychology\nEDUCATION/TRAINING\nInstitution and Location | Degree | Completion Date | Field of Study\n--- | --- | --- | ---\nUniversity of Northern California, CA | B.S. | 05/2006 | Psychology\nMidwestern Research University, IL | Ph.D. | 05/2012 | Clinical Psychology\nOakhaven Medical Center, US | Postdoctoral | 08/2014 | Behavioral Medicine\n\nA. Personal Statement\nMy research program focuses on the intersection of daily psychological stress, cognitive capacity (specifically attention), and health behaviors in adult outpatient populations. I have extensive experience designing and implementing Ecological Momentary Assessment (EMA) protocols to capture real-time fluctuations in stress and symptom severity. As a clinical psychologist, I am particularly interested in how transient cognitive deficits, such as reduced attentional control during periods of high stress, compromise patients' ability to adhere to complex medication routines. My laboratory at Oakhaven State University has successfully conducted several observational studies utilizing mobile health (mHealth) technologies to monitor behavioral routines. In the proposed resubmission, I will lead the research team, oversee the EMA and cognitive testing protocols, and direct the statistical analyses. I have a long-standing collaboration with Clara M. Jenkins, RN, MSN, which ensures our protocols are clinically grounded and feasible within the outpatient workflow.\n\nB. Positions, Scientific Appointments, and Honors\nPositions and Scientific Appointments\n2021 - Present | Associate Professor, Department of Clinical Psychology, Oakhaven State University\n2014 - 2021 | Assistant Professor, Department of Clinical Psychology, Oakhaven State University\n2012 - 2014 | Postdoctoral Fellow, Behavioral Medicine, Oakhaven Medical Center\n\nHonors\n2023 | Excellence in Clinical Research Award, Oakhaven State University\n2019 | Early Career Investigator Award, Society for Behavioral Medicine Research\n\nC. Contributions to Science\n1. Ecological Momentary Assessment of Stress in Clinical Populations. Early in my career, I focused on validating EMA protocols for capturing daily stress fluctuations in adults with chronic conditions. We demonstrated that high-frequency sampling (e.g., 4-6 times daily) is feasible and provides a more accurate representation of stress burden than retrospective questionnaires.\n2. Mobile Cognitive Testing. I have contributed to the adaptation of traditional neuropsychological paradigms for mobile platforms. Specifically, my lab has worked on deploying Continuous Performance Tests (CPTs) on smartphones to measure sustained attention in naturalistic settings.\n3. Behavioral Determinants of Medication Adherence. My recent work investigates the psychological barriers to medication adherence. We have identified that self-reported stress is a significant predictor of missed doses, independent of socioeconomic factors.\n\nD. Research Support\nOngoing Research Support\nNone currently active.\n\nCompleted Research Support\nR03 MH119882 (PI: Thorne) | 07/01/2021 - 06/30/2023\nNIH/NIMH\nFeasibility of Mobile Attention Tracking in Outpatient Psychiatry\nThe goal of this project was to assess the usability and acceptability of a smartphone-based cognitive testing battery among adult psychiatric outpatients.\nRole: PI"
+          },
+          {
+            "path": "cv_jenkins.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\nOMB No. 0925-0001 and 0925-0002 (Rev. 12/2020 Approved Through 02/28/2023)\nBIOGRAPHICAL SKETCH\n\nNAME: Jenkins, Clara M.\neRA COMMONS USER NAME (credential, e.g., agency login): CJENKINS_OMC\nPOSITION TITLE: Clinical Research Nurse\nEDUCATION/TRAINING\nInstitution and Location | Degree | Completion Date | Field of Study\n--- | --- | --- | ---\nOakhaven State University, US | B.S.N. | 05/2010 | Nursing\nOakhaven State University, US | M.S.N. | 05/2015 | Nursing Administration\n\nA. Personal Statement\nI am a Clinical Research Nurse at the Oakhaven Medical Center Outpatient Clinic with over a decade of experience in patient care and clinical research coordination. My clinical background is in adult chronic disease management, with a specific focus on care transitions and medication education. I have collaborated with Dr. Elias Thorne on multiple projects investigating behavioral health routines. My role in the proposed research will be to facilitate patient recruitment, oversee the informed consent process, conduct the baseline clinical assessments, and manage the medication adherence tracking (including pill counts and self-report logs). I am intimately familiar with the patient population at our clinic, including the post-discharge subgroup, and I have extensive experience navigating the institutional review board (IRB) requirements for observational research.\n\nB. Positions, Scientific Appointments, and Honors\nPositions and Scientific Appointments\n2016 - Present | Clinical Research Nurse, Oakhaven Medical Center Outpatient Clinic\n2010 - 2016 | Staff Nurse, Internal Medicine Unit, Oakhaven Medical Center\n\nC. Contributions to Science\n1. Nursing Perspectives on Medication Routines. I have co-authored research highlighting the practical challenges patients face when managing complex medication regimens after discharge. My work emphasizes the need for simplified dosing schedules and the role of nursing interventions in improving adherence.\n2. Clinical Implementation of mHealth Tools. I have played a key role in integrating mobile health assessments into standard outpatient workflows, ensuring that research protocols do not disrupt clinical care and are accessible to patients with varying levels of digital literacy.\n\nD. Research Support\nCompleted Research Support\nR03 MH119882 (PI: Thorne) | 07/01/2021 - 06/30/2023\nNIH/NIMH\nFeasibility of Mobile Attention Tracking in Outpatient Psychiatry\nRole: Clinical Coordinator"
+          },
+          {
+            "path": "prior_application_a0.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n**Title:** Stress, Attention, and Medication Routines in Adult Outpatient Follow-up\n**Principal Investigator:** Elias V. Thorne, Ph.D.\n**Submission Date:** February 16, 2026\n**Application Type:** NIH R21 (A0)\n\n## SPECIFIC AIMS\n\nMedication nonadherence is a pervasive problem in adult outpatient care, leading to poor clinical outcomes and increased healthcare utilization. While chronic stress is a known risk factor for nonadherence, the daily, dynamic mechanisms linking transient stress to missed medication doses remain poorly understood. Traditional models often rely on retrospective self-reports, which fail to capture the real-time cognitive fluctuations that occur during stressful episodes. We hypothesize that acute daily stress depletes attentional capacity, which in turn disrupts the execution of established medication routines. \n\nTo test this hypothesis, we propose an intensive longitudinal observational study utilizing Ecological Momentary Assessment (EMA) and mobile cognitive testing. We will recruit 80 adults from the Oakhaven Medical Center Outpatient Clinic and follow them for 6 months. By capturing daily variations in stress, attention, and adherence, this study will establish the causal effect of daily stress on medication adherence and identify the cognitive pathways involved.\n\n**Aim 1: Quantify the association between daily stress and medication adherence during a 6-month outpatient follow-up.**\nWe will use EMA to measure daily stress levels and daily self-reports combined with monthly pill counts to track medication adherence. We will determine the causal impact of stress on adherence, hypothesizing that days characterized by higher-than-average stress will be significantly associated with missed medication doses.\n\n**Aim 2: Determine if attention capacity mediates the stress-adherence relationship.**\nParticipants will complete a custom mobile Continuous Performance Test (mCPT) on their smartphones to assess sustained attention during high- and low-stress periods. We hypothesize that acute stress will cause a measurable deficit in mCPT performance, and that this attentional deficit will fully mediate the causal pathway between daily stress and medication nonadherence.\n\n## RESEARCH STRATEGY\n\n### A. Significance\nMedication adherence is critical for the management of chronic conditions in outpatient settings. Approximately 50% of patients do not take their medications as prescribed. Nonadherence is a complex behavior influenced by patient, provider, and systemic factors. Among patient-level factors, psychological stress is consistently cited as a primary barrier. However, the mechanisms by which stress disrupts adherence are not fully elucidated. \n\nCurrent literature suggests that stress impairs executive functioning, particularly sustained attention and working memory. Managing a daily medication routine requires prospective memory and attentional control—cognitive resources that are easily depleted by acute stressors. If attention mediates the stress-adherence relationship, interventions could be designed to either bolster attentional capacity or simplify medication routines during periods of high stress. This project addresses a critical gap by measuring these variables in real-time, naturalistic settings.\n\n### B. Innovation\nThis study is innovative in its use of high-frequency, mobile-based cognitive testing alongside EMA. While EMA has been used to track stress and mood, the integration of a mobile Continuous Performance Test (mCPT) allows for the objective measurement of attentional capacity in the patient's natural environment. This approach moves beyond static, in-lab neuropsychological assessments, providing a dynamic picture of cognitive functioning as it fluctuates with daily stress. Furthermore, the intensive 6-month follow-up period provides unprecedented longitudinal data on the stability of medication routines over time.\n\n### C. Approach\n\n**Participants and Setting**\nWe will recruit 80 adults receiving care at the Oakhaven Medical Center Outpatient Clinic. Inclusion criteria: (1) age 18-65; (2) prescribed at least one daily oral medication for a chronic condition; (3) own a smartphone compatible with the study application. Exclusion criteria: (1) diagnosed cognitive impairment (e.g., dementia); (2) non-English speaking. Recruitment will occur during routine clinic visits, facilitated by the clinical research nurse.\n\n**Procedures**\nFollowing informed consent, participants will complete a baseline assessment capturing demographic information and clinical history. They will then install the study application on their smartphones. The observation period will last for 6 months. \n- **EMA Protocol:** Participants will receive two prompts per day (randomly scheduled within morning and evening windows) to report their current stress levels.\n- **Mobile Cognitive Testing:** Twice a week, immediately following an EMA prompt, participants will be prompted to complete the 3-minute mCPT.\n- **Adherence Tracking:** Participants will log their daily medication intake in the app. Additionally, they will return to the clinic monthly for a pill count conducted by the research nurse.\n\n**Measures**\n- *Daily Stress:* Measured using a validated 4-item EMA stress scale (e.g., \"Right now, I feel overwhelmed\").\n- *Attention:* Measured using the mCPT. The task requires participants to tap the screen when a target letter appears and withhold tapping for non-targets. The primary metric is the d-prime (d') sensitivity index.\n- *Medication Adherence:* Calculated as the percentage of prescribed doses taken, derived from a combination of daily self-report and monthly pill counts.\n\n**Statistical Analysis**\nData will be analyzed using multilevel mixed-effects models to account for the nested structure of the data (days nested within individuals). \n- For Aim 1, we will model daily adherence (binary: missed vs. taken) as a function of daily stress, controlling for time and weekend effects. \n- For Aim 2, we will conduct a multilevel mediation analysis. We will test the a-path (stress predicting mCPT performance), the b-path (mCPT performance predicting adherence), and the c'-path (direct effect of stress on adherence controlling for mCPT). \nWe anticipate that the 80-person cohort, providing up to 180 days of data each, will yield sufficient power (>0.80) to detect small-to-medium causal effects. \n\n**Potential Pitfalls and Alternative Strategies**\nParticipant burden is a potential issue with a 6-month EMA protocol. To mitigate this, the mCPT is kept brief (3 minutes) and is only administered twice weekly. If compliance drops below 70%, we will reduce the EMA frequency to once daily."
+          },
+          {
+            "path": "summary_statement_a0.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n**PROGRAM CONTACT:**\nDr. Sarah L. Chen\nScientific Review Officer\nCenter for Scientific Review, NIH\n\n**SUMMARY STATEMENT**\n(Privileged Communication)\nRelease Date: June 12, 2026\n\n**Application Number:** 1 R21 MH135792-01\n**Principal Investigator:** THORNE, ELIAS V\n**Applicant Organization:** OAKHAVEN STATE UNIVERSITY\n**Review Group:** ZRG1 BBBP-Y (02) Behavioral Interventions and Outcomes\n**Meeting Date:** June 04, 2026\n**Council:** August 2026\n**Requested Start:** December 01, 2026\n\n**OVERALL IMPACT SCORE: 48**\n\n**RESUME AND SUMMARY OF DISCUSSION:**\nThis R21 application proposes an intensive longitudinal observational study to examine the relationship between daily stress, attentional capacity, and medication adherence in 80 adult outpatients over a 6-month period. The panel noted that the research question is highly significant, as medication nonadherence remains a major clinical challenge, and the use of mobile cognitive testing (mCPT) alongside Ecological Momentary Assessment (EMA) is an innovative approach to capturing real-time data. The Principal Investigator has a solid track record in EMA methodologies. \n\nHowever, enthusiasm was significantly dampened by several major methodological and conceptual flaws. First, the reliability of the mobile attention task in this specific clinical population is untested, raising concerns about the validity of the mediation analysis. Second, medication class and baseline severity confounded the stress association, and the analysis plan fails to account for them. Third, recruitment from one clinic lacked a feasible retention plan for the demanding 6-month follow-up. Finally, the causal language exceeded an observational design, as the study cannot definitively establish causality without experimental manipulation. Overall, while the premise is intriguing, the application requires substantial revision to address these critical weaknesses.\n\n**CRITERION SCORES:**\nSignificance: 3\nInvestigator(s): 2\nInnovation: 3\nApproach: 6\nEnvironment: 2\n\n**CRITIQUE 1**\n**Significance:** 3\n**Investigator(s):** 2\n**Innovation:** 3\n**Approach:** 6\n**Environment:** 2\n\n**Overall Impact:** The project addresses an important clinical issue using novel mobile health tools. The PI is well-qualified. However, the approach has significant gaps that threaten the interpretability of the data.\n\n**Strengths:**\n- The focus on real-time cognitive fluctuations as a mechanism for nonadherence is a fresh perspective.\n- The PI has demonstrated expertise in deploying EMA protocols.\n\n**Weaknesses:**\n- The reliability of the mobile attention task in this specific clinical population is untested. Without established test-retest reliability for the mCPT in this cohort, the mediation analysis (Aim 2) rests on shaky ground.\n- Medication class and baseline severity confounded the stress association, and the analysis plan does not account for them. Different medications have different side effect profiles and dosing complexities, and baseline psychiatric or medical severity likely drives both stress and adherence.\n\n**CRITIQUE 2**\n**Significance:** 4\n**Investigator(s):** 2\n**Innovation:** 2\n**Approach:** 6\n**Environment:** 2\n\n**Overall Impact:** The innovative use of mCPT is commendable, but the study design is overly ambitious for the proposed sample and setting without adequate safeguards against attrition.\n\n**Strengths:**\n- The integration of objective cognitive testing with self-reported stress is highly innovative.\n- The clinical environment at Oakhaven Medical Center is appropriate for the study.\n\n**Weaknesses:**\n- Recruitment from one clinic lacked a feasible retention plan. Expecting 80 outpatients to complete daily EMA and twice-weekly cognitive tests for 6 months with only monthly clinic visits for pill counts is unrealistic. Attrition is likely to be high, and no specific retention strategies are proposed.\n- The statistical power analysis does not adequately account for the expected missing data inherent in a 6-month EMA study.\n\n**CRITIQUE 3**\n**Significance:** 3\n**Investigator(s):** 3\n**Innovation:** 3\n**Approach:** 5\n**Environment:** 2\n\n**Overall Impact:** A conceptually interesting proposal that is undermined by a mismatch between the study design and the claims made regarding causal inference.\n\n**Strengths:**\n- The theoretical model linking stress, attention, and routine execution is well-supported by background literature.\n\n**Weaknesses:**\n- The causal language used throughout the proposal exceeded what can be inferred from an observational design. The PI repeatedly states the study will \"establish the causal effect\" and \"determine the causal impact.\" As an observational study, unmeasured confounding cannot be ruled out, and such deterministic causal claims are inappropriate.\n- The reliance on self-report for medication adherence, even when supplemented by monthly pill counts, remains susceptible to social desirability bias."
+          },
+          {
+            "path": "update_report_sept2026.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n**Internal Status Report and Resubmission Preparations**\n**Project:** Stress, Attention, and Medication Routines (R21 Resubmission)\n**Date:** 28 September 2026\n**Prepared by:** Elias V. Thorne, PI\n\nThis report outlines the changes and preliminary work completed since receiving the summary statement for our R21 A0 submission in June 2026. We are preparing for an A1 resubmission and have systematically addressed the four major criticisms raised by the review panel.\n\n**1. Attention-Task Reliability**\n*Criticism:* The reliability of the mobile attention task in this specific clinical population is untested.\n*Action Taken:* To establish the psychometric properties of our custom mCPT, we conducted a separate 24-adult task-retest pilot study in August 2026. Participants were recruited from the Oakhaven clinic and completed the mCPT twice, two weeks apart. \n*Result:* The pilot estimates the mCPT reliability at an ICC of 0.62 (95% CI 0.37 to 0.79). While not perfect, this demonstrates acceptable reliability for mobile cognitive testing in a naturalistic setting and provides the necessary preliminary data to support Aim 2.\n\n**2. Confounding Variables**\n*Criticism:* Medication class and baseline severity confounded the stress association, and the analysis plan does not account for them.\n*Action Taken:* We have revised the study protocol and analysis plan. Medication coding (categorizing by class and dosing frequency) and a baseline-severity instrument (the Brief Symptom Inventory, BSI) have been added to the protocol. These variables will be included as covariates in all multilevel mixed-effects models to adjust for their confounding effects on both daily stress and adherence.\n\n**3. Recruitment and Retention**\n*Criticism:* Recruitment from one clinic lacked a feasible retention plan.\n*Action Taken:* We have developed a comprehensive retention strategy. Reminder scripts (delivered via SMS and phone calls by the research nurse) and a $50 travel reimbursement per in-person visit are planned. We acknowledge in the revised approach that these retention improvements have not been tested in our specific population yet, but they align with best practices for longitudinal observational research.\n\n**4. Causal Inference**\n*Criticism:* The causal language exceeded an observational design.\n*Action Taken:* We have completely revised the narrative to remove deterministic causal language. The Directed Acyclic Graph (DAG) now distinguishes association from mediation assumptions. We explicitly state the assumptions required for causal inference in an observational design and have added sensitivity analyses to quantify the potential impact of unmeasured confounding.\n\n**Current Status of Cohort and Clinic Access**\n- **Cohort Status:** The proposed 80-person cohort has zero recruited participants. Recruitment will be entirely prospective upon funding. The 24 adults from the reliability pilot will not be included in the main cohort.\n- **Clinic Access and Linkage:** Our existing clinic access covers adult observational work. However, we discovered that electronic health record linkage requires a new consent form; the currently approved IRB form does not authorise pharmacy-record linkage. Given the timeline, a no-linkage observational alternative is feasible. We will rely on the validated combination of daily self-report and monthly in-person pill counts, which does not require pharmacy record linkage.\n- **Care-Transition Subgroup:** To align with emerging funding priorities, our care-transition emphasis can focus on the existing clinic's post-discharge subgroup with planned sampling. This allows us to retain the original research question regarding stress and medication routines while specifically observing patients navigating the vulnerable post-discharge period."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n**Selected Peer-Reviewed Publications**\n**Elias V. Thorne & Clara M. Jenkins**\n\n1. Thorne, E. V., Jenkins, C. M., & Quenneville, R. (2024). Ecological momentary assessment of stress in outpatient settings: Methodological considerations and compliance rates. *Journal of Behavioral Medicine Assessment*, 12(3), 210-225. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2024.1\n\n2. Thorne, E. V., & Miller, A. T. (2022). Mobile cognitive testing in clinical populations: A review of continuous performance test adaptations. *Digital Neuropsychology*, 8(1), 45-59. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2022.1\n\n3. Jenkins, C. M., & Thorne, E. V. (2025). Nursing perspectives on medication routines in chronic care: The impact of daily stress. *Clinical Nursing Research Quarterly*, 19(4), 301-315. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2025.1\n\n4. Thorne, E. V., Davis, L. K., & Jenkins, C. M. (2021). The role of sustained attention in executing complex behavioral routines. *Cognitive and Behavioral Practice*, 28(2), 150-162. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2021.1"
+          },
+          {
+            "path": "resources_and_team.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n**FACILITIES AND OTHER RESOURCES**\n\n**Oakhaven State University (OSU)**\n*Laboratory:* Dr. Thorne directs the Behavioral Dynamics Laboratory at OSU. The lab is equipped with 5 high-performance workstations dedicated to data processing, statistical modeling, and the management of Ecological Momentary Assessment (EMA) datasets. The lab holds secure, HIPAA-compliant server space for storing encrypted mobile health data.\n*Computer:* The university provides access to a high-performance computing cluster for intensive multilevel modeling and simulation analyses. Software licenses for SAS, R, and Mplus are maintained by the department.\n*Office:* Dr. Thorne has a private office (150 sq. ft.) adjacent to the laboratory, equipped with standard computing and communication technology.\n\n**Oakhaven Medical Center (OMC)**\n*Clinical:* The OMC Outpatient Clinic serves a diverse population of adults managing chronic medical and psychiatric conditions. The clinic sees approximately 1,200 unique patients annually. Existing clinic access covers adult observational work, providing a robust recruitment pool for the proposed study. The clinic includes dedicated private consultation rooms where the clinical research nurse can conduct informed consent procedures, baseline assessments, and monthly pill counts without interrupting standard clinical workflow. \n*Care-Transition Subgroup:* The clinic maintains a specific registry of patients who have been recently discharged from inpatient care and are transitioning to outpatient management. This post-discharge subgroup is available for planned sampling.\n\n**TEAM DESCRIPTION**\n\n**Elias V. Thorne, Ph.D. (Principal Investigator)**\nDr. Thorne is an Associate Professor of Clinical Psychology at OSU. He will be responsible for the overall scientific direction of the project. He will oversee the refinement of the EMA and mobile cognitive testing (mCPT) protocols, direct the statistical analyses (including the multilevel mediation models and sensitivity analyses for unmeasured confounding), and ensure compliance with all human subjects regulations. Dr. Thorne has a proven track record of successfully executing mobile health research in clinical populations.\n\n**Clara M. Jenkins, RN, MSN (Clinical Research Nurse)**\nMs. Jenkins is a full-time Clinical Research Nurse at OMC. She will serve as the primary liaison between the research team and the clinic. Her responsibilities include screening electronic health records for eligible participants, conducting the informed consent process, administering the baseline-severity instrument (Brief Symptom Inventory), and executing the retention plan (including reminder scripts and processing travel reimbursements). She will also perform the monthly in-person pill counts. Her extensive experience with the clinic's patient population, particularly the post-discharge subgroup, is critical for the feasibility of the recruitment and retention strategy."
+          }
+        ],
+        "facts": [
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The prior R21 A0 application proposed observing stress, attention and medication routines in 80 adults.",
+            "value": "80",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The summary statement for the A0 submission was released on June 12, 2026.",
+            "value": "June 12, 2026",
+            "salient": true,
+            "source": "summary_statement_a0.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "A separate task-retest pilot study enrolled 24 adults.",
+            "value": "24",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The pilot study estimates the mCPT reliability at an ICC of 0.62.",
+            "value": "0.62",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The 95% confidence interval for the pilot ICC is 0.37 to 0.79.",
+            "value": "0.37 to 0.79",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Medication coding and a baseline-severity instrument have been added to the protocol.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Reminder scripts and a $50 travel reimbursement per in-person visit are planned.",
+            "value": "$50",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The retention improvements have not been tested in the specific population yet.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "The DAG now distinguishes association from mediation assumptions and includes sensitivity analyses.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The proposed 80-person cohort has zero recruited participants.",
+            "value": "zero",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The currently approved IRB form does not authorise pharmacy-record linkage.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "A no-linkage observational alternative relying on self-report and pill counts is feasible.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "The care-transition emphasis can focus on the existing clinic's post-discharge subgroup with planned sampling.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The OMC Outpatient Clinic sees approximately 1,200 unique patients annually.",
+            "value": "1,200",
+            "salient": false,
+            "source": "resources_and_team.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The A0 submission received an overall impact score of 48.",
+            "value": "48",
+            "salient": true,
+            "source": "summary_statement_a0.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "Thorne2024",
+            "authors": [
+              "Thorne, E. V.",
+              "Jenkins, C. M.",
+              "Quenneville, R."
+            ],
+            "year": 2024,
+            "title": "Ecological momentary assessment of stress in outpatient settings: Methodological considerations and compliance rates",
+            "venue": "Journal of Behavioral Medicine Assessment",
+            "doi": "10.99999/pb.v2-stress-attention-a1-lab.2024.1"
+          },
+          {
+            "key": "Thorne2022",
+            "authors": [
+              "Thorne, E. V.",
+              "Miller, A. T."
+            ],
+            "year": 2022,
+            "title": "Mobile cognitive testing in clinical populations: A review of continuous performance test adaptations",
+            "venue": "Digital Neuropsychology",
+            "doi": "10.99999/pb.v2-stress-attention-a1-lab.2022.1"
+          },
+          {
+            "key": "Jenkins2025",
+            "authors": [
+              "Jenkins, C. M.",
+              "Thorne, E. V."
+            ],
+            "year": 2025,
+            "title": "Nursing perspectives on medication routines in chronic care: The impact of daily stress",
+            "venue": "Clinical Nursing Research Quarterly",
+            "doi": "10.99999/pb.v2-stress-attention-a1-lab.2025.1"
+          },
+          {
+            "key": "Thorne2021",
+            "authors": [
+              "Thorne, E. V.",
+              "Davis, L. K.",
+              "Jenkins, C. M."
+            ],
+            "year": 2021,
+            "title": "The role of sustained attention in executing complex behavioral routines",
+            "venue": "Cognitive and Behavioral Practice",
+            "doi": "10.99999/pb.v2-stress-attention-a1-lab.2021.1"
+          }
+        ],
+        "reviewer_criticisms": [
+          "The reliability of the mobile attention task in this specific clinical population is untested.",
+          "Medication class and baseline severity confounded the stress association, and the analysis plan does not account for them.",
+          "Recruitment from one clinic lacked a feasible retention plan.",
+          "The causal language used throughout the proposal exceeded what can be inferred from an observational design."
+        ],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1, Dossier 6",
+          "where": "cv_thorne.md, EDUCATION/TRAINING; publications.md, publication 4; dossier.yaml, Thorne2021",
+          "problem": "University of Northern California is a real institution name, and Cognitive and Behavioral Practice is a real journal. The fictional-document notice and fictional DOI do not make these entities fictional.",
+          "fix": "Replace the institution and journal with distinct invented names, updating every corresponding reference in the documents and YAML."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 9",
+          "where": "summary_statement_a0.md, CRITERION SCORES and CRITIQUE 1–3",
+          "problem": "The February 2026 R21 application is presented under the former five separately scored review criteria. R21 applications submitted for due dates from January 25, 2025 use NIH's simplified review framework: two scored factors and an expertise/resources sufficiency assessment. The supplied report therefore does not use the applicable funder format.",
+          "fix": "Reformat the summary statement using Importance of the Research, Rigor and Feasibility, and Expertise and Resources, retaining the substantive criticisms. Also distinguish the program contact from the Scientific Review Officer rather than presenting the latter as the program contact."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 7",
+          "where": "cv_thorne.md; cv_jenkins.md; publications.md; resources_and_team.md",
+          "problem": "These documents have no preparation date or September 2026 status date. Statements such as 'Present', 'None currently active', current employment, and available facilities are consequently not anchored to the required dossier snapshot. The September update does not expressly reconfirm these documents.",
+          "fix": "Date each document no later than September 2026 and explicitly establish the effective date of current appointments, support, publications and resource availability."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "cv_thorne.md and cv_jenkins.md, form header and Section D",
+          "problem": "The biographies use an expired legacy NIH template and retain a Research Support section inappropriate to the current biosketch format. As current materials for a September 2026 resubmission, they do not resemble the required NIH Common Form and supplement.",
+          "fix": "Use the applicable 2026 biosketch structure, with support information in an appropriately separate document, or clearly present these as dated internal CVs without obsolete NIH form headers."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, facts",
+          "problem": "The registry omits numerous proposal-relevant numbers and statuses: the six-month observation period, EMA and mCPT frequencies, three-minute task duration, monthly pill counts, eligibility ages, pilot timing and two-week retest interval, exclusion of pilot participants from the main cohort, completed R03 support and its dates, absence of active support, current appointments, and existing computing and clinical resources. The annual clinic population is also marked nonsalient despite its recruitment relevance.",
+          "fix": "Register these facts with their exact source values and historical, current or planned status. Include available recruitment resources and explicit limitations, and mark recruitment-relevant quantities salient."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, F06, F09 and F13",
+          "problem": "These entries conflate completed preparations with future implementation. The report says protocol amendments and a revised DAG already exist, while measurement and analyses remain prospective. F09 additionally says the DAG includes sensitivity analyses, although the source describes sensitivity analyses as a separate addition. F13 does not separately register the existing post-discharge registry.",
+          "fix": "Split completed protocol and DAG revisions from planned data collection and analyses. Record the existing subgroup registry separately from planned sampling, and describe sensitivity analyses independently of the DAG."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 2, Dossier 4",
+          "where": "update_report_sept2026.md, Attention-Task Reliability",
+          "problem": "The ICC result lacks the ICC model, agreement/consistency definition, single/average-measure specification, confidence-interval method and explicit number of complete pairs. More substantively, a two-week retest ICC does not establish reliable measurement of the within-person attention fluctuations required for mediation. Calling the result acceptable support for Aim 2 overlooks both that distinction and the lower confidence bound of 0.37.",
+          "fix": "Document the estimand, calculation and complete-pair sample size. Describe the finding as preliminary retest evidence, identify the unresolved within-person measurement limitation, and state any further reliability assessment or measurement-error analysis as planned."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "update_report_sept2026.md, Confounding Variables; resources_and_team.md, Jenkins responsibilities",
+          "problem": "The Brief Symptom Inventory measures psychological symptoms, but the cohort includes adults with chronic medical as well as psychiatric conditions. It does not by itself measure the medical disease severity raised in the review. The update treats adding this instrument and medication coding as sufficient adjustment for the stated confounding problem.",
+          "fix": "Identify psychological symptom severity accurately and acknowledge residual medical-severity confounding. Add a planned condition-appropriate severity assessment, justify a narrower population, or specify an analysis limitation and mitigation without claiming confounding has been eliminated."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3, Dossier 4",
+          "where": "update_report_sept2026.md, Clinic Access and Linkage",
+          "problem": "The report calls the combination of daily self-report and monthly pill counts 'validated', but supplies no validation evidence or defined combination rule. Monthly pill counts cannot independently verify which daily doses were taken, and the review explicitly identifies continuing self-report bias.",
+          "fix": "Remove the unsupported validation claim or supply documented validation for a precisely defined measure. Distinguish daily self-reported adherence from monthly aggregate corroboration and record the remaining measurement limitations."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 9",
+          "where": "update_report_sept2026.md, opening and changes 1–4; summary_statement_a0.md, Critiques 2 and 3",
+          "problem": "The changes report does not explain the disposition of two explicit review criticisms: power calculations that ignore missing data and adherence measurement susceptible to social desirability bias. It therefore does not make plain which criticisms remain unanswered. The new 'validated combination' wording further obscures the unresolved adherence concern.",
+          "fix": "Add a dated response for each outstanding criticism, stating what changed and what remains unresolved. Any revised power simulation or adherence validation must be identified as completed with supporting results or as planned."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "summary_statement_a0.md, medication-confounding criticism; update_report_sept2026.md, section 2; dossier.yaml, R2",
+          "problem": "The reviewer states that medication class and baseline severity 'confounded the stress association' as an established empirical finding. The A0 contains no observed stress-adherence association, and the main cohort has no recruited participants. The supplied evidence supports a concern about potential confounding, not a demonstrated confounding result.",
+          "fix": "Rephrase the criticism consistently as failure to measure and account for potential confounding by medication characteristics and baseline severity. Preserve its substance in the update, hidden criticism entry and associated trap premise."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "applicant_type": "individual",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "clinical psychology",
+          "nursing",
+          "behavioural measurement"
+        ],
+        "method_profile": "quantitative",
+        "country": "US",
+        "files": [
+          {
+            "path": "cv_thorne.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n**Internal Curriculum Vitae**\n**Date:** September 2026\n\n**NAME:** Thorne, Elias V.\n**POSITION TITLE:** Associate Professor of Clinical Psychology\n\n**EDUCATION/TRAINING**\nInstitution and Location | Degree | Completion Date | Field of Study\n--- | --- | --- | ---\nNorthern Pacific State University, CA | B.S. | 05/2006 | Psychology\nMidwestern Research University, IL | Ph.D. | 05/2012 | Clinical Psychology\nOakhaven Medical Center, US | Postdoctoral | 08/2014 | Behavioral Medicine\n\n**A. Personal Statement**\nMy research program focuses on the intersection of daily psychological stress, cognitive capacity (specifically attention), and health behaviors in adult outpatient populations. I have extensive experience designing and implementing Ecological Momentary Assessment (EMA) protocols to capture real-time fluctuations in stress and symptom severity. As a clinical psychologist, I am particularly interested in how transient cognitive deficits, such as reduced attentional control during periods of high stress, compromise patients' ability to adhere to complex medication routines. My laboratory at Oakhaven State University has successfully conducted several observational studies utilizing mobile health (mHealth) technologies to monitor behavioral routines. In the proposed resubmission, I will lead the research team, oversee the EMA and cognitive testing protocols, and direct the statistical analyses. I have a long-standing collaboration with Clara M. Jenkins, RN, MSN, which ensures our protocols are clinically grounded and feasible within the outpatient workflow.\n\n**B. Positions, Scientific Appointments, and Honors**\n*Positions and Scientific Appointments*\n2021 - Present | Associate Professor, Department of Clinical Psychology, Oakhaven State University\n2014 - 2021 | Assistant Professor, Department of Clinical Psychology, Oakhaven State University\n2012 - 2014 | Postdoctoral Fellow, Behavioral Medicine, Oakhaven Medical Center\n\n*Honors*\n2023 | Excellence in Clinical Research Award, Oakhaven State University\n2019 | Early Career Investigator Award, Society for Behavioral Medicine Research\n\n**C. Contributions to Science**\n1. Ecological Momentary Assessment of Stress in Clinical Populations. Early in my career, I focused on validating EMA protocols for capturing daily stress fluctuations in adults with chronic conditions. We demonstrated that high-frequency sampling (e.g., 4-6 times daily) is feasible and provides a more accurate representation of stress burden than retrospective questionnaires.\n2. Mobile Cognitive Testing. I have contributed to the adaptation of traditional neuropsychological paradigms for mobile platforms. Specifically, my lab has worked on deploying Continuous Performance Tests (CPTs) on smartphones to measure sustained attention in naturalistic settings.\n3. Behavioral Determinants of Medication Adherence. My recent work investigates the psychological barriers to medication adherence. We have identified that self-reported stress is a significant predictor of missed doses, independent of socioeconomic factors.\n\n**D. Research Support**\n*Ongoing Research Support*\nNone currently active.\n\n*Completed Research Support*\nR03 MH119882 (PI: Thorne) | 07/01/2021 - 06/30/2023\nNIH/NIMH\nFeasibility of Mobile Attention Tracking in Outpatient Psychiatry\nThe goal of this project was to assess the usability and acceptability of a smartphone-based cognitive testing battery among adult psychiatric outpatients.\nRole: PI"
+          },
+          {
+            "path": "cv_jenkins.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n**Internal Curriculum Vitae**\n**Date:** September 2026\n\n**NAME:** Jenkins, Clara M.\n**POSITION TITLE:** Clinical Research Nurse\n\n**EDUCATION/TRAINING**\nInstitution and Location | Degree | Completion Date | Field of Study\n--- | --- | --- | ---\nOakhaven State University, US | B.S.N. | 05/2010 | Nursing\nOakhaven State University, US | M.S.N. | 05/2015 | Nursing Administration\n\n**A. Personal Statement**\nI am a Clinical Research Nurse at the Oakhaven Medical Center Outpatient Clinic with over a decade of experience in patient care and clinical research coordination. My clinical background is in adult chronic disease management, with a specific focus on care transitions and medication education. I have collaborated with Dr. Elias Thorne on multiple projects investigating behavioral health routines. My role in the proposed research will be to facilitate patient recruitment, oversee the informed consent process, conduct the baseline clinical assessments, and manage the medication adherence tracking (including pill counts and self-report logs). I am intimately familiar with the patient population at our clinic, including the post-discharge subgroup, and I have extensive experience navigating the institutional review board (IRB) requirements for observational research.\n\n**B. Positions, Scientific Appointments, and Honors**\n*Positions and Scientific Appointments*\n2016 - Present | Clinical Research Nurse, Oakhaven Medical Center Outpatient Clinic\n2010 - 2016 | Staff Nurse, Internal Medicine Unit, Oakhaven Medical Center\n\n**C. Contributions to Science**\n1. Nursing Perspectives on Medication Routines. I have co-authored research highlighting the practical challenges patients face when managing complex medication regimens after discharge. My work emphasizes the need for simplified dosing schedules and the role of nursing interventions in improving adherence.\n2. Clinical Implementation of mHealth Tools. I have played a key role in integrating mobile health assessments into standard outpatient workflows, ensuring that research protocols do not disrupt clinical care and are accessible to patients with varying levels of digital literacy.\n\n**D. Research Support**\n*Completed Research Support*\nR03 MH119882 (PI: Thorne) | 07/01/2021 - 06/30/2023\nNIH/NIMH\nFeasibility of Mobile Attention Tracking in Outpatient Psychiatry\nRole: Clinical Coordinator"
+          },
+          {
+            "path": "prior_application_a0.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n**Title:** Stress, Attention, and Medication Routines in Adult Outpatient Follow-up\n**Principal Investigator:** Elias V. Thorne, Ph.D.\n**Submission Date:** February 16, 2026\n**Application Type:** NIH R21 (A0)\n\n## SPECIFIC AIMS\n\nMedication nonadherence is a pervasive problem in adult outpatient care, leading to poor clinical outcomes and increased healthcare utilization. While chronic stress is a known risk factor for nonadherence, the daily, dynamic mechanisms linking transient stress to missed medication doses remain poorly understood. Traditional models often rely on retrospective self-reports, which fail to capture the real-time cognitive fluctuations that occur during stressful episodes. We hypothesize that acute daily stress depletes attentional capacity, which in turn disrupts the execution of established medication routines. \n\nTo test this hypothesis, we propose an intensive longitudinal observational study utilizing Ecological Momentary Assessment (EMA) and mobile cognitive testing. We will recruit 80 adults from the Oakhaven Medical Center Outpatient Clinic and follow them for 6 months. By capturing daily variations in stress, attention, and adherence, this study will establish the causal effect of daily stress on medication adherence and identify the cognitive pathways involved.\n\n**Aim 1: Quantify the association between daily stress and medication adherence during a 6-month outpatient follow-up.**\nWe will use EMA to measure daily stress levels and daily self-reports combined with monthly pill counts to track medication adherence. We will determine the causal impact of stress on adherence, hypothesizing that days characterized by higher-than-average stress will be significantly associated with missed medication doses.\n\n**Aim 2: Determine if attention capacity mediates the stress-adherence relationship.**\nParticipants will complete a custom mobile Continuous Performance Test (mCPT) on their smartphones to assess sustained attention during high- and low-stress periods. We hypothesize that acute stress will cause a measurable deficit in mCPT performance, and that this attentional deficit will fully mediate the causal pathway between daily stress and medication nonadherence.\n\n## RESEARCH STRATEGY\n\n### A. Significance\nMedication adherence is critical for the management of chronic conditions in outpatient settings. Approximately 50% of patients do not take their medications as prescribed. Nonadherence is a complex behavior influenced by patient, provider, and systemic factors. Among patient-level factors, psychological stress is consistently cited as a primary barrier. However, the mechanisms by which stress disrupts adherence are not fully elucidated. \n\nCurrent literature suggests that stress impairs executive functioning, particularly sustained attention and working memory. Managing a daily medication routine requires prospective memory and attentional control—cognitive resources that are easily depleted by acute stressors. If attention mediates the stress-adherence relationship, interventions could be designed to either bolster attentional capacity or simplify medication routines during periods of high stress. This project addresses a critical gap by measuring these variables in real-time, naturalistic settings.\n\n### B. Innovation\nThis study is innovative in its use of high-frequency, mobile-based cognitive testing alongside EMA. While EMA has been used to track stress and mood, the integration of a mobile Continuous Performance Test (mCPT) allows for the objective measurement of attentional capacity in the patient's natural environment. This approach moves beyond static, in-lab neuropsychological assessments, providing a dynamic picture of cognitive functioning as it fluctuates with daily stress. Furthermore, the intensive 6-month follow-up period provides unprecedented longitudinal data on the stability of medication routines over time.\n\n### C. Approach\n\n**Participants and Setting**\nWe will recruit 80 adults receiving care at the Oakhaven Medical Center Outpatient Clinic. Inclusion criteria: (1) age 18-65; (2) prescribed at least one daily oral medication for a chronic condition; (3) own a smartphone compatible with the study application. Exclusion criteria: (1) diagnosed cognitive impairment (e.g., dementia); (2) non-English speaking. Recruitment will occur during routine clinic visits, facilitated by the clinical research nurse.\n\n**Procedures**\nFollowing informed consent, participants will complete a baseline assessment capturing demographic information and clinical history. They will then install the study application on their smartphones. The observation period will last for 6 months. \n- **EMA Protocol:** Participants will receive two prompts per day (randomly scheduled within morning and evening windows) to report their current stress levels.\n- **Mobile Cognitive Testing:** Twice a week, immediately following an EMA prompt, participants will be prompted to complete the 3-minute mCPT.\n- **Adherence Tracking:** Participants will log their daily medication intake in the app. Additionally, they will return to the clinic monthly for a pill count conducted by the research nurse.\n\n**Measures**\n- *Daily Stress:* Measured using a validated 4-item EMA stress scale (e.g., \"Right now, I feel overwhelmed\").\n- *Attention:* Measured using the mCPT. The task requires participants to tap the screen when a target letter appears and withhold tapping for non-targets. The primary metric is the d-prime (d') sensitivity index.\n- *Medication Adherence:* Calculated as the percentage of prescribed doses taken, derived from a combination of daily self-report and monthly pill counts.\n\n**Statistical Analysis**\nData will be analyzed using multilevel mixed-effects models to account for the nested structure of the data (days nested within individuals). \n- For Aim 1, we will model daily adherence (binary: missed vs. taken) as a function of daily stress, controlling for time and weekend effects. \n- For Aim 2, we will conduct a multilevel mediation analysis. We will test the a-path (stress predicting mCPT performance), the b-path (mCPT performance predicting adherence), and the c'-path (direct effect of stress on adherence controlling for mCPT). \nWe anticipate that the 80-person cohort, providing up to 180 days of data each, will yield sufficient power (>0.80) to detect small-to-medium causal effects. \n\n**Potential Pitfalls and Alternative Strategies**\nParticipant burden is a potential issue with a 6-month EMA protocol. To mitigate this, the mCPT is kept brief (3 minutes) and is only administered twice weekly. If compliance drops below 70%, we will reduce the EMA frequency to once daily."
+          },
+          {
+            "path": "summary_statement_a0.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n**PROGRAM OFFICER:**\nDr. Robert M. Quenneville\nDivision of Translational Research, NIMH\n\n**SCIENTIFIC REVIEW OFFICER:**\nDr. Sarah L. Chen\nCenter for Scientific Review, NIH\n\n**SUMMARY STATEMENT**\n(Privileged Communication)\nRelease Date: June 12, 2026\n\n**Application Number:** 1 R21 MH135792-01\n**Principal Investigator:** THORNE, ELIAS V\n**Applicant Organization:** OAKHAVEN STATE UNIVERSITY\n**Review Group:** ZRG1 BBBP-Y (02) Behavioral Interventions and Outcomes\n**Meeting Date:** June 04, 2026\n**Council:** August 2026\n**Requested Start:** December 01, 2026\n\n**OVERALL IMPACT SCORE: 48**\n\n**RESUME AND SUMMARY OF DISCUSSION:**\nThis R21 application proposes an intensive longitudinal observational study to examine the relationship between daily stress, attentional capacity, and medication adherence in 80 adult outpatients over a 6-month period. The panel noted that the research question is highly significant, as medication nonadherence remains a major clinical challenge, and the use of mobile cognitive testing (mCPT) alongside Ecological Momentary Assessment (EMA) is an innovative approach to capturing real-time data. The Principal Investigator has a solid track record in EMA methodologies. \n\nHowever, enthusiasm was significantly dampened by several major methodological and conceptual flaws. First, the reliability of the mobile attention task in this specific clinical population is untested, raising concerns about the validity of the mediation analysis. Second, the study fails to measure and account for potential confounding by medication characteristics and baseline severity. Third, recruitment from one clinic lacked a feasible retention plan for the demanding 6-month follow-up. Finally, the causal language exceeded an observational design, as the study cannot definitively establish causality without experimental manipulation. Overall, while the premise is intriguing, the application requires substantial revision to address these critical weaknesses.\n\n**CRITIQUE 1**\n**Factor 1: Importance of the Research:** 3\n**Factor 2: Rigor and Feasibility:** 6\n**Expertise and Resources:** Appropriate\n\n**Overall Impact:** The project addresses an important clinical issue using novel mobile health tools. The PI is well-qualified. However, the approach has significant gaps that threaten the interpretability of the data.\n\n**Factor 1: Importance of the Research:**\n*Strengths:*\n- The focus on real-time cognitive fluctuations as a mechanism for nonadherence is a fresh perspective.\n- The theoretical model linking stress, attention, and routine execution is well-supported by background literature.\n*Weaknesses:*\n- The causal language used throughout the proposal exceeded what can be inferred from an observational design. The PI repeatedly states the study will \"establish the causal effect\" and \"determine the causal impact.\" As an observational study, unmeasured confounding cannot be ruled out, and such deterministic causal claims are inappropriate.\n\n**Factor 2: Rigor and Feasibility:**\n*Strengths:*\n- The integration of objective cognitive testing with self-reported stress is highly innovative.\n*Weaknesses:*\n- The reliability of the mobile attention task in this specific clinical population is untested. Without established test-retest reliability for the mCPT in this cohort, the mediation analysis (Aim 2) rests on shaky ground.\n- The study fails to measure and account for potential confounding by medication characteristics and baseline severity. Different medications have different side effect profiles and dosing complexities, and baseline psychiatric or medical severity likely drives both stress and adherence.\n\n**Expertise and Resources:**\n*Comments:*\n- The PI has demonstrated expertise in deploying EMA protocols. The clinical environment at Oakhaven Medical Center is appropriate for the study.\n\n**CRITIQUE 2**\n**Factor 1: Importance of the Research:** 4\n**Factor 2: Rigor and Feasibility:** 6\n**Expertise and Resources:** Appropriate\n\n**Overall Impact:** The innovative use of mCPT is commendable, but the study design is overly ambitious for the proposed sample and setting without adequate safeguards against attrition.\n\n**Factor 1: Importance of the Research:**\n*Strengths:*\n- The project targets a critical barrier in outpatient chronic disease management.\n*Weaknesses:*\n- None noted.\n\n**Factor 2: Rigor and Feasibility:**\n*Strengths:*\n- The 6-month follow-up period provides unprecedented longitudinal data on the stability of medication routines over time.\n*Weaknesses:*\n- Recruitment from one clinic lacked a feasible retention plan. Expecting 80 outpatients to complete daily EMA and twice-weekly cognitive tests for 6 months with only monthly clinic visits for pill counts is unrealistic. Attrition is likely to be high, and no specific retention strategies are proposed.\n- The statistical power analysis does not adequately account for the expected missing data inherent in a 6-month EMA study.\n- The reliance on self-report for medication adherence, even when supplemented by monthly pill counts, remains susceptible to social desirability bias.\n\n**Expertise and Resources:**\n*Comments:*\n- The research team is well-suited to conduct the study, provided the feasibility issues are addressed."
+          },
+          {
+            "path": "update_report_sept2026.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n**Internal Status Report and Resubmission Preparations**\n**Project:** Stress, Attention, and Medication Routines (R21 Resubmission)\n**Date:** 28 September 2026\n**Prepared by:** Elias V. Thorne, PI\n\nThis report outlines the changes and preliminary work completed since receiving the summary statement for our R21 A0 submission in June 2026. We are preparing for an A1 resubmission and have systematically addressed the major criticisms raised by the review panel.\n\n**1. Attention-Task Reliability**\n*Criticism:* The reliability of the mobile attention task in this specific clinical population is untested.\n*Action Taken:* To establish the psychometric properties of our custom mCPT, we conducted a separate 24-adult task-retest pilot study in August 2026. Participants were recruited from the Oakhaven clinic and completed the mCPT twice, two weeks apart. \n*Result:* The pilot estimates the mCPT test-retest reliability at an ICC of 0.62 (95% CI 0.37 to 0.79; two-way mixed-effects, absolute agreement, single measurement) based on 24 complete pairs. This provides preliminary retest evidence, but we acknowledge it does not resolve the limitation regarding reliable measurement of within-person attention fluctuations required for mediation. A formal measurement-error analysis is planned to address this.\n\n**2. Confounding Variables**\n*Criticism:* The study fails to measure and account for potential confounding by medication characteristics and baseline severity.\n*Action Taken:* We have amended the study protocol. Medication coding (categorizing by class and dosing frequency), a psychological baseline-severity instrument (the Brief Symptom Inventory, BSI), and a medical comorbidity index (Charlson Comorbidity Index) have been added to the protocol. Medication class and baseline severity will be included as covariates in planned multilevel mixed-effects models. While these additions improve adjustment, we acknowledge that residual medical-severity confounding remains a limitation of the observational design.\n\n**3. Recruitment and Retention**\n*Criticism:* Recruitment from one clinic lacked a feasible retention plan.\n*Action Taken:* We have developed a comprehensive retention strategy. Reminder scripts (delivered via SMS and phone calls by the research nurse) and a $50 travel reimbursement per in-person visit are planned. We acknowledge in the revised approach that these retention improvements have not been tested in our specific population yet, but they align with best practices for longitudinal observational research.\n\n**4. Causal Inference**\n*Criticism:* The causal language exceeded an observational design.\n*Action Taken:* We have completely revised the narrative to remove deterministic causal language. The revised DAG distinguishes association from mediation assumptions. We explicitly state the assumptions required for causal inference in an observational design. Furthermore, sensitivity analyses are planned to quantify the potential impact of unmeasured confounding.\n\n**5. Missing Data and Power**\n*Criticism:* The statistical power analysis does not adequately account for the expected missing data inherent in a 6-month EMA study.\n*Action Taken:* A revised power simulation incorporating realistic missing data patterns is planned but not yet completed.\n\n**6. Adherence Measurement Bias**\n*Criticism:* The reliance on self-report for medication adherence remains susceptible to social desirability bias.\n*Action Taken:* This criticism remains unresolved. We will rely on daily self-reported adherence and monthly aggregate corroboration via in-person pill counts. We acknowledge that monthly pill counts cannot independently verify daily doses, and self-report remains susceptible to bias.\n\n**Current Status of Cohort and Clinic Access**\n- **Cohort Status:** The proposed 80-person cohort has zero recruited participants. Recruitment will be entirely prospective upon funding. The 24 adults from the reliability pilot will not be included in the main cohort.\n- **Clinic Access and Linkage:** Our existing clinic access covers adult observational work. However, we discovered that electronic health record linkage requires a new consent form; the currently approved IRB form does not authorise pharmacy-record linkage. Given the timeline, a no-linkage observational alternative relying on self-report and pill counts is feasible.\n- **Care-Transition Subgroup:** To align with emerging funding priorities, the clinic maintains an existing registry of patients recently discharged from inpatient care. Planned sampling will focus on the post-discharge subgroup for the care-transition emphasis. This allows us to retain the original research question regarding stress and medication routines while specifically observing patients navigating the vulnerable post-discharge period."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n**Selected Peer-Reviewed Publications**\n**Elias V. Thorne & Clara M. Jenkins**\n**Date:** September 2026\n\n1. Thorne, E. V., Jenkins, C. M., & Quenneville, R. (2024). Ecological momentary assessment of stress in outpatient settings: Methodological considerations and compliance rates. *Journal of Behavioral Medicine Assessment*, 12(3), 210-225. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2024.1\n\n2. Thorne, E. V., & Miller, A. T. (2022). Mobile cognitive testing in clinical populations: A review of continuous performance test adaptations. *Digital Neuropsychology*, 8(1), 45-59. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2022.1\n\n3. Jenkins, C. M., & Thorne, E. V. (2025). Nursing perspectives on medication routines in chronic care: The impact of daily stress. *Clinical Nursing Research Quarterly*, 19(4), 301-315. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2025.1\n\n4. Thorne, E. V., Davis, L. K., & Jenkins, C. M. (2021). The role of sustained attention in executing complex behavioral routines. *Journal of Cognitive and Behavioral Routines*, 28(2), 150-162. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2021.1"
+          },
+          {
+            "path": "resources_and_team.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n**FACILITIES AND OTHER RESOURCES**\n**Date:** September 2026\n\n**Oakhaven State University (OSU)**\n*Laboratory:* Dr. Thorne directs the Behavioral Dynamics Laboratory at OSU. The lab is equipped with 5 high-performance workstations dedicated to data processing, statistical modeling, and the management of Ecological Momentary Assessment (EMA) datasets. The lab holds secure, HIPAA-compliant server space for storing encrypted mobile health data.\n*Computer:* The university provides access to a high-performance computing cluster for intensive multilevel modeling and simulation analyses. Software licenses for SAS, R, and Mplus are maintained by the department.\n*Office:* Dr. Thorne has a private office (150 sq. ft.) adjacent to the laboratory, equipped with standard computing and communication technology.\n\n**Oakhaven Medical Center (OMC)**\n*Clinical:* The OMC Outpatient Clinic serves a diverse population of adults managing chronic medical and psychiatric conditions. The clinic sees approximately 1,200 unique patients annually. Existing clinic access covers adult observational work, providing a robust recruitment pool for the proposed study. The clinic includes dedicated private consultation rooms where the clinical research nurse can conduct informed consent procedures, baseline assessments, and monthly pill counts without interrupting standard clinical workflow. \n*Care-Transition Subgroup:* The clinic maintains a specific registry of patients who have been recently discharged from inpatient care and are transitioning to outpatient management. This post-discharge subgroup is available for planned sampling.\n\n**TEAM DESCRIPTION**\n\n**Elias V. Thorne, Ph.D. (Principal Investigator)**\nDr. Thorne is an Associate Professor of Clinical Psychology at OSU. He will be responsible for the overall scientific direction of the project. He will oversee the refinement of the EMA and mobile cognitive testing (mCPT) protocols, direct the statistical analyses (including the multilevel mediation models and sensitivity analyses for unmeasured confounding), and ensure compliance with all human subjects regulations. Dr. Thorne has a proven track record of successfully executing mobile health research in clinical populations.\n\n**Clara M. Jenkins, RN, MSN (Clinical Research Nurse)**\nMs. Jenkins is a full-time Clinical Research Nurse at OMC. She will serve as the primary liaison between the research team and the clinic. Her responsibilities include screening electronic health records for eligible participants, conducting the informed consent process, administering the baseline-severity instrument (Brief Symptom Inventory), and executing the retention plan (including reminder scripts and processing travel reimbursements). She will also perform the monthly in-person pill counts. Her extensive experience with the clinic's patient population, particularly the post-discharge subgroup, is critical for the feasibility of the recruitment and retention strategy."
+          }
+        ],
+        "facts": [
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The prior R21 A0 application proposed observing stress, attention and medication routines in 80 adults.",
+            "value": "80",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "A separate task-retest pilot study conducted in August 2026 enrolled 24 adults who completed the mCPT twice, two weeks apart.",
+            "value": "24",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The pilot study estimates the mCPT test-retest reliability at an ICC of 0.62 (95% CI 0.37 to 0.79).",
+            "value": "0.62",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The study protocol has been amended to include medication coding and baseline-severity instruments.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Medication class and baseline severity will be included as covariates in planned multilevel mixed-effects models.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Reminder scripts and a $50 travel reimbursement per in-person visit are planned.",
+            "value": "$50",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The retention improvements have not been tested in the specific population yet.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The revised DAG distinguishes association from mediation assumptions.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Sensitivity analyses are planned to quantify the potential impact of unmeasured confounding.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The proposed 80-person cohort has zero recruited participants.",
+            "value": "zero",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The currently approved IRB form does not authorise pharmacy-record linkage.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "A no-linkage observational alternative relying on self-report and pill counts is feasible.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The clinic maintains an existing registry of patients recently discharged from inpatient care.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "Planned sampling will focus on the post-discharge subgroup for the care-transition emphasis.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The OMC Outpatient Clinic sees approximately 1,200 unique patients annually.",
+            "value": "1,200",
+            "salient": true,
+            "source": "resources_and_team.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "The observation period will last for 6 months.",
+            "value": "6 months",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Participants will receive two prompts per day to report their current stress levels.",
+            "value": "two prompts per day",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Participants will be prompted to complete the mCPT twice a week.",
+            "value": "Twice a week",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "The mCPT is kept brief at 3 minutes.",
+            "value": "3 minutes",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Participants will return to the clinic monthly for a pill count.",
+            "value": "monthly",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Inclusion criteria require participants to be age 18-65.",
+            "value": "18-65",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "The 24 adults from the reliability pilot will not be included in the main cohort.",
+            "value": "not be included",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Dr. Thorne completed R03 MH119882 support from 07/01/2021 - 06/30/2023.",
+            "value": "07/01/2021 - 06/30/2023",
+            "salient": true,
+            "source": "cv_thorne.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Dr. Thorne has no currently active research support.",
+            "value": "None currently active",
+            "salient": true,
+            "source": "cv_thorne.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Dr. Thorne has been an Associate Professor since 2021.",
+            "value": "2021 - Present",
+            "salient": true,
+            "source": "cv_thorne.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Ms. Jenkins has been a Clinical Research Nurse since 2016.",
+            "value": "2016 - Present",
+            "salient": true,
+            "source": "cv_jenkins.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The lab is equipped with 5 high-performance workstations.",
+            "value": "5",
+            "salient": true,
+            "source": "resources_and_team.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "Thorne2024",
+            "authors": [
+              "Thorne, E. V.",
+              "Jenkins, C. M.",
+              "Quenneville, R."
+            ],
+            "year": 2024,
+            "title": "Ecological momentary assessment of stress in outpatient settings: Methodological considerations and compliance rates",
+            "venue": "Journal of Behavioral Medicine Assessment",
+            "doi": "10.99999/pb.v2-stress-attention-a1-lab.2024.1"
+          },
+          {
+            "key": "Thorne2022",
+            "authors": [
+              "Thorne, E. V.",
+              "Miller, A. T."
+            ],
+            "year": 2022,
+            "title": "Mobile cognitive testing in clinical populations: A review of continuous performance test adaptations",
+            "venue": "Digital Neuropsychology",
+            "doi": "10.99999/pb.v2-stress-attention-a1-lab.2022.1"
+          },
+          {
+            "key": "Jenkins2025",
+            "authors": [
+              "Jenkins, C. M.",
+              "Thorne, E. V."
+            ],
+            "year": 2025,
+            "title": "Nursing perspectives on medication routines in chronic care: The impact of daily stress",
+            "venue": "Clinical Nursing Research Quarterly",
+            "doi": "10.99999/pb.v2-stress-attention-a1-lab.2025.1"
+          },
+          {
+            "key": "Thorne2021",
+            "authors": [
+              "Thorne, E. V.",
+              "Davis, L. K.",
+              "Jenkins, C. M."
+            ],
+            "year": 2021,
+            "title": "The role of sustained attention in executing complex behavioral routines",
+            "venue": "Journal of Cognitive and Behavioral Routines",
+            "doi": "10.99999/pb.v2-stress-attention-a1-lab.2021.1"
+          }
+        ],
+        "reviewer_criticisms": [
+          "The reliability of the mobile attention task in this specific clinical population is untested.",
+          "The study fails to measure and account for potential confounding by medication characteristics and baseline severity.",
+          "Recruitment from one clinic lacked a feasible retention plan.",
+          "The causal language used throughout the proposal exceeded what can be inferred from an observational design."
+        ],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "data/public/dossiers/v2-stress-attention-a1-lab/summary_statement_a0.md: \"SCIENTIFIC REVIEW OFFICER: Dr. Sarah L. Chen\".",
+          "problem": "The exact full name belongs to a real published medical researcher. A primary journal page lists Sarah L. Chen as an author on hip-outcome research. Assigning that name to a fictional NIH official fails the explicit no-real-researcher-name rule, regardless of whether the real person works at NIH.",
+          "fix": "Replace 'Sarah L. Chen' with 'Selene L. Chen-Ravendale' throughout this dossier and any dependent quotations. Exact-phrase searches for the proposed replacement found no match; keep the fictional-document notice.",
+          "evidence": [
+            "https://journals.sagepub.com/doi/10.1177/1120700019864015",
+            "data/public/dossiers/v2-stress-attention-a1-lab/summary_statement_a0.md",
+            ".codex-handoff/deep_review_c_sources/search_audit.json"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "data/public/dossiers/v2-stress-attention-a1-lab/publications.md: \"Elias V. Thorne & Clara M. Jenkins\"; data/public/tasks/pub2-nih-transition-stretch/brief.md: \"Clara Jenkins is fully on board\".",
+          "problem": "Clara Jenkins is a real nursing figure honoured in the Congressional Record, including her role as a pioneering nurse at Kennestone Hospital. The shortened full name used in this clinical-nursing bundle creates direct confusion; adding a middle initial in the CV does not resolve the unqualified mentions.",
+          "fix": "Rename the fictional nurse 'Clara M. Jenkins-Brackendale', use 'Clara Jenkins-Brackendale' when shortening, and 'Jenkins-Brackendale, C. M.' in publications. Propagate through both CVs, resources, bibliography, dossier.yaml facts/own_publications and the transition-stretch brief. Bibliographic keys may stay stable if they are opaque identifiers. Exact-phrase searches for the replacement found no match.",
+          "evidence": [
+            "https://www.congress.gov/109/crec/2005/03/02/151/22/CREC-2005-03-02.pdf",
+            "data/public/dossiers/v2-stress-attention-a1-lab/cv_jenkins.md",
+            "data/public/dossiers/v2-stress-attention-a1-lab/resources_and_team.md",
+            "data/public/tasks/pub2-nih-transition-stretch/brief.md",
+            ".codex-handoff/deep_review_c_sources/search_audit.json"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 9",
+          "where": "data/public/dossiers/v2-stress-attention-a1-lab/dossier.yaml, reviewer_criticisms R1–R4; summary_statement_a0.md, Critique 2: \"The statistical power analysis does not adequately account for the expected missing data\" and adherence \"remains susceptible to social desirability bias\".",
+          "problem": "The hidden list omits two explicit methodological criticisms which the September update separately tracks as items 5 and 6, still unresolved or only planned. RESUB therefore never directly checks whether either task responds to them, despite the design requiring an atomic criterion per major criticism.",
+          "fix": "Append R5: 'The power analysis does not account adequately for missing observations and attrition in the six-month EMA design.' Append R6: 'Daily self-reported adherence remains susceptible to social-desirability/reporting bias; monthly pill counts do not independently verify daily doses.' Keep the update's planned/unresolved statuses; do not manufacture a completed simulation or validation.",
+          "evidence": [
+            "data/public/dossiers/v2-stress-attention-a1-lab/summary_statement_a0.md",
+            "data/public/dossiers/v2-stress-attention-a1-lab/update_report_sept2026.md",
+            "data/public/dossiers/v2-stress-attention-a1-lab/dossier.yaml",
+            "tools/authoring/design_v2.md:85",
+            "docs/scoring_spec.md:87"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "data/public/dossiers/v2-stress-attention-a1-lab/update_report_sept2026.md: \"A formal measurement-error analysis is planned\" and \"A revised power simulation incorporating realistic missing data patterns is planned but not yet completed\"; neither is registered in dossier.yaml facts.",
+          "problem": "These are salient planned responses to the reliability and power criticisms. Their absence prevents the task-specific grounding criteria from distinguishing the planned analyses from completed evidence, while several comparatively routine A0 scheduling details are registered as salient planned facts.",
+          "fix": "Add F28 (category other, kind planned, salient true, value null, source update_report_sept2026.md): 'A formal measurement-error analysis is planned; the 24-adult retest pilot does not resolve reliability of within-person attention fluctuations for mediation.' Add F29 with the same metadata: 'A revised power simulation incorporating realistic missing-data patterns is planned but not yet completed.' Place these entries immediately after F03 so the eight-criterion GR-T cap does not consistently crowd them out with routine A0 scheduling facts.",
+          "evidence": [
+            "data/public/dossiers/v2-stress-attention-a1-lab/update_report_sept2026.md",
+            "data/public/dossiers/v2-stress-attention-a1-lab/dossier.yaml",
+            "docs/scoring_spec.md:76",
+            "src/proposalbench/judge/items.py:299"
+          ]
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "applicant_type": "individual",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "clinical psychology",
+          "nursing",
+          "behavioural measurement"
+        ],
+        "method_profile": "quantitative",
+        "country": "US",
+        "files": [
+          {
+            "path": "cv_thorne.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n**Internal Curriculum Vitae**\n**Date:** September 2026\n\n**NAME:** Thorne, Elias V.\n**POSITION TITLE:** Associate Professor of Clinical Psychology\n\n**EDUCATION/TRAINING**\nInstitution and Location | Degree | Completion Date | Field of Study\n--- | --- | --- | ---\nNorthern Pacific State University, CA | B.S. | 05/2006 | Psychology\nMidwestern Research University, IL | Ph.D. | 05/2012 | Clinical Psychology\nOakhaven Medical Center, US | Postdoctoral | 08/2014 | Behavioral Medicine\n\n**A. Personal Statement**\nMy research program focuses on the intersection of daily psychological stress, cognitive capacity (specifically attention), and health behaviors in adult outpatient populations. I have extensive experience designing and implementing Ecological Momentary Assessment (EMA) protocols to capture real-time fluctuations in stress and symptom severity. As a clinical psychologist, I am particularly interested in how transient cognitive deficits, such as reduced attentional control during periods of high stress, compromise patients' ability to adhere to complex medication routines. My laboratory at Oakhaven State University has successfully conducted several observational studies utilizing mobile health (mHealth) technologies to monitor behavioral routines. In the proposed resubmission, I will lead the research team, oversee the EMA and cognitive testing protocols, and direct the statistical analyses. I have a long-standing collaboration with Clara M. Jenkins-Brackendale, RN, MSN, which ensures our protocols are clinically grounded and feasible within the outpatient workflow.\n\n**B. Positions, Scientific Appointments, and Honors**\n*Positions and Scientific Appointments*\n2021 - Present | Associate Professor, Department of Clinical Psychology, Oakhaven State University\n2014 - 2021 | Assistant Professor, Department of Clinical Psychology, Oakhaven State University\n2012 - 2014 | Postdoctoral Fellow, Behavioral Medicine, Oakhaven Medical Center\n\n*Honors*\n2023 | Excellence in Clinical Research Award, Oakhaven State University\n2019 | Early Career Investigator Award, Society for Behavioral Medicine Research\n\n**C. Contributions to Science**\n1. Ecological Momentary Assessment of Stress in Clinical Populations. Early in my career, I focused on validating EMA protocols for capturing daily stress fluctuations in adults with chronic conditions. We demonstrated that high-frequency sampling (e.g., 4-6 times daily) is feasible and provides a more accurate representation of stress burden than retrospective questionnaires.\n2. Mobile Cognitive Testing. I have contributed to the adaptation of traditional neuropsychological paradigms for mobile platforms. Specifically, my lab has worked on deploying Continuous Performance Tests (CPTs) on smartphones to measure sustained attention in naturalistic settings.\n3. Behavioral Determinants of Medication Adherence. My recent work investigates the psychological barriers to medication adherence. We have identified that self-reported stress is a significant predictor of missed doses, independent of socioeconomic factors.\n\n**D. Research Support**\n*Ongoing Research Support*\nNone currently active.\n\n*Completed Research Support*\nR03 MH119882 (PI: Thorne) | 07/01/2021 - 06/30/2023\nNIH/NIMH\nFeasibility of Mobile Attention Tracking in Outpatient Psychiatry\nThe goal of this project was to assess the usability and acceptability of a smartphone-based cognitive testing battery among adult psychiatric outpatients.\nRole: PI"
+          },
+          {
+            "path": "cv_jenkins-brackendale.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n**Internal Curriculum Vitae**\n**Date:** September 2026\n\n**NAME:** Jenkins-Brackendale, Clara M.\n**POSITION TITLE:** Clinical Research Nurse\n\n**EDUCATION/TRAINING**\nInstitution and Location | Degree | Completion Date | Field of Study\n--- | --- | --- | ---\nOakhaven State University, US | B.S.N. | 05/2010 | Nursing\nOakhaven State University, US | M.S.N. | 05/2015 | Nursing Administration\n\n**A. Personal Statement**\nI am a Clinical Research Nurse at the Oakhaven Medical Center Outpatient Clinic with over a decade of experience in patient care and clinical research coordination. My clinical background is in adult chronic disease management, with a specific focus on care transitions and medication education. I have collaborated with Dr. Elias Thorne on multiple projects investigating behavioral health routines. My role in the proposed research will be to facilitate patient recruitment, oversee the informed consent process, conduct the baseline clinical assessments, and manage the medication adherence tracking (including pill counts and self-report logs). I am intimately familiar with the patient population at our clinic, including the post-discharge subgroup, and I have extensive experience navigating the institutional review board (IRB) requirements for observational research.\n\n**B. Positions, Scientific Appointments, and Honors**\n*Positions and Scientific Appointments*\n2016 - Present | Clinical Research Nurse, Oakhaven Medical Center Outpatient Clinic\n2010 - 2016 | Staff Nurse, Internal Medicine Unit, Oakhaven Medical Center\n\n**C. Contributions to Science**\n1. Nursing Perspectives on Medication Routines. I have co-authored research highlighting the practical challenges patients face when managing complex medication regimens after discharge. My work emphasizes the need for simplified dosing schedules and the role of nursing interventions in improving adherence.\n2. Clinical Implementation of mHealth Tools. I have played a key role in integrating mobile health assessments into standard outpatient workflows, ensuring that research protocols do not disrupt clinical care and are accessible to patients with varying levels of digital literacy.\n\n**D. Research Support**\n*Completed Research Support*\nR03 MH119882 (PI: Thorne) | 07/01/2021 - 06/30/2023\nNIH/NIMH\nFeasibility of Mobile Attention Tracking in Outpatient Psychiatry\nRole: Clinical Coordinator"
+          },
+          {
+            "path": "prior_application_a0.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n**Title:** Stress, Attention, and Medication Routines in Adult Outpatient Follow-up\n**Principal Investigator:** Elias V. Thorne, Ph.D.\n**Submission Date:** February 16, 2026\n**Application Type:** NIH R21 (A0)\n\n## SPECIFIC AIMS\n\nMedication nonadherence is a pervasive problem in adult outpatient care, leading to poor clinical outcomes and increased healthcare utilization. While chronic stress is a known risk factor for nonadherence, the daily, dynamic mechanisms linking transient stress to missed medication doses remain poorly understood. Traditional models often rely on retrospective self-reports, which fail to capture the real-time cognitive fluctuations that occur during stressful episodes. We hypothesize that acute daily stress depletes attentional capacity, which in turn disrupts the execution of established medication routines. \n\nTo test this hypothesis, we propose an intensive longitudinal observational study utilizing Ecological Momentary Assessment (EMA) and mobile cognitive testing. We will recruit 80 adults from the Oakhaven Medical Center Outpatient Clinic and follow them for 6 months. By capturing daily variations in stress, attention, and adherence, this study will establish the causal effect of daily stress on medication adherence and identify the cognitive pathways involved.\n\n**Aim 1: Quantify the association between daily stress and medication adherence during a 6-month outpatient follow-up.**\nWe will use EMA to measure daily stress levels and daily self-reports combined with monthly pill counts to track medication adherence. We will determine the causal impact of stress on adherence, hypothesizing that days characterized by higher-than-average stress will be significantly associated with missed medication doses.\n\n**Aim 2: Determine if attention capacity mediates the stress-adherence relationship.**\nParticipants will complete a custom mobile Continuous Performance Test (mCPT) on their smartphones to assess sustained attention during high- and low-stress periods. We hypothesize that acute stress will cause a measurable deficit in mCPT performance, and that this attentional deficit will fully mediate the causal pathway between daily stress and medication nonadherence.\n\n## RESEARCH STRATEGY\n\n### A. Significance\nMedication adherence is critical for the management of chronic conditions in outpatient settings. Approximately 50% of patients do not take their medications as prescribed. Nonadherence is a complex behavior influenced by patient, provider, and systemic factors. Among patient-level factors, psychological stress is consistently cited as a primary barrier. However, the mechanisms by which stress disrupts adherence are not fully elucidated. \n\nCurrent literature suggests that stress impairs executive functioning, particularly sustained attention and working memory. Managing a daily medication routine requires prospective memory and attentional control—cognitive resources that are easily depleted by acute stressors. If attention mediates the stress-adherence relationship, interventions could be designed to either bolster attentional capacity or simplify medication routines during periods of high stress. This project addresses a critical gap by measuring these variables in real-time, naturalistic settings.\n\n### B. Innovation\nThis study is innovative in its use of high-frequency, mobile-based cognitive testing alongside EMA. While EMA has been used to track stress and mood, the integration of a mobile Continuous Performance Test (mCPT) allows for the objective measurement of attentional capacity in the patient's natural environment. This approach moves beyond static, in-lab neuropsychological assessments, providing a dynamic picture of cognitive functioning as it fluctuates with daily stress. Furthermore, the intensive 6-month follow-up period provides unprecedented longitudinal data on the stability of medication routines over time.\n\n### C. Approach\n\n**Participants and Setting**\nWe will recruit 80 adults receiving care at the Oakhaven Medical Center Outpatient Clinic. Inclusion criteria: (1) age 18-65; (2) prescribed at least one daily oral medication for a chronic condition; (3) own a smartphone compatible with the study application. Exclusion criteria: (1) diagnosed cognitive impairment (e.g., dementia); (2) non-English speaking. Recruitment will occur during routine clinic visits, facilitated by the clinical research nurse.\n\n**Procedures**\nFollowing informed consent, participants will complete a baseline assessment capturing demographic information and clinical history. They will then install the study application on their smartphones. The observation period will last for 6 months. \n- **EMA Protocol:** Participants will receive two prompts per day (randomly scheduled within morning and evening windows) to report their current stress levels.\n- **Mobile Cognitive Testing:** Twice a week, immediately following an EMA prompt, participants will be prompted to complete the 3-minute mCPT.\n- **Adherence Tracking:** Participants will log their daily medication intake in the app. Additionally, they will return to the clinic monthly for a pill count conducted by the research nurse.\n\n**Measures**\n- *Daily Stress:* Measured using a validated 4-item EMA stress scale (e.g., \"Right now, I feel overwhelmed\").\n- *Attention:* Measured using the mCPT. The task requires participants to tap the screen when a target letter appears and withhold tapping for non-targets. The primary metric is the d-prime (d') sensitivity index.\n- *Medication Adherence:* Calculated as the percentage of prescribed doses taken, derived from a combination of daily self-report and monthly pill counts.\n\n**Statistical Analysis**\nData will be analyzed using multilevel mixed-effects models to account for the nested structure of the data (days nested within individuals). \n- For Aim 1, we will model daily adherence (binary: missed vs. taken) as a function of daily stress, controlling for time and weekend effects. \n- For Aim 2, we will conduct a multilevel mediation analysis. We will test the a-path (stress predicting mCPT performance), the b-path (mCPT performance predicting adherence), and the c'-path (direct effect of stress on adherence controlling for mCPT). \nWe anticipate that the 80-person cohort, providing up to 180 days of data each, will yield sufficient power (>0.80) to detect small-to-medium causal effects. \n\n**Potential Pitfalls and Alternative Strategies**\nParticipant burden is a potential issue with a 6-month EMA protocol. To mitigate this, the mCPT is kept brief (3 minutes) and is only administered twice weekly. If compliance drops below 70%, we will reduce the EMA frequency to once daily."
+          },
+          {
+            "path": "summary_statement_a0.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n**PROGRAM OFFICER:**\nDr. Robert M. Quenneville\nDivision of Translational Research, NIMH\n\n**SCIENTIFIC REVIEW OFFICER:**\nDr. Selene L. Chen-Ravendale\nCenter for Scientific Review, NIH\n\n**SUMMARY STATEMENT**\n(Privileged Communication)\nRelease Date: June 12, 2026\n\n**Application Number:** 1 R21 MH135792-01\n**Principal Investigator:** THORNE, ELIAS V\n**Applicant Organization:** OAKHAVEN STATE UNIVERSITY\n**Review Group:** ZRG1 BBBP-Y (02) Behavioral Interventions and Outcomes\n**Meeting Date:** June 04, 2026\n**Council:** August 2026\n**Requested Start:** December 01, 2026\n\n**OVERALL IMPACT SCORE: 48**\n\n**RESUME AND SUMMARY OF DISCUSSION:**\nThis R21 application proposes an intensive longitudinal observational study to examine the relationship between daily stress, attentional capacity, and medication adherence in 80 adult outpatients over a 6-month period. The panel noted that the research question is highly significant, as medication nonadherence remains a major clinical challenge, and the use of mobile cognitive testing (mCPT) alongside Ecological Momentary Assessment (EMA) is an innovative approach to capturing real-time data. The Principal Investigator has a solid track record in EMA methodologies. \n\nHowever, enthusiasm was significantly dampened by several major methodological and conceptual flaws. First, the reliability of the mobile attention task in this specific clinical population is untested, raising concerns about the validity of the mediation analysis. Second, the study fails to measure and account for potential confounding by medication characteristics and baseline severity. Third, recruitment from one clinic lacked a feasible retention plan for the demanding 6-month follow-up. Finally, the causal language exceeded an observational design, as the study cannot definitively establish causality without experimental manipulation. Overall, while the premise is intriguing, the application requires substantial revision to address these critical weaknesses.\n\n**CRITIQUE 1**\n**Factor 1: Importance of the Research:** 3\n**Factor 2: Rigor and Feasibility:** 6\n**Expertise and Resources:** Appropriate\n\n**Overall Impact:** The project addresses an important clinical issue using novel mobile health tools. The PI is well-qualified. However, the approach has significant gaps that threaten the interpretability of the data.\n\n**Factor 1: Importance of the Research:**\n*Strengths:*\n- The focus on real-time cognitive fluctuations as a mechanism for nonadherence is a fresh perspective.\n- The theoretical model linking stress, attention, and routine execution is well-supported by background literature.\n*Weaknesses:*\n- The causal language used throughout the proposal exceeded what can be inferred from an observational design. The PI repeatedly states the study will \"establish the causal effect\" and \"determine the causal impact.\" As an observational study, unmeasured confounding cannot be ruled out, and such deterministic causal claims are inappropriate.\n\n**Factor 2: Rigor and Feasibility:**\n*Strengths:*\n- The integration of objective cognitive testing with self-reported stress is highly innovative.\n*Weaknesses:*\n- The reliability of the mobile attention task in this specific clinical population is untested. Without established test-retest reliability for the mCPT in this cohort, the mediation analysis (Aim 2) rests on shaky ground.\n- The study fails to measure and account for potential confounding by medication characteristics and baseline severity. Different medications have different side effect profiles and dosing complexities, and baseline psychiatric or medical severity likely drives both stress and adherence.\n\n**Expertise and Resources:**\n*Comments:*\n- The PI has demonstrated expertise in deploying EMA protocols. The clinical environment at Oakhaven Medical Center is appropriate for the study.\n\n**CRITIQUE 2**\n**Factor 1: Importance of the Research:** 4\n**Factor 2: Rigor and Feasibility:** 6\n**Expertise and Resources:** Appropriate\n\n**Overall Impact:** The innovative use of mCPT is commendable, but the study design is overly ambitious for the proposed sample and setting without adequate safeguards against attrition.\n\n**Factor 1: Importance of the Research:**\n*Strengths:*\n- The project targets a critical barrier in outpatient chronic disease management.\n*Weaknesses:*\n- None noted.\n\n**Factor 2: Rigor and Feasibility:**\n*Strengths:*\n- The 6-month follow-up period provides unprecedented longitudinal data on the stability of medication routines over time.\n*Weaknesses:*\n- Recruitment from one clinic lacked a feasible retention plan. Expecting 80 outpatients to complete daily EMA and twice-weekly cognitive tests for 6 months with only monthly clinic visits for pill counts is unrealistic. Attrition is likely to be high, and no specific retention strategies are proposed.\n- The statistical power analysis does not adequately account for the expected missing data inherent in a 6-month EMA study.\n- The reliance on self-report for medication adherence, even when supplemented by monthly pill counts, remains susceptible to social desirability bias.\n\n**Expertise and Resources:**\n*Comments:*\n- The research team is well-suited to conduct the study, provided the feasibility issues are addressed."
+          },
+          {
+            "path": "update_report_sept2026.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n**Internal Status Report and Resubmission Preparations**\n**Project:** Stress, Attention, and Medication Routines (R21 Resubmission)\n**Date:** 28 September 2026\n**Prepared by:** Elias V. Thorne, PI\n\nThis report outlines the changes and preliminary work completed since receiving the summary statement for our R21 A0 submission in June 2026. We are preparing for an A1 resubmission and have systematically addressed the major criticisms raised by the review panel.\n\n**1. Attention-Task Reliability**\n*Criticism:* The reliability of the mobile attention task in this specific clinical population is untested.\n*Action Taken:* To establish the psychometric properties of our custom mCPT, we conducted a separate 24-adult task-retest pilot study in August 2026. Participants were recruited from the Oakhaven clinic and completed the mCPT twice, two weeks apart. \n*Result:* The pilot estimates the mCPT test-retest reliability at an ICC of 0.62 (95% CI 0.37 to 0.79; two-way mixed-effects, absolute agreement, single measurement) based on 24 complete pairs. This provides preliminary retest evidence, but we acknowledge it does not resolve the limitation regarding reliable measurement of within-person attention fluctuations required for mediation. A formal measurement-error analysis is planned to address this.\n\n**2. Confounding Variables**\n*Criticism:* The study fails to measure and account for potential confounding by medication characteristics and baseline severity.\n*Action Taken:* We have amended the study protocol. Medication coding (categorizing by class and dosing frequency), a psychological baseline-severity instrument (the Brief Symptom Inventory, BSI), and a medical comorbidity index (Charlson Comorbidity Index) have been added to the protocol. Medication class and baseline severity will be included as covariates in planned multilevel mixed-effects models. While these additions improve adjustment, we acknowledge that residual medical-severity confounding remains a limitation of the observational design.\n\n**3. Recruitment and Retention**\n*Criticism:* Recruitment from one clinic lacked a feasible retention plan.\n*Action Taken:* We have developed a comprehensive retention strategy. Reminder scripts (delivered via SMS and phone calls by the research nurse) and a $50 travel reimbursement per in-person visit are planned. We acknowledge in the revised approach that these retention improvements have not been tested in our specific population yet, but they align with best practices for longitudinal observational research.\n\n**4. Causal Inference**\n*Criticism:* The causal language exceeded an observational design.\n*Action Taken:* We have completely revised the narrative to remove deterministic causal language. The revised DAG distinguishes association from mediation assumptions. We explicitly state the assumptions required for causal inference in an observational design. Furthermore, sensitivity analyses are planned to quantify the potential impact of unmeasured confounding.\n\n**5. Missing Data and Power**\n*Criticism:* The statistical power analysis does not adequately account for the expected missing data inherent in a 6-month EMA study.\n*Action Taken:* A revised power simulation incorporating realistic missing data patterns is planned but not yet completed.\n\n**6. Adherence Measurement Bias**\n*Criticism:* The reliance on self-report for medication adherence remains susceptible to social desirability bias.\n*Action Taken:* This criticism remains unresolved. We will rely on daily self-reported adherence and monthly aggregate corroboration via in-person pill counts. We acknowledge that monthly pill counts cannot independently verify daily doses, and self-report remains susceptible to bias.\n\n**Current Status of Cohort and Clinic Access**\n- **Cohort Status:** The proposed 80-person cohort has zero recruited participants. Recruitment will be entirely prospective upon funding. The 24 adults from the reliability pilot will not be included in the main cohort.\n- **Clinic Access and Linkage:** Our existing clinic access covers adult observational work. However, we discovered that electronic health record linkage requires a new consent form; the currently approved IRB form does not authorise pharmacy-record linkage. Given the timeline, a no-linkage observational alternative relying on self-report and pill counts is feasible.\n- **Care-Transition Subgroup:** To align with emerging funding priorities, the clinic maintains an existing registry of patients recently discharged from inpatient care. Planned sampling will focus on the post-discharge subgroup for the care-transition emphasis. This allows us to retain the original research question regarding stress and medication routines while specifically observing patients navigating the vulnerable post-discharge period."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n**Selected Peer-Reviewed Publications**\n**Elias V. Thorne & Clara M. Jenkins-Brackendale**\n**Date:** September 2026\n\n1. Thorne, E. V., Jenkins-Brackendale, C. M., & Quenneville, R. (2024). Ecological momentary assessment of stress in outpatient settings: Methodological considerations and compliance rates. *Journal of Behavioral Medicine Assessment*, 12(3), 210-225. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2024.1\n\n2. Thorne, E. V., & Miller, A. T. (2022). Mobile cognitive testing in clinical populations: A review of continuous performance test adaptations. *Digital Neuropsychology*, 8(1), 45-59. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2022.1\n\n3. Jenkins-Brackendale, C. M., & Thorne, E. V. (2025). Nursing perspectives on medication routines in chronic care: The impact of daily stress. *Clinical Nursing Research Quarterly*, 19(4), 301-315. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2025.1\n\n4. Thorne, E. V., Davis, L. K., & Jenkins-Brackendale, C. M. (2021). The role of sustained attention in executing complex behavioral routines. *Journal of Cognitive and Behavioral Routines*, 28(2), 150-162. \n   DOI: 10.99999/pb.v2-stress-attention-a1-lab.2021.1"
+          },
+          {
+            "path": "resources_and_team.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n**FACILITIES AND OTHER RESOURCES**\n**Date:** September 2026\n\n**Oakhaven State University (OSU)**\n*Laboratory:* Dr. Thorne directs the Behavioral Dynamics Laboratory at OSU. The lab is equipped with 5 high-performance workstations dedicated to data processing, statistical modeling, and the management of Ecological Momentary Assessment (EMA) datasets. The lab holds secure, HIPAA-compliant server space for storing encrypted mobile health data.\n*Computer:* The university provides access to a high-performance computing cluster for intensive multilevel modeling and simulation analyses. Software licenses for SAS, R, and Mplus are maintained by the department.\n*Office:* Dr. Thorne has a private office (150 sq. ft.) adjacent to the laboratory, equipped with standard computing and communication technology.\n\n**Oakhaven Medical Center (OMC)**\n*Clinical:* The OMC Outpatient Clinic serves a diverse population of adults managing chronic medical and psychiatric conditions. The clinic sees approximately 1,200 unique patients annually. Existing clinic access covers adult observational work, providing a robust recruitment pool for the proposed study. The clinic includes dedicated private consultation rooms where the clinical research nurse can conduct informed consent procedures, baseline assessments, and monthly pill counts without interrupting standard clinical workflow. \n*Care-Transition Subgroup:* The clinic maintains a specific registry of patients who have been recently discharged from inpatient care and are transitioning to outpatient management. This post-discharge subgroup is available for planned sampling.\n\n**TEAM DESCRIPTION**\n\n**Elias V. Thorne, Ph.D. (Principal Investigator)**\nDr. Thorne is an Associate Professor of Clinical Psychology at OSU. He will be responsible for the overall scientific direction of the project. He will oversee the refinement of the EMA and mobile cognitive testing (mCPT) protocols, direct the statistical analyses (including the multilevel mediation models and sensitivity analyses for unmeasured confounding), and ensure compliance with all human subjects regulations. Dr. Thorne has a proven track record of successfully executing mobile health research in clinical populations.\n\n**Clara M. Jenkins-Brackendale, RN, MSN (Clinical Research Nurse)**\nMs. Jenkins-Brackendale is a full-time Clinical Research Nurse at OMC. She will serve as the primary liaison between the research team and the clinic. Her responsibilities include screening electronic health records for eligible participants, conducting the informed consent process, administering the baseline-severity instrument (Brief Symptom Inventory), and executing the retention plan (including reminder scripts and processing travel reimbursements). She will also perform the monthly in-person pill counts. Her extensive experience with the clinic's patient population, particularly the post-discharge subgroup, is critical for the feasibility of the recruitment and retention strategy."
+          }
+        ],
+        "facts": [
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The prior R21 A0 application proposed observing stress, attention and medication routines in 80 adults.",
+            "value": "80",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "A separate task-retest pilot study conducted in August 2026 enrolled 24 adults who completed the mCPT twice, two weeks apart.",
+            "value": "24",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The pilot study estimates the mCPT test-retest reliability at an ICC of 0.62 (95% CI 0.37 to 0.79).",
+            "value": "0.62",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "A formal measurement-error analysis is planned; the 24-adult retest pilot does not resolve reliability of within-person attention fluctuations for mediation.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "A revised power simulation incorporating realistic missing-data patterns is planned but not yet completed.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The study protocol has been amended to include medication coding and baseline-severity instruments.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Medication class and baseline severity will be included as covariates in planned multilevel mixed-effects models.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Reminder scripts and a $50 travel reimbursement per in-person visit are planned.",
+            "value": "$50",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The retention improvements have not been tested in the specific population yet.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The revised DAG distinguishes association from mediation assumptions.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Sensitivity analyses are planned to quantify the potential impact of unmeasured confounding.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The proposed 80-person cohort has zero recruited participants.",
+            "value": "zero",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The currently approved IRB form does not authorise pharmacy-record linkage.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "A no-linkage observational alternative relying on self-report and pill counts is feasible.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The clinic maintains an existing registry of patients recently discharged from inpatient care.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "Planned sampling will focus on the post-discharge subgroup for the care-transition emphasis.",
+            "value": null,
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The OMC Outpatient Clinic sees approximately 1,200 unique patients annually.",
+            "value": "1,200",
+            "salient": true,
+            "source": "resources_and_team.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "The observation period will last for 6 months.",
+            "value": "6 months",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Participants will receive two prompts per day to report their current stress levels.",
+            "value": "two prompts per day",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Participants will be prompted to complete the mCPT twice a week.",
+            "value": "Twice a week",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "The mCPT is kept brief at 3 minutes.",
+            "value": "3 minutes",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Participants will return to the clinic monthly for a pill count.",
+            "value": "monthly",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "Inclusion criteria require participants to be age 18-65.",
+            "value": "18-65",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "other",
+            "kind": "planned",
+            "text": "The 24 adults from the reliability pilot will not be included in the main cohort.",
+            "value": "not be included",
+            "salient": true,
+            "source": "update_report_sept2026.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Dr. Thorne completed R03 MH119882 support from 07/01/2021 - 06/30/2023.",
+            "value": "07/01/2021 - 06/30/2023",
+            "salient": true,
+            "source": "cv_thorne.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Dr. Thorne has no currently active research support.",
+            "value": "None currently active",
+            "salient": true,
+            "source": "cv_thorne.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Dr. Thorne has been an Associate Professor since 2021.",
+            "value": "2021 - Present",
+            "salient": true,
+            "source": "cv_thorne.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Ms. Jenkins-Brackendale has been a Clinical Research Nurse since 2016.",
+            "value": "2016 - Present",
+            "salient": true,
+            "source": "cv_jenkins-brackendale.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The lab is equipped with 5 high-performance workstations.",
+            "value": "5",
+            "salient": true,
+            "source": "resources_and_team.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "Thorne2024",
+            "authors": [
+              "Thorne, E. V.",
+              "Jenkins-Brackendale, C. M.",
+              "Quenneville, R."
+            ],
+            "year": 2024,
+            "title": "Ecological momentary assessment of stress in outpatient settings: Methodological considerations and compliance rates",
+            "venue": "Journal of Behavioral Medicine Assessment",
+            "doi": "10.99999/pb.v2-stress-attention-a1-lab.2024.1"
+          },
+          {
+            "key": "Thorne2022",
+            "authors": [
+              "Thorne, E. V.",
+              "Miller, A. T."
+            ],
+            "year": 2022,
+            "title": "Mobile cognitive testing in clinical populations: A review of continuous performance test adaptations",
+            "venue": "Digital Neuropsychology",
+            "doi": "10.99999/pb.v2-stress-attention-a1-lab.2022.1"
+          },
+          {
+            "key": "Jenkins2025",
+            "authors": [
+              "Jenkins-Brackendale, C. M.",
+              "Thorne, E. V."
+            ],
+            "year": 2025,
+            "title": "Nursing perspectives on medication routines in chronic care: The impact of daily stress",
+            "venue": "Clinical Nursing Research Quarterly",
+            "doi": "10.99999/pb.v2-stress-attention-a1-lab.2025.1"
+          },
+          {
+            "key": "Thorne2021",
+            "authors": [
+              "Thorne, E. V.",
+              "Davis, L. K.",
+              "Jenkins-Brackendale, C. M."
+            ],
+            "year": 2021,
+            "title": "The role of sustained attention in executing complex behavioral routines",
+            "venue": "Journal of Cognitive and Behavioral Routines",
+            "doi": "10.99999/pb.v2-stress-attention-a1-lab.2021.1"
+          }
+        ],
+        "reviewer_criticisms": [
+          "The reliability of the mobile attention task in this specific clinical population is untested.",
+          "The study fails to measure and account for potential confounding by medication characteristics and baseline severity.",
+          "Recruitment from one clinic lacked a feasible retention plan.",
+          "The causal language used throughout the proposal exceeded what can be inferred from an observational design.",
+          "The power analysis does not account adequately for missing observations and attrition in the six-month EMA design.",
+          "Daily self-reported adherence remains susceptible to social-desirability/reporting bias; monthly pill counts do not independently verify daily doses."
+        ],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "errors": [
+        "\"reviewer_criticisms\" has 6 entries; this dossier needs 3-5"
+      ]
+    }
+  ]
+}

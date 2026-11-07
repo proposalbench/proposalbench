@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub2-cerv-culture-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 1",
+      "where": "brief.md, “Decisions”; consortium.md, sections 5–6; call.md, mandatory elements ME10–ME11",
+      "problem": "The required proposal cannot be completed without inventing authority commitments. ME10 requires a named, still-open decision and competent authority in each locality; ME11 requires an agreed arrangement for the form and timing of each authority’s response. The brief explicitly says no decisions are agreed and letters are still sought. The dossier supplies neither candidate decisions nor response agreements for the new project. The Liège venue letter and response to the completed June consultation do not establish these commitments. Describing future negotiations would not satisfy the requirement to describe arrangements already agreed.",
+      "fix": "Add dossier material dated by 30 September 2026 identifying a suitable decision and competent authority in each locality, with documented agreements covering response format and timing. Specify decision timetables that leave meaningful influence possible during the proposed project after the funding deadline. Update the brief to reflect those commitments; cultural venues and heritage recruitment can remain planned."
+    }
+  ]
+}

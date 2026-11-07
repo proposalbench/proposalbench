@@ -1,0 +1,38 @@
+{
+  "kind": "task",
+  "id": "pub2-erc-workflow-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Task 3",
+      "where": "brief.md: requested Q1 2027 validation sessions; resources.md §3.1",
+      "problem": "The brief presents Q1 2027 sessions as proposal validation activities, but they precede the 15 September 2027 application deadline. Their funding is unspecified, so the applicant cannot reliably distinguish preparatory activities from work requested under the PoC or demonstrate separation from main-grant funding.",
+      "fix": "Identify these sessions explicitly as pre-application activities, state their funding source and distinguish them from proposed post-award validation. Alternatively, replace the calendar commitment with sessions planned relative to the PoC start, updating the brief, resources and facts registry consistently."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "brief.md; team.md: Dr. Tobias Falk; dossier.yaml F24",
+      "problem": "Tobias Falk is the name of a known Swedish film director. Assigning that full name to the fictional collaborator violates the fiction requirement.",
+      "fix": "Replace the collaborator's full name with a distinctive fictional combination throughout the brief, dossier and hidden registry."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md §2, WP2: magnitude 28, 15 detected electrons, 5-sigma peak and 98% recovery",
+      "problem": "The simulation description does not establish the physical meaning of its central performance claim. Fifteen source electrons give a source-shot-noise-limited integrated signal-to-noise ratio of approximately 3.87; a 5-sigma detection can mean something different if sigma measures background fluctuations, but the report never defines it. Source shot noise, sky background and the PSF distribution are unspecified. The conversion from V-band magnitude to detected electrons also lacks exposure time and collecting-area/throughput assumptions.",
+      "fix": "Define the detection statistic and its noise model, state whether source photon arrivals were Poisson sampled, and supply the PSF, background and photometric conversion assumptions. Confirm or revise the recovery result under that explicit model, updating the registry if necessary."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml: facts, particularly F06–F14, F16 and F23",
+      "problem": "The registry omits salient evidence and constraints that a proposal could quote: the EUR 2,450,000 main-grant funding; four devices per architecture and four million pixels per device; 200 simulated exposures and 10,000 injected sources; 50 held-out physical acquisitions; timing over 100 runs using eight threads and including file I/O; documentation and publication work scheduled under the main grant; and the environmental application's UV LED excitation and 10 Hz readout. The last omission conceals a material validation challenge relative to the reported 1.2-second processing time per frame.",
+      "fix": "Register these quantities and statuses with their exact source wording and existing/planned classifications. Preserve the simulated-workload qualification for runtime and record the environmental acquisition configuration separately from demonstrated processing performance."
+    }
+  ]
+}

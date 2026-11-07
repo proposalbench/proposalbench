@@ -1,0 +1,86 @@
+# NSF standard full research grant; sources checked 2026-10-31.
+# Current PAPPG is NSF 24-1 (effective 20 May 2024), with Supplements 1 and 2:
+# https://www.nsf.gov/policies/pappg
+# https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation
+# https://www.nsf.gov/policies/pappg/24-1/ch-3-proposal-processing-review
+# https://www.nsf.gov/policies/document/pappg24-1-supplement-1
+# https://www.nsf.gov/policies/document/pappg24-1-supplement-2
+# Supplements do not replace the Summary/Description rules or the five review elements.
+# Project Summary: 1 page. Project Description: 15 pages, including any Results from Prior
+# NSF Support (at most 5 of those pages). Encode page/word limits in call.yaml.
+# Both Intellectual Merit and Broader Impacts receive full consideration; NSF prescribes
+# no numerical weighting between them here. ProposalBench retains its own component weights.
+#
+# call.yaml section ids and titles:
+#   summary: Project Summary
+#   description: Project Description
+# Use Overview, Intellectual Merit and Broader Impacts as three headings within summary.
+# These represent the three Research.gov summary fields in the benchmark's single narrative.
+# Within description use a separate heading exactly "Broader Impacts", on its own line;
+# add Results from Prior NSF Support when applicable. Keep these as subheadings of their
+# respective parent so the identically named summary/description headings are unambiguous.
+#
+# Five review elements (PAPPG III.A.2), considered for BOTH review criteria:
+#   1 knowledge/societal contribution: G01, G02, G11; NSF01-NSF02 locate both statements.
+#   2 creative/original/potentially transformative concepts: G02 (not a novelty mandate
+#     for outreach; PAPPG permits justified established broader-impact approaches).
+#   3 reasoned plan and assessment of success: G03-G09, G11-G12; NSF02 adds documentation
+#     of broader-impact outputs, including when outcome evaluation is aggregated.
+#   4 qualifications: G10, GR3.
+#   5 available resources: G09, GR1, GR3.
+# Read the whole description for these roles, including its Broader Impacts subsection.
+# Do not add five duplicate scheme items for these already-covered review elements.
+# NSF03 uses grounding so the judge receives the dossier for applicability and award facts,
+# and whole-proposal scope so it can also inspect publications in References Cited.
+
+roles:
+  objectives: [description]
+  state_of_the_art: [description]
+  methods: [description]
+  workplan: [description]
+  risks: [description]
+  team: [description]
+  impact: [description]
+
+items:
+  - id: NSF01
+    component: call_responsiveness
+    sections: [summary]
+    taxonomy: [P03, P17, P23]
+    question: Does the Project Summary contain the three distinct headed parts required by this narrative representation of the NSF summary?
+    criteria:
+      - {id: a, text: "Contains a distinct Overview heading with a statement of the proposed activity, its objectives and its approach beneath it. Quote the heading together with relevant text, not the short heading alone."}
+      - {id: b, text: "Contains a distinct Intellectual Merit heading with a statement about the proposed advance in knowledge beneath it. Quote the heading and its accompanying statement; a heading only in the Project Description does not count."}
+      - {id: c, text: "Contains a distinct Broader Impacts heading with a statement about the proposed societal benefit beneath it. Quote the heading and its accompanying statement; a heading only in the Project Description does not count."}
+
+  - id: NSF02
+    component: call_responsiveness
+    sections: [description]
+    taxonomy: [P03, P09, P13]
+    question: Does the Project Description contain its own substantive Broader Impacts section and provide accountability for the proposed activities?
+    criteria:
+      - {id: a, text: "Contains a separate section headed Broader Impacts on its own line, with substantive text about this project's broader impacts beneath it. Quote the heading and accompanying text; the summary's section does not count."}
+      - {id: b, text: "In that section, describes a specific activity the PI will carry out for a stated societal goal. It may be part of the research itself, related to it or complementary; a separate outreach programme is not mandatory. A predicted benefit without an activity is insufficient."}
+      - {id: c, text: "States how outputs of those broader-impact activities will be documented, identifying the record or evidence to be collected. A target number alone is insufficient. Allow documentation at project level with outcome evaluation at a larger programme level."}
+
+  - id: NSF03
+    component: grounding
+    taxonomy: [P03, P19, P22]
+    question: >-
+      If the dossier establishes qualifying prior NSF support for a PI or co-PI, does the
+      Project Description report it in Results from Prior NSF Support? Qualifying support
+      is current funding (including a no-cost extension) or an award ending within the
+      five years before the call's submission date, whether related to this proposal or not.
+      For each qualifying investigator only the most closely related award need be reported;
+      a shared award need not be repeated. Answer na for all criteria if the dossier establishes
+      no qualifying support or leaves eligibility unknown, explaining which situation applies.
+      For an applicable award, answer na for an individual criterion only if the dossier lacks
+      the facts needed to report it; missing proposal text is no when those facts are supplied.
+      Do not search for real awards or invent missing metadata, results or publications.
+    criteria:
+      - {id: a, text: "Identifies the selected award for each qualifying PI or co-PI by its dossier-supported award number and project title."}
+      - {id: b, text: "Reports the selected award's amount and period of support as supplied in the dossier."}
+      - {id: c, text: "Describes award accomplishments under separate Intellectual Merit and Broader Impacts headings within the prior-support account. For a recently awarded project with no results yet, describes its major goals and broader impacts instead. Quote headings with content, not a list of headings alone."}
+      - {id: d, text: "Identifies publications arising from the selected award with bibliographic citations here or in References Cited, or explicitly states that none were produced when the dossier supports that fact."}
+      - {id: e, text: "Reports research products from the selected award and evidence of their availability, using the dossier's information. Answer na if the dossier establishes that there are no products yet."}
+      - {id: f, text: "For a renewal, explains how the completed work under the selected award relates to the work for which renewed support is sought. Answer na if this is not a renewal."}

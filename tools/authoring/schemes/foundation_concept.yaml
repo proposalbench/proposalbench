@@ -1,0 +1,165 @@
+name: foundation_concept
+scheme: foundation
+language: en
+topic_code_prefix: PB-FOUNDATION-CONCEPT
+bottom_up: false
+proposal_type: concept_note
+length_contract:
+  max_words: 1500
+  enforcement: inadmissible
+  tolerance: 0.0
+  exempt:
+  - title
+  - references
+  page_limit: 3
+  words_per_page: 500
+  source_note: |
+    Authored 2026-10-31. No external funder source: all foundation conditions are invented.
+    A two-to-three-page concept note, maximum 3 pages x 500 words/page = 1500 words.
+    The two-page length is guidance, not a minimum. Original source: tools/authoring/design_v2.md.
+    Title/references exempt; tables/captions count. Strict inadmissible enforcement is fictional.
+required_sections:
+- id: problem
+  title: Problem
+- id: aims
+  title: Aims
+- id: approach
+  title: Approach
+- id: team
+  title: Team
+- id: budget
+  title: Budget outline
+- id: impact
+  title: Expected impact
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 25000
+  max_budget: 100000
+  duration_months_min: 12
+  duration_months_max: 24
+  consortium:
+    min_entities: 1
+    min_countries: 1
+    notes: 'Invented: nonprofit research or higher-education host in any country; individual or team
+      lead, any career stage, including doctoral researchers with named supervision.'
+fixed_items:
+  expected_outcomes: []
+  scope: []
+  exclusions:
+  - id: EX1
+    text: Routine service delivery without a research question is outside this fictional call.
+  - id: EX2
+    text: Purchase of equipment costing more than EUR 20,000 per item is excluded from this fictional
+      call.
+  - id: EX3
+    text: Expenditure unrelated to the proposed inquiry is outside this fictional call.
+  mandatory_elements:
+  - id: ME1
+    text: For each aim, identify the evidence or argument that will be used to assess it.
+  - id: ME2
+    text: Provide a budget outline linking the main cost categories of the requested foundation grant
+      to the proposed activities.
+  - id: ME3
+    text: Specify the evidence-based criterion for deciding, at the end of the funded project, whether
+      to continue, redirect or stop the research.
+  - id: ME4
+    text: Assign the proposed research tasks to team members with relevant capabilities.
+sources: []
+author_notes: |
+  Host and doctoral-supervision rules are eligibility prose/consortium notes, not MEs.
+  SC1 moves to Purpose. Drop the generic EO1, which described the concept note rather than
+  a research outcome; the author supplies topic-specific outcomes. ME3 is a project-end
+  decision criterion, not a demand for results before invitation. Equipment threshold is per item.
+  eligibility_bounds:
+    max_budget: {min: 25000, max: 100000}
+    duration_months_max: {min: 12, max: 24}
+  Develop the matrix theme through the title, expected_outcomes_intro, expected_outcomes,
+  scope_intro, scope, exclusions and mandatory_elements. Preserve the fixed equipment
+  exclusion; add topic-specific exclusions without repeating it. Matrix conditions set the
+  ceiling and duration in the header; do not restate either value in topic prose or items.
+  No external official source exists or is claimed. The design brief requests typical concept-note
+  headings, not a named funder's format. Every threshold, weight, award band, host rule and
+  length/enforcement policy is invented. Preserve scheme=foundation, proposal_type=concept_note
+  and task.type=concept_note. Early-career or doctoral eligibility is intentional. No institution
+  or collaboration should be asserted as committed unless supported by the dossier. The short
+  format requests proportionate scientific detail, not a full implementation annex.
+  Preserve all fixed items and section ids. Topic slots contain merged fixed and topic items,
+  using unused EO/SC/EX/ME ids. Each item must be a single narrative-visible requirement.
+  Put eligibility and submission rules in eligibility prose and consortium notes, not MEs.
+  Use the stated fictional deadline 15 September 2027 where a deadline is needed; do not imply
+  an actual open call. Preserve proposal_type in call.yaml; task.type is separate metadata.
+  Rights: independently paraphrased public policy; no copied official narrative or logos.
+  Register source attribution when integrating calls; this skeleton does not update data/.
+call_md: |
+  # {{topic_code}}: {{title}}
+
+  > This is a wholly fictional private research foundation concept-note call for ProposalBench. It makes no fidelity claim to any named funder. Every eligibility rule, award criterion, financial condition and length rule below is invented.
+
+  {{header_table}}
+
+  ## Purpose and eligibility
+
+  Invite a concise research idea that merits consideration for a later full proposal. Applicants may be individuals or teams at any career stage, including doctoral researchers with named supervision, at a nonprofit research or higher-education host in any country. No international consortium is required. Request at least EUR 25,000 total including indirect costs, within the ceiling and duration in the table above. A concept-note invitation is not a grant award. The fictional deadline is 15 September 2027. Concept notes are welcome across research disciplines, including theoretical and qualitative projects; neither preliminary data nor a commercialisation route is required.
+
+  ## Expected outcomes
+
+  {{expected_outcomes_intro}}
+
+  {{expected_outcomes}}
+
+  ## Scope
+
+  {{scope_intro}}
+
+  {{scope}}
+
+  ## Exclusions
+
+  {{exclusions}}
+
+  ## Specific conditions and mandatory elements
+
+  {{specific_conditions}}
+
+  ## Required narrative
+
+  ### Problem
+  Identify the bounded knowledge gap, why it matters, and what existing work leaves unresolved.
+
+  ### Aims
+  State a focused question or hypothesis and a small number of assessable aims.
+
+  ### Approach
+  Describe the main evidence, sources or experiments, analysis or argument, sequence, success/decision criteria and principal uncertainty. Keep detail proportionate to a concept note.
+
+  ### Team
+  Explain who will do the work, the relevant capability, host and supervision where needed, and important gaps or dependencies.
+
+  ### Budget outline
+  State the total request, duration, broad cost categories and how they serve activities. Include indirect costs within the ceiling. The requested funding is the grant sought from this foundation for the project described in the concept note. Separately identify additional contributions from other sources, distinguishing committed contributions from prospective contributions that are not yet secured; do not add prospective contributions to the foundation request.
+
+  ### Expected impact
+  Identify the intended users or beneficiaries, the route from findings to possible benefit, and the research direction that the project’s findings could inform. Scientific advances can be the primary impact for theoretical work.
+
+  ## Award criteria
+
+  Invented criteria: importance and foundation-call fit of the problem (30 points), value and clarity of the aims (20), credibility and focus of the approach (25), team and resource adequacy (15), and plausible expected impact and next step (10). The fictional invitation threshold is 70/100 with no subcriterion thresholds. These invented weights do not represent any named foundation.
+
+  ## Length contract
+
+  Aim for two to three pages; two is guidance, not a minimum. The maximum is 3 notional pages at 500 words/page, or {{max_words}} words, with no tolerance. Count tables and captions; exempt the title and reference list. Exceeding the maximum makes this fictional concept note inadmissible. All limits and the conversion are invented benchmark conventions.
+
+  ## Sources
+
+  Fictional design recorded 2026-10-31; not an official funding notice.
+  No named funder is represented; all conditions are invented for ProposalBench.
+
+  <!-- {{canary}} -->
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+  notes: Official rules checked on 2026-10-31; fictional adaptations identified. No human review claimed.
+render_fixed_conditions: true

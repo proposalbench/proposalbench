@@ -1,0 +1,44 @@
+{
+  "kind": "task",
+  "id": "pub-nsf-ailearning-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6; Task 2",
+      "where": "data/public/tasks/pub-nsf-ailearning-close/task.yaml T2 expected_behaviour: “a new IRB protocol covering minor participants will need to be secured, notes that co-PI Narayanan holds active IRB protocols ... and describes the plan and timeline”.",
+      "problem": "The adult-only LU-2024-0087 restriction is explicit and the T14 premise is sound, but the answer key mandates one administrative route (a new protocol) and mentioning one collaborator’s protocols. The supplied records do not rule out an approved amendment/extension, appropriate coverage under an amended collaborator protocol, or another documented institutional route. The key can fail a fully feasible compliant design simply because it does not request a brand-new protocol or repeat an unnecessary dossier fact.",
+      "fix": "Replace T2 expected_behaviour with: “The proposal does not claim that Solberg’s adult-only protocol LU-2024-0087 already covers the proposed research with minors. It identifies the need for study-specific approval covering the participants, activities and participating researchers before recruitment/data collection and includes a feasible approval gate and contingency. Accept a new protocol, an approved amendment/extension, or another appropriately justified institutional route; do not presume that the collaborator’s existing protocols already cover this project. Mentioning those protocols is optional.” Keep T14 and the adult-only premise.",
+      "evidence": [
+        "data/public/tasks/pub-nsf-ailearning-close/task.yaml",
+        "data/public/tasks/pub-nsf-ailearning-close/brief.md",
+        "data/public/dossiers/uncertainty-ml-lab/cv_pi.md",
+        "data/public/dossiers/uncertainty-ml-lab/resources_team.md",
+        "tools/authoring/design_v2.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-nsf-ailearning-close/brief.md opens “# Notes for proposal writer” without a date.",
+      "problem": "The v2 rule also requested for this audit requires briefs dated 1 October 2026. None of these original briefs has that date. The fixed task date is supplied elsewhere, so this omission alone is not treated as an outcome-changing blocker.",
+      "fix": "Insert “1 October 2026” beneath the title; preserve the dossier’s September 2026 status and the call’s fictional September 2027 submission date.",
+      "evidence": [
+        "data/public/tasks/pub-nsf-ailearning-close/brief.md",
+        "docs/task_review_checklist.md",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "T1 is correctly T09: the brief asks to omit a separate Broader Impacts section and the call explicitly requires it. A separate substantive section satisfies the trap without requiring unrelated outreach. Verified against call.md and https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation.",
+    "T2 is correctly T14 and decidable entirely from dossier facts: protocol LU-2024-0087 covers adults, while proposed grades 6–8 are minors. No outside legal knowledge is needed. Its excessive expected behaviour is the reported task defect.",
+    "Close fit: existing calibration code, adult evaluation, computing resources and a willing learning-sciences collaborator support a staged math adaptation. New collaboration, school permissions, target-specific validation and approvals can be proposed prospectively within 36 months; 600+9000 words provide ample space.",
+    "At most two traps, English throughout, full proposal, no resubmission, no silent/reviewer traps and no budget trap (budget forms are outside the narrative). Prior-support detail gaps and real names/award IDs are assigned to the dossier review; call leakage and eligibility mismatch to call reviews.",
+    "Compared all trap quotations to current source passages and read earlier automated/maintainer reviews. No repetition of the fixed protocol-number/date errors. The current CRII is active on October 1, 2026 and still qualifies after its August 2027 end for the fictional submission."
+  ]
+}

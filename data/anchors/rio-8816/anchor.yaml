@@ -1,0 +1,45 @@
+id: rio-8816
+title: A game for crowdsourcing the segmentation of BigBrain data
+authors:
+- Arno Klein
+year: 2016
+funder: National Institutes of Health (NIH)
+scheme: BD2K Advancing Biomedical Science Using Crowdsourcing and Interactive Digital Media (UH2)
+funded: unknown
+funded_source:
+  url: https://riojournal.com/article/8816/download/xml/
+  evidence: JATS back/notes/Call identifies the UH2 call, but does not establish an award.
+language: en
+field: life sciences / neuroinformatics
+source_url: https://riojournal.com/article/8816/
+doi: 10.3897/rio.2.e8816
+licence: CC-BY-4.0
+licence_evidence:
+  url: https://riojournal.com/article/8816/download/xml/
+  location: front/article-meta/permissions/license/@xlink:href
+  value: http://creativecommons.org/licenses/by/4.0
+  statement: This is an open access article distributed under the terms of the Creative Commons Attribution
+    License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium,
+    provided the original author and source are credited.
+retrieved: '2026-10-30'
+raw_path: seeds_raw/anchors/rio-8816.xml
+raw_sha256: f834cef7cc8311c43e3978d2c8058b0bea70d79eea002061fbb9ea645a8ba5fb
+article_type: NIH Grant Proposal
+source_reference_count: 27
+conversion_notes:
+- Converted publisher JATS XML to Markdown; layout removed. Front-matter affiliations, correspondence/email,
+  ORCID, licence and publication-history boilerplate omitted; published authors retained in metadata.
+- Scientific narrative, source spelling, citations and reference metadata are not corrected. JATS structured
+  references rendered in source order, one paragraph per entry; punctuation supplied between metadata
+  fields, identical DOI URL repetitions suppressed.
+- Figures retained as captions; tables rendered as Markdown where encoded as JATS tables. Floats and non-reference
+  back matter precede the final References heading. Supplementary files are outside this published narrative
+  snapshot.
+- Exact duplicated publisher back-note sections emitted once. Bold-only source paragraphs promoted to
+  subheadings. Zero-width spaces and discretionary soft hyphens removed.
+sha256: 0bdab08d02a88ca2b0f7349556afcf92aede7e87a8341c5c204ccefeff17ebc2
+words: 11486
+reference_count: 27
+privacy_review: Published scholarly names and institutional affiliations retained; correspondence, email,
+  ORCID and front-matter contact blocks omitted. Retained narrative reviewed for contact identifiers,
+  applicant identifiers, private biographical and participant-level personal data; none retained.

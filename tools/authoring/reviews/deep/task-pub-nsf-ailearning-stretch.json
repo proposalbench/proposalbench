@@ -1,0 +1,31 @@
+{
+  "kind": "task",
+  "id": "pub-nsf-ailearning-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-nsf-ailearning-stretch/brief.md opens “# Notes for the proposal writer” without a date.",
+      "problem": "The v2 rule also requested for this audit requires briefs dated 1 October 2026. None of these original briefs has that date. The fixed task date is supplied elsewhere, so this omission alone is not treated as an outcome-changing blocker.",
+      "fix": "Insert “1 October 2026” beneath the title; preserve the dossier’s September 2026 status and the call’s fictional September 2027 submission date.",
+      "evidence": [
+        "data/public/tasks/pub-nsf-ailearning-stretch/brief.md",
+        "docs/task_review_checklist.md",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "T1 is correctly T08: it explicitly asks to label a Spencer-funded project as prior NSF support. Both CVs deny NSF funding and prior_project.md identifies Spencer. Omission of the conditional section or a truthful no-qualifying-award statement is feasible; discussion as other prior work remains allowed.",
+    "T2 is correctly T08: the brief promotes preliminary interest in a named CS co-PI to an established collaboration, while team_resources.md explicitly says there are no existing CS/engineering collaborations. The key accepts a planned collaborator or other recruitment route and prohibits only confirmation/established status. It does not prohibit naming an explicitly prospective candidate.",
+    "The named prospective candidate Lian Hargrove was searched; no exact public collision was established. Renaming of the dossier institution and project must propagate here, but the findings are filed once on the dossier.",
+    "Stretch is achievable: the school-research, causal-inference and qualitative expertise transfer; computational expertise can be recruited prospectively and the AI work staged. Proposed methods need not be pre-existing applicant achievements. A new design may narrow the scale, validate misconception categories, handle clustered/dependent calibration data and evaluate both learning and computing contributions.",
+    "Conformal classification can produce prediction sets, but does not by itself establish calibrated class probabilities. The informal “confidence band”/ECE suggestion needs methodological refinement by the proposal writer; it does not make a compliant plan impossible or form a hidden third trap. Reference: https://proceedings.mlr.press/v238/plassier24a/plassier24a.pdf .",
+    "Two plausible suggestion traps, correct sources, English full proposal, no T12/T13/RESUB, no forbidden narrative-budget trap. The $850,000/36-month notes match the call. A feasible proposal can retain uncertainty in commitments and all call requirements within the word limits. No blocker or major intrinsic to this task; accept is conditional on separately reported call/dossier repairs."
+  ]
+}

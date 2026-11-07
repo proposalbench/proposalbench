@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub2-he-coldchain-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "brief.md, antimicrobial intervention paragraph; task.yaml, T1",
+      "problem": "The trap relies on a scientifically implausible applicant suggestion: developing a veterinary medicine to apply directly to food before transport. That proposed use is food preservation, not veterinary treatment. Combined with IMAA's explicitly stated lack of medicinal-product expertise, this does not meet the requirement for a realistic applicant suggestion.",
+      "fix": "Replace the proposed veterinary drug with a new chemical food preservative intended for application before transport. Update T1 accordingly, retaining the conflict with EX1 and accepting feasible interventions within the call's scope."
+    }
+  ]
+}

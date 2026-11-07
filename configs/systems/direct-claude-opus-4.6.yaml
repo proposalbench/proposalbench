@@ -1,0 +1,3 @@
+id: direct-claude-opus-4.6
+kind: direct
+model: {provider: bedrock, id: us.anthropic.claude-opus-4-6-v1, max_output_tokens: 64000}

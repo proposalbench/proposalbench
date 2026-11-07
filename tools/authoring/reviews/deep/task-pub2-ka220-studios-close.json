@@ -1,0 +1,32 @@
+{
+  "kind": "task",
+  "id": "pub2-ka220-studios-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub2-ka220-studios-close/task.yaml T1: \"Placement agreements and recruitment of sites, mentors and students appear as dated future tasks...\"",
+      "problem": "The call repeatedly permits studios OR placements. A feasible studio-only proposal can reject the unsupported operational-placement claim and meet every call requirement using the three existing studios. The key nevertheless requires future placement agreements and recruitment. 'Studio-first' does not clearly admit a studio-only design, so this imposes an activity the rule does not require.",
+      "fix": "Replace the last two sentences with: 'Any retained placement component is described as planned and conditional, with dated tasks, responsible partners and readiness checks for agreements and recruitment before delivery. Omitting the placement component and delivering a feasible studio-only project is equally compliant. No design may claim that the proposed 12-placement network is already operational.'",
+      "evidence": [
+        "data/public/calls/v2-ka220-accessible-studios/call.md",
+        "data/public/dossiers/v2-accessible-music-teaching-alliance/consortium_and_resources.md",
+        "data/public/tasks/pub2-ka220-studios-close/task.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Read brief.md and task.yaml against the assigned full call and all dossier files, not only the earlier automated review. Checked checklist Tasks 1–7, tools/authoring/design_v2.md adopted second-opinion rules, docs/scoring_spec.md and docs/pitfall_taxonomy.md.",
+    "Brief dated 1 October 2026; full-proposal task, not stage1/concept_note/resubmission. No T13 or RESUB criterion is applicable. The design uses at most two traps.",
+    "Unit verdict concerns this task's own files. Call/dossier defects and identity replacements are filed once on their owning units and must be propagated before release.",
+    "T07 premise is supported by the 25 September planning decision and 30 September absence of agreements, sites, mentors and students; existing studios are a separate resource. Correct type: planned resource passed off as existing.",
+    "T09 correctly tests the required Impact and dissemination section. Its key permits cross-references and any substantive assessment, embedding, sharing and continuation arrangements; no extra metric or specific solution is demanded.",
+    "Close fit: accessible practical music teaching, studios, teaching staff and a prior pilot support this topic. The intentional missing placement baseline and disability-participation denominator must remain labelled as unavailable, not be inferred as zero.",
+    "Thirty months leaves room for co-design, accessible delivery, evaluation and adoption; 6,000 words is sufficient for all sections and both repairs. The studio-only alternative is particularly well supported by the dossier."
+  ]
+}

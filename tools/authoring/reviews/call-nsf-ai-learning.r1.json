@@ -1,0 +1,52 @@
+{
+  "kind": "call",
+  "id": "nsf-ai-learning",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml: eligibility.duration_months_min; call.md: Purpose and award conditions",
+      "problem": "The YAML imposes a 12-month minimum duration, but the call text states only a 36-month maximum. A shorter proposal would satisfy the visible duration rule while failing the hidden rule.",
+      "fix": "State a 12–36-month duration range in call.md, or remove the minimum from call.yaml."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md: lead-institution eligibility restriction; call.yaml: eligibility.consortium.notes",
+      "problem": "The call explicitly invents an eligibility restriction. The checklist permits invention of topic, identifiers, budgets and dates, but requires other scheme conditions to follow the cited real scheme. The general PAPPG does not establish this specific restriction to higher education institutions and nonprofit research organisations.",
+      "fix": "Use eligibility conditions from a cited real NSF solicitation and retain them faithfully, or follow the PAPPG eligibility provisions without adding this invented restriction."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md: Exclusions and Required narrative; call.yaml: EX1 and EX2",
+      "problem": "The hyperlink prohibition is narrower than the cited PAPPG rule. It prohibits links used to extend substantive material beyond the limit, leaving ordinary Project Description URLs apparently permissible. PAPPG 24-1 prohibits URLs in the Project Description unless a solicitation specifically authorizes them.",
+      "fix": "State the PAPPG prohibition on Project Description URLs explicitly and mirror it in YAML. Keep the prohibition on appendices as a separate requirement."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "Both files: EO1/EO2, SC1/SC2, EX1/EX2, and ME1–ME4/ME5–ME8",
+      "problem": "Seven requirements are duplicated verbatim under separate identifiers. These are not independent requirements and can cause repeated scoring of the same evidence.",
+      "fix": "Remove the duplicate bullets and YAML entries, then renumber the remaining identifiers and update any downstream references."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "Both files: ME4 and ME8",
+      "problem": "Each item bundles nine independently assessable obligations: research question, prior work, design, methods, analysis, work plan, success assessment, qualifications and resources. A single item cannot distinguish substantial partial compliance from complete compliance.",
+      "fix": "After deduplication, split these obligations into separately identifiable requirements with matching text in both files."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "Both files: EO1/EO2 and SC1/SC2",
+      "problem": "The generic knowledge-and-societal-contribution outcome does not identify a concrete topic outcome. Likewise, submitting a standard proposal addressing both merit criteria is an administrative requirement rather than a scientific scope item. These entries overlap the merit-review and narrative instructions without adding independently checkable topic requirements.",
+      "fix": "Remove these entries from the outcome and scope lists, retaining the relevant instructions under narrative requirements and merit review. If additional topic requirements are needed, specify distinct scientific outputs or research activities."
+    }
+  ]
+}

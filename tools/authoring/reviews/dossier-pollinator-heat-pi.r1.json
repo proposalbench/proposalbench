@@ -1,0 +1,31 @@
+{
+  "kind": "dossier",
+  "id": "pollinator-heat-pi",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md, Section 6 (Budget execution)",
+      "problem": "The indirect costs are stated as 21%, but the math is incorrect. For the awarded budget, direct costs sum to 161,500 EUR, and 21% of that is 33,915 EUR, not 20,000 EUR. For the spent budget, direct costs sum to 112,600 EUR, and 21% of that is 23,646 EUR, not 13,300 EUR.",
+      "fix": "Adjust the direct cost categories so they sum to 150,000 EUR (e.g., reduce Consumables to 51,000 EUR), and set Indirect costs to 31,500 EUR to make the total 181,500 EUR. Adjust the spent amounts similarly so the indirect costs are exactly 21% of the spent direct costs (e.g., 100,000 EUR direct and 21,000 EUR indirect), and update fact F22 accordingly."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "publications.md and dossier.yaml (F16)",
+      "problem": "The document states 'Total peer-reviewed articles: 7', but lists 7 published articles plus 1 article 'in press' (item 8) where the PI is the corresponding author. An 'in press' article counts as a peer-reviewed article, making the true total 8.",
+      "fix": "Change 'Total peer-reviewed articles: 7' to 8 in publications.md, and update fact F16 in dossier.yaml to reflect 8 peer-reviewed articles (6 as first/corresponding author)."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 5",
+      "where": "planned tasks (pub-aei-pollinator-stretch) and cv_pi.md",
+      "problem": "The trap for pub-aei-pollinator-stretch depends on the applicant having a 'pending ERC application', but this fact is nowhere in the dossier. Every fact a trap depends on must be stated unambiguously in the dossier.",
+      "fix": "Add a 'Grants under review' section to cv_pi.md mentioning a pending ERC Starting Grant application, and add a corresponding fact to dossier.yaml."
+    }
+  ]
+}

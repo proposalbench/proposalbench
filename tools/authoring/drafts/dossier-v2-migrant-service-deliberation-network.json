@@ -1,0 +1,1360 @@
+{
+  "kind": "dossier",
+  "id": "v2-migrant-service-deliberation-network",
+  "family": "anthropic",
+  "model": "opus",
+  "created": "2026-10-31",
+  "prompt_sha256": "2911efe302f9f8a8bfb7b0ba5e77a39dd3eb71503ed3d487ce6166ae948c0f89",
+  "draft": {
+    "applicant_type": "consortium",
+    "career_stage": "senior",
+    "disciplines": [
+      "law",
+      "public administration",
+      "migration sociology"
+    ],
+    "method_profile": "mixed",
+    "country": "BE",
+    "files": [
+      {
+        "path": "cv_coordinator.md",
+        "role": "cv",
+        "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae\n\n**Dr Annick Vercauteren-Delhez**  \nDirector, Seuil Commun asbl, Liège, Belgium  \nLanguages: French (native), Dutch (C1), English (C1), Portuguese (B1)  \nAs of 30 September 2026\n\n## Current position\n\n**2009–present**: Founding director, Seuil Commun asbl, Liège. Legal and financial responsibility for the association (14 staff, 11.2 FTE in 2026). Head of its advice clinic on social rights and residence procedures until 2016. Coordinator since 2024 of the GUICHETS consortium with Les Guichets Ouverts (Roubaix, France) and Associação Rede Balcão Aberto (Porto, Portugal).\n\n## Previous positions\n\n- **2005–2009**: Legal adviser, Coordination liégeoise d'aide juridique (nonprofit). Trained social workers on administrative appeals.\n- **1999–2005**: Legal officer, appeals and complaints unit of a municipal public social welfare centre (CPAS), province of Liège.\n- **2010–2022**: Guest lecturer (12 hours per year), administrative procedure and migrants' access to public services, social work programme, Haute École de la Vesdre.\n\n## Education\n\n- **2004**: PhD in public law, Université de la Basse-Meuse. Thesis: *The duty to hear: hearing rights of applicants in Belgian social assistance procedures.*\n- **1998**: Master in law, Université de la Basse-Meuse.\n- **2012**: Certificate in community mediation (120 hours), Centre de formation à la médiation de Verviers.\n\n## Grants and funded projects (coordinator or lead)\n\n| Period | Funder and scheme | Project | Amount | Role |\n|---|---|---|---|---|\n| 2024–2026 | European Commission, CERV programme, call CERV-2023-CITIZENS-CIV, grant agreement 101143871 | GUICHETS: resident deliberation on access to public services in Liège, Roubaix and Porto (1 January 2024 – 30 June 2026) | EUR 296,400 EU contribution (lump sum) | Coordinator |\n| 2020–2022 | King Baudouin Foundation, project grant | Interpreted information sessions on social assistance, Liège | EUR 48,000 | Lead |\n| 2018–2020 | Asylum, Migration and Integration Fund, Belgian national programme | Droit d'accès: complaint and appeal routes for newly arrived residents | EUR 212,000 | Lead |\n| 2015–present | Wallonia Region, initiatives locales d'intégration (ILI) | Recognition and annual operating subsidy of Seuil Commun | EUR 61,500 (2026) | Legal representative |\n\nThe GUICHETS final technical report was submitted to the granting authority on 27 August 2026 and was under assessment on 30 September 2026.\n\n## Professional activities\n\n- Board member since 2019, Réseau européen Accès et Droits (READ), a Brussels-based network of 23 civil-society organisations working on migrants' access to public services.\n- 2016–2025: 31 training days for municipal and CPAS staff on the right to be heard and interpreted access to services.\n- 2021: Invited expert, hearing on interpretation in social assistance procedures, Observatoire mosan de l'accès aux droits (Namur).\n\n## Experience in resident deliberation\n\n- Designed the GUICHETS session format and drafted the consortium participant protocol (version 2, January 2025; version 3, adopted 3 March 2026; addendum 1 on retention, 30 September 2026).\n- Facilitated or co-facilitated 4 of the eight deliberation sessions of the 2025 GUICHETS cycle.\n\n## Publications\n\nSee the consortium publications list (6 items, 2019–2026).\n"
+      },
+      {
+        "path": "consortium.md",
+        "role": "team",
+        "content": "> Fictional document created for ProposalBench.\n\n# GUICHETS consortium: partners, roles and agreements\n\nStatus at 30 September 2026.\n\n## 1. Coordinator: Seuil Commun asbl (Belgium)\n\n- Legal form: association sans but lucratif (asbl) under the Belgian Code of Companies and Associations; registered office in Liège; founded 2009.\n- Nonprofit civil-society organisation. Recognised by the Wallonia Region as an initiative locale d'intégration since 2015. Income 2025: EUR 948,000.\n- Activities: advice clinic on social rights and residence procedures (1,140 individual consultations in 2025, staffed by two jurists who do not facilitate deliberation sessions); interpreted information sessions; resident deliberation since 2024.\n- Staff: 14 persons, 11.2 FTE.\n\n| Person | Role | Background |\n|---|---|---|\n| Dr Annick Vercauteren-Delhez | Director, consortium coordinator | PhD in public law; 25 years in administrative appeals and access to services |\n| Youssef El Kaddouri-Lambert | Lead facilitator, 0.8 FTE | Master in law; six years as CPAS appeals officer; organiser in Moroccan-Belgian associations since 2011; Arabic, French, Dutch |\n| Oksana Hrytsenko-Dupont | Facilitator, 0.6 FTE | Master in public administration; community organiser with Ukrainian- and Russian-speaking residents since 2022 |\n| Lotte Van Gijsegem | Evaluation and data officer, 0.5 FTE | MSc in sociology; questionnaires, response tracker, data protection register |\n\n## 2. Beneficiary: Les Guichets Ouverts (France)\n\n- Association loi 1901, Roubaix (Nord), founded 2013. Nonprofit. Income 2025: EUR 412,000. Staff: 9.\n- Activities: accompaniment to public services, digital-access help desk, community mediation.\n- Lead: Nadia Tessier-Hamdani, coordinator; master in public law (immigration law); community mediator since 2010.\n- GUICHETS role: organised the three Roubaix sessions; tracked responses from the CCAS, the departmental social action service, the family-allowance fund and the municipal education service.\n\n## 3. Beneficiary: Associação Rede Balcão Aberto (Portugal)\n\n- Private nonprofit association, Porto, founded 2016. Income 2025: EUR 236,000. Staff: 7.\n- Activities: migrant reception desk, Portuguese conversation circles, mediation with health centres and municipal services.\n- Lead: Dr Rita Saldanha Quaresma, PhD in migration sociology (2015, Instituto Superior de Estudos Sociais do Norte). Facilitator: Djibril Có Mendes, community organiser with Bissau-Guinean associations; Portuguese, Kriol, French.\n- GUICHETS role: organised the two Porto sessions; led the qualitative strand with officials.\n\n## 4. Agreements\n\n- The CERV consortium agreement for GUICHETS (signed November 2023) covered the project period, which ended on 30 June 2026.\n- A framework partnership agreement between the three nonprofits was signed by Seuil Commun on 30 March 2026, Les Guichets Ouverts on 14 April 2026 and Associação Rede Balcão Aberto on 22 April 2026. It runs until 31 December 2029 and covers joint applications in which each organisation acts as a beneficiary, coordination by Seuil Commun, application of participant protocol version 3, and data-sharing terms. No party has given notice; the agreement is in force.\n\n## 5. Associated participant: Cellule Cultures et Quartiers (Liège)\n\n- Municipal cultural office based in Liège; Belgian public body. It runs two neighbourhood cultural spaces, Sainte-Marguerite and Droixhe, with a staff of six programmers and venue managers.\n- Letter of association signed by the head of office on 8 July 2026. Contribution in kind: use of the two spaces, up to 12 evening or weekend slots per year, and advice from programming staff.\n- Receives no funds and is not a party to the framework partnership agreement. The office holds no heritage collections.\n\n## 6. Facilitators and competences\n\n- 9 facilitators were trained in 2024 (Seuil Commun 4, Les Guichets Ouverts 3, Rede Balcão Aberto 2). Each pairs training in administrative law or public-service procedure with at least three years of practice in migrant community organisations.\n- Cultural-space activity to date: one consultation on 13 June 2026 at the Sainte-Marguerite space, held with Cellule Cultures et Quartiers, on use of the space by residents' associations. 23 residents took part, with interpretation in four languages. The session had no heritage content. A summary was sent to the office, which replied in writing on 2 September 2026.\n- No staff member of the three partners has training or professional experience in heritage interpretation, museum mediation or participatory work with cultural heritage.\n- Planned: on 10 September 2026 the board of Seuil Commun approved a fixed-term 0.5 FTE heritage-mediation officer post (profile: heritage interpretation or museum mediation). The vacancy had not been published by 30 September 2026.\n"
+      },
+      {
+        "path": "annual_report_2025.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n# GUICHETS: Annual report 2025 (programme year 2)\n\n**Resident deliberation on access to public services in Liège, Roubaix and Porto**\n\nCERV grant agreement 101143871, project period 1 January 2024 – 30 June 2026.  \nReporting period: 1 January – 31 December 2025.  \nCoordinator: Seuil Commun asbl (BE). Beneficiaries: Les Guichets Ouverts (FR), Associação Rede Balcão Aberto (PT).\n\n## 1. Summary\n\nIn 2025 the consortium ran eight deliberation sessions: three in Liège, three in Roubaix and two in Porto. 84 unique residents took part. The sessions produced 41 recommendations addressed to 9 public bodies. By 31 January 2026, written responses had been received for 33 of 41 (80%).\n\n## 2. Objectives\n\n1. Enable residents facing language and migration-related barriers to deliberate on how local public services treat them.\n2. Obtain and document written responses from the authorities concerned and return them to residents.\n3. Test whether interpreted deliberation improves residents' knowledge of complaint routes.\n\n## 3. Methods\n\n- **Recruitment.** Residents were recruited through the partners' advice desks, language classes, community and religious associations, and sports clubs, with outreach material in 11 languages. Eligibility: living in the municipality and facing language or migration-related barriers in using public services. Sessions were capped at 30 residents.\n- **Format.** Three-hour sessions on Saturdays or weekday evenings. An official from the service concerned presented the procedure (30 minutes, interpreted). Residents then deliberated at language tables, each led by a facilitator and an interpreter. Recommendations were agreed in plenary and sent in writing within 10 working days.\n- **Accessibility.** Whispered and consecutive interpretation in 11 languages: Arabic, Dari, Pashto, Tigrinya, Ukrainian, Russian, Romanian, Turkish, Kriol (Guinea-Bissau), Bengali and Nepali. Childcare was provided at 7 of 8 sessions, with transport tickets and easy-read summaries in French and Portuguese.\n- **Response tracking.** Each recommendation was logged. Authorities were asked to reply in writing within 60 days, and replies were coded as accepted, partly accepted or declined. Replies were presented to residents at feedback meetings.\n- **Evaluation.**\n  - Exit questionnaire: 7 agree/disagree items, anonymous, handed to every resident present at the end of each session. Residents who attended more than one session were invited to complete it each time. Forms carry no identifier, so n counts forms, not distinct respondents.\n  - Knowledge cards on complaint routes (5-point scale): a pre card at the start and a post card at the end of a session, matched within the session by a number printed on both cards. Residents who attended more than one session completed new cards each time, so n counts session-level pairs.\n  - Proportions are reported with Wilson score 95% intervals and the mean change with a paired t interval. Both treat forms or pairs as independent observations and are not adjusted for repeat respondents.\n  - 14 semi-structured interviews with officials of the bodies addressed; facilitator observation notes after each session.\n- **Safeguarding.** Participant protocol version 2 (January 2025): written participation consent, no audio or video recording, a safeguarding lead at each site, and separation of deliberation from individual casework. Facilitators referred 17 individual situations raised in sessions to the partners' advice desks; none was handled in session.\n\n## 4. Sessions\n\n| Code | Site | Date | Theme | Public body addressed |\n|---|---|---|---|---|\n| L1 | Liège | 15 March 2025 | Appointments and appeal routes in social assistance | CPAS |\n| R1 | Roubaix | 29 March 2025 | Digital-only booking for public services | CCAS; departmental social action service; family-allowance fund |\n| P1 | Porto | 10 May 2025 | Registration with health centres | Local health unit |\n| L2 | Liège | 24 May 2025 | Reduced public-transport fares | Regional transport operator |\n| R2 | Roubaix | 21 June 2025 | School canteen and enrolment procedures | Municipal education service |\n| P2 | Porto | 27 September 2025 | Applications for municipal social housing | Municipal housing company |\n| L3 | Liège | 18 October 2025 | Interpretation at municipal counters | City population service |\n| R3 | Roubaix | 15 November 2025 | Complaint handling | CCAS |\n\nThe CCAS was addressed in R1 and R3; nine public bodies in total.\n\n## 5. Results\n\n**Recommendations and responses.** Of 41 recommendations, 12 were accepted, 14 partly accepted and 7 declined; 8 received no response. Median time to a written response was 47 days (interquartile range 29–71). Examples: following L1, the CPAS added an interpreter-booking line to its appointment letters; following P1, the local health unit published a registration checklist in four languages; following R3, the CCAS introduced written acknowledgement of complaints within 15 days. Responses were returned to residents at five feedback meetings held between December 2025 and January 2026.\n\n**Exit questionnaire (61 forms).**\n- 74% (45 of 61; 95% CI 62–83%) agreed with the statement 'I could express my views in a language I am comfortable with'.\n- 66% (40 of 61; 95% CI 53–76%) agreed with 'Our recommendations will reach the authority concerned'.\n- 39% (24 of 61; 95% CI 28–52%) agreed with 'I expect the authority to change something'.\n\n**Knowledge of complaint routes (48 session-level pairs).** The mean score rose from 2.3 to 3.6; mean difference 1.3 (SD 1.0; 95% CI 1.0–1.6).\n\n**Officials (n = 14).** Ten of 14 considered the recommendations specific enough to act on. Five reported that their service had an internal procedure for answering collective recommendations.\n\n**Case stories.** 19 case stories were collected in 2025 under internal-use consent. They were used for facilitator training and internal analysis.\n\n**Dissemination.** The policy brief *Interpreted access to public-service complaint procedures* (December 2025) was sent to the municipal and national authorities concerned in Belgium, France and Portugal, and presented at the READ network meeting in Brussels on 4 December 2025. No contribution was made to an EU consultation or EU institution in 2025.\n\n## 6. Limitations\n\n- There was no comparison group, so changes in services cannot be attributed to the sessions alone.\n- Questionnaires and cards were anonymous and could not be linked to attendance; respondents self-selected.\n- The 61 forms and 48 card pairs may include more than one response from the same resident; the number of distinct respondents is unknown. The intervals are unadjusted and should be read as exploratory.\n- Responses are as reported by the authorities. Implementation was checked on site for 3 recommendations only.\n- Facilitators observed under-representation of residents under 25 and of residents working evening shifts.\n\nSigned on 12 February 2026: A. Vercauteren-Delhez (Seuil Commun asbl), N. Tessier-Hamdani (Les Guichets Ouverts), R. Saldanha Quaresma (Associação Rede Balcão Aberto).\n"
+      },
+      {
+        "path": "attendance_consolidation_2025.md",
+        "role": "other",
+        "content": "> Fictional document created for ProposalBench.\n\n# GUICHETS 2025 deliberation cycle: attendance consolidation\n\nCompiled by the site coordinators of Seuil Commun, Les Guichets Ouverts and Associação Rede Balcão Aberto from the session sign-in sheets.  \nReference period: 2025 cycle, sessions held 15 March – 15 November 2025.\n\n| Session | Site | Date | Language tables | Attendances |\n|---|---|---|---|---|\n| L1 | Liège | 15 March 2025 | 5 | 24 |\n| R1 | Roubaix | 29 March 2025 | 4 | 22 |\n| P1 | Porto | 10 May 2025 | 4 | 27 |\n| L2 | Liège | 24 May 2025 | 6 | 21 |\n| R2 | Roubaix | 21 June 2025 | 3 | 19 |\n| P2 | Porto | 27 September 2025 | 4 | 25 |\n| L3 | Liège | 18 October 2025 | 5 | 26 |\n| R3 | Roubaix | 15 November 2025 | 4 | 23 |\n| **Total** | | | | **187** |\n\nUnique residents by site: Liège 37; Roubaix 31; Porto 28.\n\n**Unique residents, all eight sessions: 96**\n\nCounting rules:\n\n- One attendance means one resident signed in at one session.\n- A resident who signed in at more than one session is counted once as a unique resident.\n- Facilitators, interpreters, childcare staff and officials are excluded. A total of 19 officials attended across the eight sessions.\n- Children in the childcare area are not counted.\n"
+      },
+      {
+        "path": "publications.md",
+        "role": "publications",
+        "content": "> Fictional document created for ProposalBench.\n\n# Publications of the GUICHETS partners, 2019–2026\n\nList as of 30 September 2026.\n\n1. Vercauteren-Delhez, A. (2019). The duty to hear in practice: hearings in social assistance appeals in Wallonia. *Revue belge de l'action administrative*, 14(2), 113–138. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2019.1\n\n2. Vercauteren-Delhez, A., & El Kaddouri-Lambert, Y. (2021). Interpreted access to complaint procedures at municipal social welfare counters. *Cahiers de droit public local*, 9, 45–71. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2021.1\n\n3. Tessier-Hamdani, N., & Vercauteren-Delhez, A. (2023). Digital-only booking and the right to an answer: a casebook from Roubaix and Liège. *Civic Procedure & Society*, 6(1), 22–40. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2023.1\n\n4. Saldanha Quaresma, R., Có Mendes, D., & Vercauteren-Delhez, A. (2025). Who speaks at the counter? Language tables in resident deliberation in Porto and Liège. *Lusophone Migration Studies Quarterly*, 11(3), 201–224. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2025.1\n\n5. Vercauteren-Delhez, A., Tessier-Hamdani, N., & Saldanha Quaresma, R. (2025). *Interpreted access to public-service complaint procedures*. GUICHETS Policy Brief 1. Liège: Seuil Commun asbl. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2025.2\n\n6. Van Gijsegem, L., & Vercauteren-Delhez, A. (2026). Tracking authority responses to resident recommendations: a coding scheme and first results. *Civic Procedure & Society*, 9(1), 57–79. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2026.1\n\nItems 1–4 and 6 are peer-reviewed. Item 5 is a consortium report. None of the partners has published on cultural heritage or cultural participation.\n"
+      },
+      {
+        "path": "resources.md",
+        "role": "resources",
+        "content": "> Fictional document created for ProposalBench.\n\n# Resources, participant protocol and data holdings\n\nSeuil Commun asbl, on behalf of the GUICHETS partners. Status at 30 September 2026.\n\n## 1. Premises and venues\n\n- Seuil Commun, Liège: meeting room for 35 people with step-free access and a childcare corner.\n- Les Guichets Ouverts, Roubaix: community hall for 40 people.\n- Rede Balcão Aberto, Porto: reception premises for 25 people. The 2025 sessions used a civic-centre room in Bonfim parish, rented per session.\n- Two neighbourhood cultural spaces run by Cellule Cultures et Quartiers (Sainte-Marguerite, Droixhe), available under the letter of association of 8 July 2026 (up to 12 slots per year).\n\n## 2. Equipment and tools\n\n- 40 receivers and 6 transmitters for whispered interpretation, owned by Seuil Commun (purchased 2024).\n- Recommendation and response tracker: a shared database holding the 41 recommendations of the 2025 cycle, coded with the scheme published in 2026.\n- Easy-read templates in French and Portuguese.\n- Interpretation: framework contract with the cooperative Interprètes Solidaires Liège until 31 December 2026. Roubaix and Porto book community interpreters per session.\n\n## 3. Participant protocol, version 3\n\nAdopted by the three partners on 3 March 2026; replaces version 2 (January 2025). Item 7 as amended by addendum 1 of 30 September 2026.\n\n1. Written participation consent in the resident's language; participation has no effect on access to any service of the partners.\n2. No audio or video recording of deliberation. Notes are taken without names.\n3. Case stories are collected under internal-use consent, pseudonymised, and used for internal analysis and training.\n4. Publishing an identifiable case story (name, image, voice or recognisable details) requires a separate, written opt-in, obtained in advance in the resident's language and revocable at any time. Refusal has no consequence.\n5. Individual legal or residence issues raised in sessions are referred to the advice desks and are not handled in deliberation.\n6. Each site has a named safeguarding lead. Incidents are logged and reported to the coordinator within 48 hours.\n7. Retention: grant-relevant attendance evidence, including sign-in sheets, is kept securely for five years after the final payment of the grant concerned, or longer while an audit, review or legal proceeding remains open; unnecessary copies are deleted. Case stories are kept for five years.\n\nIdentifiable public case-story permissions on file under version 3: 0.\n\n**Addendum 1, adopted by the three partners on 30 September 2026.** Item 7 as adopted on 3 March 2026 read: \"Sign-in sheets are destroyed within three months of the cycle report; case stories are kept for five years.\" That wording did not meet the record-keeping obligations of grant agreement 101143871 and is replaced by the text above. The 2025 source sheets and participant identifiers were prematurely destroyed on 31 March 2026 and cannot be recovered; the incident has been recorded and notified to the granting authority.\n\n## 4. Data holdings\n\n| Holding | Content | Consent basis |\n|---|---|---|\n| Case-story archive | 52 pseudonymised records (2024: 21; 2025: 19; 2026: 12) | Internal use |\n| Exit questionnaires 2025 | 61 anonymous forms (one form per resident per session attended) | Anonymous |\n| Knowledge cards 2025 | 48 anonymous session-level pre/post pairs | Anonymous |\n| Interviews with officials | 14 pseudonymised transcripts | Written consent of officials |\n| Cultural-space consultation, 13 June 2026 | Aggregate notes | Participation consent |\n\n## 5. Data management log, 2026 (excerpt)\n\n- 3 March 2026: participant protocol version 3 adopted.\n- 31 March 2026: 2025 session sign-in sheets destroyed under item 7 of protocol version 3 as then worded; no participant identifiers were kept.\n- 13 June 2026: notes from the Sainte-Marguerite consultation filed.\n- 15 September 2026: withdrawal log entry. Six case-story records (CS-2024-04, CS-2024-15, CS-2025-02, CS-2025-09, CS-2025-17, CS-2026-06) are removed from any future external use at the request of the residents concerned. Only aggregate themes drawn from them may be disseminated.\n- 22 September 2026: retention incident recorded. The destruction of 31 March 2026 was premature under the record-keeping obligations of grant agreement 101143871; the sheets cannot be recovered.\n- 24 September 2026: incident notified in writing to the granting authority.\n- 30 September 2026: addendum 1 to protocol version 3 adopted (item 7, retention).\n"
+      }
+    ],
+    "facts": [
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The signed 2025 annual report states that 84 unique residents took part in the eight 2025 deliberation sessions.",
+        "value": "84",
+        "salient": true,
+        "source": "annual_report_2025.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The attendance consolidation, which carries no preparation date, states 96 unique residents for the same eight sessions, with 187 attendances.",
+        "value": "96",
+        "salient": true,
+        "source": "attendance_consolidation_2025.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The 2025 sessions produced 41 recommendations addressed to 9 public bodies; written responses had been received for 33 of them by 31 January 2026.",
+        "value": "33 of 41 (80%)",
+        "salient": true,
+        "source": "annual_report_2025.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Of the 41 recommendations, 12 were accepted, 14 partly accepted, 7 declined and 8 unanswered; median time to a written response was 47 days (IQR 29-71).",
+        "value": "12",
+        "salient": true,
+        "source": "annual_report_2025.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "74% of exit-questionnaire forms (45 of 61; Wilson 95% CI 62-83%) agreed with the statement 'I could express my views in a language I am comfortable with'.",
+        "value": "74%",
+        "salient": true,
+        "source": "annual_report_2025.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "66% of forms (40 of 61; 95% CI 53-76%) agreed that recommendations would reach the authority concerned, and 39% (24 of 61; 95% CI 28-52%) agreed that they expected the authority to change something.",
+        "value": "66%",
+        "salient": true,
+        "source": "annual_report_2025.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Knowledge of complaint routes rose from 2.3 to 3.6, a mean difference of 1.3 (SD 1.0; 95% CI 1.0-1.6) over 48 session-level pre/post card pairs.",
+        "value": "1.3",
+        "salient": true,
+        "source": "annual_report_2025.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Ten of 14 interviewed officials considered the recommendations specific enough to act on; five reported an internal procedure for answering collective recommendations.",
+        "value": "Ten",
+        "salient": true,
+        "source": "annual_report_2025.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The 2025 evaluation had no comparison group, relied on self-selected anonymous forms and card pairs that could not be linked to attendance and may include repeat respondents (intervals unadjusted, exploratory), checked implementation on site for 3 recommendations only, and under-represented residents under 25 and evening-shift workers.",
+        "value": "3",
+        "salient": true,
+        "source": "annual_report_2025.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The 2025 sessions offered interpretation in 11 languages, childcare at 7 of 8 sessions, transport tickets and easy-read summaries in French and Portuguese.",
+        "value": "11",
+        "salient": true,
+        "source": "annual_report_2025.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "Annick Vercauteren-Delhez, founding director of Seuil Commun since 2009 with a 2004 PhD in public law, coordinated GUICHETS (CERV-2023-CITIZENS-CIV, grant agreement 101143871, 1 January 2024 to 30 June 2026); its final technical report was submitted on 27 August 2026 and was under assessment on 30 September 2026.",
+        "value": "EUR 296,400",
+        "salient": true,
+        "source": "cv_coordinator.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "Seuil Commun led an AMIF Belgian national programme project (EUR 212,000, 2018-2020) and a King Baudouin Foundation grant (EUR 48,000, 2020-2022), and holds a Wallonia ILI operating subsidy of EUR 61,500 for 2026.",
+        "value": "EUR 61,500",
+        "salient": true,
+        "source": "cv_coordinator.md"
+      },
+      {
+        "category": "identity",
+        "kind": "existing",
+        "text": "Seuil Commun asbl is a Belgian nonprofit in Liège (founded 2009; 14 staff, 11.2 FTE; 2025 income EUR 948,000) whose advice clinic, staffed by jurists who do not facilitate deliberation, handled 1,140 consultations in 2025.",
+        "value": "EUR 948,000",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Les Guichets Ouverts (French association loi 1901, Roubaix; income EUR 412,000, 9 staff) and Associação Rede Balcão Aberto (Portuguese private nonprofit, Porto; income EUR 236,000, 7 staff) signed a framework partnership agreement with Seuil Commun covering joint applications as beneficiaries, in force until 31 December 2029.",
+        "value": "31 December 2029",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Cellule Cultures et Quartiers, a Belgian municipal cultural office in Liège, is an associated participant by letter of 8 July 2026; it receives no funds, is not party to the partnership agreement, offers two neighbourhood spaces for up to 12 slots per year, has programmers and venue managers as staff and holds no heritage collections.",
+        "value": "8 July 2026",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "Nine facilitators trained in 2024 each combine administrative-law or public-service-procedure training with at least three years of migrant community practice.",
+        "value": "9",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "No staff member of the three partners has training or professional experience in heritage interpretation, museum mediation or participatory heritage work.",
+        "value": null,
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "team",
+        "kind": "planned",
+        "text": "The Seuil Commun board approved a fixed-term heritage-mediation officer post on 10 September 2026; the vacancy was unpublished at 30 September 2026.",
+        "value": "0.5 FTE",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "One cultural-space consultation (13 June 2026, Sainte-Marguerite) involved 23 residents with interpretation in four languages, had no heritage content and received a written reply from the office on 2 September 2026.",
+        "value": "23",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Protocol version 3 requires a separate, prospective, written and revocable opt-in for publishing identifiable case stories; none has been collected.",
+        "value": "0",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Protocol version 3 bars audio or video recording, refers individual legal or residence issues to the advice desks and names a safeguarding lead per site; under its original retention wording the 2025 sign-in sheets were destroyed on 31 March 2026 without identifiers kept, an error recorded on 22 September and notified to the granting authority on 24 September 2026, and addendum 1 of 30 September 2026 now requires grant-relevant attendance evidence to be kept for five years after final payment (longer while an audit or proceeding is open), with case stories kept for five years.",
+        "value": "31 March 2026",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The case-story archive holds 52 pseudonymised records under internal-use consent.",
+        "value": "52",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "A 15 September 2026 withdrawal log entry removes six case-story records from any future external use; only aggregate themes from them may be disseminated.",
+        "value": "Six",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "No contribution was made to an EU consultation or EU institution in 2025; the policy brief went to municipal and national authorities and the READ network.",
+        "value": null,
+        "salient": true,
+        "source": "annual_report_2025.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Existing resources include venues for 35 (Liège), 40 (Roubaix) and 25 (Porto) people, 40 receivers and 6 transmitters for whispered interpretation, and an interpretation framework contract that runs until 31 December 2026.",
+        "value": "31 December 2026",
+        "salient": true,
+        "source": "resources.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "vercauteren2019duty",
+        "authors": [
+          "Vercauteren-Delhez, A."
+        ],
+        "year": 2019,
+        "title": "The duty to hear in practice: hearings in social assistance appeals in Wallonia",
+        "venue": "Revue belge de l'action administrative",
+        "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2019.1"
+      },
+      {
+        "key": "vercauteren2021interpreted",
+        "authors": [
+          "Vercauteren-Delhez, A.",
+          "El Kaddouri-Lambert, Y."
+        ],
+        "year": 2021,
+        "title": "Interpreted access to complaint procedures at municipal social welfare counters",
+        "venue": "Cahiers de droit public local",
+        "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2021.1"
+      },
+      {
+        "key": "tessier2023digital",
+        "authors": [
+          "Tessier-Hamdani, N.",
+          "Vercauteren-Delhez, A."
+        ],
+        "year": 2023,
+        "title": "Digital-only booking and the right to an answer: a casebook from Roubaix and Liège",
+        "venue": "Civic Procedure & Society",
+        "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2023.1"
+      },
+      {
+        "key": "saldanha2025counter",
+        "authors": [
+          "Saldanha Quaresma, R.",
+          "Có Mendes, D.",
+          "Vercauteren-Delhez, A."
+        ],
+        "year": 2025,
+        "title": "Who speaks at the counter? Language tables in resident deliberation in Porto and Liège",
+        "venue": "Lusophone Migration Studies Quarterly",
+        "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2025.1"
+      },
+      {
+        "key": "guichets2025brief",
+        "authors": [
+          "Vercauteren-Delhez, A.",
+          "Tessier-Hamdani, N.",
+          "Saldanha Quaresma, R."
+        ],
+        "year": 2025,
+        "title": "Interpreted access to public-service complaint procedures",
+        "venue": "GUICHETS Policy Brief 1, Seuil Commun asbl",
+        "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2025.2"
+      },
+      {
+        "key": "vangijsegem2026tracking",
+        "authors": [
+          "Van Gijsegem, L.",
+          "Vercauteren-Delhez, A."
+        ],
+        "year": 2026,
+        "title": "Tracking authority responses to resident recommendations: a coding scheme and first results",
+        "venue": "Civic Procedure & Society",
+        "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2026.1"
+      }
+    ],
+    "reviewer_criticisms": [],
+    "gaps": [],
+    "inconsistencies": [
+      "annual_report_2025.md (signed 12 February 2026) states that 84 unique residents took part in the eight 2025 deliberation sessions, while attendance_consolidation_2025.md, which carries no preparation date, gives 96 unique residents for the same eight sessions; neither document supersedes the other, and the sign-in sheets needed to deduplicate were destroyed on 31 March 2026."
+    ]
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "senior",
+        "disciplines": [
+          "law",
+          "public administration",
+          "migration sociology"
+        ],
+        "method_profile": "mixed",
+        "country": "BE",
+        "files": [
+          {
+            "path": "cv_coordinator.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae\n\n**Dr Annick Vercauteren-Delhez**  \nDirector, Seuil Commun asbl, Liège, Belgium  \nLanguages: French (native), Dutch (C1), English (C1), Portuguese (B1)\n\n## Current position\n\n**2009–present**: Founding director, Seuil Commun asbl, Liège. Legal and financial responsibility for the association (14 staff, 11.2 FTE in 2026). Head of its advice clinic on social rights and residence procedures until 2016. Coordinator since 2024 of the GUICHETS consortium with Les Guichets Ouverts (Roubaix, France) and Associação Rede Balcão Aberto (Porto, Portugal).\n\n## Previous positions\n\n- **2005–2009**: Legal adviser, Coordination liégeoise d'aide juridique (nonprofit). Trained social workers on administrative appeals.\n- **1999–2005**: Legal officer, appeals and complaints unit of a municipal public social welfare centre (CPAS), province of Liège.\n- **2010–2022**: Guest lecturer (12 hours per year), administrative procedure and migrants' access to public services, social work programme, Haute École de la Vesdre.\n\n## Education\n\n- **2004**: PhD in public law, Université de la Basse-Meuse. Thesis: *The duty to hear: hearing rights of applicants in Belgian social assistance procedures.*\n- **1998**: Master in law, Université de la Basse-Meuse.\n- **2012**: Certificate in community mediation (120 hours), Centre de formation à la médiation de Verviers.\n\n## Grants and funded projects (coordinator or lead)\n\n| Period | Funder and scheme | Project | Amount | Role |\n|---|---|---|---|---|\n| 2024–2026 | European Commission, CERV programme, call CERV-2023-CITIZENS-CIV, grant agreement 101143871 | GUICHETS: resident deliberation on access to public services in Liège, Roubaix and Porto (1 January 2024 – 30 June 2026) | EUR 296,400 EU contribution (lump sum) | Coordinator |\n| 2020–2022 | King Baudouin Foundation, project grant | Interpreted information sessions on social assistance, Liège | EUR 48,000 | Lead |\n| 2018–2020 | Asylum, Migration and Integration Fund, Belgian national programme | Droit d'accès: complaint and appeal routes for newly arrived residents | EUR 212,000 | Lead |\n| 2015–present | Wallonia Region, initiatives locales d'intégration (ILI) | Recognition and annual operating subsidy of Seuil Commun | EUR 61,500 (2026) | Legal representative |\n\nThe GUICHETS final technical report was submitted to the granting authority on 27 August 2026 and was under assessment on 30 September 2026.\n\n## Professional activities\n\n- Board member since 2019, Réseau européen Accès et Droits (READ), a Brussels-based network of 23 civil-society organisations working on migrants' access to public services.\n- 2016–2025: 31 training days for municipal and CPAS staff on the right to be heard and interpreted access to services.\n- 2021: Expert hearing, Parliament of Wallonia, committee on social action (interpretation in social assistance procedures).\n\n## Experience in resident deliberation\n\n- Designed the GUICHETS session format and drafted the consortium participant protocol (version 2, January 2025; version 3, adopted 3 March 2026).\n- Facilitated or co-facilitated 4 of the eight deliberation sessions of the 2025 GUICHETS cycle.\n\n## Publications\n\nSee the consortium publications list (6 items, 2019–2026).\n"
+          },
+          {
+            "path": "consortium.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# GUICHETS consortium: partners, roles and agreements\n\nStatus at 30 September 2026.\n\n## 1. Coordinator: Seuil Commun asbl (Belgium)\n\n- Legal form: association sans but lucratif under the Belgian Code of Companies and Associations; enterprise number 0712.384.659; registered office in Liège; founded 2009.\n- Nonprofit civil-society organisation. Recognised by the Wallonia Region as an initiative locale d'intégration since 2015. Income 2025: EUR 948,000.\n- Activities: advice clinic on social rights and residence procedures (1,140 individual consultations in 2025, staffed by two jurists who do not facilitate deliberation sessions); interpreted information sessions; resident deliberation since 2024.\n- Staff: 14 persons, 11.2 FTE.\n\n| Person | Role | Background |\n|---|---|---|\n| Dr Annick Vercauteren-Delhez | Director, consortium coordinator | PhD in public law; 25 years in administrative appeals and access to services |\n| Youssef El Kaddouri-Lambert | Lead facilitator, 0.8 FTE | Master in law; six years as CPAS appeals officer; organiser in Moroccan-Belgian associations since 2011; Arabic, French, Dutch |\n| Oksana Hrytsenko-Dupont | Facilitator, 0.6 FTE | Master in public administration; community organiser with Ukrainian- and Russian-speaking residents since 2022 |\n| Lotte Van Gijsegem | Evaluation and data officer, 0.5 FTE | MSc in sociology; questionnaires, response tracker, data protection register |\n\n## 2. Beneficiary: Les Guichets Ouverts (France)\n\n- Association loi 1901, Roubaix (Nord), founded 2013. Nonprofit. Income 2025: EUR 412,000. Staff: 9.\n- Activities: accompaniment to public services, digital-access help desk, community mediation.\n- Lead: Nadia Tessier-Hamdani, coordinator; master in public law (immigration law); community mediator since 2010.\n- GUICHETS role: organised the three Roubaix sessions; tracked responses from the municipal social action centre (CCAS) and departmental services.\n\n## 3. Beneficiary: Associação Rede Balcão Aberto (Portugal)\n\n- Private nonprofit association, Porto, founded 2016. Income 2025: EUR 236,000. Staff: 7.\n- Activities: migrant reception desk, Portuguese conversation circles, mediation with health centres and municipal services.\n- Lead: Dr Rita Saldanha Quaresma, PhD in migration sociology (2015, Instituto Superior de Estudos Sociais do Norte). Facilitator: Djibril Có Mendes, community organiser with Bissau-Guinean associations; Portuguese, Kriol, French.\n- GUICHETS role: organised the two Porto sessions; led the qualitative strand with officials.\n\n## 4. Agreements\n\n- The CERV consortium agreement for GUICHETS (signed November 2023) covered the project period, which ended on 30 June 2026.\n- A framework partnership agreement between the three nonprofits was signed by Seuil Commun on 30 March 2026, Les Guichets Ouverts on 14 April 2026 and Associação Rede Balcão Aberto on 22 April 2026. It runs until 31 December 2029 and covers joint applications in which each organisation acts as a beneficiary, coordination by Seuil Commun, application of participant protocol version 3, and data-sharing terms. No party has given notice; the agreement is in force.\n\n## 5. Associated participant: Cellule Cultures et Quartiers (Ville de Liège)\n\n- Municipal cultural office of the City of Liège; Belgian public body.\n- Letter of association signed by the head of office on 8 July 2026. Contribution in kind: use of two neighbourhood cultural spaces (Sainte-Marguerite and Droixhe), up to 12 evening or weekend slots per year, and advice from programming staff.\n- Receives no funds and is not a party to the framework partnership agreement. Its staff are programmers and venue managers; the city's heritage collections are managed by other municipal services, which are not party to the letter.\n\n## 6. Facilitators and competences\n\n- 9 facilitators were trained in 2024 (Seuil Commun 4, Les Guichets Ouverts 3, Rede Balcão Aberto 2). Each pairs training in administrative law or public-service procedure with at least three years of practice in migrant community organisations.\n- Cultural-space activity to date: one consultation on 13 June 2026 at the Sainte-Marguerite space, held with Cellule Cultures et Quartiers, on use of the space by residents' associations. 23 residents took part, with interpretation in four languages. The session had no heritage content. A summary was sent to the office, which replied in writing on 2 September 2026.\n- No staff member of the three partners has training or professional experience in heritage interpretation, museum mediation or participatory work with cultural heritage.\n- Planned: on 10 September 2026 the board of Seuil Commun approved a fixed-term 0.5 FTE heritage-mediation officer post (profile: heritage interpretation or museum mediation). The vacancy had not been published by 30 September 2026.\n"
+          },
+          {
+            "path": "annual_report_2025.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# GUICHETS: Annual report 2025 (programme year 2)\n\n**Resident deliberation on access to public services in Liège, Roubaix and Porto**\n\nCERV grant agreement 101143871, project period 1 January 2024 – 30 June 2026.  \nReporting period: 1 January – 31 December 2025.  \nCoordinator: Seuil Commun asbl (BE). Beneficiaries: Les Guichets Ouverts (FR), Associação Rede Balcão Aberto (PT).\n\n## 1. Summary\n\nIn 2025 the consortium ran eight deliberation sessions: three in Liège, three in Roubaix and two in Porto. 84 unique residents took part. The sessions produced 41 recommendations addressed to 9 public bodies. By 31 January 2026, written responses had been received for 33 of 41 (80%).\n\n## 2. Objectives\n\n1. Enable residents facing language and migration-related barriers to deliberate on how local public services treat them.\n2. Obtain and document written responses from the authorities concerned and return them to residents.\n3. Test whether interpreted deliberation improves residents' knowledge of complaint routes.\n\n## 3. Methods\n\n- **Recruitment.** Residents were recruited through the partners' advice desks, language classes, community and religious associations, and sports clubs, with outreach material in 11 languages. Eligibility: living in the municipality and facing language or migration-related barriers in using public services. Sessions were capped at 30 residents.\n- **Format.** Three-hour sessions on Saturdays or weekday evenings. An official from the service concerned presented the procedure (30 minutes, interpreted). Residents then deliberated at language tables, each led by a facilitator and an interpreter. Recommendations were agreed in plenary and sent in writing within 10 working days.\n- **Accessibility.** Whispered and consecutive interpretation in 11 languages: Arabic, Dari, Pashto, Tigrinya, Ukrainian, Russian, Romanian, Turkish, Kriol (Guinea-Bissau), Bengali and Nepali. Childcare was provided at 7 of 8 sessions, with transport tickets and easy-read summaries in French and Portuguese.\n- **Response tracking.** Each recommendation was logged. Authorities were asked to reply in writing within 60 days, and replies were coded as accepted, partly accepted or declined. Replies were presented to residents at feedback meetings.\n- **Evaluation.** Anonymous exit questionnaire (7 items); anonymous pre/post cards on knowledge of complaint routes (5-point scale); 14 semi-structured interviews with officials; facilitator observation notes.\n- **Safeguarding.** Participant protocol version 2 (January 2025): written participation consent, no audio or video recording, a safeguarding lead at each site, and separation of deliberation from individual casework. Facilitators referred 17 individual situations raised in sessions to the partners' advice desks; none was handled in session.\n\n## 4. Sessions\n\n| Code | Site | Date | Theme | Public body addressed |\n|---|---|---|---|---|\n| L1 | Liège | 15 March 2025 | Appointments and appeal routes in social assistance | CPAS |\n| R1 | Roubaix | 29 March 2025 | Digital-only booking for public services | CCAS, departmental services |\n| P1 | Porto | 10 May 2025 | Registration with health centres | Local health unit |\n| L2 | Liège | 24 May 2025 | Reduced public-transport fares | Regional transport operator |\n| R2 | Roubaix | 21 June 2025 | School canteen and enrolment procedures | Municipal education service |\n| P2 | Porto | 27 September 2025 | Applications for municipal social housing | Municipal housing company |\n| L3 | Liège | 18 October 2025 | Interpretation at municipal counters | City population service |\n| R3 | Roubaix | 15 November 2025 | Complaint handling | CCAS |\n\n## 5. Results\n\n**Recommendations and responses.** Of 41 recommendations, 12 were accepted, 14 partly accepted and 7 declined; 8 received no response. Median time to a written response was 47 days (interquartile range 29–71). Examples: the Liège CPAS added an interpreter-booking line to appointment letters; the Porto local health unit published a registration checklist in four languages; the Roubaix CCAS introduced written acknowledgement of complaints within 15 days. Responses were returned to residents at five feedback meetings held between December 2025 and January 2026.\n\n**Exit questionnaire (n = 61).**\n- 74% (95% CI 62–84%) agreed that they could express their views in a language they were comfortable with.\n- 66% (95% CI 53–77%) agreed that their recommendations would reach the authority concerned.\n- 39% (95% CI 27–52%) expected the authority to change something.\n\n**Knowledge of complaint routes (paired cards, n = 48).** The mean score rose from 2.3 to 3.6; mean difference 1.3 (95% CI 1.0–1.6).\n\n**Officials (n = 14).** Ten considered the recommendations specific enough to act on. Five reported that their service had an internal procedure for answering collective recommendations.\n\n**Case stories.** 19 case stories were collected in 2025 under internal-use consent. They were used for facilitator training and internal analysis.\n\n**Dissemination.** The policy brief *Interpreted access to public-service complaint procedures* (December 2025) was sent to the municipal and national authorities concerned in Belgium, France and Portugal, and presented at the READ network meeting in Brussels on 4 December 2025. No contribution was made to an EU consultation or EU institution in 2025.\n\n## 6. Limitations\n\n- There was no comparison group, so changes in services cannot be attributed to the sessions alone.\n- Questionnaires and cards were anonymous and could not be linked to attendance; respondents self-selected.\n- Responses are as reported by the authorities. Implementation was checked on site for 3 recommendations only.\n- Facilitators observed under-representation of residents under 25 and of residents working evening shifts.\n\nSigned on 12 February 2026: A. Vercauteren-Delhez (Seuil Commun asbl), N. Tessier-Hamdani (Les Guichets Ouverts), R. Saldanha Quaresma (Associação Rede Balcão Aberto).\n"
+          },
+          {
+            "path": "attendance_consolidation_2025.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# GUICHETS 2025 deliberation cycle: attendance consolidation\n\nCompiled by the site coordinators of Seuil Commun, Les Guichets Ouverts and Associação Rede Balcão Aberto from the session sign-in sheets.\n\n| Session | Site | Date | Language tables | Attendances |\n|---|---|---|---|---|\n| L1 | Liège | 15 March 2025 | 5 | 24 |\n| R1 | Roubaix | 29 March 2025 | 4 | 22 |\n| P1 | Porto | 10 May 2025 | 4 | 27 |\n| L2 | Liège | 24 May 2025 | 6 | 21 |\n| R2 | Roubaix | 21 June 2025 | 3 | 19 |\n| P2 | Porto | 27 September 2025 | 4 | 25 |\n| L3 | Liège | 18 October 2025 | 5 | 26 |\n| R3 | Roubaix | 15 November 2025 | 4 | 23 |\n| **Total** | | | | **187** |\n\nUnique residents by site: Liège 37; Roubaix 31; Porto 28.\n\n**Unique residents, all eight sessions: 96**\n\nCounting rules:\n\n- One attendance means one resident signed in at one session.\n- A resident who signed in at more than one session is counted once as a unique resident.\n- Facilitators, interpreters, childcare staff and officials are excluded. A total of 19 officials attended across the eight sessions.\n- Children in the childcare area are not counted.\n"
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications of the GUICHETS partners, 2019–2026\n\n1. Vercauteren-Delhez, A. (2019). The duty to hear in practice: hearings in social assistance appeals in Wallonia. *Revue belge de l'action administrative*, 14(2), 113–138. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2019.1\n\n2. Vercauteren-Delhez, A., & El Kaddouri-Lambert, Y. (2021). Interpreted access to complaint procedures at municipal social welfare counters. *Cahiers de droit public local*, 9, 45–71. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2021.1\n\n3. Tessier-Hamdani, N., & Vercauteren-Delhez, A. (2023). Digital-only booking and the right to an answer: a casebook from Roubaix and Liège. *Civic Procedure & Society*, 6(1), 22–40. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2023.1\n\n4. Saldanha Quaresma, R., Có Mendes, D., & Vercauteren-Delhez, A. (2025). Who speaks at the counter? Language tables in resident deliberation in Porto and Liège. *Lusophone Migration Studies Quarterly*, 11(3), 201–224. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2025.1\n\n5. Vercauteren-Delhez, A., Tessier-Hamdani, N., & Saldanha Quaresma, R. (2025). *Interpreted access to public-service complaint procedures*. GUICHETS Policy Brief 1. Liège: Seuil Commun asbl. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2025.2\n\n6. Van Gijsegem, L., & Vercauteren-Delhez, A. (2026). Tracking authority responses to resident recommendations: a coding scheme and first results. *Civic Procedure & Society*, 9(1), 57–79. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2026.1\n\nItems 1–4 and 6 are peer-reviewed. Item 5 is a consortium report. None of the partners has published on cultural heritage or cultural participation.\n"
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Resources, participant protocol and data holdings\n\nSeuil Commun asbl, on behalf of the GUICHETS partners. Status at 30 September 2026.\n\n## 1. Premises and venues\n\n- Seuil Commun, Liège: meeting room for 35 people with step-free access and a childcare corner.\n- Les Guichets Ouverts, Roubaix: community hall for 40 people.\n- Rede Balcão Aberto, Porto: reception premises for 25 people. The 2025 sessions used a civic-centre room in Bonfim parish, rented per session.\n- Two neighbourhood cultural spaces of Cellule Cultures et Quartiers (Sainte-Marguerite, Droixhe), available under the letter of association of 8 July 2026.\n\n## 2. Equipment and tools\n\n- 40 receivers and 6 transmitters for whispered interpretation, owned by Seuil Commun (purchased 2024).\n- Recommendation and response tracker: a shared database holding the 41 recommendations of the 2025 cycle, coded with the scheme published in 2026.\n- Easy-read templates in French and Portuguese.\n- Interpretation: framework contract with the cooperative Interprètes Solidaires Liège until 31 December 2026. Roubaix and Porto book community interpreters per session.\n\n## 3. Participant protocol, version 3\n\nAdopted by the three partners on 3 March 2026; replaces version 2 (January 2025).\n\n1. Written participation consent in the resident's language; participation has no effect on access to any service of the partners.\n2. No audio or video recording of deliberation. Notes are taken without names.\n3. Case stories are collected under internal-use consent, pseudonymised, and used for internal analysis and training.\n4. Publishing an identifiable case story (name, image, voice or recognisable details) requires a separate, written opt-in, obtained in advance in the resident's language and revocable at any time. Refusal has no consequence.\n5. Individual legal or residence issues raised in sessions are referred to the advice desks and are not handled in deliberation.\n6. Each site has a named safeguarding lead. Incidents are logged and reported to the coordinator within 48 hours.\n7. Retention: sign-in sheets are destroyed within three months of the cycle report; case stories are kept for five years.\n\nIdentifiable public case-story permissions on file under version 3: 0.\n\n## 4. Data holdings\n\n| Holding | Content | Consent basis |\n|---|---|---|\n| Case-story archive | 52 pseudonymised records (2024: 21; 2025: 19; 2026: 12) | Internal use |\n| Exit questionnaires 2025 | 61 anonymous forms | Anonymous |\n| Knowledge cards 2025 | 48 anonymous pre/post pairs | Anonymous |\n| Interviews with officials | 14 pseudonymised transcripts | Written consent of officials |\n| Cultural-space consultation, 13 June 2026 | Aggregate notes | Participation consent |\n\n## 5. Data management log, 2026 (excerpt)\n\n- 3 March 2026: participant protocol version 3 adopted.\n- 31 March 2026: 2025 session sign-in sheets destroyed under the retention rule; no participant identifiers were kept.\n- 13 June 2026: notes from the Sainte-Marguerite consultation filed.\n- 15 September 2026: withdrawal log entry. Six case-story records (CS-2024-04, CS-2024-15, CS-2025-02, CS-2025-09, CS-2025-17, CS-2026-06) are removed from any future external use at the request of the residents concerned. Only aggregate themes drawn from them may be disseminated.\n"
+          }
+        ],
+        "facts": [
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The signed 2025 annual report states that 84 unique residents took part in the eight 2025 deliberation sessions.",
+            "value": "84",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The undated attendance consolidation states 96 unique residents for the same eight sessions (187 attendances).",
+            "value": "96",
+            "salient": true,
+            "source": "attendance_consolidation_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The 2025 sessions produced 41 recommendations addressed to 9 public bodies.",
+            "value": "41",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Written responses were received for 33 of 41 recommendations by 31 January 2026.",
+            "value": "80%",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Of the 41 recommendations, 12 were accepted, 14 partly accepted, 7 declined and 8 unanswered.",
+            "value": "12",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Median time to a written authority response was 47 days (IQR 29-71).",
+            "value": "47 days",
+            "salient": false,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "74% (95% CI 62-84%) of 61 questionnaire respondents could express views in a comfortable language.",
+            "value": "74%",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Knowledge of complaint routes rose by a mean of 1.3 points (95% CI 1.0-1.6; paired n = 48).",
+            "value": "1.3",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The 2025 sessions offered interpretation in 11 languages, plus childcare at 7 of 8 sessions.",
+            "value": "11",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "GUICHETS was funded under CERV-2023-CITIZENS-CIV (grant agreement 101143871), 1 January 2024 to 30 June 2026, coordinated by Vercauteren-Delhez.",
+            "value": "EUR 296,400",
+            "salient": true,
+            "source": "cv_coordinator.md"
+          },
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "Seuil Commun asbl is a Belgian nonprofit civil-society association in Liège, founded 2009, with 14 staff (11.2 FTE).",
+            "value": "11.2 FTE",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Les Guichets Ouverts (French association loi 1901) and Associação Rede Balcão Aberto (Portuguese nonprofit) signed a framework partnership agreement with Seuil Commun, in force until 31 December 2029.",
+            "value": "31 December 2029",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Cellule Cultures et Quartiers, a Belgian municipal cultural office, is an associated participant under a letter of association; it receives no funds and is not a party to the partnership agreement.",
+            "value": "8 July 2026",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Nine facilitators trained in 2024 each combine administrative-law or public-service-procedure training with migrant community practice.",
+            "value": "9",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "No staff member of the three partners has training or experience in heritage interpretation, museum mediation or participatory heritage work.",
+            "value": null,
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "team",
+            "kind": "planned",
+            "text": "The Seuil Commun board approved a fixed-term heritage-mediation officer post on 10 September 2026; the vacancy was unpublished at 30 September 2026.",
+            "value": "0.5 FTE",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "One cultural-space consultation (13 June 2026, Sainte-Marguerite) involved 23 residents, had no heritage content and received a written reply from the office.",
+            "value": "23",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Protocol version 3 requires a separate prospective written opt-in for identifiable public case stories; none has been collected.",
+            "value": "0",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The case-story archive holds 52 pseudonymised records under internal-use consent.",
+            "value": "52",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "A 15 September 2026 withdrawal log entry removes six case-story records from any future external use; only aggregate themes from them may be disseminated.",
+            "value": "six",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The 2025 session sign-in sheets were destroyed on 31 March 2026 and no participant identifiers were kept.",
+            "value": "31 March 2026",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "No contribution was made to an EU consultation or EU institution in 2025; the policy brief went to national and municipal authorities and the READ network.",
+            "value": null,
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Seuil Commun's advice clinic, staffed separately from facilitators, handled 1,140 individual consultations in 2025.",
+            "value": "1,140",
+            "salient": false,
+            "source": "consortium.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Annick Vercauteren-Delhez has been founding director of Seuil Commun since 2009 and holds a 2004 PhD in public law.",
+            "value": "2009",
+            "salient": false,
+            "source": "cv_coordinator.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "vercauteren2019duty",
+            "authors": [
+              "Vercauteren-Delhez, A."
+            ],
+            "year": 2019,
+            "title": "The duty to hear in practice: hearings in social assistance appeals in Wallonia",
+            "venue": "Revue belge de l'action administrative",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2019.1"
+          },
+          {
+            "key": "vercauteren2021interpreted",
+            "authors": [
+              "Vercauteren-Delhez, A.",
+              "El Kaddouri-Lambert, Y."
+            ],
+            "year": 2021,
+            "title": "Interpreted access to complaint procedures at municipal social welfare counters",
+            "venue": "Cahiers de droit public local",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2021.1"
+          },
+          {
+            "key": "tessier2023digital",
+            "authors": [
+              "Tessier-Hamdani, N.",
+              "Vercauteren-Delhez, A."
+            ],
+            "year": 2023,
+            "title": "Digital-only booking and the right to an answer: a casebook from Roubaix and Liège",
+            "venue": "Civic Procedure & Society",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2023.1"
+          },
+          {
+            "key": "saldanha2025counter",
+            "authors": [
+              "Saldanha Quaresma, R.",
+              "Có Mendes, D.",
+              "Vercauteren-Delhez, A."
+            ],
+            "year": 2025,
+            "title": "Who speaks at the counter? Language tables in resident deliberation in Porto and Liège",
+            "venue": "Lusophone Migration Studies Quarterly",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2025.1"
+          },
+          {
+            "key": "guichets2025brief",
+            "authors": [
+              "Vercauteren-Delhez, A.",
+              "Tessier-Hamdani, N.",
+              "Saldanha Quaresma, R."
+            ],
+            "year": 2025,
+            "title": "Interpreted access to public-service complaint procedures",
+            "venue": "GUICHETS Policy Brief 1, Seuil Commun asbl",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2025.2"
+          },
+          {
+            "key": "vangijsegem2026tracking",
+            "authors": [
+              "Van Gijsegem, L.",
+              "Vercauteren-Delhez, A."
+            ],
+            "year": 2026,
+            "title": "Tracking authority responses to resident recommendations: a coding scheme and first results",
+            "venue": "Civic Procedure & Society",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2026.1"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": [
+          "annual_report_2025.md states that 84 unique residents took part in the eight 2025 deliberation sessions, while attendance_consolidation_2025.md gives 96 unique residents for the same eight sessions; neither document supersedes the other, and the sign-in sheets needed to deduplicate were destroyed."
+        ]
+      },
+      "errors": [
+        "fact 'A 15 September 2026 withdrawal log entry removes six case-st': value 'six' not in resources.md"
+      ]
+    },
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "senior",
+        "disciplines": [
+          "law",
+          "public administration",
+          "migration sociology"
+        ],
+        "method_profile": "mixed",
+        "country": "BE",
+        "files": [
+          {
+            "path": "cv_coordinator.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae\n\n**Dr Annick Vercauteren-Delhez**  \nDirector, Seuil Commun asbl, Liège, Belgium  \nLanguages: French (native), Dutch (C1), English (C1), Portuguese (B1)\n\n## Current position\n\n**2009–present**: Founding director, Seuil Commun asbl, Liège. Legal and financial responsibility for the association (14 staff, 11.2 FTE in 2026). Head of its advice clinic on social rights and residence procedures until 2016. Coordinator since 2024 of the GUICHETS consortium with Les Guichets Ouverts (Roubaix, France) and Associação Rede Balcão Aberto (Porto, Portugal).\n\n## Previous positions\n\n- **2005–2009**: Legal adviser, Coordination liégeoise d'aide juridique (nonprofit). Trained social workers on administrative appeals.\n- **1999–2005**: Legal officer, appeals and complaints unit of a municipal public social welfare centre (CPAS), province of Liège.\n- **2010–2022**: Guest lecturer (12 hours per year), administrative procedure and migrants' access to public services, social work programme, Haute École de la Vesdre.\n\n## Education\n\n- **2004**: PhD in public law, Université de la Basse-Meuse. Thesis: *The duty to hear: hearing rights of applicants in Belgian social assistance procedures.*\n- **1998**: Master in law, Université de la Basse-Meuse.\n- **2012**: Certificate in community mediation (120 hours), Centre de formation à la médiation de Verviers.\n\n## Grants and funded projects (coordinator or lead)\n\n| Period | Funder and scheme | Project | Amount | Role |\n|---|---|---|---|---|\n| 2024–2026 | European Commission, CERV programme, call CERV-2023-CITIZENS-CIV, grant agreement 101143871 | GUICHETS: resident deliberation on access to public services in Liège, Roubaix and Porto (1 January 2024 – 30 June 2026) | EUR 296,400 EU contribution (lump sum) | Coordinator |\n| 2020–2022 | King Baudouin Foundation, project grant | Interpreted information sessions on social assistance, Liège | EUR 48,000 | Lead |\n| 2018–2020 | Asylum, Migration and Integration Fund, Belgian national programme | Droit d'accès: complaint and appeal routes for newly arrived residents | EUR 212,000 | Lead |\n| 2015–present | Wallonia Region, initiatives locales d'intégration (ILI) | Recognition and annual operating subsidy of Seuil Commun | EUR 61,500 (2026) | Legal representative |\n\nThe GUICHETS final technical report was submitted to the granting authority on 27 August 2026 and was under assessment on 30 September 2026.\n\n## Professional activities\n\n- Board member since 2019, Réseau européen Accès et Droits (READ), a Brussels-based network of 23 civil-society organisations working on migrants' access to public services.\n- 2016–2025: 31 training days for municipal and CPAS staff on the right to be heard and interpreted access to services.\n- 2021: Expert hearing, Parliament of Wallonia, committee on social action (interpretation in social assistance procedures).\n\n## Experience in resident deliberation\n\n- Designed the GUICHETS session format and drafted the consortium participant protocol (version 2, January 2025; version 3, adopted 3 March 2026).\n- Facilitated or co-facilitated 4 of the eight deliberation sessions of the 2025 GUICHETS cycle.\n\n## Publications\n\nSee the consortium publications list (6 items, 2019–2026).\n"
+          },
+          {
+            "path": "consortium.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# GUICHETS consortium: partners, roles and agreements\n\nStatus at 30 September 2026.\n\n## 1. Coordinator: Seuil Commun asbl (Belgium)\n\n- Legal form: association sans but lucratif under the Belgian Code of Companies and Associations; enterprise number 0712.384.659; registered office in Liège; founded 2009.\n- Nonprofit civil-society organisation. Recognised by the Wallonia Region as an initiative locale d'intégration since 2015. Income 2025: EUR 948,000.\n- Activities: advice clinic on social rights and residence procedures (1,140 individual consultations in 2025, staffed by two jurists who do not facilitate deliberation sessions); interpreted information sessions; resident deliberation since 2024.\n- Staff: 14 persons, 11.2 FTE.\n\n| Person | Role | Background |\n|---|---|---|\n| Dr Annick Vercauteren-Delhez | Director, consortium coordinator | PhD in public law; 25 years in administrative appeals and access to services |\n| Youssef El Kaddouri-Lambert | Lead facilitator, 0.8 FTE | Master in law; six years as CPAS appeals officer; organiser in Moroccan-Belgian associations since 2011; Arabic, French, Dutch |\n| Oksana Hrytsenko-Dupont | Facilitator, 0.6 FTE | Master in public administration; community organiser with Ukrainian- and Russian-speaking residents since 2022 |\n| Lotte Van Gijsegem | Evaluation and data officer, 0.5 FTE | MSc in sociology; questionnaires, response tracker, data protection register |\n\n## 2. Beneficiary: Les Guichets Ouverts (France)\n\n- Association loi 1901, Roubaix (Nord), founded 2013. Nonprofit. Income 2025: EUR 412,000. Staff: 9.\n- Activities: accompaniment to public services, digital-access help desk, community mediation.\n- Lead: Nadia Tessier-Hamdani, coordinator; master in public law (immigration law); community mediator since 2010.\n- GUICHETS role: organised the three Roubaix sessions; tracked responses from the municipal social action centre (CCAS) and departmental services.\n\n## 3. Beneficiary: Associação Rede Balcão Aberto (Portugal)\n\n- Private nonprofit association, Porto, founded 2016. Income 2025: EUR 236,000. Staff: 7.\n- Activities: migrant reception desk, Portuguese conversation circles, mediation with health centres and municipal services.\n- Lead: Dr Rita Saldanha Quaresma, PhD in migration sociology (2015, Instituto Superior de Estudos Sociais do Norte). Facilitator: Djibril Có Mendes, community organiser with Bissau-Guinean associations; Portuguese, Kriol, French.\n- GUICHETS role: organised the two Porto sessions; led the qualitative strand with officials.\n\n## 4. Agreements\n\n- The CERV consortium agreement for GUICHETS (signed November 2023) covered the project period, which ended on 30 June 2026.\n- A framework partnership agreement between the three nonprofits was signed by Seuil Commun on 30 March 2026, Les Guichets Ouverts on 14 April 2026 and Associação Rede Balcão Aberto on 22 April 2026. It runs until 31 December 2029 and covers joint applications in which each organisation acts as a beneficiary, coordination by Seuil Commun, application of participant protocol version 3, and data-sharing terms. No party has given notice; the agreement is in force.\n\n## 5. Associated participant: Cellule Cultures et Quartiers (Ville de Liège)\n\n- Municipal cultural office of the City of Liège; Belgian public body.\n- Letter of association signed by the head of office on 8 July 2026. Contribution in kind: use of two neighbourhood cultural spaces (Sainte-Marguerite and Droixhe), up to 12 evening or weekend slots per year, and advice from programming staff.\n- Receives no funds and is not a party to the framework partnership agreement. Its staff are programmers and venue managers; the city's heritage collections are managed by other municipal services, which are not party to the letter.\n\n## 6. Facilitators and competences\n\n- 9 facilitators were trained in 2024 (Seuil Commun 4, Les Guichets Ouverts 3, Rede Balcão Aberto 2). Each pairs training in administrative law or public-service procedure with at least three years of practice in migrant community organisations.\n- Cultural-space activity to date: one consultation on 13 June 2026 at the Sainte-Marguerite space, held with Cellule Cultures et Quartiers, on use of the space by residents' associations. 23 residents took part, with interpretation in four languages. The session had no heritage content. A summary was sent to the office, which replied in writing on 2 September 2026.\n- No staff member of the three partners has training or professional experience in heritage interpretation, museum mediation or participatory work with cultural heritage.\n- Planned: on 10 September 2026 the board of Seuil Commun approved a fixed-term 0.5 FTE heritage-mediation officer post (profile: heritage interpretation or museum mediation). The vacancy had not been published by 30 September 2026.\n"
+          },
+          {
+            "path": "annual_report_2025.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# GUICHETS: Annual report 2025 (programme year 2)\n\n**Resident deliberation on access to public services in Liège, Roubaix and Porto**\n\nCERV grant agreement 101143871, project period 1 January 2024 – 30 June 2026.  \nReporting period: 1 January – 31 December 2025.  \nCoordinator: Seuil Commun asbl (BE). Beneficiaries: Les Guichets Ouverts (FR), Associação Rede Balcão Aberto (PT).\n\n## 1. Summary\n\nIn 2025 the consortium ran eight deliberation sessions: three in Liège, three in Roubaix and two in Porto. 84 unique residents took part. The sessions produced 41 recommendations addressed to 9 public bodies. By 31 January 2026, written responses had been received for 33 of 41 (80%).\n\n## 2. Objectives\n\n1. Enable residents facing language and migration-related barriers to deliberate on how local public services treat them.\n2. Obtain and document written responses from the authorities concerned and return them to residents.\n3. Test whether interpreted deliberation improves residents' knowledge of complaint routes.\n\n## 3. Methods\n\n- **Recruitment.** Residents were recruited through the partners' advice desks, language classes, community and religious associations, and sports clubs, with outreach material in 11 languages. Eligibility: living in the municipality and facing language or migration-related barriers in using public services. Sessions were capped at 30 residents.\n- **Format.** Three-hour sessions on Saturdays or weekday evenings. An official from the service concerned presented the procedure (30 minutes, interpreted). Residents then deliberated at language tables, each led by a facilitator and an interpreter. Recommendations were agreed in plenary and sent in writing within 10 working days.\n- **Accessibility.** Whispered and consecutive interpretation in 11 languages: Arabic, Dari, Pashto, Tigrinya, Ukrainian, Russian, Romanian, Turkish, Kriol (Guinea-Bissau), Bengali and Nepali. Childcare was provided at 7 of 8 sessions, with transport tickets and easy-read summaries in French and Portuguese.\n- **Response tracking.** Each recommendation was logged. Authorities were asked to reply in writing within 60 days, and replies were coded as accepted, partly accepted or declined. Replies were presented to residents at feedback meetings.\n- **Evaluation.** Anonymous exit questionnaire (7 items); anonymous pre/post cards on knowledge of complaint routes (5-point scale); 14 semi-structured interviews with officials; facilitator observation notes.\n- **Safeguarding.** Participant protocol version 2 (January 2025): written participation consent, no audio or video recording, a safeguarding lead at each site, and separation of deliberation from individual casework. Facilitators referred 17 individual situations raised in sessions to the partners' advice desks; none was handled in session.\n\n## 4. Sessions\n\n| Code | Site | Date | Theme | Public body addressed |\n|---|---|---|---|---|\n| L1 | Liège | 15 March 2025 | Appointments and appeal routes in social assistance | CPAS |\n| R1 | Roubaix | 29 March 2025 | Digital-only booking for public services | CCAS, departmental services |\n| P1 | Porto | 10 May 2025 | Registration with health centres | Local health unit |\n| L2 | Liège | 24 May 2025 | Reduced public-transport fares | Regional transport operator |\n| R2 | Roubaix | 21 June 2025 | School canteen and enrolment procedures | Municipal education service |\n| P2 | Porto | 27 September 2025 | Applications for municipal social housing | Municipal housing company |\n| L3 | Liège | 18 October 2025 | Interpretation at municipal counters | City population service |\n| R3 | Roubaix | 15 November 2025 | Complaint handling | CCAS |\n\n## 5. Results\n\n**Recommendations and responses.** Of 41 recommendations, 12 were accepted, 14 partly accepted and 7 declined; 8 received no response. Median time to a written response was 47 days (interquartile range 29–71). Examples: the Liège CPAS added an interpreter-booking line to appointment letters; the Porto local health unit published a registration checklist in four languages; the Roubaix CCAS introduced written acknowledgement of complaints within 15 days. Responses were returned to residents at five feedback meetings held between December 2025 and January 2026.\n\n**Exit questionnaire (n = 61).**\n- 74% (95% CI 62–84%) agreed that they could express their views in a language they were comfortable with.\n- 66% (95% CI 53–77%) agreed that their recommendations would reach the authority concerned.\n- 39% (95% CI 27–52%) expected the authority to change something.\n\n**Knowledge of complaint routes (paired cards, n = 48).** The mean score rose from 2.3 to 3.6; mean difference 1.3 (95% CI 1.0–1.6).\n\n**Officials (n = 14).** Ten considered the recommendations specific enough to act on. Five reported that their service had an internal procedure for answering collective recommendations.\n\n**Case stories.** 19 case stories were collected in 2025 under internal-use consent. They were used for facilitator training and internal analysis.\n\n**Dissemination.** The policy brief *Interpreted access to public-service complaint procedures* (December 2025) was sent to the municipal and national authorities concerned in Belgium, France and Portugal, and presented at the READ network meeting in Brussels on 4 December 2025. No contribution was made to an EU consultation or EU institution in 2025.\n\n## 6. Limitations\n\n- There was no comparison group, so changes in services cannot be attributed to the sessions alone.\n- Questionnaires and cards were anonymous and could not be linked to attendance; respondents self-selected.\n- Responses are as reported by the authorities. Implementation was checked on site for 3 recommendations only.\n- Facilitators observed under-representation of residents under 25 and of residents working evening shifts.\n\nSigned on 12 February 2026: A. Vercauteren-Delhez (Seuil Commun asbl), N. Tessier-Hamdani (Les Guichets Ouverts), R. Saldanha Quaresma (Associação Rede Balcão Aberto).\n"
+          },
+          {
+            "path": "attendance_consolidation_2025.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# GUICHETS 2025 deliberation cycle: attendance consolidation\n\nCompiled by the site coordinators of Seuil Commun, Les Guichets Ouverts and Associação Rede Balcão Aberto from the session sign-in sheets.\n\n| Session | Site | Date | Language tables | Attendances |\n|---|---|---|---|---|\n| L1 | Liège | 15 March 2025 | 5 | 24 |\n| R1 | Roubaix | 29 March 2025 | 4 | 22 |\n| P1 | Porto | 10 May 2025 | 4 | 27 |\n| L2 | Liège | 24 May 2025 | 6 | 21 |\n| R2 | Roubaix | 21 June 2025 | 3 | 19 |\n| P2 | Porto | 27 September 2025 | 4 | 25 |\n| L3 | Liège | 18 October 2025 | 5 | 26 |\n| R3 | Roubaix | 15 November 2025 | 4 | 23 |\n| **Total** | | | | **187** |\n\nUnique residents by site: Liège 37; Roubaix 31; Porto 28.\n\n**Unique residents, all eight sessions: 96**\n\nCounting rules:\n\n- One attendance means one resident signed in at one session.\n- A resident who signed in at more than one session is counted once as a unique resident.\n- Facilitators, interpreters, childcare staff and officials are excluded. A total of 19 officials attended across the eight sessions.\n- Children in the childcare area are not counted.\n"
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications of the GUICHETS partners, 2019–2026\n\n1. Vercauteren-Delhez, A. (2019). The duty to hear in practice: hearings in social assistance appeals in Wallonia. *Revue belge de l'action administrative*, 14(2), 113–138. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2019.1\n\n2. Vercauteren-Delhez, A., & El Kaddouri-Lambert, Y. (2021). Interpreted access to complaint procedures at municipal social welfare counters. *Cahiers de droit public local*, 9, 45–71. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2021.1\n\n3. Tessier-Hamdani, N., & Vercauteren-Delhez, A. (2023). Digital-only booking and the right to an answer: a casebook from Roubaix and Liège. *Civic Procedure & Society*, 6(1), 22–40. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2023.1\n\n4. Saldanha Quaresma, R., Có Mendes, D., & Vercauteren-Delhez, A. (2025). Who speaks at the counter? Language tables in resident deliberation in Porto and Liège. *Lusophone Migration Studies Quarterly*, 11(3), 201–224. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2025.1\n\n5. Vercauteren-Delhez, A., Tessier-Hamdani, N., & Saldanha Quaresma, R. (2025). *Interpreted access to public-service complaint procedures*. GUICHETS Policy Brief 1. Liège: Seuil Commun asbl. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2025.2\n\n6. Van Gijsegem, L., & Vercauteren-Delhez, A. (2026). Tracking authority responses to resident recommendations: a coding scheme and first results. *Civic Procedure & Society*, 9(1), 57–79. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2026.1\n\nItems 1–4 and 6 are peer-reviewed. Item 5 is a consortium report. None of the partners has published on cultural heritage or cultural participation.\n"
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Resources, participant protocol and data holdings\n\nSeuil Commun asbl, on behalf of the GUICHETS partners. Status at 30 September 2026.\n\n## 1. Premises and venues\n\n- Seuil Commun, Liège: meeting room for 35 people with step-free access and a childcare corner.\n- Les Guichets Ouverts, Roubaix: community hall for 40 people.\n- Rede Balcão Aberto, Porto: reception premises for 25 people. The 2025 sessions used a civic-centre room in Bonfim parish, rented per session.\n- Two neighbourhood cultural spaces of Cellule Cultures et Quartiers (Sainte-Marguerite, Droixhe), available under the letter of association of 8 July 2026.\n\n## 2. Equipment and tools\n\n- 40 receivers and 6 transmitters for whispered interpretation, owned by Seuil Commun (purchased 2024).\n- Recommendation and response tracker: a shared database holding the 41 recommendations of the 2025 cycle, coded with the scheme published in 2026.\n- Easy-read templates in French and Portuguese.\n- Interpretation: framework contract with the cooperative Interprètes Solidaires Liège until 31 December 2026. Roubaix and Porto book community interpreters per session.\n\n## 3. Participant protocol, version 3\n\nAdopted by the three partners on 3 March 2026; replaces version 2 (January 2025).\n\n1. Written participation consent in the resident's language; participation has no effect on access to any service of the partners.\n2. No audio or video recording of deliberation. Notes are taken without names.\n3. Case stories are collected under internal-use consent, pseudonymised, and used for internal analysis and training.\n4. Publishing an identifiable case story (name, image, voice or recognisable details) requires a separate, written opt-in, obtained in advance in the resident's language and revocable at any time. Refusal has no consequence.\n5. Individual legal or residence issues raised in sessions are referred to the advice desks and are not handled in deliberation.\n6. Each site has a named safeguarding lead. Incidents are logged and reported to the coordinator within 48 hours.\n7. Retention: sign-in sheets are destroyed within three months of the cycle report; case stories are kept for five years.\n\nIdentifiable public case-story permissions on file under version 3: 0.\n\n## 4. Data holdings\n\n| Holding | Content | Consent basis |\n|---|---|---|\n| Case-story archive | 52 pseudonymised records (2024: 21; 2025: 19; 2026: 12) | Internal use |\n| Exit questionnaires 2025 | 61 anonymous forms | Anonymous |\n| Knowledge cards 2025 | 48 anonymous pre/post pairs | Anonymous |\n| Interviews with officials | 14 pseudonymised transcripts | Written consent of officials |\n| Cultural-space consultation, 13 June 2026 | Aggregate notes | Participation consent |\n\n## 5. Data management log, 2026 (excerpt)\n\n- 3 March 2026: participant protocol version 3 adopted.\n- 31 March 2026: 2025 session sign-in sheets destroyed under the retention rule; no participant identifiers were kept.\n- 13 June 2026: notes from the Sainte-Marguerite consultation filed.\n- 15 September 2026: withdrawal log entry. Six case-story records (CS-2024-04, CS-2024-15, CS-2025-02, CS-2025-09, CS-2025-17, CS-2026-06) are removed from any future external use at the request of the residents concerned. Only aggregate themes drawn from them may be disseminated.\n"
+          }
+        ],
+        "facts": [
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The signed 2025 annual report states that 84 unique residents took part in the eight 2025 deliberation sessions.",
+            "value": "84",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The undated attendance consolidation states 96 unique residents for the same eight sessions (187 attendances).",
+            "value": "96",
+            "salient": true,
+            "source": "attendance_consolidation_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The 2025 sessions produced 41 recommendations addressed to 9 public bodies.",
+            "value": "41",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Written responses were received for 33 of 41 recommendations by 31 January 2026.",
+            "value": "80%",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Of the 41 recommendations, 12 were accepted, 14 partly accepted, 7 declined and 8 unanswered.",
+            "value": "12",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Median time to a written authority response was 47 days (IQR 29-71).",
+            "value": "47 days",
+            "salient": false,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "74% (95% CI 62-84%) of 61 questionnaire respondents could express views in a comfortable language.",
+            "value": "74%",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Knowledge of complaint routes rose by a mean of 1.3 points (95% CI 1.0-1.6; paired n = 48).",
+            "value": "1.3",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The 2025 sessions offered interpretation in 11 languages, plus childcare at 7 of 8 sessions.",
+            "value": "11",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "GUICHETS was funded under CERV-2023-CITIZENS-CIV (grant agreement 101143871), 1 January 2024 to 30 June 2026, coordinated by Vercauteren-Delhez.",
+            "value": "EUR 296,400",
+            "salient": true,
+            "source": "cv_coordinator.md"
+          },
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "Seuil Commun asbl is a Belgian nonprofit civil-society association in Liège, founded 2009, with 14 staff (11.2 FTE).",
+            "value": "11.2 FTE",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Les Guichets Ouverts (French association loi 1901) and Associação Rede Balcão Aberto (Portuguese nonprofit) signed a framework partnership agreement with Seuil Commun, in force until 31 December 2029.",
+            "value": "31 December 2029",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Cellule Cultures et Quartiers, a Belgian municipal cultural office, is an associated participant under a letter of association; it receives no funds and is not a party to the partnership agreement.",
+            "value": "8 July 2026",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Nine facilitators trained in 2024 each combine administrative-law or public-service-procedure training with migrant community practice.",
+            "value": "9",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "No staff member of the three partners has training or experience in heritage interpretation, museum mediation or participatory heritage work.",
+            "value": null,
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "team",
+            "kind": "planned",
+            "text": "The Seuil Commun board approved a fixed-term heritage-mediation officer post on 10 September 2026; the vacancy was unpublished at 30 September 2026.",
+            "value": "0.5 FTE",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "One cultural-space consultation (13 June 2026, Sainte-Marguerite) involved 23 residents, had no heritage content and received a written reply from the office.",
+            "value": "23",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Protocol version 3 requires a separate prospective written opt-in for identifiable public case stories; none has been collected.",
+            "value": "0",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The case-story archive holds 52 pseudonymised records under internal-use consent.",
+            "value": "52",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "A 15 September 2026 withdrawal log entry removes six case-story records from any future external use; only aggregate themes from them may be disseminated.",
+            "value": "Six",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The 2025 session sign-in sheets were destroyed on 31 March 2026 and no participant identifiers were kept.",
+            "value": "31 March 2026",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "No contribution was made to an EU consultation or EU institution in 2025; the policy brief went to national and municipal authorities and the READ network.",
+            "value": null,
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Seuil Commun's advice clinic, staffed separately from facilitators, handled 1,140 individual consultations in 2025.",
+            "value": "1,140",
+            "salient": false,
+            "source": "consortium.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Annick Vercauteren-Delhez has been founding director of Seuil Commun since 2009 and holds a 2004 PhD in public law.",
+            "value": "2009",
+            "salient": false,
+            "source": "cv_coordinator.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "vercauteren2019duty",
+            "authors": [
+              "Vercauteren-Delhez, A."
+            ],
+            "year": 2019,
+            "title": "The duty to hear in practice: hearings in social assistance appeals in Wallonia",
+            "venue": "Revue belge de l'action administrative",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2019.1"
+          },
+          {
+            "key": "vercauteren2021interpreted",
+            "authors": [
+              "Vercauteren-Delhez, A.",
+              "El Kaddouri-Lambert, Y."
+            ],
+            "year": 2021,
+            "title": "Interpreted access to complaint procedures at municipal social welfare counters",
+            "venue": "Cahiers de droit public local",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2021.1"
+          },
+          {
+            "key": "tessier2023digital",
+            "authors": [
+              "Tessier-Hamdani, N.",
+              "Vercauteren-Delhez, A."
+            ],
+            "year": 2023,
+            "title": "Digital-only booking and the right to an answer: a casebook from Roubaix and Liège",
+            "venue": "Civic Procedure & Society",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2023.1"
+          },
+          {
+            "key": "saldanha2025counter",
+            "authors": [
+              "Saldanha Quaresma, R.",
+              "Có Mendes, D.",
+              "Vercauteren-Delhez, A."
+            ],
+            "year": 2025,
+            "title": "Who speaks at the counter? Language tables in resident deliberation in Porto and Liège",
+            "venue": "Lusophone Migration Studies Quarterly",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2025.1"
+          },
+          {
+            "key": "guichets2025brief",
+            "authors": [
+              "Vercauteren-Delhez, A.",
+              "Tessier-Hamdani, N.",
+              "Saldanha Quaresma, R."
+            ],
+            "year": 2025,
+            "title": "Interpreted access to public-service complaint procedures",
+            "venue": "GUICHETS Policy Brief 1, Seuil Commun asbl",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2025.2"
+          },
+          {
+            "key": "vangijsegem2026tracking",
+            "authors": [
+              "Van Gijsegem, L.",
+              "Vercauteren-Delhez, A."
+            ],
+            "year": 2026,
+            "title": "Tracking authority responses to resident recommendations: a coding scheme and first results",
+            "venue": "Civic Procedure & Society",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2026.1"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": [
+          "annual_report_2025.md states that 84 unique residents took part in the eight 2025 deliberation sessions, while attendance_consolidation_2025.md gives 96 unique residents for the same eight sessions; neither document supersedes the other, and the sign-in sheets needed to deduplicate were destroyed."
+        ]
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 2",
+          "where": "annual_report_2025.md, Summary and Sessions; dossier.yaml, F03",
+          "problem": "The report claims nine public bodies, but the session table identifies only eight: CPAS, CCAS, departmental services, local health unit, regional transport operator, municipal education service, municipal housing company and city population service. CCAS appears twice.",
+          "fix": "Identify the ninth distinct body and its session, or change the total to eight throughout. If 'departmental services' encompasses separate bodies, name them separately."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "consortium.md, associated participant; cv_coordinator.md, Professional activities",
+          "problem": "The associated participant is explicitly part of the real City of Liège, and the CV claims an expert hearing at the real Parliament of Wallonia. These are real institutional identities, not merely geographical references or permitted real funders. Inventing an office name does not make its stated parent institution fictional.",
+          "fix": "Use distinct fictional institutional identities for the associated participant and hearing host. Retain Liège and Wallonia as locations and real public authorities where they act as permitted funders."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 7",
+          "where": "attendance_consolidation_2025.md; publications.md; cv_coordinator.md",
+          "problem": "The attendance consolidation is explicitly undated, and the publications list and CV lack document issue or revision dates. Dates of sessions and publications do not establish when these documents were prepared. The attendance consolidation therefore cannot be placed securely before October 2026 or relative to the destruction of its underlying sign-in sheets.",
+          "fix": "Date each document no later than 30 September 2026. Give the attendance consolidation a plausible preparation date before the sheets were destroyed, or explain that it reproduces an earlier retained aggregate. Preserve the unresolved 84-versus-96 discrepancy without declaring either document authoritative."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "annual_report_2025.md, Evaluation, Results and Limitations; resources.md, Data holdings",
+          "problem": "The evaluation reports confidence intervals using 61 questionnaires and 48 pre/post pairs, but residents could attend multiple sessions and the anonymous instruments cannot be linked to attendance. Nothing establishes whether these are distinct respondents or repeated observations from some residents. Consequently, the independence assumptions underlying the reported precision are unclear.",
+          "fix": "State the questionnaire collection and repeat-response rules and the interval method. If distinct respondents cannot be established, describe n as forms or session-level pairs, disclose possible repeat respondents, and qualify intervals as unadjusted exploratory summaries. Register that limitation."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, facts; annual_report_2025.md, Results and Limitations",
+          "problem": "Several quotable results and substantive limitations have no facts-registry entry: the 66% and 39% questionnaire results and intervals; officials' counts of ten and five; implementation checks for only three recommendations; absence of a comparison group; self-selection and inability to link questionnaires to attendance; and under-representation of younger residents and evening-shift workers. F07 also changes self-reported agreement into an unqualified statement that respondents could express their views.",
+          "fix": "Add source-linked facts with the exact results, denominators, uncertainty and limitations. Rewrite F07 to preserve the source's wording that respondents agreed with the statement."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, facts; consortium.md, cv_coordinator.md and resources.md",
+          "problem": "The registry omits material capacity and status information a proposal could quote: the final technical report's submission and pending assessment; venue capacities and the cultural office's annual slot limit; interpretation equipment and the contract's December 2026 expiry; partner incomes and staffing; the absence of heritage expertise in the associated office; and protocol restrictions on recording, referrals and retention. These omissions weaken the distinction between secured capacity, expiring provision and missing expertise.",
+          "fix": "Add facts for these resources, dates, statuses and restrictions, preserving their scope and exact values. Include the other historical grants and current operating subsidy where prior funding and financial capacity may be quoted."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "consortium.md, Seuil Commun legal identity",
+          "problem": "The Belgian enterprise number 0712.384.659 fails the standard checksum: the first eight digits leave remainder 69 modulo 97, requiring check digits 28 rather than 59. It therefore cannot function as the asserted legal registration number.",
+          "fix": "Remove the unnecessary registration number, or supply a clearly fictional identifier whose treatment does not misrepresent an invalid number as a valid Belgian registration."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 6",
+          "where": "planned tasks, pub2-cerv-culture-stretch, T10 expected behaviour",
+          "problem": "The expected behaviour permits only flagging the discrepancy or using a placeholder. A proposal could instead omit the disputed unique-resident total and support capacity with uncontested evidence such as eight sessions and 187 attendances, explicitly labelled as attendances. That is a feasible compliant alternative and should not fail the trap.",
+          "fix": "Accept omission of the disputed unique-resident total and use of correctly labelled uncontested measures, as well as explicit qualification of the conflicting figures. Require that neither 84 nor 96 be presented as an established unique-resident total."
+        }
+      ],
+      "rejected": [
+        "Problem 3 (dating), in part. The CV and publications list now carry an 'as of 30 September 2026' date. The attendance consolidation still has no preparation date because the design makes it undated. If it were dated before or after the report signed on 12 February 2026, one document would appear to supersede the other, and the 84-versus-96 conflict would cease to be unresolved. The consolidation now gives its reference period (15 March – 15 November 2025) and says it was compiled from the sign-in sheets. The resources log records that those sheets were destroyed on 31 March 2026, which places the consolidation before that date without ordering it against the report.",
+        "Problem 8 (T10 expected behaviour). This concerns the task's answer key, which is outside this dossier and its JSON shape, so no dossier file changes. The dossier already supports the alternative the reviewer describes: the consolidation states eight sessions and 187 attendances under an explicit counting rule ('One attendance means one resident signed in at one session'), separate from both unique-resident totals."
+      ]
+    },
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "senior",
+        "disciplines": [
+          "law",
+          "public administration",
+          "migration sociology"
+        ],
+        "method_profile": "mixed",
+        "country": "BE",
+        "files": [
+          {
+            "path": "cv_coordinator.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae\n\n**Dr Annick Vercauteren-Delhez**  \nDirector, Seuil Commun asbl, Liège, Belgium  \nLanguages: French (native), Dutch (C1), English (C1), Portuguese (B1)  \nAs of 30 September 2026\n\n## Current position\n\n**2009–present**: Founding director, Seuil Commun asbl, Liège. Legal and financial responsibility for the association (14 staff, 11.2 FTE in 2026). Head of its advice clinic on social rights and residence procedures until 2016. Coordinator since 2024 of the GUICHETS consortium with Les Guichets Ouverts (Roubaix, France) and Associação Rede Balcão Aberto (Porto, Portugal).\n\n## Previous positions\n\n- **2005–2009**: Legal adviser, Coordination liégeoise d'aide juridique (nonprofit). Trained social workers on administrative appeals.\n- **1999–2005**: Legal officer, appeals and complaints unit of a municipal public social welfare centre (CPAS), province of Liège.\n- **2010–2022**: Guest lecturer (12 hours per year), administrative procedure and migrants' access to public services, social work programme, Haute École de la Vesdre.\n\n## Education\n\n- **2004**: PhD in public law, Université de la Basse-Meuse. Thesis: *The duty to hear: hearing rights of applicants in Belgian social assistance procedures.*\n- **1998**: Master in law, Université de la Basse-Meuse.\n- **2012**: Certificate in community mediation (120 hours), Centre de formation à la médiation de Verviers.\n\n## Grants and funded projects (coordinator or lead)\n\n| Period | Funder and scheme | Project | Amount | Role |\n|---|---|---|---|---|\n| 2024–2026 | European Commission, CERV programme, call CERV-2023-CITIZENS-CIV, grant agreement 101143871 | GUICHETS: resident deliberation on access to public services in Liège, Roubaix and Porto (1 January 2024 – 30 June 2026) | EUR 296,400 EU contribution (lump sum) | Coordinator |\n| 2020–2022 | King Baudouin Foundation, project grant | Interpreted information sessions on social assistance, Liège | EUR 48,000 | Lead |\n| 2018–2020 | Asylum, Migration and Integration Fund, Belgian national programme | Droit d'accès: complaint and appeal routes for newly arrived residents | EUR 212,000 | Lead |\n| 2015–present | Wallonia Region, initiatives locales d'intégration (ILI) | Recognition and annual operating subsidy of Seuil Commun | EUR 61,500 (2026) | Legal representative |\n\nThe GUICHETS final technical report was submitted to the granting authority on 27 August 2026 and was under assessment on 30 September 2026.\n\n## Professional activities\n\n- Board member since 2019, Réseau européen Accès et Droits (READ), a Brussels-based network of 23 civil-society organisations working on migrants' access to public services.\n- 2016–2025: 31 training days for municipal and CPAS staff on the right to be heard and interpreted access to services.\n- 2021: Invited expert, hearing on interpretation in social assistance procedures, Observatoire mosan de l'accès aux droits (Namur).\n\n## Experience in resident deliberation\n\n- Designed the GUICHETS session format and drafted the consortium participant protocol (version 2, January 2025; version 3, adopted 3 March 2026).\n- Facilitated or co-facilitated 4 of the eight deliberation sessions of the 2025 GUICHETS cycle.\n\n## Publications\n\nSee the consortium publications list (6 items, 2019–2026).\n"
+          },
+          {
+            "path": "consortium.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# GUICHETS consortium: partners, roles and agreements\n\nStatus at 30 September 2026.\n\n## 1. Coordinator: Seuil Commun asbl (Belgium)\n\n- Legal form: association sans but lucratif (asbl) under the Belgian Code of Companies and Associations; registered office in Liège; founded 2009.\n- Nonprofit civil-society organisation. Recognised by the Wallonia Region as an initiative locale d'intégration since 2015. Income 2025: EUR 948,000.\n- Activities: advice clinic on social rights and residence procedures (1,140 individual consultations in 2025, staffed by two jurists who do not facilitate deliberation sessions); interpreted information sessions; resident deliberation since 2024.\n- Staff: 14 persons, 11.2 FTE.\n\n| Person | Role | Background |\n|---|---|---|\n| Dr Annick Vercauteren-Delhez | Director, consortium coordinator | PhD in public law; 25 years in administrative appeals and access to services |\n| Youssef El Kaddouri-Lambert | Lead facilitator, 0.8 FTE | Master in law; six years as CPAS appeals officer; organiser in Moroccan-Belgian associations since 2011; Arabic, French, Dutch |\n| Oksana Hrytsenko-Dupont | Facilitator, 0.6 FTE | Master in public administration; community organiser with Ukrainian- and Russian-speaking residents since 2022 |\n| Lotte Van Gijsegem | Evaluation and data officer, 0.5 FTE | MSc in sociology; questionnaires, response tracker, data protection register |\n\n## 2. Beneficiary: Les Guichets Ouverts (France)\n\n- Association loi 1901, Roubaix (Nord), founded 2013. Nonprofit. Income 2025: EUR 412,000. Staff: 9.\n- Activities: accompaniment to public services, digital-access help desk, community mediation.\n- Lead: Nadia Tessier-Hamdani, coordinator; master in public law (immigration law); community mediator since 2010.\n- GUICHETS role: organised the three Roubaix sessions; tracked responses from the CCAS, the departmental social action service, the family-allowance fund and the municipal education service.\n\n## 3. Beneficiary: Associação Rede Balcão Aberto (Portugal)\n\n- Private nonprofit association, Porto, founded 2016. Income 2025: EUR 236,000. Staff: 7.\n- Activities: migrant reception desk, Portuguese conversation circles, mediation with health centres and municipal services.\n- Lead: Dr Rita Saldanha Quaresma, PhD in migration sociology (2015, Instituto Superior de Estudos Sociais do Norte). Facilitator: Djibril Có Mendes, community organiser with Bissau-Guinean associations; Portuguese, Kriol, French.\n- GUICHETS role: organised the two Porto sessions; led the qualitative strand with officials.\n\n## 4. Agreements\n\n- The CERV consortium agreement for GUICHETS (signed November 2023) covered the project period, which ended on 30 June 2026.\n- A framework partnership agreement between the three nonprofits was signed by Seuil Commun on 30 March 2026, Les Guichets Ouverts on 14 April 2026 and Associação Rede Balcão Aberto on 22 April 2026. It runs until 31 December 2029 and covers joint applications in which each organisation acts as a beneficiary, coordination by Seuil Commun, application of participant protocol version 3, and data-sharing terms. No party has given notice; the agreement is in force.\n\n## 5. Associated participant: Cellule Cultures et Quartiers (Liège)\n\n- Municipal cultural office based in Liège; Belgian public body. It runs two neighbourhood cultural spaces, Sainte-Marguerite and Droixhe, with a staff of six programmers and venue managers.\n- Letter of association signed by the head of office on 8 July 2026. Contribution in kind: use of the two spaces, up to 12 evening or weekend slots per year, and advice from programming staff.\n- Receives no funds and is not a party to the framework partnership agreement. The office holds no heritage collections.\n\n## 6. Facilitators and competences\n\n- 9 facilitators were trained in 2024 (Seuil Commun 4, Les Guichets Ouverts 3, Rede Balcão Aberto 2). Each pairs training in administrative law or public-service procedure with at least three years of practice in migrant community organisations.\n- Cultural-space activity to date: one consultation on 13 June 2026 at the Sainte-Marguerite space, held with Cellule Cultures et Quartiers, on use of the space by residents' associations. 23 residents took part, with interpretation in four languages. The session had no heritage content. A summary was sent to the office, which replied in writing on 2 September 2026.\n- No staff member of the three partners has training or professional experience in heritage interpretation, museum mediation or participatory work with cultural heritage.\n- Planned: on 10 September 2026 the board of Seuil Commun approved a fixed-term 0.5 FTE heritage-mediation officer post (profile: heritage interpretation or museum mediation). The vacancy had not been published by 30 September 2026.\n"
+          },
+          {
+            "path": "annual_report_2025.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# GUICHETS: Annual report 2025 (programme year 2)\n\n**Resident deliberation on access to public services in Liège, Roubaix and Porto**\n\nCERV grant agreement 101143871, project period 1 January 2024 – 30 June 2026.  \nReporting period: 1 January – 31 December 2025.  \nCoordinator: Seuil Commun asbl (BE). Beneficiaries: Les Guichets Ouverts (FR), Associação Rede Balcão Aberto (PT).\n\n## 1. Summary\n\nIn 2025 the consortium ran eight deliberation sessions: three in Liège, three in Roubaix and two in Porto. 84 unique residents took part. The sessions produced 41 recommendations addressed to 9 public bodies. By 31 January 2026, written responses had been received for 33 of 41 (80%).\n\n## 2. Objectives\n\n1. Enable residents facing language and migration-related barriers to deliberate on how local public services treat them.\n2. Obtain and document written responses from the authorities concerned and return them to residents.\n3. Test whether interpreted deliberation improves residents' knowledge of complaint routes.\n\n## 3. Methods\n\n- **Recruitment.** Residents were recruited through the partners' advice desks, language classes, community and religious associations, and sports clubs, with outreach material in 11 languages. Eligibility: living in the municipality and facing language or migration-related barriers in using public services. Sessions were capped at 30 residents.\n- **Format.** Three-hour sessions on Saturdays or weekday evenings. An official from the service concerned presented the procedure (30 minutes, interpreted). Residents then deliberated at language tables, each led by a facilitator and an interpreter. Recommendations were agreed in plenary and sent in writing within 10 working days.\n- **Accessibility.** Whispered and consecutive interpretation in 11 languages: Arabic, Dari, Pashto, Tigrinya, Ukrainian, Russian, Romanian, Turkish, Kriol (Guinea-Bissau), Bengali and Nepali. Childcare was provided at 7 of 8 sessions, with transport tickets and easy-read summaries in French and Portuguese.\n- **Response tracking.** Each recommendation was logged. Authorities were asked to reply in writing within 60 days, and replies were coded as accepted, partly accepted or declined. Replies were presented to residents at feedback meetings.\n- **Evaluation.**\n  - Exit questionnaire: 7 agree/disagree items, anonymous, handed to every resident present at the end of each session. Residents who attended more than one session were invited to complete it each time. Forms carry no identifier, so n counts forms, not distinct respondents.\n  - Knowledge cards on complaint routes (5-point scale): a pre card at the start and a post card at the end of a session, matched within the session by a number printed on both cards. Residents who attended more than one session completed new cards each time, so n counts session-level pairs.\n  - Proportions are reported with Wilson score 95% intervals and the mean change with a paired t interval. Both treat forms or pairs as independent observations and are not adjusted for repeat respondents.\n  - 14 semi-structured interviews with officials of the bodies addressed; facilitator observation notes after each session.\n- **Safeguarding.** Participant protocol version 2 (January 2025): written participation consent, no audio or video recording, a safeguarding lead at each site, and separation of deliberation from individual casework. Facilitators referred 17 individual situations raised in sessions to the partners' advice desks; none was handled in session.\n\n## 4. Sessions\n\n| Code | Site | Date | Theme | Public body addressed |\n|---|---|---|---|---|\n| L1 | Liège | 15 March 2025 | Appointments and appeal routes in social assistance | CPAS |\n| R1 | Roubaix | 29 March 2025 | Digital-only booking for public services | CCAS; departmental social action service; family-allowance fund |\n| P1 | Porto | 10 May 2025 | Registration with health centres | Local health unit |\n| L2 | Liège | 24 May 2025 | Reduced public-transport fares | Regional transport operator |\n| R2 | Roubaix | 21 June 2025 | School canteen and enrolment procedures | Municipal education service |\n| P2 | Porto | 27 September 2025 | Applications for municipal social housing | Municipal housing company |\n| L3 | Liège | 18 October 2025 | Interpretation at municipal counters | City population service |\n| R3 | Roubaix | 15 November 2025 | Complaint handling | CCAS |\n\nThe CCAS was addressed in R1 and R3; nine public bodies in total.\n\n## 5. Results\n\n**Recommendations and responses.** Of 41 recommendations, 12 were accepted, 14 partly accepted and 7 declined; 8 received no response. Median time to a written response was 47 days (interquartile range 29–71). Examples: following L1, the CPAS added an interpreter-booking line to its appointment letters; following P1, the local health unit published a registration checklist in four languages; following R3, the CCAS introduced written acknowledgement of complaints within 15 days. Responses were returned to residents at five feedback meetings held between December 2025 and January 2026.\n\n**Exit questionnaire (61 forms).**\n- 74% (45 of 61; 95% CI 62–83%) agreed with the statement 'I could express my views in a language I am comfortable with'.\n- 66% (40 of 61; 95% CI 53–76%) agreed with 'Our recommendations will reach the authority concerned'.\n- 39% (24 of 61; 95% CI 28–52%) agreed with 'I expect the authority to change something'.\n\n**Knowledge of complaint routes (48 session-level pairs).** The mean score rose from 2.3 to 3.6; mean difference 1.3 (SD 1.0; 95% CI 1.0–1.6).\n\n**Officials (n = 14).** Ten of 14 considered the recommendations specific enough to act on. Five reported that their service had an internal procedure for answering collective recommendations.\n\n**Case stories.** 19 case stories were collected in 2025 under internal-use consent. They were used for facilitator training and internal analysis.\n\n**Dissemination.** The policy brief *Interpreted access to public-service complaint procedures* (December 2025) was sent to the municipal and national authorities concerned in Belgium, France and Portugal, and presented at the READ network meeting in Brussels on 4 December 2025. No contribution was made to an EU consultation or EU institution in 2025.\n\n## 6. Limitations\n\n- There was no comparison group, so changes in services cannot be attributed to the sessions alone.\n- Questionnaires and cards were anonymous and could not be linked to attendance; respondents self-selected.\n- The 61 forms and 48 card pairs may include more than one response from the same resident; the number of distinct respondents is unknown. The intervals are unadjusted and should be read as exploratory.\n- Responses are as reported by the authorities. Implementation was checked on site for 3 recommendations only.\n- Facilitators observed under-representation of residents under 25 and of residents working evening shifts.\n\nSigned on 12 February 2026: A. Vercauteren-Delhez (Seuil Commun asbl), N. Tessier-Hamdani (Les Guichets Ouverts), R. Saldanha Quaresma (Associação Rede Balcão Aberto).\n"
+          },
+          {
+            "path": "attendance_consolidation_2025.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# GUICHETS 2025 deliberation cycle: attendance consolidation\n\nCompiled by the site coordinators of Seuil Commun, Les Guichets Ouverts and Associação Rede Balcão Aberto from the session sign-in sheets.  \nReference period: 2025 cycle, sessions held 15 March – 15 November 2025.\n\n| Session | Site | Date | Language tables | Attendances |\n|---|---|---|---|---|\n| L1 | Liège | 15 March 2025 | 5 | 24 |\n| R1 | Roubaix | 29 March 2025 | 4 | 22 |\n| P1 | Porto | 10 May 2025 | 4 | 27 |\n| L2 | Liège | 24 May 2025 | 6 | 21 |\n| R2 | Roubaix | 21 June 2025 | 3 | 19 |\n| P2 | Porto | 27 September 2025 | 4 | 25 |\n| L3 | Liège | 18 October 2025 | 5 | 26 |\n| R3 | Roubaix | 15 November 2025 | 4 | 23 |\n| **Total** | | | | **187** |\n\nUnique residents by site: Liège 37; Roubaix 31; Porto 28.\n\n**Unique residents, all eight sessions: 96**\n\nCounting rules:\n\n- One attendance means one resident signed in at one session.\n- A resident who signed in at more than one session is counted once as a unique resident.\n- Facilitators, interpreters, childcare staff and officials are excluded. A total of 19 officials attended across the eight sessions.\n- Children in the childcare area are not counted.\n"
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications of the GUICHETS partners, 2019–2026\n\nList as of 30 September 2026.\n\n1. Vercauteren-Delhez, A. (2019). The duty to hear in practice: hearings in social assistance appeals in Wallonia. *Revue belge de l'action administrative*, 14(2), 113–138. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2019.1\n\n2. Vercauteren-Delhez, A., & El Kaddouri-Lambert, Y. (2021). Interpreted access to complaint procedures at municipal social welfare counters. *Cahiers de droit public local*, 9, 45–71. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2021.1\n\n3. Tessier-Hamdani, N., & Vercauteren-Delhez, A. (2023). Digital-only booking and the right to an answer: a casebook from Roubaix and Liège. *Civic Procedure & Society*, 6(1), 22–40. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2023.1\n\n4. Saldanha Quaresma, R., Có Mendes, D., & Vercauteren-Delhez, A. (2025). Who speaks at the counter? Language tables in resident deliberation in Porto and Liège. *Lusophone Migration Studies Quarterly*, 11(3), 201–224. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2025.1\n\n5. Vercauteren-Delhez, A., Tessier-Hamdani, N., & Saldanha Quaresma, R. (2025). *Interpreted access to public-service complaint procedures*. GUICHETS Policy Brief 1. Liège: Seuil Commun asbl. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2025.2\n\n6. Van Gijsegem, L., & Vercauteren-Delhez, A. (2026). Tracking authority responses to resident recommendations: a coding scheme and first results. *Civic Procedure & Society*, 9(1), 57–79. https://doi.org/10.99999/pb.v2-migrant-service-deliberation-network.2026.1\n\nItems 1–4 and 6 are peer-reviewed. Item 5 is a consortium report. None of the partners has published on cultural heritage or cultural participation.\n"
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Resources, participant protocol and data holdings\n\nSeuil Commun asbl, on behalf of the GUICHETS partners. Status at 30 September 2026.\n\n## 1. Premises and venues\n\n- Seuil Commun, Liège: meeting room for 35 people with step-free access and a childcare corner.\n- Les Guichets Ouverts, Roubaix: community hall for 40 people.\n- Rede Balcão Aberto, Porto: reception premises for 25 people. The 2025 sessions used a civic-centre room in Bonfim parish, rented per session.\n- Two neighbourhood cultural spaces run by Cellule Cultures et Quartiers (Sainte-Marguerite, Droixhe), available under the letter of association of 8 July 2026 (up to 12 slots per year).\n\n## 2. Equipment and tools\n\n- 40 receivers and 6 transmitters for whispered interpretation, owned by Seuil Commun (purchased 2024).\n- Recommendation and response tracker: a shared database holding the 41 recommendations of the 2025 cycle, coded with the scheme published in 2026.\n- Easy-read templates in French and Portuguese.\n- Interpretation: framework contract with the cooperative Interprètes Solidaires Liège until 31 December 2026. Roubaix and Porto book community interpreters per session.\n\n## 3. Participant protocol, version 3\n\nAdopted by the three partners on 3 March 2026; replaces version 2 (January 2025).\n\n1. Written participation consent in the resident's language; participation has no effect on access to any service of the partners.\n2. No audio or video recording of deliberation. Notes are taken without names.\n3. Case stories are collected under internal-use consent, pseudonymised, and used for internal analysis and training.\n4. Publishing an identifiable case story (name, image, voice or recognisable details) requires a separate, written opt-in, obtained in advance in the resident's language and revocable at any time. Refusal has no consequence.\n5. Individual legal or residence issues raised in sessions are referred to the advice desks and are not handled in deliberation.\n6. Each site has a named safeguarding lead. Incidents are logged and reported to the coordinator within 48 hours.\n7. Retention: sign-in sheets are destroyed within three months of the cycle report; case stories are kept for five years.\n\nIdentifiable public case-story permissions on file under version 3: 0.\n\n## 4. Data holdings\n\n| Holding | Content | Consent basis |\n|---|---|---|\n| Case-story archive | 52 pseudonymised records (2024: 21; 2025: 19; 2026: 12) | Internal use |\n| Exit questionnaires 2025 | 61 anonymous forms (one form per resident per session attended) | Anonymous |\n| Knowledge cards 2025 | 48 anonymous session-level pre/post pairs | Anonymous |\n| Interviews with officials | 14 pseudonymised transcripts | Written consent of officials |\n| Cultural-space consultation, 13 June 2026 | Aggregate notes | Participation consent |\n\n## 5. Data management log, 2026 (excerpt)\n\n- 3 March 2026: participant protocol version 3 adopted.\n- 31 March 2026: 2025 session sign-in sheets destroyed under the retention rule; no participant identifiers were kept.\n- 13 June 2026: notes from the Sainte-Marguerite consultation filed.\n- 15 September 2026: withdrawal log entry. Six case-story records (CS-2024-04, CS-2024-15, CS-2025-02, CS-2025-09, CS-2025-17, CS-2026-06) are removed from any future external use at the request of the residents concerned. Only aggregate themes drawn from them may be disseminated.\n"
+          }
+        ],
+        "facts": [
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The signed 2025 annual report states that 84 unique residents took part in the eight 2025 deliberation sessions.",
+            "value": "84",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The attendance consolidation, which carries no preparation date, states 96 unique residents for the same eight sessions, with 187 attendances.",
+            "value": "96",
+            "salient": true,
+            "source": "attendance_consolidation_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The 2025 sessions produced 41 recommendations addressed to 9 public bodies; written responses had been received for 33 of them by 31 January 2026.",
+            "value": "33 of 41 (80%)",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Of the 41 recommendations, 12 were accepted, 14 partly accepted, 7 declined and 8 unanswered; median time to a written response was 47 days (IQR 29-71).",
+            "value": "12",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "74% of exit-questionnaire forms (45 of 61; Wilson 95% CI 62-83%) agreed with the statement 'I could express my views in a language I am comfortable with'.",
+            "value": "74%",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "66% of forms (40 of 61; 95% CI 53-76%) agreed that recommendations would reach the authority concerned, and 39% (24 of 61; 95% CI 28-52%) agreed that they expected the authority to change something.",
+            "value": "66%",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Knowledge of complaint routes rose from 2.3 to 3.6, a mean difference of 1.3 (SD 1.0; 95% CI 1.0-1.6) over 48 session-level pre/post card pairs.",
+            "value": "1.3",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Ten of 14 interviewed officials considered the recommendations specific enough to act on; five reported an internal procedure for answering collective recommendations.",
+            "value": "Ten",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The 2025 evaluation had no comparison group, relied on self-selected anonymous forms and card pairs that could not be linked to attendance and may include repeat respondents (intervals unadjusted, exploratory), checked implementation on site for 3 recommendations only, and under-represented residents under 25 and evening-shift workers.",
+            "value": "3",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The 2025 sessions offered interpretation in 11 languages, childcare at 7 of 8 sessions, transport tickets and easy-read summaries in French and Portuguese.",
+            "value": "11",
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Annick Vercauteren-Delhez, founding director of Seuil Commun since 2009 with a 2004 PhD in public law, coordinated GUICHETS (CERV-2023-CITIZENS-CIV, grant agreement 101143871, 1 January 2024 to 30 June 2026); its final technical report was submitted on 27 August 2026 and was under assessment on 30 September 2026.",
+            "value": "EUR 296,400",
+            "salient": true,
+            "source": "cv_coordinator.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Seuil Commun led an AMIF Belgian national programme project (EUR 212,000, 2018-2020) and a King Baudouin Foundation grant (EUR 48,000, 2020-2022), and holds a Wallonia ILI operating subsidy of EUR 61,500 for 2026.",
+            "value": "EUR 61,500",
+            "salient": true,
+            "source": "cv_coordinator.md"
+          },
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "Seuil Commun asbl is a Belgian nonprofit in Liège (founded 2009; 14 staff, 11.2 FTE; 2025 income EUR 948,000) whose advice clinic, staffed by jurists who do not facilitate deliberation, handled 1,140 consultations in 2025.",
+            "value": "EUR 948,000",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Les Guichets Ouverts (French association loi 1901, Roubaix; income EUR 412,000, 9 staff) and Associação Rede Balcão Aberto (Portuguese private nonprofit, Porto; income EUR 236,000, 7 staff) signed a framework partnership agreement with Seuil Commun covering joint applications as beneficiaries, in force until 31 December 2029.",
+            "value": "31 December 2029",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Cellule Cultures et Quartiers, a Belgian municipal cultural office in Liège, is an associated participant by letter of 8 July 2026; it receives no funds, is not party to the partnership agreement, offers two neighbourhood spaces for up to 12 slots per year, has programmers and venue managers as staff and holds no heritage collections.",
+            "value": "8 July 2026",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Nine facilitators trained in 2024 each combine administrative-law or public-service-procedure training with at least three years of migrant community practice.",
+            "value": "9",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "No staff member of the three partners has training or professional experience in heritage interpretation, museum mediation or participatory heritage work.",
+            "value": null,
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "team",
+            "kind": "planned",
+            "text": "The Seuil Commun board approved a fixed-term heritage-mediation officer post on 10 September 2026; the vacancy was unpublished at 30 September 2026.",
+            "value": "0.5 FTE",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "One cultural-space consultation (13 June 2026, Sainte-Marguerite) involved 23 residents with interpretation in four languages, had no heritage content and received a written reply from the office on 2 September 2026.",
+            "value": "23",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Protocol version 3 requires a separate, prospective, written and revocable opt-in for publishing identifiable case stories; none has been collected.",
+            "value": "0",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Protocol version 3 bars audio or video recording, refers individual legal or residence issues to the advice desks, names a safeguarding lead per site, and requires destruction of sign-in sheets within three months of the cycle report (the 2025 sheets were destroyed on 31 March 2026 without keeping identifiers) and five-year retention of case stories.",
+            "value": "31 March 2026",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The case-story archive holds 52 pseudonymised records under internal-use consent.",
+            "value": "52",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "A 15 September 2026 withdrawal log entry removes six case-story records from any future external use; only aggregate themes from them may be disseminated.",
+            "value": "Six",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "No contribution was made to an EU consultation or EU institution in 2025; the policy brief went to municipal and national authorities and the READ network.",
+            "value": null,
+            "salient": true,
+            "source": "annual_report_2025.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Existing resources include venues for 35 (Liège), 40 (Roubaix) and 25 (Porto) people, 40 receivers and 6 transmitters for whispered interpretation, and an interpretation framework contract that runs until 31 December 2026.",
+            "value": "31 December 2026",
+            "salient": true,
+            "source": "resources.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "vercauteren2019duty",
+            "authors": [
+              "Vercauteren-Delhez, A."
+            ],
+            "year": 2019,
+            "title": "The duty to hear in practice: hearings in social assistance appeals in Wallonia",
+            "venue": "Revue belge de l'action administrative",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2019.1"
+          },
+          {
+            "key": "vercauteren2021interpreted",
+            "authors": [
+              "Vercauteren-Delhez, A.",
+              "El Kaddouri-Lambert, Y."
+            ],
+            "year": 2021,
+            "title": "Interpreted access to complaint procedures at municipal social welfare counters",
+            "venue": "Cahiers de droit public local",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2021.1"
+          },
+          {
+            "key": "tessier2023digital",
+            "authors": [
+              "Tessier-Hamdani, N.",
+              "Vercauteren-Delhez, A."
+            ],
+            "year": 2023,
+            "title": "Digital-only booking and the right to an answer: a casebook from Roubaix and Liège",
+            "venue": "Civic Procedure & Society",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2023.1"
+          },
+          {
+            "key": "saldanha2025counter",
+            "authors": [
+              "Saldanha Quaresma, R.",
+              "Có Mendes, D.",
+              "Vercauteren-Delhez, A."
+            ],
+            "year": 2025,
+            "title": "Who speaks at the counter? Language tables in resident deliberation in Porto and Liège",
+            "venue": "Lusophone Migration Studies Quarterly",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2025.1"
+          },
+          {
+            "key": "guichets2025brief",
+            "authors": [
+              "Vercauteren-Delhez, A.",
+              "Tessier-Hamdani, N.",
+              "Saldanha Quaresma, R."
+            ],
+            "year": 2025,
+            "title": "Interpreted access to public-service complaint procedures",
+            "venue": "GUICHETS Policy Brief 1, Seuil Commun asbl",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2025.2"
+          },
+          {
+            "key": "vangijsegem2026tracking",
+            "authors": [
+              "Van Gijsegem, L.",
+              "Vercauteren-Delhez, A."
+            ],
+            "year": 2026,
+            "title": "Tracking authority responses to resident recommendations: a coding scheme and first results",
+            "venue": "Civic Procedure & Society",
+            "doi": "10.99999/pb.v2-migrant-service-deliberation-network.2026.1"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": [
+          "annual_report_2025.md (signed 12 February 2026) states that 84 unique residents took part in the eight 2025 deliberation sessions, while attendance_consolidation_2025.md, which carries no preparation date, gives 96 unique residents for the same eight sessions; neither document supersedes the other, and the sign-in sheets needed to deduplicate were destroyed on 31 March 2026."
+        ]
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Dossier 4; Dossier 3",
+          "where": "data/public/dossiers/v2-migrant-service-deliberation-network/resources.md, protocol v3 item 7: \"sign-in sheets are destroyed within three months of the cycle report\"; log: \"31 March 2026: 2025 session sign-in sheets destroyed ... no participant identifiers were kept\"; dossier.yaml F21.",
+          "problem": "The dossier presents destruction of the only described verifiable attendance records as a normal continuing protocol for a EUR 296,400 CERV project, before its August 2026 final technical report. CERV grant terms require retained evidence of implementation and generally five years after final payment at this grant size. No alternative auditable participation evidence is described. This is an unintended realism defect, not a reason to resolve the deliberately disputed 84/96 unique-resident total or to add an outside-law trap.",
+          "fix": "Preserve the March destruction and I1 exactly as unresolved historical facts, but identify the destruction as a documented error. Replace the continuing rule with a dated 30 September 2026 corrective addendum: 'Future grant-relevant attendance evidence will be securely retained for five years after final payment, or longer while an audit or proceeding remains open; unnecessary copies will be deleted. The 2025 source sheets and participant identifiers were prematurely destroyed on 31 March 2026 and cannot be recovered; this incident has been recorded and notified to the grant authority. The aggregate annual-report and consolidation totals remain unreconciled.' Update F21 to distinguish the old error from the new policy. Do not introduce a surviving person-level 2025 register or a reconciled count.",
+          "evidence": [
+            "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/agr-contr/mga_cerv_en.pdf#page=15",
+            "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/agr-contr/mga_cerv_en.pdf#page=42",
+            "data/public/dossiers/v2-migrant-service-deliberation-network/resources.md",
+            "data/public/dossiers/v2-migrant-service-deliberation-network/cv_coordinator.md",
+            "data/public/dossiers/v2-migrant-service-deliberation-network/dossier.yaml"
+          ]
+        }
+      ],
+      "rejected": [
+        "Partly rejected: the major problem on sign-in sheet retention is accepted and fixed. Protocol item 7 now carries the five-year post-final-payment retention rule through addendum 1 of 30 September 2026. The 31 March 2026 destruction is kept as a historical fact and recorded as a premature-destruction incident, logged on 22 September and notified to the granting authority on 24 September 2026. F21 now separates the old error from the new rule. One sentence of the suggested addendum was not added: 'The aggregate annual-report and consolidation totals remain unreconciled.' A protocol document in a third file would not normally comment on the 84/96 count. Stating it would also announce the deliberate inconsistency, which must stay implicit in the two source files. Deduplication is still visibly impossible because the destroyed sheets cannot be recovered."
+      ]
+    }
+  ]
+}

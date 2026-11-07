@@ -1,0 +1,74 @@
+{
+  "kind": "call",
+  "id": "v2-foundation-weak-signals",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "call.md 'Specific conditions and mandatory elements', ninth bullet, and call.yaml ME9: '…confirmed, requested or prospective, using only dossier-supported claims.'",
+      "problem": "The applicant-facing call names the benchmark's dossier and warns against making unsupported claims. Both are benchmark mechanics that a funder's text would never contain.",
+      "fix": "Delete 'using only dossier-supported claims' from ME9 in both files. The rewrite in the next issue avoids it.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml ME11: 'Define an observable decision criterion for continuing, revising or stopping the proposed line of inquiry, and explain how each outcome would shape the next research step.'",
+      "problem": "ME11 restates the fixed template element ME3 ('Specify the evidence-based criterion for deciding … whether to continue, redirect or stop the research'). Only the verbs differ. Its second clause overlaps SC5 (evidence that would inform a subsequent research decision). The same go/stop demand therefore appears in ME3, ME8, ME11, SC5 and EO3, so one passage would satisfy several items.",
+      "fix": "Delete ME11 from both files. If the 'how each outcome shapes the next step' requirement is wanted, add it to SC5, e.g. 'Identify the additional evidence or methodological change that each end-of-project outcome would call for in a subsequent proposal.'",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml ME9: 'Describe the team's relevant capacity and essential access dependencies. Identify whether access, collaboration and contributions are confirmed, requested or prospective…'",
+      "problem": "ME9 bundles four demands: team capacity, access dependencies, collaboration status and contribution status.\n- Team capacity repeats fixed ME4 and the Team section.\n- Contribution status repeats the Budget outline section, which uses different categories ('committed' vs 'prospective'). ME9 uses 'confirmed/requested/prospective', so the two status vocabularies conflict.",
+      "fix": "Replace ME9 in both files with: 'For each data source, archive, instrument or collaboration on which the project depends, state whether access is confirmed, requested or prospective.' Leave team capacity to ME4 and co-funding status to the Budget outline section.",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml ME7: 'Identify the principal uncertainty, how it will be assessed, and any circumstances in which the signal would remain indistinguishable…'",
+      "problem": "The first two clauses repeat the Approach section ('principal uncertainty') and SC4 (assess how uncertainty changes interpretation). Only the last clause adds a distinct, checkable demand.",
+      "fix": "Narrow ME7 to: 'State the conditions (for example signal amplitude, fraction of missing observations or missingness mechanism) under which the signal would remain indistinguishable from noise or missingness artefacts.'",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml ME10: 'explain the responsible faculty sponsor's oversight role at the established host…'",
+      "problem": "The eligibility text speaks only of 'named supervision'. ME10 introduces 'responsible faculty sponsor' and 'established host' without defining either, so it is unclear whether a supervisor at another institution qualifies or what 'established' adds.",
+      "fix": "Rewrite ME10 as: 'For a doctoral lead, name the supervisor or faculty sponsor at the host institution, describe their oversight of the project and state whether they have agreed to this role.'",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 4",
+      "where": "call.md 'Scope' introduction: 'Astronomy and cultural acoustics are illustrative domains, not required fields or a required pairing.' and '…in which the distinction matters…'",
+      "problem": "A cross-disciplinary foundation call that gives only one idiosyncratic pair of illustrative domains reads as written around a particular applicant. The added 'or a required pairing' heads off one specific reading rather than describing the call. 'The distinction' has no explicit antecedent.",
+      "fix": "List several illustrative cases, e.g. 'gapped photometric time series in astronomy, degraded archival sound recordings, fragmentary palaeoclimate proxies or uneven ecological surveys', and drop 'or a required pairing'. Write 'in which distinguishing a recovered signal from an artefact of missingness matters for…'.",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml EX4–EX6",
+      "problem": "EX1–EX3 are full sentences ending '…is outside this fictional call'; EX4–EX6 are bare noun phrases. EX6 is ambiguous: 'inferred cultural content or scientific measurements' can be read as excluding all scientific measurements, not only inferred ones.",
+      "fix": "Rewrite as sentences, e.g. EX4: 'Projects that evaluate methods only on complete observations, without investigating the consequences of missing evidence, are outside this fictional call.' EX6: 'Reconstructions that present inferred cultural content or inferred measurement values as authenticated observations, without marking them as inferred and stating their uncertainty, are outside this fictional call.'",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 6",
+      "where": "call.md 'Purpose and eligibility', first sentence: 'Invite a concise research idea that merits consideration for a later full proposal.'",
+      "problem": "This is an imperative specification fragment, not a funder's sentence.",
+      "fix": "Rewrite as: 'The foundation invites concise research ideas that merit consideration for a later full proposal.'",
+      "part": "template"
+    }
+  ]
+}

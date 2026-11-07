@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub2-nih-transition-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T1.expected_behaviour",
+      "problem": "The answer key requires the specific BSI/Charlson adjustment plan. It does not accept a reasoned rebuttal with concrete mitigation or another scientifically defensible design, as required for T13. This could penalize a compliant proposal that accurately reports the protocol amendments but explains why different or additional controls are needed.",
+      "fix": "Accept either substantive changes addressing medication and severity confounding or a reasoned, evidence-based rebuttal with concrete mitigation. Treat the documented BSI, Charlson and medication-coding plan as one acceptable response, not the exclusive solution. Require acknowledgment of residual confounding and reject the unsupported claim that discharge alone eliminates it."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "kind": "dossier",
+  "id": "notarial-archives-team",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1; Call 3; Task 1; Task 2",
+      "where": "planned tasks (design): both tasks",
+      "problem": "Neither call text, call.yaml, nor either applicant brief is supplied. Call identifiers and trap summaries cannot establish scheme fidelity, exact eligibility, duration limits, evaluation criteria, application structure, achievable scope, or whether the briefs disclose their traps.",
+      "fix": "Supply both sourced call texts, matching call registries, complete applicant briefs and hidden task definitions before accepting either task."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "cv_ip.md: institution and research stays",
+      "problem": "The institutional names are not all fictional. EHESS and Archivio di Stato di Genova are real institutions. Universitat de les Valls also collides with the name of a real Andorran institution.",
+      "fix": "Replace these institutions with invented names and propagate the replacements through every document and registry entry. Retain real geographic locations where useful."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "cv_ip.md: '2020 – 2022: Investigador Postdoctoral (Contrato Margarita Salas)'",
+      "problem": "The stated appointment begins before the Margarita Salas scheme existed; that scheme originated in 2021.",
+      "fix": "Use a plausible appointment beginning in 2021 or later, or replace the funding description with an invented fellowship that could have begun in 2020. Account explicitly for the intervening employment period."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3; Dossier 4",
+      "where": "cv_ip.md: current position and doctoral supervision; equipo_y_recursos.md: current team",
+      "problem": "The dossier has no effective date. A thesis expected in September 2025 remains 'en curso', while the current postdoctoral researcher is described as funded for two years by a project that ended in August 2024. These records do not establish who remains available for the planned applications.",
+      "fix": "Date the CV and team statement, update the thesis status, and give appointment start dates, end dates, funding sources and prospective availability. Label any required renewal or replacement as planned."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "informe_proyecto_previo.md: sections 2.1–2.2; publicaciones.md: publication 1; dossier.yaml: F08",
+      "problem": "The entire corpus is dated 1350–1450, but the report and publication claim an observed CER of 8.5% on handwriting from the late fifteenth century. No separate later corpus is identified.",
+      "fix": "Either correct the handwriting dates consistently or document a separate external evaluation corpus, including its provenance, dates, size and access status."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2; Dossier 4",
+      "where": "informe_proyecto_previo.md: section 2.2; equipo_y_recursos.md: Laia Pujol's role",
+      "problem": "The team document calls all 2,500 transcribed folios training material, while the report gives validation performance without identifying any held-out material. Neither CER result has an evaluation sample size; the 4.2% confidence interval has no calculation method, and the 8.5% result has no uncertainty estimate. Training and validation independence cannot be established.",
+      "fix": "Specify training, development and held-out evaluation counts that reconcile with the available transcriptions. Report evaluation folios, lines and characters, separation by hand or register, the CER calculation and an appropriate clustered uncertainty method."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "informe_proyecto_previo.md: sections 3.1–3.2; publicaciones.md: publications 2–3",
+      "problem": "The 22% creditor share and 8% debtor share lack numerators and denominators. The loan means of 45 and 120 sueldos lack loan counts and dispersion or uncertainty. The 3,450 unique individuals cannot supply these denominators because individuals may occupy both roles.",
+      "fix": "Provide counts of creditors, debtors, people in both roles and widows in each role, with the rounding convention. Give loan counts, totals and suitable dispersion or uncertainty for each reported group mean."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2; Dossier 4",
+      "where": "informe_proyecto_previo.md: section 3",
+      "problem": "The relationship between 12,540 credit instruments, 15,800 debt edges and 145,000 sueldos is unexplained. The total implies approximately 11.56 sueldos per instrument or 9.18 per edge, both below the two reported lender-group means. This is possible, but the missing group counts and accounting rules prevent reconciliation and leave possible duplication of multi-party debts unresolved.",
+      "fix": "Define the unit of a loan and an edge, explain how multi-party instruments generate edges, and provide mutually exclusive loan-group counts and monetary subtotals that sum to 145,000 without double counting."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "informe_proyecto_previo.md: sections 2.3–3.2",
+      "problem": "Character error alone does not validate the extracted amounts, creditor/debtor roles, widow classifications or linkage of names into 3,450 unique people. No extraction or entity-resolution evaluation supports the downstream historical results.",
+      "fix": "Document a manually adjudicated evaluation sample, field-level extraction performance, entity-linkage errors and treatment of uncertain identities and marital status. Explain how these errors affect the reported historical statistics."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "informe_proyecto_previo.md: sections 3–3.2; publicaciones.md: publications 2–3",
+      "problem": "The historical interpretation exceeds the evidence described. Creditor/debtor shares and mean loan sizes do not establish short maturities, subsistence purposes, dowry-derived capital or merchants' monopoly over brokerage. Aggregating a century of transactions can also produce paths between people who were never economically active at the same time.",
+      "fix": "Identify the coded evidence and sample sizes for loan purpose, maturity and capital origin, or qualify those interpretations. Define temporal network windows and report the brokerage measures and comparisons supporting the merchant claims."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "informe_proyecto_previo.md: monetary results",
+      "problem": "All credit across 1350–1450 is expressed in sueldos jaqueses without explaining whether the documents consistently use that unit or whether amounts were converted. Comparisons across places and a century require an explicit accounting basis.",
+      "fix": "State the original currencies and units, document any conversion rules and their uncertainty, and identify the totals and means as nominal or adjusted. If every instrument uses sueldos jaqueses, state and substantiate that restriction."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2; Dossier 4",
+      "where": "publicaciones.md: publication 2; informe_proyecto_previo.md: corpus and credit-instrument counts",
+      "problem": "The 2023 widow study describes all 12,540 credit instruments as evidence about the fourteenth century, while the report assigns the same complete set to a corpus spanning 1350–1450. No fourteenth-century subset or period-specific denominator is supplied.",
+      "fix": "Make the publication's temporal scope match the analysis, or provide the fourteenth-century subset count and recalculate its reported statistics separately."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml: facts",
+      "problem": "The facts registry omits numerous proposal-relevant values and statuses: project dates and closure, corpus dates, five notaries, 400 dpi, 15,800 edges, the CER confidence interval and evaluation conditions, current employment and accreditation, staff funding duration, supervision, GPU memory and other computing specifications, backup arrangements, the archive agreement and its restrictions, and deposited outputs and licences. F07 also loses the validation and handwriting-period qualifications.",
+      "fix": "Add individually traceable facts for salient quantities, statuses, restrictions and limitations, preserving units and qualifiers exactly. Distinguish completed funding, currently available resources and any future staffing or access arrangements."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3; Dossier 4",
+      "where": "equipo_y_recursos.md: institutional agreement; informe_proyecto_previo.md: section 4",
+      "problem": "The agreement establishes reproduction rights for non-commercial research, but the report asserts that all images and transcriptions are openly deposited without specifying permission for public redistribution or their licences. Public access and permission to reuse are different statuses.",
+      "fix": "Specify the archive's redistribution permission and the access conditions and licence for each output. Record any non-commercial restriction or unresolved permission explicitly rather than implying unrestricted reuse."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 5; Task 2",
+      "where": "planned tasks: pub-aei-notarial-close; equipo_y_recursos.md: Matteo Rossi; dossier.yaml: F16",
+      "problem": "The intended overseas-IP trap relies on an absence the dossier does not establish. A principal affiliation in Italy does not prove the absence of a qualifying secondary Spanish affiliation or another link permitted by the call. Membership of the existing working team does not settle eligibility for a future application.",
+      "fix": "State the collaborator's complete relevant affiliation and contractual status, including whether any qualifying Spanish link exists or is planned. Supply the exact call eligibility rule and define the expected response consistently with any permitted appointment or linkage provisions."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "cv_ip.md: ORCID",
+      "problem": "The supplied ORCID contains letters in positions where the identifier requires digits; it is visibly a placeholder rather than a realistic identifier.",
+      "fix": "Remove the ORCID or explicitly state that it is omitted for the fictional document, avoiding accidental assignment of a real person's valid identifier."
+    }
+  ]
+}

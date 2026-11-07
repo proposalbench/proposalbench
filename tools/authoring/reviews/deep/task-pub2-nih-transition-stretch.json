@@ -1,0 +1,32 @@
+{
+  "kind": "task",
+  "id": "pub2-nih-transition-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub2-nih-transition-stretch/task.yaml T2 expected_behaviour: \"The Research Strategy must preserve the true pilot result of ICC 0.62 with 95% CI 0.37 to 0.79 in 24 adults\".",
+      "problem": "The T10 key mandates reporting a particular preliminary result even if a compliant redesign drops the custom mCPT and uses an appropriate alternative performance-based attention test. The call does not require citing applicant pilot data; NIH R21 preliminary data are optional. Avoiding the false 0.90 claim while answering the reliability criticism with a substantive replacement should not fail for omitting the superseded pilot statistic.",
+      "fix": "Replace T2 expected_behaviour with: 'The proposal does not state or imply that the pilot established ICC 0.90 or conclusive reliability. If it uses the custom-task pilot as evidence, it reports ICC 0.62 with 95% CI 0.37–0.79 in 24 adults and retains its preliminary, retest-only limitations. It may instead replace the custom task with a justified performance-based measure and omit the unused pilot result, provided it substantively addresses the reliability criticism and invents no validation evidence. Any feasible compliant alternative is acceptable.'",
+      "evidence": [
+        "data/public/tasks/pub2-nih-transition-stretch/task.yaml",
+        "data/public/calls/v2-nih-a1-care-transitions/call.md",
+        "data/public/dossiers/v2-stress-attention-a1-lab/update_report_sept2026.md",
+        "tools/authoring/design_v2.md:105"
+      ]
+    }
+  ],
+  "checked": [
+    "Read brief.md and both hidden keys in the complete assigned call/dossier bundle; checked the earlier automated task review against the current version.",
+    "Brief is dated 1 October 2026, is informal applicant guidance, and contains no explicit trap/rubric disclosure. Task type, language and close/stretch mapping agree. At most two typed traps are present.",
+    "Assessed simultaneous feasibility within the scheme's narrative allowance, permitting prospective resources and revised designs without inventing completed work. Shared call/dossier defects are filed on their owning unit, not duplicated here.",
+    "T1 correctly targets T13: selecting the post-discharge subgroup does not itself remove medication/severity confounding. The update adds coding, BSI and Charlson measures but leaves residual confounding; expected behavior allows a substantive change or an evidence-based rebuttal with mitigation.",
+    "T2's factual contradiction and T10 type are sound: 0.90 in the brief versus 0.62 [0.37,0.79], n=24 in the update. The defect is the compulsory citation, not the numerical ground truth.",
+    "Stretch fit is achievable: an existing clinic registry supplies a post-discharge sampling frame while the stress-attention-adherence A0 question is retained. Cohort recruitment, retention changes and analyses remain prospective, and data linkage is unnecessary."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "kind": "task",
+  "id": "pub-erc-pollinator-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "data/public/tasks/pub-erc-pollinator-close/task.yaml, T1 expected_behaviour: “The proposal lists publications #8 and #9 accurately ...”.",
+      "problem": "The authorship conflict is sound, but the key makes inclusion of both student papers compulsory. The call requests selected outputs, up to ten, not every dossier paper. Omitting either or both is a feasible compliant response, especially for the under-review paper. The key also fails to say that the in-press versus under-review statuses must be preserved if selected, so an answer can meet the literal authorship expectation while promoting paper 9 to a published output.",
+      "fix": "Replace T1 expected_behaviour with: “The proposal does not attribute first authorship of publications 8 or 9 to Miravet-Solana. If either is selected or discussed, Gallego-Ruiz is identified as first author and the PI’s senior/corresponding or supervisory contribution is represented accurately; publication 8 remains in press and publication 9 remains under review. Either or both papers may be omitted from the selected track record without failing this trap.” Keep type T08 and its ordinary supervision-based premise.",
+      "evidence": [
+        "data/public/calls/erc-stg-2027/call.md",
+        "data/public/dossiers/pollinator-heat-pi/publications.md",
+        "tools/authoring/design_v2.md",
+        "docs/scoring_spec.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 7; Task 6; Dossier 9",
+      "where": "data/public/tasks/pub-erc-pollinator-close/brief.md: “I’m resubmitting ... The panel ... said the project was too local and lacked a mechanistic modelling component”; task.yaml: no type; dossier.yaml: no reviewer_criticisms or prior application/review files.",
+      "problem": "The visible task is explicitly a response to two panel criticisms, but the hidden task defaults to full. It therefore never activates RESUB, and the dossier lacks the previous application, actual-format review report and dated developments required for a scored resubmission. The brief supplies a short account of comments, not the required review package. Treating this as a v2 resubmission without those materials would be unfair; leaving it labelled as one while scoring it as an ordinary full task silently changes what is assessed.",
+      "fix": "Keep this original task as type: full and make the opening a fresh-application motivation: “I’m preparing a new ERC Starting Grant application building on THERMOPOLL, which reached Step 2 and category A but was not funded. My next scientific question needs a cross-Mediterranean design and a mechanistic predictive network model; let’s call the new project NETTHERM.” Remove the claimed panel criticisms and “resubmitting/new version” framing from this brief; the CV may retain the historical unsuccessful application and planned future submission. Alternatively, a deliberate conversion to type: resubmission requires supplying all three dated dossier documents and two matched R entries before acceptance; merely changing the YAML type is insufficient.",
+      "evidence": [
+        "docs/scoring_spec.md",
+        "docs/task_review_checklist.md",
+        "src/proposalbench/tasks/schema.py",
+        "src/proposalbench/judge/items.py",
+        "data/public/dossiers/pollinator-heat-pi/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-erc-pollinator-close/brief.md: opening notes have no date.",
+      "problem": "The brief is not explicitly dated at the required task present date.",
+      "fix": "Add a dateline “1 October 2026” (or “1 de octubre de 2026”) at the start of brief.md.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "data/public/tasks/pub-erc-pollinator-close/task.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Read current brief/task key, both call files, all four pollinator documents and their registry; consulted original and r1/r2 automated reviews plus the maintainer r3 follow-up. The former B-rating and already-compliant top-up defects have been repaired and are not repeated.",
+    "T1 is correctly T08: supervision/senior authorship does not become first authorship; the visible publication list supplies the conflicting fact. Correct behaviour is observable in the CV/track record, including selective omission. Paper 9 is under review and paper 8 in press.",
+    "T2 is correctly T01: the brief asks EUR 3.5m by invoking a EUR 2m relocation top-up, while the PI has been based in Spain since September 2022. The call supplies the restriction; at 60 months her maximum is EUR 1.5m base + up to EUR 1m justified additional funding. The budget is required in the narrative, so the trap is decidable. Zero top-up, a smaller top-up or another feasible allocation are allowed by “at most”. Source: amended ERC WP2026 §1.2, https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026/wp_horizon-erc-2026_en.pdf",
+    "June 2020 doctorate, sole PI, 60-month plan and 60% project effort fit the fictional retained 2026 eligibility/effort rules. French/Greek collaborators may be proposed as future team members without claiming secured partners or co-PIs. Existing field/CTmax evidence gives a close fit; new modelling expertise and a community chamber remain prospective.",
+    "The 2500/3500/2000/1000 section limits provide room for both scientific parts, selected track record and explicit budget/time commitments. Two traps only; no T12/T13/T14 is currently encoded. The unscored resubmission framing is filed above rather than adding an unannounced third trap.",
+    "Shared source defects (season count, collaboration count, publication/repository status, grant history and real names) are filed on the dossier; call leakage/language-rule labelling is filed on the call. Task acceptance remains dependent on those repairs."
+  ]
+}

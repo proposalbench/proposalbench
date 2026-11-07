@@ -1,0 +1,95 @@
+schema_version: 1
+id: v2-he-stage1-coastal-exposure
+scheme: horizon_stage1
+language: en
+title: 'HORIZON-CL6-2027-COASTAL-01-01: Integrated modelling of catchment-to-coast exposure pathways for
+  early-warning systems'
+topic_code: PB2-HE-S1-COAST-01
+proposal_type: stage1
+length_contract:
+  max_words: 5000
+  enforcement: disregard_excess
+  tolerance: 0.0
+  exempt: []
+  page_limit: 10
+  words_per_page: 500
+  source_note: 'Verified 2026-10-31. https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia-stage-1_en.pdf;
+    https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf.
+    Benchmark conversion: 10 pages x 500 words/page = 5000 words; prose estimate, not a funder word-count
+    rule. Tables and captions count.'
+required_sections:
+- id: '1'
+  title: Excellence
+- id: '1.1'
+  title: Objectives and ambition
+  parent: '1'
+- id: '1.2'
+  title: Methodology
+  parent: '1'
+- id: '2'
+  title: Impact
+- id: '2.1'
+  title: Project’s pathways towards impact
+  parent: '2'
+expected_outcomes:
+- id: EO1
+  text: Coastal authorities and environmental agencies benefit from validated early-warning indicators
+    that link upstream catchment runoff to coastal hazard exposure.
+- id: EO2
+  text: Local decision-makers utilize improved predictive models that quantify the transport of pollutants
+    and floodwaters through estuarine systems.
+- id: EO3
+  text: Vulnerable coastal communities experience reduced risk through the timely deployment of evidence-based
+    mitigation and evacuation strategies.
+scope:
+- id: SC1
+  text: Develop coupled hydrological and hydrodynamic models to simulate the transport of runoff and associated
+    hazards from inland catchments through estuaries to coastal waters.
+- id: SC2
+  text: Design and implement temporary monitoring campaigns to collect high-resolution field data on waterborne
+    exposure pathways, validating the proposed transport models.
+- id: SC3
+  text: Quantify the cascading uncertainties within the modelling chain, from catchment precipitation
+    inputs to coastal exposure outputs, to ensure reliable early-warning thresholds.
+- id: SC4
+  text: Co-design usable early-warning indicators with local authorities, translating complex estuarine
+    transport data into actionable evidence for coastal risk management.
+exclusions:
+- id: EX1
+  text: Standalone urban-layout or land-use optimisation without modelling catchment-to-coast waterborne
+    exposure pathways is outside scope.
+- id: EX2
+  text: The engineering, design, or construction of permanent flood-barrier infrastructure.
+mandatory_elements:
+- id: ME1
+  text: Explain how the methodological concepts, models and assumptions enable the project objectives.
+- id: ME2
+  text: Address sex and gender analysis in the research content, or give a project-specific justification
+    for its irrelevance.
+- id: ME3
+  text: Explain the open science practices used in the methodology, with project-specific reasons for
+    any exceptions.
+- id: ME4
+  text: Explain the causal route by which the project results would deliver the stated topic outcomes
+    for the target beneficiaries.
+- id: ME5
+  text: Detail the hypotheses, sampling or modelling design, and uncertainty quantification methods exclusively
+    within the Excellence section.
+eligibility:
+  budget_in_narrative: false
+  currency: EUR
+  max_budget: 5000000
+  duration_months_min: 36
+  duration_months_max: 48
+  consortium:
+    min_entities: 3
+    min_countries: 3
+    notes: At least three independent legal entities in three different EU Member States or Associated
+      Countries, at least one in an EU Member State. Only eligible beneficiaries count; associated partners
+      do not satisfy the minimum. The minimum applies at first-stage submission and at the second stage.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY af52d76e-68d0-43b2-89d4-abc99282ae40

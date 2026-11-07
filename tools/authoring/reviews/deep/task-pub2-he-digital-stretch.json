@@ -1,0 +1,19 @@
+{
+  "kind": "task",
+  "id": "pub2-he-digital-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read all task/call/chemistry-dossier files. Two traps correctly typed T11 and T04. Ordinary full task is supplied by the schema default; English/date agree.",
+    "T11 explicitly requires both food-logistics focus and in-project food-safety/loss evaluation. The key permits robotics inside a genuine food-logistics demonstrator or a different feasible decision-support design; it no longer prescribes a particular model or partner allocation.",
+    "T04 is supported by the legal register: Ghent has no separate legal personality and shares IIMAV's board/accounts/employment. Dropping Kelderspoor leaves only France and Poland. Retaining it or proposing an independent third eligible-country entity before submission is feasible.",
+    "Key accepts an IIMAV Ghent site sub-line, does not require use of Ghent, and does not falsely treat Canada's/other associated-country status as ineligible. The call's three independent entities/countries rule is accurately quoted.",
+    "Stretch capability gap is substantial but bridgeable: proposed ML, robotics/human-factors competence and operator access supplement established chemistry, microbiology and telemetry work. The scope can drop robotics entirely; current nationally committed FTE need not be double-funded.",
+    "EUR 4.6m/42 months is within the call and 18,000 words permits a full research/implementation case. A bounded food-logistics demonstration, predictive microbiology and measured losses can be planned without claiming existing commercial access or pathogen permissions.",
+    "No intentional key gap/conflict or resubmission criticism applies. Previously identified brief leakage ('generic factory'), cost-row ambiguity and overly broad expected behaviour have been repaired. Upstream call findings are recorded on the call."
+  ]
+}

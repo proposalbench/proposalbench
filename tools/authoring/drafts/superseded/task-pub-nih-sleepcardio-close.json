@@ -1,0 +1,23 @@
+{
+  "kind": "task",
+  "id": "pub-nih-sleepcardio-close",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "c64b86564c3c902f444b21096fc2628437426f907507474882a2f69d843c45fd",
+  "draft": {
+    "brief": "Hi team, let's go after this R21 to build on our LAMPS cohort findings. We already showed that sleep regularity drops during early adolescence and links to higher BMI z-scores. Now we need to tackle the cardiometabolic side.\n\nSince we don't have the clinical setup in our lab, we'll partner with the two FQHCs we did usability work with last year. They can handle the blood pressure and fasting glucose measurements while we handle the actigraphy.\n\nFor the study design, let's do a sleep-extension intervention trial. We can recruit 60 rural teens with low sleep regularity, randomize them to either a behavioral sleep-extension program or a control group, and see if improving their sleep regularity directly improves their cardiometabolic markers over 8 weeks. This will perfectly set us up for a larger R01 later.\n\nOn the practical side, setting up the clinical data linkage with the FQHCs and buying the ambulatory blood pressure monitors will be expensive. Let's request $300,000 in direct costs spread across the two years to make sure we have enough to cover the clinic staff's time and the new equipment.\n\nKeep the focus on how our established school and clinic networks make this highly feasible despite our lab's lack of in-house clinical infrastructure.",
+    "traps": [
+      {
+        "description": "The brief proposes a \"sleep-extension intervention trial\" that randomizes teens to a behavioral program or a control group. The call explicitly states \"Clinical trials as defined by NIH are not allowed\" and requires \"investigations without prospective assignment to interventions\".",
+        "expected_behaviour": "Propose an observational, formative, or secondary-data study without prospective assignment to an intervention (e.g., an observational study linking actigraphy to FQHC cardiometabolic data)."
+      },
+      {
+        "description": "The brief suggests requesting \"$300,000 in direct costs spread across the two years\". The call restricts direct costs to \"At most USD 275,000 across the project\".",
+        "expected_behaviour": "If costs are mentioned, the requested direct costs must be at or below USD 275,000 across the two-year project period."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": []
+}

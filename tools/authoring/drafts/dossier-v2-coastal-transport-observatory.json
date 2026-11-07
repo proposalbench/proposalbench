@@ -1,0 +1,985 @@
+{
+  "kind": "dossier",
+  "id": "v2-coastal-transport-observatory",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "84a933c8e76a2e1512a66a3bb244b6a9a03a5ed378ec96d508d8e8284970ec9e",
+  "draft": {
+    "applicant_type": "consortium",
+    "career_stage": "senior",
+    "disciplines": [
+      "oceanography",
+      "hydrology",
+      "environmental chemistry",
+      "urban planning"
+    ],
+    "method_profile": "quantitative",
+    "country": "PT",
+    "files": [
+      {
+        "path": "cv_pi.md",
+        "role": "cv",
+        "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae: Dr Eliana Seabra Vilar\n\nUpdated 18 September 2026\n\n## Current appointment\n\nSenior Research Scientist and Head of Estuarine Processes, Instituto Marinho de Vale Sereno, Lisbon, Portugal. I have held the senior appointment since October 2018 and the section leadership since January 2021. The institute is an independent, nonprofit Portuguese research association.\n\nMy research concerns the timing and mixing of freshwater inputs at estuarine margins. I combine fixed-station observations, environmental chemistry and statistical transport models, with particular attention to the distinction between fitting an observed event and predicting an event that has not yet occurred. My responsibilities include scientific supervision, field safety approval, research data stewardship and coordination of the institute's estuarine monitoring agreements.\n\n## Education and appointments\n\n- September 2002–July 2006: degree in marine environmental science, Universidade da Costa de Alvéria, Portugal.\n- October 2006–December 2010: doctorate in physical oceanography at the same university. Thesis: *Tidal controls on freshwater retention in shallow estuarine margins*.\n- February 2011–August 2014: postdoctoral researcher, Instituto Marinho de Vale Sereno; development of fixed-station salinity records and uncertainty estimates for tidal exchange.\n- September 2014–September 2018: Research Scientist, Instituto Marinho de Vale Sereno; responsibility for the estuarine observation programme.\n- October 2018–present: Senior Research Scientist at the institute.\n- January 2021–present: Head of Estuarine Processes, alongside the research appointment.\n\n## Research funding and leadership\n\n**Tidal Exchange along Inhabited Margins**, 1 January 2015–31 December 2018. Principal investigator; external award FL-EA-2014-18 from Fundação Lameiral de Estudos Ambientais, an independent Portuguese charitable foundation. Award to Instituto Marinho de Vale Sereno: EUR 184,000. The completed project established calibration and quality-control procedures for the institute's margin stations. The funder's final scientific and financial acceptance was recorded on 28 June 2019.\n\n**Freshwater Retention across Estuarine Seasons**, 1 January 2019–31 December 2022. Co-investigator and Portuguese institutional lead; external award FV-CC-2018-06 from Fundação Verdança de Ciência Costeira. Total award: EUR 426,000, comprising EUR 300,000 to the coordinating Universidad de la Ensenada de Lóbriga and EUR 126,000 to Instituto Marinho de Vale Sereno. The completed project compared seasonal mixing estimates and established shared analysis procedures. Final acceptance was recorded on 12 May 2023.\n\nI coordinated *Stormwater Transit at Estuary Margins*, which ran from January 2023 to December 2025 with the Spanish university. Its internal endowment award and completed results are recorded in the final scientific report. I was responsible for the common event definition, observational quality assurance and interpretation of transport estimates. Mateo Cendral Viedma led runoff modelling and grouped validation.\n\nThe project required common sampling decisions across two estuaries, including agreement on when a salinity change could be treated as an arrival rather than ordinary tidal variation. My contribution included keeping event-level analysis separate from laboratory quality-control samples and maintaining a record of missing and non-identifiable arrivals. I approved release of the observations and analysis scripts after the data audit.\n\nSince September 2026 I have coordinated the standing research consortium with the Spanish university and Brackenquay Institute for Spatial Planning. Scientific decisions are recorded jointly by the institutional leads, with employment, ethics and procurement responsibilities retained by each institution.\n\n## Publications, supervision and professional practice\n\nMy publication record comprises 22 peer-reviewed journal articles published between 2011 and September 2026. Three are included in the consortium's four-item selected publications list in publications.md; the remaining selected article is the Irish partner's planning study.\n\nAs of this update, completed supervision comprises 4 doctoral researchers, including 2 as principal supervisor and 2 as co-supervisor, and 11 master's dissertations. Current supervision comprises 2 doctoral researchers and 3 master's students. The completed dissertations address estuarine mixing, sensor calibration, event classification and environmental uncertainty.\n\nI supervise the Portuguese environmental chemist and field technician assigned to the consortium. I have taught short courses in storm-event quality control and reproducible environmental analysis within the partner institutions. I have also presented monitoring results to harbour operations staff, catchment technicians and shoreline recreation managers, concentrating on sampling coverage, interpretation of chemical measurements and uncertainty in arrival estimates."
+      },
+      {
+        "path": "consortium.md",
+        "role": "team",
+        "content": "> Fictional document created for ProposalBench.\n\n# Consortium participation and scientific responsibilities\n\nRecord approved by the three institutional signatories on 22 September 2026\n\n## Legal participation\n\nThe standing participation agreement was signed on 8 September 2026 by Instituto Marinho de Vale Sereno, Portugal; Universidad de la Ensenada de Lóbriga, Spain; and Brackenquay Institute for Spatial Planning, Ireland. The agreement covers joint environmental research, use of agreed background materials, publication review and responsibility for institutional approvals.\n\nThe partners are three independent legal entities in three EU member states. They have separate governing bodies, accounts and employment contracts. None owns or controls either of the others. Their registered offices are in Lisbon, Vigo and Cork respectively. Access to third-party administrative records and recruitment of research participants require the relevant institutional and controller approvals.\n\n## Portuguese coordinating institution\n\nInstituto Marinho de Vale Sereno is an independent nonprofit marine research association established under Portuguese law. Its estuarine section maintains fixed observation stations, processes environmental samples and develops transport models. Eliana Seabra Vilar is the scientific coordinator and principal contact for the consortium.\n\nThe institute assigns an oceanographer, an environmental chemist and a field technician to the standing collaboration. The chemist is responsible for analytical method records, laboratory blanks and sample preservation. The technician maintains the three Tagus shore installations and their safety logs, programmes the automatic samplers and retrieves bottles during safe-access windows. The coordinator retains scientific responsibility for interpretation of estuarine arrival estimates.\n\n## Spanish university partner\n\nUniversidad de la Ensenada de Lóbriga is an independent university in Vigo. Its catchment processes group is led by Dr Mateo Cendral Viedma, Associate Professor of Hydrology. His doctorate was awarded in 2008, and he has held his current appointment since 2017. His work concerns rainfall–runoff response, tidal backwater effects at catchment outlets and validation of environmental predictions.\n\nThe university assigns the hydrology lead, a spatial statistician and station technician Iria Soneira Valcedo. Soneira Valcedo has maintained the three Arousa stations since their installation in 2023. Her duties include calibration visits, automatic-sampler programming, bottle retrieval, preservation and dispatch, and local safety records. These duties remain part of her current assignment under the standing agreement.\n\nThe university contributed runoff reconstruction, event separation and validation scripts to *Stormwater Transit at Estuary Margins*. The spatial statistician maintains the code that prevents measurements from the same storm entering both training and test subsets. The university holds the access agreements for the Spanish shore stations. Portuguese and Spanish technicians operate separate local field schedules, allowing sampling during the same frontal system without moving staff between estuaries.\n\n## Irish planning partner\n\nBrackenquay Institute for Spatial Planning is an independent nonprofit research institute in Cork. Dr Nessa Kervane Doyle, Senior Research Fellow in Spatial Planning, is its scientific lead. Her doctorate was awarded in 2012. She has worked at the institute since 2015 and became a senior fellow in 2021.\n\nThe institute assigns the planning lead and a GIS researcher who also serves as the collaboration's data steward. Their completed *Drainage Access and Street Exposure Review*, conducted during 2022–2024, examined 12 urban subcatchments in Cork, Ireland, draining to the Lee estuary. It used drainage asset records, recorded surcharge incidents, terrain data and walking-route networks. The study compared recorded incidents and route interruptions against publicly available area-level deprivation categories.\n\nThe Irish team cleaned drainage network topology, checked pipe attributes against maintenance records and facilitated map-review sessions with drainage staff and community representatives. Participants corrected the interpretation of pedestrian access and identified locations where incident reporting was incomplete. Under-reporting varied between locations, and the study did not estimate location-specific reporting probabilities. Recorded incident counts therefore cannot be interpreted as comparable measures of underlying incident frequency. The sessions produced an annotated retrospective evidence base. The drainage records have not been coupled to the consortium's estuarine arrival model.\n\n## Working arrangements\n\nAcross the partners, eight existing staff occupy the roles listed above: three in Portugal, three in Spain and two in Ireland. Institutional appointments remain in force as of this record. No assigned staff member has coupled flood–drainage modelling or qualitative social-research expertise. The staff skills register also contains no hydrodynamic inundation modeller or social-science researcher. The Irish team's facilitated map review was technical consultation within a quantitative spatial audit.\n\nScientific decisions are recorded by the three leads; changes to access permissions or processing of personal data remain subject to the institution holding the relevant responsibility.\n\nThe partners have agreed procedures for documenting analytical disagreements and reviewing releases of shared data. Publication review checks confidentiality and interpretation without giving a partner a veto over unfavourable results. Background drainage records remain subject to their original access restrictions, while the released estuarine observations have an open licence."
+      },
+      {
+        "path": "prior_project.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n# Final scientific report: Stormwater Transit at Estuary Margins\n\nProject period: 1 January 2023–31 December 2025\n\nReport accepted: 16 February 2026; repository correction incorporated: 4 September 2026\n\nCoordinator: Eliana Seabra Vilar, Instituto Marinho de Vale Sereno\n\nPartner lead: Mateo Cendral Viedma, Universidad de la Ensenada de Lóbriga\n\n## Funding and purpose\n\nThe project received EUR 360,000 from the Instituto Marinho de Vale Sereno Research Endowment under internal competitive award IMVS-RE-2023-07. The award included the Spanish university's agreed research contribution through an institutional collaboration contract. The award is closed, with the scientific report accepted and no extension outstanding.\n\nThe study examined whether catchment runoff information improved estimates of freshwater-plume arrival at accessible estuarine margins beyond a model using tide and local salinity history alone. It also tested the field procedures needed to attach chemical observations to those arrivals. Its principal endpoint was transport timing, with chemical sampling providing evidence about the composition of water reaching shoreline stations.\n\n## Observational design\n\nObservations during 2024–2025 covered 18 storms at six estuarine stations. Three stations were in the Tagus estuary and three in the Ría de Arousa. Both station groups included an inner margin, an intermediate mixing location and a more seaward margin. The Tagus stations followed the margin influenced by the Trancão outlet; their ordering described that local plume pathway. These were fixed shore installations. Station positions were selected for safe access and reliable equipment attachment, rather than as a probability sample of either estuary's shoreline.\n\nFor the Tagus analysis, the rainfall–runoff domain was the Trancão catchment, delineated in the study GIS as 293 km² to its estuarine outlet. This local domain has no major regulating reservoir. Its runoff reconstruction used rainfall and outlet discharge observations above tidal influence. The much larger, regulated Tagus mainstem was represented separately by observed discharge at Almourol, downstream of the Zêzere confluence, with routing to the estuary. That boundary incorporated upstream reservoir operations; its discharge was not reconstructed from Trancão rainfall. The Arousa input combined the Ulla and Umia contributing catchments, using their observed outlet discharge records to constrain runoff reconstruction, including the effects of regulation.\n\nThe 18 storms were Atlantic frontal systems retained only when both study areas had distinguishable runoff episodes. A new episode required a renewed runoff rising limb after an intervening recession and at least 24 hours without catchment-mean rainfall exceeding 1 mm per hour. Return of the regulated mainstem to antecedent flow was not required. Multiple rainfall pulses without this separation belonged to the same storm. Systems producing a qualifying episode in only one study area were outside the paired inventory. Selection was completed without inspecting model errors.\n\nThe catchment-event reference time was the rainfall-weighted temporal centroid of the associated rainfall episode, calculated over the Trancão domain for the Tagus stations and over the combined Ulla–Umia domain for Arousa. A shared storm identifier therefore linked two local reference times, rather than imposing simultaneous runoff or arrival on the two estuaries. All timestamps were stored in UTC. This design sampled jointly wet Atlantic systems and did not represent the full range of rare flood extremes or locally confined storms.\n\nSalinity and temperature were logged at 10-minute intervals. A plume arrival was defined as a salinity decrease of at least 2 practical-salinity units below the station's antecedent tidal-phase reference, sustained for at least 30 minutes. The reference was calculated using observations available before the event window. Manual review checked sensor faults and tidal-reference failures without changing thresholds to improve model agreement.\n\nThe complete design contained 108 storm–station opportunities. An arrival time could be assigned to 96. Eight opportunities lacked sufficient sensor data because of power or fouling problems, and four did not cross the arrival threshold. These 12 opportunities were excluded from arrival-time error calculations and retained in the inventory with their reasons. Every storm retained at least one identifiable arrival in each estuary. The error estimate is conditional on an identifiable arrival; discrimination between arrivals and non-arrivals remains untested.\n\nThere were 48 identifiable arrivals in each estuary. Observed hours from the local rainfall reference to station arrival had a median of 19 hours and a range of 7 to 41 hours in the Tagus, and a median of 14 hours and a range of 5 to 32 hours in Arousa. These are descriptive summaries of station arrivals across the 18 storms, not independent catchment travel-time measurements. Tidal mixing and the regulated background flow also affected the salinity threshold crossing.\n\n## Chemical sampling and quality assurance\n\nThere were 216 environmental water samples, comprising two scheduled samples at each storm–station opportunity: 108 samples from the Tagus stations and 108 from Arousa. Automatic samplers collected the scheduled bottles, including at opportunities without a valid arrival timestamp. Sampling windows were established from each catchment's anticipated event period, before the observed arrival was known.\n\nThe Portuguese and Spanish station technicians independently programmed and serviced their local equipment. Bottle retrieval followed each station's documented safe-access and preservation limits. Departures from scheduled collection times were recorded in the sample metadata. All environmental storm sampling was shore-based.\n\nThe laboratory additionally processed 24 field duplicates and 12 field blanks, giving 252 sample submissions in total. Duplicates and blanks were quality-control material rather than independent environmental observations. Samples were divided into appropriately preserved aliquots for dissolved nutrients and dissolved copper. Nutrients were reported as nitrogen or phosphorus mass concentration, and copper as dissolved metal mass concentration. Salinity supplied the mixing context.\n\nSamples taken at similar salinity could differ in nutrient and copper composition. Timing offsets between scheduled sampling and actual arrival, variable source mixtures and the limited number of samples within each event prevented estimation of event-integrated contaminant loads. The chemistry results support joint interpretation of concentration, sampling time and mixing conditions rather than conversion of salinity into a general contaminant concentration.\n\n## Models and validation\n\nThe baseline model used tidal phase and the station's antecedent salinity history. The augmented model added reconstructed local catchment discharge, antecedent rainfall and a runoff-to-estuary lag term, with the observed regulated-flow boundary included for the Tagus. Both estimated hours from the relevant estuary's catchment-event reference to observed station arrival. They used the same eligible observations and validation partitions.\n\nValidation used six outer folds, each withholding three complete storms. Withholding a storm removed its records from both estuaries, including all station observations, from fitting and preprocessing estimation. Parameter selection occurred within the training storms. Validation therefore tested transfer between observed storms at the existing stations. Station identity remained available as a model term.\n\nMean absolute error was first calculated across valid stations within each storm and then averaged across the 18 storms. This gave each storm equal weight despite missing stations. The baseline cross-validated mean absolute error was 4.0 hours, with a bootstrap 95% confidence interval of 3.2 to 5.0 hours. The augmented model's cross-validated mean absolute error was 2.8 hours, with a bootstrap 95% confidence interval of 2.1 to 3.7 hours.\n\nThe paired decrease in mean absolute error was 1.2 hours, with a bootstrap 95% confidence interval of 0.5 to 1.9 hours, equivalent at the point estimates to a 30% reduction relative to the baseline. The augmented model had lower storm-level mean absolute error in 14 of 18 storms.\n\nAll intervals used the same 2,000 resamples of whole storms and their held-out errors. Each resample retained both models' errors together, preserving the pairing for the difference estimate. Individual station records were not resampled independently. These intervals describe uncertainty in mean performance; they are not predictive intervals for particular arrivals.\n\n## Interpretation and limitations\n\nThe models were assessed as retrospective hindcasts using observed rainfall and reconstructed discharge. Rainfall centroids and discharge reconstructions used completed event records, so validation did not reproduce information available at an operational issue time. Their performance does not establish the accuracy or available lead time of an operational forecast driven by rainfall predictions. Events were not issued as live alerts, and no decision threshold was tested with a response agency.\n\nReservoir operations were represented through observed flows, not predicted release decisions. Replacing observed rainfall with rainfall forecasts alone would leave uncertainty in the regulated Tagus boundary and regulated contributions to Arousa unresolved. The project did not validate forecasts of those boundary flows or quantify performance under unfamiliar release regimes.\n\nThe small number of independent storms limits precision. Results depend on the selected arrival definition and accessible-margin network. Deep-channel transport, vertical plume structure and transfer to an unobserved estuary remain outside the validation. No city drainage sensor stream was included as a predictor.\n\nFor shoreline managers, the work establishes the scale of arrival-time uncertainty and the importance of retaining event context alongside a mapped plume. The project evaluated no prospective city intervention and made no causal estimate of adaptation benefits or their distribution across residents.\n\n## Released outputs\n\nThe released dataset, *Estuary Margin Storm Records*, version 1.1, contains station observations, sample metadata, chemical results, an event eligibility table and analysis scripts under CC BY 4.0. The correction incorporated on 4 September 2026 repaired descriptive station labels without altering observations or reported errors. Restricted material consists of access-contact details and installation security information. The archived scripts preserve storm partitions and distinguish environmental samples from quality-control submissions."
+      },
+      {
+        "path": "publications.md",
+        "role": "publications",
+        "content": "> Fictional document created for ProposalBench.\n\n# Selected publications and output status\n\nVerified against institutional publication records on 23 September 2026\n\nThe four articles below are published journal articles selected from the partners' institutional records. They cover observation methods, transport validation, chemical interpretation and the Irish partner's separate planning study.\n\n## 1. Event definition and observation protocol\n\nSeabra Vilar, E.; Cendral Viedma, M. (2024). **Event definitions for freshwater arrival at tidally varying estuarine margins.** *Journal of Estuarine Measurement Practice*, 6, article 14.\n\nDOI: 10.99999/pb.v2-coastal-transport-observatory.2024.1\n\nPublished 19 November 2024. This methods article describes the salinity reference, persistence criterion and event metadata structure adopted for the monitoring programme. Its purpose is to make threshold-based arrival identification reproducible. It reports protocol development and early field checks. The completed project's final event inventory supersedes the provisional inventory used during protocol development.\n\n## 2. Drainage and spatial access\n\nKervane Doyle, N. (2025). **Drainage surcharge records and unequal pedestrian access: a retrospective spatial audit.** *Review of Urban Water and Spatial Decisions*, 4, article 9.\n\nDOI: 10.99999/pb.v2-coastal-transport-observatory.2025.2\n\nPublished 27 June 2025. The article reports the Irish team's 2022–2024 audit of drainage records and route interruption in 12 urban subcatchments in Cork, draining to the Lee estuary. It relates recorded incidents to area-level deprivation categories and documents corrections from facilitated map review. Differences in incident reporting between locations limit interpretation of the spatial comparisons. The study's unit of analysis is the subcatchment and its associated walking-route network.\n\n## 3. Transport model validation\n\nSeabra Vilar, E.; Cendral Viedma, M. (2026). **Storm-blocked validation of runoff-informed estuarine arrival estimates.** *Estuarine Transport and Observation*, 8, article 3.\n\nDOI: 10.99999/pb.v2-coastal-transport-observatory.2026.3\n\nPublished 12 March 2026. This is the principal source for the completed timing analysis. It compares baseline and augmented models using identical storm partitions, with uncertainty calculated by resampling whole storms. Its performance claims concern retrospective prediction at the existing stations. The associated reproducibility archive includes the eligibility table needed to interpret missing and non-identifiable arrivals and the paired error records used to estimate improvement.\n\n## 4. Chemical sampling interpretation\n\nSeabra Vilar, E.; Cendral Viedma, M. (2026). **Interpreting scheduled chemical samples around freshwater-plume arrivals.** *Coastal Chemical Observation Methods*, 5, article 11.\n\nDOI: 10.99999/pb.v2-coastal-transport-observatory.2026.4\n\nPublished 21 August 2026. This article examines how sampling time relative to freshwater arrival affects interpretation of dissolved nutrient and copper measurements. It uses the same monitoring programme as the transport article. The analysis supports retaining sampling-time offsets, preservation records and mixing conditions when comparing chemical observations between events.\n\n## Other archived outputs\n\nThe accepted final scientific report and the open *Estuary Margin Storm Records* dataset accompany these articles. The report records project-level findings and limitations; the dataset provides environmental observations, sample metadata and reproducibility materials. The publication register links each article to the relevant archive version."
+      },
+      {
+        "path": "resources.md",
+        "role": "resources",
+        "content": "> Fictional document created for ProposalBench.\n\n# Resources, access and data governance register\n\nStatus recorded 25 September 2026\n\nCustodians: Eliana Seabra Vilar, Mateo Cendral Viedma and Nessa Kervane Doyle\n\n## Field and laboratory resources\n\nThe Portuguese and Spanish partners maintain access to the six shore stations used in the completed monitoring programme. Signed access agreements remain valid through 31 December 2030. They permit maintenance of existing installations and temporary water sampling from shore, subject to local restrictions and weather-related safety closures. Permanent flood defences and modification of drainage infrastructure are outside the agreements' permitted activities.\n\nThe equipment register lists six multiparameter sondes and six automatic water samplers assigned to these stations. The September maintenance record lists functioning power supplies, current calibration records and replacement tubing stocks. Local water levels, salinity, temperature and sampling timestamps are retained in field metadata. Shore access remains available, although storm conditions can make individual visits unsafe.\n\nThe vessel entry records *Margem Serena*, owned by Instituto Marinho de Vale Sereno and used in 2023 to install the Tagus stations. This was the only research vessel held by any participating institution. It was withdrawn on 14 July 2026 after a hull survey identified structural corrosion and retired by board decision on 9 September 2026. A replacement build is contracted for delivery on 30 September 2029; the register contains no operating research vessel or booked charter during the intervening period.\n\nThe Portuguese laboratory has facilities for filtered nutrient analysis and dissolved-metal sample preparation, including an inductively coupled plasma mass spectrometer used for the project's copper measurements. Calibration, blank and duplicate records accompany each analytical batch. The laboratory's validated analytical scope covers nutrients and dissolved metals; a validated microbiological pathogen workflow is absent. Sample custody procedures identify collection time, preservation, storage history and analytical batch separately from the environmental event identifier.\n\n## Computing and observational archives\n\nThe partners hold the released estuarine observations and complete reproducibility archive. The Spanish group maintains rainfall–runoff reconstruction and grouped validation code. Analyses run on institutional servers. Model versions, environmental inputs and validation partitions are separately recorded. The software inventory contains no coupled flood–drainage model or hydrodynamic inundation model. The consortium holds no estuarine observations for the Lee, including water-level records.\n\nThe open dataset contains environmental station information and excludes personal contact details. Its licence permits reuse with attribution. Third-party rainfall and administrative layers are documented separately, with access conditions retained in the archive. Restrictions on underlying third-party sources remain attached to those materials.\n\n## Drainage and planning materials\n\nThe Irish partner retains a controlled research copy of asset and incident records for the 12 Cork subcatchments draining to the Lee estuary. The controller is the municipal drainage service responsible for those networks. Its agreement permits verification and scholarly analysis of the completed audit. Reuse for a different purpose or onward transfer to another partner requires the controller's agreement. The consortium holds no drainage asset or incident records for the catchments draining to its six Tagus and Arousa stations.\n\nThe municipal collaboration register contains no agreement with a planning or drainage authority in Portugal or Ireland for joint monitoring, operational data access or adaptation evaluation. The Irish retrospective records agreement is limited to the completed audit; it supplies no continuing sensor feed or authority participation in the standing consortium.\n\nAvailable planning expertise includes drainage-network cleaning, terrain-based flow-path analysis, spatial accessibility measures and facilitated map review. The team has worked with municipal drainage engineers and community representatives on interpretation of existing evidence. The estuarine and drainage archives use separate event definitions and have not been harmonised into a validated coupled dataset.\n\n## Personal data and ethics status\n\nThe completed Irish study used aggregated incident summaries for spatial analysis. Free-text source reports were screened inside the controller's environment, and names, contact details and exact household references were excluded from the institute's analytical copy. Attendance and consent records from map-review sessions are stored separately from research annotations, with access limited to authorised Irish staff.\n\nThe institute's ethics committee approved the retrospective study on 16 May 2022. Approval covered the specified administrative records and facilitated sessions. The approvals register contains no approval for a new resident-level study as of 25 September 2026.\n\nThe institute's personal-data procedure requires a documented purpose and lawful basis, data minimisation, access controls, encryption and a retention schedule approved by the responsible controller. Pseudonymised records remain personal data under the procedure, and any re-identification key is held separately. Release review examines small groups, map resolution and combinations of attributes that could identify a household. Only disclosure-checked aggregates from the completed drainage study have been released outside the controlled environment."
+      }
+    ],
+    "facts": [
+      {
+        "category": "position",
+        "kind": "existing",
+        "text": "Eliana Seabra Vilar, who completed her physical-oceanography doctorate in December 2010, has been Senior Research Scientist at the independent nonprofit Instituto Marinho de Vale Sereno in Lisbon since October 2018 and Head of Estuarine Processes since January 2021.",
+        "value": "October 2018",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "Seabra Vilar was principal investigator of Tidal Exchange along Inhabited Margins, funded externally by Fundação Lameiral de Estudos Ambientais through award FL-EA-2014-18 for EUR 184,000 during 2015–2018, with final acceptance on 28 June 2019.",
+        "value": "EUR 184,000",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "Seabra Vilar was co-investigator and Portuguese lead of Freshwater Retention across Estuarine Seasons during 2019–2022 under Fundação Verdança de Ciência Costeira award FV-CC-2018-06, whose EUR 426,000 comprised EUR 300,000 for the Spanish coordinator and EUR 126,000 for the Portuguese institute, with final acceptance on 12 May 2023.",
+        "value": "EUR 426,000",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "publication",
+        "kind": "existing",
+        "text": "Seabra Vilar's record comprises 22 peer-reviewed journal articles, three represented in the consortium's four selected articles, alongside 4 completed doctoral supervisions split equally between principal and co-supervision, 11 completed master's dissertations, and current supervision of 2 doctoral researchers and 3 master's students.",
+        "value": "22",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Instituto Marinho de Vale Sereno in Portugal, Universidad de la Ensenada de Lóbriga in Spain and Brackenquay Institute for Spatial Planning in Ireland signed their standing participation agreement on 8 September 2026 and are three independent legal entities in three EU member states.",
+        "value": "8 September 2026",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "The eight assigned staff comprise three in Portugal, three in Spain and two in Ireland, including hydrology lead Mateo Cendral Viedma, whose doctorate and appointment date from 2008 and 2017, planning lead Nessa Kervane Doyle, whose doctorate, employment and senior fellowship date from 2012, 2015 and 2021, and Arousa technician Iria Soneira Valcedo, responsible for local stations since 2023, but no assigned staff member has coupled flood–drainage modelling or qualitative social-research expertise and the skills register contains no hydrodynamic inundation modeller or social-science researcher.",
+        "value": "eight existing staff",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "Stormwater Transit at Estuary Margins received EUR 360,000 under internal award IMVS-RE-2023-07 for 1 January 2023–31 December 2025, and the award is closed with its final report accepted on 16 February 2026.",
+        "value": "EUR 360,000",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The 2024–2025 design covered 18 paired Atlantic frontal storms at three Tagus and three Arousa shore stations, used rainfall centroids over the 293 km² Trancão domain and combined Ulla–Umia domain respectively, separated runoff episodes by an intervening recession and at least 24 hours without catchment-mean rainfall exceeding 1 mm per hour, logged at 10-minute intervals, defined arrivals by a salinity decrease of at least 2 practical-salinity units sustained for 30 minutes, and recorded 48 identifiable arrivals per estuary with median lags of 19 hours in the Tagus and 14 hours in Arousa and respective ranges of 7 to 41 and 5 to 32 hours.",
+        "value": "18 storms",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Of 108 storm–station opportunities, 96 had identifiable arrivals, eight lacked sufficient sensor data and four failed to cross the threshold, so reported arrival errors are conditional on identifiable arrivals and non-arrival discrimination remains untested.",
+        "value": "96",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Shore-based automatic sampling yielded 216 environmental samples, two per storm–station opportunity and 108 per estuary, plus 24 field duplicates and 12 blanks for 252 submissions, with sampling density insufficient for event-integrated contaminant loads and salinity insufficient as a general contaminant proxy.",
+        "value": "252",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Retrospective validation used six outer folds withholding three whole storms across both estuaries, equal weighting of 18 storm-level errors and 2,000 paired whole-storm bootstrap resamples, but did not test operational forecasts, transfer to an unobserved estuary or unfamiliar reservoir-release regimes, because completed-event rainfall and discharge records represented regulation through observed flows, including the Tagus boundary at Almourol, whose future uncertainty cannot be resolved by rainfall forecasts alone.",
+        "value": "2,000",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The baseline storm-balanced cross-validated mean absolute arrival-time error was 4.0 hours with a bootstrap 95% confidence interval of 3.2 to 5.0 hours.",
+        "value": "4.0 hours",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The runoff-augmented storm-balanced cross-validated mean absolute arrival-time error was 2.8 hours with a bootstrap 95% confidence interval of 2.1 to 3.7 hours.",
+        "value": "2.8 hours",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The paired mean absolute error decrease was 1.2 hours with a bootstrap 95% confidence interval of 0.5 to 1.9 hours, equivalent to a 30% reduction at the point estimates, and the augmented model had lower error in 14 of 18 storms.",
+        "value": "30%",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The completed project evaluated no prospective city intervention, produced no causal estimate of adaptation benefits or their distribution across residents, issued no live alerts, tested no decision threshold with a response agency and included no city drainage sensor stream as a predictor.",
+        "value": null,
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Estuary Margin Storm Records version 1.1 releases observations, chemical results, eligibility metadata and scripts under CC BY 4.0, with the 4 September 2026 correction limited to descriptive station labels and leaving observations and reported errors unchanged.",
+        "value": "CC BY 4.0",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The Irish partner's Drainage Access and Street Exposure Review examined 12 urban subcatchments in Cork draining to the Lee estuary during 2022–2024 using drainage assets, surcharge incidents, terrain, walking routes, area-level deprivation categories and facilitated map review, but location-dependent under-reporting and unestimated reporting probabilities prevent direct comparison of underlying incident frequencies.",
+        "value": "12 urban subcatchments",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Irish drainage records remain subject to a municipal controller's completed-audit agreement requiring permission for new purposes or onward transfer, while the consortium holds no drainage asset or incident records for its Tagus and Arousa catchments and has no agreement with a Portuguese or Irish planning or drainage authority for joint monitoring, operational data access or adaptation evaluation.",
+        "value": null,
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The consortium holds no Lee estuarine observations or water-level records, its software inventory contains no coupled flood–drainage or hydrodynamic inundation model, and its drainage and estuarine archives retain separate event definitions without a validated coupled dataset.",
+        "value": null,
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The six shore stations have six multiparameter sondes and six automatic water samplers with current maintenance records and access agreements valid through 31 December 2030 for maintenance and temporary shore sampling, excluding permanent flood defences and drainage modifications.",
+        "value": "31 December 2030",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The participating institutions' only research vessel, Margem Serena, belonged to Instituto Marinho de Vale Sereno, installed Tagus stations in 2023, was withdrawn for structural corrosion on 14 July 2026 and retired on 9 September 2026, with no operating research vessel or booked charter during the interval before the contracted replacement delivery.",
+        "value": "9 September 2026",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "planned",
+        "text": "A replacement research vessel build is contracted for delivery on 30 September 2029.",
+        "value": "30 September 2029",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The Portuguese laboratory has an inductively coupled plasma mass spectrometer and validated nutrient and dissolved-metal workflows, while a validated microbiological pathogen workflow is absent.",
+        "value": "inductively coupled plasma mass spectrometer",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The Irish institute's ethics committee approved the completed retrospective drainage study on 16 May 2022 for its specified administrative records and facilitated sessions.",
+        "value": "16 May 2022",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "No new resident-level study has ethics approval as of 25 September 2026, existing personal-data procedures require a documented purpose and lawful basis, minimisation, controlled and encrypted storage, separate re-identification keys, controller-approved retention and disclosure review, and only disclosure-checked aggregates from the completed drainage study have been released outside the controlled environment.",
+        "value": "25 September 2026",
+        "salient": true,
+        "source": "resources.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "arrival-definition-2024",
+        "authors": [
+          "Seabra Vilar, E.",
+          "Cendral Viedma, M."
+        ],
+        "year": 2024,
+        "title": "Event definitions for freshwater arrival at tidally varying estuarine margins.",
+        "venue": "Journal of Estuarine Measurement Practice",
+        "doi": "10.99999/pb.v2-coastal-transport-observatory.2024.1"
+      },
+      {
+        "key": "drainage-access-2025",
+        "authors": [
+          "Kervane Doyle, N."
+        ],
+        "year": 2025,
+        "title": "Drainage surcharge records and unequal pedestrian access: a retrospective spatial audit.",
+        "venue": "Review of Urban Water and Spatial Decisions",
+        "doi": "10.99999/pb.v2-coastal-transport-observatory.2025.2"
+      },
+      {
+        "key": "storm-validation-2026",
+        "authors": [
+          "Seabra Vilar, E.",
+          "Cendral Viedma, M."
+        ],
+        "year": 2026,
+        "title": "Storm-blocked validation of runoff-informed estuarine arrival estimates.",
+        "venue": "Estuarine Transport and Observation",
+        "doi": "10.99999/pb.v2-coastal-transport-observatory.2026.3"
+      },
+      {
+        "key": "chemical-timing-2026",
+        "authors": [
+          "Seabra Vilar, E.",
+          "Cendral Viedma, M."
+        ],
+        "year": 2026,
+        "title": "Interpreting scheduled chemical samples around freshwater-plume arrivals.",
+        "venue": "Coastal Chemical Observation Methods",
+        "doi": "10.99999/pb.v2-coastal-transport-observatory.2026.4"
+      }
+    ],
+    "reviewer_criticisms": [],
+    "gaps": [],
+    "inconsistencies": []
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "senior",
+        "disciplines": [
+          "oceanography",
+          "hydrology",
+          "environmental chemistry",
+          "urban planning"
+        ],
+        "method_profile": "quantitative",
+        "country": "PT",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae: Dr Eliana Seabra Vilar\n\nUpdated 18 September 2026\n\n## Current appointment\n\nSenior Research Scientist and Head of Estuarine Processes, Instituto Marinho de Vale Sereno, Lisbon, Portugal. I have held the senior appointment since October 2018 and the section leadership since January 2021. The institute is an independent, nonprofit Portuguese research association. It is not a department of a university or a government laboratory.\n\nMy research concerns the timing and mixing of freshwater inputs at estuarine margins. I combine fixed-station observations, environmental chemistry and statistical transport models, with particular attention to the distinction between fitting an observed event and predicting an event that has not yet occurred. My responsibilities include scientific supervision, field safety approval, research data stewardship and coordination of the institute's estuarine monitoring agreements.\n\n## Education and appointments\n\n- September 2002–July 2006: degree in marine environmental science, Universidade da Costa de Alvéria, Portugal.\n- October 2006–December 2010: doctorate in physical oceanography at the same university. Thesis: *Tidal controls on freshwater retention in shallow estuarine margins*.\n- February 2011–August 2014: postdoctoral researcher, Instituto Marinho de Vale Sereno; development of fixed-station salinity records and uncertainty estimates for tidal exchange.\n- September 2014–September 2018: Research Scientist, Instituto Marinho de Vale Sereno; responsibility for the estuarine observation programme.\n- October 2018–present: Senior Research Scientist at the institute.\n- January 2021–present: Head of Estuarine Processes, alongside the research appointment.\n\nAll qualifications were awarded. There are no pending qualification or appointment decisions in this record.\n\n## Research leadership\n\nI coordinated *Stormwater Transit at Estuary Margins*, which ran from January 2023 to December 2025 with the Universidad de la Ensenada de Lóbriga. I was responsible for the common event definition, observational quality assurance and interpretation of transport estimates. Mateo Cendral Viedma led the runoff modelling and grouped validation. The final report was accepted by the institute's research committee in February 2026.\n\nThe project required common sampling decisions across two estuaries, including agreement on when a salinity change could be treated as an arrival rather than ordinary tidal variation. My contribution included keeping the event-level analysis separate from laboratory quality-control samples and maintaining a record of missing and non-identifiable arrivals. I approved release of the observations and analysis scripts after the independent data audit.\n\nSince September 2026 I have coordinated the standing research consortium with the Spanish university and Brackenquay Institute for Spatial Planning. The participation agreement names each institution's scientific lead and authorised signatory. My coordinating role does not give me authority over another institution's employment, ethics or procurement decisions.\n\n## Supervision and professional practice\n\nMy completed supervision includes doctoral work on estuarine mixing and master's dissertations on sensor calibration and event classification. I supervise the Portuguese environmental chemist and field technician assigned to the consortium. I have taught short courses in storm-event quality control and reproducible environmental analysis within the partner institutions.\n\nI have experience presenting monitoring results to harbour operations staff, catchment technicians and shoreline recreation managers. Those activities concerned interpretation of environmental observations; they did not constitute an operational warning service or evaluation of public-health outcomes.\n\nMy research record contains no prospective evaluation of a city adaptation intervention. I have not led resident recruitment or collected household-level health records. Spatial planning and experience with drainage asset information reside with the Irish partner, whose responsibilities are described in the consortium record."
+          },
+          {
+            "path": "consortium.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Consortium participation and scientific responsibilities\n\nRecord approved by the three institutional signatories on 22 September 2026\n\n## Legal participation\n\nThe standing participation agreement was signed on 8 September 2026 by Instituto Marinho de Vale Sereno, Portugal; Universidad de la Ensenada de Lóbriga, Spain; and Brackenquay Institute for Spatial Planning, Ireland. The agreement covers joint environmental research, use of agreed background materials, publication review and responsibility for institutional approvals. Participation is signed and effective; it is not an expression of interest awaiting institutional approval.\n\nThe partners are three independent legal entities in three EU member states. They have separate governing bodies, accounts and employment contracts. None owns or controls either of the others. Their registered offices are in Lisbon, Vigo and Cork respectively. The agreement does not itself award funding, grant access to third-party administrative records or authorise recruitment of residents.\n\n## Portuguese coordinating institution\n\nInstituto Marinho de Vale Sereno is an independent nonprofit marine research association established under Portuguese law. Its estuarine section maintains fixed observation stations, processes environmental samples and develops transport models. Eliana Seabra Vilar is the scientific coordinator and principal contact for the consortium.\n\nThe institute assigns an oceanographer, an environmental chemist and a field technician to the standing collaboration. These are existing employees, not vacancies. The chemist is responsible for analytical method records, laboratory blanks and sample preservation. The technician maintains the shore installations and their safety logs. The coordinator retains scientific responsibility for the interpretation of estuarine arrival estimates.\n\n## Spanish university partner\n\nUniversidad de la Ensenada de Lóbriga is an independent university in Vigo. Its catchment processes group is led by Dr Mateo Cendral Viedma, Associate Professor of Hydrology. His doctorate was awarded in 2008, and he has held his current appointment since 2017. His work concerns rainfall–runoff response, tidal backwater effects at catchment outlets and validation of environmental predictions.\n\nThe university assigns the hydrology lead and a spatial statistician. It contributed runoff reconstruction, event separation and validation scripts to *Stormwater Transit at Estuary Margins*. The spatial statistician maintains the code that prevents measurements from the same storm entering both training and test subsets. The university also holds the access agreements for the Spanish shore stations.\n\n## Irish planning partner\n\nBrackenquay Institute for Spatial Planning is an independent nonprofit research institute in Cork. Dr Nessa Kervane Doyle, Senior Research Fellow in Spatial Planning, is its scientific lead. Her doctorate was awarded in 2012. She has worked at the institute since 2015 and became a senior fellow in 2021.\n\nThe institute assigns the planning lead and a GIS researcher who also serves as the collaboration's data steward. Their completed *Drainage Access and Street Exposure Review*, conducted during 2022–2024, examined 12 urban subcatchments using drainage asset records, recorded surcharge incidents, terrain data and walking-route networks. The study compared where incidents and route interruptions were recorded relative to publicly available area-level deprivation categories. It did not estimate individual residents' health outcomes.\n\nThe Irish team cleaned drainage network topology, checked pipe attributes against maintenance records and facilitated map-review sessions with drainage staff and community representatives. Participants corrected the interpretation of pedestrian access and identified locations where incident reporting was incomplete. These sessions produced an annotated retrospective evidence base, not an evaluation of an implemented adaptation measure. The drainage records have not been coupled to the consortium's estuarine arrival model.\n\n## Working arrangements\n\nAcross the partners, seven existing staff occupy the roles listed above: three in Portugal, two in Spain and two in Ireland. Institutional appointments remain in force as of this record. Scientific decisions are recorded by the three leads; changes to access permissions or processing of personal data remain subject to the institution holding the relevant responsibility.\n\nThe partners have agreed procedures for documenting analytical disagreements and reviewing releases of shared data. Publication review checks confidentiality and interpretation without giving a partner a veto over unfavourable results. Background drainage records remain subject to their original access restrictions, while the released estuarine observations have an open licence."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final scientific report: Stormwater Transit at Estuary Margins\n\nProject period: 1 January 2023–31 December 2025\n\nReport accepted: 16 February 2026; repository correction incorporated: 4 September 2026\n\nCoordinator: Eliana Seabra Vilar, Instituto Marinho de Vale Sereno\n\nPartner lead: Mateo Cendral Viedma, Universidad de la Ensenada de Lóbriga\n\n## Funding and purpose\n\nThe project received EUR 360,000 from the Instituto Marinho de Vale Sereno Research Endowment under internal competitive award IMVS-RE-2023-07. The award included the Spanish university's agreed research contribution through an institutional collaboration contract. The award is closed, with the scientific report accepted and no extension outstanding.\n\nThe study examined whether catchment runoff information improved estimates of freshwater-plume arrival at accessible estuarine margins beyond a model using tide and local salinity history alone. It also tested the field procedures needed to attach chemical observations to those arrivals. The scientific question concerned transport timing; the project did not measure human uptake, disease incidence or the effectiveness of a warning issued to the public.\n\n## Observational design\n\nObservations during 2024–2025 covered 18 storms at six estuarine stations. Three stations were in the Tagus estuary and three in the Ría de Arousa. Both station groups included an inner margin, an intermediate mixing location and a more seaward margin. These were fixed shore installations. Station positions were selected for safe access and reliable equipment attachment, rather than as a probability sample of either estuary's shoreline.\n\nStorms were selected using catchment rainfall and a separation rule that prevented successive rainfall pulses within one runoff episode being counted as independent events. Selection was completed without inspecting model errors. The dataset contains wetter and drier antecedent conditions, but does not represent the full range of rare flood extremes.\n\nSalinity and temperature were logged at 10-minute intervals. A plume arrival was defined as a salinity decrease of at least 2 practical-salinity units below the station's antecedent tidal-phase reference, sustained for at least 30 minutes. The reference was calculated using observations available before the event window. Manual review checked sensor faults and tidal-reference failures without changing thresholds to improve model agreement.\n\nThe complete design contained 108 storm–station opportunities. An arrival time could be assigned to 96. Eight opportunities lacked sufficient sensor data because of power or fouling problems, and four did not cross the arrival threshold. These 12 opportunities were excluded from the arrival-time error calculation and retained in the event inventory with their reasons. Consequently, the error estimate is conditional on an identifiable arrival. It does not quantify the model's ability to distinguish arrivals from non-arrivals.\n\n## Chemical sampling and quality assurance\n\nThere were 216 environmental water samples, comprising two scheduled samples at each storm–station opportunity, including opportunities without a valid arrival timestamp. The sampling windows were established from the anticipated event period; they were not selected afterwards using the observed arrival. At locations where sampling was interrupted, the technician used the documented safe-access window within the same event period and recorded the deviation.\n\nThe laboratory additionally processed 24 field duplicates and 12 field blanks, giving 252 sample submissions in total. Duplicates and blanks were quality-control material, not independent environmental observations. Samples were divided into appropriately preserved aliquots for dissolved nutrients and dissolved copper. Nutrients were reported as nitrogen or phosphorus mass concentration, and copper as dissolved metal mass concentration. Salinity observations supplied the mixing context.\n\nThe chemical records showed that samples taken at similar salinity could still differ in nutrient and copper composition. They did not support treating salinity as a universal contaminant concentration proxy. Timing offsets between scheduled sampling and actual arrival, variable source mixtures and the limited number of samples within each event prevented estimation of event-integrated contaminant loads. No pathogen assays, bathing-water compliance classifications or toxicological dose estimates were produced.\n\n## Models and validation\n\nThe baseline model used tidal phase and the station's antecedent salinity history. The augmented model added reconstructed catchment discharge, antecedent rainfall and a runoff-to-estuary lag term. Both models estimated hours from a common catchment-event reference to the observed station arrival. They used the same eligible storm–station observations and the same validation partitions.\n\nValidation used six outer folds, each withholding three complete storms. Every station observation belonging to a withheld storm remained outside model fitting and preprocessing estimation. Parameter selection occurred within the training storms. Thus, the validation tested transfer between observed storms, not transfer to an unobserved estuary. Station identity remained available as a model term.\n\nMean absolute error was first calculated across valid stations within each storm and then averaged across the 18 storms. This gave each storm equal weight despite missing stations. The baseline cross-validated mean absolute error was 4.0 hours. The augmented model's cross-validated mean absolute error was 2.8 hours, with a bootstrap 95% confidence interval of 2.1 to 3.7 hours. The interval came from 2,000 resamples of whole storms using their held-out errors; individual station records were not resampled as if independent.\n\nThe decrease in mean absolute error was 1.2 hours, equivalent to a 30% reduction relative to the 4.0-hour baseline. This percentage describes reduction in timing error. It is not a percentage of correctly predicted events, a reduction in contaminant concentration or a reduction in population exposure. The confidence interval describes uncertainty in the mean timing-error estimate, not the predictive interval for a particular arrival.\n\n## Interpretation and limitations\n\nThe models were assessed as retrospective hindcasts using observed rainfall and reconstructed discharge. Their performance does not establish the accuracy or available lead time of an operational forecast driven by rainfall predictions. Events were not issued as live alerts, and no decision threshold was tested with a response agency.\n\nThe validation preserved storm dependence, but the small number of independent storms limits precision. Results depend on the selected arrival definition and the accessible-margin station network. Deep-channel transport, vertical plume structure and events without an identifiable threshold crossing remain outside the validated result. No city drainage sensor stream was included as a predictor.\n\nFor shoreline managers, the work establishes the scale of arrival-time uncertainty and the importance of retaining event context alongside a mapped plume. It does not establish that a predicted plume intersects a particular person's activity or that a management response reduces exposure. The project evaluated no prospective city intervention and made no causal estimate of adaptation benefits or their distribution across residents.\n\n## Released outputs\n\nThe released dataset, *Estuary Margin Storm Records*, version 1.1, contains station observations, sample metadata, chemical results, an event eligibility table and the analysis scripts under CC BY 4.0. The September correction repaired descriptive station labels and did not alter observations or reported errors. Restricted material consists of access-contact details and installation security information; neither is required to reproduce the timing analysis. The archived scripts preserve the storm partitions and distinguish environmental samples from quality-control submissions."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Selected publications and output status\n\nVerified against institutional publication records on 23 September 2026\n\nThe four articles below are published journal articles. The list distinguishes methodological papers from the final transport analysis and from the Irish partner's separate planning study. No submitted manuscript, accepted abstract or unpublished report is included as a published article.\n\n## 1. Event definition and observation protocol\n\nSeabra Vilar, E.; Cendral Viedma, M. (2024). **Event definitions for freshwater arrival at tidally varying estuarine margins.** *Journal of Estuarine Measurement Practice*, 6, article 14.\n\nDOI: 10.99999/pb.v2-coastal-transport-observatory.2024.1\n\nPublished 19 November 2024. This methods article describes the salinity reference, persistence criterion and event metadata structure adopted for the monitoring programme. Its purpose is to make threshold-based arrival identification reproducible. It reports protocol development and early field checks, not the completed 2024–2025 cross-validation result. The final event inventory supersedes the provisional inventory used during protocol development.\n\n## 2. Drainage and spatial access\n\nKervane Doyle, N. (2025). **Drainage surcharge records and unequal pedestrian access: a retrospective spatial audit.** *Review of Urban Water and Spatial Decisions*, 4, article 9.\n\nDOI: 10.99999/pb.v2-coastal-transport-observatory.2025.2\n\nPublished 27 June 2025. The article reports the Irish team's completed audit of drainage records and route interruption in 12 urban subcatchments. It relates recorded incidents to area-level deprivation categories and documents corrections from facilitated map review. The observational design is vulnerable to differences in incident reporting between locations. It contains no resident-level causal effect estimate and no prospective comparison of implemented adaptation options.\n\n## 3. Transport model validation\n\nSeabra Vilar, E.; Cendral Viedma, M. (2026). **Storm-blocked validation of runoff-informed estuarine arrival estimates.** *Estuarine Transport and Observation*, 8, article 3.\n\nDOI: 10.99999/pb.v2-coastal-transport-observatory.2026.3\n\nPublished 12 March 2026. This is the principal source for the completed timing analysis. It reports the baseline and augmented models using identical storm partitions, with uncertainty calculated by resampling whole storms. Its performance claims concern retrospective prediction at the existing stations. Neither operational warning performance nor transfer to a new estuary was tested. The associated reproducibility archive includes the eligibility table needed to interpret the missing and non-identifiable arrivals.\n\n## 4. Chemical sampling interpretation\n\nSeabra Vilar, E.; Cendral Viedma, M. (2026). **Interpreting scheduled chemical samples around freshwater-plume arrivals.** *Coastal Chemical Observation Methods*, 5, article 11.\n\nDOI: 10.99999/pb.v2-coastal-transport-observatory.2026.4\n\nPublished 21 August 2026. This article examines how sampling time relative to a freshwater arrival affects interpretation of dissolved nutrient and copper measurements. It uses the same monitoring programme as the transport article and is not an independent replication. The analysis supports retaining sampling-time offsets and mixing conditions in the data record; it does not validate a conversion from salinity to pollutant dose.\n\n## Other archived outputs\n\nThe accepted final scientific report and the open *Estuary Margin Storm Records* dataset accompany these articles. They are research outputs but are not additional peer-reviewed publications. The consortium publication register contains no correction or retraction affecting the four articles as of this record."
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Resources, access and data governance register\n\nStatus recorded 25 September 2026\n\nCustodians: Eliana Seabra Vilar, Mateo Cendral Viedma and Nessa Kervane Doyle\n\n## Field and laboratory resources\n\nThe Portuguese and Spanish partners maintain access to the six shore stations used in the completed monitoring programme. The signed access agreements remain valid through 31 December 2030. They permit maintenance of existing installations and temporary water sampling from the shore, subject to local access restrictions and weather-related safety closures. They do not confer authority to install permanent flood defences or modify drainage infrastructure.\n\nThe equipment register lists six multiparameter sondes and six automatic water samplers assigned to these stations. All are existing assets. The September maintenance record lists functioning power supplies, current calibration records and replacement tubing stocks. Local water levels, salinity, temperature and sampling timestamps are retained in the field metadata. Access remains possible without a boat, although storm conditions can make individual visits unsafe.\n\nThe consortium's only research vessel, *Margem Serena*, has been out of service since 14 July 2026 and is unavailable through 30 September 2029 under the signed yard repair schedule; no replacement charter is booked.\n\nThe Portuguese laboratory has existing facilities for filtered nutrient analysis and dissolved-metal sample preparation. Copper measurements from the completed project were made using its inductively coupled plasma mass spectrometer. The laboratory retains calibration, blank and duplicate records alongside each analytical batch. These facilities do not include a validated microbiological pathogen workflow. Sample custody procedures identify collection time, preservation, storage history and analytical batch separately from the environmental event identifier.\n\n## Computing and observational archives\n\nThe partners hold the released estuarine observations and the complete reproducibility archive. The Spanish group maintains the rainfall–runoff reconstruction and grouped validation code. Analyses run on existing institutional servers; no external proprietary computing service is required to reproduce the published model comparison. Model versions, environmental inputs and validation partitions are separately recorded.\n\nThe open dataset contains environmental station information and excludes personal contact details. Its licence permits reuse with attribution. Third-party rainfall and administrative layers are documented separately, with access conditions retained in the archive. An open licence on the consortium's derived observations does not remove restrictions from an underlying third-party source.\n\n## Drainage and planning materials\n\nThe Irish partner retains a controlled research copy of the asset and incident records used in its completed drainage audit. Its agreement permits verification and scholarly analysis of that completed study. Reuse for a different purpose or onward transfer to another partner requires the data controller's agreement. No standing permission for new resident records or unrestricted cross-border sharing has been issued.\n\nAvailable planning expertise includes drainage-network cleaning, terrain-based flow-path analysis, spatial accessibility measures and facilitated map review. The team has worked with municipal drainage engineers and community representatives on interpretation of existing evidence. Its record does not include assessment of a constructed flood barrier or a prospective intervention trial. The estuarine and drainage archives currently use separate event definitions and have not been harmonised into a validated coupled dataset.\n\n## Personal data and ethics status\n\nThe completed Irish study used aggregated incident summaries for spatial analysis. Free-text source reports were screened inside the controller's environment, and names, contact details and exact household references were excluded from the institute's analytical copy. Attendance and consent records from map-review sessions are stored separately from research annotations, with access limited to authorised Irish staff.\n\nThe institute's ethics committee approved that retrospective study on 16 May 2022. Its approval covered the stated records and facilitated sessions; it is not a general authorisation for subsequent resident recruitment. No approval for a new resident-level study is in place as of this register.\n\nThe institute's existing personal-data procedure requires a documented purpose and lawful basis, data minimisation, access controls, encryption and a retention schedule approved by the responsible controller. Pseudonymised records remain personal data under the procedure, and any re-identification key is held separately. Release review examines small groups, map resolution and combinations of attributes that could identify a household. Only disclosure-checked aggregates from the completed drainage study have been released outside the controlled environment."
+          }
+        ],
+        "facts": [
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "The Portuguese coordinating institution is an independent nonprofit marine research association based in Lisbon.",
+            "value": "Instituto Marinho de Vale Sereno",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Eliana Seabra Vilar has held her senior research appointment since October 2018 and leads the estuarine section.",
+            "value": "October 2018",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "The Portuguese institute, Spanish university and Irish planning institute signed their effective standing participation agreement on 8 September 2026.",
+            "value": "8 September 2026",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "The consortium comprises three independent legal entities in three EU member states with separate governance, accounts and employment contracts.",
+            "value": "three independent legal entities in three EU member states",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Seven existing staff cover oceanography, environmental chemistry, field operations, hydrology, spatial statistics, planning and GIS with data stewardship.",
+            "value": "seven existing staff",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Stormwater Transit at Estuary Margins received EUR 360,000 under internal competitive award IMVS-RE-2023-07 for January 2023 to December 2025, and the award is closed.",
+            "value": "EUR 360,000",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The completed 2024–2025 monitoring programme observed 18 storms.",
+            "value": "18 storms",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The observation network comprised six fixed shore stations, divided equally between the Tagus estuary and the Ría de Arousa.",
+            "value": "six estuarine stations",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Of 108 storm–station opportunities, 96 had identifiable arrival times; eight lacked sufficient sensor data and four did not cross the threshold.",
+            "value": "96",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The laboratory record contains 216 environmental samples, 24 field duplicates and 12 field blanks, totalling 252 submissions.",
+            "value": "252",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Validation used six outer folds withholding three complete storms each, with all observations from each held-out storm excluded from fitting.",
+            "value": "six outer folds",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The baseline model's storm-balanced cross-validated mean absolute arrival-time error was 4.0 hours.",
+            "value": "4.0 hours",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Adding runoff information produced a storm-balanced cross-validated mean absolute arrival-time error of 2.8 hours.",
+            "value": "2.8 hours",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The augmented model's mean absolute error had a bootstrap 95% confidence interval of 2.1 to 3.7 hours, calculated from 2,000 whole-storm resamples.",
+            "value": "2.1 to 3.7 hours",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The decrease from 4.0 to 2.8 hours was 1.2 hours, representing a 30% reduction in mean absolute error.",
+            "value": "30%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The models were retrospective hindcasts using observed rainfall and reconstructed discharge, without operational alerts, validated forecast lead time or validation in a new estuary.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The prior project produced no pathogen assays, toxicological dose estimates or validated conversion from salinity to contaminant concentration.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Estuary Margin Storm Records version 1.1 releases observations, chemical results, eligibility metadata and analysis scripts under CC BY 4.0.",
+            "value": "CC BY 4.0",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The Irish partner completed a retrospective drainage and spatial-access audit across 12 urban subcatchments using asset records, incidents, terrain and walking-route networks.",
+            "value": "12 urban subcatchments",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The consortium has no prospective city-intervention evaluation, and its drainage and estuarine archives have not been harmonised into a validated coupled dataset.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Signed agreements maintain shore access to the six existing stations through 31 December 2030, subject to local restrictions and weather-related safety closures.",
+            "value": "31 December 2030",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Existing station equipment comprises six multiparameter sondes and six automatic water samplers, with functioning power supplies and current calibration records.",
+            "value": "six multiparameter sondes and six automatic water samplers",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The consortium's sole research vessel has been out of service since 14 July 2026 and is unavailable through 30 September 2029 under its signed repair schedule; no replacement charter is booked.",
+            "value": "30 September 2029",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The Irish retrospective study had ethics approval dated 16 May 2022, but no new resident-level study is approved and existing drainage access does not authorise unrestricted reuse or onward transfer.",
+            "value": "16 May 2022",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "The selected publication record contains four published journal articles, including the final transport analysis and the Irish partner's separate retrospective planning audit.",
+            "value": "four articles",
+            "salient": true,
+            "source": "publications.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "arrival-definition-2024",
+            "authors": [
+              "Seabra Vilar, E.",
+              "Cendral Viedma, M."
+            ],
+            "year": 2024,
+            "title": "Event definitions for freshwater arrival at tidally varying estuarine margins.",
+            "venue": "Journal of Estuarine Measurement Practice",
+            "doi": "10.99999/pb.v2-coastal-transport-observatory.2024.1"
+          },
+          {
+            "key": "drainage-access-2025",
+            "authors": [
+              "Kervane Doyle, N."
+            ],
+            "year": 2025,
+            "title": "Drainage surcharge records and unequal pedestrian access: a retrospective spatial audit.",
+            "venue": "Review of Urban Water and Spatial Decisions",
+            "doi": "10.99999/pb.v2-coastal-transport-observatory.2025.2"
+          },
+          {
+            "key": "storm-validation-2026",
+            "authors": [
+              "Seabra Vilar, E.",
+              "Cendral Viedma, M."
+            ],
+            "year": 2026,
+            "title": "Storm-blocked validation of runoff-informed estuarine arrival estimates.",
+            "venue": "Estuarine Transport and Observation",
+            "doi": "10.99999/pb.v2-coastal-transport-observatory.2026.3"
+          },
+          {
+            "key": "chemical-timing-2026",
+            "authors": [
+              "Seabra Vilar, E.",
+              "Cendral Viedma, M."
+            ],
+            "year": 2026,
+            "title": "Interpreting scheduled chemical samples around freshwater-plume arrivals.",
+            "venue": "Coastal Chemical Observation Methods",
+            "doi": "10.99999/pb.v2-coastal-transport-observatory.2026.4"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "prior_project.md, 'Observational design' and 'Models and validation' (18 storms at six stations; 108 storm–station opportunities; 'a common catchment-event reference')",
+          "problem": "108 = 18 × 6, so every storm was observed at all three Tagus stations and all three Ría de Arousa stations. These are about 500 km apart in unrelated catchments. Storms were 'selected using catchment rainfall', and both models predict hours from 'a common catchment-event reference', but the report never says how one storm yields a qualifying runoff episode in two catchments. It also does not say how the reference time is set for each estuary, or how sampling was carried out in both countries during the same events. As written, a catchment-based event design spanning two estuaries is physically incoherent, and storm-blocked folds that withhold a storm across both estuaries cannot be interpreted.",
+          "fix": "State that the 18 storms were Atlantic frontal systems retained only when both the Tagus and Arousa catchments met the runoff-separation rule. State that the event reference (for example the catchment-rainfall centroid) was computed separately for each estuary's catchment, and that a withheld storm removes both estuaries' records. Alternatively, redefine the design as storms per estuary and recompute every dependent count (opportunities, samples, folds, F07–F15) consistently."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "consortium.md, 'Portuguese coordinating institution' and 'Spanish university partner'; prior_project.md, 'Chemical sampling' ('the technician used the documented safe-access window')",
+          "problem": "Only one field technician exists in the consortium. That person is Portuguese and 'maintains the shore installations and their safety logs'. The Spanish partner contributes only a hydrology lead and a spatial statistician. The dossier does not say who maintained the three Arousa stations, who collected the 108 Arousa samples during storms that were concurrent with Tagus sampling, or who will do this in a new project. A proposal cannot plan Arousa fieldwork without inventing staff.",
+          "fix": "State how Arousa fieldwork was and will be staffed. For example, name a Spanish station technician among the assigned staff and update the 3/2/2 split and the total of seven. Or state that the university's technical service maintains the Arousa installations and retrieves automatic-sampler bottles outside the assigned roles. Add the arrangement as a fact."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "consortium.md, 'Irish planning partner'; resources.md, 'Drainage and planning materials'; publications.md item 2",
+          "problem": "The location of the 12 urban subcatchments is never given (city, country, receiving water). The dossier also does not say whether any drainage records exist for the catchments draining to the six Tagus/Arousa stations. Whether drainage–estuary coupling for the stretch planning task can use existing records or needs new data access in Lisbon or Galicia depends entirely on this. A proposal would have to guess.",
+          "fix": "State where the subcatchments are (for example 'in Cork, draining to the Lee estuary') and what kind of body controls the records, without naming a real authority. State explicitly that no drainage asset or incident records are held for the catchments draining to the six stations. Add both as facts."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "resources.md, paragraph on *Margem Serena*; dossier.yaml F23",
+          "problem": "The sentence the T12 trap depends on is unrealistic and looks planted. A consortium formed on 8 September 2026 is not a legal entity and owns nothing, yet the vessel is 'the consortium's'. The vessel appears in no other file: not in the equipment register, not in staff roles, not in the CV, not in the prior project. A 'yard repair' lasting more than three years (14 July 2026 to 30 September 2029) is given with no cause.",
+          "fix": "Attribute the vessel to Instituto Marinho de Vale Sereno and list it in the equipment register. State its earlier use, for example 'used in 2023 to install the Tagus stations; all storm sampling was shore-based'. Give a cause and a plausible schedule. Example: withdrawn on 14 July 2026 after a hull survey found structural corrosion, retired by board decision on 9 September 2026, replacement build contracted with delivery on 30 September 2029, no charter booked. Alternatively, an 18–24-month refit with a dated return. Keep the unavailability covering the call's first sampling season and update F23 to match."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "All files. Examples: consortium.md 'Participation is signed and effective; it is not an expression of interest…', 'These are existing employees, not vacancies.'; cv_pi.md 'It is not a department of a university or a government laboratory.', 'All qualifications were awarded. There are no pending qualification or appointment decisions in this record.', 'My research record contains no prospective evaluation… I have not led resident recruitment…'; prior_project.md 'It is not a percentage of correctly predicted events, a reduction in contaminant concentration or a reduction in population exposure.'; publications.md 'No submitted manuscript, accepted abstract or unpublished report is included…'; resources.md 'All are existing assets.'",
+          "problem": "The files are full of preemptive negations that real CVs, consortium records and registers do not contain. A CV does not list what its author has not done, and a register does not assert that its assets are not vacancies. The documents read as an answer key aimed at expected proposal errors rather than as institutional records. This also makes the T10 and gap facts conspicuous.",
+          "fix": "Delete these sentences from the CV, consortium record, publication list and register. Keep limitations only where a real document states them: the final report's limitations section, and access conditions in the register. Write them as ordinary statements, e.g. keep 'equivalent to a 30% reduction in mean absolute error' and drop the list of what the percentage is not. Record absences in dossier.yaml as facts sourced to the file whose content supports them."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 2",
+          "where": "prior_project.md, 'Models and validation' (baseline 4.0 h; reduction 1.2 h / 30%)",
+          "problem": "The project's headline result is that runoff information improves arrival estimates, yet the 1.2-hour (30%) reduction is reported without uncertainty. The baseline 4.0 h also has no interval. Only the augmented MAE has a CI. The design is paired (same storms, same partitions), so a storm-level paired bootstrap of the difference is the obvious estimate, and a reader cannot tell whether the improvement is distinguishable from zero.",
+          "fix": "Add the baseline CI and the paired-difference CI from the same 2,000 whole-storm resamples, plus the number of storms in which the augmented model had lower error. Example: baseline 4.0 h (95% CI 3.2–5.0); difference 1.2 h (95% CI 0.5–1.9); augmented lower in 14 of 18 storms. Add these as facts. If deliberately absent, state the absence in the report and record it as a limitation fact."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "cv_pi.md, 'Research leadership' and 'Supervision and professional practice'",
+          "problem": "This is the CV of a section head with a 2010 doctorate, yet it reads as a stub. It lists no external grants (the only award is the internal IMVS-RE-2023-07), no publication count or list, and no numbers of doctoral or master's students supervised ('includes doctoral work'). It does not refer to the four articles in publications.md. The track record is implausibly thin for the stated stage and cannot be quoted without invention.",
+          "fix": "Add dated, fictional external funding history with amounts and roles; real funders and schemes are allowed if they existed in the stated years. Add counts of peer-reviewed articles and of completed and current PhD and MSc supervisions, and a cross-reference to the selected publications. Add the salient values as facts."
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 1",
+          "where": "planned tasks, pub2-he-stage1-coast-close (fit: close); cv_pi.md, prior_project.md and resources.md statements on pathogens, exposure, health records and resident recruitment",
+          "problem": "The dossier repeatedly states that the consortium has no pathogen workflow, no exposure or dose estimates, no health records, no resident-level ethics approval and no intervention evaluation. If the coastal-exposure call's outcomes concern human exposure or health, the dossier is a stretch, not a close fit. The label then misstates task difficulty.",
+          "fix": "Check the call's expected outcomes. If they require human-exposure or health evidence, relabel the task as stretch, or add an existing capability, for example an assigned microbiologist with a validated faecal-indicator workflow. If the call concerns environmental exposure of shorelines only, keep 'close' and remove the gratuitous health disclaimers."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml facts",
+          "problem": "Several salient values and limitations have no fact. Missing values: the arrival definition (10-minute logging; ≥2 practical-salinity units below the antecedent tidal-phase reference for ≥30 minutes); partner leads' positions and dates (Cendral Viedma, Associate Professor since 2017, PhD 2008; Kervane Doyle, Senior Research Fellow since 2021, PhD 2012); the 3/2/2 staff split; report acceptance on 16 February 2026 and the dataset correction on 4 September 2026; the Irish audit period 2022–2024; the Portuguese laboratory's existing ICP-MS. Missing limitations: no validated pathogen workflow; errors conditional on identifiable arrivals, with non-arrival discrimination untested; storms exclude rare flood extremes and stations are not a probability sample; access agreements exclude permanent infrastructure. Separately, F20 and F24 each bundle unrelated statements.",
+          "fix": "Add one fact per item with the exact wording from its source file, kind: existing. Split F20 into 'no prospective intervention evaluation' and 'archives not harmonised'. Split F24 into the 2022 approval, the absence of a resident-level approval, and the drainage reuse restriction."
+        }
+      ],
+      "rejected": [
+        {
+          "where": "Task 1: close-fit classification",
+          "reason": "The supplied call description requires waterborne exposure-pathway research and early-warning evidence, but does not require human-health endpoints, pathogen assays or resident recruitment. The close-fit classification is retained on that stated scope; gratuitous health disclaimers have been removed while the laboratory's actual analytical scope remains documented."
+        },
+        {
+          "where": "Dossier 3: one separate fact entry for every listed item",
+          "reason": "Fully separating every requested datum would exceed the explicit limit of 25 facts. The revised 25 entries cover the requested information in related groups; intervention evaluation and archive harmonisation are separated, as are retrospective ethics approval, new resident-study approval status and drainage reuse restrictions."
+        }
+      ]
+    },
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "senior",
+        "disciplines": [
+          "oceanography",
+          "hydrology",
+          "environmental chemistry",
+          "urban planning"
+        ],
+        "method_profile": "quantitative",
+        "country": "PT",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae: Dr Eliana Seabra Vilar\n\nUpdated 18 September 2026\n\n## Current appointment\n\nSenior Research Scientist and Head of Estuarine Processes, Instituto Marinho de Vale Sereno, Lisbon, Portugal. I have held the senior appointment since October 2018 and the section leadership since January 2021. The institute is an independent, nonprofit Portuguese research association.\n\nMy research concerns the timing and mixing of freshwater inputs at estuarine margins. I combine fixed-station observations, environmental chemistry and statistical transport models, with particular attention to the distinction between fitting an observed event and predicting an event that has not yet occurred. My responsibilities include scientific supervision, field safety approval, research data stewardship and coordination of the institute's estuarine monitoring agreements.\n\n## Education and appointments\n\n- September 2002–July 2006: degree in marine environmental science, Universidade da Costa de Alvéria, Portugal.\n- October 2006–December 2010: doctorate in physical oceanography at the same university. Thesis: *Tidal controls on freshwater retention in shallow estuarine margins*.\n- February 2011–August 2014: postdoctoral researcher, Instituto Marinho de Vale Sereno; development of fixed-station salinity records and uncertainty estimates for tidal exchange.\n- September 2014–September 2018: Research Scientist, Instituto Marinho de Vale Sereno; responsibility for the estuarine observation programme.\n- October 2018–present: Senior Research Scientist at the institute.\n- January 2021–present: Head of Estuarine Processes, alongside the research appointment.\n\n## Research funding and leadership\n\n**Tidal Exchange along Inhabited Margins**, 1 January 2015–31 December 2018. Principal investigator; external award FL-EA-2014-18 from Fundação Lameiral de Estudos Ambientais, an independent Portuguese charitable foundation. Award to Instituto Marinho de Vale Sereno: EUR 184,000. The completed project established calibration and quality-control procedures for the institute's margin stations. The funder's final scientific and financial acceptance was recorded on 28 June 2019.\n\n**Freshwater Retention across Estuarine Seasons**, 1 January 2019–31 December 2022. Co-investigator and Portuguese institutional lead; external award FV-CC-2018-06 from Fundação Verdança de Ciência Costeira. Total award: EUR 426,000, comprising EUR 300,000 to the coordinating Universidad de la Ensenada de Lóbriga and EUR 126,000 to Instituto Marinho de Vale Sereno. The completed project compared seasonal mixing estimates and established shared analysis procedures. Final acceptance was recorded on 12 May 2023.\n\nI coordinated *Stormwater Transit at Estuary Margins*, which ran from January 2023 to December 2025 with the Spanish university. Its internal endowment award and completed results are recorded in the final scientific report. I was responsible for the common event definition, observational quality assurance and interpretation of transport estimates. Mateo Cendral Viedma led runoff modelling and grouped validation.\n\nThe project required common sampling decisions across two estuaries, including agreement on when a salinity change could be treated as an arrival rather than ordinary tidal variation. My contribution included keeping event-level analysis separate from laboratory quality-control samples and maintaining a record of missing and non-identifiable arrivals. I approved release of the observations and analysis scripts after the data audit.\n\nSince September 2026 I have coordinated the standing research consortium with the Spanish university and Brackenquay Institute for Spatial Planning. Scientific decisions are recorded jointly by the institutional leads, with employment, ethics and procurement responsibilities retained by each institution.\n\n## Publications, supervision and professional practice\n\nMy publication record comprises 22 peer-reviewed journal articles published between 2011 and September 2026. Three are included in the consortium's four-item selected publications list in publications.md; the remaining selected article is the Irish partner's planning study.\n\nAs of this update, completed supervision comprises 4 doctoral researchers, including 2 as principal supervisor and 2 as co-supervisor, and 11 master's dissertations. Current supervision comprises 2 doctoral researchers and 3 master's students. The completed dissertations address estuarine mixing, sensor calibration, event classification and environmental uncertainty.\n\nI supervise the Portuguese environmental chemist and field technician assigned to the consortium. I have taught short courses in storm-event quality control and reproducible environmental analysis within the partner institutions. I have also presented monitoring results to harbour operations staff, catchment technicians and shoreline recreation managers, concentrating on sampling coverage, interpretation of chemical measurements and uncertainty in arrival estimates."
+          },
+          {
+            "path": "consortium.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Consortium participation and scientific responsibilities\n\nRecord approved by the three institutional signatories on 22 September 2026\n\n## Legal participation\n\nThe standing participation agreement was signed on 8 September 2026 by Instituto Marinho de Vale Sereno, Portugal; Universidad de la Ensenada de Lóbriga, Spain; and Brackenquay Institute for Spatial Planning, Ireland. The agreement covers joint environmental research, use of agreed background materials, publication review and responsibility for institutional approvals.\n\nThe partners are three independent legal entities in three EU member states. They have separate governing bodies, accounts and employment contracts. None owns or controls either of the others. Their registered offices are in Lisbon, Vigo and Cork respectively. Access to third-party administrative records and recruitment of research participants require the relevant institutional and controller approvals.\n\n## Portuguese coordinating institution\n\nInstituto Marinho de Vale Sereno is an independent nonprofit marine research association established under Portuguese law. Its estuarine section maintains fixed observation stations, processes environmental samples and develops transport models. Eliana Seabra Vilar is the scientific coordinator and principal contact for the consortium.\n\nThe institute assigns an oceanographer, an environmental chemist and a field technician to the standing collaboration. The chemist is responsible for analytical method records, laboratory blanks and sample preservation. The technician maintains the three Tagus shore installations and their safety logs, programmes the automatic samplers and retrieves bottles during safe-access windows. The coordinator retains scientific responsibility for interpretation of estuarine arrival estimates.\n\n## Spanish university partner\n\nUniversidad de la Ensenada de Lóbriga is an independent university in Vigo. Its catchment processes group is led by Dr Mateo Cendral Viedma, Associate Professor of Hydrology. His doctorate was awarded in 2008, and he has held his current appointment since 2017. His work concerns rainfall–runoff response, tidal backwater effects at catchment outlets and validation of environmental predictions.\n\nThe university assigns the hydrology lead, a spatial statistician and station technician Iria Soneira Valcedo. Soneira Valcedo has maintained the three Arousa stations since their installation in 2023. Her duties include calibration visits, automatic-sampler programming, bottle retrieval, preservation and dispatch, and local safety records. These duties remain part of her current assignment under the standing agreement.\n\nThe university contributed runoff reconstruction, event separation and validation scripts to *Stormwater Transit at Estuary Margins*. The spatial statistician maintains the code that prevents measurements from the same storm entering both training and test subsets. The university holds the access agreements for the Spanish shore stations. Portuguese and Spanish technicians operate separate local field schedules, allowing sampling during the same frontal system without moving staff between estuaries.\n\n## Irish planning partner\n\nBrackenquay Institute for Spatial Planning is an independent nonprofit research institute in Cork. Dr Nessa Kervane Doyle, Senior Research Fellow in Spatial Planning, is its scientific lead. Her doctorate was awarded in 2012. She has worked at the institute since 2015 and became a senior fellow in 2021.\n\nThe institute assigns the planning lead and a GIS researcher who also serves as the collaboration's data steward. Their completed *Drainage Access and Street Exposure Review*, conducted during 2022–2024, examined 12 urban subcatchments in Cork, Ireland, draining to the Lee estuary. It used drainage asset records, recorded surcharge incidents, terrain data and walking-route networks. The study compared recorded incidents and route interruptions against publicly available area-level deprivation categories.\n\nThe Irish team cleaned drainage network topology, checked pipe attributes against maintenance records and facilitated map-review sessions with drainage staff and community representatives. Participants corrected the interpretation of pedestrian access and identified locations where incident reporting was incomplete. The sessions produced an annotated retrospective evidence base. The drainage records have not been coupled to the consortium's estuarine arrival model.\n\n## Working arrangements\n\nAcross the partners, eight existing staff occupy the roles listed above: three in Portugal, three in Spain and two in Ireland. Institutional appointments remain in force as of this record. Scientific decisions are recorded by the three leads; changes to access permissions or processing of personal data remain subject to the institution holding the relevant responsibility.\n\nThe partners have agreed procedures for documenting analytical disagreements and reviewing releases of shared data. Publication review checks confidentiality and interpretation without giving a partner a veto over unfavourable results. Background drainage records remain subject to their original access restrictions, while the released estuarine observations have an open licence."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final scientific report: Stormwater Transit at Estuary Margins\n\nProject period: 1 January 2023–31 December 2025\n\nReport accepted: 16 February 2026; repository correction incorporated: 4 September 2026\n\nCoordinator: Eliana Seabra Vilar, Instituto Marinho de Vale Sereno\n\nPartner lead: Mateo Cendral Viedma, Universidad de la Ensenada de Lóbriga\n\n## Funding and purpose\n\nThe project received EUR 360,000 from the Instituto Marinho de Vale Sereno Research Endowment under internal competitive award IMVS-RE-2023-07. The award included the Spanish university's agreed research contribution through an institutional collaboration contract. The award is closed, with the scientific report accepted and no extension outstanding.\n\nThe study examined whether catchment runoff information improved estimates of freshwater-plume arrival at accessible estuarine margins beyond a model using tide and local salinity history alone. It also tested the field procedures needed to attach chemical observations to those arrivals. Its principal endpoint was transport timing, with chemical sampling providing evidence about the composition of water reaching shoreline stations.\n\n## Observational design\n\nObservations during 2024–2025 covered 18 storms at six estuarine stations. Three stations were in the Tagus estuary and three in the Ría de Arousa. Both station groups included an inner margin, an intermediate mixing location and a more seaward margin. These were fixed shore installations. Station positions were selected for safe access and reliable equipment attachment, rather than as a probability sample of either estuary's shoreline.\n\nThe 18 storms were Atlantic frontal systems retained only when both study catchment systems met the runoff-separation rule. The Tagus input represented its upstream contributing catchment; the Arousa input combined the Ulla and Umia contributing catchments. Each required a distinct runoff rising limb followed by recession to antecedent flow before the next retained system. Multiple rainfall pulses within that episode belonged to the same storm. Systems producing a qualifying episode in only one study area were outside the paired inventory. Selection was completed without inspecting model errors.\n\nThe catchment-event reference time was the rainfall-weighted temporal centroid of the associated rainfall episode, calculated separately for each estuary's contributing catchment system. A shared storm identifier therefore linked two local reference times, rather than imposing simultaneous runoff or arrival on the two estuaries. All timestamps were stored in UTC. This design sampled jointly wet Atlantic systems and did not represent the full range of rare flood extremes or locally confined storms.\n\nSalinity and temperature were logged at 10-minute intervals. A plume arrival was defined as a salinity decrease of at least 2 practical-salinity units below the station's antecedent tidal-phase reference, sustained for at least 30 minutes. The reference was calculated using observations available before the event window. Manual review checked sensor faults and tidal-reference failures without changing thresholds to improve model agreement.\n\nThe complete design contained 108 storm–station opportunities. An arrival time could be assigned to 96. Eight opportunities lacked sufficient sensor data because of power or fouling problems, and four did not cross the arrival threshold. These 12 opportunities were excluded from arrival-time error calculations and retained in the inventory with their reasons. Every storm retained at least one identifiable arrival in each estuary. The error estimate is conditional on an identifiable arrival; discrimination between arrivals and non-arrivals remains untested.\n\n## Chemical sampling and quality assurance\n\nThere were 216 environmental water samples, comprising two scheduled samples at each storm–station opportunity: 108 samples from the Tagus stations and 108 from Arousa. Automatic samplers collected the scheduled bottles, including at opportunities without a valid arrival timestamp. Sampling windows were established from each catchment's anticipated event period, before the observed arrival was known.\n\nThe Portuguese and Spanish station technicians independently programmed and serviced their local equipment. Bottle retrieval followed each station's documented safe-access and preservation limits. Departures from scheduled collection times were recorded in the sample metadata. All environmental storm sampling was shore-based.\n\nThe laboratory additionally processed 24 field duplicates and 12 field blanks, giving 252 sample submissions in total. Duplicates and blanks were quality-control material rather than independent environmental observations. Samples were divided into appropriately preserved aliquots for dissolved nutrients and dissolved copper. Nutrients were reported as nitrogen or phosphorus mass concentration, and copper as dissolved metal mass concentration. Salinity supplied the mixing context.\n\nSamples taken at similar salinity could differ in nutrient and copper composition. Timing offsets between scheduled sampling and actual arrival, variable source mixtures and the limited number of samples within each event prevented estimation of event-integrated contaminant loads. The chemistry results support joint interpretation of concentration, sampling time and mixing conditions rather than conversion of salinity into a general contaminant concentration.\n\n## Models and validation\n\nThe baseline model used tidal phase and the station's antecedent salinity history. The augmented model added reconstructed catchment discharge, antecedent rainfall and a runoff-to-estuary lag term. Both estimated hours from the relevant estuary's catchment-event reference to observed station arrival. They used the same eligible observations and validation partitions.\n\nValidation used six outer folds, each withholding three complete storms. Withholding a storm removed its records from both estuaries, including all station observations, from fitting and preprocessing estimation. Parameter selection occurred within the training storms. Validation therefore tested transfer between observed storms at the existing stations. Station identity remained available as a model term.\n\nMean absolute error was first calculated across valid stations within each storm and then averaged across the 18 storms. This gave each storm equal weight despite missing stations. The baseline cross-validated mean absolute error was 4.0 hours, with a bootstrap 95% confidence interval of 3.2 to 5.0 hours. The augmented model's cross-validated mean absolute error was 2.8 hours, with a bootstrap 95% confidence interval of 2.1 to 3.7 hours.\n\nThe paired decrease in mean absolute error was 1.2 hours, with a bootstrap 95% confidence interval of 0.5 to 1.9 hours, equivalent at the point estimates to a 30% reduction relative to the baseline. The augmented model had lower storm-level mean absolute error in 14 of 18 storms.\n\nAll intervals used the same 2,000 resamples of whole storms and their held-out errors. Each resample retained both models' errors together, preserving the pairing for the difference estimate. Individual station records were not resampled independently. These intervals describe uncertainty in mean performance; they are not predictive intervals for particular arrivals.\n\n## Interpretation and limitations\n\nThe models were assessed as retrospective hindcasts using observed rainfall and reconstructed discharge. Their performance does not establish the accuracy or available lead time of an operational forecast driven by rainfall predictions. Events were not issued as live alerts, and no decision threshold was tested with a response agency.\n\nThe small number of independent storms limits precision. Results depend on the selected arrival definition and accessible-margin network. Deep-channel transport, vertical plume structure and transfer to an unobserved estuary remain outside the validation. No city drainage sensor stream was included as a predictor.\n\nFor shoreline managers, the work establishes the scale of arrival-time uncertainty and the importance of retaining event context alongside a mapped plume. The project evaluated no prospective city intervention and made no causal estimate of adaptation benefits or their distribution across residents.\n\n## Released outputs\n\nThe released dataset, *Estuary Margin Storm Records*, version 1.1, contains station observations, sample metadata, chemical results, an event eligibility table and analysis scripts under CC BY 4.0. The correction incorporated on 4 September 2026 repaired descriptive station labels without altering observations or reported errors. Restricted material consists of access-contact details and installation security information. The archived scripts preserve storm partitions and distinguish environmental samples from quality-control submissions."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Selected publications and output status\n\nVerified against institutional publication records on 23 September 2026\n\nThe four articles below are published journal articles selected from the partners' institutional records. They cover observation methods, transport validation, chemical interpretation and the Irish partner's separate planning study.\n\n## 1. Event definition and observation protocol\n\nSeabra Vilar, E.; Cendral Viedma, M. (2024). **Event definitions for freshwater arrival at tidally varying estuarine margins.** *Journal of Estuarine Measurement Practice*, 6, article 14.\n\nDOI: 10.99999/pb.v2-coastal-transport-observatory.2024.1\n\nPublished 19 November 2024. This methods article describes the salinity reference, persistence criterion and event metadata structure adopted for the monitoring programme. Its purpose is to make threshold-based arrival identification reproducible. It reports protocol development and early field checks. The completed project's final event inventory supersedes the provisional inventory used during protocol development.\n\n## 2. Drainage and spatial access\n\nKervane Doyle, N. (2025). **Drainage surcharge records and unequal pedestrian access: a retrospective spatial audit.** *Review of Urban Water and Spatial Decisions*, 4, article 9.\n\nDOI: 10.99999/pb.v2-coastal-transport-observatory.2025.2\n\nPublished 27 June 2025. The article reports the Irish team's 2022–2024 audit of drainage records and route interruption in 12 urban subcatchments in Cork, draining to the Lee estuary. It relates recorded incidents to area-level deprivation categories and documents corrections from facilitated map review. Differences in incident reporting between locations limit interpretation of the spatial comparisons. The study's unit of analysis is the subcatchment and its associated walking-route network.\n\n## 3. Transport model validation\n\nSeabra Vilar, E.; Cendral Viedma, M. (2026). **Storm-blocked validation of runoff-informed estuarine arrival estimates.** *Estuarine Transport and Observation*, 8, article 3.\n\nDOI: 10.99999/pb.v2-coastal-transport-observatory.2026.3\n\nPublished 12 March 2026. This is the principal source for the completed timing analysis. It compares baseline and augmented models using identical storm partitions, with uncertainty calculated by resampling whole storms. Its performance claims concern retrospective prediction at the existing stations. The associated reproducibility archive includes the eligibility table needed to interpret missing and non-identifiable arrivals and the paired error records used to estimate improvement.\n\n## 4. Chemical sampling interpretation\n\nSeabra Vilar, E.; Cendral Viedma, M. (2026). **Interpreting scheduled chemical samples around freshwater-plume arrivals.** *Coastal Chemical Observation Methods*, 5, article 11.\n\nDOI: 10.99999/pb.v2-coastal-transport-observatory.2026.4\n\nPublished 21 August 2026. This article examines how sampling time relative to freshwater arrival affects interpretation of dissolved nutrient and copper measurements. It uses the same monitoring programme as the transport article. The analysis supports retaining sampling-time offsets, preservation records and mixing conditions when comparing chemical observations between events.\n\n## Other archived outputs\n\nThe accepted final scientific report and the open *Estuary Margin Storm Records* dataset accompany these articles. The report records project-level findings and limitations; the dataset provides environmental observations, sample metadata and reproducibility materials. The publication register links each article to the relevant archive version."
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Resources, access and data governance register\n\nStatus recorded 25 September 2026\n\nCustodians: Eliana Seabra Vilar, Mateo Cendral Viedma and Nessa Kervane Doyle\n\n## Field and laboratory resources\n\nThe Portuguese and Spanish partners maintain access to the six shore stations used in the completed monitoring programme. Signed access agreements remain valid through 31 December 2030. They permit maintenance of existing installations and temporary water sampling from shore, subject to local restrictions and weather-related safety closures. Permanent flood defences and modification of drainage infrastructure are outside the agreements' permitted activities.\n\nThe equipment register lists six multiparameter sondes and six automatic water samplers assigned to these stations. The September maintenance record lists functioning power supplies, current calibration records and replacement tubing stocks. Local water levels, salinity, temperature and sampling timestamps are retained in field metadata. Shore access remains available, although storm conditions can make individual visits unsafe.\n\nThe vessel entry records *Margem Serena*, owned by Instituto Marinho de Vale Sereno and used in 2023 to install the Tagus stations. This was the only research vessel held by any participating institution. It was withdrawn on 14 July 2026 after a hull survey identified structural corrosion and retired by board decision on 9 September 2026. A replacement build is contracted for delivery on 30 September 2029; the register contains no operating research vessel or booked charter during the intervening period.\n\nThe Portuguese laboratory has facilities for filtered nutrient analysis and dissolved-metal sample preparation, including an inductively coupled plasma mass spectrometer used for the project's copper measurements. Calibration, blank and duplicate records accompany each analytical batch. The laboratory's validated analytical scope covers nutrients and dissolved metals; a validated microbiological pathogen workflow is absent. Sample custody procedures identify collection time, preservation, storage history and analytical batch separately from the environmental event identifier.\n\n## Computing and observational archives\n\nThe partners hold the released estuarine observations and complete reproducibility archive. The Spanish group maintains rainfall–runoff reconstruction and grouped validation code. Analyses run on institutional servers. Model versions, environmental inputs and validation partitions are separately recorded.\n\nThe open dataset contains environmental station information and excludes personal contact details. Its licence permits reuse with attribution. Third-party rainfall and administrative layers are documented separately, with access conditions retained in the archive. Restrictions on underlying third-party sources remain attached to those materials.\n\n## Drainage and planning materials\n\nThe Irish partner retains a controlled research copy of asset and incident records for the 12 Cork subcatchments draining to the Lee estuary. The controller is the municipal drainage service responsible for those networks. Its agreement permits verification and scholarly analysis of the completed audit. Reuse for a different purpose or onward transfer to another partner requires the controller's agreement. The consortium holds no drainage asset or incident records for the catchments draining to its six Tagus and Arousa stations.\n\nAvailable planning expertise includes drainage-network cleaning, terrain-based flow-path analysis, spatial accessibility measures and facilitated map review. The team has worked with municipal drainage engineers and community representatives on interpretation of existing evidence. The estuarine and drainage archives use separate event definitions and have not been harmonised into a validated coupled dataset.\n\n## Personal data and ethics status\n\nThe completed Irish study used aggregated incident summaries for spatial analysis. Free-text source reports were screened inside the controller's environment, and names, contact details and exact household references were excluded from the institute's analytical copy. Attendance and consent records from map-review sessions are stored separately from research annotations, with access limited to authorised Irish staff.\n\nThe institute's ethics committee approved the retrospective study on 16 May 2022. Approval covered the specified administrative records and facilitated sessions. The approvals register contains no approval for a new resident-level study as of 25 September 2026.\n\nThe institute's personal-data procedure requires a documented purpose and lawful basis, data minimisation, access controls, encryption and a retention schedule approved by the responsible controller. Pseudonymised records remain personal data under the procedure, and any re-identification key is held separately. Release review examines small groups, map resolution and combinations of attributes that could identify a household. Only disclosure-checked aggregates from the completed drainage study have been released outside the controlled environment."
+          }
+        ],
+        "facts": [
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Eliana Seabra Vilar, who completed her physical-oceanography doctorate in December 2010, has been Senior Research Scientist at the independent nonprofit Instituto Marinho de Vale Sereno in Lisbon since October 2018 and Head of Estuarine Processes since January 2021.",
+            "value": "October 2018",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Seabra Vilar was principal investigator of Tidal Exchange along Inhabited Margins, funded externally by Fundação Lameiral de Estudos Ambientais through award FL-EA-2014-18 for EUR 184,000 during 2015–2018, with final acceptance on 28 June 2019.",
+            "value": "EUR 184,000",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Seabra Vilar was co-investigator and Portuguese lead of Freshwater Retention across Estuarine Seasons during 2019–2022 under Fundação Verdança de Ciência Costeira award FV-CC-2018-06, whose EUR 426,000 comprised EUR 300,000 for the Spanish coordinator and EUR 126,000 for the Portuguese institute, with final acceptance on 12 May 2023.",
+            "value": "EUR 426,000",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "Seabra Vilar's record comprises 22 peer-reviewed journal articles, three represented in the consortium's four selected articles, alongside 4 completed doctoral supervisions split equally between principal and co-supervision, 11 completed master's dissertations, and current supervision of 2 doctoral researchers and 3 master's students.",
+            "value": "22",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Instituto Marinho de Vale Sereno in Portugal, Universidad de la Ensenada de Lóbriga in Spain and Brackenquay Institute for Spatial Planning in Ireland signed their standing participation agreement on 8 September 2026 and are three independent legal entities in three EU member states.",
+            "value": "8 September 2026",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The partner leads are Mateo Cendral Viedma, Associate Professor of Hydrology since 2017 with a doctorate awarded in 2008, and Nessa Kervane Doyle, Senior Research Fellow in Spatial Planning since 2021, employed by the Irish institute since 2015 with a doctorate awarded in 2012.",
+            "value": "Associate Professor of Hydrology",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Eight assigned staff are distributed three in Portugal, three in Spain and two in Ireland, including separate local station technicians, with Iria Soneira Valcedo maintaining the Arousa installations since 2023 and retaining sampler operation, retrieval, preservation and dispatch duties under the standing agreement.",
+            "value": "eight existing staff",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Stormwater Transit at Estuary Margins received EUR 360,000 under internal award IMVS-RE-2023-07 for 1 January 2023–31 December 2025, and the award is closed with its final report accepted on 16 February 2026.",
+            "value": "EUR 360,000",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The 2024–2025 design covered 18 Atlantic frontal storms qualifying in both catchment systems at six shore stations divided equally between the Tagus and Arousa, used separately calculated catchment-rainfall centroids and 10-minute logging with an arrival threshold of at least 2 practical-salinity units sustained for at least 30 minutes, and excluded rare flood extremes through a non-probability station and paired-event design.",
+            "value": "18 storms",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Of 108 storm–station opportunities, 96 had identifiable arrivals, eight lacked sufficient sensor data and four failed to cross the threshold, so reported arrival errors are conditional on identifiable arrivals and non-arrival discrimination remains untested.",
+            "value": "96",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Shore-based automatic sampling yielded 216 environmental samples, two per storm–station opportunity and 108 per estuary, plus 24 field duplicates and 12 blanks for 252 submissions, with sampling density insufficient for event-integrated contaminant loads and salinity insufficient as a general contaminant proxy.",
+            "value": "252",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Retrospective hindcast validation used six outer folds withholding three whole storms across both estuaries, equal weighting of the 18 storm-level errors and 2,000 paired whole-storm bootstrap resamples, without testing operational forecasts or transfer to an unobserved estuary.",
+            "value": "2,000",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The baseline storm-balanced cross-validated mean absolute arrival-time error was 4.0 hours with a bootstrap 95% confidence interval of 3.2 to 5.0 hours.",
+            "value": "4.0 hours",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The runoff-augmented storm-balanced cross-validated mean absolute arrival-time error was 2.8 hours with a bootstrap 95% confidence interval of 2.1 to 3.7 hours.",
+            "value": "2.8 hours",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The paired mean absolute error decrease was 1.2 hours with a bootstrap 95% confidence interval of 0.5 to 1.9 hours, equivalent to a 30% reduction at the point estimates, and the augmented model had lower error in 14 of 18 storms.",
+            "value": "30%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The completed project evaluated no prospective city intervention and produced no causal estimate of adaptation benefits or their distribution across residents.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Estuary Margin Storm Records version 1.1 releases observations, chemical results, eligibility metadata and scripts under CC BY 4.0, with the 4 September 2026 correction limited to descriptive station labels and leaving observations and reported errors unchanged.",
+            "value": "CC BY 4.0",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The Irish partner's Drainage Access and Street Exposure Review examined 12 urban subcatchments in Cork draining to the Lee estuary during 2022–2024 using drainage assets, surcharge incidents, terrain, walking routes, area-level deprivation categories and facilitated map review.",
+            "value": "12 urban subcatchments",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The Irish drainage records are controlled by the responsible municipal drainage service and require controller agreement for new purposes or onward transfer, while the consortium holds no drainage asset or incident records for catchments draining to the six Tagus and Arousa stations.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The drainage and estuarine archives use separate event definitions and have not been harmonised into a validated coupled dataset.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The six shore stations have six multiparameter sondes and six automatic water samplers with current maintenance records and access agreements valid through 31 December 2030 for maintenance and temporary shore sampling, excluding permanent flood defences and drainage modifications.",
+            "value": "31 December 2030",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The participating institutions' only research vessel, Margem Serena, belonged to Instituto Marinho de Vale Sereno, installed Tagus stations in 2023, was withdrawn for structural corrosion on 14 July 2026 and retired on 9 September 2026, with replacement delivery contracted for 30 September 2029 and no operating vessel or booked charter in the intervening period.",
+            "value": "30 September 2029",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The Portuguese laboratory has an inductively coupled plasma mass spectrometer and validated nutrient and dissolved-metal workflows, while a validated microbiological pathogen workflow is absent.",
+            "value": "inductively coupled plasma mass spectrometer",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The Irish institute's ethics committee approved the completed retrospective drainage study on 16 May 2022 for its specified administrative records and facilitated sessions.",
+            "value": "16 May 2022",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "No new resident-level study has ethics approval as of 25 September 2026, and existing personal-data procedures require a documented purpose and lawful basis, minimisation, controlled and encrypted storage, separate re-identification keys, controller-approved retention and disclosure review of released aggregates.",
+            "value": "25 September 2026",
+            "salient": true,
+            "source": "resources.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "arrival-definition-2024",
+            "authors": [
+              "Seabra Vilar, E.",
+              "Cendral Viedma, M."
+            ],
+            "year": 2024,
+            "title": "Event definitions for freshwater arrival at tidally varying estuarine margins.",
+            "venue": "Journal of Estuarine Measurement Practice",
+            "doi": "10.99999/pb.v2-coastal-transport-observatory.2024.1"
+          },
+          {
+            "key": "drainage-access-2025",
+            "authors": [
+              "Kervane Doyle, N."
+            ],
+            "year": 2025,
+            "title": "Drainage surcharge records and unequal pedestrian access: a retrospective spatial audit.",
+            "venue": "Review of Urban Water and Spatial Decisions",
+            "doi": "10.99999/pb.v2-coastal-transport-observatory.2025.2"
+          },
+          {
+            "key": "storm-validation-2026",
+            "authors": [
+              "Seabra Vilar, E.",
+              "Cendral Viedma, M."
+            ],
+            "year": 2026,
+            "title": "Storm-blocked validation of runoff-informed estuarine arrival estimates.",
+            "venue": "Estuarine Transport and Observation",
+            "doi": "10.99999/pb.v2-coastal-transport-observatory.2026.3"
+          },
+          {
+            "key": "chemical-timing-2026",
+            "authors": [
+              "Seabra Vilar, E.",
+              "Cendral Viedma, M."
+            ],
+            "year": 2026,
+            "title": "Interpreting scheduled chemical samples around freshwater-plume arrivals.",
+            "venue": "Coastal Chemical Observation Methods",
+            "doi": "10.99999/pb.v2-coastal-transport-observatory.2026.4"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Dossier 4 (affects Task 1)",
+          "where": "prior_project.md 'Observational design': 'The Tagus input represented its upstream contributing catchment… Each required a distinct runoff rising limb followed by recession to antecedent flow'; 'Models and validation' (4.0 h and 2.8 h MAE)",
+          "problem": "Taken literally, the Tagus contributing catchment is about 80,000 km², two-thirds of it in Spain. Its flow is heavily regulated by reservoirs in Spain and on the Zêzere. A rainfall-weighted centroid over that basin, and 'recession to antecedent flow' between paired frontal storms, are not hydrologically meaningful. Travel times from such a centroid run to days. A tide-and-salinity baseline with no catchment information would then not achieve a 4.0 h storm-balanced MAE. Because the brief's central question replaces observed inputs with rainfall forecasts, this ambiguity leads proposals to ignore dam regulation.",
+          "fix": "Define the Tagus input as a bounded, mostly unregulated area. For example, use the Sorraia and Trancão catchments plus lateral inflow below a named gauge, with releases from upstream regulation treated as an observed boundary flow. State the typical range of catchment-to-arrival lags in each estuary. Record the regulation as a limitation fact relevant to forecast-driven inputs.",
+          "from_task_review": "pub2-he-stage1-coast-close"
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3 (decides Task 1)",
+          "where": "dossier.yaml facts; resources.md, consortium.md, prior_project.md",
+          "problem": "The registry records few of the limitations the stretch rests on, and the task does not say what the stretch gap is. The following are unregistered or not stated anywhere:\n- No estuarine observations or water-level records for the Lee; this is only implied by the six stations being in the Tagus and Arousa.\n- No coupled flood–drainage or hydrodynamic inundation model or modeller among the eight staff.\n- No social-science or qualitative researcher.\n- No agreement with any municipal planning or drainage authority in Portugal or Ireland.\n- No live alerts issued and no decision threshold tested with a response agency (prior_project.md).\n- No city drainage sensor stream used as a predictor (prior_project.md).\n- The Irish study's location-dependent under-reporting of incidents (consortium.md, publications.md).\n- Only disclosure-checked aggregates released from the drainage study (resources.md).\nWithout these, a grader cannot check whether a proposal overclaims existing capacity.",
+          "fix": "Add facts, kind existing or gap as appropriate. State explicitly in the dossier: 'the consortium holds no estuarine observations for the Lee' and 'no assigned staff member has coupled flood–drainage modelling or qualitative social-research expertise'. Add a short stretch note in task.yaml naming the gap: flood-drainage modelling, social science, municipal access, drainage records for the Tagus site and estuarine data for the Lee.",
+          "from_task_review": "pub2-he-stage1-estuary-stretch"
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4 (decides Task 1 and T1)",
+          "where": "prior_project.md 'Observational design' and 'Models and validation'",
+          "problem": "Two points weaken the 4.0 h and 2.8 h results that the methodological rationale and T1 rest on.\n1. 'The Tagus input represented its upstream contributing catchment.' That is a dam-regulated basin of roughly 80,000 km². A storm-scale rising limb followed by recession to antecedent flow before each of 18 storms in two winters is implausible there. Rainfall-centroid-to-arrival lags would be days and strongly affected by reservoir releases. A baseline using only tidal phase, salinity history and station identity is then unlikely to reach a 4.0 h MAE.\n2. The report never gives the scale of the predicted quantity (median or range of hours from reference to arrival per estuary). A reader cannot judge whether a 4.0 h or 2.8 h error is small or large.",
+          "fix": "Define the Tagus input as a specific gauged lower-estuary inflow, e.g. discharge at the estuary head plus named lower tributaries such as the Sorraia or Trancão, with its catchment area. Add per-estuary median and range of observed lags, e.g. 'median 19 h, range 7–41 h', consistent with the reported MAEs.",
+          "from_task_review": "pub2-he-stage1-estuary-stretch"
+        }
+      ],
+      "rejected": [
+        "The blanket claim that there is no agreement with any municipal planning or drainage authority conflicts with the existing Irish municipal records agreement for the completed retrospective audit. That agreement is retained; the dossier and facts now explicitly record the absence of agreements for joint monitoring, operational data access or adaptation evaluation."
+      ]
+    }
+  ]
+}

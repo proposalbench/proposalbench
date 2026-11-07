@@ -1,0 +1,968 @@
+{
+  "kind": "dossier",
+  "id": "renovation-health-consortium",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "05942c0ac08323a51b90474e82917e9bfb6e4d0fcaf62cf8135d7cb238d7db91",
+  "draft": {
+    "applicant_type": "consortium",
+    "career_stage": "mid_career",
+    "disciplines": [
+      "building physics",
+      "environmental epidemiology",
+      "respiratory medicine",
+      "public health"
+    ],
+    "method_profile": "mixed",
+    "country": "IE",
+    "files": [
+      {
+        "path": "cv_pi.md",
+        "role": "cv",
+        "content": "> Fictional document created for ProposalBench.\n\n# Dr Néavessa Kelvarneth — curriculum vitae\n\n**Associate Professor of Environmental Epidemiology, University of Carraventh, Ireland**  \n**Record updated: 30 September 2026**\n\n## Education and appointments\n\nKelvarneth completed a BSc in Environmental Science at the University of Carraventh in 2006, an MSc in Epidemiology at the same institution in 2008, and a PhD in Environmental Epidemiology in 2012. Her doctoral thesis examined the relationship between residential dampness, ventilation practices and respiratory symptoms in rented housing. The doctorate combined repeated household surveys, environmental measurements and interviews with tenants about heating and maintenance.\n\nShe held a postdoctoral appointment at the Carraventh Centre for Population Health from October 2012 to August 2016, followed by a research fellowship at the University of Carraventh from September 2016 to August 2018. She was appointed Lecturer in Environmental Epidemiology in September 2018 and Associate Professor in September 2023. She remains in that appointment and coordinates the university's Housing Exposure and Health Group.\n\nHer research concerns the measurement of indoor exposures and their relationship to respiratory health in households with limited control over housing conditions. She has particular experience in linking dwelling surveys, continuous environmental measurements and repeated symptom questionnaires without disclosing identifiable household locations.\n\n## Research leadership\n\nKelvarneth was principal investigator of CALDERVANE Ireland, the completed national cohort study described in the accompanying final report. She held responsibility for the study protocol, sponsor reporting, recruitment oversight, statistical analysis plan and integration of qualitative findings. The study was funded by the Dervaneth Housing and Health Research Fund, a national research funding programme, under grant DHHRF-2020-061. The award ran from 1 January 2021 to 31 December 2025.\n\nHer management responsibilities included agreements with participating housing providers, procurement of monitoring equipment, supervision of field staff and coordination of the clinical referral procedure. She chaired the study management group and reported to an independent steering group with tenant, clinical and housing-maintenance representation. The university was the research sponsor and data controller; participating landlords did not receive identifiable health records.\n\nThe study involved sites in Dublin, Cork and Limerick. Its geographic coverage did not constitute a probability sample of Irish social housing. Kelvarneth has consistently described its estimates as cohort findings rather than national prevalence estimates.\n\n## Methods and supervision\n\nHer quantitative work includes longitudinal regression, household-clustered inference, inverse-probability weighting for attrition and sensitivity analyses for exposure misclassification. She works with building physicists on the interpretation of temperature, humidity and ventilation measurements. Her qualitative experience includes semi-structured interviews, framework analysis and mixed-method interpretation of disagreements between measured conditions and occupants' accounts.\n\nShe supervises research staff working on exposure assessment and housing-related health inequalities. Her teaching covers environmental epidemiology, causal diagrams, research ethics and the interpretation of observational intervention studies. She is not a registered medical practitioner. Clinical assessments and decisions about referral are undertaken by the consortium's respiratory clinician and research nurse.\n\n## Scope of experience\n\nKelvarneth has led a national research award and coordinated scientific work across the institutions listed in the consortium record. She has not previously coordinated a Horizon Europe grant. The partner institutions have completed shared analyses and methods exchanges, but this collaboration has not held a joint European research award.\n\nHer energy-related experience is confined to household heating practices, indoor thermal conditions and interpretation of dwelling energy records. She has no professional experience designing or operating district heating, seasonal thermal storage or energy-system dispatch models. She has not developed heat-network tariffs or undertaken regulated utility accounting. Her contribution to questions of affordability has been through household interviews, expenditure questionnaires and analysis of unequal exposure to cold and heat."
+      },
+      {
+        "path": "prior_project.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n# CALDERVANE Ireland: final scientific report\n\n**Indoor environment and respiratory symptoms in social housing**  \nUniversity of Carraventh; principal investigator Dr Néavessa Kelvarneth  \nGrant DHHRF-2020-061; reporting period 1 January 2021–31 December 2025  \nFinal report accepted by the funder on 27 March 2026  \nRecord and output status checked: 30 September 2026\n\n## Purpose and study design\n\nCALDERVANE Ireland examined indoor temperature, ventilation-related indicators, particulate matter and visible mould alongside respiratory symptoms in occupied social housing. It also evaluated changes associated with a landlord-led deep-renovation programme. Renovation allocation and construction schedules were controlled by housing providers, not investigators. The study was observational and did not randomise households or prescribe clinical treatment.\n\nRecruitment and baseline measurements took place in 2022. Renovations were completed during 2023, and follow-up measurements were undertaken in 2024. Data reconciliation and analysis continued through 2025. The programme covered Dublin, Cork and Limerick, with recruitment through participating providers and direct consent from occupants. The sample was geographically distributed but was not nationally representative.\n\n## Participants and renovation exposure\n\nAt baseline, 300 dwellings contributed 672 participants: 432 adults and 240 children. The adults included 156 people aged at least 65 years. Among the children, 96 had parent-reported physician-diagnosed asthma. These vulnerability groups were defined before analysis; their inclusion did not imply adequate power for every subgroup comparison.\n\nAt follow-up, 276 dwellings remained, representing 92% dwelling retention. They contained 612 participating occupants: 396 adults and 216 children, including 144 older adults and 88 children with asthma. The remaining 24 dwellings were lost through moves, withdrawal or inability to arrange follow-up. Participants who left were not replaced.\n\nOf the original dwellings, 104 underwent deep renovation and 196 did not undergo deep renovation during the observation period. Follow-up included 96 renovated dwellings and 180 comparison dwellings. The corresponding losses were eight and sixteen dwellings. Renovation packages combined fabric insulation, window replacement, airtightness work and mechanical extract ventilation, with package details recorded from completion certificates. Some comparison dwellings received minor maintenance. Heating remained dwelling-level; no participating site had a district heating connection.\n\n## Environmental and health measurements\n\nEach dwelling received three temperature and relative-humidity loggers, located in the main living room, principal bedroom and a second occupied room where available. This required 900 loggers. A separate carbon-dioxide monitor was installed in each dwelling, requiring 300 monitors. Logging intervals were five minutes. Sixty optical particulate-matter monitors rotated through a nested sample of 120 dwellings, with fourteen-day deployments at baseline and follow-up; 108 dwellings supplied valid paired particulate records.\n\nTemperature analyses used calibrated readings and prespecified completeness thresholds. Summer bedroom overheating was defined as hours above 26 °C between 22:00 and 07:00 during June–August. This provided 828 possible monitored night-hours per summer. The threshold was an exposure definition, not a clinical diagnosis or a claim of universal regulatory compliance. Valid baseline summer records were available for 264 dwellings; 246 dwellings had valid summer records at both measurement waves.\n\nInspectors recorded visible mould using a standard room checklist and photographs reviewed without access to symptom responses. Carbon dioxide was treated as an indicator affected by occupancy and ventilation, not as a direct measure of ventilation rate. Optical particulate readings were corrected against collocated reference measurements; their precision did not support chemical source attribution.\n\nHealth outcomes included wheeze during the previous four weeks, nights disturbed by respiratory symptoms and asthma-control questionnaires appropriate to participant age. A nurse recorded medication use and recent respiratory infection. Spirometry was offered as a secondary assessment, but incomplete attendance and variable acceptability prevented its use as the principal longitudinal endpoint. Referral decisions remained separate from research outcome coding.\n\n## Main findings\n\nAt baseline, the 264 dwellings with valid summer data had a mean of 118 bedroom overheating hours, with a household-bootstrap 95% confidence interval of 104–132 hours. The distribution was right-skewed. The mean should not be interpreted as the experience of a typical individual or extrapolated to an entire calendar year.\n\nVisible mould was recorded in 84 of 300 baseline dwellings, or 28%. In the baseline analysis of 672 occupants, visible mould was associated with four-week wheeze: adjusted odds ratio 1.62, 95% CI 1.13–2.32. The model accounted for household clustering and adjusted for age, smoking exposure, tenure duration, season of assessment and recorded dwelling characteristics. This was an association and did not establish that mould caused the reported symptoms.\n\nAmong 558 occupants in the 246 dwellings with paired summer records, each additional 100 bedroom overheating hours at follow-up was associated with a prevalence ratio of 1.18 for sleep disturbed by respiratory symptoms, 95% CI 1.04–1.34. The model included baseline symptom status and measured confounders. Bedroom-level exposure was assigned to participating occupants using reported sleeping arrangements; it did not capture exposure away from home.\n\nThe renovation analysis used the 276 retained dwellings and adjusted for baseline conditions, provider and measured household differences. Relative to comparison dwellings, renovation was associated with an adjusted change in winter living-room temperature of +1.3 °C, 95% CI +0.8 to +1.8 °C. The corresponding adjusted change in occupied-bedroom median carbon dioxide was −145 ppm, 95% CI −220 to −70 ppm. These are differences in changes between groups, not simple changes within renovated dwellings.\n\nFor four-week wheeze among the 612 retained occupants, the adjusted renovation-associated difference in changes was −3.8 percentage points, 95% CI −8.1 to +0.5 percentage points. The interval includes no difference. The result does not establish a reduction in wheeze. Adjustment and weighting reduced some measured imbalances but could not remove unmeasured differences in renovation allocation or household behaviour.\n\n## Occupant accounts and interpretation\n\nThe qualitative component comprised 36 interviews with adult occupants or caregivers and eight interviews with housing staff. Sampling included renovated and comparison dwellings and households with and without recorded mould. Two researchers coded transcripts using a shared framework, discussed discrepant cases and maintained an audit trail. Interview findings were not converted into population percentages.\n\nOccupants described warmer winter rooms alongside uncertainty about ventilation controls, concern about electricity costs and difficulty distinguishing normal condensation from persistent dampness. Some reported avoiding opening windows because of noise or perceived security risks. Housing staff described delays between reporting dampness and identifying its underlying cause. These accounts helped explain variation in measured conditions but did not independently establish treatment effects.\n\n## Limitations and completed outputs\n\nThe main limitations were non-random allocation, attrition, self-reported symptoms, incomplete personal exposure measurement and possible changes in occupancy between waves. The study had only one baseline and one follow-up observation period for renovation comparisons, so parallel pre-intervention trends could not be tested. Outdoor weather adjustment did not eliminate every seasonal difference. The particulate subsample was selected for logistical coverage and should not be treated as representative of all participating dwellings.\n\nCompleted outputs included the analysis dataset, an exposure-quality manual, a tenant-facing explanation of monitoring results and a maintenance briefing on ventilation handover and dampness reporting. The project measured health outcomes but did not test medicinal products. It did not measure network heat flows, storage performance, district-level energy balances or tariff impacts."
+      },
+      {
+        "path": "consortium.md",
+        "role": "team",
+        "content": "> Fictional document created for ProposalBench.\n\n# Institutional collaboration record\n\n**Status at 30 September 2026**\n\nThe collaboration comprises five institutions established in five EU Member States: Ireland, Portugal, Slovenia, Belgium and Italy. Its working relationship developed through CALDERVANE Ireland methods exchanges, equipment support and joint publications. The Irish award holder retained responsibility for the national cohort. Inclusion in this collaboration does not mean that every institution held a share of that grant or recruited participants into the Irish study.\n\n## University of Carraventh — Ireland\n\nThe University of Carraventh is the coordinating institution and the employer of Dr Néavessa Kelvarneth. Its Housing Exposure and Health Group combines environmental epidemiology, field monitoring and respiratory assessment. The university sponsored CALDERVANE Ireland and holds its research records. It maintains the ethics submissions, participant-contact controls and agreements governing secondary use of identifiable information.\n\nIts building-physics work concerns occupied dwellings, ventilation behaviour and interpretation of temperature and humidity records. It has no district heating plant, thermal storage installation or energy-system simulation group within the collaborating unit. Access to social housing for past research was permission to undertake specified measurements, not operational control of the buildings or their heating equipment.\n\n## Instituto Público de Saúde de Valdrenoura — Portugal\n\nThis public-health research institute is based in Coimbra. Its participating team is led by Dr Leovélia Matavrença, an environmental epidemiologist, with a public-health nurse and a qualitative researcher. The institute contributed questionnaire harmonisation, advice on vulnerable-participant consent and independent review of the Irish attrition analysis.\n\nThe team has conducted community respiratory surveys and evaluated communication between municipal housing services and residents. It can interpret health endpoints and differences in access to care. Its contribution to the present collaboration has involved methods and aggregate outputs; it does not hold an independently recruited renovation cohort for this collaboration. It has no utility-operation or thermal-storage engineering staff.\n\n## Inštitut za Stavbno Okolje Veltravno — Slovenia\n\nThis building research institute is based in Maribor. Dr Tiloven Vezmarnik leads its participating building-physics group. Its work includes envelope surveys, airtightness testing, indoor moisture diagnostics and dynamic simulation of room-level thermal conditions. It checked the CALDERVANE sensor-placement protocol and reviewed the treatment of occupancy and weather in the renovation analyses.\n\nIts laboratory supports material and room-scale building-envelope investigations. It has no seasonal storage test facility and has not validated a district heating network model. Experience with thermal behaviour of building fabric does not extend to hydraulic network design, heat-source dispatch or commercial storage operation.\n\n## Fédération de l'Habitat Social de Rovélance — Belgium\n\nThis federation is based in Namur and is represented by housing-programme manager Maëvélise Varnelcour. Its membership consists of social housing providers. It contributed a review of tenant information materials and a workshop on maintenance reporting and ventilation handover. Its staff have experience discussing rent, service charges and energy hardship with member organisations and tenant representatives.\n\nThe federation is not itself a landlord or an energy supplier. Membership does not confer authority to commit member properties, occupant records or investment programmes to research. It neither owns nor operates a heat network. Its service-charge experience has not included designing district heating tariffs, administering heat-supply contracts or demonstrating how storage revenues are distributed to households.\n\n## ReteSensori Valneriva Srl — Italy\n\nThis sensor-network SME is based in Perugia. Technical director Dariello Selvanicci leads its contribution. The company integrated commercial sensors with encrypted gateways, maintained device inventories and supported clock synchronisation and missing-data diagnostics during CALDERVANE Ireland. It supplied telemetry services under a university procurement contract; it was not a beneficiary of the national grant.\n\nThe company develops monitoring firmware and data-transfer software. It does not manufacture heat-pump compressors, thermal storage vessels or heat-network control equipment. Its dashboards display observations and device status; they have not controlled a live district heating system or implemented an energy-market optimisation algorithm.\n\n## External institutional contact and collective limits\n\nThe Centro de Estudos do Ambiente Doméstico de Arvoredalva, based in Curitiba, Brazil, took part in a remote scientific seminar on household exposure questionnaires in May 2026. It is a Brazilian legal entity with no establishment in an EU Member State or Horizon Europe associated country. It is not a member of this consortium, has signed no participation agreement, contributes no committed staff or facilities and has no access to participant data. Seminar contact is the full extent of the institutional relationship recorded here.\n\nNo consortium member operates a heat network. Collectively, the participating teams have no completed work on seasonal thermal storage, low-temperature district heating integration, waste-heat recovery engineering, energy-system dispatch optimisation or heat-network tariff design. There is no contracted network operator or energy-system engineering partner. The collaboration's established strengths are exposure measurement, observational health research, building-envelope assessment, tenant engagement and sensor telemetry."
+      },
+      {
+        "path": "publications.md",
+        "role": "publications",
+        "content": "> Fictional document created for ProposalBench.\n\n# Publications and research outputs\n\n**Bibliographic record checked: 30 September 2026**\n\nThe following five articles are published outputs of the collaborating investigators. All were accepted and published before the record date. They are distinct publications; the methods papers and results papers reuse aspects of the same CALDERVANE Ireland cohort and should not be counted as independent cohorts. Author names are given in the order printed by the journals.\n\n## Published articles\n\n1. Kelvarneth, N.; Matavrença, L.; Vezmarnik, T.; Selvanicci, D. (2023). **A linked protocol for indoor exposure and respiratory symptom measurement in Irish social housing.** *Carraventh Journal of Housing Exposure Methods*. DOI: 10.99999/pb.renovation-health-consortium.2023.1\n\n   This methods article describes the household recruitment procedure, environmental-monitoring schedule, symptom instruments and rules for separating identifiable contact records from analysis data. It reports the protocol as implemented at baseline. It contains no estimate of renovation effectiveness and does not establish recruitment beyond the completed national study.\n\n2. Selvanicci, D.; Vezmarnik, T.; Kelvarneth, N.; Matavrença, L. (2024). **Quality assurance for distributed temperature, humidity and carbon-dioxide monitoring in occupied homes.** *Veltravno Building Measurement Practice*. DOI: 10.99999/pb.renovation-health-consortium.2024.1\n\n   This article documents checks for clock drift, implausible values, sensor relocation and incomplete records. It distinguishes laboratory calibration from field checks and explains why room-level measurements cannot automatically be treated as personal exposure. The telemetry system described is observational. The publication contains no control strategy for heating networks or storage systems.\n\n3. Kelvarneth, N.; Matavrença, L.; Fenrathen, C.; Vezmarnik, T. (2025). **Visible mould and recent wheeze in a social housing cohort: a household-clustered analysis.** *Valdrenoura Residential Environment and Health*. DOI: 10.99999/pb.renovation-health-consortium.2025.1\n\n   This baseline analysis reports the association between inspector-recorded visible mould and recent wheeze. Its adjustment set and sensitivity analyses are described in the article. The odds ratio is an observational association rather than a causal estimate, and the study does not identify fungal species or assess a medicinal intervention.\n\n4. Kelvarneth, N.; Vezmarnik, T.; Matavrença, L.; Fenrathen, C.; Selvanicci, D. (2026). **Indoor conditions and respiratory symptoms before and after deep renovation of social housing.** *Rovélance Journal of Renovation and Population Health*. DOI: 10.99999/pb.renovation-health-consortium.2026.1\n\n   This longitudinal article reports the retained cohort, renovation comparison and adjusted differences in changes. It includes the uncertainty interval spanning no difference for wheeze. The article also reports the overheating analysis, whose complete-case population differs from that of the main renovation comparison. Neither analysis supplies evidence about district heating or seasonal storage performance.\n\n5. Matavrença, L.; Varnelcour, M.; Kelvarneth, N. (2026). **Ventilation handover, maintenance reporting and household constraints after housing renovation.** *Arvoredalva Journal of Housing Services and Public Health*. DOI: 10.99999/pb.renovation-health-consortium.2026.2\n\n   This qualitative article draws on occupant and housing-staff interviews from CALDERVANE Ireland. It examines how instructions, maintenance processes and household constraints influenced reported use of ventilation. Interview themes are presented with their sampling context; they are not estimates of the prevalence of particular behaviours among all social housing residents.\n\n## Other completed outputs\n\nThe accepted funder report, exposure-quality manual, participant results leaflet and maintenance briefing are institutional outputs without DOIs. They are not additional peer-reviewed publications. The institutional archive holds the approved analysis scripts and a data dictionary. Individual-level health data are available only through controlled access; no article authorises unrestricted redistribution of those records.\n\nNo publication in this record reports results from the separately approved cohort extension. That extension had not recruited participants by the record date."
+      },
+      {
+        "path": "resources.md",
+        "role": "resources",
+        "content": "> Fictional document created for ProposalBench.\n\n# Staff, equipment, data and administrative status\n\n**University of Carraventh and collaborating institutions**  \n**Inventory date: 30 September 2026**\n\n## Current staff and clinical support\n\nThe Irish group has 4.8 full-time-equivalent staff assigned across its existing housing-health work. This comprises Néavessa Kelvarneth, coordinator and environmental epidemiologist, at 0.6 FTE; building-physics fellow Oiscrán Bellorvane at 1.0 FTE; research nurse Ailvessa Morvandell at 1.0 FTE; field coordinator Rónavel Clevrath at 1.0 FTE; data manager Eimvéra Talverrick at 1.0 FTE; and respiratory physician Dr Caelvín Fenrathen at 0.2 FTE. These are current employment or clinical-service allocations, not uncommitted capacity reserved for another award.\n\nThe nurse and physician maintain the clinical assessment and referral procedures used in the completed study. Research staff do not change participants' medication. Existing procedures cover informed consent, parental consent and age-appropriate assent, withdrawal, incidental environmental findings and safeguarding concerns encountered during home visits.\n\nThe Portuguese, Slovenian, Belgian and Italian institutions supply the expertise described in the consortium record through their own staff. No energy-system modeller, heat-network operator or thermal-storage engineer is employed within the participating teams. No appointment to such a role has been approved.\n\n## Equipment and access\n\nThe university owns the 900 temperature and relative-humidity loggers, 300 carbon-dioxide monitors and 60 particulate-matter monitors used in CALDERVANE Ireland. They are physically held in the university equipment store. Ownership counts are not a statement that every device is calibrated and ready for deployment: batteries, sensor drift and firmware status are checked before reuse, and the inventory does not certify a fully operational pool.\n\nThe university also holds field spirometry equipment and secure tablets used for interviews and questionnaires. The Slovenian institute retains its own building-envelope test equipment. ReteSensori Valneriva retains the intellectual property in its generic gateway firmware; the university holds exported study records and documentation sufficient to interpret them.\n\nNo consortium institution holds a research-access agreement for an operating district heating network, a seasonal thermal storage site or a waste-heat source. The Irish cohort's home-access permissions ended with the approved follow-up visits. Continued contact for results dissemination does not authorise new monitoring or access to buildings.\n\n## Data holdings and governance\n\nThe final archive contains records for 300 baseline dwellings and 276 follow-up dwellings, with participant-level linkage maintained separately. Raw sensor files, quality flags, questionnaire records and renovation descriptions are versioned. Reproducible scripts generate the reported analysis populations and document exclusions caused by missing measurements.\n\nThe public archive contains metadata, blank instruments, the data dictionary and analysis code. It contains no household-level health records or precise dwelling coordinates. Access to de-identified individual-level data requires a scientific review, an appropriate legal basis and a data-use agreement. Landlords cannot obtain individual symptom responses through that process. The published tables use disclosure controls for small groups.\n\n## Approved extension: recruitment status\n\nA separate observational extension covering 400 additional dwellings received university ethics approval on 18 June 2026. Its protocol retains environmental measurements and respiratory outcomes and includes older occupants and children with asthma. Ethics approval is the only completed study-start authorisation recorded here. Funding has not been awarded, provider access agreements have not been executed, and recruitment has not opened.\n\nAs of 30 September 2026, zero dwellings and zero participants had been recruited into the extension. No extension monitoring had begun, and no extension health or environmental data existed. The figure of 400 describes the approved protocol target. It is not part of the completed CALDERVANE Ireland sample, an enrolled cohort or an available results dataset.\n\n## Closed grant account\n\nThe CALDERVANE Ireland award was EUR 1,248,000. The accepted final account records expenditure of EUR 1,221,460 and an unspent balance of EUR 26,540 returned to the funder. Expenditure comprised personnel EUR 730,000; equipment EUR 142,600; fieldwork and participant expenses EUR 176,420; laboratory and calibration services EUR 62,600; data management EUR 54,840; and governance and dissemination EUR 55,000. These categories sum to the recorded expenditure.\n\nThe grant account is closed. The original award amount and expenditure describe the completed national project; neither constitutes current funding for the extension. No remaining grant balance is available for new recruitment."
+      }
+    ],
+    "facts": [
+      {
+        "category": "position",
+        "kind": "existing",
+        "text": "Dr Néavessa Kelvarneth completed her doctorate in 2012 and has been Associate Professor of Environmental Epidemiology at the University of Carraventh since September 2023.",
+        "value": "September 2023",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "Kelvarneth led CALDERVANE Ireland under national grant DHHRF-2020-061 from 1 January 2021 to 31 December 2025 and has not previously coordinated a Horizon Europe grant.",
+        "value": "DHHRF-2020-061",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The completed cohort enrolled 300 dwellings and 672 participants, comprising 432 adults and 240 children, including 156 older adults and 96 children with parent-reported physician-diagnosed asthma.",
+        "value": "672",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Follow-up retained 276 dwellings, or 92%, and 612 occupants comprising 396 adults and 216 children, including 144 older adults and 88 children with asthma.",
+        "value": "92%",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The non-randomised renovation comparison began with 104 renovated and 196 comparison dwellings and retained 96 and 180 respectively after 2023 renovations and 2024 follow-up.",
+        "value": "96 renovated dwellings and 180 comparison dwellings",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Monitoring used 900 temperature and humidity loggers, 300 carbon-dioxide monitors and 60 particulate monitors, with five-minute logging and fourteen-day particulate deployments in 120 dwellings, of which 108 supplied valid paired particulate records.",
+        "value": "900",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Among 264 dwellings with valid baseline summer measurements, mean bedroom overheating above 26 °C during 22:00–07:00 in June–August was 118 hours, with a 95% confidence interval of 104–132 hours out of 828 possible night-hours.",
+        "value": "118",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Visible mould occurred in 84 of 300 baseline dwellings, or 28%, and was associated with four-week wheeze among 672 occupants with an adjusted odds ratio of 1.62 and 95% CI 1.13–2.32.",
+        "value": "1.62",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Among 558 occupants in 246 dwellings with paired summer records, each additional 100 overheating hours at follow-up was associated with a respiratory sleep-disturbance prevalence ratio of 1.18, with 95% CI 1.04–1.34.",
+        "value": "1.18",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "In the 276 retained dwellings, renovation was associated with an adjusted difference in winter living-room temperature changes of +1.3 °C, with 95% CI +0.8 to +1.8 °C.",
+        "value": "+1.3 °C",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The adjusted renovation-associated difference in changes in occupied-bedroom median carbon dioxide was −145 ppm, with 95% CI −220 to −70 ppm.",
+        "value": "−145 ppm",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Among 612 retained occupants, the adjusted renovation-associated difference in changes in four-week wheeze was −3.8 percentage points, with 95% CI −8.1 to +0.5 percentage points, which did not establish a reduction.",
+        "value": "−3.8 percentage points",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The qualitative study included 36 occupant or caregiver interviews and eight housing-staff interviews, analysed using a shared framework without treating themes as population percentages.",
+        "value": "36",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "publication",
+        "kind": "existing",
+        "text": "The publication record contains five published articles covering the protocol, monitoring quality assurance, mould and wheeze, renovation outcomes and qualitative findings, all drawing on the same underlying cohort rather than independent cohorts.",
+        "value": "five",
+        "salient": true,
+        "source": "publications.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "The University of Carraventh coordinates a five-institution collaboration established across Ireland, Portugal, Slovenia, Belgium and Italy and holds the Irish cohort's sponsor and data-controller responsibilities.",
+        "value": "five EU Member States",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Portugal's Instituto Público de Saúde de Valdrenoura contributes environmental epidemiology, public-health nursing and qualitative research but holds no independently recruited renovation cohort for this collaboration.",
+        "value": "Instituto Público de Saúde de Valdrenoura",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Slovenia's Inštitut za Stavbno Okolje Veltravno contributes building-envelope assessment and room-level thermal simulation but has no seasonal storage facility or validated district heating network model.",
+        "value": "Inštitut za Stavbno Okolje Veltravno",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Belgium's Fédération de l'Habitat Social de Rovélance contributes housing-provider and tenant engagement but is neither a landlord nor an energy supplier and cannot commit member properties or occupant records.",
+        "value": "Fédération de l'Habitat Social de Rovélance",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Italy's ReteSensori Valneriva Srl supplies sensor integration and telemetry, previously through a procurement contract, and has neither controlled a live district heating system nor developed heat-pump compressors or thermal storage vessels.",
+        "value": "ReteSensori Valneriva Srl",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "No consortium member operates a heat network, and the participating teams lack completed work in seasonal storage, low-temperature district heating integration, waste-heat engineering, energy-system dispatch and heat-network tariff design.",
+        "value": null,
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "The Centro de Estudos do Ambiente Doméstico de Arvoredalva is a Brazilian seminar contact with no EU or associated-country establishment, consortium membership, participation agreement, committed resources or participant-data access.",
+        "value": "Brazil",
+        "salient": true,
+        "source": "consortium.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "The Irish group has 4.8 FTE across six named personnel, with allocations of 0.6 for the coordinator, 1.0 each for building physics, nursing, field coordination and data management, and 0.2 for respiratory medicine.",
+        "value": "4.8",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The university owns the study sensor inventory without certifying every unit as deployment-ready, holds controlled-access cohort records, and has no current research-access agreement for a heat network, seasonal storage site or waste-heat source.",
+        "value": null,
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "planned",
+        "text": "The extension has an ethics-approved target of 400 additional dwellings dated 18 June 2026, but as of 30 September 2026 has no awarded funding, executed provider access agreements, recruited dwellings or participants, monitoring or data.",
+        "value": "400",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "budget",
+        "kind": "existing",
+        "text": "The closed national grant awarded EUR 1,248,000, spent EUR 1,221,460 across personnel EUR 730,000, equipment EUR 142,600, fieldwork EUR 176,420, laboratory and calibration EUR 62,600, data management EUR 54,840 and governance and dissemination EUR 55,000, and returned EUR 26,540.",
+        "value": "EUR 1,248,000",
+        "salient": true,
+        "source": "resources.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "homeair-protocol",
+        "authors": [
+          "Kelvarneth, N.",
+          "Matavrença, L.",
+          "Vezmarnik, T.",
+          "Selvanicci, D."
+        ],
+        "year": 2023,
+        "title": "A linked protocol for indoor exposure and respiratory symptom measurement in Irish social housing.",
+        "venue": "Carraventh Journal of Housing Exposure Methods",
+        "doi": "10.99999/pb.renovation-health-consortium.2023.1"
+      },
+      {
+        "key": "monitoring-quality",
+        "authors": [
+          "Selvanicci, D.",
+          "Vezmarnik, T.",
+          "Kelvarneth, N.",
+          "Matavrença, L."
+        ],
+        "year": 2024,
+        "title": "Quality assurance for distributed temperature, humidity and carbon-dioxide monitoring in occupied homes.",
+        "venue": "Veltravno Building Measurement Practice",
+        "doi": "10.99999/pb.renovation-health-consortium.2024.1"
+      },
+      {
+        "key": "mould-wheeze",
+        "authors": [
+          "Kelvarneth, N.",
+          "Matavrença, L.",
+          "Fenrathen, C.",
+          "Vezmarnik, T."
+        ],
+        "year": 2025,
+        "title": "Visible mould and recent wheeze in a social housing cohort: a household-clustered analysis.",
+        "venue": "Valdrenoura Residential Environment and Health",
+        "doi": "10.99999/pb.renovation-health-consortium.2025.1"
+      },
+      {
+        "key": "renovation-health",
+        "authors": [
+          "Kelvarneth, N.",
+          "Vezmarnik, T.",
+          "Matavrença, L.",
+          "Fenrathen, C.",
+          "Selvanicci, D."
+        ],
+        "year": 2026,
+        "title": "Indoor conditions and respiratory symptoms before and after deep renovation of social housing.",
+        "venue": "Rovélance Journal of Renovation and Population Health",
+        "doi": "10.99999/pb.renovation-health-consortium.2026.1"
+      },
+      {
+        "key": "ventilation-handover",
+        "authors": [
+          "Matavrença, L.",
+          "Varnelcour, M.",
+          "Kelvarneth, N."
+        ],
+        "year": 2026,
+        "title": "Ventilation handover, maintenance reporting and household constraints after housing renovation.",
+        "venue": "Arvoredalva Journal of Housing Services and Public Health",
+        "doi": "10.99999/pb.renovation-health-consortium.2026.2"
+      }
+    ]
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "building physics",
+          "environmental epidemiology",
+          "respiratory medicine",
+          "public health"
+        ],
+        "method_profile": "mixed",
+        "country": "IE",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Dr Nessa Keldoran — curriculum vitae\n\n**Associate Professor of Environmental Epidemiology, University of Carrigmere, Ireland**  \n**Record updated: 30 September 2026**\n\n## Education and appointments\n\nKeldoran completed a BSc in Environmental Science at the University of Carrigmere in 2006, an MSc in Epidemiology at the same institution in 2008, and a PhD in Environmental Epidemiology in 2012. Her doctoral thesis examined the relationship between residential dampness, ventilation practices and respiratory symptoms in rented housing. The doctorate combined repeated household surveys, environmental measurements and interviews with tenants about heating and maintenance.\n\nShe held a postdoctoral appointment at the Carrigmere Centre for Population Health from October 2012 to August 2016, followed by a research fellowship at the University of Carrigmere from September 2016 to August 2018. She was appointed Lecturer in Environmental Epidemiology in September 2018 and Associate Professor in September 2023. She remains in that appointment and coordinates the university's Housing Exposure and Health Group.\n\nHer research concerns the measurement of indoor exposures and their relationship to respiratory health in households with limited control over housing conditions. She has particular experience in linking dwelling surveys, continuous environmental measurements and repeated symptom questionnaires without disclosing identifiable household locations.\n\n## Research leadership\n\nKeldoran was principal investigator of HOME-AIR Ireland, the completed national cohort study described in the accompanying final report. She held responsibility for the study protocol, sponsor reporting, recruitment oversight, statistical analysis plan and integration of qualitative findings. The study was funded by the Irish Housing and Health Research Fund, a national research funding programme, under grant IHHRF-2020-061. The award ran from 1 January 2021 to 31 December 2025.\n\nHer management responsibilities included agreements with participating housing providers, procurement of monitoring equipment, supervision of field staff and coordination of the clinical referral procedure. She chaired the study management group and reported to an independent steering group with tenant, clinical and housing-maintenance representation. The university was the research sponsor and data controller; participating landlords did not receive identifiable health records.\n\nThe study involved sites in Dublin, Cork and Limerick. Its geographic coverage did not constitute a probability sample of Irish social housing. Keldoran has consistently described its estimates as cohort findings rather than national prevalence estimates.\n\n## Methods and supervision\n\nHer quantitative work includes longitudinal regression, household-clustered inference, inverse-probability weighting for attrition and sensitivity analyses for exposure misclassification. She works with building physicists on the interpretation of temperature, humidity and ventilation measurements. Her qualitative experience includes semi-structured interviews, framework analysis and mixed-method interpretation of disagreements between measured conditions and occupants' accounts.\n\nShe supervises research staff working on exposure assessment and housing-related health inequalities. Her teaching covers environmental epidemiology, causal diagrams, research ethics and the interpretation of observational intervention studies. She is not a registered medical practitioner. Clinical assessments and decisions about referral are undertaken by the consortium's respiratory clinician and research nurse.\n\n## Scope of experience\n\nKeldoran has led a national research award and coordinated scientific work across the institutions listed in the consortium record. She has not previously coordinated a Horizon Europe grant. The partner institutions have completed shared analyses and methods exchanges, but this collaboration has not held a joint European research award.\n\nHer energy-related experience is confined to household heating practices, indoor thermal conditions and interpretation of dwelling energy records. She has no professional experience designing or operating district heating, seasonal thermal storage or energy-system dispatch models. She has not developed heat-network tariffs or undertaken regulated utility accounting. Her contribution to questions of affordability has been through household interviews, expenditure questionnaires and analysis of unequal exposure to cold and heat."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# HOME-AIR Ireland: final scientific report\n\n**Indoor environment and respiratory symptoms in social housing**  \nUniversity of Carrigmere; principal investigator Dr Nessa Keldoran  \nGrant IHHRF-2020-061; reporting period 1 January 2021–31 December 2025  \nFinal report accepted by the funder on 27 March 2026\n\n## Purpose and study design\n\nHOME-AIR Ireland examined indoor temperature, ventilation-related indicators, particulate matter and visible mould alongside respiratory symptoms in occupied social housing. It also evaluated changes associated with a landlord-led deep-renovation programme. Renovation allocation and construction schedules were controlled by housing providers, not investigators. The study was observational and did not randomise households or prescribe clinical treatment.\n\nRecruitment and baseline measurements took place in 2022. Renovations were completed during 2023, and follow-up measurements were undertaken in 2024. Data reconciliation and analysis continued through 2025. The programme covered Dublin, Cork and Limerick, with recruitment through participating providers and direct consent from occupants. The sample was geographically distributed but was not nationally representative.\n\n## Participants and renovation exposure\n\nAt baseline, 300 dwellings contributed 672 participants: 432 adults and 240 children. The adults included 156 people aged at least 65 years. Among the children, 96 had parent-reported physician-diagnosed asthma. These vulnerability groups were defined before analysis; their inclusion did not imply adequate power for every subgroup comparison.\n\nAt follow-up, 276 dwellings remained, representing 92% dwelling retention. They contained 612 participating occupants: 396 adults and 216 children, including 144 older adults and 88 children with asthma. The remaining 24 dwellings were lost through moves, withdrawal or inability to arrange follow-up. Participants who left were not replaced.\n\nOf the original dwellings, 104 underwent deep renovation and 196 did not undergo deep renovation during the observation period. Follow-up included 96 renovated dwellings and 180 comparison dwellings. The corresponding losses were eight and sixteen dwellings. Renovation packages combined fabric insulation, window replacement, airtightness work and mechanical extract ventilation, with package details recorded from completion certificates. Some comparison dwellings received minor maintenance. Heating remained dwelling-level; no participating site had a district heating connection.\n\n## Environmental and health measurements\n\nEach dwelling received three temperature and relative-humidity loggers, located in the main living room, principal bedroom and a second occupied room where available. This required 900 loggers. A separate carbon-dioxide monitor was installed in each dwelling, requiring 300 monitors. Logging intervals were five minutes. Sixty optical particulate-matter monitors rotated through a nested sample of 120 dwellings, with fourteen-day deployments at baseline and follow-up; 108 dwellings supplied valid paired particulate records.\n\nTemperature analyses used calibrated readings and prespecified completeness thresholds. Summer bedroom overheating was defined as hours above 26 °C between 22:00 and 07:00 during June–August. This provided 828 possible monitored night-hours per summer. The threshold was an exposure definition, not a clinical diagnosis or a claim of universal regulatory compliance. Valid baseline summer records were available for 264 dwellings; 246 dwellings had valid summer records at both measurement waves.\n\nInspectors recorded visible mould using a standard room checklist and photographs reviewed without access to symptom responses. Carbon dioxide was treated as an indicator affected by occupancy and ventilation, not as a direct measure of ventilation rate. Optical particulate readings were corrected against collocated reference measurements; their precision did not support chemical source attribution.\n\nHealth outcomes included wheeze during the previous four weeks, nights disturbed by respiratory symptoms and asthma-control questionnaires appropriate to participant age. A nurse recorded medication use and recent respiratory infection. Spirometry was offered as a secondary assessment, but incomplete attendance and variable acceptability prevented its use as the principal longitudinal endpoint. Referral decisions remained separate from research outcome coding.\n\n## Main findings\n\nAt baseline, the 264 dwellings with valid summer data had a mean of 118 bedroom overheating hours, with a household-bootstrap 95% confidence interval of 104–132 hours. The distribution was right-skewed. The mean should not be interpreted as the experience of a typical individual or extrapolated to an entire calendar year.\n\nVisible mould was recorded in 84 of 300 baseline dwellings, or 28%. In the baseline analysis of 672 occupants, visible mould was associated with four-week wheeze: adjusted odds ratio 1.62, 95% CI 1.13–2.32. The model accounted for household clustering and adjusted for age, smoking exposure, tenure duration, season of assessment and recorded dwelling characteristics. This was an association and did not establish that mould caused the reported symptoms.\n\nAmong 558 occupants in the 246 dwellings with paired summer records, each additional 100 bedroom overheating hours at follow-up was associated with a prevalence ratio of 1.18 for sleep disturbed by respiratory symptoms, 95% CI 1.04–1.34. The model included baseline symptom status and measured confounders. Bedroom-level exposure was assigned to participating occupants using reported sleeping arrangements; it did not capture exposure away from home.\n\nThe renovation analysis used the 276 retained dwellings and adjusted for baseline conditions, provider and measured household differences. Relative to comparison dwellings, renovation was associated with an adjusted change in winter living-room temperature of +1.3 °C, 95% CI +0.8 to +1.8 °C. The corresponding adjusted change in occupied-bedroom median carbon dioxide was −145 ppm, 95% CI −220 to −70 ppm. These are differences in changes between groups, not simple changes within renovated dwellings.\n\nFor four-week wheeze among the 612 retained occupants, the adjusted renovation-associated difference in changes was −3.8 percentage points, 95% CI −8.1 to +0.5 percentage points. The interval includes no difference. The result does not establish a reduction in wheeze. Adjustment and weighting reduced some measured imbalances but could not remove unmeasured differences in renovation allocation or household behaviour.\n\n## Occupant accounts and interpretation\n\nThe qualitative component comprised 36 interviews with adult occupants or caregivers and eight interviews with housing staff. Sampling included renovated and comparison dwellings and households with and without recorded mould. Two researchers coded transcripts using a shared framework, discussed discrepant cases and maintained an audit trail. Interview findings were not converted into population percentages.\n\nOccupants described warmer winter rooms alongside uncertainty about ventilation controls, concern about electricity costs and difficulty distinguishing normal condensation from persistent dampness. Some reported avoiding opening windows because of noise or perceived security risks. Housing staff described delays between reporting dampness and identifying its underlying cause. These accounts helped explain variation in measured conditions but did not independently establish treatment effects.\n\n## Limitations and completed outputs\n\nThe main limitations were non-random allocation, attrition, self-reported symptoms, incomplete personal exposure measurement and possible changes in occupancy between waves. The study had only one baseline and one follow-up observation period for renovation comparisons, so parallel pre-intervention trends could not be tested. Outdoor weather adjustment did not eliminate every seasonal difference. The particulate subsample was selected for logistical coverage and should not be treated as representative of all participating dwellings.\n\nCompleted outputs included the analysis dataset, an exposure-quality manual, a tenant-facing explanation of monitoring results and a maintenance briefing on ventilation handover and dampness reporting. The project measured health outcomes but did not test medicinal products. It did not measure network heat flows, storage performance, district-level energy balances or tariff impacts."
+          },
+          {
+            "path": "consortium.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Institutional collaboration record\n\n**Status at 30 September 2026**\n\nThe collaboration comprises five institutions established in five EU Member States: Ireland, Portugal, Slovenia, Belgium and Italy. Its working relationship developed through HOME-AIR Ireland methods exchanges, equipment support and joint publications. The Irish award holder retained responsibility for the national cohort. Inclusion in this collaboration does not mean that every institution held a share of that grant or recruited participants into the Irish study.\n\n## University of Carrigmere — Ireland\n\nThe University of Carrigmere is the coordinating institution and the employer of Dr Nessa Keldoran. Its Housing Exposure and Health Group combines environmental epidemiology, field monitoring and respiratory assessment. The university sponsored HOME-AIR Ireland and holds its research records. It maintains the ethics submissions, participant-contact controls and agreements governing secondary use of identifiable information.\n\nIts building-physics work concerns occupied dwellings, ventilation behaviour and interpretation of temperature and humidity records. It has no district heating plant, thermal storage installation or energy-system simulation group within the collaborating unit. Access to social housing for past research was permission to undertake specified measurements, not operational control of the buildings or their heating equipment.\n\n## Instituto Público de Saúde do Vale Sereno — Portugal\n\nThis public-health research institute is based in Coimbra. Its participating team is led by Dr Leonor Matavela, an environmental epidemiologist, with a public-health nurse and a qualitative researcher. The institute contributed questionnaire harmonisation, advice on vulnerable-participant consent and independent review of the Irish attrition analysis.\n\nThe team has conducted community respiratory surveys and evaluated communication between municipal housing services and residents. It can interpret health endpoints and differences in access to care. Its contribution to the present collaboration has involved methods and aggregate outputs; it does not hold an independently recruited renovation cohort for this collaboration. It has no utility-operation or thermal-storage engineering staff.\n\n## Inštitut za Stavbno Okolje Vetrina — Slovenia\n\nThis building research institute is based in Maribor. Dr Tilen Vezmar leads its participating building-physics group. Its work includes envelope surveys, airtightness testing, indoor moisture diagnostics and dynamic simulation of room-level thermal conditions. It checked the HOME-AIR sensor-placement protocol and reviewed the treatment of occupancy and weather in the renovation analyses.\n\nIts laboratory supports material and room-scale building-envelope investigations. It has no seasonal storage test facility and has not validated a district heating network model. Experience with thermal behaviour of building fabric does not extend to hydraulic network design, heat-source dispatch or commercial storage operation.\n\n## Fédération de l'Habitat Social de Rovenne — Belgium\n\nThis federation is based in Namur and is represented by housing-programme manager Maëlle Varnet. Its membership consists of social housing providers. It contributed a review of tenant information materials and a workshop on maintenance reporting and ventilation handover. Its staff have experience discussing rent, service charges and energy hardship with member organisations and tenant representatives.\n\nThe federation is not itself a landlord or an energy supplier. Membership does not confer authority to commit member properties, occupant records or investment programmes to research. It neither owns nor operates a heat network. Its service-charge experience has not included designing district heating tariffs, administering heat-supply contracts or demonstrating how storage revenues are distributed to households.\n\n## ReteSensori Valnera Srl — Italy\n\nThis sensor-network SME is based in Perugia. Technical director Dario Selvani leads its contribution. The company integrated commercial sensors with encrypted gateways, maintained device inventories and supported clock synchronisation and missing-data diagnostics during HOME-AIR Ireland. It supplied telemetry services under a university procurement contract; it was not a beneficiary of the national grant.\n\nThe company develops monitoring firmware and data-transfer software. It does not manufacture heat-pump compressors, thermal storage vessels or heat-network control equipment. Its dashboards display observations and device status; they have not controlled a live district heating system or implemented an energy-market optimisation algorithm.\n\n## External institutional contact and collective limits\n\nThe Centro de Estudos do Ambiente Doméstico de Arvoredo, based in Curitiba, Brazil, took part in a remote scientific seminar on household exposure questionnaires in May 2026. It is a Brazilian legal entity with no establishment in an EU Member State or Horizon Europe associated country. It is not a member of this consortium, has signed no participation agreement, contributes no committed staff or facilities and has no access to participant data. Seminar contact is the full extent of the institutional relationship recorded here.\n\nNo consortium member operates a heat network. Collectively, the participating teams have no completed work on seasonal thermal storage, low-temperature district heating integration, waste-heat recovery engineering, energy-system dispatch optimisation or heat-network tariff design. There is no contracted network operator or energy-system engineering partner. The collaboration's established strengths are exposure measurement, observational health research, building-envelope assessment, tenant engagement and sensor telemetry."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications and research outputs\n\n**Bibliographic record checked: 30 September 2026**\n\nThe following five articles are published outputs of the collaborating investigators. All were accepted and published before the record date. They are distinct publications; the methods papers and results papers reuse aspects of the same HOME-AIR Ireland cohort and should not be counted as independent cohorts. Author names are given in the order printed by the journals.\n\n## Published articles\n\n1. Keldoran, N.; Matavela, L.; Vezmar, T.; Selvani, D. (2023). **A linked protocol for indoor exposure and respiratory symptom measurement in Irish social housing.** *Journal of Housing Exposure Methods*. DOI: **10.99999/pb.renovation-health-consortium.2023.1**.\n\n   This methods article describes the household recruitment procedure, environmental-monitoring schedule, symptom instruments and rules for separating identifiable contact records from analysis data. It reports the protocol as implemented at baseline. It contains no estimate of renovation effectiveness and does not establish recruitment beyond the completed national study.\n\n2. Selvani, D.; Vezmar, T.; Keldoran, N.; Matavela, L. (2024). **Quality assurance for distributed temperature, humidity and carbon-dioxide monitoring in occupied homes.** *Building Measurement Practice*. DOI: **10.99999/pb.renovation-health-consortium.2024.1**.\n\n   This article documents checks for clock drift, implausible values, sensor relocation and incomplete records. It distinguishes laboratory calibration from field checks and explains why room-level measurements cannot automatically be treated as personal exposure. The telemetry system described is observational. The publication contains no control strategy for heating networks or storage systems.\n\n3. Keldoran, N.; Matavela, L.; Fenrath, C.; Vezmar, T. (2025). **Visible mould and recent wheeze in a social housing cohort: a household-clustered analysis.** *Residential Environment and Health*. DOI: **10.99999/pb.renovation-health-consortium.2025.1**.\n\n   This baseline analysis reports the association between inspector-recorded visible mould and recent wheeze. Its adjustment set and sensitivity analyses are described in the article. The odds ratio is an observational association rather than a causal estimate, and the study does not identify fungal species or assess a medicinal intervention.\n\n4. Keldoran, N.; Vezmar, T.; Matavela, L.; Fenrath, C.; Selvani, D. (2026). **Indoor conditions and respiratory symptoms before and after deep renovation of social housing.** *Journal of Renovation and Population Health*. DOI: **10.99999/pb.renovation-health-consortium.2026.1**.\n\n   This longitudinal article reports the retained cohort, renovation comparison and adjusted differences in changes. It includes the uncertainty interval spanning no difference for wheeze. The article also reports the overheating analysis, whose complete-case population differs from that of the main renovation comparison. Neither analysis supplies evidence about district heating or seasonal storage performance.\n\n5. Matavela, L.; Varnet, M.; Keldoran, N. (2026). **Ventilation handover, maintenance reporting and household constraints after housing renovation.** *Housing Services and Public Health*. DOI: **10.99999/pb.renovation-health-consortium.2026.2**.\n\n   This qualitative article draws on occupant and housing-staff interviews from HOME-AIR Ireland. It examines how instructions, maintenance processes and household constraints influenced reported use of ventilation. Interview themes are presented with their sampling context; they are not estimates of the prevalence of particular behaviours among all social housing residents.\n\n## Other completed outputs\n\nThe accepted funder report, exposure-quality manual, participant results leaflet and maintenance briefing are institutional outputs without DOIs. They are not additional peer-reviewed publications. The institutional archive holds the approved analysis scripts and a data dictionary. Individual-level health data are available only through controlled access; no article authorises unrestricted redistribution of those records.\n\nNo publication in this record reports results from the separately approved cohort extension. That extension had not recruited participants by the record date."
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Staff, equipment, data and administrative status\n\n**University of Carrigmere and collaborating institutions**  \n**Inventory date: 30 September 2026**\n\n## Current staff and clinical support\n\nThe Irish group has 4.8 full-time-equivalent staff assigned across its existing housing-health work. This comprises Nessa Keldoran, coordinator and environmental epidemiologist, at 0.6 FTE; building-physics fellow Oisín Belloran at 1.0 FTE; research nurse Ailbhe Morvane at 1.0 FTE; field coordinator Ronan Clevrick at 1.0 FTE; data manager Eimear Talvern at 1.0 FTE; and respiratory physician Dr Cian Fenrath at 0.2 FTE. These are current employment or clinical-service allocations, not uncommitted capacity reserved for another award.\n\nThe nurse and physician maintain the clinical assessment and referral procedures used in the completed study. Research staff do not change participants' medication. Existing procedures cover informed consent, parental consent and age-appropriate assent, withdrawal, incidental environmental findings and safeguarding concerns encountered during home visits.\n\nThe Portuguese, Slovenian, Belgian and Italian institutions supply the expertise described in the consortium record through their own staff. No energy-system modeller, heat-network operator or thermal-storage engineer is employed within the participating teams. No appointment to such a role has been approved.\n\n## Equipment and access\n\nThe university owns the 900 temperature and relative-humidity loggers, 300 carbon-dioxide monitors and 60 particulate-matter monitors used in HOME-AIR Ireland. They are physically held in the university equipment store. Ownership counts are not a statement that every device is calibrated and ready for deployment: batteries, sensor drift and firmware status are checked before reuse, and the inventory does not certify a fully operational pool.\n\nThe university also holds field spirometry equipment and secure tablets used for interviews and questionnaires. The Slovenian institute retains its own building-envelope test equipment. ReteSensori Valnera retains the intellectual property in its generic gateway firmware; the university holds exported study records and documentation sufficient to interpret them.\n\nNo consortium institution holds a research-access agreement for an operating district heating network, a seasonal thermal storage site or a waste-heat source. The Irish cohort's home-access permissions ended with the approved follow-up visits. Continued contact for results dissemination does not authorise new monitoring or access to buildings.\n\n## Data holdings and governance\n\nThe final archive contains records for 300 baseline dwellings and 276 follow-up dwellings, with participant-level linkage maintained separately. Raw sensor files, quality flags, questionnaire records and renovation descriptions are versioned. Reproducible scripts generate the reported analysis populations and document exclusions caused by missing measurements.\n\nThe public archive contains metadata, blank instruments, the data dictionary and analysis code. It contains no household-level health records or precise dwelling coordinates. Access to de-identified individual-level data requires a scientific review, an appropriate legal basis and a data-use agreement. Landlords cannot obtain individual symptom responses through that process. The published tables use disclosure controls for small groups.\n\n## Approved extension: recruitment status\n\nA separate observational extension covering 400 additional dwellings received university ethics approval on 18 June 2026. Its protocol retains environmental measurements and respiratory outcomes and includes older occupants and children with asthma. Ethics approval is the only completed study-start authorisation recorded here. Funding has not been awarded, provider access agreements have not been executed, and recruitment has not opened.\n\nAs of 30 September 2026, zero dwellings and zero participants had been recruited into the extension. No extension monitoring had begun, and no extension health or environmental data existed. The figure of 400 describes the approved protocol target. It is not part of the completed HOME-AIR Ireland sample, an enrolled cohort or an available results dataset.\n\n## Closed grant account\n\nThe HOME-AIR Ireland award was EUR 1,248,000. The accepted final account records expenditure of EUR 1,221,460 and an unspent balance of EUR 26,540 returned to the funder. Expenditure comprised personnel EUR 730,000; equipment EUR 142,600; fieldwork and participant expenses EUR 176,420; laboratory and calibration services EUR 62,600; data management EUR 54,840; and governance and dissemination EUR 55,000. These categories sum to the recorded expenditure.\n\nThe grant account is closed. The original award amount and expenditure describe the completed national project; neither constitutes current funding for the extension. No remaining grant balance is available for new recruitment."
+          }
+        ],
+        "facts": [
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Dr Nessa Keldoran completed her doctorate in 2012 and has been Associate Professor of Environmental Epidemiology at the University of Carrigmere since September 2023.",
+            "value": "September 2023",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Keldoran led HOME-AIR Ireland under national grant IHHRF-2020-061 from 1 January 2021 to 31 December 2025 and has not previously coordinated a Horizon Europe grant.",
+            "value": "IHHRF-2020-061",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The completed cohort enrolled 300 dwellings and 672 participants, comprising 432 adults and 240 children, including 156 older adults and 96 children with parent-reported physician-diagnosed asthma.",
+            "value": "672",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Follow-up retained 276 dwellings, or 92%, and 612 occupants comprising 396 adults and 216 children, including 144 older adults and 88 children with asthma.",
+            "value": "92%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The non-randomised renovation comparison began with 104 renovated and 196 comparison dwellings and retained 96 and 180 respectively after 2023 renovations and 2024 follow-up.",
+            "value": "96 renovated dwellings and 180 comparison dwellings",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Monitoring used 900 temperature and humidity loggers, 300 carbon-dioxide monitors and 60 particulate monitors, with five-minute logging and fourteen-day particulate deployments in 120 dwellings, of which 108 supplied valid paired particulate records.",
+            "value": "900",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Among 264 dwellings with valid baseline summer measurements, mean bedroom overheating above 26 °C during 22:00–07:00 in June–August was 118 hours, with a 95% confidence interval of 104–132 hours out of 828 possible night-hours.",
+            "value": "118",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Visible mould occurred in 84 of 300 baseline dwellings, or 28%, and was associated with four-week wheeze among 672 occupants with an adjusted odds ratio of 1.62 and 95% CI 1.13–2.32.",
+            "value": "1.62",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Among 558 occupants in 246 dwellings with paired summer records, each additional 100 overheating hours at follow-up was associated with a respiratory sleep-disturbance prevalence ratio of 1.18, with 95% CI 1.04–1.34.",
+            "value": "1.18",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In the 276 retained dwellings, renovation was associated with an adjusted difference in winter living-room temperature changes of +1.3 °C, with 95% CI +0.8 to +1.8 °C.",
+            "value": "+1.3 °C",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The adjusted renovation-associated difference in changes in occupied-bedroom median carbon dioxide was −145 ppm, with 95% CI −220 to −70 ppm.",
+            "value": "−145 ppm",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Among 612 retained occupants, the adjusted renovation-associated difference in changes in four-week wheeze was −3.8 percentage points, with 95% CI −8.1 to +0.5 percentage points, which did not establish a reduction.",
+            "value": "−3.8 percentage points",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The qualitative study included 36 occupant or caregiver interviews and eight housing-staff interviews, analysed using a shared framework without treating themes as population percentages.",
+            "value": "36",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "The publication record contains five published articles covering the protocol, monitoring quality assurance, mould and wheeze, renovation outcomes and qualitative findings, all drawing on the same underlying cohort rather than independent cohorts.",
+            "value": "five",
+            "salient": true,
+            "source": "publications.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "The University of Carrigmere coordinates a five-institution collaboration established across Ireland, Portugal, Slovenia, Belgium and Italy and holds the Irish cohort's sponsor and data-controller responsibilities.",
+            "value": "five EU Member States",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Portugal's Instituto Público de Saúde do Vale Sereno contributes environmental epidemiology, public-health nursing and qualitative research but holds no independently recruited renovation cohort for this collaboration.",
+            "value": "Instituto Público de Saúde do Vale Sereno",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Slovenia's Inštitut za Stavbno Okolje Vetrina contributes building-envelope assessment and room-level thermal simulation but has no seasonal storage facility or validated district heating network model.",
+            "value": "Inštitut za Stavbno Okolje Vetrina",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Belgium's Fédération de l'Habitat Social de Rovenne contributes housing-provider and tenant engagement but is neither a landlord nor an energy supplier and cannot commit member properties or occupant records.",
+            "value": "Fédération de l'Habitat Social de Rovenne",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Italy's ReteSensori Valnera Srl supplies sensor integration and telemetry, previously through a procurement contract, and has neither controlled a live district heating system nor developed heat-pump compressors or thermal storage vessels.",
+            "value": "ReteSensori Valnera Srl",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "No consortium member operates a heat network, and the participating teams lack completed work in seasonal storage, low-temperature district heating integration, waste-heat engineering, energy-system dispatch and heat-network tariff design.",
+            "value": null,
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "The Centro de Estudos do Ambiente Doméstico de Arvoredo is a Brazilian seminar contact with no EU or associated-country establishment, consortium membership, participation agreement, committed resources or participant-data access.",
+            "value": "Brazil",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The Irish group has 4.8 FTE across six named personnel, with allocations of 0.6 for the coordinator, 1.0 each for building physics, nursing, field coordination and data management, and 0.2 for respiratory medicine.",
+            "value": "4.8",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The university owns the study sensor inventory without certifying every unit as deployment-ready, holds controlled-access cohort records, and has no current research-access agreement for a heat network, seasonal storage site or waste-heat source.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "The extension has an ethics-approved target of 400 additional dwellings dated 18 June 2026, but as of 30 September 2026 has no awarded funding, executed provider access agreements, recruited dwellings or participants, monitoring or data.",
+            "value": "400",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "The closed national grant awarded EUR 1,248,000, spent EUR 1,221,460 across personnel EUR 730,000, equipment EUR 142,600, fieldwork EUR 176,420, laboratory and calibration EUR 62,600, data management EUR 54,840 and governance and dissemination EUR 55,000, and returned EUR 26,540.",
+            "value": "EUR 1,248,000",
+            "salient": true,
+            "source": "resources.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "homeair-protocol",
+            "authors": [
+              "Keldoran, N.",
+              "Matavela, L.",
+              "Vezmar, T.",
+              "Selvani, D."
+            ],
+            "year": 2023,
+            "title": "A linked protocol for indoor exposure and respiratory symptom measurement in Irish social housing.",
+            "venue": "Journal of Housing Exposure Methods",
+            "doi": "10.99999/pb.renovation-health-consortium.2023.1"
+          },
+          {
+            "key": "monitoring-quality",
+            "authors": [
+              "Selvani, D.",
+              "Vezmar, T.",
+              "Keldoran, N.",
+              "Matavela, L."
+            ],
+            "year": 2024,
+            "title": "Quality assurance for distributed temperature, humidity and carbon-dioxide monitoring in occupied homes.",
+            "venue": "Building Measurement Practice",
+            "doi": "10.99999/pb.renovation-health-consortium.2024.1"
+          },
+          {
+            "key": "mould-wheeze",
+            "authors": [
+              "Keldoran, N.",
+              "Matavela, L.",
+              "Fenrath, C.",
+              "Vezmar, T."
+            ],
+            "year": 2025,
+            "title": "Visible mould and recent wheeze in a social housing cohort: a household-clustered analysis.",
+            "venue": "Residential Environment and Health",
+            "doi": "10.99999/pb.renovation-health-consortium.2025.1"
+          },
+          {
+            "key": "renovation-health",
+            "authors": [
+              "Keldoran, N.",
+              "Vezmar, T.",
+              "Matavela, L.",
+              "Fenrath, C.",
+              "Selvani, D."
+            ],
+            "year": 2026,
+            "title": "Indoor conditions and respiratory symptoms before and after deep renovation of social housing.",
+            "venue": "Journal of Renovation and Population Health",
+            "doi": "10.99999/pb.renovation-health-consortium.2026.1"
+          },
+          {
+            "key": "ventilation-handover",
+            "authors": [
+              "Matavela, L.",
+              "Varnet, M.",
+              "Keldoran, N."
+            ],
+            "year": 2026,
+            "title": "Ventilation handover, maintenance reporting and household constraints after housing renovation.",
+            "venue": "Housing Services and Public Health",
+            "doi": "10.99999/pb.renovation-health-consortium.2026.2"
+          }
+        ]
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 7",
+          "where": "all files",
+          "problem": "The documents are not consistently current as of the benchmark's present date, 1 October 2026 (some are written as of 2024 or early 2025, leaving unexplained gaps before calls with 2027 deadlines).",
+          "fix": "Make every document current as of September 2026: update 'as of' dates, contract periods, CV entries, publication lists through 2026, statuses of submissions, reviews, ethics approvals and recruitments, keeping the same career stage and every fact the traps rely on (re-dated consistently). Keep all numbers internally consistent after the shift."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "all files",
+          "problem": "Names of people, institutions, companies, projects or journals may collide with real ones.",
+          "fix": "Replace every person name with a coined, distinctive name (no common names such as Matteo Rossi); replace every real institution, research centre, archive, company, project or journal name of the applicant's world with a fictional one; the applicant's own publications appear in fictional journals. Real funders, real places and real funding schemes stay."
+        }
+      ],
+      "rejected": [
+        {
+          "checklist": "Dossier 7",
+          "problem": "Some documents are written as of 2024 or early 2025, leaving unexplained gaps before the benchmark date.",
+          "reason": "The supplied draft already dates the CV, consortium record, publications and resource inventory to 30 September 2026, records report acceptance in March 2026, and explicitly states the extension's September 2026 recruitment status. The 2024 and 2025 dates describe completed follow-up and analysis, not outdated document status. Those historical dates are retained; an explicit September 2026 record check has been added to the final report."
+        }
+      ]
+    },
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "building physics",
+          "environmental epidemiology",
+          "respiratory medicine",
+          "public health"
+        ],
+        "method_profile": "mixed",
+        "country": "IE",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Dr Néavessa Kelvarneth — curriculum vitae\n\n**Associate Professor of Environmental Epidemiology, University of Carraventh, Ireland**  \n**Record updated: 30 September 2026**\n\n## Education and appointments\n\nKelvarneth completed a BSc in Environmental Science at the University of Carraventh in 2006, an MSc in Epidemiology at the same institution in 2008, and a PhD in Environmental Epidemiology in 2012. Her doctoral thesis examined the relationship between residential dampness, ventilation practices and respiratory symptoms in rented housing. The doctorate combined repeated household surveys, environmental measurements and interviews with tenants about heating and maintenance.\n\nShe held a postdoctoral appointment at the Carraventh Centre for Population Health from October 2012 to August 2016, followed by a research fellowship at the University of Carraventh from September 2016 to August 2018. She was appointed Lecturer in Environmental Epidemiology in September 2018 and Associate Professor in September 2023. She remains in that appointment and coordinates the university's Housing Exposure and Health Group.\n\nHer research concerns the measurement of indoor exposures and their relationship to respiratory health in households with limited control over housing conditions. She has particular experience in linking dwelling surveys, continuous environmental measurements and repeated symptom questionnaires without disclosing identifiable household locations.\n\n## Research leadership\n\nKelvarneth was principal investigator of CALDERVANE Ireland, the completed national cohort study described in the accompanying final report. She held responsibility for the study protocol, sponsor reporting, recruitment oversight, statistical analysis plan and integration of qualitative findings. The study was funded by the Dervaneth Housing and Health Research Fund, a national research funding programme, under grant DHHRF-2020-061. The award ran from 1 January 2021 to 31 December 2025.\n\nHer management responsibilities included agreements with participating housing providers, procurement of monitoring equipment, supervision of field staff and coordination of the clinical referral procedure. She chaired the study management group and reported to an independent steering group with tenant, clinical and housing-maintenance representation. The university was the research sponsor and data controller; participating landlords did not receive identifiable health records.\n\nThe study involved sites in Dublin, Cork and Limerick. Its geographic coverage did not constitute a probability sample of Irish social housing. Kelvarneth has consistently described its estimates as cohort findings rather than national prevalence estimates.\n\n## Methods and supervision\n\nHer quantitative work includes longitudinal regression, household-clustered inference, inverse-probability weighting for attrition and sensitivity analyses for exposure misclassification. She works with building physicists on the interpretation of temperature, humidity and ventilation measurements. Her qualitative experience includes semi-structured interviews, framework analysis and mixed-method interpretation of disagreements between measured conditions and occupants' accounts.\n\nShe supervises research staff working on exposure assessment and housing-related health inequalities. Her teaching covers environmental epidemiology, causal diagrams, research ethics and the interpretation of observational intervention studies. She is not a registered medical practitioner. Clinical assessments and decisions about referral are undertaken by the consortium's respiratory clinician and research nurse.\n\n## Scope of experience\n\nKelvarneth has led a national research award and coordinated scientific work across the institutions listed in the consortium record. She has not previously coordinated a Horizon Europe grant. The partner institutions have completed shared analyses and methods exchanges, but this collaboration has not held a joint European research award.\n\nHer energy-related experience is confined to household heating practices, indoor thermal conditions and interpretation of dwelling energy records. She has no professional experience designing or operating district heating, seasonal thermal storage or energy-system dispatch models. She has not developed heat-network tariffs or undertaken regulated utility accounting. Her contribution to questions of affordability has been through household interviews, expenditure questionnaires and analysis of unequal exposure to cold and heat."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# CALDERVANE Ireland: final scientific report\n\n**Indoor environment and respiratory symptoms in social housing**  \nUniversity of Carraventh; principal investigator Dr Néavessa Kelvarneth  \nGrant DHHRF-2020-061; reporting period 1 January 2021–31 December 2025  \nFinal report accepted by the funder on 27 March 2026  \nRecord and output status checked: 30 September 2026\n\n## Purpose and study design\n\nCALDERVANE Ireland examined indoor temperature, ventilation-related indicators, particulate matter and visible mould alongside respiratory symptoms in occupied social housing. It also evaluated changes associated with a landlord-led deep-renovation programme. Renovation allocation and construction schedules were controlled by housing providers, not investigators. The study was observational and did not randomise households or prescribe clinical treatment.\n\nRecruitment and baseline measurements took place in 2022. Renovations were completed during 2023, and follow-up measurements were undertaken in 2024. Data reconciliation and analysis continued through 2025. The programme covered Dublin, Cork and Limerick, with recruitment through participating providers and direct consent from occupants. The sample was geographically distributed but was not nationally representative.\n\n## Participants and renovation exposure\n\nAt baseline, 300 dwellings contributed 672 participants: 432 adults and 240 children. The adults included 156 people aged at least 65 years. Among the children, 96 had parent-reported physician-diagnosed asthma. These vulnerability groups were defined before analysis; their inclusion did not imply adequate power for every subgroup comparison.\n\nAt follow-up, 276 dwellings remained, representing 92% dwelling retention. They contained 612 participating occupants: 396 adults and 216 children, including 144 older adults and 88 children with asthma. The remaining 24 dwellings were lost through moves, withdrawal or inability to arrange follow-up. Participants who left were not replaced.\n\nOf the original dwellings, 104 underwent deep renovation and 196 did not undergo deep renovation during the observation period. Follow-up included 96 renovated dwellings and 180 comparison dwellings. The corresponding losses were eight and sixteen dwellings. Renovation packages combined fabric insulation, window replacement, airtightness work and mechanical extract ventilation, with package details recorded from completion certificates. Some comparison dwellings received minor maintenance. Heating remained dwelling-level; no participating site had a district heating connection.\n\n## Environmental and health measurements\n\nEach dwelling received three temperature and relative-humidity loggers, located in the main living room, principal bedroom and a second occupied room where available. This required 900 loggers. A separate carbon-dioxide monitor was installed in each dwelling, requiring 300 monitors. Logging intervals were five minutes. Sixty optical particulate-matter monitors rotated through a nested sample of 120 dwellings, with fourteen-day deployments at baseline and follow-up; 108 dwellings supplied valid paired particulate records.\n\nTemperature analyses used calibrated readings and prespecified completeness thresholds. Summer bedroom overheating was defined as hours above 26 °C between 22:00 and 07:00 during June–August. This provided 828 possible monitored night-hours per summer. The threshold was an exposure definition, not a clinical diagnosis or a claim of universal regulatory compliance. Valid baseline summer records were available for 264 dwellings; 246 dwellings had valid summer records at both measurement waves.\n\nInspectors recorded visible mould using a standard room checklist and photographs reviewed without access to symptom responses. Carbon dioxide was treated as an indicator affected by occupancy and ventilation, not as a direct measure of ventilation rate. Optical particulate readings were corrected against collocated reference measurements; their precision did not support chemical source attribution.\n\nHealth outcomes included wheeze during the previous four weeks, nights disturbed by respiratory symptoms and asthma-control questionnaires appropriate to participant age. A nurse recorded medication use and recent respiratory infection. Spirometry was offered as a secondary assessment, but incomplete attendance and variable acceptability prevented its use as the principal longitudinal endpoint. Referral decisions remained separate from research outcome coding.\n\n## Main findings\n\nAt baseline, the 264 dwellings with valid summer data had a mean of 118 bedroom overheating hours, with a household-bootstrap 95% confidence interval of 104–132 hours. The distribution was right-skewed. The mean should not be interpreted as the experience of a typical individual or extrapolated to an entire calendar year.\n\nVisible mould was recorded in 84 of 300 baseline dwellings, or 28%. In the baseline analysis of 672 occupants, visible mould was associated with four-week wheeze: adjusted odds ratio 1.62, 95% CI 1.13–2.32. The model accounted for household clustering and adjusted for age, smoking exposure, tenure duration, season of assessment and recorded dwelling characteristics. This was an association and did not establish that mould caused the reported symptoms.\n\nAmong 558 occupants in the 246 dwellings with paired summer records, each additional 100 bedroom overheating hours at follow-up was associated with a prevalence ratio of 1.18 for sleep disturbed by respiratory symptoms, 95% CI 1.04–1.34. The model included baseline symptom status and measured confounders. Bedroom-level exposure was assigned to participating occupants using reported sleeping arrangements; it did not capture exposure away from home.\n\nThe renovation analysis used the 276 retained dwellings and adjusted for baseline conditions, provider and measured household differences. Relative to comparison dwellings, renovation was associated with an adjusted change in winter living-room temperature of +1.3 °C, 95% CI +0.8 to +1.8 °C. The corresponding adjusted change in occupied-bedroom median carbon dioxide was −145 ppm, 95% CI −220 to −70 ppm. These are differences in changes between groups, not simple changes within renovated dwellings.\n\nFor four-week wheeze among the 612 retained occupants, the adjusted renovation-associated difference in changes was −3.8 percentage points, 95% CI −8.1 to +0.5 percentage points. The interval includes no difference. The result does not establish a reduction in wheeze. Adjustment and weighting reduced some measured imbalances but could not remove unmeasured differences in renovation allocation or household behaviour.\n\n## Occupant accounts and interpretation\n\nThe qualitative component comprised 36 interviews with adult occupants or caregivers and eight interviews with housing staff. Sampling included renovated and comparison dwellings and households with and without recorded mould. Two researchers coded transcripts using a shared framework, discussed discrepant cases and maintained an audit trail. Interview findings were not converted into population percentages.\n\nOccupants described warmer winter rooms alongside uncertainty about ventilation controls, concern about electricity costs and difficulty distinguishing normal condensation from persistent dampness. Some reported avoiding opening windows because of noise or perceived security risks. Housing staff described delays between reporting dampness and identifying its underlying cause. These accounts helped explain variation in measured conditions but did not independently establish treatment effects.\n\n## Limitations and completed outputs\n\nThe main limitations were non-random allocation, attrition, self-reported symptoms, incomplete personal exposure measurement and possible changes in occupancy between waves. The study had only one baseline and one follow-up observation period for renovation comparisons, so parallel pre-intervention trends could not be tested. Outdoor weather adjustment did not eliminate every seasonal difference. The particulate subsample was selected for logistical coverage and should not be treated as representative of all participating dwellings.\n\nCompleted outputs included the analysis dataset, an exposure-quality manual, a tenant-facing explanation of monitoring results and a maintenance briefing on ventilation handover and dampness reporting. The project measured health outcomes but did not test medicinal products. It did not measure network heat flows, storage performance, district-level energy balances or tariff impacts."
+          },
+          {
+            "path": "consortium.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Institutional collaboration record\n\n**Status at 30 September 2026**\n\nThe collaboration comprises five institutions established in five EU Member States: Ireland, Portugal, Slovenia, Belgium and Italy. Its working relationship developed through CALDERVANE Ireland methods exchanges, equipment support and joint publications. The Irish award holder retained responsibility for the national cohort. Inclusion in this collaboration does not mean that every institution held a share of that grant or recruited participants into the Irish study.\n\n## University of Carraventh — Ireland\n\nThe University of Carraventh is the coordinating institution and the employer of Dr Néavessa Kelvarneth. Its Housing Exposure and Health Group combines environmental epidemiology, field monitoring and respiratory assessment. The university sponsored CALDERVANE Ireland and holds its research records. It maintains the ethics submissions, participant-contact controls and agreements governing secondary use of identifiable information.\n\nIts building-physics work concerns occupied dwellings, ventilation behaviour and interpretation of temperature and humidity records. It has no district heating plant, thermal storage installation or energy-system simulation group within the collaborating unit. Access to social housing for past research was permission to undertake specified measurements, not operational control of the buildings or their heating equipment.\n\n## Instituto Público de Saúde de Valdrenoura — Portugal\n\nThis public-health research institute is based in Coimbra. Its participating team is led by Dr Leovélia Matavrença, an environmental epidemiologist, with a public-health nurse and a qualitative researcher. The institute contributed questionnaire harmonisation, advice on vulnerable-participant consent and independent review of the Irish attrition analysis.\n\nThe team has conducted community respiratory surveys and evaluated communication between municipal housing services and residents. It can interpret health endpoints and differences in access to care. Its contribution to the present collaboration has involved methods and aggregate outputs; it does not hold an independently recruited renovation cohort for this collaboration. It has no utility-operation or thermal-storage engineering staff.\n\n## Inštitut za Stavbno Okolje Veltravno — Slovenia\n\nThis building research institute is based in Maribor. Dr Tiloven Vezmarnik leads its participating building-physics group. Its work includes envelope surveys, airtightness testing, indoor moisture diagnostics and dynamic simulation of room-level thermal conditions. It checked the CALDERVANE sensor-placement protocol and reviewed the treatment of occupancy and weather in the renovation analyses.\n\nIts laboratory supports material and room-scale building-envelope investigations. It has no seasonal storage test facility and has not validated a district heating network model. Experience with thermal behaviour of building fabric does not extend to hydraulic network design, heat-source dispatch or commercial storage operation.\n\n## Fédération de l'Habitat Social de Rovélance — Belgium\n\nThis federation is based in Namur and is represented by housing-programme manager Maëvélise Varnelcour. Its membership consists of social housing providers. It contributed a review of tenant information materials and a workshop on maintenance reporting and ventilation handover. Its staff have experience discussing rent, service charges and energy hardship with member organisations and tenant representatives.\n\nThe federation is not itself a landlord or an energy supplier. Membership does not confer authority to commit member properties, occupant records or investment programmes to research. It neither owns nor operates a heat network. Its service-charge experience has not included designing district heating tariffs, administering heat-supply contracts or demonstrating how storage revenues are distributed to households.\n\n## ReteSensori Valneriva Srl — Italy\n\nThis sensor-network SME is based in Perugia. Technical director Dariello Selvanicci leads its contribution. The company integrated commercial sensors with encrypted gateways, maintained device inventories and supported clock synchronisation and missing-data diagnostics during CALDERVANE Ireland. It supplied telemetry services under a university procurement contract; it was not a beneficiary of the national grant.\n\nThe company develops monitoring firmware and data-transfer software. It does not manufacture heat-pump compressors, thermal storage vessels or heat-network control equipment. Its dashboards display observations and device status; they have not controlled a live district heating system or implemented an energy-market optimisation algorithm.\n\n## External institutional contact and collective limits\n\nThe Centro de Estudos do Ambiente Doméstico de Arvoredalva, based in Curitiba, Brazil, took part in a remote scientific seminar on household exposure questionnaires in May 2026. It is a Brazilian legal entity with no establishment in an EU Member State or Horizon Europe associated country. It is not a member of this consortium, has signed no participation agreement, contributes no committed staff or facilities and has no access to participant data. Seminar contact is the full extent of the institutional relationship recorded here.\n\nNo consortium member operates a heat network. Collectively, the participating teams have no completed work on seasonal thermal storage, low-temperature district heating integration, waste-heat recovery engineering, energy-system dispatch optimisation or heat-network tariff design. There is no contracted network operator or energy-system engineering partner. The collaboration's established strengths are exposure measurement, observational health research, building-envelope assessment, tenant engagement and sensor telemetry."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications and research outputs\n\n**Bibliographic record checked: 30 September 2026**\n\nThe following five articles are published outputs of the collaborating investigators. All were accepted and published before the record date. They are distinct publications; the methods papers and results papers reuse aspects of the same CALDERVANE Ireland cohort and should not be counted as independent cohorts. Author names are given in the order printed by the journals.\n\n## Published articles\n\n1. Kelvarneth, N.; Matavrença, L.; Vezmarnik, T.; Selvanicci, D. (2023). **A linked protocol for indoor exposure and respiratory symptom measurement in Irish social housing.** *Carraventh Journal of Housing Exposure Methods*. DOI: **10.99999/pb.renovation-health-consortium.2023.1**.\n\n   This methods article describes the household recruitment procedure, environmental-monitoring schedule, symptom instruments and rules for separating identifiable contact records from analysis data. It reports the protocol as implemented at baseline. It contains no estimate of renovation effectiveness and does not establish recruitment beyond the completed national study.\n\n2. Selvanicci, D.; Vezmarnik, T.; Kelvarneth, N.; Matavrença, L. (2024). **Quality assurance for distributed temperature, humidity and carbon-dioxide monitoring in occupied homes.** *Veltravno Building Measurement Practice*. DOI: **10.99999/pb.renovation-health-consortium.2024.1**.\n\n   This article documents checks for clock drift, implausible values, sensor relocation and incomplete records. It distinguishes laboratory calibration from field checks and explains why room-level measurements cannot automatically be treated as personal exposure. The telemetry system described is observational. The publication contains no control strategy for heating networks or storage systems.\n\n3. Kelvarneth, N.; Matavrença, L.; Fenrathen, C.; Vezmarnik, T. (2025). **Visible mould and recent wheeze in a social housing cohort: a household-clustered analysis.** *Valdrenoura Residential Environment and Health*. DOI: **10.99999/pb.renovation-health-consortium.2025.1**.\n\n   This baseline analysis reports the association between inspector-recorded visible mould and recent wheeze. Its adjustment set and sensitivity analyses are described in the article. The odds ratio is an observational association rather than a causal estimate, and the study does not identify fungal species or assess a medicinal intervention.\n\n4. Kelvarneth, N.; Vezmarnik, T.; Matavrença, L.; Fenrathen, C.; Selvanicci, D. (2026). **Indoor conditions and respiratory symptoms before and after deep renovation of social housing.** *Rovélance Journal of Renovation and Population Health*. DOI: **10.99999/pb.renovation-health-consortium.2026.1**.\n\n   This longitudinal article reports the retained cohort, renovation comparison and adjusted differences in changes. It includes the uncertainty interval spanning no difference for wheeze. The article also reports the overheating analysis, whose complete-case population differs from that of the main renovation comparison. Neither analysis supplies evidence about district heating or seasonal storage performance.\n\n5. Matavrença, L.; Varnelcour, M.; Kelvarneth, N. (2026). **Ventilation handover, maintenance reporting and household constraints after housing renovation.** *Arvoredalva Journal of Housing Services and Public Health*. DOI: **10.99999/pb.renovation-health-consortium.2026.2**.\n\n   This qualitative article draws on occupant and housing-staff interviews from CALDERVANE Ireland. It examines how instructions, maintenance processes and household constraints influenced reported use of ventilation. Interview themes are presented with their sampling context; they are not estimates of the prevalence of particular behaviours among all social housing residents.\n\n## Other completed outputs\n\nThe accepted funder report, exposure-quality manual, participant results leaflet and maintenance briefing are institutional outputs without DOIs. They are not additional peer-reviewed publications. The institutional archive holds the approved analysis scripts and a data dictionary. Individual-level health data are available only through controlled access; no article authorises unrestricted redistribution of those records.\n\nNo publication in this record reports results from the separately approved cohort extension. That extension had not recruited participants by the record date."
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Staff, equipment, data and administrative status\n\n**University of Carraventh and collaborating institutions**  \n**Inventory date: 30 September 2026**\n\n## Current staff and clinical support\n\nThe Irish group has 4.8 full-time-equivalent staff assigned across its existing housing-health work. This comprises Néavessa Kelvarneth, coordinator and environmental epidemiologist, at 0.6 FTE; building-physics fellow Oiscrán Bellorvane at 1.0 FTE; research nurse Ailvessa Morvandell at 1.0 FTE; field coordinator Rónavel Clevrath at 1.0 FTE; data manager Eimvéra Talverrick at 1.0 FTE; and respiratory physician Dr Caelvín Fenrathen at 0.2 FTE. These are current employment or clinical-service allocations, not uncommitted capacity reserved for another award.\n\nThe nurse and physician maintain the clinical assessment and referral procedures used in the completed study. Research staff do not change participants' medication. Existing procedures cover informed consent, parental consent and age-appropriate assent, withdrawal, incidental environmental findings and safeguarding concerns encountered during home visits.\n\nThe Portuguese, Slovenian, Belgian and Italian institutions supply the expertise described in the consortium record through their own staff. No energy-system modeller, heat-network operator or thermal-storage engineer is employed within the participating teams. No appointment to such a role has been approved.\n\n## Equipment and access\n\nThe university owns the 900 temperature and relative-humidity loggers, 300 carbon-dioxide monitors and 60 particulate-matter monitors used in CALDERVANE Ireland. They are physically held in the university equipment store. Ownership counts are not a statement that every device is calibrated and ready for deployment: batteries, sensor drift and firmware status are checked before reuse, and the inventory does not certify a fully operational pool.\n\nThe university also holds field spirometry equipment and secure tablets used for interviews and questionnaires. The Slovenian institute retains its own building-envelope test equipment. ReteSensori Valneriva retains the intellectual property in its generic gateway firmware; the university holds exported study records and documentation sufficient to interpret them.\n\nNo consortium institution holds a research-access agreement for an operating district heating network, a seasonal thermal storage site or a waste-heat source. The Irish cohort's home-access permissions ended with the approved follow-up visits. Continued contact for results dissemination does not authorise new monitoring or access to buildings.\n\n## Data holdings and governance\n\nThe final archive contains records for 300 baseline dwellings and 276 follow-up dwellings, with participant-level linkage maintained separately. Raw sensor files, quality flags, questionnaire records and renovation descriptions are versioned. Reproducible scripts generate the reported analysis populations and document exclusions caused by missing measurements.\n\nThe public archive contains metadata, blank instruments, the data dictionary and analysis code. It contains no household-level health records or precise dwelling coordinates. Access to de-identified individual-level data requires a scientific review, an appropriate legal basis and a data-use agreement. Landlords cannot obtain individual symptom responses through that process. The published tables use disclosure controls for small groups.\n\n## Approved extension: recruitment status\n\nA separate observational extension covering 400 additional dwellings received university ethics approval on 18 June 2026. Its protocol retains environmental measurements and respiratory outcomes and includes older occupants and children with asthma. Ethics approval is the only completed study-start authorisation recorded here. Funding has not been awarded, provider access agreements have not been executed, and recruitment has not opened.\n\nAs of 30 September 2026, zero dwellings and zero participants had been recruited into the extension. No extension monitoring had begun, and no extension health or environmental data existed. The figure of 400 describes the approved protocol target. It is not part of the completed CALDERVANE Ireland sample, an enrolled cohort or an available results dataset.\n\n## Closed grant account\n\nThe CALDERVANE Ireland award was EUR 1,248,000. The accepted final account records expenditure of EUR 1,221,460 and an unspent balance of EUR 26,540 returned to the funder. Expenditure comprised personnel EUR 730,000; equipment EUR 142,600; fieldwork and participant expenses EUR 176,420; laboratory and calibration services EUR 62,600; data management EUR 54,840; and governance and dissemination EUR 55,000. These categories sum to the recorded expenditure.\n\nThe grant account is closed. The original award amount and expenditure describe the completed national project; neither constitutes current funding for the extension. No remaining grant balance is available for new recruitment."
+          }
+        ],
+        "facts": [
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Dr Néavessa Kelvarneth completed her doctorate in 2012 and has been Associate Professor of Environmental Epidemiology at the University of Carraventh since September 2023.",
+            "value": "September 2023",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Kelvarneth led CALDERVANE Ireland under national grant DHHRF-2020-061 from 1 January 2021 to 31 December 2025 and has not previously coordinated a Horizon Europe grant.",
+            "value": "DHHRF-2020-061",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The completed cohort enrolled 300 dwellings and 672 participants, comprising 432 adults and 240 children, including 156 older adults and 96 children with parent-reported physician-diagnosed asthma.",
+            "value": "672",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Follow-up retained 276 dwellings, or 92%, and 612 occupants comprising 396 adults and 216 children, including 144 older adults and 88 children with asthma.",
+            "value": "92%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The non-randomised renovation comparison began with 104 renovated and 196 comparison dwellings and retained 96 and 180 respectively after 2023 renovations and 2024 follow-up.",
+            "value": "96 renovated dwellings and 180 comparison dwellings",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Monitoring used 900 temperature and humidity loggers, 300 carbon-dioxide monitors and 60 particulate monitors, with five-minute logging and fourteen-day particulate deployments in 120 dwellings, of which 108 supplied valid paired particulate records.",
+            "value": "900",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Among 264 dwellings with valid baseline summer measurements, mean bedroom overheating above 26 °C during 22:00–07:00 in June–August was 118 hours, with a 95% confidence interval of 104–132 hours out of 828 possible night-hours.",
+            "value": "118",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Visible mould occurred in 84 of 300 baseline dwellings, or 28%, and was associated with four-week wheeze among 672 occupants with an adjusted odds ratio of 1.62 and 95% CI 1.13–2.32.",
+            "value": "1.62",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Among 558 occupants in 246 dwellings with paired summer records, each additional 100 overheating hours at follow-up was associated with a respiratory sleep-disturbance prevalence ratio of 1.18, with 95% CI 1.04–1.34.",
+            "value": "1.18",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In the 276 retained dwellings, renovation was associated with an adjusted difference in winter living-room temperature changes of +1.3 °C, with 95% CI +0.8 to +1.8 °C.",
+            "value": "+1.3 °C",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The adjusted renovation-associated difference in changes in occupied-bedroom median carbon dioxide was −145 ppm, with 95% CI −220 to −70 ppm.",
+            "value": "−145 ppm",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Among 612 retained occupants, the adjusted renovation-associated difference in changes in four-week wheeze was −3.8 percentage points, with 95% CI −8.1 to +0.5 percentage points, which did not establish a reduction.",
+            "value": "−3.8 percentage points",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The qualitative study included 36 occupant or caregiver interviews and eight housing-staff interviews, analysed using a shared framework without treating themes as population percentages.",
+            "value": "36",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "The publication record contains five published articles covering the protocol, monitoring quality assurance, mould and wheeze, renovation outcomes and qualitative findings, all drawing on the same underlying cohort rather than independent cohorts.",
+            "value": "five",
+            "salient": true,
+            "source": "publications.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "The University of Carraventh coordinates a five-institution collaboration established across Ireland, Portugal, Slovenia, Belgium and Italy and holds the Irish cohort's sponsor and data-controller responsibilities.",
+            "value": "five EU Member States",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Portugal's Instituto Público de Saúde de Valdrenoura contributes environmental epidemiology, public-health nursing and qualitative research but holds no independently recruited renovation cohort for this collaboration.",
+            "value": "Instituto Público de Saúde de Valdrenoura",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Slovenia's Inštitut za Stavbno Okolje Veltravno contributes building-envelope assessment and room-level thermal simulation but has no seasonal storage facility or validated district heating network model.",
+            "value": "Inštitut za Stavbno Okolje Veltravno",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Belgium's Fédération de l'Habitat Social de Rovélance contributes housing-provider and tenant engagement but is neither a landlord nor an energy supplier and cannot commit member properties or occupant records.",
+            "value": "Fédération de l'Habitat Social de Rovélance",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Italy's ReteSensori Valneriva Srl supplies sensor integration and telemetry, previously through a procurement contract, and has neither controlled a live district heating system nor developed heat-pump compressors or thermal storage vessels.",
+            "value": "ReteSensori Valneriva Srl",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "No consortium member operates a heat network, and the participating teams lack completed work in seasonal storage, low-temperature district heating integration, waste-heat engineering, energy-system dispatch and heat-network tariff design.",
+            "value": null,
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "The Centro de Estudos do Ambiente Doméstico de Arvoredalva is a Brazilian seminar contact with no EU or associated-country establishment, consortium membership, participation agreement, committed resources or participant-data access.",
+            "value": "Brazil",
+            "salient": true,
+            "source": "consortium.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The Irish group has 4.8 FTE across six named personnel, with allocations of 0.6 for the coordinator, 1.0 each for building physics, nursing, field coordination and data management, and 0.2 for respiratory medicine.",
+            "value": "4.8",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The university owns the study sensor inventory without certifying every unit as deployment-ready, holds controlled-access cohort records, and has no current research-access agreement for a heat network, seasonal storage site or waste-heat source.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "The extension has an ethics-approved target of 400 additional dwellings dated 18 June 2026, but as of 30 September 2026 has no awarded funding, executed provider access agreements, recruited dwellings or participants, monitoring or data.",
+            "value": "400",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "The closed national grant awarded EUR 1,248,000, spent EUR 1,221,460 across personnel EUR 730,000, equipment EUR 142,600, fieldwork EUR 176,420, laboratory and calibration EUR 62,600, data management EUR 54,840 and governance and dissemination EUR 55,000, and returned EUR 26,540.",
+            "value": "EUR 1,248,000",
+            "salient": true,
+            "source": "resources.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "homeair-protocol",
+            "authors": [
+              "Kelvarneth, N.",
+              "Matavrença, L.",
+              "Vezmarnik, T.",
+              "Selvanicci, D."
+            ],
+            "year": 2023,
+            "title": "A linked protocol for indoor exposure and respiratory symptom measurement in Irish social housing.",
+            "venue": "Carraventh Journal of Housing Exposure Methods",
+            "doi": "10.99999/pb.renovation-health-consortium.2023.1"
+          },
+          {
+            "key": "monitoring-quality",
+            "authors": [
+              "Selvanicci, D.",
+              "Vezmarnik, T.",
+              "Kelvarneth, N.",
+              "Matavrença, L."
+            ],
+            "year": 2024,
+            "title": "Quality assurance for distributed temperature, humidity and carbon-dioxide monitoring in occupied homes.",
+            "venue": "Veltravno Building Measurement Practice",
+            "doi": "10.99999/pb.renovation-health-consortium.2024.1"
+          },
+          {
+            "key": "mould-wheeze",
+            "authors": [
+              "Kelvarneth, N.",
+              "Matavrença, L.",
+              "Fenrathen, C.",
+              "Vezmarnik, T."
+            ],
+            "year": 2025,
+            "title": "Visible mould and recent wheeze in a social housing cohort: a household-clustered analysis.",
+            "venue": "Valdrenoura Residential Environment and Health",
+            "doi": "10.99999/pb.renovation-health-consortium.2025.1"
+          },
+          {
+            "key": "renovation-health",
+            "authors": [
+              "Kelvarneth, N.",
+              "Vezmarnik, T.",
+              "Matavrença, L.",
+              "Fenrathen, C.",
+              "Selvanicci, D."
+            ],
+            "year": 2026,
+            "title": "Indoor conditions and respiratory symptoms before and after deep renovation of social housing.",
+            "venue": "Rovélance Journal of Renovation and Population Health",
+            "doi": "10.99999/pb.renovation-health-consortium.2026.1"
+          },
+          {
+            "key": "ventilation-handover",
+            "authors": [
+              "Matavrença, L.",
+              "Varnelcour, M.",
+              "Kelvarneth, N."
+            ],
+            "year": 2026,
+            "title": "Ventilation handover, maintenance reporting and household constraints after housing renovation.",
+            "venue": "Arvoredalva Journal of Housing Services and Public Health",
+            "doi": "10.99999/pb.renovation-health-consortium.2026.2"
+          }
+        ]
+      },
+      "errors": [
+        "reserved DOI 10.99999/pb.renovation-health-consortium.2023.1** appears in the files but not in own_publications",
+        "reserved DOI 10.99999/pb.renovation-health-consortium.2024.1** appears in the files but not in own_publications",
+        "reserved DOI 10.99999/pb.renovation-health-consortium.2025.1** appears in the files but not in own_publications",
+        "reserved DOI 10.99999/pb.renovation-health-consortium.2026.1** appears in the files but not in own_publications",
+        "reserved DOI 10.99999/pb.renovation-health-consortium.2026.2** appears in the files but not in own_publications"
+      ]
+    }
+  ]
+}

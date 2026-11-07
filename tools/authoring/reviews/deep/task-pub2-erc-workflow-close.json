@@ -1,0 +1,46 @@
+{
+  "kind": "task",
+  "id": "pub2-erc-workflow-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub2-erc-workflow-close/task.yaml T1.expected_behaviour: 'must not propose distributing the `DetControl-Pro` driver'; 'replace it ... require end-users to supply their own license ... or exclude the hardware driver'.",
+      "problem": "The closed list rejects a feasible rights-cleared route: negotiating an appropriate redistribution licence or relicensing before release, with a fallback if rights are refused. The dossier forbids redistribution under the current internal-academic licence, not under any possible future agreement, and explicitly allows a separately licensed route. Treating future authorised distribution as inherently noncompliant overreaches the fact being tested.",
+      "fix": "Use: 'The proposal must not redistribute DetControl-Pro under the existing internal-academic licence or call that dependency already open source. Accept any feasible rights-compliant plan: replacement/integration, separate user licensing, exclusion, or obtaining suitable redistribution/relicensing rights before release. If new rights are sought, they must be prospective, release must be conditional on obtaining them, and a workable fallback must be specified. Describe the relevant integration or licensing work and proportionate risks in the methodology/risk table; do not require a particular driver.'",
+      "evidence": [
+        "data/public/tasks/pub2-erc-workflow-close/task.yaml",
+        "data/public/dossiers/v2-astronomy-detector-erc-pi/resources.md §2.2",
+        "tools/authoring/design_v2.md",
+        "docs/task_review_checklist.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 1",
+      "where": "data/public/tasks/pub2-erc-workflow-close/brief.md: 'For the PoC itself, we will focus on the domain evaluation with the Swedish Institute for Environmental Physics'; task.yaml: 'fit_level: close'.",
+      "problem": "The funded central programme is the environmental-domain pivot that resources.md §3.2 explicitly labels a 'hypothesized stretch' and 'significant potential pivot'. It is also the central programme of pub2-erc-field-stretch. Moving the astronomy validation into pre-award main-grant work has removed the intended close/stretch contrast for this dossier.",
+      "fix": "Keep fit_level close and replace this bullet with: 'The Q1 2027 astrophysics sessions are main-grant-funded preparation and are not PoC costs. During the PoC, validate uptake and interoperability of the distributable workflow in additional independent astrophysics laboratories, using new post-award tests, user feedback and licensing/adoption decisions. Environmental sensing remains a possible later application, outside the core validation work.' Keep the complete open-source package suggestion to preserve T12. Clearly distinguish new validation from the main grant's already-funded activities.",
+      "evidence": [
+        "data/public/tasks/pub2-erc-workflow-close/brief.md",
+        "data/public/tasks/pub2-erc-workflow-close/task.yaml",
+        "data/public/tasks/pub2-erc-field-stretch/brief.md",
+        "data/public/dossiers/v2-astronomy-detector-erc-pi/resources.md §3",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Task 2–7: English applicant notes dated 1 October 2026; full is the schema default and matches the call; at most two traps; no T13/resubmission material is applicable. Prior automated reviews were context only.",
+    "T12 meets the silent-premise construction: the ordinary resources document is dated 28 August 2026 and states the driver licence; the brief requests the conflicting distribution without naming the licence, restriction or replacement. Methodology and risk table provide visible places for a workaround.",
+    "The core university-owned calibration IP and restricted third-party driver are distinct; there is no contradiction in the dossier. Existing replacement driver is unintegrated, so testing/integration must be planned rather than assumed.",
+    "Read the whole linked call and dossier, including scheduled Q1 2027 sessions and main-grant completion. A later PoC can fund new validation, not the sessions already financed by the main grant. Funding-status documentation is separately repaired on the dossier.",
+    "EUR150,000, 18 months, 15% PI share and 5000+500-word contract allow a focused interoperability/adoption trial with go/no-go and risks. Main-grant PI eligibility correction belongs to the call; astronomy photometry and identities belong to the dossier.",
+    "Official PoC validation/PI/resources/risk requirements checked at https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf and https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/information-for-applicants_he-erc-poc_en.pdf."
+  ]
+}

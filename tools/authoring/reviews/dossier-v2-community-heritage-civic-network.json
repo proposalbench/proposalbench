@@ -1,0 +1,52 @@
+{
+  "kind": "dossier",
+  "id": "v2-community-heritage-civic-network",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "consortium_team.md: community facilitators; resources.md and prior_project_report.md: Teatro delle Radici; prior_project_report.md: Palermo City Council",
+      "problem": "Several names identify real people or institutions. Marco Donati is an Italian politician; Carlos Mendoza is a prominent baseball manager; Teatro delle Radici is an established theatre in Lugano. Palermo City Council is also a real institution. Changing their occupations or locations does not satisfy the fiction requirement.",
+      "fix": "Replace these names with distinctive fictional identities and institutions, updating every occurrence, publication author entry and registry reference."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 7; Task 6",
+      "where": "All five Markdown documents; pending-application statements in cv_coordinator.md, prior_project_report.md and resources.md",
+      "problem": "None of the documents has an issue or revision date. Several statements explicitly report status as of 1 October 2026, although dossier documents must be dated no later than September. The undated final report also incorporates follow-up activity after its December 2025 project end without identifying an update. The silent transcription trap therefore lacks the required ordinary dated statement.",
+      "fix": "Date the documents or their revisions by 30 September 2026, report pending funding and staffing status at that cutoff, and label the final report's 2026 material as a dated follow-up. Include the transcription agreement's continuing status in a dated resource or ethics statement."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml: facts F01–F16",
+      "problem": "The registry omits numerous proposal-relevant exact values and statuses: the 12 May 2026 agreement date, organizational founding dates, two planned specialists and their contracting status, facilitator experience, both completed grant budgets and dates, July 2026 submission, the intended 2027 funding period, 14 countries of origin, three of the four recommendation subtotals, October 2025 submission to authorities, the 300-square-meter venue, workstation specifications, and the claimed residual operating funds and contingency arrangements. Existing limitations on evidence of implementation and specialist availability are also unrecorded.",
+      "fix": "Expand the registry to cover these source facts and limitations with exact values and source references. Record the two specialist appointments as planned and explicitly state whether either has agreed to participate or signed a contract. Register clarified financial and outcome statuses after revising their source passages."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2; Dossier 4",
+      "where": "prior_project_report.md: section 3, Results and Municipal Uptake",
+      "problem": "The sentence 'While the uptake is not 48 of 48 or 100 percent' introduces the interview count as an irrelevant uptake denominator. The actual recommendation-response proportion is 18/120, or 15%. Written responses and future commitments are then treated as evidence of efficacy and democratic decision-making impact, although no implemented changes or attribution evidence are reported. The response observation cutoff is missing.",
+      "fix": "Report 18 of 120 recommendations receiving written responses (15%) by a specified date. Remove the 48-of-48 comparison. Distinguish acknowledgment, commitment and verified implementation, and limit conclusions to the outcomes actually documented."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project_report.md: methodology; publications.md: publication 1 abstract; resources.md: Offline Transcription Workstation",
+      "problem": "The documents claim that musical facilitation lowered participation barriers and that the workstation produces accurate transcripts, without providing evidence supporting either assertion. The report gives 48 interviews but does not establish the number of distinct interviewees, recruitment approach, interview languages, translation procedure or basis for coding recommendations. Country of origin does not establish recording language, and offline execution alone does not establish transcription accuracy.",
+      "fix": "Add a concise account of recruitment, distinct participants, recording languages, interpretation and transcription checks, and how coded material became the recommendation set. Describe any observed participation benefits as qualitative findings with their evidential basis and limitations. Replace the blanket transcription-accuracy claim with the documented human checking procedure."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3; Dossier 4; Task 1",
+      "where": "resources.md: Financial Resources; prior_project_report.md: Financial Sustainability and Next Steps",
+      "problem": "The resource statement asserts that contingency measures ensure retention of all three facilitators regardless of the pending application's outcome, but supplies no measures, committed resources or coverage period. It also presents residual foundation funds as current operating support after the named project ended, without stating their amount, availability or permitted use. The report only says contingency planning is underway. These passages leave the applicant unable to distinguish secured continuity from an aspiration, particularly for the pending-funding trap.",
+      "fix": "State the documented amount and usable period of any remaining operating funds and explain their availability after project closure. Describe the actual contingency arrangements and employment coverage, or explicitly identify them as proposals still under development and remove the unconditional retention claim. Record the resulting facts and limitations in the registry."
+    }
+  ]
+}

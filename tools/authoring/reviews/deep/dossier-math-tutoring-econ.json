@@ -1,0 +1,119 @@
+{
+  "kind": "dossier",
+  "id": "math-tutoring-econ",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/math-tutoring-econ/team_resources.md: “Dr. Yuna Park” and “Dr. Alicia Reeves”; dossier.yaml F20/F39; Yuna also appears in pub-nsf-stemed-close/brief.md.",
+      "problem": "These full names collide with identifiable real people in research/education. Yuna Park has an active AI research profile and publications; Alicia Reeves appears in official school staff directories and an Oak Ridge National Laboratory profile. A fictional-document notice does not meet the stipulated no-collision requirement.",
+      "fix": "Rename Yuna Park to “Yunara Pellen” and Alicia Reeves to “Alicia R. Veldren” in the dossier, facts and dependent brief. Exact searches of these proposed full names returned no matching results on 2026-10-31; this is search-bounded screening, not a guarantee of uniqueness.",
+      "evidence": [
+        "https://yunapapaa.github.io/",
+        "https://hes.iwcs.k12.va.us/apps/pages/index.jsp?pREC_ID=2488112&type=d&uREC_ID=413069",
+        "https://impact.ornl.gov/en/persons/alicia-reeves/",
+        "data/public/dossiers/math-tutoring-econ/team_resources.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/math-tutoring-econ/cv_copi.md: “Carrington University”, “Southwestern State University”, “Riverside Unified School District, TX”; all files: “Langford University”; prior_project.md/team_resources.md: “Columbus Metropolitan School District (CMSD)”. cv_pi.md also lists “Institute for Education Sciences, Brookhaven University”.",
+      "problem": "Riverside Unified School District is a real California district, not a fictional Texas employer. Carrington University was an actual diploma-scam name. Southwestern State University is readily confusable with Georgia Southwestern State University. Langford University is already used in public institutional/campus descriptions (Royal Roads and Bristol). Columbus Metropolitan School District is also printed in an Ohio government document for Cleveland Metropolitan School District’s Empower CMSD programme. These are confirmed exact or readily confusable institutional names, rather than clean fictional identities. The postdoctoral unit name also matches a documented variant of the US Department of Education’s Institute of Education Sciences, but is presented as a university employer rather than a real funder.",
+      "fix": "Apply this replacement map throughout this dossier, its facts/publications and both dependent task bundles: Carrington University → Tesselmere University; Southwestern State University → Alderfen State University; Riverside Unified School District → Merrivale Independent School District (retain TX); Langford University → Velmarden University; Columbus Metropolitan School District (CMSD) → Cedarquill Metropolitan School District (CQMSD). Rename the institutional center to Velmarden Center for Education Research (VCER), and use reserved contact addresses rostrander@velmarden.example and mtrevino@velmarden.example. Searches for the proposed full institutional names found no exact matches. Preserve the existing populations, roles and dates. Replace that postdoctoral unit with “Brookhaven University Learning Evidence Unit”.",
+      "evidence": [
+        "https://www.riversideunified.org/",
+        "https://sitios.itesm.mx/sistema/cms/correosistema_pdf/academicos/0369-RVD_060-Anexo2.pdf",
+        "https://www.usg.edu/institutions/profile/georgia-southwestern-state-university/",
+        "https://www.highlands.ca/media/1483",
+        "https://n-somerset.inconsult.uk/gf2.ti/af/1370722/508616/PDF/-/UOB.PreferredOptions.FINAL.pdf",
+        "https://dam.assets.ohio.gov/image/upload/broadband.ohio.gov/04292024_Ohio_Digital_Opportunity_Plan.pdf",
+        "https://www.ed.gov/about/news/press-release/us-department-of-education-receives-recommendations-reform-institute-of-education-sciences"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/math-tutoring-econ/prior_project.md: “The tutoring model, called MathBoost”; §6: “deposited with the Inter-university Consortium for Political and Social Research (ICPSR) ... (ICPSR Study #39847)”.",
+      "problem": "MathBOOST is an existing high-dosage school-tutoring programme in Oakland, making this a direct same-field project-name collision. ICPSR is a real repository organisation, presented as holding this fictional study under a live-format accession. Study 39847 itself could not be verified (403/no indexed exact result), so this finding does not assert that accession belongs to another dataset; the real repository attribution already violates the fictional-applicant-world requirement.",
+      "fix": "Rename MathBoost to “RatioWeave-Tutor” everywhere in the dossier and both dependent task bundles, including publication headings and hidden descriptions. Replace the repository sentence with: “De-identified student-level data are deposited in the Velmarden Center for Education Research restricted archive, record PB-MTE-DATA-01, under a restricted-use agreement.” Update F17 to that exact identifier/source and retain the existing access constraints. The proposed programme name had no exact search hit.",
+      "evidence": [
+        "https://www.oaklandreach.org/all/math-fellowship-application",
+        "https://stem.unm.edu/get-involved/mathboost.html",
+        "https://www.icpsr.umich.edu/sites/icpsr/home",
+        "data/public/dossiers/math-tutoring-econ/prior_project.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/math-tutoring-econ/cv_copi.md, Professional Service: “Board Member, Association of Mathematics Teacher Educators (AMTE), 2023–present” and “ZDM – Mathematics Education”; cv_pi.md: “Member, Society for Research on Educational Effectiveness (SREE); American Educational Research Association (AERA), Division L”.",
+      "problem": "These are real organisations and a real journal embedded in the invented applicants’ professional records. The named AMTE board appointment is especially concrete. They are not the permitted real funders, schemes, methods or instruments. The seven own-publication journal titles have been fictionalised, but these service entries were missed.",
+      "fix": "Replace the AMTE board entry with “Member, Velmarden University Mathematics Education Research Committee, 2023–present”. Remove ZDM from the reviewer list, retaining the fictional Stanton and Clearfield journals. Replace the SREE/AERA membership line with “Member, Velmarden University Education Research Forum”. These changes keep service experience without assigning roles in real organisations.",
+      "evidence": [
+        "https://amte.net/",
+        "https://www.sree.org/",
+        "https://www.aera.net/",
+        "https://link.springer.com/journal/11858",
+        "data/public/dossiers/math-tutoring-econ/cv_copi.md",
+        "data/public/dossiers/math-tutoring-econ/cv_pi.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/math-tutoring-econ/cv_pi.md, Grants: “2017–2019 | William T. Grant Foundation, Scholars Program ... $350,000”; cv_pi.md/cv_copi.md/prior_project.md: “Spencer Foundation, Major Research Grant #202000187”.",
+      "problem": "The named Scholars programme funds a five-year research/mentoring plan, not the unexplained three-year award shown here; the foundation’s contemporary 2017 report confirms this. The Spencer award label also presents “Major Research Grant” as a programme name without identifying an actual 2020 programme. Its $748,000 is plausible at the Lyle Spencer award scale, so reducing the amount is unnecessary.",
+      "fix": "Change the Scholars row period to “1 July 2017–30 June 2022” and keep $350,000. Replace the Spencer label throughout with “Spencer Foundation research grant (fictional award PB-SP-MTE-2020-01)”, retaining $748,000 and 1 August 2020–31 July 2024, rather than asserting a nonexistent named scheme. Update corresponding facts and dependent brief/key award identifiers. Register the corrected Scholars grant as a fact.",
+      "evidence": [
+        "https://wtgrantfoundation.org/wp-content/uploads/2018/06/WTG-2017-Annual-Report.pdf",
+        "https://spencerfoundation.s3.us-east-2.amazonaws.com/store/0c851edb0d7dc18cd4806dbf09e9c7a8.pdf",
+        "https://cdn02.pucp.education/investigacion/2019/11/29210537/lyle_spencer_research_awards_to_transform_education.pdf",
+        "data/public/dossiers/math-tutoring-econ/cv_pi.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/math-tutoring-econ/prior_project.md §4.2: “Students who attended at least 80% of sessions ... showed a larger effect ... 0.27 SD (95% CI [0.13, 0.41])”; dossier.yaml F27.",
+      "problem": "Attendance is measured after school randomisation. Selecting high attenders breaks the randomised comparison, yet this is presented as a larger treatment effect without a comparator, identification method or selection-bias caveat. The methods only describe the ITT model. An applicant can therefore repeat a misleading causal dose-response claim while faithfully following the dossier.",
+      "fix": "Replace the sentence with: “In an exploratory comparison of the 1,614 treatment students attending at least 80% of sessions with the control sample, the adjusted difference was 0.27 SD (95% CI [0.13, 0.41]). Attendance was not randomised; this selected-sample association does not identify a causal effect of higher attendance or establish an effect larger than the ITT estimate.” Mirror this qualification in F27 and register it as a salient limitation. Keep the numerical result and primary ITT result unchanged.",
+      "evidence": [
+        "data/public/dossiers/math-tutoring-econ/prior_project.md",
+        "data/public/dossiers/math-tutoring-econ/dossier.yaml",
+        "https://content.sph.harvard.edu/wwwhsph/sites/1268/2018/08/hernan_nejm17.pdf"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/math-tutoring-econ/team_resources.md: “no formal commitment for a new study has been made”; prior_project.md §6: “Interview transcripts are available upon request with IRB approval” and “curriculum materials are proprietary ... not publicly available”; dossier.yaml F05/F06/F18 and facts list.",
+      "problem": "The facts omit the new-study commitment status and two reuse/access restrictions, all salient to an authentic classroom study and open-materials plan. F05/F06 omit the uncertainty intervals for the two secondary results. F18 combines both investigators’ absence of NSF funding but cites only the PI CV, which supports only Ostrander’s statement. These omissions weaken grounding checks and make the key less precise than the visible record.",
+      "fix": "Add separate salient facts sourced to team_resources.md for “no formal commitment for a new study has been made” (planned partnership, not secured), and to prior_project.md for the transcript IRB condition and proprietary curriculum. Expand F05 to include 95% CI [0.14, 0.42] and F06 to include [0.01, 0.25]. Split F18 into an Ostrander fact sourced to cv_pi.md and a Treviño fact sourced to cv_copi.md. Use new unused fact IDs and preserve every existing factual value.",
+      "evidence": [
+        "data/public/dossiers/math-tutoring-econ/team_resources.md",
+        "data/public/dossiers/math-tutoring-econ/prior_project.md",
+        "data/public/dossiers/math-tutoring-econ/cv_pi.md",
+        "data/public/dossiers/math-tutoring-econ/cv_copi.md",
+        "data/public/dossiers/math-tutoring-econ/dossier.yaml",
+        "docs/scoring_spec.md",
+        "src/proposalbench/judge/items.py"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all five visible files and all 44 fact entries / 7 own-publication entries. Every non-null value string occurs in its named source; the wider unsupported F18 assertion and omissions are reported separately. There are no hidden gaps, inconsistencies or reviewer_criticisms entries and no resubmission material.",
+    "Recomputed 2118+2099=4217; (4530−4217)/4530=6.9095%; 19+19=38 of 42 schools; 1614/2118=76.204%; 31/48=64.583%; 38/48=79.167%; 25+23=48; both racial percentage sets sum to 100. Rounded percentages agree. The stated median attendance is compatible with 76% attending at least 80%.",
+    "All reported confidence intervals surround their estimates; significance statements are compatible with rounding and clustered analyses. Effect sizes of roughly 0.2–0.3 SD and three weekly small-group sessions are scientifically plausible: https://www.aeaweb.org/articles?id=10.1257/aer.20210434 ; https://www.nber.org/papers/w27476 . No blanket “0.28 is not large” objection is made: magnitude depends on the education context.",
+    "The research award is now explicitly separate from district-funded tutoring. 2118×$3400×2=$14,402,400 in delivery costs is therefore not an arithmetic contradiction with the $748,000 research grant. No repetition of the repaired funding-source issue.",
+    "CV degrees, teacher experience and promotion dates are coherent; current documents are September 2026. The October 2024 final report is an appropriately historical record. The postdoc end date, MOU end date and unconfirmed new study require renewal/planning, not an assumption that they are secured through a 2027-submission project.",
+    "Searched full personal names Rachel M. Ostrander, Marcus J. Treviño, Daniel K. Fischetti, Sandra L. Muñoz, Yuna Park and Alicia Reeves, plus the brief-only Lian Hargrove. No authoritative exact full-name collision was established for the first four or Lian. Shorter Rachel Ostrander/Marcus Trevino matches were not treated as conclusive identity matches. Confirmed collisions are reported.",
+    "Searched Langford University, University of Westhaven, Ridgemont College, Brookhaven University, Carrington University, Southwestern State University, both districts, LCER, MathBoost, ICPSR 39847, and every own-publication journal: Ridgeway Educational Research Journal; Stanton Journal for Research in Mathematics Education; Hargrove Review of Educational Evaluation and Policy; Quarterly Review of Education Economics; Clearfield Review of Mathematical Thinking and Learning; Pearlman Journal of Research on Educational Effectiveness. No exact journal collision found. Brookhaven University appeared as another explicitly mock institution, not evidence of a real university. Also searched the postdoctoral unit Institute for Education Sciences and both main grant/project titles; no exact real project-title match was established.",
+    "All seven fictional publication DOIs use 10.99999/pb.; authors/years/titles/venues agree with the hidden own-publications list and CVs. Real funders and established statistical/software instruments are retained as permitted. Source access limits and replacement-name searches are recorded in .codex-handoff/deep_review_v1e.md."
+  ]
+}

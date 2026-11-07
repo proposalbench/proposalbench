@@ -1,0 +1,87 @@
+{
+  "kind": "dossier",
+  "id": "v2-stress-attention-a1-lab",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1, Dossier 6",
+      "where": "cv_thorne.md, EDUCATION/TRAINING; publications.md, publication 4; dossier.yaml, Thorne2021",
+      "problem": "University of Northern California is a real institution name, and Cognitive and Behavioral Practice is a real journal. The fictional-document notice and fictional DOI do not make these entities fictional.",
+      "fix": "Replace the institution and journal with distinct invented names, updating every corresponding reference in the documents and YAML."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 9",
+      "where": "summary_statement_a0.md, CRITERION SCORES and CRITIQUE 1–3",
+      "problem": "The February 2026 R21 application is presented under the former five separately scored review criteria. R21 applications submitted for due dates from January 25, 2025 use NIH's simplified review framework: two scored factors and an expertise/resources sufficiency assessment. The supplied report therefore does not use the applicable funder format.",
+      "fix": "Reformat the summary statement using Importance of the Research, Rigor and Feasibility, and Expertise and Resources, retaining the substantive criticisms. Also distinguish the program contact from the Scientific Review Officer rather than presenting the latter as the program contact."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 7",
+      "where": "cv_thorne.md; cv_jenkins.md; publications.md; resources_and_team.md",
+      "problem": "These documents have no preparation date or September 2026 status date. Statements such as 'Present', 'None currently active', current employment, and available facilities are consequently not anchored to the required dossier snapshot. The September update does not expressly reconfirm these documents.",
+      "fix": "Date each document no later than September 2026 and explicitly establish the effective date of current appointments, support, publications and resource availability."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "cv_thorne.md and cv_jenkins.md, form header and Section D",
+      "problem": "The biographies use an expired legacy NIH template and retain a Research Support section inappropriate to the current biosketch format. As current materials for a September 2026 resubmission, they do not resemble the required NIH Common Form and supplement.",
+      "fix": "Use the applicable 2026 biosketch structure, with support information in an appropriately separate document, or clearly present these as dated internal CVs without obsolete NIH form headers."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts",
+      "problem": "The registry omits numerous proposal-relevant numbers and statuses: the six-month observation period, EMA and mCPT frequencies, three-minute task duration, monthly pill counts, eligibility ages, pilot timing and two-week retest interval, exclusion of pilot participants from the main cohort, completed R03 support and its dates, absence of active support, current appointments, and existing computing and clinical resources. The annual clinic population is also marked nonsalient despite its recruitment relevance.",
+      "fix": "Register these facts with their exact source values and historical, current or planned status. Include available recruitment resources and explicit limitations, and mark recruitment-relevant quantities salient."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, F06, F09 and F13",
+      "problem": "These entries conflate completed preparations with future implementation. The report says protocol amendments and a revised DAG already exist, while measurement and analyses remain prospective. F09 additionally says the DAG includes sensitivity analyses, although the source describes sensitivity analyses as a separate addition. F13 does not separately register the existing post-discharge registry.",
+      "fix": "Split completed protocol and DAG revisions from planned data collection and analyses. Record the existing subgroup registry separately from planned sampling, and describe sensitivity analyses independently of the DAG."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2, Dossier 4",
+      "where": "update_report_sept2026.md, Attention-Task Reliability",
+      "problem": "The ICC result lacks the ICC model, agreement/consistency definition, single/average-measure specification, confidence-interval method and explicit number of complete pairs. More substantively, a two-week retest ICC does not establish reliable measurement of the within-person attention fluctuations required for mediation. Calling the result acceptable support for Aim 2 overlooks both that distinction and the lower confidence bound of 0.37.",
+      "fix": "Document the estimand, calculation and complete-pair sample size. Describe the finding as preliminary retest evidence, identify the unresolved within-person measurement limitation, and state any further reliability assessment or measurement-error analysis as planned."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "update_report_sept2026.md, Confounding Variables; resources_and_team.md, Jenkins responsibilities",
+      "problem": "The Brief Symptom Inventory measures psychological symptoms, but the cohort includes adults with chronic medical as well as psychiatric conditions. It does not by itself measure the medical disease severity raised in the review. The update treats adding this instrument and medication coding as sufficient adjustment for the stated confounding problem.",
+      "fix": "Identify psychological symptom severity accurately and acknowledge residual medical-severity confounding. Add a planned condition-appropriate severity assessment, justify a narrower population, or specify an analysis limitation and mitigation without claiming confounding has been eliminated."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3, Dossier 4",
+      "where": "update_report_sept2026.md, Clinic Access and Linkage",
+      "problem": "The report calls the combination of daily self-report and monthly pill counts 'validated', but supplies no validation evidence or defined combination rule. Monthly pill counts cannot independently verify which daily doses were taken, and the review explicitly identifies continuing self-report bias.",
+      "fix": "Remove the unsupported validation claim or supply documented validation for a precisely defined measure. Distinguish daily self-reported adherence from monthly aggregate corroboration and record the remaining measurement limitations."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 9",
+      "where": "update_report_sept2026.md, opening and changes 1–4; summary_statement_a0.md, Critiques 2 and 3",
+      "problem": "The changes report does not explain the disposition of two explicit review criticisms: power calculations that ignore missing data and adherence measurement susceptible to social desirability bias. It therefore does not make plain which criticisms remain unanswered. The new 'validated combination' wording further obscures the unresolved adherence concern.",
+      "fix": "Add a dated response for each outstanding criticism, stating what changed and what remains unresolved. Any revised power simulation or adherence validation must be identified as completed with supporting results or as planned."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "summary_statement_a0.md, medication-confounding criticism; update_report_sept2026.md, section 2; dossier.yaml, R2",
+      "problem": "The reviewer states that medication class and baseline severity 'confounded the stress association' as an established empirical finding. The A0 contains no observed stress-adherence association, and the main cohort has no recruited participants. The supplied evidence supports a concern about potential confounding, not a demonstrated confounding result.",
+      "fix": "Rephrase the criticism consistently as failure to measure and account for potential confounding by medication characteristics and baseline severity. Preserve its substance in the update, hidden criticism entry and associated trap premise."
+    }
+  ]
+}

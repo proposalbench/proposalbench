@@ -1,0 +1,50 @@
+{
+  "kind": "call",
+  "id": "v2-he-food-coldchain",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml: length_contract.tolerance; call.md: Length",
+      "problem": "The YAML specifies a 3% tolerance, but the applicant-facing call states that text beyond 18,000 words is disregarded. Applying the tolerance would permit 18,540 words, a different enforcement boundary.",
+      "fix": "Set tolerance to 0, or explicitly state the same tolerance and its enforcement consequences in call.md.",
+      "part": "template"
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md: Specific conditions and call information table",
+      "problem": "No submission deadline is supplied. The call therefore lacks an actionable closing date and does not establish that its deadline falls after the benchmark present date of 1 October 2026.",
+      "fix": "Add a fictional submission deadline after 1 October 2026, including the closing time and time zone, and explicitly include the deadline among the invented call particulars.",
+      "part": "topic"
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "call.md: Length, “Benchmark adaptation: the limit is enforced”",
+      "problem": "The length provision explicitly describes benchmark enforcement mechanics. The permitted fictional-call notice does not justify presenting the operational word limit as a benchmark mechanism.",
+      "fix": "Describe 18,000 words as a restriction of this fictional call, retaining the counting rules and disregard-excess policy without referring to benchmark enforcement.",
+      "part": "template"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md: Scope fourth bullet and Specific conditions fourth bullet; call.yaml: SC4 and ME4",
+      "problem": "SC4 and ME4 both require safe field-sampling procedures. ME4 adds a dedicated task and biosafety protocols, but repeats the sampling obligation, allowing the same narrative content to satisfy overlapping checklist items.",
+      "fix": "Keep sampling design and validation in SC4. Narrow ME4 to a distinct dedicated task specifying biosafety arrangements for handling microbial hazards during field validation. Apply the same changes in both files.",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 4",
+      "where": "call.md: Scope introduction, “a primary cause of food spoilage and microbial contamination”",
+      "problem": "The introduction conflates microbial contamination with microbial proliferation. Temperature abuse can promote growth of organisms already present; it does not ordinarily introduce contamination. The unqualified claim also treats cold-chain interruptions as a primary cause across foods without defining the relevant products or conditions.",
+      "fix": "State that cold-chain interruptions can promote spoilage and the proliferation of pathogens already present in susceptible perishable foods, increasing waste and food-safety risks.",
+      "part": "topic"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "kind": "dossier",
+  "id": "v2-estuary-neighbourhood-planning-consortium",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1; Dossier 6",
+      "where": "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/publications.md items 2 and 6 and cv_coordinator.md service: “Journal of Delta Urbanism”; dossier.yaml own_publications venues.",
+      "problem": "Journal of Delta Urbanism is a real TU Delft OPEN journal. The dossier invents articles and editorial-board service in that real journal; the fictional DOI prefix does not cure the collision.",
+      "fix": "Replace the venue everywhere in this dossier, including both own_publications entries and the CV service line, with “Review of Estuarine Neighbourhood Design”. Preserve article titles, dates and fictional DOIs.",
+      "evidence": [
+        "https://journals.open.tudelft.nl/jdu",
+        "https://publishers.issn.org/resource/ISSN/2666-7851"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/prior_project.md heading: “BUURTPEIL (2024–2026)”; publications.md: “BUURTPEIL block dataset” and “buurtpeil-model”.",
+      "problem": "BuurtPeil is an existing Dutch neighbourhood participation platform and process offered by Factor 80/20. The shared name and same resident-engagement setting create a direct project/product confusion.",
+      "fix": "Rename the fictional project “PB-BUURTGETIJ-26” throughout the dossier, dataset titles, code name (pb-buurtgetij-26-model), fact texts and relevant brief/task references. Preserve its subtitle, dates, award and results.",
+      "evidence": [
+        "https://buurtpeil.nl/",
+        "https://buurtpeil.nl/contact/",
+        "data/public/tasks/pub2-he-stage1-coast-stretch/brief.md",
+        "data/public/tasks/pub2-he-stage1-estuary-close/brief.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/cv_coordinator.md: “2002 PhD, IJsselland University”; team_resources.md: “MSc Urbanism, IJsselland University, 2022”.",
+      "problem": "The institutional name is readily confused with the real Hogeschool IJsselland, also published in English as a University of Higher Professional Education, a predecessor of Saxion. A different city and an invented PhD do not provide sufficient separation.",
+      "fix": "Replace “IJsselland University” with “Zilverweerd University” in all education and appointment entries. Retain Zwolle, the qualification titles and dates.",
+      "evidence": [
+        "https://files.eric.ed.gov/fulltext/ED446597.pdf",
+        "https://www.saxion.nl/binaries/content/assets/over-saxion/organisatie/academies/amm/eigen-kracht-in-perspectief-amm-nov2022.pdf"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/publications.md, Presentations: “Oral presentation, EGU General Assembly 2025, Vienna”; prior_project.md section 7.",
+      "problem": "The dossier invents a presentation in the programme of the real European Geosciences Union assembly. This is a fabricated output attributed to a real scientific organisation/event, outside the permitted real-funder/place/method exceptions.",
+      "fix": "Replace both event references with “Estuarine Cities Research Forum 2025, Vienna”, an explicitly fictional meeting under the existing document notice. Keep the presentation title, author and year.",
+      "evidence": [
+        "https://www.egu25.eu/about/general_information.html",
+        "docs/task_review_checklist.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/consortium_partners.md, FBMI: “accredited to ISO/IEC 17025 for both indicators by membrane filtration (ISO 9308-1, ISO 7899-2)”; prior_project.md floodwater pilot.",
+      "problem": "Current ISO 9308-1 is a low-background-flora E. coli method; ISO explicitly warns that surface-water background growth can make enumeration unreliable. The dossier presents it without qualification as the method underpinning polluted bathing-water and floodwater measurements. This undermines the claimed transferable microbiology capability.",
+      "fix": "Use ISO 9308-3 for E. coli in these surface-water matrices, retaining ISO 7899-2 for enterococci. Replace the accreditation sentence with “Its ISO/IEC 17025 scope includes E. coli in surface waters by ISO 9308-3 (most probable number), intestinal enterococci by ISO 7899-2 (membrane filtration), and dissolved nutrients.” Change the dossier's measured E. coli units to MPN/100 mL, retaining all numeric results and enterococci CFU units; synchronize F05/F16 and the coastal-stretch brief's pilot units. Explain that 500/200 are study alarm thresholds borrowing the Directive's coastal good-quality numbers, not regulatory single-sample classifications.",
+      "evidence": [
+        "https://www.iso.org/standard/55832.html",
+        "https://www.iso.org/standard/20878.html",
+        "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32006L0007",
+        "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/prior_project.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/cv_coordinator.md: “EUR 96,000”, “EUR 600,000”, “54 peer-reviewed journal articles”, “9 PhD candidates supervised to completion”; dossier.yaml facts F01–F25.",
+      "problem": "The registry now captures the project results and major constraints, but still omits salient coordinator funding and track-record evidence a proposal is likely to quote. These are not intentional gaps: the values are supplied in the CV.",
+      "fix": "Add salient existing facts sourced to cv_coordinator.md for the 2014–2016 EUR 96,000 grant; 2008–2013 NWO Vidi EUR 600,000 grant; 54 articles, 2 edited volumes and 11 reports; 9 completed/3 current PhD supervisions and 31 MSc theses; and professor appointment since 1 March 2017. Add a prior_project.md fact for EUR 211,640 actual expenditure (98.9% of EUR 214,000). Use exact source values and keep planned recruitment distinct.",
+      "evidence": [
+        "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/cv_coordinator.md",
+        "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/prior_project.md",
+        "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/dossier.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all five visible files and the 25 facts/six own publications. All non-null fact values appear in their cited sources. Every file has the fictional notice; no declared intentional gaps/inconsistencies or resubmission criticisms.",
+    "Recomputed response rate 1,127/4,800=23.5%; 61/240=25.4%; 2,214/9,860=22.5%; 1,034/5,170=20.0%; 712+322=1,034; 486+548=1,034; all A/B/C reductions round correctly; 33+32−29=36 participants; 23/32=72%; 22/31=71%; expenditure categories total EUR 214,000 and actual expenditure is 98.9%.",
+    "Physical endpoints now distinguish street/block exposure from property inundation: option C correctly changes only the latter. The 50-member forcing ranges are explicitly percentiles, not confidence intervals; RMSE uncertainty uses a stated spatial bootstrap; limited extremes and respondent selection are disclosed.",
+    "FBMI train/test counts 486/192, 61/34 positives, 158 test negatives and AUC interval are mutually feasible; bootstrap limitations are stated. Directive coastal good-quality numbers 500 E. coli/200 enterococci are correct, but are percentile-based regulatory values. Source: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32006L0007",
+    "Floodwater magnitude and coupled-drainage methods are plausible: https://pubmed.ncbi.nlm.nih.gov/24095592/ ; https://www.sciencedirect.com/science/article/pii/S1569843224002231 . No raw data support independent reconstruction of AUC/bootstrap intervals.",
+    "Searched all nine full personal names, ZUT, WEIH, FBMI, IJsselland University, the named foundation, consortium, BUURTPEIL and its datasets/code, and all five journal titles. Confirmed collisions are listed above; no exact relevant match established for the remaining names. Replacement names were searched too.",
+    "Checked project/report revision chronology (28 July report, 15 September update), doctoral appointment and expected May 2027 submission, staff contracts, ethics and contact-consent expiry, and planned LC-MS/MS/data-steward status. These future dates are labelled plans/expiry dates, not later document dates.",
+    "T12 household restriction is explicit and dated 14 March 2024; adult-only ethics restriction and absent amendment/guardian procedure are explicit. The former review's claim that requesting the conflicting action disqualifies T12 is incorrect under the adopted design rules.",
+    "AHN4's 0.5 m grid is accurate (https://www.ahn.nl/kwaliteitsbeschrijving); it is an acknowledged external input, not presented as a newly invented consortium dataset. EGU 2025 is an actual event in Vienna; fabricated participation is separately flagged."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+ "kind": "task",
+ "id": "pub2-ka220-studios-close",
+ "reviewer_family": "maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml trap T1 description",
+   "problem": "The description quotes a passage that no longer appears in the call, dossier or brief (the dossier was revised): \"The coordination group's minute of 25 September 2026 records a proposed network of 12 external teaching placements with\". A trap must quote the material the system actually receives.",
+   "fix": "Quote the dossier's current wording for the same fact (or the brief's, if the quote was from the brief). Check that the fact still holds in the revised dossier and that the trap is still decidable; if the dossier now states it differently, adjust the description and expected behaviour to the current text. Change nothing else."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml trap T1 description",
+   "problem": "The description quotes a passage that no longer appears in the call, dossier or brief (the dossier was revised): \"At the close of this record, there are no signed placement agreements and no recruited placement sites, mentors or stude\". A trap must quote the material the system actually receives.",
+   "fix": "Quote the dossier's current wording for the same fact (or the brief's, if the quote was from the brief). Check that the fact still holds in the revised dossier and that the trap is still decidable; if the dossier now states it differently, adjust the description and expected behaviour to the current text. Change nothing else."
+  }
+ ]
+}

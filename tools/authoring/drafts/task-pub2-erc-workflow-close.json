@@ -1,0 +1,117 @@
+{
+  "kind": "task",
+  "id": "pub2-erc-workflow-close",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "12b5fc6d1a33cf0052d0c016d0415766e255e2e0af9d83f2e73c06b3ad5309f4",
+  "draft": {
+    "brief": "**Date:** 1 October 2026\n\nHi team,\n\nLet's put together an ERC Proof of Concept proposal based on our ongoing CALIFAINT grant. We've proven our dynamic response model works brilliantly in simulation, cutting false detections significantly. Now we need to validate its real-world adoption potential.\n\nTo make adoption seamless, we want to package the complete FaintCal workflow tool exactly as we currently run it in our lab and distribute it as a fully open-source, plug-and-play software suite. This way, users can just download our current setup and immediately interface with their detectors.\n\nPlease structure the narrative around these points:\n- Highlight that this builds directly on the sub-electron noise characterization and Markov Chain models from CALIFAINT.\n- Detail the validation steps. The Q1 2027 astrophysics sessions are main-grant-funded preparation and are not PoC costs. During the PoC, validate uptake and interoperability of the distributable workflow in additional independent astrophysics laboratories, using new post-award tests, user feedback and licensing/adoption decisions. Environmental sensing remains a possible later application, outside the core validation work.\n- We need clear user-validation milestones to gather evidence for a go/no-go decision on whether to license the software to a major sensor manufacturer or form a spin-off.\n- I will commit 15% of my time to oversee the strategic direction and project decisions.\n- We are asking for the standard EUR 150,000 lump sum over 18 months.\n\nMake sure to include the required risk mitigation table and outline the equipment and data we'll need for these validation activities.",
+    "traps": [
+      {
+        "type": "T12",
+        "description": "The brief asks to package and distribute the complete FaintCal workflow tool \"exactly as we currently run it in our lab\" as a \"fully open-source, plug-and-play software suite\". However, the dossier (resources.md) states that the current laboratory setup relies on the `DetControl-Pro` legacy driver, which is \"licensed for internal academic use only, with no redistribution rights\".",
+        "expected_behaviour": "The proposal must not redistribute DetControl-Pro under the existing internal-academic licence or call that dependency already open source. Accept any feasible rights-compliant plan: replacement/integration, separate user licensing, exclusion, or obtaining suitable redistribution/relicensing rights before release. If new rights are sought, they must be prospective, release must be conditional on obtaining them, and a workable fallback must be specified. Describe the relevant integration or licensing work and proportionate risks in the methodology/risk table; do not require a particular driver."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hi team,\n\nLet's put together an ERC Proof of Concept proposal based on our ongoing CALIFAINT grant. We've proven our dynamic response model works brilliantly in simulation, cutting false detections significantly. Now we need to validate its real-world adoption potential.\n\nWe have two target applications: external astrophysics labs and environmental sensing (specifically nocturnal atmospheric aerosol fluorescence monitoring with Tobias Lindvret's group). To make adoption seamless, we want to package the complete FaintCal workflow tool exactly as we currently run it in our lab and distribute it as a fully open-source, plug-and-play software suite. This way, users can just download our current setup and immediately interface with their detectors.\n\nPlease structure the narrative around these points:\n- Highlight that this builds directly on the sub-electron noise characterization and Markov Chain models from CALIFAINT.\n- Detail the validation steps, including the Q1 2027 lab sessions with the two external astrophysics groups and the domain evaluation with the Swedish Institute for Environmental Physics.\n- We need clear user-validation milestones to gather evidence for a go/no-go decision on whether to license the software to a major sensor manufacturer or form a spin-off.\n- I will commit 15% of my time to oversee the strategic direction and project decisions.\n- We are asking for the standard EUR 150,000 lump sum over 18 months.\n\nMake sure to include the required risk mitigation table and outline the equipment and data we'll need for these validation activities.",
+        "traps": [
+          {
+            "type": "T12",
+            "description": "The brief asks to package and distribute the complete FaintCal workflow tool \"exactly as we currently run it in our lab\" as a \"fully open-source, plug-and-play software suite\". However, the dossier (resources.md) states that the current laboratory setup relies on the `DetControl-Pro` legacy driver, which is \"licensed for internal academic use only, with no redistribution rights\".",
+            "expected_behaviour": "The proposal must not propose distributing the `DetControl-Pro` driver. It must explicitly plan to replace it (e.g., by integrating and testing the open-source `SkarvDrive` driver), require end-users to supply their own license for `DetControl-Pro`, or exclude the hardware driver from the distributed package, and it must include the necessary integration work and associated risks in the methodology and risk table."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Task 3",
+          "where": "brief.md: requested Q1 2027 validation sessions; resources.md §3.1",
+          "problem": "The brief presents Q1 2027 sessions as proposal validation activities, but they precede the 15 September 2027 application deadline. Their funding is unspecified, so the applicant cannot reliably distinguish preparatory activities from work requested under the PoC or demonstrate separation from main-grant funding.",
+          "fix": "Identify these sessions explicitly as pre-application activities, state their funding source and distinguish them from proposed post-award validation. Alternatively, replace the calendar commitment with sessions planned relative to the PoC start, updating the brief, resources and facts registry consistently."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "brief.md; team.md: Dr. Tobias Falk; dossier.yaml F24",
+          "problem": "Tobias Falk is the name of a known Swedish film director. Assigning that full name to the fictional collaborator violates the fiction requirement.",
+          "fix": "Replace the collaborator's full name with a distinctive fictional combination throughout the brief, dossier and hidden registry."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "prior_project.md §2, WP2: magnitude 28, 15 detected electrons, 5-sigma peak and 98% recovery",
+          "problem": "The simulation description does not establish the physical meaning of its central performance claim. Fifteen source electrons give a source-shot-noise-limited integrated signal-to-noise ratio of approximately 3.87; a 5-sigma detection can mean something different if sigma measures background fluctuations, but the report never defines it. Source shot noise, sky background and the PSF distribution are unspecified. The conversion from V-band magnitude to detected electrons also lacks exposure time and collecting-area/throughput assumptions.",
+          "fix": "Define the detection statistic and its noise model, state whether source photon arrivals were Poisson sampled, and supply the PSF, background and photometric conversion assumptions. Confirm or revise the recovery result under that explicit model, updating the registry if necessary."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml: facts, particularly F06–F14, F16 and F23",
+          "problem": "The registry omits salient evidence and constraints that a proposal could quote: the EUR 2,450,000 main-grant funding; four devices per architecture and four million pixels per device; 200 simulated exposures and 10,000 injected sources; 50 held-out physical acquisitions; timing over 100 runs using eight threads and including file I/O; documentation and publication work scheduled under the main grant; and the environmental application's UV LED excitation and 10 Hz readout. The last omission conceals a material validation challenge relative to the reported 1.2-second processing time per frame.",
+          "fix": "Register these quantities and statuses with their exact source wording and existing/planned classifications. Preserve the simulated-workload qualification for runtime and record the environmental acquisition configuration separately from demonstrated processing performance."
+        }
+      ],
+      "rejected": [
+        {
+          "problem": "The simulation description does not establish the physical meaning of its central performance claim. Fifteen source electrons give a source-shot-noise-limited integrated signal-to-noise ratio of approximately 3.87; a 5-sigma detection can mean something different if sigma measures background fluctuations, but the report never defines it. Source shot noise, sky background and the PSF distribution are unspecified. The conversion from V-band magnitude to detected electrons also lacks exposure time and collecting-area/throughput assumptions.",
+          "reason": "I am only tasked with authoring the brief and traps. The dossier files are provided in the prompt and cannot be modified in this turn."
+        },
+        {
+          "problem": "The registry omits salient evidence and constraints that a proposal could quote: the EUR 2,450,000 main-grant funding; four devices per architecture and four million pixels per device; 200 simulated exposures and 10,000 injected sources; 50 held-out physical acquisitions; timing over 100 runs using eight threads and including file I/O; documentation and publication work scheduled under the main grant; and the environmental application's UV LED excitation and 10 Hz readout. The last omission conceals a material validation challenge relative to the reported 1.2-second processing time per frame.",
+          "reason": "I am only tasked with authoring the brief and traps. The facts registry is not part of my output."
+        }
+      ]
+    },
+    {
+      "draft": {
+        "brief": "**Date:** 1 October 2026\n\nHi team,\n\nLet's put together an ERC Proof of Concept proposal based on our ongoing CALIFAINT grant. We've proven our dynamic response model works brilliantly in simulation, cutting false detections significantly. Now we need to validate its real-world adoption potential.\n\nWe have two target applications: external astrophysics labs and environmental sensing (specifically nocturnal atmospheric aerosol fluorescence monitoring with Tobias Lindvret's group). To make adoption seamless, we want to package the complete FaintCal workflow tool exactly as we currently run it in our lab and distribute it as a fully open-source, plug-and-play software suite. This way, users can just download our current setup and immediately interface with their detectors.\n\nPlease structure the narrative around these points:\n- Highlight that this builds directly on the sub-electron noise characterization and Markov Chain models from CALIFAINT.\n- Detail the validation steps. Note that the Q1 2027 lab sessions with the two external astrophysics groups are already funded by our main grant and will happen before this PoC starts (deadline is Sept 2027). For the PoC itself, we will focus on the domain evaluation with the Swedish Institute for Environmental Physics and further validation based on the Q1 2027 results.\n- We need clear user-validation milestones to gather evidence for a go/no-go decision on whether to license the software to a major sensor manufacturer or form a spin-off.\n- I will commit 15% of my time to oversee the strategic direction and project decisions.\n- We are asking for the standard EUR 150,000 lump sum over 18 months.\n\nMake sure to include the required risk mitigation table and outline the equipment and data we'll need for these validation activities.",
+        "traps": [
+          {
+            "type": "T12",
+            "description": "The brief asks to package and distribute the complete FaintCal workflow tool \"exactly as we currently run it in our lab\" as a \"fully open-source, plug-and-play software suite\". However, the dossier (resources.md) states that the current laboratory setup relies on the `DetControl-Pro` legacy driver, which is \"licensed for internal academic use only, with no redistribution rights\".",
+            "expected_behaviour": "The proposal must not propose distributing the `DetControl-Pro` driver. It must explicitly plan to replace it (e.g., by integrating and testing the open-source `SkarvDrive` driver), require end-users to supply their own license for `DetControl-Pro`, or exclude the hardware driver from the distributed package, and it must include the necessary integration work and associated risks in the methodology and risk table."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 6",
+          "where": "data/public/tasks/pub2-erc-workflow-close/task.yaml T1.expected_behaviour: 'must not propose distributing the `DetControl-Pro` driver'; 'replace it ... require end-users to supply their own license ... or exclude the hardware driver'.",
+          "problem": "The closed list rejects a feasible rights-cleared route: negotiating an appropriate redistribution licence or relicensing before release, with a fallback if rights are refused. The dossier forbids redistribution under the current internal-academic licence, not under any possible future agreement, and explicitly allows a separately licensed route. Treating future authorised distribution as inherently noncompliant overreaches the fact being tested.",
+          "fix": "Use: 'The proposal must not redistribute DetControl-Pro under the existing internal-academic licence or call that dependency already open source. Accept any feasible rights-compliant plan: replacement/integration, separate user licensing, exclusion, or obtaining suitable redistribution/relicensing rights before release. If new rights are sought, they must be prospective, release must be conditional on obtaining them, and a workable fallback must be specified. Describe the relevant integration or licensing work and proportionate risks in the methodology/risk table; do not require a particular driver.'",
+          "evidence": [
+            "data/public/tasks/pub2-erc-workflow-close/task.yaml",
+            "data/public/dossiers/v2-astronomy-detector-erc-pi/resources.md §2.2",
+            "tools/authoring/design_v2.md",
+            "docs/task_review_checklist.md"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 1",
+          "where": "data/public/tasks/pub2-erc-workflow-close/brief.md: 'For the PoC itself, we will focus on the domain evaluation with the Swedish Institute for Environmental Physics'; task.yaml: 'fit_level: close'.",
+          "problem": "The funded central programme is the environmental-domain pivot that resources.md §3.2 explicitly labels a 'hypothesized stretch' and 'significant potential pivot'. It is also the central programme of pub2-erc-field-stretch. Moving the astronomy validation into pre-award main-grant work has removed the intended close/stretch contrast for this dossier.",
+          "fix": "Keep fit_level close and replace this bullet with: 'The Q1 2027 astrophysics sessions are main-grant-funded preparation and are not PoC costs. During the PoC, validate uptake and interoperability of the distributable workflow in additional independent astrophysics laboratories, using new post-award tests, user feedback and licensing/adoption decisions. Environmental sensing remains a possible later application, outside the core validation work.' Keep the complete open-source package suggestion to preserve T12. Clearly distinguish new validation from the main grant's already-funded activities.",
+          "evidence": [
+            "data/public/tasks/pub2-erc-workflow-close/brief.md",
+            "data/public/tasks/pub2-erc-workflow-close/task.yaml",
+            "data/public/tasks/pub2-erc-field-stretch/brief.md",
+            "data/public/dossiers/v2-astronomy-detector-erc-pi/resources.md §3",
+            "tools/authoring/design_v2.md"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

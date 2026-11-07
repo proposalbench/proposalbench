@@ -1,0 +1,295 @@
+schema_version: 1
+id: renovation-health-consortium
+language: en
+applicant_type: consortium
+career_stage: mid_career
+disciplines:
+- building physics
+- environmental epidemiology
+- respiratory medicine
+- public health
+method_profile: mixed
+country: IE
+files:
+- path: cv_pi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: consortium.md
+  role: team
+- path: publications.md
+  role: publications
+- path: resources.md
+  role: resources
+facts:
+- id: F01
+  category: position
+  kind: existing
+  text: Dr Néavessa Kelvarneth completed her doctorate in 2012 and has been Associate Professor of Environmental
+    Epidemiology at the University of Carraventh since September 2023.
+  value: September 2023
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: grant
+  kind: existing
+  text: Kelvarneth led CALDERVANE Ireland under national grant DHHRF-2020-061 from 1 January 2021 to 31
+    December 2025 and has not previously coordinated a Horizon Europe grant.
+  value: DHHRF-2020-061
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: resource
+  kind: existing
+  text: The completed cohort enrolled 300 dwellings and 672 participants, comprising 432 adults and 240
+    children, including 156 older adults and 96 children with parent-reported physician-diagnosed asthma.
+  value: '672'
+  salient: true
+  source: prior_project.md
+- id: F04
+  category: result
+  kind: existing
+  text: Follow-up retained 276 dwellings, or 92%, and 612 occupants comprising 396 adults and 216 children,
+    including 144 older adults and 88 children with asthma.
+  value: 92%
+  salient: true
+  source: prior_project.md
+- id: F05
+  category: result
+  kind: existing
+  text: The non-randomised renovation comparison began with 104 renovated and 196 comparison dwellings
+    and retained 96 and 180 respectively after 2023 renovations and 2024 follow-up.
+  value: 96 renovated dwellings and 180 comparison dwellings
+  salient: true
+  source: prior_project.md
+- id: F06
+  category: resource
+  kind: existing
+  text: Monitoring used 900 temperature and humidity loggers, 300 carbon-dioxide monitors and 60 particulate
+    monitors, with five-minute logging and fourteen-day particulate deployments in 120 dwellings, of which
+    108 supplied valid paired particulate records.
+  value: '900'
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: result
+  kind: existing
+  text: Among 264 dwellings with valid baseline summer measurements, mean bedroom overheating above 26
+    °C during 22:00–07:00 in June–August was 118 hours, with a 95% confidence interval of 104–132 hours
+    out of 828 possible night-hours.
+  value: '118'
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: Visible mould occurred in 84 of 300 baseline dwellings, or 28%, and was associated with four-week
+    wheeze among 672 occupants with an adjusted odds ratio of 1.62 and 95% CI 1.13–2.32.
+  value: '1.62'
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: Among 558 occupants in 246 dwellings with paired summer records, each additional 100 overheating
+    hours at follow-up was associated with a respiratory sleep-disturbance prevalence ratio of 1.18, with
+    95% CI 1.04–1.34.
+  value: '1.18'
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: In the 276 retained dwellings, renovation was associated with an adjusted difference in winter
+    living-room temperature changes of +1.3 °C, with 95% CI +0.8 to +1.8 °C.
+  value: +1.3 °C
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: The adjusted renovation-associated difference in changes in occupied-bedroom median carbon dioxide
+    was −145 ppm, with 95% CI −220 to −70 ppm.
+  value: −145 ppm
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: result
+  kind: existing
+  text: Among 612 retained occupants, the adjusted renovation-associated difference in changes in four-week
+    wheeze was −3.8 percentage points, with 95% CI −8.1 to +0.5 percentage points, which did not establish
+    a reduction.
+  value: −3.8 percentage points
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: result
+  kind: existing
+  text: The qualitative study included 36 occupant or caregiver interviews and eight housing-staff interviews,
+    analysed using a shared framework without treating themes as population percentages.
+  value: '36'
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: publication
+  kind: existing
+  text: The publication record contains five published articles covering the protocol, monitoring quality
+    assurance, mould and wheeze, renovation outcomes and qualitative findings, all drawing on the same
+    underlying cohort rather than independent cohorts.
+  value: five
+  salient: true
+  source: publications.md
+- id: F15
+  category: partner
+  kind: existing
+  text: The University of Carraventh coordinates a five-institution collaboration established across Ireland,
+    Portugal, Slovenia, Belgium and Italy and holds the Irish cohort's sponsor and data-controller responsibilities.
+  value: five EU Member States
+  salient: true
+  source: consortium.md
+- id: F16
+  category: partner
+  kind: existing
+  text: Portugal's Instituto Público de Saúde de Valdrenoura contributes environmental epidemiology, public-health
+    nursing and qualitative research but holds no independently recruited renovation cohort for this collaboration.
+  value: Instituto Público de Saúde de Valdrenoura
+  salient: true
+  source: consortium.md
+- id: F17
+  category: partner
+  kind: existing
+  text: Slovenia's Inštitut za Stavbno Okolje Veltravno contributes building-envelope assessment and room-level
+    thermal simulation but has no seasonal storage facility or validated district heating network model.
+  value: Inštitut za Stavbno Okolje Veltravno
+  salient: true
+  source: consortium.md
+- id: F18
+  category: partner
+  kind: existing
+  text: Belgium's Fédération de l'Habitat Social de Rovélance contributes housing-provider and tenant
+    engagement but is neither a landlord nor an energy supplier and cannot commit member properties or
+    occupant records.
+  value: Fédération de l'Habitat Social de Rovélance
+  salient: true
+  source: consortium.md
+- id: F19
+  category: partner
+  kind: existing
+  text: Italy's ReteSensori Valneriva Srl supplies sensor integration and telemetry, previously through
+    a procurement contract, and has neither controlled a live district heating system nor developed heat-pump
+    compressors or thermal storage vessels.
+  value: ReteSensori Valneriva Srl
+  salient: true
+  source: consortium.md
+- id: F20
+  category: other
+  kind: existing
+  text: No consortium member operates a heat network, and the participating teams lack completed work
+    in seasonal storage, low-temperature district heating integration, waste-heat engineering, energy-system
+    dispatch and heat-network tariff design.
+  value: null
+  salient: true
+  source: consortium.md
+- id: F21
+  category: partner
+  kind: existing
+  text: The Centro de Estudos do Ambiente Doméstico de Arvoredalva is a Brazilian seminar contact with
+    no EU or associated-country establishment, consortium membership, participation agreement, committed
+    resources or participant-data access.
+  value: Brazil
+  salient: true
+  source: consortium.md
+- id: F22
+  category: team
+  kind: existing
+  text: The Irish group has 4.8 FTE across six named personnel, with allocations of 0.6 for the coordinator,
+    1.0 each for building physics, nursing, field coordination and data management, and 0.2 for respiratory
+    medicine.
+  value: '4.8'
+  salient: true
+  source: resources.md
+- id: F23
+  category: resource
+  kind: existing
+  text: The university owns the study sensor inventory without certifying every unit as deployment-ready,
+    holds controlled-access cohort records, and has no current research-access agreement for a heat network,
+    seasonal storage site or waste-heat source.
+  value: null
+  salient: true
+  source: resources.md
+- id: F24
+  category: resource
+  kind: planned
+  text: The extension has an ethics-approved target of 400 additional dwellings dated 18 June 2026, but
+    as of 30 September 2026 has no awarded funding, executed provider access agreements, recruited dwellings
+    or participants, monitoring or data.
+  value: '400'
+  salient: true
+  source: resources.md
+- id: F25
+  category: budget
+  kind: existing
+  text: The closed national grant awarded EUR 1,248,000, spent EUR 1,221,460 across personnel EUR 730,000,
+    equipment EUR 142,600, fieldwork EUR 176,420, laboratory and calibration EUR 62,600, data management
+    EUR 54,840 and governance and dissemination EUR 55,000, and returned EUR 26,540.
+  value: EUR 1,248,000
+  salient: true
+  source: resources.md
+own_publications:
+- key: homeair-protocol
+  authors:
+  - Kelvarneth, N.
+  - Matavrença, L.
+  - Vezmarnik, T.
+  - Selvanicci, D.
+  year: 2023
+  title: A linked protocol for indoor exposure and respiratory symptom measurement in Irish social housing.
+  venue: Carraventh Journal of Housing Exposure Methods
+  doi: 10.99999/pb.renovation-health-consortium.2023.1
+- key: monitoring-quality
+  authors:
+  - Selvanicci, D.
+  - Vezmarnik, T.
+  - Kelvarneth, N.
+  - Matavrença, L.
+  year: 2024
+  title: Quality assurance for distributed temperature, humidity and carbon-dioxide monitoring in occupied
+    homes.
+  venue: Veltravno Building Measurement Practice
+  doi: 10.99999/pb.renovation-health-consortium.2024.1
+- key: mould-wheeze
+  authors:
+  - Kelvarneth, N.
+  - Matavrença, L.
+  - Fenrathen, C.
+  - Vezmarnik, T.
+  year: 2025
+  title: 'Visible mould and recent wheeze in a social housing cohort: a household-clustered analysis.'
+  venue: Valdrenoura Residential Environment and Health
+  doi: 10.99999/pb.renovation-health-consortium.2025.1
+- key: renovation-health
+  authors:
+  - Kelvarneth, N.
+  - Vezmarnik, T.
+  - Matavrença, L.
+  - Fenrathen, C.
+  - Selvanicci, D.
+  year: 2026
+  title: Indoor conditions and respiratory symptoms before and after deep renovation of social housing.
+  venue: Rovélance Journal of Renovation and Population Health
+  doi: 10.99999/pb.renovation-health-consortium.2026.1
+- key: ventilation-handover
+  authors:
+  - Matavrença, L.
+  - Varnelcour, M.
+  - Kelvarneth, N.
+  year: 2026
+  title: Ventilation handover, maintenance reporting and household constraints after housing renovation.
+  venue: Arvoredalva Journal of Housing Services and Public Health
+  doi: 10.99999/pb.renovation-health-consortium.2026.2
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 676089ea-e03c-46b6-a4d3-8e6b5c611a76

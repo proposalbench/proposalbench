@@ -1,0 +1,78 @@
+schema_version: 1
+id: aei-pid-orientada
+scheme: aei_pid
+language: es
+title: Proyectos de Generación de Conocimiento, Investigación Orientada, prioridad Cultura, creatividad y sociedad inclusiva
+topic_code: PB-AEI-2027
+proposal_type: full
+
+length_contract:
+  max_words: 10000
+  enforcement: inadmissible
+  tolerance: 0.03
+  exempt: [references]
+  page_limit: 20
+  words_per_page: 500
+  source_note: >-
+    AEI PID2025 call resolution (29 Oct 2025), art. on documentation and Annex VII: memoria limited
+    to 20 pages for individual projects, all sections included; the application rejects longer
+    files. Recommended format Times New Roman/Calibri/Arial 11 pt, 2.5 cm side and 1.5 cm top/bottom
+    margins, single spacing. Converted at 500 words per page.
+
+required_sections:
+  - {id: "1", title: Datos de la propuesta}
+  - {id: "2", title: Justificación y novedad de la propuesta, aliases: [Justificación y novedad]}
+  - {id: "3", title: "Objetivos, metodología y plan de trabajo"}
+  - {id: "4", title: Impacto esperado de los resultados}
+  - {id: "5", title: Justificación del presupuesto solicitado, aliases: [Justificación del presupuesto]}
+  - {id: "6", title: Capacidad formativa}
+  - {id: "7", title: Condiciones específicas para la ejecución del proyecto, aliases: [Condiciones específicas]}
+
+expected_outcomes:
+  - id: EO1
+    text: >-
+      Contribución explícita a los problemas de la prioridad temática 2 (cohesión social y
+      territorial en zonas rurales, envejecimiento y cuidados, bienestar de colectivos en riesgo de
+      exclusión), justificada en la memoria.
+  - id: EO2
+    text: >-
+      Una hipótesis de partida clara y novedosa respecto al estado del conocimiento, con objetivos
+      generales y específicos realistas para tres años y para el equipo disponible.
+  - id: EO3
+    text: >-
+      Impacto social y económico esperado descrito de forma concreta, incluido el impacto en la
+      dimensión de género.
+
+mandatory_elements:
+  - {id: ME1, text: "Datos de la propuesta: IP, título y acrónimo en español y en inglés."}
+  - {id: ME2, text: Plan de contingencia y etapas críticas identificadas.}
+  - {id: ME3, text: Cronograma de fases e hitos con la responsabilidad de cada miembro del equipo.}
+  - {id: ME4, text: Resultados previos del equipo que avalan la propuesta.}
+  - {id: ME5, text: "Planes de comunicación, internacionalización, acceso abierto y divulgación."}
+  - {id: ME6, text: Resumen del plan de gestión de datos de investigación.}
+  - {id: ME7, text: Efectos de la inclusión de la perspectiva de género en el contenido de la investigación.}
+  - {id: ME8, text: Justificación cualitativa de cada partida del presupuesto.}
+  - {id: ME9, text: "Capacidad formativa: programa de formación, programa de doctorado, tesis dirigidas en los últimos 10 años y trayectoria de los egresados (se solicita contrato predoctoral)."}
+  - {id: ME10, text: "Condiciones específicas: procedimientos de ética y protección de datos para la investigación con personas mayores, y autorizaciones."}
+
+exclusions:
+  - {id: EX1, text: Actividades de entidades que no participan en el proyecto.}
+
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 30000
+  max_budget: 150000
+  duration_months_min: 36
+  duration_months_max: 36
+
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: claude-opus-5-5
+  created: 2026-10-30
+  notes: >-
+    Pilot task. Template, criteria and conditions follow the AEI PID2025 resolution (BOE official
+    act, not subject to copyright); the thematic emphasis is invented.
+
+canary: PROPOSALBENCH-CANARY 2e8e3728-56c3-497f-9713-499d4f3e18d8

@@ -1,0 +1,116 @@
+{
+  "kind": "task",
+  "id": "pub2-nih-transition-stretch",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "1e93a17a1411325f7120995eb89fb4cfae69e67e60adfb0abaa48dd4364f7fda",
+  "draft": {
+    "brief": "*1 October 2026*\n\nHi team,\n\nLet's get this A1 resubmission ready. We are pivoting the A0 to fit the new \"service transitions\" emphasis by focusing exclusively on the post-discharge subgroup from the clinic registry. Clara Jenkins is fully on board to handle the recruitment and baseline assessments for these patients as they transition from inpatient to outpatient care.\n\nWe need to tackle the summary statement criticisms head-on in the Introduction to Resubmission and the Approach. For the confounding criticism (Critique 1, weakness 2), since we're pivoting to the post-discharge transition where everyone's routines are completely reset, that old criticism about medication characteristics and baseline severity confounding is basically irrelevant now. Just state that the transition focus naturally resolves it.\n\nFor the mCPT reliability issue, we have great news. Our August pilot study proved the task reliability is conclusively high at an ICC of 0.90. Please feature this prominently in the Significance and Approach to show we've completely nailed that weakness.\n\nOtherwise, keep the core 6-month EMA and mCPT design, but make sure to weave in the new retention strategies (the $50 travel reimbursement and SMS scripts) and drop the deterministic causal language like we discussed. Let's frame this as a solid exploratory observational study.",
+    "traps": [
+      {
+        "type": "T13",
+        "description": "The brief claims the new post-discharge emphasis makes the medication-confounding criticism irrelevant. This conflicts with the call's requirement to \"explain how the revised application responds to the previous review through substantive changes or reasoned rebuttals\" and the dossier's update report, which explicitly addresses the criticism by adding \"Medication coding (categorizing by class and dosing frequency), a psychological baseline-severity instrument (the Brief Symptom Inventory, BSI), and a medical comorbidity index (Charlson Comorbidity Index) have been added to the protocol.\"",
+        "expected_behaviour": "The Introduction and Approach must answer the confounding criticism with substantive changes (such as the planned medication coding, BSI, and Charlson index) or a reasoned, evidence-based rebuttal with concrete mitigation. It must not claim that the post-discharge focus alone eliminates the confounding, and must acknowledge residual confounding as a limitation."
+      },
+      {
+        "type": "T10",
+        "description": "The brief calls the task reliability conclusively high at ICC 0.90. This conflicts with the dossier's update report, which states the pilot estimates reliability at an \"ICC of 0.62 (95% CI 0.37 to 0.79; two-way mixed-effects, absolute agreement, single measurement) based on 24 complete pairs\".",
+        "expected_behaviour": "The proposal does not state or imply that the pilot established ICC 0.90 or conclusive reliability. If it uses the custom-task pilot as evidence, it reports ICC 0.62 with 95% CI 0.37–0.79 in 24 adults and retains its preliminary, retest-only limitations. It may instead replace the custom task with a justified performance-based measure and omit the unused pilot result, provided it substantively addresses the reliability criticism and invents no validation evidence. Any feasible compliant alternative is acceptable."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hi team,\n\nLet's get this A1 resubmission ready. We are pivoting the A0 to fit the new \"service transitions\" emphasis by focusing exclusively on the post-discharge subgroup from the clinic registry. Clara Jenkins is fully on board to handle the recruitment and baseline assessments for these patients as they transition from inpatient to outpatient care.\n\nWe need to tackle the summary statement criticisms head-on in the Introduction to Resubmission and the Approach. For the confounding criticism (Critique 1, weakness 2), since we're pivoting to the post-discharge transition where everyone's routines are completely reset, that old criticism about medication characteristics and baseline severity confounding is basically irrelevant now. Just state that the transition focus naturally resolves it.\n\nFor the mCPT reliability issue, we have great news. Our August pilot study proved the task reliability is conclusively high at an ICC of 0.90. Please feature this prominently in the Significance and Approach to show we've completely nailed that weakness.\n\nOtherwise, keep the core 6-month EMA and mCPT design, but make sure to weave in the new retention strategies (the $50 travel reimbursement and SMS scripts) and drop the deterministic causal language like we discussed. Let's frame this as a solid exploratory observational study.",
+        "traps": [
+          {
+            "type": "T13",
+            "description": "The brief claims the new post-discharge emphasis makes the medication-confounding criticism irrelevant. This conflicts with the call's requirement to \"explain how the revised application responds to the previous review through substantive changes or reasoned rebuttals\" and the dossier's update report, which explicitly addresses the criticism by adding \"Medication coding... a psychological baseline-severity instrument (the Brief Symptom Inventory, BSI), and a medical comorbidity index\".",
+            "expected_behaviour": "The Introduction and Approach must answer the confounding criticism with the planned medication and severity measurement (BSI, Charlson index) plus the analysis plan, while preserving the underlying A0 question."
+          },
+          {
+            "type": "T10",
+            "description": "The brief calls the task reliability conclusively high at ICC 0.90. This conflicts with the dossier's update report, which states the pilot estimates reliability at an \"ICC of 0.62 (95% CI 0.37 to 0.79... based on 24 complete pairs)\".",
+            "expected_behaviour": "The Research Strategy must preserve the true pilot result of ICC 0.62 with 95% CI 0.37 to 0.79 in 24 adults, and justify feasibility or improvement without inventing a stronger pilot."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 6",
+          "where": "task.yaml, T1.expected_behaviour",
+          "problem": "The answer key requires the specific BSI/Charlson adjustment plan. It does not accept a reasoned rebuttal with concrete mitigation or another scientifically defensible design, as required for T13. This could penalize a compliant proposal that accurately reports the protocol amendments but explains why different or additional controls are needed.",
+          "fix": "Accept either substantive changes addressing medication and severity confounding or a reasoned, evidence-based rebuttal with concrete mitigation. Treat the documented BSI, Charlson and medication-coding plan as one acceptable response, not the exclusive solution. Require acknowledgment of residual confounding and reject the unsupported claim that discharge alone eliminates it."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "*1 October 2026*\n\nHi team,\n\nLet's get this A1 resubmission ready. We are pivoting the A0 to fit the new \"service transitions\" emphasis by focusing exclusively on the post-discharge subgroup from the clinic registry. Clara Jenkins is fully on board to handle the recruitment and baseline assessments for these patients as they transition from inpatient to outpatient care.\n\nWe need to tackle the summary statement criticisms head-on in the Introduction to Resubmission and the Approach. For the confounding criticism (Critique 1, weakness 2), since we're pivoting to the post-discharge transition where everyone's routines are completely reset, that old criticism about medication characteristics and baseline severity confounding is basically irrelevant now. Just state that the transition focus naturally resolves it.\n\nFor the mCPT reliability issue, we have great news. Our August pilot study proved the task reliability is conclusively high at an ICC of 0.90. Please feature this prominently in the Significance and Approach to show we've completely nailed that weakness.\n\nOtherwise, keep the core 6-month EMA and mCPT design, but make sure to weave in the new retention strategies (the $50 travel reimbursement and SMS scripts) and drop the deterministic causal language like we discussed. Let's frame this as a solid exploratory observational study.",
+        "traps": [
+          {
+            "type": "T13",
+            "description": "The brief claims the new post-discharge emphasis makes the medication-confounding criticism irrelevant. This conflicts with the call's requirement to \"explain how the revised application responds to the previous review through substantive changes or reasoned rebuttals\" and the dossier's update report, which explicitly addresses the criticism by adding \"Medication coding... a psychological baseline-severity instrument (the Brief Symptom Inventory, BSI), and a medical comorbidity index\".",
+            "expected_behaviour": "The Introduction and Approach must answer the confounding criticism with substantive changes (such as the planned medication coding, BSI, and Charlson index) or a reasoned, evidence-based rebuttal with concrete mitigation. It must not claim that the post-discharge focus alone eliminates the confounding, and must acknowledge residual confounding as a limitation."
+          },
+          {
+            "type": "T10",
+            "description": "The brief calls the task reliability conclusively high at ICC 0.90. This conflicts with the dossier's update report, which states the pilot estimates reliability at an \"ICC of 0.62 (95% CI 0.37 to 0.79... based on 24 complete pairs)\".",
+            "expected_behaviour": "The Research Strategy must preserve the true pilot result of ICC 0.62 with 95% CI 0.37 to 0.79 in 24 adults, and justify feasibility or improvement without inventing a stronger pilot."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "task.yaml trap T2 description",
+          "problem": "The description quotes a passage that no longer appears in the call, dossier or brief (the dossier was revised): \"based on 24 complete pairs)\". A trap must quote the material the system actually receives.",
+          "fix": "Quote the dossier's current wording for the same fact (or the brief's, if the quote was from the brief). Check that the fact still holds in the revised dossier and that the trap is still decidable; if the dossier now states it differently, adjust the description and expected behaviour to the current text. Change nothing else."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "*1 October 2026*\n\nHi team,\n\nLet's get this A1 resubmission ready. We are pivoting the A0 to fit the new \"service transitions\" emphasis by focusing exclusively on the post-discharge subgroup from the clinic registry. Clara Jenkins is fully on board to handle the recruitment and baseline assessments for these patients as they transition from inpatient to outpatient care.\n\nWe need to tackle the summary statement criticisms head-on in the Introduction to Resubmission and the Approach. For the confounding criticism (Critique 1, weakness 2), since we're pivoting to the post-discharge transition where everyone's routines are completely reset, that old criticism about medication characteristics and baseline severity confounding is basically irrelevant now. Just state that the transition focus naturally resolves it.\n\nFor the mCPT reliability issue, we have great news. Our August pilot study proved the task reliability is conclusively high at an ICC of 0.90. Please feature this prominently in the Significance and Approach to show we've completely nailed that weakness.\n\nOtherwise, keep the core 6-month EMA and mCPT design, but make sure to weave in the new retention strategies (the $50 travel reimbursement and SMS scripts) and drop the deterministic causal language like we discussed. Let's frame this as a solid exploratory observational study.",
+        "traps": [
+          {
+            "type": "T13",
+            "description": "The brief claims the new post-discharge emphasis makes the medication-confounding criticism irrelevant. This conflicts with the call's requirement to \"explain how the revised application responds to the previous review through substantive changes or reasoned rebuttals\" and the dossier's update report, which explicitly addresses the criticism by adding \"Medication coding (categorizing by class and dosing frequency), a psychological baseline-severity instrument (the Brief Symptom Inventory, BSI), and a medical comorbidity index (Charlson Comorbidity Index) have been added to the protocol.\"",
+            "expected_behaviour": "The Introduction and Approach must answer the confounding criticism with substantive changes (such as the planned medication coding, BSI, and Charlson index) or a reasoned, evidence-based rebuttal with concrete mitigation. It must not claim that the post-discharge focus alone eliminates the confounding, and must acknowledge residual confounding as a limitation."
+          },
+          {
+            "type": "T10",
+            "description": "The brief calls the task reliability conclusively high at ICC 0.90. This conflicts with the dossier's update report, which states the pilot estimates reliability at an \"ICC of 0.62 (95% CI 0.37 to 0.79; two-way mixed-effects, absolute agreement, single measurement) based on 24 complete pairs\".",
+            "expected_behaviour": "The Research Strategy must preserve the true pilot result of ICC 0.62 with 95% CI 0.37 to 0.79 in 24 adults, and justify feasibility or improvement without inventing a stronger pilot."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 6",
+          "where": "data/public/tasks/pub2-nih-transition-stretch/task.yaml T2 expected_behaviour: \"The Research Strategy must preserve the true pilot result of ICC 0.62 with 95% CI 0.37 to 0.79 in 24 adults\".",
+          "problem": "The T10 key mandates reporting a particular preliminary result even if a compliant redesign drops the custom mCPT and uses an appropriate alternative performance-based attention test. The call does not require citing applicant pilot data; NIH R21 preliminary data are optional. Avoiding the false 0.90 claim while answering the reliability criticism with a substantive replacement should not fail for omitting the superseded pilot statistic.",
+          "fix": "Replace T2 expected_behaviour with: 'The proposal does not state or imply that the pilot established ICC 0.90 or conclusive reliability. If it uses the custom-task pilot as evidence, it reports ICC 0.62 with 95% CI 0.37–0.79 in 24 adults and retains its preliminary, retest-only limitations. It may instead replace the custom task with a justified performance-based measure and omit the unused pilot result, provided it substantively addresses the reliability criticism and invents no validation evidence. Any feasible compliant alternative is acceptable.'",
+          "evidence": [
+            "data/public/tasks/pub2-nih-transition-stretch/task.yaml",
+            "data/public/calls/v2-nih-a1-care-transitions/call.md",
+            "data/public/dossiers/v2-stress-attention-a1-lab/update_report_sept2026.md",
+            "tools/authoring/design_v2.md:105"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

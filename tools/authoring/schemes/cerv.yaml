@@ -1,0 +1,279 @@
+name: cerv
+scheme: cerv
+language: en
+topic_code_prefix: PB-CERV
+bottom_up: false
+proposal_type: full
+length_contract:
+  max_words: 35000
+  enforcement: disregard_excess
+  tolerance: 0.0
+  exempt:
+  - title
+  page_limit: 70
+  words_per_page: 500
+  source_note: 'Verified 2026-10-31. https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/wp-call/2026/call-fiche_cerv-2026-citizens-civ_en.pdf;
+    https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/temp-form/af/af_cerv_en.pdf.
+    Benchmark conversion: 70 pages x 500 words/page = 35000 words; prose estimate, not a funder word-count
+    rule. Tables and captions count.'
+required_sections:
+- id: '1'
+  title: Relevance
+- id: '1.1'
+  title: Background and general objectives
+  parent: '1'
+- id: '1.2'
+  title: Needs analysis and specific objectives
+  parent: '1'
+- id: '1.3'
+  title: Complementarity with other actions and innovation — European added value
+  parent: '1'
+- id: '2'
+  title: Quality
+- id: '2.1'
+  title: Concept and methodology
+  parent: '2'
+- id: '2.2'
+  title: Consortium set-up
+  parent: '2'
+- id: '2.3'
+  title: Project teams, staff and experts
+  parent: '2'
+- id: '2.4'
+  title: Consortium management and decision-making
+  parent: '2'
+- id: '2.5'
+  title: Project management, quality assurance and monitoring and evaluation strategy
+  parent: '2'
+- id: '2.6'
+  title: Cost effectiveness and financial management
+  parent: '2'
+- id: '2.7'
+  title: Risk management
+  parent: '2'
+- id: '3'
+  title: Impact
+- id: '3.1'
+  title: Impact and ambition
+  parent: '3'
+- id: '3.2'
+  title: Communication, dissemination and visibility
+  parent: '3'
+- id: '3.3'
+  title: Sustainability and continuation
+  parent: '3'
+- id: '4'
+  title: Workplan, work packages, activities, resources and timing
+- id: '4.1'
+  title: Work plan
+  parent: '4'
+- id: '4.2'
+  title: Work packages, activities, resources and timing
+  parent: '4'
+- id: '5'
+  title: Other
+- id: '5.1'
+  title: Ethics and EU values
+  parent: '5'
+- id: '5.2'
+  title: Security
+  core: false
+  parent: '5'
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 75000
+  max_budget: 300000
+  duration_months_min: 12
+  duration_months_max: 24
+  consortium:
+    min_entities: 2
+    min_countries: 2
+    notes: 'Sub-priority 2.1: private nonprofit legal entity or public university coordinator; nonprofit
+      public/private co-beneficiaries or international organisations. Two beneficiaries from two eligible
+      CERV countries; affiliated entities and associated partners do not count.'
+fixed_items:
+  expected_outcomes: []
+  scope: []
+  exclusions:
+  - id: EX1
+    text: Financial support to third parties is not permitted.
+  - id: EX2
+    text: Purely academic research without direct citizen engagement is outside this fictional topic.
+  - id: EX3
+    text: Activities supporting a specific European Citizens’ Initiative are excluded.
+  - id: EX4
+    text: Activities rallying support for a single cause are excluded.
+  mandatory_elements:
+  - id: ME1
+    text: Describe the participatory activities that constitute each event/work package.
+  - id: ME2
+    text: State the planned number of direct participants for each event, using the counting rules
+      below.
+  - id: ME3
+    text: Identify the eligible countries represented in each event and give their number, using the
+      counting convention below.
+  - id: ME4
+    text: State the share of the total requested EU grant assigned to each work package.
+  - id: ME5
+    text: Describe how the target participants can access the planned participation activities.
+  - id: ME6
+    text: Explain how the participation design addresses gender-related barriers.
+  - id: ME7
+    text: Explain how citizens’ contributions influence the deliberation and subsequent policy engagement.
+  - id: ME8
+    text: Where applicable, describe how personal data collected through the participation activities
+      will be protected.
+  - id: ME9
+    text: Include, for each event/work package, a report on its implementation (the programme's event
+      description sheet) as a deliverable.
+  - id: ME10
+    text: Include a project milestone for asking event attendees to take part in the EU Survey on
+      Justice, Rights and Values once the granting authority provides the link.
+sources:
+- url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/wp-call/2026/call-fiche_cerv-2026-citizens-civ_en.pdf
+  verified: '2026-10-31'
+- url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/temp-form/af/af_cerv_en.pdf
+  verified: '2026-10-31'
+author_notes: |
+  Verified call section 10, pp. 28–29: active/verifiable target-group participation, online or
+  in-person events, EU-official exclusion and duplicate-count rules. Residence-based country
+  counts, attendance evidence and delivery-role treatment are explicit benchmark conventions.
+  Ask for planning grant shares, not unavailable official tariff amounts. Keep consortium
+  eligibility in prose/notes; topic items must not contradict or silently narrow it.
+  eligibility_bounds:
+    max_budget: {min: 300000, max: 300000}
+    duration_months_max: {min: 24, max: 24}
+  Use only CITIZENS-CIV sub-priority 2.1; do not mix eligibility with national electoral bodies (1.2) or local-authority-led 2.2. Generic Part B V3.0 (15 January 2025) supplies narrative section ids; its administrative section 6 is deliberately outside the deliverable. Call section 5 overrides the generic 45-page ceiling with 70. EUR 300k maximum, strict 12–24 month range without extension, and topic research exclusion are fictional restrictions. No event-tariff arithmetic is encoded: the official calculator requires per-event eligible direct participants/countries; preserve those narrative inputs and never invent tariff values. Rules on sanctions/excluded entities remain subject to the official call; use unambiguously eligible fictional EU organisations in dossiers.
+  Preserve all fixed items and section ids. Topic slots contain merged fixed and topic items,
+  using unused EO/SC/EX/ME ids. Each item must be a single narrative-visible requirement.
+  Put eligibility and submission rules in eligibility prose and consortium notes, not MEs.
+  Use the stated fictional deadline 15 September 2027 where a deadline is needed; do not imply
+  an actual open call. Preserve proposal_type in call.yaml; task.type is separate metadata.
+  Rights: independently paraphrased public policy; no copied official narrative or logos.
+  Register source attribution when integrating calls; this skeleton does not update data/.
+call_md: |
+  # {{title}} — {{topic_code}}
+
+  > Fictional ProposalBench action-grant topic modelled on CERV-2026-CITIZENS-CIV, sub-priority 2.1 (civil society organisations). This is not an open EU call; topic details, deadline and upper grant cap are invented.
+
+  ## Purpose and eligibility
+
+  Support citizens' participation in democratic life through civil-society-led participatory and deliberative processes. The eligible-country basis is EU Member States (including OCTs) and countries associated to CERV; a country negotiating association must have an agreement in force before signature. Activities take place in eligible countries. The official minimum grant is EUR 75,000 and the official call sets no maximum; this fictional topic adds the ceiling in the table below. Use at least 12 months, up to the maximum duration in that table, without an extension in this benchmark. The lead may submit only one application across the official call's priorities; the benchmark uses one application. At least two applicants must be beneficiaries from two different CERV-eligible countries; affiliated entities and associated partners do not count towards this minimum. The coordinator must be a private nonprofit legal entity or a public university; co-applicants must be nonprofit public or private legal entities or international organisations. The fictional deadline is 15 September 2027.
+
+  {{header_table}}
+
+  ## Expected outcomes
+
+  {{expected_outcomes_intro}}
+
+  {{expected_outcomes}}
+
+  ## Scope
+
+  {{scope_intro}}
+
+  {{scope}}
+
+  ## Exclusions
+
+  {{exclusions}}
+
+  ## Specific conditions and mandatory elements
+
+  {{specific_conditions}}
+
+  ## Required narrative
+
+  ### 1. Relevance
+  Use the following three subsections to establish relevance to sub-priority 2.1.
+
+  #### 1.1. Background and general objectives
+  Explain the EU policy context, democratic problem and general objective.
+
+  #### 1.2. Needs analysis and specific objectives
+  Present evidence of needs, the target population, gender/access barriers and specific objectives.
+
+  #### 1.3. Complementarity with other actions and innovation — European added value
+  Explain why cross-country cooperation is needed and how results complement existing efforts.
+
+  ### 2. Quality
+  Use the following subsections for delivery quality.
+
+  #### 2.1. Concept and methodology
+  Describe participatory methods and the chain from needs through activities to outcomes.
+
+  #### 2.2. Consortium set-up
+  Justify the eligible partners and their complementary contributions.
+
+  #### 2.3. Project teams, staff and experts
+  Assign staff roles according to the expertise required for the activities.
+
+  #### 2.4. Consortium management and decision-making
+  Explain coordination, decisions and handling disagreements.
+
+  #### 2.5. Project management, quality assurance and monitoring and evaluation strategy
+  Specify monitoring, evidence of participation, evaluation and corrective action.
+
+  #### 2.6. Cost effectiveness and financial management
+  State the total requested EU grant and the share assigned to each work package, with a rationale for the distribution. These narrative shares are planning allocations, not tariff calculations (benchmark convention). The official event-based calculation belongs in Part A; no tariff values or tariff-derived amounts are requested here.
+
+  #### 2.7. Risk management
+  Identify concrete delivery and participation risks, triggers and mitigations.
+
+  ### 3. Impact
+  Use the following subsections for the expected difference and its continuation.
+
+  #### 3.1. Impact and ambition
+  Explain the intended effects on citizens, organisations and democratic participation.
+
+  #### 3.2. Communication, dissemination and visibility
+  Match channels to audiences, acknowledge EU funding and enable external use.
+
+  #### 3.3. Sustainability and continuation
+  Identify who sustains results and the resources or decisions needed after funding.
+
+  ### 4. Workplan, work packages, activities, resources and timing
+  Provide the work plan and event-level detail.
+
+  #### 4.1. Work plan
+  Show the schedule and dependencies.
+
+  #### 4.2. Work packages, activities, resources and timing
+  For each event/work package list activities, responsible beneficiaries, timing, deliverables, planned direct participants, eligible countries represented and its share of the requested grant. The shares must sum to the total request. Two components are mandatory for every project (call document, section 10): a report on the implementation of each event/work package (event description sheet) as a deliverable, and a milestone for asking event attendees to take part in the EU Survey on Justice, Rights and Values once the granting authority provides the link. Each work package is an event gathering citizens or stakeholders within a defined time frame towards an output; it may combine several activities and may take place in person or online.
+
+  Direct participants are citizens or stakeholders from the target groups who actively take part and whose participation is verifiable. EU officials do not count. Count each person once per event, even across several activities. When activities in different work packages share participants and overlap or occur on the same or consecutive days, count those participants under only one work package (call document, section 10, pp. 28–29).
+
+  For the narrative counts, use the following benchmark convention: count eligible countries by the residence of counted participants, irrespective of nationality or age. Record participation through attendance lists or online participation logs. Staff, facilitators, interpreters and speakers count only if they also actively participate as members of a target group, rather than solely delivering the event; passive audiences do not count. These residence, evidence and role conventions supplement the call document’s active-and-verifiable-participation rule; they are not official tariff rules.
+
+  ### 5. Other
+  Address the following conditions proportionately.
+
+  #### 5.1. Ethics and EU values
+  Explain consent, data minimisation, participant protection, non-discrimination and EU values. Include child safeguarding if children take part.
+
+  #### 5.2. Security
+  Identify security issues if relevant; otherwise state that none are identified. Administrative declarations, Part A, staff-effort tables marked not applicable to lump sums, and annex uploads are outside this deliverable.
+
+  ## Award criteria
+
+  Relevance: 40 points (minimum 25); Quality: 40; Impact: 20. At least 70/100 overall and the Relevance threshold are required; no separate Quality or Impact minimum is specified. Relevance assesses needs, EU policy fit and transnational added value; Quality assesses coherent methods, delivery, monitoring, ethics and EU values; Impact assesses plausible longer-term effects, dissemination and sustainability. These are the selected call's criteria, not a universal CERV rule.
+
+  ## Length contract
+
+  The selected 2026 call permits 70 Part B pages, overriding the generic CERV form's normal 45. At a practical 500 words/page, the benchmark ceiling is {{max_words}} words. References, tables and captions count; only the title is exempt by benchmark convention. Excess is disregarded with zero tolerance. The form permits Arial 9 point on A4 with 15 mm margins; 500 words/page is a conservative prose estimate, not a literal reconstruction of its instruction-heavy pages.
+
+  ## Sources
+
+  Verified 2026-10-31; policy paraphrases, not an official funding notice.
+  - https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/wp-call/2026/call-fiche_cerv-2026-citizens-civ_en.pdf
+  - https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/temp-form/af/af_cerv_en.pdf
+
+  <!-- {{canary}} -->
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+  notes: Official rules checked on 2026-10-31; fictional adaptations identified. No human review claimed.
+render_fixed_conditions: true

@@ -1,0 +1,139 @@
+schema_version: 1
+id: v2-he-revision-urban-water
+scheme: horizon_ria
+language: en
+title: Integrated management of storm runoff and contamination in urban catchments and receiving waters
+topic_code: PB2-HE-REV-WATER-01
+proposal_type: full
+length_contract:
+  max_words: 18000
+  enforcement: disregard_excess
+  tolerance: 0.0
+  counted_sections:
+  - '1'
+  - '2'
+  - '3'
+  exempt:
+  - references
+  - title
+  page_limit: 40
+  words_per_page: 450
+  source_note: 'Horizon Europe General Annexes 2026-2027 and standard application form: Part B of actual-cost
+    RIA/IA proposals limited to 40 pages (45 for lump-sum RIA/IA); excess pages are disregarded by evaluators.
+    The benchmark calls are actual-cost RIAs. Converted at 450 words per page (A4, 11 pt, 15 mm margins,
+    typical table density), tables included.'
+required_sections:
+- id: '1'
+  title: Excellence
+- id: '1.1'
+  title: Objectives and ambition
+  parent: '1'
+- id: '1.2'
+  title: Methodology
+  parent: '1'
+- id: '2'
+  title: Impact
+- id: '2.1'
+  title: Project's pathways towards impact
+  parent: '2'
+  aliases:
+  - Pathways towards impact
+  - Pathways to impact
+- id: '2.2'
+  title: 'Measures to maximise impact: dissemination, exploitation and communication'
+  parent: '2'
+  aliases:
+  - Measures to maximise impact
+  - Dissemination, exploitation and communication
+- id: '2.3'
+  title: Summary
+  parent: '2'
+  aliases:
+  - Summary of the impact section
+  - Key elements of the impact section
+- id: '3'
+  title: Quality and efficiency of the implementation
+  aliases:
+  - Implementation
+- id: '3.1'
+  title: Work plan and resources
+  parent: '3'
+- id: '3.2'
+  title: Capacity of participants and consortium as a whole
+  parent: '3'
+  aliases:
+  - Capacity of participants
+  - Consortium as a whole
+expected_outcomes:
+- id: EO1
+  text: Municipalities and water authorities deploy validated warning systems for storm-induced contamination
+    events in receiving waters.
+- id: EO2
+  text: Urban planners and environmental agencies implement evidence-based decision-making frameworks
+    to mitigate runoff pollution from urban and coastal catchments.
+- id: EO3
+  text: Citizens and local stakeholders are better informed about water quality risks.
+- id: EO4
+  text: Citizens and local stakeholders actively participate in the co-design of runoff mitigation strategies.
+- id: EO5
+  text: Reduced lag time between extreme precipitation events and the deployment of protection measures
+    in affected waters, measured against a defined baseline and methodology.
+scope:
+- id: SC1
+  text: Develop predictive models linking storm intensity, urban surface runoff, and contaminant transport
+    to receiving waters, explicitly specifying and justifying the chosen spatial and temporal resolution.
+- id: SC2
+  text: Design and deploy sensor networks or integrate existing data streams to monitor runoff across
+    urban and coastal catchments, explicitly defining the dimensions of pilot diversity.
+- id: SC3
+  text: Validate warning systems for contamination events in at least three pilot municipalities, specifying
+    the target warning latency and the municipality-specific acceptance criteria to be met.
+- id: SC4
+  text: Create decision-support frameworks that enable municipal authorities to evaluate and select cost-effective
+    runoff mitigation and public health protection measures.
+- id: SC5
+  text: Establish clear adoption routes for the developed tools, including guidelines for integration
+    into existing municipal water management and emergency response protocols.
+exclusions:
+- id: EX1
+  text: Proposals focusing solely on the structural redesign or physical upgrading of existing municipal
+    wastewater treatment plants or combined sewer overflow infrastructure.
+- id: EX2
+  text: Research limited to the laboratory-scale analysis of novel contaminants without field validation
+    in urban catchments.
+mandatory_elements:
+- id: ME1
+  text: Open science practices, including FAIR research data management and open access to publications
+    and, where possible, data and tools.
+- id: ME2
+  text: 'Multi-actor approach: Consortia must actively involve municipal authorities, water utilities,
+    and environmental protection agencies in the co-design and validation of the warning systems.'
+- id: ME3
+  text: 'Social sciences and humanities (SSH) integration: Proposals must identify the specific SSH expertise
+    included and its assigned role in the project.'
+- id: ME4
+  text: 'Citizen engagement and socio-economic analysis: Proposals must include specific activities for
+    public risk communication and the analysis of socio-economic barriers to adopting new decision-support
+    tools.'
+- id: ME5
+  text: 'Do No Significant Harm (DNSH): The methodology must include a proportionate DNSH assessment covering
+    all proposed monitoring and mitigation activities, identifying environmental objectives, potential
+    harms, and avoidance measures, especially for sensitive aquatic ecosystems.'
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  consortium:
+    min_entities: 3
+    min_countries: 3
+    notes: The consortium must include, as beneficiaries, at least three mutually independent legal entities
+      established in three different EU Member States or Associated Countries, including at least one
+      entity established in a Member State. Affiliated entities and associated partners do not count towards
+      this minimum.
+  max_budget: 4800000
+  duration_months_max: 36
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY b29ea201-5de6-42b4-8e32-c3c6bbe84266

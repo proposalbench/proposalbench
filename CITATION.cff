@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use ProposalBench, please cite it as below."
+title: "ProposalBench: an open benchmark for call-conditioned research proposal writing"
+type: software
+authors:
+  - name: "Proposia"
+    website: "https://proposia.ai"
+version: "1.0.0"
+license: Apache-2.0
+repository-code: "https://github.com/proposalbench/proposalbench"
+url: "https://proposia.ai/benchmark"
+abstract: >-
+  ProposalBench evaluates systems that write research funding proposals from a call and an
+  applicant's prior research. It provides 60 public tasks over 12 funding schemes, an open
+  scoring harness (deterministic checks, reference verification against scholarly indexes and a
+  judge panel from model families no evaluated system uses), and every generated proposal and
+  judgment of its November 2026 run.
+keywords:
+  - benchmark
+  - large language models
+  - LLM evaluation
+  - grant proposals
+  - scientific writing
+  - research funding

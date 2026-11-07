@@ -1,0 +1,49 @@
+{
+  "kind": "dossier",
+  "id": "v2-coastal-warning-revision-consortium",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-coastal-warning-revision-consortium/cv_coordinator.md, Research funding: \"2019–2022 | SHOREWISE | Interreg Atlantic Area 2014–2020\"; consortium_partners.md also uses SHOREWISE as collaboration history.",
+      "problem": "Shorewise is already the name of a real publicly presented coastal-climate initiative and organisation in MIT Solve's 2024 Global Climate Challenge. It operates in closely related coastal decision-support territory, so the name is readily confusable even though this dossier assigns different funder, dates and partners.",
+      "fix": "Replace the fictional project acronym SHOREWISE with ESTUWARD-PB19 everywhere in this dossier, including collaboration history. Update the reference in pub2-he-revision-urban-stretch/brief.md as part of the rename. Preserve the invented dates, funding and role. Exact-phrase search for ESTUWARD-PB19 found no match.",
+      "evidence": [
+        "https://solve.mit.edu/solutions/83911",
+        "data/public/dossiers/v2-coastal-warning-revision-consortium/cv_coordinator.md",
+        "data/public/dossiers/v2-coastal-warning-revision-consortium/consortium_partners.md",
+        "data/public/tasks/pub2-he-revision-urban-stretch/brief.md",
+        ".codex-handoff/deep_review_c_sources/search_audit.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 9",
+      "where": "data/public/dossiers/v2-coastal-warning-revision-consortium/dossier.yaml has four reviewer_criticisms; outfalert_esr_2026.md additionally says \"Open science practices are described in general terms\", \"The replication target of 20 sites by 2030 is not substantiated\", \"the proposal foresees no contingency\" for event shortage, and \"The coordinator has limited experience in managing multi-beneficiary EU projects\".",
+      "problem": "Four explicit ESR shortcomings are missing from the hidden resubmission key. They are not all equivalent to the existing raw-data licensing or transferability criteria: manager commitment/replication, general open-science practice, event-yield contingency and management capacity require separate responses. The technical update already distinguishes responses and remaining gaps, but RESUB cannot score them as specified.",
+      "fix": "Append R5: 'Open-science practices are too general beyond preregistration; a concrete research-output and data-management approach is missing.' R6: 'Replication at 20 sites by 2030 is unsupported, and no end-user organisation has committed.' R7: 'The single-season Charente verification has no contingency if too few exceedance events occur.' R8: 'The coordinator has limited multi-beneficiary EU management experience; the implementation needs a credible response to that capacity risk.' Keep these as separate atomic criticisms and retain the update's unresolved status where applicable.",
+      "evidence": [
+        "data/public/dossiers/v2-coastal-warning-revision-consortium/outfalert_esr_2026.md",
+        "data/public/dossiers/v2-coastal-warning-revision-consortium/technical_update_sept2026.md",
+        "data/public/dossiers/v2-coastal-warning-revision-consortium/dossier.yaml",
+        "tools/authoring/design_v2.md:85",
+        "docs/scoring_spec.md:87"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all seven visible files, all 25 registered facts and five publications, and the unit's previous automated reviews. The 2025 application and February 2026 ESR are historical documents; their old Impact wording is not itself a 2026 call-fidelity defect.",
+    "Recomputed 84 routine + 66 event = 150 samples, 8 exclusions -> 142 = 81 + 61; 25/142=17.6%, 19/25=0.76 and 103/117=0.88. Survey counts round to stated percentages. Threshold-table hit rates and false-alarm ratios match 20/38, 8/28, 32/38 and 29/61.",
+    "Verified 354 person-months across partners and work packages; EUR 3 million is the old request, not an award. Current consortium letters and memorandum precede October; Shannon is a CICS department, not a fourth legal entity or evidence of samples from a second Irish estuary.",
+    "All non-null fact values appear in their cited source. Data inventory totals 14; internal release approval, restricted raw assets, conditional derived data and unpublished code are differentiated in the visible register. No intentional gaps or inconsistencies are declared.",
+    "Proxy/culture methods and limited cross-estuary generalisability checked against https://pubs.acs.org/doi/10.1021/acsestwater.4c00644 and https://pmc.ncbi.nlm.nih.gov/articles/PMC11629095/. The reported magnitudes are plausible; six Charente samples with one exceedance cannot establish transfer performance.",
+    "ISO 9308-3 is the surface/wastewater E. coli MPN method: https://www.iso.org/standard/20878.html. Met Éireann open-data CC BY 4.0 conditions verified at https://www.met.ie/about-us/specialised-services/open-data. The dossier's 500 MPN/100 mL threshold is a research endpoint, not presented as statutory beach classification.",
+    "Full person, institution, company, acronym, dataset and journal searches recorded in .codex-handoff/deep_review_c_sources/search_audit.json. SHOREWISE is the supported collision; an amateur-sport Jonas Kettler hit was insufficient to establish a known researcher/public figure. Five DOI/venue/author records match visible fictional publications.",
+    "Uncertainty code is internal and manuscript under review; 2,580 is conditional on full reach/compliance, with a lower illustrative uptake scenario. Zero-lead hindcast and existing three-hour nowcasts do not establish 24–48-hour forecast skill; the dossier explicitly preserves that limitation."
+  ]
+}

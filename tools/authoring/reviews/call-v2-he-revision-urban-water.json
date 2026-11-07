@@ -1,0 +1,66 @@
+{
+  "kind": "call",
+  "id": "v2-he-revision-urban-water",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "call.md — Length: “Benchmark adaptation”; final PROPOSALBENCH-CANARY comment",
+      "problem": "The applicant-facing text exposes benchmark enforcement mechanics and includes a benchmark canary. These go beyond the permitted fictional-call notice.",
+      "fix": "Describe 18,000 words as a submission restriction of this fictional call, state its counting and enforcement rules without referring to the benchmark, and remove the canary from the applicant-facing document.",
+      "part": "template"
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml — length_contract.tolerance; call.md — Length",
+      "problem": "The YAML permits a 3% tolerance, while the prose says text beyond 18,000 words is not evaluated. A 3% allowance corresponds to 540 additional words, producing an effective boundary of 18,540 words that applicants are not told about.",
+      "fix": "Set tolerance to 0 to match the stated hard limit, or explicitly describe the same tolerance and its enforcement in call.md.",
+      "part": "template"
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml — eligibility.budget_in_narrative: true; call.md — Proposal template, section 3.1",
+      "problem": "The hidden configuration requires a funding request in the narrative, but section 3.1 requests staff effort and selected cost justifications without explicitly requiring the total requested EU contribution. An applicant could follow the listed narrative requirements and leave the funding total in the administrative forms.",
+      "fix": "Explicitly require the total requested EU contribution and an appropriate budget summary in section 3.1 as a restriction of this fictional call, or set budget_in_narrative to false.",
+      "part": "template"
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md — Proposal template, section 3.1: “justification of other direct costs above 15% of personnel costs”",
+      "problem": "This misstates the standard RIA/IA template's purchase-cost justification rule. The threshold applies to each participant's aggregate purchase costs, including travel and subsistence, equipment, and other goods, works and services. “Other direct costs” is not the equivalent cost category, and the text omits the participant-level basis.",
+      "fix": "Use the standard template's purchase-cost terminology and specify that the 15% comparison is made separately for each participant. Preserve the standard treatment of subcontracting and other cost categories rather than applying this threshold to all non-personnel direct costs.",
+      "part": "template"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md — Expected outcome, third bullet; Specific conditions, SSH integration; call.yaml — EO3 and ME3",
+      "problem": "EO3 combines improved public understanding with participation in co-design, which can succeed or fail independently. ME3 similarly combines risk communication, citizen engagement and analysis of adoption barriers under one mandatory item. These are separately assessable demands.",
+      "fix": "Split public understanding and participation into separate expected outcomes. Make the SSH requirement a concrete narrative requirement to identify the expertise and its assigned role, and express any independently mandatory SSH activities as separate items. Update both files together.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md — Scope, first three bullets and Expected outcome, fourth bullet; call.yaml — SC1, SC2, SC3 and EO4",
+      "problem": "Central performance requirements are left without an assessment basis: “high-resolution,” “real-time,” “diverse,” “local operational requirements,” and “reduced lag time” have no defined interpretation or requirement for applicants to establish one. Merely repeating these phrases could appear to address the items without specifying a testable validation plan.",
+      "fix": "Require applicants to specify and justify spatial and temporal resolution, warning latency, the dimensions of pilot diversity, municipality-specific acceptance criteria, and the baseline and measurement method for response-time improvement. The call can leave numerical targets to applicants while requiring them to be explicit.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md — Specific conditions, DNSH; call.yaml — ME4",
+      "problem": "ME4 states a compliance obligation but does not identify what the requested narrative must demonstrate. The emphasis on sensitive aquatic ecosystems also leaves unclear whether the assessment covers only sensor deployment or all proposed monitoring and mitigation activities.",
+      "fix": "Require a proportionate DNSH assessment in the methodology covering the proposed monitoring and mitigation activities, identifying relevant environmental objectives, potential harms and measures to avoid them, with explicit treatment of deployments in sensitive aquatic ecosystems.",
+      "part": "topic"
+    }
+  ]
+}

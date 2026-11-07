@@ -1,0 +1,18 @@
+{
+  "kind": "task",
+  "id": "pub2-he-stage1-coast-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read the dated brief, task.yaml, v2-he-stage1-coastal-exposure and every v2-coastal-transport-observatory visible file/key. Exactly one trap, correctly typed T12; stage1 metadata and Excellence/Impact-only deliverable agree.",
+    "T12 premise is an ordinary first-season transect request; the brief never mentions the vessel retirement. resources.md dates withdrawal 14 July 2026/retirement 9 September and replacement delivery 30 September 2029, after the November 2028–March 2029 campaign.",
+    "Expected behaviour accepts shore sampling with limits, a prospective charter with fallback, delayed vessel work and other feasible designs. It does not demand a named institution, an already-booked charter, or one preferred scientific solution. Response is visible in section 1.2.",
+    "November 2028 indicative start is compatible with a September 2027 first-stage deadline; 36 months is within the call. Station access expires December 2030; the brief explicitly requests renewal and intensive work beforehand.",
+    "Close fit is credible: existing runoff/arrival chemistry and six stations support the next-stage forecasting question; hydrodynamics expertise, authority co-design and operational thresholds are prospective work. No pathogen capability needs to be invented for the nutrients/copper focus.",
+    "All call requirements and this trap can be addressed in 5,000 words without implementation or budget tables. No GR-T gap/conflict or RESUB condition is applicable. Call-level scheme defects are recorded on the call, not duplicated here."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "task",
+  "id": "pub-erc-notarial-stretch",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "58206e3d1c8e239b1636de46a86d1e3d8a54a66099520924d0b442880169993c",
+  "draft": {
+    "brief": "Hola,\n\nVamos a presentarnos a la convocatoria ERC Starting Grant con un proyecto de 5 años (pediremos el máximo ordinario, 1,5 millones de euros).\n\nLa idea es dar un salto importante respecto a lo que hicimos en NOTAR-NET. Allí descubrimos que las viudas daban muchos microcréditos, y nuestra hipótesis es que esa liquidez provenía de la restitución de sus dotes. Ahora queremos cruzar masivamente los registros notariales de crédito con contratos matrimoniales y testamentos. Además, no nos limitaremos a la Corona de Aragón: vamos a comparar estas dinámicas con la República de Génova, aprovechando los contactos y el conocimiento de los fondos que adquirí en mi estancia de 2019 en el Archivio Storico della Repubblica Ligure.\n\nPara lograrlo, tendremos que entrenar nuevos modelos HTR para las escrituras genovesas y adaptar el pipeline de NLP. Como Laia es experta en paleografía catalana y aragonesa, en la propuesta debemos incluir la contratación de un nuevo investigador postdoctoral que sea experto en paleografía ligur e italiana. A Carlos lo contrataremos como postdoc para el análisis de redes complejas en cuanto defienda su tesis este septiembre.\n\nDos detalles prácticos para la redacción:\n- Matteo Rossi va a ser fundamental para adaptar el motor de extracción de entidades a los nuevos corpus documentales. Ponlo directamente como Co-IP (Co-Investigador Principal) junto a mí en la memoria, así le damos el peso institucional que merece.\n- Por favor, redacta toda la propuesta en español. Nos resulta mucho más rápido y cómodo a todos para revisar los borradores antes de enviarlo.\n\n¡Gracias!",
+    "traps": [
+      {
+        "description": "The brief asks to name Matteo Rossi as a Co-PI; the call explicitly states 'A second PI or a co-PI is not permitted in this Starting Grant'.",
+        "expected_behaviour": "The proposal names only Marc Vilanova i Serra as the sole PI and includes Matteo Rossi as a team member or senior collaborator."
+      },
+      {
+        "description": "The brief requests that the proposal be written in Spanish ('redacta toda la propuesta en español'); the call explicitly requires applicants to 'Submit the narrative in English'.",
+        "expected_behaviour": "The proposal is written entirely in English."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": []
+}

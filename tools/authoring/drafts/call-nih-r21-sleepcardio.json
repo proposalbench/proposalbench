@@ -1,0 +1,36 @@
+{
+  "kind": "call",
+  "id": "nih-r21-sleepcardio",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "b4209c53ae2e02be012a03c3b0222f5584b7db664fcd613b9e5b870be7186ab4",
+  "draft": {
+    "title": "Objective Sleep Patterns and Cardiometabolic Risk in Adolescents and Young Adults",
+    "expected_outcomes_intro": "This fictional ProposalBench topic is a benchmark research emphasis, not a real NIH priority. Sleep timing, duration, and regularity are potentially modifiable contributors to cardiometabolic risk during adolescence and young adulthood, when school, work, and social schedules can disrupt sleep. Associations with adiposity, blood pressure, and glucose regulation warrant investigation, but correlated sleep characteristics, confounding, and bidirectional relationships limit interpretation. Wider availability of wearable measurements and repeated cardiometabolic assessments creates an opportunity for exploratory studies that establish measurement feasibility and test bounded hypotheses before larger investigations.",
+    "expected_outcomes": [
+      "Investigators will have evidence of whether objective sleep assessment linked to cardiometabolic measurements yields sufficiently complete and interpretable data in the selected adolescent or young-adult population.",
+      "Researchers will have estimates, with uncertainty, that clarify a specified relationship between sleep patterns and cardiometabolic risk, including what remains unresolved when findings do not support the proposed hypothesis.",
+      "Investigators planning a larger study will have evidence-based criteria for proceeding, revising the hypothesis or measurement strategy, or discontinuing the proposed line of investigation."
+    ],
+    "scope_intro": "Proposals should address an unresolved relationship between sleep patterns and cardiometabolic risk in adolescents, young adults, or a scientifically justified group spanning these developmental periods. The rationale should explain why the selected sleep characteristic and cardiometabolic measure can provide informative exploratory evidence.\n\nObservational studies, analyses of existing objectively measured sleep data, and mechanistic investigations without prospective assignment to interventions are responsive. Designs should distinguish evidence consistent with a biological pathway from evidence establishing causation.",
+    "scope": [
+      "Evaluate a bounded hypothesis linking objectively measured sleep timing, duration, or regularity to a specified cardiometabolic phenotype, explaining how correlated sleep characteristics will inform interpretation.",
+      "Assess a plausible biological pathway or temporal relationship using observational comparisons, repeated measurements, or existing data, with explicit consideration of confounding and reverse causation.",
+      "Determine whether the proposed measurement and recruitment or data-access strategy can support a larger investigation, identifying uncertainties that exploratory findings must resolve."
+    ],
+    "exclusions": [],
+    "mandatory_elements": [
+      "Use objective sleep measurements to derive the primary sleep exposure, and justify the instrument, recording schedule, and exposure definition for the selected population. Distinguish behavioral sleep timing from endogenous circadian phase; claims about circadian phase require an appropriate phase measure.",
+      "Specify sleep-data quality procedures covering valid recording periods, nonwear or signal loss, sleep–wake classification, and missingness. Explain how sampling across school, work, and free days supports the proposed timing, duration, or regularity estimates."
+    ],
+    "conditions": {
+      "max_budget": null,
+      "duration_months_max": null,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": null
+    }
+  },
+  "history": []
+}

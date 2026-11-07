@@ -1,0 +1,18 @@
+{
+  "kind": "task",
+  "id": "pub2-aei-service-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read brief.md/task.yaml and both linked call/dossier keys and visible files. Full task; brief dated 1 October 2026; Spanish output with intentionally English source notes/dossier (tools/authoring/design_v2.md).",
+    "T14 premise is explicit and ordinary applicant scheduling pressure. The governance memorandum directly prohibits recruitment/enrolment/interviews before site permission and consent, and supplies the applicable ethics sequence; no external law is required.",
+    "The three core pass conditions are achievable and accept a conditional permissions milestone, authorised initial secondary analysis and other feasible alternatives. Consent, site permission and ethics are not interchangeable; accessible-process requirements are sensibly left to the call rather than duplicated in the trap.",
+    "Close fit: existing service-encounter corpus, rubric, linguistics/nursing/law skills support a comparison of comprehension, procedural completion and actual care access. Additional users/sites may be proposed prospectively.",
+    "36 months and EUR 90,000 direct fit type B; sole PI has PhD 2012 and permanent Spanish appointment. No associated predoctoral award; Elena's September 2027 contract limitation can be respected. Ten-thousand-word narrative is ample.",
+    "Call key defect is filed on v2-aei-oriented-service-access rather than duplicated here. One trap only; no T12/T13/RESUB rule applies."
+  ]
+}

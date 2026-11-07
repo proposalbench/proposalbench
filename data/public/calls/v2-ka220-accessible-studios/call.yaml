@@ -1,0 +1,122 @@
+schema_version: 1
+id: v2-ka220-accessible-studios
+scheme: erasmus_ka220
+language: en
+title: Accessible Collaborative Studios and Placements in Higher Education
+topic_code: PB2-KA220-HED-02
+proposal_type: full
+length_contract:
+  max_words: 6000
+  enforcement: inadmissible
+  tolerance: 0.0
+  exempt:
+  - title
+  - references
+  page_limit: 12
+  words_per_page: 500
+  source_note: 'Verified 2026-10-31. https://erasmus-plus.ec.europa.eu/programme-guide/part-b/key-action-2/cooperation-partnerships;
+    https://erasmus-plus.ec.europa.eu/sites/default/files/2025-11/Call%202026%20Cooperation%20partnerships%20in%20higher%20education%20%28KA220-HED%29_watermark.pdf.
+    Benchmark conversion: 12 pages x 500 words/page = 6000 words; prose estimate, not a funder word-count
+    rule. Tables and captions count. The 2026 online form has no verified overall narrative page limit;
+    12 pages is an INVENTED benchmark allowance, not its 17-page blank-form length or a conversion of
+    character fields.'
+required_sections:
+- id: summary
+  title: Project summary
+- id: budget
+  title: Budget
+- id: organisations
+  title: Participating organisations
+- id: relevance
+  title: Relevance of the project
+- id: partnership
+  title: Partnership and cooperation arrangements
+- id: impact
+  title: Impact and dissemination
+- id: implementation
+  title: Project design and implementation
+- id: management
+  title: 'WP1: Project management'
+  parent: implementation
+- id: activities
+  title: Other work packages and activities
+  parent: implementation
+expected_outcomes:
+- id: EO1
+  text: Higher education institutions offer collaborative studios or placement teaching that accommodate
+    students with sensory or language access barriers.
+- id: EO2
+  text: Academic staff or placement supervisors possess the pedagogical skills to facilitate inclusive
+    practice-based learning, including arts or language-practice routes.
+- id: EO3
+  text: Participating institutions formally adopt the co-created accessibility frameworks into their standard
+    curriculum design or placement management processes.
+scope:
+- id: SC1
+  text: Co-create accessible collaborative studio environments or placement teaching models in partnership
+    with students experiencing sensory or language barriers.
+- id: SC2
+  text: Develop and deliver targeted training for academic staff or placement supervisors on inclusive
+    pedagogical practices for practice-based learning.
+- id: SC3
+  text: Compare student participation rates and assessed learning outcomes before and after the implementation
+    of the accessible teaching models.
+- id: SC4
+  text: Formulate a strategy for institutional uptake that embeds the successful accessibility measures
+    into standard departmental or university policies.
+exclusions:
+- id: EX1
+  text: Subcontracting cannot cover core activities on which the action objectives directly depend.
+- id: EX2
+  text: Proposals focusing exclusively on traditional lecture-based teaching without addressing collaborative
+    studios, arts practice or placement environments.
+- id: EX3
+  text: Projects limited to the procurement of assistive technology hardware without developing the associated
+    pedagogical frameworks and staff training.
+mandatory_elements:
+- id: ME1
+  text: 'State the selected lump sum: EUR 120,000, EUR 250,000 or EUR 400,000.'
+- id: ME2
+  text: Provide the allocation of the selected lump sum by work package and partner.
+- id: ME3
+  text: Describe measures that make the planned activities accessible to the target participants.
+- id: ME4
+  text: Describe environmental sustainability measures for the planned activities.
+- id: ME5
+  text: Explain how digital tools support cooperation between the participating organisations.
+- id: ME6
+  text: Define qualitative and quantitative indicators for assessing the work-package objectives.
+- id: ME7
+  text: Explain how partners will sustain the project results after funding ends.
+- id: ME8
+  text: Where applicable, specify open licences for the materials produced, without disproportionate restrictions
+    on reuse.
+- id: ME9
+  text: Describe the baseline limitations in current studio or placement teaching that create sensory
+    or language access barriers.
+- id: ME10
+  text: Detail the evaluation plan, including an explicit approach to handling missing evaluation data
+    when comparing participation and learning outcomes.
+- id: ME11
+  text: Identify the institutional bodies responsible for adoption decisions and provide their decision
+    timetable for securing institutional uptake.
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 120000
+  max_budget: 400000
+  duration_months_min: 12
+  duration_months_max: 36
+  consortium:
+    min_entities: 3
+    min_countries: 3
+    notes: Three organisations from three EU Member States or third countries associated to Erasmus+.
+      Coordinator based in an EU Member State or associated country and legally established for at least
+      two years at the deadline; participating HEIs in these countries hold a valid ECHE. Non-associated
+      partners cannot satisfy the minimum.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 9feeae64-3260-4f80-817d-0f39afe6fb9e

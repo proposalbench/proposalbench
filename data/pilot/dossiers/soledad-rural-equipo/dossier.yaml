@@ -1,0 +1,49 @@
+schema_version: 1
+id: soledad-rural-equipo
+language: es
+applicant_type: team
+career_stage: mid_career
+disciplines: [sociology, social work, human geography, gerontology]
+method_profile: mixed
+country: ES
+
+files:
+  - {path: equipo.md, role: team}
+  - {path: proyecto_previo.md, role: prior_project}
+  - {path: publicaciones.md, role: publications}
+
+facts:
+  - {id: F01, category: result, text: "Prevalencia de soledad no deseada del 23,4 % (IC 95 % 21,0-25,8) en personas de 65 años o más.", value: "23,4", salient: true, source: proyecto_previo.md}
+  - {id: F02, category: result, text: "Prevalencia del 31,2 % en mujeres que viven solas y del 24,5 % en hombres que viven solos.", value: "31,2; 24,5", salient: true, source: proyecto_previo.md}
+  - {id: F03, category: result, text: "Contacto semanal con un vecino: odds ratio ajustada 0,58 (IC 95 % 0,44-0,77).", value: "0,58", salient: true, source: proyecto_previo.md}
+  - {id: F04, category: result, text: "Prevalencia 7,9 puntos más alta en municipios sin punto de encuentro estable.", value: "7,9", salient: true, source: proyecto_previo.md}
+  - {id: F05, category: result, text: "Encuesta a 1.214 personas, tasa de respuesta del 61 %.", value: "1.214; 61", salient: true, source: proyecto_previo.md}
+  - {id: F06, category: result, text: "42 entrevistas semiestructuradas (24 mujeres, 18 hombres) y 11 grupos de discusión.", value: "42; 11", salient: true, source: proyecto_previo.md}
+  - {id: F07, category: result, text: "Resultados presentados a la Gerencia de Servicios Sociales y a 3 diputaciones; Soria los usó para priorizar municipios.", value: 3, salient: true, source: proyecto_previo.md}
+  - {id: F08, category: other, text: "Limitaciones de RURALVÍNCULO: diseño transversal, sin medidas de tecnología ni movilidad, sin residencias.", salient: true, source: proyecto_previo.md}
+  - {id: F09, category: grant, text: "RURALVÍNCULO, Junta de Castilla y León, 72.000 euros, 2022-2025, IP Villarino Pascual.", value: "72.000", salient: true, source: proyecto_previo.md}
+  - {id: F10, category: other, text: "La IP ha sido miembro de 2 proyectos del Plan Estatal, nunca como IP.", value: 2, salient: true, source: equipo.md}
+  - {id: F11, category: publication, text: "La IP tiene 24 artículos en revistas indexadas y 2 sexenios.", value: "24; 2", source: equipo.md}
+  - {id: F12, category: team, text: "La IP ha dirigido 2 tesis (2020 y 2023) y codirige 1 en curso.", value: 2, salient: true, source: equipo.md}
+  - {id: F13, category: position, text: "La IP es Profesora Titular de Sociología en la UAD desde 2019; doctora por la Universidad Complutense de Madrid (2012).", value: 2019, source: equipo.md}
+  - {id: F14, category: team, text: "Equipo de investigación: Villarino Pascual (IP), Mielgo Carracedo (estadística, redes) y Urrestarazu Lekue (SIG, accesibilidad).", salient: true, source: equipo.md}
+  - {id: F15, category: team, text: "Equipo de trabajo: Óscar Lafuente Tobar (doctorando sin financiación desde 2025) y Raquel Barrientos Ollero (Diputación de Soria).", salient: true, source: equipo.md}
+  - {id: F16, category: resource, text: "Base de datos de RURALVÍNCULO y 42 transcripciones con consentimiento de reutilización; servidor seguro; comité de ética de la UAD.", salient: true, source: equipo.md}
+  - {id: F17, category: resource, text: "Acuerdo marco UAD-Diputación de Soria para acceso a datos agregados de servicios sociales.", salient: true, source: equipo.md}
+  - {id: F18, category: other, text: "La asociación Pueblos con Vida no forma parte del equipo ni es entidad participante.", salient: true, source: equipo.md}
+
+own_publications:
+  - {key: villarino2024, authors: [Villarino Pascual, Mielgo Carracedo], year: 2024, title: "Neighbours matter more than distant children: personal networks and loneliness among older adults in rural Castile and León", venue: Ageing & Society, doi: 10.99999/pb.uad.2024.001}
+  - {key: villarino2025, authors: [Villarino Pascual, Lafuente Tobar, Urrestarazu Lekue], year: 2025, title: "Cuando cierra el bar: pérdida de servicios y soledad no deseada en la España rural", venue: Revista Española de Investigaciones Sociológicas, doi: 10.99999/pb.uad.2025.002}
+  - {key: urrestarazu2023, authors: [Urrestarazu Lekue, Mielgo Carracedo], year: 2023, title: Accesibilidad a servicios básicos y envejecimiento en municipios de menos de 2.000 habitantes, venue: Boletín de la Asociación de Geógrafos Españoles, doi: 10.99999/pb.uad.2023.003}
+  - {key: lafuente2025, authors: [Lafuente Tobar, Villarino Pascual], year: 2025, title: "Caring and being alone: older rural women's accounts of loneliness", venue: Journal of Rural Studies, doi: 10.99999/pb.uad.2025.004}
+  - {key: villarino2023, authors: [Villarino Pascual], year: 2023, title: La soledad no deseada como problema público en el medio rural, venue: Envejecer en la España vacía, doi: 10.99999/pb.uad.2023.005}
+
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: claude-opus-5-5
+  created: 2026-10-30
+  notes: Pilot dossier written from scratch; names to be collision-checked against OpenAlex.
+
+canary: PROPOSALBENCH-CANARY 127b84e1-eda8-4f34-8ad5-1b117b35e97c

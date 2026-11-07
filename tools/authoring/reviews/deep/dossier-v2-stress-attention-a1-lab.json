@@ -1,0 +1,73 @@
+{
+  "kind": "dossier",
+  "id": "v2-stress-attention-a1-lab",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-stress-attention-a1-lab/summary_statement_a0.md: \"SCIENTIFIC REVIEW OFFICER: Dr. Sarah L. Chen\".",
+      "problem": "The exact full name belongs to a real published medical researcher. A primary journal page lists Sarah L. Chen as an author on hip-outcome research. Assigning that name to a fictional NIH official fails the explicit no-real-researcher-name rule, regardless of whether the real person works at NIH.",
+      "fix": "Replace 'Sarah L. Chen' with 'Selene L. Chen-Ravendale' throughout this dossier and any dependent quotations. Exact-phrase searches for the proposed replacement found no match; keep the fictional-document notice.",
+      "evidence": [
+        "https://journals.sagepub.com/doi/10.1177/1120700019864015",
+        "data/public/dossiers/v2-stress-attention-a1-lab/summary_statement_a0.md",
+        ".codex-handoff/deep_review_c_sources/search_audit.json"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-stress-attention-a1-lab/publications.md: \"Elias V. Thorne & Clara M. Jenkins\"; data/public/tasks/pub2-nih-transition-stretch/brief.md: \"Clara Jenkins is fully on board\".",
+      "problem": "Clara Jenkins is a real nursing figure honoured in the Congressional Record, including her role as a pioneering nurse at Kennestone Hospital. The shortened full name used in this clinical-nursing bundle creates direct confusion; adding a middle initial in the CV does not resolve the unqualified mentions.",
+      "fix": "Rename the fictional nurse 'Clara M. Jenkins-Brackendale', use 'Clara Jenkins-Brackendale' when shortening, and 'Jenkins-Brackendale, C. M.' in publications. Propagate through both CVs, resources, bibliography, dossier.yaml facts/own_publications and the transition-stretch brief. Bibliographic keys may stay stable if they are opaque identifiers. Exact-phrase searches for the replacement found no match.",
+      "evidence": [
+        "https://www.congress.gov/109/crec/2005/03/02/151/22/CREC-2005-03-02.pdf",
+        "data/public/dossiers/v2-stress-attention-a1-lab/cv_jenkins.md",
+        "data/public/dossiers/v2-stress-attention-a1-lab/resources_and_team.md",
+        "data/public/tasks/pub2-nih-transition-stretch/brief.md",
+        ".codex-handoff/deep_review_c_sources/search_audit.json"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 9",
+      "where": "data/public/dossiers/v2-stress-attention-a1-lab/dossier.yaml, reviewer_criticisms R1–R4; summary_statement_a0.md, Critique 2: \"The statistical power analysis does not adequately account for the expected missing data\" and adherence \"remains susceptible to social desirability bias\".",
+      "problem": "The hidden list omits two explicit methodological criticisms which the September update separately tracks as items 5 and 6, still unresolved or only planned. RESUB therefore never directly checks whether either task responds to them, despite the design requiring an atomic criterion per major criticism.",
+      "fix": "Append R5: 'The power analysis does not account adequately for missing observations and attrition in the six-month EMA design.' Append R6: 'Daily self-reported adherence remains susceptible to social-desirability/reporting bias; monthly pill counts do not independently verify daily doses.' Keep the update's planned/unresolved statuses; do not manufacture a completed simulation or validation.",
+      "evidence": [
+        "data/public/dossiers/v2-stress-attention-a1-lab/summary_statement_a0.md",
+        "data/public/dossiers/v2-stress-attention-a1-lab/update_report_sept2026.md",
+        "data/public/dossiers/v2-stress-attention-a1-lab/dossier.yaml",
+        "tools/authoring/design_v2.md:85",
+        "docs/scoring_spec.md:87"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/v2-stress-attention-a1-lab/update_report_sept2026.md: \"A formal measurement-error analysis is planned\" and \"A revised power simulation incorporating realistic missing data patterns is planned but not yet completed\"; neither is registered in dossier.yaml facts.",
+      "problem": "These are salient planned responses to the reliability and power criticisms. Their absence prevents the task-specific grounding criteria from distinguishing the planned analyses from completed evidence, while several comparatively routine A0 scheduling details are registered as salient planned facts.",
+      "fix": "Add F28 (category other, kind planned, salient true, value null, source update_report_sept2026.md): 'A formal measurement-error analysis is planned; the 24-adult retest pilot does not resolve reliability of within-person attention fluctuations for mediation.' Add F29 with the same metadata: 'A revised power simulation incorporating realistic missing-data patterns is planned but not yet completed.' Place these entries immediately after F03 so the eight-criterion GR-T cap does not consistently crowd them out with routine A0 scheduling facts.",
+      "evidence": [
+        "data/public/dossiers/v2-stress-attention-a1-lab/update_report_sept2026.md",
+        "data/public/dossiers/v2-stress-attention-a1-lab/dossier.yaml",
+        "docs/scoring_spec.md:76",
+        "src/proposalbench/judge/items.py:299"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all seven Markdown files, hidden facts and four publications, and earlier automated-review context. A0 -> June review -> August retest -> September update chronology is coherent; nothing is dated after the task's present date.",
+    "All 27 non-null fact values checked against their source files; 80 planned cohort participants remain distinct from 24 completed pilot participants, with zero main-cohort enrollment.",
+    "ICC 0.62 and its broad interval are plausible for brief mobile testing; retest reliability is correctly distinguished from reliability of within-person changes. Comparison: https://pmc.ncbi.nlm.nih.gov/articles/PMC11629032/ and https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.734947/pdf.",
+    "Verified that medication coding/BSI/Charlson additions are protocol changes, analyses and retention supports remain prospective, a DAG is not evidence of identified causality, and the record explicitly withholds pharmacy-linkage permission.",
+    "Full-name/institution/company/laboratory/society/grant/journal searches are documented in .codex-handoff/deep_review_c_sources/search_audit.json. Sarah L. Chen and Clara Jenkins require changes; ambiguous ordinary-name and generic-laboratory hits were not inflated into confirmed collisions.",
+    "Four own-publication entries use 10.99999/pb. DOIs and match their visible titles, authors and fictional venues. Initial-only coauthors cannot be uniquely disambiguated from the supplied names; this limitation is recorded in the handoff.",
+    "The two assigned R21 narratives can retain the A0 question, use the clinic's post-discharge subgroup, revise measures and analysis, and remain observational within 24 months and the explicit word contract."
+  ]
+}

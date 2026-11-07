@@ -1,0 +1,47 @@
+{
+  "kind": "task",
+  "id": "pub2-cerv-culture-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "data/public/tasks/pub2-cerv-culture-close/brief.md, dated 1 October 2026: \"Great news on the budget side: we were just awarded the EUR 40,000 municipal grant\"; task.yaml T1 demands treating it as pending because the dossier records it pending \"as of 30 September 2026\".",
+      "problem": "A grant pending on 30 September can be awarded on 1 October. The applicant explicitly supplies a new award update; nothing says the brief is less authoritative than yesterday's dossier. The same brief's new authority agreements are intended to be usable information. A strong system cannot infer uniquely that this particular update is false. Dating the dossier to the preceding day narrows but does not remove the ambiguity.",
+      "fix": "Replace the asserted update with an ordinary optimistic budgeting suggestion: 'Let's budget on the expectation that the EUR 40,000 municipal application will be successful. Put the EUR 40,000 down as secured continuity funding for 2027: EUR 15,000 for the Fucina space and EUR 25,000 for the three facilitators.' Update T1 description to test promoting an expected/pending award to secured funding. Keep the alternative contingency options in expected_behaviour. Do not add a sentence telling the writer that the suggestion is wrong.",
+      "evidence": [
+        "data/public/tasks/pub2-cerv-culture-close/brief.md",
+        "data/public/tasks/pub2-cerv-culture-close/task.yaml",
+        "data/public/dossiers/v2-community-heritage-civic-network/prior_project_report.md",
+        "docs/task_review_checklist.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 1; Dossier 1 (fiction across the bundle)",
+      "where": "data/public/tasks/pub2-cerv-culture-close/brief.md: \"Local Decisions & Authorities (Agreed this week via email)\", followed by \"Palermo City Council\", \"Athens Municipality\", \"Valencia City Council\", and purported municipal statistics of \"0%\", \"40%\" and \"2%\".",
+      "problem": "These are real organisations, not merely permitted geographic place names. The brief invents their decision timetables, official commitments and municipal statistics without sources. Under the user's fiction requirement they cannot be passed off as participating authorities. This also invites a proposal to reproduce unsupported real-world claims as established evidence. A global fictional-call notice does not rename real organisations.",
+      "fix": "Replace the three authority/decision entries with explicitly fictional localities and municipal bodies: Comune di Valdenera (Italy, in the Palermo area), Municipality of Nerantheia (Greece, in the Athens area), and Ayuntamiento de Valdencira (Spain, in the Valencia area). Give them respectively a vacant municipal workshop reuse decision in Q2 2029, a municipal market's language-support service decision in Q3 2029, and a neighbourhood heritage programme allocation in Q4 2029. Retain concrete response arrangements, attributed only to these fictional bodies, with dated September 2026 correspondence summarised in the notes. Replace the unsupported registry claims with supplied fictional partner audit evidence: 'Partner review of the last two consultations found no participants from the migrant groups we recruit; the review is qualitative and does not estimate their share of the population.' Label that as applicant-held fictional evidence and name the reviewing partner at each site. Keep the real cities as regional context, not as signatories. The proposed municipal names returned no exact search matches.",
+      "evidence": [
+        "https://docs.comune.palermo.it/consiglio-comunale.php",
+        "https://www.cityofathens.gr/en/services-for-citizens/",
+        "https://www.valencia.es/es/-/copia-de-pleno-competencias",
+        "data/public/tasks/pub2-cerv-culture-close/brief.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read brief.md and task.yaml against the assigned full call and all dossier files, not only the earlier automated review. Checked checklist Tasks 1–7, tools/authoring/design_v2.md adopted second-opinion rules, docs/scoring_spec.md and docs/pitfall_taxonomy.md.",
+    "Brief dated 1 October 2026; full-proposal task, not stage1/concept_note/resubmission. No T13 or RESUB criterion is applicable. The design uses at most two traps.",
+    "Unit verdict concerns this task's own files. Call/dossier defects and identity replacements are filed once on their owning units and must be propagated before release.",
+    "T06 is the appropriate intended type for pending funding presented as secured, but the existing dated update makes it undecidable; the issue above repairs the premise without prescribing one continuity plan.",
+    "EUR 15,000 + EUR 25,000 = EUR 40,000; the proposal need not claim this pending money exists. Dossier records only EUR 12,000 available through December 2026 and unsecured 2027 facilitator retention.",
+    "Close fit: three-country heritage facilitation, cultural spaces, qualitative work and municipal-response experience support the cultural participation route. Planned specialists remain uncontracted; public heritage interpretation must lead to deliberation and authority responses, not merely individual casework.",
+    "Two-year project from early 2028 and EUR 280,000 fit the call. Replacing the real-authority commitments must preserve enough specific decision, competence and response-arrangement information to satisfy mandatory elements 9–11; merely deleting the entries would recreate a feasibility gap.",
+    "The only trap is T06; authority identities are a bundle-authoring defect, not an additional undisclosed trap. The CERV call's missing mandatory reporting components are filed on the call."
+  ]
+}

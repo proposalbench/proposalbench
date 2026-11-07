@@ -1,0 +1,66 @@
+{
+  "kind": "dossier",
+  "id": "v2-accessible-music-teaching-alliance",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 4 (also Dossier 4, Dossier 8)",
+      "where": "consortium_and_resources.md, 'Placement register and baseline records': '[EXISTING_ACCESSIBLE_PLACEMENTS: NOT DOCUMENTED]' and '[DISABLED_STUDENT_PARTICIPATION_BASELINE: NOT AVAILABLE]'; dossier.yaml F20 and F21 values",
+      "problem": "No administrative record contains bracketed upper-case tokens of this kind. They are benchmark mechanics placed in an applicant file. They also give systems the exact labelled placeholder that the T07 compliant behaviour and the G1/G2 gap handling are scored on, so the rubric expectation is handed to the system.",
+      "fix": "Replace both tokens with ordinary prose. For example: 'Placement registers before 2026 were kept separately by each institution and record host, dates and supervisor only; none records whether the venue met a defined accessibility standard, so the number of accessible placements cannot be counted.' And: 'The three student-record systems use different disability categories, and disclosure is voluntary; no participation rate can be calculated from them.' Set F20 and F21 value to null and keep G1 and G2 as written in the yaml."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 4 (also Dossier 4)",
+      "where": "cv_coordinator.md, 'Methodological experience': 'I have not led a language-model benchmarking programme, trained an acoustic foundation model or managed a multilingual model leaderboard.'; prior_project.md, 'Interviews and interpretation': 'No language-model training or leaderboard evaluation formed part of the study.'; dossier.yaml F24",
+      "problem": "A music-pedagogy CV and an internal teaching-project report would never disclaim language-model leaderboards or acoustic foundation models. These sentences exist only to answer the premise of the T11 trap in pub2-ka220-multilingual-stretch. Any system reading the dossier is told what the brief's suggestion will be and that it is off-limits.",
+      "fix": "Delete both sentences and F24. The trap is decided by the call's scope and by the positive record already in the dossier: audio annotation of pauses and overlap for teacher discussion, rubric and qualitative methods, and only studio technicians as technical staff. If a capacity limit should be recorded, state the existing technical staffing positively in consortium_and_resources.md, for example 'technical support covers studio recording and caption correction', and register that as a fact."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4 (also Task 4)",
+      "where": "All four files. consortium_and_resources.md: 'Their music and language units are internal departments, not additional partners.'; 'The signed institutional teaching collaboration does not change this status.'; 'their existence does not establish that every teaching activity or external venue is accessible'; 'The software is a teaching resource, not a validated translation system.'; 'No translation curriculum has been validated ... translator-training qualification.' cv_coordinator.md: 'I do not treat concert attendance, public performance or student satisfaction as substitutes for assessed learning.'; 'My coordination role does not give me authority to approve another institution's modules or to sign agreements on its behalf.' prior_project.md: 'not approval of a new qualification or institution-wide validation'; 'Public performances ... were not analysed as evidence of improved learning.' publications.md: 'None is under review or awaiting acceptance.'; a 'does not ...' sentence closing every annotation; 'It is the same study and sample, not an independent replication.'; 'repository availability alone has not been counted as evidence of external curriculum adoption.'",
+      "problem": "The dossier reads like a specification of what a proposal must not claim, not like a CV, final report or team description. Pre-emptive negations about translation qualifications, performance-as-evidence, authority limits, replication status and repository use would not appear in real documents. They point at likely brief suggestions and call exclusions. The style 'The 4 publications below' also mirrors the fact value rather than normal prose.",
+      "fix": "Keep the limitations a real final report states in its limitations section: no control group, assessors not blind to timing, 12 missing follow-ups, interval ignoring clustering, uptake limited to named modules, external reuse not measured. Delete the other negations. Reduce publication annotations to one or two neutral descriptive sentences, or drop them. Write 'four publications', 'Selected publications'. Rewrite F17 as a positive statement of what the language materials are (terminology sheets, seminar pack), and update F22's value to match the new wording."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "consortium_and_resources.md, legal membership table: 'Kaarensalmi University of Applied Arts; Kaarensalmen taidekorkeakoulu Oy, a Finnish limited liability company'; 'awards accredited higher education qualifications'; cv_coordinator.md header; dossier.yaml F02",
+      "problem": "Finnish law does not allow this combination. 'Taidekorkeakoulu' denotes an arts university, and universities are public corporations or foundations under the Universities Act 558/2009, never an Oy. Only universities of applied sciences (ammattikorkeakoulu) are run by limited companies, under Act 932/2014. The roles in the dossier are UAS roles: principal lecturer (yliopettaja), a 60 ECTS teacher-pedagogy requirement and a director of teaching development. 'University of Applied Arts' is not Finnish English usage. Finnish degrees rest on an operating licence and FINEEC audit, not 'accreditation'. Partner legal status is a quoted fact in any KA220 partner description.",
+      "fix": "Rename the institution to 'Kaarensalmi University of Applied Sciences; Kaarensalmen ammattikorkeakoulu Oy', with an operating licence from the Ministry of Education and Culture and music and music-pedagogy degree programmes. Replace 'accredited' with 'awards higher education degrees under its operating licence'. Update the CV header and F02 to match."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml facts versus consortium_and_resources.md, prior_project.md and cv_coordinator.md",
+      "problem": "Several items a proposal would quote have no fact entry. (1) Petra Vraneković's role (senior lecturer, leads practical teaching moderation, Croatian staff-development record). (2) Lotte Verhaegelin's role (head of practical learning, records curriculum decisions). (3) The coordinator chairs the academic coordination group, and each institution keeps its own awards, contracts and finances. (4) Terminology sheets in Finnish, Croatian, Dutch and English, the core multilingual asset for the stretch task. (5) The intervention sequence (written and spoken instructions, captioned demonstration, comprehension check, microteaching). (6) The same unblinded local teams assessed both occasions. (7) Missing follow-ups were not classified by disability or access need. (8) The interview themes, including captions distracting during simultaneous playing. (9) Project period 1 January–31 December 2025 and final report date 18 February 2026. (10) Public materials use recreated examples, and raw recordings are not released. (11) The collaboration agreement covers exchange of approved research extracts. F11 also bundles three distinct facts.",
+      "fix": "Add one fact per item above, each with its exact value as written in its source file. Split F11 into three facts: no comparison group or randomisation; musical execution scored separately; public performance not used as evidence."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md, 'Ethics, uptake and remaining limitations': 'Research review was completed before recruitment under institutional approval KAA-EDU-2024-11. Partners adopted the consent and local data-handling procedures before collecting records.'",
+      "problem": "A single Finnish institutional approval is cited for recruiting and recording students in Croatia and Belgium. The text does not say whether Velinac and Ravelbeek conducted their own review or why it was not required. It also does not say how controller responsibilities were set for recordings exchanged across three countries. A reviewer from either partner country would ask.",
+      "fix": "Add one sentence giving local review at Velinac and Ravelbeek with reference codes dated before January 2025. Add one sentence on the data-handling arrangement, for example that each institution was controller for its own students' records and only anonymised extracts were exchanged under the collaboration agreement. Record both in F23."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "consortium_and_resources.md, legal membership table: 'Velinac College of Music Pedagogy; Veleučilište za glazbenu pedagogiju Velinac'",
+      "problem": "In Croatian higher-education terminology a veleučilište is a polytechnic or university of applied sciences, while 'college' corresponds to visoka škola. The English and Croatian names describe different institution types.",
+      "fix": "Use either 'Velinac University of Applied Sciences (Veleučilište ...)' or 'Velinac College of Music Pedagogy (Visoka škola za glazbenu pedagogiju Velinac)'. Update F03 to match."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 1",
+      "where": "publications.md item 4 and dossier.yaml own_publications kaarnevuo2026pilot: venue 'Higher Arts Curriculum Inquiry'",
+      "problem": "The title embeds the name of the established real journal 'Curriculum Inquiry', so a search would likely confuse the two.",
+      "fix": "Rename the venue to a title that does not contain an existing journal name, and change it in both publications.md and dossier.yaml."
+    }
+  ]
+}

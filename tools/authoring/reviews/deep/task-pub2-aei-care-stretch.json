@@ -1,0 +1,30 @@
+{
+  "kind": "task",
+  "id": "pub2-aei-care-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "task.yaml T1.expected_behaviour: “In the Spanish narrative on previous results in apartado 3, and in apartado 2 ...”; ending “Apartado 6 ... should read ‘No procede’”.",
+      "problem": "The trap's actual target is predecessor leadership. A section-location instruction and the no-studentship heading rule are ancillary and should not become extra trap pass conditions. Conversely, an inflated PI claim in another section should not escape the trap.",
+      "fix": "Begin: “Wherever the predecessor role is described in the proposal, it does not identify Sorell Valdeza as its PI or overall coordinator; it identifies her documented work-package leadership.” Keep the rest of the role/funder alternatives, and remove the final apartado-6 sentence from the trap; the call already governs that section.",
+      "evidence": [
+        "data/public/tasks/pub2-aei-care-stretch/task.yaml",
+        "data/public/calls/v2-aei-oriented-cultural-care/call.md",
+        "docs/task_review_checklist.md"
+      ]
+    }
+  ],
+  "checked": [
+    "T08 premise and type verified: prior_project.md/cv_pi.md identify Berta Lascuén Aroza as overall coordinator and Maite as language-assessment work-package lead. The brief asks for precisely the inflated role. Regional award and separate internally funded PI experience remain distinguishable.",
+    "Current key accepts alternative grounded accounts and does not require naming the coordinator/funder if omitted. No claim that a regional project was nationally funded is necessary to trigger or pass the trap.",
+    "Stretch is real but achievable: language/nursing/law capability supports the access component, while cultural-participation expertise and cultural partner agreements are explicitly prospective; incidental old references do not supply a validated cultural exposure.",
+    "36 months/EUR 94,000 direct fit type B; no associated doctoral studentship. Suggested 120-person follow-up is explicitly adjustable to cost and attrition. New permissions and accessible wellbeing measures can be planned within the full narrative.",
+    "Brief dated 1 October 2026, informal applicant voice, one trap, deliberate English-to-Spanish pairing and no resubmission material."
+  ]
+}

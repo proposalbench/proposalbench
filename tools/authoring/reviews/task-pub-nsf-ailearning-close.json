@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub-nsf-ailearning-close",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "brief.md and task.yaml (Trap 2)",
+      "problem": "The brief and Trap 2 description refer to the existing IRB protocol as 'LU-2026-0087', but the dossier (`cv_pi.md`, `prior_project.md`, and `dossier.yaml`) lists the protocol number as 'LU-2024-0087'. This mismatch makes the trap ambiguous: a system might reject the claim simply because the protocol number 'LU-2026-0087' is entirely absent from the dossier, rather than reasoning that the existing protocol 'LU-2024-0087' is restricted to adult participants.",
+      "fix": "Change 'LU-2026-0087' to 'LU-2024-0087' in both `brief.md` and the description of Trap 2 in `task.yaml`."
+    }
+  ]
+}

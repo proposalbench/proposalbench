@@ -1,0 +1,110 @@
+{
+  "kind": "call",
+  "id": "v2-aei-oriented-service-access",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "a3ff7f4d332f9bffd563fc3e01e403ec1aeb7308a769761e1928e3453ab1152c",
+  "draft": {
+    "title": "Barreras lingüísticas, administrativas y territoriales en el acceso a cuidados de personas mayores",
+    "expected_outcomes_intro": "Los proyectos financiados bajo este tema deben enmarcarse en la prioridad temática «Cultura, creatividad y sociedad inclusiva» del Plan Estatal. Su contribución a esta prioridad se materializará en la mejora de la equidad y la cohesión social mediante la identificación y mitigación de los obstáculos que enfrentan las personas mayores para acceder a los sistemas de cuidados, promoviendo así una sociedad más inclusiva y adaptada al reto demográfico. Se espera que los resultados de los proyectos contribuyan a los siguientes fines:",
+    "expected_outcomes": [
+      "Generación de un marco explicativo comparado que detalle los mecanismos mediante los cuales las barreras lingüísticas, administrativas y territoriales determinan los niveles de acceso a los servicios de cuidados.",
+      "Diseño de estrategias basadas en evidencia empírica que faciliten la adaptación de los servicios locales de atención a la diversidad lingüística y territorial de los usuarios.",
+      "Reducción de la carga procedimental en el acceso a los cuidados mediante modelos de intervención que simplifiquen los trámites administrativos para las personas mayores y sus familias.",
+      "Establecimiento de mecanismos concretos que permitan a los usuarios influir en las decisiones sobre la prestación y organización de los servicios locales de atención."
+    ],
+    "scope_intro": "La prioridad temática real «Cultura, creatividad y sociedad inclusiva» aborda de forma amplia los retos de la cohesión social y la diversidad. Dentro de este marco general, la presente convocatoria establece un énfasis específico inventado para este ejercicio: el análisis de las barreras lingüísticas, administrativas y territoriales en el acceso a los cuidados de personas mayores. El envejecimiento poblacional exige sistemas de atención accesibles, pero la complejidad burocrática, la brecha idiomática y la dispersión geográfica generan desigualdades significativas.\n\nLas propuestas deberán formular hipótesis contrastables sobre el impacto de estas barreras y evaluar sus efectos en diferentes contextos territoriales. Se requiere un enfoque metodológico riguroso que garantice la participación directa de los usuarios finales y la transferencia de los hallazgos a los servicios sociales locales.",
+    "scope": [
+      "Formular y contrastar hipótesis sobre el impacto de las barreras lingüísticas, administrativas y territoriales en la exclusión de las personas mayores de los servicios de cuidados.",
+      "Diseñar metodologías participativas que involucren a personas mayores, cuidadores y profesionales en la identificación de obstáculos burocráticos y de comunicación.",
+      "Proponer protocolos o herramientas de transferencia dirigidos a los servicios locales para simplificar los trámites administrativos y mejorar la accesibilidad lingüística.",
+      "Analizar comparativamente cómo la dispersión geográfica y la brecha digital agravan las dificultades de acceso a los recursos de atención en distintos entornos territoriales."
+    ],
+    "exclusions": [
+      "Proyectos centrados exclusivamente en el desarrollo de soluciones tecnológicas o aplicaciones informáticas para la salud sin analizar las barreras administrativas, territoriales o lingüísticas subyacentes.",
+      "Investigaciones clínicas o estudios epidemiológicos sobre patologías específicas del envejecimiento que no aborden el acceso a los sistemas de cuidados."
+    ],
+    "mandatory_elements": [
+      "Especificar las tareas asignadas a estudiantes o profesionales del equipo de trabajo, garantizando que su colaboración complementa al proyecto pero no sustituye las responsabilidades de la persona investigadora principal.",
+      "Describir una estrategia concreta de acceso y reclutamiento de usuarios y servicios locales que distinga los acuerdos ya asegurados de los previstos, identifique dependencias y ofrezca alternativas en caso de fallar el acceso."
+    ],
+    "conditions": {
+      "max_budget": 0,
+      "duration_months_max": 0,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": 0
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Barreras lingüísticas, administrativas y territoriales en el acceso a cuidados de personas mayores",
+        "expected_outcomes_intro": "Los proyectos financiados bajo este tema deben enmarcarse en la prioridad temática «Cultura, creatividad y sociedad inclusiva» del Plan Estatal. Su contribución a esta prioridad se materializará en la mejora de la equidad y la cohesión social mediante la identificación y mitigación de los obstáculos que enfrentan las personas mayores para acceder a los sistemas de cuidados, promoviendo así una sociedad más inclusiva y adaptada al reto demográfico. Se espera que los resultados de los proyectos contribuyan a los siguientes fines:",
+        "expected_outcomes": [
+          "Mejora en la comprensión de las barreras lingüísticas, administrativas y territoriales que limitan el acceso equitativo a los servicios de cuidados para personas mayores.",
+          "Diseño de estrategias basadas en evidencia empírica que faciliten la adaptación de los servicios locales de atención a la diversidad lingüística y territorial de los usuarios.",
+          "Empoderamiento de las personas mayores y sus familias mediante modelos de intervención que simplifiquen los trámites administrativos y fomenten su participación activa en la toma de decisiones."
+        ],
+        "scope_intro": "La prioridad temática real «Cultura, creatividad y sociedad inclusiva» aborda de forma amplia los retos de la cohesión social y la diversidad. Dentro de este marco general, la presente convocatoria establece un énfasis específico inventado para este ejercicio: el análisis de las barreras lingüísticas, administrativas y territoriales en el acceso a los cuidados de personas mayores. El envejecimiento poblacional exige sistemas de atención accesibles, pero la complejidad burocrática, la brecha idiomática y la dispersión geográfica generan desigualdades significativas.\n\nLas propuestas deberán formular hipótesis contrastables sobre cómo interactúan estas barreras y evaluar su impacto en diferentes contextos territoriales. Se requiere un enfoque metodológico riguroso que combine el análisis normativo con la investigación empírica, garantizando la participación directa de los usuarios finales y la transferencia de los hallazgos a los servicios sociales locales.",
+        "scope": [
+          "Formular y contrastar hipótesis sobre el impacto de las barreras lingüísticas, administrativas y territoriales en la exclusión de las personas mayores de los servicios de cuidados.",
+          "Diseñar metodologías participativas que involucren a personas mayores, cuidadores y profesionales en la identificación de obstáculos burocráticos y de comunicación.",
+          "Proponer protocolos o herramientas de transferencia dirigidos a los servicios locales para simplificar los trámites administrativos y mejorar la accesibilidad lingüística.",
+          "Analizar comparativamente cómo la dispersión geográfica y la brecha digital agravan las dificultades de acceso a los recursos de atención en distintos entornos territoriales."
+        ],
+        "exclusions": [
+          "Proyectos centrados exclusivamente en el desarrollo de soluciones tecnológicas o aplicaciones informáticas para la salud sin analizar las barreras administrativas, territoriales o lingüísticas subyacentes.",
+          "Investigaciones clínicas o estudios epidemiológicos sobre patologías específicas del envejecimiento que no aborden el acceso a los sistemas de cuidados."
+        ],
+        "mandatory_elements": [
+          "Especificar las tareas asignadas a estudiantes o profesionales del equipo de trabajo, garantizando que su colaboración complementa al proyecto pero no sustituye las responsabilidades de la persona investigadora principal.",
+          "Describir los mecanismos metodológicos previstos para acceder a los usuarios y servicios locales durante la ejecución, sin basar la viabilidad en colaboraciones o autorizaciones de acceso ya establecidas."
+        ],
+        "conditions": {
+          "max_budget": 0,
+          "duration_months_max": 0,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": 0
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Call 3",
+          "where": "call.md: Ámbito introduction; call.yaml: scope",
+          "problem": "The scope introduction requires combining normative analysis with empirical research and testing how the barriers interact. No YAML item requires normative analysis, and SC1 requires effects of barriers without requiring their interaction. A proposal could satisfy the structured scope items while omitting explicit requirements in the applicant-facing call.",
+          "fix": "Add separate, concrete scope items for normative analysis and interaction hypotheses in both files, or remove those additional obligations from the introduction.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md: third expected outcome; call.yaml: EO3",
+          "problem": "EO3 combines administrative simplification and participation in decision-making under an undefined promise of empowerment. These are independently satisfiable outcomes, and the text provides no concrete meaning for empowerment that a reviewer could check in the proposed research.",
+          "fix": "Split administrative simplification and participation into separate outcomes. Define each through an observable proposed result, such as reduced procedural burden and a specified mechanism for users to influence service decisions.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md: first expected outcome and first scope item; call.yaml: EO1 and SC1",
+          "problem": "EO1's improvement in understanding is too open-ended and substantially repeats SC1's investigation of the same barriers and access effects. It does not identify a distinct research output against which the proposed contribution can be assessed.",
+          "fix": "Define EO1 as a concrete expected knowledge output, such as a comparative account of mechanisms linking barriers to specified access outcomes. Retain SC1 as the requirement to formulate and test hypotheses producing that output.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 4",
+          "where": "call.md: final mandatory element; call.yaml: ME10",
+          "problem": "ME10 prohibits basing feasibility on established collaborations or access authorizations. For participatory research involving older people and local services, those arrangements can provide legitimate evidence of recruitment and fieldwork feasibility. The blanket prohibition discourages stronger access arrangements, while 'basar la viabilidad' leaves the boundary of compliance unclear.",
+          "fix": "Require a concrete access and recruitment strategy that distinguishes secured arrangements from planned ones, identifies dependencies, and provides alternatives if access fails. Allow established collaborations and authorizations to support feasibility.",
+          "part": "topic"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

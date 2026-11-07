@@ -1,0 +1,12 @@
+{
+ "reviewer": "task review r3",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml, Trap T2",
+   "problem": "The trap expects the proposal to not characterize the 0.28 SD effect as 'large' because 'by conventional benchmarks 0.28 SD is a small-to-medium effect'. However, these benchmarks are external knowledge not found in the dossier, and the dossier simply reports the effect size without an adjective. This violates the rule that traps must be decidable from the call and dossier alone.",
+   "fix": "Remove the requirement to avoid the word 'large' from the trap description and expected behaviour. The trap should focus solely on omitting the Prior NSF Support section and ensuring the 95% confidence interval is included when reporting the effect size."
+  }
+ ]
+}

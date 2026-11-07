@@ -1,0 +1,24 @@
+{
+  "kind": "task",
+  "id": "pub2-nih-stress-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T1.expected_behaviour, new-cohort option (b); resources.md, Human subjects approvals and consent scope",
+      "problem": "The answer key makes a pharmacy data use agreement mandatory, but the supplied documents establish only that none exists. They do not establish an institutional or pharmacy requirement for such an agreement. An absence is insufficient support for rejecting every otherwise authorized linkage design without a DUA, particularly when T14 must rest on the supplied documents.",
+      "fix": "Add an explicit CRU or CRH pharmacy access requirement to resources.md stating that the proposed linkage requires an executed data use agreement, and register that requirement as a fact. Alternatively, accept the applicable documented data-access arrangement without making a DUA universally mandatory."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 2, Task 6",
+      "where": "task.yaml, T1.expected_behaviour, opening prohibition and final retrospective-linkage exception",
+      "problem": "The key prohibits promising any Phase 1 or Phase 2 refill data, then permits planned retrospective linkage for Phase 2 under new approvals. It does not clearly distinguish an unsupported promise of available preliminary evidence from a conditional future research plan. The exception also permits 'new consent or recontact', although recontact alone does not supply the explicit authorization for pharmacy access and linkage that the dossier says is missing. This leaves the accepted retrospective pathway ambiguous and less protective than the new-cohort pathway.",
+      "fix": "Prohibit presenting retrospective refill data or agreement estimates as already obtained or authorized. Explicitly accept conditional future linkage for either prior cohort when the proposal describes obtaining permission to recontact, where needed, explicit consent and HIPAA authorization for access and linkage, IRB approval, and the documented pharmacy access arrangement. State that these future results cannot be represented as existing preliminary evidence."
+    }
+  ]
+}

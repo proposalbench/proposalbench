@@ -1,0 +1,253 @@
+schema_version: 1
+id: v2-stress-attention-a1-lab
+language: en
+applicant_type: individual
+career_stage: mid_career
+disciplines:
+- clinical psychology
+- nursing
+- behavioural measurement
+method_profile: quantitative
+country: US
+files:
+- path: cv_thorne.md
+  role: cv
+- path: cv_jenkins-brackendale.md
+  role: cv
+- path: prior_application_a0.md
+  role: prior_project
+- path: summary_statement_a0.md
+  role: prior_project
+- path: update_report_sept2026.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources_and_team.md
+  role: resources
+facts:
+- id: F01
+  category: grant
+  kind: existing
+  text: The prior R21 A0 application proposed observing stress, attention and medication routines in 80
+    adults.
+  value: '80'
+  salient: true
+  source: prior_application_a0.md
+- id: F02
+  category: result
+  kind: existing
+  text: A separate task-retest pilot study conducted in August 2026 enrolled 24 adults who completed the
+    mCPT twice, two weeks apart.
+  value: '24'
+  salient: true
+  source: update_report_sept2026.md
+- id: F03
+  category: result
+  kind: existing
+  text: The pilot study estimates the mCPT test-retest reliability at an ICC of 0.62 (95% CI 0.37 to 0.79).
+  value: '0.62'
+  salient: true
+  source: update_report_sept2026.md
+- id: F04
+  category: other
+  kind: planned
+  text: A formal measurement-error analysis is planned; the 24-adult retest pilot does not resolve reliability
+    of within-person attention fluctuations for mediation.
+  value: null
+  salient: true
+  source: update_report_sept2026.md
+- id: F05
+  category: other
+  kind: planned
+  text: A revised power simulation incorporating realistic missing-data patterns is planned but not yet
+    completed.
+  value: null
+  salient: true
+  source: update_report_sept2026.md
+- id: F06
+  category: other
+  kind: existing
+  text: The study protocol has been amended to include medication coding and baseline-severity instruments.
+  value: null
+  salient: true
+  source: update_report_sept2026.md
+- id: F07
+  category: other
+  kind: planned
+  text: Medication class and baseline severity will be included as covariates in planned multilevel mixed-effects
+    models.
+  value: null
+  salient: true
+  source: update_report_sept2026.md
+- id: F08
+  category: other
+  kind: planned
+  text: Reminder scripts and a $50 travel reimbursement per in-person visit are planned.
+  value: $50
+  salient: true
+  source: update_report_sept2026.md
+- id: F09
+  category: other
+  kind: existing
+  text: The retention improvements have not been tested in the specific population yet.
+  value: null
+  salient: true
+  source: update_report_sept2026.md
+- id: F10
+  category: other
+  kind: existing
+  text: The revised DAG distinguishes association from mediation assumptions.
+  value: null
+  salient: true
+  source: update_report_sept2026.md
+- id: F11
+  category: other
+  kind: planned
+  text: Sensitivity analyses are planned to quantify the potential impact of unmeasured confounding.
+  value: null
+  salient: true
+  source: update_report_sept2026.md
+- id: F12
+  category: team
+  kind: existing
+  text: The proposed 80-person cohort has zero recruited participants.
+  value: zero
+  salient: true
+  source: update_report_sept2026.md
+- id: F13
+  category: resource
+  kind: existing
+  text: The currently approved IRB form does not authorise pharmacy-record linkage.
+  value: null
+  salient: true
+  source: update_report_sept2026.md
+- id: F14
+  category: resource
+  kind: planned
+  text: A no-linkage observational alternative relying on self-report and pill counts is feasible.
+  value: null
+  salient: true
+  source: update_report_sept2026.md
+- id: F15
+  category: resource
+  kind: existing
+  text: The clinic maintains an existing registry of patients recently discharged from inpatient care.
+  value: null
+  salient: true
+  source: update_report_sept2026.md
+- id: F16
+  category: resource
+  kind: planned
+  text: Planned sampling will focus on the post-discharge subgroup for the care-transition emphasis.
+  value: null
+  salient: true
+  source: update_report_sept2026.md
+- id: F17
+  category: resource
+  kind: existing
+  text: The OMC Outpatient Clinic sees approximately 1,200 unique patients annually.
+  value: 1,200
+  salient: true
+  source: resources_and_team.md
+- id: F18
+  category: other
+  kind: planned
+  text: The observation period will last for 6 months.
+  value: 6 months
+  salient: true
+  source: prior_application_a0.md
+- id: F19
+  category: other
+  kind: planned
+  text: The 24 adults from the reliability pilot will not be included in the main cohort.
+  value: not be included
+  salient: true
+  source: update_report_sept2026.md
+- id: F20
+  category: grant
+  kind: existing
+  text: Dr. Thorne completed R03 MH119882 support from 07/01/2021 - 06/30/2023.
+  value: 07/01/2021 - 06/30/2023
+  salient: true
+  source: cv_thorne.md
+- id: F21
+  category: grant
+  kind: existing
+  text: Dr. Thorne has no currently active research support.
+  value: None currently active
+  salient: true
+  source: cv_thorne.md
+- id: F22
+  category: position
+  kind: existing
+  text: Dr. Thorne has been an Associate Professor since 2021.
+  value: 2021 - Present
+  salient: true
+  source: cv_thorne.md
+- id: F23
+  category: position
+  kind: existing
+  text: Ms. Jenkins-Brackendale has been a Clinical Research Nurse since 2016.
+  value: 2016 - Present
+  salient: true
+  source: cv_jenkins-brackendale.md
+- id: F24
+  category: resource
+  kind: existing
+  text: The lab is equipped with 5 high-performance workstations.
+  value: '5'
+  salient: true
+  source: resources_and_team.md
+own_publications:
+- key: Thorne2024
+  authors:
+  - Thorne, E. V.
+  - Jenkins-Brackendale, C. M.
+  - Quenneville, R.
+  year: 2024
+  title: 'Ecological momentary assessment of stress in outpatient settings: Methodological considerations
+    and compliance rates'
+  venue: Journal of Behavioral Medicine Assessment
+  doi: 10.99999/pb.v2-stress-attention-a1-lab.2024.1
+- key: Thorne2022
+  authors:
+  - Thorne, E. V.
+  - Miller, A. T.
+  year: 2022
+  title: 'Mobile cognitive testing in clinical populations: A review of continuous performance test adaptations'
+  venue: Digital Neuropsychology
+  doi: 10.99999/pb.v2-stress-attention-a1-lab.2022.1
+- key: Jenkins2025
+  authors:
+  - Jenkins-Brackendale, C. M.
+  - Thorne, E. V.
+  year: 2025
+  title: 'Nursing perspectives on medication routines in chronic care: The impact of daily stress'
+  venue: Clinical Nursing Research Quarterly
+  doi: 10.99999/pb.v2-stress-attention-a1-lab.2025.1
+- key: Thorne2021
+  authors:
+  - Thorne, E. V.
+  - Davis, L. K.
+  - Jenkins-Brackendale, C. M.
+  year: 2021
+  title: The role of sustained attention in executing complex behavioral routines
+  venue: Journal of Cognitive and Behavioral Routines
+  doi: 10.99999/pb.v2-stress-attention-a1-lab.2021.1
+reviewer_criticisms:
+- id: R1
+  text: The reliability of the mobile attention task in this specific clinical population is untested.
+- id: R2
+  text: The study fails to measure and account for potential confounding by medication characteristics
+    and baseline severity.
+- id: R3
+  text: Recruitment from one clinic lacked a feasible retention plan.
+- id: R4
+  text: The causal language used throughout the proposal exceeded what can be inferred from an observational
+    design.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 3e04eba7-8281-4b9e-afd7-df8728fbef52

@@ -1,0 +1,31 @@
+{
+  "kind": "dossier",
+  "id": "battery-postdoc",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "us.anthropic.claude-opus-4-6-v1",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "planned tasks, GF task trap",
+      "problem": "The GF trap assumes Switzerland is a Horizon Europe Associated Country, making it ineligible as a third-country outgoing host. However, as of 2024–2025 in the real world, Switzerland is a non-associated third country for Horizon Europe purposes (no association agreement in force). If the fictional call follows real scheme rules, Switzerland would actually be a valid GF outgoing destination, and the trap would penalise a correct choice. The trap is only valid if the fictional call explicitly defines Switzerland as associated, which cannot be verified because the call files are not provided for review.",
+      "fix": "Either (a) provide the call files so the trap can be verified against the call's stated list of associated countries, or (b) change the trap to use a country whose status is unambiguous (e.g., propose outgoing to another EU Member State, which is clearly not a third country), or (c) ensure the fictional call text explicitly classifies Switzerland as an associated country and include it in the review."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1–5 and Task 3",
+      "where": "missing files: msca-pf-ef call, msca-pf-gf call, both briefs",
+      "problem": "The call documents and applicant briefs are not included in the review material. Call checklist items (scheme fidelity, checkable items, consistency, plausibility, no real identifiers) and brief checklist items (sounds like applicant notes, no leakage of traps) cannot be verified. The EF trap about 30-month duration cannot be confirmed against the call's stated maximum.",
+      "fix": "Include call.md, call.yaml for both msca-pf-ef and msca-pf-gf, and both brief files in the review material."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, fact F06",
+      "problem": "F06 value is '14' (string without unit) while F07 value is '0 days' (with unit). Inconsistent formatting of the value field for comparable facts.",
+      "fix": "Change F06 value to '14 days' for consistency with F07."
+    }
+  ]
+}

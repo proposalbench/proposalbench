@@ -1,0 +1,99 @@
+# Current ERC WP2027: sole excellence criterion; majority score >=3 for each of three elements.
+# Sources and verification dates: tools/authoring/schemes/erc_poc.yaml
+# Official award weights do not alter benchmark component weights.
+
+roles:
+  objectives:
+  - idea
+  state_of_the_art:
+  - idea
+  methods:
+  - approach
+  workplan:
+  - approach
+  risks:
+  - risk_table
+  - approach
+  team:
+  - leadership
+  - approach
+  impact:
+  - idea
+  - approach
+items:
+- id: POC01
+  component: grounding
+  sections:
+  - idea
+  taxonomy:
+  - P04
+  - P19
+  - P22
+  question: Is the proposed innovation substantially derived from the eligible ERC main grant?
+  criteria:
+  - id: a
+    text: Identifies a dossier-supported ERC main grant rather than relabelling non-ERC funding. If
+      grant facts are missing, answer no and explain the missing basis; do not invent an eligible grant.
+  - id: b
+    text: Names a specific result or idea from that grant and explains how it enables the proposed proof
+      of concept.
+  - id: c
+    text: Distinguishes the new validation or translation work from work already financed by the main
+      grant.
+- id: POC02
+  component: substance
+  sections:
+  - idea
+  taxonomy:
+  - P06
+  - P07
+  - P13
+  question: Is the innovation potential argued against existing solutions?
+  criteria:
+  - id: a
+    text: Identifies the user or social need and a concrete limitation of an existing solution.
+  - id: b
+    text: Explains the distinctive gain of the ERC-derived idea for that need rather than equating a
+      publication’s novelty with usefulness.
+  - id: c
+    text: Identifies an uncertain step that could prevent that gain and explains why its potential value
+      warrants testing it.
+- id: POC03
+  component: substance
+  sections:
+  - approach
+  taxonomy:
+  - P09
+  - P14
+  - P16
+  question: Will the activities test a credible route towards use?
+  criteria:
+  - id: a
+    text: Specifies a validation activity and an acceptance or decision criterion for moving the idea
+      towards use.
+  - id: b
+    text: Identifies the users, adopters or relevant stakeholders to involve and what evidence their
+      involvement supplies; pending contacts must not be presented as secured.
+  - id: c
+    text: Explains an appropriate route such as licensing, a service, policy adoption or social innovation,
+      and the rights or access decision it needs. A company or patent is not mandatory.
+- id: POC04
+  component: substance
+  sections:
+  - leadership
+  - approach
+  - risk_table
+  taxonomy:
+  - P11
+  - P12
+  - P17
+  question: Does the PI lead evidence-based decisions within realistic resources?
+  criteria:
+  - id: a
+    text: Names a strategic decision owned by the PI and the evidence or milestone that informs it.
+  - id: b
+    text: States the PI’s planned time commitment and explains how the needed expertise is covered;
+      no fixed 50 percent threshold applies to PoC.
+  - id: c
+    text: Connects a specific technical or uptake risk to a contingency that changes the plan, rather
+      than only monitoring it.

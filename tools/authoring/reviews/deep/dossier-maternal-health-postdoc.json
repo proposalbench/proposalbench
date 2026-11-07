@@ -1,0 +1,142 @@
+{
+  "kind": "dossier",
+  "id": "maternal-health-postdoc",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/maternal-health-postdoc/prior_project.md: \"SafeMother — Community health worker-led screening for postpartum haemorrhage risk in rural Ghana\"; publications.md: \"SafeMother de-identified quantitative dataset\"",
+      "problem": "SafeMother is already used by real maternal-health interventions, including CARE Bangladesh’s Dinajpur SafeMother Initiative and a current maternal triage software project. This is an exact project-name collision in the same clinical area, not merely a shared generic word. It also propagates to the fictional dataset and publication titles.",
+      "fix": "Rename the fictional programme and its dataset to NEVRAMAT throughout all dossier Markdown, facts, own-publication titles and both maternal briefs/trap descriptions where referenced. Retain the 10.99999/pb.maternal-health-postdoc.* DOI namespace. Exact searches for NEVRAMAT returned no collision.",
+      "evidence": [
+        "https://www.carebangladesh.org/storage/app/uploads/public/628/9f3/e0f/6289f3e0f0da9083058222.pdf",
+        "https://devpost.com/software/safemother",
+        "data/public/dossiers/maternal-health-postdoc/publications.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/maternal-health-postdoc/cv_pi.md/resources_and_partners.md: \"Vrije Universiteit Maastricht (VUM)\"; \"Flanders Institute of Tropical Health (FITH), Antwerp\"; \"Ghana Health Service\" as employer/partner/parent organisation; \"Member, International Society for Global Health (ISGH)\"; \"Member, European Public Health Association (EUPHA)\"",
+      "problem": "The university name conflates Vrije Universiteit Amsterdam and Maastricht University; the Antwerp tropical-health institute is readily confused with the real Institute of Tropical Medicine in Antwerp. The dossier also assigns invented employment, institutional relationships and memberships to real organisations, including GHS, EUPHA and a near-identically named global-health society. Earlier renaming did not satisfy the stricter no-confusable-organisations requirement.",
+      "fix": "Use Drelvani University (DU), Maastricht, Netherlands, for VUM and its repository/fund/ethics committee; Veltrenne Institute of Population Health (VIPH), Antwerp, Belgium, for FITH; and Neranvi Community Health Research Institute (NCHRI), Yeji, Ghana, for BEHRI, described as an independent fictional institute rather than a GHS institute. Route fictional employment, collaboration and the pending qualitative-extension ethics application through NCHRI and its Research Ethics Committee, retaining the 15 March 2026 submission and pending September status. Replace claimed GHS regional collaboration with NCHRI’s community-health programme; real GHS may remain only as an explicitly external policy audience or cited real-world authority. Delete the two society-membership claims. Propagate the names to both briefs, trap quotations, publication affiliations and hidden keys; replace the email with a.owusu-darko@example.org. The proposed distinctive institution names returned no exact search matches.",
+      "evidence": [
+        "https://vu.nl/en/about-vu",
+        "https://www.maastrichtuniversity.nl/about-um",
+        "https://www.itg.be/en/about-itm",
+        "https://ghs.gov.gh/regions/bono-east-region",
+        "https://eupha.org/",
+        "https://isogh.org/our-members/"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/maternal-health-postdoc/resources_and_partners.md: \"Prof. dr. Hendrik van der Berg\"; corresponding CV, publication author lists and dossier.yaml F16",
+      "problem": "The name is confusable with the established researcher Hendrik van den Berg, Professor Emeritus of Economics at Nebraska. The difference is only der/den; an academic syllabus itself renders the real author as Hendrik van der Berg. This is a near-name collision, not a claim that the fictitious epidemiologist is the economist.",
+      "fix": "Rename the fictional supervisor Hendrel Vossenkade throughout the dossier and both tasks. Use Vossenkade, H. in all own-publication author lists and preserve author order and fictional DOIs. Exact-name search for Hendrel Vossenkade returned no result.",
+      "evidence": [
+        "https://business.unl.edu/person/hendrik-van-den-berg/",
+        "https://class-tools.app.utah.edu/syllabus/1254/4510/Econ_3500_S25_International_Economics.pdf"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "data/public/dossiers/maternal-health-postdoc/publications.md: \"Scaling CHW-led PPH screening: early results from three Ghanaian districts.\" ... \"Basel, September 2023\"; prior_project.md: \"NWO-WOTRO pilot grant ... 2025–2026\"",
+      "problem": "The conference entry claims early results of the three-district scale-up in 2023, before its only documented pilot funding/activity begins in 2025. No earlier scale-up is supplied and no intentional inconsistency is declared. The same conference is used to establish the Belgian collaboration. In addition, the named ECTMIH 2023 event was in Utrecht in November, the Cape Town maternal/newborn meeting was in May 2023 rather than March 2024, and the 2025 European Public Health Conference was in Helsinki rather than Vienna.",
+      "fix": "Change the first talk title to \"Referral completion in the NEVRAMAT stepped-wedge trial\" and its venue/date to \"13th European Congress on Global Health (ECTMIH), Utrecht, 20–23 November 2023\"; change the meeting origin in resources_and_partners.md to that same event. Correct the second entry to \"International Maternal Newborn Health Conference, Cape Town, 8–11 May 2023\" and the third to \"European Public Health Conference, Helsinki, 12–14 November 2025\". Keep the 2025 talk explicitly about implementation fidelity/preliminary scale-up rather than the August 2026 sample. These are real conference settings for fictional presentations; if all event names must also be fictionalised, remove the named venues and describe the presentations as dated institutional research seminars instead.",
+      "evidence": [
+        "data/public/dossiers/maternal-health-postdoc/prior_project.md",
+        "data/public/dossiers/maternal-health-postdoc/resources_and_partners.md",
+        "https://cris.vub.be/ws/portalfiles/portal/112913730/Programme_ECTMIH_2023.pdf",
+        "https://www.alignmnh.org/imnhc-2023-pre-conference/",
+        "https://eupha.org/euphanxt-newsletters/published-october-2025/"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/maternal-health-postdoc/prior_project.md §4: \"sensitivity of 82% ... specificity of 79% ... subsequently confirmed high-risk by a physician at the referral facility (n = 588 women with paired assessments)\"; §5: \"acceptable accuracy\"",
+      "problem": "The report does not explain selection of the 588, whether screen-negative women received the reference assessment, or the reference-positive/reference-negative denominators. Its wording can mean only confirmed high-risk/referral attenders were verified. Specificity requires reference negatives, and verification restricted by referral would bias population accuracy. The 588 also equals 327+261, but the text never establishes a legitimate linkage between these different samples. The reported accuracy is therefore not adequately supported; this is not a finding that no possible 2×2 table could produce the percentages.",
+      "fix": "A conservative repair needing no new invented observations is to replace the accuracy-result sentence and F08 with: \"There were 588 paired CHW/physician assessments. The archived summary does not document selection of this subset or the reference-standard cross-tabulation, so population sensitivity and specificity cannot be established from these materials.\" Replace §5 finding 1 with \"Feasibility of CHW risk assessment was demonstrated; diagnostic accuracy requires validation in a sample with reference assessment independent of the screening result.\" Remove the unsupported 82%/79% estimates wherever repeated. If estimates are instead retained, supply an explicit sampling/verification protocol and a numerically consistent 2×2 table and uncertainty method; do not imply that referral attenders represent all screened women.",
+      "evidence": [
+        "https://doi.org/10.1136/bmjopen-2016-012799",
+        "data/public/dossiers/maternal-health-postdoc/prior_project.md",
+        "data/public/dossiers/maternal-health-postdoc/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/maternal-health-postdoc/prior_project.md §3: \"third trimester or within 48 hours postpartum\"; \"Referral completion within 72 hours\"; §4: \"PPH incidence ... 41/494 ... 38/325\"",
+      "problem": "The intervention includes women first enrolled after delivery, but the report does not say whether those women enter the delivery-PPH comparison. Screening performed postpartum cannot prevent an already completed delivery outcome. Nor does the uniform 72-hour referral endpoint distinguish stable risk-based referrals from active haemorrhage requiring immediate care. This affects whether the proposed causal estimand and field procedures are scientifically interpretable.",
+      "fix": "Add: \"The 72-hour endpoint concerns scheduled referral of clinically stable women with risk factors. Suspected active haemorrhage or other obstetric emergency triggered immediate emergency assessment and transfer, outside this scheduled-referral endpoint.\" For the PPH outcome, conservatively add: \"The archived summary does not stratify the 494 and 325 facility deliveries by whether initial enrolment preceded delivery; these are descriptive facility-period rates, not an established causal effect of screening. A new analysis must restrict the risk set to women enrolled before delivery and account for selection into facility birth.\" Revise the key-finding claim of an intervention-related reduction accordingly; do not silently certify a pre-delivery analytic population that is absent from the supplied record.",
+      "evidence": [
+        "data/public/dossiers/maternal-health-postdoc/prior_project.md",
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2303966",
+        "https://www.bmj.com/content/350/bmj.h391"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/maternal-health-postdoc/prior_project.md §1: \"PPH ... accounting for approximately 27% of maternal deaths nationally\"",
+      "problem": "No source or reference period supports the Ghana-specific 27% figure. Official Ghana sources distinguish all obstetric haemorrhage from postpartum haemorrhage and use different denominators; a current GHS statement reports 38% for PPH, while the 2017 national survey’s 38% is ante-/postpartum haemorrhage among obstetric causes. The dossier invites copying an untraceable precise national statistic as established background.",
+      "fix": "Replace the sentence with \"Postpartum haemorrhage is a major preventable cause of maternal death in Ghana.\" Cite the GHS statement for the qualitative claim and omit a national percentage rather than substituting a statistic with a different period or denominator. Keep the synthetic trial results distinct from real population statistics.",
+      "evidence": [
+        "https://www.ghs.gov.gh/news-and-events/ghana-records-marginal-increase-in-maternal-mortality-rate",
+        "https://dhsprogram.com/pubs/pdf/FR340/FR340.pdf"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/maternal-health-postdoc/dossier.yaml: F01 \"Ghanaian-born\"; F09 \"PPH incidence ... intervention-period deliveries\"; F12 \"2025–2026\" with source cv_pi.md; resources_and_partners.md: \"active, ends December 2026\" and pilot approval statuses",
+      "problem": "Literal non-null value matching passes, but the fact registry is not fully source-faithful. The CV establishes nationality, not birthplace. F09 loses the restriction to facility deliveries and the event/denominator counts. F12 attributes its two-year period to a CV that lists only award year 2025. Material approval/funding statuses are not represented as standalone salient facts, weakening status-sensitive grounding beyond the ethics trap.",
+      "fix": "Delete \"Ghanaian-born\" from F01. Replace F09 with \"Among facility deliveries, PPH was observed in 41/494 (8.3%) intervention-period deliveries and 38/325 (11.7%) control-period deliveries; adjusted OR 0.68 (95% CI 0.42–1.10; p=0.12), with the timing/selection limitations stated in the report.\" Change F12 source to prior_project.md, where 2025–2026 and EUR 48,000 both appear. Add separate salient facts sourced to resources_and_partners.md for the active pilot ending December 2026, the VUM/renamed university quantitative-pilot ethics approval METC-2025-0287, and preserve F14/F15 as the existing in-principle hosting-offer facts (do not add duplicates). Preserve the pending qualitative approval as a separate fact and leave facts tested by a trap to that trap under GR-T deduplication. Do not fabricate missing travel or data-schema facts.",
+      "evidence": [
+        "data/public/dossiers/maternal-health-postdoc/cv_pi.md",
+        "data/public/dossiers/maternal-health-postdoc/prior_project.md",
+        "data/public/dossiers/maternal-health-postdoc/resources_and_partners.md",
+        "docs/scoring_spec.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/maternal-health-postdoc/cv_pi.md: \"ORCID: 0000-0002-7741-3058\"; resources_and_partners.md: \"TSD-compliant\"",
+      "problem": "The ORCID fails its MOD 11-2 checksum (the check character would be 2, not 8); registry lookup could not be completed. TSD is an Oslo-operated sensitive-data platform, not a generic certification standard. These decorative details add misleading specificity.",
+      "fix": "Remove the ORCID rather than creating a new plausible real identifier. Replace \"TSD-compliant\" with \"access-controlled institutional environment for sensitive research data\"; do not claim a named external service or certification that is not documented.",
+      "evidence": [
+        "https://support.orcid.org/hc/en-us/articles/360006897674-Structure-of-the-ORCID-Identifier",
+        "https://www.uio.no/english/services/it/research/sensitive-data/about/"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "data/public/dossiers/maternal-health-postdoc/cv_pi.md: \"Aug 2014 – Aug 2015 ... Ghana Health Service, Bono East Region\"; 2018 grant title \"... in Bono East\"",
+      "problem": "Bono East became an administrative region in 2019. A 2014–2015 regional employer and an unqualified 2018 regional grant title use the later geography without explanation. This does not alter the fellowship’s career window.",
+      "fix": "Describe the earlier location as \"Brong-Ahafo Region (area now in Bono East)\". Apply this wording to the 2014–2015 employment and 2018 project title, alongside the fictional-employer correction above. Later study locations can remain Bono East.",
+      "evidence": [
+        "https://ghs.gov.gh/regions/bono-east-region"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all five Markdown files, 28 facts and eight publication/data records. Every visible file has the fiction notice. All non-null fact values appear literally in the named source; the semantic/source deficiencies above remain. No declared gaps, inconsistencies or reviewer_criticisms are present; neither associated task is a resubmission.",
+    "Arithmetic verified: 1,214+936=2,150; 327/1,214=26.9%; 248/327=75.8%; 98/261=37.5%; 41/494=8.3%; 38/325=11.7%; 4/36=11.1%, correctly rounded to 11%; 24+18=42 interviews. Five three-month periods match October 2020–December 2021. The adjusted 34.2-point contrast need not equal the unadjusted 38.3 points. OR 0.68 and CI 0.42–1.10 imply a two-sided Wald p about 0.116, compatible with 0.12.",
+    "Seven journal articles/six first-author articles and one dataset agree with author lists; all eight DOIs use 10.99999/pb. and match the hidden key. Exact-title searches found no exact collision for all seven journals listed in publications.md. No company is invented as a collaborator; HemoCue, NVivo, REDCap, ODK and statistical software are real methods/tools.",
+    "Scientific context: community-level PPH programmes are plausible (https://www.sciencedirect.com/science/article/abs/pii/S0020729212005620); HemoCue Hb 301 supports field haemoglobin measurement (https://hemocue.com/en/products/hematology/hemocue-hb-301-system/). Stepped-wedge temporal adjustment and diagnostic-verification requirements checked against https://www.bmj.com/content/350/bmj.h391 and https://doi.org/10.1136/bmjopen-2016-012799. Existing acknowledgement of retrospective control ascertainment is retained, not treated as an undisclosed defect.",
+    "Searched all supplied full names: Abena Owusu-Darko, Comfort Asante-Mensah, Lieve Janssens-Willekens and Hendrik van der Berg; also coauthor strings Boateng-Frimpong K., Mensah-Tawiah R. O., Kankam-Boadu P. A. No exact identity match established for the first three or the initials-only coauthors. Different people sharing a surname were not treated as collisions. Hendrik’s near-name collision is documented above.",
+    "Searched all institutions/centres, fund names, repositories, the programme and HDSS identifiers. No exact match found for Nkwanta University of Health Sciences, Obuasi Technical University, BEHRI, MCGHR or the fictional journal titles; VUM/FITH remain confusable despite no exact match. SafeMother is a confirmed exact collision. NWO-WOTRO is a real permitted funder; the small fictional award is not represented as an actual grant award lookup.",
+    "Dutch nationality, June 2022 PhD and current employment establish a plausible postdoctoral stage. Netherlands residence does not establish absence of Ghana/Belgium field visits; no complete September 2024–September 2027 mobility record exists. Pending March 2026 ethics application is consistent across all three mentions. Future confirmation must remain conditional.",
+    "Read prior automated/maintainer reviews and verified their corrected enrolment totals, 15-month trial and first-author count rather than re-reporting them. No post-September-2026 document or unexplained present-day employment gap remains."
+  ]
+}

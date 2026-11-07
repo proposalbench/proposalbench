@@ -1,0 +1,80 @@
+{
+  "kind": "task",
+  "id": "pub2-he-stage1-coast-close",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Task 2 / Task 3",
+      "where": "brief.md, para 1 ('use an indicative January 2028 start and 36 months'); resources.md, 'Signed access agreements remain valid through 31 December 2030'; task.yaml T1",
+      "problem": "A January 2028 start cannot follow a two-stage RIA whose first-stage deadline is 15 September 2027. The second-stage deadline normally falls about five months after stage 1, and time-to-grant runs up to 8 months from the final deadline, so the earliest realistic start is late 2028. Both the trap and the station access depend on this unrealistic date. If a system corrects the start to early 2029, its first autumn–winter season (October 2029 onwards) follows the contracted delivery of 30 September 2029. T1's expected_behaviour does not say whether planning first-season transects on the contracted replacement vessel is compliant. The access agreements end on 31 December 2030, exactly when a January 2028 + 36-month project ends. A realistic start, or the call's 48-month option, runs past them, which is an undeclared second constraint.",
+      "fix": "Change the brief to 'an indicative start around November 2028, 36 months', so the first season (November 2028–March 2029) clearly falls before the 30 September 2029 delivery. Extend the access agreements in resources.md and F21 to 31 December 2032, or record the expiry as a fact the brief can work around. Add to T1 expected_behaviour that the replacement vessel may be planned only for seasons after delivery and commissioning, never as first-season access."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 1",
+      "where": "consortium.md ('develops transport models'); cv_pi.md ('statistical transport models'); prior_project.md 'Models and validation'; dossier.yaml facts; task.yaml fit_level: close",
+      "problem": "SC1 requires coupled hydrological and hydrodynamic models. The dossier shows only rainfall–runoff reconstruction and statistical lag/arrival regressions. It has no hydrodynamic model, grid, forcing set or modeller, and the eight assigned staff do not include one. The phrase 'develops transport models' is ambiguous: a system may claim an existing hydrodynamic model, and graders have no fact to decide whether that claim is invented. The call's floodwater element (EO2, EO3) also has no basis in the dossier. With these gaps, 'close' fit is doubtful.",
+      "fix": "Either (a) add a specific existing capability to consortium.md/resources.md, for example 'the Portuguese oceanographer maintains a depth-averaged unstructured-grid hydrodynamic model of the Tagus estuary calibrated against the three margin stations (tidal-elevation RMSE x cm); no equivalent model exists for Arousa', and register it as a fact with its limits; or (b) state plainly that no hydrodynamic model or modeller exists, record that as a fact, and relabel fit_level to stretch so a planned hire or partner is the expected route."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 3 / Task 4",
+      "where": "brief.md: 'Please keep the distinction between timing freshwater arrival and predicting pollutant concentrations clear'; 'New engagement should be proposed as future activity; the previous drainage audit is background experience'; 'Please avoid promising a particular reduction in injuries or disruption…'; 'Make the scientific questions, validation and uncertainty treatment concrete within Excellence…'",
+      "problem": "These sentences read as grading guidance rather than an applicant's notes. They tell the system in advance:\n- how to separate existing from planned resources;\n- which overclaims to avoid (retrospective versus operational, timing versus concentration, outcome promises);\n- where to place content, echoing ME5's 'exclusively within the Excellence section'.\nThe brief therefore pre-solves the dossier's main limitations and exposes rubric checks. It also writes part of the proposal's framing instead of giving an idea and constraints.",
+      "fix": "Delete the four sentences. Replace them with informal, incomplete notes in the applicant's voice. For example: 'Nessa's map sessions in Cork went well — could we run something similar with the port and regional water people here and in Galicia?' and 'Mateo thinks forecast rainfall will eat most of the 1.2 h gain; I'd like to know how much.' Leave the existing/planned distinctions and overclaiming risks for the system to find in the dossier."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4 (affects Task 1)",
+      "where": "prior_project.md 'Observational design': 'The Tagus input represented its upstream contributing catchment… Each required a distinct runoff rising limb followed by recession to antecedent flow'; 'Models and validation' (4.0 h and 2.8 h MAE)",
+      "problem": "Taken literally, the Tagus contributing catchment is about 80,000 km², two-thirds of it in Spain. Its flow is heavily regulated by reservoirs in Spain and on the Zêzere. A rainfall-weighted centroid over that basin, and 'recession to antecedent flow' between paired frontal storms, are not hydrologically meaningful. Travel times from such a centroid run to days. A tide-and-salinity baseline with no catchment information would then not achieve a 4.0 h storm-balanced MAE. Because the brief's central question replaces observed inputs with rainfall forecasts, this ambiguity leads proposals to ignore dam regulation.",
+      "fix": "Define the Tagus input as a bounded, mostly unregulated area. For example, use the Sorraia and Trancão catchments plus lateral inflow below a named gauge, with releases from upstream regulation treated as an observed boundary flow. State the typical range of catchment-to-arrival lags in each estuary. Record the regulation as a limitation fact relevant to forecast-driven inputs."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 2",
+      "where": "resources.md vessel paragraph ('the only research vessel'); task.yaml T1 expected_behaviour",
+      "problem": "The register excludes research vessels and booked charters but says nothing about small craft. A proposal could cite 'the institute's workboat' for channel transects. That is neither clearly a fabrication nor clearly a claimed operating vessel, so graders may disagree.",
+      "fix": "Add one register line, for example 'Small craft: one shore-launched inflatable, restricted to sheltered inner-margin use in winds below Beaufort 4'. In expected_behaviour, state that unsupported small-craft channel transects count as claiming unavailable access."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "task.yaml T1",
+      "problem": "The trap does not name the dossier fact it rests on. The premise, the conflicting fact and the compliant behaviour sit together in free text, so automated cross-checking against dossier.yaml is not possible.",
+      "fix": "Add a reference to F22, and to F21 for the shore-access workaround, in the trap record, using the schema's premise/conflict fields if available."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml facts; prior_project.md 'Interpretation and limitations'",
+      "problem": "Several salient limitations are not registered:\n- deep-channel transport and vertical plume structure lie outside the validation, which is the stated rationale for the brief's transects;\n- no live alerts were issued and no decision threshold was tested with an agency;\n- no city drainage sensor stream was used.\nF09 also overstates its source: it says the design 'excluded' rare flood extremes, whereas the source says it 'did not represent the full range' of them.",
+      "fix": "Add facts for the channel and vertical-structure limitation, for the absence of live alerts and agency-tested thresholds, and for the absence of drainage sensor inputs. Reword F09 to match the source sentence."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "consortium.md 'Portuguese coordinating institution' and 'Working arrangements'; dossier.yaml F07",
+      "problem": "Portugal lists 'an oceanographer, an environmental chemist and a field technician' plus Seabra Vilar as coordinator. Spain and Ireland count their leads within their totals. It is not stated whether Seabra Vilar is the oceanographer, so the team count could be 8 or 9.",
+      "fix": "Write 'The institute assigns Eliana Seabra Vilar (oceanographer and coordinator), an environmental chemist and a field technician'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md 'Observations during 2024–2025'; publications.md item 3 (published 12 March 2026)",
+      "problem": "If the 18 storms extend into late 2025, the full storm-blocked validation could not have been completed, peer-reviewed and published by 12 March 2026, nor reported in a report accepted on 16 February 2026.",
+      "fix": "Give the observation window explicitly, for example 'January 2024 to April 2025, across two wet seasons', so that analysis, submission and publication dates are ordered plausibly."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "resources.md vessel paragraph: 'This was the only research vessel held by any participating institution… the register contains no operating research vessel or booked charter during the intervening period'",
+      "problem": "The narrative phrasing reads like trap scaffolding rather than an asset-register entry. The installation of 'fixed shore installations' by vessel in 2023 is also unexplained.",
+      "fix": "Recast it as register entries, for example 'Vessels held by partners: Margem Serena (IMVS) — retired 9 Sep 2026. Interim vessel capacity: none. Charters booked: none. Replacement: contracted, delivery 30 Sep 2029.' Add one clause explaining why installation needed water access, for example pile-mounted sensors on intertidal margins, serviced from the jetty."
+    }
+  ]
+}

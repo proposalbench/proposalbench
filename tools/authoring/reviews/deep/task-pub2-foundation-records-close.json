@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub2-foundation-records-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read all paired material. T11 is appropriate: the applicant pushes a catalogue/digital-edition endpoint and defers inferential testing, while the call requires a specific inference question and reproducible treatment of incomplete records.",
+    "EX4 and SC1 provide the conflict directly; the dossier supplies 34 disputed classifications and no gold standard. Existing agreement must not be relabelled accuracy. Expected behaviour accepts alternative bounded inference/provenance designs rather than prescribing one reconstruction.",
+    "Close fit: team already has the same 180-fragment corpus, annotation expertise, catalogue provenance and source criticism. A sensitivity study of text/notation evidence requires methodological extension but no unrelated domain or secured outside partner.",
+    "EUR 80,000 total, 18 months and existing facilities satisfy the call; 15% overhead and effort/tariff estimates permit a coherent outline. Source-use boundaries and no further performer commitment are respected.",
+    "Applicant-note voice, 1 October 2026, English, concept_note type and one trap checked. All six sections fit the 1,500-word maximum without work-package detail. Earlier generic digitisation repair is reflected in the current trap."
+  ]
+}

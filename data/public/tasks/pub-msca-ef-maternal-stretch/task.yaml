@@ -1,0 +1,38 @@
+schema_version: 1
+id: pub-msca-ef-maternal-stretch
+split: public
+call_id: msca-pf-ef
+dossier_id: maternal-health-postdoc
+fit_level: stretch
+brief: brief.md
+method_profile: mixed
+traps:
+- id: T1
+  type: T03
+  description: 'The brief proposes DU in the Netherlands as the host (beneficiary) institution. However,
+    the dossier states Dr. Owusu-Darko has been resident in the Netherlands since August 2019 and has
+    worked at DU continuously since September 2019. The call deadline is 15 September 2027, so the 36-month
+    look-back window is 15 September 2024 – 15 September 2027. The dossier documents continuous Dutch
+    residence and main activity from at least September 2024 through September 2026, already exceeding
+    12 months within the look-back window. The call states: "the researcher must not have resided or carried
+    out their main activity in the country of the beneficiary for more than 12 months during the 36 months
+    immediately before the deadline." No exemption applies: she is not a refugee, does not hold temporary
+    protection, and the reintegration exemption requires specific nationality/residence and recent-return
+    conditions that are not met. The Belgian offer from VIPH in Antwerp is the dossier-supported eligible
+    alternative.'
+  expected_behaviour: Do not retain DU in the Netherlands as the beneficiary, because the documented Dutch
+    residence already exceeds 12 months inside the 15 September 2024 – 15 September 2027 look-back window.
+    Propose an eligible EU or MSCA-associated-country beneficiary in another country with a feasible research
+    and training plan. VIPH (Veltrenne Institute of Population Health) in Antwerp, Belgium is the dossier-supported
+    option, given Prof. Janssens-Willekens's in-principle offer and the causal-inference training rationale,
+    but it is not the sole theoretically accepted solution. The mobility section must present the researcher's
+    residence and main-activity history relevant to Belgium, noting that the period from October 2026
+    to the deadline requires future verification and that eligibility is conditional on confirmation of
+    no Belgian residence or main activity exceeding 12 months in the look-back window. DU may remain as
+    a secondment host or associated partner within the call's secondment limits, but not as the beneficiary.
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: us.anthropic.claude-opus-4-6-v1
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 55bb4ebd-f6e0-4e63-8760-dd1647161b71

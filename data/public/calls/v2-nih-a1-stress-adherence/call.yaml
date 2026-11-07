@@ -1,0 +1,185 @@
+schema_version: 1
+id: v2-nih-a1-stress-adherence
+scheme: nih_r21
+language: en
+title: Stress and Attention as Mechanisms of Medication Routines, Including the Period after Hospital
+  Discharge
+topic_code: PB2-NIH-R21-A1-02
+proposal_type: full
+length_contract:
+  max_words: 4800
+  enforcement: inadmissible
+  tolerance: 0.0
+  counted_sections:
+  - introduction
+  - aims
+  - strategy
+  exempt:
+  - references
+  - title
+  per_section_max_words:
+    aims: 600
+    strategy: 3600
+    introduction: 600
+  page_limit: 8
+  words_per_page: 600
+  source_note: |
+    Verified 2026-10-31: https://grants.nih.gov/grants-process/write-application/how-to-apply-application-guide/page-limits; https://grants.nih.gov/grants-process/submit/submission-policies/resubmission-applications; https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html.
+    One-page Introduction plus one-page Specific Aims plus six-page Research Strategy,
+    non-transferable. 600 words/page gives 600 + 600 + 3600 = 4800 words; zero tolerance.
+    US Letter, Arial 11 pt and NIH-compliant margins/line density: a practical prose estimate,
+    not an NIH word rule. Title/references exempt, tables/captions count.
+required_sections:
+- id: introduction
+  title: Introduction to Resubmission
+- id: aims
+  title: Specific Aims
+- id: strategy
+  title: Research Strategy
+- id: significance
+  title: Significance
+  parent: strategy
+- id: innovation
+  title: Innovation
+  parent: strategy
+- id: approach
+  title: Approach
+  parent: strategy
+expected_outcomes:
+- id: EO1
+  text: Nursing and behavioral researchers know whether within-person changes in stress, attention or
+    both precede omitted, delayed or duplicated doses among adults managing ongoing regimens, and how
+    consistent those associations are across people.
+- id: EO2
+  text: Investigators know whether stress, attention or both, according to the proposed pathway, can be
+    assessed repeatedly with acceptable burden and tolerable missing data in the population and setting
+    studied; for post-discharge studies, this includes the weeks when regimens change and home routines
+    are re-established.
+- id: EO3
+  text: Teams planning larger studies know how closely the available objective and self-reported sources
+    of dose-level medication-taking data agree in the population studied.
+- id: EO4
+  text: Teams planning larger studies know whether assessment notifications, monitoring devices, safety
+    communications and other study contact change the medication-taking they are intended to observe.
+- id: EO5
+  text: Teams planning larger studies know how the study's mechanism and medication-taking measures perform
+    among older adults and among people with cognitive or sensory limitations.
+- id: EO6
+  text: Adults whose routines are most easily disrupted, such as people taking many medications, people
+    with mild cognitive limitations and people who live alone or, in post-discharge studies, are discharged
+    home alone, are represented in mechanistic evidence and are not excluded because of assessment burden.
+- id: EO7
+  text: Investigators and funders can decide, from feasibility results and effect estimates with their
+    uncertainty judged against the study's progression criteria, whether a stress or attention pathway
+    warrants a larger observational study or later intervention development, or should be set aside.
+scope:
+- id: SC1
+  text: Specify a theoretical model, from nursing or psychological science, linking stress, attention
+    or both to a defined feature of the medication routine, such as dose timing, consistency or omission.
+- id: SC2
+  text: Measure medication-taking at the level of individual scheduled doses, so that each dose can be
+    classified as taken on time, delayed, omitted or duplicated.
+- id: SC3
+  text: Study the weeks after hospital discharge, recording regimen changes, discrepancies and who manages
+    medications at home, or justify another setting where regimen or routine changes test the mechanism,
+    and record those changes.
+- id: SC4
+  text: Analyze within-person associations separately from between-person differences, with lag structures
+    fixed in advance and adjustment for time-varying confounders such as pain, sleep, symptom burden and
+    regimen changes.
+- id: SC5
+  text: Assess recruitment, retention and the completeness of medication-taking data, reporting reasons
+    for refusal, withdrawal and device non-use where data are newly collected.
+- id: SC6
+  text: Examine whether associations differ by age, sex, cognitive status, number of medications and living
+    arrangement, presenting these analyses as exploratory where the sample does not support formal tests.
+- id: SC7
+  text: State progression criteria for proceeding to a larger observational or mechanistic study, fixed
+    before new data collection or, for secondary-data analyses, before those analyses, disclosing any
+    prior access to the existing data.
+exclusions:
+- id: EX1
+  text: Clinical trials as defined by NIH are not allowed.
+- id: EX2
+  text: Pilot or feasibility testing of adherence supports, such as reminder apps, alerting pill bottles,
+    pharmacist follow-up calls, stress-management or attention training, in which participants are assigned
+    to them to see whether medication-taking changes.
+- id: EX3
+  text: Monitoring devices or smartphone applications that give participants medication-taking reminders,
+    missed-dose or adherence alerts, or adherence feedback during the observation period. Prompts to complete
+    stress or attention assessments and narrowly defined safety communications are not covered by this
+    exclusion.
+- id: EX4
+  text: Cross-sectional adherence surveys that assess stress or attention once and cannot place them in
+    time relative to medication-taking.
+- id: EX5
+  text: Comparisons of drug efficacy, dosing or formulation, and pharmacokinetic or drug-interaction studies.
+- id: EX6
+  text: Evaluation of discharge processes, medication reconciliation programs or hospital quality-improvement
+    initiatives as the primary aim.
+- id: EX7
+  text: Engineering of new ingestible sensors, smart packaging or drug-level assays as the main objective,
+    rather than evaluating existing measures for the proposed question.
+- id: EX8
+  text: Studies whose primary aim is the clinical diagnosis of dementia, delirium or attention-deficit
+    disorders rather than the examination of attention as a process in medication-taking.
+mandatory_elements:
+- id: ME1
+  text: Critically appraise the rigor of the published or unpublished evidence supporting the proposed
+    research.
+- id: ME2
+  text: Justify the sample size for the proposed unit of analysis.
+- id: ME3
+  text: Describe the measures used to control bias in the proposed study.
+- id: ME4
+  text: Specify how the collected data will be analysed to answer the research questions.
+- id: ME5
+  text: Describe contingency approaches for the main anticipated threats to feasibility.
+- id: ME6
+  text: Where applicable, explain how relevant biological variables such as sex and age enter the design
+    and analysis, with scientific reasons for restrictions.
+- id: ME7
+  text: Where applicable to human-participant research, justify the study population’s inclusion across
+    sex/gender, race, ethnicity and age.
+- id: ME8
+  text: In the Introduction to Resubmission, explain how the revised application responds to the previous
+    review through substantive changes or reasoned rebuttals.
+- id: ME9
+  text: 'This notice adds a restriction that NIH resubmission policy does not impose: it accepts only
+    A1 applications whose unfunded A0 asked whether stress, attention or both act as mechanisms of medication-taking.
+    State the A0 central question. Aims, population, setting, measures and design may be substantially
+    revised in response to the review, provided the revised application still addresses that question;
+    an unrelated project is not eligible under this notice.'
+- id: ME10
+  text: 'Define the medication-taking outcome operationally: the primary data source, the observation
+    window, the treatment of scheduled versus as-needed medications, and the handling of prescriber-directed
+    starts, stops and dose changes, including any made at hospital discharge.'
+- id: ME11
+  text: Justify the timing and frequency of assessments of stress, attention or both, according to the
+    proposed pathway, relative to scheduled doses, so that the proposed mechanism is measured before the
+    doses it is expected to affect.
+- id: ME12
+  text: Explain why each study procedure, including assessment notifications, monitoring devices, safety
+    communications and any return of study information to participants or clinicians, does not prospectively
+    assign participants to an intervention, and how the content and delivery times of assessment notifications
+    are kept from functioning as medication reminders.
+- id: ME13
+  text: 'Within the Approach, describe risks to participants and the protections for them: assessment
+    burden and distress during illness or recovery, capacity to consent, privacy of device and smartphone
+    data, and a written procedure for safety communications to participants or clinicians that states
+    the triggering criteria, who is contacted and how quickly, and that excludes routine adherence feedback.'
+- id: ME14
+  text: For each measure of the selected mechanism and of medication-taking, state whether it is established,
+    adapted or new, and what existing evidence supports its reliability and validity in the intended population
+    and setting.
+eligibility:
+  budget_in_narrative: false
+  currency: USD
+  max_budget: 275000
+  duration_months_max: 24
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: opus
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 5e02d2e5-549d-4506-b8c5-da423b31803a

@@ -1,0 +1,45 @@
+{
+  "kind": "call",
+  "id": "v2-foundation-sparse-records",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md: opening disclaimer, Award criteria, Length contract and Sources; call.yaml: scheme and length_contract.source_note",
+      "problem": "The call explicitly invents eligibility, criteria, template, length rules and award conditions without identifying a real scheme or citing its rules. This directly violates scheme fidelity; disclosing the invention does not satisfy the requirement that only the topic, identifiers, budgets and dates be invented.",
+      "fix": "Select a real foundation scheme, cite its authoritative guidance, and reproduce its eligibility, application stage, sections, assessment criteria, length limit and award conditions. Update both files accordingly and limit the fiction notice to the permitted invented elements."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml: eligibility.duration_months_min; call.md: award table and Purpose and eligibility",
+      "problem": "YAML imposes a 12-month minimum duration, but the applicant-facing call states only a 24-month maximum. A shorter project would comply with the visible call while failing the hidden requirement.",
+      "fix": "State a 12-month minimum in call.md, or remove the minimum from call.yaml, according to the selected real scheme."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md: Expected outcomes, second bullet; call.yaml: expected_outcomes.EO2",
+      "problem": "“Gain robust frameworks” does not identify an assessable output or what would demonstrate robustness. Generic claims about reproducibility could satisfy this wording without showing how inference behaves under missingness.",
+      "fix": "Require a defined methodological output and an assessment appropriate to the records, such as a framework evaluated through sensitivity analysis under explicitly stated missingness assumptions. Use the same wording in both files."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md: Exclusions, first bullet; call.yaml: exclusions.EX1",
+      "problem": "One exclusion combines two independently testable restrictions: routine service delivery without a research question and expenditure unrelated to the inquiry. A proposal can violate either restriction independently.",
+      "fix": "Split these into separate exclusion items with separate YAML identifiers and matching applicant-facing bullets."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md: Exclusions, equipment bullet; call.yaml: exclusions.EX2",
+      "problem": "The EUR 20,000 equipment restriction does not specify whether the threshold applies per item, per purchase or to total equipment expenditure. “Major equipment” is also undefined, leaving materially different budget interpretations possible.",
+      "fix": "Define the covered equipment and the threshold basis explicitly in both files, using the selected scheme's actual equipment rules."
+    }
+  ]
+}

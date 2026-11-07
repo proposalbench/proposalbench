@@ -1,0 +1,32 @@
+{
+  "kind": "call",
+  "id": "v2-cerv-service-voice",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Call 1; Call 2",
+      "where": "data/public/calls/v2-cerv-service-voice/call.md, section 4.2: \"For each event/work package list activities, responsible beneficiaries, timing, deliverables, planned direct participants, eligible countries represented and its share of the requested grant\"; mandatory-elements list in call.yaml.",
+      "problem": "The selected official call, section 10, p. 27, requires an implementation report for every work package/event and a milestone for inviting attendees to the EU Survey on Justice, Rights and Values. Neither appears in this supposedly scheme-faithful work-plan contract or the hidden mandatory elements. A proposal can therefore satisfy every supplied instruction while omitting two compulsory implementation components. These are work-plan content, not excluded Part A fields or annex uploads.",
+      "fix": "Add to 4.2: \"Include an implementation report (Event description sheet) as a deliverable for every event/work package. Include a project milestone for inviting event attendees to complete the EU Survey on Justice, Rights and Values when the granting authority provides the link.\" Add two matching, separate mandatory_elements entries in call.yaml. Require the planned report and invitation milestone, not completed reports, survey responses or an already available survey link.",
+      "evidence": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/wp-call/2026/call-fiche_cerv-2026-citizens-civ_en.pdf#page=27",
+        "data/public/calls/v2-cerv-service-voice/call.md",
+        "data/public/calls/v2-cerv-service-voice/call.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Call 1: checked sub-priority 2.1 lead/co-applicant categories, countries and two-country beneficiary minimum against official 2026 call section 6: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/wp-call/2026/call-fiche_cerv-2026-citizens-civ_en.pdf",
+    "Call 1: EUR 75,000 minimum, no official maximum, normally 12–24 months; the EUR 300,000 ceiling and no-extension rule are explicitly fictional restrictions. Official 40/40/20 scoring, 25 relevance threshold and 70 overall threshold agree.",
+    "Call 1: one event per work package, active/verifiable participation, exclusion of EU officials and overlap/same-or-consecutive-day deduplication match official pp. 28–29. Residence, evidence and staff-role conventions are explicitly benchmark additions; no unsupported tariff calculation is demanded.",
+    "Call 1: 70-page selected-call ceiling overrides the generic form's 45 pages; subsection structure, Arial 9, A4 and 15 mm margins checked against https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/temp-form/af/af_cerv_en.pdf. The 35,000-word conversion is labelled as a benchmark convention.",
+    "Call 3: every listed EO/SC/EX/ME text matches between call.yaml and call.md after whitespace normalisation; amounts, duration, sections and word limit also agree.",
+    "Calls 2, 4, 6: civil-society-led resident deliberation and EU policy dialogue plausibly fit this programme; topic exclusions and outcomes are observable. Local cultural activities count through participation and deliberation, not passive audience totals. Faro framing in the cultural topic matches https://www.coe.int/en/web/culture-and-heritage/the-faro-way.",
+    "Read scheme skeleton tools/authoring/schemes/cerv.yaml and prior automated review for this call; independently checked current files and original official documents."
+  ]
+}

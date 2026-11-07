@@ -1,0 +1,302 @@
+schema_version: 1
+id: v2-migrant-service-deliberation-network
+language: en
+applicant_type: consortium
+career_stage: senior
+disciplines:
+- law
+- public administration
+- migration sociology
+method_profile: mixed
+country: BE
+files:
+- path: cv_coordinator.md
+  role: cv
+- path: consortium.md
+  role: team
+- path: annual_report_2025.md
+  role: prior_project
+- path: attendance_consolidation_2025.md
+  role: other
+- path: publications.md
+  role: publications
+- path: resources.md
+  role: resources
+facts:
+- id: F01
+  category: result
+  kind: existing
+  text: The signed 2025 annual report states that 84 unique residents took part in the eight 2025 deliberation
+    sessions.
+  value: '84'
+  salient: true
+  source: annual_report_2025.md
+- id: F02
+  category: result
+  kind: existing
+  text: The attendance consolidation, which carries no preparation date, states 96 unique residents for
+    the same eight sessions, with 187 attendances.
+  value: '96'
+  salient: true
+  source: attendance_consolidation_2025.md
+- id: F03
+  category: result
+  kind: existing
+  text: The 2025 sessions produced 41 recommendations addressed to 9 public bodies; written responses
+    had been received for 33 of them by 31 January 2026.
+  value: 33 of 41 (80%)
+  salient: true
+  source: annual_report_2025.md
+- id: F04
+  category: result
+  kind: existing
+  text: Of the 41 recommendations, 12 were accepted, 14 partly accepted, 7 declined and 8 unanswered;
+    median time to a written response was 47 days (IQR 29-71).
+  value: '12'
+  salient: true
+  source: annual_report_2025.md
+- id: F05
+  category: result
+  kind: existing
+  text: 74% of exit-questionnaire forms (45 of 61; Wilson 95% CI 62-83%) agreed with the statement 'I
+    could express my views in a language I am comfortable with'.
+  value: 74%
+  salient: true
+  source: annual_report_2025.md
+- id: F06
+  category: result
+  kind: existing
+  text: 66% of forms (40 of 61; 95% CI 53-76%) agreed that recommendations would reach the authority concerned,
+    and 39% (24 of 61; 95% CI 28-52%) agreed that they expected the authority to change something.
+  value: 66%
+  salient: true
+  source: annual_report_2025.md
+- id: F07
+  category: result
+  kind: existing
+  text: Knowledge of complaint routes rose from 2.3 to 3.6, a mean difference of 1.3 (SD 1.0; 95% CI 1.0-1.6)
+    over 48 session-level pre/post card pairs.
+  value: '1.3'
+  salient: true
+  source: annual_report_2025.md
+- id: F08
+  category: result
+  kind: existing
+  text: Ten of 14 interviewed officials considered the recommendations specific enough to act on; five
+    reported an internal procedure for answering collective recommendations.
+  value: Ten
+  salient: true
+  source: annual_report_2025.md
+- id: F09
+  category: other
+  kind: existing
+  text: The 2025 evaluation had no comparison group, relied on self-selected anonymous forms and card
+    pairs that could not be linked to attendance and may include repeat respondents (intervals unadjusted,
+    exploratory), checked implementation on site for 3 recommendations only, and under-represented residents
+    under 25 and evening-shift workers.
+  value: '3'
+  salient: true
+  source: annual_report_2025.md
+- id: F10
+  category: resource
+  kind: existing
+  text: The 2025 sessions offered interpretation in 11 languages, childcare at 7 of 8 sessions, transport
+    tickets and easy-read summaries in French and Portuguese.
+  value: '11'
+  salient: true
+  source: annual_report_2025.md
+- id: F11
+  category: grant
+  kind: existing
+  text: Annick Vercauteren-Delhez, founding director of Seuil Commun since 2009 with a 2004 PhD in public
+    law, coordinated GUICHETS (CERV-2023-CITIZENS-CIV, grant agreement 101143871, 1 January 2024 to 30
+    June 2026); its final technical report was submitted on 27 August 2026 and was under assessment on
+    30 September 2026.
+  value: EUR 296,400
+  salient: true
+  source: cv_coordinator.md
+- id: F12
+  category: grant
+  kind: existing
+  text: Seuil Commun led an AMIF Belgian national programme project (EUR 212,000, 2018-2020) and a King
+    Baudouin Foundation grant (EUR 48,000, 2020-2022), and holds a Wallonia ILI operating subsidy of EUR
+    61,500 for 2026.
+  value: EUR 61,500
+  salient: true
+  source: cv_coordinator.md
+- id: F13
+  category: identity
+  kind: existing
+  text: Seuil Commun asbl is a Belgian nonprofit in Liège (founded 2009; 14 staff, 11.2 FTE; 2025 income
+    EUR 948,000) whose advice clinic, staffed by jurists who do not facilitate deliberation, handled 1,140
+    consultations in 2025.
+  value: EUR 948,000
+  salient: true
+  source: consortium.md
+- id: F14
+  category: partner
+  kind: existing
+  text: Les Guichets Ouverts (French association loi 1901, Roubaix; income EUR 412,000, 9 staff) and Associação
+    Rede Balcão Aberto (Portuguese private nonprofit, Porto; income EUR 236,000, 7 staff) signed a framework
+    partnership agreement with Seuil Commun covering joint applications as beneficiaries, in force until
+    31 December 2029.
+  value: 31 December 2029
+  salient: true
+  source: consortium.md
+- id: F15
+  category: partner
+  kind: existing
+  text: Cellule Cultures et Quartiers, a Belgian municipal cultural office in Liège, is an associated
+    participant by letter of 8 July 2026; it receives no funds, is not party to the partnership agreement,
+    offers two neighbourhood spaces for up to 12 slots per year, has programmers and venue managers as
+    staff and holds no heritage collections.
+  value: 8 July 2026
+  salient: true
+  source: consortium.md
+- id: F16
+  category: team
+  kind: existing
+  text: Nine facilitators trained in 2024 each combine administrative-law or public-service-procedure
+    training with at least three years of migrant community practice.
+  value: '9'
+  salient: true
+  source: consortium.md
+- id: F17
+  category: other
+  kind: existing
+  text: No staff member of the three partners has training or professional experience in heritage interpretation,
+    museum mediation or participatory heritage work.
+  value: null
+  salient: true
+  source: consortium.md
+- id: F18
+  category: team
+  kind: planned
+  text: The Seuil Commun board approved a fixed-term heritage-mediation officer post on 10 September 2026;
+    the vacancy was unpublished at 30 September 2026.
+  value: 0.5 FTE
+  salient: true
+  source: consortium.md
+- id: F19
+  category: result
+  kind: existing
+  text: One cultural-space consultation (13 June 2026, Sainte-Marguerite) involved 23 residents with interpretation
+    in four languages, had no heritage content and received a written reply from the office on 2 September
+    2026.
+  value: '23'
+  salient: true
+  source: consortium.md
+- id: F20
+  category: other
+  kind: existing
+  text: Protocol version 3 requires a separate, prospective, written and revocable opt-in for publishing
+    identifiable case stories; none has been collected.
+  value: '0'
+  salient: true
+  source: resources.md
+- id: F21
+  category: other
+  kind: existing
+  text: Protocol version 3 bars audio or video recording, refers individual legal or residence issues
+    to the advice desks and names a safeguarding lead per site; under its original retention wording the
+    2025 sign-in sheets were destroyed on 31 March 2026 without identifiers kept, an error recorded on
+    22 September and notified to the granting authority on 24 September 2026, and addendum 1 of 30 September
+    2026 now requires grant-relevant attendance evidence to be kept for five years after final payment
+    (longer while an audit or proceeding is open), with case stories kept for five years.
+  value: 31 March 2026
+  salient: true
+  source: resources.md
+- id: F22
+  category: resource
+  kind: existing
+  text: The case-story archive holds 52 pseudonymised records under internal-use consent.
+  value: '52'
+  salient: true
+  source: resources.md
+- id: F23
+  category: other
+  kind: existing
+  text: A 15 September 2026 withdrawal log entry removes six case-story records from any future external
+    use; only aggregate themes from them may be disseminated.
+  value: Six
+  salient: true
+  source: resources.md
+- id: F24
+  category: other
+  kind: existing
+  text: No contribution was made to an EU consultation or EU institution in 2025; the policy brief went
+    to municipal and national authorities and the READ network.
+  value: null
+  salient: true
+  source: annual_report_2025.md
+- id: F25
+  category: resource
+  kind: existing
+  text: Existing resources include venues for 35 (Liège), 40 (Roubaix) and 25 (Porto) people, 40 receivers
+    and 6 transmitters for whispered interpretation, and an interpretation framework contract that runs
+    until 31 December 2026.
+  value: 31 December 2026
+  salient: true
+  source: resources.md
+own_publications:
+- key: vercauteren2019duty
+  authors:
+  - Vercauteren-Delhez, A.
+  year: 2019
+  title: 'The duty to hear in practice: hearings in social assistance appeals in Wallonia'
+  venue: Revue belge de l'action administrative
+  doi: 10.99999/pb.v2-migrant-service-deliberation-network.2019.1
+- key: vercauteren2021interpreted
+  authors:
+  - Vercauteren-Delhez, A.
+  - El Kaddouri-Lambert, Y.
+  year: 2021
+  title: Interpreted access to complaint procedures at municipal social welfare counters
+  venue: Cahiers de droit public local
+  doi: 10.99999/pb.v2-migrant-service-deliberation-network.2021.1
+- key: tessier2023digital
+  authors:
+  - Tessier-Hamdani, N.
+  - Vercauteren-Delhez, A.
+  year: 2023
+  title: 'Digital-only booking and the right to an answer: a casebook from Roubaix and Liège'
+  venue: Civic Procedure & Society
+  doi: 10.99999/pb.v2-migrant-service-deliberation-network.2023.1
+- key: saldanha2025counter
+  authors:
+  - Saldanha Quaresma, R.
+  - Có Mendes, D.
+  - Vercauteren-Delhez, A.
+  year: 2025
+  title: Who speaks at the counter? Language tables in resident deliberation in Porto and Liège
+  venue: Lusophone Migration Studies Quarterly
+  doi: 10.99999/pb.v2-migrant-service-deliberation-network.2025.1
+- key: guichets2025brief
+  authors:
+  - Vercauteren-Delhez, A.
+  - Tessier-Hamdani, N.
+  - Saldanha Quaresma, R.
+  year: 2025
+  title: Interpreted access to public-service complaint procedures
+  venue: GUICHETS Policy Brief 1, Seuil Commun asbl
+  doi: 10.99999/pb.v2-migrant-service-deliberation-network.2025.2
+- key: vangijsegem2026tracking
+  authors:
+  - Van Gijsegem, L.
+  - Vercauteren-Delhez, A.
+  year: 2026
+  title: 'Tracking authority responses to resident recommendations: a coding scheme and first results'
+  venue: Civic Procedure & Society
+  doi: 10.99999/pb.v2-migrant-service-deliberation-network.2026.1
+inconsistencies:
+- id: I1
+  text: annual_report_2025.md (signed 12 February 2026) states that 84 unique residents took part in the
+    eight 2025 deliberation sessions, while attendance_consolidation_2025.md, which carries no preparation
+    date, gives 96 unique residents for the same eight sessions; neither document supersedes the other,
+    and the sign-in sheets needed to deduplicate were destroyed on 31 March 2026.
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: opus
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY d71d7805-c642-492a-a791-2b6adeaee937

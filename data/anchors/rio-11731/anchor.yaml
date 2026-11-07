@@ -1,0 +1,52 @@
+id: rio-11731
+title: Applying machine learning and image feature extraction techniques to the problem of cerebral aneurysm
+  rupture
+authors:
+- Steren Chabert
+- Tomás Mardones
+- Rodrigo Riveros
+- Maximiliano Godoy
+- Alejandro Veloz
+- Rodrigo Salas
+- Pablo Cox
+year: 2017
+funder: Fondo Nacional de Desarrollo Científico y Tecnológico (FONDECYT), Chile
+scheme: FONDECYT research proposal
+funded: unknown
+funded_source:
+  url: https://riojournal.com/article/11731/download/xml/
+  evidence: JATS funding-group identifies FONDECYT; publication alone does not establish an award.
+language: en
+field: life sciences / biomedical engineering
+source_url: https://riojournal.com/article/11731/
+doi: 10.3897/rio.3.e11731
+licence: CC-BY-4.0
+licence_evidence:
+  url: https://riojournal.com/article/11731/download/xml/
+  location: front/article-meta/permissions/license/@xlink:href
+  value: http://creativecommons.org/licenses/by/4.0
+  statement: This is an open access article distributed under the terms of the Creative Commons Attribution
+    License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium,
+    provided the original author and source are credited.
+retrieved: '2026-10-30'
+raw_path: seeds_raw/anchors/rio-11731.xml
+raw_sha256: 7caf9e4f82aa84d791a528675028464528a1a90c176f019a5505a15aa27b8ece
+article_type: Grant Proposal
+source_reference_count: 18
+conversion_notes:
+- Converted publisher JATS XML to Markdown; layout removed. Front-matter affiliations, correspondence/email,
+  ORCID, licence and publication-history boilerplate omitted; published authors retained in metadata.
+- Scientific narrative, source spelling, citations and reference metadata are not corrected. JATS structured
+  references rendered in source order, one paragraph per entry; punctuation supplied between metadata
+  fields, identical DOI URL repetitions suppressed.
+- Figures retained as captions; tables rendered as Markdown where encoded as JATS tables. Floats and non-reference
+  back matter precede the final References heading. Supplementary files are outside this published narrative
+  snapshot.
+- Exact duplicated publisher back-note sections emitted once. Bold-only source paragraphs promoted to
+  subheadings. Zero-width spaces and discretionary soft hyphens removed.
+sha256: d01bf785aca2dab815bfa79a5a86c64569c060cd99e6be195702507b5792e797
+words: 3732
+reference_count: 18
+privacy_review: Published scholarly names and institutional affiliations retained; correspondence, email,
+  ORCID and front-matter contact blocks omitted. Retained narrative reviewed for contact identifiers,
+  applicant identifiers, private biographical and participant-level personal data; none retained.

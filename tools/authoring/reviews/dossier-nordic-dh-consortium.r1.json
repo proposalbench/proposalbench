@@ -1,0 +1,101 @@
+{
+  "kind": "dossier",
+  "id": "nordic-dh-consortium",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1; Call 3",
+      "where": "planned tasks (design): references to he-cl5-heatstorage and he-cl1-indoorhealth",
+      "problem": "Neither call.md nor call.yaml is supplied for either task. Scheme fidelity, source citations, requirements, exclusions, limits, funding conditions and agreement between the public call and hidden requirements cannot be checked. The asserted 48-month maximum has no supplied source.",
+      "fix": "Supply both calls and their requirement registries, including authoritative scheme sources and the required statement identifying invented elements. State all applicable limits and consortium rules explicitly in each public call."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 1; Task 2; Task 3; Task 4",
+      "where": "planned tasks (design): both task entries",
+      "problem": "The actual applicant briefs and complete task definitions are missing. Trap summaries do not establish that the applicant receives enough information to avoid the traps, that the brief does not reveal the intended answer, or that either proposed project is achievable within its call.",
+      "fix": "Provide the applicant-facing briefs and hidden task definitions. Review their exact wording against the supplied calls and dossier, including the feasibility of adding the expertise and resources required for the indoor-health task."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "planned tasks (design): pub-he-heatstorage-close compressor trap",
+      "problem": "The trap describes proposing a partner that develops compressor hardware as excluded. A prohibition on funding compressor development does not automatically prohibit participation by a company that develops compressors elsewhere. OptiControl also has directly relevant MPC expertise, so retaining it solely for controls could be compliant.",
+      "fix": "Specify whether the public call excludes an activity or a class of participants. If it excludes compressor development, make the brief propose funding that development within the project and accept retaining OptiControl for permitted control-system work."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "resources.md: named associate professors; related references in publications.md and dossier.yaml",
+      "problem": "The second named associate professor has the exact name of a well-known former Danish foreign minister. The fictional-document notice does not satisfy the instruction to avoid real-person names.",
+      "fix": "Replace that identity with a checked fictional name and update the team description, publication author lists and publication registry consistently."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "cv_coordinator.md: OptiGrid (2012–2015), funded by Innovation Fund Denmark",
+      "problem": "Innovation Fund Denmark was established in 2014, so the entry attributes a project beginning in 2012 to a funder that did not yet exist. No predecessor award or later transfer is explained.",
+      "fix": "Move the fictional award to a historically compatible period, or identify the appropriate predecessor funder and explicitly date any transfer to Innovation Fund Denmark."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "resources.md: Nordby PTES Data Repository; prior_project.md: monitoring and project dates",
+      "problem": "The claim of over 450 million individual data points is not reconciled with the documented instrumentation. The full 54-month interval contains 1,642 days, or 472,896 five-minute timestamps per continuously logged channel. The 120 temperature channels therefore yield at most 56,747,520 readings over that interval. Exceeding 450 million at that cadence requires at least 952 continuously populated channels in total, but the additional channels are not enumerated. Construction also means the full project duration cannot simply be assumed to equal the operational monitoring duration.",
+      "fix": "Provide commissioning and monitoring dates, an inventory of channels and sampling frequencies, and counts before and after cleaning. Recalculate the repository total from that inventory, distinguishing measured values from timestamps, metadata and derived values."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md: Key Results",
+      "problem": "Several headline results lack the denominators, uncertainty and observation periods required to interpret them. The 78% efficiency interval has no stated calculation or independent sampling unit; the three seasons are not identified. The 85% stratification figure lacks valid observation counts. The 84% gas reduction and approximately 4,200 tonnes CO2 equivalent per year lack baseline fuel quantities, emissions factors and uncertainty. The heat-cost change lacks uncertainty and a defined cost boundary.",
+      "fix": "Identify the monitored seasons and valid observations, give season-level energy balances and explain the confidence interval calculation. Supply baseline and intervention gas use, the emissions calculation and uncertainty, and a clearly defined heat-cost estimate with its comparison method. State whether the 22% loss figure is independently measured or calculated as the complement of efficiency."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md: Economic Impact, 'net heat price reduction of -12 EUR/MWh'",
+      "problem": "A negative reduction is ambiguous, and the report alternates between production costs and a heat price paid by the operator. Comparing against a 2018 baseline without explaining fuel-price and weather normalization also leaves the claimed effect of storage and control unidentified.",
+      "fix": "Use either 'production cost decreased by 12 EUR/MWh' or 'the change was −12 EUR/MWh', as appropriate. Define the quantity, baseline and intervention values, price year, treatment of capital costs, and normalization or counterfactual used to attribute the change."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md: Site Description and System Architecture",
+      "problem": "The thermal architecture is incomplete. A continuous 2.5 MW data-centre waste-heat source cannot be assumed to charge storage useful to a 65°C supply network without its delivery temperature and any heat-upgrading equipment. The report gives neither these details nor the storage operating range, usable energy capacity or annual charge/discharge balance.",
+      "fix": "Specify waste-heat delivery temperatures, heat-exchanger arrangements and any heat pump, including electrical consumption and performance. Give storage temperature limits, usable capacity and annual energy flows consistent with the stated volume, sources, efficiency and gas displacement."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md: Network Integration and End-User Health and Comfort",
+      "problem": "The report says 65°C supply 'proved sufficient' for domestic-hot-water safety and space-heating comfort, while admitting that no indoor climate parameters were measured. Primary-network supply temperature alone does not demonstrate temperatures at domestic-hot-water outlets or recirculation points, and aggregate substation energy use does not establish occupant comfort.",
+      "fix": "Limit the conclusion to the hydraulic and thermal service measurements actually obtained. Alternatively, document separate endpoint temperature and comfort measurements, their sample sizes and dates, and reconcile them with the limitations section. Identify the separate study behind the 2020 comfort publication if it supplies relevant evidence."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml: facts F01–F18",
+      "problem": "The facts registry omits many proposal-relevant quantities and statuses: the efficiency confidence interval and three-season basis; project start/end dates and extension; 35°C return temperature; stratification performance; gas and emissions reductions; sensor configuration and cadence; team counts; simulator capacity; cluster RAM; repository size; 15 residential blocks and their sampling cadence; earlier grants; and supervision experience. It also omits the absence of clinical partnerships and medical ethics approvals, and the fact that PIT-STORE measured neither indoor climate nor health outcomes. Several value fields strip units or qualifications from the source.",
+      "fix": "Extend the registry to cover all salient results, resources, dates, qualifications and limitations after correcting the source documents. Preserve units, confidence intervals, approximations and status wording. Distinguish deployed resources from possible future demonstration access and planned hardware development."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3; Dossier 4",
+      "where": "consortium.md: OptiControl Recent Developments; cv_coordinator.md and resources.md: undated current-status statements",
+      "problem": "The dossier has no effective date for its current capabilities. OptiControl is described as intending to patent and prototype hardware 'by 2025', but the bundle was created in October 2026. It is unclear whether this is an archived intention, an overdue milestone or a completed activity. Current staffing, supervision and deployed sensor statuses are similarly undated.",
+      "fix": "Date the live consortium, CV and resource documents. Update the compressor milestone to its actual fictional status at that date, or explicitly identify the passage as an archived statement and add a current status. Register those dates and statuses."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "consortium.md and resources.md: profiles, infrastructure descriptions and methodological constraints",
+      "problem": "The documents repeatedly use promotional or exaggerated language such as 'leading European research unit', 'massive', 'state-of-the-art', 'invaluable' and 'absolutely no expertise'. Repeated categorical statements about health research and fairness read as evaluator instructions rather than concise records of capabilities and project limitations.",
+      "fix": "Replace promotional descriptions with verifiable capabilities and capacities. State each relevant limitation plainly in its appropriate document, distinguishing the prior project's measurements from the team's current expertise and resources."
+    }
+  ]
+}

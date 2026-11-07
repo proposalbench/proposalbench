@@ -1,0 +1,31 @@
+{
+  "kind": "task",
+  "id": "pub-msca-gf-maternal-close",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 1",
+      "where": "cv_pi.md, prior_project.md, resources_and_partners.md, dossier.yaml",
+      "problem": "The dossier is written from the perspective of mid-2024 (e.g., \"Status as of July 2024\", postdoc contract ends Aug 2025, latest publications in 2024), but the call deadline is 15 September 2027. This creates a 3-year gap in the applicant's CV and publications right before the deadline, making it impossible to write a competitive proposal without inventing 3 years of recent history.",
+      "fix": "Shift all dates in the dossier (including birth year, degrees, employment, grants, publications, and ethics applications) forward by 3 years so the \"present day\" is mid-2027, aligning with the 2027 call deadline. Update dossier.yaml facts and publication keys accordingly."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "cv_pi.md, resources_and_partners.md, brief.md, prior_project.md",
+      "problem": "The dossier uses real universities and research institutes: Kintampo Health Research Centre (KHRC), Instituut voor Tropische Geneeskunde Antwerpen (ITG-Antwerp), University of Cape Coast, and Kwame Nkrumah University of Science and Technology. The rules require all universities and research institutes to be fictional.",
+      "fix": "Replace these with fictional institutions (e.g., \"Bono East Health Research Institute\", \"Flanders Institute of Global Health\", \"University of Southern Ghana\", \"Kumasi University of Applied Sciences\")."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml (facts)",
+      "problem": "Several salient numbers relevant to the host capacity section are missing from the facts registry: VUM's 28 academic staff and 14 PhD candidates, the outgoing host's 300 staff and 200 CHWs, and the secondment host's 400 researchers. Additionally, Fact F16 includes the supervisor's H-index (38) in the text but sets the value to `null` instead of `38`.",
+      "fix": "Add facts for the institutional staff/researcher counts at VUM, the outgoing host, and the secondment host. Update F16 to have `value: 38`."
+    }
+  ]
+}

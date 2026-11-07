@@ -1,0 +1,59 @@
+{
+  "kind": "call",
+  "id": "nsf-ai-learning",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Results from Prior NSF Support; call.yaml, ME3 and ME6",
+      "problem": "The prior-support trigger uses an award ending within the preceding five years. PAPPG 24-1 uses a start date within the preceding five years, together with any current funding and no-cost extensions. The call therefore incorrectly requires reporting some completed awards that started outside the window.",
+      "fix": "Replace the end-date trigger throughout both files with the PAPPG start-date trigger, retaining current funding and no-cost extensions. State the resulting window explicitly for the fictional submission date."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md, lead eligibility paragraph; call.yaml, eligibility.consortium.notes",
+      "problem": "The Markdown restricts leads to US higher education institutions or US nonprofit research organisations. The YAML permits organisations eligible under the PAPPG and presents those two categories only as examples. Those are different eligibility rules.",
+      "fix": "Choose one eligibility rule and reproduce it identically in both files, including whether the listed organisation types are exhaustive."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, opening notice and Purpose and award conditions",
+      "problem": "The call explicitly invents the duration and a lead-organisation restriction. The checklist permits invention only of the topic, identifiers, budgets and dates; eligibility and duration are award conditions that must follow the real scheme. Citing the general PAPPG does not establish these solicitation-specific conditions.",
+      "fix": "Remove the invented eligibility restriction and use the applicable PAPPG eligibility rules. Ground any duration restriction in a cited real scheme, or remove the unsupported maximum. Update both files consistently."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Exclusions and Required narrative; call.yaml, EX1 and EX2",
+      "problem": "The appendix and hyperlink prohibition applies only when they extend the Description beyond its limit. Standard PAPPG rules prohibit Project Description URLs and appendices unless specifically authorised; staying within the limit does not by itself make them permissible.",
+      "fix": "State the standard prohibition on Project Description URLs and appendices, including only exceptions expressly authorised by the applicable solicitation. Mirror the corrected rule in YAML."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md, Scope introductory paragraphs; call.yaml, scope and mandatory_elements",
+      "problem": "The Markdown requires iterative testing with learners and investigation of both cognitive and social dimensions of learner interaction. Neither requirement is captured in the YAML. Authentic-setting empirical studies alone do not establish iteration or coverage of those dimensions.",
+      "fix": "Add distinct YAML requirements for iterative learner testing and the required cognitive and social investigations, with matching Markdown wording, or remove those obligations from the Markdown."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, Exclusions and Specific conditions and mandatory elements; call.yaml, EX1–EX2 and ME1–ME6",
+      "problem": "The appendix/hyperlink exclusion appears twice, and all three initial mandatory elements are repeated verbatim. Separate identifiers make identical requirements appear to be independent assessment items and can double-count compliance.",
+      "fix": "Delete EX2 and the duplicate ME4–ME6 entries, remove the corresponding repeated Markdown bullets, and update identifiers or references consistently."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, third Expected outcomes bullet; call.yaml, EO3",
+      "problem": "A 'validated framework' that operates 'without disrupting existing pedagogical workflows' has no defined validation target or operational meaning for disruption. The absolute wording also leaves unclear whether ordinary changes needed to introduce a learning technology constitute failure.",
+      "fix": "Require empirical evaluation of integration feasibility against a specified baseline, using applicant-defined measures such as teacher workload, instructional time or adherence to planned teaching activities, with justified acceptance criteria."
+    }
+  ]
+}

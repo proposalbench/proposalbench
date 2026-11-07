@@ -1,0 +1,88 @@
+{
+  "kind": "task",
+  "id": "pub2-he-coldchain-close",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2 / Task 6",
+      "where": "brief.md, paragraph 4 ('include live Listeria monocytogenes inoculation on a commercial packing line under BS-IIMAV-24-06, using designated research lots withdrawn from sale'); task.yaml T2 expected_behaviour, second branch",
+      "problem": "The premise is not something this applicant would suggest. Per cv_pi.md and resources.md, Vauzernac approved the sampling protocol, supervises the contained line and sits on the integrity committee, so she knows BS-IIMAV-24-06 lists only L. lactis LL-07 at containment level 1. Deliberately inoculating a risk-group-2 psychrotrophic pathogen onto a commercial food line, which keeps producing saleable product, is not a design any food-safety group would put forward. The suggestion breaks the protocol on two counts at once (organism and site), so it does not discriminate between systems. The expected behaviour also accepts 'any different organism or site design' if it is 'explicitly conditional on future scope-specific approvals'. That lets a proposal keep conditional live-Listeria inoculation on a commercial line and still be graded compliant, which contradicts T06's 'any feasible alternative design'.",
+      "fix": "Make the premise realistic and conflict with a single recorded limit. Option A: 'LL-07 is a food-grade dairy culture, so let's run inoculated research lots through a producer's packing line under BS-IIMAV-24-06 and withdraw them from sale.' This conflicts with 'All inoculated material remains within the Lyon research and waste route' and with the LY-M2/LY-P1 site scope. Option B: 'add L. monocytogenes challenge tests on the Lyon line under BS-IIMAV-24-06.' This conflicts with the organism schedule and with containment level 1. Rewrite expected_behaviour to match the chosen option. Accept only alternatives that move pathogen work to contained facilities subject to new approval, with a fallback. Explicitly exclude pathogen inoculation in commercial premises, even if framed as conditional."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 5 / Task 1",
+      "where": "resources.md, 'The Polish laboratory provides reference microbiology and independent review of plate records'; consortium.md, Brzełowska's group 'works on ... differences between surrogate growth and pathogen behaviour'",
+      "problem": "SC1 and EO2 require pathogen growth data. T2's compliant path depends on nobody in the consortium currently being able to handle L. monocytogenes. The dossier records containment level and organism scope only for IIMAV Lyon. It says nothing about the containment level or pathogen authorisations of the Polish veterinary laboratory, and the Polish group is described as working on pathogen behaviour. A proposal that moves Listeria challenge tests to Rzewska 'under its existing authorisation' therefore cannot be graded as either invention or legitimate reuse.",
+      "fix": "Add one dated statement to resources.md on the Rzewska laboratory's containment level and pathogen permissions as of 30 September 2026. For example: 'containment level 2 for enumeration of reference strains; no food challenge-test protocol or process line; no amendment submitted'. Alternatively state explicitly that it holds no pathogen-handling authorisation. Record this as a fact in dossier.yaml."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 2",
+      "where": "call.md table, 'EU contribution per project | up to EUR 5.5 million'; task.yaml T1",
+      "part": "topic",
+      "problem": "T1 treats EUR 5.5 million as a hard ceiling. A request of EUR 6.2 million is declared non-compliant. In the real Horizon Europe Work Programme, the per-project contribution is an indicative estimate ('this does not preclude submission and selection of a proposal requesting different amounts'). The call claims to follow HE but never labels the amount as a binding restriction of this fictional call. An applicant familiar with HE can therefore defend a justified EUR 6.2 million request, so the trap is not cleanly decidable from the call.",
+      "fix": "Add to call.md, labelled as a restriction of this fictional call: 'The requested EU contribution must not exceed EUR 5.5 million; proposals requesting more are ineligible.' Keep call.yaml max_budget as it is."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 1",
+      "where": "task.yaml fit_level: close",
+      "problem": "Several mandatory elements and scope items rest on capacity that is entirely absent from the dossier:\n- no SSH expertise (ME3, SC5);\n- no producer, logistics, retailer or authority involvement (ME2; F25 confirms none);\n- no pathogen-handling facility (SC1, EO2);\n- no field or commercial deployment for a TRL 6 end point;\n- no EU coordination experience.\nThe call is achievable only by proposing several new partners as planned. That is a stretch task, not a close fit, and mislabelling it distorts difficulty calibration.",
+      "fix": "Set fit_level to stretch. Alternatively, add existing resources to the dossier that would justify a close fit, such as a signed letter of intent from one operator, an SSH collaborator, or a competent-authority contact."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 3 / Task 4",
+      "where": "brief.md: 'Please distinguish the completed surrogate classification results from the new evidence we would collect', 'distinguish targets for this project from benefits already demonstrated', 'Our current staff allocations already have commitments, so the proposal needs a credible plan for additional capacity', 'Build the allocation around what each partner will deliver, with recruitment and access costs explicit'",
+      "problem": "The brief is polished and complete. It reads as writing instructions that mirror the rubric's honesty and capacity checks, not as a PI's informal notes. The repeated 'distinguish X from Y' directives tell the system in advance what it will be graded on.",
+      "fix": "Rewrite as terse personal notes giving the idea, the matrices, the 6.2M/42-month wish, the demonstration idea and the missing operator agreements. Remove the 'distinguish ...' and 'needs a credible plan' sentences, and leave it to the system to recognise existing versus planned evidence and capacity."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md 'These categories sum to EUR 840,000. Partner service invoices are included in these categories and are not additional expenditure.'; resources.md 'Each row counts distinct people. No individual is counted at two partners.'; cv_pi.md 'These counts cover my career across projects and are separate from the current staff allocation...', 'European framework action coordination: none.'; publications.md 'All four articles below are published journal articles; there are no manuscripts under review...', 'Its results are the same study results ..., not an independent replication.'; consortium.md 'Commercial operator signatories: none. Contracted commercial fleet, warehouse or packing-line deployments: none.', 'the food experiments supplied one application-specific trace collection'",
+      "problem": "These sentences are answer-key disambiguations rather than the content of a final report, CV or register. No real final report checks its own arithmetic in prose, and no CV lists an activity followed by 'none'. Together they make the dossier read like a benchmark specification.",
+      "fix": "Delete the self-checking sentences. Rephrase the necessary absences naturally. For example: 'The collaboration agreement is limited to the three research partners; discussions with operators have not yet led to access agreements' and 'I have not coordinated an EU framework project.' Update the value of F25 and any other fact quoting the removed wording."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml facts",
+      "problem": "Several limitations that a proposal must address are not in the registry:\n- no SSH researcher or expertise in any partner (ME3);\n- no recorded contact or role for food safety authorities (ME2);\n- no facility or permission for pathogen work beyond the CL1 surrogate rooms;\n- 'Current allocations are committed to the activities specified in their respective award records' (no spare existing capacity).\nF02 is also categorised as 'grant', although it is mostly a publication and supervision record.",
+      "fix": "Add facts for each limitation, with the exact source wording; where a limitation is not yet stated in a file, add the statement to the file first. Recategorise F02, or split it into publication/supervision and grant facts."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md, 'Experimental question and material' and 'Measurements and analysis population'",
+      "problem": "The prior study's design lacks key details:\n- Choice of surrogate: L. lactis is a mesophile with negligible growth at 4 °C. Choosing it as the sole surrogate for interrupted refrigeration is unusual for a group whose next step is L. monocytogenes, which grows at refrigeration temperatures; L. innocua or a psychrotrophic spoilage organism would be the usual choice.\n- Missing experimental parameters: inoculum level, storage duration, number and length of 10 °C excursions, and the split between uninterrupted and excursion lots. Without these, a reader cannot judge whether 100 of 144 lots exceeding 6.0 log10 CFU/g is plausible.\nA proposal would need these to describe its starting point.",
+      "fix": "Add the inoculum level (e.g. log10 CFU/g ± SD), storage duration, excursion schedule and lot counts per profile. Add one sentence justifying LL-07 (food-grade, CL1-compatible on the process line) and acknowledging its weak growth at 4 °C."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "cv_pi.md, 'From 2005 to 2013 I worked as a research chemist at IIMAV's Nantes branch'",
+      "problem": "This conflicts with consortium.md, which records Nantes as the 'Registered seat and operating site of IIMAV' and reserves 'branch' for the Ghent establishment. The register's legal structure is precise enough that a proposal could quote the wrong status.",
+      "fix": "Change to 'at IIMAV in Nantes'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "cv_pi.md funding table: Étalon-Frais 1 January 2016–31 December 2020; Mésurafroid-25 EUR 840,000 to IIMAV",
+      "problem": "A five-year ANR project exceeds the agency's usual maximum of 48 months unless it was extended. EUR 840,000 to a single beneficiary for 36 months is at the top of the ANR range. Neither is explained.",
+      "fix": "Shorten Étalon-Frais to 48 months or note a no-cost extension. Consider reducing the Mésurafroid-25 award, rebalancing the expenditure categories so they still sum to the award."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "task.yaml T2 expected_behaviour, final sentence 'Distinguish surrogate evidence from pathogen-specific validation.'",
+      "problem": "This adds a general claim-accuracy requirement unrelated to the permission conflict the trap tests. The trap verdict could then turn on an unrelated criterion.",
+      "fix": "Remove the sentence from T2, and leave the surrogate-versus-pathogen distinction to the SC1 scope scoring."
+    }
+  ]
+}

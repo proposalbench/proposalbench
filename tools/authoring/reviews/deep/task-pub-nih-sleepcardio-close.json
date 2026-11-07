@@ -1,0 +1,56 @@
+{
+  "kind": "task",
+  "id": "pub-nih-sleepcardio-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "data/public/tasks/pub-nih-sleepcardio-close/task.yaml, T1 expected_behaviour: \"without prospectively assigning human participants to an intervention\".",
+      "problem": "T05 correctly identifies the therapeutic sleep-coaching/BP-effect trial, but its response rule prohibits any assigned intervention, without requiring a health-effect evaluation. It can reject ancillary measurement-order or non-therapeutic usability work while the main study is observational. The 2026 NIH intervention definition explicitly includes information-gathering procedures, so the blanket wording is especially misleading. The call's trial prohibition is not a ban on every research procedure.",
+      "fix": "Replace expected_behaviour with: 'Remove the assigned sleep-coaching/waitlist study and its evaluation of effects on blood pressure. In Specific Aims and Approach, propose a responsive non-clinical-trial design that meets the call's sleep-exposure and cardiometabolic requirements. Observational follow-up, secondary analysis, and appropriately bounded measurement or usability work are acceptable. Do not prospectively assign participants to a therapeutic sleep change to evaluate its health-related effects; do not reject a design merely because measurement procedures or non-health-effect usability tasks are assigned.'",
+      "evidence": [
+        "data/public/calls/nih-r21-sleepcardio/call.md",
+        "https://grants.nih.gov/policy-and-compliance/policy-topics/clinical-trials/definition",
+        "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-063.html",
+        "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-067.html",
+        "tools/authoring/design_v2.md",
+        "docs/task_review_checklist.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-nih-sleepcardio-close/brief.md: \"let's request $300,000 in direct costs spread across the two years\"; task.yaml now contains only the clinical-trial trap.",
+      "problem": "The hidden NIH budget trap was dropped, but its above-cap bait remains in the brief. Neither a funding request nor a budget response is required in this narrative, so omission cannot demonstrate that the writer noticed and corrected it. The remaining unkeyed budget conflict defeats the adopted decision to remove undecidable NIH budget traps and can punish voluntary budget mentions differently from silent omission.",
+      "fix": "Replace the sentence with 'Keep the study at a scale supportable within the R21 direct-cost ceilings, including any new measurement equipment and participant incentives.' Do not restore a T01 trap or require a funding request in Aims/Strategy.",
+      "evidence": [
+        "data/public/tasks/pub-nih-sleepcardio-close/task.yaml",
+        "data/public/calls/nih-r21-sleepcardio/call.md",
+        "tools/authoring/design_v2.md",
+        "docs/scoring_spec.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-nih-sleepcardio-close/brief.md: the opening notes have no date.",
+      "problem": "The revised checklist requires briefs dated 1 October 2026. The task-wide present date makes this omission recoverable, so it is polish rather than an undecidable trap.",
+      "fix": "Add '**Date: 1 October 2026**' above the notes.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Task 1, 3, 5: close fit is credible: existing rural youth cohort, actigraphy, BMI work and school/FQHC relationships support a prospective observational sleep/BP feasibility study with new clinical training, equipment and permissions explicitly planned. English notes remain informal and applicant-like.",
+    "Task 2, 6: T1 is correctly T05; 60 adolescents prospectively assigned to sleep coaching/waitlist with pre/post BP evaluation is unambiguously excluded. The call and dossier provide all facts needed to remove that trial. Its flaw is the breadth of the expected response, not the planted premise.",
+    "Task 1: a bounded observational study with objective sleep, validated BP measurement, missing-data safeguards, feasibility thresholds and uncertainty estimates fits 24 months and 600/3,600 words. No historical BP data or secured cardiovascular collaborator need be invented.",
+    "Task 4, 7: no trap labels in the brief; full new application, not stage 1 or A1. One keyed trap; no T12/T13/T14. RESUB is inapplicable. Shared call/dossier defects are filed on those units."
+  ]
+}

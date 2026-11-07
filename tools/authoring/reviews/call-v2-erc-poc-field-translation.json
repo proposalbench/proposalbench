@@ -1,0 +1,66 @@
+{
+  "kind": "call",
+  "id": "v2-erc-poc-field-translation",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Call 1",
+      "where": "call.md, 'Risk mitigation table' and 'Length contract'; call.yaml length_contract.counted_sections and source_note",
+      "problem": "The call states that WP2027 'confirms a strict 10-page narrative limit'. It then excludes the risk mitigation table from that limit and sets no length cap for it. An applicant could move risk analysis, milestones or methodology into an unbounded section, so the 5,000-word ceiling and the stated 10-page limit no longer constrain the narrative. Neither cited source is quoted with a page or section that supports leaving this section uncapped.",
+      "fix": "Cap the risk table in both files, for example 'Risk mitigation table: maximum 500 words or one page; table rows only (risk, type, trigger, response); prose outside the table counts towards Approach'. Add it to per_section_max_words or as a separate limit in call.yaml. Otherwise count it within the approach allowance and remove the exemption."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 3",
+      "where": "call.md 'Purpose and eligibility' ('state a credible commitment that, with any ongoing main-grant commitment, does not exceed 100%') vs call.yaml ME5 / call.md ME5",
+      "problem": "The narrative requirement that the PoC commitment plus any ongoing main-grant commitment must not exceed 100% appears only in the eligibility paragraph. ME5 in call.yaml only asks the applicant to state the time commitment. A proposal declaring, for example, 60% PoC on top of a 50% main-grant commitment breaks the call.md condition but satisfies ME5 as written. A narrative instruction also sits in the eligibility text.",
+      "fix": "Remove the instruction from the eligibility paragraph, leaving 'No fixed minimum PI time percentage applies'. Reword ME5 identically in both files: 'State the PI's time commitment to the PoC as a percentage and show that, with any ongoing main-grant commitment, it does not exceed 100%.'"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md 'Scope' / call.yaml SC1",
+      "problem": "'Develop a route to commercial or social use for the proposed innovation' is met by any PoC narrative that mentions exploitation. It names no concrete element a reader could find missing, so it cannot discriminate between proposals.",
+      "fix": "Make it specific in both files, for example 'Specify the intended route to use (licence, spin-off, industrial or public partner, or adoption by a social or public user) and name the type of actor expected to take the next step after the PoC.'"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 6",
+      "where": "call.md 'Purpose and eligibility' ('separate actual-application requirements outside the benchmark narrative', 'this benchmark fixes'), EX2 ('benchmark restriction'), 'Length contract' ('excluded through that section selection', 'benchmark layout conventions')",
+      "problem": "Beyond the opening fictional-call notice, the text repeatedly refers to the benchmark and to its section-selection counting mechanics. It therefore does not read as funder text.",
+      "fix": "Keep the single fictional-call notice. Elsewhere write 'this fictional call fixes the duration at 18 months', '(restriction of this fictional call)', 'The host letter and ethics self-assessment are submitted as separate forms and are not part of this narrative', and 'The risk mitigation table is not counted towards the section allowances'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 3",
+      "where": "call.yaml title 'Proof of Concept: innovation arising from ERC research, window A' vs call.md heading '# PB2-ERC-POC-01'",
+      "problem": "call.md shows no title. The 'window A' in the yaml title implies several cut-offs, while call.md gives a single deadline of 15 September 2027 and mentions no windows.",
+      "fix": "Add the title to call.md and drop 'window A', or state in call.md that 15 September 2027 is the deadline of window A among the named cut-offs of this fictional call."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md notice ('publicly available 2026 applicant form') and 'Sources' second URL",
+      "problem": "The 3/6/1 allocation and the risk-table exemption rest on the second source. That source is cited without a section or page, and the notice calls it an 'applicant form' while the URL is the 'Information for applicants' guide.",
+      "fix": "Cite the section and page of the 2026 Information for Applicants (PoC) that gives the Part B structure and the page allocation, and call it 'the 2026 Information for Applicants' consistently in call.md and source_note."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md 'Purpose and eligibility' ('Applicable hosts need a Gender Equality Plan')",
+      "problem": "'Applicable hosts' does not say which hosts the Horizon Europe Gender Equality Plan requirement covers.",
+      "fix": "Write 'Hosts that are public bodies, research organisations or higher-education establishments established in a Member State or Associated Country must have a Gender Equality Plan.'"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md 'Award criteria' ('ranked by expert marks with priority in element order 1.a, then 1.b, then 1.c')",
+      "problem": "The sentence can be read either as a lexicographic ranking on 1.a or as a tie-break order, so the ranking rule is unclear.",
+      "fix": "Paraphrase the WP2027 section 2.1.6.2 rule precisely, for example 'ranked by the mark for 1.a; ties are broken by 1.b, then 1.c', with the page reference."
+    }
+  ]
+}

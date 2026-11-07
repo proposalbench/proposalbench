@@ -1,0 +1,35 @@
+{
+  "kind": "dossier",
+  "id": "v2-migrant-service-deliberation-network",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Dossier 4; Dossier 3",
+      "where": "data/public/dossiers/v2-migrant-service-deliberation-network/resources.md, protocol v3 item 7: \"sign-in sheets are destroyed within three months of the cycle report\"; log: \"31 March 2026: 2025 session sign-in sheets destroyed ... no participant identifiers were kept\"; dossier.yaml F21.",
+      "problem": "The dossier presents destruction of the only described verifiable attendance records as a normal continuing protocol for a EUR 296,400 CERV project, before its August 2026 final technical report. CERV grant terms require retained evidence of implementation and generally five years after final payment at this grant size. No alternative auditable participation evidence is described. This is an unintended realism defect, not a reason to resolve the deliberately disputed 84/96 unique-resident total or to add an outside-law trap.",
+      "fix": "Preserve the March destruction and I1 exactly as unresolved historical facts, but identify the destruction as a documented error. Replace the continuing rule with a dated 30 September 2026 corrective addendum: 'Future grant-relevant attendance evidence will be securely retained for five years after final payment, or longer while an audit or proceeding remains open; unnecessary copies will be deleted. The 2025 source sheets and participant identifiers were prematurely destroyed on 31 March 2026 and cannot be recovered; this incident has been recorded and notified to the grant authority. The aggregate annual-report and consolidation totals remain unreconciled.' Update F21 to distinguish the old error from the new policy. Do not introduce a surviving person-level 2025 register or a reconciled count.",
+      "evidence": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/agr-contr/mga_cerv_en.pdf#page=15",
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/agr-contr/mga_cerv_en.pdf#page=42",
+        "data/public/dossiers/v2-migrant-service-deliberation-network/resources.md",
+        "data/public/dossiers/v2-migrant-service-deliberation-network/cv_coordinator.md",
+        "data/public/dossiers/v2-migrant-service-deliberation-network/dossier.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Dossier 8: I1 is genuine and deliberately unresolved: annual_report_2025.md states 84 unique residents; undated attendance_consolidation_2025.md states 96 = 37 + 31 + 28. Neither source establishes which total is correct. Eight event attendance totals sum to 187; attendance is not unique people. The retention correction above preserves this design.",
+    "Dossier 2: recommendation categories 12 + 14 + 7 + 8 = 41; 33/41 = 80.49%, correctly rounded to 80%; nine addressees now appear. Recomputed Wilson intervals for 45/61, 40/61 and 24/61: 61.56–83.16%, 53.05–76.25%, 28.07–51.88%, matching displayed integer percentages. Anonymous forms may include repeat respondents and intervals are explicitly exploratory/unadjusted.",
+    "Dossiers 2, 4: paired-card gain 3.6 − 2.3 = 1.3; SD 1.0 over 48 pairs gives a t interval about 1.01–1.59, correctly rounded to 1.0–1.6. No comparison group and self-selection are disclosed; only three implemented recommendations were checked. Deliberation/knowledge methods are plausible: https://democracyinstitute.osu.edu/publication-and-resources/testing-benefits-public-deliberation.",
+    "Dossier 2: archive 21 + 19 + 12 = 52; six withdrawn leaves 46 potentially available for future permissions, not 46 cleared stories. Facilitators 4 + 3 + 2 = 9. Porto's 27-person session is not a capacity error because sessions used a separately rented civic-centre room, not the 25-person reception premises.",
+    "Dossiers 3, 5: all registered non-null values occur in the named source file; pending final-report assessment, current agreement to 31 December 2029, unadvertised 0.5 FTE heritage hire, no existing heritage expertise, zero public story permissions and six withdrawals are explicitly registered.",
+    "Dossiers 1, 6: searched all seven full staff names, Seuil Commun, Les Guichets Ouverts, Associação Rede Balcão Aberto, READ's expanded name, Cellule Cultures et Quartiers, Interprètes Solidaires Liège, all named educational institutions, GUICHETS and grant code 101143871, plus every publication venue. No credible exact researcher/organisation/project collision was established for these invented full identities. Actual municipal authorities introduced in the culture-stretch brief are a separate issue on that task.",
+    "Dossiers 6, 7, 9: bibliography and own_publications agree and use fictional DOI namespace; the consortium policy brief is a report rather than a falsely claimed journal article. Dates precede October 2026; career dates are plausible. No RESUB material is required.",
+    "Read all dossier source files and earlier automated reviews; distinguish real permitted funders, legal forms and place names from invented recipient institutions and empirical results. External literature cannot authenticate fictional observations."
+  ]
+}

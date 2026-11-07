@@ -1,0 +1,38 @@
+{
+  "kind": "task",
+  "id": "pub2-nsf-autonomy-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "brief.md and task.yaml T1: Dr. Sarah Vance; resources_team.md and publications.md: corresponding mentor",
+      "problem": "Sarah Vance is the name of a real public figure, an Alaska legislator. Adding a middle initial in some documents does not resolve the collision where the applicant-facing brief uses that exact name.",
+      "fix": "Choose a distinctive fictional mentor name and replace it consistently throughout the brief, dossier, publication authors and hidden metadata."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T2 expected_behaviour",
+      "problem": "The answer key requires education assessment to appear inside the Project Description's Broader Impacts section. The call permits that section to refer to the education plan and separately requires educational assessment. A compliant proposal placing assessment in the education plan could therefore fail this trap.",
+      "fix": "Require the separate Broader Impacts heading and substantive societal-benefit activities, but explicitly accept educational assessment in the education plan with an appropriate cross-reference."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4; Task 1",
+      "where": "prior_project.md §3; publications.md sensor-fault manuscript abstract; dossier.yaml F12–F13",
+      "problem": "The sensor-recovery claim lacks assumptions needed to establish it. Pointwise sparsity of f(k) permits the attacked sensor set to change at every time step, whereas the usual condition based on observability after removing fixed sensor subsets does not generally guarantee recovery under switching attacks. '2s-sparse strong observability' is also attributed to an observability matrix without a definition, observation horizon or unknown-input model.",
+      "fix": "Specify the fault-support model, measurement horizon, noise assumptions and exact observability condition. State precisely which state and nonzero fault signals are recoverable and when. Either restrict the result to fixed attacked sensor sets with the appropriate condition or supply a condition that supports switching attacks; update the abstract and facts accordingly."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4; Task 1",
+      "where": "brief.md opening paragraph; prior_project.md §2.2",
+      "problem": "The central proposed objective is to prove a specifically numbered existing conjecture, but its mathematical statement is absent. 'A modified resilient consensus algorithm' and 'similar delay bounds' do not identify an update rule or bound. The adversary's communication capabilities and the intended consensus property are also unspecified, so materially different research problems fit the supplied description.",
+      "fix": "Supply a dated excerpt stating Conjecture 3.1 with its algorithm, adversary model, timing and delay assumptions, proposed bound, and agreement and validity properties. Alternatively, revise the brief to make formulating and testing a precise conjecture an explicit research objective rather than referring to an already defined statement."
+    }
+  ]
+}

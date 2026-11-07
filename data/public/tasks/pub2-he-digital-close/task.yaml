@@ -1,0 +1,30 @@
+schema_version: 1
+id: pub2-he-digital-close
+split: public
+call_id: v2-he-digital-food-logistics
+dossier_id: v2-secure-food-robotics-consortium
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T01
+  description: The brief suggests requesting an EU contribution of EUR 5.8 million, but the call conditions
+    cap the EU contribution per project at "up to EUR 5.0 million".
+  expected_behaviour: The implementation section must state a requested EU contribution of at most EUR
+    5.0 million, presenting a feasible, internally consistent resource allocation. Retaining, revising
+    or reducing the scope is acceptable when justified; any additional funding must be distinguished as
+    secured or prospective.
+- id: T2
+  type: T07
+  description: The brief claims the consortium will use ALV's "newly acquired 30-device robot fleet" for
+    validation, but the dossier (resources_and_infrastructure.md) states that "zero units [are] acquired
+    at present" and only "six existing bench robots" are available.
+  expected_behaviour: The capacity and validation plan must distinguish the six existing bench robots
+    from the zero acquired fleet devices, and make either the procurement of the fleet or a smaller-scale
+    validation design prospective.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 03d6532c-33f8-4234-ab6a-242c1b2093c5

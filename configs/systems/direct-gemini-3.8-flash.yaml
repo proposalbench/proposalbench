@@ -1,0 +1,4 @@
+# Generation uses each provider's default sampling: that is what users of the model get.
+id: direct-gemini-3.8-flash
+kind: direct
+model: {provider: google, id: gemini-3.8-flash, max_output_tokens: 65536}

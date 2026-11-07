@@ -1,0 +1,49 @@
+id: rio-14939
+title: 'eEcoLiDAR, eScience infrastructure for ecological applications of LiDAR point clouds: reconstructing
+  the 3D ecosystem structure for animals at regional to continental scales'
+authors:
+- W. Daniel Kissling
+- Arie C. Seijmonsbergen
+- Ruud P. B. Foppen
+- Willem Bouten
+year: 2017
+funder: Netherlands eScience Center (NLeSC)
+scheme: Accelerating Scientific Discovery (ASDI), ASDI.2016.014
+funded: true
+funded_source:
+  url: https://riojournal.com/article/14939/download/xml/
+  evidence: JATS back/notes/Funding program explicitly records an ASDI grant (ASDI.2016.014) from NLeSC.
+language: en
+field: ecology / remote sensing
+source_url: https://riojournal.com/article/14939/
+doi: 10.3897/rio.3.e14939
+licence: CC-BY-4.0
+licence_evidence:
+  url: https://riojournal.com/article/14939/download/xml/
+  location: front/article-meta/permissions/license/@xlink:href
+  value: http://creativecommons.org/licenses/by/4.0
+  statement: This is an open access article distributed under the terms of the Creative Commons Attribution
+    License 4.0 (CC-BY), which permits unrestricted use, distribution, and reproduction in any medium,
+    provided the original author and source are credited.
+retrieved: '2026-10-30'
+raw_path: seeds_raw/anchors/rio-14939.xml
+raw_sha256: a219d7c9fbd3615a4ea633f2055d5ac6cd9332b5bdb2fc2c24a05fa8c0b8cd44
+article_type: Grant Proposal
+source_reference_count: 58
+conversion_notes:
+- Converted publisher JATS XML to Markdown; layout removed. Front-matter affiliations, correspondence/email,
+  ORCID, licence and publication-history boilerplate omitted; published authors retained in metadata.
+- Scientific narrative, source spelling, citations and reference metadata are not corrected. JATS structured
+  references rendered in source order, one paragraph per entry; punctuation supplied between metadata
+  fields, identical DOI URL repetitions suppressed.
+- Figures retained as captions; tables rendered as Markdown where encoded as JATS tables. Floats and non-reference
+  back matter precede the final References heading. Supplementary files are outside this published narrative
+  snapshot.
+- Exact duplicated publisher back-note sections emitted once. Bold-only source paragraphs promoted to
+  subheadings. Zero-width spaces and discretionary soft hyphens removed.
+sha256: b8b4b5563c2f353388598200907efc1a99735df3011e3eb3d1ba924e729213cd
+words: 4662
+reference_count: 58
+privacy_review: Published scholarly names and institutional affiliations retained; correspondence, email,
+  ORCID and front-matter contact blocks omitted. Retained narrative reviewed for contact identifiers,
+  applicant identifiers, private biographical and participant-level personal data; none retained.

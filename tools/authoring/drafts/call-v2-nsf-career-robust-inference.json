@@ -1,0 +1,79 @@
+{
+  "kind": "call",
+  "id": "v2-nsf-career-robust-inference",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "471af32ab02a5d843cd0b844c2c919be15891e35350831ad9f7bb0b45c71b620",
+  "draft": {
+    "title": "CAREER: Inference under Faulty, Sparse, or Adversarial Sensing",
+    "expected_outcomes_intro": "Successful projects will establish theoretical foundations and systems methods that enable autonomous agents to maintain reliable inference when sensor data is compromised. These advances will benefit researchers and practitioners in robotics and signal processing by providing provable guarantees and resilient operational frameworks.",
+    "expected_outcomes": [
+      "Mathematical frameworks that quantify the limits of inference accuracy under specified sensing degradation models.",
+      "Algorithmic methods that maintain robust state estimation or decision-making when sensor streams are sparse, faulty, or adversarially manipulated.",
+      "Educational curricula and training activities that prepare students to design and analyze resilient autonomous systems."
+    ],
+    "scope_intro": "Autonomous systems increasingly rely on complex sensor arrays that are vulnerable to hardware faults, environmental occlusion, and adversarial interference. Current inference methods often assume benign or dense sensing environments, leading to failures when data is degraded.\n\nProposals should advance fundamental theory or systems methods for inference under faulty, sparse, or adversarial sensing. The research must be integrated with a comprehensive five-year education plan that aligns with the principal investigator's career trajectory.",
+    "scope": [
+      "Identify the observability or identifiability assumptions under which reliable state recovery remains possible despite sensing degradation.",
+      "Develop systems methods that detect, mitigate, or bypass faulty, sparse, or adversarial sensing inputs.",
+      "Design and execute experiments to validate testable robot-system hypotheses regarding inference resilience."
+    ],
+    "exclusions": [
+      "Generic commercial robot demonstrations or deployments that do not contribute novel fundamental theory or systems methods for inference."
+    ],
+    "mandatory_elements": [
+      "Proposals must explicitly define the mathematical or empirical models used to represent the faulty, sparse, or adversarial sensing conditions."
+    ],
+    "conditions": {
+      "max_budget": 750000,
+      "duration_months_max": 60,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": 0
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "CAREER: Inference under Faulty, Sparse, or Adversarial Sensing",
+        "expected_outcomes_intro": "Successful projects will establish theoretical foundations and systems methods that enable autonomous agents to maintain reliable inference when sensor data is compromised. These advances will benefit researchers and practitioners in robotics and signal processing by providing provable guarantees and resilient operational frameworks.",
+        "expected_outcomes": [
+          "Mathematical frameworks that quantify the limits of inference accuracy under specified sensing degradation models.",
+          "Algorithmic methods that maintain robust state estimation or decision-making when sensor streams are sparse, faulty, or adversarially manipulated.",
+          "Educational curricula and training activities that prepare students to design and analyze resilient autonomous systems."
+        ],
+        "scope_intro": "Autonomous systems increasingly rely on complex sensor arrays that are vulnerable to hardware faults, environmental occlusion, and adversarial interference. Current inference methods often assume benign or dense sensing environments, leading to failures when data is degraded.\n\nProposals should advance fundamental theory or systems methods for inference under faulty, sparse, or adversarial sensing. The research must be integrated with a comprehensive five-year education plan that aligns with the principal investigator's career trajectory.",
+        "scope": [
+          "Establish mathematical limits and proof techniques for inference algorithms operating on degraded sensor data.",
+          "Develop systems methods that detect, mitigate, or bypass faulty, sparse, or adversarial sensing inputs.",
+          "Design and execute experiments to validate testable robot-system hypotheses regarding inference resilience."
+        ],
+        "exclusions": [
+          "Generic commercial robot demonstrations or deployments that do not contribute novel fundamental theory or systems methods for inference."
+        ],
+        "mandatory_elements": [
+          "Proposals must explicitly define the mathematical or empirical models used to represent the faulty, sparse, or adversarial sensing conditions."
+        ],
+        "conditions": {
+          "max_budget": 750000,
+          "duration_months_max": 60,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": 0
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md Expected outcomes first bullet and Scope first bullet; call.yaml EO1 and SC1",
+          "problem": "EO1 and SC1 both require establishing mathematical limits of inference under degraded sensing. SC1 adds proof techniques but substantially repeats the same requirement, allowing the same contribution to satisfy two separately listed items.",
+          "fix": "Keep inference limits in EO1 and replace SC1 with a distinct, concrete research requirement, such as identifying the observability or identifiability assumptions under which recovery remains possible. Update both files together.",
+          "part": "topic"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "task",
+  "id": "pub2-cerv-culture-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "consortium_team.md: Matteo Fabbri and Javier Orozco",
+      "problem": "These names collide with known real people: Matteo Fabbri is a computer-vision researcher, and Javier Orozco is a Mexican professional footballer. Labelling the documents fictional does not satisfy the explicit restriction on names.",
+      "fix": "Replace these names with distinctive fictional combinations and update every corresponding author name, team reference and registry entry."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 1",
+      "where": "consortium_team.md and prior_project_report.md; call requirements ME9–ME11",
+      "problem": "The dossier does not support several mandatory factual assertions. It identifies no specific decision still open to influence in any locality, no competent authority for such a decision, and no agreed arrangement for an authority's public response. The signed agreement concerns consortium members only. Athens and Valencia also lack concrete evidence of the targeted residents' under-representation. A writer cannot supply the required existing agreements or local evidence merely by proposing future liaison work.",
+      "fix": "Add dated locality notes identifying each decision, its competent authority and decision timetable, the agreed response arrangements, and evidence of under-representation. Include the supporting authority correspondence or accurately documented agreements."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "brief.md: 'we were just awarded'; task.yaml: T1",
+      "problem": "The brief is undated and presents the award as new information, whereas the dossier establishes only that the application was pending on 30 September 2026. At the benchmark present date, the brief could reasonably report a subsequent award. The expected instruction to disregard that update is therefore not unambiguously decidable from the supplied chronology.",
+      "fix": "Date the brief before the dossier's final status verification and make that later verification explicit in the dossier. Preserve the applicant's mistaken assertion without adding a warning that identifies it as the trap."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 1; Task 6",
+      "where": "brief.md: 2027 co-funding; resources.md: financial resources; task.yaml: T1 expected_behaviour",
+      "problem": "The financial scenario is not connected to a workable project timeline. The municipal application covers calendar 2027, facilitator retention is unsecured after December 2026, and the CERV deadline is September 2027. No project start date or financing schedule explains whether the municipal support would overlap the proposed action. Nevertheless, T1 requires a feasible fallback covering both premises and salaries, without costs, employment commitments or a documented alternative funding route.",
+      "fix": "Specify the intended project dates and distinguish pre-award continuity funding from project co-funding. Supply indicative premises and staffing costs. Make the expected behaviour accept feasible conditional alternatives, including reduced activity, delayed recruitment or restarting delivery after funding, rather than requiring unsupported uninterrupted salary coverage."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml: facts; resources.md and prior_project_report.md",
+      "problem": "Several salient, quotable facts are missing from the registry. These include the explicit lack of secured facilitator retention beyond December 2026, the 15% written-response rate, the interview languages, the accessible Palermo venue, the Valencia translation booths, and the encrypted, air-gapped archive. The exact prior-project start and end dates are also reduced to years. These omissions affect staffing, accessibility, methods, sustainability and evidence-of-impact assessment.",
+      "fix": "Add source-linked facts containing the exact dates, values and statuses. Record the absence of secured facilitator retention separately from the fact that contingency proposals are unresourced."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "publications.md: Morante2026 abstract; prior_project_report.md: methodology",
+      "problem": "The publication claims to demonstrate that musical heritage sharing effectively lowers participation barriers, but the supplied study consists of snowball-recruited interviews and facilitators' qualitative observations of rapport. It supplies no comparison, before-and-after participation evidence, or participant accounts establishing that barriers were reduced. Rapport among people already recruited does not establish improved access for excluded nonparticipants.",
+      "fix": "Limit the abstract to the supported exploratory finding that facilitators observed rapport during the sessions, and state the sampling and attribution limitations. Alternatively, add a plausible documented evaluation supporting the stronger claim, with its methods, sample and results."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Primary trap type of every v1 public trap, classified from the finished task.yaml files
+# (2026-10-31). One primary label per planted conflict; secondary content in comments.
+pub-aei-notarial-close: {T1: T02, T2: T03}
+pub-aei-pollinator-stretch: {T1: T06, T2: T09}
+pub-erc-notarial-stretch: {T1: T03, T2: T12}  # T2: parish registers absent (dossier-only fact); T07 before the in-depth review
+pub-erc-pollinator-close: {T1: T08, T2: T01}
+pub-he-heatstorage-close: {T1: T05, T2: T02}
+pub-he-heatstorage-stretch: {T1: T07, T2: T04}
+pub-he-indoorhealth-close: {T1: T07, T2: T01}
+pub-he-indoorhealth-stretch: {T1: T09, T2: T05}  # T1: required before/after design; T2: excluded study type
+pub-msca-ef-battery-close: {T1: T06, T2: T02}
+pub-msca-ef-maternal-stretch: {T1: T03}
+pub-msca-gf-battery-stretch: {T1: T03}
+pub-msca-gf-maternal-close: {T1: T02, T2: T06}  # T2 secondary: T14 (ethics approval)
+pub-nih-ruralbp-close: {T1: T05, T2: T02}
+pub-nih-ruralbp-stretch: {T1: T05, T2: T08}
+pub-nih-sleepcardio-close: {T1: T05}  # former T2 (T01) dropped: the NIH narrative has no budget
+pub-nih-sleepcardio-stretch: {T1: T08}
+pub-nsf-ailearning-close: {T1: T09, T2: T14}
+pub-nsf-ailearning-stretch: {T1: T08, T2: T08}
+pub-nsf-stemed-close: {T1: T02, T2: T08}  # T2: Spencer support relabelled as NSF; the effect-size part was dropped in the in-depth review
+pub-nsf-stemed-stretch: {T1: T08, T2: T10}  # T2 replaced after the in-depth review (the T07 trap was unfair): CI endpoints as observed rates

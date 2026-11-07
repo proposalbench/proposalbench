@@ -1,0 +1,23 @@
+schema_version: 1
+id: pub2-erc-field-stretch
+split: public
+call_id: v2-erc-poc-field-translation
+dossier_id: v2-astronomy-detector-erc-pi
+fit_level: stretch
+brief: brief.md
+traps:
+- id: T1
+  type: T05
+  description: 'The brief instructs the writer to spend the project on a routine sales rollout and marketing
+    of the existing software without technical feasibility testing. This conflicts with the call''s exclusion:
+    ''Routine production, sales or marketing of an existing product, without work to verify innovation
+    potential, is outside this fictional call (benchmark restriction).'''
+  expected_behaviour: The proposal must focus the methodology on validation activities, specifically testing
+    the transfer of the ERC calibration to low-light environmental sensing with user and technical feasibility
+    gates, rather than routine sales and marketing.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY c791886f-a4ce-41be-98f0-1bc32e382993

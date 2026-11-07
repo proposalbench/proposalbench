@@ -1,0 +1,114 @@
+schema_version: 1
+id: nsf-ai-learning
+scheme: nsf
+language: en
+title: Research on AI-Enabled Learning Technologies
+topic_code: PB-NSF-27-511
+proposal_type: full
+length_contract:
+  max_words: 9600
+  enforcement: inadmissible
+  tolerance: 0.0
+  exempt:
+  - references
+  - title
+  page_limit: 16
+  words_per_page: 600
+  source_note: |-
+    Verified 2026-10-31: current PAPPG is NSF 24-1, with Supplements 1 and 2.
+    Chapter II.D.2.b gives Project Summary 1 page; II.D.2.d gives Project Description 15
+    pages, including up to 5 pages of applicable Results from Prior NSF Support. The
+    16-page total is only the sum of non-transferable allowances. Benchmark conversion:
+    600 words/page gives Summary 600 words and Description 9,000 words, total 9,600.
+    The prior-support subsection is limited to 3,000 of the Description's words.
+    US Letter and PAPPG-compliant fonts/margins permit a practical estimate of 50 prose
+    lines averaging 12 words, leaving room for headings; this is not an NSF word rule.
+    Tables and captions count; title and References Cited do not. Either main-section
+    limit or the combined limit is binding, with zero tolerance and inadmissible enforcement.
+    Sources: https://www.nsf.gov/policies/pappg; https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation;
+    https://www.nsf.gov/policies/document/pappg24-1-supplement-1;
+    https://www.nsf.gov/policies/document/pappg24-1-supplement-2.
+  counted_sections:
+  - summary
+  - description
+  per_section_max_words:
+    summary: 600
+    description: 9000
+    prior_support: 3000
+required_sections:
+- id: summary
+  title: Project Summary
+- id: description
+  title: Project Description
+- id: prior_support
+  title: Results from Prior NSF Support
+  parent: description
+  core: false
+expected_outcomes:
+- id: EO1
+  text: New computational models that accurately quantify and communicate the uncertainty of AI-generated
+    feedback to learners and educators.
+- id: EO2
+  text: Empirical evidence demonstrating how transparent, AI-driven explanations of learning progress
+    affect student engagement and knowledge retention.
+- id: EO3
+  text: Empirical evaluation of the feasibility of integrating AI-enabled learning technologies against
+    a specified baseline, using applicant-defined measures such as instructional time or adherence to
+    planned teaching activities, with justified acceptance criteria.
+scope:
+- id: SC1
+  text: Develop and evaluate algorithms that improve the reliability and explainability of AI-generated
+    feedback in educational contexts.
+- id: SC2
+  text: Conduct empirical studies with learners in authentic settings to assess the impact of AI-enabled
+    technologies on specific learning outcomes.
+- id: SC3
+  text: Design computational methods to detect, quantify, and mitigate uncertainty in AI assessments of
+    student knowledge or skill acquisition.
+- id: SC4
+  text: Investigate the cognitive and social dimensions of how learners interact with AI-enabled educational
+    technologies.
+exclusions:
+- id: EX1
+  text: The Project Description contains no URLs and no appendices (PAPPG 24-1); web addresses in the
+    References Cited list are allowed.
+- id: EX2
+  text: Proposals that solely evaluate existing, off-the-shelf commercial AI products without advancing
+    foundational computing research are excluded.
+- id: EX3
+  text: Projects that conduct evaluations exclusively in controlled laboratory settings without deployment
+    in authentic educational environments will not be supported.
+mandatory_elements:
+- id: ME1
+  text: Project Summary must contain distinct Overview, Intellectual Merit and Broader Impacts headings
+    with substantive text.
+- id: ME2
+  text: Project Description must include its own separate section headed exactly Broader Impacts, with
+    activities and a means of documenting their outputs.
+- id: ME3
+  text: Where any PI or co-PI has current NSF funding or an NSF award ending within the five years before
+    submission, include Results from Prior NSF Support with award details and results; report the most
+    closely related qualifying award for each such investigator.
+- id: ME4
+  text: The Project Description must explicitly identify the authentic learning setting where the proposed
+    technology will be evaluated.
+- id: ME5
+  text: Proposals must detail the specific computational methods used to address AI reliability or uncertainty
+    within the research design.
+- id: ME6
+  text: The research design must include iterative testing and evaluation with learners in authentic educational
+    settings.
+eligibility:
+  budget_in_narrative: false
+  currency: USD
+  max_budget: 850000
+  duration_months_max: 36
+  consortium:
+    notes: The lead must be a US institution of higher education or a US nonprofit research organisation.
+      This is an invented restriction for this solicitation. A multi-organisation consortium is not mandatory.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 2d52b637-09b0-451a-ae8c-1c52eb1b4747

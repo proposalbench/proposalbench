@@ -1,0 +1,77 @@
+# Horizon Europe Research and Innovation Action, Part B (Work Programme 2026-2027 template).
+# Award criteria: Excellence, Impact, Quality and efficiency of the implementation (0-5 each,
+# thresholds 3 per criterion and 10 overall). Only template-specific items live here; generic
+# items come from rubrics/generic.yaml and call-specific ones from each call's answer key.
+
+roles:
+  objectives: ["1.1"]
+  state_of_the_art: ["1.1", "1.2"]
+  methods: ["1.2"]
+  workplan: ["3.1"]
+  risks: ["3.1"]
+  team: ["3.2", "3.1"]
+  impact: ["2"]
+
+items:
+  - id: HE01
+    component: substance
+    sections: ["1.1"]
+    taxonomy: [P06]
+    question: Does section 1.1 state where the project starts and where it ends in terms of maturity (for example technology readiness levels), and why that progression is ambitious?
+    yes: Starting and target maturity (TRL or equivalent) are stated and the step is justified against the state of the art. Quote it.
+    partial: Ambition is asserted, but maturity at start and end is not stated or not justified.
+    no: Absent.
+
+  - id: HE02
+    component: substance
+    sections: ["2"]
+    taxonomy: [P13]
+    question: Does the impact section estimate the scale and significance of the project's contribution (how much, for whom, by when), quantified where possible?
+    yes: Gives quantified or clearly bounded estimates of scale (e.g. number of farms, area, users, emissions) with a time frame. Quote one.
+    partial: Scale is described qualitatively only.
+    no: No account of scale or significance.
+
+  - id: HE03
+    component: substance
+    sections: ["2.2"]
+    taxonomy: [P14]
+    question: Does section 2.2 distinguish dissemination, exploitation and communication, and say who will exploit which results and how (including ownership or access to results)?
+    yes: The three are distinct; exploitation names the results, the exploiting partners or users and the route (use, licensing, policy uptake, service), and addresses ownership or access. Quote the exploitation part.
+    partial: The three are blurred together, or exploitation is generic.
+    no: Absent.
+
+  - id: HE04
+    component: call_responsiveness
+    sections: ["2.3"]
+    taxonomy: [P03]
+    question: Is there a section 2.3 that summarises the key elements of the impact section (needs, expected results, dissemination/exploitation/communication measures, target groups, outcomes and impacts)?
+    yes: A summary covering these elements is present. Quote its heading or first entry.
+    partial: A summary is present but misses several elements.
+    no: Absent.
+
+  - id: HE05
+    component: call_responsiveness
+    sections: ["3.1"]
+    taxonomy: [P03, P15]
+    question: Does section 3.1 contain all the required work-plan elements - a list of work packages, a description of each, a list of deliverables, a list of milestones, a table of critical risks with mitigation, a staff-effort table (person-months per participant and work package) and the justification of other costs where needed?
+    yes: All elements are present. Quote the heading or first line of the staff-effort table.
+    partial: Some elements are missing. Say which in the rationale.
+    no: Most elements are missing.
+
+  - id: HE06
+    component: substance
+    sections: ["3.1"]
+    taxonomy: [P15]
+    question: Is the staff effort (person-months) consistent with the work package descriptions and with the partners' roles?
+    yes: Person-months per partner and work package are given and plausibly match what each partner does in the descriptions. Quote part of the effort table.
+    partial: Effort is given but does not match the described roles in places, or is given only in total.
+    no: No effort figures.
+
+  - id: HE07
+    component: substance
+    sections: ["3.2"]
+    taxonomy: [P12]
+    question: Does section 3.2 show that the consortium as a whole covers all the expertise and end-user involvement the work needs, with each partner's role justified?
+    yes: Each partner's specific contribution is justified, complementarity is explained, and any gap is addressed. Quote one justification.
+    partial: Partners are described one by one without showing complementarity or coverage of the needed expertise.
+    no: Absent.

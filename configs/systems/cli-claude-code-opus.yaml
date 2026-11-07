@@ -1,0 +1,5 @@
+id: cli-claude-code-opus
+kind: cli
+# Claude Code (Anthropic) in restricted print mode with the current Opus model; the model id
+# actually used is recorded in each submission's notes.
+cli: {tool: claude, model: opus, timeout_s: 3600}

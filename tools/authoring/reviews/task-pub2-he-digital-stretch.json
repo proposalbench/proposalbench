@@ -1,0 +1,73 @@
+{
+  "kind": "task",
+  "id": "pub2-he-digital-stretch",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Task 2",
+      "where": "brief.md, paragraph 2: 'My preferred centrepiece is a generic factory pick-and-place controller ...'",
+      "problem": "The brief repeats the wording of exclusion EX1 ('Generic factory, warehouse or manufacturing robotics'). An applicant would not call her own centrepiece 'generic factory', so the phrase points directly at the exclusion and makes T1 easy to spot. The suggestion also has no motive. Paragraph 1 has this analytical chemist asking to build on Mésurafroid-25 and to keep surrogate prediction apart from operational benefit. Paragraph 2 then drops food outcomes for a robot controller that her consortium has no expertise or facility for, and the brief gives no reason for the switch.",
+      "fix": "Describe the idea in her own concrete terms without 'generic' or 'factory'. For example: 'a pick-and-place controller for crate handling in a small robotics cell we would set up in the Ghent pilot room, tested with dummy loads, where dropped or replayed position messages are the fault case'. Add a practical reason, such as Kelderspoor's message adapters already handling robot position streams, or wanting a hardware demonstration that does not depend on an operator. Keep the deferral of shelf-life and food-loss measurement. The suggestion stays non-compliant under EX1 and SC2 without echoing their text."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 2 / Task 6",
+      "where": "task.yaml, T1 expected_behaviour",
+      "problem": "The expected behaviour adds requirements that the premise does not create. 'Comparison against current operator practice' comes from SC3. 'Plans a relevant food-logistics demonstrator with a food business or logistics operator and identifies access and missing expertise as prospective' comes from ME2/SC6 and the general honesty rubric. 'Drawing on the consortium's cold-chain measurement and microbiology expertise' prescribes a design. A proposal could avoid the trap and still fail T1 for an unrelated omission, so the same item is penalised twice. T1 also merges two separable suggestions: the excluded robotics centrepiece (EX1) and deferring food-safety and food-loss outcomes (SC2/EO2). It does not say how a proposal that avoids one but follows the other is scored.",
+      "fix": "Limit T1 to two conditions. (a) The centrepiece is AI decision support for perishable-food logistics, and any robotics is developed and validated inside a food-logistics demonstrator. (b) Food-safety and food-loss outcomes are measured in this project through validated predictive microbiology or shelf-life models and measured loss data, not deferred, and motion-control metrics are not the primary success measures. State that both conditions are required for a pass. Score baselines, operator involvement and the labelling of unsecured partners through their own call items and rubric criteria."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 2",
+      "where": "task.yaml, T2 expected_behaviour: 'Ghent is treated as an IIMAV site, with its effort and costs included under IIMAV, and is not counted as a separate beneficiary ...'",
+      "problem": "The Ghent clause has no condition attached. A proposal that does not use Ghent at all cannot show 'its effort and costs included under IIMAV', and the text does not say whether that proposal passes. The brief asks to 'put Ghent on its own participant row'. The text does not say whether a site sub-line under IIMAV in the effort table (for example 'IIMAV, Ghent site') is compliant or counts as a separate participant row.",
+      "fix": "Reword the clause: 'If the Ghent site is used, its effort and costs are budgeted under IIMAV (a site sub-line under the IIMAV participant is acceptable). Ghent is not listed as a participant or beneficiary and is not counted toward the three-entity or three-country rule. A proposal that does not use Ghent is compliant on this point.'"
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3 / Dossier 8",
+      "where": "dossier.yaml facts and gaps; consortium.md 'Operational record'; resources.md Ghent paragraph",
+      "problem": "Several facts and gaps that this stretch task and T2 depend on are missing from the registry. (1) The consortium's stated computing competence ('statistical classification, data pipelines, telemetry checks and laboratory fault injection'; demonstrated application 'advisory cold-chain decision support') is not a fact, although it defines the gap between the dossier and the call's AI and robust-AI requirement. (2) 'Equipment expenditure and staff time enter IIMAV's accounts' and 'the site has no separately assigned research team' (resources.md) are not in F03 or any other fact, yet T2's expected behaviour requires Ghent costs under IIMAV. (3) There is no gaps section. The call requires human-factors/SSH competence (ME3) and food-logistics operations competence (ME2); no file mentions either, and both should be recorded as gaps so the rubric can catch invented expertise. (4) F02 is categorised as 'grant' but holds publication, supervision and committee counts.",
+      "fix": "Add a fact quoting the computing-competence sentence and the advisory-only application. Extend F03, or add a fact, with the Ghent cost, staff and no-separate-team statements. Add gaps entries for human-factors/SSH expertise and food-logistics operations expertise. Split F02 into a publications/supervision fact and a grant-history fact with matching categories."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "cv_pi.md ('European framework action coordination: none.', 'These counts cover my career across projects and are separate from the current staff allocation'); consortium.md ('Commercial operator signatories: none. Contracted commercial fleet, warehouse or packing-line deployments: none.'); resources.md ('Each row counts distinct people. No individual is counted at two partners.', 'the register applies no euro conversion'); publications.md ('not an independent replication', 'there are no manuscripts under review in this register'); prior_project.md ('Partner service invoices ... are not additional expenditure', 'the study did not establish a general superiority claim across all possible thresholds')",
+      "problem": "Real CVs, agreement registers and final reports do not contain this many defensive disclaimers. Each one anticipates a specific over-claim a proposal-writer might make, so the documents read like an answer key rather than like institutional records. A CV, for example, would not list 'European framework action coordination: none.'",
+      "fix": "Remove the meta-statements, or rewrite each as the content a real document would hold. Examples: the CV lists the national projects and cross-border services coordinated and says nothing about EU coordination; the register names the agreement's signatories and records 'Discussions with two chilled-food distributors in 2025–2026 covered trace formats and terminology; no access agreement has been concluded'; the publications register gives the article's data source in its abstract-style note. Keep every absence that a fact or trap relies on stated plainly, and update F25's value to the new wording."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2 / Dossier 5",
+      "where": "cv_pi.md: 'From 2005 to 2013 I worked as a research chemist at IIMAV's Nantes branch'",
+      "problem": "consortium.md records Nantes as IIMAV's 'Registered seat and operating site', not a branch. Calling Nantes a branch blurs the seat/branch distinction that T2 depends on. 'Registered Belgian branch ... without separate legal personality' is the decisive phrase for Ghent.",
+      "fix": "Change to 'at IIMAV in Nantes' or 'at IIMAV's Nantes headquarters'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md, 'Experimental question and material' and endpoint paragraphs",
+      "problem": "The choice of Lactococcus lactis as the sole surrogate is not explained, and the report omits the details needed to judge it. L. lactis is mesophilic and grows little at 4 °C. The report gives no inoculum level, storage length or excursion duration, so it cannot be checked how 100 of 144 lots exceeded 6.0 log10 CFU/g. For chilled ready-to-eat foods, where the call names Listeria monocytogenes, Listeria innocua is the usual nonpathogenic surrogate, and a reviewer would ask why it was not used.",
+      "fix": "State the inoculum (for example 3.0 log10 CFU/g), storage length and excursion schedule. Add a one-line rationale for the strain, for example a psychrotolerant isolate with measurable growth at 7–10 °C and diacetyl/acetoin headspace markers. Alternatively switch to L. innocua and adjust the biosafety record to match."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "cv_pi.md, 'Methods, outputs and supervision': five doctorates as principal supervisor",
+      "problem": "In France, principal supervision of doctorates requires an HDR and attachment to a doctoral school. The CV of a researcher at a non-university research association would state both, and this CV states neither.",
+      "fix": "Add the HDR (year and awarding university) and the doctoral school through which IIMAV doctoral researchers are registered."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 1",
+      "where": "consortium.md, 'Signed instruments'",
+      "problem": "The 20 June 2026 agreement covers existing joint work only. The dossier does not say whether Rzewska Veterinary University and Kelderspoor have agreed to join a new EU application. T2's compliant route ('retains Kelderspoor with a substantive role') and the brief's assumption that the Polish university participates both depend on this, and a proposal cannot tell whether naming them as participants is fact or invention.",
+      "fix": "Add a dated statement as of September 2026. For example: 'On 22 September 2026 the technical leads of both partners confirmed in writing their intention to join an IIMAV-led Horizon Europe application; roles and budgets have not been agreed.' Record it as a fact."
+    }
+  ]
+}

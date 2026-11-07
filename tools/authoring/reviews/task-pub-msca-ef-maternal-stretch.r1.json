@@ -1,0 +1,24 @@
+{
+  "kind": "task",
+  "id": "pub-msca-ef-maternal-stretch",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "cv_pi.md, resources_and_partners.md, brief.md, task.yaml, dossier.yaml",
+      "problem": "The dossier uses real universities and research institutes, which violates the rule that institutions must be fictional. Specifically, 'Kintampo Health Research Centre (KHRC)', 'Instituut voor Tropische Geneeskunde Antwerpen (ITG-Antwerp)', 'University of Cape Coast', and 'Kwame Nkrumah University of Science and Technology' are all real institutions.",
+      "fix": "Replace all real universities and research institutes with fictional names (e.g., 'Bono East Health Research Institute', 'Flanders Institute of Tropical Health', 'University of Southern Ghana') across all files, including the brief, task traps, and dossier facts."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "cv_pi.md, resources_and_partners.md, prior_project.md, publications.md, dossier.yaml",
+      "problem": "The dossier's internal 'current' date is mid-2024, which contradicts the call's 2027 deadline and creates an unexplained 3-year gap in the applicant's timeline. The CV lists a contract ending in August 2025, the pilot grant ends in 2024, publications stop in 2024, and statuses are given 'as of June/July 2024'.",
+      "fix": "Shift the recent dates forward to align with a 2027 application. For example, extend the current postdoc contract to August 2028, change the pilot grant to 2026–2027, update 'as of 2024' statuses to 2027, and shift the recent publication years forward. Update the corresponding facts (F04, F12, F13, F19) in `dossier.yaml`."
+    }
+  ]
+}

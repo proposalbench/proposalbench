@@ -1,0 +1,215 @@
+{
+ "reviewer": "maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 7",
+   "where": "all files",
+   "problem": "The documents are not consistently current as of the benchmark's present date, 1 October 2026 (some are written as of 2024 or early 2025, leaving unexplained gaps before calls with 2027 deadlines).",
+   "fix": "Make every document current as of September 2026: update 'as of' dates, contract periods, CV entries, publication lists through 2026, statuses of submissions, reviews, ethics approvals and recruitments, keeping the same career stage and every fact the traps rely on (re-dated consistently). Keep all numbers internally consistent after the shift."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "all files",
+   "problem": "Names of people, institutions, companies, projects or journals may collide with real ones.",
+   "fix": "Replace every person name with a coined, distinctive name (no common names such as Matteo Rossi); replace every real institution, research centre, archive, company, project or journal name of the applicant's world with a fictional one; the applicant's own publications appear in fictional journals. Real funders, real places and real funding schemes stay."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "cv_ip.md, equipo_y_recursos.md, publicaciones.md, brief.md and hidden registries: collaborator and student names",
+   "problem": "Several names collide with real people. Laia Pujol is associated with research in digital heritage, Matteo Rossi with computer science, and Carlos Giménez is a well-known Spanish comics author. These violate the explicit restriction on names that searches would confuse with real researchers or public figures.",
+   "fix": "Replace these names with distinctive fictional names throughout the documents, publication authors, facts and trap expectations."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "informe_proyecto_previo.md §3.2; dossier.yaml F25",
+   "problem": "The stated centrality means imply an increase of (0.045 / 0.032 − 1) × 100 = 40.625%, whereas the report and registry state 40% without qualification. Rounded underlying means might explain the difference, but that is not documented.",
+   "fix": "Report approximately 40.6% using the displayed means, or explicitly describe 40% as an approximation and provide the underlying values used. Update F25 consistently."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "publicaciones.md publication 4; dossier.yaml own_publications.pujol2022",
+   "problem": "The dataset publication title specifies 45,000 folios, while its own summary and the project report specify 45,200. No rounding convention or earlier dataset version explains the difference.",
+   "fix": "Change the fictional publication title to 45,200 in both locations, or explicitly document a 45,000-folio release and distinguish it from the later 45,200-folio corpus."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "informe_proyecto_previo.md §3: monetary units and exchange-rate reconstruction",
+   "problem": "The report calls the sueldo jaqués the regional reference currency for material situated in the Ribera d'Ebre, in Catalonia, where the Barcelona monetary system requires consideration. A common analytical conversion unit is possible, but it needs justification. The reconstruction also claims interpolation across 1350–1450 using only rate-table dates of 1362, 1389 and 1412; those anchors cannot support interpolation before 1362 or after 1412. The asserted Cortes tables are not identified sufficiently to establish their denominations, territorial applicability or coverage.",
+   "fix": "Distinguish original local denominations from the chosen analytical unit. Provide historically defensible conversion sources and their coverage, explain treatment of dates outside the anchors, and report sensitivity to those assumptions. Remove unsupported claims that a single official equivalence system covered the corpus."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "informe_proyecto_previo.md §2.2: train/validation/test split",
+   "problem": "Splitting by notarial register does not by itself establish generalisation to unseen hands: the same notary or clerk can write multiple registers. The report claims unseen-hand evaluation without identifying how writers were separated across the three partitions.",
+   "fix": "Specify the grouping unit and the numbers of distinct hands in each partition, and establish that held-out writers are absent from training. If writers overlap, describe the evaluation as generalisation to held-out registers and qualify the performance claim accordingly."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2 and Dossier 4",
+   "where": "informe_proyecto_previo.md §§2.3 and 3.2; dossier.yaml F16 and F25",
+   "problem": "The ±4% centrality uncertainty is not interpretable: its confidence level, relative or absolute scale, target statistic and simulation procedure are unspecified. A 6% error rate among homonym-resolution decisions cannot automatically be treated as a random edge-rewiring rate; identity errors can merge or split nodes and affect several edges together. The artisan comparison also lacks its sample size and an explanation of how individuals and temporal windows contribute to the reported means and standard deviations.",
+   "fix": "Define the centrality estimand, aggregation and uncertainty scale; supply the artisan sample size and simulation details. Calibrate perturbations to observed identity-error types, or describe the ±4% result narrowly as sensitivity under an explicitly specified rewiring scenario rather than a general uncertainty bound."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml facts, compared with all four dossier documents",
+   "problem": "The registry omits substantial proposal-relevant evidence and qualifications. Examples include the HTR split sizes, character counts and confidence intervals; the 1,250 person mentions and 620 debt relations; the 45 errors among 750 disambiguation decisions; the 1360–1400 restriction and 45 widows appearing in both roles; the centrality means and standard deviations; the prior grant's cost breakdown; the PI's 2019 archive visit; Laia's current lack of a contract and previous part-time appointment; and Carlos's anticipated defence date. These omissions are particularly consequential for performance claims, staffing and the basis for the Genoa extension.",
+   "fix": "Add facts preserving these exact values and qualifications, with source references and appropriate existing or planned status. Record the Genoa visit as historical experience and explicitly document the current status of prospective Genoa access and collaboration rather than allowing historical contacts to imply secured access."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml F19; informe_proyecto_previo.md §3",
+   "problem": "F19 presents ±5% as a property of monetary conversion generally. The source reports a sensitivity comparison using an alternative set of market exchange rates. That comparison does not establish a ±5% accuracy bound for the conversion procedure.",
+   "fix": "Rewrite F19 to preserve the sensitivity-analysis interpretation and its tested alternatives. Clarify in the source what quantity changed by at most 5%, over which observations, and how that maximum was calculated."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "brief.md; cv_ip.md; equipo_y_recursos.md; publicaciones.md; dossier.yaml — personal names",
+   "problem": "Several invented identities collide with real people. Laia Pujol is an established researcher in digital cultural heritage, Matteo Rossi is a real computer-science researcher, and Carlos Giménez is a well-known Spanish cartoonist. The first two are especially liable to be confused with researchers connected to this dossier's disciplines.",
+   "fix": "Replace these names with distinctive fictional identities throughout the visible documents, publication metadata, facts registry and trap definitions."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml — facts registry",
+   "problem": "The registry omits several consequential facts: Marc's three-year tenure as JIN IP, Laia's current lack of a contract, Carlos's expected defence date, Rossi's stated work-team membership, both CER confidence intervals and their evaluation denominators, the training/validation/test allocation, the 1360–1400 restriction on the widow analysis, and the 45 widows appearing in both roles. These omissions affect eligibility, staffing assumptions and interpretation of results.",
+   "fix": "Add explicit facts for these statuses, dates, limitations and evaluation details, preserving their source wording and distinguishing confirmed facts from expectations. Record the separate TFM and TFG date ranges accurately as well."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "informe_proyecto_previo.md §2.2 — division 'a nivel de registro notarial para evaluar la generalización a manos no vistas'",
+   "problem": "Splitting by notarial record does not establish generalisation to unseen handwriting. Records or even separate register volumes can share a scribe. The dossier does not establish that hands are disjoint across training, validation and test, so the interpretation attached to the CER results is unsupported.",
+   "fix": "Specify the allocation of scribal hands and register volumes across the three partitions, including the hands represented in each test stratum. If writers overlap, describe the evaluation accordingly and reserve unseen-hand generalisation for a separately designed evaluation."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4; Task 1",
+   "where": "brief.md — proposed linkage with 'registros matrimoniales'; equipo_y_recursos.md — archival resources",
+   "problem": "The central new source is not defined. Fifteenth-century notarial marriage contracts and parish marriage registers are different records with different survival patterns; systematic parish marriage registration cannot simply be assumed for this period. Moreover, a marriage or promised dowry does not establish actual restitution to a widow. No identified source series supports observing the proposed transfer of money.",
+   "fix": "Identify the intended archival record types, relevant dates and known holdings, distinguishing verified availability from planned reconnaissance. Explain whether restitution receipts, settlements, probate records or equivalent evidence can establish payment and its timing. Include a feasible fallback if only marriage contracts survive."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "informe_proyecto_previo.md §3 — monetary conversion using rates dated 1362, 1389 and 1412",
+   "problem": "The conversion procedure is incomplete for the stated 1350–1450 corpus: interpolation between the listed dates cannot supply rates before 1362 or after 1412. The report also provides no traceable basis for the specific official equivalence tables, their territorial applicability or the market-rate comparison supporting the claimed ±5% sensitivity.",
+   "fix": "Document historically supportable rate sources, currency pairs and applicable territories. Supply rates bracketing the full analysis period or explicitly describe and test extrapolation. Define which observations and years underpin the sensitivity result, and distinguish nominal currency conversion from comparisons of purchasing power."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2; Dossier 4",
+   "where": "informe_proyecto_previo.md §§2.3 and 3.2 — extraction evaluation and centrality uncertainty",
+   "problem": "The reported '±4%' uncertainty in betweenness has no defined denominator, confidence level or summary population. The perturbation procedure is unspecified, and a homonym-disambiguation error rate does not by itself define an edge-rewiring distribution. The artisan comparator sample size is missing, and the F1 estimates have no uncertainty intervals.",
+   "fix": "Define whether ±4% is relative or absolute, which statistic it describes, its coverage and how perturbations were generated from observed linkage errors. Give the artisan sample size and the population used for each centrality summary. Add appropriately clustered uncertainty estimates for the F1 scores and register these details as facts."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2; Dossier 6",
+   "where": "publicaciones.md, publication 1 abstract; informe_proyecto_previo.md §2.2; dossier.yaml F10",
+   "problem": "The same 8.5% CER is attributed to 'cursivas tardías del siglo XV' in the publication abstract and to handwriting from the middle of the fifteenth century in the report and registry. The former wording suggests a later chronological population than the corpus ending in 1450.",
+   "fix": "Use an identical, explicit date range for this test stratum in the report, publication abstract and registry. If 'tardías' describes a script classification rather than late-century documents, explain that distinction."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "cv_ip.md, §3, named postdoctoral fellowship; §8, radio appearance",
+   "problem": "The postdoctoral fellowship names a real historical writer, contrary to the prohibition on naming real people. The radio appearance also identifies a real broadcaster rather than a fictional institution.",
+   "fix": "Replace the fellowship namesake and broadcaster with fictional names and use them consistently throughout the dossier."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "dossier.yaml, opening",
+   "problem": "The YAML file does not carry the fictional-document notice required for every file.",
+   "fix": "Add the fictional-document notice as a YAML comment."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "cv_ip.md, §1, ORCID",
+   "problem": "The supplied ORCID contains alphabetic characters in positions that permit only digits. It is visibly a placeholder and would not appear as a valid identifier in a real CV.",
+   "fix": "Remove the ORCID field rather than inventing an identifier that could identify a real person."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2; Dossier 4",
+   "where": "cv_ip.md, §§1, 3–4; informe_proyecto_previo.md, project header; equipo_y_recursos.md, §1",
+   "problem": "The PI is described as a postdoctoral employee in Italy through 2022 while directing a Spanish JIN project from September 2021. The host appointment and the start of the current Spanish position are undated. The report also assigns a postdoctoral contract to the same EUR 115,000 award without specifying its duration or how personnel costs were covered. This leaves the employment and funding history unresolved.",
+   "fix": "Give month-level employment dates and explain any concurrent appointment or transition. State the JIN-funded appointment, the postdoctoral contract dates and funding shares, and a plausible expenditure breakdown within EUR 115,000; identify any separate funding."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "informe_proyecto_previo.md, §3.1; publicaciones.md, publication 2; dossier.yaml, F13–F14",
+   "problem": "The widow counts are ambiguous across creditor and debtor roles. The stated 315 widows are 22.0% of 1,432 creditors, but 315 would be 11.1% of 2,850 debtors. An exact 8% of the debtor population would instead be 228. The dossier never supplies the debtor-widow numerator or explains whether 315 describes creditor widows or all widows.",
+   "fix": "State separate counts of widow creditors and widow debtors, their denominators and the rounding convention. Clarify that people may occupy both roles, then align the publication summary and registry."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2; Dossier 4",
+   "where": "informe_proyecto_previo.md, §2.2; publicaciones.md, publication 1",
+   "problem": "The 2,500 transcribed folios are a ground-truth total, not an evaluation sample size. Neither the 4.2% CER nor the 8.5% CER has a reported evaluation denominator. The confidence interval for 4.2% has no estimation method, and 8.5% has no uncertainty. It is also unclear how folios, hands or registers were separated during model development, so the reported performance cannot be interpreted as generalisation to unseen material.",
+   "fix": "Report training, validation and any test counts that reconcile with the ground-truth total; give evaluation folio and character counts for each script group, the split procedure, and the confidence-interval method. Supply uncertainty for the later-script result and preserve the distinction between validation and test performance."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2; Dossier 4",
+   "where": "informe_proyecto_previo.md, §2.3",
+   "problem": "The sample of 500 deeds does not identify the denominators for entity extraction or identity resolution. The F1 scores omit the averaging and matching rules, and the 6% homonym error rate has no error count or decision count. The subsequent ±4% uncertainty in unspecified network metrics does not follow directly from a 6% linkage error rate.",
+   "fix": "Give the annotation and sampling procedure, evaluated entity/link counts, error counts, F1 definitions and uncertainty estimates. Name the affected network metrics and describe a perturbation or resampling analysis that supports their uncertainty, or remove the unsupported ±4% claim."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2; Dossier 4",
+   "where": "informe_proyecto_previo.md, §§3 and 3.2",
+   "problem": "The claim of 40% higher merchant betweenness lacks the underlying group estimates, uncertainty, comparator definition and aggregation across ten-year windows. The graph description also does not specify direction, treatment of repeated relationships, weighting or how joint-debtor instruments are represented. These choices materially affect betweenness.",
+   "fix": "Define the graph construction and centrality calculation, identify the comparator and contributing windows, and report group estimates with uncertainty. Explain how joint debts are represented without duplicating their monetary value."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "informe_proyecto_previo.md, §3, monetary conversion",
+   "problem": "Conversion of different currencies across a century using unspecified 'tasas de equivalencia de las Cortes' is not an adequate historical conversion method. The source currencies, applicable dates and territorial accounting systems are unidentified, and the ±5% uncertainty has no derivation. This leaves the credit total and loan-size comparisons unsupported.",
+   "fix": "Specify the original monetary units, dated conversion sources and rules for missing rates. Explain the choice of the reference unit and derive the conversion uncertainty through a documented sensitivity analysis. State the periods used for each loan-size comparison."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "informe_proyecto_previo.md, §3.1; publicaciones.md, publication 2",
+   "problem": "Small mean loan size alone does not establish consumption lending, dowry-derived capital or support for peasant liquidity. The report tentatively proposes these interpretations, but the publication summary presents a stronger historical conclusion without evidence about loan purposes, borrowers' occupations or sources of lenders' capital.",
+   "fix": "Either provide the coded historical evidence and its sample sizes or present these interpretations consistently as hypotheses for further investigation."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml, facts F05–F16",
+   "problem": "The facts registry omits many salient quantitative results: 2,500 ground-truth folios; 500 adjudicated deeds; F1 values 0.92 and 0.89; 6% linkage error; ±4% network uncertainty; ±5% conversion uncertainty; ten-year windows; 6,200 deeds in the historical subset; 315 widows; 1,850 widow loans with SD 12; 85 merchants; 3,420 merchant loans with SD 45; and the 40% betweenness difference. F08 also drops the validation-set qualification and the restriction to late-fourteenth-century writing.",
+   "fix": "After correcting the underlying methods and counts, register each salient quantity with its exact value, unit, population, period and uncertainty. Preserve the validation qualification in F08 and make compound numerical claims individually recoverable."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml, facts F17–F23; cv_ip.md, §§1 and 5; equipo_y_recursos.md, §§1–2",
+   "problem": "The registry does not distinguish all secured and planned capacity. It records the postdoctoral contract ending but omits the planned future recruitment as a planned fact. It omits the foreign collaborator's explicitly unplanned incorporation into the Spanish system, the doctoral researcher's FPI status and expected September 2026 completion, and several quotable qualifications and resources, including accreditation, supervision counts, CPU/RAM specifications and scanner-installation permission.",
+   "fix": "Add separate existing and planned facts for appointments, recruitment, collaboration and access rights. Register the relevant qualifications, supervision record and technical capacity, including explicit limitations on availability and use."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3; Task 1",
+   "where": "cv_ip.md and equipo_y_recursos.md, October 2024 status statements; planned ERC 2027 task",
+   "problem": "The dossier's current employment and team availability are anchored to October 2024, while one planned task concerns a 2027 call. The only doctoral researcher is expected to finish in September 2026, and the postdoctoral researcher already lacks a contract. No appointment durations or later availability are supplied, so these people cannot be treated as secured capacity for the planned proposal.",
+   "fix": "Define the proposal preparation date and update or explicitly time-limit the appointment and resource statements. Identify continued participation, replacement hires and renewed funding as planned wherever they are not secured."
+  }
+ ]
+}

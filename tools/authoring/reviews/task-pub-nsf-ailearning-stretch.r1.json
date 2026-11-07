@@ -1,0 +1,31 @@
+{
+  "kind": "task",
+  "id": "pub-nsf-ailearning-stretch",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "brief.md (Team gaps section) and task.yaml (T2)",
+      "problem": "Trap 2 is trivialized because the brief explicitly instructs the writer to do exactly what the expected behavior requires ('The proposal should say we plan to recruit a CS co-PI... maybe frame it as a targeted search'). A trap must test the model's ability to avoid a pitfall by synthesizing call rules and dossier facts, but here the brief gives away the correct framing, so the model will pass the trap just by following instructions.",
+      "fix": "Change the brief to suggest something that would violate the rule if followed blindly, such as: 'Neither Marcus nor I know AI/ML, so we need a co-PI from computer science. I've been talking informally with people at a couple of places, so just say we have a CS partner on board to handle the NLP and uncertainty quantification.' This forces the model to override the brief based on the call's 'without inventing secured resources' rule and the dossier's lack of existing collaborations."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md",
+      "problem": "The numbers for the MathBoost programme cost and the grant amount are mathematically inconsistent. The report states there were 2,118 treatment students receiving tutoring for two years, and the per-student cost was $3,400 per year. This means the tutoring programme cost over $14.4 million (2,118 * $3,400 * 2). However, the report states 'The project was funded entirely by the Spencer Foundation' and lists the total award as $748,000. A $748K grant cannot cover a $14.4M intervention.",
+      "fix": "Clarify in `prior_project.md` that the Columbus Metropolitan School District funded the actual tutoring programme (e.g., using district or federal relief funds), while the $748,000 Spencer Foundation grant funded only the research and evaluation."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml (facts), prior_project.md, and team_resources.md",
+      "problem": "Several salient numbers and statuses from the dossier are missing from the facts registry. These include: 42 eligible schools, 38 agreed, 19 treatment, 19 control; 4,530 original enrolled students, 6.9% attrition; 14% special education, 19% English learners, 12% White, 10% other in the analytic sample; 0.26 SD for Hispanic students, 0.19 SD for Black students; 78 schools in CMSD, 13% White, 9% other in CMSD; 25 tutors in Year 2, 23 in Year 3; 3 sessions per week, 45 minutes each; 1,614 students (76% of treatment group); two doctoral research assistants available half-time; key district contact Dr. Alicia Reeves; and the specific institutional resources (LCER, Survey and Measurement Core, Office of Research Computing).",
+      "fix": "Add all these missing salient numbers and resources as facts in `dossier.yaml` with their exact values as written in the source files."
+    }
+  ]
+}

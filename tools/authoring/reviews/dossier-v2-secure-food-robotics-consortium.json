@@ -1,0 +1,66 @@
+{
+  "kind": "dossier",
+  "id": "v2-secure-food-robotics-consortium",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "cv_pi.md, section 6, Academic Service and Memberships",
+      "problem": "The CV names real journals: IEEE Transactions on Industrial Informatics, ACM Transactions on Cyber-Physical Systems, and Computers & Security. It also assigns service and membership at real conferences and the German Informatics Society. These are outside the permitted exceptions for real funders, places, methods and scientific knowledge.",
+      "fix": "Replace these journals, conferences and professional organization with fictional entities, or remove the named service claims. Check replacement names for collisions."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project_report.md, section 4; dossier.yaml, F01–F02",
+      "problem": "The detection result does not establish its denominator or unit of replication. It reports 2025 replay tests, 80 sensor traces and 68 detected injected faults. The stated 85% and Wilson interval correspond to 68 successes in 80 independent binary trials, but the report never states that there were exactly 80 injected faults or explains how 2025 tests relate to those trials. Repeated replays of the same traces cannot automatically count as independent observations.",
+      "fix": "State whether 2025 is a year or a test count. Specify the number of injected faults, their allocation across traces and replays, the independent evaluation unit, and the denominator used for sensitivity. Calculate uncertainty at that unit and update F01–F02 accordingly."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project_report.md, sections 3–4, false-positive rate and latency",
+      "problem": "A false-positive rate of 2.4% cannot be reconstructed from 1,200 hours alone: the negative decision unit and false-positive count are absent. The 14 ms latency has no sample size, variability or sufficiently identified hardware. These central performance results therefore lack the required sample sizes and uncertainty. The relationship between training data, healthy validation data and replay-test traces is also unspecified.",
+      "fix": "Define the false-positive decision unit, report its numerator and denominator with appropriate uncertainty, and report false alarms per hour if operational disruption is the intended interpretation. Give latency sample size, uncertainty or distribution summaries, hardware and workload. Explain the training/validation/test partition and how correlated or reused traces were handled."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 7",
+      "where": "cv_pi.md; consortium_profile.md; prior_project_report.md; publications.md",
+      "problem": "These documents have no issue or revision dates. The CV uses 'Present' and 'Currently' without anchoring employment and supervision to September 2026, and the consortium's commitment and advisory statuses are likewise undated. The resources document's September 2026 reference does not establish the currency of the other files. The report's project duration is not a document date.",
+      "fix": "Date each document no later than September 2026. Add an explicit September 2026 status date for current appointments, supervision, consortium commitments and advisory involvement, and give the final report its actual fictional issue date."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4; Task 1",
+      "where": "consortium_profile.md, Informal Contact; dossier.yaml, F13",
+      "problem": "The statement that the Canadian contact is not an 'EU/associated-country entity' conflates beneficiary status with country association. Canada has been associated to Horizon Europe Pillar II since 2024. Being an informal, unfunded contact does establish that this person is not a participating beneficiary, but does not make Canada an unassociated country. This could mislead the participation assessment for the planned Horizon Europe tasks.",
+      "fix": "Retain the explicit informal, non-beneficiary status and explain that the contact does not count toward the consortium because no formal beneficiary participation is proposed. Remove the incorrect country-status assertion; state any call-specific participation restriction separately and accurately."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, F14; consortium_profile.md, opening paragraph",
+      "problem": "F14 says that the four core partners 'have signed participation', but its cited source only calls them committed. No signed participation document, date or equivalent statement appears. The hidden registry strengthens the documented commitment status.",
+      "fix": "Either change F14 to match the documented commitment exactly, or add a dated statement identifying what each partner signed and what that signature commits them to."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts",
+      "problem": "The registry omits numerous proposal-relevant numbers and statuses: more than 4,500 hours of baseline data; 1,200 validation hours; 2.4% false positives; 14 ms latency and the 50 ms requirement; four peer-reviewed project publications; the released 2.5 TB corpus and its licence; project dates and other funding amounts; current staff and supervision counts; the 800 m² robotics facility; four environmental chambers; the 12,000 m² warehouse, temperature ranges and five-minute logging; and the procurement approval dependency. F04 also gives only 'zero' as its value while combining the planned fleet size with current acquisition status.",
+      "fix": "Expand the registry to cover all salient quantitative and status claims, preserving source wording, units and qualifications. Separate planned fleet size, current acquired units and procurement dependency into distinct facts. Register limitations and access conditions alongside the capabilities they qualify."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project_report.md, executive summary and section 4; cv_pi.md, Research Focus",
+      "problem": "The report claims the framework maintained 'bounded operational safety', but supplies only replay-based detector performance, with no safety bound, assumptions, formal argument or closed-loop navigation evaluation. It also infers minimized operational disruption from the false-positive percentage without measuring disruption. The CV's suggestion that secure data pipelines can guarantee cold-chain integrity similarly exceeds what data security and the supplied evidence establish.",
+      "fix": "Limit demonstrated achievements to the measured replay outcomes. Describe navigation safety, operational disruption and cold-chain benefits as objectives requiring further validation, or provide concrete supporting analyses with assumptions and uncertainty. Distinguish data integrity from control of physical temperature and microbial hazards."
+    }
+  ]
+}

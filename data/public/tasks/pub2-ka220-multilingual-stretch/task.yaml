@@ -1,0 +1,32 @@
+schema_version: 1
+id: pub2-ka220-multilingual-stretch
+split: public
+call_id: v2-ka220-multilingual-practice
+dossier_id: v2-accessible-music-teaching-alliance
+fit_level: stretch
+brief: brief.md
+traps:
+- id: T1
+  type: T11
+  description: 'The brief centres the project on an independent acoustic language-model leaderboard, with
+    work packages for collection design, model comparison and reproducible rankings, and seminars as the
+    connection to teaching. This conflicts with the call''s exclusion of "Stand-alone benchmarks, test
+    suites or leaderboards for large language models, machine translation or speech recognition that are
+    not used to change teaching or assessment in the participating institutions." The call''s scope also
+    asks: "Where the project includes applied research, such as analysis of classroom or studio interaction,
+    learner language corpora or practice-based enquiry, tie each research activity to a named change in
+    teaching or assessment."'
+  expected_behaviour: Make piloted changes to multilingual practical teaching or assessment at all three
+    institutions the principal objectives and results. No leaderboard or test collection remains a stand-alone
+    principal result. Any retained acoustic analysis, collection or ranking supports a specified teaching
+    or assessment change and is evaluated through its use in the pilots; seminar dissemination alone is
+    insufficient. Removing the leaderboard entirely or retaining it as a supporting tool are both compliant,
+    as are other feasible designs meeting this condition. Course identification may use the music-pedagogy
+    modules in which the instruction sequence was approved or explicitly labelled placeholders; invented
+    module titles are not required.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 3873859d-3a62-4d5d-b240-341b7a827ab5

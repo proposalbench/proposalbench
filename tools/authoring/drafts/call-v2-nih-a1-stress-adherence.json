@@ -1,0 +1,156 @@
+{
+  "kind": "call",
+  "id": "v2-nih-a1-stress-adherence",
+  "family": "anthropic",
+  "model": "opus",
+  "created": "2026-10-31",
+  "prompt_sha256": "e7819aa2aed9617437fd8de321d71c21b3ba8d2e53cbff5a265531f3725ebdbe",
+  "draft": {
+    "title": "Stress and Attention as Mechanisms of Medication Routines, Including the Period after Hospital Discharge",
+    "expected_outcomes_intro": "Most research on missed and mistimed doses treats medication-taking as a fairly stable patient characteristic explained by knowledge, beliefs, cost or regimen complexity. Less often examined, and seldom at the time scale on which doses are taken or missed, is whether day-to-day stress and lapses of attention disrupt an established routine. A related question is whether these processes matter more after a hospital stay has changed the regimen and interrupted home habits. This emphasis supports exploratory observational and measurement work. The work should establish whether these processes can be measured often enough and with acceptable burden to be related to medication-taking, and whether the associations found justify larger studies.",
+    "expected_outcomes": [
+      "Nursing and behavioral researchers know whether within-person changes in stress, attention or both precede omitted, delayed or duplicated doses among adults managing ongoing regimens, and how consistent those associations are across people.",
+      "Investigators know whether stress, attention or both, according to the proposed pathway, can be assessed repeatedly with acceptable burden and tolerable missing data in the population and setting studied; for post-discharge studies, this includes the weeks when regimens change and home routines are re-established.",
+      "Teams planning larger studies know how closely the available objective and self-reported sources of dose-level medication-taking data agree in the population studied.",
+      "Teams planning larger studies know whether assessment notifications, monitoring devices, safety communications and other study contact change the medication-taking they are intended to observe.",
+      "Teams planning larger studies know how the study's mechanism and medication-taking measures perform among older adults and among people with cognitive or sensory limitations.",
+      "Adults whose routines are most easily disrupted, such as people taking many medications, people with mild cognitive limitations and people who live alone or, in post-discharge studies, are discharged home alone, are represented in mechanistic evidence and are not excluded because of assessment burden.",
+      "Investigators and funders can decide, from feasibility results and effect estimates with their uncertainty judged against the study's progression criteria, whether a stress or attention pathway warrants a larger observational study or later intervention development, or should be set aside."
+    ],
+    "scope_intro": "A medication routine is the repeated, often cue-dependent sequence by which a person takes scheduled doses. Stress may use up the resources needed to carry out the routine or displace the cues that trigger it. Attention and prospective memory determine whether an intended dose is remembered at the right moment. After hospital discharge, many patients go home with new, stopped or changed medications, reduced function and altered daily schedules, so the routine has to be rebuilt at a time when stress may be high. Studies may start from nursing science, for example transitional care, symptom management or self-management. They may also start from health, cognitive or clinical psychology, for example habit formation, prospective memory or stress appraisal.\n\nProposals should use observational designs, secondary analysis of existing data, or measurement-development and feasibility work, and should not assign participants to interventions. A proposal may focus on stress, on attention, or on their interplay. The weeks after hospital discharge are of particular interest; another setting can be proposed where it better tests the mechanism. Each proposal should establish whether the proposed mechanism can be measured at the required time scale and whether it is related to medication-taking within persons over time, and should end with evidence that supports a decision about further study.",
+    "scope": [
+      "Specify a theoretical model, from nursing or psychological science, linking stress, attention or both to a defined feature of the medication routine, such as dose timing, consistency or omission.",
+      "Measure medication-taking at the level of individual scheduled doses, so that each dose can be classified as taken on time, delayed, omitted or duplicated.",
+      "Study the weeks after hospital discharge, recording regimen changes, discrepancies and who manages medications at home, or justify another setting where regimen or routine changes test the mechanism, and record those changes.",
+      "Analyze within-person associations separately from between-person differences, with lag structures fixed in advance and adjustment for time-varying confounders such as pain, sleep, symptom burden and regimen changes.",
+      "Assess recruitment, retention and the completeness of medication-taking data, reporting reasons for refusal, withdrawal and device non-use where data are newly collected.",
+      "Examine whether associations differ by age, sex, cognitive status, number of medications and living arrangement, presenting these analyses as exploratory where the sample does not support formal tests.",
+      "State progression criteria for proceeding to a larger observational or mechanistic study, fixed before new data collection or, for secondary-data analyses, before those analyses, disclosing any prior access to the existing data."
+    ],
+    "exclusions": [
+      "Pilot or feasibility testing of adherence supports, such as reminder apps, alerting pill bottles, pharmacist follow-up calls, stress-management or attention training, in which participants are assigned to them to see whether medication-taking changes.",
+      "Monitoring devices or smartphone applications that give participants medication-taking reminders, missed-dose or adherence alerts, or adherence feedback during the observation period. Prompts to complete stress or attention assessments and narrowly defined safety communications are not covered by this exclusion.",
+      "Cross-sectional adherence surveys that assess stress or attention once and cannot place them in time relative to medication-taking.",
+      "Comparisons of drug efficacy, dosing or formulation, and pharmacokinetic or drug-interaction studies.",
+      "Evaluation of discharge processes, medication reconciliation programs or hospital quality-improvement initiatives as the primary aim.",
+      "Engineering of new ingestible sensors, smart packaging or drug-level assays as the main objective, rather than evaluating existing measures for the proposed question.",
+      "Studies whose primary aim is the clinical diagnosis of dementia, delirium or attention-deficit disorders rather than the examination of attention as a process in medication-taking."
+    ],
+    "mandatory_elements": [
+      "This notice adds a restriction that NIH resubmission policy does not impose: it accepts only A1 applications whose unfunded A0 asked whether stress, attention or both act as mechanisms of medication-taking. State the A0 central question. Aims, population, setting, measures and design may be substantially revised in response to the review, provided the revised application still addresses that question; an unrelated project is not eligible under this notice.",
+      "Define the medication-taking outcome operationally: the primary data source, the observation window, the treatment of scheduled versus as-needed medications, and the handling of prescriber-directed starts, stops and dose changes, including any made at hospital discharge.",
+      "Justify the timing and frequency of assessments of stress, attention or both, according to the proposed pathway, relative to scheduled doses, so that the proposed mechanism is measured before the doses it is expected to affect.",
+      "Explain why each study procedure, including assessment notifications, monitoring devices, safety communications and any return of study information to participants or clinicians, does not prospectively assign participants to an intervention, and how the content and delivery times of assessment notifications are kept from functioning as medication reminders.",
+      "Within the Approach, describe risks to participants and the protections for them: assessment burden and distress during illness or recovery, capacity to consent, privacy of device and smartphone data, and a written procedure for safety communications to participants or clinicians that states the triggering criteria, who is contacted and how quickly, and that excludes routine adherence feedback.",
+      "For each measure of the selected mechanism and of medication-taking, state whether it is established, adapted or new, and what existing evidence supports its reliability and validity in the intended population and setting."
+    ],
+    "conditions": {
+      "max_budget": 275000,
+      "duration_months_max": 24,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": null
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Stress and Attention as Mechanisms of Medication Routines, Including the Period after Hospital Discharge",
+        "expected_outcomes_intro": "Most research on missed and mistimed doses treats medication-taking as a fairly stable patient characteristic explained by knowledge, beliefs, cost or regimen complexity. Less often examined, and seldom at the time scale on which doses are taken or missed, is whether day-to-day stress and lapses of attention disrupt an established routine. A related question is whether these processes matter more after a hospital stay has changed the regimen and interrupted home habits. This emphasis supports exploratory observational and measurement work. The work should establish whether these processes can be measured often enough and with acceptable burden to be related to medication-taking, and whether the associations found justify larger studies.",
+        "expected_outcomes": [
+          "Nursing and behavioral researchers know whether within-person changes in stress, attention or both precede omitted, delayed or duplicated doses among adults managing ongoing regimens, and how consistent those associations are across people.",
+          "Transitional-care investigators know whether stress and attention can be assessed repeatedly, acceptably and with tolerable missing data in the weeks after hospital discharge, when regimens change and home routines are re-established.",
+          "Teams planning larger studies have medication-taking and routine-stability measures with documented agreement across data sources, known measurement reactivity, and known performance in older adults and people with cognitive or sensory limitations.",
+          "Adults whose routines are most easily disrupted, including people taking many medications, people with mild cognitive limitations and people discharged home alone, are represented in mechanistic evidence and are not excluded because of assessment burden.",
+          "Investigators and funders can decide, against criteria set before data collection, whether a stress or attention pathway warrants a larger observational study or later intervention development, or should be set aside."
+        ],
+        "scope_intro": "A medication routine is the repeated, often cue-dependent sequence by which a person takes scheduled doses. Stress may use up the resources needed to carry out the routine or displace the cues that trigger it. Attention and prospective memory determine whether an intended dose is remembered at the right moment. After hospital discharge, many patients go home with new, stopped or changed medications, reduced function and altered daily schedules, so the routine has to be rebuilt at a time when stress may be high. Studies may start from nursing science, for example transitional care, symptom management or self-management. They may also start from health, cognitive or clinical psychology, for example habit formation, prospective memory or stress appraisal.\n\nProposals should use observational designs, secondary analysis of existing data, or measurement-development and feasibility work, and should not assign participants to interventions. A proposal may focus on stress, on attention, or on their interplay. It should establish whether the proposed mechanism can be measured at the required time scale and whether it is related to medication-taking within persons over time. It should end with evidence that supports a decision about further study.",
+        "scope": [
+          "Specify a theoretical model, from nursing or psychological science, linking stress, attention or both to a defined feature of the medication routine, such as dose timing, consistency or omission.",
+          "Measure stress, attention or both repeatedly at intervals short enough to precede individual medication-taking events, using instruments with reported or planned tests of reliability and validity in the study population.",
+          "Measure medication-taking at a time resolution matching the stress and attention measures, and compare objective and self-reported sources to estimate their agreement.",
+          "Address the period after hospital discharge, recording regimen changes, discrepancies and who manages medications at home, or justify why another setting better tests the proposed mechanism.",
+          "Analyze within-person associations separately from between-person differences, with lag structures fixed in advance and adjustment for time-varying confounders such as pain, sleep, symptom burden and regimen changes.",
+          "Assess feasibility of the measurement protocol: recruitment and retention, completion of repeated assessments, device use, participant burden, missing-data patterns and measurement reactivity.",
+          "Examine whether associations differ by age, sex, cognitive status, number of medications and living arrangement, presenting these analyses as exploratory where the sample does not support formal tests.",
+          "State criteria, fixed before data collection and based on feasibility results and effect estimates with their uncertainty, for deciding whether to proceed to a larger observational or mechanistic study."
+        ],
+        "exclusions": [
+          "Pilot or feasibility testing of adherence supports, such as reminder apps, alerting pill bottles, pharmacist follow-up calls, stress-management or attention training, in which participants are assigned to them to see whether medication-taking changes.",
+          "Monitoring devices or smartphone applications used with reminder, alert or adherence-feedback functions switched on during the observation period.",
+          "Cross-sectional adherence surveys that assess stress or attention once and cannot place them in time relative to medication-taking.",
+          "Comparisons of drug efficacy, dosing or formulation, and pharmacokinetic or drug-interaction studies.",
+          "Evaluation of discharge processes, medication reconciliation programs or hospital quality-improvement initiatives as the primary aim.",
+          "Engineering of new ingestible sensors, smart packaging or drug-level assays as the main objective, rather than evaluating existing measures for the proposed question.",
+          "Studies whose primary aim is the clinical diagnosis of dementia, delirium or attention-deficit disorders rather than the examination of attention as a process in medication-taking."
+        ],
+        "mandatory_elements": [
+          "State the central question of the unfunded A0 and show that the revised aims address the same question. A different question or a redesigned project must be submitted as a new application, not under this notice.",
+          "Define the medication-taking outcome operationally: data source, observation window, scheduled versus as-needed medications, and handling of prescriber-directed starts, stops and dose changes, including those made at discharge.",
+          "Justify the timing and frequency of stress and attention assessments relative to scheduled doses, and the lags to be analyzed, so that the proposed mechanism is measured before the outcome it is expected to affect.",
+          "Explain why each procedure, including repeated prompts, monitoring devices and any return of study information to participants or clinicians, does not prospectively assign participants to an intervention, and how measurement reactivity will be detected.",
+          "Within the Approach, describe risks to participants and the protections for them: assessment burden and distress during recovery, consent capacity, privacy of device and smartphone data, and a documented procedure for urgent safety information that is triggered only by stated safety criteria.",
+          "For each stress, attention and medication-taking measure, state whether it is established, adapted or new, and what evidence supports its use in the intended population and setting."
+        ],
+        "conditions": {
+          "max_budget": 275000,
+          "duration_months_max": 24,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": null
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Call 1",
+          "where": "call.md, Topic-specific requirements; call.yaml, ME9",
+          "problem": "The blanket statement that a redesigned project must be submitted as a new application presents an additional restriction as an NIH resubmission rule. Substantial changes to aims and design can be appropriate in an A1, including changes answering reviewers.",
+          "fix": "Allow substantive redesign addressing the original scientific objective. If retaining a narrower scientific-continuity requirement, explicitly identify it as a restriction of this fictional call and distinguish redesign from an unrelated new project.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md, expected outcomes and scope; call.yaml, EO2, EO4 and SC4",
+          "problem": "All outcomes are mandatory, including evidence about assessment after discharge and representation of people discharged home alone. SC4 nevertheless permits another setting with justification. A study taking that permitted alternative cannot necessarily deliver the mandatory discharge-specific outcomes.",
+          "fix": "Either require a post-discharge population throughout or make the discharge-specific outcomes conditional on selecting that setting, with corresponding outcomes for an alternative setting.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md, scientific emphasis and topic-specific requirements; call.yaml, EO2 and ME11",
+          "problem": "The introduction and SC1–SC2 expressly allow stress alone, attention alone, or both. EO2 requires repeated assessment of stress and attention, and ME11 likewise requires justification of both assessment schedules. These requirements make the advertised single-pathway option ambiguous.",
+          "fix": "Use 'stress, attention or both, according to the proposed pathway' consistently in EO2 and ME11 and qualify other measure-specific requirements as applying to the constructs selected.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md, permitted designs and progression criteria; call.yaml, EO5 and SC8",
+          "problem": "Secondary analysis of existing data is expressly permitted, but progression criteria must be fixed before data collection. Applicants analyzing an existing dataset cannot prospectively satisfy that timing requirement unless suitable criteria happened to have been established by the original study.",
+          "fix": "Require criteria before new data collection for prospective studies and before the relevant analyses for secondary-data studies, with disclosure of prior access to the data.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md, exclusions and topic-specific requirements; call.yaml, EX3, ME12 and ME13",
+          "problem": "EX3 prohibits any reminder or alert functions during observation without limiting this to adherence support. Its wording can therefore prohibit assessment notifications contemplated by ME12 and safety notifications associated with ME13.",
+          "fix": "Specify that EX3 prohibits medication-taking reminders, adherence alerts and adherence feedback. Explicitly distinguish assessment notifications and narrowly defined safety communications, requiring their timing and potential reactivity to be addressed.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.yaml, EO3, SC2, SC6, SC8, ME11, ME12 and ME14; corresponding call.md lists",
+          "problem": "Several requirements are bundled or repeated across separately identified items. EO3 combines cross-source agreement, measurement reactivity and subgroup measurement performance. SC2 combines assessment timing with psychometric support, which recur in ME11 and ME14. Measurement reactivity recurs in EO3, SC6 and ME12, while EO5 and SC8 substantially repeat the requirement for prespecified progression criteria.",
+          "fix": "Give each independently assessable obligation one item: assessment timing, measurement validity, source agreement, reactivity assessment and progression criteria. Split EO3 into distinct outcomes and remove duplicate obligations from the other lists, retaining explanatory cross-references where useful.",
+          "part": "topic"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

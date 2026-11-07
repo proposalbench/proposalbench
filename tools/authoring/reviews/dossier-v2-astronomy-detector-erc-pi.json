@@ -1,0 +1,66 @@
+{
+  "kind": "dossier",
+  "id": "v2-astronomy-detector-erc-pi",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "cv_pi.md, Education, Employment History and Selected Invited Presentations; team.md, Linnea Holmberg biography",
+      "problem": "The dossier assigns fictional people credentials and employment at real institutions, including NORDITA, Stockholm University, KTH, Uppsala University, ESO and Chalmers University of Technology. The invited seminar also names the real Max Planck Institute for Astronomy. The fiction requirement applies to these institutions, not just the current host.",
+      "fix": "Replace these institutions with distinctive fictional institutions and update every associated affiliation consistently."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "team.md, Postdoctoral Researchers",
+      "problem": "Henrik Olofsson is the full name of a known Swedish astronomer. Using that name for an astrophysics research-group member violates the fictional-person requirement.",
+      "fix": "Give the data scientist a distinctive fictional full name and use it consistently throughout the dossier."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 7",
+      "where": "cv_pi.md, preparation date and Innovation and Commercialization Status; dossier.yaml, F05; publications.md",
+      "problem": "The CV prepared on 15 September asserts that no spin-out sales operation exists as of 1 October, a future status relative to its preparation date and outside the permitted September status cutoff. The publications list has no preparation or status date establishing that all listed publications were already published by September.",
+      "fix": "Date the spin-out status no later than 30 September and update F05 to match. Add a September preparation/status date to the publications list and explicitly distinguish published, accepted and forthcoming items if necessary."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md, WP2 primary validation and Key Result",
+      "problem": "The central performance result lacks the denominators and measurement definitions needed to check it. It is unclear whether 40 and 26 are totals across 200 exposures or another statistic. The number of injected sources and recovered sources underlying 98% is absent. The confidence interval does not identify its resampling unit. Consequently, neither the recovery percentage nor the interpretation of the count reduction can be verified.",
+      "fix": "State the number of injected sources, the recovered counts for both methods, the aggregation used for false detections, the matching and detection rules, and the paired bootstrap unit. Clarify which physical acquisitions and simulated exposures were held out from model fitting and threshold selection."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md, WP1 and WP2",
+      "problem": "The claim that 14% of pixels exhibit non-Gaussian tails has no pixel counts, device replication, uncertainty or definition of a positive pixel. Three architectures alone does not provide those denominators. Likewise, 'magnitude 28 equivalent' does not specify a passband, magnitude system, exposure duration or conversion to detected electrons, so the claimed faint-source regime is not quantitatively defined.",
+      "fix": "Provide tested-device and pixel counts, affected counts, the diagnostic threshold and an uncertainty estimate accounting for the sampling structure. Define the simulated photometric system and observing assumptions, and give the corresponding injected signal in detected electrons."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts",
+      "problem": "The facts registry omits numerous proposal-relevant numbers, restrictions and statuses: the 14% pixel result, three tested architectures, 100–200 K range, 4.2 TB dataset, magnitude-28 injection level, 70 K chamber capability and ±0.01 K stability, 300–1100 nm coverage, three evaluation boards and their research-use NDAs, two scheduled external groups, the 8.5-second baseline runtime, absence of patents, formal IP review and claimed lack of core-IP encumbrances, unfunded collaborator status, and planned archival integration tests. The main runtime resource and existing team counts are also marked non-salient despite their relevance to feasibility.",
+      "fix": "Register each salient result, resource, restriction, limitation and planned activity with its exact source wording and value. Distinguish existing capabilities from scheduled or proposed work, and mark feasibility-critical resources as salient."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4; Task 1",
+      "where": "resources.md, Translation to Environmental Sensing; dossier.yaml, F16",
+      "problem": "The environmental translation is justified by asserting that aerosol fluorescence monitoring suffers from 'identical sub-electron noise limitations'. A detector model being independent of photon origin does not establish this. The dossier supplies no excitation method, detector configuration, signal and background regime, or evidence that detector-state noise limits the proposed measurement. F16 then records the credibility of the stretch as an existing fact rather than a hypothesis.",
+      "fix": "Describe a concrete prospective fluorescence measurement and its detector/readout configuration. Supply preliminary evidence for the relevant noise regime, or explicitly make establishing that regime an early feasibility gate. Replace the assertion of identical limitations with a conditional hypothesis and register it accordingly."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md, WP3; team.md, Arvid Lindström biography",
+      "problem": "The runtime claim uses an unspecified 'standard workstation' and provides no timing protocol. The stated improvement from 8.5 to 1.2 seconds does not establish that both measurements used the same hardware and workload. A 1.2-second frame-processing time also does not establish suitability for 'most high-cadence transient surveys', whose cadence, detector volume and throughput requirements vary.",
+      "fix": "Specify the processor, thread count, workload, inclusion of input/output, number of timing runs and timing variability. Confirm comparable conditions for the two runtimes and restrict the suitability claim to a defined acquisition cadence and data volume."
+    }
+  ]
+}

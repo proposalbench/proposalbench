@@ -1,0 +1,73 @@
+{
+  "kind": "dossier",
+  "id": "v2-coastal-warning-revision-consortium",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "bayproxy_final_report.md, section 2, Sampling",
+      "problem": "Fortnightly sampling at nine stations throughout three June–September seasons implies approximately 189–216 routine samples before event sampling. The reported total is only 142, including event samples. No incomplete coverage, exclusions or rotating sampling schedule explains this discrepancy.",
+      "fix": "State the actual station coverage and sampling schedule, and give routine and event sample counts that sum to 142. Explain any missed visits, missing paired measurements or exclusions."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 9",
+      "where": "outfalert_esr_2026.md, Implementation first shortcoming; outfalert_application_2025_abridged.md, section 3.3",
+      "problem": "The ESR says there is no mitigation for too few Charente exceedance events, but the submitted risk table explicitly mitigates fewer exceedance events through event-triggered sampling. The report does not explain why that mitigation fails to address the Charente case.",
+      "fix": "Revise the criticism to acknowledge event-triggered sampling and identify its specific inadequacy, such as the absence of a contingency when too few events occur despite targeted sampling. Keep the submitted application unchanged."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 9",
+      "where": "technical_update_sept2026.md, section 5, Status by ESR shortcoming",
+      "problem": "The status table covers four of the ESR's eight shortcomings. It does not explicitly explain what changed, or remains unanswered, concerning general open-science methodology, the unsupported replication target and user commitments, the insufficient event contingency, or coordination experience. Statements elsewhere supply some current facts but do not complete the response-to-review record.",
+      "fix": "Add status entries for the remaining four shortcomings, identifying the relevant changes and explicitly recording unresolved points. Do not imply that the data inventory alone resolves the broader open-science criticism."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts",
+      "problem": "The registry omits several facts essential to an accurate proposal: the E. coli endpoint and 500 MPN/100 mL threshold; absence of pathogen measurements; the individual data-access and redistribution conditions, including the telemetry agreement's expiry; the full transfer-acceptance rule and target of 40 exceedances per estuary; CICS versus URC accreditation; available facilities and data-management effort; and the uncertainty code's non-public status. An aggregate inventory count does not register its constituent restrictions.",
+      "fix": "Add sourced facts for these requirements, limitations and resources, preserving their exact values and conditions. Separate approved protocols and existing capacity from unfunded sampling targets and planned activities."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, F11, F17 and F23",
+      "problem": "F17 dates both the commitment letters and memorandum to 18 September, although the letters were signed on 9, 11 and 16 September. F11 omits the explicit pilot exception to the statement that protocol sampling has not started. F23 broadens CICS's documented lack of Horizon 2020/Horizon Europe coordination into a lack of any multi-beneficiary EU coordination, which its cited source does not establish.",
+      "fix": "Record the three letter dates separately from the memorandum date; preserve the six-sample pilot exception in F11; and restrict F23 to the documented programmes or add an explicit supporting statement about CICS's wider EU coordination history."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "outfalert_esr_2026.md, Excellence first shortcoming; dossier.yaml, reviewer_criticisms R1",
+      "problem": "Both passages call the assay a pathogen proxy. The assay was calibrated against culture-based E. coli as a faecal indicator, and the final report explicitly states that no pathogens were measured. The terminology incorrectly upgrades what the preliminary evidence establishes.",
+      "fix": "Use 'faecal-contamination proxy' or 'E. coli exceedance proxy' consistently in the ESR and R1, and retain the explicit limitation that pathogen detection or prediction has not been validated."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "technical_update_sept2026.md, sections 1, 4 and 5",
+      "problem": "The inventory is described as complete, but none of its 12 assets covers the six raw Charente pilot records or the April–May 2026 Galway–Shannon split-sample results. O1 explicitly contains the historical 142 samples, and D2 contains coefficients and bootstrap outputs rather than these new observations. The new records' sharing conditions are also unspecified.",
+      "fix": "Add inventory entries for the new observations, or explicitly identify a broader asset that contains them. State their holders, access and release conditions, and update the inventory totals and F15 accordingly."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "technical_update_sept2026.md, section 3, Uncertainty in impact estimates",
+      "problem": "The revised result is still labelled 'avoided bather exposures', but the described calculation propagates assay, travel-time and attendance uncertainty without specifying how warnings change bathing behaviour. Attendance is not itself a count of exposed swimmers, and warning delivery, response and the warning threshold affect how many exposures could be prevented. A bootstrap interval does not resolve these missing causal assumptions.",
+      "fix": "Specify the attendance-to-exposure conversion, warning policy, delivery assumptions and assumed behavioural response. Label the result as a conditional modelled estimate, or as potentially avoidable exposures under an explicit response assumption, and state which uncertainties remain excluded."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "bayproxy_final_report.md, forecast methods and results; outfalert_application_2025_abridged.md, section 1.3; technical_update_sept2026.md",
+      "problem": "The evidence does not distinguish retrospective exceedance discrimination from genuine forecast performance. The 486-sample evaluation has no stated training/test separation or information cutoff, while its inputs include observed rainfall and spill duration. The proposed 24–48-hour outputs rely on rainfall nowcasts and telemetry without explaining the day-ahead meteorological forecasts or future spill estimates needed at those lead times.",
+      "fix": "Document how the historical AUC was evaluated, including temporal separation, predictor availability and forecast lead time; label it as retrospective or in-sample if appropriate. In the current technical update, identify 24–48-hour forcing and spill prediction as unresolved requirements or describe a feasible planned approach, without upgrading the historical AUC into demonstrated day-ahead skill."
+    }
+  ]
+}

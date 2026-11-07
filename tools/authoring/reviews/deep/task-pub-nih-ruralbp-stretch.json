@@ -1,0 +1,30 @@
+{
+  "kind": "task",
+  "id": "pub-nih-ruralbp-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-nih-ruralbp-stretch/brief.md: the opening notes have no date.",
+      "problem": "The revised checklist requires briefs dated 1 October 2026. The task-wide present date makes this omission recoverable, so it is polish rather than an undecidable trap.",
+      "fix": "Add '**Date: 1 October 2026**' above the notes.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Task 1: achievable stretch from rural school/FQHC engagement, measured anthropometry and sleep workflow work into formative BP monitoring/linkage research. Appropriate BP personnel, validated equipment, clinical escalation and new permissions can be proposed conditionally; they need not be invented as existing.",
+    "Task 2, 6: T1 is correctly T05 and directly decidable: assigning families to a sleep intervention/control to test BP effects violates the supplied clinical-trial exclusion. Its current expected behaviour correctly permits bounded usability work and does not demand one replacement study design.",
+    "Task 2, 6: T2 is correctly T08: the core error is upgrading an informal cardiology relationship to committed co-investigator status and claiming a nonexistent letter. It is not a pending-letter T06 because the dossier does not say a letter is pending. The current key accepts seeking the same clinician, another collaborator, or a hire, all explicitly planned/contingent.",
+    "Task 3, 4: the suggestions are ordinary applicant notes without trap labels; no hidden rubric is disclosed by the brief. The requested USD 275,000 total/24-month scope respects the call, and no budget trap is scored.",
+    "Task 5, 7: English full new R21; no A1 materials or RESUB required. Two traps, no T12/T13/T14. Both corrections fit Aims/Approach and leave a coherent two-year formative measurement/linkage study.",
+    "The dossier name-collision finding requires a consistent mechanical rename in this brief and T2, but is filed once on dossier-adolescent-sleep-lab. Acceptance here concerns the task's own trap logic, not authorization to release the unchanged bundle with unresolved upstream findings."
+  ]
+}

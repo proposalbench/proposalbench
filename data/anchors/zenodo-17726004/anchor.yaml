@@ -1,0 +1,55 @@
+id: zenodo-17726004
+title: 'Aprendizaje automático en el modelado de la propagación de ondas: De los métodos numéricos estándar
+  a las redes neuronales informadas por la física en sismología'
+authors:
+- Oscar Rincón-Cardeño
+- Nicolás Guarín-Zapata
+- Silvana Montoya-Noguera
+year: 2025
+funder: Not stated (Universidad EAFIT doctoral proposal)
+scheme: Doctorado en Ingeniería — thesis research proposal
+funded: unknown
+funded_source:
+  url: https://zenodo.org/records/17726004
+  evidence: Published Zenodo proposal; neither the record nor the PDF establishes a funding award.
+language: es
+field: engineering / computational seismology
+source_url: https://zenodo.org/records/17726004
+doi: 10.5281/zenodo.17726004
+licence: CC-BY-4.0
+licence_evidence:
+  url: https://zenodo.org/api/records/17726004
+  location: metadata.license.id
+  value: cc-by-4.0
+  resource_type:
+    title: Proposal
+    type: publication
+    subtype: proposal
+  file: Propuesta_Doctorado_Ingeniería_Oscar_Rincon.pdf
+  file_checksum: md5:7441e47bd99ef3514fd2c2943ea97fa4
+retrieved: '2026-10-30'
+raw_path: seeds_raw/anchors/zenodo-17726004.pdf
+raw_sha256: 6d530850302e9993249763d99df7fab9d51b6a7f38ddc573581d4ad0e3871712
+metadata_raw_sha256: 506c67d586d84133a3c62fd07e6eb34c8cdf27583e7da3ec07ba979f2fa85f51
+article_type: Published doctoral research proposal
+source_reference_count: 60
+conversion_notes:
+- Converted to Markdown; layout removed. Poppler pdftotext 24.02.0 -layout with document-specific, fail-closed
+  equation and caption checks.
+- Author names and full title follow the PDF cover. Zenodo shortens the title and lists the first creator
+  as Rincón, Oscar A.; PDF roles are student, director and codirectora, respectively. No ORCIDs or cover
+  qualifications retained.
+- Cover, contents page and running headers removed. Nine figures and the shaded timetable retained as
+  their ten source captions, collected before References; graphic labels removed. Body and source bibliography
+  retained; Spanish Referencias heading renamed References.
+- Display equations transcribed as LaTeX; algorithm retained in a literal block. Inline indices/powers
+  restored where pdftotext loses vertical positioning. Source mathematical inconsistencies and typographical
+  errors are not corrected.
+- Line-break hyphenation removed; paragraphs reflowed. Abstracts of preliminary outputs in English and
+  Spanish remain in the predominantly Spanish source. No reference metadata completed or repaired.
+sha256: c7e8e7995833dbd6148e1fa5f3cc55536fdeab5bef0f049178989e7f192f3c2b
+words: 8123
+reference_count: 60
+privacy_review: Published scholarly names and institutional affiliations retained; correspondence, email,
+  ORCID and front-matter contact blocks omitted. Retained narrative reviewed for contact identifiers,
+  applicant identifiers, private biographical and participant-level personal data; none retained.

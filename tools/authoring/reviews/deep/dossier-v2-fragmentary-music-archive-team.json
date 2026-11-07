@@ -1,0 +1,32 @@
+{
+  "kind": "dossier",
+  "id": "v2-fragmentary-music-archive-team",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md: “Selection required permission to reproduce the fragment”; resources_and_permissions.md: “signed ... on 12 June 2025”; publications.md: 2024 methods article reporting “the pilot's early recording work”.",
+      "problem": "The only dated source reproduction permission is June 2025, whereas selected-source performance work already supported a 2024 article. Earlier internal access/reproduction permission may have existed, but the chronology is not explained. This is an ambiguity, not proof of unauthorised research.",
+      "fix": "Add before the June 2025 permission: “Supervised access and internal research reproduction of the selected pilot material were authorised on 9 February 2024; the 12 June 2025 document extended permission to publication.” Add the earlier date/scope to F18. Keep the separate performer consent and 2023 ethics dates.",
+      "evidence": [
+        "data/public/dossiers/v2-fragmentary-music-archive-team/prior_project.md",
+        "data/public/dossiers/v2-fragmentary-music-archive-team/resources_and_permissions.md",
+        "data/public/dossiers/v2-fragmentary-music-archive-team/publications.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all five Markdown files and YAML. Fictional notices and September 2026 statuses present; all non-null values across the 25 registered facts appear literally in their cited sources; no intentional gaps/inconsistencies or RESUB annotations.",
+    "Recomputed 6×30=180; 96+50=146; 18+10+6=34; 146+34=180; 146/180=81.111%; Wilson interval approximately 74.8–86.2%. Agreement is correctly distinguished from accuracy and the interval's clustering/selection limits are explicit.",
+    "Eight performers×three examples=24; 24×45 seconds=18 minutes. Mono 48 kHz/24-bit audio and desktop resources are plausible. Median 3.2 dB noise-power reduction (roughly halving noise power) is modest and explicitly does not establish onset recovery or preserved transients.",
+    "Audio inpainting and controlled missing-segment experiments are plausible extensions: https://arxiv.org/abs/2206.13768. Existing examples are explicitly solo singing with text; no onset annotations or aligned reading sheets exist, and no calibrated recovery model is claimed.",
+    "EUR 31,200+6,000+4,800=42,000 direct; +4,800 fixed overhead=46,800. Current external rate 15% is explicitly distinct. 0.8×EUR 4,000=EUR 3,200/month. Staff cost bases, service tariffs, existing-image access, restricted redistribution and secondary-analysis ethics are documented.",
+    "Exact-name searches covered Maarja Sirelkoit, Tõnis Lehevald, Kadri Vahenurm, Rannakaar University, internal collection, project/catalogue title, RU-CE-2024-07 and all three journals; no substantiated collision found. All four 10.99999/pb. publications match visible metadata.",
+    "Earlier automated review fixes are present, including new medium/annotation and finance facts. Stale statements about these facts in pub2-foundation-signals-stretch are filed on that task, not on this dossier."
+  ]
+}

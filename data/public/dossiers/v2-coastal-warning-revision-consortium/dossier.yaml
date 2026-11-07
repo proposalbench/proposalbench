@@ -1,0 +1,306 @@
+schema_version: 1
+id: v2-coastal-warning-revision-consortium
+language: en
+applicant_type: consortium
+career_stage: mid_career
+disciplines:
+- oceanography
+- environmental chemistry
+- urban planning
+method_profile: quantitative
+country: IE
+files:
+- path: cv_coordinator.md
+  role: cv
+- path: consortium_partners.md
+  role: team
+- path: bayproxy_final_report.md
+  role: prior_project
+- path: outfalert_application_2025_abridged.md
+  role: other
+- path: outfalert_esr_2026.md
+  role: other
+- path: technical_update_sept2026.md
+  role: other
+- path: publications.md
+  role: publications
+facts:
+- id: F01
+  category: result
+  kind: existing
+  text: Proxy sensitivity for E. coli exceedance was 0.76 (19 of 25; bootstrap 95% CI 0.55-0.90) from
+    out-of-fold predictions, estimated in the Corrib estuary only and still preliminary.
+  value: '0.76'
+  salient: true
+  source: bayproxy_final_report.md
+- id: F02
+  category: result
+  kind: existing
+  text: Proxy specificity was 0.88 (103 of 117; 95% CI 0.81-0.93).
+  value: '0.88'
+  salient: true
+  source: bayproxy_final_report.md
+- id: F03
+  category: result
+  kind: existing
+  text: BAYPROXY analysed 142 paired proxy-culture samples (81 routine, 61 event, after excluding 8 of
+    150) from nine stations in one estuary; 25 (17.6%) were exceedances, 21 of them in event samples.
+  value: '142'
+  salient: true
+  source: bayproxy_final_report.md
+- id: F04
+  category: result
+  kind: existing
+  text: The reference endpoint is culture-based E. coli by ISO 9308-3 with exceedance defined as a single
+    sample above 500 MPN/100 mL; no pathogens such as norovirus were measured.
+  value: 500 MPN/100 mL
+  salient: true
+  source: bayproxy_final_report.md
+- id: F05
+  category: result
+  kind: existing
+  text: A retrospective zero-lead hindcast (leave-one-year-out, observed rainfall and spill telemetry)
+    gave AUC 0.81 (95% CI 0.74-0.87) over 486 sample-days with 38 exceedances; skill at forecast lead
+    times was not tested.
+  value: '0.81'
+  salient: true
+  source: bayproxy_final_report.md
+- id: F06
+  category: result
+  kind: existing
+  text: Of 612 surveyed beach users, 23% relied only on on-site signs, 31% swam outside the bathing season
+    and 57% had entered the water on the day of interview.
+  value: 23%
+  salient: true
+  source: bayproxy_final_report.md
+- id: F07
+  category: grant
+  kind: existing
+  text: BAYPROXY was funded by the EPA Research Programme 2021-2030 (2021-W-MS-47), 2021-2024, with the
+    coordinator as PI.
+  value: EUR 398,000
+  salient: true
+  source: bayproxy_final_report.md
+- id: F08
+  category: grant
+  kind: existing
+  text: The unfunded OUTFALERT Horizon Europe RIA was submitted on 16 September 2025 for 36 months and
+    EUR 3,000,000, with 354 person-months (CICS 168, URC 102, WISW 84).
+  value: EUR 3,000,000
+  salient: true
+  source: outfalert_application_2025_abridged.md
+- id: F09
+  category: other
+  kind: existing
+  text: The ESR notified on 10 February 2026 scored the proposal 10.50 (Excellence 3.50, Impact 3.00,
+    Implementation 4.00); it was above threshold but below the funding line.
+  value: '10.50'
+  salient: true
+  source: outfalert_esr_2026.md
+- id: F10
+  category: result
+  kind: existing
+  text: Apart from a pilot of 6 paired Charente samples (22 July-28 August 2026, one exceedance), no sampling
+    under the two-estuary protocol has started; the pilot gives no usable sensitivity or specificity estimate
+    and cross-estuary validation has not been done.
+  value: '6'
+  salient: true
+  source: technical_update_sept2026.md
+- id: F11
+  category: resource
+  kind: existing
+  text: Protocol OUTFALERT-CAL-2E v1.0 (approved 30 June 2026) accepts coefficients transferred between
+    estuaries only if, in the receiving estuary, the lower 95% bound for sensitivity is at least 0.60
+    and specificity is at least 0.80; it has no rule for an estuary with fewer than 40 exceedances.
+  value: '0.60'
+  salient: true
+  source: technical_update_sept2026.md
+- id: F12
+  category: resource
+  kind: planned
+  text: The protocol's sampling campaign targets 115 paired samples per estuary with at least 40 exceedances
+    over two bathing seasons (expected sensitivity CI half-width about 0.13); it is unfunded.
+  value: '115'
+  salient: true
+  source: technical_update_sept2026.md
+- id: F13
+  category: result
+  kind: existing
+  text: WISW's draft decision-cost table v0.2 (31 July 2026) implies warning thresholds of 0.05-0.33,
+    central 0.14, which on the hindcast would have warned 32 of 38 exceedances with a false alarm ratio
+    of 0.48; no authority has reviewed it or agreed to own a decision rule.
+  value: '0.14'
+  salient: true
+  source: technical_update_sept2026.md
+- id: F14
+  category: result
+  kind: existing
+  text: outfalert-uq v0.3 (15 June 2026) gives a conditional upper-bound estimate of 2,580 potentially
+    avoidable exposures per season (95% interval 1,610-3,390) under full-reach and full-compliance assumptions,
+    Corrib only; the code is not public and the manuscript submitted 20 August 2026 is under review.
+  value: 2,580
+  salient: true
+  source: technical_update_sept2026.md
+- id: F15
+  category: resource
+  kind: existing
+  text: 'Data inventory v1.1 (29 September 2026) lists 14 data assets: 5 restricted raw, 2 unrestricted
+    raw not yet deposited (Charente pilot and Shannon split samples), 5 shareable derived and 2 already
+    open.'
+  value: '14'
+  salient: true
+  source: technical_update_sept2026.md
+- id: F16
+  category: resource
+  kind: existing
+  text: Overflow telemetry is shared under an agreement running to 31 December 2027 that bars redistribution
+    of raw or event-level records; radar nowcasts are licensed for internal use only, survey consent allows
+    aggregated release only, and Charente overflow logs and attendance data are restricted.
+  value: 31 December 2027
+  salient: true
+  source: technical_update_sept2026.md
+- id: F17
+  category: partner
+  kind: existing
+  text: CICS, URC and WISW signed letters of commitment on 9, 11 and 16 September 2026 respectively, and
+    all three signed the consortium memorandum of understanding on 18 September 2026.
+  value: 18 September 2026
+  salient: true
+  source: consortium_partners.md
+- id: F18
+  category: partner
+  kind: existing
+  text: The CICS Shannon Estuary Laboratory in Foynes is a department of CICS with no separate legal personality,
+    registration or PIC; it agreed with Galway on 18 of 20 split samples and has collected no Shannon
+    estuary samples.
+  value: 18 of 20
+  salient: true
+  source: consortium_partners.md
+- id: F19
+  category: partner
+  kind: existing
+  text: WISW brings urban stormwater planning expertise but has no water-quality monitoring or laboratory
+    capacity and no bathing-water warning experience before 2025.
+  value: null
+  salient: true
+  source: consortium_partners.md
+- id: F20
+  category: other
+  kind: existing
+  text: 'Municipal consultation is only exploratory: two Lower Saxony drainage departments were called
+    in May and June 2026 and neither has committed; no municipality or authority is in the consortium.'
+  value: null
+  salient: true
+  source: consortium_partners.md
+- id: F21
+  category: other
+  kind: existing
+  text: The consortium holds no monitoring data from inland urban watercourses or river bathing sites.
+  value: null
+  salient: true
+  source: consortium_partners.md
+- id: F22
+  category: position
+  kind: existing
+  text: Dr Sorcha Mulqueeney, PhD 2011, has been Head of Coastal Water Quality at CICS since 2021.
+  value: '2011'
+  salient: true
+  source: cv_coordinator.md
+- id: F23
+  category: other
+  kind: existing
+  text: Dr Mulqueeney has coordinated only the single-beneficiary BAYPROXY grant and no multi-beneficiary
+    EU project; CICS has not coordinated a Horizon 2020 or Horizon Europe project.
+  value: null
+  salient: true
+  source: cv_coordinator.md
+- id: F24
+  category: resource
+  kind: existing
+  text: CICS has an ISO/IEC 17025-accredited microbiology laboratory for ISO 9308-3, three field fluorometers,
+    assay set-ups in Galway and Foynes, a 7-m survey boat and a 512-core cluster; URC has an EEM spectrofluorometer
+    and a culture laboratory not accredited for ISO 9308-3.
+  value: null
+  salient: true
+  source: consortium_partners.md
+- id: F25
+  category: team
+  kind: existing
+  text: Data management at CICS is covered by Dr Tobin-Hayes at 0.2 FTE, and CICS has no dedicated data
+    steward.
+  value: 0.2 FTE
+  salient: true
+  source: consortium_partners.md
+own_publications:
+- key: mulqueeney2014tlf
+  authors:
+  - Mulqueeney, S.
+  - Arbogast-Riou, C.
+  year: 2014
+  title: Tryptophan-like fluorescence along the salinity gradient of a macrotidal estuary (Charente, France)
+  venue: Estuarine Water Quality Letters
+  doi: 10.99999/pb.v2-coastal-warning-revision-consortium.2014.1
+- key: fennessyward2021gluc
+  authors:
+  - Fennessy-Ward, E.
+  - Mulqueeney, S.
+  year: 2021
+  title: A two-hour glucuronidase assay for screening E. coli exceedance in brackish water
+  venue: Marine Pollution Methods
+  doi: 10.99999/pb.v2-coastal-warning-revision-consortium.2021.1
+- key: wolfsteller2022retention
+  authors:
+  - Wolfsteller, H.
+  - Kettler, J.
+  - Brakhage, L.
+  year: 2022
+  title: Siting retention basins under combined-sewer overflow constraints in three Lower Saxony municipalities
+  venue: Urban Water Planning Review
+  doi: 10.99999/pb.v2-coastal-warning-revision-consortium.2022.1
+- key: mulqueeney2023spills
+  authors:
+  - Mulqueeney, S.
+  - Costigan-Reidy, M.
+  - Tobin-Hayes, R.
+  year: 2023
+  title: Rainfall-triggered overflow spills and bathing-water exceedance at four Galway Bay beaches, 2019–2022
+  venue: Journal of Coastal Risk Analytics
+  doi: 10.99999/pb.v2-coastal-warning-revision-consortium.2023.1
+- key: mulqueeney2024proxy
+  authors:
+  - Mulqueeney, S.
+  - Fennessy-Ward, E.
+  - Tobin-Hayes, R.
+  - Arbogast-Riou, C.
+  year: 2024
+  title: Calibrating a combined fluorescence–enzymatic proxy against culture-based E. coli in the Corrib
+    estuary
+  venue: Estuarine Water Quality Letters
+  doi: 10.99999/pb.v2-coastal-warning-revision-consortium.2024.1
+reviewer_criticisms:
+- id: R1
+  text: The faecal-contamination (E. coli exceedance) proxy was calibrated only on Corrib estuary samples,
+    and its coefficients were to be applied unchanged at the Charente sites with just 30 verification
+    samples in a single season, so transferability was assumed rather than tested and no contingency was
+    foreseen if that season brought too few heavy-rainfall events.
+- id: R2
+  text: Warning thresholds were fixed at a predicted exceedance probability of 0.5 without saying who
+    acts on a warning or how false-alarm and missed-event costs set the threshold, so no user decision
+    rule was given.
+- id: R3
+  text: The headline impact of about 3,400 avoided bather exposures per season was a single value with
+    no uncertainty from proxy misclassification, travel times or beach attendance.
+- id: R4
+  text: The dissemination plan promised to publish all data, including overflow telemetry, licensed radar
+    inputs and survey data, under CC BY 4.0 although the proposal itself stated these were held under
+    data-sharing agreements and commercial licences, and beyond preregistration and a month-6 data management
+    plan the open-science and data-management approach was described only in general terms.
+- id: R5
+  text: The target of replication at 20 sites by 2030 was not substantiated, and no end-user organisation
+    had committed to the project.
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: opus
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY cdee7011-1073-499a-b90b-647ce669e704

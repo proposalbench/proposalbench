@@ -1,0 +1,34 @@
+{
+  "kind": "task",
+  "id": "pub2-nih-transition-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub2-nih-transition-close/task.yaml T1 expected_behaviour: \"Because the call requires objective or validated behavioral measures ... the design includes objective measurement of medication taking during follow-up.\"",
+      "problem": "The key narrows a disjunctive call rule to compulsory objective measurement. The dossier establishes that the old diary is not validated; it does not establish that all defensible validated behavioral alternatives are forbidden. The key's opening permission for an evidence-based rebuttal with mitigation is therefore overridden by a specific required solution. A proposal that replaces the diary with an appropriate validated behavioral adherence measure, substantiates that choice and mitigates reporting bias could meet the call yet fail this trap.",
+      "fix": "Replace the compulsory-objective-measure sentences with: 'The revised design uses objective or validated behavioral measures of medication self-management appropriate to the population, as required by the call. Electronic monitoring, pill counts, or a justified validated behavioral alternative are acceptable. A self-report-based alternative must answer the reviewers with evidence of validity and concrete mitigation of reporting bias; the Phase 2 agreement does not establish validation. Where self-report and objective observations are combined, explain how discrepancies affect interpretation.' Preserve the requirements for an implemented response, accurate Phase 2 status, coherent aims and honest limitations. Do not label objective monitoring as the only compliant route.",
+      "evidence": [
+        "data/public/tasks/pub2-nih-transition-close/task.yaml",
+        "data/public/calls/v2-nih-a1-care-transitions/call.md",
+        "data/public/dossiers/v2-nursing-transition-a1-team/feasibility_report.md",
+        "docs/task_review_checklist.md",
+        "tools/authoring/design_v2.md:105"
+      ]
+    }
+  ],
+  "checked": [
+    "Read brief.md and both hidden keys in the complete assigned call/dossier bundle; checked the earlier automated task review against the current version.",
+    "Brief is dated 1 October 2026, is informal applicant guidance, and contains no explicit trap/rubric disclosure. Task type, language and close/stretch mapping agree. At most two typed traps are present.",
+    "Assessed simultaneous feasibility within the scheme's narrative allowance, permitting prospective resources and revised designs without inventing completed work. Shared call/dossier defects are filed on their owning unit, not duplicated here.",
+    "T1 is correctly T13: the brief dismisses the review using 330/383 agreement; the report states kappa 0.49, mean diary excess 7.4 percentage points and a non-validation feasibility design. The false inference is decidable; exact pilot figures need not be cited under the current key.",
+    "T2 is correctly T06: the claimed 24 September signature conflicts with the dossier's 30 September unsigned status. The expected behavior permits Ridgeline-only recruitment, conditional Lakevale recruitment and other planned clinics rather than one mandated sample size.",
+    "The close fit is strong: nursing post-discharge work, repeated stress/attention observations and owned MEMS equipment support an observational resubmission. Up to 60 patients over 18 months is a credible fallback within the 24-month award; recruitment/power must be rescaled.",
+    "NIH budget is not a trap because no budget is requested in the research narrative. Introduction/Aims/Strategy can cover the revisions within 600/600/3,600 words."
+  ]
+}

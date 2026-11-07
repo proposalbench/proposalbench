@@ -1,0 +1,241 @@
+schema_version: 1
+id: v2-cerv-cultural-participation
+scheme: cerv
+language: en
+title: Local heritage and community cultural spaces as routes into local democratic decisions for excluded
+  residents
+topic_code: PB2-CERV-CIV-02
+proposal_type: full
+length_contract:
+  max_words: 35000
+  enforcement: disregard_excess
+  tolerance: 0.0
+  exempt:
+  - title
+  page_limit: 70
+  words_per_page: 500
+  source_note: 'Verified 2026-10-31. https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/wp-call/2026/call-fiche_cerv-2026-citizens-civ_en.pdf;
+    https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/temp-form/af/af_cerv_en.pdf.
+    Benchmark conversion: 70 pages x 500 words/page = 35000 words; prose estimate, not a funder word-count
+    rule. Tables and captions count.'
+required_sections:
+- id: '1'
+  title: Relevance
+- id: '1.1'
+  title: Background and general objectives
+  parent: '1'
+- id: '1.2'
+  title: Needs analysis and specific objectives
+  parent: '1'
+- id: '1.3'
+  title: Complementarity with other actions and innovation — European added value
+  parent: '1'
+- id: '2'
+  title: Quality
+- id: '2.1'
+  title: Concept and methodology
+  parent: '2'
+- id: '2.2'
+  title: Consortium set-up
+  parent: '2'
+- id: '2.3'
+  title: Project teams, staff and experts
+  parent: '2'
+- id: '2.4'
+  title: Consortium management and decision-making
+  parent: '2'
+- id: '2.5'
+  title: Project management, quality assurance and monitoring and evaluation strategy
+  parent: '2'
+- id: '2.6'
+  title: Cost effectiveness and financial management
+  parent: '2'
+- id: '2.7'
+  title: Risk management
+  parent: '2'
+- id: '3'
+  title: Impact
+- id: '3.1'
+  title: Impact and ambition
+  parent: '3'
+- id: '3.2'
+  title: Communication, dissemination and visibility
+  parent: '3'
+- id: '3.3'
+  title: Sustainability and continuation
+  parent: '3'
+- id: '4'
+  title: Workplan, work packages, activities, resources and timing
+- id: '4.1'
+  title: Work plan
+  parent: '4'
+- id: '4.2'
+  title: Work packages, activities, resources and timing
+  parent: '4'
+- id: '5'
+  title: Other
+- id: '5.1'
+  title: Ethics and EU values
+  parent: '5'
+- id: '5.2'
+  title: Security
+  core: false
+  parent: '5'
+expected_outcomes:
+- id: EO1
+  text: Residents who are rarely heard in local decisions have shaped proposals on a current local decision.
+    Examples are people on low incomes, migrants, Roma and other minorities, older people living alone,
+    persons with disabilities, and young people not in education or employment.
+- id: EO2
+  text: Local authorities in the participating localities have received residents' proposals and given
+    a public, reasoned response stating what they will act on, what they will not, and why.
+- id: EO3
+  text: Libraries, cultural and community centres, community museums and similar spaces in the participating
+    localities use tested methods that link heritage interpretation with deliberation.
+- id: EO4
+  text: Staff and volunteers of the participating community cultural spaces are able to facilitate deliberation
+    and dialogue with local authorities after the project ends.
+- id: EO5
+  text: Participating residents know how decisions affecting their area are made and whom to address about
+    them.
+- id: EO6
+  text: Participating residents are more confident about taking part in local decision-making again.
+- id: EO7
+  text: Places and histories that matter to excluded residents, including histories of migration, work
+    and minorities, are documented on residents' own terms and are publicly accessible as part of the
+    locality's shared heritage.
+- id: EO8
+  text: EU and national policymakers working on social inclusion and cultural participation have comparable
+    evidence from different countries on the conditions under which excluded residents influence local
+    decisions.
+scope:
+- id: SC1
+  text: Identify, with community organisations in each participating locality, the residents least present
+    in local decision-making and the practical, linguistic and social barriers that keep them away.
+- id: SC2
+  text: Run participatory heritage interpretation in community cultural spaces, such as oral-history collection,
+    neighbourhood walks or co-curated displays, in which residents define what local heritage means to
+    them.
+- id: SC3
+  text: Turn the results of heritage interpretation into facilitated deliberation in which residents agree
+    concrete proposals on a local decision still open to influence, such as the use of a public building
+    or space.
+- id: SC4
+  text: Organise a structured dialogue in which residents present their proposals to the competent local
+    authority, which responds publicly and within an agreed time on what it will take up and why.
+- id: SC5
+  text: Report back to participating residents on the authority's response and on later follow-up, using
+    the community cultural spaces and formats through which they took part.
+- id: SC6
+  text: Train staff and volunteers of the community cultural spaces to facilitate deliberation and dialogue
+    with authorities, so that they can repeat the process without project funding.
+- id: SC7
+  text: Exchange methods and results between the participating localities, including joint activities
+    in which residents from different localities compare their processes and the responses they received.
+- id: SC8
+  text: Synthesise findings across localities into recommendations on inclusion and cultural participation,
+    and present them to the EU and national policymakers responsible for those policies.
+- id: SC9
+  text: Publish, with contributors' consent, the residents' heritage interpretations in accessible formats
+    and the localities' languages.
+- id: SC10
+  text: Publish a practical method guide for community cultural organisations and local authorities, in
+    accessible formats and the localities' languages.
+exclusions:
+- id: EX1
+  text: Financial support to third parties is not permitted.
+- id: EX2
+  text: Purely academic research without direct citizen engagement is outside this fictional topic.
+- id: EX3
+  text: Activities supporting a specific European Citizens’ Initiative are excluded.
+- id: EX4
+  text: Activities rallying support for a single cause are excluded.
+- id: EX5
+  text: Festivals, performances, exhibitions or other cultural events in which residents take part only
+    as an audience, without a deliberative step leading to proposals addressed to a public authority.
+- id: EX6
+  text: Restoration, conservation or digitisation of heritage sites, objects or collections as an aim
+    in itself.
+- id: EX7
+  text: Heritage tourism promotion, destination marketing or the production of commercial cultural products.
+- id: EX8
+  text: Projects whose principal participation activities are conferences, seminars or study visits mainly
+    for professionals, officials or established civic representatives rather than excluded residents.
+    Staff training, methodological exchange and presentation of findings to policymakers remain eligible
+    where they serve the resident participation process.
+- id: EX9
+  text: Activities organised on behalf of, or promoting, a political party, candidate or electoral list.
+- id: EX10
+  text: Participatory processes on a decision that the addressed authority has already taken or over which
+    it has no competence.
+mandatory_elements:
+- id: ME1
+  text: Describe the participatory activities that constitute each event/work package.
+- id: ME2
+  text: State the planned number of direct participants for each event, using the counting rules below.
+- id: ME3
+  text: Identify the eligible countries represented in each event and give their number, using the counting
+    convention below.
+- id: ME4
+  text: State the share of the total requested EU grant assigned to each work package.
+- id: ME5
+  text: Describe how the target participants can access the planned participation activities.
+- id: ME6
+  text: Explain how the participation design addresses gender-related barriers.
+- id: ME7
+  text: Explain how citizens’ contributions influence the deliberation and subsequent policy engagement.
+- id: ME8
+  text: Where applicable, describe how personal data collected through the participation activities will
+    be protected.
+- id: ME9
+  text: Include, for each event/work package, a report on its implementation (the programme's event description
+    sheet) as a deliverable.
+- id: ME10
+  text: Include a project milestone for asking event attendees to take part in the EU Survey on Justice,
+    Rights and Values once the granting authority provides the link.
+- id: ME11
+  text: For each participating locality, identify the resident groups targeted and the evidence of their
+    under-representation in local decision-making.
+- id: ME12
+  text: For each participating locality, name the local decision that residents' proposals will address
+    and the public authority competent to take it.
+- id: ME13
+  text: Describe the arrangement agreed with each addressed authority on the form and timing of its public
+    response to residents' proposals.
+- id: ME14
+  text: Explain how passive audiences at performances, exhibitions or screenings are kept separate from
+    direct participants in the planned participant counts.
+- id: ME15
+  text: Describe how contributors decide whether their heritage contributions are published, attributed
+    or anonymised, and how they can withdraw them.
+- id: ME16
+  text: Describe how participants who could be harmed by visibility or disclosure, such as residents with
+    insecure residence status, are protected during and after the activities.
+- id: ME17
+  text: Explain how residents with disabilities, low literacy or limited command of the local language
+    take part on equal terms in the dialogue with local authorities.
+- id: ME18
+  text: Identify the EU-level policy processes or bodies on inclusion or cultural participation that will
+    receive the project's findings, and the route by which they will receive them.
+- id: ME19
+  text: List the public outputs, giving for each its format and languages and the place where it remains
+    accessible after the project ends.
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 75000
+  max_budget: 300000
+  duration_months_min: 12
+  duration_months_max: 24
+  consortium:
+    min_entities: 2
+    min_countries: 2
+    notes: 'Sub-priority 2.1: private nonprofit legal entity or public university coordinator; nonprofit
+      public/private co-beneficiaries or international organisations. Two beneficiaries from two eligible
+      CERV countries; affiliated entities and associated partners do not count.'
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: opus
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY e0f799d6-73b8-40a6-9650-6609ecbde1cf

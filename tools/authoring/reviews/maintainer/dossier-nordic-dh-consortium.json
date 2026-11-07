@@ -1,0 +1,159 @@
+{
+ "reviewer": "maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 7",
+   "where": "all files",
+   "problem": "The documents are not consistently current as of the benchmark's present date, 1 October 2026 (some are written as of 2024 or early 2025, leaving unexplained gaps before calls with 2027 deadlines).",
+   "fix": "Make every document current as of September 2026: update 'as of' dates, contract periods, CV entries, publication lists through 2026, statuses of submissions, reviews, ethics approvals and recruitments, keeping the same career stage and every fact the traps rely on (re-dated consistently). Keep all numbers internally consistent after the shift."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "all files",
+   "problem": "Names of people, institutions, companies, projects or journals may collide with real ones.",
+   "fix": "Replace every person name with a coined, distinctive name (no common names such as Matteo Rossi); replace every real institution, research centre, archive, company, project or journal name of the applicant's world with a fictional one; the applicant's own publications appear in fictional journals. Real funders, real places and real funding schemes stay."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "consortium.md, OptiControl GmbH; corresponding references in brief.md and dossier.yaml",
+   "problem": "OptiControl is already the name of a real building-control research project. Reusing it for a fictional predictive-control company in the same field creates precisely the search confusion prohibited by the fiction requirement.",
+   "fix": "Replace OptiControl with a distinctive fictional company name throughout the bundle."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "prior_project.md, section 4.1 Stratification; resources.md, section 2.3; dossier.yaml, F09",
+   "problem": "The report claims a thermocline thinner than 1.5 metres during 85% of operational time, but its denominator includes only observations selected for active stratification. Those 245,500 timestamps are approximately 85.0% of the full 288,864-timestamp grid. A percentage calculated within this selected subset cannot establish the stated percentage of all operational time.",
+   "fix": "Specify the actual numerator and denominator. If 85% refers to eligible observations, describe it as such and limit the conclusion to periods of active stratification. If it refers to all operational time, provide the corresponding calculation and explain treatment of excluded periods. Update F09."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml, facts, especially F17 and F24",
+   "problem": "The registry omits consequential resource statuses and restrictions. F24 does not record that the 15 instrumented blocks are already renovated, their measurement channels or their 15-minute sampling interval. F17 omits municipal building permits from the conditions on new pilot installations. These omissions affect whether a proposal correctly distinguishes existing data access from permission to conduct new research.",
+   "fix": "Add explicit facts for renovation status, sensor channels and sampling interval. Record tenant consent and municipal permits as separate conditions, and distinguish secured building-data access from unapproved new installations and health-study recruitment."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml, facts; cv_coordinator.md; resources.md; prior_project.md",
+   "problem": "Numerous quotable numbers and statuses lack registry coverage, including the coordinator's appointments and other grant budgets, supervision counts, the research team's staffing counts, OptiControl's 2025 patent status, and the reported net emissions saving of 3,850 tonnes CO2-equivalent annually. The registry therefore cannot support complete checking of proposal claims against the supplied dossier.",
+   "fix": "Add facts for the remaining salient achievements, staffing, grants, resource statuses and results, preserving units, dates, uncertainty and qualifications from their source passages."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "cv_coordinator.md and all occurrences of Søren Vestergaard",
+   "problem": "Søren Vestergaard is the name of a real Danish music producer. The fictional-document notice does not satisfy the requirement that invented people avoid collisions with real public figures.",
+   "fix": "Replace the coordinator's name throughout the brief, dossier, publication authors, citation keys and hidden registry with a distinctive fictional name."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "prior_project.md, sections 1 and 4.1; resources.md, section 2.3",
+   "problem": "The report presents three seasonal efficiencies but defines each efficiency using annual charge and discharge between equal inventory endpoints. Commissioning in September 2020 and monitoring from 1 October 2020 to 30 June 2023 provide only 1,003 days, insufficient for three complete annual cycles. Three heating seasons fit these dates; three annual storage balances do not.",
+   "fix": "Give explicit measurement windows for each efficiency. Report two complete annual balances and a separately identified partial third period, or consistently extend commissioning, monitoring and reporting dates. Recalculate the pooled efficiency and uncertainty using the corrected windows."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "prior_project.md, section 4.1, Stratification; dossier.yaml, F09",
+   "problem": "The claim that the thermocline was thinner than 1.5 m during 85% of operational time is supported by a sample already filtered to periods of active stratification. That conditional sample cannot establish the fraction of all operational time without the excluded periods and denominator being accounted for. The eligible 245,500 timestamps themselves comprise approximately 85% of the nominal monitoring timestamps, further obscuring which percentage is intended.",
+   "fix": "State the number of eligible timestamps meeting the thickness threshold and report the percentage explicitly among eligible observations. If retaining an all-operation claim, provide its separate numerator, denominator and treatment of missing or unstratified periods."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2",
+   "where": "prior_project.md, sections 2 and 4.2, annual energy flows and net emissions",
+   "problem": "The net emissions estimate cannot be reconciled with a documented annual heat-pump energy balance. Subtracting 3,850 from 4,242 tonnes and dividing by 0.135 tCO2e/MWh implies approximately 2,904 MWh/year of heat-pump electricity. At COP 3.1 this produces approximately 9,001 MWh/year of heat, but neither electricity consumption nor operating hours nor the allocation between storage charging and direct network supply is reported. A continuous waste-heat stream does not establish how much was actually recovered.",
+   "fix": "Add the measured annual heat-pump electricity consumption, recovered heat, delivered heat and operating period, with uncertainty. Distinguish available waste heat from recovered heat, identify direct-to-network flows, and show the emissions calculation and accounting boundary."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml, facts",
+   "problem": "The registry omits several proposal-relevant quantities and qualifications: the explicit 54-month duration and extension, individual seasonal efficiencies, 2.5 MW waste-heat availability, 30°C source temperature, COP 3.1, net emissions savings, economic comparison dates and price assumptions, team composition, and repository completeness figures. Access qualifications are also abbreviated: F17 omits municipal permits, and F15 does not preserve the conditional SCADA access and GDPR review.",
+   "fix": "Add facts containing these exact values and qualifications. Preserve the distinction between secured datasets, conditional demonstration access and proposed installations, and register the corrected measurement windows and denominators."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4; Task 1",
+   "where": "brief.md, proposed pilots; consortium.md, AlpenWärme and WoonStichting profiles",
+   "problem": "The claimed close fit lacks enough site evidence to support a competitive implementation plan. The Austrian network has conditional access but no documented candidate storage site, supply temperature or heat sources. The Dutch evidence establishes building-data access, not a district network connecting the blocks. The new Danish site has no identified operator or location. None of the proposed pilots has a documented basis for integrating two sources and obtaining two complete seasonal cycles within 48 months.",
+   "fix": "Add short candidate-site notes specifying known network connections and temperatures, prospective heat sources, storage options, access and permitting status, and indicative commissioning schedules. Explicitly mark unconfirmed elements as planned. If these remain entirely prospective, revise the close-fit designation and brief to acknowledge a site-development task."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "consortium.md, partner 3; resources.md and dossier.yaml, UPOM references",
+   "problem": "University of Pomerania collides with the real university in Słupsk, Poland. The fictional-document notice does not resolve this institutional name collision.",
+   "fix": "Invent a distinct Polish institution name and update its acronym, affiliations and resource references throughout the dossier."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2",
+   "where": "prior_project.md, section 2, Nordby site description",
+   "problem": "Nordby is presented as a Danish municipality with 18,000 inhabitants. This does not accurately describe the real Danish places named Nordby, and the document does not identify a fictional municipality or a separately defined service area.",
+   "fix": "Use an explicitly fictional municipality with a distinct invented name, or accurately locate the pilot and define the 18,000 inhabitants as a fictional network service population. State the year and denominator for the 92% household connection rate."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "prior_project.md, sections 2 and 4.1, annual energy balance and thermal losses",
+   "problem": "The 'annual charge/discharge balance' of 12,500 MWh does not identify input, output or throughput. At 78% efficiency, those quantities differ. Assigning the remaining 22% entirely to heat losses also requires accounting for the change in stored energy, which is particularly relevant during commissioning and the reported 18-month stabilization period.",
+   "fix": "Give measured annual charge, discharge and start/end stored energy, define the efficiency calculation and calculate losses from the resulting balance. If 12,500 MWh is annual input and inventory change is zero, identify output as 9,750 MWh and losses as 2,750 MWh; otherwise provide the actual consistent quantities."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2 and Dossier 4",
+   "where": "prior_project.md, section 4.1, efficiency confidence interval and thermocline observations",
+   "problem": "The 78% efficiency confidence interval is attributed to daily energy balances without a sample size, treatment of serial dependence or explanation of seasonal inventory effects. Daily discharge/input ratios are not interchangeable with seasonal storage efficiency. The 245,500 five-minute observations describe thermocline monitoring, not independent efficiency replicates.",
+   "fix": "Report efficiency for each of the three seasons, identify the pooled estimator and usable monitoring sample, and explain how meter uncertainty and temporal dependence produce the interval. Distinguish uncertainty in the observed energy balance from variability across seasons."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2 and Dossier 4",
+   "where": "prior_project.md, section 4.2, heat production cost reduction",
+   "problem": "The 12 EUR/MWh estimate lacks an analysis sample size and a reproducible comparison basis. A '2021–2023 average' is ambiguous in a project ending on 30 June 2023. Weather normalization alone does not establish a comparable cost basis across 2018 and 2021–2023, when changes in fuel and electricity prices can dominate the result.",
+   "fix": "Specify the exact observation dates, sample size, included operating costs, price year, treatment of fuel and electricity prices, baseline system configuration and confidence-interval method. Identify whether the result is an observed accounting difference or an estimated effect of the intervention."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2 and Dossier 4",
+   "where": "prior_project.md, section 4.2, fossil fuel displacement and emissions",
+   "problem": "The arithmetic is correct: (25,000 − 4,000) × 0.202 = 4,242. However, the report does not say whether boiler MWh denotes fuel input or delivered heat. The emission factor must use the same basis. It also labels the result CO2 equivalent despite specifying a CO2 factor, leaves the confidence interval unexplained, and does not distinguish avoided boiler emissions from net savings after heat-pump electricity use.",
+   "fix": "Define the boiler energy basis and factor boundary, include boiler efficiency if converting heat output to fuel input, and label the result as gross avoided combustion CO2 if that is what was calculated. Provide the uncertainty inputs and sample size. Calculate net CO2-equivalent savings separately if claimed."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2",
+   "where": "resources.md, section 2.3; prior_project.md, section 4.1",
+   "problem": "The stated 1,003 days imply 288,864 five-minute timestamps and 40,440,960 nominal channel values, so the repository total effectively assumes a full acquisition grid. The report separately gives only 245,500 valid thermocline observations, leaving 43,364 timestamps unexplained. These statements can coexist, but the dossier does not distinguish raw measurements, invalid readings, filled values and timestamps eligible for thermocline analysis.",
+   "fix": "Report actual measured, valid, missing and imputed counts, explain the thermocline eligibility filter, and state whether 'complete, cleaned' means complete coverage or a complete collection of the available records. Update the repository fact accordingly."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml, facts F01–F21",
+   "problem": "The registry omits numerous quotable capabilities and methodological qualifiers: exact project and commissioning dates; storage operating range and annual energy quantity; solar-field and heat-pump specifications; thermocline result and sample size; boiler baseline and follow-up values; emissions factor and interval; exclusion of storage capital costs; team composition; 5 MW simulator; monitoring dates and sampling intervals; and current compressor testing status. F06 drops 'approximately' from its value and F20 drops 'over'. Dedicated HPC access is also absent from F19.",
+   "fix": "Add facts for these quantities, statuses and limitations, preserving units, uncertainty, approximation qualifiers and analysis boundaries. Ensure each substantial numerical or capability claim available to a proposal has a corresponding sourced fact."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3 and Task 1",
+   "where": "consortium.md, AlpenWärme and WoonStichting profiles; dossier.yaml, resource and partner facts",
+   "problem": "The dossier distinguishes deployed sensors from potential future demonstrations only loosely. AlpenWärme 'can provide access' and WoonStichting 'can facilitate pilot installations', but neither statement establishes whether access, data permissions or a demonstration commitment is secured. These distinctions matter when describing implementation readiness.",
+   "fix": "State the current commitment and permission status for each prospective site and dataset. Register existing sensor access separately from proposed installations and conditional demonstration access, including any approvals or agreements still needed."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Task 2 and Dossier 5",
+   "where": "planned tasks, pub-he-heatstorage-close compressor trap; consortium.md, OptiControl profile",
+   "problem": "The planned trap treats proposing a partner that develops compressors as equivalent to proposing excluded compressor-development work. The dossier establishes an existing partner's separate hardware activity, but not that the proposed project would fund that activity. A partner's capabilities alone do not establish a scope violation unless the call expressly excludes such entities.",
+   "fix": "If the exclusion concerns research activities, make the eventual brief naturally propose a concrete compressor-development task within the project. Preserve the possibility of using OptiControl for eligible control work. If the exclusion instead concerns entities, state the relevant partner status unambiguously and align the trap with that exact eligibility rule."
+  }
+ ]
+}

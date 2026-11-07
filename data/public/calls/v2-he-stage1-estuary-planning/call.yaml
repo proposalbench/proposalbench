@@ -1,0 +1,117 @@
+schema_version: 1
+id: v2-he-stage1-estuary-planning
+scheme: horizon_stage1
+language: en
+title: Equitable adaptation to compound flooding in estuarine urban areas
+topic_code: PB2-HE-S1-ESTUARY-02
+proposal_type: stage1
+length_contract:
+  max_words: 5000
+  enforcement: disregard_excess
+  tolerance: 0.0
+  exempt: []
+  page_limit: 10
+  words_per_page: 500
+  source_note: 'Verified 2026-10-31. https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia-stage-1_en.pdf;
+    https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf.
+    Benchmark conversion: 10 pages x 500 words/page = 5000 words; prose estimate, not a funder word-count
+    rule. Tables and captions count.'
+required_sections:
+- id: '1'
+  title: Excellence
+- id: '1.1'
+  title: Objectives and ambition
+  parent: '1'
+- id: '1.2'
+  title: Methodology
+  parent: '1'
+- id: '2'
+  title: Impact
+- id: '2.1'
+  title: Project’s pathways towards impact
+  parent: '2'
+expected_outcomes:
+- id: EO1
+  text: Urban planning and water management authorities can use credible evidence on interacting estuarine
+    flooding and urban drainage to choose spatial adaptation options under uncertain future conditions.
+- id: EO2
+  text: Authorities and affected communities can identify how adaptation options redistribute flood exposure,
+    benefits and burdens across neighbourhoods and population groups, supporting decisions that address
+    existing inequalities.
+- id: EO3
+  text: Residents, including groups poorly represented in planning processes, have an evidenced route
+    to influence adaptation choices and understand the consequences for their neighbourhoods.
+- id: EO4
+  text: Authorities in other estuarine urban areas can judge which findings are transferable and under
+    what physical, social and planning conditions.
+scope:
+- id: SC1
+  text: Characterise interactions between estuarine water levels, river flows, rainfall and urban drainage
+    under current and plausible future conditions, including coincident events and drainage constraints.
+- id: SC2
+  text: Establish physical evidence through observations or validated simulations, documenting fitness
+    for the intended spatial decisions and limitations in representing relevant flood and drainage processes.
+- id: SC3
+  text: Compare spatial adaptation options against an explicit reference scenario, including land-use
+    planning, water retention, nature-based measures or changes to drainage operation.
+- id: SC4
+  text: Translate physical evidence into spatially explicit estimates of residents’ exposure for each
+    option, accounting for the location and use of housing, public space and essential services.
+- id: SC5
+  text: Assess how exposure changes, adaptation costs, access to benefits and potential displacement are
+    distributed across population groups and neighbourhoods, including effects transferred beyond intervention
+    areas.
+- id: SC6
+  text: Propagate uncertainty from physical processes, future development and social conditions through
+    the comparison of options, identifying decisions that remain credible across plausible assumptions.
+- id: SC7
+  text: Co-design adaptation options and assessment priorities with residents, planning authorities and
+    drainage managers, providing accessible ways for underrepresented groups to participate.
+- id: SC8
+  text: Compare findings across contrasting estuarine urban settings to identify transferable relationships
+    and the contextual limits of applying them elsewhere.
+exclusions:
+- id: EX1
+  text: Construction of permanent flood barriers; comparative assessment of such options and temporary
+    monitoring installations remain within scope.
+- id: EX2
+  text: Routine drainage infrastructure renewal or expansion presented as the principal project activity.
+- id: EX3
+  text: Standalone flood forecasting or hazard mapping without an explicit connection to spatial planning
+    choices and the distribution of residents’ exposure.
+mandatory_elements:
+- id: ME1
+  text: Explain how the methodological concepts, models and assumptions enable the project objectives.
+- id: ME2
+  text: Address sex and gender analysis in the research content, or give a project-specific justification
+    for its irrelevance.
+- id: ME3
+  text: Explain the open science practices used in the methodology, with project-specific reasons for
+    any exceptions.
+- id: ME4
+  text: Explain the causal route by which the project results would deliver the stated topic outcomes
+    for the target beneficiaries.
+- id: ME5
+  text: Explain how resident-level data linked to spatial exposure estimates will be protected against
+    re-identification of individuals or households in published maps, datasets and other outputs.
+- id: ME6
+  text: Specify how disagreements among residents, planning authorities and drainage managers about adaptation
+    options will be recorded and reflected in the comparison of options.
+eligibility:
+  budget_in_narrative: false
+  currency: EUR
+  max_budget: 5000000
+  duration_months_min: 36
+  duration_months_max: 48
+  consortium:
+    min_entities: 3
+    min_countries: 3
+    notes: At least three independent legal entities in three different EU Member States or Associated
+      Countries, at least one in an EU Member State. Only eligible beneficiaries count; associated partners
+      do not satisfy the minimum. The minimum applies at first-stage submission and at the second stage.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 77b1b054-5dd3-48f7-9d73-15bdb4a506fd

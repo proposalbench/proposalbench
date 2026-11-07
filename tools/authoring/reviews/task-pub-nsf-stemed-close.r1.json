@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub-nsf-stemed-close",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "brief.md, team_resources.md, and dossier.yaml (F20)",
+      "problem": "The call's submission date is September 2027, meaning the project would start in 2028. However, the brief and dossier state that Yuna Park's postdoc appointment runs through August 2025 and that she would be 'available at the start'. This timeline is inconsistent and makes the instruction unachievable.",
+      "fix": "Shift Yuna Park's dates forward to align with a 2027 submission (e.g., appointed September 2026, funded through August 2028) in `brief.md`, `team_resources.md`, and `dossier.yaml`."
+    }
+  ]
+}

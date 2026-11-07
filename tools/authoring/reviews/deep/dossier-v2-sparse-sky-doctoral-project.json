@@ -1,0 +1,81 @@
+{
+  "kind": "dossier",
+  "id": "v2-sparse-sky-doctoral-project",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "cv_hlubocky.md: “Silesian Institute of Technology, Czech Republic”.",
+      "problem": "This is confusingly close to real Silesian technical institutions in Gliwice, Poland. The exact English form appears as an academic affiliation in a Qualicer conference record; Silesian University of Technology and Łukasiewicz–Upper Silesian Institute of Technology have official institutional sites. Relocating the name to the Czech Republic does not make it safely fictional.",
+      "fix": "Replace the bachelor's institution with “Velrava Institute of Mathematical Sciences, Czech Republic”. No exact-phrase result was found for this replacement on 2026-10-31. Preserve the 2017–2021 dates and degree.",
+      "evidence": [
+        "https://www.qualicer.org/recopilatorio/ponencias/descargar.php?anyo=2010&idfile=2010244&lang=eng",
+        "https://www.polsl.pl/en/",
+        "https://git.lukasiewicz.gov.pl/en/contact/",
+        "data/public/dossiers/v2-sparse-sky-doctoral-project/cv_hlubocky.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "cv_hlubocky.md, phd_progress_report.md, resources_and_agreements.md and publications.md: “Milena Hrubá”; dossier.yaml F04 and own_publications: “Hrubá, M.”.",
+      "problem": "The full name has public real-world matches, including an academic thesis author (Ing. Milena Hrubá, M.A.) and a named municipal-election candidate. This does not establish that a real astrophysics professor has that name, but it fails the user's strict full-name/public-figure collision requirement.",
+      "fix": "Rename the fictional supervisor “Milena Vranokvětová” throughout all dossier files and hidden facts; use “Vranokvětová, M.” in publication authors. Propagate Prof. Vranokvětová to both linked sky-task briefs. Exact replacement search returned no result on 2026-10-31. Do not change DOI suffixes, dates or sponsor status.",
+      "evidence": [
+        "https://theses.cz/id/07j3bu/",
+        "https://programydovoleb.cz/volby/komunalni-volby/176/kandidat/1294877",
+        "data/public/dossiers/v2-sparse-sky-doctoral-project/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "resources_and_agreements.md §3: “external cloud services (e.g., AWS, Google Cloud, or external academic grids)”.",
+      "problem": "AWS and Google Cloud are real commercial providers. The user's fiction requirement explicitly covers companies; these names are unnecessary to make the contractual raw-frame restriction decidable.",
+      "fix": "Replace the parenthesis with “including commercial cloud providers and external academic computing grids”. Keep the ban on raw telescope images and logbook scans and the permission for qualifying derived data/public simulations unchanged.",
+      "evidence": [
+        "https://www.aboutamazon.com/what-we-do/amazon-web-services",
+        "https://cloud.google.com/",
+        "data/public/dossiers/v2-sparse-sky-doctoral-project/resources_and_agreements.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "phd_progress_report.md §3: “20 synthetic point sources ... randomly into a single ... (4096 × 4096 pixels)” and “The 4 missed sources violated the 2 FWHM separation condition”; PSF FWHM 3.2 pixels.",
+      "problem": "The crowding explanation is implausible for an ordinary independent uniform draw over this image. Separation threshold is 6.4 pixels; the expected number of close pairs is at most C(20,2)π(6.4)^2/4096²≈0.00146, before boundary correction. Four crowded sources require multiple close pairs or a cluster. Random positions could be deliberately clustered, but no such sampling design is stated. This is a scientific-realism defect, not an arithmetic error in 16/20.",
+      "fix": "Replace the random-placement sentence with: “The primary frame was a deliberately constructed stress test: 16 isolated sources were placed at least 6.4 pixels from every other source; four additional sources were arranged as two pairs with 3-pixel within-pair separation, away from the isolated sources. Each source had flux 150 photons.” State that the four missed sources were those deliberately crowded sources. Update F10/F14 and the 2026 publication summary. Label the 16/20 binomial interval descriptive, not a generalisable detection-efficiency estimate for this non-random design.",
+      "evidence": [
+        "data/public/dossiers/v2-sparse-sky-doctoral-project/phd_progress_report.md",
+        "data/public/dossiers/v2-sparse-sky-doctoral-project/dossier.yaml",
+        "https://arxiv.org/abs/1707.00808"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "phd_progress_report.md §2: “guarantees the unique recovery of point sources” under “Strictly bounded noise”; publications.md 2025 summary: “proofs for unique recovery assuming a known PSF”.",
+      "problem": "The report still conflates noiseless exact identification with noisy stability. Knowing a PSF, a nonzero error bound, separation and a minimum amplitude does not uniquely identify arbitrary continuous source amplitudes: a sufficiently small amplitude perturbation can be absorbed into another admissible noise vector. A unique optimizer would also not establish exact recovery of the true signal. The literature explicitly distinguishes exact noiseless recovery from noisy localisation/amplitude bounds.",
+      "fix": "Use: “The completed result establishes unique recovery in the noiseless case and conditional bounds on amplitude error and source localisation under bounded noise, for the stated sampling operator, known spatially invariant PSF, minimum separation and amplitude assumptions. It does not claim exact identification of the true amplitudes under arbitrary nonzero noise.” Apply this distinction to the 2025 publication summary and F07/F08/F16; keep empirical detection performance separate. Do not invent an explicit numerical error constant absent from the source.",
+      "evidence": [
+        "https://arxiv.org/abs/1707.00808",
+        "https://arxiv.org/abs/1302.3921",
+        "data/public/dossiers/v2-sparse-sky-doctoral-project/phd_progress_report.md",
+        "data/public/dossiers/v2-sparse-sky-doctoral-project/publications.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all four Markdown files/YAML; notices present, all dated 30 September 2026; education 2017–2021/2021–2023/PhD 2023–2027 is chronologically possible. All non-null values across the 28 registered facts literally occur in their cited files.",
+    "Confirmed G1 quotation and G2 retrieval turnaround are truly absent and not derivable. G1 is conditional on external compute, correctly allows local-only design. Archive permission exists while retrieval of the specified 1998–2010 records remains requested; these are different statuses, not a contradiction.",
+    "Recomputed 4096²=16,777,216 pixels, 16/20=80%, exact binomial 95% interval [56.3386%,94.2666%], −ln(.05)=2.99573 expected false positives/frame and 0.178559 per million pixels. Existing reported rounding is correct. The 500 scaling frames are expressly separated from the one quantitative test frame.",
+    "Host support ends June 2028; later project activity must treat extension as prospective. Named sponsor responsibility is already agreed. Local raw-frame processing, derived-data exceptions, no waiver, 20% overhead and missing compute quotation are all explicitly documented.",
+    "Searches covered Radim Hlubocký, Milena Hrubá, both universities/institutes, Moravian Stellar Observatory, Central European Astronomical Society, named workshop and all three journals; collision findings above distinguish real matches from unmatched names. No known exact collision found for Radim Hlubocký or the invented observatory.",
+    "All three 10.99999/pb. publication records agree with the visible list. Method literature supports sparse-recovery research but does not verify the fictional theorem. The archival extension now correctly treats sparsity and outcome-dependent selection as assumptions to test rather than established identification."
+  ]
+}

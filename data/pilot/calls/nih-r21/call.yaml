@@ -1,0 +1,80 @@
+schema_version: 1
+id: nih-r21
+scheme: nih_r21
+language: en
+title: Exploratory studies of intracellular antibiotic persistence
+topic_code: PB-NIH-R21-2026-01
+proposal_type: full
+
+length_contract:
+  max_words: 4200
+  enforcement: inadmissible
+  tolerance: 0.03
+  counted_sections: [aims, strategy]
+  exempt: [references, title]
+  per_section_max_words:
+    aims: 600
+    strategy: 3600
+  page_limit: 7
+  words_per_page: 600
+  source_note: >-
+    PA-25-304 and the NIH Table of Page Limits specify 1 page of Specific Aims and
+    6 pages of Research Strategy, separately binding. NIH Format Attachments permits
+    Arial 11 pt on US Letter with minimum 0.5-inch margins, no more than 15 characters
+    per inch and 6 lines per vertical inch. Benchmark estimate: 50 prose lines x
+    12 words = 600 words/page, allowing paragraph and heading space. Tables count;
+    title and references do not. Section ceilings cannot be pooled. Sources checked
+    2026-10-30; URLs are in call.md. This conversion is not NIH policy.
+
+required_sections:
+  - {id: aims, title: Specific Aims}
+  - {id: strategy, title: Research Strategy}
+  - {id: significance, title: Significance, parent: strategy}
+  - {id: innovation, title: Innovation, parent: strategy}
+  - {id: approach, title: Approach, parent: strategy}
+
+expected_outcomes:
+  - id: EO1
+    text: Establish feasibility and limitations of a quantitative assay connecting intracellular bacterial state to antibiotic survival and subsequent regrowth.
+  - id: EO2
+    text: Test one host-context explanation for heterogeneous survival while distinguishing reversible tolerance or persistence from inherited resistance and differences in antibiotic access.
+  - id: EO3
+    text: Produce evidence and explicit decisions for advancing to a larger mechanistic study, including interpretation of negative and technically inconclusive findings.
+
+scope:
+  - id: SC1
+    text: Exploratory laboratory research on Staphylococcus aureus at the host-cell interface, with a small justified set of models, comparisons, and orthogonal readouts.
+  - id: SC2
+    text: Explain model relevance and limits; do not equate fluorescence with viability, persistence, or clinical benefit.
+  - id: SC3
+    text: The R21 should pursue a new direction with a plausible scientific payoff rather than a scaled-down incremental program; broad screens and comprehensive clinical validation are not expected.
+
+exclusions:
+  - {id: EX1, text: Clinical trials as defined by NIH are not allowed.}
+
+mandatory_elements:
+  - {id: ME1, text: Specific objectives and expected scientific contribution appropriate to an exploratory project.}
+  - {id: ME2, text: Critical appraisal of the rigor of supporting published or unpublished evidence and an Approach that addresses its weaknesses; preliminary data are optional.}
+  - {id: ME3, text: "Experimental units, sample-size rationale, controls, measures against bias, and plans for data collection, analysis, and interpretation."}
+  - {id: ME4, text: "Feasibility strategy, anticipated problems, alternatives, and success criteria achievable within 24 months."}
+  - {id: ME5, text: "Relevant biological variables such as sex and age in design and analysis, with justified restrictions and human inclusion considerations only where applicable."}
+  - {id: ME6, text: Scientific use of personnel and resources grounded in actual expertise and access; planned resources cannot be presented as already secured.}
+  - {id: ME7, text: Identify relevant hazards and protections in the Approach; discuss sample and reagent quality where it affects inference without requiring separate compliance attachments.}
+
+eligibility:
+  budget_in_narrative: false
+  currency: USD
+  max_budget: 275000
+  duration_months_max: 24
+
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: 2026-10-30
+  notes: >-
+    Fictional topic and notice; NIH rules paraphrased from PA-25-304 and current
+    official guidance. The separate USD 200,000 annual direct-cost ceiling is
+    explicit in call.md; Eligibility has no annual-budget field.
+
+canary: PROPOSALBENCH-CANARY b6d82346-fd0f-4895-a5d6-efccaf4665cf

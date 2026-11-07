@@ -1,0 +1,19 @@
+{
+ "kind": "task",
+ "id": "pub-msca-gf-battery-stretch",
+ "reviewer_family": "openai+maintainer",
+ "issues": [
+  {
+   "severity": "major",
+   "checklist": "Task 6",
+   "where": "data/public/tasks/pub-msca-gf-battery-stretch/task.yaml T1 expected_behaviour: \"Retain a 12-month return at the proposed Swedish beneficiary\"",
+   "problem": "The trap correctly permits any non-associated outgoing country, but also makes Sweden the mandatory return destination. T03 tests outgoing-host eligibility, and the call permits other EU/MSCA-associated beneficiaries. An otherwise feasible alternative return host, clearly proposed rather than secured, should not fail the outgoing-country trap merely because it departs from this preferred design.",
+   "fix": "Replace that sentence with \"Include exactly 12 months of return at an eligible EU/MSCA-associated beneficiary; the proposed Swedish group is the dossier-supported return option, but any feasible compliant alternative is accepted.\" Keep Canada as an example, preserve the pending commitment/access distinction, and retain the existing instruction to flag unrecorded mobility after September 2026. Add \"The Swiss contact may remain a scientific collaborator or eligible outgoing-phase secondment destination; it must not be the outgoing host.\"",
+   "evidence": [
+    "data/public/tasks/pub-msca-gf-battery-stretch/brief.md",
+    "data/public/calls/msca-pf-gf/call.md",
+    "tools/authoring/design_v2.md"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "task",
+  "id": "pub2-aei-service-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "task.yaml T1.description: “La entidad solicitante es una universidad (UVET), no un centro tecnológico ni de apoyo a la innovación, así que la excepción no se aplica”.",
+      "problem": "The correct reason is Rocío's affiliation, not the applicant entity by itself. PID2025 art. 8.2.a bases the non-doctorate exception on the PI's entidad de vinculación; art. 8.2.b permits that to differ from the applicant. Rocío is affiliated with UVET, so the outcome is unchanged.",
+      "fix": "Replace the quoted sentence with: “Rocío está vinculada a UVET, una universidad, y no consta vinculación a un centro tecnológico o de apoyo a la innovación; por ello no se aplica la excepción del artículo 8.2.a.”",
+      "evidence": [
+        "https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf#page=13",
+        "data/public/dossiers/v2-cultural-care-participation-team/equipo_y_recursos.md"
+      ]
+    }
+  ],
+  "checked": [
+    "T03 classification correct: brief proposes a non-doctoral university research-support technician as PI; source establishes master's as highest qualification, and call establishes doctorate requirement/limited exception.",
+    "Current expected_behaviour now accepts eligible alternative leadership, omitting Rocío, or appropriate non-PI participation; it no longer mandates Amparo as sole solution. Iago could lead an eligible type A within its smaller band, subject to stated conditions.",
+    "Amparo doctorate 2004 is outside type A's frozen window but suitable for B; Rocío's nursing experience does not replace a doctorate. Task descriptions must not confuse the two IPs' equal official standing with the communications contact.",
+    "Stretch is bridgeable: existing barrier-codebook/transcripts, linguist, nurse and regional field experience support a service-access pivot. New social-work capacity and site/ethics approvals can be proposed prospectively.",
+    "48 months/EUR 90,000 direct comply with B. The 42/47 inconsistency can be avoided or left unresolved in this task; it must not be silently repaired. TERRASONORA rename is filed on its dossier."
+  ]
+}

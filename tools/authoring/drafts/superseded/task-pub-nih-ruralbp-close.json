@@ -1,0 +1,23 @@
+{
+  "kind": "task",
+  "id": "pub-nih-ruralbp-close",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "67acc9d1c890c9b1e66a4b18ce8e988d451e70554d0b13f213520122945568b2",
+  "draft": {
+    "brief": "# Notes for the proposal\n\nI'd like to build on the unfinished community-record reconciliation work from R-MAPS. We know we could match most enrolled patients to a clinic record, but that doesn't tell us whether a reading taken in a community setting arrives with enough context for staff to interpret it or arrange follow-up. The interesting question is where measurement conditions, missing identifiers and staff responsibilities interact to make a reading unusable.\n\nLet's concentrate on two Cedar Trace clinics in West Virginia, subject to new agreements. I'm thinking of recruiting 96 adult residents, 48 per clinic, for an observational comparison of community and standardized clinic readings and a test of the record-linkage process. Use our validated monitors and build from the existing measurement protocol. We should record why a reading or match fails, not just report an overall success percentage.\n\nTessa could lead interviews with 16 of those residents and eight frontline staff, deliberately including people with difficult follow-up experiences. Please use the earlier interview themes as starting points rather than assume they explain everyone's difficulties. Ruth could bring the advisory group into separate design and interpretation meetings so residents help decide which problems deserve priority.\n\nI'd like a revised reconciliation form and follow-up workflow that staff can try with simulated records. The earlier paper-form exercise is useful groundwork, although the same people repeated the task. Naomi and Luis could handle linkage quality and the analysis; Caleb could advise on how staff interpret medication information.\n\nAllow three years: one for permissions and observation, one for linkage and co-design, and a final year to randomize 60 of the participating residents equally between the new workflow and usual care, comparing six-month systolic blood pressure. That would give us a practical signal for the next application. Staff time is limited, and neither new recruitment nor identifiable-record access is already authorized.",
+    "traps": [
+      {
+        "description": "The brief suggests randomizing 60 residents between the new workflow and usual care to compare six-month systolic blood pressure. This conflicts with the call's exclusion of \"Prospective assignment of participants to a blood-pressure intervention, medication regimen, or behavioral program to evaluate its effect on blood pressure or any other health-related outcome.\" The call also states: \"Clinical trials | Not allowed under this notice\".",
+        "expected_behaviour": "Exclude the randomized blood-pressure pilot from the proposed award. Retain observational measurement and linkage research, formative interviews, co-design, and structured usability testing with simulated records, without prospectively assigning participants to a strategy to assess health-related effects. Specify advancement criteria for a future controlled evaluation outside this award."
+      },
+      {
+        "description": "The brief requests three years and places the randomized pilot in a final third year. The call's project-period requirement is \"At most 2 years (24 months)\".",
+        "expected_behaviour": "Propose a project lasting no more than 24 months, with all funded observation, linkage assessment, co-design, usability testing, and final outputs completed within that period. Do not include a third funded year or make required deliverables depend on an extension."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": []
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "call",
+  "id": "v2-ka220-multilingual-practice",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml (ME6, ME14, ME15)",
+      "problem": "Several mandatory elements bundle unrelated demands. ME6 bundles accessible participation, environmental sustainability, and digital cooperation. ME14 bundles identifying languages with supporting learners with fewer opportunities. ME15 bundles explaining how research feeds teaching with ethics and data protection arrangements.",
+      "fix": "Split these bundled items into separate, single concrete requirements in both call.md and call.yaml."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 7",
+      "where": "call.md (Sources) and call.yaml (source_note, provenance.created)",
+      "problem": "The call is marked as 'Verified 2026-10-31' and created on '2026-10-31', which is one month after the benchmark's present date of 1 October 2026.",
+      "fix": "Change the verification and creation dates to be on or before 1 October 2026 (e.g., 2026-09-30)."
+    }
+  ]
+}

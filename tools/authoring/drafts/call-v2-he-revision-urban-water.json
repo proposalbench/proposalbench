@@ -1,0 +1,109 @@
+{
+  "kind": "call",
+  "id": "v2-he-revision-urban-water",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "6b292650322bc969dbe49df23e415fd96d1fdf820cb0837fc482b8f565c2a875",
+  "draft": {
+    "title": "Integrated management of storm runoff and contamination in urban catchments and receiving waters",
+    "expected_outcomes_intro": "Project results are expected to contribute to all of the following expected outcomes:",
+    "expected_outcomes": [
+      "Municipalities and water authorities deploy validated warning systems for storm-induced contamination events in receiving waters.",
+      "Urban planners and environmental agencies implement evidence-based decision-making frameworks to mitigate runoff pollution from urban and coastal catchments.",
+      "Citizens and local stakeholders are better informed about water quality risks.",
+      "Citizens and local stakeholders actively participate in the co-design of runoff mitigation strategies.",
+      "Reduced lag time between extreme precipitation events and the deployment of protection measures in affected waters, measured against a defined baseline and methodology."
+    ],
+    "scope_intro": "Climate change and urbanisation are intensifying extreme precipitation events, leading to severe storm runoff that overwhelms urban drainage systems. This runoff carries a complex mixture of chemical and biological contaminants into receiving waters, including rivers, lakes, and coastal zones, posing significant risks to public health and aquatic ecosystems. Current warning systems often lack the spatial resolution and predictive accuracy required for timely municipal interventions.\n\nProposals should develop and validate integrated monitoring and predictive tools that link urban catchment dynamics with the water quality of receiving bodies. The solutions must provide actionable data for local authorities to manage contamination risks effectively.",
+    "scope": [
+      "Develop predictive models linking storm intensity, urban surface runoff, and contaminant transport to receiving waters, explicitly specifying and justifying the chosen spatial and temporal resolution.",
+      "Design and deploy sensor networks or integrate existing data streams to monitor runoff across urban and coastal catchments, explicitly defining the dimensions of pilot diversity.",
+      "Validate warning systems for contamination events in at least three pilot municipalities, specifying the target warning latency and the municipality-specific acceptance criteria to be met.",
+      "Create decision-support frameworks that enable municipal authorities to evaluate and select cost-effective runoff mitigation and public health protection measures.",
+      "Establish clear adoption routes for the developed tools, including guidelines for integration into existing municipal water management and emergency response protocols."
+    ],
+    "exclusions": [
+      "Proposals focusing solely on the structural redesign or physical upgrading of existing municipal wastewater treatment plants or combined sewer overflow infrastructure.",
+      "Research limited to the laboratory-scale analysis of novel contaminants without field validation in urban catchments."
+    ],
+    "mandatory_elements": [
+      "Multi-actor approach: Consortia must actively involve municipal authorities, water utilities, and environmental protection agencies in the co-design and validation of the warning systems.",
+      "Social sciences and humanities (SSH) integration: Proposals must identify the specific SSH expertise included and its assigned role in the project.",
+      "Citizen engagement and socio-economic analysis: Proposals must include specific activities for public risk communication and the analysis of socio-economic barriers to adopting new decision-support tools.",
+      "Do No Significant Harm (DNSH): The methodology must include a proportionate DNSH assessment covering all proposed monitoring and mitigation activities, identifying environmental objectives, potential harms, and avoidance measures, especially for sensitive aquatic ecosystems."
+    ],
+    "conditions": {
+      "max_budget": 4800000,
+      "duration_months_max": 36,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": null
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Integrated management of storm runoff and contamination in urban catchments and receiving waters",
+        "expected_outcomes_intro": "Project results are expected to contribute to all of the following expected outcomes:",
+        "expected_outcomes": [
+          "Municipalities and water authorities deploy validated, real-time warning systems for storm-induced contamination events in receiving waters.",
+          "Urban planners and environmental agencies implement evidence-based decision-making frameworks to mitigate runoff pollution from diverse urban and coastal catchments.",
+          "Citizens and local stakeholders are better informed about water quality risks and engaged in the co-design of runoff mitigation strategies.",
+          "Reduced lag time between extreme precipitation events and the deployment of public health and environmental protection measures in affected coastal and inland waters."
+        ],
+        "scope_intro": "Climate change and urbanisation are intensifying extreme precipitation events, leading to severe storm runoff that overwhelms urban drainage systems. This runoff carries a complex mixture of chemical and biological contaminants into receiving waters, including rivers, lakes, and coastal zones, posing significant risks to public health and aquatic ecosystems. Current warning systems often lack the spatial resolution and predictive accuracy required for timely municipal interventions.\n\nProposals should develop and validate integrated monitoring and predictive tools that link urban catchment dynamics with the water quality of receiving bodies. The solutions must provide actionable data for local authorities to manage contamination risks effectively.",
+        "scope": [
+          "Develop high-resolution predictive models linking storm intensity, urban surface runoff, and the transport of chemical and biological contaminants to receiving waters.",
+          "Design and deploy sensor networks or integrate existing data streams to monitor runoff quality and quantity across diverse urban and coastal catchments.",
+          "Validate real-time warning systems for contamination events in at least three pilot municipalities, ensuring the systems meet local operational requirements.",
+          "Create decision-support frameworks that enable municipal authorities to evaluate and select cost-effective runoff mitigation and public health protection measures.",
+          "Establish clear adoption routes for the developed tools, including guidelines for integration into existing municipal water management and emergency response protocols."
+        ],
+        "exclusions": [
+          "Proposals focusing solely on the structural redesign or physical upgrading of existing municipal wastewater treatment plants or combined sewer overflow infrastructure.",
+          "Research limited to the laboratory-scale analysis of novel contaminants without field validation in urban catchments."
+        ],
+        "mandatory_elements": [
+          "Multi-actor approach: Consortia must actively involve municipal authorities, water utilities, and environmental protection agencies in the co-design and validation of the warning systems.",
+          "Social sciences and humanities (SSH) integration: Proposals must include SSH expertise to address public risk communication, citizen engagement, and the socio-economic barriers to adopting new decision-support tools.",
+          "Do No Significant Harm (DNSH): The proposed monitoring and mitigation strategies must comply with the DNSH principle, particularly regarding the deployment of sensor networks in sensitive aquatic ecosystems."
+        ],
+        "conditions": {
+          "max_budget": 4800000,
+          "duration_months_max": 36,
+          "trl_start": 3,
+          "trl_end": 6,
+          "expected_projects": 3
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md — Expected outcome, third bullet; Specific conditions, SSH integration; call.yaml — EO3 and ME3",
+          "problem": "EO3 combines improved public understanding with participation in co-design, which can succeed or fail independently. ME3 similarly combines risk communication, citizen engagement and analysis of adoption barriers under one mandatory item. These are separately assessable demands.",
+          "fix": "Split public understanding and participation into separate expected outcomes. Make the SSH requirement a concrete narrative requirement to identify the expertise and its assigned role, and express any independently mandatory SSH activities as separate items. Update both files together.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md — Scope, first three bullets and Expected outcome, fourth bullet; call.yaml — SC1, SC2, SC3 and EO4",
+          "problem": "Central performance requirements are left without an assessment basis: “high-resolution,” “real-time,” “diverse,” “local operational requirements,” and “reduced lag time” have no defined interpretation or requirement for applicants to establish one. Merely repeating these phrases could appear to address the items without specifying a testable validation plan.",
+          "fix": "Require applicants to specify and justify spatial and temporal resolution, warning latency, the dimensions of pilot diversity, municipality-specific acceptance criteria, and the baseline and measurement method for response-time improvement. The call can leave numerical targets to applicants while requiring them to be explicit.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md — Specific conditions, DNSH; call.yaml — ME4",
+          "problem": "ME4 states a compliance obligation but does not identify what the requested narrative must demonstrate. The emphasis on sensitive aquatic ecosystems also leaves unclear whether the assessment covers only sensor deployment or all proposed monitoring and mitigation activities.",
+          "fix": "Require a proportionate DNSH assessment in the methodology covering the proposed monitoring and mitigation activities, identifying relevant environmental objectives, potential harms and measures to avoid them, with explicit treatment of deployments in sensitive aquatic ecosystems.",
+          "part": "topic"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

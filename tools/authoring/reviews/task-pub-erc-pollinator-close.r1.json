@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub-erc-pollinator-close",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "cv_pi.md, prior_project.md, publications.md, resources_team.md, brief.md, and dossier.yaml",
+      "problem": "The dossier and brief are written from the perspective of early 2025 (e.g., `publications.md` is 'Updated: March 2025', `prior_project.md` covers up to Feb 2025, equipment was ordered in Jan 2025, and the CV lists an ERC 2025 proposal as 'under evaluation'). However, the call is `erc-stg-2027` with a submission deadline of 31 March 2027. This creates a two-year gap where the PI has no track record, making the proposal unachievable without inventing two years of history. Additionally, `prior_project.md` is titled 'Final report' but its text says 'Status: ongoing; this report covers the first 18 months'. Finally, the brief mentions revising a proposal that is 'still under review', which is illogical.",
+      "fix": "Shift all recent dates in the dossier and brief forward by two years to align with the March 2027 call deadline (e.g., shift HEATPOL to 2025–2028 so the 18-month report to Feb 2027 makes sense, update publication years to end in 2027, and change Marcos's PhD dates to 2025–2029, updating the brief to match). Change the title of `prior_project.md` from 'Final report' to 'Mid-term report' or 'Progress report'. In the CV and brief, change the 'under evaluation' ERC grant to a rejected past submission (e.g., submitted in 2025, rejected in 2026), as one does not submit a revised proposal while the original is still under review. Update `dossier.yaml` facts and publications to match the new dates."
+    }
+  ]
+}

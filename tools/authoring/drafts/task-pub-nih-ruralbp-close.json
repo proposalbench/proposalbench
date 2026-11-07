@@ -1,0 +1,69 @@
+{
+  "kind": "task",
+  "id": "pub-nih-ruralbp-close",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "fcfe26c319f1e46b8ba13da5d72e98c3b37cb58a0d1719b029d3ab78ea05ac37",
+  "draft": {
+    "brief": "# Notes for the proposal\n\n1 October 2026\n\nI'd like to build on the loose end from V-RMAPS: getting a reading into a matched record doesn't tell us whether anyone can use it to arrange follow-up. The next question is where that process breaks when measurements originate outside the clinic, and which failures residents and staff think are worth fixing first.\n\nPlease use the linkage paper, interview findings and paper-form exercise as starting points. The improvement between the two staff sessions is encouraging, but the same people used the form twice. I'd like fresh usability evidence and a clearer account of failed matches and missing measurement context.\n\nKeep this manageable: approach two of the partner clinics, one in each state, about community measurement sessions and record reconciliation. We could recruit 60 adults for paired community and clinic measurements using our validated monitors and a documented protocol. Explore transport, telephone access and medication-cost uncertainty without assuming our earlier interviews tell us how common those problems are. Include people who struggle to attend appointments, rather than relying entirely on regular attenders.\n\nI'd like three years: the first for permissions, interviews and measurement work; the second for linkage checks and co-design; and the third for a randomised pilot. For that pilot, assign the 60 adults equally to the new follow-up workflow or usual care and compare standardized systolic blood pressure after six months. That would give us an initial estimate of whether the strategy lowers pressure.\n\nAsk the advisory group to help choose priorities and revise the workflow in separate working sessions. Tessavelle can lead that work, with Naomelle handling linkage procedures and Ruthavelle coordinating community involvement. Staff time and clinic space need negotiating. New contact, measurements and record access need their own permissions; the old award is closed. Please keep the workflow simple enough to use when broadband is unreliable.",
+    "traps": [
+      {
+        "type": "T05",
+        "description": "The brief suggests assigning 60 adults equally to a new follow-up workflow or usual care and comparing standardized systolic blood pressure after six months. This conflicts with the call's rule: \"The clinical-trial exclusion includes prospective assignment of participants to a blood-pressure intervention, medication regimen, or behavioral program to evaluate its effects on blood pressure or another health-related outcome.\" The proposed randomized pilot meets that exclusion regardless of its small size or exploratory intent.",
+        "expected_behaviour": "Exclude the randomized pilot and any prospective assignment intended to estimate effects on blood pressure or other health-related outcomes. Develop and assess the workflow using a feasible formative or methodological design that does not prospectively assign care to evaluate a health-related effect; simulated-case usability testing is one option, not a requirement. Accept other appropriately governed non-clinical-trial usability or observational workflow designs. Include structured usability findings alongside observational measurement and linkage analyses, and specify criteria for advancing to a future controlled evaluation. In Specific Aims and Approach, keep any therapeutic controlled evaluation as a future study outside this award."
+      },
+      {
+        "type": "T02",
+        "description": "The brief requests three years and assigns the randomized pilot to the third year. The call's project-period requirement is \"At most 2 years (24 months)\".",
+        "expected_behaviour": "Propose a project lasting no more than 24 months, with permissions, empirical barrier and measurement work, linkage feasibility analysis, co-design, usability assessment and final outputs scheduled within that period. Include no third project year or award-funded activities after month 24."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "# Notes for the proposal\n\nI'd like to build on the loose end from V-RMAPS: getting a reading into a matched record doesn't tell us whether anyone can use it to arrange follow-up. The next question is where that process breaks when measurements originate outside the clinic, and which failures residents and staff think are worth fixing first.\n\nPlease use the linkage paper, interview findings and paper-form exercise as starting points. The improvement between the two staff sessions is encouraging, but the same people used the form twice. I'd like fresh usability evidence and a clearer account of failed matches and missing measurement context.\n\nKeep this manageable: approach two of the partner clinics, one in each state, about community measurement sessions and record reconciliation. We could recruit 60 adults for paired community and clinic measurements using our validated monitors and a documented protocol. Explore transport, telephone access and medication-cost uncertainty without assuming our earlier interviews tell us how common those problems are. Include people who struggle to attend appointments, rather than relying entirely on regular attenders.\n\nI'd like three years: the first for permissions, interviews and measurement work; the second for linkage checks and co-design; and the third for a randomised pilot. For that pilot, assign the 60 adults equally to the new follow-up workflow or usual care and compare standardized systolic blood pressure after six months. That would give us an initial estimate of whether the strategy lowers pressure.\n\nAsk the advisory group to help choose priorities and revise the workflow in separate working sessions. Tessavelle can lead that work, with Naomelle handling linkage procedures and Ruthavelle coordinating community involvement. Staff time and clinic space need negotiating. New contact, measurements and record access need their own permissions; the old award is closed. Please keep the workflow simple enough to use when broadband is unreliable.",
+        "traps": [
+          {
+            "description": "The brief suggests assigning 60 adults equally to a new follow-up workflow or usual care and comparing standardized systolic blood pressure after six months. This conflicts with the call's exclusion of \"Prospective assignment of participants to a blood-pressure intervention, medication regimen, or behavioral program to evaluate its effect on blood pressure or any other health-related outcome.\" The proposed randomized pilot meets that exclusion regardless of its small size or exploratory intent.",
+            "expected_behaviour": "Exclude the randomized pilot and any prospective assignment intended to estimate effects on blood pressure or other health-related outcomes. Develop and assess the workflow through formative co-design and structured usability tasks using simulated cases, alongside observational measurement and linkage analyses. Specify criteria for advancing to a future controlled evaluation outside this award, without conducting that evaluation during the project.",
+            "type": "T05"
+          },
+          {
+            "description": "The brief requests three years and assigns the randomized pilot to the third year. The call's project-period requirement is \"At most 2 years (24 months)\".",
+            "expected_behaviour": "Propose a project lasting no more than 24 months, with permissions, empirical barrier and measurement work, linkage feasibility analysis, co-design, usability assessment and final outputs scheduled within that period. Include no third project year or award-funded activities after month 24.",
+            "type": "T02"
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2; Task 6",
+          "where": "data/public/tasks/pub-nih-ruralbp-close/task.yaml, T1 expected_behaviour: \"Develop and assess the workflow through formative co-design and structured usability tasks using simulated cases\".",
+          "problem": "The clinical-trial trap is sound, but the key makes simulated cases mandatory. The call requires structured usability evidence, not a particular source of test cases. A non-therapeutic usability study using appropriately governed existing/de-identified records, or observational workflow assessment without assigned care, can satisfy it. A valid proposal could therefore fail the trap solely for choosing another compliant method.",
+          "fix": "Replace the prescriptive sentence with 'Develop and assess the workflow using a feasible formative or methodological design that does not prospectively assign care to evaluate a health-related effect; simulated-case usability testing is one option, not a requirement. Accept other appropriately governed non-clinical-trial usability or observational workflow designs. In Specific Aims and Approach, keep any therapeutic controlled evaluation as a future study outside this award.' Retain the prohibition on the brief's randomized BP-effect pilot.",
+          "evidence": [
+            "data/public/calls/nih-r21-ruralbp/call.md",
+            "https://grants.nih.gov/policy-and-compliance/policy-topics/clinical-trials/definition",
+            "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-063.html",
+            "tools/authoring/design_v2.md",
+            "docs/task_review_checklist.md"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "task.yaml trap T1 description",
+          "problem": "The description quotes a passage that is no longer in the call or dossier: 'Prospective assignment of participants to a blood-pressure intervention, medicat...'. The call was corrected after the in-depth review (benchmark-facing hints such as references to the dossier or to scoring were removed, items split, eligibility worded as in the official rules), or the dossier was revised.",
+          "fix": "Ground the trap in the substantive rule or fact as the call and dossier now state it, quoting their current wording exactly. Keep the conflict, type and expected behaviour unless the change removed the trap's basis; never rely on a hint the call no longer gives.",
+          "source": "maintainer"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

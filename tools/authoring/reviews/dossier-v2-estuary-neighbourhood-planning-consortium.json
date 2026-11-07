@@ -1,0 +1,52 @@
+{
+  "kind": "dossier",
+  "id": "v2-estuary-neighbourhood-planning-consortium",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md, sections 3–4: exposure definition and option C",
+      "problem": "Exposure is defined by street-frontage water depth at block level, but option C reports a 24% reduction in exposed addresses from raised thresholds and non-return valves. These measures can reduce water entering buildings without changing whether their blocks exceed the street-depth threshold. The reported benefit does not follow from the stated outcome definition.",
+      "fix": "Distinguish street/block exposure from property inundation. Specify how individual thresholds, valve effects and uptake determine protected addresses, then report all three options against a consistent endpoint or clearly separate their endpoints and recalculate the results."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2; Dossier 7",
+      "where": "prior_project.md, report submission date and section 5",
+      "problem": "The report is dated 28 July 2026 but states that no minors amendment or guardian process exists 'as of September 2026'. No revision or addendum date explains how the July document contains a later status assessment.",
+      "fix": "Retain the original submission date and add an explicit September 2026 revision date or a dated September status addendum containing the later statements."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md, section 3 uncertainty methods and section 4 adaptation-options table",
+      "problem": "The three adaptation reductions have 95% confidence intervals, but the only described bootstrap estimates uncertainty in validation error statistics. The report does not explain how uncertainty in adaptation benefits was calculated, which reference scenario supplies the point estimates, or whether the intervals instead describe variation across the heterogeneous forcing ensemble.",
+      "fix": "State the reference scenario and denominator, describe paired baseline/intervention runs and the uncertainty calculation, and identify which uncertainties are included. If these are ensemble percentile ranges, label them accordingly rather than as confidence intervals."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2; Dossier 4",
+      "where": "consortium_partners.md, FBMI rainfall-based prediction result",
+      "problem": "The 2023 hold-out AUC has a confidence interval but no evaluation sample size or numbers of exceedances and non-exceedances. The 1,240 samples cover a different period and a larger beach set. It is also unclear whether the endpoint concerns E. coli, enterococci or either indicator, and whether the interval accounts for repeated observations within beaches.",
+      "fix": "Provide the hold-out observation count, outcome counts, indicator endpoint and exceedance definition. State the training period and how the confidence interval handles temporal and beach clustering."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts",
+      "problem": "The registry omits substantial proposal-relevant evidence and constraints. Examples include the 10-household disclosure threshold; recruitment consent expiry; the participatory postdoc's contract end; the open status of the data-steward vacancy; existing boat, sampling and computing capacities; options B and C and their uptake assumptions; and limitations concerning extreme-event extrapolation, omitted overtopping/breaches and untested transferability. The coastal pilot's exceedance count and uncertainty summary are also absent.",
+      "fix": "Add source-linked facts with exact values for these resources, results, restrictions and limitations. Record recruitment and appointment status separately from planned availability, and mark central scientific evidence and delivery constraints as salient."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, F25; publications.md, Under review",
+      "problem": "F25 says the manuscript has been under review since 3 June 2026. The source establishes submission on that date and under-review status in September, but does not establish when review began.",
+      "fix": "Change F25 to state that the manuscript was submitted on 3 June 2026 and was under review as of September 2026."
+    }
+  ]
+}

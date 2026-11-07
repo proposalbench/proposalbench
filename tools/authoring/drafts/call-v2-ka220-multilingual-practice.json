@@ -1,0 +1,134 @@
+{
+  "kind": "call",
+  "id": "v2-ka220-multilingual-practice",
+  "family": "anthropic",
+  "model": "opus",
+  "created": "2026-10-31",
+  "prompt_sha256": "bdfd97116b83360e504ab8d754b518384b3086288d1f5b54c093c2b314d4f350",
+  "draft": {
+    "title": "Inclusive multilingual teaching and assessment in practical higher-education courses",
+    "expected_outcomes_intro": "Projects should change how participating institutions teach and assess the practical parts of their degree programmes for learners whose languages differ from the language of instruction. The changes should be written into curricula and supported by trained staff. Proposals should contribute to all of the following outcomes.",
+    "expected_outcomes": [
+      "Learners whose first or strongest language differs from the language of instruction take full part in practical teaching and are assessed on the competences the courses target. This includes international and migrant-background students, sign-language users and speakers of regional or minority languages.",
+      "Teaching and technical staff at the participating higher-education institutions, and practice supervisors at organisations hosting pilot placements, use tested multilingual approaches in practical teaching and assessment.",
+      "Participating higher-education institutions have written the approaches into approved module descriptors, programme specifications or assessment regulations, so that the approaches continue without project funding.",
+      "Participating higher-education institutions have evaluation evidence on which multilingual approaches improve learner outcomes in practical courses, and for which learner groups.",
+      "Participating higher-education institutions have revised their language, inclusion or teaching policies in light of the project's evaluation evidence.",
+      "Higher-education institutions outside the partnership can adapt the teaching materials, assessment instruments and staff development resources to their own languages and disciplines."
+    ],
+    "scope_intro": "Practical components of degree programmes depend heavily on spoken instructions, safety briefings, immediate feedback and the working language of a profession. These include laboratory sessions, studio and rehearsal work, clinical and social-work placements, school practice and fieldwork. Learners who are still developing the language of instruction, who use a sign language, or who study in a regional or minority language setting often lose time, marks or placement opportunities for reasons unrelated to the competence being taught. Institutions commonly respond with separate language courses, which leave the practical teaching and its assessment unchanged.\n\nProposals should develop multilingual approaches to practical teaching and assessment together with the staff and learners concerned. They should pilot the approaches in credit-bearing courses, assess their effect on learner outcomes, train the staff who will keep using them and secure their adoption in approved curricula. Proposals may come from linguistics and language education, from the arts or from professional education such as health care, social work, teacher education and engineering. Research is supported where it improves teaching in the partnership, not as an end in itself. Besides higher-education institutions, partnerships may include practice organisations that host pilot placements, such as hospitals, schools or cultural institutions, and organisations that contribute other expertise, such as migrant-support associations or associations of sign-language users. Requirements on curriculum adoption, staff-development recognition and policy decisions apply to the participating higher-education institutions. Other organisations contribute according to the roles stated in the proposal. Faculties or departments of one higher-education institution count as a single organisation towards the minimum partnership.",
+    "scope": [
+      "Map the language-related barriers learners meet in the practical courses of each participating higher-education institution, including placements hosted by partner practice organisations, consulting learners, teaching staff, practice supervisors and student support services.",
+      "Co-design multilingual teaching and assessment approaches for practical courses with teaching staff and target-group learners, such as translanguaging tasks, multilingual glossaries, sign-language interpreting arrangements or plain-language briefings.",
+      "Pilot the approaches in credit-bearing practical courses at each participating higher-education institution for at least one full teaching period, delivered by the staff who normally teach or supervise those courses.",
+      "Assess learner outcomes in the pilot courses against their intended learning outcomes, using defined instruments and, where feasible, a comparison with earlier cohorts or parallel groups.",
+      "Run staff development on multilingual practical teaching and assessment for teaching and technical staff of the participating higher-education institutions, with participation recognised in each institution's staff development or teaching-qualification framework.",
+      "Where partner practice organisations host pilot placements, train the practice supervisors who teach and assess learners there in the approaches used in those placements.",
+      "Revise module descriptors, assessment regulations or programme specifications through each participating higher-education institution's approval procedures, so that the tested approaches remain in the curriculum after the pilots.",
+      "Where the project includes applied research, such as analysis of classroom or studio interaction, learner language corpora or practice-based enquiry, tie each research activity to a named change in teaching or assessment.",
+      "Involve learners from the target groups in designing, piloting and evaluating the approaches, with arrangements that let them contribute in languages they use confidently.",
+      "Prepare teaching materials, assessment instruments and staff development resources for reuse by other institutions, and test them with at least one higher-education institution outside the partnership.",
+      "Present evaluation findings to the bodies responsible for language, inclusion or teaching policy at each participating higher-education institution, and record the decisions those bodies take."
+    ],
+    "exclusions": [
+      "Stand-alone benchmarks, test suites or leaderboards for large language models, machine translation or speech recognition that are not used to change teaching or assessment in the participating institutions.",
+      "Research whose only results are publications or datasets, without piloted changes to teaching, assessment or curricula at the participating institutions.",
+      "General language-proficiency or preparatory language courses taught separately from the practical components of degree programmes.",
+      "Individual mobility of students or staff for study, traineeships or teaching assignments as a main activity, which is funded under Key Action 1 (KA131-HED).",
+      "Development of proprietary software as a main project result.",
+      "Purchase of interpreting or captioning equipment as a main project result."
+    ],
+    "mandatory_elements": [
+      "For each participating organisation, state its legal name, country, legal status and role (coordinator, partner or associated partner), and give the ECHE status of each higher-education institution.",
+      "For each participating higher-education institution, specify the practical courses in which the approaches will be piloted, their language or languages of instruction and the main languages used by the learners they serve.",
+      "Describe the instruments for assessing learner outcomes in the pilot courses, who applies them, and the comparison against which change will be judged.",
+      "For each participating higher-education institution, name the modules or programmes where the approaches will be adopted and the internal approval each change requires.",
+      "For each participating organisation that is not a higher-education institution, state whether it hosts pilot placements or contributes other expertise, and the work-package tasks it carries out.",
+      "Describe consent and data-protection arrangements for collecting learner data, including recordings of teaching sessions and samples of learner work."
+    ],
+    "conditions": {
+      "max_budget": 400000,
+      "duration_months_max": 36,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": null
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Inclusive multilingual teaching and assessment in practical higher-education courses",
+        "expected_outcomes_intro": "Projects should change how participating institutions teach and assess the practical parts of their degree programmes for learners whose languages differ from the language of instruction. The changes should be written into curricula and supported by trained staff. Proposals should contribute to all of the following outcomes.",
+        "expected_outcomes": [
+          "Learners whose first or strongest language differs from the language of instruction take full part in practical teaching and are assessed on the competences the courses target. This includes international and migrant-background students, sign-language users and speakers of regional or minority languages.",
+          "Teaching staff, practice supervisors and technical staff at the participating institutions use tested multilingual approaches in practical teaching and assessment, and their institutions recognise this professional development.",
+          "Participating higher-education institutions have written the approaches into approved module descriptors, programme specifications or assessment regulations, so that the approaches continue without project funding.",
+          "Participating institutions have evaluation evidence on which approaches improve learner outcomes in practical courses, and for which learner groups, and use it to revise their language, inclusion and teaching policies.",
+          "Higher-education institutions outside the partnership can adapt the teaching materials, assessment instruments and staff development resources to their own languages and disciplines."
+        ],
+        "scope_intro": "Practical components of degree programmes depend heavily on spoken instructions, safety briefings, immediate feedback and the working language of a profession. These include laboratory sessions, studio and rehearsal work, clinical and social-work placements, school practice and fieldwork. Learners who are still developing the language of instruction, who use a sign language, or who study in a regional or minority language setting often lose time, marks or placement opportunities for reasons unrelated to the competence being taught. Institutions commonly respond with separate language courses, which leave the practical teaching and its assessment unchanged.\n\nProposals should develop multilingual approaches to practical teaching and assessment together with the staff and learners concerned. They should pilot the approaches in credit-bearing courses, assess their effect on learner outcomes, train the staff who will keep using them and secure their adoption in approved curricula. Proposals may come from linguistics and language education, from the arts or from professional education such as health care, social work, teacher education and engineering. Research is supported where it improves teaching in the partnership, not as an end in itself. Partnerships may include practice organisations alongside higher-education institutions, such as hospitals, schools, cultural institutions or migrant-support associations. Faculties or departments of one higher-education institution count as a single organisation towards the minimum partnership.",
+        "scope": [
+          "Map the language-related barriers learners meet in laboratory, studio, clinical, fieldwork or placement teaching at each partner institution, consulting learners, teaching staff, practice supervisors and student support services.",
+          "Co-design multilingual teaching and assessment approaches for practical courses with teaching staff and target-group learners, such as translanguaging tasks, multilingual glossaries, sign-language interpreting arrangements or plain-language briefings.",
+          "Pilot the approaches in credit-bearing practical courses at each participating higher-education institution for at least one full teaching period, delivered by the staff who normally teach those courses.",
+          "Assess learner outcomes in the pilot courses against their intended learning outcomes, using defined instruments and, where feasible, a comparison with earlier cohorts or parallel groups.",
+          "Run staff development on multilingual practical teaching and assessment for teaching staff, practice supervisors and technical staff, with participation recognised in each institution's staff development or teaching-qualification framework.",
+          "Revise module descriptors, assessment regulations or programme specifications through each participating higher-education institution's approval procedures, so that the tested approaches remain in the curriculum after the pilots.",
+          "Conduct applied research that informs specific changes in teaching or assessment, such as analysis of classroom or studio interaction, learner language corpora, or practice-based enquiry in arts and professional education.",
+          "Involve learners from the target groups in designing, piloting and evaluating the approaches, with arrangements that let them contribute in languages they use confidently.",
+          "Prepare teaching materials, assessment instruments and staff development resources for reuse by other institutions, and test them with at least one higher-education institution outside the partnership.",
+          "Present evaluation findings to the bodies responsible for language, inclusion or teaching policy at each partner institution, and record the decisions those bodies take."
+        ],
+        "exclusions": [
+          "Stand-alone benchmarks, test suites or leaderboards for large language models, machine translation or speech recognition that are not used to change teaching or assessment in the participating institutions.",
+          "Research whose only results are publications or datasets, without piloted changes to teaching, assessment or curricula at the participating institutions.",
+          "General language-proficiency or preparatory language courses taught separately from the practical components of degree programmes.",
+          "Individual mobility of students or staff for study, traineeships or teaching assignments as a main activity, which is funded under Key Action 1 (KA131-HED).",
+          "Development of proprietary software, or purchase of interpreting or captioning equipment, as a main project result."
+        ],
+        "mandatory_elements": [
+          "For each participating organisation, state its legal name, country, legal status and role (coordinator, partner or associated partner), and give the ECHE status of each higher-education institution.",
+          "For each pilot site, specify the practical courses concerned, their language or languages of instruction and the main languages used by the learners they serve.",
+          "Describe the instruments for assessing learner outcomes in the pilot courses, who applies them, and the comparison against which change will be judged.",
+          "For each participating higher-education institution, name the modules or programmes where the approaches will be adopted and the internal approval each change requires.",
+          "Where the project includes research, explain which change in teaching or assessment each research activity informs.",
+          "Describe consent and data-protection arrangements for collecting learner data, including recordings of teaching sessions and samples of learner work."
+        ],
+        "conditions": {
+          "max_budget": 400000,
+          "duration_months_max": 36,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": null
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md Scope and mandatory elements; call.yaml SC7 and ME13",
+          "problem": "SC7 requires every proposal to conduct applied research linked to teaching or assessment changes. ME13 repeats that linkage but introduces it with “Where the project includes research”, suggesting research is optional. This creates an unclear applicability rule and duplicates the same substantive requirement.",
+          "fix": "Choose whether research is mandatory. If optional, make SC7 conditional and consolidate the research-to-teaching linkage there, removing ME13. If mandatory, retain one unconditional requirement covering the research activity and the teaching or assessment change it informs.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md Scope introduction, SC1, SC5 and SC10; corresponding call.yaml items",
+          "problem": "The scope explicitly permits hospitals, schools, cultural institutions and migrant-support associations as partners, but requires barrier mapping, institutional recognition of staff development and decisions by language, inclusion or teaching policy bodies at every partner institution. It does not distinguish HEIs and practical-teaching hosts from partners contributing other expertise. Consequently, the requirements have unclear applicability to explicitly permitted partner types.",
+          "fix": "Require curriculum-related mapping, institutional staff-development recognition and policy decisions at participating HEIs. Specify which additional requirements apply to practice hosts delivering pilots, and require other organisations to contribute according to their stated roles. Apply the same distinctions in both files.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md Expected outcomes EO4 and Exclusions EX6; corresponding call.yaml items",
+          "problem": "EO4 combines two independently assessable outcomes: producing evidence about learner outcomes and revising institutional policies. EX6 combines two independently applicable exclusions: proprietary software development and equipment purchasing as a main result. Each item can be partly satisfied or violated, preventing a single clear assessment.",
+          "fix": "Split EO4 into separate evidence and policy-adoption outcomes. Split EX6 into separate exclusions for proprietary software development and interpreting or captioning equipment purchasing. Keep the resulting items identical across Markdown and YAML.",
+          "part": "topic"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

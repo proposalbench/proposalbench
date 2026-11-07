@@ -1,0 +1,43 @@
+{
+  "kind": "task",
+  "id": "pub2-cerv-service-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub2-cerv-service-close/task.yaml T2 expected_behaviour: \"at least one independent nonprofit beneficiary\" and \"(b) Bring in a different nonprofit beneficiary\".",
+      "problem": "The call admits nonprofit public/private co-applicants OR international organisations and does not impose independence from the coordinator beyond being distinct beneficiaries. The key excludes an otherwise eligible international-organisation repair and can exclude a distinct but affiliated legal beneficiary, while purporting to accept all compliant alternatives.",
+      "fix": "Replace the opening and option (b) with 'Include eligible beneficiaries from at least two different CERV-eligible countries. Besides retaining one or both existing foreign nonprofits, a different eligible co-applicant may be proposed: a nonprofit public/private legal entity or an international organisation satisfying the call's applicable eligibility conditions. Treat unsecured participation as planned and assign credible duties. Do not count affiliated-entity or associated-partner roles towards the beneficiary minimum.' Retain the accurate same-country objection to Cellule Cultures et Quartiers. Remove the unsupported parenthetical '(City of Liège)' from T2's description; the dossier names a fictional office, not an authenticated commitment by that real city.",
+      "evidence": [
+        "data/public/calls/v2-cerv-service-voice/call.md",
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/wp-call/2026/call-fiche_cerv-2026-citizens-civ_en.pdf#page=17",
+        "data/public/dossiers/v2-migrant-service-deliberation-network/consortium.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 2; Task 6",
+      "where": "data/public/tasks/pub2-cerv-service-close/task.yaml T1 option (b): \"Public outputs use only pseudonymised, non-identifying or aggregate material.\"",
+      "problem": "The opening of the key correctly forbids recognisable details without separate permission, but this disjunctive alternative can be read as accepting pseudonymisation alone. The dossier already labels all 52 records pseudonymised while expressly denying public identifiable-story permission. A changed name can leave a photo, quotation or distinctive circumstances recognisable; the alternative should not suggest it overrides the opening rule.",
+      "fix": "Replace (b) with 'Public outputs contain only genuinely non-identifying material or authorised aggregate themes; replacing names with pseudonyms alone is insufficient when a person remains recognisable. Any identifiable use requires the separate prospective opt-in described above.' Apply the same qualification to fallback versions after refusal/revocation. Preserve the six withdrawn records' aggregate-only restriction.",
+      "evidence": [
+        "data/public/dossiers/v2-migrant-service-deliberation-network/resources.md",
+        "data/public/tasks/pub2-cerv-service-close/task.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Read brief.md and task.yaml against the assigned full call and all dossier files, not only the earlier automated review. Checked checklist Tasks 1–7, tools/authoring/design_v2.md adopted second-opinion rules, docs/scoring_spec.md and docs/pitfall_taxonomy.md.",
+    "Brief dated 1 October 2026; full-proposal task, not stage1/concept_note/resubmission. No T13 or RESUB criterion is applicable. The design uses at most two traps.",
+    "Unit verdict concerns this task's own files. Call/dossier defects and identity replacements are filed once on their owning units and must be propagated before release.",
+    "T14 rests on supplied protocol v3, not external GDPR interpretation: participation/internal-use consent is not identifiable-publication consent; zero such permissions exist; six dated withdrawals impose an additional external-use restriction. Prospective permissions for non-withdrawn/new stories or a genuinely non-identifying design are feasible.",
+    "T04 premise is sound: Belgium-only beneficiaries do not satisfy the second-country minimum, an association letter does not make a beneficiary, and Brussels-based READ is not a foreign consortium beneficiary.",
+    "Close fit is strong: interpreted public-service deliberation, recommendation tracking, authority feedback and existing trained facilitators directly support the topic. Prior response rates and knowledge measures require their stated limitations.",
+    "Twenty-four months/EUR 300,000 are permitted; 35,000 words readily accommodates all narrative subsections and repairs. The expired interpretation contract and finite partnership agreement require prospective arrangements rather than false current commitments."
+  ]
+}

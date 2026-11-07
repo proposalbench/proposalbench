@@ -1,0 +1,38 @@
+{
+  "kind": "dossier",
+  "id": "v2-cultural-care-participation-team",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml — facts registry",
+      "problem": "The registry omits proposal-relevant resources, restrictions, results and statuses. Examples include the three MAXQDA licences expiring on 31/12/2026; the manuscript submitted on 12/05/2026 and still under review; transcript retention until 31/01/2031 and reuse restricted to academic research by the group; the absence of validated language versions for assisted scale administration; the 28 sessions of 75 minutes per centre; participant language and hearing-loss counts; and four of the five numerical thematic findings. F23 also omits the archive's distinction between openly licensed recordings and restricted interviews.",
+      "fix": "Add sourced facts with the exact quantities, dates, statuses and restrictions stated in the documents. Register the methodological limitations and distinguish currently available resources from those requiring renewal or further permission."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml — F08, F18 and F25",
+      "problem": "Several assertions exceed their cited sources. F25 turns an experience list into an unsupported assertion that the team has no prior administrative-process mapping experience. Its assertions about absent administrative data and interviews with carers or professionals are supported only for Rueda de Voces, not for the team's entire history, and appear in the final report rather than the cited CV. F08's recording-replacement rule comes from the ledger, not its cited report. F18 describes audio deletion as completed, whereas its cited report states the deletion policy; completion is documented in the ledger.",
+      "fix": "Split these compound facts and cite the documents that establish each assertion. Restrict the missing-data and missing-interview statements to the pilot. Remove the unsupported mapping-experience claim or add an explicit dated statement establishing it in an applicant-facing document."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "informe_final_rueda_de_voces.md — section 3, inclusion criterion 'capacidad para consentir (cuestionario de Pfeiffer con 4 errores o menos)'",
+      "problem": "The report treats a cognitive screening threshold as establishing capacity to consent. Pfeiffer screening does not itself establish whether someone understands the particular study and can make and communicate a voluntary decision. Written consent in section 7 does not explain how that capacity was assessed.",
+      "fix": "Separate cognitive screening from consent-capacity assessment. Describe the actual procedure used to establish understanding and voluntary agreement, including communication support where needed, and identify the Pfeiffer threshold as a screening criterion rather than proof of capacity."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "informe_final_rueda_de_voces.md — sections 4 and 5.2, SWEMWBS scoring and results",
+      "problem": "The report does not distinguish the SWEMWBS raw item sum from the transformed metric score. Both can be described using the stated endpoints, so the range alone does not identify which score produced the means, change estimate and correlation. This leaves the interpretation of the reported 1.6-point change ambiguous.",
+      "fix": "State whether the results use raw sums or the standard transformed metric scores and describe the scoring procedure. Ensure the means, paired change, confidence interval and attendance correlation consistently use that procedure; register the scoring convention alongside F11."
+    }
+  ]
+}

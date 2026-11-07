@@ -1,0 +1,45 @@
+{
+  "kind": "task",
+  "id": "pub-nih-sleepcardio-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Task 3",
+      "where": "brief.md: \"the two FQHCs we did usability work with last year\"",
+      "problem": "The dossier dates this work to Spring 2023, whereas the task was created in October 2026 for a 2027 call. The brief introduces an unsupported later engagement and makes the clinic relationships appear more current than the evidence establishes.",
+      "fix": "Replace \"last year\" with \"in spring 2023\". Date the brief and describe renewal of clinic participation and confirmation of clinical capacity as work still needed."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "publications.md and dossier.yaml: vance2016, Journal of Youth Development",
+      "problem": "Journal of Youth Development is a real journal. Using its name for a fabricated publication conflicts with the requirement to avoid names belonging to real media or institutions.",
+      "fix": "Give this publication an invented journal name that does not collide with an existing journal, and update the venue consistently in both files."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md: Data Yield and Scoring",
+      "problem": "The report says the ActiGraph GT9X Link devices' ambient-light sensors helped identify sleep periods. This model does not provide an ambient-light sensor, so the stated processing configuration could not have been implemented as described. The report explicitly attributes every yield and estimate to that configuration.",
+      "fix": "Describe the actual available inputs, such as concurrent diaries and activity records, or explicitly document a separate light-measuring instrument if one was used. Reconcile the resulting processing description and any affected yields or estimates across the report, publications and registry."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md: valid-night definition and SRI calculation; publications.md: vance2024",
+      "problem": "More than 10 hours of wear during a 24-hour period does not establish that a night contains usable sleep data: an entirely daytime recording could pass. Seven such days also do not establish adequate coverage for a 24-hour sleep–wake regularity measure incorporating naps. Excluding missing pairs from the SRI denominator does not resolve selective coverage. The documents nevertheless present the resulting valid-night yield as evidence of successful sleep monitoring without acknowledging these limitations.",
+      "fix": "State the actual requirements for coverage of the principal sleep interval and for usable epoch pairs across the full day. Explain how naps were identified. If the permissive historical thresholds were genuinely used, retain them but explicitly record the resulting coverage and selection limitations, and qualify the feasibility claims."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml: facts",
+      "problem": "The registry omits several salient quantities and limitations that a proposal could quote: Wave 3 n = 346 and 84% retention; baseline SRI SD 8.1; the 85 and 142 participants in the sleep-duration comparison; 50 Actiwatch 2 devices; two FQHC relationships; the named staff and formal statistical consulting; and the inability to separate developmental from pandemic-period effects. It also fails to distinguish the absence of cardiometabolic measurements in the existing cohort from the laboratory's lack of measurement capacity.",
+      "fix": "Add source-linked facts for these quantities, roles and limitations, including the relevant dates. Record the absence of existing blood-pressure and metabolic data separately from equipment and expertise gaps. Preserve the distinction between established usability relationships and any future clinical measurement or data-access arrangements."
+    }
+  ]
+}

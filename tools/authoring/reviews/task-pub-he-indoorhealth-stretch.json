@@ -1,0 +1,45 @@
+{
+  "kind": "task",
+  "id": "pub-he-indoorhealth-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 5; Task 2",
+      "where": "task.yaml T1; resources.md §3.1; consortium.md §5; brief.md",
+      "problem": "Several facts essential to T1 appear only in the brief. The dossier does not explicitly establish that sensor deployment followed renovation, that no usable pre-renovation environmental or health records exist for the 15 blocks, or that the five proposed blocks are scheduled for deep renovation in month 12. The consortium document describes proposed pilot installations and month-24 commissioning, which do not establish the renovation schedule.",
+      "fix": "Add these facts to dated dossier documents and register them in dossier.yaml. Distinguish the proposed renovation schedule from pilot commissioning, retaining the unconfirmed access, permits and tenant-consent conditions."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md §4.1; resources.md §2.3; dossier.yaml F19",
+      "problem": "The monitoring period from 1 October 2022 through 30 June 2025 contains 1,004 calendar days, not 1,003. At 288 observations per day, the complete grid contains 289,152 timestamps and 40,481,280 values across 140 channels. The supplied totals instead describe 1,003 days. The separate 731-day economic-analysis period correctly includes its final day, making the counting convention inconsistent.",
+      "fix": "Correct the monitoring duration and nominal totals throughout, then reconcile valid and missing counts against that grid. If 39,800,000 valid values is retained, the missing count becomes 681,280, or 1.7% rounded to one decimal place. Alternatively, explicitly document a different monitoring endpoint and reconcile all dependent analyses."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml facts, particularly F05, F11, F12, F19 and F21",
+      "problem": "The registry omits material qualifications and quotable facts. F05 omits that the 81% efficiency covers a partial season; F11 omits the outstanding board approval for SCADA access; F12 omits pending full-scale field validation. Monitoring missingness, the earlier grants and their budgets, and several proposed-site capacities and commissioning dates are unregistered. F21 attributes 14 completed Ph.D. supervisions to resources.md, although that number appears only in cv_coordinator.md.",
+      "fix": "Register the omitted salient results, resource conditions, dates and limitations with their source wording and appropriate existing/planned status. Preserve the partial-season qualification in F05 and split or correct F21 so each claim points to its actual source."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md §§2 and 4.2, heat sources and fossil-fuel displacement",
+      "problem": "The claimed gas displacement lacks a credible, auditable whole-system heat balance. Gas-derived heat falls from 22,500 to 3,600 MWh/year, a reduction of 18,900 MWh/year. The heat pump supplies only 9,001 MWh/year, while storage loses 2,750 MWh/year. At unchanged delivered demand, solar or another source must therefore supply an additional 12,649 MWh/year beyond the baseline. Neither baseline nor post-intervention solar delivery is given. That additional contribution alone is approximately 843 kWh per square metre annually from the stated collector field, demanding an explanation for a Danish installation.",
+      "fix": "Provide comparable baseline and operational annual balances covering delivered heat demand, solar production and curtailment, heat-pump output, boiler output and losses. Explain any demand or system-boundary changes, and revise the displacement and emissions results if the balanced figures require it."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 7",
+      "where": "publications.md; prior_project.md",
+      "problem": "These documents lack document dates or an explicit September 2026 status cutoff. In particular, the 2026 publication is presented as published without establishing that publication occurred by September. The project end date in the final report does not establish its issue date.",
+      "fix": "Date the final report and publication list no later than September 2026. Give the 2026 publication's publication date or its actual status at the cutoff, and align the hidden publication record with that status."
+    }
+  ]
+}

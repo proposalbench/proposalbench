@@ -1,0 +1,54 @@
+{
+  "kind": "task",
+  "id": "pub2-he-coldchain-stretch",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "369f371027bad0979f214a10e6d21851c37f559d95bee2dc732ce4889be3ab11",
+  "draft": {
+    "brief": "**Date:** 1 October 2026\n\nHi team,\n\nWe are pivoting our secure robotics and data pipeline work to target this new food cold-chain call. We want to combine TUF's resilient decision-support systems and ALV's robotics with IMAA's microbial spoilage models and AKK's logistics network.\n\nHere is the core idea: we will use our secure edge-computing pipelines to ingest continuous environmental data from AKK's warehouses and ALV's mobile platforms. IMAA will build predictive models on how spoilage organisms behave when the cold chain breaks.\n\nTo really tackle the spoilage issue at the source, IMAA should lead a work package to develop a new chemical food preservative that can be applied to the food before transport. This will be our main intervention to reduce spoilage during temperature abuse.\n\nFor the validation phase at AKK's Innsbruck facility, we want to test our new cold-chain policies by directly taking over and controlling their live refrigeration systems. This will let us prove our decision-support tool works in a real commercial environment.\n\nSince the call asks for social sciences to look at adoption barriers, and we don't have that in the consortium, please include a plan to recruit an SSH postdoc at TUF or bring in a specialized subcontractor to handle the behavioral and organizational aspects.\n\nLet's aim for a 40-month duration and request EUR 5.4 million.\n\nBest,\nLukas",
+    "traps": [
+      {
+        "type": "T05",
+        "description": "The brief proposes creating a new chemical food preservative as the main way to reduce spoilage, but the call explicitly states that \"The development or testing of new antimicrobial veterinary medicines or chemical food preservatives\" is out of scope.",
+        "expected_behaviour": "Remove the explicitly excluded chemical food preservative development and focus the methodology on monitoring, predictive modelling, and process interventions within the food-system scope."
+      },
+      {
+        "type": "T12",
+        "description": "The brief requests testing cold-chain policies by directly controlling the live refrigeration systems at AKK's warehouse. However, the dossier states that \"AKK management withdraws access to live refrigeration control interfaces\" and only \"Read-only monitoring remains authorised\" alongside an \"isolated thermal bench\".",
+        "expected_behaviour": "Methods and Implementation must not claim live control of the commercial warehouse environment; they must use the isolated thermal bench, permitted read-only monitoring, or explicitly contingent future access for validation."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hi team,\n\nWe are pivoting our secure robotics and data pipeline work to target this new food cold-chain call. We want to combine TUF's resilient decision-support systems and ALV's robotics with IMAA's microbial spoilage models and AKK's logistics network.\n\nHere is the core idea: we will use our secure edge-computing pipelines to ingest continuous environmental data from AKK's warehouses and ALV's mobile platforms. IMAA will build predictive models on how spoilage organisms behave when the cold chain breaks.\n\nTo really tackle the spoilage issue at the source, IMAA should lead a work package to develop a new veterinary antimicrobial drug that can be applied to the food before transport. This will be our main intervention to reduce spoilage during temperature abuse.\n\nFor the validation phase at AKK's Innsbruck facility, we want to test our new cold-chain policies by directly taking over and controlling their live refrigeration systems. This will let us prove our decision-support tool works in a real commercial environment.\n\nSince the call asks for social sciences to look at adoption barriers, and we don't have that in the consortium, please include a plan to recruit an SSH postdoc at TUF or bring in a specialized subcontractor to handle the behavioral and organizational aspects.\n\nLet's aim for a 40-month duration and request EUR 5.4 million.\n\nBest,\nLukas",
+        "traps": [
+          {
+            "type": "T05",
+            "description": "The brief proposes creating a veterinary antimicrobial drug as the main way to reduce spoilage, but the call explicitly states that \"The development or testing of new antimicrobial veterinary medicines or chemical food preservatives\" is out of scope.",
+            "expected_behaviour": "Remove the explicitly excluded medicinal-product development and focus the methodology on monitoring, predictive modelling, and process interventions within the food-system scope."
+          },
+          {
+            "type": "T12",
+            "description": "The brief requests testing cold-chain policies by directly controlling the live refrigeration systems at AKK's warehouse. However, the dossier states that \"AKK management withdraws access to live refrigeration control interfaces\" and only \"Read-only monitoring remains authorised\" alongside an \"isolated thermal bench\".",
+            "expected_behaviour": "Methods and Implementation must not claim live control of the commercial warehouse environment; they must use the isolated thermal bench, permitted read-only monitoring, or explicitly contingent future access for validation."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "brief.md, antimicrobial intervention paragraph; task.yaml, T1",
+          "problem": "The trap relies on a scientifically implausible applicant suggestion: developing a veterinary medicine to apply directly to food before transport. That proposed use is food preservation, not veterinary treatment. Combined with IMAA's explicitly stated lack of medicinal-product expertise, this does not meet the requirement for a realistic applicant suggestion.",
+          "fix": "Replace the proposed veterinary drug with a new chemical food preservative intended for application before transport. Update T1 accordingly, retaining the conflict with EX1 and accepting feasible interventions within the call's scope."
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

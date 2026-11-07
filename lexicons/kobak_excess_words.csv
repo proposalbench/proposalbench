@@ -1,0 +1,901 @@
+word,type,part_of_speech,comment
+abcd,content,noun,multiple different abbreviations
+accentuates,style,verb,
+aceis,content,noun,angiotensin-converting enzyme inhibitors
+achieving,style,verb,
+acknowledges,style,verb,
+acknowledging,style,verb,
+across,style,preposition,
+acute,content,adjective,"""acute pneumonia"""
+additionally,style,adverb,
+address,style,verb,
+addresses,style,verb,
+addressing,style,verb,
+adept,style,adjective,
+adhered,style,verb,
+adhering,style,verb,
+adipate,content,noun,adipic acid
+admet,content,noun,"absorption, distribution, metabolism, excretion and toxicity"
+adrd,content,noun,Alzheimer's disease and related dementias
+advancement,style,noun,
+advancements,style,noun,
+advancing,style,verb,
+adversarial,content,adjective,"generative adversarial networks, adversarial examples"
+advocates,style,verb,
+advocating,style,verb,
+aerosolization,content,noun,
+affirming,style,verb,
+afflicted,style,verb,
+agnostic,content,adjective,tumour-agnostic
+aiding,style,verb,
+aims,style,verb,
+akin,style,adjective,
+align,style,verb,
+aligning,style,verb,
+aligns,style,verb,
+alongside,style,preposition,
+alphafold,content,noun,
+amid,style,preposition,
+amidst,style,preposition,
+amos,content,noun,multiple different abbreviations
+analysis,style,noun,
+angiotensin,content,noun,
+announced,style,verb,
+anosmia,content,noun,
+antiseizure,content,noun,
+antiviral,content,adjective,
+aotearoa,content,noun,Māori-language name for New Zealand
+apixaban,content,noun,anticoagulant medication used to treat and prevent blood clots
+apologizes,style,verb,
+approach,style,noun,
+april,content,noun,Covid pandemic spread
+arbovirus,content,noun,
+arbs,content,noun,"abbreviations including: ARBs, angiotensin receptor antagonists, used to treat high blood pressure and heart failure"
+ards,content,noun,"abbreviations, ARDS, Acute respiratory distress syndrome"
+armonk,other,noun,"related to SPSS citations (which is by IBM, whose headquarters are in Armonk)"
+aspx,other,,"appears in links, but this is partially artefact of data availability and trial registration statements not being filtered out"
+assess,style,verb,
+assessed,style,verb,
+assessing,style,verb,
+assessments,style,noun,
+astrazeneca,content,noun,
+attains,style,verb,
+attr,content,noun,abbreviation for a type of amyloidosis disease
+attributed,style,verb,
+augmenting,style,verb,
+authorization,content,noun,FDA drug authorization
+authorized,content,verb,
+autoencoder,content,noun,
+avenue,style,noun,
+avenues,style,noun,
+background,content/style,noun,can be both
+bacteroidota,content,noun,
+based,style,verb,
+betacoronavirus,content,noun,
+between,style,preposition,
+bibliometrix,content,noun,R package
+bioeconomy,content,noun,
+bioinspired,content,verb,
+biontech,content,noun,
+bioorthogonal,content,adjective,
+bivariable,content,adjective,
+blactx,content,noun,
+bolster,style,verb,
+bolstered,style,verb,
+bolstering,style,verb,
+booster,content,noun,
+boredom,content,noun,
+both,style,pronoun/adverb,
+brier,content,noun,some score (MSE for predicted probabilites)
+broader,style,adjective,
+browning,content,verb,
+burgeoning,style,verb,
+businesses,content,noun,
+capabilities,style,noun,
+capitalizing,style,verb,
+carapace,content,noun,
+carbapenemase,content,noun,
+categorized,style,verb,
+categorizes,style,verb,
+categorizing,style,verb,
+cbioportal,content,noun,
+ccle,content,noun,"abbreviations, one for a type of lupus and Cancer Cell Line Encyclopedia (CCLE)"
+cerna,content,noun,"""competing endogenous RNA"""
+cfdna,content,noun,cell-free DNA
+cfps,content,noun,various abbreviations
+cgga,content,noun,Chinese Glioma Genome Atlas (CGGA)
+challenge,style,verb,
+challenges,style,noun,
+chat,content,noun,
+chatbot,content,noun,
+chatbots,content,noun,
+chatgpt,content,noun,
+chloroquine,content,noun,
+cibersort,content,noun,
+circrna,content,noun,
+circrnas,content,noun,
+cisgender,content,noun,
+citespace,content,noun,
+clinical,content,adjective,
+clostridioides,content,noun,part of species name
+closures,content/style,noun,"used in many contexts, like businesses"
+cmax,content,noun,
+cnns,content,noun,
+codebook,content,noun,
+coii,content,noun,
+combating,style,verb,
+combustible,content,adjective,e-cigarette related
+commendable,style,adjective,
+compelling,style,adjective,
+complex,style,noun,
+complexities,content/style,noun,"complexity can be a term as in computational complexity, or a general term"
+complicates,style,verb,
+complicating,style,verb,
+comprehend,style,verb,
+comprehending,style,verb,
+comprehension,content,noun,diagnostic term as in reading comprehension
+comprehensive,style,adjective,
+comprising,style,verb,
+concurrently,content/style,adverb,"in principle style, but often used in a specific context (concurrency of disease symptoms or medications)"
+concussions,content,noun,
+conditions,style,noun,
+conducted,style,verb,
+conferencing,content,verb,
+connor,content,noun,name
+consequently,style,verb,
+consolidates,style,verb,
+consolidations,content,noun,radiology term
+contagion,content,noun,
+contagious,content,adjective,
+containment,content,noun,
+contracting,content,verb,
+contrastive,content,adjective,
+contributing,style,verb,contributing factors 
+convalescence,content,noun,
+convalescent,content,adjective,covid related
+conversely,style,adverb,
+converting,content,verb,often part of enzyme-names
+convolution,content,noun,
+convolutional,content,adjective,
+coreq,content,noun,"abbreviatoin, Consolidated Criteria for Reporting Qualitative Studies (COREQ)"
+corona,content,noun,
+coronaviridae,content,noun,familiy of viruses
+coronavirus,content,noun,
+coronaviruses,content,noun,
+corp,other,noun,often part of citation that refer to a corporation like Microsoft corp.
+correlating,style,verb,
+cough,content,noun,
+covid,content,noun,
+covs,content,noun,abbreviation for coronaviruses
+crafted,style,verb,
+crafting,style,verb,
+crises,content,noun,
+crisis,content,noun,
+crispr,content,noun,
+crucial,style,adjective,
+ctri,content,noun,Clinical Trial Registry India
+culminating,style,verb,
+cuproptosis,content,noun,
+customizing,style,verb,
+daratumumab,content,noun,
+dass,content,noun,Depression Anxiety Stress Scale (DASS)
+decarbonization,content,noun,
+declare,style,verb,
+declared,style,verb,
+decoder,content,noun,
+deductively,style,adverb,
+deeper,content/style,adjective,can potentially refer to deep learning / deep networks
+degs,content,noun,DEGs
+delineates,style,verb,
+delong,content,noun,DeLong’s test to compare AUCs
+delta,content,noun,
+delve,style,verb,
+delved,style,verb,
+delves,style,verb,
+delving,style,verb,
+demonstrated,style,verb,
+demonstrates,style,verb,
+demonstrating,style,verb,
+dependability,style,noun,
+dependable,style,adjective,
+deps,content,noun,differentially expressed proteins (DEPs)
+despite,style,preposition,
+detailing,style,verb,
+detrimentally,style,adverb,
+dichalcogenides,content,noun,
+diminishes,style,verb,
+diminishing,style,verb,
+discern,style,verb,
+discerned,style,verb,
+discernible,style,adjective,
+discerning,style,verb,
+disease,content,verb,
+displaying,style,verb,
+disrupts,style,verb,
+distancing,content,verb,social distancing
+distinct,style,adjective,
+distinctions,style,noun,
+distinctive,style,adjective,
+diverse,style,adjective,
+doacs,content,noun,Direct oral anticoagulants (DOACs)
+domestically,content,adverb,
+druggable,content,adjective,
+during,style,preposition,
+dysgeusia,content,noun,
+easing,style,verb,
+ebola,content,noun,
+ebsco,content,noun,host of some literature databases
+ebscohost,content,noun,host of some literature databases
+economies,content,noun,
+economy,content,noun,
+effectively,style,adverb,
+efficacy,style/count,noun,can refer to vaccine efficacy
+efsa,content,noun,"European Food Safety Authority (EFSA), but also an artefact in few cases"
+egger,content,noun,method name
+elecsys,content,noun,assay name
+electrolyzer,content,noun,
+elevate,style,verb,
+elevated,style,verb,
+elevates,style,verb,
+elevating,style,verb,
+elucidate,style,verb,
+elucidates,style,verb,
+elucidating,style,verb,
+emax,content,noun,parameter name
+embracing,style,verb,
+emerged,style,verb,
+emergencies,content,noun,
+emerges,style,verb,
+empagliflozin,content,noun,drug
+emphasises,style,verb,
+emphasising,style,verb,
+emphasize,style,verb,
+emphasizes,style,verb,
+emphasizing,style,verb,
+employed,style,verb,
+employing,style,verb,
+employs,style,verb,
+empowers,style,verb,
+emulating,style,verb,
+emulation,style,noun,
+enabling,style,verb,
+encapsulates,style,verb,
+encoder,content,noun,
+encompass,style,verb,
+encompassed,style,verb,
+encompasses,style,verb,
+encompassing,style,verb,
+encyclopedia,content,noun,
+endangering,style,verb,
+endeavors,style,noun,"""research endeavors"""
+endeavours,style,noun,BE version
+endogeneity,content,noun,
+enduring,style,verb,
+enhance,style,verb,
+enhanced,style,verb,
+enhancements,style,nount,
+enhances,style,verb,
+enhancing,style,verb,
+ensuring,style,verb,
+enterprises,content,noun,
+enzalutamide,content,noun,drug
+epicenter,content,noun,
+epidata,content,noun,analysis software
+epidemic,content,noun,
+equipment,content,noun,
+equipping,style,verb,
+escalating,style,verb,
+essentials,style,noun,
+evaluates,style,verb,
+evapotranspiration,content,noun,
+evolving,style,verb,
+exacerbating,style,verb,
+examines,style,verb,
+exceeding,style,verb,
+excels,style,verb,
+exceptional,style,adjective,
+exceptionally,style,adverb,
+exerting,style,verb,
+exhibit,style,verb,
+exhibited,style,verb,
+exhibiting,style,verb,
+exhibits,style,verb,
+expedite,style,verb,
+expediting,style,verb,
+explainable,content,adverb,explainable AI
+exploration,style,noun,
+explores,style,verb,
+faces,content/style,noun/verb,can be content noun (face) or style verb (to face)
+facilitated,style,verb,
+facilitates,style,verb,
+facilitating,style,verb,
+faers,content,noun,FDA Adverse Event Reporting System
+fatality,content,noun,
+favipiravir,content,noun,ebola drug repurposed for covid
+featuring,style,verb,
+feiii,content,noun,"Fe(III), Iron cation"
+ferroptosis,content,noun,type of cell death
+fight,style,noun/verb,
+findings,style,noun,
+finngen,content,noun,database like UK Biobank
+flatten,content,verb,"""flatten the curve"""
+flavivirus,content,noun,
+flesch,content,noun,score name
+focusing,style,verb,
+formidable,style,adjective,
+fostering,style,verb,
+fosters,style,verb,
+foundational,style,adjective,
+frontline,content,noun,"frontline staff (COVID!), or Frontline therapy refers to a patient's first CLL treatment"
+furin,content,noun,"type of protease, 'furin cleavage site' is COVID related"
+furnish,style,verb,
+gabaa,content,noun,
+gabab,content,noun,
+garnered,style,verb,
+garnering,style,verb,
+gauged,style,verb,
+gbsa,content,noun,abbreviation
+gepia,content,noun,"software, Gene Expression Profiling Interactive Analysis (GEPIA)"
+github,content,noun,
+globe,content,noun,
+governing,content,noun,
+governments,content,noun,
+grappling,style,verb,
+groundbreaking,style,adjective,
+groundwork,style,noun,
+gsea,content,noun,Gene set enrichment analysis
+guillain,content,noun,Guillain-Barré syndrome
+gwas,content,noun,Genome-wide association study
+handwashing,content,noun,Covid mitigation
+hardest,style,noun,
+hardships,content,noun,
+harness,style,verb,
+harnesses,style,verb,
+harnessing,style,verb,
+havoc,content,noun,HAVoC is a pipeline utilizing several bioinformatic tools to perform multiple necessary analyses for investigating genetic variance among SARS-CoV-2 samples.
+hcov,content,noun,Human coronavirus (HCoV)
+hcws,content,noun,healthcare workers
+heighten,style,verb,
+heightened,style,adjective,
+henan,content,noun,province in China
+hesitancy,content,noun,vaccine hesitancy
+hesitant,content,adjective,vaccine hesitancy
+heterogenous,content/style,adjective,can have technical meanings but can also be used in other contexts
+heterostructure,content,noun,
+hfref,content,noun,heart failure with reduced ejection fraction (HFrEF)
+highlight,style,verb,
+highlighting,style,verb,
+highlights,style,verb,
+hiit,content,noun,high-intensity interval training (HIIT)
+hinder,style,verb,
+hinges,style,verb,
+hinting,style,verb,
+hipsc,content,noun,hESCs and hiPSCs are both human pluripotent stem cells (hPSCs)
+hold,style,verb,
+holds,style,verb,
+hospitalized,content,verb,
+hotel,content,noun,related to Covid spread
+however,style,adverb,
+https,other,,appears in links
+hubei,content,noun,province in China
+humanity,content,noun,
+hydroxychloroquine,content,noun,
+hydroxymethylcytosine,content,noun,
+hypercoagulability,content,noun,
+hyperinflammation,content,noun,
+hyperinflammatory,content,adjective,
+icgc,content,noun,International Cancer Genome Consortium (ICGC)
+icis,content,noun,Immune checkpoint inhibitors (ICIs)
+identified,style,verb,
+ideological,content,adjective,relating to some ideology
+ieee,content,noun,Mostly refers to IEEE Xplore
+illuminates,style,verb,
+illuminating,style,adjective,
+imbalances,style,verb,
+impact,style,noun,
+impactful,style,adjective,
+impacting,style,verb,
+impede,style,verb,
+impeding,style,adjective,
+imperative,style,adjective,
+impressive,style,adjective,
+inaccuracies,content,noun,refers to problems with data
+inadequately,style,adverb,
+inaugural,content/style,adjective,unsure
+including,style,preposition,
+incorporates,style,verb,
+incorporating,style,verb,
+indicating,style,verb,
+individuals,style,noun,
+inequitable,content,adjective,unfair; unjust
+infection,content,noun,
+infectiousness,content,noun,
+influencing,style,verb,
+inherent,style,adjective,
+initially,style,adverb,
+innovative,style,adjective,
+inquiries,style,noun,
+insights,style,noun,
+integrates,style,verb,
+integrating,style,verb,
+integration,style,noun,
+interconnectedness,style,noun,
+interplay,style,noun,
+intersected,content,verb,"one set of genes was ""intersected"" with another set of genes"
+intersectionality,content,noun,"Intersectionality (or intersectional theory) is a term first coined in 1989 by American civil rights advocate and leading scholar of critical race theory, Kimberlé Williams Crenshaw"
+interspaced,content,verb,clustered regularly interspaced short palindromic repeat (CRISPR)
+into,style,preposition,
+intricacies,style,noun,
+intricate,style,adjective,
+intricately,style,adverb,
+introduces,style,adjective,
+invaluable,style,adjective,
+investigates,style,verb,
+investigation,content/style,noun,“investigation” can be a synonym of “study” or “experiment” which is style
+investors,content,noun,economics term
+involves,style,verb,
+involving,style,verb,
+isrctn,content,noun,The ISRCTN registry is a primary clinical trial registry
+janssen,content,noun,Covid vaccine
+juxtaposed,style,adjective,
+katp,content,noun,ATP-sensitive potassium (KATP) channels
+kcat,content,noun,kcat is the catalytic constant
+koch,content,noun,Robert Koch
+lachnospiraceae,content,noun,
+lacticaseibacillus,content,noun,
+lactiplantibacillus,content,noun,
+landscape,content/style,noun,can have technical meaning but also used as a style word
+lasso,content,noun,regularization
+latinx,content,noun,
+leading,style,verb,
+leone,content,noun,Sierra Leone - Ebola outbreak
+levels,content,noun,
+leverages,style,verb,
+leveraging,style,verb,
+liberia,content,noun,
+lies,content/style,noun/verb,can be noun (plural from lie) or a verb (3rd person singular)
+like,style,particle,
+limitations,style,noun,
+linked,style,verb,
+lipidomic,content,adjective,
+livelihoods,content,noun,
+llms,content,noun,large language model
+lncrna,content,noun,Long noncoding RNAs
+lncrnas,content,noun,Long noncoding RNAs
+lockdown,content,noun,
+lockdowns,content,noun,
+lombardy,content,noun,Covid outbreak in Italy
+loneliness,content,noun,
+lopinavir,content,noun,
+lowly,content,adjective,lowly expressed genes
+lstm,content,noun,long short-term memory
+luad,content,noun,Lung adenocarcinoma
+lymphocytopenia,content,noun,
+lymphopenia,content,noun,
+machining,content,adjective,machining process
+mafld,content,noun,“Metabolic dysfunction-associated fatty liver disease (MAFLD)” is the term suggested in 2020 to refer to fatty liver disease
+maintaining,style,verb,
+management,content,noun,
+managing,content,verb,
+march,content,noun,Covid outbreak
+marking,content,noun,"Can refer to tumor marking, see ""tumor marker"""
+mash,content,noun,Metabolic dysfunction-associated steatohepatitis (MASH) is the replacement term for what used to be called nonalcoholic steatohepatitis
+mask,content,noun,Covid prevention
+masks,content,noun,Covid prevention
+masld,content,noun,Metabolic dysfunction-associated steatotic liver disease (MASLD) is the latest term for steatotic liver disease
+mechanisms,content,noun,general term used in biology
+medrxiv,content,noun,medRxiv was launched in 2019
+mendelian,content,adjective,
+merges,style,verb,
+mers,content,noun,Middle East respiratory syndrome
+metacognition,content,noun,
+methodologies,style,noun,
+methylammonium,content,noun,
+meticulous,style,adjective,
+meticulously,style,adverb,
+microcephaly,content,noun,
+midst,style,preposition,
+minimizing,content/style,verb,can have technical and non-technical meanings
+minoritized,content,adjective,minoritized groups of people
+mirroring,content/style,verb,can have technical and non-technical meanings
+miseq,content,noun,Illumina MiSeq
+misinformation,content,noun,
+mitigate,content,verb,
+mitigated,content,verb,
+mitigates,content,verb,
+mitigating,content,verb,
+mitogenome,content,noun,
+model,content,noun,"statistical model, model organism, etc."
+moderating,content,adjective,moderating factors/effects
+moderna,content,noun,Covid vaccine
+modulating,content/style,verb,can have technical and non-technical meanings
+molnupiravir,content,noun,
+monkeypox,content,noun,
+mpox,content,noun,Mpox (formerly known as monkeypox)
+mpro,content,noun,SARS-CoV-2 main protease
+mpxv,content,noun,MPXV is an enveloped double-stranded DNA (dsDNA) virus
+mucormycosis,content,noun,
+multifaceted,style,adjective,
+multiracial,content,adjective,
+mxene,content,noun,"In materials science, MXenes are a class of two-dimensional inorganic compounds along with MBenes"
+myalgia,content,noun,
+nanosheet,content,noun,
+nasopharyngeal,content,adjectove,
+ncov,content,noun,2019-nCoV
+necessitate,style,verb,
+necessitates,style,verb,
+necessitating,style,verb,
+necessity,style,noun,
+need,style,verb,
+neurofeedback,content,noun,
+neuromorphic,content,adjective,
+neutrality,content,noun,carbon neutrality
+news,content,noun,
+nhanes,content,noun,National Health and Nutrition Examination Survey
+nirmatrelvir,content,noun,
+nivolumab,content,noun,
+nmosd,content,noun,Neuromyelitis Optica Spectrum Disorder (NMOSD)
+nomogram,content,noun,a diagram representing the relations between three or more variable quantities
+normalcy,content,noun,often as “return to normalcy” after covid pandemic
+notable,style,adjective,
+notably,style,advebr,
+noteworthy,style,adjective,
+nsqip,content,noun,ACS National Surgical Quality Improvement Program
+nuanced,style,adjective,
+nuances,style,noun,
+nucleocapsid,content,noun,
+observed,style,verb,
+offer,style,verb,
+offering,style,verb,
+offers,style,verb,
+omicron,content,noun,
+omnibus,content,adjective,omnibus statistical test
+online,content,adjective,
+opacities,content,noun,
+openai,content,noun,
+optimizing,style,verb,
+optoelectronics,content,noun,
+orchestrating,style,verb,
+organoid,content,noun,
+originality,content/style,noun,
+outbreak,content,noun,not only about covid
+outcomes,style,noun,
+outlines,style,verb,
+outperforming,content,verb,one method outperforming another
+overlook,style,verb,
+overlooking,style,verb,
+overpotential,content,noun,electrochemistry term
+overwhelmed,style,verb,
+pandemic,content,noun,
+pandemics,content,noun,
+paracancerous,content,adjective,
+particularly,style,adverb,
+patient,content,noun,
+patients,content,noun,
+paving,style,verb,
+pcgs,content,noun,various abbreviations
+pembrolizumab,content,noun,drug
+perovskite,content,noun,mineral
+perovskites,content,noun,
+persist,style,verb,
+personalized,content,adjective,personalized medicine
+pfas,content,noun,Per- and polyfluoroalkyl substances are a group of synthetic organofluorine chemical compounds
+pfizer,content,noun,
+photobiomodulation,content,noun,
+phytochemistry,content,noun,
+phytoconstituents,content,noun,
+pinpoint,style,verb,
+pinpointed,style,verb,
+pinpointing,style,verb,
+pioneering,style,verb,
+pioneers,style,noun,
+pivotal,style,adjective,
+plastome,content,noun,
+pleiotropy,content,noun,
+pneumonia,content,noun,
+poised,style,verb,
+policymaking,content,noun,
+polydopamine,content,noun,
+polyfluoroalkyl,content,noun,
+pose,style,verb,
+posed,style,verb,
+poses,style,verb,
+posing,style,verb,
+postponed,style,verb,
+potential,style,adjective,
+potentially,style,adverb,
+precautionary,content,adjective,"""precautionary measures"""
+precautions,content,noun,
+precise,style,adjective,
+predominantly,style,adverb,
+prepandemic,content,noun,
+preregistered,content,verb,
+presents,style,verb,
+preserving,style,verb,
+pressing,style,adjective,
+presso,content,noun,MR-PRESSO: Mendelian Randomization Pleiotropy RESidual Sum and Outlier
+pretrained,content,verb,
+prevalent,style,adjective,
+primarily,style,adverb,
+primary,style,adjective,
+printer,content,noun,3d printers
+printing,content,verb,
+prioritize,content/style,verb,"edge case -- ""vaccine prioritizations"""
+prioritizes,content/style,verb,
+prioritizing,content/style,verb,
+procalcitonin,content,noun,
+prominence,content/style,noun,"""linguistic prominence"" and some other terms"
+promise,style,verb,
+promising,style,verb,
+prompting,content/style,verb,can be about LLM prompts
+prompts,content,nouns,LLM prompts
+proms,content,noun,Patient-reported outcome measures
+pronounced,style,adjective,
+propelling,style,verb,
+prospero,content,noun,International Prospective Register of Systematic Reviews
+providing,style,verb,
+pseudomolecules,content,noun,
+pseudotyped,content,vreb,
+psma,content,noun,Prostate-specific membrane antigen
+ptrend,content,other,p-value for trend
+pwms,content,noun,People with MS
+quarantine,content,noun,
+quarantined,content,verb,
+racialized,content,verb,
+racism,content,noun,
+radiographical,content,adjective,
+radiomics,content,noun,
+radium,content,noun,
+randomization,content,noun,
+rates,content,noun,
+rdrp,content,noun,RNA-dependent RNA polymerase
+reactogenicity,content,noun,"reactogenicity is the capacity of a vaccine to produce common, ""expected"" adverse reactions"
+realizes,style,verb,
+realm,style,noun,
+realms,style,noun,
+recognizing,style,verb,
+redescribed,content,verb,redescribed species
+refine,style,verb,
+refines,style,verb,
+refining,style,verb,
+reframing,style,verb,
+reinfection,content,noun,
+reinfections,content,noun,
+reliance,content/style,noun,can have technical and non-technical meanings
+remains,style,verb,
+remarkable,style,adjective,
+remdesivir,content,noun,
+remotely,content/style,adjective,
+renowned,style,adjective,
+reopening,content,noun,covid-related
+repurposed,content,adjective,repurposed medications
+research,style,noun,
+resnet,content,noun,
+respirator,content,noun,
+respirators,content,noun,
+respiratory,content,adjective,
+restrictions,content,noun,
+resulting,style,verb,
+resuming,content/style,verb,can relate to covid pandemic
+rethink,style,verb,
+retrosigmoid,content,adjective,retrosigmoid approach - neurosurgery term
+revealed,style,verb,
+revealing,style,verb,
+reveals,style,verb,
+review,content,noun,
+revolutionize,style,verb,
+revolutionizing,style,verb,
+revolves,style,verb,
+rhino,content,other,part of different words written with a hyphen
+ribonucleic,content,adjective,
+robins,content,noun,The ROBINS-I tool (“Risk Of Bias In Non-randomised Studies - of Interventions”) is concerned with evaluating risk of bias
+role,style,noun,
+rollout,content,noun,
+rosenberg,content,name,Rosenberg self-esteem scale
+rrnas,content,noun,ribosomal RNA
+rstudio,content,noun,refers to R language
+safeguard,content,verb,
+safeguarding,content,verb,
+sars,content,noun,
+scaffolded,content,verb,
+scfas,content,noun,short-chain fatty acid
+scielo,content,noun,bibliographic database
+scoping,content,noun,"""scoping review"" - a type of review"
+scrna,content,noun,small conditional RNA
+scrutinize,style,verb,
+scrutinized,style,verb,
+scrutinizing,style,verb,
+seahorse,content,noun,Seahorse Bioscience is a private company that develops and manufactures cellular bioenergetics analytical instruments
+seamless,style,adjective,
+seamlessly,style,adverb,
+seeks,style,verb,
+seir,content,noun,susceptible-exposed-infected-recovered - infection model
+sentiment,content,noun,sentiment analysis
+serves,style,verb,
+serving,style,verb,
+severe,content,adjective,severe disease
+shandong,content,noun,province in China
+shap,content,noun,SHapley Additive exPlanations
+shaping,style,verb,
+shapley,content,noun,SHapley Additive exPlanations
+shedding,style,verb,
+shenzhen,content,noun,city in China
+shortages,content,noun,
+shortness,content,noun,"""shortness of breath"""
+showcased,style,verb,
+showcases,style,verb,
+showcasing,style,verb,
+shutdown,content,noun,Covid pandemic related
+sierra,content,noun,Sierra Leone - ebola outbreak
+significant,content/style,adjective,"can mean ""statistically significant"" but not necessarily"
+signifying,style,verb,
+smallpox,content,noun,
+smell,content,noun,Covid leads to smell loss
+sneezing,content,noun,
+sofosbuvir,content,noun,
+solidarity,content,noun,
+solidify,style,verb,
+sore,content,adjective,
+sourced,content,verb,
+spanned,style,verb,
+spanning,style,verb,
+specific,content,adjective,"used in hyphenated words like ""something-specific"""
+specifically,style,adverb,
+spike,content,noun,spike protein
+sponging,content,verb,Covid context
+spread,content,verb,
+spurred,style,verb,
+srmr,content,noun,standardized root mean squared residual
+ssgsea,content,noun,single-sample gene set enrichment analysis
+standardizing,style/content,verb,can have technical and non-technical meanings
+stands,style,verb,
+stata,content,noun,statistical software
+statement,style,noun,
+steatotic,content,adjective,steatosis = accumulation of fat in tissues
+stemming,style,verb,
+storm,content,noun,cytokine storm
+strategically,style,adjective,
+strategies,style,noun,
+streamline,style,verb,
+streamlined,style,verb,
+streamlines,style,verb,
+streamlining,style,verb,
+stretchable,content,adjective,"stretchable devices, electronics, etc"
+stringency,content,noun,Covid measures stringency
+strobe,content,noun,Strengthening the Reporting of Observational Studies in Epidemiology
+struggle,style,verb,
+study,content,noun,
+sublineages,content,noun,
+subsequently,style,adverb,
+substantial,style,adjective,
+substantiated,style,verb,
+substantiates,style,verb,
+supplementary,content,adjective,"Supplementary Materials, medications, motor areas, etc."
+surge,content,noun,Covid context
+surged,style,verb,
+surmount,style,verb,
+surpass,style,verb,
+surpassed,style,verb,
+surpasses,style,verb,
+surpassing,style,verb,
+suvmax,content,noun,Maximum Standard Unit Value (SUVmax) is an indicator for overall survival in lung cancer
+swab,content,noun,
+swift,style,adjective,
+swiftly,style,adverb,
+syndrome,content,noun,
+synonym,content,noun,species taxonomy
+synonyms,content,noun,species taxonomy
+synonymy,content,noun,species taxonomy
+synthesizes,style/content,verb,can have technical and non-technical meanings
+tailored,content,adjective,medical approaches tailored to the patient
+talens,content,noun,transcription activator-like effector nucleases
+talent,content,noun,
+tcga,content,noun,the cancer genome atlas
+tcmsp,content,noun,Traditional Chinese Medicine Systems Pharmacology
+techniques,style,noun,
+telehealth,content,noun,
+telemedicine,content,noun,
+telerehabilitation,content,noun,
+their,style,pronoun,
+therapeutic,content,adjective,
+therapeutical,content,adjective,
+thereby,style,adverb,
+these,style,pronoun,
+this,style,pronoun,
+thorough,style,adjective,
+through,style,preposition,
+timepoint,content,noun,
+timer,content,noun,Tumor IMmune Estimation Resource
+tirzepatide,content,noun,
+tmax,content,noun,time to maximum concentration
+tmds,content,noun,temporomandibular disorders
+tocilizumab,content,noun,
+tofacitinib,content,noun,
+trainings,content,noun,
+transformative,style,adjective,
+transformer,content,noun,
+transformers,content,noun,
+transgender,content,adjective,
+transitioning,content,verb,different uses
+transmissibility,content,noun,
+transwell,content,noun,wetlab device
+treatment,content,noun,
+triaging,content,noun,
+trinetx,content,noun,TriNetX is a self-service web-based data exploration tool
+trna,content,noun,transport RNA
+trustworthy,content,adjective,trustworthy AI
+tweets,content,noun,
+twitter,content,noun,
+typically,style,adverb,
+ukrainian,content,adjective,
+ultimately,style,adverb,
+uncharted,style,adjective,
+uncovering,style,verb,
+underexplored,style,verb,
+underscore,style,verb,
+underscored,style,verb,
+underscores,style,verb,
+underscoring,style,verb,
+understanding,style,verb,
+unexplored,style,adjective,
+unlocking,style,verb,
+unparalleled,style,adjective,
+unraveling,style,verb,
+unvaccinated,content,verb,
+unveil,style,verb,
+unveiled,style,verb,
+unveiling,style,verb,
+unveils,style,verb,
+upadacitinib,content,noun,
+uphold,style,verb,
+upholding,style,verb,
+urging,style,verb,
+using,style,verb,
+utilized,style,verb,
+utilizes,style,verb,
+utilizing,style,verb,
+vaccinate,content,verb,
+vaccinated,content,verb,
+vaccination,content,noun,
+vaccinations,content,noun,
+vaccine,content,noun,
+vaccinees,content,noun,
+vaccines,content,noun,
+valuable,style,adjective,
+vaping,content,noun,
+variations,content,noun,"can be used in various contexts, but usually has technical meaning"
+various,style,adjective,
+varying,style,verb,
+vemurafenib,content,noun,
+ventilation,content,noun,
+ventilators,content,noun,
+verifies,style,verb,
+versatility,style,noun,
+videoconferencing,content,noun,
+vigilant,content,adjective,doctors being vigilant about some condition
+viral,content,adjective,
+vmax,content,noun,maximum velocity
+vosviewer,content,noun,VOSViewer is a software tool which can be used to conduct bibliometric analyses and create visualizations from selected database
+wandering,style,verb,
+wanfang,content,noun,Wanfang Data has been a leading information content and service provider in China
+waning,content,adjective,waning immunity
+warranting,style,verb,
+wearable,content,adjective,
+welded,content,adjective,welded joints
+were,style,verb,
+wgcna,content,noun,"Weighted correlation network analysis, also known as weighted gene co-expression network analysis"
+whatsapp,content,noun,
+while,style,preposition,
+whiteness,content,noun,about race
+within,style,adverb,
+workers,content,noun,relates to covid
+worried,content,verb,relates to covid (anxiety)
+worries,content,verb,related to covid
+wuhan,content,noun,covid related
+xgboost,content,noun,ML model
+yielding,style,verb,
+yolo,content,noun,"""you only look once"", ML algorithm for object detection"
+youtube,content,noun,studies talking about youtube
+zika,content,noun,virus
+zikv,content,noun,virus
+zoom,content,noun,"related to covid, zoom the videocalling platform"

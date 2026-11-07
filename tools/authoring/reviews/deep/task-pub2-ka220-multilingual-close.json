@@ -1,0 +1,43 @@
+{
+  "kind": "task",
+  "id": "pub2-ka220-multilingual-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub2-ka220-multilingual-close/task.yaml T1 expected_behaviour: \"selects an allowed lump sum (e.g., EUR 400,000)\" but \"states the total project cost as EUR 450,000, identifying the remaining EUR 50,000\".",
+      "problem": "The key accepts three lump sums in principle but hard-codes the arithmetic for only EUR 400,000. With EUR 250,000 or EUR 120,000 the remainder of a EUR 450,000 project would be EUR 200,000 or EUR 330,000, respectively. It also requires preserving the applicant's total even though feasible rescoping is allowed. A compliant proposal can fail this key solely for selecting a different lawful repair.",
+      "fix": "Replace T1 expected_behaviour with: 'Select one permitted grant amount (EUR 120,000, EUR 250,000 or EUR 400,000), allocate it consistently, and give a feasible total project cost exceeding that grant with identified committed or prospective additional contributions. The difference must equal total cost minus requested grant. Keeping EUR 450,000 total with EUR 400,000 grant and EUR 50,000 contributions is one option; other feasible totals, grant choices and activity rescoping are accepted. Do not invent commitments.'",
+      "evidence": [
+        "data/public/calls/v2-ka220-multilingual-practice/call.md",
+        "data/public/tasks/pub2-ka220-multilingual-close/task.yaml",
+        "tools/authoring/design_v2.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 4",
+      "where": "data/public/tasks/pub2-ka220-multilingual-close/brief.md: \"Si por algún motivo normativo nos obligan a mantener a ISEM (Portugal), su piloto sería...\"",
+      "problem": "This expressly points to a regulatory reason for reversing the very partner-removal suggestion tested by T04. The supplied pilot details are useful, but presenting them as a legal fallback signals that the preceding consortium advice is wrong, contrary to the fair-trap rule.",
+      "fix": "Replace the opening with ordinary background: 'En ISEM (Portugal), la opción de piloto es el Laboratorio de Accesibilidad (Grado). La adaptación requeriría aprobación del Conselho Pedagógico; idioma de instrucción: portugués; alumnado: usuarios de lengua de signos portuguesa.' Keep these notes independent of the proposed consortium simplification.",
+      "evidence": [
+        "data/public/tasks/pub2-ka220-multilingual-close/brief.md",
+        "docs/task_review_checklist.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read brief.md and task.yaml against the assigned full call and all dossier files, not only the earlier automated review. Checked checklist Tasks 1–7, tools/authoring/design_v2.md adopted second-opinion rules, docs/scoring_spec.md and docs/pitfall_taxonomy.md.",
+    "Brief dated 1 October 2026; full-proposal task, not stage1/concept_note/resubmission. No T13 or RESUB criterion is applicable. The design uses at most two traps.",
+    "Unit verdict concerns this task's own files. Call/dossier defects and identity replacements are filed once on their owning units and must be propagated before release.",
+    "T01 premise is real: EUR 450,000 requested grant is outside the three fixed KA220 sums; the call also requires total project cost to exceed the selected grant. The defect is the key's overly specific repair, not the trap type.",
+    "T04 premise is decidable: two USV faculties are one legal applicant, so removing Portugal leaves only Spain and Slovenia. Retaining Portugal with a credible workload or planning an eligible third-country organisation before deadline are both feasible.",
+    "Close fit: multilingual assessment, existing three-country curriculum collaboration and small-group teaching support the proposal; arts staff, audiodescription training and uncontracted placements must retain their recorded status. Twenty-four months and the 6,000-word narrative can accommodate the required design.",
+    "Spanish notes/dossier under an English call are intentional. Course names, languages and approval routes supplied in the brief remove the earlier course-detail feasibility concern."
+  ]
+}

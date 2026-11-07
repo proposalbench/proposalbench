@@ -1,0 +1,45 @@
+{
+  "kind": "dossier",
+  "id": "v2-distributed-proof-career-pi",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2, Dossier 4",
+      "where": "prior_project.md §2.1; publications.md item 2; dossier.yaml F06–F08",
+      "problem": "The stated convergence theorem is false for the supplied protocol. For a two-node graph with unit edge weights, the normalized spectral gap is 2, satisfying the stated condition, but the disagreement satisfies y'(t) = -2y(t-τ), which is asymptotically stable only for τ < π/4. A delay of 4 seconds therefore supplies a counterexample. A lower bound on λ₂ cannot establish this delay margin; the largest dynamical eigenvalue and coupling rate matter. The protocol also does not generally implement the normalized Laplacian named in the text.",
+      "fix": "Define the weights, Laplacian convention, coupling rate and units consistently. Replace the theorem with a valid condition, such as κτλ_max < π/2 for the corresponding symmetric delayed Laplacian system, and specify admissible initial histories. Recalculate any numerical delay guarantee and update the publication abstract and registry."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4, Task 1",
+      "where": "prior_project.md §3; publications.md item 1",
+      "problem": "The sensor-fault result is asserted without a mathematical model or an actual bound. Communication-graph eigenvalues alone do not determine observability or adversarial sensor recoverability: measurement placement, system dynamics and the fault model matter. The report claims unique fault identification and isolation, while the abstract describes maintaining state estimation; these are different guarantees whose relationship is unspecified. This leaves the stretch proposal without a usable, scientifically checkable preliminary result.",
+      "fix": "Specify the dynamics and measurement operators, sensor placement assumptions, fault model and recovery objective. State an explicit preliminary bound with its assumptions and limitations, distinguishing identification/isolation from state estimation. Align the report and abstract and register the resulting facts."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml facts",
+      "problem": "The registry omits numerous proposal-relevant quantities and statuses: the seed award's dates, completion and expenditure breakdown; absence of active federal grants; the exact PhD and departmental-signature dates; the seminar's 15-of-18 survey result and missing assessment methods; the manuscript's July submission date; HPC hardware specifications; the teaching reduction; and guaranteed TA support for up to two PhD students. F07 and F08 mark central quantitative assumptions as nonsalient, and several values lose source precision or units. Existing TA funding capacity is also not explicitly distinguished from recruited students.",
+      "fix": "Audit all four source files and add exact, sourced facts for every salient quantity, status, limitation and commitment. Preserve dates, inequalities and units, mark the corrected theorem assumptions salient, and distinguish available funding and infrastructure from planned recruitment and validation."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 6",
+      "where": "publications.md item 4; dossier.yaml own_publications key thorne2022eigenvalue",
+      "problem": "The applicant's 2022 publication is explicitly a conference-proceedings contribution. The supplied requirements stipulate that the applicant's own publications appear in fictional journals.",
+      "fix": "Convert this entry into an article in a distinctly fictional journal, supply consistent journal bibliographic details, and update both the publications file and registry while retaining the required DOI namespace."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 7, Dossier 3",
+      "where": "publications.md heading and Under Review entry; dossier.yaml F12",
+      "problem": "The publications document has no preparation or status date. F12 nevertheless asserts that the manuscript is under review 'as of 1 October 2026', which its cited source does not state. The September report establishes an earlier under-review status but cannot substantiate the registry's later dated assertion.",
+      "fix": "Date the publications list in September 2026 and explicitly state the manuscript's status as of that date. Make F12 reproduce that supported date and status, with a late-September update establishing currency for the benchmark present."
+    }
+  ]
+}

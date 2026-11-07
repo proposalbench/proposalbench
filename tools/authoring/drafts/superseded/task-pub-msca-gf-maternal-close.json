@@ -1,0 +1,23 @@
+{
+  "kind": "task",
+  "id": "pub-msca-gf-maternal-close",
+  "family": "anthropic",
+  "model": "us.anthropic.claude-opus-4-6-v1",
+  "created": "2026-10-31",
+  "prompt_sha256": "0d295b9eefb3dd64d4a3f9d7e01b064e1904762fd906565d0c6b118ebe153f8f",
+  "draft": {
+    "brief": "# Notes for the proposal writer\n\nHi — here's what I'm thinking for this MSCA Global Fellowship call. The idea builds directly on SafeMother and the NWO-WOTRO pilot.\n\n**Core idea:** I go to KHRC in Ghana for 18 months to run a larger quasi-experimental evaluation of the scaled-up CHW-led PPH screening programme across the three new districts from the pilot, plus three more districts we'd add. The key methodological advance is applying difference-in-differences with staggered adoption and synthetic control methods to the HDSS data at KHRC — techniques I don't know yet but that Comfort and Lieve Janssens at ITG-Antwerp have discussed with me. Then I return to VUM for 6 months to write up, do the policy translation work, and transfer the causal-inference skills back to the department.\n\nI'd also want a secondment to ITG-Antwerp during the outgoing phase — maybe 2 months — to get intensive training from Lieve's group on the econometric methods and R packages (fixest, did, rdrobust). That would be the main training component beyond what KHRC offers.\n\n**Practical points:**\n- Total duration: 24 months (18 outgoing + 6 return). Keeps it tight and realistic.\n- Beneficiary: VUM. Hendrik van der Berg supervises on the European side.\n- Outgoing host: KHRC, with Comfort Asante-Mensah supervising. She's confirmed willingness in principle but I don't have a formal commitment letter yet — please flag that.\n- We already have ethics approval in Ghana for the work in Bono East through the Ghana Health Service Ethics Review Committee — that was granted for the NWO-WOTRO extension. VUM METC is approved too. So ethics should be straightforward; just mention we have the approvals in hand.\n- I'm a dual Ghanaian-Dutch citizen, so eligibility for the Global Fellowship should be fine through my Dutch nationality.\n- For the return phase, the knowledge transfer to VUM would focus on building a causal-inference training module for the Global Health department and reanalysing the SafeMother dataset with the new methods.\n\nPlease emphasise the career development angle — I want to move toward an independent research line combining implementation science with rigorous impact evaluation, eventually aiming for a tenure-track position in Europe. The gap in causal-inference methods is real and this fellowship would fill it.\n\nThanks!",
+    "traps": [
+      {
+        "description": "The brief proposes a 6-month return phase (18 months outgoing + 6 months return = 24 months total). The call requires 'exactly 12 months return' and states: 'The outgoing phase must be at a partner in a non-associated third country, followed by 12 months at the beneficiary in the EU or a country associated to MSCA.' The exclusions section also states: 'A return phase shorter than 12 months … is not permitted.'",
+        "expected_behaviour": "The proposal must include exactly 12 months for the mandatory return phase at VUM. The outgoing phase at KHRC should be adjusted (e.g., 12–24 months outgoing + 12 months return), keeping total duration within the 24–36 month range. A compliant split would be, for example, 18 months outgoing + 12 months return = 30 months, or 12 outgoing + 12 return = 24 months."
+      },
+      {
+        "description": "The brief claims ethics approval in Ghana has been granted ('we already have ethics approval in Ghana … through the Ghana Health Service Ethics Review Committee — that was granted for the NWO-WOTRO extension'). The dossier (cv_pi.md and resources_and_partners.md) consistently states that the Ghana Health Service Ethics Review Committee application was submitted on 15 January 2024 and its status is 'applied for, not yet granted.'",
+        "expected_behaviour": "The proposal must accurately report that the Ghana Health Service ERC application has been submitted but not yet granted, consistent with the dossier evidence. It should identify this as a documentary gap and describe the plan for obtaining the approval before or at the start of fieldwork, rather than asserting that approval is already in hand."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": []
+}

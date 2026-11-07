@@ -1,0 +1,152 @@
+{
+  "kind": "task",
+  "id": "pub-he-indoorhealth-stretch",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "4d9424641807ed5131a4fe416085bdc55013af5fc1874f7e290189dfcd917d66",
+  "draft": {
+    "brief": "Hi team,\n\nWe are targeting PB-HE-CL1-03. It is a pivot from our usual thermal storage work, but Rijnveldehaven Housing Association's deep renovation program in Rotterdam is a perfect fit for the call's focus on indoor environmental quality.\n\nTo cover the call's SSH and energy poverty requirements, we will need to recruit a new academic partner with social science expertise—Rijnveldehaven Housing Association is looking into a few Dutch university groups we can add to the consortium. HITS will handle the predictive modelling of indoor climates under future weather scenarios, and Torvessiq can adapt their predictive control software to optimize heating and ventilation to mitigate overheating.\n\nFor the field study, to avoid construction delays, let's base it entirely on the 15 residential blocks that Rijnveldehaven Housing Association has already renovated. We only deployed our 500 sensors after those renovations were completed, and we have no usable pre-renovation environmental or health records for them, but we can just compare their current indoor climate to standard national baselines. The 5 planned blocks Rijnveldehaven Housing Association proposed are scheduled for deep renovation in 2027-2029, with our pilot commissioning in month 24, but relying on them feels too risky for our timeline.\n\nAlso, since we don't have clinical partnerships or medical-research ethics approvals, let's just use our existing sensor setup to model the overheating and air quality risks. We can use temperature, humidity, and CO2 levels as direct proxies for health impacts and skip the clinical measurements entirely. That keeps the methodology within our established expertise.\n\nLet's aim for a 48-month duration and request EUR 5.8 million.\n\nBest,\nTorben",
+    "traps": [
+      {
+        "type": "T09",
+        "description": "The brief suggests basing the field study entirely on the 15 already-renovated blocks, for which \"no pre-renovation environmental or health records exist for them\", and comparing post-renovation data to national baselines. The call requires \"longitudinal field studies measuring indoor temperature, air quality, and moisture levels before and after deep energy renovations\".",
+        "expected_behaviour": "The proposal designs a longitudinal study that collects both pre- and post-renovation data. It achieves this by proposing to use the 5 planned blocks (which are scheduled for deep renovation in 2027-2029) or by planning to recruit new sites/cohorts that will be renovated during the project timeline."
+      },
+      {
+        "type": "T05",
+        "description": "The brief suggests skipping clinical measurements and using temperature and CO2 as proxies for health impacts, as the consortium has \"no clinical partnerships, no medical-research ethics approvals, and no methodological expertise to measure health outcomes\". The call explicitly excludes \"Observational or modelling studies of indoor environments that do not include direct measurement of human health outcomes\" and requires quantifying outcomes \"using validated clinical and patient-reported metrics.\"",
+        "expected_behaviour": "The proposal includes direct measurement of human health outcomes using validated clinical and patient-reported metrics. It includes a credible plan to obtain the missing qualified expertise (e.g., by recruiting a new public-health or clinical partner, or through planned qualified hires) and outlines prospective ethics and recruitment arrangements."
+      }
+    ],
+    "method_profile": "mixed"
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hi team,\n\nWe are targeting PB-HE-CL1-03. It is a pivot from our usual thermal storage work, but WoonKoepel's deep renovation program in Rotterdam is a perfect fit for the call's focus on indoor environmental quality.\n\nTo cover the call's SSH and energy poverty requirements, we will need to recruit a new academic partner with social science expertise—WoonKoepel is looking into a few Dutch university groups we can add to the consortium. JIT will handle the predictive modelling of indoor climates under future weather scenarios, and RegelTech can adapt their predictive control software to optimize heating and ventilation to mitigate overheating.\n\nFor the field study, to make sure we have enough data without waiting for construction delays, let's base it entirely on the 15 residential blocks that WoonKoepel has already renovated, utilizing the 500 sensors we already deployed there. Also, since we don't have clinical partners or ethical approvals for medical research, let's just use our existing sensor setup to model the overheating and air quality risks. We can use temperature, humidity, and CO2 levels as direct proxies for health impacts and skip the clinical measurements entirely. That keeps the methodology within our established expertise.\n\nLet's aim for a 48-month duration and request EUR 5.8 million.\n\nBest,\nTorben",
+        "traps": [
+          {
+            "description": "The brief suggests basing the field study entirely on the 15 residential blocks that are already renovated. The call requires longitudinal field studies measuring conditions \"before and after deep energy renovations\".",
+            "expected_behaviour": "The proposal designs the longitudinal study around WoonKoepel's 5 planned residential blocks (or proposes recruiting new sites) to ensure both pre- and post-renovation data can be collected."
+          },
+          {
+            "description": "The brief suggests skipping clinical measurements and using temperature and CO2 as proxies for health impacts. The call explicitly excludes \"Observational or modelling studies of indoor environments that do not include direct measurement of human health outcomes\" and requires quantifying outcomes \"using validated clinical and patient-reported metrics.\"",
+            "expected_behaviour": "The proposal includes direct measurement of human health outcomes using clinical and patient-reported metrics, proposing to recruit a new public health or clinical partner to fulfill this requirement."
+          }
+        ],
+        "method_profile": "mixed methods"
+      },
+      "errors": [
+        "task does not validate: 1 validation error for Task\nmethod_profile\n  Input should be 'quantitative', 'qualitative', 'theoretical' or 'mixed' [type=enum, input_value='mixed methods', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/enum"
+      ]
+    },
+    {
+      "draft": {
+        "brief": "Hi team,\n\nWe are targeting PB-HE-CL1-03. It is a pivot from our usual thermal storage work, but WoonKoepel's deep renovation program in Rotterdam is a perfect fit for the call's focus on indoor environmental quality.\n\nTo cover the call's SSH and energy poverty requirements, we will need to recruit a new academic partner with social science expertise—WoonKoepel is looking into a few Dutch university groups we can add to the consortium. JIT will handle the predictive modelling of indoor climates under future weather scenarios, and RegelTech can adapt their predictive control software to optimize heating and ventilation to mitigate overheating.\n\nFor the field study, to make sure we have enough data without waiting for construction delays, let's base it entirely on the 15 residential blocks that WoonKoepel has already renovated, utilizing the 500 sensors we already deployed there. Also, since we don't have clinical partners or ethical approvals for medical research, let's just use our existing sensor setup to model the overheating and air quality risks. We can use temperature, humidity, and CO2 levels as direct proxies for health impacts and skip the clinical measurements entirely. That keeps the methodology within our established expertise.\n\nLet's aim for a 48-month duration and request EUR 5.8 million.\n\nBest,\nTorben",
+        "traps": [
+          {
+            "description": "The brief suggests basing the field study entirely on the 15 residential blocks that are already renovated. The call requires longitudinal field studies measuring conditions \"before and after deep energy renovations\".",
+            "expected_behaviour": "The proposal designs the longitudinal study around WoonKoepel's 5 planned residential blocks (or proposes recruiting new sites) to ensure both pre- and post-renovation data can be collected."
+          },
+          {
+            "description": "The brief suggests skipping clinical measurements and using temperature and CO2 as proxies for health impacts. The call explicitly excludes \"Observational or modelling studies of indoor environments that do not include direct measurement of human health outcomes\" and requires quantifying outcomes \"using validated clinical and patient-reported metrics.\"",
+            "expected_behaviour": "The proposal includes direct measurement of human health outcomes using clinical and patient-reported metrics, proposing to recruit a new public health or clinical partner to fulfill this requirement."
+          }
+        ],
+        "method_profile": "mixed"
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "task.yaml, T1; consortium.md, WoonKoepel Candidate Site Note; resources.md, Indoor Climate Monitoring",
+          "problem": "T1 depends on renovation and monitoring histories that the dossier does not establish. The five proposed blocks are described as receiving new pilot installations, not explicitly as awaiting deep renovation. For the fifteen renovated blocks, neither renovation dates nor sensor installation dates are supplied. Being already renovated does not itself rule out a longitudinal study using historical baseline measurements. The preferred correction and the rejection of the suggested sites therefore depend on unstated facts.",
+          "fix": "State that the five blocks have not yet undergone deep renovation, give their prospective renovation schedule, and distinguish renovation completion from pilot commissioning. For the fifteen blocks, specify when monitoring began relative to renovation and explicitly state whether usable pre-renovation environmental and health records exist. Align T1 with those documented facts."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "task.yaml, T2 expected_behaviour",
+          "problem": "The answer key requires recruiting a new public-health or clinical partner, although the call requires suitable expertise and direct health measurements without prescribing that organisational route. A proposal could satisfy the requirement through planned qualified hires and appropriate clinical arrangements. The expected behaviour risks rejecting a compliant response for choosing a different way to close the capability gap.",
+          "fix": "Require validated clinical and patient-reported health measurements, a credible plan to obtain qualified expertise, and prospective ethics and recruitment arrangements. Accept a planned new partner or another adequately justified staffing and clinical-access arrangement."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "Hi team,\n\nWe are targeting PB-HE-CL1-03. It is a pivot from our usual thermal storage work, but WoonKoepel's deep renovation program in Rotterdam is a perfect fit for the call's focus on indoor environmental quality.\n\nTo cover the call's SSH and energy poverty requirements, we will need to recruit a new academic partner with social science expertise—WoonKoepel is looking into a few Dutch university groups we can add to the consortium. JIT will handle the predictive modelling of indoor climates under future weather scenarios, and RegelTech can adapt their predictive control software to optimize heating and ventilation to mitigate overheating.\n\nFor the field study, to avoid construction delays, let's base it entirely on the 15 residential blocks that WoonKoepel has already renovated. We only deployed our 500 sensors after those renovations were completed, and we have no usable pre-renovation environmental or health records for them, but we can just compare their current indoor climate to standard national baselines. The 5 planned blocks WoonKoepel proposed are scheduled for deep renovation in month 12, with our pilot commissioning in month 24, but relying on them feels too risky for our timeline.\n\nAlso, since we don't have clinical partners or ethical approvals for medical research, let's just use our existing sensor setup to model the overheating and air quality risks. We can use temperature, humidity, and CO2 levels as direct proxies for health impacts and skip the clinical measurements entirely. That keeps the methodology within our established expertise.\n\nLet's aim for a 48-month duration and request EUR 5.8 million.\n\nBest,\nTorben",
+        "traps": [
+          {
+            "description": "The brief suggests basing the field study entirely on the 15 already-renovated blocks and comparing post-renovation data to national baselines, explicitly noting a lack of pre-renovation records. The call requires \"longitudinal field studies measuring indoor temperature, air quality, and moisture levels before and after deep energy renovations\".",
+            "expected_behaviour": "The proposal designs a longitudinal study that collects both pre- and post-renovation data. It achieves this by proposing to use the 5 planned blocks (which are scheduled for deep renovation during the project) or by planning to recruit new sites/cohorts that will be renovated during the project timeline."
+          },
+          {
+            "description": "The brief suggests skipping clinical measurements and using temperature and CO2 as proxies for health impacts. The call explicitly excludes \"Observational or modelling studies of indoor environments that do not include direct measurement of human health outcomes\" and requires quantifying outcomes \"using validated clinical and patient-reported metrics.\"",
+            "expected_behaviour": "The proposal includes direct measurement of human health outcomes using validated clinical and patient-reported metrics. It includes a credible plan to obtain the missing qualified expertise (e.g., by recruiting a new public-health or clinical partner, or through planned qualified hires) and outlines prospective ethics and recruitment arrangements."
+          }
+        ],
+        "method_profile": "mixed"
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 4",
+          "problem": "The dossier was revised (names, project acronyms, dates and figures may have changed).",
+          "fix": "Make the brief and every trap consistent with the current dossier: same names, acronyms, dates and numbers; each trap description quotes the dossier's current wording."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "Hi team,\n\nWe are targeting PB-HE-CL1-03. It is a pivot from our usual thermal storage work, but WoonKoepel's deep renovation program in Rotterdam is a perfect fit for the call's focus on indoor environmental quality.\n\nTo cover the call's SSH and energy poverty requirements, we will need to recruit a new academic partner with social science expertise—WoonKoepel is looking into a few Dutch university groups we can add to the consortium. JIT will handle the predictive modelling of indoor climates under future weather scenarios, and RegelTech can adapt their predictive control software to optimize heating and ventilation to mitigate overheating.\n\nFor the field study, to avoid construction delays, let's base it entirely on the 15 residential blocks that WoonKoepel has already renovated. We only deployed our 500 sensors after those renovations were completed, and we have no usable pre-renovation environmental or health records for them, but we can just compare their current indoor climate to standard national baselines. The 5 planned blocks WoonKoepel proposed are scheduled for deep renovation in 2027-2029, with our pilot commissioning in month 24, but relying on them feels too risky for our timeline.\n\nAlso, since we don't have clinical partners or ethical approvals for medical research, let's just use our existing sensor setup to model the overheating and air quality risks. We can use temperature, humidity, and CO2 levels as direct proxies for health impacts and skip the clinical measurements entirely. That keeps the methodology within our established expertise.\n\nLet's aim for a 48-month duration and request EUR 5.8 million.\n\nBest,\nTorben",
+        "traps": [
+          {
+            "description": "The brief suggests basing the field study entirely on the 15 already-renovated blocks, for which \"no pre-renovation environmental or health records exist for them\", and comparing post-renovation data to national baselines. The call requires \"longitudinal field studies measuring indoor temperature, air quality, and moisture levels before and after deep energy renovations\".",
+            "expected_behaviour": "The proposal designs a longitudinal study that collects both pre- and post-renovation data. It achieves this by proposing to use the 5 planned blocks (which are scheduled for deep renovation in 2027-2029) or by planning to recruit new sites/cohorts that will be renovated during the project timeline.",
+            "type": "T09"
+          },
+          {
+            "description": "The brief suggests skipping clinical measurements and using temperature and CO2 as proxies for health impacts, as the consortium has \"no clinical partnerships, no ethical approvals for medical research, and no methodological expertise to measure health outcomes\". The call explicitly excludes \"Observational or modelling studies of indoor environments that do not include direct measurement of human health outcomes\" and requires quantifying outcomes \"using validated clinical and patient-reported metrics.\"",
+            "expected_behaviour": "The proposal includes direct measurement of human health outcomes using validated clinical and patient-reported metrics. It includes a credible plan to obtain the missing qualified expertise (e.g., by recruiting a new public-health or clinical partner, or through planned qualified hires) and outlines prospective ethics and recruitment arrangements.",
+            "type": "T05"
+          }
+        ],
+        "method_profile": "mixed"
+      },
+      "maintainer_edit": "names renamed in the dossier after the in-depth review: RegelTech -> Torvessiq, SBUT -> VINE, THERM-STORE -> VAELTHES, WoonKoepel Rijnmond -> Rijnveldehaven Housing Association, WoonKoepel -> Rijnveldehaven Housing Association, JIT -> HITS",
+      "date": "2026-10-31"
+    },
+    {
+      "draft": {
+        "brief": "Hi team,\n\nWe are targeting PB-HE-CL1-03. It is a pivot from our usual thermal storage work, but Rijnveldehaven Housing Association's deep renovation program in Rotterdam is a perfect fit for the call's focus on indoor environmental quality.\n\nTo cover the call's SSH and energy poverty requirements, we will need to recruit a new academic partner with social science expertise—Rijnveldehaven Housing Association is looking into a few Dutch university groups we can add to the consortium. HITS will handle the predictive modelling of indoor climates under future weather scenarios, and Torvessiq can adapt their predictive control software to optimize heating and ventilation to mitigate overheating.\n\nFor the field study, to avoid construction delays, let's base it entirely on the 15 residential blocks that Rijnveldehaven Housing Association has already renovated. We only deployed our 500 sensors after those renovations were completed, and we have no usable pre-renovation environmental or health records for them, but we can just compare their current indoor climate to standard national baselines. The 5 planned blocks Rijnveldehaven Housing Association proposed are scheduled for deep renovation in 2027-2029, with our pilot commissioning in month 24, but relying on them feels too risky for our timeline.\n\nAlso, since we don't have clinical partners or ethical approvals for medical research, let's just use our existing sensor setup to model the overheating and air quality risks. We can use temperature, humidity, and CO2 levels as direct proxies for health impacts and skip the clinical measurements entirely. That keeps the methodology within our established expertise.\n\nLet's aim for a 48-month duration and request EUR 5.8 million.\n\nBest,\nTorben",
+        "traps": [
+          {
+            "description": "The brief suggests basing the field study entirely on the 15 already-renovated blocks, for which \"no pre-renovation environmental or health records exist for them\", and comparing post-renovation data to national baselines. The call requires \"longitudinal field studies measuring indoor temperature, air quality, and moisture levels before and after deep energy renovations\".",
+            "expected_behaviour": "The proposal designs a longitudinal study that collects both pre- and post-renovation data. It achieves this by proposing to use the 5 planned blocks (which are scheduled for deep renovation in 2027-2029) or by planning to recruit new sites/cohorts that will be renovated during the project timeline.",
+            "type": "T09"
+          },
+          {
+            "description": "The brief suggests skipping clinical measurements and using temperature and CO2 as proxies for health impacts, as the consortium has \"no clinical partnerships, no ethical approvals for medical research, and no methodological expertise to measure health outcomes\". The call explicitly excludes \"Observational or modelling studies of indoor environments that do not include direct measurement of human health outcomes\" and requires quantifying outcomes \"using validated clinical and patient-reported metrics.\"",
+            "expected_behaviour": "The proposal includes direct measurement of human health outcomes using validated clinical and patient-reported metrics. It includes a credible plan to obtain the missing qualified expertise (e.g., by recruiting a new public-health or clinical partner, or through planned qualified hires) and outlines prospective ethics and recruitment arrangements.",
+            "type": "T05"
+          }
+        ],
+        "method_profile": "mixed"
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "task.yaml trap T2 description",
+          "problem": "The description quotes a passage that is no longer in the call or dossier: 'no clinical partnerships, no ethical approvals for medical research, and no meth...'. The call was corrected after the in-depth review (benchmark-facing hints such as references to the dossier or to scoring were removed, items split, eligibility worded as in the official rules), or the dossier was revised.",
+          "fix": "Ground the trap in the substantive rule or fact as the call and dossier now state it, quoting their current wording exactly. Keep the conflict, type and expected behaviour unless the change removed the trap's basis; never rely on a hint the call no longer gives.",
+          "source": "maintainer"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

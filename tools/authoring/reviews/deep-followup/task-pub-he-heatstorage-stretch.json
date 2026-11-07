@@ -1,0 +1,29 @@
+{
+ "kind": "task",
+ "id": "pub-he-heatstorage-stretch",
+ "reviewer_family": "openai+maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2; Task 6",
+   "where": "data/public/tasks/pub-he-heatstorage-stretch/task.yaml T1 expected_behaviour: 'Describe the Belgian demonstration as prospective' and 'Give the federation a role consistent with its documented housing and tenant-engagement experience'.",
+   "problem": "The false existing-network premise is decidable, but the key requires retaining a Belgian demonstration and the federation. No call condition requires either. A strong proposal could reject the invented asset, select three other prospective district sites in at least two eligible countries, and obtain community representation elsewhere. It would comply with the call and preserve dossier facts yet fail the literal T1 repair instructions.",
+   "fix": "Replace T1 expected_behaviour with: 'Do not claim an existing consortium-operated heat network or secured pilot access. Any proposed site must be supported by an actual or prospective network operator and appropriate access/participation arrangements, with unconfirmed status preserved. The Belgian site may be dropped or replaced. If retained, describe it as prospective; if the federation is retained, use its documented housing/tenant-engagement role without attributing asset ownership or authority over member properties. Assess these claims in sections 1.2, 3.1 and 3.2. Accept any otherwise compliant pilot/partner configuration.'",
+   "evidence": [
+    "data/public/tasks/pub-he-heatstorage-stretch/task.yaml",
+    "data/public/tasks/pub-he-heatstorage-stretch/brief.md",
+    "data/public/calls/he-cl5-heatstorage/call.md",
+    "data/public/dossiers/renovation-health-consortium/consortium.md",
+    "tools/authoring/design_v2.md adopted trap rules"
+   ]
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml trap T2 description",
+   "problem": "The description quotes a passage that is no longer in the call or dossier: 'At least three independent legal entities, each established in a different EU Me...'. The call was corrected after the in-depth review (benchmark-facing hints such as references to the dossier or to scoring were removed, items split, eligibility worded as in the official rules), or the dossier was revised.",
+   "fix": "Ground the trap in the substantive rule or fact as the call and dossier now state it, quoting their current wording exactly. Keep the conflict, type and expected behaviour unless the change removed the trap's basis; never rely on a hint the call no longer gives.",
+   "source": "maintainer"
+  }
+ ]
+}

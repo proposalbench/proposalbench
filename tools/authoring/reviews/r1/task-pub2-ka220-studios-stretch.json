@@ -1,0 +1,24 @@
+{
+  "kind": "task",
+  "id": "pub2-ka220-studios-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T1.expected_behaviour",
+      "problem": "The answer key requires three independent HEIs, whereas the supplied call requires three eligible organisations from three eligible countries and permits organisations other than HEIs. It would reject a compliant replacement partner solely because that organisation is not a university.",
+      "fix": "Require three independent eligible organisations from three different eligible countries. Accept retaining USD or recruiting a prospective eligible organisation in a third country, with a justified role and ECHE where applicable. Continue to prohibit counting either USV faculty separately."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 2 and Task 6",
+      "where": "task.yaml, T2.expected_behaviour",
+      "problem": "The expected behaviour mandates reproducing the pilot's numerical results and every listed qualification. The call does not require quoting this result. A proposal could reject the brief's inflated claim, omit the effect estimate, and use the pilot only as evidence of implementation experience while acknowledging its evidential limits. That compliant alternative currently fails the answer key.",
+      "fix": "Accept omission of the quantitative effectiveness claim. If the proposal reports the 0.24 SD estimate, require its correct paired-sample basis, confidence interval, missing-data context and noncausal interpretation. In all cases, prohibit presenting the estimate as a proven intervention effect for all 120 students."
+    }
+  ]
+}

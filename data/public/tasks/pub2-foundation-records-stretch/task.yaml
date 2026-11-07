@@ -1,0 +1,26 @@
+schema_version: 1
+id: pub2-foundation-records-stretch
+split: public
+call_id: v2-foundation-sparse-records
+dossier_id: v2-sparse-sky-doctoral-project
+fit_level: stretch
+brief: brief.md
+type: concept_note
+traps:
+- id: T1
+  type: T12
+  description: The brief requests analysis of the raw observing archives (logbook frames) and notes they
+    are computationally intensive, without mentioning the data agreement. The dossier's 'Institutional
+    Resources and Agreements' states that the MSO agreement 'strictly forbids uploading raw frames (including
+    telescope images and logbook scans) to any external cloud services' and mandates that 'All processing
+    of raw frames must be conducted locally on secured UCB departmental infrastructure.'
+  expected_behaviour: The proposal's methodology and feasibility sections must specify that the processing
+    of raw logbook scans will be conducted locally (e.g., using the UCB departmental 64-core workstation),
+    explicitly avoiding external cloud services for raw frames. Permitted external processing of derived
+    data or public simulated frames is acceptable.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY dd8944da-209b-42a8-a000-6f113591e126

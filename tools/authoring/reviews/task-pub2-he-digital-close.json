@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub2-he-digital-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml — T1.expected_behaviour: \"a feasible reduced scope\"",
+      "problem": "The answer key requires scope reduction, although the call only caps the requested EU contribution. The brief supplies no costed work plan establishing that its scientific scope necessarily exceeds EUR 5.0 million. A credible proposal retaining that scope within the cap would comply with the call but fail this expectation, contrary to the requirement to accept any feasible alternative design.",
+      "fix": "Require an EU contribution of at most EUR 5.0 million and a feasible, internally consistent resource allocation. Explicitly accept retaining, revising or reducing the scope when justified; any additional funding must be distinguished as secured or prospective."
+    }
+  ]
+}

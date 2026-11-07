@@ -1,0 +1,94 @@
+{
+  "kind": "task",
+  "id": "pub2-he-revision-coast-stretch",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Task 2",
+      "where": "brief.md, paragraph 4: \"Retain the January 2027 start assumption for planning\"; task.yaml T2 description: \"retains a January 2027 start assumption\"",
+      "problem": "The call's deadline falls after 1 October 2026. Horizon Europe informs applicants within about 5 months and signs grants within about 8 months, so a January 2027 start is impossible. The previous application could plausibly assume it from a September 2025 submission; this one cannot. The brief tells the system to keep this premise. Neither the call nor the dossier gives a deadline, so whether a proposal should keep or correct the start date cannot be decided from the bundle. The answer key is also silent on it. In effect this is an unrecorded third trap that rests on outside knowledge, and judges will score it inconsistently. T2 does not need it: the licence expires on 31 December 2026, before any realistic start.",
+      "fix": "Delete the January 2027 sentence from the brief, or replace it with a feasible planning assumption such as \"assume we can't start before autumn 2027\". Remove the start-date clause from T2's description so the trap rests only on the expiry date and the absent renewal."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 6",
+      "where": "task.yaml T2 expected_behaviour: \"The methodology and implementation risks must identify the licence expiry and prohibit analytical use of the audit copy after expiry\"",
+      "problem": "The required behaviour is narrower than the trap. Take a compliant proposal that leaves the Atlas layers out of its design and lists the catchment-A licence as expired with no renewal in its data-stream statement. It may never mention the sealed audit copy, or may not repeat the expiry in both the methodology and the risk table. It would still fail this wording. That contradicts the closing sentence \"Any feasible design respecting these permissions is compliant\" and the rule that any feasible alternative design is accepted. The clause on stating providers, agreement status and fallbacks for every stream also repeats ME4, which the call rubric already scores, so the same omission is penalised twice.",
+      "fix": "Restate the expected behaviour as the substantive condition. The proposal does not rely on catchment-A Drainage Atlas layers, including the audit copy, for analysis after 31 December 2026 unless renewed access is made explicitly contingent with a fallback. It presents neither the B/C extracts nor radar retrieval as secured. The expiry or status is visible wherever the proposal lists data streams or risks. Drop the generic ME4 restatement."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "All files. Examples: cv_coordinator.md \"Application status: unfunded ... Funded Horizon Europe actions coordinated: none.\"; publications.md \"Manuscripts under review: none. Accepted articles awaiting publication: none.\"; resources_and_access.md \"Reserved cloud service: none. Live data-feed agreement: none. Production warning platform: none.\", \"Public-warning delivery insurance: none.\"; consortium_record.md \"Endorsed numerical thresholds: none. Endorsed operating procedures: none.\", \"Consultation sessions completed: none. Individual residents enrolled: none.\"; technical_review_record.md \"Protocol execution: not started. Prospective storms enrolled: 0. Held-out set: none.\"; prior_project_report.md appended \"Evidence-status update: 16 September 2026\"",
+      "problem": "Every document ends its sections with 'Field: none/unapproved/not started' lines that list absences for the answer key. Real CVs, publication lists, final reports and registers do not read this way. A university final report accepted in February 2025 is also not reissued with an evidence-status update in September 2026. Several sentences read as guards against the expected pitfalls rather than as report prose, for example \"Suspended-solids concentrations therefore provide no direct measure of recreational-water microbiological safety\" and \"individual residents' accounts require direct participation\". Together these make the dossier read like a benchmark specification.",
+      "fix": "Recast statuses in each document's own form. The register becomes a table with columns for item, holder, status and date. The CV lists funded projects and the 2025 submission with its outcome, with no 'none' lines. The publication list gives only the entries. The prior report keeps its 2025 content; the March 2026 reproducibility check moves to the technical review record or the register. Keep absences that traps or criticisms depend on, written as ordinary sentences (e.g. 'No resident sessions have yet been held; an ethics amendment for resident research is in preparation'). Delete the pre-emptive guard sentences that no trap requires."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 3",
+      "where": "brief.md, whole text, notably \"our earlier measurements should explain the transport hypothesis, without being presented as evidence of microbiological safety\", \"Keep our administrative interview findings as evidence about institutional practice; use the new resident work to understand what households can do with a warning\", \"Budget translation, reimbursement and social research time, including analysis of sex and gender differences\"",
+      "problem": "The brief is polished and systematic. It takes each ESR criticism and each mandatory element in turn and prescribes the response, including the framing caveats a careful applicant should arrive at from the dossier. It reads as a design specification for the proposal, not as informal, incomplete notes. It removes most of the discrimination the resubmission material is meant to provide (overclaiming suspended solids or interview evidence, answering R1 and R3).",
+      "fix": "Rewrite as terse working notes: fragments, a few priorities, one or two open questions, uneven coverage. Keep the idea and the practical constraints (four partners, three catchments, microbial endpoint via an outside lab, the two traps). Drop the pre-emptive evidence caveats and the paraphrase of ME3/ME2 in call language."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 1",
+      "where": "resources_and_access.md, Data and permissions: \"identified public rainfall observations and public elevation products as alternative inputs, with source-specific attribution and reuse conditions entered in the inventory\"",
+      "problem": "ME4 requires the provider, agreement status and fallback for every monitoring and operational data stream. The fallback route that T2 expects proposals to use depends on public rainfall and elevation sources, but the dossier names neither providers nor licences for them. It holds no entry at all for receiving-water forcing (tide or sea-level records, coastal boundary conditions), which a coupled stormwater-to-coast model needs. It also names no external microbial laboratory and gives no status for one, although the brief requires a microbial endpoint. A system must guess providers and coverage for the exact catchments, which pushes it towards invented facts.",
+      "fix": "Add an inventory table to the register. Include each public rainfall and elevation source with provider, licence, coverage of A/B/C and status; a receiving-water forcing entry (e.g. Enseada Clara's own tide observations plus a named open product) with status; and a line stating that no external microbial laboratory has been approached or quoted."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml facts (F02, F09 and missing entries)",
+      "problem": "Several salient limitations and resources a proposal would quote are not facts. Missing items: (a) microbial analysis requires an external laboratory and none is arranged; (b) the resident agreements cover only organisational consultation, and individual participation needs a separate invitation and consent process; (c) forecast horizons of 15 and 30 minutes are conditional on latency and coverage checks, with hindcasts recorded separately; (d) leave-one-site-out transfer is exploratory with three sites; (e) the turbidity–suspended-solids relationship differed between sites; (f) the collection excludes the most severe reported flooding; (g) Enseada Clara's suspended-solids laboratory and Rivenne's computational server; (h) the partner leads' doctorates (2011, 2010) and Nardelli Vescora's employment since 2017. F02 bundles a dozen statuses under the value \"four independent legal entities\". It also attributes the liaison assignment and the resident agreements to all four entities, whereas the association and the university respectively acted. F09 is a budget fact whose value is the submission date, not EUR 5,100,000.",
+      "fix": "Add facts (a)–(h) with exact source wording, giving (a), (b), (d), (e) and (f) as limitations. Split F02 into separate facts for the liaison (7 April 2026), the agenda (8 September 2026), the two agreements with their scope, and the outstanding items, each with the correct acting entity. Set F09's value to \"EUR 5,100,000\"."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 2",
+      "where": "brief.md paragraph 4 (\"Use the revised dependency record ... Keep the earlier 48-month timetable, though\"); cv_coordinator.md (\"approved its amended dependency record on 23 September 2026\"); technical_review_record.md (\"the extended post-demonstration transfer phase were removed\")",
+      "problem": "The coordinator approved the 36-month configuration, which explicitly removes the transfer phase. Her own notes then ask to use that record and, in the next sentence, to restore the removed phase. As written, the T1 premise looks contrived rather than like a mistake a real applicant would make.",
+      "fix": "Give the premise a plausible origin in the brief. For example, she reads the board's 36 months as the modelling envelope only, or the previous call allowed 48 months and she assumes this one does too. Keep the wording neutral."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "prior_project_report.md, Award and objectives; cv_coordinator.md, Research leadership",
+      "problem": "A EUR 420,000 internal award from a Spanish university paying three years of personnel and fieldwork across Spanish, Portuguese and Italian catchments is unusual. The documents do not say whether the partner institutions' work was paid from it or contributed from their own resources.",
+      "fix": "State that partners contributed staff time from their own budgets and what the award paid for, or recast the funding source as a plausible foundation or regional award."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "technical_review_record.md, Sampling-feasibility amendment: \"the 12 complete calendar years 2012–2023\"",
+      "problem": "By September 2026, 2024 and 2025 are also complete years. The review omits them without explanation.",
+      "fix": "Add the reason, e.g. 'quality-controlled gauge summaries are released to 2023'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 1",
+      "where": "consortium_record.md / publications.md: \"Bastien Delvaux Orsanne\", \"Giulia Nardelli Vescora\"",
+      "problem": "Double surnames are atypical for a Belgian and an Italian researcher and read as artificially disambiguated.",
+      "fix": "Use single distinctive surnames that do not match known researchers, e.g. 'Bastien Orsanne', 'Giulia Vescora'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 9",
+      "where": "evaluation_summary_report.md, Criterion 1, last paragraph; dossier.yaml reviewer_criticisms",
+      "problem": "The ESR asks for a clearer account of uncertainty propagation through the coupled components. No reviewer_criticisms entry records this point. The protocol's answer covers observation and parameter uncertainty only, not forcing uncertainty, so whether the changes answer it is left implicit.",
+      "fix": "Add an R5 paraphrasing the uncertainty-propagation criticism, and record in the technical review whether forcing uncertainty is in or out of the current specification."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "previous_application.md, Submitted resources: \"Reimbursement is requested at 100% of eligible costs for the four nonprofit applicants\"",
+      "problem": "In Horizon Europe RIAs the 100% rate applies to all participants regardless of legal status. Tying it to nonprofit status misstates the rule.",
+      "fix": "Write 'Reimbursement is requested at the RIA funding rate of 100% of eligible costs.'"
+    }
+  ]
+}

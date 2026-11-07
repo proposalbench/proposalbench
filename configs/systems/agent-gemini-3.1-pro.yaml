@@ -1,0 +1,4 @@
+# Generation uses each provider's default sampling: that is what users of the model get.
+id: agent-gemini-3.1-pro
+kind: agent
+model: {provider: google, id: gemini-3.1-pro-preview, max_output_tokens: 65536}

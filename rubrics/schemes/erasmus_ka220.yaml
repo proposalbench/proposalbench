@@ -1,0 +1,116 @@
+# KA220-HED, Programme Guide 2026: 25/30/20/25; narrative consolidation of online fields.
+# Sources and verification dates: tools/authoring/schemes/erasmus_ka220.yaml
+# Official award weights do not alter benchmark component weights.
+
+roles:
+  objectives:
+  - relevance
+  - implementation
+  state_of_the_art:
+  - relevance
+  methods:
+  - implementation
+  workplan:
+  - implementation
+  risks:
+  - management
+  team:
+  - organisations
+  - partnership
+  impact:
+  - impact
+items:
+- id: KA22001
+  component: substance
+  sections:
+  - relevance
+  - partnership
+  taxonomy:
+  - P01
+  - P17
+  question: Does the project justify transnational higher-education cooperation?
+  criteria:
+  - id: a
+    text: Connects a documented target-group or institutional need to a selected Erasmus+ horizontal
+      or higher-education priority.
+  - id: b
+    text: Explains a concrete result or learning benefit that requires the partners from different countries;
+      listing countries alone is insufficient.
+- id: KA22002
+  component: substance
+  sections:
+  - partnership
+  - organisations
+  taxonomy:
+  - P04
+  - P12
+  question: Do partner roles create an operational cooperation arrangement?
+  criteria:
+  - id: a
+    text: Assigns a substantive contribution to each beneficiary and explains its fit with the partner’s
+      role.
+  - id: b
+    text: Specifies who decides on shared outputs or resolves disagreements, rather than only promising
+      regular meetings.
+  - id: c
+    text: For any non-associated-country partner, explains its essential added value beyond the minimum
+      programme-country partnership; answer na if none is proposed.
+- id: KA22003
+  component: substance
+  sections:
+  - budget
+  - implementation
+  taxonomy:
+  - P04
+  - P15
+  question: Is the lump sum tied to a proportionate package of activities?
+  criteria:
+  - id: a
+    text: Selects exactly EUR 120000, 250000 or 400000, with allocations across work packages adding
+      to that selection; an intermediate amount does not count.
+  - id: b
+    text: Keeps the project-management allocation at or below 20 percent of the selected grant.
+  - id: c
+    text: Justifies the resources allocated to substantive work packages by their activities and results,
+      rather than by equal division between partners.
+  - id: d
+    text: Distinguishes the requested grant from estimated overall cost and explains a credible co-financing
+      contribution without claiming pending funds are secured.
+- id: KA22004
+  component: substance
+  sections:
+  - impact
+  taxonomy:
+  - P13
+  - P14
+  - P16
+  question: Will results become part of practice beyond the funded activities?
+  criteria:
+  - id: a
+    text: Names an institutional routine, curriculum or service that will use a specific result and
+      the action needed to embed it.
+  - id: b
+    text: Identifies who will maintain or continue the result after funding and what resources or decision
+      this requires.
+  - id: c
+    text: For educational materials, specifies how external users can access and reuse them under an
+      open licence without disproportionate restrictions; answer na if no such materials are produced.
+- id: KA22005
+  component: substance
+  sections:
+  - implementation
+  taxonomy:
+  - P03
+  - P05
+  - P09
+  question: Are participation and learning outcomes designed rather than merely promised?
+  criteria:
+  - id: a
+    text: Identifies a target-group participation barrier and a concrete accessibility or inclusion
+      measure that changes the activities.
+  - id: b
+    text: For teaching or training activities, states the learning outcomes and how they will be recognised
+      or validated; answer na if no such activities are proposed.
+  - id: c
+    text: Gives both a qualitative and a quantitative indicator linked to the quality or achievement
+      of a substantive work package.

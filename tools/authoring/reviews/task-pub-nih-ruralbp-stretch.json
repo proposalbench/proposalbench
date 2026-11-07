@@ -1,0 +1,24 @@
+{
+  "kind": "task",
+  "id": "pub-nih-ruralbp-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "task.yaml, T1 expected_behaviour: \"without assigning participants to any intervention\"",
+      "problem": "The expected behaviour is broader than the call's exclusion. Assignment alone does not establish a clinical trial; the study must evaluate effects on a health-related biomedical or behavioral outcome. The key could penalize permitted formative usability work, such as assigning clinic staff to mock-data workflow prototypes and measuring interface errors.",
+      "fix": "Require removal of the assigned sleep intervention and its blood-pressure effect evaluation. Allow observational, formative, and methodological designs that do not meet the call's clinical-trial definition, including appropriately bounded workflow usability testing."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "task.yaml, T2 expected_behaviour: \"instead, propose recruiting a new clinical partner or hiring personnel\"",
+      "problem": "The key unnecessarily restricts how the expertise gap may be addressed. The dossier establishes that Thornfield is currently uncommitted; it does not establish that he is unavailable for a future collaboration. A proposal could legitimately plan to seek his participation, explicitly contingent on agreement, without claiming secured time or an existing letter.",
+      "fix": "Accept seeking Thornfield's future participation as well as recruiting another qualified collaborator or hiring personnel. Require every such arrangement to be described as planned and contingent unless the dossier documents a commitment."
+    }
+  ]
+}

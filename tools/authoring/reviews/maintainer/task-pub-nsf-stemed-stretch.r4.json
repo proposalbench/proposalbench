@@ -1,0 +1,12 @@
+{
+ "reviewer": "task review r3",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml (traps) and brief.md",
+   "problem": "The trap relies on the applicant writing \"She and I have published together on formative assessment and AI (see our joint papers)\" in their own notes, which directly contradicts the dossier fact that they have never co-authored anything. It is highly unrealistic for an applicant to mistakenly believe they have joint papers with someone they haven't published with, making this an unfair and unrealistic trap that breaks the persona of the brief.",
+   "fix": "Remove the claim about joint papers from `brief.md` (e.g., change it to \"We haven't worked together before, but she brings...\"). Replace the trap in `task.yaml` with a realistic one, such as the applicant suggesting they use their $12,000 Google Cloud credits for the 4-year project (which expire in Dec 2027, before the project would meaningfully use them), or suggesting they use the FeedbackCalib-Essay dataset for math (which is actually argumentative essays)."
+  }
+ ]
+}

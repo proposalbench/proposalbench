@@ -1,0 +1,31 @@
+{
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "kind": "call",
+  "id": "v2-nsf-career-robust-inference",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "data/public/calls/v2-nsf-career-robust-inference/call.md, award conditions: 'USD 400,000, rising to USD 500,000 for BIO, ENG or OPP'; data/public/calls/v2-nsf-career-robust-inference/call.yaml: 'min_budget: 400000'.",
+      "problem": "The structured eligibility key has no directorate-dependent minimum, although the visible call allows engineering proposals. A USD 450,000 ENG proposal satisfies the encoded floor and violates the visible one. The skeleton's author note explains the simplification but does not make the two requirements equivalent.",
+      "fix": "Make the fictional floor uniformly USD 500,000: set eligibility.min_budget to 500000 and add to the visible award conditions, 'For this fictional call, the minimum total request is USD 500,000 for all proposals; this is an additional restriction of this call.' Retain the accurately described real CAREER minima as background. Alternatively, explicitly restrict both files to CISE and retain a uniform USD 400,000 floor. Update any scope sentence saying the fictional minimum depends on the reviewing directorate to match the chosen uniform floor or CISE-only restriction.",
+      "evidence": [
+        "data/public/calls/v2-nsf-career-robust-inference/call.md",
+        "data/public/calls/v2-nsf-career-robust-inference/call.yaml",
+        "tools/authoring/schemes/nsf_career.yaml",
+        "https://www.nsf.gov/funding/opportunities/career-faculty-early-career-development-program/nsf22-586/solicitation"
+      ]
+    }
+  ],
+  "checked": [
+    "Call 1: CAREER eligibility, one PI/no co-PIs, appointment and competition rules, five-year term, minima and departmental letter checked against https://www.nsf.gov/funding/opportunities/career-faculty-early-career-development-program/nsf22-586/solicitation.",
+    "Call 1: Summary/Description/prior-support page limits, conditional prior-support contents, URL/appendix rules checked against https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation; review criteria checked against https://www.nsf.gov/policies/pappg/24-1/ch-3-proposal-processing-review.",
+    "Current NSF policy checked at https://www.nsf.gov/policies/pappg and its linked Supplements 1 and 2; NSF 24-1 remains the current version. Fictional ceiling/deadline and word conversion are labelled.",
+    "Call 2–4: compared every EO/SC/EX/ME text literally after whitespace normalization between call.md and call.yaml; all item texts match. Checked 600/9000/3000 section caps, 9600 total, zero tolerance and 60-month bounds.",
+    "Call 4–6: topic is plausible for fundamental computing/robotics and education; requirements fit the narrative allowance. No dossier references or trap instructions in the call. The canary is a repository provenance marker, not an answer-key disclosure."
+  ]
+}

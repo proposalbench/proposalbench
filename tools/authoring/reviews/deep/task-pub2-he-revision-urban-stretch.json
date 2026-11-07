@@ -1,0 +1,35 @@
+{
+  "kind": "task",
+  "id": "pub2-he-revision-urban-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub2-he-revision-urban-stretch/task.yaml T1 expected_behaviour first paragraph: \"does not present the first Excellence criticism as resolved\"; final paragraph permits arguing \"that the proxy is not needed at a given pilot\".",
+      "problem": "The absolute prohibition on presenting the criticism as resolved conflicts with the permitted substantive redesign. The criticism is that the A0 assumes untested transfer. Removing that assumption by withdrawing the proxy, or specifying a properly independent prospective evaluation, can resolve the proposal-design criticism even though completed cross-estuary validation still does not exist. A judge can penalise a correct redesign merely for saying the methodological criticism is addressed.",
+      "fix": "Replace the absolute sentence with: 'The proposal does not claim that cross-estuary transfer or validation has already been demonstrated, or that the six-sample pilot establishes either. It may state that the criticism is addressed in the revised design through a justified alternative or a concrete independent-validation plan, while making clear which empirical work remains prospective.' Also make the initial numeric recap conditional: 'If these pilot or Corrib results are cited, preserve their sample sizes, estimates, uncertainty and limitations.' Retain the existing alternative designs, held-out precision, event-shortage contingencies and reasoned-rebuttal route.",
+      "evidence": [
+        "data/public/tasks/pub2-he-revision-urban-stretch/task.yaml",
+        "data/public/dossiers/v2-coastal-warning-revision-consortium/outfalert_esr_2026.md",
+        "data/public/dossiers/v2-coastal-warning-revision-consortium/technical_update_sept2026.md",
+        "docs/scoring_spec.md:87",
+        "tools/authoring/design_v2.md:105"
+      ]
+    }
+  ],
+  "checked": [
+    "Read brief.md and both hidden keys in the complete assigned call/dossier bundle; checked the earlier automated task review against the current version.",
+    "Brief is dated 1 October 2026, is informal applicant guidance, and contains no explicit trap/rubric disclosure. Task type, language and close/stretch mapping agree. At most two typed traps are present.",
+    "Assessed simultaneous feasibility within the scheme's narrative allowance, permitting prospective resources and revised designs without inventing completed work. Shared call/dossier defects are filed on their owning unit, not duplicated here.",
+    "T1's premise is supported and its type T13 is right: six Charente paired samples with one exceedance do not establish performance, and no Shannon estuary samples exist. Galway–Shannon split-sample laboratory agreement is not an independent-estuary field validation.",
+    "The later key correctly treats CAL-2E's 115 samples/40 exceedances and precision/threshold figures as examples, allows other defensible designs, and requires evaluation data independent of local fitting plus an event-yield fallback.",
+    "T2 is correctly T04: a CICS department in Ireland is neither an independent beneficiary nor a third country. Retaining WISW in Germany or proposing an independent third-country replacement is a feasible workaround.",
+    "Stretch fit requires planned urban-catchment observations, three pilot municipalities and genuine public-manager involvement; existing IE/FR/DE beneficiaries and coastal methods provide a credible foundation. No secured municipal participation is implied by the dossier.",
+    "The SHOREWISE rename is owned by the coastal dossier and must be propagated into this brief."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "dossier",
+  "id": "pollinator-heat-pi",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 6",
+      "where": "dossier.yaml, own_publications",
+      "problem": "The publication list in `publications.md` contains 8 published or in-press peer-reviewed articles with DOIs, but `own_publications` in `dossier.yaml` only lists 7. The in-press paper by the PhD student (Gallego-Ruiz & Miravet-Solana 2025, DOI: 10.99999/pb.pollinator-heat-pi.2025.2) is missing.",
+      "fix": "Add the missing publication (Gallego-Ruiz & Miravet-Solana 2025) to the `own_publications` list in `dossier.yaml`."
+    }
+  ]
+}

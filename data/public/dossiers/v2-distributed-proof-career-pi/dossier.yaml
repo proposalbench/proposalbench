@@ -1,0 +1,287 @@
+schema_version: 1
+id: v2-distributed-proof-career-pi
+language: en
+applicant_type: individual
+career_stage: early_career
+disciplines:
+- theoretical mathematics
+- distributed algorithms
+- computer security
+method_profile: theoretical
+country: US
+files:
+- path: cv_pi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources_team.md
+  role: resources
+facts:
+- id: F01
+  category: position
+  kind: existing
+  text: The applicant holds a full-time tenure-track Assistant Professor appointment starting August 2024.
+  value: August 2024
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: education
+  kind: existing
+  text: The applicant received their PhD in Applied Mathematics in May 2022.
+  value: May 2022
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: grant
+  kind: existing
+  text: The applicant has no previous NSF CAREER award and has made no previous CAREER attempts.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F04
+  category: grant
+  kind: existing
+  text: The applicant currently holds no active federal grants.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F05
+  category: grant
+  kind: existing
+  text: Departmental support for a CAREER submission was formally signed on 10 September 2026.
+  value: 10 September 2026
+  salient: true
+  source: cv_pi.md
+- id: F06
+  category: grant
+  kind: existing
+  text: Prior support was a $45,000 Oakhaven Provost's Seed Grant.
+  value: $45,000
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: grant
+  kind: existing
+  text: The seed grant performance period was 1 January 2025 to 31 August 2026.
+  value: 1 January 2025 to 31 August 2026
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: budget
+  kind: existing
+  text: The seed grant budget was fully expended, including $11,500 for PI summer salary.
+  value: $11,500
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: The convergence theorem requires a fixed, undirected graph, symmetric Laplacian, uniform delay,
+    continuous initial history, and \kappa \tau \lambda_{max} < \pi/2.
+  value: \kappa \tau \lambda_{max} < \pi/2
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: For a network with \lambda_{max} \le 10 and \kappa = 0.1 s^{-1}, convergence is guaranteed for
+    delays up to \tau \le 1.5 seconds.
+  value: '1.5'
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: The adversarial-node extension remains a conjecture, not a published theorem.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: result
+  kind: existing
+  text: Preliminary bounds show that the initial state and non-zero injected faults can be uniquely recovered
+    if the system satisfies 2s-sparse observability over a horizon T for a fixed set of at most s compromised
+    sensors.
+  value: $2s$-sparse observability
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: result
+  kind: existing
+  text: State estimation is maintained as a corollary of successful fault isolation.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: result
+  kind: existing
+  text: A completed proof-based learning seminar enrolled 18 graduate students.
+  value: '18'
+  salient: true
+  source: prior_project.md
+- id: F15
+  category: result
+  kind: existing
+  text: 15 of 18 students reported increased confidence in mathematical reasoning on qualitative surveys.
+  value: '15'
+  salient: true
+  source: prior_project.md
+- id: F16
+  category: result
+  kind: existing
+  text: No causal learning gain was estimated, and no control group, pre-test/post-test, or validated
+    concept inventories were used.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F17
+  category: publication
+  kind: existing
+  text: A manuscript detailing preliminary sensor bounds was submitted in July 2026.
+  value: July 2026
+  salient: true
+  source: publications.md
+- id: F18
+  category: publication
+  kind: existing
+  text: The sensor bounds manuscript remains under review as of 25 September 2026, not accepted.
+  value: 25 September 2026
+  salient: true
+  source: publications.md
+- id: F19
+  category: resource
+  kind: existing
+  text: The applicant explicitly states they have no existing robot lab or physical autonomous vehicle
+    testbeds.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F20
+  category: resource
+  kind: planned
+  text: Validation of the sensor-fault inference theory is restricted to planned software simulation.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F21
+  category: resource
+  kind: existing
+  text: The Oakhaven HPC Core provides 128 compute nodes, each with dual 32-core processors and 256 GB
+    of RAM.
+  value: '128'
+  salient: true
+  source: resources_team.md
+- id: F22
+  category: team
+  kind: existing
+  text: A tenured associate professor, Dr. Sarah L. Quenneville, serves as the official faculty mentor.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F23
+  category: team
+  kind: existing
+  text: The mentor's current project appointment is departmental career mentor, with no funded research
+    appointment allocated.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F24
+  category: resource
+  kind: existing
+  text: The department guarantees a one-course teaching reduction during the first year of any major federal
+    early-career award.
+  value: one-course
+  salient: true
+  source: resources_team.md
+- id: F25
+  category: resource
+  kind: existing
+  text: The department provides guaranteed teaching assistantship (TA) funding capacity for up to two
+    Ph.D. students.
+  value: two
+  salient: true
+  source: resources_team.md
+- id: F26
+  category: resource
+  kind: existing
+  text: The HPC Core includes four dedicated GPU nodes, each with four enterprise-grade GPUs.
+  value: four
+  salient: true
+  source: resources_team.md
+- id: F27
+  category: resource
+  kind: existing
+  text: The university provides existing access to ROS2 within Docker containers on the HPC.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F28
+  category: budget
+  kind: existing
+  text: The seed grant provided $24,000 for partial graduate research assistant support over two semesters.
+  value: $24,000
+  salient: true
+  source: prior_project.md
+- id: F29
+  category: budget
+  kind: existing
+  text: The seed grant included $3,500 for travel to the Pacific Symposium.
+  value: $3,500
+  salient: true
+  source: prior_project.md
+- id: F30
+  category: budget
+  kind: existing
+  text: The seed grant expended $6,000 on publication fees and computational resources.
+  value: $6,000
+  salient: true
+  source: prior_project.md
+own_publications:
+- key: thorne2026sensor
+  authors:
+  - Thorne, E. V.
+  - Quenneville, S. L.
+  year: 2026
+  title: Spectral Bounds for Sensor-Fault Inference in Observability Graphs
+  venue: Oakhaven Spectral Systems Studies
+  doi: 10.99999/pb.v2-distributed-proof-career-pi.2026.1
+- key: thorne2025convergence
+  authors:
+  - Thorne, E. V.
+  year: 2025
+  title: Convergence Guarantees for Bounded-Delay Consensus on Fixed Connected Graphs
+  venue: Journal of Theoretical Distributed Systems
+  doi: 10.99999/pb.v2-distributed-proof-career-pi.2025.1
+- key: thorne2024algebraic
+  authors:
+  - Thorne, E. V.
+  - Quenneville, H. R.
+  year: 2024
+  title: Algebraic Connectivity and Information Flow in Time-Varying Networks
+  venue: Annals of Network Security
+  doi: 10.99999/pb.v2-distributed-proof-career-pi.2024.1
+- key: thorne2022eigenvalue
+  authors:
+  - Thorne, E. V.
+  - Sterling, J. C.
+  year: 2022
+  title: Eigenvalue Perturbation in Dynamic Laplacian Matrices
+  venue: Journal of Applied Matrix Dynamics
+  doi: 10.99999/pb.v2-distributed-proof-career-pi.2022.1
+- key: sterling2021spectral
+  authors:
+  - Sterling, J. C.
+  - Thorne, E. V.
+  year: 2021
+  title: A Note on the Spectral Radius of Bipartite Consensus Graphs
+  venue: Meridian Network Mathematics Review
+  doi: 10.99999/pb.v2-distributed-proof-career-pi.2021.1
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 07708804-b0d6-4798-aada-47db0d1a7483

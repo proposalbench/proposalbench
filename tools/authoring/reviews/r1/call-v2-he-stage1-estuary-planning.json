@@ -1,0 +1,108 @@
+{
+  "kind": "call",
+  "id": "v2-he-stage1-estuary-planning",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Award criteria: 'to admit proposals requesting as close as possible to three times, and not less than twice, the available budget'",
+      "problem": "The Horizon Europe General Annexes set the first-stage overall threshold so that admitted proposals request as close as possible to three times the available budget and not less than 2.5 times. 'Twice' misstates a real award rule, and only topic, identifiers, budgets and dates may be invented.",
+      "fix": "Replace 'not less than twice' with 'not less than 2.5 times'. Check the wording against the cited 2026–2027 General Annexes and quote it."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Purpose and eligibility: 'Submit the first-stage outline only. The final RIA must meet the three-entity, three-country rule'; Specific conditions ME5 / call.yaml ME5: 'The eventual RIA consortium must include…'",
+      "problem": "In Horizon Europe two-stage calls, the eligibility conditions already apply to the first-stage proposal. The consortium is declared in Part A at stage 1 and must meet the minimum composition then; composition changes at stage 2 must still satisfy eligibility. Framing the rule as applying only to the 'eventual' or 'final' RIA misstates the scheme. It also invites a stage-1 outline from an incomplete consortium, and task traps could be built on that wrong premise.",
+      "fix": "State that the stage-1 proposal must be submitted by a consortium already meeting the three-entity, three-country rule (at least one entity in a Member State), checked at first-stage submission. Remove 'eventual' and 'final RIA' from call.md and ME5."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Purpose and eligibility: 'This benchmark variant does not use blind evaluation; the General Annexes require anonymity only where the topic specifies it.'",
+      "problem": "The sentence announces a deviation from the real scheme ('benchmark variant'), which the checklist does not permit. Under the 2023–2024 and 2025 General Annexes, blind evaluation applied to the first stage of all two-stage calls: Part B could not name organisations, acronyms or personnel. If the 2026–2027 annexes keep this, the call removes a real stage-1 condition. That condition directly affects how a dossier-based proposal may cite the applicant's own prior work.",
+      "fix": "Quote the 2026–2027 General Annexes provision on blind evaluation for first-stage proposals. If it applies, require an anonymised Part B in call.md and record it in call.yaml. Delete the 'benchmark variant' sentence in either case."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml eligibility.duration_months_min: 36 vs call.md table 'Maximum duration 48 months'",
+      "problem": "call.yaml sets a 36-month minimum that call.md never states. Duration must be stated identically in both files.",
+      "fix": "Either remove duration_months_min from call.yaml, or add 'Duration: 36–48 months' to the call.md table and to the header note on invented conditions."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 1",
+      "where": "call.md, Award criteria: 'Excellence covers the objectives, ambition beyond the state of the art and soundness of the overall methodology. Impact covers the credibility of the pathways to the specified outcomes and impacts.'",
+      "problem": "The paraphrase drops first-stage aspects the General Annexes evaluate. For Impact it omits 'the likely scale and significance of the contributions due to the project', even though section 2.1 asks for it. For Excellence it omits underlying concepts, models and assumptions, interdisciplinary approaches, the gender dimension and open science practices. The criteria therefore do not match the real scheme.",
+      "fix": "Quote the first-stage (bold) aspects of the Excellence and Impact criteria from the 2026–2027 General Annexes verbatim."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 4",
+      "where": "call.md header and Impact/ME4 ('wider impacts', 'longer-term impacts'); Sources",
+      "problem": "The call names no cluster, destination or mission, and states no destination-level expected impacts. The stage-1 form asks for contributions to the wider impacts specified in the destination, and the Impact criterion refers to 'impacts specified in the work programme'. ME4's 'wider impacts' therefore has no reference text, and a grader cannot judge it. A two-stage RIA is also not the default in every programme part that could host this topic, so plausibility cannot be judged either.",
+      "fix": "Place the topic under a named real 2026–2027 programme part that uses two-stage RIAs, for example a Cluster 6 or Cluster 5 destination. Add a short 'Expected impacts (destination)' paragraph paraphrasing that destination, and cite the relevant work-programme part in Sources. Alternatively, reduce ME4 and 2.1 to the topic outcomes only."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md / call.yaml ME5",
+      "problem": "ME5 is an eligibility condition checked through Part A. The stage-1 narrative (1.1, 1.2, 2.1) has no consortium or implementation section, and section 3 is explicitly excluded. A grader cannot find ME5 'addressed' in a stage-1 proposal; if blind evaluation applies, the narrative must not name the partners at all.",
+      "fix": "Remove ME5 from mandatory_elements and keep the rule only under eligibility.consortium and the call.md table. If a narrative check is wanted, phrase it as something visible in 1.2, such as the disciplines and site types the consortium covers, without names if anonymity applies."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md / call.yaml ME6: 'lawful collection and use, data minimisation, controlled access, retention and deletion, and protection against re-identification in linked spatial data and published outputs'",
+      "problem": "One item bundles five or six separate demands. A proposal covering some of them cannot be scored consistently. The level of detail is also disproportionate for a 10-page outline in which ethics and data management are not first-stage evaluation aspects.",
+      "fix": "Reduce ME6 to one checkable requirement suited to stage 1, for example: 'Explain how re-identification risk from linking resident-level and spatial data will be controlled in analysis and published outputs.' Move the remaining GDPR items to the stage-2 conditions or drop them."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md / call.yaml ME7",
+      "problem": "ME7 bundles three distinct demands: how contributions inform option selection and interpretation, how disagreements are recorded, and how findings are returned to communities. It also overlaps SC7 and EO3, so the same text would be scored up to three times.",
+      "fix": "Keep one requirement in ME7, for example 'Specify how residents' contributions will change the set of options compared and how disagreements will be recorded.' Fold returning findings into EO3, or drop it, so that SC7, EO3 and ME7 do not double-count."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md / call.yaml SC3: 'including land-use planning, water retention, nature-based measures or changes to drainage operation'; SC5",
+      "problem": "SC3's 'including … or' leaves it unclear whether all four option types or any of them must be compared. SC5 lists four distributional dimensions plus transferred effects without saying whether all are required.",
+      "fix": "SC3: 'at least two of: land-use planning, water retention, nature-based measures, changes to drainage operation' (or 'all of'). SC5: state whether each listed dimension must be assessed."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md table 'EU contribution per project: up to EUR 5.0 million'; header 'award ceiling'",
+      "problem": "Horizon Europe topics normally state an indicative contribution ('around EUR X million … does not preclude submission and selection of a proposal requesting different amounts'), not a binding ceiling. Presenting the amount as a hard ceiling departs from the usual topic wording without saying it is a specific condition.",
+      "fix": "Use the standard indicative wording. If the amount is meant to be binding, state it as an explicit topic-specific condition and keep call.yaml max_budget consistent."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md Sources: 'Verified 2026-10-31'; call.yaml source_note and provenance.created",
+      "problem": "The visible call text carries a date after the benchmark present date of 1 October 2026, which confuses present-date reasoning. The form version claim 'V5.0, 5 November 2025' must also match the cited file.",
+      "fix": "Keep the verification date only in call.yaml provenance, or remove it from call.md. Confirm the stage-1 form version and date against the cited PDF."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 4",
+      "where": "call.md: 'These funder criteria do not replace ProposalBench's component weights.'; 'binding benchmark ceiling'; 'This benchmark variant'",
+      "problem": "These sentences tell the system that a hidden rubric with its own weights exists, and they make the call read like a benchmark specification rather than a work-programme topic.",
+      "fix": "Delete the component-weights sentence and the 'benchmark variant' wording. Keep the length contract as a plain word limit with the page conversion."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 3",
+      "where": "call.yaml (no deadline or funding-model fields) vs call.md ('15 September 2027'; 'actual costs')",
+      "problem": "The deadline and funding model appear only in call.md. Any date- or cost-based check has no structured source in the answer key.",
+      "fix": "Add stage-1 deadline 2027-09-15 and funding model 'actual costs' to call.yaml."
+    }
+  ]
+}

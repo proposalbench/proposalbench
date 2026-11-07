@@ -1,0 +1,104 @@
+# What the November 2026 release publishes, read by `pb export`.
+eval_id: public-v1
+release: 2026-11
+title: November 2026 run (public-v1)
+judge_panel: panel-pilot
+
+# Published systems, with the name and kind shown in the results. Systems not listed here
+# (development runs, the earlier Proposia version) are left out of every output.
+systems:
+  proposia-pro-v2:
+    name: Proposia Pro
+    kind: product
+    summary: Commercial grant-writing pipeline (Claude Opus 5.5 writes, Claude Sonnet 5.5 audits and revises).
+    models: [claude-opus-5-5, claude-sonnet-5-5]
+  cli-claude-code-opus:
+    name: Claude Code (Opus 5.5)
+    kind: agent
+    summary: Claude Code CLI working on the task folder, with web search.
+  cli-codex-gpt-6-astra:
+    name: Codex (GPT-6 Astra)
+    kind: agent
+    summary: Codex CLI working on the task folder, with web search, reasoning effort high.
+  agent-claude-opus-4.6:
+    name: Baseline agent (Claude Opus 4.6)
+    kind: agent
+    summary: A simple open agent built for the benchmark as a baseline (literature retrieval through Crossref, one critique and revision pass); not a product, and not Claude Opus 4.6 alone.
+  direct-cc-claude-opus-5.5:
+    name: Claude Opus 5.5
+    kind: direct
+    summary: The baseline prompt with the task bundle, no tools.
+  direct-cc-claude-sonnet-5.5:
+    name: Claude Sonnet 5.5
+    kind: direct
+    summary: The baseline prompt with the task bundle, no tools.
+  direct-cc-claude-haiku-5.5:
+    name: Claude Haiku 5.5
+    kind: direct
+    summary: The baseline prompt with the task bundle, no tools.
+  direct-codex-gpt-6-astra:
+    name: GPT-6 Astra
+    kind: direct
+    summary: The baseline prompt with the task bundle, no tools.
+  direct-codex-gpt-6-sol:
+    name: GPT-6 Sol
+    kind: direct
+    summary: The baseline prompt with the task bundle, no tools.
+  direct-codex-gpt-6-luna:
+    name: GPT-6 Luna
+    kind: direct
+    summary: The baseline prompt with the task bundle, no tools.
+  direct-gemini-3.1-pro:
+    name: Gemini 3.1 Pro
+    kind: direct
+    summary: The baseline prompt with the task bundle, no tools.
+  direct-gemini-3.8-flash:
+    name: Gemini 3.8 Flash
+    kind: direct
+    summary: The baseline prompt with the task bundle, no tools.
+
+# Proposia Pro was developed on the other 26 public tasks, so the headline comparison uses only
+# these 34, sample 1 of every system. The other systems are also reported on all 60 tasks.
+headline_system: proposia-pro-v2
+headline_tasks:
+  - pub-he-heatstorage-close
+  - pub-he-heatstorage-stretch
+  - pub-he-indoorhealth-stretch
+  - pub-msca-ef-maternal-stretch
+  - pub-msca-gf-battery-stretch
+  - pub-nih-ruralbp-stretch
+  - pub-nih-sleepcardio-stretch
+  - pub-nsf-ailearning-close
+  - pub-nsf-stemed-stretch
+  - pub2-aei-care-stretch
+  - pub2-aei-service-close
+  - pub2-aei-service-stretch
+  - pub2-cerv-culture-stretch
+  - pub2-cerv-service-stretch
+  - pub2-erc-field-stretch
+  - pub2-erc-workflow-close
+  - pub2-erc-workflow-stretch
+  - pub2-foundation-records-stretch
+  - pub2-foundation-signals-stretch
+  - pub2-he-coldchain-stretch
+  - pub2-he-digital-stretch
+  - pub2-he-revision-coast-close
+  - pub2-he-revision-coast-stretch
+  - pub2-he-revision-urban-stretch
+  - pub2-he-stage1-coast-stretch
+  - pub2-he-stage1-estuary-close
+  - pub2-he-stage1-estuary-stretch
+  - pub2-ka220-multilingual-stretch
+  - pub2-ka220-studios-stretch
+  - pub2-nih-stress-stretch
+  - pub2-nih-transition-stretch
+  - pub2-nsf-autonomy-stretch
+  - pub2-nsf-inference-close
+  - pub2-nsf-inference-stretch
+
+# Commercial systems whose generation cost is not published.
+undisclosed_cost: [proposia-pro-v2]
+
+# One featured task per scheme for the proposal explorer: the first headline task of each scheme
+# in alphabetical order.
+featured_schemes: [horizon_ria, erc_poc, msca_pf, nih_r21, nsf_career, erasmus_ka220]

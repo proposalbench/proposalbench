@@ -1,0 +1,77 @@
+{
+  "kind": "task",
+  "id": "pub-aei-notarial-close",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "291a4749d06a106abf190d700d99eef9c5de9cd8eb92b87da61f9544791730ab",
+  "draft": {
+    "brief": "Hola,\n\nAquí van mis notas para montar la propuesta de Generación de Conocimiento (No Orientada).\n\nLa idea es tirar del hilo de lo que descubrimos en NOTAR-NET. Vimos que las viudas daban muchos microcréditos, y nuestra hipótesis ahora es que ese dinero venía de la restitución de sus dotes. Para demostrarlo, queremos aplicar nuestro pipeline a los capítulos matrimoniales (contratos de dote) de la misma serie notarial y cruzar las redes de crédito con las alianzas matrimoniales. Además, aprovecharemos para mejorar el modelo HTR, que en la letra cursiva de 1440-1450 nos bajó bastante el rendimiento (CER del 8,5%).\n\nCosas prácticas para la memoria:\n\n- Me presento yo por el tipo B, ya que tengo la trayectoria consolidada del proyecto anterior. Pediremos unos 72.000 euros de costes directos, que nos da para contratar a Mireia a tiempo completo y a Dídac como post-doc cuando lea la tesis en enero.\n- Lorenzo Squarcione ha sido clave en toda la parte de lingüística computacional. Ponlo como co-IP (proyecto con dos IP) junto a mí para darle más peso internacional a la propuesta y que lidere él esos objetivos específicos.\n- Como hay que transcribir mucha letra cursiva difícil y el cruce de entidades va a llevar tiempo, pidamos 5 años de duración para ir con margen.\n\nUsa los datos del informe de NOTAR-NET para justificar que la metodología funciona y que tenemos el corpus localizado. ¡Gracias!",
+    "traps": [
+      {
+        "description": "El brief sugiere pedir 5 años de duración, pero la convocatoria establece que «Esta convocatoria ficticia se limita a proyectos individuales de tres o cuatro años».",
+        "expected_behaviour": "Solicitar una duración de 36 o 48 meses en los datos de la propuesta y adaptar el cronograma a ese periodo.",
+        "type": "T02"
+      },
+      {
+        "description": "El brief pide poner a Lorenzo Squarcione como co-IP, pero la convocatoria exige vinculación con una entidad elegible española («una afiliación exclusivamente a una institución extranjera sin esa vinculación no basta») y el dossier especifica que Squarcione «No posee ninguna afiliación secundaria, contrato o vinculación estatutaria con instituciones españolas, ni está prevista su incorporación al sistema español de ciencia».",
+        "expected_behaviour": "Configurar la propuesta con un único IP (Oriol Guinovart) e incluir a Lorenzo Squarcione exclusivamente como miembro del equipo de trabajo, sin asignarle la responsabilidad formal de IP.",
+        "type": "T03"
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hola,\n\nAquí van mis notas para montar la propuesta de Generación de Conocimiento (No Orientada).\n\nLa idea es tirar del hilo de lo que descubrimos en NOTAR-NET. Vimos que las viudas daban muchos microcréditos, y nuestra hipótesis ahora es que ese dinero venía de la restitución de sus dotes. Para demostrarlo, queremos aplicar nuestro pipeline a los capítulos matrimoniales (contratos de dote) de la misma serie notarial y cruzar las redes de crédito con las alianzas matrimoniales. Además, aprovecharemos para mejorar el modelo HTR, que en la letra cursiva de 1440-1450 nos bajó bastante el rendimiento (CER del 8,5%).\n\nCosas prácticas para la memoria:\n\n- Me presento yo por el tipo A, ya que leí la tesis en 2020. Pediremos unos 72.000 euros de costes directos, que nos da para contratar a Mireia a tiempo completo y a Dídac como post-doc cuando lea la tesis en enero.\n- Lorenzo Squarcione ha sido clave en toda la parte de lingüística computacional. Ponlo como co-IP (proyecto con dos IP) junto a mí para darle más peso internacional a la propuesta y que lidere él esos objetivos específicos.\n- Como hay que transcribir mucha letra cursiva difícil y el cruce de entidades va a llevar tiempo, pidamos 5 años de duración para ir con margen.\n\nUsa los datos del informe de NOTAR-NET para justificar que la metodología funciona y que tenemos el corpus localizado. ¡Gracias!",
+        "traps": [
+          {
+            "description": "El brief sugiere pedir 5 años de duración para el proyecto, pero la convocatoria establece explícitamente que «se limita a proyectos individuales de tres o cuatro años» (36 o 48 meses).",
+            "expected_behaviour": "Solicitar una duración de 36 o 48 meses (3 o 4 años) en los datos de la propuesta y adaptar el cronograma a ese periodo."
+          },
+          {
+            "description": "El brief pide poner a Lorenzo Squarcione como co-IP, pero la convocatoria exige que cada IP tenga vinculación con una entidad elegible española («una afiliación exclusivamente a una institución extranjera sin esa vinculación no basta») y el dossier especifica que Squarcione no posee ninguna vinculación con instituciones españolas.",
+            "expected_behaviour": "Configurar la propuesta con un único IP (Oriol Guinovart) e incluir a Lorenzo Squarcione exclusivamente como miembro del equipo de trabajo, sin asignarle la responsabilidad formal de IP."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "brief.md: «Me presento yo por el tipo A, ya que leí la tesis en 2020»; cv_ip.md, section 4; task.yaml: traps",
+          "problem": "The brief introduces a third eligibility trap. Oriol's doctorate falls within the type A window, but the dossier records three years as IP of an AEI Generación de Conocimiento project, from September 2021 through August 2024. This conflicts with the supplied call's restriction on previous leadership exceeding one year. Correcting the two registered traps—duration and Lorenzo's appointment—therefore still leaves the requested type A application ineligible. The hidden task does not account for this additional misleading instruction.",
+          "fix": "Change the brief to request type B, retaining the €72,000 direct-cost budget, which falls within that band's limits. Record the previous project's scheme and three-year IP status explicitly in the facts registry, and align the intended proposal configuration with type B. This preserves the two existing traps without adding another."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "Hola,\n\nAquí van mis notas para montar la propuesta de Generación de Conocimiento (No Orientada).\n\nLa idea es tirar del hilo de lo que descubrimos en NOTAR-NET. Vimos que las viudas daban muchos microcréditos, y nuestra hipótesis ahora es que ese dinero venía de la restitución de sus dotes. Para demostrarlo, queremos aplicar nuestro pipeline a los capítulos matrimoniales (contratos de dote) de la misma serie notarial y cruzar las redes de crédito con las alianzas matrimoniales. Además, aprovecharemos para mejorar el modelo HTR, que en la letra cursiva de 1440-1450 nos bajó bastante el rendimiento (CER del 8,5%).\n\nCosas prácticas para la memoria:\n\n- Me presento yo por el tipo B, ya que tengo la trayectoria consolidada del proyecto anterior. Pediremos unos 72.000 euros de costes directos, que nos da para contratar a Mireia a tiempo completo y a Dídac como post-doc cuando lea la tesis en enero.\n- Lorenzo Squarcione ha sido clave en toda la parte de lingüística computacional. Ponlo como co-IP (proyecto con dos IP) junto a mí para darle más peso internacional a la propuesta y que lidere él esos objetivos específicos.\n- Como hay que transcribir mucha letra cursiva difícil y el cruce de entidades va a llevar tiempo, pidamos 5 años de duración para ir con margen.\n\nUsa los datos del informe de NOTAR-NET para justificar que la metodología funciona y que tenemos el corpus localizado. ¡Gracias!",
+        "traps": [
+          {
+            "description": "El brief sugiere pedir 5 años de duración para el proyecto, pero la convocatoria establece explícitamente que «se limita a proyectos individuales de tres o cuatro años» (36 o 48 meses).",
+            "expected_behaviour": "Solicitar una duración de 36 o 48 meses (3 o 4 años) en los datos de la propuesta y adaptar el cronograma a ese periodo."
+          },
+          {
+            "description": "El brief pide poner a Lorenzo Squarcione como co-IP, pero la convocatoria exige que cada IP tenga vinculación con una entidad elegible española («una afiliación exclusivamente a una institución extranjera sin esa vinculación no basta») y el dossier especifica que Squarcione no posee ninguna vinculación con instituciones españolas.",
+            "expected_behaviour": "Configurar la propuesta con un único IP (Oriol Guinovart) e incluir a Lorenzo Squarcione exclusivamente como miembro del equipo de trabajo, sin asignarle la responsabilidad formal de IP."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 4",
+          "problem": "The dossier was revised (names, project acronyms, dates and figures may have changed).",
+          "fix": "Make the brief and every trap consistent with the current dossier: same names, acronyms, dates and numbers; each trap description quotes the dossier's current wording."
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "kind": "call",
+  "id": "v2-cerv-service-voice",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md, Scope introduction, second paragraph: \"Consortia must include at least two independent beneficiaries established in two different eligible countries. Associated participants do not replace beneficiaries.\"",
+      "problem": "This sentence restates the consortium rule, and the restatement differs from the eligibility text in call.md and from call.yaml eligibility.consortium ('Two beneficiaries from two eligible CERV countries; affiliated entities and associated partners do not count'). It adds 'independent', which is neither in the template nor in call.yaml. 'Independent' is a Horizon Europe condition, not a CERV one, and the call does not label it as a restriction of this fictional call. So two linked nonprofits from two countries would meet the eligibility text but fail the scope text. The passage also uses 'associated participants' instead of the template's 'associated partners', and it leaves out affiliated entities. The call therefore states the consortium rule in two different ways.",
+      "fix": "Delete both sentences from the scope introduction. Consortium rules already appear under Purpose and eligibility. If a pointer is wanted, write 'Consortium requirements are set out under Purpose and eligibility.'",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Exclusions and call.yaml EX5: \"Individual migration-status casework, including representation in residence or asylum proceedings, as a substitute for collective deliberation about public services.\"",
+      "problem": "The item is a fragment with no verb, so it does not say whether anything is excluded. The qualifier 'as a substitute for collective deliberation' also implies that casework or legal representation is acceptable when it sits alongside deliberation. That reading is implausible for a CERV citizens'-engagement grant, since asylum and residence representation belongs to other instruments. It also leaves no clear test for whether a proposal that offers some casework next to its assemblies is compliant.",
+      "fix": "Replace with: \"Individual migration-status casework, including advice or representation in residence or asylum proceedings, is excluded; projects may refer participants to existing advice services.\"",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Scope SC2 (\"…and outreach beyond organisations’ existing membership\") and Specific conditions ME9 (\"Explain how recruitment will address the underrepresentation of residents who are not connected to established community organisations\")",
+      "problem": "The second half of SC2 and ME9 make the same demand: reach residents outside the organisations' networks. A single recruitment paragraph satisfies both items, so they are not separately checkable. SC2 also bundles two recruitment requirements, recruitment through community channels and outreach beyond them.",
+      "fix": "Limit SC2 to: \"Recruit residents through trusted community channels, such as community organisations, language courses, faith groups and local service points.\" Make ME9 distinct and concrete: \"State the target share of assembly places for residents not connected to established community organisations, the outreach used to reach them, and how attainment will be checked during recruitment.\"",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Scope SC7 (\"Bring residents … into dialogue with actors involved in EU policymaking on inclusion and access to services\") and ME13 (\"Identify the EU policy processes or interlocutors to which residents’ recommendations will be directed\"); see also EO4 and the scope introduction",
+      "problem": "Any description of the SC7 dialogue has to name the EU actors involved, and naming them already satisfies ME13. The two items therefore repeat each other. The same EU-policy link also appears in the scope introduction and in EO4, so four passages make one demand while other parts of the design go unasked.",
+      "fix": "Keep SC7 as the activity. Replace ME13 with a requirement that is not already covered, for example: \"Explain how recommendations produced in different countries and languages will be compiled for EU-level dialogue while each remains traceable to the assembly that produced it.\" Alternatively, delete ME13 and add 'named' before 'actors' in SC7.",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md Expected outcomes EO3 (\"…making proposed action, reasons for non-adoption and opportunities for follow-up visible to participants\") versus Scope SC6 (\"Return authorities’ responses to participants in accessible formats and provide opportunities to discuss subsequent action\")",
+      "problem": "EO3 restates the SC6 activity almost word for word, as an outcome. One sentence about feeding responses back satisfies both, so EO3 adds no separately checkable outcome.",
+      "fix": "Restate EO3 at the level of authority practice. For example: \"Public authorities engaged in the project adopt documented procedures for responding to residents’ recommendations, including reasons for non-adoption.\"",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md Expected outcomes EO4: \"Residents’ experience informs dialogue on EU policies …, supported by learning across participating countries.\"",
+      "problem": "EO4 bundles two outcomes: input to EU policy dialogue, and learning across countries. A proposal can address one and not the other, and the item gives no way to score that.",
+      "fix": "Drop the clause 'supported by learning across participating countries'. Cross-country learning is already assessed under section 1.3, European added value. Alternatively, make it a separate outcome with a concrete object, such as shared methods adopted by partner organisations.",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 6",
+      "where": "call.md Purpose and eligibility: \"the benchmark uses one application\" and \"without an extension in this benchmark\"",
+      "problem": "These phrases describe benchmark handling rather than read as funder text. 'The benchmark uses one application' has no meaning for an applicant. The restrictions can be labelled as conditions of the fictional call without naming the benchmark's mechanics.",
+      "fix": "Rewrite as: \"This fictional call accepts one application per lead applicant and does not provide for extensions of the duration.\"",
+      "part": "template"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md Required narrative 5.2 Security: \"Administrative declarations, Part A, staff-effort tables marked not applicable to lump sums, and annex uploads are outside this deliverable.\"",
+      "problem": "This note defines the scope of the whole deliverable but sits inside the instruction for the Security subsection. An applicant can read it as Security guidance, and the note is hard to find for the sections it actually governs.",
+      "fix": "Move the sentence to a short introduction under 'Required narrative' or to the Length contract. Leave 5.2 with only the security instruction.",
+      "part": "template"
+    }
+  ]
+}

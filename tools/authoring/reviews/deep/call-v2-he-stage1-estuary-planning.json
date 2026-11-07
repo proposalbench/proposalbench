@@ -1,0 +1,30 @@
+{
+  "kind": "call",
+  "id": "v2-he-stage1-estuary-planning",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "data/public/calls/v2-he-stage1-estuary-planning/call.md, Award criteria: “and the likely scale and significance of the project's contributions”; section 2.1: “Quantify or bound the scale and significance with a justified baseline where possible.”",
+      "problem": "The call presents an obsolete Impact evaluation aspect as part of the official 2026–2027 rules. Annex D and stage-1 form V5.0 no longer list scale and significance as an award aspect. The current form still welcomes meaningful quantitative estimates; that does not reinstate the removed criterion.",
+      "fix": "Delete “and the likely scale and significance of the project's contributions” from Award criteria. In 2.1 replace the quoted instruction with “Provide quantified estimates where possible and meaningful.” If a baseline requirement is retained, explicitly identify it as an additional condition of this fictional topic.",
+      "evidence": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf (Annex D, pp. 23–24)",
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia-stage-1_en.pdf (Part B pp. 5–6)"
+      ]
+    }
+  ],
+  "checked": [
+    "Read both call files and tools/authoring/schemes/horizon_stage1.yaml; all EO/SC/EX/ME texts match after whitespace normalization; sections, EUR 5m ceiling, 36–48 months and 5,000-word/zero-tolerance contract agree.",
+    "Official first-stage template V5.0 (5 November 2025): 1.1, 1.2 and 2.1 only; 10 pages including references and tables; gender and open science remain in methodology. Source: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia-stage-1_en.pdf",
+    "Annexes A/B/D/F: three independent beneficiary entities in three EU/associated countries, at least one EU; anonymity only where the topic specifies it; two criteria, individual threshold 4, budget-dependent combined threshold normally 8/8.5. The 2026–2027 lower budget multiplier really is TWO, not the older 2.5. Source: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf",
+    "Fictional deadline 15 September 2027 follows 1 October 2026; non-blind choice, award ceiling and duration are identified as invented. No stage-1 budget trap or implementation-table demand.",
+    "Both paired tasks can cover the scientific scope in 5,000 words with prospective expertise/access; no impossible scope/exclusion combination. Coastal modelling plausibility: https://connect-portal.lnec.pt/static/docs/Tagus_3D_baroclinic_EN.pdf ; estuarine drainage methods: https://www.sciencedirect.com/science/article/pii/S1569843224002231",
+    "Earlier automated review read for context; its blind-default and 2.5-times suggestions are not supported by the current official annexes. Benchmark word-conversion notices are permitted adaptations under the user's instructions."
+  ]
+}

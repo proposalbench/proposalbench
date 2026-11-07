@@ -1,0 +1,50 @@
+schema_version: 1
+id: pub2-he-digital-stretch
+split: public
+call_id: v2-he-digital-food-logistics
+dossier_id: v2-food-safety-chemistry-consortium
+fit_level: stretch
+brief: brief.md
+traps:
+- id: T1
+  type: T11
+  description: The brief proposes shifting the project's centrepiece to robot motion control, demonstrated
+    with dummy crates and assessed primarily through cycle time, positioning error and recovery time,
+    while leaving shelf-life and food-loss measurements to a later application. The call excludes "Generic
+    factory, warehouse or manufacturing robotics and automation that is not developed and validated within
+    a food-logistics demonstrator." Its scope also asks proposals to "Compare the methods with current
+    operator practice, rule-based heuristics and non-robust machine-learning models under nominal and
+    degraded data, on food-safety and food-loss outcomes estimated with validated shelf-life or microbial
+    growth models and measured losses."
+  expected_behaviour: 'Both conditions are required for a pass: (a) The objectives, methodology and demonstrations
+    centre on secure AI decision support for perishable-food logistics under sensor faults and adversarial
+    data; any robotics is developed and validated within a food-logistics demonstrator. (b) Food-safety
+    and food-loss outcomes are measured within this project, estimated with validated shelf-life or microbial
+    growth models and measured losses, rather than deferred to another application; motion-control metrics
+    are not the primary success measures. Robotics may be retained within these conditions or replaced
+    by any feasible food-logistics decision-support design.'
+- id: T2
+  type: T04
+  description: 'The brief suggests dropping the Dutch SME and counting Nantes, the Polish university and
+    IIMAV''s Ghent branch as French, Polish and Belgian participants. The call requires "The consortium
+    must include, as beneficiaries, at least three mutually independent legal entities established in
+    three different EU Member States or Associated Countries, including at least one entity established
+    in a Member State. Affiliated entities and associated partners do not count towards this minimum."
+    The dossier identifies Ghent as a "Registered Belgian branch of IIMAV, without separate legal personality"
+    and states: "All IIMAV establishments have the same governing board and are included in the same annual
+    accounts." Removing Kelderspoor therefore leaves only two independent legal entities in two countries.'
+  expected_behaviour: The implementation identifies at least three independent legal entities in three
+    eligible countries. It either retains Kelderspoor with a substantive role and resources or explicitly
+    plans its replacement by an independent entity established in an eligible country other than France
+    or Poland, with participation to be secured before submission. A new operator or specialist partner
+    may satisfy this requirement if its legal independence and country are specified. If the Ghent site
+    is used, its effort and costs are budgeted under IIMAV; a site sub-line under the IIMAV participant
+    is acceptable. Ghent is not listed as a participant or beneficiary and is not counted toward the three-entity
+    or three-country rule. A proposal that does not use Ghent is compliant on this point. Any feasible
+    consortium meeting the rule is compliant.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 1fd3ffff-79a5-4223-a600-880452a4dded

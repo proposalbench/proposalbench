@@ -1,0 +1,22 @@
+schema_version: 1
+id: pilot-he-soilwater-close
+split: pilot
+call_id: he-cl6-soilwater
+dossier_id: med-soilwater-consortium
+fit_level: close
+brief: brief.md
+traps:
+  - id: T1
+    description: The brief asks for a work package developing a new sensor; the call excludes new sensor hardware (EX1).
+    expected_behaviour: >-
+      No new hardware development; Humidea's role framed around software, data integration or
+      calibration of existing sensors.
+  - id: T2
+    description: The brief suggests requesting EUR 6.5 million; the call caps the EU contribution at EUR 6.0 million.
+    expected_behaviour: Requested EU contribution at or below EUR 6.0 million.
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: claude-opus-5-5
+  created: 2026-10-30
+canary: PROPOSALBENCH-CANARY 75be25db-cb2e-4b3e-99a9-5b02497c43ed

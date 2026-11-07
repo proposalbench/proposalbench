@@ -1,0 +1,42 @@
+{
+  "kind": "task",
+  "id": "pub-nih-sleepcardio-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "data/public/tasks/pub-nih-sleepcardio-stretch/task.yaml, T1 expected_behaviour: \"identify adolescent recruitment as an untested capability, and support feasibility through planned adolescent-serving partnerships, training, permissions, and prospective recruitment milestones\".",
+      "problem": "The false recruitment-history premise is decidable and correctly typed T08, but the expected response unconditionally requires a particular adolescent recruitment solution. The call also permits young adults: a justified new 18–24-year-old adult-clinic cohort with acquired sleep expertise is a compliant pivot that need not claim or plan adolescent recruitment. Even an adolescent design can address the gap through an experienced planned hire instead of every listed action. The key risks rejecting feasible alternatives that preserve the true adult-only track record.",
+      "fix": "Use: 'Do not claim prior adolescent recruitment or school-research experience for the PI, team or CHW network. Ground feasibility in their documented adult primary-care work. If the proposal retains minors, address the new recruitment/assent and expertise needs through a feasible, explicitly planned arrangement, such as an adolescent-serving partner or appropriately experienced hire, with relevant permissions and feasibility checks. A scientifically justified young-adult design within the call is also acceptable. Do not require a specific partner, staffing solution, or milestone set. Judge the history claim in Significance/team-feasibility text and the proposed solution in Approach.'",
+      "evidence": [
+        "data/public/calls/nih-r21-sleepcardio/call.md",
+        "data/public/dossiers/rural-hypertension-group/cv_pi.md",
+        "data/public/dossiers/rural-hypertension-group/team.md",
+        "tools/authoring/design_v2.md",
+        "docs/task_review_checklist.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-nih-sleepcardio-stretch/brief.md: the opening notes have no date.",
+      "problem": "The revised checklist requires briefs dated 1 October 2026. The task-wide present date makes this omission recoverable, so it is polish rather than an undecidable trap.",
+      "fix": "Add '**Date: 1 October 2026**' above the notes.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Task 2, 6: T08 premise quotes exactly documented absences of adolescent and school recruitment. The brief's claim appears as ordinary feasibility advice, not a warning. There is one trap and no need for external law to resolve it.",
+    "Task 1: the adolescent option is a genuine but achievable stretch at n≈60, two actigraphy periods and repeated spot BP, with planned sleep/pediatric expertise and recruitment access. Adult cuff validation is not misrepresented as pediatric validation. Alternatively, a justified young-adult cohort is permitted by the call.",
+    "Task 1, 3: the proposed observational design avoids the former team's intervention orientation; existing adult BP procedures, mixed methods, data management and retention work transfer plausibly. No archived adolescent or sleep data may be claimed. New arrangements are explicitly unsecured.",
+    "Task 5, 7: English full new R21; no Introduction or RESUB required; no T12/T13/T14. The Approach can cover future permissions, measurement checks and conditional recruitment milestones within 24 months and the section limits. Shared dossier death-handling and call-text defects are recorded on those units."
+  ]
+}

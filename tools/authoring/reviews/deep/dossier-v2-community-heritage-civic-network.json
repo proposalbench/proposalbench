@@ -1,0 +1,55 @@
+{
+  "kind": "dossier",
+  "id": "v2-community-heritage-civic-network",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1; Dossier 6",
+      "where": "data/public/dossiers/v2-community-heritage-civic-network/consortium_team.md: \"Valerio Ruggiero\", \"Javier Olabarrieta\", \"Sofia Rinaldi\"; corresponding facts and publications.",
+      "problem": "These names collide with public real identities: Valerio Ruggiero is a University of Messina professor; Javier Olabarrieta is a published/interviewed music educator (also indexed with María as a middle name); Sofia Rinaldi has public academic and professional profiles. The music-education collision is particularly close to the invented facilitation role.",
+      "fix": "Rename Valerio Ruggiero → Valerio Ruggianese; Javier Olabarrieta → Javier Olaberdiza; Sofia Rinaldi → Sofia Rinalvesi. Propagate through facts, publication authors and the pub2-cerv-culture-close brief. Exact searches of the replacement full names returned no matches.",
+      "evidence": [
+        "https://ingegneria.unime.it/en/department/organization/staff/structured-staff/teaching-staff",
+        "https://formacionprofesorado.educacion.navarra.es/web/wp-content/uploads/2016/03/biribilka8.pdf",
+        "https://dialnet.unirioja.es/ejemplar/487671",
+        "https://inclusion.research.wesleyan.edu/2024/03/04/sofia-rinaldi/",
+        "https://it.linkedin.com/in/sofia-rinaldi"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-community-heritage-civic-network/cv_coordinator.md: \"Postdoctoral Researcher, Center for Mediterranean Migration Studies (fictional), Rome, Italy (2014–2016)\".",
+      "problem": "Center for Mediterranean Migration Studies is an attested English name of the real Centro Studi Medì in Genoa. Adding '(fictional)' and moving it to Rome does not remove the institutional identity collision; the dossier assigns it an invented employment history.",
+      "fix": "Replace with Centro di Ricerca su Mobilità e Comunità di Valdenera (fictional), Rome, Italy, keeping the dates and work description. The replacement full name returned no exact search match.",
+      "evidence": [
+        "https://upobook.uniupo.it/personale/cv/117/1/Cv.COLOMBO.Alice.Eng.pdf#page=3",
+        "data/public/dossiers/v2-community-heritage-civic-network/cv_coordinator.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/v2-community-heritage-civic-network/prior_project_report.md, Results: \"Thus, uptake is 18 of 120 (15%), not 100%.\"",
+      "problem": "The unexplained rebuttal to 100% sounds like an answer-key correction embedded in a report; also 'uptake' is less precise than the stated response measure. The preceding and following sentences already distinguish written responses from implementation, so this is polish rather than a scoring defect.",
+      "fix": "Delete this sentence, leaving the existing 18/120 written-response statistic and explicit statement that implementation is unverified.",
+      "evidence": [
+        "data/public/dossiers/v2-community-heritage-civic-network/prior_project_report.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Dossiers 2, 3: 42 + 38 + 25 + 15 = 120 recommendations; 18/120 = 15% written responses, not implemented recommendations. 48 distinct interviewees from 14 origin countries and three interview languages are internally possible. Every non-null registered fact value appears in its named source.",
+    "Dossiers 2, 7: 2004–2007 BA, 2007–2009 MA, 2010–2014 doctorate, 2014–2016 postdoc and director from 2016 support mid-career status. Foundation in 2015 and directorship from 2016 need not conflict. Source dates are all at or before September 2026.",
+    "Dossiers 4, 5: qualitative snowball recruitment and music elicitation are plausible; the report confines the claimed rapport benefit to qualitative observation. Consulted primary music-elicitation study https://atheneadigital.net/article/download/v20-2-rovetta/2076?inline=1. No unwarranted causal or representative inference is needed.",
+    "Dossiers 3, 5: EUR 40,000 is pending as of 30 September 2026 in CV, report and resources; EUR 12,000 residual funds expire at end-2026; facilitator retention for 2027 and two proposed specialists are unsecured. The later applicant update creating a T06 ambiguity is filed on the task, not this consistent dossier.",
+    "Dossier 5: dated contributor agreement forbids third-party transcription even for consented archive recordings; local processing and authorised aggregate themes remain possible. Existing offline equipment supports a workaround.",
+    "Dossiers 1, 6: searched every full personal name, all consortium institutions, university/research-centre names, funding bodies/project titles, venues and five journal titles. Livia Morante, Eleni Samaras and Matteo Zanfretta had no credible exact identity collision; evidenced collisions are above. Initial-only coauthors cannot be uniquely identity-checked. Real geographic sites, NVivo and Dell equipment are allowed.",
+    "Dossiers 6, 8, 9: visible bibliography and fictional DOI records agree. No intentional gap/inconsistency or resubmission criticism is declared; none is needed. Funding uncertainty is an explicit status, not a missing fact."
+  ]
+}

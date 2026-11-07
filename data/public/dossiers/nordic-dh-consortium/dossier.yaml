@@ -1,0 +1,266 @@
+schema_version: 1
+id: nordic-dh-consortium
+language: en
+applicant_type: consortium
+career_stage: senior
+disciplines:
+- energy engineering
+- thermal storage
+- energy systems modelling
+- energy economics
+method_profile: quantitative
+country: DK
+files:
+- path: cv_coordinator.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: consortium.md
+  role: team
+- path: resources.md
+  role: resources
+- path: publications.md
+  role: publications
+facts:
+- id: F01
+  category: grant
+  kind: existing
+  text: The VAELTHES project ran for 54 months (1 January 2021 to 30 June 2025), with a budget of DKK
+    32,500,000 and commissioning in September 2022.
+  value: 54 months
+  salient: true
+  source: prior_project.md
+- id: F02
+  category: result
+  kind: existing
+  text: The VAELTHES pilot demonstrated a 75,000 m3 pit thermal energy storage providing a usable energy
+    capacity of approximately 3,400 MWh.
+  value: 3,400 MWh
+  salient: true
+  source: prior_project.md
+- id: F03
+  category: result
+  kind: existing
+  text: The 15,000 m2 solar field produces 7,500 MWh/year, and the 2.5 MW waste heat stream provided 21,900
+    MWh/year of available heat (12,600 MWh/year recovered).
+  value: 21,900
+  salient: true
+  source: prior_project.md
+- id: F04
+  category: result
+  kind: existing
+  text: The annual thermal energy input is 12,500 MWh, and the annual output is 9,750 MWh, leaving 2,750
+    MWh (22%) as seasonal heat losses.
+  value: 12,500 MWh
+  salient: true
+  source: prior_project.md
+- id: F05
+  category: result
+  kind: existing
+  text: A 2.5 MW electrical heat pump consumed 6,000 MWh/year of electricity (COP 3.1) to deliver 18,600
+    MWh/year of heat.
+  value: 18,600 MWh/year
+  salient: true
+  source: prior_project.md
+- id: F06
+  category: result
+  kind: existing
+  text: Seasonal efficiencies were 75%, 78%, and 81% (partial season 1 Oct 2024 – 30 Jun 2025), with a
+    pooled average round-trip thermal efficiency of 78% (95% CI 76–80%).
+  value: 78%
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: result
+  kind: existing
+  text: The transition zone thickness was less than 1.5 meters during 85.0% of eligible operational time
+    (208,675 out of 245,500 valid 5-minute observations).
+  value: 85.0%
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: The estimated heat production cost reduction was 12 EUR/MWh (95% CI 10–14 EUR/MWh) based on 2021
+    real values, excluding storage capital costs.
+  value: 12 EUR/MWh
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: Boiler fuel input fell, yielding gross avoided emissions of 3,557 tonnes CO2 (95% CI 3,400–3,700,
+    n = 731 days) and estimated net operational savings of 2,747 tonnes CO2-equivalent (using a fixed
+    scenario factor of 0.135 tCO2e/MWh).
+  value: 2,747
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: The low-temperature district heating network operates with a forward temperature of 65°C and return
+    of 35°C.
+  value: 65°C
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: partner
+  kind: planned
+  text: GipfelWärme GmbH proposes a planned demonstration site in Bergdorf (indicative commissioning month
+    36); site access and municipal permitting are unconfirmed, and historical SCADA access is conditional
+    on final board approval and GDPR compliance reviews.
+  value: month 36
+  salient: true
+  source: consortium.md
+- id: F12
+  category: partner
+  kind: existing
+  text: Torvessiq Thermik GmbH patented and prototyped a novel variable-speed centrifugal compressor in
+    2026, currently testing in-house with full-scale field validation pending.
+  value: '2026'
+  salient: true
+  source: consortium.md
+- id: F13
+  category: partner
+  kind: planned
+  text: Rijnveldehaven Housing Association proposes planned pilot installations in 5 residential blocks;
+    access and municipal building permits are unconfirmed, and tenant consent is required.
+  value: '5'
+  salient: true
+  source: consortium.md
+- id: F14
+  category: partner
+  kind: existing
+  text: Rijnveldehaven Housing Association manages 12,000 social housing units and has never been in an
+    EU project.
+  value: 12,000
+  salient: true
+  source: consortium.md
+- id: F15
+  category: team
+  kind: existing
+  text: The consortium lacks a social scientist, expertise in fair tariff design, clinical partnerships,
+    and the ability to measure health outcomes.
+  value: null
+  salient: true
+  source: consortium.md
+- id: F16
+  category: resource
+  kind: existing
+  text: HITS operates a Hardware-in-the-Loop simulator capable of emulating a 5 MW district heating substation.
+  value: 5 MW
+  salient: true
+  source: resources.md
+- id: F17
+  category: resource
+  kind: existing
+  text: The consortium has dedicated access to the Silesian-Compute cluster (12,000 cores, 48 TB RAM).
+  value: 48 TB
+  salient: true
+  source: resources.md
+- id: F18
+  category: resource
+  kind: existing
+  text: The Fjordkøbing PTES Data Repository contains 39,800,000 valid measured values collected over
+    1,004 days, with 681,280 missing or invalid readings (1.7%).
+  value: 39,800,000
+  salient: true
+  source: resources.md
+- id: F19
+  category: resource
+  kind: existing
+  text: The consortium has secured access to 500 indoor climate sensors across 15 already renovated residential
+    blocks logging temperature, relative humidity, and CO2 concentrations at 15-minute intervals; no pre-renovation
+    records exist.
+  value: '500'
+  salient: true
+  source: resources.md
+- id: F20
+  category: resource
+  kind: existing
+  text: No clinical partnerships, medical-research ethics approvals or health-study recruitment are in
+    place.
+  value: null
+  salient: true
+  source: resources.md
+- id: F21
+  category: team
+  kind: existing
+  text: The HITS core team includes 11 researchers and 2 technicians.
+  value: null
+  salient: true
+  source: resources.md
+- id: F22
+  category: team
+  kind: existing
+  text: The coordinator has successfully supervised 14 Ph.D. students to completion.
+  value: '14'
+  salient: true
+  source: cv_coordinator.md
+- id: F23
+  category: partner
+  kind: existing
+  text: VINE developed the proprietary ThermoNet-3D modelling software.
+  value: null
+  salient: true
+  source: consortium.md
+- id: F24
+  category: grant
+  kind: existing
+  text: The coordinator previously held key roles on the SECTOR-FLEX (DKK 14,200,000) and PredictiGrid
+    (DKK 8,500,000) projects.
+  value: DKK 14,200,000
+  salient: true
+  source: cv_coordinator.md
+own_publications:
+- key: hesselkilde2026
+  authors:
+  - Hesselkilde, T.
+  - Bjerregaard-Toft, L.
+  year: 2026
+  title: Thermodynamic evaluation of a 75,000 m3 pit thermal energy storage in a low-temperature district
+    heating network
+  venue: International Journal of Thermal Grid Engineering
+  doi: 10.99999/pb.nordic-dh-consortium.2026.1
+- key: skowronski2025
+  authors:
+  - Skowroński, M.
+  - Jastrzębski, B.
+  - Hesselkilde, T.
+  year: 2025
+  title: Hydraulic bottleneck identification in meshed district heating networks using ThermoNet-3D
+  venue: International Journal of Energy Systems Modelling
+  doi: 10.99999/pb.nordic-dh-consortium.2025.2
+- key: waldmeyer2024
+  authors:
+  - Waldmeyer, F.
+  - Hesselkilde, T.
+  - Terveskov-Lundholt, M.
+  year: 2024
+  title: Model predictive control for integrating solar thermal and data centre waste heat in seasonal
+    storage
+  venue: Journal of Control Engineering for Energy Systems
+  doi: 10.99999/pb.nordic-dh-consortium.2024.3
+- key: hesselkilde2023
+  authors:
+  - Hesselkilde, T.
+  - Terveskov-Lundholt, M.
+  - Kastelein, S.
+  year: 2023
+  title: Impact of 65°C forward temperatures on indoor thermal comfort in retrofitted social housing
+  venue: Velbrzyn Thermal Building Review
+  doi: 10.99999/pb.nordic-dh-consortium.2023.4
+- key: bjerregaardtoft2022
+  authors:
+  - Bjerregaard-Toft, L.
+  - Hesselkilde, T.
+  year: 2022
+  title: Quantifying seasonal heat losses in geomembrane-lined pit thermal energy storage systems
+  venue: International Journal of Thermal Storage Research
+  doi: 10.99999/pb.nordic-dh-consortium.2022.5
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY bddcaf38-d874-473a-8e15-76f05572993a

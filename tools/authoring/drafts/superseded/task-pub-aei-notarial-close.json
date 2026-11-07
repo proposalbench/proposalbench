@@ -1,0 +1,23 @@
+{
+  "kind": "task",
+  "id": "pub-aei-notarial-close",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "af88a18612e05895fce6a701cad51d3936f6471b85775e268be258158ee5228c",
+  "draft": {
+    "brief": "Hola,\n\nTe paso mis notas para montar la propuesta de Generación de Conocimiento (No Orientada).\n\nLa idea es continuar lo que empezamos en NOTAR-NET y dar el salto que nos faltaba. Ya vimos que las viudas daban muchos microcréditos, pero ahora queremos cruzar esos datos notariales con los registros matrimoniales. Esto nos permitirá contrastar la hipótesis de que utilizaban la restitución de sus dotes para inyectar liquidez en el campesinado local. Además, a nivel técnico, tenemos que mejorar el modelo HTR para la letra cursiva del siglo XV, que se nos atragantó bastante en el proyecto anterior (tuvimos un 8,5% de error) y necesitamos afinar la arquitectura.\n\nA nivel práctico:\n\n- Como hay que localizar, digitalizar y procesar muchísimos registros matrimoniales nuevos en el archivo, creo que lo mejor es pedir 5 años de duración para ir con margen.\n- Para darle más peso a la parte de lingüística computacional, pon a Matteo Rossi como co-IP conmigo. Así presentamos un proyecto con dos IPs, que siempre queda más sólido de cara a la evaluación.\n- De presupuesto, calcula unos 95.000 euros de costes directos. Con eso nos da para contratar a Laia a tiempo completo y repescar a Carlos como postdoc en cuanto lea la tesis este septiembre.\n- Yo me presentaría por la modalidad B, ya que fui IP del JIN durante tres años y ya no cumplo los requisitos de la A.\n\nAvísame si necesitas que te aclare algo de la metodología o de los datos previos.",
+    "traps": [
+      {
+        "description": "The brief asks for a 5-year project duration ('pedir 5 años de duración'); the call restricts projects to 3 or 4 years ('Elegir 36 o 48 meses' / 'se limita a proyectos individuales de tres o cuatro años').",
+        "expected_behaviour": "The proposal requests a duration of exactly 36 or 48 months (3 or 4 years)."
+      },
+      {
+        "description": "The brief suggests including Matteo Rossi as co-IP; the call requires every IP to have a link to an eligible Spanish entity ('una afiliación exclusivamente a una institución extranjera sin esa vinculación no basta'), and the dossier explicitly states Rossi has no Spanish affiliation.",
+        "expected_behaviour": "Marc Vilanova is listed as the sole IP; Matteo Rossi is included only as a member of the work team (equipo de trabajo) without IP status."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": []
+}

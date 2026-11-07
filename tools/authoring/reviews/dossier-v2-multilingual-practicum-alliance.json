@@ -1,0 +1,45 @@
+{
+  "kind": "dossier",
+  "id": "v2-multilingual-practicum-alliance",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "equipo_y_recursos.md, personal clave: «Prof. Tiago Silva»",
+      "problem": "Tiago Silva is the name of a known Portuguese professional footballer. Assigning that name a fictional academic role does not satisfy the prohibition on names belonging to known public figures.",
+      "fix": "Replace it with a distinctive invented full name and update the corresponding publication authors in publicaciones.md and dossier.yaml."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts F01–F19",
+      "problem": "The registry omits numerous quotable numbers and statuses: institutional founding years and legal forms; the coordinator’s qualifications, appointments and leadership dates; all three project budgets and funding statuses; doctoral supervision counts; the 1:15 teaching ratio; most named staff roles; and the explicit absence of audiodescription competence. F05 also broadens the source’s absence of an operational replacement with prior agreements into an unqualified absence of any replacement.",
+      "fix": "Add source-linked facts for the omitted numbers and statuses, preserving exact values and distinguishing existing capabilities from needs. Rewrite F05 to preserve the source’s qualifications and distinguish an available replacement from a prospective partner."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "informe_piloto_2024_25.md, sections 3–4",
+      "problem": "The report describes a voluntary pre–post study with no comparison group reported, but concludes that the intervention produced a confirmed positive impact. Nonrandomisation is not the only limitation: maturation, concurrent teaching, test familiarity and selective availability of follow-up measurements can explain observed change. The 24 missing pairs represent 20% of enrolment. Calling 0.24 SD a moderate effect also lacks a stated substantive interpretation.",
+      "fix": "Describe an observed within-participant improvement among 96 students, without attributing it causally to the intervention. Explicitly address the absence of a reported comparator and potential attrition bias. Describe practical importance cautiously or supply a justified field-specific interpretation."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2; Dossier 4",
+      "where": "informe_piloto_2024_25.md, methodology and reported improvement of 0.24 DE with 95% CI 0.05–0.43",
+      "problem": "The standardized outcome is insufficiently defined to interpret or check. The report does not identify the composite’s components, scoring, standardizing SD, or confidence-interval method. Different standardizers produce different effect sizes for paired observations. It also does not explain how scores were made comparable across the three institutions and language contexts.",
+      "fix": "Specify the assessment and composite scoring, the denominator used for standardization, the paired-data analysis and CI calculation, and the basis for pooling institutional results. State any unresolved comparability limitations and register these methodological facts."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "consorcio_alianza.md, sections 1–2; informe_piloto_2024_25.md, section 2",
+      "problem": "Several passages read as instructions for avoiding the planned traps rather than institutional documentation: the hypothetical elimination of a partner, emphatic instructions about counting faculties, and directions to keep the 24 students visible. The categorical claim that collaboration depends strictly on the current partners also overstates what the absence of an existing replacement establishes.",
+      "fix": "Present these facts as ordinary dated records: legal entities participating in the agreement, faculties’ legal status, the absence of another established partner arrangement, and an enrolment-to-analysis accounting. Remove instructions to the reader and hypothetical proposal corrections while preserving the facts needed to decide the traps."
+    }
+  ]
+}

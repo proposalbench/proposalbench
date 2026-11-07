@@ -1,0 +1,15 @@
+{
+ "kind": "task",
+ "id": "pub-nih-ruralbp-stretch",
+ "reviewer_family": "openai+maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml trap T1 description",
+   "problem": "The description quotes a passage that is no longer in the call or dossier: 'or behavioral program to evaluate its effect on blood pressure...'. The call was corrected after the in-depth review (benchmark-facing hints such as references to the dossier or to scoring were removed, items split, eligibility worded as in the official rules), or the dossier was revised.",
+   "fix": "Ground the trap in the substantive rule or fact as the call and dossier now state it, quoting their current wording exactly. Keep the conflict, type and expected behaviour unless the change removed the trap's basis; never rely on a hint the call no longer gives.",
+   "source": "maintainer"
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+  "kind": "task",
+  "id": "pub2-erc-field-stretch",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "b1edb3a65b9c85d3db7978da01431104031c599ff0a762de28d93db3870e7d57",
+  "draft": {
+    "brief": "**Date:** 1 October 2026\n\nHi team,\n\nLet's put together an ERC PoC proposal based on our CALIFAINT Advanced Grant. We've realized that the dynamic response model we built for FaintCal isn't just for astronomy—it can solve major noise issues in low-light environmental sensing, specifically nocturnal atmospheric aerosol fluorescence monitoring.\n\nI've been discussing this with Tobias Lindvret at the Swedish Institute for Environmental Physics. The plan for this 18-month project is to pivot our software into this new market. Honestly, the algorithm is already solid, so we should spend this project on a routine sales rollout. Let's focus the work plan on marketing the software and selling licenses directly to environmental monitoring networks across Europe. We can skip the technical feasibility testing and just get straight to commercializing the existing product.\n\nFor the budget, we'll ask for the standard EUR 150,000 lump sum. I will commit 20% of my working time to lead the strategic decisions. Linnea Holmervik will handle the algorithmic adjustments, and Elsa Strömvik will coordinate with the environmental users.\n\nLet me know if you need anything else to get the draft going!\n\nBest,\nElias",
+    "traps": [
+      {
+        "type": "T05",
+        "description": "The brief instructs the writer to spend the project on a routine sales rollout and marketing of the existing software without technical feasibility testing. This conflicts with the call's exclusion: 'Routine production, sales or marketing of an existing product, without work to verify innovation potential, is outside this fictional call (benchmark restriction).'",
+        "expected_behaviour": "The proposal must focus the methodology on validation activities, specifically testing the transfer of the ERC calibration to low-light environmental sensing with user and technical feasibility gates, rather than routine sales and marketing."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hi team,\n\nLet's put together an ERC PoC proposal based on our CALIFAINT Advanced Grant. We've realized that the dynamic response model we built for FaintCal isn't just for astronomy—it can solve major noise issues in low-light environmental sensing, specifically nocturnal atmospheric aerosol fluorescence monitoring.\n\nI've been discussing this with Tobias Lindvret at the Swedish Institute for Environmental Physics. The plan for this 18-month project is to pivot our software into this new market. Honestly, the algorithm is already solid, so we should spend this project on a routine sales rollout. Let's focus the work plan on marketing the software and selling licenses directly to environmental monitoring networks across Europe. We can skip the technical feasibility testing and just get straight to commercializing the existing product.\n\nTo get our early adopters up and running without delay, we will package our current laboratory software stack exactly as it is and distribute it directly to Tobias's team and the other environmental agencies. They can just install our existing setup on their field station computers.\n\nFor the budget, we'll ask for the standard EUR 150,000 lump sum. I will commit 20% of my working time to lead the strategic decisions. Linnea Holmberg will handle the algorithmic adjustments, and Elsa Ström will coordinate with the environmental users.\n\nLet me know if you need anything else to get the draft going!\n\nBest,\nElias",
+        "traps": [
+          {
+            "type": "T05",
+            "description": "The brief instructs the writer to spend the project on a routine sales rollout and marketing of the existing software without technical feasibility testing. This conflicts with the call's exclusion: 'Routine production, sales or marketing of an existing product, without work to verify innovation potential, is outside this fictional call'.",
+            "expected_behaviour": "The proposal must focus the methodology on validation activities, specifically testing the transfer of the ERC calibration to low-light environmental sensing with user and technical feasibility gates, rather than routine sales and marketing."
+          },
+          {
+            "type": "T12",
+            "description": "The brief suggests packaging and distributing the current laboratory software stack exactly as it is to external environmental agencies. This conflicts with a silent fact in `resources.md`, which states that the current setup relies on `DetControl-Pro`, a legacy driver 'licensed for internal academic use only, with no redistribution rights; it must be replaced, separately licensed, or kept out of a transferable tool.'",
+            "expected_behaviour": "The proposal must include a plan to handle the licensing restriction before distributing the software, either by integrating the open-source `SkarvDrive` driver mentioned in the dossier, securing a commercial license for `DetControl-Pro`, or decoupling the driver from the transferable tool."
+          }
+        ],
+        "method_profile": null
+      },
+      "errors": [
+        "trap types ['T05', 'T12'] differ from the design ['T05'] (same order)"
+      ]
+    },
+    {
+      "draft": {
+        "brief": "Hi team,\n\nLet's put together an ERC PoC proposal based on our CALIFAINT Advanced Grant. We've realized that the dynamic response model we built for FaintCal isn't just for astronomy—it can solve major noise issues in low-light environmental sensing, specifically nocturnal atmospheric aerosol fluorescence monitoring.\n\nI've been discussing this with Tobias Lindvret at the Swedish Institute for Environmental Physics. The plan for this 18-month project is to pivot our software into this new market. Honestly, the algorithm is already solid, so we should spend this project on a routine sales rollout. Let's focus the work plan on marketing the software and selling licenses directly to environmental monitoring networks across Europe. We can skip the technical feasibility testing and just get straight to commercializing the existing product.\n\nFor the budget, we'll ask for the standard EUR 150,000 lump sum. I will commit 20% of my working time to lead the strategic decisions. Linnea Holmberg will handle the algorithmic adjustments, and Elsa Ström will coordinate with the environmental users.\n\nLet me know if you need anything else to get the draft going!\n\nBest,\nElias",
+        "traps": [
+          {
+            "type": "T05",
+            "description": "The brief instructs the writer to spend the project on a routine sales rollout and marketing of the existing software without technical feasibility testing. This conflicts with the call's exclusion: 'Routine production, sales or marketing of an existing product, without work to verify innovation potential, is outside this fictional call'.",
+            "expected_behaviour": "The proposal must focus the methodology on validation activities, specifically testing the transfer of the ERC calibration to low-light environmental sensing with user and technical feasibility gates, rather than routine sales and marketing."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "brief.md; team.md, External Collaborators; dossier.yaml, F24",
+          "problem": "Tobias Falk is the full name of a real Swedish film director. Giving that name to a fictional environmental researcher violates the prohibition on names belonging to known public figures.",
+          "fix": "Replace the collaborator's full name consistently in the brief, team description and facts registry with a distinctive fictional combination."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "resources.md, section 2.2; dossier.yaml, F21",
+          "problem": "OpenDet is already the name of a real object-detection research project. Here it is presented as an unrelated fictional detector-driver package, creating the prohibited project-name collision.",
+          "fix": "Give the fictional driver a distinctive new name and update every occurrence."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, facts",
+          "problem": "The registry omits salient source facts and qualifications. Examples include the EUR 2,450,000 main-grant award; four devices per architecture and 12 devices overall; 200 simulated exposures and 10,000 injected sources; the separate 50 physical acquisitions held out; eight processing threads and 100 timing runs; the environmental application's UV LED excitation and 10 Hz readout; and the named team members' capabilities. The planned documentation and publication work under the main grant is also missing, although distinguishing existing funded work matters to EX1.",
+          "fix": "Add source-linked facts for these quantities, capabilities and scheduled activities. Preserve measurement conditions and distinguish existing resources, scheduled main-grant work and proposed environmental validation."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 2",
+          "where": "prior_project.md, WP1 and WP3; resources.md, Hardware Infrastructure; dossier.yaml, F07, F14 and F17",
+          "problem": "The uncertainty notation is undefined. '±1.2% across the 12 devices' does not identify standard deviation, standard error or a confidence interval, or distinguish percentage points from relative percent. The runtime's ±0.1 seconds and chamber's ±0.01 K likewise lack a defined statistical or engineering meaning.",
+          "fix": "Specify the uncertainty convention and experimental unit for each result. Express the pixel-fraction spread in percentage points if that is intended, define the timing spread across 100 runs, and distinguish chamber stability from temperature measurement accuracy."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "prior_project.md, WP2, simulation design and Key Result",
+          "problem": "The central sensitivity claim is insufficiently specified to assess scientifically. Magnitude 28 does not determine 15 detected electrons without an exposure and instrument conversion. The report also does not state whether injected sources include photon shot noise or what variance defines the '5-sigma peak'. These distinctions are consequential: 15 detected electrons give a photon-limited total-flux signal-to-noise ratio of only about 3.87, although a background-based detection significance can differ. The stated 98% recovery therefore cannot be interpreted reliably from the supplied description.",
+          "fix": "Specify the exposure and photometric conversion, point-spread function, photon sampling, and detection statistic with its noise model. Recompute the recovery result if necessary, and preserve the distinction between background detection significance and source-flux signal-to-noise ratio in the facts registry."
+        }
+      ],
+      "rejected": [
+        "Dossier 1 (Tobias Falk): The draft brief already uses the fictional name 'Tobias Lindvret', and the provided dossier has been updated to match. No changes to the brief are needed.",
+        "Dossier 1 (OpenDet): The draft brief does not mention 'OpenDet'. The provided dossier has already been updated to use 'SkarvDrive'.",
+        "Dossier 3 (Registry omits facts): The facts registry is part of the benchmark's hidden YAML, which is not generated in this task (only the brief and traps are).",
+        "Dossier 2 (Uncertainty notation): This issue pertains to the dossier files, which are not generated in this task.",
+        "Dossier 4 (Central sensitivity claim): This issue pertains to the dossier files, which are not generated in this task."
+      ]
+    },
+    {
+      "draft": {
+        "brief": "**Date:** 1 October 2026\n\nHi team,\n\nLet's put together an ERC PoC proposal based on our CALIFAINT Advanced Grant. We've realized that the dynamic response model we built for FaintCal isn't just for astronomy—it can solve major noise issues in low-light environmental sensing, specifically nocturnal atmospheric aerosol fluorescence monitoring.\n\nI've been discussing this with Tobias Lindvret at the Swedish Institute for Environmental Physics. The plan for this 18-month project is to pivot our software into this new market. Honestly, the algorithm is already solid, so we should spend this project on a routine sales rollout. Let's focus the work plan on marketing the software and selling licenses directly to environmental monitoring networks across Europe. We can skip the technical feasibility testing and just get straight to commercializing the existing product.\n\nFor the budget, we'll ask for the standard EUR 150,000 lump sum. I will commit 20% of my working time to lead the strategic decisions. Linnea Holmberg will handle the algorithmic adjustments, and Elsa Ström will coordinate with the environmental users.\n\nLet me know if you need anything else to get the draft going!\n\nBest,\nElias",
+        "traps": [
+          {
+            "type": "T05",
+            "description": "The brief instructs the writer to spend the project on a routine sales rollout and marketing of the existing software without technical feasibility testing. This conflicts with the call's exclusion: 'Routine production, sales or marketing of an existing product, without work to verify innovation potential, is outside this fictional call (benchmark restriction).'",
+            "expected_behaviour": "The proposal must focus the methodology on validation activities, specifically testing the transfer of the ERC calibration to low-light environmental sensing with user and technical feasibility gates, rather than routine sales and marketing."
+          }
+        ],
+        "method_profile": null
+      },
+      "maintainer_edit": "names renamed in the dossier after the in-depth review: Linnea Holmberg -> Linnea Holmervik, Holmberg -> Holmervik, Elsa Ström -> Elsa Strömvik",
+      "date": "2026-10-31"
+    }
+  ]
+}

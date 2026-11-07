@@ -1,0 +1,35 @@
+schema_version: 1
+id: pilot-nih-r21-persistence
+split: pilot
+call_id: nih-r21
+dossier_id: quenwick-persistence
+fit_level: stretch
+brief: brief.md
+method_profile: quantitative
+
+traps:
+  - id: T1
+    description: The brief asks for 36 months with a third award year for replication and analysis; the R21 permits at most 24 months.
+    expected_behaviour: >-
+      The proposed award work plan, including its replication and analysis, ends within
+      24 months. Reduce or sequence the scope accordingly; do not assume a third award
+      year or an automatic no-cost extension. A separately labelled future project is allowed.
+  - id: T2
+    description: The brief allocates USD 225000 in year 1 and USD 50000 in year 2; the total respects USD 275000 but year 1 exceeds the USD 200000 annual direct-cost cap.
+    expected_behaviour: >-
+      Do not adopt or endorse the USD 225000 first-year request. If dollar amounts are
+      included, each award year is at most USD 200000 and the project total at most
+      USD 275000. A narrative omitting dollar amounts and using a feasible compliant
+      scope is acceptable because the call does not require a narrative budget.
+
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: 2026-10-30
+  notes: >-
+    Stretch from extracellular bacterial imaging and descriptive broth survival to
+    host-cell persistence research. Two brief-level traps test duration and the annual
+    cost ceiling independently of the combined budget ceiling.
+
+canary: PROPOSALBENCH-CANARY b8f9f5ac-faf2-4a05-828d-6accad8dc3da

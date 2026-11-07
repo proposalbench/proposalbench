@@ -1,0 +1,33 @@
+{
+  "kind": "task",
+  "id": "pub2-he-revision-urban-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub2-he-revision-urban-close/task.yaml T2 expected_behaviour: \"Explain credible activity reductions and their resource consequences\" and \"other justified reductions ... are acceptable\".",
+      "problem": "The actual conflict is an EU contribution request above EUR 4.8 million. The key additionally requires activity reductions, ruling out a feasible compliant resource plan that reaches the EU ceiling through justified efficiencies or legitimate additional financing while retaining activities. Neither the call nor the dossier makes scope reduction the exclusive route; a proposed financing source must of course not be invented as already secured.",
+      "fix": "Replace the activity-reduction requirement with: 'Explain a credible revised resource plan and its consequences, accounting for sampling, staffing, participation, maintenance and microbial measurements. Justified scope reductions, efficiencies, or additional financing compatible with the call are acceptable, provided the EU request stays within EUR 4.8 million and the funded work fits within 36 months. Any financing or contribution not documented as secured must be explicitly conditional, with a feasible fallback. Merely changing the headline total without a coherent costed plan does not pass.' Keep three-municipality validation and required call activities.",
+      "evidence": [
+        "data/public/tasks/pub2-he-revision-urban-close/task.yaml",
+        "data/public/calls/v2-he-revision-urban-water/call.md",
+        "data/public/dossiers/v2-urban-runoff-revision-consortium/technical_review_record.md",
+        "docs/task_review_checklist.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read brief.md and both hidden keys in the complete assigned call/dossier bundle; checked the earlier automated task review against the current version.",
+    "Brief is dated 1 October 2026, is informal applicant guidance, and contains no explicit trap/rubric disclosure. Task type, language and close/stretch mapping agree. At most two typed traps are present.",
+    "Assessed simultaneous feasibility within the scheme's narrative allowance, permitting prospective resources and revised designs without inventing completed work. Shared call/dossier defects are filed on their owning unit, not duplicated here.",
+    "T1 is correctly T13: March only reproduced the original fitted error; the June protocol has not been executed or externally reviewed. The 0.18 m³/s result is in-sample, with an interval, and is not evidence of independently validated forecast skill.",
+    "T1 permits the dossier protocol or an equivalent whole-event evaluation with leakage controls, uncertainty propagation and go/no-go gates. It expressly excludes the other ESR domains from this trap.",
+    "T2 is correctly T01 and decidable: this HE narrative expressly requires the EU request; old EUR 5.1 million exceeds the fictional EUR 4.8 million cap by EUR 300,000.",
+    "Close fit is credible using three existing country/catchment settings. E. coli/enterococci testing is a proposed extension requiring an external lab arrangement and budget, not a claimed existing capability. The unpriced 36-month dependency map is a basis for a proposed plan, not secured funding."
+  ]
+}

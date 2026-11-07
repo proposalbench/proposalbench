@@ -1,0 +1,24 @@
+{
+  "kind": "task",
+  "id": "pub2-cerv-service-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "task.yaml, T1.expected_behaviour",
+      "problem": "The answer key prohibits identifiable publication of every existing archive story, even after obtaining new publication consent. Protocol version 3 does not impose that blanket prohibition: item 4 permits identifiable publication with separate advance written opt-in. Only the six withdrawn records have an explicit restriction against future external use. The expected behaviour therefore rejects a compliant alternative.",
+      "fix": "Accept a plan to seek separate, prospective, written, revocable publication consent for any of the 46 archive records outside the withdrawal restriction, without assuming that consent will be obtained. Require an alternative output if consent is refused and retain aggregate-only dissemination for the six withdrawn records."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T2.expected_behaviour",
+      "problem": "The expected repair is framed as retaining one or both existing foreign partners. The call requires eligible beneficiaries from two countries, but does not require either named foreign organisation. Recruiting another eligible foreign beneficiary is a feasible alternative, particularly given the brief's capacity concerns, and must not be rejected merely because that partner is new.",
+      "fix": "Explicitly accept a replacement eligible beneficiary from another CERV-eligible country, with its involvement described as planned until secured and with defined responsibilities. Preserve retaining the existing French or Portuguese partners as supported options, rather than an exhaustive list."
+    }
+  ]
+}

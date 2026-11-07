@@ -1,0 +1,74 @@
+{
+  "kind": "call",
+  "id": "v2-erc-poc-workflow-transfer",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "call.md: notice ('declared benchmark convention'); Purpose and eligibility ('outside the benchmark narrative', 'this benchmark fixes the planned duration'); Risk mitigation table ('excluded from the narrative limit under the retained 2026 layout convention'); Award criteria ('this is not a weighted arithmetic total'); Length contract ('counted sections', 'excluded through that section selection', 'zero tolerance', 'there is no required abstract in this deliverable', 'The conversion is a prose estimate'); Sources ('policy paraphrases, not an official funding notice')",
+      "problem": "The applicant-facing call does not read as funder text with a fictional-call notice. It explains how the benchmark counts and enforces length ('counted sections', 'section selection', 'zero tolerance'). It calls the proposal a 'benchmark narrative' and a 'deliverable'. It also carries authoring commentary on how the source documents were handled. These passages are the benchmark's scoring mechanics written into the call.",
+      "fix": "Put every adaptation in one fictional-call notice at the top, for example: 'In this fictional call the 10-page limit is applied as 5,000 words (idea 1,500, approach 3,000, PI 500), the risk mitigation table is not counted, the duration is fixed at 18 months, and routine production or marketing is excluded.' Rename 'Length contract' to 'Page and word limits' and write it as a funder would: 'Text beyond a section's limit will not be evaluated. Title and references are not counted.' Remove 'benchmark narrative', 'deliverable', 'section selection', 'zero tolerance', 'prose estimate', 'not a weighted arithmetic total' and 'policy paraphrases'. Where a restriction label is needed, write 'restriction of this fictional call', not 'benchmark'.",
+      "part": "template"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Purpose and eligibility ('state a credible commitment that, with any ongoing main-grant commitment, does not exceed 100%') vs ME5 in call.md and call.yaml",
+      "problem": "A narrative demand sits in the eligibility paragraph and is stricter than the mandatory element. ME5, in both files, asks only that the commitment be stated. The 'credible' and '≤100% combined' conditions appear only in the md eligibility text and are missing from call.yaml. These conditions are not labelled as a restriction of this fictional call. The WP citation in Sources does not support them either.",
+      "fix": "Delete the sentence from the eligibility paragraph. Change ME5 in both files to: 'State the PI's time commitment to the PoC as a percentage of working time and show that, together with any ongoing main-grant commitment, it does not exceed 100%.' Either cite the WP2027 passage for the 100% cap or label it '(restriction of this fictional call)'.",
+      "part": "template"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Scope / call.yaml SC1 'Develop a route to commercial or social use for the proposed innovation.'",
+      "problem": "Almost any PoC text satisfies this item, because a single sentence mentioning licensing or a spin-off counts as a 'route'. A reader cannot tell a concrete route from a gesture towards one. The item also overlaps with the approach section prompt ('exploitation route').",
+      "fix": "Make the item concrete and checkable: 'Name the intended route to use (e.g. licence to a named user segment, spin-out, open release with an identified adopting organisation, uptake by a named public body) and the steps towards it that are completed within the 18 months.' Use the same text in both files.",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md Exclusions / call.yaml EX1 'Do not request funding for work already scheduled and financed under the ERC main grant.'",
+      "problem": "The award is a fixed lump sum and budget_in_narrative is false, so the narrative contains no funding request to check. As worded, the exclusion cannot be checked against the requested narrative.",
+      "fix": "Reword in both files to: 'PoC activities must not duplicate work already planned and funded under the ERC main grant; the narrative distinguishes PoC tasks from main-grant tasks.'",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md Required narrative, 'Risk mitigation table' subsection; Length contract ('the separately headed Risk mitigation table is excluded')",
+      "problem": "The table is required (ME6) but has no size limit, so it is an uncounted container into which counted content can be moved. The sentence 'A reference list may follow' sits inside the risk-table subsection, which makes it unclear whether references belong to that section.",
+      "fix": "Add a bound labelled as a restriction of this fictional call (e.g. 'maximum 12 rows; cells limited to risk, likelihood, trigger, response, owner'). Move 'A reference list may follow' to the page and word limits paragraph.",
+      "part": "template"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md Sources, second URL; call.yaml source_note ('accessible applicant guide is labelled 2026')",
+      "problem": "The 3/6/1 page split and the risk-table exemption rest on the applicant guide. That guide is cited with no version, year, section or page, while the WP citation gives section and page. The md also does not say that a 2027 form was unavailable when the sources were checked, so the provenance of the template sections cannot be traced.",
+      "fix": "Cite the guide's version and work-programme year, plus the section and pages that give the 3/6/1 allocation and the risk-table treatment. State in the fictional-call notice that the WP2026 form layout is used.",
+      "part": "template"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 3",
+      "where": "call.yaml title 'Proof of Concept: innovation arising from ERC research, window B' vs call.md heading '# PB2-ERC-POC-02'",
+      "problem": "call.md has no title, and the yaml title refers to a 'window B' that the md never mentions. A single 15 September deadline also matches the last annual PoC cut-off, not a second window.",
+      "fix": "Add the title to call.md. Either drop 'window B' or state the window structure in call.md (e.g. 'third cut-off of the fictional 2027 PoC call').",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 3",
+      "where": "call.yaml eligibility.consortium.notes vs call.md Purpose and eligibility",
+      "problem": "Several eligibility conditions appear only in call.md: the main grant must be ongoing or end on or after 1 January 2026, the per-grant PoC caps (3 / 6 for Synergy), one proposal per Work Programme, the research-integrity bar, and the Gender Equality Plan requirement. The yaml therefore does not mirror the md eligibility rules.",
+      "fix": "Add these conditions to call.yaml eligibility notes, worded as in call.md.",
+      "part": "template"
+    }
+  ]
+}

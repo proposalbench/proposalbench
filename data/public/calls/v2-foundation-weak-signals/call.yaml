@@ -1,0 +1,122 @@
+schema_version: 1
+id: v2-foundation-weak-signals
+scheme: foundation
+language: en
+title: Recovering weak signals from incomplete observations
+topic_code: PB2-FOUNDATION-01
+proposal_type: concept_note
+length_contract:
+  max_words: 1500
+  enforcement: inadmissible
+  tolerance: 0.0
+  exempt:
+  - title
+  - references
+  page_limit: 3
+  words_per_page: 500
+  source_note: |
+    Authored 2026-10-31. No external funder source: all foundation conditions are invented.
+    A two-to-three-page concept note, maximum 3 pages x 500 words/page = 1500 words.
+    The two-page length is guidance, not a minimum. Original source: tools/authoring/design_v2.md.
+    Title/references exempt; tables/captions count. Strict inadmissible enforcement is fictional.
+required_sections:
+- id: problem
+  title: Problem
+- id: aims
+  title: Aims
+- id: approach
+  title: Approach
+- id: team
+  title: Team
+- id: budget
+  title: Budget outline
+- id: impact
+  title: Expected impact
+expected_outcomes:
+- id: EO1
+  text: Researchers can better distinguish weak signals from noise and artefacts introduced by missing
+    observations, with clearer grounds for accepting or rejecting an interpretation.
+- id: EO2
+  text: Users of incomplete scientific or cultural records understand which conclusions remain credible
+    under uncertainty and which require additional evidence.
+- id: EO3
+  text: Teams and prospective research partners can make better-supported decisions about further observation,
+    methodological development or discontinuing an unpromising approach.
+scope:
+- id: SC1
+  text: Characterise the observation process and the mechanism producing missingness, identifying how
+    each could obscure the signal or generate a misleading pattern.
+- id: SC2
+  text: Develop or adapt a recovery method for a defined signal and source of incomplete observations.
+- id: SC3
+  text: Evaluate the proposed method against a relevant alternative using an appropriate theoretical test,
+    simulation, controlled omission or independent evidence.
+- id: SC4
+  text: Assess how uncertainty in noise, missingness and modelling assumptions changes the interpretation
+    of recovered signals.
+- id: SC5
+  text: Identify the additional evidence or methodological change that would most usefully inform a subsequent
+    research decision.
+exclusions:
+- id: EX1
+  text: Routine service delivery without a research question is outside this fictional call.
+- id: EX2
+  text: Purchase of equipment costing more than EUR 20,000 per item is excluded from this fictional call.
+- id: EX3
+  text: Expenditure unrelated to the proposed inquiry is outside this fictional call.
+- id: EX4
+  text: Methods evaluated only on complete observations, without investigating the consequences of missing
+    evidence.
+- id: EX5
+  text: Restoration undertaken solely for aesthetic enhancement or presentation quality, without evaluating
+    whether recovered features are supported by the observations.
+- id: EX6
+  text: Reconstruction that treats inferred cultural content or scientific measurements as authenticated
+    observations without retaining their inferred status and uncertainty.
+mandatory_elements:
+- id: ME1
+  text: For each aim, identify the evidence or argument that will be used to assess it.
+- id: ME2
+  text: Provide a budget outline linking the main cost categories of the requested foundation grant to
+    the proposed activities.
+- id: ME3
+  text: Specify the evidence-based criterion for deciding, at the end of the funded project, whether to
+    continue, redirect or stop the research.
+- id: ME4
+  text: Assign the proposed research tasks to team members with relevant capabilities.
+- id: ME5
+  text: State a falsifiable central question and identify a result or observation that would count against
+    the proposed explanation or method.
+- id: ME6
+  text: Explain initial feasibility using available evidence or reasoned methodological grounds, and distinguish
+    demonstrated capability from assumptions still to be tested.
+- id: ME7
+  text: Identify the principal uncertainty, how it will be assessed, and any circumstances in which the
+    signal would remain indistinguishable from noise or missingness artefacts.
+- id: ME8
+  text: Provide an indicative sequence of activities and decision points, showing when feasibility and
+    interpretation will be assessed.
+- id: ME9
+  text: For each data source, archive, instrument or collaboration on which the project depends, state
+    whether access is confirmed, requested or prospective.
+- id: ME10
+  text: For a doctoral lead, explain the responsible faculty sponsor's oversight role at the established
+    host and state whether that responsibility has been agreed; the named supervisor may fulfil this role.
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 25000
+  max_budget: 100000
+  duration_months_min: 12
+  duration_months_max: 24
+  consortium:
+    min_entities: 1
+    min_countries: 1
+    notes: 'Invented: nonprofit research or higher-education host in any country; individual or team lead,
+      any career stage, including doctoral researchers with named supervision.'
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY e37d82e8-cb43-4ac6-a4a9-8c1e1785250a

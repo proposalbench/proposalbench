@@ -1,0 +1,285 @@
+schema_version: 1
+id: v2-sensor-security-career-pi
+language: en
+applicant_type: individual
+career_stage: early_career
+disciplines:
+- computer security
+- robotics
+- statistical inference
+method_profile: quantitative
+country: US
+files:
+- path: cv_pi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources_team.md
+  role: resources
+- path: teaching_record.md
+  role: other
+facts:
+- id: F01
+  category: education
+  kind: existing
+  text: Tessa Maren Halwick received her PhD in Computer Science from Dunmere Crest University in May
+    2021, after an MS in 2017 and BS in 2015.
+  value: May 2021
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: position
+  kind: existing
+  text: Following her June 2021–August 2023 postdoctoral appointment at Dunmere Crest University, Halwick
+    became a full-time tenure-track assistant professor at Alderquay University on 1 September 2023 and
+    remains untenured, with 45% research, 40% teaching, and 15% service duties.
+  value: 1 September 2023
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: grant
+  kind: existing
+  text: Halwick's sole NSF CAREER proposal was submitted in July 2025 and declined in March 2026; she
+    has no CAREER award, no prior NSF support as PI or co-PI, no active externally sponsored award, and
+    no pending proposal as of 30 September 2026.
+  value: July 2025
+  salient: true
+  source: cv_pi.md
+- id: F04
+  category: grant
+  kind: existing
+  text: Halwick was sole PI of the closed $78,000 institutional Faculty Inquiry Fund award AQU-FIF-24-018,
+    running from 1 January 2024 to 31 December 2025, with its report accepted on 20 February 2026.
+  value: $78,000
+  salient: true
+  source: cv_pi.md
+- id: F05
+  category: resource
+  kind: existing
+  text: The separate departmental startup allocation totals $150,000, with $58,000 spent and $92,000 unspent
+    and unencumbered as of 30 September 2026, available through 31 August 2027.
+  value: $92,000
+  salient: true
+  source: cv_pi.md
+- id: F06
+  category: other
+  kind: existing
+  text: Halwick's methods include probabilistic sensor modeling, robust estimation, fault injection, paired
+    replay, and bootstrap analysis; her completed research training centers on statistical estimation,
+    experimental computer security, and robot sensing.
+  value: statistical estimation, experimental computer security, and robot sensing
+  salient: true
+  source: cv_pi.md
+- id: F07
+  category: team
+  kind: existing
+  text: Halwick currently advises two doctoral students and one master's student and has zero doctoral
+    completions as primary adviser.
+  value: 'Primary-adviser doctoral completions: 0.'
+  salient: true
+  source: cv_pi.md
+- id: F08
+  category: result
+  kind: existing
+  text: The 2025 collection contains 72 source trajectories from six robots, comprising 12 development
+    and 60 held-out evaluation trajectories, with two development and ten evaluation trajectories per
+    robot collected one robot at a time.
+  value: '60'
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: The evaluation assigned 20 trajectories each to contiguous observation dropout, persistent additive
+    position bias, and delayed observations with original timestamps, with all scripted fault assignments
+    frozen before execution.
+  value: '20'
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: Across 60 evaluation trajectories, the median of trajectory-level median horizontal position errors
+    fell from 0.50 m to 0.34 m, a difference between medians of 0.16 m or 32% relative to baseline.
+  value: 0.34 m
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: The error reduction had a bootstrap 95% confidence interval of 0.09 to 0.23 m from 10,000 paired
+    resamples within robot, conditional on the tested robots, room, fault assignments, and analysis procedure.
+  value: 0.09 to 0.23 m
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: other
+  kind: existing
+  text: The study used single-robot offline replay in one room, was not powered to rank the three fault
+    conditions, and observed occasional rejection of valid measurements after sharp turns without estimating
+    an event frequency.
+  value: single-robot, offline replay evaluation in one room
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: resource
+  kind: existing
+  text: Version 1.0 of the Halwick Indoor Replay Collection was deposited on 28 February 2026 with 72
+    source trajectories, manifests, reference streams, CC BY 4.0 data, and MIT-licensed code; Ravi Nolan
+    Keswick independently reproduced the primary summaries from the frozen archive before report acceptance.
+  value: 28 February 2026
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: publication
+  kind: existing
+  text: Halwick has four published peer-reviewed articles dated November 2021, June 2023, December 2025,
+    and August 2026, with no additional manuscript under review; the 2025 article reports the completed
+    evaluation and the 2026 article reanalyzes its archive.
+  value: four
+  salient: true
+  source: publications.md
+- id: F15
+  category: publication
+  kind: existing
+  text: For the August 2026 article, mathematics colleague Jonah Emrys Pelloran contributed conditional-probability
+    formulation and calibration critique, while national-laboratory researcher Nadia Celene Braskett reviewed
+    fault taxonomy and security terminology; the article records no external funding or use of Calderfen
+    data, systems, or facilities.
+  value: No external funding; no Calderfen data, systems or facilities were used.
+  salient: true
+  source: publications.md
+- id: F16
+  category: resource
+  kind: existing
+  text: Halwick has an existing 96 m² indoor laboratory allocation under a memorandum signed by the dean
+    and department chair on 18 August 2023 that remains in force.
+  value: 96 m²
+  salient: true
+  source: resources_team.md
+- id: F17
+  category: resource
+  kind: existing
+  text: The laboratory has six operational university-owned bench robots, one optical reference system,
+    one workstation, and institutional storage; the completed collection protocol uses one robot at a
+    time, and simultaneous multi-robot setup validation remains incomplete.
+  value: six
+  salient: true
+  source: resources_team.md
+- id: F18
+  category: team
+  kind: existing
+  text: The group comprises Halwick at 1.00 appointment FTE, doctoral students Keswick and Corvenay on
+    0.50 FTE departmental teaching assistantships with stipend and tuition support for 2026–2027, self-funded
+    master's student Ternell without a paid appointment, and Farndale providing 0.20 FTE departmental
+    technical support, with no other paid positions in the group.
+  value: '0.20'
+  salient: true
+  source: resources_team.md
+- id: F19
+  category: other
+  kind: existing
+  text: Current student research concerns paired replay reproducibility under timestamp-handling changes
+    for Keswick, selection bias in residual calibration after screening for Corvenay, and coordinate-frame
+    and manifest validation for Ternell, with all three investigations in progress and no completed thesis
+    result recorded.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F20
+  category: partner
+  kind: existing
+  text: Pelloran's collaboration comprises manuscript discussions and statistical formulation and interpretation
+    for the August 2026 article, with 0.00 FTE assigned laboratory effort; Braskett contributed fault-taxonomy
+    and terminology review to that article.
+  value: 'Assigned laboratory effort: 0.00 FTE.'
+  salient: true
+  source: resources_team.md
+- id: F21
+  category: other
+  kind: existing
+  text: Halwick taught 52 students across the completed fall 2024 and fall 2025 laboratory offerings,
+    comprising 24 and 28 students respectively; the fall 2026 offering began on 24 August 2026 with 26
+    students, entry assessments administered, consent decisions sealed until final grades, and research
+    analysis not yet begun.
+  value: '26'
+  salient: true
+  source: teaching_record.md
+- id: F22
+  category: result
+  kind: existing
+  text: The completed-course learning analysis used paired assessments from 44 consenting students, comprising
+    20 from 2024 and 24 from 2025 with eight enrolled students excluded, and found a mean gain of 2.1
+    points on a 12-point rubric with bootstrap 95% confidence interval 1.4 to 2.8 points using paired
+    resampling within offering.
+  value: 2.1 points
+  salient: true
+  source: teaching_record.md
+- id: F23
+  category: other
+  kind: existing
+  text: Institutional determination AQU-ED-2024-017 dated 12 August 2024 covers the specified educational
+    assessment analysis and repeated course offerings using its assessment and consent procedures, with
+    voluntary participation and consent concealed from the instructor until final grades, and does not
+    authorize unrelated human-participant studies.
+  value: AQU-ED-2024-017
+  salient: true
+  source: teaching_record.md
+- id: F24
+  category: other
+  kind: existing
+  text: Learning-assessment limitations include no randomized comparison group, uncontrolled selective
+    consent, possible effects of other instruction, practice and maturation, scoring uncertainty, and
+    no retention assessment or external transfer task.
+  value: No retention assessment or external transfer task was administered.
+  salient: true
+  source: teaching_record.md
+- id: F25
+  category: other
+  kind: existing
+  text: The April 2025 public robot demonstration showed visitors a robot following an indoor route and
+    a display of its estimated position; the event record consists of the route script and display materials.
+  value: April 2025
+  salient: true
+  source: teaching_record.md
+own_publications:
+- key: halwick2021screening
+  authors:
+  - Halwick, T. M.
+  - Westrall, L. C.
+  year: 2021
+  title: Residual screening under structured sensor corruption.
+  venue: Journal of Sensor Integrity and Estimation
+  doi: 10.99999/pb.v2-sensor-security-career-pi.2021.1
+- key: halwick2023replay
+  authors:
+  - Halwick, T. M.
+  - Westrall, L. C.
+  year: 2023
+  title: Paired replay designs for comparing localization filters under observation faults.
+  venue: Transactions on Experimental Robot Security
+  doi: 10.99999/pb.v2-sensor-security-career-pi.2023.1
+- key: halwick2025localization
+  authors:
+  - Halwick, T. M.
+  year: 2025
+  title: Trajectory-level evaluation of residual screening for indoor robot localization.
+  venue: Journal of Reproducible Autonomous Systems Experiments
+  doi: 10.99999/pb.v2-sensor-security-career-pi.2025.1
+- key: halwick2026calibration
+  authors:
+  - Halwick, T. M.
+  - Pelloran, J. E.
+  - Braskett, N. C.
+  year: 2026
+  title: Residual calibration across scripted sensor-fault regimes.
+  venue: Annals of Computational Fault Analysis
+  doi: 10.99999/pb.v2-sensor-security-career-pi.2026.1
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 5850742f-87f1-4637-a837-856c9fdf5e68

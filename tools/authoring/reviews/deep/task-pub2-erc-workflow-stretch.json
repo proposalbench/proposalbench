@@ -1,0 +1,33 @@
+{
+  "kind": "task",
+  "id": "pub2-erc-workflow-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub2-erc-workflow-stretch/task.yaml T1.expected_behaviour: 'The readers are described as research prototypes, and any readiness level stated for them does not exceed TRL 4.'",
+      "problem": "The unconditional ceiling also forbids a clearly labelled future project target above TRL 4. The dossier establishes current group-assessed maturity, not the highest maturity a PoC can legitimately seek. A proposal can accurately start at TRL 4 and conditionally aim at TRL 5 after relevant-environment validation without inventing an existing result.",
+      "fix": "Replace that sentence with: 'Describe the readers' demonstrated starting maturity as laboratory research prototypes, group-assessed at TRL 4; do not claim that a higher level has already been achieved. A higher end-of-project readiness target is acceptable when explicitly prospective, supported by planned validation and conditional on its results.' Keep the no-existing-service/no-paying-clients requirements and acceptance of prospective alternative exploitation routes.",
+      "evidence": [
+        "data/public/tasks/pub2-erc-workflow-stretch/task.yaml",
+        "data/public/dossiers/v2-chemical-sensing-erc-pi/resources_ip_permissions.md",
+        "data/public/dossiers/v2-chemical-sensing-erc-pi/calisorb_summary_report.md",
+        "tools/authoring/design_v2.md",
+        "docs/task_review_checklist.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Task 2–7: English applicant notes dated 1 October 2026; full is the schema default and matches the call; at most two traps; no T13/resubmission material is applicable. Prior automated reviews were context only.",
+    "Read both traps and all linked materials. T07 is supported by no established unit/clients/contracts/prices/accreditation/assigned staff and a Rectorate request for a cost/market assessment. Workshop utilities are contacts, not paying users. The key correctly allows licence, service or spin-off routes.",
+    "T14 rests on supplied evidence, not a test of external law: LP-OA-07 is for in-vitro water assays, the group holds no animal-experiment authorisation, and no fish housing or toxicology/histopathology expertise is documented.",
+    "The T14 remedy now accepts omission or a genuinely prospective authorisation/facility/expertise route with a contingency; it does not impose an impossible completed authorisation. The core in-vitro option is feasible in 18 months and avoids relying on uncertain animal approvals.",
+    "Stretch from laboratory optical chemistry to a proposed calibration service is bridgeable with planned market/operational expertise, pilot-site recruitment and service economics. No operating service or secured clients need be invented.",
+    "EUR150,000/18 months, PI effort within the combined commitment cap, 5000 counted words and a separate 500-word risk table allow both traps and all mandatory elements to be handled. Patent rights can remain uncertain. Shared call/dossier defects are filed at source. Official scheme: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf."
+  ]
+}

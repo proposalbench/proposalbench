@@ -1,0 +1,51 @@
+id: rio-34564
+title: Ecosystem responses to exotic earthworm invasion in northern North American forests
+authors:
+- Nico Eisenhauer
+- Olga Ferlian
+- Dylan Craven
+- Jes Hines
+- Malte Jochum
+year: 2019
+funder: European Research Council (ERC)
+scheme: ERC Starting Grant / Horizon 2020, grant 677232 (ECOWORM)
+funded: true
+funded_source:
+  url: https://riojournal.com/article/34564/download/xml/
+  evidence: JATS acknowledgements acknowledge ERC funding under Horizon 2020, grant agreement 677232;
+    CORDIS project 677232 confirms ERC-STG / ERC-2015-STG.
+  corroborating_url: https://cordis.europa.eu/project/id/677232
+language: en
+field: ecology / ecosystem functioning
+source_url: https://riojournal.com/article/34564/
+doi: 10.3897/rio.5.e34564
+licence: CC-BY-4.0
+licence_evidence:
+  url: https://riojournal.com/article/34564/download/xml/
+  location: front/article-meta/permissions/license/@xlink:href
+  value: http://creativecommons.org/licenses/by/4.0/
+  statement: This is an open access article distributed under the terms of the Creative Commons Attribution
+    License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium,
+    provided the original author and source are credited.
+retrieved: '2026-10-30'
+raw_path: seeds_raw/anchors/rio-34564.xml
+raw_sha256: d89aa3a7081f193a961c8b5a7909a413a5625e67058a5d6b43b3b7dfbe309816
+article_type: Grant Proposal
+source_reference_count: 88
+conversion_notes:
+- Converted publisher JATS XML to Markdown; layout removed. Front-matter affiliations, correspondence/email,
+  ORCID, licence and publication-history boilerplate omitted; published authors retained in metadata.
+- Scientific narrative, source spelling, citations and reference metadata are not corrected. JATS structured
+  references rendered in source order, one paragraph per entry; punctuation supplied between metadata
+  fields, identical DOI URL repetitions suppressed.
+- Figures retained as captions; tables rendered as Markdown where encoded as JATS tables. Floats and non-reference
+  back matter precede the final References heading. Supplementary files are outside this published narrative
+  snapshot.
+- Exact duplicated publisher back-note sections emitted once. Bold-only source paragraphs promoted to
+  subheadings. Zero-width spaces and discretionary soft hyphens removed.
+sha256: 80e2bdf104e733d5a2b4ba8fecea221a9c6f4d9f2df5229e304f5ccd2a1ce3f4
+words: 7638
+reference_count: 88
+privacy_review: Published scholarly names and institutional affiliations retained; correspondence, email,
+  ORCID and front-matter contact blocks omitted. Retained narrative reviewed for contact identifiers,
+  applicant identifiers, private biographical and participant-level personal data; none retained.

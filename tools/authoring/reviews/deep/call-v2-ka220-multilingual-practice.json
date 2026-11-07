@@ -1,0 +1,18 @@
+{
+  "kind": "call",
+  "id": "v2-ka220-multilingual-practice",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Call 1: checked consortium minimum, coordinator establishment, ECHE, additional non-associated partners, lump sums, duration, co-financing, management allocation, subcontracting and award thresholds against the 2026 Cooperation Partnerships guide: https://erasmus-plus.ec.europa.eu/programme-guide/part-b/key-action-2/cooperation-partnerships",
+    "Call 1: narrative headings checked against the 2026 KA220-HED form; its 17 printed template pages are not an application page limit. The call explicitly labels the 6,000-word allowance and September 2027 deadline as invented: https://erasmus-plus.ec.europa.eu/sites/default/files/2025-11/Call%202026%20Cooperation%20partnerships%20in%20higher%20education%20%28KA220-HED%29_watermark.pdf",
+    "Call 3: programmatic whitespace-normalised comparison found every EO/SC/EX/ME text in call.yaml in call.md; also compared budget, duration, section list and length contract.",
+    "Calls 2, 4, 5, 6: topic-specific requirements are observable in the requested narrative, higher-education teaching cooperation is in scope, PB2 identifier is fictional, and no scoring or hidden-trap instructions appear. Six thousand words permits a substantive full proposal.",
+    "Temporal basis: these calls explicitly model the 2026 scheme. No claim of verified 2027 guide rules is made; future deadlines are fictional. Source verification dates are authoring provenance under Call 1.",
+    "Topic-specific review: course-level multilingual adaptation, assessment, staff preparation and curriculum uptake form a plausible KA220-HED intervention. Excluding translation-only and unrelated performance benchmarking is an explicitly fictional topic choice."
+  ]
+}

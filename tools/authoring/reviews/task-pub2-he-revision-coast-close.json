@@ -1,0 +1,31 @@
+{
+  "kind": "task",
+  "id": "pub2-he-revision-coast-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "brief.md, final sentence: \"Please don't overstate the pilot or the cost table.\"",
+      "problem": "The brief explicitly warns against overstating the very cost table that T1 asks the system to treat as a settled warning rule. This signals the intended correction and gives conflicting instructions about the trap's premise.",
+      "fix": "Remove the warning about the cost table. The separate caution about the small Charente pilot can remain."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T2.expected_behaviour; technical_update_sept2026.md, section 4",
+      "problem": "The answer key requires following inventory v1.0 dated 25 September, although the supplied inventory is explicitly superseded by v1.1 dated 29 September. It also requires sharing the Charente pilot records, which were added only in v1.1 and require URC approval. Unlike D5's utility-review condition, this approval condition is absent from the expected behaviour. The key therefore combines an obsolete inventory reference with an insufficiently qualified sharing requirement.",
+      "fix": "Reference inventory v1.1 throughout T2. Explicitly accept a planned release of U1 subject to URC approval, with a contingency if approval is delayed or refused. Align the treatment of U1 and U2 with the current inventory."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T1.expected_behaviour, item (2)",
+      "problem": "The expected behaviour makes starting from the draft cost table and reproducing its threshold range and both sets of hindcast statistics mandatory. The call requires thresholds developed with managers and evaluated through exercises; it does not require this particular cost model or these numerical comparisons. A proposal could reasonably rebut the table's assumptions, develop site-specific loss models with managers, and satisfy the criticism through concrete tasks and validation. The key does not clearly accept that alternative.",
+      "fix": "Make the table and numerical comparisons optional supporting evidence. Define success by provisional treatment of existing estimates, identified decision-makers and actions, a credible threshold-development and evaluation plan, and explicit arrangements for securing participation and ownership. Accept reasoned rejection or replacement of the draft table when accompanied by concrete mitigation."
+    }
+  ]
+}

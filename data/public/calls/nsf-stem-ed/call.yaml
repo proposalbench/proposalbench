@@ -1,0 +1,133 @@
+schema_version: 1
+id: nsf-stem-ed
+scheme: nsf
+language: en
+title: Mathematical Reasoning and Equitable Participation in Grades 6–12 STEM Learning
+topic_code: PB-NSF-27-512
+proposal_type: full
+length_contract:
+  max_words: 9600
+  enforcement: inadmissible
+  tolerance: 0.0
+  exempt:
+  - references
+  - title
+  page_limit: 16
+  words_per_page: 600
+  source_note: |-
+    Verified 2026-10-31: current PAPPG is NSF 24-1, with Supplements 1 and 2.
+    Chapter II.D.2.b gives Project Summary 1 page; II.D.2.d gives Project Description 15
+    pages, including up to 5 pages of applicable Results from Prior NSF Support. The
+    16-page total is only the sum of non-transferable allowances. Benchmark conversion:
+    600 words/page gives Summary 600 words and Description 9,000 words, total 9,600.
+    The prior-support subsection is limited to 3,000 of the Description's words.
+    US Letter and PAPPG-compliant fonts/margins permit a practical estimate of 50 prose
+    lines averaging 12 words, leaving room for headings; this is not an NSF word rule.
+    Tables and captions count; title and References Cited do not. Either main-section
+    limit or the combined limit is binding, with zero tolerance and inadmissible enforcement.
+    Sources: https://www.nsf.gov/policies/pappg; https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation;
+    https://www.nsf.gov/policies/document/pappg24-1-supplement-1;
+    https://www.nsf.gov/policies/document/pappg24-1-supplement-2.
+  counted_sections:
+  - summary
+  - description
+  per_section_max_words:
+    summary: 600
+    description: 9000
+    prior_support: 3000
+required_sections:
+- id: summary
+  title: Project Summary
+- id: description
+  title: Project Description
+- id: prior_support
+  title: Results from Prior NSF Support
+  parent: description
+  core: false
+expected_outcomes:
+- id: EO1
+  text: Learning researchers gain stronger explanations of how instructional interactions and representations
+    influence students’ mathematical reasoning and transfer across STEM contexts.
+- id: EO2
+  text: Educators and curriculum designers gain evidence about the conditions under which learning environments
+    support sustained participation and conceptual understanding among students with differing educational
+    opportunities.
+- id: EO3
+  text: Researchers and education partners can distinguish broadly applicable findings from findings that
+    depend on particular learners, instructional settings or implementation conditions.
+- id: EO4
+  text: The research community gains usable measures, documented methods and findings that support replication
+    and further investigation while protecting student privacy.
+scope:
+- id: SC1
+  text: Develop a theoretical account linking specified features of a learning environment to mathematical
+    reasoning, participation or transfer across STEM contexts.
+- id: SC2
+  text: Investigate learning processes in grades 6–12 through a rigorous quantitative, qualitative or
+    mixed-methods design appropriate to the research questions.
+- id: SC3
+  text: Assess conceptual understanding or transfer using measures whose interpretation is justified for
+    the participating learners and settings.
+- id: SC4
+  text: Examine how access to learning opportunities and features of the environment contribute to differences
+    in participation or learning.
+- id: SC5
+  text: Analyse contextual and implementation evidence to establish where the proposed explanations apply
+    and where they require qualification.
+- id: SC6
+  text: Produce documented research materials and findings that enable subsequent inquiry, with access
+    arrangements appropriate to consent, confidentiality and permitted reuse.
+exclusions:
+- id: EX1
+  text: The Project Description contains no URLs and no appendices (PAPPG 24-1); web addresses in the
+    References Cited list are allowed.
+- id: EX2
+  text: Curriculum development, teacher professional development or service delivery whose principal purpose
+    is implementation without an accompanying fundamental research question about learning.
+- id: EX3
+  text: Technology development or product evaluation focused solely on usability, adoption or commercial
+    performance.
+- id: EX4
+  text: Studies confined to postsecondary education, adult workforce training or grades below grade 6.
+- id: EX5
+  text: Studies limited to achievement comparisons without investigating learning processes or features
+    of the learning environment.
+mandatory_elements:
+- id: ME1
+  text: Project Summary must contain distinct Overview, Intellectual Merit and Broader Impacts headings
+    with substantive text.
+- id: ME2
+  text: Project Description must include its own separate section headed exactly Broader Impacts, with
+    activities and a means of documenting their outputs.
+- id: ME3
+  text: Where any PI or co-PI has current NSF funding or an NSF award ending within the five years before
+    submission, include Results from Prior NSF Support with award details and results; report the most
+    closely related qualifying award for each such investigator.
+- id: ME4
+  text: Identify the focal grades, STEM content, learning environment and proposed explanatory mechanism;
+    explain how the research can refine or challenge existing theory.
+- id: ME5
+  text: Justify participant and setting selection, measures and analysis. Address clustering, attrition,
+    statistical power or qualitative evidentiary adequacy as applicable, and distinguish causal claims
+    from descriptive or interpretive claims.
+- id: ME6
+  text: Explain how equity informs the research questions, recruitment, measurement and interpretation.
+    Justify any group comparisons and avoid treating group membership itself as an explanation of learning
+    differences.
+- id: ME7
+  text: Specify evidence that would support, qualify or contradict the proposed explanation, and describe
+    how alternative explanations will be examined.
+eligibility:
+  budget_in_narrative: false
+  currency: USD
+  max_budget: 1500000
+  duration_months_max: 48
+  consortium:
+    notes: The lead must be a US institution of higher education or a US nonprofit research organisation.
+      This is an invented restriction for this solicitation. A multi-organisation consortium is not mandatory.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 704c1adb-c272-40af-a200-259543a38992

@@ -1,0 +1,29 @@
+{
+ "kind": "task",
+ "id": "pub-nsf-ailearning-close",
+ "reviewer_family": "openai+maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 6; Task 2",
+   "where": "data/public/tasks/pub-nsf-ailearning-close/task.yaml T2 expected_behaviour: “a new IRB protocol covering minor participants will need to be secured, notes that co-PI Narayanan holds active IRB protocols ... and describes the plan and timeline”.",
+   "problem": "The adult-only LU-2024-0087 restriction is explicit and the T14 premise is sound, but the answer key mandates one administrative route (a new protocol) and mentioning one collaborator’s protocols. The supplied records do not rule out an approved amendment/extension, appropriate coverage under an amended collaborator protocol, or another documented institutional route. The key can fail a fully feasible compliant design simply because it does not request a brand-new protocol or repeat an unnecessary dossier fact.",
+   "fix": "Replace T2 expected_behaviour with: “The proposal does not claim that Solberg’s adult-only protocol LU-2024-0087 already covers the proposed research with minors. It identifies the need for study-specific approval covering the participants, activities and participating researchers before recruitment/data collection and includes a feasible approval gate and contingency. Accept a new protocol, an approved amendment/extension, or another appropriately justified institutional route; do not presume that the collaborator’s existing protocols already cover this project. Mentioning those protocols is optional.” Keep T14 and the adult-only premise.",
+   "evidence": [
+    "data/public/tasks/pub-nsf-ailearning-close/task.yaml",
+    "data/public/tasks/pub-nsf-ailearning-close/brief.md",
+    "data/public/dossiers/uncertainty-ml-lab/cv_pi.md",
+    "data/public/dossiers/uncertainty-ml-lab/resources_team.md",
+    "tools/authoring/design_v2.md"
+   ]
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml trap T2 description",
+   "problem": "The description quotes a passage that is no longer in the call or dossier: 'Claims of existing approvals, collaborators and access must be grounded in the d...'. The call was corrected after the in-depth review (benchmark-facing hints such as references to the dossier or to scoring were removed, items split, eligibility worded as in the official rules), or the dossier was revised.",
+   "fix": "Ground the trap in the substantive rule or fact as the call and dossier now state it, quoting their current wording exactly. Keep the conflict, type and expected behaviour unless the change removed the trap's basis; never rely on a hint the call no longer gives.",
+   "source": "maintainer"
+  }
+ ]
+}

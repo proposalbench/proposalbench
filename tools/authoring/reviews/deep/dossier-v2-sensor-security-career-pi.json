@@ -1,0 +1,33 @@
+{
+  "kind": "dossier",
+  "id": "v2-sensor-security-career-pi",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/v2-sensor-security-career-pi/prior_project.md: 'Observations that cross the fixed screening threshold receive reduced weight'; later 'screening sometimes discarded valid measurements after sharp turns'.",
+      "problem": "The description switches between soft down-weighting and hard rejection without saying whether the weights can be zero. This leaves the implementation of the failure mode slightly unclear, although it does not invalidate the paired results.",
+      "fix": "Clarify whether zero weight is allowed. If the intended screen hard-rejects threshold crossings, replace the first sentence with 'Observations that cross the fixed screening threshold receive zero weight and are excluded from that update.' Otherwise describe the sharp-turn failure as inappropriate down-weighting rather than discarding, and mirror the wording in F12.",
+      "evidence": [
+        "data/public/dossiers/v2-sensor-security-career-pi/prior_project.md",
+        "data/public/dossiers/v2-sensor-security-career-pi/dossier.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all five visible files, 25 facts and four own publications. All non-null fact values are literal in their source files; facts preserve existing versus planned resources and completed versus ongoing teaching analyses. Notices present, no undeclared inconsistency found, no gaps/inconsistencies/reviewer_criticisms declared.",
+    "Chronology: PhD May 2021, postdoc June 2021–August 2023, untenured full-time assistant professor from September 2023. Closed January 2024–December 2025 internal award, February 2026 report acceptance, July 2025 CAREER submission declined March 2026 and September 2026 status are compatible. This is a full task, not a resubmission merely because a previous CAREER attempt failed.",
+    "Arithmetic: 45%+40%+15%=100%; $58,000+$92,000=$150,000; 6×(2+10)=72 trajectories; 3×20=60 evaluation trajectories; (0.50−0.34)/0.50=32%. Reproduction of the archive is not counted as independent new data.",
+    "Statistical interpretation: paired bootstrap within robot preserves both estimator outputs and conditions on the six tested robots. CI [0.09,0.23] contains the 0.16 m reduction. No per-condition effectiveness or adaptive-adversary guarantee follows; the source explicitly records these limitations.",
+    "Teaching: 24+28=52 enrolled; 20+24=44 consenting paired records; eight excluded; the 2.1/12-point gain and [1.4,2.8] interval are internally coherent, with no randomized comparison, retention or external-transfer result. Fall 2026's 26 students have no completed analysis. Consent and institutional determination are scoped.",
+    "Science: residual-based robust filtering/outlier handling is plausible against primary experimental context https://merl.com/publications/TR2021-078. That source supports the method family, not the invented magnitudes or raw-data reproducibility.",
+    "Exact-name searches covered all eight named people, Alderquay University, Dunmere Crest University, Calderfen National Laboratory, Halwick Indoor Replay Collection, AQU-FIF-24-018 and all four journals. No substantiated collision found; negative search is not proof of uniqueness.",
+    "Four publication records match visible metadata and use 10.99999/pb. DOIs. Calderfen co-authorship is bounded to taxonomy/terminology review, with no facility/data use or secured institutional participation. Existing six-robot assets do not imply validated simultaneous operation. These distinctions support T08 and the autonomy stretch.",
+    "Startup funds expire 31 August 2027, before the fictional September deadline: they cannot silently fund the later award; the dossier states this constraint and a new award can fund planned work. TA appointments are not represented as research-assistant commitments. All relevant documents are dated by September 2026."
+  ]
+}

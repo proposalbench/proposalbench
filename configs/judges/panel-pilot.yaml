@@ -1,0 +1,7 @@
+# Provisional pilot panel: three families that no compared system uses. The v1 panel is chosen
+# from the candidate pool by the meta-evaluation (docs/decision-log.md), not by hand.
+id: panel-pilot
+judges:
+  - {provider: bedrock, id: us.moonshotai.kimi-k3, temperature: null}
+  - {provider: bedrock, id: zai.glm-5}
+  - {provider: bedrock, id: deepseek.v3.2}

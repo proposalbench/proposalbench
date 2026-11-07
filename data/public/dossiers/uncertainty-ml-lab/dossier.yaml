@@ -1,0 +1,358 @@
+schema_version: 1
+id: uncertainty-ml-lab
+language: en
+applicant_type: individual
+career_stage: early_career
+disciplines:
+- machine learning
+- uncertainty quantification
+- human-computer interaction
+method_profile: quantitative
+country: US
+files:
+- path: cv_pi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources_team.md
+  role: resources
+facts:
+- id: F01
+  category: position
+  kind: existing
+  text: Dr. Maren T. Solberg is an Assistant Professor (year 3) in the Department of Computer Science
+    at Lakeridge University, appointed August 2024.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: grant
+  kind: existing
+  text: Solberg holds an active NSF CRII award (PB-NSF-UM-CRII-01), $175,000, September 2025 – August
+    2027.
+  value: $175,000
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: result
+  kind: existing
+  text: ConfSteer reduced Expected Calibration Error on FeedbackCalib-Essay from 0.187 to 0.041 (78% relative
+    reduction) for Mistral-7B-Instruct.
+  value: 78%
+  salient: true
+  source: prior_project.md
+- id: F04
+  category: result
+  kind: existing
+  text: ConfSteer reduced ECE on FeedbackCalib-Essay from 0.152 to 0.033 (78% relative reduction) for
+    Llama-2-13B-Chat.
+  value: 78%
+  salient: true
+  source: prior_project.md
+- id: F05
+  category: result
+  kind: existing
+  text: ConfSteer reduced ECE on FeedbackCalib-Essay from 0.109 to 0.028 (74% relative reduction) for
+    Llama-2-70B-Chat.
+  value: '0.028'
+  salient: true
+  source: prior_project.md
+- id: F06
+  category: result
+  kind: existing
+  text: On FeedbackCalib-Code, ConfSteer reduced ECE from 0.163 to 0.039 (76% relative reduction) averaged
+    across three models.
+  value: 76%
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: result
+  kind: existing
+  text: Selective abstention removed 25% of generated statements on average and increased precision from
+    0.72 to 0.87 on FeedbackCalib-Essay.
+  value: 25%
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: 'In the user study (n = 64 adults), participants in the Calibrated condition correctly rejected
+    incorrect feedback at 61% (95% CI: 53%–69%) vs. 38% (95% CI: 30%–46%) in Control (t(62) = 3.98, p
+    < 0.001).'
+  value: 61%
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: Revision quality was higher in the Calibrated condition (M = 4.12, SD = 0.91) than Control (M
+    = 3.54, SD = 1.03), Cohen's d = 0.60.
+  value: '0.60'
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: resource
+  kind: existing
+  text: FeedbackCalib-Essay benchmark contains 2,418 short argumentative essays with expert-annotated
+    ground-truth feedback (Fleiss' κ = 0.71), released under CC BY 4.0.
+  value: 2,418
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: resource
+  kind: existing
+  text: FeedbackCalib-Code benchmark contains 1,652 introductory Python submissions with instructor-written
+    reference feedback, released under CC BY 4.0.
+  value: 1,652
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: other
+  kind: existing
+  text: Solberg's user study involved only adult university students (ages 18–34); she has no data on
+    how younger learners respond to calibrated confidence indicators.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: other
+  kind: existing
+  text: Solberg has no prior experience conducting IRB-approved research with participants under 18 (minors).
+    All human-subjects work to date has involved adult participants only.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F14
+  category: partner
+  kind: existing
+  text: Dr. Priyana Velmori (Associate Professor, College of Education, Lakeridge University) has expertise
+    in formative assessment in middle-school mathematics (grades 6–8) and holds active IRB protocols for
+    research with minors (ages 11–18).
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F15
+  category: partner
+  kind: planned
+  text: Velmori has expressed willingness to serve as co-PI on a future joint project with Solberg; no
+    current joint co-PI relationship or joint publications exist between them.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F16
+  category: partner
+  kind: existing
+  text: Dr. Velmori has established partnerships with three school districts in the greater Evanston Heights
+    area, including MOUs for classroom research with students in grades 6–12.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F17
+  category: resource
+  kind: existing
+  text: Lakeridge University HPC cluster provides a 20,000 GPU-hour annual allocation on 48 NVIDIA A100
+    (80 GB) GPUs.
+  value: 20,000
+  salient: false
+  source: resources_team.md
+- id: F18
+  category: team
+  kind: existing
+  text: 'The lab has 2 current Ph.D. students: Ravin Keshavren (3rd year) and Jia-Wen Tsao (2nd year).'
+  value: null
+  salient: false
+  source: resources_team.md
+- id: F19
+  category: publication
+  kind: existing
+  text: 'From the CRII project, Solberg has produced 6 products in total: 4 peer-reviewed publications,
+    1 non-refereed working paper, and 1 preprint under review.'
+  value: '6'
+  salient: true
+  source: prior_project.md
+- id: F20
+  category: other
+  kind: existing
+  text: Solberg holds current CITI Human Subjects Research certification (renewed March 2026) and has
+    one approved IRB protocol (LU-2024-0087, approved October 2024) for adult participants.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F21
+  category: other
+  kind: existing
+  text: The lab does not currently have access to K-12 classroom data or partnerships with school districts.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F22
+  category: result
+  kind: existing
+  text: Of the 25% of statements removed by abstention, 73% were indeed incorrect or partially correct,
+    but 27% were correct (coverage loss).
+  value: 73%
+  salient: true
+  source: prior_project.md
+- id: F23
+  category: education
+  kind: existing
+  text: Solberg received her Ph.D. in Computer Science from Hargrove Institute of Technology in 2022,
+    advised by Prof. Yun-Seo Kwak.
+  value: null
+  salient: false
+  source: cv_pi.md
+- id: F24
+  category: grant
+  kind: existing
+  text: Dr. Velmori has led two prior NSF-funded projects on formative assessment practices (PB-NSF-UM-DRL-01
+    and PB-NSF-UM-DRL-02); support dates, amounts, titles, results, publication lists, and product availability
+    for these awards remain to be obtained.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F25
+  category: resource
+  kind: existing
+  text: ConfSteer is an open-source Python library (MIT license) compatible with HuggingFace Transformers.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F26
+  category: grant
+  kind: existing
+  text: Lakeridge University Faculty Startup grant of $85,000 (August 2024 – July 2027) supports equipment
+    purchases and summer salary.
+  value: $85,000
+  salient: true
+  source: resources_team.md
+- id: F27
+  category: resource
+  kind: existing
+  text: The lab holds $12,000 remaining in Google Cloud for Research credits (expires December 2027).
+  value: $12,000
+  salient: true
+  source: resources_team.md
+- id: F28
+  category: resource
+  kind: existing
+  text: The lab has 2 local workstations each with 2× NVIDIA RTX 4090 GPUs for prototyping and small-scale
+    experiments.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F29
+  category: resource
+  kind: existing
+  text: The Department of Computer Science provides 1 RA line per tenure-track faculty member.
+  value: '1'
+  salient: true
+  source: resources_team.md
+- id: F30
+  category: team
+  kind: planned
+  text: An open Ph.D. student position is planned for Fall 2027, to be recruited.
+  value: Fall 2027
+  salient: true
+  source: resources_team.md
+- id: F31
+  category: publication
+  kind: existing
+  text: The preprint 'Token-level uncertainty propagation in chain-of-thought reasoning' (Solberg, Keshavren
+    & Tsao, 2026) is under review at Borgström Journal of Machine Learning Research as of 30 September
+    2026.
+  value: null
+  salient: true
+  source: publications.md
+- id: F32
+  category: other
+  kind: existing
+  text: FeedbackCalib-Essay was written by adult crowdworkers, not by students in authentic classroom
+    settings; ecological validity is limited.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F33
+  category: other
+  kind: existing
+  text: ConfSteer requires access to token-level logits, which are unavailable for some proprietary API-only
+    models.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F34
+  category: other
+  kind: existing
+  text: The project did not evaluate longitudinal effects of calibrated feedback on learning outcomes.
+  value: null
+  salient: true
+  source: prior_project.md
+own_publications:
+- key: solberg2026confsteer
+  authors:
+  - Solberg, M. T.
+  - Keshavren, R.
+  - Kwak, Y.-S.
+  year: 2026
+  title: 'ConfSteer: Post-hoc calibration of language-model feedback via temperature-scaled binning'
+  venue: Borgström Journal of Machine Learning Research
+  doi: 10.99999/pb.uncertainty-ml-lab.2026.1
+- key: solberg2026abstention
+  authors:
+  - Solberg, M. T.
+  - Tsao, J.-W.
+  year: 2026
+  title: 'Selective abstention for reliable AI feedback: When not to speak'
+  venue: Keldara Transactions on Interactive Intelligent Systems
+  doi: 10.99999/pb.uncertainty-ml-lab.2026.2
+- key: solberg2026userstudy
+  authors:
+  - Solberg, M. T.
+  - Keshavren, R.
+  - Vossmere, E.
+  year: 2026
+  title: 'Calibrated confidence indicators improve user rejection of incorrect LLM feedback: A controlled
+    study'
+  venue: Keldara Transactions on Interactive Intelligent Systems
+  doi: 10.99999/pb.uncertainty-ml-lab.2026.3
+- key: keshavren2025feedbackcalib
+  authors:
+  - Keshavren, R.
+  - Solberg, M. T.
+  year: 2025
+  title: 'FeedbackCalib: Benchmarks for evaluating uncertainty in language-model feedback'
+  venue: Borgström Journal of Machine Learning Research
+  doi: 10.99999/pb.uncertainty-ml-lab.2025.1
+- key: solberg2023uncertainty
+  authors:
+  - Solberg, M. T.
+  - Kwak, Y.-S.
+  year: 2023
+  title: Predictive uncertainty decomposition for autoregressive sequence models
+  venue: Borgström Journal of Machine Learning Research
+  doi: 10.99999/pb.uncertainty-ml-lab.2023.1
+- key: tsao2025k12working
+  authors:
+  - Tsao, J.-W.
+  - Solberg, M. T.
+  year: 2025
+  title: 'Toward uncertainty-aware feedback for K-12 math: Challenges and a research agenda'
+  venue: Lakeridge University Working Papers in Learning Technologies
+  doi: 10.99999/pb.uncertainty-ml-lab.2025.2
+- key: solberg2026cot
+  authors:
+  - Solberg, M. T.
+  - Keshavren, R.
+  - Tsao, J.-W.
+  year: 2026
+  title: Token-level uncertainty propagation in chain-of-thought reasoning
+  venue: Lakeridge University research preprint; under review at Borgström Journal of Machine Learning
+    Research as of 30 September 2026
+  doi: 10.99999/pb.uncertainty-ml-lab.2026.4
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: us.anthropic.claude-opus-4-6-v1
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 2214b1fc-7282-47bd-8bda-f73e61865b94

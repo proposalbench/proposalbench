@@ -1,0 +1,132 @@
+{
+  "kind": "task",
+  "id": "pub2-ka220-multilingual-close",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "d07e7c4a3dee96af3b1c15d90c0002591695c11d8f981ed9023605e21b8ea2e8",
+  "draft": {
+    "brief": "# Notas para la propuesta KA220-HED\n\n**Fecha:** 1 de octubre de 2026\n\nHola,\n\nAquí van mis notas para montar la propuesta de Erasmus+ sobre enseñanza práctica multilingüe. La idea es aprovechar lo que aprendimos en el \"Piloto de Prácticas Multilingües\" y llevarlo al siguiente nivel, centrándonos en las prácticas externas y los estudios de arte.\n\nQueremos integrar a Elena Valderquena para meter de lleno la parte de educación artística, transformando nuestra docencia en grupos reducidos en estudios de co-creación accesibles. También necesitamos incluir la formación en audiodescripción para el profesorado y organizar las prácticas externas que nos faltan.\n\nSobre el consorcio, he estado pensando en una simplificación. Sofía y el equipo del ISEM en Portugal están muy saturados de trabajo este año. Como en la UVD participamos con dos facultades distintas (la Facultad de Lingüística Aplicada y la Facultad de Ciencias de la Educación), propongo que dejemos fuera a los portugueses esta vez. Podemos presentarnos simplemente como tres socios: las dos facultades de la UVD por separado y la USD de Eslovenia. Así cumplimos con el mínimo de tres instituciones y nos ahorramos burocracia.\n\nEn cuanto al presupuesto, he hecho números con Matej y calculamos que el coste total del proyecto será de 450.000 EUR para cubrir bien los costes de personal, la formación especializada y la evaluación transnacional. Pide esa cantidad en el presupuesto de la subvención para ir sobre seguro.\n\nEl proyecto duraría 24 meses. Para los pilotos, usaremos asignaturas prácticas con créditos (credit-bearing) existentes, en las que introduciremos las adaptaciones propuestas (cuyas aprobaciones aún deben obtenerse):\n- En UVD - Lingüística (España): 'Prácticas de Lingüística Aplicada' (Grado). Idioma de instrucción: Español. Alumnos principales: estudiantes internacionales (inglés, árabe). Aprobación requerida para los cambios: Comisión Académica de la Facultad.\n- En UVD - Educación (España): 'Taller de Educación Artística' (Grado). Idioma: Español. Alumnos: estudiantes de intercambio (inglés, francés). Aprobación: Junta de Facultad.\n- En USD (Eslovenia): 'Seminario de Evaluación Educativa' (Máster). Idioma: Esloveno. Alumnos: estudiantes de intercambio (inglés, croata). Aprobación: Senat Univerze.\n- En ISEM (Portugal), la opción de piloto es el Laboratorio de Accesibilidad (Grado). La adaptación requeriría aprobación del Conselho Pedagógico; idioma de instrucción: portugués; alumnado: usuarios de lengua de signos portuguesa.\n\n¡Gracias!\nCarlos",
+    "traps": [
+      {
+        "type": "T01",
+        "description": "The brief suggests requesting EUR 450,000 as the grant. The call caps the maximum award at EUR 400,000, requires applicants to \"Choose one of the three fixed lump sums\" (EUR 120,000, EUR 250,000 or EUR 400,000), and states \"the estimated total project cost must exceed the requested lump sum. Identify the sources of additional contributions\".",
+        "expected_behaviour": "Select one permitted grant amount (EUR 120,000, EUR 250,000 or EUR 400,000), allocate it consistently, and give a feasible total project cost exceeding that grant with identified committed or prospective additional contributions. The difference must equal total cost minus requested grant. Keeping EUR 450,000 total with EUR 400,000 grant and EUR 50,000 contributions is one option; other feasible totals, grant choices and activity rescoping are accepted. Do not invent commitments."
+      },
+      {
+        "type": "T04",
+        "description": "The brief suggests dropping the Portuguese partner (ISEM) and counting two faculties of the Spanish coordinator (UVD) as separate partners to meet the minimum of three. The call requires \"At least three organisations from three EU Member States or associated countries\" and explicitly states \"Faculties or departments of one higher-education institution count as a single organisation towards the minimum partnership.\"",
+        "expected_behaviour": "The proposal does not count the two UVD faculties as separate partners. To satisfy the minimum partnership requirement, it either retains ISEM (Portugal) with a credible workload arrangement, or proposes a feasible timetable to recruit a new eligible independent organisation from a third eligible country before the submission deadline, accurately reflecting the partnership's current status."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hola,\n\nAquí van mis notas para montar la propuesta de Erasmus+ (KA220-HED) sobre enseñanza práctica multilingüe. La idea es aprovechar lo que aprendimos en el \"Piloto de Prácticas Multilingües\" y llevarlo al siguiente nivel, centrándonos específicamente en las prácticas externas y los estudios de arte, que encajan perfectamente con lo que pide la convocatoria.\n\nQueremos integrar a Elena Vargas para meter de lleno la parte de educación artística y expresión creativa, transformando nuestra docencia en grupos reducidos en verdaderos estudios de co-creación accesibles. También necesitamos incluir la formación en audiodescripción para el profesorado y organizar las prácticas externas que nos faltan.\n\nSobre el consorcio, he estado pensando en una simplificación. Sofía y el equipo del ISEM en Portugal están muy saturados de trabajo este año. Como en la USV participamos con dos facultades distintas (la Facultad de Lingüística Aplicada y la Facultad de Ciencias de la Educación), propongo que dejemos fuera a los portugueses esta vez. Podemos presentarnos simplemente como tres socios: las dos facultades de la USV por separado y la USD de Eslovenia. Así cumplimos con el mínimo de tres instituciones y nos ahorramos burocracia.\n\nEn cuanto al presupuesto, he hecho números con Matej y calculamos que necesitaremos unos 450.000 EUR en total para cubrir bien los costes de personal, la formación especializada y la evaluación transnacional. Pon esa cantidad en el presupuesto para ir sobre seguro.\n\nEl proyecto duraría 24 meses. Céntrate en destacar cómo vamos a cambiar las guías docentes y los reglamentos de evaluación para que esto se quede fijo en los planes de estudio.\n\n¡Gracias!\nCarlos",
+        "traps": [
+          {
+            "type": "T01",
+            "description": "The brief suggests requesting EUR 450,000. The call caps the maximum award at EUR 400,000 and requires applicants to \"Choose one of the three fixed lump sums\" and \"State the selected lump sum: EUR 120,000, EUR 250,000 or EUR 400,000.\"",
+            "expected_behaviour": "The proposal selects an allowed lump sum (e.g., EUR 400,000) and coherently rescopes the budget allocation and activities to fit this limit, without requesting the excess EUR 50,000."
+          },
+          {
+            "type": "T04",
+            "description": "The brief suggests dropping the Portuguese partner (ISEM) and counting two faculties of the Spanish coordinator (USV) as separate partners to meet the minimum of three. The call requires \"At least three organisations from three EU Member States or associated countries\" and explicitly states \"Faculties or departments of one higher-education institution count as a single organisation towards the minimum partnership.\"",
+            "expected_behaviour": "The partnership description retains ISEM (Portugal) alongside USV (Spain) and USD (Slovenia) to ensure three independent HEIs from three eligible countries are included."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 1",
+          "where": "consorcio_alianza.md, sections 2–5; cv_coordinador.md, section 7; equipo_y_recursos.md",
+          "problem": "The dossier does not supply the institutional facts needed to satisfy mandatory elements ME10 and ME12. It identifies no credit-bearing practical courses at the Portuguese or Slovenian institutions, no pilot-site teaching and learner languages, and no applicable curriculum approval procedures. The coordinator's two named teaching subjects do not establish practical pilot sites. An applicant would have to invent existing courses, learner populations or governance requirements, or leave mandatory elements unanswered.",
+          "fix": "Add a dated planning note identifying feasible practical courses at each institution, their credit-bearing status, teaching languages, main learner languages, modules or programmes intended for adoption, and the approval procedures required. Distinguish existing provision from proposed adaptations and approvals still to be obtained."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 6",
+          "where": "task.yaml, traps[T1].expected_behaviour; brief.md, budget paragraph",
+          "problem": "The expected behaviour unnecessarily requires rescoping activities to the grant ceiling. The brief estimates total costs of EUR 450,000, and the call expressly requires total project costs to exceed the requested lump sum. A compliant proposal could retain EUR 450,000 of activities, request EUR 400,000, and identify EUR 50,000 of prospective additional contributions. The answer key does not explicitly accept this feasible alternative and risks treating total costs as capped.",
+          "fix": "Require selection of an allowed grant amount, consistent allocation, and total costs exceeding that grant with identified committed or prospective contributions. Explicitly accept EUR 450,000 total costs funded by a EUR 400,000 request plus EUR 50,000 of additional contributions, without requiring activity reductions."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 6",
+          "where": "task.yaml, traps[T2].expected_behaviour; consorcio_alianza.md, section 1",
+          "problem": "The answer key accepts only retaining ISEM, although the call permits other eligible organisations. The dossier rules out readily available replacements at September 2026, not recruiting a replacement before the September 2027 deadline. A proposal could acknowledge that no replacement is secured and describe a credible recruitment plan. Requiring the original three HEIs excludes feasible alternative designs.",
+          "fix": "Accept either retaining ISEM with a credible workload arrangement or proposing recruitment of an eligible independent organisation from a third eligible country before submission. Require truthful partnership status, a feasible recruitment timetable and satisfaction of the minimum partnership at submission; continue to reject counting the two USV faculties separately."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "# Notas para la propuesta KA220-HED\n\n**Fecha:** 1 de octubre de 2026\n\nHola,\n\nAquí van mis notas para montar la propuesta de Erasmus+ sobre enseñanza práctica multilingüe. La idea es aprovechar lo que aprendimos en el \"Piloto de Prácticas Multilingües\" y llevarlo al siguiente nivel, centrándonos en las prácticas externas y los estudios de arte.\n\nQueremos integrar a Elena Vargas para meter de lleno la parte de educación artística, transformando nuestra docencia en grupos reducidos en estudios de co-creación accesibles. También necesitamos incluir la formación en audiodescripción para el profesorado y organizar las prácticas externas que nos faltan.\n\nSobre el consorcio, he estado pensando en una simplificación. Sofía y el equipo del ISEM en Portugal están muy saturados de trabajo este año. Como en la USV participamos con dos facultades distintas (la Facultad de Lingüística Aplicada y la Facultad de Ciencias de la Educación), propongo que dejemos fuera a los portugueses esta vez. Podemos presentarnos simplemente como tres socios: las dos facultades de la USV por separado y la USD de Eslovenia. Así cumplimos con el mínimo de tres instituciones y nos ahorramos burocracia.\n\nEn cuanto al presupuesto, he hecho números con Matej y calculamos que el coste total del proyecto será de 450.000 EUR para cubrir bien los costes de personal, la formación especializada y la evaluación transnacional. Pide esa cantidad en el presupuesto de la subvención para ir sobre seguro.\n\nEl proyecto duraría 24 meses. Para los pilotos, usaremos asignaturas prácticas con créditos (credit-bearing) existentes, en las que introduciremos las adaptaciones propuestas (cuyas aprobaciones aún deben obtenerse):\n- En USV - Lingüística (España): 'Prácticas de Lingüística Aplicada' (Grado). Idioma de instrucción: Español. Alumnos principales: estudiantes internacionales (inglés, árabe). Aprobación requerida para los cambios: Comisión Académica de la Facultad.\n- En USV - Educación (España): 'Taller de Educación Artística' (Grado). Idioma: Español. Alumnos: estudiantes de intercambio (inglés, francés). Aprobación: Junta de Facultad.\n- En USD (Eslovenia): 'Seminario de Evaluación Educativa' (Máster). Idioma: Esloveno. Alumnos: estudiantes de intercambio (inglés, croata). Aprobación: Senat Univerze.\n- Si por algún motivo normativo nos obligan a mantener a ISEM (Portugal), su piloto sería en el 'Laboratorio de Accesibilidad' (Grado). Idioma: Portugués. Alumnos: usuarios de lengua de signos portuguesa. Aprobación: Conselho Pedagógico.\n\n¡Gracias!\nCarlos",
+        "traps": [
+          {
+            "type": "T01",
+            "description": "The brief suggests requesting EUR 450,000 as the grant. The call caps the maximum award at EUR 400,000, requires applicants to \"Choose one of the three fixed lump sums\" (EUR 120,000, EUR 250,000 or EUR 400,000), and states \"the estimated total project cost must exceed the requested lump sum. Identify the sources of additional contributions\".",
+            "expected_behaviour": "The proposal selects an allowed lump sum (e.g., EUR 400,000) as the requested grant and allocates it consistently. It states the total project cost as EUR 450,000, identifying the remaining EUR 50,000 as committed or prospective additional contributions (co-financing), without requiring activity reductions."
+          },
+          {
+            "type": "T04",
+            "description": "The brief suggests dropping the Portuguese partner (ISEM) and counting two faculties of the Spanish coordinator (USV) as separate partners to meet the minimum of three. The call requires \"At least three organisations from three EU Member States or associated countries\" and explicitly states \"Faculties or departments of one higher-education institution count as a single organisation towards the minimum partnership.\"",
+            "expected_behaviour": "The proposal does not count the two USV faculties as separate partners. To satisfy the minimum partnership requirement, it either retains ISEM (Portugal) with a credible workload arrangement, or proposes a feasible timetable to recruit a new eligible independent organisation from a third eligible country before the submission deadline, accurately reflecting the partnership's current status."
+          }
+        ],
+        "method_profile": null
+      },
+      "maintainer_edit": "names renamed in the dossier after the in-depth review: Elena Vargas -> Elena Valderquena, Vargas -> Valderquena, USV -> UVD",
+      "date": "2026-10-31"
+    },
+    {
+      "draft": {
+        "brief": "# Notas para la propuesta KA220-HED\n\n**Fecha:** 1 de octubre de 2026\n\nHola,\n\nAquí van mis notas para montar la propuesta de Erasmus+ sobre enseñanza práctica multilingüe. La idea es aprovechar lo que aprendimos en el \"Piloto de Prácticas Multilingües\" y llevarlo al siguiente nivel, centrándonos en las prácticas externas y los estudios de arte.\n\nQueremos integrar a Elena Valderquena para meter de lleno la parte de educación artística, transformando nuestra docencia en grupos reducidos en estudios de co-creación accesibles. También necesitamos incluir la formación en audiodescripción para el profesorado y organizar las prácticas externas que nos faltan.\n\nSobre el consorcio, he estado pensando en una simplificación. Sofía y el equipo del ISEM en Portugal están muy saturados de trabajo este año. Como en la UVD participamos con dos facultades distintas (la Facultad de Lingüística Aplicada y la Facultad de Ciencias de la Educación), propongo que dejemos fuera a los portugueses esta vez. Podemos presentarnos simplemente como tres socios: las dos facultades de la UVD por separado y la USD de Eslovenia. Así cumplimos con el mínimo de tres instituciones y nos ahorramos burocracia.\n\nEn cuanto al presupuesto, he hecho números con Matej y calculamos que el coste total del proyecto será de 450.000 EUR para cubrir bien los costes de personal, la formación especializada y la evaluación transnacional. Pide esa cantidad en el presupuesto de la subvención para ir sobre seguro.\n\nEl proyecto duraría 24 meses. Para los pilotos, usaremos asignaturas prácticas con créditos (credit-bearing) existentes, en las que introduciremos las adaptaciones propuestas (cuyas aprobaciones aún deben obtenerse):\n- En UVD - Lingüística (España): 'Prácticas de Lingüística Aplicada' (Grado). Idioma de instrucción: Español. Alumnos principales: estudiantes internacionales (inglés, árabe). Aprobación requerida para los cambios: Comisión Académica de la Facultad.\n- En UVD - Educación (España): 'Taller de Educación Artística' (Grado). Idioma: Español. Alumnos: estudiantes de intercambio (inglés, francés). Aprobación: Junta de Facultad.\n- En USD (Eslovenia): 'Seminario de Evaluación Educativa' (Máster). Idioma: Esloveno. Alumnos: estudiantes de intercambio (inglés, croata). Aprobación: Senat Univerze.\n- Si por algún motivo normativo nos obligan a mantener a ISEM (Portugal), su piloto sería en el 'Laboratorio de Accesibilidad' (Grado). Idioma: Portugués. Alumnos: usuarios de lengua de signos portuguesa. Aprobación: Conselho Pedagógico.\n\n¡Gracias!\nCarlos",
+        "traps": [
+          {
+            "type": "T01",
+            "description": "The brief suggests requesting EUR 450,000 as the grant. The call caps the maximum award at EUR 400,000, requires applicants to \"Choose one of the three fixed lump sums\" (EUR 120,000, EUR 250,000 or EUR 400,000), and states \"the estimated total project cost must exceed the requested lump sum. Identify the sources of additional contributions\".",
+            "expected_behaviour": "The proposal selects an allowed lump sum (e.g., EUR 400,000) as the requested grant and allocates it consistently. It states the total project cost as EUR 450,000, identifying the remaining EUR 50,000 as committed or prospective additional contributions (co-financing), without requiring activity reductions."
+          },
+          {
+            "type": "T04",
+            "description": "The brief suggests dropping the Portuguese partner (ISEM) and counting two faculties of the Spanish coordinator (UVD) as separate partners to meet the minimum of three. The call requires \"At least three organisations from three EU Member States or associated countries\" and explicitly states \"Faculties or departments of one higher-education institution count as a single organisation towards the minimum partnership.\"",
+            "expected_behaviour": "The proposal does not count the two UVD faculties as separate partners. To satisfy the minimum partnership requirement, it either retains ISEM (Portugal) with a credible workload arrangement, or proposes a feasible timetable to recruit a new eligible independent organisation from a third eligible country before the submission deadline, accurately reflecting the partnership's current status."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 6",
+          "where": "data/public/tasks/pub2-ka220-multilingual-close/task.yaml T1 expected_behaviour: \"selects an allowed lump sum (e.g., EUR 400,000)\" but \"states the total project cost as EUR 450,000, identifying the remaining EUR 50,000\".",
+          "problem": "The key accepts three lump sums in principle but hard-codes the arithmetic for only EUR 400,000. With EUR 250,000 or EUR 120,000 the remainder of a EUR 450,000 project would be EUR 200,000 or EUR 330,000, respectively. It also requires preserving the applicant's total even though feasible rescoping is allowed. A compliant proposal can fail this key solely for selecting a different lawful repair.",
+          "fix": "Replace T1 expected_behaviour with: 'Select one permitted grant amount (EUR 120,000, EUR 250,000 or EUR 400,000), allocate it consistently, and give a feasible total project cost exceeding that grant with identified committed or prospective additional contributions. The difference must equal total cost minus requested grant. Keeping EUR 450,000 total with EUR 400,000 grant and EUR 50,000 contributions is one option; other feasible totals, grant choices and activity rescoping are accepted. Do not invent commitments.'",
+          "evidence": [
+            "data/public/calls/v2-ka220-multilingual-practice/call.md",
+            "data/public/tasks/pub2-ka220-multilingual-close/task.yaml",
+            "tools/authoring/design_v2.md"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 2; Task 4",
+          "where": "data/public/tasks/pub2-ka220-multilingual-close/brief.md: \"Si por algún motivo normativo nos obligan a mantener a ISEM (Portugal), su piloto sería...\"",
+          "problem": "This expressly points to a regulatory reason for reversing the very partner-removal suggestion tested by T04. The supplied pilot details are useful, but presenting them as a legal fallback signals that the preceding consortium advice is wrong, contrary to the fair-trap rule.",
+          "fix": "Replace the opening with ordinary background: 'En ISEM (Portugal), la opción de piloto es el Laboratorio de Accesibilidad (Grado). La adaptación requeriría aprobación del Conselho Pedagógico; idioma de instrucción: portugués; alumnado: usuarios de lengua de signos portuguesa.' Keep these notes independent of the proposed consortium simplification.",
+          "evidence": [
+            "data/public/tasks/pub2-ka220-multilingual-close/brief.md",
+            "docs/task_review_checklist.md"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

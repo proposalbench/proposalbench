@@ -1,0 +1,18 @@
+{
+  "kind": "call",
+  "id": "v2-nsf-career-verified-autonomy",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "call.md (Specific conditions and mandatory elements) and call.yaml (ME6, ME9)",
+      "problem": "ME6 and ME9 explicitly mention \"the dossier\" and warn against inventing facts (\"traceable to the dossier\", \"exactly as the dossier records it\", \"Do not claim an IRB approval or exemption that the dossier does not show\"). The applicant-facing call must read as the funder's text and never mention the dossier or benchmark mechanics.",
+      "fix": "Remove the mentions of the dossier and the warnings against inventing facts. For example, end ME6 after \"depends on.\" and change ME9 to simply require stating the human-subjects review status if student data are collected.",
+      "part": "topic"
+    }
+  ]
+}

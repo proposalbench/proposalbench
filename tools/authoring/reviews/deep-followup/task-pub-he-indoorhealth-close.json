@@ -1,0 +1,21 @@
+{
+ "kind": "task",
+ "id": "pub-he-indoorhealth-close",
+ "reviewer_family": "openai+maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2; Task 6",
+   "where": "data/public/tasks/pub-he-indoorhealth-close/task.yaml T1 expected_behaviour: 'Describe 400 dwellings solely as the ethics-approved extension’s recruitment target, with zero dwellings and participants recruited as of 30 September 2026. Treat funding, provider access agreements and recruitment as prospective steps.'",
+   "problem": "The false-enrolment premise is clear, but the expectation unconditionally requires narrating the 400-home extension and its exact zero-enrolment count. The call does not require using this extension. A compliant proposal could use the completed cohort only as methodological evidence and recruit a newly powered prospective cohort, without mentioning the optional extension. Scoring omission as failure would demand one applicant-specific design/background choice beyond the conflicting fact.",
+   "fix": "Replace T1 expected_behaviour with: 'Do not present the extension as recruited, available for baseline visits, part of the completed sample or an existing dataset. If the extension or the 400 figure is mentioned, preserve that it is an ethics-approved target with recruitment not yet opened and funding/access outstanding at the dossier cutoff. An exact zero count may be stated but is not mandatory if non-recruitment is clear. Accept omission of the extension and any feasible prospective cohort design; no compulsory 400-home sample size. Assess capacity assertions in section 3.2 and recruitment plans in sections 1.2/3.1.'",
+   "evidence": [
+    "data/public/tasks/pub-he-indoorhealth-close/task.yaml",
+    "data/public/dossiers/renovation-health-consortium/resources.md",
+    "data/public/calls/he-cl1-indoorhealth/call.md",
+    "tools/authoring/design_v2.md adopted trap rules",
+    "docs/scoring_spec.md §3 GR-T (point not touched => na)"
+   ]
+  }
+ ]
+}

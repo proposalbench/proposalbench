@@ -1,0 +1,58 @@
+{
+  "kind": "call",
+  "id": "nih-r21-ruralbp",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "data/public/calls/nih-r21-ruralbp/call.md, Research Strategy: \"including the dossier's work if used\"; \"without inventing secured access, approvals or completed work\".",
+      "problem": "The applicant-facing funding notice explicitly names the dossier and warns against invented applicant facts. Call 6 expressly prohibits both kinds of benchmark instruction in the funder's text. These passages also prime the collaboration/resource trap response.",
+      "fix": "Replace the Significance sentence with 'Evaluate strengths and weaknesses of the prior published and unpublished evidence, including the applicant's own work where relevant.' Replace the personnel sentence with 'Explain personnel roles, relevant expertise, resource access, and the status of any arrangements needed to execute the design.' Keep the fictional-call and word-conversion notices.",
+      "evidence": [
+        "data/public/calls/nih-r21-ruralbp/call.md",
+        "docs/task_review_checklist.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "data/public/calls/nih-r21-ruralbp/call.yaml, exclusions EX1: \"Clinical trials as defined by NIH are not allowed.\" and EX2: \"Prospective assignment of participants to a blood-pressure intervention, medication regimen, or behavioral program to evaluate its effect on blood pressure or any other health-related outcome.\"",
+      "problem": "EX2 is a topic-specific instance of EX1, not an independent exclusion. Both generate separate scored call items, so the same clinical-trial error receives duplicated call-level weight before the task trap is considered. The checklist forbids repeated items.",
+      "fix": "Keep one scored clinical-trial exclusion, EX1. Incorporate the BP/medication/behavioral-program examples into its explanatory prose, explicitly requiring evaluation of an intervention's health-related effects. Delete EX2 as a separate YAML item and separate Markdown bullet; retain the regulatory-development exclusion as an independent item.",
+      "evidence": [
+        "data/public/calls/nih-r21-ruralbp/call.yaml",
+        "src/proposalbench/judge/items.py",
+        "docs/scoring_spec.md",
+        "docs/task_review_checklist.md",
+        "https://grants.nih.gov/policy-and-compliance/policy-topics/clinical-trials/definition"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 4",
+      "where": "data/public/calls/nih-r21-ruralbp/call.md, scope introduction: \"Approximately 47 percent of US adults have hypertension, yet control rates remain below 25 percent in many rural counties.\"",
+      "problem": "The national prevalence is broadly plausible, but the county-level control claim has no stated denominator, BP threshold, survey period or source. The verified national estimate does not establish a rural-county estimate. This is background prose, not a scored condition.",
+      "fix": "Use a sourced, bounded statement: 'In NHANES August 2021–August 2023, 47.7% of US adults aged 18 or older had hypertension, and 20.7% of adults with hypertension had blood pressure below 130/80 mmHg. Rural settings present additional access and implementation challenges that this topic seeks to characterize.' Cite NCHS Data Brief 511 and remove the unsupported county statistic.",
+      "evidence": [
+        "https://www.cdc.gov/nchs/products/databriefs/db511.htm",
+        "https://www.cdc.gov/nchs/data/databriefs/db511.pdf"
+      ]
+    }
+  ],
+  "checked": [
+    "Call 1, 4: verified the exploratory purpose, optional preliminary data, 24-month maximum, USD 275,000 total direct costs and USD 200,000 annual ceiling, eligible organization/qualified PI wording, and absence of an early-career requirement against https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html. No invented factor weights or thresholds appear.",
+    "Call 1: verified separate one-page Aims and six-page Strategy allowances against https://grants.nih.gov/grants-process/write-application/how-to-apply-application-guide/page-limits; Arial 11, US Letter, minimum half-inch margins and density/line-spacing requirements against https://grants.nih.gov/grants-process/write-application/how-to-apply-application-guide/format-attachments. The word conversion and reduced narrative deliverable are explicitly benchmark adaptations.",
+    "Call 1: checked Factors 1/2 scored 1–9, Factor 3 sufficiency and integrated Overall Impact against https://grants.nih.gov/policy-and-compliance/policy-topics/peer-review/simplifying-review/framework and PA-25-304. Inclusion within Factor 2 is already correct and is not a finding.",
+    "Call 1: checked the clinical-trial definition plus the March/May 2026 intervention/BESH changes: https://grants.nih.gov/policy-and-compliance/policy-topics/clinical-trials/definition; https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-063.html; https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-067.html. The planted therapeutic sleep/BP interventions remain clinical trials; a measurement procedure or assignment by itself is insufficient.",
+    "Call 3: all EO, SC and EX texts, plus ME7–ME8, match the visible call after whitespace normalization; ME1–ME6 have corresponding narrative instructions. Sections, language, headline funding and duration agree. The user-excluded word-tolerance/template correction is not reported.",
+    "Call 5: PB-prefixed fictional identifiers are not represented as real NIH notices; the real PA-25-304 identifier is appropriately used as a policy source, not as the invented topic identifier.",
+    "Call 2: outcomes, measurement requirements and success criteria can be demonstrated in Specific Aims/Approach within 600/3,600 words; ordinary participant protections and separate NIH forms are distinguished.",
+    "Call 4: rural measurement, record linkage and formative co-design are plausible R21 work; pharmacist/clinic research at https://pubmed.ncbi.nlm.nih.gov/19933962/ supports the setting. A bounded non-therapeutic usability study can meet EO3 without conducting a prohibited trial.",
+    "Call 1: additionally checked Research Strategy heading order and the separate human-subjects forms against the December 2025 NIH Forms I Research Instructions, R.400: https://www.grants.nih.gov/grants/how-to-apply-application-guide/forms-i/research-forms-i.pdf. Consortium F&A exclusion is confirmed in Forms I G.310: https://grants.nih.gov/grants/how-to-apply-application-guide/forms-i/general/g.310-r%26r-subaward-budget-attachment%28s%29-form.htm."
+  ]
+}

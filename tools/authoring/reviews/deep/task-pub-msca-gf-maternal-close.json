@@ -1,0 +1,29 @@
+{
+  "kind": "task",
+  "id": "pub-msca-gf-maternal-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-msca-gf-maternal-close/brief.md: \"# Notes for the proposal writer\" (undated)",
+      "problem": "The brief is not dated 1 October 2026 as required by Task 6. This has no demonstrated scoring consequence here because no T12 silent dated fact is planted.",
+      "fix": "Date the applicant notes \"1 October 2026\"; preserve all September dossier statuses.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "T1 is correctly T02 and fairly keyed: the suggested 18+6 months conflicts with the supplied mandatory 12-month return; the key accepts both 12+12 and an extended 18+12 total, rather than prescribing one correction.",
+    "T2 is correctly T06 (pending ethics presented as granted), not an outside-law test: the same 15 March 2026 submission and September pending status appear in cv_pi.md, prior_project.md and resources_and_partners.md. Its expected behaviour is visible in methods/ethics/risk planning, achievable, and does not demand inventing a regulator’s approval date.",
+    "Close fit: existing Ghana field network, mixed-methods trial and in-principle outgoing host support the programme; causal-inference/health-economics training is a credible development need. Dutch nationality and June 2022 PhD support Global eligibility. Ghana travel remains unquantified and must be identified as requiring confirmation, as the call allows.",
+    "A two-month Belgian secondment during a corrected 12- or 18-month outgoing phase is within the half-phase limit and outside the mandatory return. Both traps and all Part B-1 requirements can be met within 5,000 words. Brief reads as notes and does not signal trap labels; language/type match.",
+    "No silent/reviewer-criticism trap, no RESUB requirement, no monetary-budget trap. Acceptance is for this task unit only: the shared maternal dossier requires revision for identity, chronology, scientific-reporting and fact-key defects, and the call has separately filed issues. Propagate dossier name changes into this brief and T2 quotation without changing the pending/granted contrast."
+  ]
+}

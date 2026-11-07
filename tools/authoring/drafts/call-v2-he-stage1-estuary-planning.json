@@ -1,0 +1,105 @@
+{
+  "kind": "call",
+  "id": "v2-he-stage1-estuary-planning",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "2235cba7ea300ae21e0abf3f38b5981123234de614707da0059008b9dcf96ec4",
+  "draft": {
+    "title": "Equitable adaptation to compound flooding in estuarine urban areas",
+    "expected_outcomes_intro": "Project results are expected to contribute to all the following outcomes:",
+    "expected_outcomes": [
+      "Urban planning and water management authorities can use credible evidence on interacting estuarine flooding and urban drainage to choose spatial adaptation options under uncertain future conditions.",
+      "Authorities and affected communities can identify how adaptation options redistribute flood exposure, benefits and burdens across neighbourhoods and population groups, supporting decisions that address existing inequalities.",
+      "Residents, including groups poorly represented in planning processes, have an evidenced route to influence adaptation choices and understand the consequences for their neighbourhoods.",
+      "Authorities in other estuarine urban areas can judge which findings are transferable and under what physical, social and planning conditions."
+    ],
+    "scope_intro": "Estuarine urban areas face interacting tidal, river and rainfall hazards whose consequences depend on drainage networks, land use and settlement patterns. Adaptation can reduce aggregate exposure while transferring risk or imposing costs on particular communities.\n\nProposals should combine estuarine flood and drainage science with urban planning and distributional analysis. Comparative research should connect physical evidence to spatial choices and residents’ exposure, using co-design to examine feasible adaptation options and their consequences.",
+    "scope": [
+      "Characterise interactions between estuarine water levels, river flows, rainfall and urban drainage under current and plausible future conditions, including coincident events and drainage constraints.",
+      "Establish physical evidence through observations or validated simulations, documenting fitness for the intended spatial decisions and limitations in representing relevant flood and drainage processes.",
+      "Compare spatial adaptation options against an explicit reference scenario, including land-use planning, water retention, nature-based measures or changes to drainage operation.",
+      "Translate physical evidence into spatially explicit estimates of residents’ exposure for each option, accounting for the location and use of housing, public space and essential services.",
+      "Assess how exposure changes, adaptation costs, access to benefits and potential displacement are distributed across population groups and neighbourhoods, including effects transferred beyond intervention areas.",
+      "Propagate uncertainty from physical processes, future development and social conditions through the comparison of options, identifying decisions that remain credible across plausible assumptions.",
+      "Co-design adaptation options and assessment priorities with residents, planning authorities and drainage managers, providing accessible ways for underrepresented groups to participate.",
+      "Compare findings across contrasting estuarine urban settings to identify transferable relationships and the contextual limits of applying them elsewhere."
+    ],
+    "exclusions": [
+      "Construction of permanent flood barriers; comparative assessment of such options and temporary monitoring installations remain within scope.",
+      "Routine drainage infrastructure renewal or expansion presented as the principal project activity.",
+      "Standalone flood forecasting or hazard mapping without an explicit connection to spatial planning choices and the distribution of residents’ exposure."
+    ],
+    "mandatory_elements": [
+      "Explain how resident-level data linked to spatial exposure estimates will be protected against re-identification of individuals or households in published maps, datasets and other outputs.",
+      "Specify how disagreements among residents, planning authorities and drainage managers about adaptation options will be recorded and reflected in the comparison of options."
+    ],
+    "conditions": {
+      "max_budget": 5000000,
+      "duration_months_max": 48,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": null
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Equitable adaptation to compound flooding in estuarine urban areas",
+        "expected_outcomes_intro": "Project results are expected to contribute to all the following outcomes:",
+        "expected_outcomes": [
+          "Urban planning and water management authorities can use credible evidence on interacting estuarine flooding and urban drainage to choose spatial adaptation options under uncertain future conditions.",
+          "Authorities and affected communities can identify how adaptation options redistribute flood exposure, benefits and burdens across neighbourhoods and population groups, supporting decisions that address existing inequalities.",
+          "Residents, including groups poorly represented in planning processes, have an evidenced route to influence adaptation choices and understand the consequences for their neighbourhoods.",
+          "Authorities in other estuarine urban areas can judge which findings are transferable and under what physical, social and planning conditions."
+        ],
+        "scope_intro": "Estuarine urban areas face interacting tidal, river and rainfall hazards whose consequences depend on drainage networks, land use and settlement patterns. Adaptation can reduce aggregate exposure while transferring risk or imposing costs on particular communities.\n\nProposals should combine estuarine flood and drainage science with urban planning and distributional analysis. Comparative research should connect physical evidence to spatial choices and residents’ exposure, using co-design to examine feasible adaptation options and their consequences.",
+        "scope": [
+          "Characterise interactions between estuarine water levels, river flows, rainfall and urban drainage under current and plausible future conditions, including coincident events and drainage constraints.",
+          "Establish physical evidence through observations or validated simulations, documenting fitness for the intended spatial decisions and limitations in representing relevant flood and drainage processes.",
+          "Compare spatial adaptation options against an explicit reference scenario, including land-use planning, water retention, nature-based measures or changes to drainage operation.",
+          "Translate physical evidence into spatially explicit estimates of residents’ exposure for each option, accounting for the location and use of housing, public space and essential services.",
+          "Assess how exposure changes, adaptation costs, access to benefits and potential displacement are distributed across population groups and neighbourhoods, including effects transferred beyond intervention areas.",
+          "Propagate uncertainty from physical processes, future development and social conditions through the comparison of options, identifying decisions that remain credible across plausible assumptions.",
+          "Co-design adaptation options and assessment priorities with residents, planning authorities and drainage managers, providing accessible ways for underrepresented groups to participate.",
+          "Compare findings across contrasting estuarine urban settings to identify transferable relationships and the contextual limits of applying them elsewhere."
+        ],
+        "exclusions": [
+          "Construction of permanent flood barriers; comparative assessment of such options and temporary monitoring installations remain within scope.",
+          "Routine drainage infrastructure renewal or expansion presented as the principal project activity.",
+          "Standalone flood forecasting or hazard mapping without an explicit connection to spatial planning choices and the distribution of residents’ exposure."
+        ],
+        "mandatory_elements": [
+          "Explain how resident-level data will be handled safely, covering lawful collection and use, data minimisation, controlled access, retention and deletion, and protection against re-identification in linked spatial data and published outputs.",
+          "Specify how residents’ contributions will inform option selection and interpretation, how disagreements will be recorded, and how findings will be returned to participating communities."
+        ],
+        "conditions": {
+          "max_budget": 5000000,
+          "duration_months_max": 48,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": null
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md and call.yaml, ME5 (resident-level data handling)",
+          "problem": "ME5 bundles six separate demands: lawful collection and use, data minimisation, controlled access, retention, deletion, and protection against re-identification in linked data and outputs. A reader cannot judge partial coverage. Most of these demands are implementation-level data-protection detail. In Horizon Europe that detail belongs in the ethics self-assessment and the later data management plan, not in a 10-page stage-1 Part B whose only sections are 1.1, 1.2 and 2.1. Controlled access and publication exceptions also repeat ME3, which already asks for project-specific reasons for exceptions to open practice.",
+          "fix": "Reduce ME5 to the one demand specific to this topic: \"Explain how resident-level data linked to spatial exposure estimates will be protected against re-identification of individuals or households in published maps, datasets and other outputs.\"",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md and call.yaml, ME6",
+          "problem": "ME6 bundles three demands: how residents' contributions inform option selection and interpretation, how disagreements are recorded, and how findings are returned to communities. The first demand repeats SC7 (co-design of options and assessment priorities with residents). The third overlaps EO3 (residents understand the consequences for their neighbourhoods). A grader cannot tell which part is decisive.",
+          "fix": "Keep the one element not covered elsewhere: \"Specify how disagreements among residents, planning authorities and drainage managers about adaptation options will be recorded and reflected in the comparison of options.\" Drop the other two clauses, because SC7 and EO3 already cover them.",
+          "part": "topic"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

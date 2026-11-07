@@ -1,0 +1,40 @@
+# NIH R21 under the Simplified Review Framework (2025+): Factor 1 Importance of the Research
+# (Significance, Innovation), Factor 2 Rigor and Feasibility (Approach), Factor 3 Expertise and
+# Resources (not scored). The narrative is Specific Aims plus Research Strategy.
+
+roles:
+  objectives: [aims]
+  state_of_the_art: [significance, innovation]
+  methods: [approach]
+  workplan: [approach]
+  risks: [approach]
+  team: [approach]
+  impact: [significance]
+
+items:
+  - id: NIH01
+    component: substance
+    sections: [significance]
+    taxonomy: [P07, P13]
+    question: Does the Significance section identify a specific gap or barrier and explain how scientific knowledge, methods or practice would change if the aims succeed?
+    yes: Names the gap or barrier concretely and states what would change and for whom. Quote it.
+    partial: Importance of the general area is argued, but the specific gap or the change the project would make is vague.
+    no: Absent.
+
+  - id: NIH02
+    component: substance
+    sections: [innovation]
+    taxonomy: [P06]
+    question: Does the Innovation section say concretely which concepts, approaches, methods or instruments are new, compared with what is currently used?
+    yes: Names the specific novelty and contrasts it with current practice. Quote it.
+    partial: Innovation is asserted in general terms.
+    no: Absent.
+
+  - id: NIH03
+    component: call_responsiveness
+    sections: [aims]
+    taxonomy: [P05, P10]
+    question: Does the Specific Aims page state the long-term goal, the central hypothesis or question, and a small number of focused aims with expected outcomes, in a scope suitable for a two-year exploratory award?
+    yes: All of these are present and the scope is focused. Quote the hypothesis or question.
+    partial: Some elements are missing, or the scope is too broad for an exploratory two-year award.
+    no: The aims page lacks a clear hypothesis or question and focused aims.

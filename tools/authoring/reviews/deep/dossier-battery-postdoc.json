@@ -1,0 +1,19 @@
+{
+  "kind": "dossier",
+  "id": "battery-postdoc",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read all five visible files and dossier.yaml; all carry the fictional notice and are current through 30 September 2026. Employment after the March award closure is explicitly department-funded. No undocumented conflicting fact, intentional gaps/inconsistencies or resubmission criticism key found.",
+    "Traced all 25 fact entries to their stated files, checked every non-null value literally, and matched all four own-publication entries, author orders, years, titles, venues and 10.99999/pb. DOIs. Three published papers/two first-author published papers plus one first-author preprint under review are consistent.",
+    "Recomputed EUR 52,000 + 18,000 + 10,000 + 4,000 = 84,000; six batches × three pellets = 18; six × four cells = 24; twelve cells/condition; 84.6−69.8 = 14.8 percentage points; resistance increases 54 and 135, difference 81, relative reduction 60.0%. C/10 on 180 mAh/g equals 18 mA/g. Report distinguishes cell SDs from batch-resampled CIs and discloses one coating run/one cathode lot.",
+    "Verified the 14-day Swedish and 7-day Swiss inclusive visits, zero Canadian presence, doctorate/employment sequence, current Italian residence and pending external hosting/access. Future mobility is explicitly not certified: residence_and_activity_record.md and resources_and_collaborations.md.",
+    "Scientific plausibility: millisiemens/cm Li6PS5Cl conductivity is supported by Yu et al., 2018, https://pmc.ncbi.nlm.nih.gov/articles/PMC6172600/; cathode coating, resistance-growth and multi-method interpretation are consistent with Walther et al., https://publikationen.bibliothek.kit.edu/1000131423/149459079. Magnitudes are plausible laboratory results, not independently validated data. No mechanism is improperly inferred from diffraction or aggregate impedance.",
+    "Exact-name searches returned no exact collision for Elisavra Vardessolvi, Martelvia Bellorvessi, Davrenio Nestravelli, Linnevia Sörnelqvist, Lukevan Arvenstald, Mirelvane Davenorrel; Università di Rocca Selvaronda; Sörvaskel Institute of Materials Science; Aare Veltrass Photon Facility; Prairie Velnor Light Facility; SULVERNEX; Selvaronda Research Archive; or the four journal titles in publications.md. This is search-bounded screening, not proof of worldwide uniqueness. Real places, instruments, software and licences are used as context, not invented collaborators.",
+    "Earlier automated and maintainer reviews read in tools/authoring/reviews/. Their missing-files and obsolete Swiss-status concerns do not describe this complete current bundle."
+  ]
+}

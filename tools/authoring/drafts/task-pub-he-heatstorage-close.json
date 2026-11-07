@@ -1,0 +1,178 @@
+{
+  "kind": "task",
+  "id": "pub-he-heatstorage-close",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "49744de818a4be6e74ac9a25a1326d672b7dca78326be28ab9c48177843db6e1",
+  "draft": {
+    "brief": "Hi team, here are my notes for the PB-HE-CL5-02 proposal.\n\nWe have a perfect opportunity to scale up our VAELTHES success. Let's propose three pilot sites to get the climatic diversity: our existing Fjordkøbing setup, GipfelWärme's planned site in Bergdorf, Austria, and Rijnveldehaven Housing Association's residential blocks in the Netherlands.\n\nTo meet the ≤ 55 °C supply requirement (our sites currently run at 65-75 °C), we should assess low-temperature mixing shunts and dedicated branches for the pilot zones; conversion feasibility is not yet confirmed. For Rijnveldehaven Housing Association, we will plan a shared 10,000 m3 aquifer thermal energy storage (ATES) connected to the district network serving the 5 blocks, and add planned sewage heat recovery as the second heat source alongside their local solar thermal.\n\nWe'll use VINE's ThermoNet-3D and our HiL simulator to co-optimize the storage and network hydraulics. Since our gap analysis shows we lack social science and tariff equity expertise, we must recruit a new partner with experience in energy economics and participatory workshops to lead that work package.\n\nFor the consortium, let's definitely include Torvessiq Thermik. They recently patented a novel variable-speed centrifugal compressor for industrial heat pumps. Let's give them a work package to develop and test this new compressor hardware at the pilot sites; it will be a great technical highlight and keep them engaged.\n\nRegarding the timeline, for Bergdorf, investigate whether commissioning can be brought forward from the indicative month 36, subject to site access, permitting and engineering review; keep an alternative earlier-ready district-scale site in the plan. However, since large-scale storage always faces delays, let's just ask for 54 months for the project duration to be safe and comfortably capture the required two full seasonal cycles of data.\n\nLet me know if you need anything else.",
+    "traps": [
+      {
+        "type": "T05",
+        "description": "The brief suggests giving Torvessiq Thermik a work package to \"develop and test this new compressor hardware\"; the call explicitly states that \"Development or testing of novel heat-pump compressor hardware\" is \"out of scope\" and proposals \"must not focus on compressor-level innovation.\"",
+        "expected_behaviour": "Include no development or testing of novel heat-pump compressor hardware. If heat pumps are used, use commercially available units. Torvessiq Thermik may be omitted or assigned a permissible, evidence-supported role such as control software. Assess proposed activities in sections 1.2 and 3.1, not the company's unrelated business."
+      },
+      {
+        "type": "T02",
+        "description": "The brief asks to propose a duration of \"54 months\" to be safe; the call specifies a \"Maximum duration\" of \"48 months\".",
+        "expected_behaviour": "State a duration of at most 48 months and a credible schedule for at least two full seasonal monitoring cycles at every pilot. Accept conditional acceleration, earlier commissioning, use of suitable existing installations, or replacement pilots, provided access and permissions are not misrepresented and the seasonal calendar fits. Do not require retaining Bergdorf. Assess the duration and pilot schedule in section 3.1."
+      }
+    ],
+    "method_profile": "mixed"
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hi team, here are my notes for the PB-HE-CL5-02 proposal.\n\nWe have a perfect opportunity to scale up our THERM-STORE success. Let's propose three pilot sites to get the climatic diversity the call wants: our existing Fjordkøbing setup (we can retrofit it for the new control strategies), GipfelWärme's planned site in Bergdorf, Austria, and WoonKoepel's residential blocks in Rotterdam. This covers pit and tank storage, plus multiple heat sources like solar, biomass, and waste heat.\n\nWe'll use SBUT's ThermoNet-3D and our HiL simulator to co-optimize the storage and network hydraulics. Since the call requires social science and tariff equity work—which our gap analysis shows we explicitly lack—we must recruit a new partner with expertise in energy economics and participatory workshops to lead that specific work package.\n\nFor the consortium, let's definitely include RegelTech Thermik. They recently patented a novel variable-speed centrifugal compressor for industrial heat pumps. Let's give them a work package to develop and test this new compressor hardware at the pilot sites; it will be a great technical highlight and keep them engaged.\n\nRegarding the timeline, large-scale storage always faces permitting and construction delays, as we saw in THERM-STORE. Let's ask for 54 months to be safe and ensure we can comfortably capture the required two full seasonal cycles of data.\n\nLet me know if you need anything else to get started.",
+        "traps": [
+          {
+            "description": "The brief suggests giving RegelTech Thermik a work package to \"develop and test this new compressor hardware\"; the call explicitly states that \"Development or testing of novel heat-pump compressor hardware\" is \"out of scope\" and proposals \"must not focus on compressor-level innovation.\"",
+            "expected_behaviour": "Do not include the development or testing of RegelTech's new compressor hardware; frame RegelTech's role around their predictive control software (MPC algorithms) and use only commercially available heat pumps."
+          },
+          {
+            "description": "The brief asks to propose a duration of \"54 months\" to account for delays; the call specifies a \"Maximum duration\" of \"48 months\".",
+            "expected_behaviour": "Propose a project duration of no more than 48 months, scheduling the construction, commissioning, and the two full seasonal cycles of monitoring within this limit."
+          }
+        ],
+        "method_profile": "The applicant's prior work is strictly quantitative (engineering, thermodynamic modelling, techno-economic optimization), but the call requires qualitative social-science research, household surveys, and participatory workshops for tariff equity."
+      },
+      "errors": [
+        "task does not validate: 1 validation error for Task\nmethod_profile\n  Input should be 'quantitative', 'qualitative', 'theoretical' or 'mixed' [type=enum, input_value=\"The applicant's prior wo...hops for tariff equity.\", input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/enum"
+      ]
+    },
+    {
+      "draft": {
+        "brief": "Hi team, here are my notes for the PB-HE-CL5-02 proposal.\n\nWe have a perfect opportunity to scale up our THERM-STORE success. Let's propose three pilot sites to get the climatic diversity the call wants: our existing Fjordkøbing setup (we can retrofit it for the new control strategies), GipfelWärme's planned site in Bergdorf, Austria, and WoonKoepel's residential blocks in Rotterdam. This covers pit and tank storage, plus multiple heat sources like solar, biomass, and waste heat.\n\nWe'll use SBUT's ThermoNet-3D and our HiL simulator to co-optimize the storage and network hydraulics. Since the call requires social science and tariff equity work—which our gap analysis shows we explicitly lack—we must recruit a new partner with expertise in energy economics and participatory workshops to lead that specific work package.\n\nFor the consortium, let's definitely include RegelTech Thermik. They recently patented a novel variable-speed centrifugal compressor for industrial heat pumps. Let's give them a work package to develop and test this new compressor hardware at the pilot sites; it will be a great technical highlight and keep them engaged.\n\nRegarding the timeline, large-scale storage always faces permitting and construction delays, as we saw in THERM-STORE. Let's ask for 54 months to be safe and ensure we can comfortably capture the required two full seasonal cycles of data.\n\nLet me know if you need anything else to get started.",
+        "traps": [
+          {
+            "description": "The brief suggests giving RegelTech Thermik a work package to \"develop and test this new compressor hardware\"; the call explicitly states that \"Development or testing of novel heat-pump compressor hardware\" is \"out of scope\" and proposals \"must not focus on compressor-level innovation.\"",
+            "expected_behaviour": "Do not include the development or testing of RegelTech's new compressor hardware; frame RegelTech's role around their predictive control software (MPC algorithms) and use only commercially available heat pumps."
+          },
+          {
+            "description": "The brief asks to propose a duration of \"54 months\" to account for delays; the call specifies a \"Maximum duration\" of \"48 months\".",
+            "expected_behaviour": "Propose a project duration of no more than 48 months, scheduling the construction, commissioning, and the two full seasonal cycles of monitoring within this limit."
+          }
+        ],
+        "method_profile": "mixed"
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 1; Task 2",
+          "where": "consortium.md, GipfelWärme candidate site; brief.md, pilot selection and timeline; task.yaml, T2",
+          "problem": "The requested Austrian pilot is scheduled for commissioning in month 36. Two full seasonal monitoring cycles would therefore finish around month 60, beyond the 48-month maximum. T2 expects the applicant to fit construction, commissioning and monitoring within 48 months, but the dossier provides no basis for advancing this site's commissioning by at least 12 months. Merely correcting the brief's requested duration does not produce a feasible project.",
+          "fix": "Provide a supported, explicitly conditional construction and permitting schedule allowing commissioning by month 24 with suitable seasonal alignment, or supply an alternative pilot that can meet that schedule. Update T2's expected behaviour to match the feasible route."
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 1",
+          "where": "task.yaml, fit_level; brief.md, proposed three-site configuration; prior_project.md, network integration; consortium.md, candidate site notes",
+          "problem": "The claimed close fit lacks essential information for the proposed demonstrations. The three networks operate at 65°C, 75°C and 70°C, whereas the call requires supply temperatures no higher than 55°C. The dossier provides no assessed conversion or low-temperature branch options. Rotterdam additionally has only one identified heat source and no specified storage technology, capacity or shared configuration serving multiple buildings. These are substantial infrastructure gaps beyond the explicitly acknowledged social-science recruitment need.",
+          "fix": "Add preliminary site assessments identifying feasible low-temperature configurations, the necessary modifications, indicative costs and schedules. For Rotterdam, identify a plausible second heat source and a shared district-connected storage concept. Keep unconfirmed arrangements explicitly planned, and reassess the close-fit classification against the resulting scope and budget."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "Hi team, here are my notes for the PB-HE-CL5-02 proposal.\n\nWe have a perfect opportunity to scale up our THERM-STORE success. Let's propose three pilot sites to get the climatic diversity: our existing Fjordkøbing setup, GipfelWärme's planned site in Bergdorf, Austria, and WoonKoepel's residential blocks in Rotterdam. \n\nTo meet the ≤ 55 °C supply requirement (our sites currently run at 65-75 °C), our preliminary assessments show we can install low-temperature mixing shunts and dedicated low-temp branches for the pilot zones. This will cost around €400k per site and fits the schedule. For Rotterdam, we will plan a shared 10,000 m3 aquifer thermal energy storage (ATES) connected to the district network serving the 5 blocks, and add planned sewage heat recovery as the second heat source alongside their solar thermal. \n\nFor Bergdorf, GipfelWärme just confirmed they can secure fast-track municipal permitting, advancing their commissioning schedule to month 20. \n\nWe'll use SBUT's ThermoNet-3D and our HiL simulator to co-optimize the storage and network hydraulics. Since our gap analysis shows we lack social science and tariff equity expertise, we must recruit a new partner with experience in energy economics and participatory workshops to lead that work package.\n\nFor the consortium, let's definitely include RegelTech Thermik. They recently patented a novel variable-speed centrifugal compressor for industrial heat pumps. Let's give them a work package to develop and test this new compressor hardware at the pilot sites; it will be a great technical highlight and keep them engaged.\n\nRegarding the timeline, large-scale storage always faces delays. Let's ask for 54 months to be safe and ensure we can comfortably capture the required two full seasonal cycles of data.\n\nLet me know if you need anything else.",
+        "traps": [
+          {
+            "description": "The brief suggests giving RegelTech Thermik a work package to \"develop and test this new compressor hardware\"; the call explicitly states that \"Development or testing of novel heat-pump compressor hardware\" is \"out of scope\" and proposals \"must not focus on compressor-level innovation.\"",
+            "expected_behaviour": "Do not include the development or testing of RegelTech's new compressor hardware; frame RegelTech's role around their predictive control software (MPC algorithms) and use only commercially available heat pumps."
+          },
+          {
+            "description": "The brief asks to propose a duration of \"54 months\" to account for delays; the call specifies a \"Maximum duration\" of \"48 months\".",
+            "expected_behaviour": "Propose a project duration of no more than 48 months, scheduling the construction, commissioning (including Bergdorf by month 20), and the two full seasonal cycles of monitoring within this limit."
+          }
+        ],
+        "method_profile": "mixed"
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 1; Task 2; Dossier 5",
+          "where": "brief.md, Bergdorf fast-track confirmation; consortium.md, GipfelWärme candidate site; task.yaml, T2",
+          "problem": "The brief asserts newly confirmed fast-track permitting and commissioning at month 20, while the September dossier retains unconfirmed access and permitting and month-36 commissioning. No dated update reconciles these accounts. Month 36 leaves only 12 months within the permitted project duration, making two full annual storage cycles impossible. T2 nevertheless requires month-20 commissioning as though its supporting status were settled.",
+          "fix": "Add a dated September update distinguishing confirmed commitments from proposed acceleration, reconcile the site schedule throughout the bundle, and provide a credible route to two complete cycles within 48 months. Make T2 assess the duration limit and feasible monitoring schedule without imposing month 20 as the uniquely acceptable solution."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 4",
+          "problem": "The dossier was revised (names, project acronyms, dates and figures may have changed).",
+          "fix": "Make the brief and every trap consistent with the current dossier: same names, acronyms, dates and numbers; each trap description quotes the dossier's current wording."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "Hi team, here are my notes for the PB-HE-CL5-02 proposal.\n\nWe have a perfect opportunity to scale up our THERM-STORE success. Let's propose three pilot sites to get the climatic diversity: our existing Fjordkøbing setup, GipfelWärme's planned site in Bergdorf, Austria, and WoonKoepel's residential blocks in the Netherlands.\n\nTo meet the ≤ 55 °C supply requirement (our sites currently run at 65-75 °C), our preliminary assessments show we can install low-temperature mixing shunts and dedicated low-temp branches for the pilot zones. For WoonKoepel, we will plan a shared 10,000 m3 aquifer thermal energy storage (ATES) connected to the district network serving the 5 blocks, and add planned sewage heat recovery as the second heat source alongside their local solar thermal.\n\nWe'll use SBUT's ThermoNet-3D and our HiL simulator to co-optimize the storage and network hydraulics. Since our gap analysis shows we lack social science and tariff equity expertise, we must recruit a new partner with experience in energy economics and participatory workshops to lead that work package.\n\nFor the consortium, let's definitely include RegelTech Thermik. They recently patented a novel variable-speed centrifugal compressor for industrial heat pumps. Let's give them a work package to develop and test this new compressor hardware at the pilot sites; it will be a great technical highlight and keep them engaged.\n\nRegarding the timeline, a quick September update on Bergdorf: I spoke with GipfelWärme, and while their baseline plan is month 36, they confirmed they can accelerate municipal permitting and construction to finish commissioning by month 24 if needed. However, since large-scale storage always faces delays, let's just ask for 54 months for the project duration to be safe and comfortably capture the required two full seasonal cycles of data.\n\nLet me know if you need anything else.",
+        "traps": [
+          {
+            "description": "The brief suggests giving RegelTech Thermik a work package to \"develop and test this new compressor hardware\"; the call explicitly states that \"Development or testing of novel heat-pump compressor hardware\" is \"out of scope\" and proposals \"must not focus on compressor-level innovation.\"",
+            "expected_behaviour": "Do not include the development or testing of RegelTech's new compressor hardware; frame RegelTech's role around their predictive control software (MPC algorithms) and use only commercially available heat pumps.",
+            "type": "T05"
+          },
+          {
+            "description": "The brief asks to propose a duration of \"54 months\" to be safe; the call specifies a \"Maximum duration\" of \"48 months\".",
+            "expected_behaviour": "Propose a project duration of no more than 48 months, scheduling the accelerated commissioning of Bergdorf by month 24 or earlier to allow for the required two full seasonal cycles of monitoring within the limit.",
+            "type": "T02"
+          }
+        ],
+        "method_profile": "mixed"
+      },
+      "maintainer_edit": "names renamed in the dossier after the in-depth review: RegelTech -> Torvessiq, SBUT -> VINE, THERM-STORE -> VAELTHES, WoonKoepel Rijnmond -> Rijnveldehaven Housing Association, WoonKoepel -> Rijnveldehaven Housing Association, JIT -> HITS",
+      "date": "2026-10-31"
+    },
+    {
+      "draft": {
+        "brief": "Hi team, here are my notes for the PB-HE-CL5-02 proposal.\n\nWe have a perfect opportunity to scale up our VAELTHES success. Let's propose three pilot sites to get the climatic diversity: our existing Fjordkøbing setup, GipfelWärme's planned site in Bergdorf, Austria, and Rijnveldehaven Housing Association's residential blocks in the Netherlands.\n\nTo meet the ≤ 55 °C supply requirement (our sites currently run at 65-75 °C), our preliminary assessments show we can install low-temperature mixing shunts and dedicated low-temp branches for the pilot zones. For Rijnveldehaven Housing Association, we will plan a shared 10,000 m3 aquifer thermal energy storage (ATES) connected to the district network serving the 5 blocks, and add planned sewage heat recovery as the second heat source alongside their local solar thermal.\n\nWe'll use VINE's ThermoNet-3D and our HiL simulator to co-optimize the storage and network hydraulics. Since our gap analysis shows we lack social science and tariff equity expertise, we must recruit a new partner with experience in energy economics and participatory workshops to lead that work package.\n\nFor the consortium, let's definitely include Torvessiq Thermik. They recently patented a novel variable-speed centrifugal compressor for industrial heat pumps. Let's give them a work package to develop and test this new compressor hardware at the pilot sites; it will be a great technical highlight and keep them engaged.\n\nRegarding the timeline, a quick September update on Bergdorf: I spoke with GipfelWärme, and while their baseline plan is month 36, they confirmed they can accelerate municipal permitting and construction to finish commissioning by month 24 if needed. However, since large-scale storage always faces delays, let's just ask for 54 months for the project duration to be safe and comfortably capture the required two full seasonal cycles of data.\n\nLet me know if you need anything else.",
+        "traps": [
+          {
+            "description": "The brief suggests giving Torvessiq Thermik a work package to \"develop and test this new compressor hardware\"; the call explicitly states that \"Development or testing of novel heat-pump compressor hardware\" is \"out of scope\" and proposals \"must not focus on compressor-level innovation.\"",
+            "expected_behaviour": "Do not include the development or testing of Torvessiq's new compressor hardware; frame Torvessiq's role around their predictive control software (MPC algorithms) and use only commercially available heat pumps.",
+            "type": "T05"
+          },
+          {
+            "description": "The brief asks to propose a duration of \"54 months\" to be safe; the call specifies a \"Maximum duration\" of \"48 months\".",
+            "expected_behaviour": "Propose a project duration of no more than 48 months, scheduling the accelerated commissioning of Bergdorf by month 24 or earlier to allow for the required two full seasonal cycles of monitoring within the limit.",
+            "type": "T02"
+          }
+        ],
+        "method_profile": "mixed"
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2; Task 6",
+          "where": "data/public/tasks/pub-he-heatstorage-close/task.yaml T1 expected_behaviour: 'frame RegelTech’s role around their predictive control software'; T2: 'scheduling the accelerated commissioning of Bergdorf by month 24 or earlier'.",
+          "problem": "Both conflicts are real and correctly typed, but the keys require specific repair choices that the call does not require. Dropping the compressor developer, assigning it another evidenced permissible role, or omitting heat pumps entirely can meet EX1. Replacing the late Bergdorf site with a prospective suitable site can meet the duration and monitoring conditions. The call does not require this company, these three named sites, or heat pumps at every site. A compliant alternative can therefore fail the current trap expectation.",
+          "fix": "Replace T1 expected_behaviour with: 'Include no development or testing of novel heat-pump compressor hardware. If heat pumps are used, use commercially available units. RegelTech may be omitted or assigned a permissible, evidence-supported role such as control software. Assess proposed activities in sections 1.2 and 3.1, not the company’s unrelated business.' Replace T2 with: 'State a duration of at most 48 months and a credible schedule for at least two full seasonal monitoring cycles at every pilot. Accept conditional acceleration, earlier commissioning, use of suitable existing installations, or replacement pilots, provided access and permissions are not misrepresented and the seasonal calendar fits. Do not require retaining Bergdorf. Assess the duration and pilot schedule in section 3.1.'",
+          "evidence": [
+            "data/public/tasks/pub-he-heatstorage-close/task.yaml",
+            "data/public/calls/he-cl5-heatstorage/call.md",
+            "tools/authoring/design_v2.md adopted trap rules",
+            "docs/task_review_checklist.md Task 6"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 1; Task 2; Task 4",
+          "where": "data/public/tasks/pub-he-heatstorage-close/brief.md: 'our preliminary assessments show we can install low-temperature mixing shunts' and 'they confirmed they can accelerate municipal permitting and construction to finish commissioning by month 24 if needed'.",
+          "problem": "The brief creates completed feasibility assessments and a secured acceleration assurance absent from the dossier. consortium.md retains unconfirmed access/permitting and indicative month-36 commissioning. This is not a documented intentional inconsistency, and T2 treats the brief-only assurance as the required factual solution. A model can echo the assurance to satisfy T2 yet face unsupported-applicant-fact deductions when grounding is checked against the dossier. Month 36 also leaves only 12 months for the call’s two full seasonal cycles. This is a source-of-truth conflict, not merely a difficult engineering pivot.",
+          "fix": "Replace the preliminary-assessment assertion with 'We should assess low-temperature mixing shunts and dedicated branches for the pilot zones; conversion feasibility is not yet confirmed.' Replace the claimed September confirmation with 'For Bergdorf, investigate whether commissioning can be brought forward from the indicative month 36, subject to site access, permitting and engineering review; keep an alternative earlier-ready district-scale site in the plan.' Retain the ordinary applicant suggestion to request 54 months as the planted T02 trap. Apply the alternative-accepting T2 wording in the preceding issue. The task can then be solved using a clearly prospective replacement/contingency design without inventing a past assessment or permission.",
+          "evidence": [
+            "data/public/tasks/pub-he-heatstorage-close/brief.md",
+            "data/public/tasks/pub-he-heatstorage-close/task.yaml",
+            "data/public/dossiers/nordic-dh-consortium/consortium.md",
+            "data/public/dossiers/nordic-dh-consortium/dossier.yaml",
+            "docs/scoring_spec.md §3 GR-T and §4 applicant-fact integrity"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

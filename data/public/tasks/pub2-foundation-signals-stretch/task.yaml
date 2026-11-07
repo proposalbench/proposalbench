@@ -1,0 +1,44 @@
+schema_version: 1
+id: pub2-foundation-signals-stretch
+split: public
+call_id: v2-foundation-weak-signals
+dossier_id: v2-fragmentary-music-archive-team
+fit_level: stretch
+brief: brief.md
+type: concept_note
+traps:
+- id: T1
+  type: T09
+  description: 'The brief suggests: "Leave out an explicit go/no-go decision; feasibility should become
+    obvious from the comparisons." This conflicts with the call''s mandatory requirement: "Specify the
+    evidence-based criterion for deciding, at the end of the funded project, whether to continue, redirect
+    or stop the research." The call also requires: "State a falsifiable central question and identify
+    a result or observation that would count against the proposed explanation or method."'
+  expected_behaviour: The narrative states an explicit, assessable end-of-project decision rule connecting
+    proposed evidence to continuation, redirection or stopping. The rule may be quantitative, qualitative
+    or logical, provided an evaluator can tell what observation or result would trigger the decision.
+    It may appear in any appropriate section. A baseline-improvement/false-onset threshold is one acceptable
+    example, not a requirement. A general promise to consider feasibility without an assessable condition
+    is insufficient.
+- id: T2
+  type: T05
+  description: 'The brief makes buying a EUR 28,000 overhead scanner the central first-stage activity
+    and asks that other costs fit around it. This conflicts with the call''s exclusion: "Purchase of equipment
+    costing more than EUR 20,000 per item is excluded from this fictional call." The dossier supplies
+    an alternative: "The university''s shared digitisation room has a copy stand, a digital camera, diffuse
+    lighting and a book cradle suitable for the loose leaves and supported manuscript openings used in
+    the pilot." It also states: "Their continued availability under the ordinary internal booking system
+    is confirmed in the host letter."'
+  expected_behaviour: Remove the EUR 28,000 scanner purchase from both the work plan and the foundation
+    budget. Use existing permitted images, the confirmed shared digitisation facilities, or another feasible
+    permitted alternative, and make the recovery experiments the substantive research activity. Reflect
+    that alternative in the indicative allocation, including any assumed service charges where applicable.
+    Retaining the EUR 88,000 planning target through justified reallocation or reducing the request is
+    compliant. A broad allocation using the documented cost basis is sufficient; a detailed staffing-cost
+    annex is not required. Splitting the scanner's price across budget lines does not resolve the exclusion.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 941a6774-5f35-45c2-94ab-6a55c9e6a9c7

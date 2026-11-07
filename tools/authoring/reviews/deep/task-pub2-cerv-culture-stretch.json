@@ -1,0 +1,35 @@
+{
+  "kind": "task",
+  "id": "pub2-cerv-culture-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 1; Dossier 1 (fiction across the bundle)",
+      "where": "data/public/tasks/pub2-cerv-culture-stretch/brief.md, Decisions: \"all three confirmed in writing in September\"; \"The Collège communal decides\"; \"deputy mayor’s office confirmed on 17 September\"; \"The Câmara Municipal decides in 2029\".",
+      "problem": "The notes attribute invented written commitments and future decisions to the real municipal authorities of Liège, Roubaix and Porto. These are participating organisations with claimed agreements, not harmless place references. The bundle's all-fiction requirement is violated even though the three nonprofit applicants have been renamed.",
+      "fix": "Use three explicitly fictional municipal counterparts: Commune de Clairvérive (Belgium, Liège area), Commune de Filandrecourt (France, Roubaix area), and Município de Vale Serenilho (Portugal, Porto area). Move the decision objects to a vacant municipal school, unnamed new streets/square and a vacant municipal workshop in those fictional localities, respectively. Preserve the supplied 24/17/29 September 2026 confirmation dates, written-response deadlines and 2029 decision windows, attributing them only to the fictional councils. Keep Liège/Roubaix/Porto as partner office locations and allow activities in nearby localities. State that the fictional councils hold the relevant asset/naming powers. If existing venues are used for dialogue, describe that arrangement without implying that the real city government signed it. Exact searches found no matches for these replacement municipal names.",
+      "evidence": [
+        "https://www.liege.be/fr/vie-communale/administration/telechargements/structure-generale-ville-de-liege-20240912.pdf/view",
+        "https://www.ville-roubaix.fr/municipalite/le-conseil-municipal/conseil-municipal/",
+        "https://www.cm-porto.pt/provedor-do-municipe/contactos",
+        "data/public/tasks/pub2-cerv-culture-stretch/brief.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read brief.md and task.yaml against the assigned full call and all dossier files, not only the earlier automated review. Checked checklist Tasks 1–7, tools/authoring/design_v2.md adopted second-opinion rules, docs/scoring_spec.md and docs/pitfall_taxonomy.md.",
+    "Brief dated 1 October 2026; full-proposal task, not stage1/concept_note/resubmission. No T13 or RESUB criterion is applicable. The design uses at most two traps.",
+    "Unit verdict concerns this task's own files. Call/dossier defects and identity replacements are filed once on their owning units and must be propagated before release.",
+    "T12 meets the silent-trap rule: the 15 September withdrawal appears only in ordinary dossier records; brief proposes archive-based public outputs without flagging it. The key permits screening out all six, aggregate themes only, or wholly new contributions. It does not permit manufactured existing permissions.",
+    "T10 is decidable from 84 versus 96 unique residents and the destroyed source sheets. The key accepts an explicit discrepancy, labelled range/placeholder or the uncontested 187 attendances, and does not require reconstructing an irrecoverable exact count.",
+    "Stretch is achievable: existing deliberation methods and cultural-space access can be combined with a prospective 0.5 FTE heritage specialist and resident-led interpretation. No existing professional heritage competence is claimed.",
+    "The March 2028–February 2030 project spans the listed 2029 decisions and allows feedback; the framework agreement expires 31 December 2029, so continued participation beyond then must be renewed prospectively, not asserted already secured. This dated status is in F14 and is a normal planning condition.",
+    "Twenty-four months/EUR 300,000 and 35,000 words allow all sections, heritage outputs, EU dialogue, consent handling and uncertainty reporting. The two traps can be satisfied together.",
+    "Preserve the intentionally unresolved unique-resident discrepancy during the separate dossier retention-policy correction; do not silently replace 84 or 96 with a single settled value."
+  ]
+}

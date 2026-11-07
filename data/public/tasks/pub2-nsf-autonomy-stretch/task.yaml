@@ -1,0 +1,35 @@
+schema_version: 1
+id: pub2-nsf-autonomy-stretch
+split: public
+call_id: v2-nsf-career-verified-autonomy
+dossier_id: v2-sensor-security-career-pi
+fit_level: stretch
+brief: brief.md
+traps:
+- id: T1
+  type: T11
+  description: 'The brief makes a sales-oriented indoor delivery demonstrator the centre of the project,
+    measures success through deliveries, interface polish and customer demonstrations, and postpones guarantees
+    and distributed-reliability theory to a follow-on grant. This conflicts with the call''s requirement
+    to "Develop theory, algorithms or verification methods that establish guarantees for coordination,
+    consensus, planning or control among multiple autonomous agents, or that prove limits on what any
+    method can guarantee." The call excludes "Building or procuring a robot fleet, testbed or computing
+    facility as an end in itself rather than as the means to test stated hypotheses" and requires applicants
+    to "Name the means of validating each claim: mechanised or written proof, simulation, hardware experiment
+    or field trial. State what outcome would count against the central hypothesis."'
+  expected_behaviour: The proposal makes a foundational distributed-autonomy contribution involving a
+    multi-agent guarantee, bound or analysed limit a principal objective during the award, with explicit
+    assumptions and a validation approach that identifies what would count against the central hypothesis.
+    Demonstration performance and customer interest do not substitute for that contribution. The delivery
+    scenario may serve as a validation platform or be replaced by another feasible multi-robot coordination
+    task. Theorem-led, systems-led, security-led and combined approaches are acceptable; no particular
+    algorithm, proof technique or mechanised verification is required. If formal verification is included,
+    the necessary PI training, source of expertise and verification development are described as planned
+    rather than already established. Prior replay findings are not presented as existing proofs or multi-agent
+    guarantees.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 4922562e-b3a4-4b0b-baa5-ba20ea358105

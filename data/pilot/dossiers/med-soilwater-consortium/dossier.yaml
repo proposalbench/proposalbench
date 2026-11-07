@@ -1,0 +1,63 @@
+schema_version: 1
+id: med-soilwater-consortium
+language: en
+applicant_type: consortium
+career_stage: mid_career
+disciplines: [soil science, agronomy, remote sensing, agricultural economics]
+method_profile: mixed
+country: ES
+
+files:
+  - {path: consortium.md, role: team}
+  - {path: cv_coordinator.md, role: cv}
+  - {path: prior_project.md, role: prior_project}
+  - {path: publications.md, role: publications}
+
+facts:
+  # Prior results (numbers a proposal may quote; any change is a contradiction)
+  - {id: F01, category: result, text: "Cover crops terminated by early March raised plant-available water in 0-30 cm by 11% (95% CI 6-16%) across 24 paired plots and three seasons.", value: "11%", salient: true, source: prior_project.md}
+  - {id: F02, category: result, text: "Late (mid-April) termination reduced plant-available water by 9% in the two driest seasons.", value: "9%", salient: true, source: prior_project.md}
+  - {id: F03, category: result, text: "Steady-state infiltration was 1.8 times higher under cover crop plus reduced tillage (n = 288).", value: 1.8, salient: true, source: prior_project.md}
+  - {id: F04, category: result, text: "Cereal yields fell by 14% with late termination in the 2023 drought year; no significant difference in normal years.", value: "14%", salient: true, source: prior_project.md}
+  - {id: F05, category: result, text: "Soil organic carbon in 0-30 cm was 0.31 percentage points higher after 14 years at Alcañiz.", value: 0.31, salient: false, source: prior_project.md}
+  - {id: F06, category: result, text: "Calibrated low-cost probes matched gravimetric water content with RMSE 0.028 m3 m-3.", value: 0.028, salient: true, source: prior_project.md}
+  - {id: F07, category: result, text: "9 of the 12 COVERAGUA farms kept cover crops after the project; roller-crimper cost was the main barrier.", value: 9, salient: true, source: prior_project.md}
+  - {id: F08, category: resource, text: "COVERAGUA open dataset of 3.1 million soil-moisture records under CC BY 4.0.", value: "3.1 million", salient: true, source: prior_project.md}
+  - {id: F09, category: other, text: "COVERAGUA had no economist and collected socio-economic data only informally; no gender analysis was done.", salient: true, source: prior_project.md}
+  # Grants and track record
+  - {id: F10, category: grant, text: "COVERAGUA, Spanish State Research Agency, EUR 286,000, 2021-2025, PI Arnedo Velasco.", value: 286000, salient: true, source: cv_coordinator.md}
+  - {id: F11, category: grant, text: "SUELOVIVO, regional government of Aragón, EUR 94,000, 2017-2020.", value: 94000, source: cv_coordinator.md}
+  - {id: F12, category: publication, text: "Coordinator has 31 peer-reviewed articles and h-index 17 (Scopus, October 2026).", value: 17, source: cv_coordinator.md}
+  - {id: F13, category: team, text: "Coordinator supervised 3 completed PhD theses and 2 in progress.", value: 3, source: cv_coordinator.md}
+  - {id: F14, category: other, text: "IABE was a work-package leader in one Horizon 2020 project and has never coordinated an EU project.", salient: true, source: consortium.md}
+  # Resources
+  - {id: F15, category: resource, text: "Three IABE long-term experiments at Alcañiz (cereal, 2009), Caspe (almond, 2014) and Maella (olive, 2016).", salient: true, source: consortium.md}
+  - {id: F16, category: resource, text: "96 capacitance soil moisture probes already installed.", value: 96, source: consortium.md}
+  - {id: F17, category: resource, text: "AISW has 6 years of eddy-covariance data from one olive orchard in Thessaly and an HPC allocation.", value: 6, salient: true, source: consortium.md}
+  - {id: F18, category: resource, text: "AISW runs a network of 15 olive and cotton farms for on-farm trials.", value: 15, source: consortium.md}
+  - {id: F19, category: resource, text: "UMON holds a panel survey of 410 Alentejo farms (2019-2024).", value: 410, salient: true, source: consortium.md}
+  - {id: F20, category: resource, text: "FRD coordinates 22 advisors and gives access to 40 durum wheat and olive farms on vertisols.", value: "22 advisors; 40 farms", salient: true, source: consortium.md}
+  - {id: F21, category: partner, text: "Humidea Srl irrigation scheduling apps are used on 1,200 farms in Italy and Spain; 14 employees.", value: 1200, salient: true, source: consortium.md}
+  - {id: F22, category: partner, text: "CALC has 340 member farms, 31% managed by women; 5 of the 12 COVERAGUA farms are members.", value: "340; 31%", salient: true, source: consortium.md}
+  - {id: F23, category: partner, text: "Rui Valadares Pinho advised a national CAP strategic plan working group (2022-2024).", source: consortium.md}
+  - {id: F24, category: partner, text: "Consortium partners are IABE (ES), AISW (GR), UMON (PT), FRD (IT), Humidea Srl (IT) and CALC (ES).", value: 6, salient: true, source: consortium.md}
+  # Planned (may be proposed, never claimed as existing)
+  - {id: F25, category: team, kind: planned, text: "The work plan is still open; no partner has committed person-months yet.", source: consortium.md}
+
+own_publications:
+  - {key: arnedo2024, authors: [Arnedo Velasco, Gil Abenoza, Sopena Lahoz], year: 2024, title: Cover crop termination date controls the soil water trade-off in rain-fed Mediterranean cereals, venue: Agricultural Water Management, doi: 10.99999/pb.iabe.2024.001}
+  - {key: sopena2025, authors: [Sopena Lahoz, Arnedo Velasco], year: 2025, title: Calibration of low-cost capacitance probes for farm-scale soil moisture monitoring in calcareous soils, venue: Soil Use and Management, doi: 10.99999/pb.iabe.2025.002}
+  - {key: gil2023, authors: [Gil Abenoza, Arnedo Velasco, Ibarz Cuello], year: 2023, title: "Fourteen years of reduced tillage and cover crops: soil organic carbon and infiltration in a semi-arid cereal system", venue: Geoderma Regional, doi: 10.99999/pb.iabe.2023.003}
+  - {key: arnedo2025, authors: [Arnedo Velasco, Royo Embid, Gil Abenoza], year: 2025, title: "Why farmers keep (or drop) cover crops: lessons from twelve on-farm trials in north-east Spain", venue: Agronomy for Sustainable Development, doi: 10.99999/pb.iabe.2025.004}
+  - {key: ibarz2025, authors: [Ibarz Cuello, Arnedo Velasco], year: 2025, title: "COVERAGUA: a high-frequency soil moisture dataset from paired cover-crop plots in rain-fed Mediterranean farms", venue: Data in Brief, doi: 10.99999/pb.iabe.2025.005}
+  - {key: karvounaki2023, authors: [Karvounaki, Melidonis], year: 2023, title: Downscaling Sentinel-2 soil moisture estimates for olive orchards in Thessaly, venue: Remote Sensing, doi: 10.99999/pb.aisw.2023.001}
+  - {key: valadares2024, authors: [Valadares Pinho, Moutinho Rebelo], year: 2024, title: "Who decides on the farm? Gender, succession and the uptake of eco-schemes in the Alentejo", venue: Journal of Rural Studies, doi: 10.99999/pb.umon.2024.001}
+
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: claude-opus-5-5
+  created: 2026-10-30
+  notes: Pilot dossier written from scratch; names to be collision-checked against OpenAlex.
+
+canary: PROPOSALBENCH-CANARY 2b3be913-93e1-4caf-a31f-326906ffe767

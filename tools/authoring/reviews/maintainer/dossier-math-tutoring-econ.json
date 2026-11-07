@@ -1,0 +1,40 @@
+{
+ "reviewer": "maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 7",
+   "where": "all files",
+   "problem": "The documents are not consistently current as of the benchmark's present date, 1 October 2026 (some are written as of 2024 or early 2025, leaving unexplained gaps before calls with 2027 deadlines).",
+   "fix": "Make every document current as of September 2026: update 'as of' dates, contract periods, CV entries, publication lists through 2026, statuses of submissions, reviews, ethics approvals and recruitments, keeping the same career stage and every fact the traps rely on (re-dated consistently). Keep all numbers internally consistent after the shift."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "all files",
+   "problem": "Names of people, institutions, companies, projects or journals may collide with real ones.",
+   "fix": "Replace every person name with a coined, distinctive name (no common names such as Matteo Rossi); replace every real institution, research centre, archive, company, project or journal name of the applicant's world with a fictional one; the applicant's own publications appear in fictional journals. Real funders, real places and real funding schemes stay."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "brief.md, team_resources.md, and dossier.yaml (F20)",
+   "problem": "The call's submission date is September 2027, meaning the project would start in 2028. However, the brief and dossier state that Yuna Park's postdoc appointment runs through August 2025 and that she would be 'available at the start'. This timeline is inconsistent and makes the instruction unachievable.",
+   "fix": "Shift Yuna Park's dates forward to align with a 2027 submission (e.g., appointed September 2026, funded through August 2028) in `brief.md`, `team_resources.md`, and `dossier.yaml`."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "prior_project.md",
+   "problem": "The numbers for the MathBoost programme cost and the grant amount are mathematically inconsistent. The report states there were 2,118 treatment students receiving tutoring for two years, and the per-student cost was $3,400 per year. This means the tutoring programme cost over $14.4 million (2,118 * $3,400 * 2). However, the report states 'The project was funded entirely by the Spencer Foundation' and lists the total award as $748,000. A $748K grant cannot cover a $14.4M intervention.",
+   "fix": "Clarify in `prior_project.md` that the Columbus Metropolitan School District funded the actual tutoring programme (e.g., using district or federal relief funds), while the $748,000 Spencer Foundation grant funded only the research and evaluation."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml (facts), prior_project.md, and team_resources.md",
+   "problem": "Several salient numbers and statuses from the dossier are missing from the facts registry. These include: 42 eligible schools, 38 agreed, 19 treatment, 19 control; 4,530 original enrolled students, 6.9% attrition; 14% special education, 19% English learners, 12% White, 10% other in the analytic sample; 0.26 SD for Hispanic students, 0.19 SD for Black students; 78 schools in CMSD, 13% White, 9% other in CMSD; 25 tutors in Year 2, 23 in Year 3; 3 sessions per week, 45 minutes each; 1,614 students (76% of treatment group); two doctoral research assistants available half-time; key district contact Dr. Alicia Reeves; and the specific institutional resources (LCER, Survey and Measurement Core, Office of Research Computing).",
+   "fix": "Add all these missing salient numbers and resources as facts in `dossier.yaml` with their exact values as written in the source files."
+  }
+ ]
+}

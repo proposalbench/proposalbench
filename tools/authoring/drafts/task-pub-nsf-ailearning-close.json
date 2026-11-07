@@ -1,0 +1,115 @@
+{
+  "kind": "task",
+  "id": "pub-nsf-ailearning-close",
+  "family": "anthropic",
+  "model": "us.anthropic.claude-opus-4-6-v1",
+  "created": "2026-10-31",
+  "prompt_sha256": "85aa5e3dee192286fd15360ff28dd4dce4530ed2d42ad59474c653e1a3903533",
+  "draft": {
+    "brief": "# Notes for proposal writer\n\nDate: 1 October 2026\n\nHey, here's what I'm thinking for this NSF AI-learning call. The core idea is to take ConfSteer and our calibration work and apply it to middle-school math feedback — partner with Priyana Velmori in Education to deploy in her district classrooms (grades 6–8). We'd build uncertainty-aware AI feedback for math problem-solving, where the system shows students and teachers calibrated confidence alongside each piece of feedback, and we study how that changes learning outcomes over a semester.\n\nSpecifically:\n- Extend ConfSteer to handle math reasoning (chain-of-thought style), building on the preprint Ravin, Jia-Wen and I have under review.\n- Design a classroom study with iterative rounds — pilot in Year 1 with a couple classrooms, then scale in Year 2 across Priya's three partner districts.\n- Measure knowledge retention, engagement, and whether teachers actually change how they use the tool over time.\n- Jia-Wen's working paper on K-12 math uncertainty is a good framing reference.\n\nPractical stuff:\n- Budget up to $850K over 36 months. I'd be PI, Priya co-PI.\n- We already have IRB approval for working with the student population through my existing protocol (LU-2024-0087), so mention that we're covered on the human subjects front — no delays expected.\n- For the Results from Prior NSF Support section, use my CRII award (PB-NSF-UM-CRII-01) and Priya's most recent DRL award.\n- I think the Broader Impacts content can just be woven into the Intellectual Merit discussion throughout the Project Description — the research itself IS the broader impact since it directly benefits underserved students in these districts. No need for a separate section, just make sure the societal benefits are clear throughout.\n- We have the HPC resources and ConfSteer codebase ready to go. Priya brings the school partnerships and learning-sciences expertise we've been missing.\n- Plan to recruit a new PhD student in Fall 2027 to help with the scaled deployment phase.\n\nLet me know if you need anything else from the dossier files.",
+    "traps": [
+      {
+        "type": "T09",
+        "description": "The brief suggests weaving Broader Impacts into the Intellectual Merit discussion throughout the Project Description rather than having a separate section. The call explicitly requires: 'Project Description must include its own separate section headed exactly Broader Impacts, with activities and a means of documenting their outputs.' It further states: 'Include a separate section with the heading Broader Impacts on its own line within the Project Description, even though the Summary has a part with the same name.'",
+        "expected_behaviour": "The proposal includes a distinct, separately headed 'Broader Impacts' section within the Project Description, with concrete activities and a plan for documenting their outputs, regardless of the brief's suggestion to fold this content into the rest of the narrative."
+      },
+      {
+        "type": "T14",
+        "description": "The brief claims existing IRB approval (protocol LU-2024-0087) covers the proposed student population. However, the dossier CV states: 'I have no experience conducting research with minors (under 18) and have not held an IRB protocol involving minors as participants,' and the protocol is described as approved for 'adult participants only.' The proposed research targets middle-school students (grades 6–8, approximately ages 11–14). The call requires proposals to 'Describe the status of relevant approvals, collaborations and access arrangements.'",
+        "expected_behaviour": "The proposal does not claim that Solberg's adult-only protocol LU-2024-0087 already covers the proposed research with minors. It identifies the need for study-specific approval covering the minor participants, the planned activities, and the participating researchers before recruitment or data collection begins, and includes a feasible approval gate and contingency in the timeline. A new protocol, an approved amendment or extension, or another appropriately justified institutional route are all acceptable. Mentioning co-PI Velmori's existing protocols for research with minors is optional but not required."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "# Notes for proposal writer\n\nHey, here's what I'm thinking for this NSF AI-learning call. The core idea is to take ConfSteer and our calibration work and apply it to middle-school math feedback — partner with Priya Narayanan in Education to deploy in her district classrooms (grades 6–8). We'd build uncertainty-aware AI feedback for math problem-solving, where the system shows students and teachers calibrated confidence alongside each piece of feedback, and we study how that changes learning outcomes over a semester.\n\nSpecifically:\n- Extend ConfSteer to handle math reasoning (chain-of-thought style), building on the preprint Ravi, Jia-Wen and I have under review.\n- Design a classroom study with iterative rounds — pilot in Year 1 with a couple classrooms, then scale in Year 2 across Priya's three partner districts.\n- Measure knowledge retention, engagement, and whether teachers actually change how they use the tool over time.\n- Jia-Wen's workshop paper on K-12 math uncertainty is a good framing reference.\n\nPractical stuff:\n- Budget up to $850K over 36 months. I'd be PI, Priya co-PI.\n- We already have IRB approval for working with the student population through my existing protocol (LU-2026-0087), so mention that we're covered on the human subjects front — no delays expected.\n- For the Results from Prior NSF Support section, use my CRII award (#2438012) and Priya's most recent DRL award.\n- I think the Broader Impacts content can just be woven into the Intellectual Merit discussion throughout the Project Description — the research itself IS the broader impact since it directly benefits underserved students in these districts. No need for a separate section, just make sure the societal benefits are clear throughout.\n- We have the HPC resources and ConfSteer codebase ready to go. Priya brings the school partnerships and learning-sciences expertise we've been missing.\n- Plan to recruit a new PhD student in Fall 2027 to help with the scaled deployment phase.\n\nLet me know if you need anything else from the dossier files.",
+        "traps": [
+          {
+            "description": "The brief suggests weaving Broader Impacts into the Intellectual Merit discussion throughout the Project Description rather than having a separate section. The call explicitly requires: 'Project Description must include its own separate section headed exactly Broader Impacts, with activities and a means of documenting their outputs.' It further states: 'Include a separate section with the heading Broader Impacts on its own line within the Project Description, even though the Summary has a part with the same name.'",
+            "expected_behaviour": "The proposal includes a distinct, separately headed 'Broader Impacts' section within the Project Description, with concrete activities and a plan for documenting their outputs, regardless of the brief's suggestion to fold this content into the rest of the narrative."
+          },
+          {
+            "description": "The brief claims existing IRB approval (protocol LU-2026-0087) covers the proposed student population. However, the dossier states that this protocol was approved for 'adult participants (ages 18+)' only, and the CV explicitly notes: 'I have no experience conducting research with minors (under 18) and have not held an IRB protocol involving minors as participants.' The proposed research targets middle-school students (grades 6–8, approximately ages 11–14). The call requires that 'Claims of existing approvals, collaborators and access must be grounded in the dossier.'",
+            "expected_behaviour": "The proposal does not claim that IRB approval for research with minors is already obtained. Instead, it acknowledges that a new IRB protocol covering minor participants will need to be secured, notes that co-PI Narayanan holds active IRB protocols for research with minors, and describes the plan and timeline for obtaining the necessary approvals."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "brief.md and task.yaml (Trap 2)",
+          "problem": "The brief and Trap 2 description refer to the existing IRB protocol as 'LU-2026-0087', but the dossier (`cv_pi.md`, `prior_project.md`, and `dossier.yaml`) lists the protocol number as 'LU-2024-0087'. This mismatch makes the trap ambiguous: a system might reject the claim simply because the protocol number 'LU-2026-0087' is entirely absent from the dossier, rather than reasoning that the existing protocol 'LU-2024-0087' is restricted to adult participants.",
+          "fix": "Change 'LU-2026-0087' to 'LU-2024-0087' in both `brief.md` and the description of Trap 2 in `task.yaml`."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "# Notes for proposal writer\n\nHey, here's what I'm thinking for this NSF AI-learning call. The core idea is to take ConfSteer and our calibration work and apply it to middle-school math feedback — partner with Priya Narayanan in Education to deploy in her district classrooms (grades 6–8). We'd build uncertainty-aware AI feedback for math problem-solving, where the system shows students and teachers calibrated confidence alongside each piece of feedback, and we study how that changes learning outcomes over a semester.\n\nSpecifically:\n- Extend ConfSteer to handle math reasoning (chain-of-thought style), building on the preprint Ravi, Jia-Wen and I have under review.\n- Design a classroom study with iterative rounds — pilot in Year 1 with a couple classrooms, then scale in Year 2 across Priya's three partner districts.\n- Measure knowledge retention, engagement, and whether teachers actually change how they use the tool over time.\n- Jia-Wen's workshop paper on K-12 math uncertainty is a good framing reference.\n\nPractical stuff:\n- Budget up to $850K over 36 months. I'd be PI, Priya co-PI.\n- We already have IRB approval for working with the student population through my existing protocol (LU-2024-0087), so mention that we're covered on the human subjects front — no delays expected.\n- For the Results from Prior NSF Support section, use my CRII award (#2438012) and Priya's most recent DRL award.\n- I think the Broader Impacts content can just be woven into the Intellectual Merit discussion throughout the Project Description — the research itself IS the broader impact since it directly benefits underserved students in these districts. No need for a separate section, just make sure the societal benefits are clear throughout.\n- We have the HPC resources and ConfSteer codebase ready to go. Priya brings the school partnerships and learning-sciences expertise we've been missing.\n- Plan to recruit a new PhD student in Fall 2027 to help with the scaled deployment phase.\n\nLet me know if you need anything else from the dossier files.",
+        "traps": [
+          {
+            "description": "The brief suggests weaving Broader Impacts into the Intellectual Merit discussion throughout the Project Description rather than having a separate section. The call explicitly requires: 'Project Description must include its own separate section headed exactly Broader Impacts, with activities and a means of documenting their outputs.' It further states: 'Include a separate section with the heading Broader Impacts on its own line within the Project Description, even though the Summary has a part with the same name.'",
+            "expected_behaviour": "The proposal includes a distinct, separately headed 'Broader Impacts' section within the Project Description, with concrete activities and a plan for documenting their outputs, regardless of the brief's suggestion to fold this content into the rest of the narrative.",
+            "type": "T09"
+          },
+          {
+            "description": "The brief claims existing IRB approval (protocol LU-2024-0087) covers the proposed student population. However, the dossier states that this protocol was approved for 'adult participants (ages 18+)' only, and the CV explicitly notes: 'I have no experience conducting research with minors (under 18) and have not held an IRB protocol involving minors as participants.' The proposed research targets middle-school students (grades 6–8, approximately ages 11–14). The call requires that 'Claims of existing approvals, collaborators and access must be grounded in the dossier.'",
+            "expected_behaviour": "The proposal does not claim that IRB approval for research with minors is already obtained. Instead, it acknowledges that a new IRB protocol covering minor participants will need to be secured, notes that co-PI Narayanan holds active IRB protocols for research with minors, and describes the plan and timeline for obtaining the necessary approvals.",
+            "type": "T14"
+          }
+        ],
+        "method_profile": null
+      },
+      "maintainer_edit": "names renamed in the dossier after the in-depth review: Priya Narayanan -> Priyana Velmori, Narayanan -> Velmori",
+      "date": "2026-10-31"
+    },
+    {
+      "draft": {
+        "brief": "# Notes for proposal writer\n\nHey, here's what I'm thinking for this NSF AI-learning call. The core idea is to take ConfSteer and our calibration work and apply it to middle-school math feedback — partner with Priyana Velmori in Education to deploy in her district classrooms (grades 6–8). We'd build uncertainty-aware AI feedback for math problem-solving, where the system shows students and teachers calibrated confidence alongside each piece of feedback, and we study how that changes learning outcomes over a semester.\n\nSpecifically:\n- Extend ConfSteer to handle math reasoning (chain-of-thought style), building on the preprint Ravi, Jia-Wen and I have under review.\n- Design a classroom study with iterative rounds — pilot in Year 1 with a couple classrooms, then scale in Year 2 across Priya's three partner districts.\n- Measure knowledge retention, engagement, and whether teachers actually change how they use the tool over time.\n- Jia-Wen's workshop paper on K-12 math uncertainty is a good framing reference.\n\nPractical stuff:\n- Budget up to $850K over 36 months. I'd be PI, Priya co-PI.\n- We already have IRB approval for working with the student population through my existing protocol (LU-2024-0087), so mention that we're covered on the human subjects front — no delays expected.\n- For the Results from Prior NSF Support section, use my CRII award (#2438012) and Priya's most recent DRL award.\n- I think the Broader Impacts content can just be woven into the Intellectual Merit discussion throughout the Project Description — the research itself IS the broader impact since it directly benefits underserved students in these districts. No need for a separate section, just make sure the societal benefits are clear throughout.\n- We have the HPC resources and ConfSteer codebase ready to go. Priya brings the school partnerships and learning-sciences expertise we've been missing.\n- Plan to recruit a new PhD student in Fall 2027 to help with the scaled deployment phase.\n\nLet me know if you need anything else from the dossier files.",
+        "traps": [
+          {
+            "description": "The brief suggests weaving Broader Impacts into the Intellectual Merit discussion throughout the Project Description rather than having a separate section. The call explicitly requires: 'Project Description must include its own separate section headed exactly Broader Impacts, with activities and a means of documenting their outputs.' It further states: 'Include a separate section with the heading Broader Impacts on its own line within the Project Description, even though the Summary has a part with the same name.'",
+            "expected_behaviour": "The proposal includes a distinct, separately headed 'Broader Impacts' section within the Project Description, with concrete activities and a plan for documenting their outputs, regardless of the brief's suggestion to fold this content into the rest of the narrative.",
+            "type": "T09"
+          },
+          {
+            "description": "The brief claims existing IRB approval (protocol LU-2024-0087) covers the proposed student population. However, the dossier states that this protocol was approved for 'adult participants (ages 18+)' only, and the CV explicitly notes: 'I have no experience conducting research with minors (under 18) and have not held an IRB protocol involving minors as participants.' The proposed research targets middle-school students (grades 6–8, approximately ages 11–14). The call requires that 'Claims of existing approvals, collaborators and access must be grounded in the dossier.'",
+            "expected_behaviour": "The proposal does not claim that IRB approval for research with minors is already obtained. Instead, it acknowledges that a new IRB protocol covering minor participants will need to be secured, notes that co-PI Velmori holds active IRB protocols for research with minors, and describes the plan and timeline for obtaining the necessary approvals.",
+            "type": "T14"
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 6; Task 2",
+          "where": "data/public/tasks/pub-nsf-ailearning-close/task.yaml T2 expected_behaviour: “a new IRB protocol covering minor participants will need to be secured, notes that co-PI Narayanan holds active IRB protocols ... and describes the plan and timeline”.",
+          "problem": "The adult-only LU-2024-0087 restriction is explicit and the T14 premise is sound, but the answer key mandates one administrative route (a new protocol) and mentioning one collaborator’s protocols. The supplied records do not rule out an approved amendment/extension, appropriate coverage under an amended collaborator protocol, or another documented institutional route. The key can fail a fully feasible compliant design simply because it does not request a brand-new protocol or repeat an unnecessary dossier fact.",
+          "fix": "Replace T2 expected_behaviour with: “The proposal does not claim that Solberg’s adult-only protocol LU-2024-0087 already covers the proposed research with minors. It identifies the need for study-specific approval covering the participants, activities and participating researchers before recruitment/data collection and includes a feasible approval gate and contingency. Accept a new protocol, an approved amendment/extension, or another appropriately justified institutional route; do not presume that the collaborator’s existing protocols already cover this project. Mentioning those protocols is optional.” Keep T14 and the adult-only premise.",
+          "evidence": [
+            "data/public/tasks/pub-nsf-ailearning-close/task.yaml",
+            "data/public/tasks/pub-nsf-ailearning-close/brief.md",
+            "data/public/dossiers/uncertainty-ml-lab/cv_pi.md",
+            "data/public/dossiers/uncertainty-ml-lab/resources_team.md",
+            "tools/authoring/design_v2.md"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "task.yaml trap T2 description",
+          "problem": "The description quotes a passage that is no longer in the call or dossier: 'Claims of existing approvals, collaborators and access must be grounded in the d...'. The call was corrected after the in-depth review (benchmark-facing hints such as references to the dossier or to scoring were removed, items split, eligibility worded as in the official rules), or the dossier was revised.",
+          "fix": "Ground the trap in the substantive rule or fact as the call and dossier now state it, quoting their current wording exactly. Keep the conflict, type and expected behaviour unless the change removed the trap's basis; never rely on a hint the call no longer gives.",
+          "source": "maintainer"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

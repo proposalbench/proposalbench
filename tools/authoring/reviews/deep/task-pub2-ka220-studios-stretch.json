@@ -1,0 +1,20 @@
+{
+  "kind": "task",
+  "id": "pub2-ka220-studios-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read brief.md and task.yaml against the assigned full call and all dossier files, not only the earlier automated review. Checked checklist Tasks 1–7, tools/authoring/design_v2.md adopted second-opinion rules, docs/scoring_spec.md and docs/pitfall_taxonomy.md.",
+    "Brief dated 1 October 2026; full-proposal task, not stage1/concept_note/resubmission. No T13 or RESUB criterion is applicable. The design uses at most two traps.",
+    "Unit verdict concerns this task's own files. Call/dossier defects and identity replacements are filed once on their owning units and must be propagated before release.",
+    "T04 accurately identifies the impossibility of replacing the Slovenian legal entity/country with a second Spanish faculty. The key accepts retaining Slovenia or a prospective eligible third-country organisation and does not require claiming an existing replacement agreement.",
+    "T10 correctly rejects treating 0.24 SD as a proven effect in all 120 students. Source gives 96 paired cases, 24 missing, 95% CI 0.05–0.43 and an uncontrolled/nonrandomised design. The key also permits omitting the numerical effectiveness claim, so it does not force unnecessary detail.",
+    "Stretch is achievable through accessible collaborative small-group studios with the existing arts educator, planned audiodescription training and revised pedagogy; external placements may be secured prospectively. Existing seminar infrastructure alone is not already an accessible studio model.",
+    "EUR 400,000 and 36 months fall within the call; the applicant must still supply a total cost above the grant and additional contributions. All required narrative sections and a conditional capacity-building plan fit the 6,000-word ceiling.",
+    "Spanish applicant notes/dossier are deliberate under the English proposal call. No unregistered contradiction or third concealed trap was identified in this task."
+  ]
+}

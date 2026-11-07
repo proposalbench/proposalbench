@@ -1,0 +1,73 @@
+schema_version: 1
+id: quenwick-persistence
+language: en
+applicant_type: individual
+career_stage: early_career
+disciplines: [microbiology, infectious disease, quantitative microscopy]
+method_profile: quantitative
+country: US
+
+files:
+  - {path: cv_pi.md, role: cv}
+  - {path: prior_work.md, role: prior_project}
+  - {path: publications.md, role: publications}
+  - {path: resources.md, role: resources}
+  - {path: personnel.md, role: team}
+
+facts:
+  - {id: F01, category: identity, text: The PI is Veylora Quenwick., value: Veylora Quenwick, salient: true, source: cv_pi.md}
+  - {id: F02, category: position, text: The PI has been an assistant professor at the fictional North Carolina institute since September 2023., value: 'Assistant Professor of Microbial Systems at Bellwether Reach Biomedical Institute, North Carolina, since September 2023.', salient: true, source: cv_pi.md}
+  - {id: F03, category: education, text: The PI earned a microbiology PhD in 2018 at Copperfen University in Oregon., value: 'PhD in Microbiology, Copperfen University, Oregon', salient: false, source: cv_pi.md}
+  - {id: F04, category: grant, text: RESET-LAG was an internal USD 38000 seed award during 2024–2025., value: 'USD 38,000, January 2024–December 2025.', salient: true, source: cv_pi.md}
+  - {id: F05, category: other, text: The PI has not previously held an NIH research project award as PI., value: No previous NIH research project award as PI., salient: true, source: cv_pi.md}
+  - {id: F06, category: result, text: The pilot used twelve independent broth cultures with six per isolate; technical duplicates do not add independent cultures., value: 12 independent broth cultures, salient: true, source: prior_work.md}
+  - {id: F07, category: result, text: PB-SA01 had median culturable survival of 0.08 percent with culture range 0.03–0.19 percent., value: '0.08% for PB-SA01 (culture range 0.03–0.19%)', salient: true, source: prior_work.md}
+  - {id: F08, category: result, text: PB-SA02 had median culturable survival of 0.21 percent with culture range 0.06–0.45 percent., value: '0.21% for PB-SA02 (0.06–0.45%)', salient: true, source: prior_work.md}
+  - {id: F09, category: result, text: Eight sampled survivor-derived colonies retained parental MIC after regrowth within assay resolution; this does not classify every survivor., value: 'Eight survivor-derived colonies, four from each isolate', salient: true, source: prior_work.md}
+  - {id: F10, category: result, text: Held-out object detection used 2400 annotated objects from four independent cultures; objects are not independent biological replicates., value: '2,400 manually annotated bacterial objects', salient: true, source: prior_work.md}
+  - {id: F11, category: result, text: Detection precision was 0.91 and recall 0.87 in retained broth image fields., value: '0.91 and recall was 0.87', salient: true, source: prior_work.md}
+  - {id: F12, category: result, text: Eighteen percent of post-exposure fields were flagged for manual review and excluded from reported detection performance., value: '18% of post-exposure image fields', salient: true, source: prior_work.md}
+  - {id: F13, category: other, text: The prior project did not include host cells or in vivo work., value: 'No macrophages, primary donor cells, animal infections, or patient samples were studied.', salient: true, source: prior_work.md}
+  - {id: F14, category: resource, text: The held-out image collection is available internally but has not been publicly released., value: 480 annotated image fields, salient: false, source: prior_work.md}
+  - {id: F15, category: resource, text: The current confocal allocation reserves six hours per week and does not include unlimited prepaid usage., value: 6 reserved hours per week, salient: true, source: resources.md}
+  - {id: F16, category: resource, text: Tessivar has an existing authenticated THP-1 bank with agreed internal sharing., value: authenticated THP-1 cell bank, salient: true, source: resources.md}
+  - {id: F17, category: resource, text: Primary monocytes from eight adult donors are only a planning option with no purchased or reserved lots., value: 'Primary human monocytes from 8 adult donors are a planning option, not material in hand.', kind: planned, salient: true, source: resources.md}
+  - {id: F18, category: team, text: Startup support already funds a quarter-time technician allocation through December 2028., value: 0.25 FTE of Pelvyn Norquill through December 2028, salient: true, source: resources.md}
+  - {id: F19, category: team, text: A half-time additional assistant would be recruited only if funded., value: An additional 0.50 FTE research assistant is a proposed hire contingent on funding., kind: planned, salient: true, source: resources.md}
+  - {id: F20, category: partner, text: Tessivar contributes host-cell expertise but this collaboration has no joint pilot data or publications., value: This is the first Quenwick–Tessivar project, salient: true, source: personnel.md}
+  - {id: F21, category: team, text: Malvory contributes analysis of clustered observations and measurement error., value: 'clustered observations, resampling, and measurement', salient: true, source: personnel.md}
+  - {id: F22, category: other, text: A biosafety amendment for infected mammalian-cell work is not yet submitted., value: The amendment has not been submitted., salient: true, source: resources.md}
+  - {id: F23, category: resource, text: Intracellular LC-MS antibiotic quantification has not been established or contracted., value: no validated assay or service agreement, salient: true, source: resources.md}
+  - {id: F24, category: publication, text: The 2025 RESET-LAG paper is a fictional own publication with a reserved DOI., value: 10.99999/pb.quenwick.2025.002, salient: true, source: publications.md}
+
+own_publications:
+  - key: quenwick2022
+    authors: [Veylora Quenwick, Zedrien Malvory]
+    year: 2022
+    title: Separating aggregate counts from cell counts in bacterial recovery images
+    venue: Journal of Quantitative Microbial Observation
+    doi: 10.99999/pb.quenwick.2022.001
+  - key: quenwick2025
+    authors: [Veylora Quenwick, Pelvyn Norquill, Zedrien Malvory]
+    year: 2025
+    title: Descriptive antibiotic-survival measurements in two susceptible Staphylococcus aureus isolates
+    venue: Exploratory Microbial Measurement
+    doi: 10.99999/pb.quenwick.2025.002
+  - key: malvory2025
+    authors: [Zedrien Malvory, Veylora Quenwick]
+    year: 2025
+    title: Culture-level uncertainty in microscopy assays with clustered bacterial objects
+    venue: Methods in Replicate-Aware Bioscience
+    doi: 10.99999/pb.quenwick.2025.003
+
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: 2026-10-30
+  notes: >-
+    Original fictional dossier. People, institutions, publications and results are invented.
+    Exact-name web searches found no matches for the four people or three institutions;
+    this is not an exhaustive identity clearance. Biology is grounded in real research.
+
+canary: PROPOSALBENCH-CANARY a5cb99aa-1eb1-47d5-9311-ec0e5c4d6c94

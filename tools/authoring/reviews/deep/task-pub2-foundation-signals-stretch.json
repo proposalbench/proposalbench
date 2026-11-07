@@ -1,0 +1,45 @@
+{
+  "kind": "task",
+  "id": "pub2-foundation-signals-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Task 2; Task 3",
+      "where": "brief.md: “Our documentation does not specify the performance medium or texture ... do not assume sung text”; “current staff costs, the applicable indirect-cost basis, adviser fees and any internal digitisation charges still need confirmation”; task.yaml T2: “does not require an unstated institutional rate”.",
+      "problem": "These statements were left behind after the dossier was repaired. It now expressly identifies all 24 recordings as unaccompanied solo singing with text and states that onset references do not exist. It also supplies the 15% overhead rate, monthly staff costs and EUR 30/45/75 service tariffs. Asking the writer to treat supplied facts as missing introduces unregistered contradictions beyond the two intended traps and can encourage invented costs or an inappropriate onset definition.",
+      "fix": "Replace the recording sentences with: “Our 24 examples are unaccompanied solo singing with underlaid text. There are no reference onset annotations yet. Start by checking which vocal note attacks can be identified reliably and create checked annotations, retaining ambiguous attacks as uncertain.” Replace the finance sentences with: “Use the current staff costs, 15% indirect-cost basis and internal tariffs in the facilities statement; proposed effort and service hours remain planning estimates.” In T2 remove “unstated institutional rate” and say: “A broad allocation using the documented cost basis is sufficient; a detailed staffing-cost annex is not required.” Preserve both the scanner suggestion and omitted-decision suggestion as the intended traps.",
+      "evidence": [
+        "data/public/tasks/pub2-foundation-signals-stretch/brief.md",
+        "data/public/tasks/pub2-foundation-signals-stretch/task.yaml",
+        "data/public/dossiers/v2-fragmentary-music-archive-team/prior_project.md",
+        "data/public/dossiers/v2-fragmentary-music-archive-team/resources_and_permissions.md",
+        "data/public/dossiers/v2-fragmentary-music-archive-team/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml T1.expected_behaviour: “in the Approach, with a measurable threshold”; “Any feasible criterion that specifies the evidence, measurable threshold and resulting research decision”.",
+      "problem": "ME3 requires an evidence-based continuation/redirection/stopping criterion; ME5 requires falsifiability. Neither imposes a numerical threshold or exclusive section location. A clear logical condition (for example, stopping historical interpretation if equally compatible missing-segment reconstructions imply contradictory onset patterns) can be falsifiable and decision-relevant without a numerical cutoff. A criterion in Aims can also satisfy the call. The current key narrows compliant designs beyond the visible rule.",
+      "fix": "Use: “The narrative states an explicit, assessable end-of-project decision rule connecting proposed evidence to continuation, redirection or stopping. The rule may be quantitative, qualitative or logical, provided an evaluator can tell what observation or result would trigger the decision. It may appear in any appropriate section. A baseline-improvement/false-onset threshold is one acceptable example, not a requirement. A general promise to consider feasibility without an assessable condition is insufficient.”",
+      "evidence": [
+        "data/public/tasks/pub2-foundation-signals-stretch/task.yaml",
+        "data/public/calls/v2-foundation-weak-signals/call.md",
+        "docs/task_review_checklist.md",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "T09 missing-decision and T05 excluded-equipment types are correct; exactly two traps, with ordinary suggestions in the 1 October brief. Their source rules are visible and the scanner costs EUR 28,000 versus the per-item EUR 20,000 exclusion.",
+    "Scanner workaround is documented: existing images or shared camera/copy-stand facilities. The recovery study can remain central without buying the scanner. Staff/adviser allocation can be indicative and use documented rates; EUR 88,000 total over 18 months is feasible for partial effort.",
+    "Stretch is achievable with existing 24 licensed recordings/eight performer clusters, annotation creation, controlled missingness, baseline comparison and planned statistical support. Dossier does not claim existing onset ground truth or successful recovery.",
+    "Secondary research and synthetic masking are permitted by documented agreements; no new participants/archives are needed. Original audio is a reference for modern performance, not historical authenticity. Literature corroborates audio inpainting feasibility: https://arxiv.org/abs/2206.13768.",
+    "Six-section concept note can cover all requirements within 1,500 words. No resubmission or silent trap is present. Dossier chronology ambiguity is separately recorded there."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+ "reviewer": "task review",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml: T2 expected_behaviour",
+   "problem": "The requirement that the proposal 'does not mention using parish registers' can reject a correct proposal that explicitly discusses and rejects the applicant's suggestion. The suggested alternative also changes the question: marriage contracts can inform dowries and economic status, but do not by themselves establish an exact date of widowhood. The expected behaviour does not clearly distinguish rejecting an unsupported source strategy from abandoning the demographic question.",
+   "fix": "Require the proposal to reject reliance on systematic parish registers for the specified corpus, while permitting explicit discussion of that limitation. Require a qualified strategy using available notarial evidence, with uncertain or interval-censored widowhood dates where necessary; do not treat marriage contracts as automatically establishing widowhood dates."
+  },
+  {
+   "severity": "major",
+   "checklist": "Task 2; Dossier 5",
+   "where": "informe_proyecto_previo.md §3.1 and task.yaml: T2",
+   "problem": "The source statement concerns the prior notarial study, whereas the proposed project extends to several regions. It states that systematic parish registers are absent, which is narrower than establishing that no potentially relevant parish material exists anywhere in the expanded geography. The trap turns this into a categorical prohibition without supplying a geographically defined source assessment.",
+   "fix": "State the source limitation for the proposed regions and period explicitly, or narrow the expected behaviour to rejecting the proposed systematic linkage and promise of exact widowhood dates. Allow verification of exceptional surviving material as planned exploratory work."
+  },
+  {
+   "severity": "major",
+   "checklist": "Task 1; Task 3",
+   "where": "brief.md: 'contrataremos a Dídac como postdoc en cuanto lea la tesis en enero'; equipo_y_recursos.md: future-project funding",
+   "problem": "The brief schedules the postdoctoral appointment immediately after the anticipated January 2027 defence, but the proposed funding application is not due until March 2027. No funding for an appointment before the award is identified. The instruction therefore cannot be implemented as written using the stated resources.",
+   "fix": "Make the appointment conditional on both successful defence and the start of the awarded project. If immediate January recruitment is essential, document a separate secured funding source and its duration."
+  }
+ ]
+}

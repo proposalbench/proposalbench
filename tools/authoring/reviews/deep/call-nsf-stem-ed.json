@@ -1,0 +1,45 @@
+{
+  "kind": "call",
+  "id": "nsf-stem-ed",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "data/public/calls/nsf-stem-ed/call.md, eligibility: “The lead must be a US institution of higher education or a US nonprofit research organisation”; call.yaml, eligibility.consortium.notes: “organisations eligible under the PAPPG (for example US institutions of higher education and non-profit research organisations)”.",
+      "problem": "The visible categories are exhaustive, but the hidden key treats them as examples of the broader PAPPG eligibility universe. A proposal led by another PAPPG-eligible organisation can satisfy the key while violating the visible fictional restriction. The restriction itself is explicitly fictional and is allowed by the current checklist; the defect is the mismatch.",
+      "fix": "Replace eligibility.consortium.notes with: “The lead must be a US institution of higher education or a US nonprofit research organisation. This is an invented restriction for this solicitation. A multi-organisation consortium is not mandatory.” Retain the existing Markdown eligibility paragraph.",
+      "evidence": [
+        "data/public/calls/nsf-stem-ed/call.md",
+        "data/public/calls/nsf-stem-ed/call.yaml",
+        "docs/task_review_checklist.md#call"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "data/public/calls/nsf-stem-ed/call.md: “Claims of existing approvals, collaborators and access must be grounded in the dossier”; ME3: “using only dossier-supported award facts”; prior support: “never relabel non-NSF support as NSF-funded”; merit review: “ProposalBench's scoring components are distinct from these official criteria.”",
+      "problem": "The funder-facing text explicitly names the dossier and scoring, and supplies an answer to the planted non-NSF-funding trap. This violates Call 6 independently of the permitted fictional-call notice and word-limit adaptation. The warnings particularly cue both MathBoost tasks. The same dossier wording is embedded in hidden ME3.",
+      "fix": "Delete the sentence about ProposalBench scoring. Replace the resource warning with “Explain the necessary people, facilities and access arrangements.” Replace the approval sentence with “Describe the status of relevant approvals, collaborations and access arrangements.” In ME3 replace “using only dossier-supported award facts” with “with award details and results”. In the prior-support paragraph replace “or a dossier-supported statement that none were produced” with “or a statement that none were produced”, and replace “If the dossier lacks facts, identify the gap; never relabel non-NSF support as NSF-funded” with “Identify any award-reporting details still to be confirmed.” Keep the NSF-only heading and genuine reporting trigger. Mirror ME3 in YAML and refresh task descriptions that quote the removed wording, without changing their substantive conflicts.",
+      "evidence": [
+        "data/public/calls/nsf-stem-ed/call.md",
+        "data/public/calls/nsf-stem-ed/call.yaml",
+        "docs/task_review_checklist.md#call",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read the complete rendered call, hidden key and tools/authoring/schemes/nsf.yaml; compared every EO/SC/EX/ME text after whitespace normalization. All list entries match; eligibility is the exception reported above.",
+    "NSF currently identifies 24-1 as operative, with Supplements 1 and 2; successor guidance remains a draft: https://www.nsf.gov/policies/pappg ; https://www.nsf.gov/policies/document/pappg24-1-supplement-1 ; https://www.nsf.gov/policies/document/pappg24-1-supplement-2 . This verifies current policy, not unknown future changes before September 2027.",
+    "Verified Summary/Description/prior-support page allowances, separate Broader Impacts, URL/appendix restrictions and the prior-support end-date/current-funding trigger against https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation. The previous automated recommendation to use award START dates is incorrect and is not adopted.",
+    "Verified the two merit criteria and five review considerations, without numerical weights or thresholds: https://www.nsf.gov/policies/pappg/24-1/ch-3-proposal-processing-review. Separate budget and supplementary submissions are expressly excluded from the benchmark narrative.",
+    "The 600/9000/3000 nested word limits, combined 9600 ceiling and zero tolerance agree across files and are labelled adaptations; no already-corrected template issue is reported.",
+    "Topic codes, submission date, budget and duration are explicitly fictional; no real topic identifier or officer is used. Both dossiers can meet the narrative requirements within the available space, with planned expertise/access and explicitly disclosed missing award details where needed.",
+    "USD 1,500,000 total including indirect costs and 48 months agree. Fundamental STEM-learning mechanisms and this scale are plausible against ECR:Core Level II: https://www.nsf.gov/funding/opportunities/ecrcore-edu-core-research/nsf21-588/solicitation . The newer STEM K-12 programme has smaller typical awards, but this fictional general NSF call does not claim to be that solicitation. Checked 4 outcomes, 6 scope items, 5 exclusions and 7 mandatory elements for feasibility and checkability."
+  ]
+}

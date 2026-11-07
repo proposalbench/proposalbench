@@ -1,0 +1,295 @@
+schema_version: 1
+id: v2-multilingual-practicum-alliance
+language: es
+applicant_type: consortium
+career_stage: mid_career
+disciplines:
+- lingüística aplicada
+- educación superior
+- evaluación del aprendizaje
+method_profile: mixed
+country: ES
+files:
+- path: cv_coordinador.md
+  role: cv
+- path: consorcio_alianza.md
+  role: other
+- path: informe_piloto_2024_25.md
+  role: prior_project
+- path: equipo_y_recursos.md
+  role: team
+- path: publicaciones.md
+  role: publications
+facts:
+- id: F01
+  category: partner
+  kind: existing
+  text: El consorcio está formado por tres instituciones de educación superior independientes en España,
+    Portugal y Eslovenia.
+  value: tres
+  salient: true
+  source: consorcio_alianza.md
+- id: F02
+  category: partner
+  kind: existing
+  text: Las tres instituciones son titulares de la Carta Erasmus de Educación Superior (ECHE) en vigor.
+  value: null
+  salient: true
+  source: consorcio_alianza.md
+- id: F03
+  category: partner
+  kind: existing
+  text: Las tres instituciones de educación superior han existido desde antes de 2018.
+  value: '2018'
+  salient: true
+  source: consorcio_alianza.md
+- id: F04
+  category: identity
+  kind: existing
+  text: La Universidad Pública de Valdencira fue fundada en 1992 y es una institución pública e independiente.
+  value: '1992'
+  salient: true
+  source: consorcio_alianza.md
+- id: F05
+  category: identity
+  kind: existing
+  text: El Instituto Superior de Estudos do Mondego fue fundado en 2001 y es una institución independiente.
+  value: '2001'
+  salient: true
+  source: consorcio_alianza.md
+- id: F06
+  category: identity
+  kind: existing
+  text: La Univerza v Savinjski Dolini fue fundada en 2006 y es una institución pública e independiente.
+  value: '2006'
+  salient: true
+  source: consorcio_alianza.md
+- id: F07
+  category: partner
+  kind: existing
+  text: La Facultad de Lingüística Aplicada y la Facultad de Ciencias de la Educación operan como departamentos
+    internos de la UVD, sin personalidad jurídica propia.
+  value: null
+  salient: true
+  source: consorcio_alianza.md
+- id: F08
+  category: partner
+  kind: existing
+  text: No contamos con acuerdos previos ni capacidad operativa conjunta con instituciones de otros países
+    que pudieran integrarse a corto plazo.
+  value: null
+  salient: true
+  source: consorcio_alianza.md
+- id: F09
+  category: partner
+  kind: existing
+  text: Existe un acuerdo de colaboración firmado que cubre exclusivamente el diseño curricular conjunto.
+  value: null
+  salient: true
+  source: consorcio_alianza.md
+- id: F10
+  category: result
+  kind: existing
+  text: La cohorte inicial del piloto constó de 120 estudiantes matriculados.
+  value: '120'
+  salient: true
+  source: informe_piloto_2024_25.md
+- id: F11
+  category: result
+  kind: existing
+  text: Se matricularon 40 estudiantes por cada institución (UVD, ISEM, USD).
+  value: '40'
+  salient: true
+  source: informe_piloto_2024_25.md
+- id: F12
+  category: result
+  kind: existing
+  text: De los matriculados, 96 estudiantes proporcionaron evaluaciones emparejadas.
+  value: '96'
+  salient: true
+  source: informe_piloto_2024_25.md
+- id: F13
+  category: result
+  kind: existing
+  text: Hubo 24 estudiantes sin evaluación emparejada debido a bajas, abandonos o ausencias.
+  value: '24'
+  salient: true
+  source: informe_piloto_2024_25.md
+- id: F14
+  category: result
+  kind: existing
+  text: La evaluación consistió en una rúbrica compuesta de 50 puntos (25 para destrezas orales, 25 para
+    interacción profesional).
+  value: '50'
+  salient: true
+  source: informe_piloto_2024_25.md
+- id: F15
+  category: result
+  kind: existing
+  text: El análisis mostró un incremento medio intra-sujeto de 0.24 DE.
+  value: 0.24 DE
+  salient: true
+  source: informe_piloto_2024_25.md
+- id: F16
+  category: result
+  kind: existing
+  text: El intervalo de confianza del 95% para la mejora media se sitúa entre 0.05 y 0.43.
+  value: 0.05 y 0.43
+  salient: true
+  source: informe_piloto_2024_25.md
+- id: F17
+  category: result
+  kind: existing
+  text: Se utilizó un diseño pre-post sin grupo de control ni asignación aleatoria.
+  value: null
+  salient: true
+  source: informe_piloto_2024_25.md
+- id: F18
+  category: result
+  kind: existing
+  text: Las puntuaciones se estandarizaron utilizando la desviación estándar agrupada de la línea base.
+  value: null
+  salient: true
+  source: informe_piloto_2024_25.md
+- id: F19
+  category: other
+  kind: existing
+  text: Actualmente no se están reclutando nuevos estudiantes para prácticas.
+  value: null
+  salient: true
+  source: informe_piloto_2024_25.md
+- id: F20
+  category: team
+  kind: existing
+  text: La Dra. Sofia Taveirães es la investigadora principal por parte de Portugal y experta en accesibilidad
+    cognitiva.
+  value: null
+  salient: true
+  source: equipo_y_recursos.md
+- id: F21
+  category: team
+  kind: existing
+  text: El Dr. Matej Brinovšek es el investigador principal por parte de Eslovenia y especialista en diseño
+    de rúbricas.
+  value: null
+  salient: true
+  source: equipo_y_recursos.md
+- id: F22
+  category: team
+  kind: existing
+  text: El Prof. Filipe Castanheirães es especialista en tecnologías de apoyo y educación superior inclusiva.
+  value: null
+  salient: true
+  source: equipo_y_recursos.md
+- id: F23
+  category: team
+  kind: existing
+  text: El consorcio cuenta con una única educadora de artes, la Dra. Elena Valderquena.
+  value: única
+  salient: true
+  source: equipo_y_recursos.md
+- id: F24
+  category: resource
+  kind: existing
+  text: La docencia consolidada en grupos reducidos tiene una ratio de 1 profesor por cada 15 estudiantes.
+  value: '15'
+  salient: true
+  source: equipo_y_recursos.md
+- id: F25
+  category: resource
+  kind: existing
+  text: La docencia en grupos reducidos puede transferirse a estudios colaborativos accesibles.
+  value: null
+  salient: true
+  source: equipo_y_recursos.md
+- id: F26
+  category: resource
+  kind: existing
+  text: El personal docente actual carece de competencias técnicas para proporcionar audiodescripción.
+  value: null
+  salient: true
+  source: equipo_y_recursos.md
+- id: F27
+  category: resource
+  kind: planned
+  text: Las ubicaciones para prácticas externas no están aseguradas y deben ser planificadas.
+  value: null
+  salient: true
+  source: equipo_y_recursos.md
+- id: F28
+  category: budget
+  kind: existing
+  text: El proyecto Piloto de Prácticas Multilingües tuvo un presupuesto de 85.000 EUR.
+  value: 85.000 EUR
+  salient: true
+  source: cv_coordinador.md
+- id: F29
+  category: budget
+  kind: existing
+  text: El proyecto EVAL-LING tuvo un presupuesto de 42.000 EUR.
+  value: 42.000 EUR
+  salient: true
+  source: cv_coordinador.md
+- id: F30
+  category: budget
+  kind: existing
+  text: El proyecto TRAMA-LIN-172 tuvo un presupuesto de 28.000 EUR.
+  value: 28.000 EUR
+  salient: true
+  source: cv_coordinador.md
+- id: F31
+  category: education
+  kind: existing
+  text: 'El coordinador ha dirigido 4 tesis doctorales: 3 defendidas y 1 en curso.'
+  value: 3 defendidas, 1 en curso
+  salient: true
+  source: cv_coordinador.md
+- id: F32
+  category: position
+  kind: existing
+  text: El coordinador es Profesor Titular desde 2019.
+  value: '2019'
+  salient: true
+  source: cv_coordinador.md
+own_publications:
+- key: mendoza2025
+  authors:
+  - Mendoza Rivas, C.
+  - Taveirães, S.
+  year: 2025
+  title: 'Evaluación de competencias en entornos multilingües: lecciones de un estudio cuasiexperimental
+    en educación superior'
+  venue: Revista Iberoamericana de Lingüística y Evaluación
+  doi: 10.99999/pb.v2-multilingual-practicum-alliance.2025.1
+- key: brinovsek2025
+  authors:
+  - Brinovšek, M.
+  - Mendoza Rivas, C.
+  - Castanheirães, F.
+  year: 2025
+  title: El impacto de la docencia en grupos reducidos en la retención de estudiantes con barreras lingüísticas
+  venue: Journal of Practicum Language Access
+  doi: 10.99999/pb.v2-multilingual-practicum-alliance.2025.2
+- key: valderquena2024
+  authors:
+  - Valderquena, E.
+  - Mendoza Rivas, C.
+  year: 2024
+  title: 'Integración de la educación artística en currículos de lingüística aplicada: un enfoque de co-creación'
+  venue: Cuadernos de Pedagogía Universitaria y Artes
+  doi: 10.99999/pb.v2-multilingual-practicum-alliance.2024.1
+- key: taveiraes2024
+  authors:
+  - Taveirães, S.
+  - Castanheirães, F.
+  - Brinovšek, M.
+  year: 2024
+  title: 'Diseño curricular conjunto en el Espacio Europeo de Educación Superior: retos de estandarización'
+  venue: Revista de Políticas de Educación Superior
+  doi: 10.99999/pb.v2-multilingual-practicum-alliance.2024.2
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY eb9a9201-0f07-45f4-9cdc-05fd5e98d63e

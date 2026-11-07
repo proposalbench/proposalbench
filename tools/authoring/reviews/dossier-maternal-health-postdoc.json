@@ -1,0 +1,24 @@
+{
+  "kind": "dossier",
+  "id": "maternal-health-postdoc",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md (Sections 4 and 7) and dossier.yaml (F05, F22)",
+      "problem": "The SafeMother trial is a stepped-wedge design, which requires both control and intervention data. The text states '1,214 women screened over 15 months' and the dataset contains '1,214 women'. Since screening is the intervention, this implies all 1,214 women were in the intervention arm. However, the results mention 261 high-risk women and 325 facility deliveries in the control periods. If 1,214 is the total trial N, they could not all have been 'screened'. If 1,214 is only the intervention N, the dataset description is missing the control observations required for the analysis.",
+      "fix": "Change the total enrolled to a larger number (e.g., '2,150 women enrolled over 15 months. In the intervention periods, 1,214 women were screened...'). Update the dataset description to reflect the total enrolled (e.g., 'De-identified quantitative dataset (2,150 women, including 1,214 screened in intervention periods and 936 from control periods)...'). Update F05 and F22 accordingly."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 6",
+      "where": "prior_project.md (Section 7)",
+      "problem": "The dataset DOI uses `10.99999/data.safemother.2022` instead of the required `10.99999/pb.` prefix.",
+      "fix": "Change the dataset DOI to `10.99999/pb.data.safemother.2022`."
+    }
+  ]
+}

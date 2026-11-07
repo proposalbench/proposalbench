@@ -1,0 +1,139 @@
+schema_version: 1
+id: he-cl1-indoorhealth
+scheme: horizon_ria
+language: en
+title: Health impacts of deep building renovation on vulnerable populations
+topic_code: PB-HE-CL1-03
+proposal_type: full
+length_contract:
+  max_words: 18000
+  enforcement: disregard_excess
+  tolerance: 0.0
+  counted_sections:
+  - '1'
+  - '2'
+  - '3'
+  exempt:
+  - references
+  - title
+  page_limit: 40
+  words_per_page: 450
+  source_note: 'Horizon Europe General Annexes 2026-2027 and standard application form: Part B of actual-cost
+    RIA/IA proposals limited to 40 pages (45 for lump-sum RIA/IA); excess pages are disregarded by evaluators.
+    The benchmark calls are actual-cost RIAs. Converted at 450 words per page (A4, 11 pt, 15 mm margins,
+    typical table density), tables included.'
+required_sections:
+- id: '1'
+  title: Excellence
+- id: '1.1'
+  title: Objectives and ambition
+  parent: '1'
+- id: '1.2'
+  title: Methodology
+  parent: '1'
+- id: '2'
+  title: Impact
+- id: '2.1'
+  title: Project's pathways towards impact
+  parent: '2'
+  aliases:
+  - Pathways towards impact
+  - Pathways to impact
+- id: '2.2'
+  title: 'Measures to maximise impact: dissemination, exploitation and communication'
+  parent: '2'
+  aliases:
+  - Measures to maximise impact
+  - Dissemination, exploitation and communication
+- id: '2.3'
+  title: Summary
+  parent: '2'
+  aliases:
+  - Summary of the impact section
+  - Key elements of the impact section
+- id: '3'
+  title: Quality and efficiency of the implementation
+  aliases:
+  - Implementation
+- id: '3.1'
+  title: Work plan and resources
+  parent: '3'
+- id: '3.2'
+  title: Capacity of participants and consortium as a whole
+  parent: '3'
+  aliases:
+  - Capacity of participants
+  - Consortium as a whole
+expected_outcomes:
+- id: EO1
+  text: Public health authorities and building regulators have access to robust evidence on the causal
+    links between deep energy renovations and the physical health of vulnerable occupants.
+- id: EO2
+  text: Renovation programme managers and urban planners utilize evidence-based guidelines to mitigate
+    health risks, such as overheating and poor indoor air quality, during and after building retrofits.
+- id: EO3
+  text: Vulnerable citizens, particularly older adults and children with respiratory conditions, experience
+    improved indoor environmental quality and reduced health burdens following residential energy upgrades.
+- id: EO4
+  text: Policymakers integrate specific health criteria, such as overheating exposure limits and ventilation
+    performance standards, into national or regional building renovation-passport frameworks, evidenced
+    by updated passport templates or guidelines.
+- id: EO5
+  text: Policymakers incorporate health-centric criteria into national or regional legislation and programmes
+    implementing EU energy-efficiency requirements, evidenced by published policy documents or legislative
+    drafts.
+scope:
+- id: SC1
+  text: Conduct longitudinal field studies measuring indoor temperature, air quality, and moisture levels
+    before and after deep energy renovations in residential buildings.
+- id: SC2
+  text: Quantify the direct health outcomes of vulnerable occupants, specifically older adults and children
+    with asthma, using validated clinical and patient-reported metrics.
+- id: SC3
+  text: Identify renovation practices and building characteristics associated with measured adverse health
+    outcomes, such as asthma exacerbations or heat-related symptoms, treating overheating and inadequate
+    ventilation as potential exposure pathways.
+- id: SC4
+  text: Develop and validate predictive models to assess the health risks and benefits of planned renovation
+    interventions under current and future climate scenarios.
+- id: SC5
+  text: Co-create evidence-based guidelines and mitigation strategies with building professionals, health
+    practitioners, and occupant representatives to optimize health outcomes in renovation programmes.
+exclusions:
+- id: EX1
+  text: The development or clinical testing of new medicinal products or pharmacological treatments.
+- id: EX2
+  text: Observational or modelling studies of indoor environments that do not include direct measurement
+    of human health outcomes.
+mandatory_elements:
+- id: ME1
+  text: Open science practices, including FAIR research data management and open access to publications
+    and, where possible, data and tools.
+- id: ME2
+  text: Integration of social sciences and humanities (SSH) disciplines to address occupant behaviour.
+- id: ME3
+  text: Integration of social sciences and humanities (SSH) disciplines to address energy poverty.
+- id: ME4
+  text: A multi-actor approach involving public health authorities, building sector professionals, and
+    representatives of vulnerable citizen groups.
+- id: ME5
+  text: Collaboration and knowledge exchange with projects funded under Cluster 5 (Climate, Energy and
+    Mobility) addressing the energy efficiency of the built environment.
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  consortium:
+    min_entities: 3
+    min_countries: 3
+    notes: The consortium must include, as beneficiaries, at least three mutually independent legal entities
+      established in three different EU Member States or Associated Countries, including at least one
+      entity established in a Member State. Affiliated entities and associated partners do not count towards
+      this minimum.
+  max_budget: 6000000
+  duration_months_max: 48
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY e0f8d0ac-34c4-4f4c-9a15-04abfe138a2a

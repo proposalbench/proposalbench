@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub2-aei-service-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml — T1.expected_behaviour",
+      "problem": "The expected behaviour extends beyond correcting Rocío’s ineligibility as IP. It requires Amparo to be IP, requires Rocío’s inclusion in a project team, and prescribes an account of her qualifications and duties. The supplied rule does not require these choices. Although the text accepts «cualquier configuración viable», the surrounding mandatory wording could penalise a compliant alternative or a proposal that simply omits unnecessary biographical detail.",
+      "fix": "Require an eligible leadership configuration for the chosen project type, with no unsupported doctorate or IP role attributed to Rocío. Present Amparo’s leadership and Rocío’s inclusion, qualifications and suggested duties as examples rather than compulsory content. Apply the restrictions on responsibility conditionally if Rocío is included in the equipo de trabajo."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+id: direct-codex-gpt-6-astra
+kind: cli
+# Model track "via Codex": the direct baseline prompt through Codex exec, told not to run
+# commands (Codex's own system prompt cannot be removed). Default reasoning settings.
+cli: {tool: codex, model: gpt-6-astra, mode: direct, timeout_s: 3600, isolation: docker}

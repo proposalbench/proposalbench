@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub-aei-pollinator-stretch",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "task.yaml (Trap T1) and cv_pi.md (Previous grant applications)",
+      "problem": "The description for Trap T1 claims that 'The dossier (cv_pi.md) states the ERC proposal was submitted in September 2026 and is currently under evaluation'. However, cv_pi.md and dossier.yaml (Fact F24) state that the ERC Starting Grant was submitted in October 2025, evaluated in spring 2026, and 'not funded'. The trap description contradicts the dossier.",
+      "fix": "Update cv_pi.md and dossier.yaml (Fact F24) to state that the ERC Starting Grant was submitted in September 2026 and is currently under evaluation, matching the trap description and the brief. Alternatively, rewrite the trap to reflect that the grant was rejected and the brief is falsely claiming it is pending/secured."
+    }
+  ]
+}

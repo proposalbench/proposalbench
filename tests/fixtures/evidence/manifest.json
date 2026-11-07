@@ -1,0 +1,186 @@
+{
+  "kobak_crossref": {
+    "file": "kobak_crossref.json",
+    "url": "https://api.crossref.org/works",
+    "params": {
+      "query.bibliographic": "Delving into LLM-assisted writing in biomedical publications through excess vocabulary",
+      "rows": 5
+    },
+    "method": "GET",
+    "body": null,
+    "status": 200,
+    "content_type": "application/json",
+    "fetched_at": "2026-10-30T18:27:35.338799+00:00"
+  },
+  "attention_arxiv": {
+    "file": "attention_arxiv.xml",
+    "url": "https://export.arxiv.org/api/query",
+    "params": {
+      "id_list": "1706.03762"
+    },
+    "method": "GET",
+    "body": null,
+    "status": 200,
+    "content_type": "application/atom+xml; charset=utf-8",
+    "fetched_at": "2026-10-30T18:27:35.811152+00:00"
+  },
+  "zenodo_doi": {
+    "file": "zenodo_doi.json",
+    "url": "https://doi.org/10.5281/zenodo.3727209",
+    "params": {},
+    "method": "GET",
+    "body": null,
+    "status": 200,
+    "content_type": "application/vnd.citationstyles.csl+json; charset=utf-8",
+    "fetched_at": "2026-10-30T18:27:37.244957+00:00"
+  },
+  "book_crossref": {
+    "file": "book_crossref.html",
+    "url": "https://api.crossref.org/works/10.1017/CBO9780511805064",
+    "params": {},
+    "method": "GET",
+    "body": null,
+    "status": 404,
+    "content_type": "text/plain",
+    "fetched_at": "2026-10-30T18:27:37.510929+00:00"
+  },
+  "who_url": {
+    "file": "who_url.html",
+    "url": "https://www.who.int/publications/i/item/9789240080873",
+    "params": {},
+    "method": "GET",
+    "body": null,
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "fetched_at": "2026-10-30T18:27:39.370362+00:00"
+  },
+  "missing_doi": {
+    "file": "missing_doi.html",
+    "url": "https://doi.org/10.5555/proposalbench.nonexistent.2030",
+    "params": {},
+    "method": "GET",
+    "body": null,
+    "status": 404,
+    "content_type": "text/html;charset=utf-8",
+    "fetched_at": "2026-10-30T18:27:39.739658+00:00"
+  },
+  "attention_openalex": {
+    "file": "attention_openalex.json",
+    "url": "https://api.openalex.org/works/https://doi.org/10.48550/arXiv.1706.03762",
+    "params": {},
+    "method": "GET",
+    "body": null,
+    "status": 200,
+    "content_type": "application/json",
+    "fetched_at": "2026-10-30T18:27:40.959536+00:00"
+  },
+  "attention_semanticscholar": {
+    "file": "attention_semanticscholar.json",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search/match",
+    "params": {
+      "query": "Attention is all you need",
+      "fields": "title,authors,year,venue,externalIds,abstract"
+    },
+    "method": "GET",
+    "body": null,
+    "status": 403,
+    "content_type": "application/json",
+    "fetched_at": "2026-10-30T18:27:41.858035+00:00"
+  },
+  "who_exa": {
+    "file": "who_exa.json",
+    "url": "https://api.exa.ai/search",
+    "params": {},
+    "method": "POST",
+    "body": {
+      "query": "WHO Global tuberculosis report 2023",
+      "numResults": 5
+    },
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "fetched_at": "2026-10-30T18:27:42.895752+00:00"
+  },
+  "kobak_doi": {
+    "file": "kobak_doi.json",
+    "url": "https://doi.org/10.1126/sciadv.adt3813",
+    "params": {},
+    "method": "GET",
+    "body": null,
+    "status": 200,
+    "content_type": "application/vnd.citationstyles.csl+json",
+    "response_url": "https://api.crossref.org/v1/works/10.1126%2Fsciadv.adt3813/transform",
+    "fetched_at": "2026-10-30T18:30:03.071259+00:00"
+  },
+  "elements_book": {
+    "file": "elements_book.json",
+    "url": "https://api.crossref.org/works/10.1007/978-0-387-84858-7",
+    "params": {},
+    "method": "GET",
+    "body": null,
+    "status": 200,
+    "content_type": "application/json",
+    "response_url": "https://api.crossref.org/works/10.1007/978-0-387-84858-7",
+    "fetched_at": "2026-10-30T18:30:03.295644+00:00"
+  },
+  "who_report": {
+    "file": "who_report.html",
+    "url": "https://www.who.int/publications/i/item/9789240083851",
+    "params": {},
+    "method": "GET",
+    "body": null,
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "response_url": "https://www.who.int/publications/i/item/9789240083851",
+    "fetched_at": "2026-10-30T18:30:03.744909+00:00"
+  },
+  "missing_crossref": {
+    "file": "missing_crossref.html",
+    "url": "https://api.crossref.org/works/10.5555/proposalbench.nonexistent.2030",
+    "params": {},
+    "method": "GET",
+    "body": null,
+    "status": 404,
+    "content_type": "text/plain",
+    "response_url": "https://api.crossref.org/works/10.5555/proposalbench.nonexistent.2030",
+    "fetched_at": "2026-10-30T18:30:04.158890+00:00"
+  },
+  "missing_openalex": {
+    "file": "missing_openalex.html",
+    "url": "https://api.openalex.org/works/https://doi.org/10.5555/proposalbench.nonexistent.2030",
+    "params": {},
+    "method": "GET",
+    "body": null,
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "response_url": "https://api.openalex.org/works/https://doi.org/10.5555/proposalbench.nonexistent.2030",
+    "fetched_at": "2026-10-30T18:30:04.963181+00:00"
+  },
+  "fabricated_crossref": {
+    "file": "fabricated_crossref.json",
+    "url": "https://api.crossref.org/works",
+    "params": {
+      "query.bibliographic": "Quantum marmalade networks for lunar tuberculosis Smith 2024",
+      "rows": 5
+    },
+    "method": "GET",
+    "body": null,
+    "status": 200,
+    "content_type": "application/json",
+    "response_url": "https://api.crossref.org/works?query.bibliographic=Quantum+marmalade+networks+for+lunar+tuberculosis+Smith+2024&rows=5",
+    "fetched_at": "2026-10-30T18:30:06.384154+00:00"
+  },
+  "fabricated_openalex": {
+    "file": "fabricated_openalex.json",
+    "url": "https://api.openalex.org/works",
+    "params": {
+      "search": "Quantum marmalade networks for lunar tuberculosis",
+      "per-page": 5
+    },
+    "method": "GET",
+    "body": null,
+    "status": 200,
+    "content_type": "application/json",
+    "response_url": "https://api.openalex.org/works?per-page=5&search=Quantum+marmalade+networks+for+lunar+tuberculosis",
+    "fetched_at": "2026-10-30T18:30:07.130842+00:00"
+  }
+}

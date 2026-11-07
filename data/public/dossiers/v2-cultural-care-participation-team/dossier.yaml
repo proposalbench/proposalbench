@@ -1,0 +1,301 @@
+schema_version: 1
+id: v2-cultural-care-participation-team
+language: es
+applicant_type: team
+career_stage: senior
+disciplines:
+- enfermería comunitaria
+- música
+- patrimonio cultural
+- sociología rural
+method_profile: mixed
+country: ES
+files:
+- path: cv_ip.md
+  role: cv
+- path: informe_final_rueda_de_voces.md
+  role: prior_project
+- path: registro_entrevistas_rueda_de_voces.md
+  role: other
+- path: publicaciones.md
+  role: publications
+- path: equipo_y_recursos.md
+  role: team
+facts:
+- id: F01
+  category: position
+  kind: existing
+  text: The PI, Amparo Recuero Valdelomar, is a career civil servant since 2010 and full professor (Catedrática)
+    of Sociology at the Universidad de Vettonia since 2019, with four research sexenios and one transfer
+    sexenio.
+  value: Catedrática de Universidad
+  salient: true
+  source: cv_ip.md
+- id: F02
+  category: education
+  kind: existing
+  text: The PI obtained her doctorate in Sociology in 2004 and also holds a Título Superior de Música
+    in Musicology (1996).
+  value: '2004'
+  salient: true
+  source: cv_ip.md
+- id: F03
+  category: grant
+  kind: existing
+  text: The PI led the AEI oriented-research type B project TERRAVOZ-GATA (EUR 96,800, 1 Sep 2022 to 31
+    Aug 2026, finished, final scientific report in preparation) and earlier the type B project PGC2018-098214-B-I00
+    (EUR 54,450, 2019–2022, finished and justified).
+  value: PID2021-127483OB-I00
+  salient: true
+  source: cv_ip.md
+- id: F04
+  category: grant
+  kind: existing
+  text: The Rueda de Voces pilot (PPI-2024-T-07), funded by the UVET internal research plan with EUR 38,500,
+    ran from 1 Oct 2024 to 31 Jan 2026, is finished and executed EUR 37,940 (98.5%).
+  value: 38.500 €
+  salient: true
+  source: informe_final_rueda_de_voces.md
+- id: F05
+  category: result
+  kind: existing
+  text: The pilot enrolled 60 older residents in three Sierra de Gata centres (A 22, B 20, C 18) out of
+    74 people assessed; mean age 81.3 years, 39 women (65%), home language Castilian 41, A Fala 14, Portuguese
+    5, and self-reported hearing loss 27 (45%); the interview ledger gives the same 60.
+  value: '60'
+  salient: true
+  source: informe_final_rueda_de_voces.md
+- id: F06
+  category: result
+  kind: existing
+  text: The interview ledger records 120 T0 recordings (two sessions for each of 60 residents) and 7 repeated
+    sessions; a repeat recording replaced the earlier one under the same code and session number without
+    opening a new record.
+  value: '120'
+  salient: true
+  source: registro_entrevistas_rueda_de_voces.md
+- id: F07
+  category: result
+  kind: existing
+  text: The final report states 42 residents with paired T0–T1 wellbeing interviews and 18 without (3
+    deaths, 7 hospitalisations or transfers, 4 withdrawals, 4 not reachable or not interviewable).
+  value: '42'
+  salient: true
+  source: informe_final_rueda_de_voces.md
+- id: F08
+  category: result
+  kind: existing
+  text: The signed interview ledger, closed on 30 Jan 2026, records 47 paired T0–T1 wellbeing interviews
+    (A 17, B 16, C 14) and 13 residents without a pair.
+  value: '47'
+  salient: true
+  source: registro_entrevistas_rueda_de_voces.md
+- id: F09
+  category: result
+  kind: existing
+  text: Using SWEMWBS metric scores (Rasch conversion of the raw 7–35 item sum), mean wellbeing rose from
+    22.4 to 24.0, change +1.6 (95% CI 0.4 to 2.8) in the report's 42 paired cases; the single-group pre-post
+    design does not allow attributing the change to the workshops, and attendance correlated weakly with
+    change (r = 0.12, 95% CI −0.19 to 0.41).
+  value: +1,6
+  salient: true
+  source: informe_final_rueda_de_voces.md
+- id: F10
+  category: result
+  kind: existing
+  text: Loneliness (UCLA-3) changed by −0.4 (95% CI −0.9 to 0.1) and social network (LSNS-6) by +1.1 (95%
+    CI −0.2 to 2.4) in the report's paired sample; both intervals include zero.
+  value: +1,1
+  salient: true
+  source: informe_final_rueda_de_voces.md
+- id: F11
+  category: result
+  kind: existing
+  text: Each centre held 28 weekly 75-minute singing and oral-memory sessions (84 in total, March to October
+    2025) with no therapeutic or clinical component; median attendance was 17 of 28 (IQR 9–23) and 38
+    of 60 residents (63%) attended at least 14.
+  value: 63 %
+  salient: true
+  source: informe_final_rueda_de_voces.md
+- id: F12
+  category: other
+  kind: existing
+  text: The PI's CV lists her accredited methods as biographical and semi-structured interviewing, ethnography
+    of musical and festive practices, field sound recording, brief interviewer-administered scales, MAXQDA-assisted
+    thematic analysis, and descriptive statistics and linear regression in R.
+  value: null
+  salient: true
+  source: cv_ip.md
+- id: F13
+  category: other
+  kind: existing
+  text: Scales were administered orally in Castilian using published Spanish versions; for 16 of the 19
+    residents whose home language was A Fala or Portuguese the linguist supported the interview in that
+    language, without validated versions of the scales in those languages.
+  value: '16'
+  salient: true
+  source: informe_final_rueda_de_voces.md
+- id: F14
+  category: result
+  kind: existing
+  text: Thematic coding of the 120 T0 transcripts (Cohen's kappa 0.71 on 24 double-coded transcripts)
+    found intermediation by relatives, neighbours or staff in 34 of 60 residents (57%), written administrative
+    language in 26 (43%), automated telephone or online appointments in 21 (35%), hearing loss in consultations
+    and calls in 19 (32%) and A Fala/Portuguese use with staff rotation in 11 (18%); these convenience-sample
+    frequencies do not estimate population prevalence.
+  value: 57 %
+  salient: true
+  source: informe_final_rueda_de_voces.md
+- id: F15
+  category: other
+  kind: existing
+  text: In the Rueda de Voces pilot no administrative records or service-use data were collected, barriers
+    come from residents' own accounts, and neither family carers nor professionals were interviewed.
+  value: null
+  salient: true
+  source: informe_final_rueda_de_voces.md
+- id: F16
+  category: other
+  kind: existing
+  text: Ethics approval CEI-UVET-2024-118 (12 Dec 2024) covered the pilot; the Pfeiffer questionnaire
+    (4 errors or fewer) served as cognitive screening, and capacity to consent was assessed separately
+    by the nurse in an individual consent interview using explain-back on four points, with language and
+    hearing support and no proxy consent.
+  value: CEI-UVET-2024-118
+  salient: true
+  source: informe_final_rueda_de_voces.md
+- id: F17
+  category: other
+  kind: existing
+  text: Written consent covers recording, transcription, pseudonymised analysis, non-identifying academic
+    dissemination and reuse of pseudonymised transcripts in the group's academic research; it does not
+    cover voice, image, name or identifiable testimonies in exhibitions, concerts or media.
+  value: null
+  salient: true
+  source: informe_final_rueda_de_voces.md
+- id: F18
+  category: resource
+  kind: existing
+  text: Pseudonymised pilot transcripts are kept on the UVET secure research server, accessible only to
+    the three team members, until 31/01/2031, with the code key held by the PI.
+  value: 31/01/2031
+  salient: true
+  source: informe_final_rueda_de_voces.md
+- id: F19
+  category: other
+  kind: existing
+  text: The interview ledger records that audio files were deleted after transcript verification under
+    the approved protocol, the last deletion on 23 January 2026.
+  value: 23 de enero de 2026
+  salient: true
+  source: registro_entrevistas_rueda_de_voces.md
+- id: F20
+  category: partner
+  kind: existing
+  text: Collaboration agreements with the owning entities of centres A, B and C were valid from 1 Jan
+    to 31 Dec 2025, and the team file lists no later agreement.
+  value: 31/12/2025
+  salient: true
+  source: equipo_y_recursos.md
+- id: F21
+  category: team
+  kind: existing
+  text: The linguist Iago Cendón Sobrado holds a doctorate (2019), speaks and transcribes A Fala and Portuguese,
+    and has an indefinite full-time scientific-technical contract at UVET since 1 March 2023.
+  value: '2019'
+  salient: true
+  source: equipo_y_recursos.md
+- id: F22
+  category: team
+  kind: existing
+  text: The community nurse Rocío Durán Malpartida is a family and community nursing specialist whose
+    highest degree is a master's (no doctorate), working 50% on an indefinite research-support contract
+    since 1 Jan 2025 and 50% as a rural primary-care nurse.
+  value: Máster Universitario (MECES 3)
+  salient: true
+  source: equipo_y_recursos.md
+- id: F23
+  category: resource
+  kind: existing
+  text: The TERRAVOZ-GATA archive holds 312 field recordings and 46 biographical interviews from 18 municipalities;
+    198 bell and soundscape recordings are open under CC BY 4.0, while 114 song recordings and the 46
+    interviews are restricted.
+  value: '312'
+  salient: false
+  source: equipo_y_recursos.md
+- id: F24
+  category: resource
+  kind: existing
+  text: The group has 3 MAXQDA licences valid until 31/12/2026, 4 Zoom H5 recorders and 6 lavalier microphones.
+  value: 31/12/2026
+  salient: false
+  source: equipo_y_recursos.md
+- id: F25
+  category: publication
+  kind: existing
+  text: The manuscript on the pilot's participation, wellbeing and support-network results was submitted
+    to Gerontología Social y Comunidad on 12 May 2026 and is under review as of 15 Sep 2026.
+  value: 12 de mayo de 2026
+  salient: true
+  source: publicaciones.md
+own_publications:
+- key: cendon2026fala
+  authors:
+  - Cendón Sobrado, I.
+  - Recuero Valdelomar, A.
+  - Durán Malpartida, R.
+  year: 2026
+  title: 'A fala en la consulta: repertorios lingüísticos de personas mayores y comunicación con los servicios
+    sanitarios en la Sierra de Gata'
+  venue: Cuadernos de Lingüística Rayana
+  doi: 10.99999/pb.v2-cultural-care-participation-team.2026.1
+- key: duran2025mediadora
+  authors:
+  - Durán Malpartida, R.
+  - Recuero Valdelomar, A.
+  year: 2025
+  title: 'La enfermera comunitaria como mediadora en actividades culturales con personas mayores en el
+    medio rural: notas desde la práctica'
+  venue: Enfermería Comunitaria y Territorio
+  doi: 10.99999/pb.v2-cultural-care-participation-team.2025.1
+- key: recuero2024cancioneros
+  authors:
+  - Recuero Valdelomar, A.
+  year: 2024
+  title: 'Cancioneros vivos: repertorio tradicional y sociabilidad en municipios en riesgo de despoblación'
+  venue: Anuario de Sociología del Territorio
+  doi: 10.99999/pb.v2-cultural-care-participation-team.2024.1
+- key: recuero2023toques
+  authors:
+  - Recuero Valdelomar, A.
+  - Cendón Sobrado, I.
+  year: 2023
+  title: 'Toques, rondas y fiestas: patrimonio sonoro y vida cotidiana en la Raya cacereña'
+  venue: Revista de Patrimonio Inmaterial y Sociedad
+  doi: 10.99999/pb.v2-cultural-care-participation-team.2023.1
+- key: recuero2022edicion
+  authors:
+  - Recuero Valdelomar, A.
+  year: 2022
+  title: 'Edición digital de cancioneros locales: criterios y participación comunitaria'
+  venue: Archivos de Música Popular Ibérica
+  doi: 10.99999/pb.v2-cultural-care-participation-team.2022.1
+- key: recuero2021redes
+  authors:
+  - Recuero Valdelomar, A.
+  - Ledesma Corchero, P.
+  year: 2021
+  title: Redes de vecindad y envejecimiento en pueblos pequeños del oeste de Cáceres
+  venue: Revista de Estudios Rurales Ibéricos
+  doi: 10.99999/pb.v2-cultural-care-participation-team.2021.1
+inconsistencies:
+- id: I1
+  text: For the same completed 2025 Rueda de Voces wellbeing endpoint, informe_final_rueda_de_voces.md
+    reports 42 residents with paired T0–T1 wellbeing interviews while registro_entrevistas_rueda_de_voces.md
+    records 47, both signed on 30 January 2026 with no indication of which is correct.
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: opus
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY fd8a2402-6424-4ec6-ac7a-9f4859aca8b3

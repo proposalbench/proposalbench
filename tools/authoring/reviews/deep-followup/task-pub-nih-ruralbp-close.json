@@ -1,0 +1,29 @@
+{
+ "kind": "task",
+ "id": "pub-nih-ruralbp-close",
+ "reviewer_family": "openai+maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2; Task 6",
+   "where": "data/public/tasks/pub-nih-ruralbp-close/task.yaml, T1 expected_behaviour: \"Develop and assess the workflow through formative co-design and structured usability tasks using simulated cases\".",
+   "problem": "The clinical-trial trap is sound, but the key makes simulated cases mandatory. The call requires structured usability evidence, not a particular source of test cases. A non-therapeutic usability study using appropriately governed existing/de-identified records, or observational workflow assessment without assigned care, can satisfy it. A valid proposal could therefore fail the trap solely for choosing another compliant method.",
+   "fix": "Replace the prescriptive sentence with 'Develop and assess the workflow using a feasible formative or methodological design that does not prospectively assign care to evaluate a health-related effect; simulated-case usability testing is one option, not a requirement. Accept other appropriately governed non-clinical-trial usability or observational workflow designs. In Specific Aims and Approach, keep any therapeutic controlled evaluation as a future study outside this award.' Retain the prohibition on the brief's randomized BP-effect pilot.",
+   "evidence": [
+    "data/public/calls/nih-r21-ruralbp/call.md",
+    "https://grants.nih.gov/policy-and-compliance/policy-topics/clinical-trials/definition",
+    "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-063.html",
+    "tools/authoring/design_v2.md",
+    "docs/task_review_checklist.md"
+   ]
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml trap T1 description",
+   "problem": "The description quotes a passage that is no longer in the call or dossier: 'Prospective assignment of participants to a blood-pressure intervention, medicat...'. The call was corrected after the in-depth review (benchmark-facing hints such as references to the dossier or to scoring were removed, items split, eligibility worded as in the official rules), or the dossier was revised.",
+   "fix": "Ground the trap in the substantive rule or fact as the call and dossier now state it, quoting their current wording exactly. Keep the conflict, type and expected behaviour unless the change removed the trap's basis; never rely on a hint the call no longer gives.",
+   "source": "maintainer"
+  }
+ ]
+}

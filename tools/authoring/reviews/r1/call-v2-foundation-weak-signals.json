@@ -1,0 +1,101 @@
+{
+  "kind": "call",
+  "id": "v2-foundation-weak-signals",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md header notice ('wholly fictional ... makes no fidelity claim to any named funder'), 'Award criteria' ('Invented criteria'), 'Length contract' ('All limits and the conversion are invented'), 'Sources'; call.yaml length_contract.source_note ('No external funder source')",
+      "problem": "The call is not anchored to any real scheme. Eligibility, criteria and weights, threshold, section template, page limit, word conversion, inadmissibility rule and overhead treatment are all invented, and no source is cited. The checklist allows only the topic, identifiers, budgets and dates to be invented. Without a real scheme, Call 4 cannot be checked either: there is no 'funder's usual range' for the EUR 25k–100k band, the 24-month duration or doctoral-led awards.",
+      "fix": "Rebase the call on a real foundation's outline or pre-proposal stage that is open in 2026–27 and whose eligibility actually admits the intended lead. Check this explicitly, because most foundation schemes do not let doctoral researchers lead. Cite its published guidance with URL and version date. Take its assessment criteria, form sections, length limit, eligibility, overhead and equipment rules from that guidance. Invent only the topic, topic code, budget band and dates, and replace the disclaimer with one sentence naming exactly what is invented. If wholly invented foundation calls are meant to be allowed, the checklist and design_v2.md must say so and the maintainer must sign off the exception. Until then this fails item 1."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml eligibility.duration_months_min: 12 vs call.md table ('Maximum duration | 24 months') and 'Purpose and eligibility'",
+      "problem": "call.yaml sets a 12-month minimum duration that call.md never states. A proposal for 6 or 9 months would comply with call.md but fail the hidden eligibility check.",
+      "fix": "Either add 'Minimum duration | 12 months' to the call.md table and state 'between 12 and 24 months' in the eligibility paragraph, or set duration_months_min to the value call.md implies. Keep both files identical."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 1",
+      "where": "call.md Purpose ('unsupported applicant achievements are never acceptable'), ME4 ('must not invent host approval'), ME9 ('using only dossier-supported claims'), Team section ('dossier-supported capability'), ME10 ('state whether that responsibility has been agreed'), EX1/EX2 and deadline ('fictional'), 'Length contract' heading, Award criteria ('These funder criteria do not replace ProposalBench's component weights')",
+      "problem": "The call text shown to systems contains benchmark mechanics that no funder would write: 'dossier', 'invent', 'fictional call', 'benchmark conventions', and an explicit reference to ProposalBench's component weights, which discloses that a separate rubric exists. ME4's 'must not invent host approval' and ME10's 'whether that responsibility has been agreed' point directly at a supervision/host-approval trap. If the paired dossier contains that trap, this is Task 4 leakage (blocker).",
+      "fix": "Keep one fictional-document notice at the top and remove every other benchmark reference. Delete the ProposalBench-weights sentence. Replace 'dossier-supported' with funder wording such as 'as evidenced in the CV and track record'. Delete 'must not invent host approval' and 'unsupported applicant achievements are never acceptable'. If the real scheme requires a host or supervisor statement, word it as the real scheme does, for example 'a letter of support from the host institution is required at full-proposal stage'. Rename 'Length contract' to 'Length and format'."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md/call.yaml ME3 ('Explain what result or evidence would justify inviting a full proposal'); Expected impact section ('what a full proposal would need to establish next'); Purpose ('A concept-note invitation is not a grant award')",
+      "problem": "In this two-stage process, the invitation to a full proposal is decided on the concept note itself, before any project result exists. Asking what result would justify that invitation is therefore incoherent. Readers will interpret ME3 in different ways: the strength of the concept, pilot results, or results of the funded project justifying a follow-on. Scoring will not be consistent.",
+      "fix": "Decide what ME3 means and say it. One option: 'Explain why the concept merits development into a full proposal and which evidence available now supports that.' The other: 'State which project result would justify a larger follow-on study.' Align the Expected impact text with the same reading. If the second reading is chosen, merge ME3 into ME11."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md ME2 ('distinguishing requested from prospective funding') vs 'Budget outline' section ('Distinguish available resources from planned contributions')",
+      "problem": "The mandatory element and the section instruction ask for two different distinctions. 'Prospective funding' is undefined: it could mean co-funding, the later full-proposal amount, or other grants. A proposal can satisfy one instruction and miss the other.",
+      "fix": "Use one formulation in both places, for example: 'state the amount requested from the foundation by cost category, and list separately any resources already available (confirmed) and any other contributions sought (not yet confirmed)'. Copy that sentence into call.yaml ME2."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md/call.yaml SC1 ('Early concept notes across research disciplines, including theoretical and qualitative projects; no preliminary-data or commercialisation requirement')",
+      "problem": "SC1 is an eligibility statement, not a scope item. A proposal cannot be found to address it or fail to address it, so any text satisfies it.",
+      "fix": "Move the sentence to 'Purpose and eligibility' and delete SC1 from the scope list and from call.yaml scope. Renumber the remaining items, or replace SC1 with a concrete scope item, for example 'define the signal of interest and the record or instrument in which it is sought'."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md/call.yaml ME4 and ME10",
+      "problem": "ME4 bundles an eligibility rule (nonprofit host), a doctoral rule (named supervisor) and a behavioural instruction (do not invent approval). ME10 repeats the doctoral supervision demand under a new, undefined role ('responsible faculty sponsor at the established host'), and 'faculty sponsor' is a US term in an 'any country' call. ME10 applies only to doctoral leads, but call.yaml has no applicability marker, so a proposal with a non-doctoral lead may be scored as missing it.",
+      "fix": "Move the host and supervisor eligibility to 'Purpose and eligibility'. Replace ME4 and ME10 with one element that applies to every lead: 'Name the host institution and the person there responsible for oversight of the project (for a doctoral lead, the supervisor), and state whether the host and that person have confirmed their role.' Alternatively, add an explicit applies_if field in call.yaml if the schema supports one."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md/call.yaml EO1 vs ME1; ME3 vs ME11 vs SC6 vs EO4; ME5 vs ME7 vs SC5 vs EO2",
+      "problem": "Several items overlap, so one passage satisfies several items and scoring double-counts it:\n- EO1 describes the concept note itself ('a focused research concept'), not an outcome for users, and duplicates ME1.\n- EO1's 'resolves a stated uncertainty' also conflicts with ME11, which accepts stopping as a legitimate result.\n- Next-step decision appears four times (ME3, ME11, SC6, EO4).\n- Falsification and indistinguishability from noise appears four times (ME5, ME7, SC5, EO2).\nEleven mandatory elements, six scope items and four outcomes in a 1,500-word note leave about 70 words per item.",
+      "fix": "Rewrite EO1 as a user-facing outcome or delete it. Give each item a distinct target:\n- ME5: falsifiable question and disconfirming result.\n- ME7: principal uncertainty and the conditions under which the signal stays indistinguishable.\n- SC5: sensitivity analysis.\n- ME11: continue/revise/stop criterion, with ME3 merged into it.\n- SC6: the next evidence needed.\nCut the mandatory elements to about 7 and mirror every change in call.yaml."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 4",
+      "where": "call.md Scope (SC1 'including theoretical and qualitative projects'; 'Astronomy and cultural acoustics are illustrative domains') vs SC3/SC4/ME5/ME7",
+      "problem": "The call invites any discipline, including qualitative work, but requires a recovery method, evaluation against an alternative by simulation or controlled omission, and a separation of signal from noise. A qualitative project cannot meet these as worded. The topic is otherwise broad enough that almost any project with missing data fits. Pairing astronomy with cultural acoustics as the only illustrations reads as tailored to one dossier rather than as a programme a foundation would publish.",
+      "fix": "Either drop 'qualitative' and state that the call targets quantitative or computational inference from incomplete records, or define what 'recovery method' and 'evaluation' mean for qualitative or archival work, for example source-critical reconstruction checked against independent witnesses. Narrow the topic to a programme a real foundation would plausibly run. Give two or three illustrative domains, or none."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md Sources ('Verified 2026-10-31; policy paraphrases, not an official funding notice')",
+      "problem": "The line says a policy was paraphrased and verified, but no policy or source exists ('all conditions are invented'). The verification date is also a month after the benchmark's present date of 1 October 2026, so the call claims to have been checked on a date that has not yet occurred for the applicant.",
+      "fix": "After rebasing on a real scheme, cite the guidance document with a verification date on or before 1 October 2026. Otherwise remove 'Verified' and 'policy paraphrases' and leave the authoring date only in call.yaml provenance."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 4",
+      "where": "call.md Purpose ('The fictional deadline is 15 September 2027'); call.yaml (no deadline)",
+      "problem": "The deadline is almost 12 months after the present date, which is long for an open concept-note round. It is also buried in prose rather than in the summary table, and it is absent from call.yaml.",
+      "fix": "Put the deadline in the call.md table and choose a date a few months after 1 October 2026, for example 14 January 2027, or the real scheme's cycle. Add the same date to call.yaml if the schema has a deadline field. Remove the word 'fictional'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 3",
+      "where": "call.yaml ME1 ('within the ceiling and duration in the table above')",
+      "problem": "call.yaml has no table, so the item text means nothing when read from the YAML alone, as a grader would read it.",
+      "fix": "Write the values into the item in both files: 'within EUR 100,000 (including indirect costs) and 24 months'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md/call.yaml EX1 and EX2; Budget outline ('Include indirect costs within the ceiling')",
+      "problem": "EX1 bundles two unrelated exclusions: a project type (routine service delivery) and an ineligible cost (unrelated expenditure). EX2 does not say whether the EUR 20,000 threshold applies per item or in total, or whether VAT is included. No overhead rule or rate is given, so a budget outline cannot be checked for indirect-cost compliance.",
+      "fix": "Split EX1 into EX1 (routine service delivery without a research question) and a new budget exclusion (costs not required for the proposed research). Reword EX2 as 'single equipment items costing more than EUR 20,000 including VAT'. State the overhead rule, for example a cap as a percentage of direct costs or 'no overheads', taken from the real scheme."
+    }
+  ]
+}

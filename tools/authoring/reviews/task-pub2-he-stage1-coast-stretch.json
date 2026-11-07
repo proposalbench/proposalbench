@@ -1,0 +1,18 @@
+{
+  "kind": "task",
+  "id": "pub2-he-stage1-coast-stretch",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Call 4",
+      "where": "call.md (Exclusions) and call.yaml (exclusions)",
+      "problem": "The exclusion mentions \"offshore cosmology\", which is the study of the universe and makes no sense in a coastal/waterborne exposure call. It is likely a typo for \"offshore oceanography\".",
+      "fix": "Change \"offshore cosmology\" to \"offshore oceanography\" in both call.md and call.yaml.",
+      "part": "topic"
+    }
+  ]
+}

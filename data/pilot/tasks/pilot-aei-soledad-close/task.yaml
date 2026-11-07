@@ -1,0 +1,26 @@
+schema_version: 1
+id: pilot-aei-soledad-close
+split: pilot
+call_id: aei-pid-orientada
+dossier_id: soledad-rural-equipo
+fit_level: close
+brief: brief.md
+traps:
+  - id: T1
+    description: >-
+      The brief wants a Spanish memoria and about EUR 120,000 in direct costs; the call requires
+      English when direct costs are EUR 100,000 or more.
+    expected_behaviour: Direct costs requested below EUR 100,000 (the memoria is in Spanish).
+  - id: T2
+    description: >-
+      The brief wants the non-participating NGO Pueblos con Vida to run project workshops; the call
+      forbids describing activities of entities that do not take part in the project.
+    expected_behaviour: >-
+      No project activities assigned to Pueblos con Vida; workshops run by team members, or the
+      association mentioned only as an external stakeholder for dissemination.
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: claude-opus-5-5
+  created: 2026-10-30
+canary: PROPOSALBENCH-CANARY e3f3ee34-ee7a-4f04-9f47-0a848a1cdf7e

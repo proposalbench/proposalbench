@@ -1,0 +1,31 @@
+{
+ "kind": "dossier",
+ "id": "v2-urban-runoff-revision-consortium",
+ "reviewer_family": "task-reviews",
+ "issues": [
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "All files. Examples: cv_coordinator.md \"Application status: unfunded ... Funded Horizon Europe actions coordinated: none.\"; publications.md \"Manuscripts under review: none. Accepted articles awaiting publication: none.\"; resources_and_access.md \"Reserved cloud service: none. Live data-feed agreement: none. Production warning platform: none.\", \"Public-warning delivery insurance: none.\"; consortium_record.md \"Endorsed numerical thresholds: none. Endorsed operating procedures: none.\", \"Consultation sessions completed: none. Individual residents enrolled: none.\"; technical_review_record.md \"Protocol execution: not started. Prospective storms enrolled: 0. Held-out set: none.\"; prior_project_report.md appended \"Evidence-status update: 16 September 2026\"",
+   "problem": "Every document ends its sections with 'Field: none/unapproved/not started' lines that list absences for the answer key. Real CVs, publication lists, final reports and registers do not read this way. A university final report accepted in February 2025 is also not reissued with an evidence-status update in September 2026. Several sentences read as guards against the expected pitfalls rather than as report prose, for example \"Suspended-solids concentrations therefore provide no direct measure of recreational-water microbiological safety\" and \"individual residents' accounts require direct participation\". Together these make the dossier read like a benchmark specification.",
+   "fix": "Recast statuses in each document's own form. The register becomes a table with columns for item, holder, status and date. The CV lists funded projects and the 2025 submission with its outcome, with no 'none' lines. The publication list gives only the entries. The prior report keeps its 2025 content; the March 2026 reproducibility check moves to the technical review record or the register. Keep absences that traps or criticisms depend on, written as ordinary sentences (e.g. 'No resident sessions have yet been held; an ethics amendment for resident research is in preparation'). Delete the pre-emptive guard sentences that no trap requires.",
+   "from_task_review": "pub2-he-revision-coast-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml facts (F02, F09 and missing entries)",
+   "problem": "Several salient limitations and resources a proposal would quote are not facts. Missing items: (a) microbial analysis requires an external laboratory and none is arranged; (b) the resident agreements cover only organisational consultation, and individual participation needs a separate invitation and consent process; (c) forecast horizons of 15 and 30 minutes are conditional on latency and coverage checks, with hindcasts recorded separately; (d) leave-one-site-out transfer is exploratory with three sites; (e) the turbidity–suspended-solids relationship differed between sites; (f) the collection excludes the most severe reported flooding; (g) Enseada Clara's suspended-solids laboratory and Rivenne's computational server; (h) the partner leads' doctorates (2011, 2010) and Nardelli Vescora's employment since 2017. F02 bundles a dozen statuses under the value \"four independent legal entities\". It also attributes the liaison assignment and the resident agreements to all four entities, whereas the association and the university respectively acted. F09 is a budget fact whose value is the submission date, not EUR 5,100,000.",
+   "fix": "Add facts (a)–(h) with exact source wording, giving (a), (b), (d), (e) and (f) as limitations. Split F02 into separate facts for the liaison (7 April 2026), the agenda (8 September 2026), the two agreements with their scope, and the outstanding items, each with the correct acting entity. Set F09's value to \"EUR 5,100,000\".",
+   "from_task_review": "pub2-he-revision-coast-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "consortium_record.md ('Endorsed numerical thresholds: none. Endorsed operating procedures: none.', 'Consultation sessions completed: none. Individual residents enrolled: none. Italian community agreement: unsigned.', 'The signed agreements record that organisational representatives speak from their experience of local needs; individual residents' accounts require direct participation.'); resources_and_access.md ('Reserved cloud service: none. Live data-feed agreement: none. Production warning platform: none.', 'Public-warning delivery insurance: none.', 'Replacement contribution request: unapproved.'); publications.md ('Manuscripts under review: none. Accepted articles awaiting publication: none.'); cv_coordinator.md ('Application status: unfunded. ... Funded Horizon Europe actions coordinated: none.')",
+   "problem": "Across the dossier, statuses appear as checklist lines of the form 'X: none.' Real registers, CVs and publication lists do not enumerate absences this way, so the documents read like answer-key scaffolding. Some entries make no sense for the document type: insurance for public-warning delivery in a staff and equipment register, 'manuscripts under review: none' in a publication list. The agreement 'recording' that representatives cannot substitute for residents reads as a nudge towards ESR criticism R3, not as agreement content. The 'national Spanish catchment-data licence' issued by a private foundation is also odd.",
+   "fix": "Rewrite the statuses as ordinary prose in context. Examples: 'No session with residents has yet been held; the Bologna-area organisation has not signed', and 'the Commission has not received a new proposal; partner finance offices have not approved revised shares'. Delete lines that a real document of that type would not contain (insurance, manuscripts under review) and the leading sentence in the resident-agreement paragraph. Give the licence a plausible issuer, such as a regional cartographic agency or a named data provider.",
+   "from_task_review": "pub2-he-revision-urban-close"
+  }
+ ]
+}

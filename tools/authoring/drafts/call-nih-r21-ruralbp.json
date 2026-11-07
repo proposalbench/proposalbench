@@ -1,0 +1,73 @@
+{
+  "kind": "call",
+  "id": "nih-r21-ruralbp",
+  "family": "anthropic",
+  "model": "us.anthropic.claude-opus-4-6-v1",
+  "created": "2026-10-31",
+  "prompt_sha256": "08022005702ed1bea5ebe1f2a0961d2863d870d1b99c043f5108fbda91c6900a",
+  "draft": {
+    "title": "Exploratory Research on Blood-Pressure Measurement, Data Integration, and Community-Engaged Strategy Design for Hypertension Control in Rural and Under-Resourced US Settings",
+    "expected_outcomes_intro": "Successful projects will produce formative, observational, or methodological evidence that clarifies barriers to blood-pressure control in rural and under-resourced US communities and informs the design of future intervention studies. The emphasis is on generating actionable knowledge about measurement validity in non-clinical settings, data-linkage feasibility, and the preferences and constraints of community members and clinic staff—not on testing interventions. By the end of the award period, the following outcomes are expected:",
+    "expected_outcomes": [
+      "Characterized, empirically grounded understanding of modifiable barriers to blood-pressure monitoring and follow-up in at least one rural or under-resourced US community, with explicit decision criteria for which barriers a subsequent intervention study should prioritize.",
+      "Demonstrated feasibility—or documented infeasibility with reasons—of a specific approach to linking community-collected blood-pressure data with electronic health records or public-health surveillance systems, including quantified data-quality metrics and an assessment of consent, privacy, and governance requirements.",
+      "A co-designed strategy, workflow, or decision aid for blood-pressure control developed with clinic staff and community stakeholders, accompanied by structured usability findings and pre-specified criteria that would justify advancing the strategy to a controlled evaluation."
+    ],
+    "scope_intro": "In NHANES August 2021–August 2023, 47.7% of US adults aged 18 or older had hypertension, and 20.7% of adults with hypertension had blood pressure below 130/80 mmHg ([NCHS Data Brief 511](https://www.cdc.gov/nchs/products/databriefs/db511.htm)). Rural settings present additional access and implementation challenges that this topic seeks to characterize. Barriers include limited access to primary care, inconsistent self-monitoring, fragmented health information systems, and clinic workflows that were not designed for sustained blood-pressure management in low-resource settings. Existing evidence on these barriers comes largely from urban academic centers and may not transfer to communities with different workforce compositions, broadband access, cultural contexts, and distances to care.\n\nThis emphasis invites exploratory, formative, and observational research that builds the evidentiary foundation for future blood-pressure control strategies in rural and under-resourced US populations. Proposals should generate new empirical findings—not literature reviews or consensus processes alone—and should articulate how those findings will inform the design, targeting, or evaluation plan of a subsequent study. Work may be conducted in clinical, community, or home settings, or across linked settings. (This is a fictional benchmark topic created for ProposalBench; it does not represent an actual NHLBI or other NIH institute priority.)\n\nThe clinical-trial exclusion includes prospective assignment of participants to a blood-pressure intervention, medication regimen, or behavioral program to evaluate its effects on blood pressure or another health-related outcome.",
+    "scope": [
+      "Formative research—interviews, focus groups, direct observation, or survey methods—to identify and rank barriers to blood-pressure measurement, treatment adherence, or follow-up among residents and healthcare workers in rural or under-resourced US communities.",
+      "Observational or methods-development studies that assess the accuracy, reliability, or practical validity of blood-pressure measurement approaches (e.g., automated kiosk, community health worker–operated devices, home telemonitoring) when deployed outside traditional clinical environments in the target populations.",
+      "Feasibility and data-quality analyses of linking community-generated blood-pressure readings with clinic electronic health records, pharmacy dispensing data, or public-health registries, including assessment of missingness, identifier matching, and governance constraints."
+    ],
+    "exclusions": [
+      "Development or validation of pharmacological agents, devices requiring FDA clearance for a new indication, or digital therapeutics intended for regulatory submission."
+    ],
+    "mandatory_elements": [
+      "All blood-pressure values collected as primary study data must be obtained with validated, automated devices using a documented measurement protocol that specifies cuff sizing, rest period, number of readings, and posture; self-reported blood-pressure values may be used only as a secondary or contextual variable, not as the primary outcome of a measurement-quality aim.",
+      "The application must describe a concrete community-engagement plan that includes at least one structured mechanism (e.g., community advisory board, participatory design sessions, or stakeholder working group) through which residents or frontline clinic staff from the target community contribute to study design, data interpretation, or product refinement during the award period; engagement activities must be distinguishable from data-collection procedures."
+    ],
+    "conditions": {
+      "max_budget": 275000,
+      "duration_months_max": 24,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": 0
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Exploratory Research on Blood-Pressure Measurement, Data Integration, and Community-Engaged Strategy Design for Hypertension Control in Rural and Under-Resourced US Settings",
+        "expected_outcomes_intro": "Successful projects will produce formative, observational, or methodological evidence that clarifies barriers to blood-pressure control in rural and under-resourced US communities and informs the design of future intervention studies. The emphasis is on generating actionable knowledge about measurement validity in non-clinical settings, data-linkage feasibility, and the preferences and constraints of community members and clinic staff—not on testing interventions. By the end of the award period, the following outcomes are expected:",
+        "expected_outcomes": [
+          "Characterized, empirically grounded understanding of modifiable barriers to blood-pressure monitoring and follow-up in at least one rural or under-resourced US community, with explicit decision criteria for which barriers a subsequent intervention study should prioritize.",
+          "Demonstrated feasibility—or documented infeasibility with reasons—of a specific approach to linking community-collected blood-pressure data with electronic health records or public-health surveillance systems, including quantified data-quality metrics and an assessment of consent, privacy, and governance requirements.",
+          "A co-designed strategy, workflow, or decision aid for blood-pressure control developed with clinic staff and community stakeholders, accompanied by structured usability findings and pre-specified criteria that would justify advancing the strategy to a controlled evaluation."
+        ],
+        "scope_intro": "Approximately 47 percent of US adults have hypertension, yet control rates remain below 25 percent in many rural counties. Barriers include limited access to primary care, inconsistent self-monitoring, fragmented health information systems, and clinic workflows that were not designed for sustained blood-pressure management in low-resource settings. Existing evidence on these barriers comes largely from urban academic centers and may not transfer to communities with different workforce compositions, broadband access, cultural contexts, and distances to care.\n\nThis emphasis invites exploratory, formative, and observational research that builds the evidentiary foundation for future blood-pressure control strategies in rural and under-resourced US populations. Proposals should generate new empirical findings—not literature reviews or consensus processes alone—and should articulate how those findings will inform the design, targeting, or evaluation plan of a subsequent study. Work may be conducted in clinical, community, or home settings, or across linked settings. (This is a fictional benchmark topic created for ProposalBench; it does not represent an actual NHLBI or other NIH institute priority.)",
+        "scope": [
+          "Formative research—interviews, focus groups, direct observation, or survey methods—to identify and rank barriers to blood-pressure measurement, treatment adherence, or follow-up among residents and healthcare workers in rural or under-resourced US communities.",
+          "Observational or methods-development studies that assess the accuracy, reliability, or practical validity of blood-pressure measurement approaches (e.g., automated kiosk, community health worker–operated devices, home telemonitoring) when deployed outside traditional clinical environments in the target populations.",
+          "Feasibility and data-quality analyses of linking community-generated blood-pressure readings with clinic electronic health records, pharmacy dispensing data, or public-health registries, including assessment of missingness, identifier matching, and governance constraints."
+        ],
+        "exclusions": [
+          "Prospective assignment of participants to a blood-pressure intervention, medication regimen, or behavioral program to evaluate its effect on blood pressure or any other health-related outcome. Such work meets the NIH clinical-trial definition and is excluded under this notice.",
+          "Development or validation of pharmacological agents, devices requiring FDA clearance for a new indication, or digital therapeutics intended for regulatory submission."
+        ],
+        "mandatory_elements": [
+          "All blood-pressure values collected as primary study data must be obtained with validated, automated devices using a documented measurement protocol that specifies cuff sizing, rest period, number of readings, and posture; self-reported blood-pressure values may be used only as a secondary or contextual variable, not as the primary outcome of a measurement-quality aim.",
+          "The application must describe a concrete community-engagement plan that includes at least one structured mechanism (e.g., community advisory board, participatory design sessions, or stakeholder working group) through which residents or frontline clinic staff from the target community contribute to study design, data interpretation, or product refinement during the award period; engagement activities must be distinguishable from data-collection procedures."
+        ],
+        "conditions": {
+          "max_budget": 275000,
+          "duration_months_max": 24,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": 0
+        }
+      },
+      "maintainer_edit": "Apply deep-review major Call 2: remove duplicate clinical-trial EX2 and retain its BP/medication/behavioral examples as explanatory prose for fixed EX1; regulatory-development exclusion remains independent (rendered EX3 -> EX2). Apply trivial minor Call 4: replace unsupported rural-county control statistic with bounded NHANES 2021–2023 figures from NCHS Data Brief 511.",
+      "date": "2026-10-31"
+    }
+  ]
+}

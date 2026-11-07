@@ -1,0 +1,41 @@
+{
+  "kind": "call",
+  "id": "erc-stg-2027",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "data/public/calls/erc-stg-2027/call.md, ME3: “using only the supplied dossier; do not invent outputs or recognition”; CV: “Use the dossier”; Review criteria: “ProposalBench's own scoring components are separate from the funder's review procedure.”",
+      "problem": "The applicant-facing funder text explicitly reveals the dossier-grounding test and benchmark scoring. The fictional-call notice and labelled format adaptations are permitted, but these scoring/answer-production instructions violate Call 6. The same grounding warning is a scored ME3 in call.yaml.",
+      "fix": "Delete the sentence about ProposalBench scoring. Replace ME3 in both files with “The CV and track record must distinguish the PI’s contribution from collective work.” Replace the CV opening with “Describe education, qualifications, positions, up to ten selected research outputs and relevant recognition.” Delete the dossier-specific extension admonition and the sentences about a missing real-world record/missing information; retain ordinary requirements for accurate contributions and documented eligibility extensions.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "data/public/calls/erc-stg-2027/call.yaml"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "data/public/calls/erc-stg-2027/call.md, opening: “Submit the narrative in English.”",
+      "problem": "English-only submission is not the official ERC language rule: WP2026 §1.4.1 permits every official EU language, strongly recommending English and requiring an English abstract when another language is used. The opening explicitly labels dates and the frozen eligibility window as fictional but does not label the English-only restriction. The skeleton acknowledges its invented nature only in hidden author_notes.",
+      "fix": "Replace that sentence with “For this fictional call, the narrative must be in English; this is a benchmark restriction. The official ERC permits other official EU languages with an English abstract.” Retain language: en.",
+      "evidence": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026/wp_horizon-erc-2026_en.pdf",
+        "tools/authoring/schemes/erc_stg.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Read docs/task_review_checklist.md, tools/authoring/design_v2.md (including Adopted from the second opinion), docs/scoring_spec.md and docs/pitfall_taxonomy.md; read erc_stg.yaml and the earlier automated call review as context only.",
+    "Verified WP2026 §§1.1–1.6: StG actual-cost funding; EUR 1.5m/60 months; shorter-project pro-rating; EUR 1m additional funding or EUR 2m for qualifying incoming relocation; additional funding not pro-rated; 100% direct reimbursement and 25% indirect base exclusions; 50% project/50% EU-or-associated-country effort. Source: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026/wp_horizon-erc-2026_en.pdf",
+    "Verified >2 to <=7-year first-defence window and extension categories. The shifted 2027 reference date and retention of 2026 eligibility are expressly fictional, so the real 2027 wider window is not a defect. Source: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026/wp_horizon-erc-2026_en.pdf; https://erc.europa.eu/news-events/news/new-erc-work-programme-sets-out-2027-funding-opportunities",
+    "Verified Part I/II/CV/Resources limits 5/7/4/2 pages, standalone Part I, up to ten outputs, sole excellence criterion and two-step assessment. The four separate 2500/3500/2000/1000-word limits sum to 9000; no pooling, zero tolerance and disregard-excess are consistent. Source: WP2026 §1.5.1 and call.md/call.yaml.",
+    "Compared all 11 outcome/scope/exclusion/mandatory-item texts with call.md: all match; section IDs, duration and conditional absolute EUR 3.5m envelope agree. Both assigned PIs defended in June 2020 and meet the expressly retained window; both are EU-based and do not qualify for relocation top-ups.",
+    "Bottom-up frontier research fits both ecology and medieval history. Neither a consortium nor societal-impact promises are required. No real personal or topic identifier is introduced by this call."
+  ]
+}

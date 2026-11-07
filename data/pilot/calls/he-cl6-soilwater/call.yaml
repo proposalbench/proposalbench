@@ -1,0 +1,114 @@
+schema_version: 1
+id: he-cl6-soilwater
+scheme: horizon_ria
+language: en
+title: Agroecological management of soil water in drought-prone Mediterranean cropping systems
+topic_code: PB-HE-CL6-01
+proposal_type: full
+
+length_contract:
+  max_words: 18000
+  enforcement: disregard_excess
+  tolerance: 0.03
+  counted_sections: ["1", "2", "3"]
+  exempt: [references, title]
+  page_limit: 40
+  words_per_page: 450
+  source_note: >-
+    Horizon Europe General Annexes 2026-2027: Part B of RIA/IA proposals limited to 40 pages;
+    excess pages are disregarded by evaluators. Converted at 450 words per page (A4, 11 pt,
+    15 mm margins, typical table density), tables included.
+
+required_sections:
+  - {id: "1", title: Excellence}
+  - {id: "1.1", title: Objectives and ambition, parent: "1"}
+  - {id: "1.2", title: Methodology, parent: "1"}
+  - {id: "2", title: Impact}
+  - {id: "2.1", title: Project's pathways towards impact, parent: "2", aliases: [Pathways towards impact, Pathways to impact]}
+  - {id: "2.2", title: "Measures to maximise impact: dissemination, exploitation and communication", parent: "2", aliases: [Measures to maximise impact, "Dissemination, exploitation and communication"]}
+  - {id: "2.3", title: Summary, parent: "2", aliases: [Summary of the impact section, Key elements of the impact section]}
+  - {id: "3", title: Quality and efficiency of the implementation, aliases: [Implementation]}
+  - {id: "3.1", title: Work plan and resources, parent: "3"}
+  - {id: "3.2", title: Capacity of participants and consortium as a whole, parent: "3", aliases: [Capacity of participants, Consortium as a whole]}
+
+expected_outcomes:
+  - id: EO1
+    text: >-
+      Farmers, advisors and water managers have quantified, site-specific evidence on how
+      agroecological practices change soil water storage, infiltration and crop water productivity
+      under drought.
+  - id: EO2
+    text: >-
+      Decision-support tools that translate soil and weather data into practice recommendations are
+      validated with end users on working farms in at least three Mediterranean pedo-climatic zones.
+  - id: EO3
+    text: >-
+      Trade-offs between soil water benefits, yields, farm income and greenhouse gas emissions are
+      known, so that policy makers can design better-targeted CAP and drought-plan support.
+  - id: EO4
+    text: >-
+      Farmer-to-farmer learning networks that adopt and adapt soil-water practices are established
+      and continue beyond the project.
+
+scope:
+  - id: SC1
+    text: >-
+      Long-term and new field experiments plus on-farm trials measuring soil water dynamics, yields
+      and soil health under contrasting practices across an aridity gradient.
+  - id: SC2
+    text: >-
+      Integration of field data with soil-water and crop models and remote sensing to upscale from
+      plot to farm and landscape level, with explicit uncertainty estimates.
+  - id: SC3
+    text: >-
+      Co-design and validation with farmers and advisors of decision-support tools recommending
+      practice combinations for specific soils, crops and climate scenarios.
+  - id: SC4
+    text: >-
+      Socio-economic analysis of costs, risks and barriers to adoption (labour, machinery, access
+      to advice) and of the influence of CAP eco-schemes.
+  - id: SC5
+    text: Demonstration and knowledge exchange through networks of lighthouse farms.
+
+exclusions:
+  - id: EX1
+    text: Development of new sensor or irrigation hardware (existing or open-hardware sensing must be used).
+  - id: EX2
+    text: Projects focused on fully irrigated horticulture under cover.
+
+mandatory_elements:
+  - id: ME1
+    text: Multi-actor approach with farmers and advisors as genuine partners from design to dissemination.
+  - id: ME2
+    text: Coverage of conventional, organic and agroecological farms.
+  - id: ME3
+    text: Building on earlier EU and national projects and a plan to collaborate with the other projects funded under the topic.
+  - id: ME4
+    text: Integration of the gender dimension (sex and gender analysis) in the research and innovation content.
+  - id: ME5
+    text: Open science practices, including FAIR research data management and open release of data, models and tools.
+  - id: ME6
+    text: Explanation of compliance with the "do no significant harm" principle.
+
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  max_budget: 6000000
+  duration_months_max: 48
+  trl_start: 3
+  trl_end: 5
+  consortium:
+    min_entities: 3
+    min_countries: 3
+    notes: Independent legal entities in different EU Member States or Associated Countries.
+
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: claude-opus-5-5
+  created: 2026-10-30
+  notes: >-
+    Pilot task. Structure modelled on Horizon Europe Cluster 6 topics; topic text written from
+    scratch.
+
+canary: PROPOSALBENCH-CANARY 473f9e45-a885-4974-977e-6e48b204cca1

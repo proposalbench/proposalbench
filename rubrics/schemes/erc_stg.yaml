@@ -1,0 +1,73 @@
+# ERC Starting Grant, Work Programme 2026; sources checked 2026-10-31.
+# Official Work Programme, sections 1.1.1, 1.3, 1.5.1 and 1.6:
+# https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026/wp_horizon-erc-2026_en.pdf
+# ERC's publication page and dated 2026 applicant guidance:
+# https://erc.europa.eu/news-events/news/erc-work-programme-2026-adopted
+# https://erc.europa.eu/system/files/2025-09/How_to_write_your_proposal.pdf
+# https://erc.europa.eu/news-events/news/changes-2026-and-2027-work-programmes
+# Scientific excellence is the sole criterion: project ground-breaking nature and ambition,
+# plus PI intellectual capacity and creativity; feasibility is assessed only at Step 2.
+# PI time commitment is also required. These are not separate benchmark component weights.
+# Part I (5 pages) and CV/track record are read at Step 1; Part II (7 pages) supplies detailed
+# methodology and feasibility at Step 2. B1/B2 remain application-file labels, not the old
+# scientific-proposal structure. References are outside these page limits.
+#
+# call.yaml section ids and titles for a full narrative task:
+#   part_i: Part I of the Scientific Proposal
+#   part_ii: Part II of the Scientific Proposal
+#   cv: Curriculum Vitae and Track Record
+#   resources: Resources and Time Commitment
+# resources represents the corresponding Part A narrative, not extra Part II pages.
+# CV/track record must be drawn only from the supplied fictional dossier.
+# Map impact to the scientific contribution in Part I: ERC does not require a separate
+# societal-impact or dissemination plan. Page/word limits belong in call.yaml.
+# The generic methods, risks, work-plan and grounding items already assess feasibility.
+
+roles:
+  objectives: [part_i]
+  state_of_the_art: [part_i]
+  methods: [part_ii]
+  workplan: [part_ii]
+  risks: [part_ii]
+  team: [cv, part_ii, resources]
+  impact: [part_i]
+
+items:
+  - id: ERC01
+    component: substance
+    sections: [part_i]
+    taxonomy: [P06, P07, P17]
+    question: Does Part I make the case for an ambitious advance at the frontier of knowledge, understandable without Part II?
+    criteria:
+      - {id: a, text: "Explains why resolving the central scientific question would change understanding in the field, rather than merely filling an unstudied case. Quote the stated scientific consequence in Part I."}
+      - {id: b, text: "Identifies an assumption, conceptual boundary or currently inaccessible research possibility that success would challenge or open. Calling the project ground-breaking or ambitious is insufficient."}
+      - {id: c, text: "Explains why the envisaged advance exceeds an incremental extension of the existing research programme. Quote the argument in Part I, not a claim of novelty alone."}
+
+  - id: ERC02
+    component: substance
+    sections: [part_i, part_ii]
+    taxonomy: [P07, P09, P17]
+    question: Does the proposal justify taking scientific uncertainty in pursuit of a potentially large gain in knowledge?
+    criteria:
+      - {id: a, text: "Identifies an unproven scientific premise or unconventional step on which the ambitious advance depends, and explains why its outcome is uncertain. Administrative delays do not count."}
+      - {id: b, text: "Explains why the knowledge obtainable by pursuing that uncertain step warrants taking it, including what a safer or established approach would leave unanswered. Do not substitute a list of mitigations for this scientific justification."}
+
+  - id: ERC03
+    component: grounding
+    sections: [cv, part_i]
+    taxonomy: [P12, P17, P19]
+    question: Does the PI's account demonstrate creative ownership and potential for research independence using only the supplied dossier, with no requirement for a real-world publication record?
+    criteria:
+      - {id: a, text: "Explains the PI's own intellectual contribution to a dossier-supported research output or initiative, distinguishing it from a collective achievement. Answer na if the dossier supplies no attributable contribution; do not demand a particular publication count or authorship position."}
+      - {id: b, text: "Uses a dossier-supported example to explain an original scientific choice made by the PI, rather than listing prestige indicators. Answer na if the dossier supplies no such example; quote the proposal's explanation, not the dossier."}
+      - {id: c, text: "Explains how the proposed research establishes a scientific direction owned by the PI, including which substantive research decisions the PI will lead. An assertion of independence or a generic team-management role is insufficient."}
+
+  - id: ERC04
+    component: call_responsiveness
+    sections: [resources]
+    applies_if: {proposal_type: [full]}
+    taxonomy: [P03, P04, P17]
+    question: Does the full application explicitly make the Starting Grant PI's required time commitments?
+    criteria:
+      - {id: a, text: "States that the PI will devote at least 50 percent of their working time to this ERC project. Quote the percentage and what it applies to; the project's duration or team effort is not a substitute."}
+      - {id: b, text: "States that the PI will spend at least 50 percent of their working time in an EU Member State or Associated Country during the grant. Quote the commitment; a host address alone is insufficient."}

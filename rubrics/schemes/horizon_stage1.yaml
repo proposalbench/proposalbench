@@ -1,0 +1,84 @@
+# Horizon 2026–2027 stage 1: Excellence and Impact only; no sections 2.2/2.3/3.
+# Sources and verification dates: tools/authoring/schemes/horizon_stage1.yaml
+# Official award weights do not alter benchmark component weights.
+
+roles:
+  objectives:
+  - '1.1'
+  state_of_the_art:
+  - '1.1'
+  - '1.2'
+  methods:
+  - '1.2'
+  workplan:
+  - '1.2'
+  risks:
+  - '1.2'
+  - '2.1'
+  team:
+  - '1.2'
+  impact:
+  - '2.1'
+items:
+- id: HES101
+  component: substance
+  sections:
+  - '1.1'
+  taxonomy:
+  - P01
+  - P06
+  - P17
+  question: Does the first-stage outline establish topic-specific ambition?
+  criteria:
+  - id: a
+    text: States the specific advance beyond an identified existing approach or result; calling the
+      project ambitious is insufficient.
+  - id: b
+    text: Explains why that advance is relevant to a stated expected outcome of this topic.
+- id: HES102
+  component: substance
+  sections:
+  - '1.2'
+  taxonomy:
+  - P08
+  - P09
+  question: Does the concise methodology show how the central approach can deliver the objectives?
+  criteria:
+  - id: a
+    text: Explains the underlying concept, model or assumption linking the main method to the scientific
+      objective. A technique list is insufficient.
+  - id: b
+    text: Identifies a substantive uncertainty in that methodological link and explains how the proposed
+      approach deals with it; a stage-2 risk register is not required.
+- id: HES103
+  component: substance
+  sections:
+  - '2.1'
+  taxonomy:
+  - P13
+  - P20
+  question: Is the stage-1 impact pathway credible on its stated assumptions?
+  criteria:
+  - id: a
+    text: Connects a specific result to a named target group and the relevant topic outcome through
+      a causal uptake mechanism.
+  - id: b
+    text: Bounds the expected contribution using a justified baseline or assumption; a large unsupported
+      numerical target is insufficient.
+  - id: c
+    text: Identifies an external barrier or assumption on that pathway and a project-specific response
+      if it fails; implementation-risk tables are not required.
+- id: HES104
+  component: call_responsiveness
+  sections:
+  - '1.2'
+  taxonomy:
+  - P03
+  question: Are gender analysis and open science addressed in the stage-1 methodology?
+  criteria:
+  - id: a
+    text: Explains how sex or gender affects the research design or analysis, or provides a project-specific
+      reason it is irrelevant. Team gender balance alone does not count.
+  - id: b
+    text: Names an appropriate open-science practice and explains how it is integrated into this research,
+      or justifies a specific restriction. A general promise of openness is insufficient.

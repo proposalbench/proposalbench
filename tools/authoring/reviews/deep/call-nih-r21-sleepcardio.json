@@ -1,0 +1,33 @@
+{
+  "kind": "call",
+  "id": "nih-r21-sleepcardio",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "data/public/calls/nih-r21-sleepcardio/call.md, Research Strategy: \"including the dossier's work if used\"; \"without inventing secured access, approvals or completed work\".",
+      "problem": "The applicant-facing funding notice explicitly names the dossier and warns against invented applicant facts. Call 6 expressly prohibits both kinds of benchmark instruction in the funder's text. These passages also prime the collaboration/resource trap response.",
+      "fix": "Replace the Significance sentence with 'Evaluate strengths and weaknesses of the prior published and unpublished evidence, including the applicant's own work where relevant.' Replace the personnel sentence with 'Explain personnel roles, relevant expertise, resource access, and the status of any arrangements needed to execute the design.' Keep the fictional-call and word-conversion notices.",
+      "evidence": [
+        "data/public/calls/nih-r21-sleepcardio/call.md",
+        "docs/task_review_checklist.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Call 1, 4: verified the exploratory purpose, optional preliminary data, 24-month maximum, USD 275,000 total direct costs and USD 200,000 annual ceiling, eligible organization/qualified PI wording, and absence of an early-career requirement against https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html. No invented factor weights or thresholds appear.",
+    "Call 1: verified separate one-page Aims and six-page Strategy allowances against https://grants.nih.gov/grants-process/write-application/how-to-apply-application-guide/page-limits; Arial 11, US Letter, minimum half-inch margins and density/line-spacing requirements against https://grants.nih.gov/grants-process/write-application/how-to-apply-application-guide/format-attachments. The word conversion and reduced narrative deliverable are explicitly benchmark adaptations.",
+    "Call 1: checked Factors 1/2 scored 1–9, Factor 3 sufficiency and integrated Overall Impact against https://grants.nih.gov/policy-and-compliance/policy-topics/peer-review/simplifying-review/framework and PA-25-304. Inclusion within Factor 2 is already correct and is not a finding.",
+    "Call 1: checked the clinical-trial definition plus the March/May 2026 intervention/BESH changes: https://grants.nih.gov/policy-and-compliance/policy-topics/clinical-trials/definition; https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-063.html; https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-067.html. The planted therapeutic sleep/BP interventions remain clinical trials; a measurement procedure or assignment by itself is insufficient.",
+    "Call 3: all EO, SC and EX texts, plus ME7–ME8, match the visible call after whitespace normalization; ME1–ME6 have corresponding narrative instructions. Sections, language, headline funding and duration agree. The user-excluded word-tolerance/template correction is not reported.",
+    "Call 5: PB-prefixed fictional identifiers are not represented as real NIH notices; the real PA-25-304 identifier is appropriately used as a policy source, not as the invented topic identifier.",
+    "Call 2: outcomes, measurement requirements and success criteria can be demonstrated in Specific Aims/Approach within 600/3,600 words; ordinary participant protections and separate NIH forms are distinguished.",
+    "Call 4: objective adolescent sleep/cardiometabolic research is plausible; cohort evidence at https://pmc.ncbi.nlm.nih.gov/articles/PMC6260972/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC12316989/ supports the scientific premise without establishing causality. The fictional topic may narrow the parent programme to observational/mechanistic work.",
+    "Call 1: additionally checked Research Strategy heading order and the separate human-subjects forms against the December 2025 NIH Forms I Research Instructions, R.400: https://www.grants.nih.gov/grants/how-to-apply-application-guide/forms-i/research-forms-i.pdf. Consortium F&A exclusion is confirmed in Forms I G.310: https://grants.nih.gov/grants/how-to-apply-application-guide/forms-i/general/g.310-r%26r-subaward-budget-attachment%28s%29-form.htm."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "call",
+  "id": "nsf-stem-ed",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "us.anthropic.claude-opus-4-6-v1",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml expected_outcomes",
+      "problem": "Every expected outcome in call.yaml is duplicated with an off-by-one ID shift. The YAML has five entries (EO1–EO5) but the call.md has four numbered outcomes (EO1–EO4) plus one unnumbered bullet. EO1 in YAML is the unnumbered bullet text; EO2 in YAML has text starting 'EO1: …'; EO3 has text starting 'EO2: …'; etc. This means the YAML ids and the labels embedded in the text strings are misaligned, and there is one extra item. The same duplication-with-shift pattern affects scope (8 YAML entries vs 7 in call.md), exclusions (6 vs 5), and mandatory_elements (13 vs 9).",
+      "fix": "Remove the duplicate entries. Each list should contain only the numbered items from call.md, with YAML ids matching the labels (EO1–EO4, SC1–SC7, EX1–EX5, ME1–ME9). Delete the unnumbered lead-in bullets that were accidentally captured as separate items, and fix the id-to-text mapping so EO1's text is the EO1 text, not the unnumbered preamble."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml length_contract.page_limit",
+      "problem": "call.yaml states page_limit: 16 (1 Summary + 15 Description). call.md never states a combined 16-page limit; it states 1 page for Summary and 15 pages for Description separately, and the benchmark adaptation is in words (600 + 9,000 = 9,600). The YAML source_note explains the 16 is 'only the sum of non-transferable allowances', but exposing 16 as a formal page_limit field could mislead scoring: the real binding limits are per-section word counts. At minimum the two documents are inconsistent about whether '16 pages' is a stated constraint.",
+      "fix": "Either remove page_limit from the YAML (the binding limits are per-section word counts) or add a note in call.md that the combined page equivalent is 16 pages, matching the YAML field. Preferred: drop page_limit or mark it informational."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Expected outcomes, first bullet",
+      "problem": "The expected-outcomes list has an unnumbered lead-in bullet ('A justified contribution to knowledge…') that is identical to EO1. This is confusing: it looks like a duplicated requirement. The same pattern occurs in Scope (unnumbered bullet duplicates SC1), Exclusions (unnumbered bullet duplicates EX1), Mandatory elements (four unnumbered bullets duplicate ME1–ME4). A reader cannot tell whether the unnumbered bullets are separate requirements or just preamble.",
+      "fix": "Remove the unnumbered duplicate bullets from each list in call.md, leaving only the labelled items (EO1–EO4, SC1–SC7, EX1–EX5, ME1–ME9)."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml mandatory_elements ME1–ME4 vs ME5–ME13",
+      "problem": "ME1–ME4 in YAML are the unnumbered bullets; ME5–ME13 are the labelled ME1–ME9 from call.md (with text prefixed 'ME1: …' through 'ME9: …'). This means the YAML has 13 mandatory elements while the call has 9. A scoring system checking ME1 in YAML would check the wrong text compared to what the call labels ME1.",
+      "fix": "Keep only 9 mandatory elements in YAML with ids ME1–ME9 matching the call.md labels and the correct text (without the 'ME1: ' prefix in the text field)."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 5",
+      "where": "call.yaml provenance.author_model",
+      "problem": "The model listed is 'gpt-6-astra'. While this is not a real model name today, the 'gpt-6' prefix and 'openai' family could be read as identifying a real company's product line. More importantly, the checklist item is about real identifiers in the call itself—this field is metadata, so it may be acceptable, but verify the intent: if 'gpt-6-astra' is meant to be fictional it should be clearly so; if it refers to a future real model it should not be stated as fact.",
+      "fix": "Use a clearly fictional model identifier (e.g., 'llm-assisted-v1') or leave the field as 'llm-assisted' to avoid any ambiguity."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.yaml scope, exclusions, expected_outcomes text fields",
+      "problem": "The text fields in YAML for the labelled items include the label prefix (e.g., text: 'EO1: Researchers have stronger explanations…'). This embeds the id redundantly in the text, which could cause confusion in automated scoring or matching.",
+      "fix": "Strip the 'EO1: ', 'SC1: ', 'EX1: ', 'ME1: ' prefixes from the text fields, since the id field already carries the label."
+    }
+  ]
+}

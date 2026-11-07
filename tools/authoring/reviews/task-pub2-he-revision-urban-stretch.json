@@ -1,0 +1,24 @@
+{
+  "kind": "task",
+  "id": "pub2-he-revision-urban-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T1.expected_behaviour",
+      "problem": "The answer key mandates independent local calibration, event-triggered sampling and precision comparable to CAL-2E. The call and ESR require credible validation, but do not prescribe those methods. Independently testing the frozen Corrib classifier on an adequately powered receiving-estuary dataset could establish transferability without fitting local coefficients. A justified alternative sampling design could also answer the criticism. The current wording risks rejecting compliant alternatives and does not explicitly accept a reasoned rebuttal with concrete mitigation.",
+      "fix": "Accept adequately justified independent validation of frozen coefficients, local model development with independent validation, or a reasoned rebuttal with concrete mitigation. Make event-triggered sampling, local recalibration and CAL-2E's numerical precision examples rather than mandatory conditions."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T1.expected_behaviour: 'CAL-2E meets these requirements'; technical_update_sept2026.md, section 1",
+      "problem": "CAL-2E does not establish everything the key credits it with. Cross-testing separately fitted estuary models evaluates transferred coefficients. If transfer fails, the protocol retains site-specific coefficients but specifies no independent validation of those locally fitted models before their use in warnings. Its 115 samples and 40 exceedances also do not specify a separate evaluation allocation for that fallback. The key therefore endorses a design whose fallback does not demonstrate the independent validation it requires.",
+      "fix": "Describe CAL-2E as a starting protocol requiring completion. Specify independent evaluation of any locally fitted fallback, with an appropriate validation design and precision calculation for the actual evaluation data. Keep proxy-driven warnings conditional on that validation, allowing another validated warning method in the meantime."
+    }
+  ]
+}

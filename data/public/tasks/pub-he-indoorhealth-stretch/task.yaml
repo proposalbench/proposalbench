@@ -1,0 +1,36 @@
+schema_version: 1
+id: pub-he-indoorhealth-stretch
+split: public
+call_id: he-cl1-indoorhealth
+dossier_id: nordic-dh-consortium
+fit_level: stretch
+brief: brief.md
+method_profile: mixed
+traps:
+- id: T1
+  type: T09
+  description: The brief suggests basing the field study entirely on the 15 already-renovated blocks,
+    for which "no pre-renovation environmental or health records exist for them", and comparing post-renovation
+    data to national baselines. The call requires "longitudinal field studies measuring indoor temperature,
+    air quality, and moisture levels before and after deep energy renovations".
+  expected_behaviour: The proposal designs a longitudinal study that collects both pre- and post-renovation
+    data. It achieves this by proposing to use the 5 planned blocks (which are scheduled for deep renovation
+    in 2027-2029) or by planning to recruit new sites/cohorts that will be renovated during the project
+    timeline.
+- id: T2
+  type: T05
+  description: The brief suggests skipping clinical measurements and using temperature and CO2 as proxies
+    for health impacts, as the consortium has "no clinical partnerships, no medical-research ethics approvals,
+    and no methodological expertise to measure health outcomes". The call explicitly excludes "Observational
+    or modelling studies of indoor environments that do not include direct measurement of human health
+    outcomes" and requires quantifying outcomes "using validated clinical and patient-reported metrics."
+  expected_behaviour: The proposal includes direct measurement of human health outcomes using validated
+    clinical and patient-reported metrics. It includes a credible plan to obtain the missing qualified
+    expertise (e.g., by recruiting a new public-health or clinical partner, or through planned qualified
+    hires) and outlines prospective ethics and recruitment arrangements.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 0003bd5a-ecc0-490f-b45a-61029bdf428a

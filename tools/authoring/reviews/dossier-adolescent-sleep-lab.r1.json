@@ -1,0 +1,66 @@
+{
+  "kind": "dossier",
+  "id": "adolescent-sleep-lab",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1–3; Task 1–3, 5",
+      "where": "planned tasks (design); missing call texts, call YAML files and applicant briefs",
+      "problem": "The design summaries cannot establish scheme fidelity, agreement between call text and requirements, task achievability or trap fairness. Neither call supplies sources, application instructions, eligibility, limits or exclusions. The actual briefs are also absent, so their wording, language and potential signalling cannot be reviewed. In particular, the stated clinical-trial exclusion cannot be inferred merely from the R21 mechanism.",
+      "fix": "Supply both complete calls, their requirement YAML files and the actual applicant briefs. Include authoritative scheme sources and identify the invented topic details. State the applicable clinical-trial designation and all budget, duration and application limits explicitly, then review each task against those documents."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md, Key Results; publications.md, 2023 and 2018 abstracts",
+      "problem": "Several substantive results lack the required numerical support. The annual SRI decline of 3.1 points has no uncertainty estimate or analysis sample size. The school-start-time difference has no effect estimate, uncertainty or subgroup information. The 2018 publication reports significant academic associations and partial mediation without coefficients or uncertainty. The longitudinal results do not identify how many participants and observations entered each analysis.",
+      "fix": "Provide analysis-specific participant and observation counts and uncertainty for the reported effects. Quantify the school-start-time and academic-performance findings, including the indirect association if retained, or remove unsupported result claims. Keep these additions consistent across the report, publications and facts registry."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, F01–F08, F19–F20",
+      "problem": "The result registry omits substantial proposal-relevant information: baseline ages and sex composition; Wave 3 n = 346; 14-day deployments; the sleep-duration confidence interval; baseline SRI SD = 8.1; the annual SRI decline; and the confidence intervals and comparison definitions for the mood and BMI associations. F20 records the predictor increment of 10 rather than the reported BMI association of +0.18 per 10-point SRI decrease, and marks this cardiometabolic result nonsalient.",
+      "fix": "Register the complete estimates with units, predictor increments, comparison groups, uncertainty and sample sizes. Replace or supplement F20 with the +0.18 BMI z-score association and its 95% CI of 0.05–0.31, marked salient."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, resource, grant, partner and experience facts",
+      "problem": "The registry also omits material capacity and status facts: grant dates and the $45,000 seed award; 50 Actiwatch 2 devices; four workstations; team composition; formal statistical consulting; the usability work with 12 clinic staff; and the dates of engagement activities and partnership reporting. F13 and F14 do not capture the explicit statements that the cardiologist is not a co-investigator and has no joint publications or shared funding with the applicant. Partnership facts are presented as current without preserving their August 2023 reporting date.",
+      "fix": "Add source-linked facts for the omitted capacities, experience, funding and collaboration limitations. Preserve reporting dates for time-sensitive statuses, and establish a task reference date or update the source documents before treating those statuses as current."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md, Methodology and Sample and Mood Associations",
+      "problem": "The reporting does not make the longitudinal analysis reproducible enough to assess the claims. It omits wave dates, Wave 2 participation, usable participant-wave counts, scoring and nonwear rules, and the model used to distinguish within-person from between-person associations. The PHQ-9 estimate of 2.4 with a 95% CI of 1.1–3.7 would yield approximately p = .0003 under a conventional normal Wald calculation, rather than .002; a finite-degrees-of-freedom procedure could explain this, but none is stated. The retention percentage itself is consistent: 346/412 rounds to 84%. The actigraphy total and rounded mean are also potentially compatible, but their denominator is missing.",
+      "fix": "Add a compact wave-level accounting table and describe scoring, missing-data handling and the longitudinal model. State the inferential procedure and degrees of freedom supporting the confidence interval and p-value, or correct them if they came from inconsistent analyses."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "publications.md, 'Circadian phase delays and academic performance in eighth-grade students'",
+      "problem": "The described study measures morningness-eveningness preference using the MEQ. That does not directly measure physiological circadian phase or establish a phase delay. The title therefore claims a construct and change that the described measurements do not support.",
+      "fix": "Retitle and describe the study in terms of evening preference or chronotype and academic-performance associations, updating the publication registry accordingly. Alternatively, document an actual phase assessment and an appropriate comparison supporting a delay."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "resources_and_team.md, Equipment",
+      "problem": "ActiLife is presented as the necessary processing software for an inventory that includes both ActiGraph GT9X Link and Philips Respironics Actiwatch 2 devices. ActiLife does not supply the Actiwatch 2 initialization, download and scoring workflow. The claimed operational capacity for those 50 devices is therefore incomplete.",
+      "fix": "Document the compatible Actiware software and interfaces available for the Actiwatch 2 devices, or state that those devices are not currently operational. Distinguish the processing workflows for the two device families."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "cv_pi.md, Completed Grants",
+      "problem": "The seed award is attributed to 'Oakhaven University', while the institution is named 'University of Oakhaven' throughout the rest of the dossier.",
+      "fix": "Use 'University of Oakhaven Seed Grant' consistently, or identify the awarding institution separately if it is intentionally different."
+    }
+  ]
+}

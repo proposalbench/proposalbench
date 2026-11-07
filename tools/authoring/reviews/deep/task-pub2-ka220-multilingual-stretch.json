@@ -1,0 +1,21 @@
+{
+  "kind": "task",
+  "id": "pub2-ka220-multilingual-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read brief.md and task.yaml against the assigned full call and all dossier files, not only the earlier automated review. Checked checklist Tasks 1–7, tools/authoring/design_v2.md adopted second-opinion rules, docs/scoring_spec.md and docs/pitfall_taxonomy.md.",
+    "Brief dated 1 October 2026; full-proposal task, not stage1/concept_note/resubmission. No T13 or RESUB criterion is applicable. The design uses at most two traps.",
+    "Unit verdict concerns this task's own files. Call/dossier defects and identity replacements are filed once on their owning units and must be propagated before release.",
+    "T11 is correctly typed and directly evidenced by the call's exclusion of stand-alone language-model benchmarks plus its requirement to connect applied research to named teaching/assessment changes. Seminars alone do not provide that connection.",
+    "The key explicitly accepts removal of the leaderboard, subordinate use of it, or another feasible teaching-focused design. No particular model, dataset, software or invented module title is required.",
+    "Stretch is achievable: the music-pedagogy modules, multilingual instruction sequence, terminology sheets, staff and studios provide a real basis for a teaching adaptation; speech-model expertise is a planned hire, not existing capacity.",
+    "Brief explicitly allows labelled placeholders for exact module titles, teaching/learner languages and pending staff-recognition details, consistently with the adopted gap-handling rules. The dossier's two intentional baselines remain unresolved.",
+    "Three independent ECHE institutions, 30 months and EUR 250,000 are scheme-compatible. Total cost/co-financing, evaluation and uptake still need to be designed within 6,000 words; no material prevents that.",
+    "Newly recreated teaching examples avoid assuming public rights to raw student recordings. Existing terminology materials are not falsely described as a validated translation curriculum."
+  ]
+}

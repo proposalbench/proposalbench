@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub-erc-pollinator-close",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "task.yaml (Trap T2) and brief.md",
+      "problem": "Trap T2 is not a valid trap because the brief's request is already fully compliant with the call. A trap requires the brief to suggest something that contradicts the call or dossier, which the AI must catch and correct. Here, the brief explicitly requests 'EUR 1,500,000 base plus EUR 1,000,000 additional funding for the major field campaigns... and the controlled-environment chamber', which perfectly follows the call's requirement to separate the base and additional funding and justify the additional funding for major equipment/fieldwork. There is no conflict for the AI to resolve.",
+      "fix": "Either remove Trap T2 entirely (one trap is sufficient), or change the brief to request an ineligible budget (e.g., asking for the EUR 2,000,000 relocation top-up despite already being based in Spain) and update T2 to reflect that the AI must reduce this to the eligible EUR 1,000,000 additional funding."
+    }
+  ]
+}

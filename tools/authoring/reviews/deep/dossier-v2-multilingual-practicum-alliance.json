@@ -1,0 +1,83 @@
+{
+  "kind": "dossier",
+  "id": "v2-multilingual-practicum-alliance",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1; Dossier 6",
+      "where": "data/public/dossiers/v2-multilingual-practicum-alliance/equipo_y_recursos.md: \"Dra. Sofía Tavares\", \"Dr. Matej Kovač\", \"Dra. Elena Vargas\", \"Prof. Filipe Castanheira\"; corresponding authors in publicaciones.md and dossier.yaml.",
+      "problem": "Four fictional team identities collide with public real identities. Sofia Tavares is an Évora psychology academic; Matej Kovač is a Slovenian rehabilitation professional and published author; Elena Vargas is a Madrid music educator and Suena Tetuán co-founder; Filipe Castanheira appears on Grand Valley State University's public varsity roster. Several collisions are in the same country and closely related teaching/accessibility fields. Accent differences do not make Sofía a separate fictional identity.",
+      "fix": "Replace consistently: Sofía/Sofia Tavares → Sofia Taveirães; Matej Kovač → Matej Brinovšek; Elena Vargas → Elena Valderquena; Filipe Castanheira → Filipe Castanheirães. Update initials/surnames in every publication entry, facts and dependent briefs. Exact quoted searches of the proposed full replacement names returned no matches.",
+      "evidence": [
+        "https://siiue-ws.uevora.pt/files/anexo_informacao/627808",
+        "https://skaa2025.si/faculty/matej-kovac",
+        "https://ibmi.mf.uni-lj.si/rehabilitacija/vsebina/Rehabilitacija_2020_No2_p33-38.pdf",
+        "https://www.tetuancrea.com/socios-1/project-three-sng7y-jkgxx-kmlk5-rslaw-j2h5a-67gzg-jr376-wwzfw-3pgzz",
+        "https://gvsulakers.com/sports/mens-tennis/roster/filipe-castanheira/6460"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-multilingual-practicum-alliance/cv_coordinador.md and consorcio_alianza.md: \"Universidad de San Valero (USV)\".",
+      "problem": "The invented university uses the distinctive San Valero educational identity. The real Spanish Grupo San Valero operates higher-education institutions and established Universidad Dominicana San Valero (UNISVA), approved in 2024. This is a credible institutional confusion, not merely a shared ordinary word; the dossier also invents a history, degree awards and email address under that identity.",
+      "fix": "Rename throughout to Universidad Pública de Valdencira (UVD), retain the fictional Spanish location, public status and 1992 foundation, and use c.mendoza@uvd.example.invalid for the fictional contact. Propagate UVD to both faculty descriptions, publications and every dependent task brief/key. The replacement full university name returned no exact search match.",
+      "evidence": [
+        "https://www.gruposanvalero.es/fr/node/4484",
+        "https://gruposanvalero.es/actualidad/noticias/el-mescyt-firma-un-acuerdo-para-becas-con-la-universidad-dominicana-san-valero",
+        "data/public/dossiers/v2-multilingual-practicum-alliance/consorcio_alianza.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-multilingual-practicum-alliance/cv_coordinador.md: \"Grupo de Innovación Docente en Entornos Multilingües (GIDEM)\" and \"INCLU-ED (2017–2019)\".",
+      "problem": "GIDEM is already the acronym of a real UAM education research group working on inclusion, technology and music education. INCLU-ED is also readily confused with INCLUD-ED, the real EU educational-inclusion project. The user explicitly excludes names that would be confused with real projects, even where the spelling is not identical.",
+      "fix": "Use the group acronym GIEM-VALDENCIRA and replace INCLU-ED with TRAMA-LIN-172 (keep the invented expanded project title, dates, role and budget). Update dossier.yaml F25 and any dependent references. Exact searches of these replacement identifiers returned no match.",
+      "evidence": [
+        "https://www.uam.es/uam/investigacion/grupos-de-investigacion/detalle/f1-667",
+        "https://cordis.europa.eu/project/id/28603",
+        "data/public/dossiers/v2-multilingual-practicum-alliance/cv_coordinador.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1; Dossier 6",
+      "where": "data/public/dossiers/v2-multilingual-practicum-alliance/publicaciones.md and dossier.yaml, kovac2025 venue: \"European Journal of Inclusive Higher Education\".",
+      "problem": "The fictional venue differs by only 'Higher' from the established European Journal of Inclusive Education, an EERA-network journal covering education across age groups. In this same subject area it is liable to be read as the real journal or a mistaken citation to it.",
+      "fix": "Replace the venue in both bibliography and own_publications with Journal of Practicum Language Access, retaining the fictional DOI and article metadata apart from the author renames above. No exact match was found for the replacement title.",
+      "evidence": [
+        "https://tidsskrift.dk/ejie",
+        "https://portal.issn.org/resource/ISSN/2794-4417",
+        "data/public/dossiers/v2-multilingual-practicum-alliance/publicaciones.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/v2-multilingual-practicum-alliance/dossier.yaml F26: \"El coordinador ha dirigido 4 tesis doctorales\"; cv_coordinador.md: \"4 tesis doctorales (3 defendidas, 1 en curso)\".",
+      "problem": "The registry loses the completed-versus-ongoing status, allowing the four to be treated as completed doctorates. Other readily quotable pilot design and staff-capacity facts are absent: the 50-point rubric split, 40 students per institution, and the Portuguese/Slovenian lead and assistive-technology roles. This weakens factual-integrity and GR-T assessment precisely where proposals need evidence of delivery capacity.",
+      "fix": "Replace F26 text with 'El coordinador ha dirigido 4 tesis doctorales: 3 defendidas y 1 en curso' and value with '3 defendidas, 1 en curso'. Add salient existing facts sourced to informe_piloto_2024_25.md for 40 enrolled per institution and a 50-point rubric with 25 oral-communication and 25 professional-interaction points. Add salient team facts sourced to equipo_y_recursos.md identifying the Portuguese accessibility lead, Slovenian rubric-design lead and assistive-technology specialist, using the replacement names above. Do not turn absent external placements or audiodescription competence into existing capacity.",
+      "evidence": [
+        "data/public/dossiers/v2-multilingual-practicum-alliance/cv_coordinador.md",
+        "data/public/dossiers/v2-multilingual-practicum-alliance/informe_piloto_2024_25.md",
+        "data/public/dossiers/v2-multilingual-practicum-alliance/equipo_y_recursos.md",
+        "docs/scoring_spec.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Dossiers 2, 4: 120 enrolled, 96 paired and 24 unpaired imply 80% paired retention/20% missingness; 40 enrolled at each of three sites is consistent. A 0.24 baseline-SD change with CI 0.05–0.43 for 96 pairs is possible (implied change-score SD about 0.94 baseline SD). The uncontrolled pre/post design does not support causal efficacy or an all-120 estimate.",
+    "Method plausibility checked against primary research on translanguaging in higher education: https://www.nature.com/articles/s41599-024-03771-2. It does not independently validate this fictional pilot's scores or effect.",
+    "Dossier 3: every non-null value already registered occurs in its cited file; null-valued facts checked semantically. The issue above concerns omissions/status loss rather than missing source support.",
+    "Dossiers 1, 6: searched Carlos Mendoza Rivas, all staff, USV/ISEM/USD full institutional names and variants, Instituto de Evaluación Educativa, GIDEM, EVAL-LING, INCLU-ED, PID2019-104582RB-I00 and all four journal titles. Reported evidenced collisions above; no exact grant-code collision established. Real AEI/ministry funders are allowed.",
+    "Dossiers 2, 7: degree/career sequence 2006/2008/2012, postdoc 2012–2014, assistant 2014–2019 and titular since 2019 is plausible. All source updates precede October 2026; no resubmission report required.",
+    "Dossiers 5, 8: signed collaboration covers curriculum only; two faculties have no separate legal personality; placements are unsecured and audiodescription training is future work. No intentional gaps/inconsistencies are declared. The Spanish dossier/brief and English call are deliberate language choices.",
+    "Dossier 6: four own-publication DOIs use the fictional 10.99999/pb. namespace and agree with the visible bibliography. Venue and author collisions are filed above."
+  ]
+}

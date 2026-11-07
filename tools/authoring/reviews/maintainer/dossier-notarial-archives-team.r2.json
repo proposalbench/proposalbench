@@ -1,0 +1,26 @@
+{
+ "reviewer": "task reviews",
+ "issues": [
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml: facts",
+   "problem": "The registry omits numerous salient results, limitations and resource conditions. Examples include the 12,540 instruments, 3,450 individuals, 15,800 edges, 1,450,000-sueldo total, creditor and debtor denominators, loan means with sample sizes and standard deviations, HTR confidence intervals and character counts, NLP F1 estimates and intervals, and the 45/750 identity errors. It also omits the parish-register limitation underlying T2, the unconfirmed dowry mechanism, corpus languages, restricted image access, noncommercial licensing, storage capacity and planned appointments.",
+   "fix": "Add source-linked facts for all proposal-relevant estimates with their uncertainty and denominators, methodological limitations, access and licensing conditions, existing resources and planned recruitment. Register the source limitation supporting T2 explicitly."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "informe_proyecto_previo.md §2.3: identity-resolution error propagation",
+   "problem": "The report transfers a 6.0% error rate among homonym-disambiguation decisions directly to 6.0% of network edges. These are different units and potentially different populations. Identity merges and splits can affect several incident edges together; randomly reassigning individual edges does not establish a calibrated uncertainty estimate for those errors. The reported ±0.002 also lacks a defined interval level and statistical interpretation.",
+   "fix": "Describe an empirically calibrated node-merge and node-split simulation that maps adjudicated identity errors to affected records and edges. Define the centrality estimand and interval calculation. Alternatively, label the existing calculation as an illustrative perturbation sensitivity analysis rather than an estimated uncertainty margin."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 7",
+   "where": "informe_proyecto_previo.md and publicaciones.md: document dates",
+   "problem": "Neither document has an issue or update date. The project's 2021–2024 execution period and the publications' bibliographic years do not date the documents themselves. This fails the explicit requirement that dossier documents be dated no later than September 2026 and leaves the currency of publication and repository statuses unspecified.",
+   "fix": "Add an explicit issue date to the historical final report and a September 2026 update date to the publication register. Add a dated September 2026 confirmation of current repository access and release statuses where those historical statements are intended to remain current."
+  }
+ ]
+}

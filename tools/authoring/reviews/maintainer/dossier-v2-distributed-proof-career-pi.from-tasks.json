@@ -1,0 +1,39 @@
+{
+ "kind": "dossier",
+ "id": "v2-distributed-proof-career-pi",
+ "reviewer_family": "task-reviews",
+ "issues": [
+  {
+   "severity": "major",
+   "checklist": "Dossier 4; Task 1",
+   "where": "prior_project.md §3; publications.md sensor-fault manuscript abstract; dossier.yaml F12–F13",
+   "problem": "The sensor-recovery claim lacks assumptions needed to establish it. Pointwise sparsity of f(k) permits the attacked sensor set to change at every time step, whereas the usual condition based on observability after removing fixed sensor subsets does not generally guarantee recovery under switching attacks. '2s-sparse strong observability' is also attributed to an observability matrix without a definition, observation horizon or unknown-input model.",
+   "fix": "Specify the fault-support model, measurement horizon, noise assumptions and exact observability condition. State precisely which state and nonzero fault signals are recoverable and when. Either restrict the result to fixed attacked sensor sets with the appropriate condition or supply a condition that supports switching attacks; update the abstract and facts accordingly.",
+   "from_task_review": "pub2-nsf-autonomy-close"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4; Task 1",
+   "where": "brief.md opening paragraph; prior_project.md §2.2",
+   "problem": "The central proposed objective is to prove a specifically numbered existing conjecture, but its mathematical statement is absent. 'A modified resilient consensus algorithm' and 'similar delay bounds' do not identify an update rule or bound. The adversary's communication capabilities and the intended consensus property are also unspecified, so materially different research problems fit the supplied description.",
+   "fix": "Supply a dated excerpt stating Conjecture 3.1 with its algorithm, adversary model, timing and delay assumptions, proposed bound, and agreement and validity properties. Alternatively, revise the brief to make formulating and testing a precise conjecture an explicit research objective rather than referring to an already defined statement.",
+   "from_task_review": "pub2-nsf-autonomy-close"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "prior_project.md, section 3; publications.md, sensor-fault manuscript abstract; dossier.yaml, F12–F13",
+   "problem": "The sensor-fault guarantee lacks a necessary distinction between fixed and changing attack support. The model permits f(k) to have any s nonzero entries at each time, but ordinary 2s-sparse observability concerns removing a fixed set of sensor channels over an observation horizon. That condition alone does not establish recovery when attacked channels can change arbitrarily at every step. 'Graph observability matrix' and '2s-sparse strong observability' are also undefined, leaving the central preliminary result impossible to assess.",
+   "fix": "Define the observation horizon and observability operator. Either restrict faults to an unknown fixed set of at most s sensor channels and state the corresponding sparse-observability condition, or supply the stronger distinguishability condition required for changing support. Define isolation as recovery of nonzero injected faults, distinguishing it from identifying compromised sensors that inject zero. Update the abstract and registry consistently.",
+   "from_task_review": "pub2-nsf-inference-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml, facts; prior_project.md, sections 2 and 5; resources_team.md, section 2",
+   "problem": "The facts registry omits proposal-relevant conditions and resources. F09 records the delay inequality without the fixed, undirected graph, symmetric Laplacian, uniform delay, and continuous-history assumptions that limit the theorem. The registry also omits the four GPU nodes with four GPUs each, existing software/container resources, and the remaining seed-grant expenditure amounts and support durations.",
+   "fix": "Add sourced facts for the theorem's complete assumptions, the GPU and software resources, and the $24,000 graduate support over two semesters, $3,500 travel, and $6,000 publication/computing expenditure. Distinguish existing ROS2/container access from the planned sensor-fault validation framework.",
+   "from_task_review": "pub2-nsf-inference-stretch"
+  }
+ ]
+}

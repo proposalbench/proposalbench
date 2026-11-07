@@ -1,0 +1,1001 @@
+{
+  "kind": "dossier",
+  "id": "v2-cultural-care-participation-team",
+  "family": "anthropic",
+  "model": "opus",
+  "created": "2026-10-31",
+  "prompt_sha256": "792e54d3a2a7122671d8ef62272ba9232cf3a2b539b33efb7746222540a9a06b",
+  "draft": {
+    "applicant_type": "team",
+    "career_stage": "senior",
+    "disciplines": [
+      "enfermería comunitaria",
+      "música",
+      "patrimonio cultural",
+      "sociología rural"
+    ],
+    "method_profile": "mixed",
+    "country": "ES",
+    "files": [
+      {
+        "path": "cv_ip.md",
+        "role": "cv",
+        "content": "> Documento ficticio creado para ProposalBench.\n\n# Currículum vitae abreviado\n\n**Amparo Recuero Valdelomar**\nFecha de actualización: 15 de septiembre de 2026\n\n## Situación profesional actual\n\n- Catedrática de Universidad, área de Sociología. Departamento de Sociología y Trabajo Social, Universidad de Vettonia (UVET), campus de Plasencia (Cáceres).\n- Funcionaria de carrera desde el 1 de marzo de 2010. Catedrática desde el 1 de octubre de 2019.\n- Coordinadora del grupo de investigación TERRA-Cuidado (Territorio, Cultura y Cuidados), reconocido por la UVET en 2020 (código GI-UVET-SOC-04).\n- 4 sexenios de investigación reconocidos (último tramo 2018–2023) y 1 sexenio de transferencia (convocatoria piloto de 2018).\n- Evaluadora de proyectos para la Agencia Estatal de Investigación (Ciencias Sociales) desde 2017.\n\n## Formación\n\n- 2004. Doctora en Sociología, Universidad de Vettonia. Tesis: «Música, fiesta y pertenencia en la Sierra de Gata, 1950–2000». Sobresaliente cum laude.\n- 1998. Licenciada en Sociología, Universidad de Vettonia.\n- 1996. Título Superior de Música, especialidad de Musicología.\n\n## Trayectoria\n\n- 2019–actualidad: Catedrática de Universidad, UVET.\n- 2010–2019: Profesora Titular de Universidad, UVET.\n- 2005–2010: Profesora Contratada Doctora, UVET.\n- 2000–2004: Investigadora predoctoral (programa propio FPI-UVET), Departamento de Sociología.\n\n## Proyectos como investigadora principal\n\n| Referencia | Título | Financiador y convocatoria | Periodo | Importe | Estado a 15/09/2026 |\n|---|---|---|---|---|---|\n| PPI-2024-T-07 | Rueda de Voces: participación cultural y redes de apoyo de personas mayores en la Sierra de Gata | Plan Propio de Investigación UVET 2024, línea Transferencia y Territorio | 01/10/2024–31/01/2026 | 38.500 € | Finalizado; informe final de 30/01/2026 |\n| PID2021-127483OB-I00 | TERRAVOZ-GATA: patrimonio sonoro y vida cotidiana en municipios en riesgo de despoblación | AEI, Proyectos de Generación de Conocimiento 2021, modalidad Investigación Orientada, tipo B | 01/09/2022–31/08/2026 (incluye prórroga de 12 meses) | 96.800 € | Finalizado el 31/08/2026; informe científico final en preparación |\n| PGC2018-098214-B-I00 | Cancioneros locales y memoria colectiva en la Raya cacereña | Ministerio de Ciencia, Innovación y Universidades / AEI, Proyectos de I+D de Generación de Conocimiento 2018, tipo B | 01/01/2019–30/06/2022 (incluye prórroga de 6 meses) | 54.450 € | Finalizado y justificado |\n\nTERRAVOZ-GATA documentó 312 grabaciones de campo (toques de campana, cantos, rondas y paisaje sonoro) y 46 entrevistas biográficas en 18 municipios de menos de 1.000 habitantes de las provincias de Cáceres y Salamanca. El proyecto PGC2018 produjo la edición digital de cinco cancioneros locales con 418 piezas transcritas y comentadas.\n\n## Dirección de tesis doctorales\n\n- 3 tesis defendidas (2014, 2018 y 2023), las tres sobre sociabilidad y patrimonio en el medio rural.\n- 2 tesis en curso (inicio en 2022 y 2024), programa de doctorado en Ciencias Sociales de la UVET.\n\n## Transferencia\n\n- 4 contratos de I+D con ayuntamientos y una mancomunidad de la provincia de Cáceres (art. 83 LOU / art. 60 LOSU), 2016–2024, 61.300 € en total, para inventarios de patrimonio musical local.\n- Talleres de recogida de repertorio con asociaciones vecinales en 11 municipios (2019–2024).\n\n## Docencia\n\nSociología rural; Métodos cualitativos de investigación social; Envejecimiento y sociedad (Grado en Trabajo Social y Grado en Enfermería, UVET).\n\n## Métodos con experiencia acreditada\n\nEntrevista biográfica y semiestructurada; etnografía de prácticas musicales y festivas; registro sonoro de campo; escalas breves administradas en entrevista; análisis temático asistido con MAXQDA; estadística descriptiva y regresión lineal en R.\n\n## Publicaciones\n\nVéase el listado de publicaciones del equipo (selección 2021–2026).\n"
+      },
+      {
+        "path": "informe_final_rueda_de_voces.md",
+        "role": "prior_project",
+        "content": "> Documento ficticio creado para ProposalBench.\n\n# Informe final — Proyecto Rueda de Voces\n\n**Participación cultural y redes de apoyo de personas mayores en la Sierra de Gata**\n\nReferencia: PPI-2024-T-07. Plan Propio de Investigación de la Universidad de Vettonia, convocatoria 2024, línea Transferencia y Territorio. Importe concedido: 38.500 €. Periodo de ejecución: 1 de octubre de 2024 a 31 de enero de 2026.\n\nInvestigadora principal: Dra. Amparo Recuero Valdelomar (UVET). Equipo: Dr. Iago Cendón Sobrado, lingüista (UVET); Rocío Durán Malpartida, enfermera especialista en Enfermería Familiar y Comunitaria (UVET).\n\nFecha del informe: 30 de enero de 2026.\n\n## 1. Objetivos\n\n1. Describir la participación de personas mayores residentes o usuarias de centros en talleres semanales de canto y memoria oral basados en el repertorio tradicional de la comarca.\n2. Describir los cambios en bienestar mental, soledad y red de apoyo entre el inicio y el final del periodo de talleres.\n3. Identificar, a partir de las entrevistas, las dificultades lingüísticas y comunicativas que las personas participantes refieren en su relación con los servicios sanitarios y sociales.\n\n## 2. Diseño y centros\n\nEstudio piloto pre-post de un solo grupo, sin grupo de comparación. Tres centros de tres municipios de la Sierra de Gata (Cáceres), identificados como A (residencia, 52 plazas), B (centro de día, 30 plazas) y C (hogar de mayores con servicio de comedor). El acceso se formalizó mediante acuerdos de colaboración con las entidades titulares para el periodo del 1 de enero al 31 de diciembre de 2025.\n\nTalleres: 28 sesiones semanales de 75 minutos por centro entre el 3 de marzo y el 24 de octubre de 2025 (pausa en agosto), 84 sesiones en total, dirigidas por dos facilitadores musicales contratados, con apoyo de la enfermera del equipo. Contenidos: canto de repertorio local (rondas, canciones de trabajo, romances), recogida de versiones familiares y conversación sobre objetos y fotografías aportados por los participantes. Los talleres fueron una actividad cultural; no incluyeron componentes terapéuticos ni clínicos.\n\n## 3. Participantes\n\nCriterios de inclusión: 65 años o más; residente o usuario habitual del centro; 4 errores o menos en el cuestionario de Pfeiffer (SPMSQ), administrado en la lengua habitual del residente y con la corrección de un error adicional en personas sin estudios primarios; capacidad para consentir, valorada en la entrevista de consentimiento descrita en el apartado 7. El cuestionario de Pfeiffer se aplicó como cribado cognitivo previo; la capacidad para consentir se valoró por separado.\n\nReclutamiento entre el 13 de enero y el 21 de febrero de 2025. Personas valoradas: 74. No incluidas: 14 (cribado de Pfeiffer por encima del umbral, 8; comprensión insuficiente de la información en la entrevista de consentimiento, 4; rechazo a participar, 2). Incluidas: 60 residentes (A: 22; B: 20; C: 18). Edad media 81,3 años (DE 6,9; rango 66–97); 39 mujeres (65 %). Lengua habitual en el hogar: castellano 41, a fala 14, portugués 5. Hipoacusia autorreferida: 27 (45 %).\n\nEntrevista inicial (T0, febrero de 2025): dos sesiones grabadas por residente, bloque A (trayectoria y repertorio) y bloque B (bienestar, red de apoyo y relación con servicios), en total 120 grabaciones iniciales de 60 residentes. Entrevista final (T1, del 3 al 28 de noviembre de 2025): bienestar y red de apoyo.\n\nEntrevistas de bienestar emparejadas (T0 y T1): 42 residentes. Sin entrevista T1 emparejada: 18 (fallecimiento 3; hospitalización o traslado 7; retirada voluntaria 4; no localizable o no entrevistable en el plazo de T1, 4).\n\n## 4. Instrumentos y análisis\n\n- Escala breve de bienestar mental de Warwick-Edinburgh (SWEMWBS), versión española, 7 ítems puntuados de 1 a 5. La suma bruta de los ítems (7–35) se convirtió en puntuación métrica con la tabla de conversión Rasch publicada por los autores de la escala (rango 7,00–35,00); mayor puntuación, mayor bienestar. Las medias, el cambio emparejado, su intervalo de confianza y la correlación con la asistencia se calcularon sobre la puntuación métrica.\n- Escala de soledad UCLA de 3 ítems (UCLA-3), rango 3–9; mayor puntuación, más soledad.\n- Escala de red social de Lubben abreviada (LSNS-6), rango 0–30; mayor puntuación, red más amplia.\n- Registro de asistencia por sesión.\n- Guion semiestructurado del bloque B con preguntas sobre citas, trámites y comunicación con profesionales.\n\nLas escalas se administraron oralmente en castellano, con las versiones españolas publicadas. En 16 de los 19 residentes con lengua habitual distinta del castellano, el lingüista apoyó la entrevista en a fala o portugués.\n\nAnálisis: cambio medio emparejado con IC 95 % por la t de Student; correlación de Pearson con IC 95 % por la transformación z de Fisher. Análisis de casos completos, sin imputación.\n\n## 5. Resultados\n\n### 5.1 Participación (n = 60)\n\nMediana de 17 sesiones de 28 (RIC 9–23). 38 de 60 (63 %) asistieron al menos a 14 sesiones.\n\n### 5.2 Bienestar, soledad y red de apoyo (n = 42 entrevistas emparejadas)\n\n| Medida | T0, media (DE) | T1, media (DE) | Cambio medio (IC 95 %) |\n|---|---|---|---|\n| SWEMWBS, puntuación métrica (7,00–35,00) | 22,4 (4,1) | 24,0 (4,3) | +1,6 (0,4 a 2,8) |\n| UCLA-3 (3–9) | 5,9 (1,7) | 5,5 (1,6) | −0,4 (−0,9 a 0,1) |\n| LSNS-6 (0–30) | 13,2 (5,6) | 14,3 (5,4) | +1,1 (−0,2 a 2,4) |\n\nCorrelación entre número de sesiones asistidas y cambio en la puntuación métrica de SWEMWBS: r = 0,12 (IC 95 % −0,19 a 0,41).\n\nSin grupo de comparación, el cambio observado no puede atribuirse a los talleres. Son explicaciones compatibles la regresión a la media, la estacionalidad (febrero frente a noviembre), la selección por pérdidas y el efecto de la propia entrevista.\n\n### 5.3 Barreras lingüísticas y comunicativas en el acceso a servicios\n\nCodificación temática deductivo-inductiva de las 120 transcripciones T0 en MAXQDA 2022, por dos codificadores (I. Cendón y R. Durán). Acuerdo en 24 transcripciones (20 %): kappa de Cohen = 0,71.\n\n| Tema | Residentes con al menos un segmento codificado (de 60) |\n|---|---|\n| Intermediación de familiares, vecinos o personal del centro en trámites y citas | 34 (57 %) |\n| Comprensión del lenguaje administrativo escrito (resoluciones de dependencia, requerimientos de documentación) | 26 (43 %) |\n| Atención telefónica automatizada y citas por teléfono o internet | 21 (35 %) |\n| Hipoacusia en consulta y en llamadas | 19 (32 %) |\n| Uso de a fala o portugués y rotación de profesionales sanitarios | 11 (18 %) |\n\nLas frecuencias corresponden a una muestra de conveniencia de tres centros: indican qué temas aparecen en los relatos y no estiman su prevalencia en la población mayor de la comarca.\n\n## 6. Limitaciones\n\n- Diseño pre-post sin grupo de comparación; no permite inferir efectos causales.\n- Muestra de conveniencia de 60 residentes en tres centros.\n- El cribado cognitivo y la valoración de la capacidad para consentir dejaron fuera a personas con deterioro cognitivo moderado o grave; los resultados no las representan.\n- Pérdidas entre T0 y T1: 18 de 60.\n- Escalas administradas oralmente; el apoyo en a fala y portugués no utilizó versiones validadas.\n- No se recogieron datos de expedientes administrativos ni de uso de servicios; las barreras proceden del relato de los residentes. No se entrevistó a familiares cuidadores ni a profesionales.\n\n## 7. Ética, consentimiento y datos\n\n- Dictamen favorable del Comité de Ética de la Investigación de la UVET, ref. CEI-UVET-2024-118, de 12 de diciembre de 2024.\n- Entrevista de consentimiento. La enfermera del equipo leyó en voz alta la hoja de información en una entrevista individual y entregó una copia en letra grande; entre esa entrevista y la firma medió un plazo mínimo de 48 horas. A petición del residente, el lingüista explicó la información en a fala o portugués. En residentes con hipoacusia se utilizó un amplificador personal de voz y apoyo escrito. La enfermera comprobó la comprensión con preguntas abiertas en las que la persona explicaba con sus palabras cuatro puntos: en qué consiste la participación, su carácter voluntario, la posibilidad de retirarse sin consecuencias para su atención en el centro y la grabación de las sesiones. Se registró capacidad para consentir cuando la persona explicaba los cuatro puntos, tras una segunda explicación si hacía falta, y comunicaba una decisión. El personal de los centros no estuvo presente en la entrevista. No hubo consentimientos por representación. Ningún residente pertenecía al cupo de atención primaria de la enfermera.\n- Antes de la entrevista T1 se confirmó verbalmente la voluntad de continuar.\n- Consentimiento escrito de cada participante para la grabación, la transcripción, el análisis seudonimizado y la difusión académica sin elementos identificativos, incluida la reutilización de las transcripciones seudonimizadas en investigación académica del grupo. El consentimiento no incluye la difusión de voz, imagen, nombre ni testimonios identificables en exposiciones, conciertos o medios.\n- La muestra final de cada centro (octubre de 2025) se celebró solo para residentes y familiares y no se grabó.\n- Los audios se eliminan tras verificar la transcripción (plazo máximo de 90 días). Las transcripciones seudonimizadas se guardan en el servidor seguro de investigación de la UVET, con acceso limitado a los tres miembros del equipo, hasta el 31/01/2031. La clave de códigos la custodia la investigadora principal.\n\n## 8. Ejecución económica\n\n| Concepto | Concedido |\n|---|---|\n| Personal (contrato de apoyo a la transcripción, 6 meses a tiempo parcial) | 14.200 € |\n| Honorarios de facilitadores musicales | 9.800 € |\n| Desplazamientos de trabajo de campo | 8.600 € |\n| Material inventariable y licencias | 3.900 € |\n| Devolución de resultados y publicación | 2.000 € |\n| **Total** | **38.500 €** |\n\nEjecutado a 30/01/2026: 37.940 € (98,5 %). Remanente reintegrado: 560 €.\n\n## 9. Difusión y devolución\n\n- Comunicación «Barreras de comunicación de personas mayores con los servicios en la Sierra de Gata», Jornadas Ibéricas de Envejecimiento Rural, Plasencia, 20–21 de noviembre de 2025.\n- Sesiones de devolución en los tres centros previstas para marzo de 2026.\n- Manuscrito con los resultados de participación y bienestar en preparación.\n\nPlasencia, 30 de enero de 2026.\n\nFirmado: Amparo Recuero Valdelomar, investigadora principal.\n"
+      },
+      {
+        "path": "registro_entrevistas_rueda_de_voces.md",
+        "role": "other",
+        "content": "> Documento ficticio creado para ProposalBench.\n\n# Registro de entrevistas — Rueda de Voces (PPI-2024-T-07)\n\n**Resumen del registro de campo, versión de cierre**\n\nResponsable del registro: Rocío Durán Malpartida (coordinación del trabajo de campo).\nResponsable de transcripción y seudonimización: Iago Cendón Sobrado.\nPeriodo cubierto: 13 de enero a 28 de noviembre de 2025.\nFecha de cierre y firma: 30 de enero de 2026.\n\n## Criterios de registro\n\n- Cada residente recibe un código (A01–A22, B01–B20, C01–C18) al firmar el consentimiento.\n- La entrevista inicial (T0) consta de dos sesiones grabadas: bloque A (trayectoria y repertorio) y bloque B (bienestar, red de apoyo y relación con servicios).\n- Si una sesión se interrumpe o la grabación falla, se repite. La grabación repetida sustituye a la anterior con el mismo código y número de sesión y no abre un registro nuevo.\n- Una entrevista de bienestar se registra como emparejada cuando el mismo código tiene bloque B en T0 y entrevista T1.\n\n## Resumen por centro\n\n| Centro | Residentes inscritos | Grabaciones T0 | Sesiones T0 repetidas | Entrevistas T1 | Entrevistas de bienestar emparejadas T0–T1 |\n|---|---|---|---|---|---|\n| A | 22 | 44 | 3 | 17 | 17 |\n| B | 20 | 40 | 2 | 16 | 16 |\n| C | 18 | 36 | 2 | 14 | 14 |\n| **Total** | **60** | **120** | **7** | **47** | **47** |\n\nResidentes sin entrevista T1 emparejada: 13.\n\n## Transcripción\n\n- Transcripciones T0 verificadas: 120. Transcripciones T1 verificadas: 47.\n- Transcripción ortográfica en castellano. Los fragmentos en a fala o portugués se transcriben en la variedad original con glosa en castellano (16 residentes con entrevistas total o parcialmente en a fala o portugués).\n- Audios eliminados tras la verificación, conforme al protocolo aprobado (CEI-UVET-2024-118). Último borrado: 23 de enero de 2026.\n\nFirmado: Rocío Durán Malpartida, coordinación del trabajo de campo.\nFirmado: Iago Cendón Sobrado, transcripción y seudonimización.\n"
+      },
+      {
+        "path": "publicaciones.md",
+        "role": "publications",
+        "content": "> Documento ficticio creado para ProposalBench.\n\n# Publicaciones del equipo (selección 2021–2026)\n\nGrupo TERRA-Cuidado, Universidad de Vettonia. Actualizado a 15 de septiembre de 2026.\n\n## Artículos publicados\n\n1. Cendón Sobrado, I., Recuero Valdelomar, A. y Durán Malpartida, R. (2026). «A fala en la consulta: repertorios lingüísticos de personas mayores y comunicación con los servicios sanitarios en la Sierra de Gata». *Cuadernos de Lingüística Rayana*, 11(1), 45–68. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2026.1\n2. Durán Malpartida, R. y Recuero Valdelomar, A. (2025). «La enfermera comunitaria como mediadora en actividades culturales con personas mayores en el medio rural: notas desde la práctica». *Enfermería Comunitaria y Territorio*, 9(2), 112–121. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2025.1\n3. Recuero Valdelomar, A. (2024). «Cancioneros vivos: repertorio tradicional y sociabilidad en municipios en riesgo de despoblación». *Anuario de Sociología del Territorio*, 17, 201–226. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2024.1\n4. Recuero Valdelomar, A. y Cendón Sobrado, I. (2023). «Toques, rondas y fiestas: patrimonio sonoro y vida cotidiana en la Raya cacereña». *Revista de Patrimonio Inmaterial y Sociedad*, 6(2), 77–99. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2023.1\n5. Recuero Valdelomar, A. (2022). «Edición digital de cancioneros locales: criterios y participación comunitaria». *Archivos de Música Popular Ibérica*, 14, 33–58. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2022.1\n6. Recuero Valdelomar, A. y Ledesma Corchero, P. (2021). «Redes de vecindad y envejecimiento en pueblos pequeños del oeste de Cáceres». *Revista de Estudios Rurales Ibéricos*, 28(3), 289–310. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2021.1\n\n## Manuscrito en evaluación\n\n- Recuero Valdelomar, A., Durán Malpartida, R. y Cendón Sobrado, I. «Talleres de canto tradicional en tres centros de mayores de la Sierra de Gata: participación, bienestar y redes de apoyo en un estudio piloto pre-post». Enviado a *Gerontología Social y Comunidad* el 12 de mayo de 2026; en evaluación.\n\n## Comunicaciones recientes\n\n- Durán Malpartida, R., Cendón Sobrado, I. y Recuero Valdelomar, A. (2025). «Barreras de comunicación de personas mayores con los servicios en la Sierra de Gata». Jornadas Ibéricas de Envejecimiento Rural, Plasencia, 20–21 de noviembre de 2025.\n- Recuero Valdelomar, A. (2024). «Paisaje sonoro y despoblación: primeros resultados de TERRAVOZ-GATA». Seminario permanente de Sociología Rural, UVET, 7 de marzo de 2024.\n"
+      },
+      {
+        "path": "equipo_y_recursos.md",
+        "role": "team",
+        "content": "> Documento ficticio creado para ProposalBench.\n\n# Equipo y recursos del grupo TERRA-Cuidado\n\nUniversidad de Vettonia (UVET), campus de Plasencia. Situación a 20 de septiembre de 2026.\n\n## Composición\n\n### Amparo Recuero Valdelomar — coordinadora del grupo\n\nCatedrática de Universidad (Sociología), funcionaria de carrera. Doctora en Sociología (2004). Investigadora principal de Rueda de Voces (PPI-2024-T-07), TERRAVOZ-GATA (PID2021-127483OB-I00) y PGC2018-098214-B-I00. Líneas: sociología rural, patrimonio musical y envejecimiento.\n\n### Iago Cendón Sobrado — lingüista\n\nDoctor en Lingüística Hispánica (Universidad de Vettonia, 2019; tesis sobre contacto lingüístico en las variedades de a fala del valle de Xálima). Personal investigador con contrato indefinido de actividades científico-técnicas (art. 23 bis de la Ley 14/2011), jornada completa, desde el 1 de marzo de 2023. Habla y transcribe a fala y portugués. En Rueda de Voces: apoyo lingüístico en 16 entrevistas, verificación de transcripciones, seudonimización y codificación.\n\n### Rocío Durán Malpartida — enfermera comunitaria\n\n- Diplomatura en Enfermería (Universidad de Vettonia, 2010).\n- Enfermera especialista en Enfermería Familiar y Comunitaria (residencia EIR, 2013–2015).\n- Máster Universitario en Investigación en Ciencias Sociosanitarias (Universidad de Vettonia, 2019).\n- Titulación de mayor nivel: Máster Universitario (MECES 3).\n\nTécnica de apoyo a la investigación con contrato indefinido de actividades científico-técnicas a tiempo parcial (50 %), desde el 1 de enero de 2025, con autorización de compatibilidad. El resto de su jornada trabaja como enfermera de atención primaria en un centro de salud de la comarca; 11 años de experiencia en atención primaria rural. En Rueda de Voces: reclutamiento, entrevistas de consentimiento, registro de entrevistas, apoyo a los talleres y codificación.\n\n## Equipamiento y servicios disponibles\n\n- 4 grabadoras digitales Zoom H5 y 6 micrófonos de solapa (adquiridos entre 2022 y 2025).\n- 3 licencias de MAXQDA, vigentes hasta el 31/12/2026.\n- Espacio en el servidor seguro de investigación de la UVET (cifrado, acceso nominal).\n- Sala de trabajo y pequeño estudio de grabación del Departamento de Sociología y Trabajo Social.\n- Vehículos del parque móvil de la UVET para trabajo de campo, previa reserva.\n\n## Datos existentes\n\n| Conjunto | Contenido | Condiciones de uso |\n|---|---|---|\n| Rueda de Voces, transcripciones T0 | 120 transcripciones seudonimizadas de 60 residentes | Análisis académico no identificativo; conservación hasta 31/01/2031 |\n| Rueda de Voces, transcripciones T1 | Entrevistas finales seudonimizadas (véase el registro de entrevistas) | Mismas condiciones |\n| Rueda de Voces, escalas y asistencia | SWEMWBS, UCLA-3, LSNS-6 y asistencia por sesión, seudonimizadas | Mismas condiciones |\n| Libro de códigos de barreras de comunicación | 5 temas y 23 códigos con definiciones y ejemplos | Uso interno del grupo |\n| Fondo sonoro TERRAVOZ-GATA | 312 grabaciones de campo y 46 entrevistas biográficas de 18 municipios | Repositorio institucional UVET: 198 grabaciones de toques de campana y paisaje sonoro en abierto (CC BY 4.0); 114 grabaciones de cantos y rondas y las 46 entrevistas, de acceso restringido |\n\n## Permisos y acuerdos\n\n- Dictamen favorable CEI-UVET-2024-118 (12/12/2024), referido al protocolo de Rueda de Voces.\n- Acuerdos de colaboración con las entidades titulares de los centros A, B y C, vigentes del 1/01/2025 al 31/12/2025.\n\n## Devolución de resultados\n\nSesiones de devolución en los centros A, B y C los días 10, 11 y 13 de marzo de 2026, con 71 asistentes en total (residentes, familiares y personal de los centros). Informe breve de resultados entregado a las tres entidades titulares el 13 de marzo de 2026.\n"
+      }
+    ],
+    "facts": [
+      {
+        "category": "position",
+        "kind": "existing",
+        "text": "The PI, Amparo Recuero Valdelomar, is a career civil servant since 2010 and full professor (Catedrática) of Sociology at the Universidad de Vettonia since 2019, with four research sexenios and one transfer sexenio.",
+        "value": "Catedrática de Universidad",
+        "salient": true,
+        "source": "cv_ip.md"
+      },
+      {
+        "category": "education",
+        "kind": "existing",
+        "text": "The PI obtained her doctorate in Sociology in 2004 and also holds a Título Superior de Música in Musicology (1996).",
+        "value": "2004",
+        "salient": true,
+        "source": "cv_ip.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "The PI led the AEI oriented-research type B project TERRAVOZ-GATA (EUR 96,800, 1 Sep 2022 to 31 Aug 2026, finished, final scientific report in preparation) and earlier the type B project PGC2018-098214-B-I00 (EUR 54,450, 2019–2022, finished and justified).",
+        "value": "PID2021-127483OB-I00",
+        "salient": true,
+        "source": "cv_ip.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "The Rueda de Voces pilot (PPI-2024-T-07), funded by the UVET internal research plan with EUR 38,500, ran from 1 Oct 2024 to 31 Jan 2026, is finished and executed EUR 37,940 (98.5%).",
+        "value": "38.500 €",
+        "salient": true,
+        "source": "informe_final_rueda_de_voces.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The pilot enrolled 60 older residents in three Sierra de Gata centres (A 22, B 20, C 18) out of 74 people assessed; mean age 81.3 years, 39 women (65%), home language Castilian 41, A Fala 14, Portuguese 5, and self-reported hearing loss 27 (45%); the interview ledger gives the same 60.",
+        "value": "60",
+        "salient": true,
+        "source": "informe_final_rueda_de_voces.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The interview ledger records 120 T0 recordings (two sessions for each of 60 residents) and 7 repeated sessions; a repeat recording replaced the earlier one under the same code and session number without opening a new record.",
+        "value": "120",
+        "salient": true,
+        "source": "registro_entrevistas_rueda_de_voces.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The final report states 42 residents with paired T0–T1 wellbeing interviews and 18 without (3 deaths, 7 hospitalisations or transfers, 4 withdrawals, 4 not reachable or not interviewable).",
+        "value": "42",
+        "salient": true,
+        "source": "informe_final_rueda_de_voces.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The signed interview ledger, closed on 30 Jan 2026, records 47 paired T0–T1 wellbeing interviews (A 17, B 16, C 14) and 13 residents without a pair.",
+        "value": "47",
+        "salient": true,
+        "source": "registro_entrevistas_rueda_de_voces.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Using SWEMWBS metric scores (Rasch conversion of the raw 7–35 item sum), mean wellbeing rose from 22.4 to 24.0, change +1.6 (95% CI 0.4 to 2.8) in the report's 42 paired cases; the single-group pre-post design does not allow attributing the change to the workshops, and attendance correlated weakly with change (r = 0.12, 95% CI −0.19 to 0.41).",
+        "value": "+1,6",
+        "salient": true,
+        "source": "informe_final_rueda_de_voces.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Loneliness (UCLA-3) changed by −0.4 (95% CI −0.9 to 0.1) and social network (LSNS-6) by +1.1 (95% CI −0.2 to 2.4) in the report's paired sample; both intervals include zero.",
+        "value": "+1,1",
+        "salient": true,
+        "source": "informe_final_rueda_de_voces.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Each centre held 28 weekly 75-minute singing and oral-memory sessions (84 in total, March to October 2025) with no therapeutic or clinical component; median attendance was 17 of 28 (IQR 9–23) and 38 of 60 residents (63%) attended at least 14.",
+        "value": "63 %",
+        "salient": true,
+        "source": "informe_final_rueda_de_voces.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The PI's CV lists her accredited methods as biographical and semi-structured interviewing, ethnography of musical and festive practices, field sound recording, brief interviewer-administered scales, MAXQDA-assisted thematic analysis, and descriptive statistics and linear regression in R.",
+        "value": null,
+        "salient": true,
+        "source": "cv_ip.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Scales were administered orally in Castilian using published Spanish versions; for 16 of the 19 residents whose home language was A Fala or Portuguese the linguist supported the interview in that language, without validated versions of the scales in those languages.",
+        "value": "16",
+        "salient": true,
+        "source": "informe_final_rueda_de_voces.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Thematic coding of the 120 T0 transcripts (Cohen's kappa 0.71 on 24 double-coded transcripts) found intermediation by relatives, neighbours or staff in 34 of 60 residents (57%), written administrative language in 26 (43%), automated telephone or online appointments in 21 (35%), hearing loss in consultations and calls in 19 (32%) and A Fala/Portuguese use with staff rotation in 11 (18%); these convenience-sample frequencies do not estimate population prevalence.",
+        "value": "57 %",
+        "salient": true,
+        "source": "informe_final_rueda_de_voces.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "In the Rueda de Voces pilot no administrative records or service-use data were collected, barriers come from residents' own accounts, and neither family carers nor professionals were interviewed.",
+        "value": null,
+        "salient": true,
+        "source": "informe_final_rueda_de_voces.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Ethics approval CEI-UVET-2024-118 (12 Dec 2024) covered the pilot; the Pfeiffer questionnaire (4 errors or fewer) served as cognitive screening, and capacity to consent was assessed separately by the nurse in an individual consent interview using explain-back on four points, with language and hearing support and no proxy consent.",
+        "value": "CEI-UVET-2024-118",
+        "salient": true,
+        "source": "informe_final_rueda_de_voces.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Written consent covers recording, transcription, pseudonymised analysis, non-identifying academic dissemination and reuse of pseudonymised transcripts in the group's academic research; it does not cover voice, image, name or identifiable testimonies in exhibitions, concerts or media.",
+        "value": null,
+        "salient": true,
+        "source": "informe_final_rueda_de_voces.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Pseudonymised pilot transcripts are kept on the UVET secure research server, accessible only to the three team members, until 31/01/2031, with the code key held by the PI.",
+        "value": "31/01/2031",
+        "salient": true,
+        "source": "informe_final_rueda_de_voces.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The interview ledger records that audio files were deleted after transcript verification under the approved protocol, the last deletion on 23 January 2026.",
+        "value": "23 de enero de 2026",
+        "salient": true,
+        "source": "registro_entrevistas_rueda_de_voces.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Collaboration agreements with the owning entities of centres A, B and C were valid from 1 Jan to 31 Dec 2025, and the team file lists no later agreement.",
+        "value": "31/12/2025",
+        "salient": true,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "The linguist Iago Cendón Sobrado holds a doctorate (2019), speaks and transcribes A Fala and Portuguese, and has an indefinite full-time scientific-technical contract at UVET since 1 March 2023.",
+        "value": "2019",
+        "salient": true,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "The community nurse Rocío Durán Malpartida is a family and community nursing specialist whose highest degree is a master's (no doctorate), working 50% on an indefinite research-support contract since 1 Jan 2025 and 50% as a rural primary-care nurse.",
+        "value": "Máster Universitario (MECES 3)",
+        "salient": true,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The TERRAVOZ-GATA archive holds 312 field recordings and 46 biographical interviews from 18 municipalities; 198 bell and soundscape recordings are open under CC BY 4.0, while 114 song recordings and the 46 interviews are restricted.",
+        "value": "312",
+        "salient": false,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The group has 3 MAXQDA licences valid until 31/12/2026, 4 Zoom H5 recorders and 6 lavalier microphones.",
+        "value": "31/12/2026",
+        "salient": false,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "publication",
+        "kind": "existing",
+        "text": "The manuscript on the pilot's participation, wellbeing and support-network results was submitted to Gerontología Social y Comunidad on 12 May 2026 and is under review as of 15 Sep 2026.",
+        "value": "12 de mayo de 2026",
+        "salient": true,
+        "source": "publicaciones.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "cendon2026fala",
+        "authors": [
+          "Cendón Sobrado, I.",
+          "Recuero Valdelomar, A.",
+          "Durán Malpartida, R."
+        ],
+        "year": 2026,
+        "title": "A fala en la consulta: repertorios lingüísticos de personas mayores y comunicación con los servicios sanitarios en la Sierra de Gata",
+        "venue": "Cuadernos de Lingüística Rayana",
+        "doi": "10.99999/pb.v2-cultural-care-participation-team.2026.1"
+      },
+      {
+        "key": "duran2025mediadora",
+        "authors": [
+          "Durán Malpartida, R.",
+          "Recuero Valdelomar, A."
+        ],
+        "year": 2025,
+        "title": "La enfermera comunitaria como mediadora en actividades culturales con personas mayores en el medio rural: notas desde la práctica",
+        "venue": "Enfermería Comunitaria y Territorio",
+        "doi": "10.99999/pb.v2-cultural-care-participation-team.2025.1"
+      },
+      {
+        "key": "recuero2024cancioneros",
+        "authors": [
+          "Recuero Valdelomar, A."
+        ],
+        "year": 2024,
+        "title": "Cancioneros vivos: repertorio tradicional y sociabilidad en municipios en riesgo de despoblación",
+        "venue": "Anuario de Sociología del Territorio",
+        "doi": "10.99999/pb.v2-cultural-care-participation-team.2024.1"
+      },
+      {
+        "key": "recuero2023toques",
+        "authors": [
+          "Recuero Valdelomar, A.",
+          "Cendón Sobrado, I."
+        ],
+        "year": 2023,
+        "title": "Toques, rondas y fiestas: patrimonio sonoro y vida cotidiana en la Raya cacereña",
+        "venue": "Revista de Patrimonio Inmaterial y Sociedad",
+        "doi": "10.99999/pb.v2-cultural-care-participation-team.2023.1"
+      },
+      {
+        "key": "recuero2022edicion",
+        "authors": [
+          "Recuero Valdelomar, A."
+        ],
+        "year": 2022,
+        "title": "Edición digital de cancioneros locales: criterios y participación comunitaria",
+        "venue": "Archivos de Música Popular Ibérica",
+        "doi": "10.99999/pb.v2-cultural-care-participation-team.2022.1"
+      },
+      {
+        "key": "recuero2021redes",
+        "authors": [
+          "Recuero Valdelomar, A.",
+          "Ledesma Corchero, P."
+        ],
+        "year": 2021,
+        "title": "Redes de vecindad y envejecimiento en pueblos pequeños del oeste de Cáceres",
+        "venue": "Revista de Estudios Rurales Ibéricos",
+        "doi": "10.99999/pb.v2-cultural-care-participation-team.2021.1"
+      }
+    ],
+    "reviewer_criticisms": [],
+    "gaps": [],
+    "inconsistencies": [
+      "For the same completed 2025 Rueda de Voces wellbeing endpoint, informe_final_rueda_de_voces.md reports 42 residents with paired T0–T1 wellbeing interviews while registro_entrevistas_rueda_de_voces.md records 47, both signed on 30 January 2026 with no indication of which is correct."
+    ]
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "team",
+        "career_stage": "senior",
+        "disciplines": [
+          "enfermería comunitaria",
+          "música",
+          "patrimonio cultural",
+          "sociología rural"
+        ],
+        "method_profile": "mixed",
+        "country": "ES",
+        "files": [
+          {
+            "path": "cv_ip.md",
+            "role": "cv",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Currículum vitae abreviado\n\n**Amparo Recuero Valdelomar**\nFecha de actualización: 15 de septiembre de 2026\n\n## Situación profesional actual\n\n- Catedrática de Universidad, área de Sociología. Departamento de Sociología y Trabajo Social, Universidad de Vettonia (UVET), campus de Plasencia (Cáceres).\n- Funcionaria de carrera desde el 1 de marzo de 2010. Catedrática desde el 1 de octubre de 2019.\n- Coordinadora del grupo de investigación TERRA-Cuidado (Territorio, Cultura y Cuidados), reconocido por la UVET en 2020 (código GI-UVET-SOC-04).\n- 4 sexenios de investigación reconocidos (último tramo 2018–2023) y 1 sexenio de transferencia (convocatoria piloto de 2018).\n- Evaluadora de proyectos para la Agencia Estatal de Investigación (Ciencias Sociales) desde 2017.\n\n## Formación\n\n- 2004. Doctora en Sociología, Universidad de Vettonia. Tesis: «Música, fiesta y pertenencia en la Sierra de Gata, 1950–2000». Sobresaliente cum laude.\n- 1998. Licenciada en Sociología, Universidad de Vettonia.\n- 1996. Título Superior de Música, especialidad de Musicología.\n\n## Trayectoria\n\n- 2019–actualidad: Catedrática de Universidad, UVET.\n- 2010–2019: Profesora Titular de Universidad, UVET.\n- 2005–2010: Profesora Contratada Doctora, UVET.\n- 2000–2004: Investigadora predoctoral (programa propio FPI-UVET), Departamento de Sociología.\n\n## Proyectos como investigadora principal\n\n| Referencia | Título | Financiador y convocatoria | Periodo | Importe | Estado a 15/09/2026 |\n|---|---|---|---|---|---|\n| PPI-2024-T-07 | Rueda de Voces: participación cultural y redes de apoyo de personas mayores en la Sierra de Gata | Plan Propio de Investigación UVET 2024, línea Transferencia y Territorio | 01/10/2024–31/01/2026 | 38.500 € | Finalizado; informe final de 30/01/2026 |\n| PID2021-127483OB-I00 | TERRASONORA: patrimonio sonoro y vida cotidiana en municipios en riesgo de despoblación | AEI, Proyectos de Generación de Conocimiento 2021, modalidad Investigación Orientada, tipo B | 01/09/2022–31/08/2026 (incluye prórroga de 12 meses) | 96.800 € | Finalizado el 31/08/2026; informe científico final en preparación |\n| PGC2018-098214-B-I00 | Cancioneros locales y memoria colectiva en la Raya cacereña | Ministerio de Ciencia, Innovación y Universidades / AEI, Proyectos de I+D de Generación de Conocimiento 2018, tipo B | 01/01/2019–30/06/2022 (incluye prórroga de 6 meses) | 54.450 € | Finalizado y justificado |\n\nTERRASONORA documentó 312 grabaciones de campo (toques de campana, cantos, rondas y paisaje sonoro) y 46 entrevistas biográficas en 18 municipios de menos de 1.000 habitantes de las provincias de Cáceres y Salamanca. El proyecto PGC2018 produjo la edición digital de cinco cancioneros locales con 418 piezas transcritas y comentadas.\n\n## Dirección de tesis doctorales\n\n- 3 tesis defendidas (2014, 2018 y 2023), las tres sobre sociabilidad y patrimonio en el medio rural.\n- 2 tesis en curso (inicio en 2022 y 2024), programa de doctorado en Ciencias Sociales de la UVET.\n\n## Transferencia\n\n- 4 contratos de I+D con ayuntamientos y una mancomunidad de la provincia de Cáceres (art. 83 LOU / art. 60 LOSU), 2016–2024, 61.300 € en total, para inventarios de patrimonio musical local.\n- Talleres de recogida de repertorio con asociaciones vecinales en 11 municipios (2019–2024).\n\n## Docencia\n\nSociología rural; Métodos cualitativos de investigación social; Envejecimiento y sociedad (Grado en Trabajo Social y Grado en Enfermería, UVET).\n\n## Métodos con experiencia acreditada\n\nEntrevista biográfica y semiestructurada; etnografía de prácticas musicales y festivas; registro sonoro de campo; escalas breves administradas en entrevista; análisis temático asistido con MAXQDA; estadística descriptiva y regresión lineal en R.\n\n## Publicaciones\n\nVéase el listado de publicaciones del equipo (selección 2021–2026).\n"
+          },
+          {
+            "path": "informe_final_rueda_de_voces.md",
+            "role": "prior_project",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Informe final — Proyecto Rueda de Voces\n\n**Participación cultural y redes de apoyo de personas mayores en la Sierra de Gata**\n\nReferencia: PPI-2024-T-07. Plan Propio de Investigación de la Universidad de Vettonia, convocatoria 2024, línea Transferencia y Territorio. Importe concedido: 38.500 €. Periodo de ejecución: 1 de octubre de 2024 a 31 de enero de 2026.\n\nInvestigadora principal: Dra. Amparo Recuero Valdelomar (UVET). Equipo: Dr. Iago Cendón Sobrado, lingüista (UVET); Rocío Durán Malpartida, enfermera especialista en Enfermería Familiar y Comunitaria (UVET).\n\nFecha del informe: 30 de enero de 2026.\n\n## 1. Objetivos\n\n1. Describir la participación de personas mayores residentes o usuarias de centros en talleres semanales de canto y memoria oral basados en el repertorio tradicional de la comarca.\n2. Describir los cambios en bienestar mental, soledad y red de apoyo entre el inicio y el final del periodo de talleres.\n3. Identificar, a partir de las entrevistas, las dificultades lingüísticas y comunicativas que las personas participantes refieren en su relación con los servicios sanitarios y sociales.\n\n## 2. Diseño y centros\n\nEstudio piloto pre-post de un solo grupo, sin grupo de comparación. Tres centros de tres municipios de la Sierra de Gata (Cáceres), identificados como A (residencia, 52 plazas), B (centro de día, 30 plazas) y C (hogar de mayores con servicio de comedor). El acceso se formalizó mediante acuerdos de colaboración con las entidades titulares para el periodo del 1 de enero al 31 de diciembre de 2025.\n\nTalleres: 28 sesiones semanales de 75 minutos por centro entre el 3 de marzo y el 24 de octubre de 2025 (pausa en agosto), 84 sesiones en total, dirigidas por dos facilitadores musicales contratados, con apoyo de la enfermera del equipo. Contenidos: canto de repertorio local (rondas, canciones de trabajo, romances), recogida de versiones familiares y conversación sobre objetos y fotografías aportados por los participantes. Los talleres fueron una actividad cultural; no incluyeron componentes terapéuticos ni clínicos.\n\n## 3. Participantes\n\nInclusión: 65 años o más; residente o usuario habitual del centro; capacidad para consentir (cuestionario de Pfeiffer con 4 errores o menos).\n\nReclutamiento entre el 13 de enero y el 21 de febrero de 2025: 60 residentes (A: 22; B: 20; C: 18). Edad media 81,3 años (DE 6,9; rango 66–97); 39 mujeres (65 %). Lengua habitual en el hogar: castellano 41, a fala 14, portugués 5. Hipoacusia autorreferida: 27 (45 %).\n\nEntrevista inicial (T0, febrero de 2025): dos sesiones grabadas por residente, bloque A (trayectoria y repertorio) y bloque B (bienestar, red de apoyo y relación con servicios), en total 120 grabaciones iniciales de 60 residentes. Entrevista final (T1, del 3 al 28 de noviembre de 2025): bienestar y red de apoyo.\n\nEntrevistas de bienestar emparejadas (T0 y T1): 42 residentes. Sin entrevista T1 emparejada: 18 (fallecimiento 3; hospitalización o traslado 7; retirada voluntaria 4; no localizable o no entrevistable en el plazo de T1, 4).\n\n## 4. Instrumentos\n\n- Escala breve de bienestar mental de Warwick-Edinburgh (SWEMWBS), 7 ítems, rango 7–35; mayor puntuación, mayor bienestar.\n- Escala de soledad UCLA de 3 ítems (UCLA-3), rango 3–9; mayor puntuación, más soledad.\n- Escala de red social de Lubben abreviada (LSNS-6), rango 0–30; mayor puntuación, red más amplia.\n- Registro de asistencia por sesión.\n- Guion semiestructurado del bloque B con preguntas sobre citas, trámites y comunicación con profesionales.\n\nLas escalas se administraron oralmente en castellano. En 16 de los 19 residentes con lengua habitual distinta del castellano, el lingüista apoyó la entrevista en a fala o portugués.\n\n## 5. Resultados\n\n### 5.1 Participación (n = 60)\n\nMediana de 17 sesiones de 28 (RIC 9–23). 38 de 60 (63 %) asistieron al menos a 14 sesiones.\n\n### 5.2 Bienestar, soledad y red de apoyo (n = 42 entrevistas emparejadas)\n\n| Medida | T0, media (DE) | T1, media (DE) | Cambio medio (IC 95 %) |\n|---|---|---|---|\n| SWEMWBS (7–35) | 22,4 (4,1) | 24,0 (4,3) | +1,6 (0,4 a 2,8) |\n| UCLA-3 (3–9) | 5,9 (1,7) | 5,5 (1,6) | −0,4 (−0,9 a 0,1) |\n| LSNS-6 (0–30) | 13,2 (5,6) | 14,3 (5,4) | +1,1 (−0,2 a 2,4) |\n\nCorrelación entre número de sesiones asistidas y cambio en SWEMWBS: r = 0,12 (IC 95 % −0,19 a 0,41).\n\nSin grupo de comparación, el cambio observado no puede atribuirse a los talleres. Son explicaciones compatibles la regresión a la media, la estacionalidad (febrero frente a noviembre), la selección por pérdidas y el efecto de la propia entrevista.\n\n### 5.3 Barreras lingüísticas y comunicativas en el acceso a servicios\n\nCodificación temática deductivo-inductiva de las 120 transcripciones T0 en MAXQDA 2022, por dos codificadores (I. Cendón y R. Durán). Acuerdo en 24 transcripciones (20 %): kappa de Cohen = 0,71.\n\n| Tema | Residentes con al menos un segmento codificado (de 60) |\n|---|---|\n| Intermediación de familiares, vecinos o personal del centro en trámites y citas | 34 (57 %) |\n| Comprensión del lenguaje administrativo escrito (resoluciones de dependencia, requerimientos de documentación) | 26 (43 %) |\n| Atención telefónica automatizada y citas por teléfono o internet | 21 (35 %) |\n| Hipoacusia en consulta y en llamadas | 19 (32 %) |\n| Uso de a fala o portugués y rotación de profesionales sanitarios | 11 (18 %) |\n\nLas frecuencias corresponden a una muestra de conveniencia de tres centros: indican qué temas aparecen en los relatos y no estiman su prevalencia en la población mayor de la comarca.\n\n## 6. Limitaciones\n\n- Diseño pre-post sin grupo de comparación; no permite inferir efectos causales.\n- Muestra de conveniencia de 60 residentes en tres centros.\n- Pérdidas entre T0 y T1: 18 de 60.\n- Escalas administradas oralmente; el apoyo en a fala y portugués no utilizó versiones validadas.\n- No se recogieron datos de expedientes administrativos ni de uso de servicios; las barreras proceden del relato de los residentes. No se entrevistó a familiares cuidadores ni a profesionales.\n\n## 7. Ética, consentimiento y datos\n\n- Dictamen favorable del Comité de Ética de la Investigación de la UVET, ref. CEI-UVET-2024-118, de 12 de diciembre de 2024.\n- Consentimiento escrito de cada participante para la grabación, la transcripción, el análisis seudonimizado y la difusión académica sin elementos identificativos, incluida la reutilización de las transcripciones seudonimizadas en investigación académica del grupo. El consentimiento no incluye la difusión de voz, imagen, nombre ni testimonios identificables en exposiciones, conciertos o medios.\n- La muestra final de cada centro (octubre de 2025) se celebró solo para residentes y familiares y no se grabó.\n- Los audios se eliminan tras verificar la transcripción (plazo máximo de 90 días). Las transcripciones seudonimizadas se guardan en el servidor seguro de investigación de la UVET, con acceso limitado a los tres miembros del equipo, hasta el 31/01/2031. La clave de códigos la custodia la investigadora principal.\n\n## 8. Ejecución económica\n\n| Concepto | Concedido |\n|---|---|\n| Personal (contrato de apoyo a la transcripción, 6 meses a tiempo parcial) | 14.200 € |\n| Honorarios de facilitadores musicales | 9.800 € |\n| Desplazamientos de trabajo de campo | 8.600 € |\n| Material inventariable y licencias | 3.900 € |\n| Devolución de resultados y publicación | 2.000 € |\n| **Total** | **38.500 €** |\n\nEjecutado a 30/01/2026: 37.940 € (98,5 %). Remanente reintegrado: 560 €.\n\n## 9. Difusión y devolución\n\n- Comunicación «Barreras de comunicación de personas mayores con los servicios en la Sierra de Gata», Jornadas Ibéricas de Envejecimiento Rural, Plasencia, 20–21 de noviembre de 2025.\n- Sesiones de devolución en los tres centros previstas para marzo de 2026.\n- Manuscrito con los resultados de participación y bienestar en preparación.\n\nPlasencia, 30 de enero de 2026.\n\nFirmado: Amparo Recuero Valdelomar, investigadora principal.\n"
+          },
+          {
+            "path": "registro_entrevistas_rueda_de_voces.md",
+            "role": "other",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Registro de entrevistas — Rueda de Voces (PPI-2024-T-07)\n\n**Resumen del registro de campo, versión de cierre**\n\nResponsable del registro: Rocío Durán Malpartida (coordinación del trabajo de campo).\nResponsable de transcripción y seudonimización: Iago Cendón Sobrado.\nPeriodo cubierto: 13 de enero a 28 de noviembre de 2025.\nFecha de cierre y firma: 30 de enero de 2026.\n\n## Criterios de registro\n\n- Cada residente recibe un código (A01–A22, B01–B20, C01–C18) al firmar el consentimiento.\n- La entrevista inicial (T0) consta de dos sesiones grabadas: bloque A (trayectoria y repertorio) y bloque B (bienestar, red de apoyo y relación con servicios).\n- Si una sesión se interrumpe o la grabación falla, se repite. La grabación repetida sustituye a la anterior con el mismo código y número de sesión y no abre un registro nuevo.\n- Una entrevista de bienestar se registra como emparejada cuando el mismo código tiene bloque B en T0 y entrevista T1.\n\n## Resumen por centro\n\n| Centro | Residentes inscritos | Grabaciones T0 | Sesiones T0 repetidas | Entrevistas T1 | Entrevistas de bienestar emparejadas T0–T1 |\n|---|---|---|---|---|---|\n| A | 22 | 44 | 3 | 17 | 17 |\n| B | 20 | 40 | 2 | 16 | 16 |\n| C | 18 | 36 | 2 | 14 | 14 |\n| **Total** | **60** | **120** | **7** | **47** | **47** |\n\nResidentes sin entrevista T1 emparejada: 13.\n\n## Transcripción\n\n- Transcripciones T0 verificadas: 120. Transcripciones T1 verificadas: 47.\n- Transcripción ortográfica en castellano. Los fragmentos en a fala o portugués se transcriben en la variedad original con glosa en castellano (16 residentes con entrevistas total o parcialmente en a fala o portugués).\n- Audios eliminados tras la verificación, conforme al protocolo aprobado (CEI-UVET-2024-118). Último borrado: 23 de enero de 2026.\n\nFirmado: Rocío Durán Malpartida, coordinación del trabajo de campo.\nFirmado: Iago Cendón Sobrado, transcripción y seudonimización.\n"
+          },
+          {
+            "path": "publicaciones.md",
+            "role": "publications",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Publicaciones del equipo (selección 2021–2026)\n\nGrupo TERRA-Cuidado, Universidad de Vettonia. Actualizado a 15 de septiembre de 2026.\n\n## Artículos publicados\n\n1. Cendón Sobrado, I., Recuero Valdelomar, A. y Durán Malpartida, R. (2026). «A fala en la consulta: repertorios lingüísticos de personas mayores y comunicación con los servicios sanitarios en la Sierra de Gata». *Cuadernos de Lingüística Rayana*, 11(1), 45–68. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2026.1\n2. Durán Malpartida, R. y Recuero Valdelomar, A. (2025). «La enfermera comunitaria como mediadora en actividades culturales con personas mayores en el medio rural: notas desde la práctica». *Enfermería Comunitaria y Territorio*, 9(2), 112–121. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2025.1\n3. Recuero Valdelomar, A. (2024). «Cancioneros vivos: repertorio tradicional y sociabilidad en municipios en riesgo de despoblación». *Anuario de Sociología del Territorio*, 17, 201–226. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2024.1\n4. Recuero Valdelomar, A. y Cendón Sobrado, I. (2023). «Toques, rondas y fiestas: patrimonio sonoro y vida cotidiana en la Raya cacereña». *Revista de Patrimonio Inmaterial y Sociedad*, 6(2), 77–99. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2023.1\n5. Recuero Valdelomar, A. (2022). «Edición digital de cancioneros locales: criterios y participación comunitaria». *Archivos de Música Popular Ibérica*, 14, 33–58. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2022.1\n6. Recuero Valdelomar, A. y Ledesma Corchero, P. (2021). «Redes de vecindad y envejecimiento en pueblos pequeños del oeste de Cáceres». *Revista de Estudios Rurales Ibéricos*, 28(3), 289–310. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2021.1\n\n## Manuscrito en evaluación\n\n- Recuero Valdelomar, A., Durán Malpartida, R. y Cendón Sobrado, I. «Talleres de canto tradicional en tres centros de mayores de la Sierra de Gata: participación, bienestar y redes de apoyo en un estudio piloto pre-post». Enviado a *Gerontología Social y Comunidad* el 12 de mayo de 2026; en evaluación.\n\n## Comunicaciones recientes\n\n- Durán Malpartida, R., Cendón Sobrado, I. y Recuero Valdelomar, A. (2025). «Barreras de comunicación de personas mayores con los servicios en la Sierra de Gata». Jornadas Ibéricas de Envejecimiento Rural, Plasencia, 20–21 de noviembre de 2025.\n- Recuero Valdelomar, A. (2024). «Paisaje sonoro y despoblación: primeros resultados de TERRASONORA». Seminario permanente de Sociología Rural, UVET, 7 de marzo de 2024.\n"
+          },
+          {
+            "path": "equipo_y_recursos.md",
+            "role": "team",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Equipo y recursos del grupo TERRA-Cuidado\n\nUniversidad de Vettonia (UVET), campus de Plasencia. Situación a 20 de septiembre de 2026.\n\n## Composición\n\n### Amparo Recuero Valdelomar — coordinadora del grupo\n\nCatedrática de Universidad (Sociología), funcionaria de carrera. Doctora en Sociología (2004). Investigadora principal de Rueda de Voces (PPI-2024-T-07), TERRASONORA (PID2021-127483OB-I00) y PGC2018-098214-B-I00. Líneas: sociología rural, patrimonio musical y envejecimiento.\n\n### Iago Cendón Sobrado — lingüista\n\nDoctor en Lingüística Hispánica (Universidad de Vettonia, 2019; tesis sobre contacto lingüístico en las variedades de a fala del valle de Xálima). Personal investigador con contrato indefinido de actividades científico-técnicas (art. 23 bis de la Ley 14/2011), jornada completa, desde el 1 de marzo de 2023. Habla y transcribe a fala y portugués. En Rueda de Voces: apoyo lingüístico en 16 entrevistas, verificación de transcripciones, seudonimización y codificación.\n\n### Rocío Durán Malpartida — enfermera comunitaria\n\n- Grado en Enfermería (Universidad de Vettonia, 2010).\n- Enfermera especialista en Enfermería Familiar y Comunitaria (residencia EIR, 2013–2015).\n- Máster Universitario en Investigación en Ciencias Sociosanitarias (Universidad de Vettonia, 2019).\n- Titulación de mayor nivel: Máster Universitario (MECES 3).\n\nTécnica de apoyo a la investigación con contrato indefinido de actividades científico-técnicas a tiempo parcial (50 %), desde el 1 de enero de 2025. El resto de su jornada trabaja como enfermera de atención primaria en un centro de salud de la comarca; 11 años de experiencia en atención primaria rural. En Rueda de Voces: reclutamiento, consentimiento, registro de entrevistas, apoyo a los talleres y codificación.\n\n## Equipamiento y servicios disponibles\n\n- 4 grabadoras digitales Zoom H5 y 6 micrófonos de solapa (adquiridos entre 2022 y 2025).\n- 3 licencias de MAXQDA, vigentes hasta el 31/12/2026.\n- Espacio en el servidor seguro de investigación de la UVET (cifrado, acceso nominal).\n- Sala de trabajo y pequeño estudio de grabación del Departamento de Sociología y Trabajo Social.\n- Vehículos del parque móvil de la UVET para trabajo de campo, previa reserva.\n\n## Datos existentes\n\n| Conjunto | Contenido | Condiciones de uso |\n|---|---|---|\n| Rueda de Voces, transcripciones T0 | 120 transcripciones seudonimizadas de 60 residentes | Análisis académico no identificativo; conservación hasta 31/01/2031 |\n| Rueda de Voces, transcripciones T1 | Entrevistas finales seudonimizadas (véase el registro de entrevistas) | Mismas condiciones |\n| Rueda de Voces, escalas y asistencia | SWEMWBS, UCLA-3, LSNS-6 y asistencia por sesión, seudonimizadas | Mismas condiciones |\n| Libro de códigos de barreras de comunicación | 5 temas y 23 códigos con definiciones y ejemplos | Uso interno del grupo |\n| Fondo sonoro TERRASONORA | 312 grabaciones de campo y 46 entrevistas biográficas de 18 municipios | Repositorio institucional UVET: grabaciones de toques y paisaje sonoro en abierto (CC BY 4.0); entrevistas de acceso restringido |\n\n## Permisos y acuerdos\n\n- Dictamen favorable CEI-UVET-2024-118 (12/12/2024), referido al protocolo de Rueda de Voces.\n- Acuerdos de colaboración con las entidades titulares de los centros A, B y C, vigentes del 1/01/2025 al 31/12/2025.\n\n## Devolución de resultados\n\nSesiones de devolución en los centros A, B y C los días 10, 11 y 13 de marzo de 2026, con 71 asistentes en total (residentes, familiares y personal de los centros). Informe breve de resultados entregado a las tres entidades titulares el 13 de marzo de 2026.\n"
+          }
+        ],
+        "facts": [
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "The PI, Amparo Recuero Valdelomar, is a tenured full professor (Catedrática) of Sociology at the Universidad de Vettonia, civil servant since 2010.",
+            "value": "Catedrática de Universidad",
+            "salient": true,
+            "source": "cv_ip.md"
+          },
+          {
+            "category": "education",
+            "kind": "existing",
+            "text": "The PI obtained her doctorate in Sociology in 2004 and also holds a Título Superior de Música in Musicology (1996).",
+            "value": "2004",
+            "salient": true,
+            "source": "cv_ip.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The PI has four recognised research sexenios (last 2018–2023) and one knowledge-transfer sexenio.",
+            "value": "4 sexenios",
+            "salient": false,
+            "source": "cv_ip.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The PI led the AEI oriented-research type B project TERRASONORA, EUR 96,800, 1 Sep 2022 to 31 Aug 2026, finished with final scientific report in preparation.",
+            "value": "PID2021-127483OB-I00",
+            "salient": true,
+            "source": "cv_ip.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The PI led the 2018 Generación de Conocimiento type B project on local songbooks, EUR 54,450, 2019–2022, finished and justified.",
+            "value": "PGC2018-098214-B-I00",
+            "salient": false,
+            "source": "cv_ip.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The Rueda de Voces pilot (PPI-2024-T-07) was funded by the UVET internal research plan with EUR 38,500, ran 1 Oct 2024 to 31 Jan 2026 and is finished.",
+            "value": "38.500 €",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The pilot enrolled 60 older residents across three Sierra de Gata centres (A 22, B 20, C 18); both the report and the interview ledger agree on this figure.",
+            "value": "60",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "There were 120 initial (T0) interview recordings from the 60 residents, two recorded sessions per resident; repeated sessions replaced earlier recordings rather than adding participants.",
+            "value": "120",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The final report states 42 residents with paired T0–T1 wellbeing interviews, with 18 lacking a paired T1 interview.",
+            "value": "42",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The signed interview ledger records 47 paired T0–T1 wellbeing interviews (A 17, B 16, C 14), with 13 residents lacking a pair.",
+            "value": "47",
+            "salient": true,
+            "source": "registro_entrevistas_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In the uncontrolled pre-post comparison (n = 42 in the report), SWEMWBS rose by 1.6 points (95% CI 0.4 to 2.8); the change cannot be attributed to the workshops.",
+            "value": "+1,6",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "UCLA-3 loneliness changed by −0.4 (95% CI −0.9 to 0.1) in the report's paired sample.",
+            "value": "−0,4",
+            "salient": false,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "LSNS-6 social network score changed by +1.1 (95% CI −0.2 to 2.4) in the report's paired sample.",
+            "value": "+1,1",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Median attendance was 17 of 28 sessions; 38 of 60 residents (63%) attended at least 14 sessions.",
+            "value": "63 %",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Correlation between sessions attended and SWEMWBS change was r = 0.12 (95% CI −0.19 to 0.41), showing no clear dose–response.",
+            "value": "0,12",
+            "salient": false,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Qualitative coding found intermediation by relatives or neighbours in 34 of 60 residents (57%), plus administrative language, automated phone systems, hearing loss and A Fala/Portuguese themes; frequencies do not estimate population prevalence.",
+            "value": "57 %",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Inter-coder agreement on 24 of 120 transcripts (20%) was Cohen's kappa 0.71.",
+            "value": "0,71",
+            "salient": false,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Ethics approval CEI-UVET-2024-118 (12 Dec 2024) covers pseudonymised academic analysis and non-identifying dissemination; consent excludes identifiable voice, image or testimonies in exhibitions, concerts or media, and audio files were deleted after transcription.",
+            "value": "CEI-UVET-2024-118",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Collaboration agreements with the three centres' owning entities covered only 1 Jan to 31 Dec 2025; no current access agreement is listed.",
+            "value": "31/12/2025",
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The linguist Iago Cendón Sobrado holds a doctorate (2019), speaks A Fala and Portuguese, and has an indefinite full-time scientific-technical contract at UVET since 1 March 2023.",
+            "value": "2019",
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The community nurse Rocío Durán Malpartida is a family and community nursing specialist whose highest degree is a master's; she has no doctorate.",
+            "value": "Máster Universitario (MECES 3)",
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The nurse works 50% for the group on an indefinite part-time research-support contract since 1 Jan 2025 and 50% as a rural primary-care nurse.",
+            "value": "50 %",
+            "salient": false,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The TERRASONORA sound archive holds 312 field recordings and 46 biographical interviews from 18 municipalities in the UVET repository.",
+            "value": "312",
+            "salient": false,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Feedback sessions in the three centres in March 2026 reached 71 attendees.",
+            "value": "71",
+            "salient": false,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The team's documented methods cover interviews, ethnography, sound recording, brief scales, thematic analysis and regression; there is no prior administrative-process mapping, no administrative or service-use data, and no interviews with carers or professionals.",
+            "value": null,
+            "salient": true,
+            "source": "cv_ip.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "cendon2026fala",
+            "authors": [
+              "Cendón Sobrado, I.",
+              "Recuero Valdelomar, A.",
+              "Durán Malpartida, R."
+            ],
+            "year": 2026,
+            "title": "A fala en la consulta: repertorios lingüísticos de personas mayores y comunicación con los servicios sanitarios en la Sierra de Gata",
+            "venue": "Cuadernos de Lingüística Rayana",
+            "doi": "10.99999/pb.v2-cultural-care-participation-team.2026.1"
+          },
+          {
+            "key": "duran2025mediadora",
+            "authors": [
+              "Durán Malpartida, R.",
+              "Recuero Valdelomar, A."
+            ],
+            "year": 2025,
+            "title": "La enfermera comunitaria como mediadora en actividades culturales con personas mayores en el medio rural: notas desde la práctica",
+            "venue": "Enfermería Comunitaria y Territorio",
+            "doi": "10.99999/pb.v2-cultural-care-participation-team.2025.1"
+          },
+          {
+            "key": "recuero2024cancioneros",
+            "authors": [
+              "Recuero Valdelomar, A."
+            ],
+            "year": 2024,
+            "title": "Cancioneros vivos: repertorio tradicional y sociabilidad en municipios en riesgo de despoblación",
+            "venue": "Anuario de Sociología del Territorio",
+            "doi": "10.99999/pb.v2-cultural-care-participation-team.2024.1"
+          },
+          {
+            "key": "recuero2023toques",
+            "authors": [
+              "Recuero Valdelomar, A.",
+              "Cendón Sobrado, I."
+            ],
+            "year": 2023,
+            "title": "Toques, rondas y fiestas: patrimonio sonoro y vida cotidiana en la Raya cacereña",
+            "venue": "Revista de Patrimonio Inmaterial y Sociedad",
+            "doi": "10.99999/pb.v2-cultural-care-participation-team.2023.1"
+          },
+          {
+            "key": "recuero2022edicion",
+            "authors": [
+              "Recuero Valdelomar, A."
+            ],
+            "year": 2022,
+            "title": "Edición digital de cancioneros locales: criterios y participación comunitaria",
+            "venue": "Archivos de Música Popular Ibérica",
+            "doi": "10.99999/pb.v2-cultural-care-participation-team.2022.1"
+          },
+          {
+            "key": "recuero2021redes",
+            "authors": [
+              "Recuero Valdelomar, A.",
+              "Ledesma Corchero, P."
+            ],
+            "year": 2021,
+            "title": "Redes de vecindad y envejecimiento en pueblos pequeños del oeste de Cáceres",
+            "venue": "Revista de Estudios Rurales Ibéricos",
+            "doi": "10.99999/pb.v2-cultural-care-participation-team.2021.1"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": [
+          "For the same completed 2025 Rueda de Voces wellbeing endpoint, informe_final_rueda_de_voces.md reports 42 residents with paired T0–T1 wellbeing interviews while registro_entrevistas_rueda_de_voces.md records 47, both signed on 30 January 2026 with no indication of which is correct."
+        ]
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml — facts registry",
+          "problem": "The registry omits proposal-relevant resources, restrictions, results and statuses. Examples include the three MAXQDA licences expiring on 31/12/2026; the manuscript submitted on 12/05/2026 and still under review; transcript retention until 31/01/2031 and reuse restricted to academic research by the group; the absence of validated language versions for assisted scale administration; the 28 sessions of 75 minutes per centre; participant language and hearing-loss counts; and four of the five numerical thematic findings. F23 also omits the archive's distinction between openly licensed recordings and restricted interviews.",
+          "fix": "Add sourced facts with the exact quantities, dates, statuses and restrictions stated in the documents. Register the methodological limitations and distinguish currently available resources from those requiring renewal or further permission."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml — F08, F18 and F25",
+          "problem": "Several assertions exceed their cited sources. F25 turns an experience list into an unsupported assertion that the team has no prior administrative-process mapping experience. Its assertions about absent administrative data and interviews with carers or professionals are supported only for Rueda de Voces, not for the team's entire history, and appear in the final report rather than the cited CV. F08's recording-replacement rule comes from the ledger, not its cited report. F18 describes audio deletion as completed, whereas its cited report states the deletion policy; completion is documented in the ledger.",
+          "fix": "Split these compound facts and cite the documents that establish each assertion. Restrict the missing-data and missing-interview statements to the pilot. Remove the unsupported mapping-experience claim or add an explicit dated statement establishing it in an applicant-facing document."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "informe_final_rueda_de_voces.md — section 3, inclusion criterion 'capacidad para consentir (cuestionario de Pfeiffer con 4 errores o menos)'",
+          "problem": "The report treats a cognitive screening threshold as establishing capacity to consent. Pfeiffer screening does not itself establish whether someone understands the particular study and can make and communicate a voluntary decision. Written consent in section 7 does not explain how that capacity was assessed.",
+          "fix": "Separate cognitive screening from consent-capacity assessment. Describe the actual procedure used to establish understanding and voluntary agreement, including communication support where needed, and identify the Pfeiffer threshold as a screening criterion rather than proof of capacity."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "informe_final_rueda_de_voces.md — sections 4 and 5.2, SWEMWBS scoring and results",
+          "problem": "The report does not distinguish the SWEMWBS raw item sum from the transformed metric score. Both can be described using the stated endpoints, so the range alone does not identify which score produced the means, change estimate and correlation. This leaves the interpretation of the reported 1.6-point change ambiguous.",
+          "fix": "State whether the results use raw sums or the standard transformed metric scores and describe the scoring procedure. Ensure the means, paired change, confidence interval and attendance correlation consistently use that procedure; register the scoring convention alongside F11."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "applicant_type": "team",
+        "career_stage": "senior",
+        "disciplines": [
+          "enfermería comunitaria",
+          "música",
+          "patrimonio cultural",
+          "sociología rural"
+        ],
+        "method_profile": "mixed",
+        "country": "ES",
+        "files": [
+          {
+            "path": "cv_ip.md",
+            "role": "cv",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Currículum vitae abreviado\n\n**Amparo Recuero Valdelomar**\nFecha de actualización: 15 de septiembre de 2026\n\n## Situación profesional actual\n\n- Catedrática de Universidad, área de Sociología. Departamento de Sociología y Trabajo Social, Universidad de Vettonia (UVET), campus de Plasencia (Cáceres).\n- Funcionaria de carrera desde el 1 de marzo de 2010. Catedrática desde el 1 de octubre de 2019.\n- Coordinadora del grupo de investigación TERRA-Cuidado (Territorio, Cultura y Cuidados), reconocido por la UVET en 2020 (código GI-UVET-SOC-04).\n- 4 sexenios de investigación reconocidos (último tramo 2018–2023) y 1 sexenio de transferencia (convocatoria piloto de 2018).\n- Evaluadora de proyectos para la Agencia Estatal de Investigación (Ciencias Sociales) desde 2017.\n\n## Formación\n\n- 2004. Doctora en Sociología, Universidad de Vettonia. Tesis: «Música, fiesta y pertenencia en la Sierra de Gata, 1950–2000». Sobresaliente cum laude.\n- 1998. Licenciada en Sociología, Universidad de Vettonia.\n- 1996. Título Superior de Música, especialidad de Musicología.\n\n## Trayectoria\n\n- 2019–actualidad: Catedrática de Universidad, UVET.\n- 2010–2019: Profesora Titular de Universidad, UVET.\n- 2005–2010: Profesora Contratada Doctora, UVET.\n- 2000–2004: Investigadora predoctoral (programa propio FPI-UVET), Departamento de Sociología.\n\n## Proyectos como investigadora principal\n\n| Referencia | Título | Financiador y convocatoria | Periodo | Importe | Estado a 15/09/2026 |\n|---|---|---|---|---|---|\n| PPI-2024-T-07 | Rueda de Voces: participación cultural y redes de apoyo de personas mayores en la Sierra de Gata | Plan Propio de Investigación UVET 2024, línea Transferencia y Territorio | 01/10/2024–31/01/2026 | 38.500 € | Finalizado; informe final de 30/01/2026 |\n| PID2021-127483OB-I00 | TERRASONORA: patrimonio sonoro y vida cotidiana en municipios en riesgo de despoblación | AEI, Proyectos de Generación de Conocimiento 2021, modalidad Investigación Orientada, tipo B | 01/09/2022–31/08/2026 (incluye prórroga de 12 meses) | 96.800 € | Finalizado el 31/08/2026; informe científico final en preparación |\n| PGC2018-098214-B-I00 | Cancioneros locales y memoria colectiva en la Raya cacereña | Ministerio de Ciencia, Innovación y Universidades / AEI, Proyectos de I+D de Generación de Conocimiento 2018, tipo B | 01/01/2019–30/06/2022 (incluye prórroga de 6 meses) | 54.450 € | Finalizado y justificado |\n\nTERRASONORA documentó 312 grabaciones de campo (toques de campana, cantos, rondas y paisaje sonoro) y 46 entrevistas biográficas en 18 municipios de menos de 1.000 habitantes de las provincias de Cáceres y Salamanca. El proyecto PGC2018 produjo la edición digital de cinco cancioneros locales con 418 piezas transcritas y comentadas.\n\n## Dirección de tesis doctorales\n\n- 3 tesis defendidas (2014, 2018 y 2023), las tres sobre sociabilidad y patrimonio en el medio rural.\n- 2 tesis en curso (inicio en 2022 y 2024), programa de doctorado en Ciencias Sociales de la UVET.\n\n## Transferencia\n\n- 4 contratos de I+D con ayuntamientos y una mancomunidad de la provincia de Cáceres (art. 83 LOU / art. 60 LOSU), 2016–2024, 61.300 € en total, para inventarios de patrimonio musical local.\n- Talleres de recogida de repertorio con asociaciones vecinales en 11 municipios (2019–2024).\n\n## Docencia\n\nSociología rural; Métodos cualitativos de investigación social; Envejecimiento y sociedad (Grado en Trabajo Social y Grado en Enfermería, UVET).\n\n## Métodos con experiencia acreditada\n\nEntrevista biográfica y semiestructurada; etnografía de prácticas musicales y festivas; registro sonoro de campo; escalas breves administradas en entrevista; análisis temático asistido con MAXQDA; estadística descriptiva y regresión lineal en R.\n\n## Publicaciones\n\nVéase el listado de publicaciones del equipo (selección 2021–2026).\n"
+          },
+          {
+            "path": "informe_final_rueda_de_voces.md",
+            "role": "prior_project",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Informe final — Proyecto Rueda de Voces\n\n**Participación cultural y redes de apoyo de personas mayores en la Sierra de Gata**\n\nReferencia: PPI-2024-T-07. Plan Propio de Investigación de la Universidad de Vettonia, convocatoria 2024, línea Transferencia y Territorio. Importe concedido: 38.500 €. Periodo de ejecución: 1 de octubre de 2024 a 31 de enero de 2026.\n\nInvestigadora principal: Dra. Amparo Recuero Valdelomar (UVET). Equipo: Dr. Iago Cendón Sobrado, lingüista (UVET); Rocío Durán Malpartida, enfermera especialista en Enfermería Familiar y Comunitaria (UVET).\n\nFecha del informe: 30 de enero de 2026.\n\n## 1. Objetivos\n\n1. Describir la participación de personas mayores residentes o usuarias de centros en talleres semanales de canto y memoria oral basados en el repertorio tradicional de la comarca.\n2. Describir los cambios en bienestar mental, soledad y red de apoyo entre el inicio y el final del periodo de talleres.\n3. Identificar, a partir de las entrevistas, las dificultades lingüísticas y comunicativas que las personas participantes refieren en su relación con los servicios sanitarios y sociales.\n\n## 2. Diseño y centros\n\nEstudio piloto pre-post de un solo grupo, sin grupo de comparación. Tres centros de tres municipios de la Sierra de Gata (Cáceres), identificados como A (residencia, 52 plazas), B (centro de día, 30 plazas) y C (hogar de mayores con servicio de comedor). El acceso se formalizó mediante acuerdos de colaboración con las entidades titulares para el periodo del 1 de enero al 31 de diciembre de 2025.\n\nTalleres: 28 sesiones semanales de 75 minutos por centro entre el 3 de marzo y el 24 de octubre de 2025 (pausa en agosto), 84 sesiones en total, dirigidas por dos facilitadores musicales contratados, con apoyo de la enfermera del equipo. Contenidos: canto de repertorio local (rondas, canciones de trabajo, romances), recogida de versiones familiares y conversación sobre objetos y fotografías aportados por los participantes. Los talleres fueron una actividad cultural; no incluyeron componentes terapéuticos ni clínicos.\n\n## 3. Participantes\n\nCriterios de inclusión: 65 años o más; residente o usuario habitual del centro; 4 errores o menos en el cuestionario de Pfeiffer (SPMSQ), administrado en la lengua habitual del residente y con la corrección de un error adicional en personas sin estudios primarios; capacidad para consentir, valorada en la entrevista de consentimiento descrita en el apartado 7. El cuestionario de Pfeiffer se aplicó como cribado cognitivo previo; la capacidad para consentir se valoró por separado.\n\nReclutamiento entre el 13 de enero y el 21 de febrero de 2025. Personas valoradas: 74. No incluidas: 14 (cribado de Pfeiffer por encima del umbral, 8; comprensión insuficiente de la información en la entrevista de consentimiento, 4; rechazo a participar, 2). Incluidas: 60 residentes (A: 22; B: 20; C: 18). Edad media 81,3 años (DE 6,9; rango 66–97); 39 mujeres (65 %). Lengua habitual en el hogar: castellano 41, a fala 14, portugués 5. Hipoacusia autorreferida: 27 (45 %).\n\nEntrevista inicial (T0, febrero de 2025): dos sesiones grabadas por residente, bloque A (trayectoria y repertorio) y bloque B (bienestar, red de apoyo y relación con servicios), en total 120 grabaciones iniciales de 60 residentes. Entrevista final (T1, del 3 al 28 de noviembre de 2025): bienestar y red de apoyo.\n\nEntrevistas de bienestar emparejadas (T0 y T1): 42 residentes. Sin entrevista T1 emparejada: 18 (fallecimiento 3; hospitalización o traslado 7; retirada voluntaria 4; no localizable o no entrevistable en el plazo de T1, 4).\n\n## 4. Instrumentos y análisis\n\n- Escala breve de bienestar mental de Warwick-Edinburgh (SWEMWBS), versión española, 7 ítems puntuados de 1 a 5. La suma bruta de los ítems (7–35) se convirtió en puntuación métrica con la tabla de conversión Rasch publicada por los autores de la escala (rango 7,00–35,00); mayor puntuación, mayor bienestar. Las medias, el cambio emparejado, su intervalo de confianza y la correlación con la asistencia se calcularon sobre la puntuación métrica.\n- Escala de soledad UCLA de 3 ítems (UCLA-3), rango 3–9; mayor puntuación, más soledad.\n- Escala de red social de Lubben abreviada (LSNS-6), rango 0–30; mayor puntuación, red más amplia.\n- Registro de asistencia por sesión.\n- Guion semiestructurado del bloque B con preguntas sobre citas, trámites y comunicación con profesionales.\n\nLas escalas se administraron oralmente en castellano, con las versiones españolas publicadas. En 16 de los 19 residentes con lengua habitual distinta del castellano, el lingüista apoyó la entrevista en a fala o portugués.\n\nAnálisis: cambio medio emparejado con IC 95 % por la t de Student; correlación de Pearson con IC 95 % por la transformación z de Fisher. Análisis de casos completos, sin imputación.\n\n## 5. Resultados\n\n### 5.1 Participación (n = 60)\n\nMediana de 17 sesiones de 28 (RIC 9–23). 38 de 60 (63 %) asistieron al menos a 14 sesiones.\n\n### 5.2 Bienestar, soledad y red de apoyo (n = 42 entrevistas emparejadas)\n\n| Medida | T0, media (DE) | T1, media (DE) | Cambio medio (IC 95 %) |\n|---|---|---|---|\n| SWEMWBS, puntuación métrica (7,00–35,00) | 22,4 (4,1) | 24,0 (4,3) | +1,6 (0,4 a 2,8) |\n| UCLA-3 (3–9) | 5,9 (1,7) | 5,5 (1,6) | −0,4 (−0,9 a 0,1) |\n| LSNS-6 (0–30) | 13,2 (5,6) | 14,3 (5,4) | +1,1 (−0,2 a 2,4) |\n\nCorrelación entre número de sesiones asistidas y cambio en la puntuación métrica de SWEMWBS: r = 0,12 (IC 95 % −0,19 a 0,41).\n\nSin grupo de comparación, el cambio observado no puede atribuirse a los talleres. Son explicaciones compatibles la regresión a la media, la estacionalidad (febrero frente a noviembre), la selección por pérdidas y el efecto de la propia entrevista.\n\n### 5.3 Barreras lingüísticas y comunicativas en el acceso a servicios\n\nCodificación temática deductivo-inductiva de las 120 transcripciones T0 en MAXQDA 2022, por dos codificadores (I. Cendón y R. Durán). Acuerdo en 24 transcripciones (20 %): kappa de Cohen = 0,71.\n\n| Tema | Residentes con al menos un segmento codificado (de 60) |\n|---|---|\n| Intermediación de familiares, vecinos o personal del centro en trámites y citas | 34 (57 %) |\n| Comprensión del lenguaje administrativo escrito (resoluciones de dependencia, requerimientos de documentación) | 26 (43 %) |\n| Atención telefónica automatizada y citas por teléfono o internet | 21 (35 %) |\n| Hipoacusia en consulta y en llamadas | 19 (32 %) |\n| Uso de a fala o portugués y rotación de profesionales sanitarios | 11 (18 %) |\n\nLas frecuencias corresponden a una muestra de conveniencia de tres centros: indican qué temas aparecen en los relatos y no estiman su prevalencia en la población mayor de la comarca.\n\n## 6. Limitaciones\n\n- Diseño pre-post sin grupo de comparación; no permite inferir efectos causales.\n- Muestra de conveniencia de 60 residentes en tres centros.\n- El cribado cognitivo y la valoración de la capacidad para consentir dejaron fuera a personas con deterioro cognitivo moderado o grave; los resultados no las representan.\n- Pérdidas entre T0 y T1: 18 de 60.\n- Escalas administradas oralmente; el apoyo en a fala y portugués no utilizó versiones validadas.\n- No se recogieron datos de expedientes administrativos ni de uso de servicios; las barreras proceden del relato de los residentes. No se entrevistó a familiares cuidadores ni a profesionales.\n\n## 7. Ética, consentimiento y datos\n\n- Dictamen favorable del Comité de Ética de la Investigación de la UVET, ref. CEI-UVET-2024-118, de 12 de diciembre de 2024.\n- Entrevista de consentimiento. La enfermera del equipo leyó en voz alta la hoja de información en una entrevista individual y entregó una copia en letra grande; entre esa entrevista y la firma medió un plazo mínimo de 48 horas. A petición del residente, el lingüista explicó la información en a fala o portugués. En residentes con hipoacusia se utilizó un amplificador personal de voz y apoyo escrito. La enfermera comprobó la comprensión con preguntas abiertas en las que la persona explicaba con sus palabras cuatro puntos: en qué consiste la participación, su carácter voluntario, la posibilidad de retirarse sin consecuencias para su atención en el centro y la grabación de las sesiones. Se registró capacidad para consentir cuando la persona explicaba los cuatro puntos, tras una segunda explicación si hacía falta, y comunicaba una decisión. El personal de los centros no estuvo presente en la entrevista. No hubo consentimientos por representación. Ningún residente pertenecía al cupo de atención primaria de la enfermera.\n- Antes de la entrevista T1 se confirmó verbalmente la voluntad de continuar.\n- Consentimiento escrito de cada participante para la grabación, la transcripción, el análisis seudonimizado y la difusión académica sin elementos identificativos, incluida la reutilización de las transcripciones seudonimizadas en investigación académica del grupo. El consentimiento no incluye la difusión de voz, imagen, nombre ni testimonios identificables en exposiciones, conciertos o medios.\n- La muestra final de cada centro (octubre de 2025) se celebró solo para residentes y familiares y no se grabó.\n- Los audios se eliminan tras verificar la transcripción (plazo máximo de 90 días). Las transcripciones seudonimizadas se guardan en el servidor seguro de investigación de la UVET, con acceso limitado a los tres miembros del equipo, hasta el 31/01/2031. La clave de códigos la custodia la investigadora principal.\n\n## 8. Ejecución económica\n\n| Concepto | Concedido |\n|---|---|\n| Personal (contrato de apoyo a la transcripción, 6 meses a tiempo parcial) | 14.200 € |\n| Honorarios de facilitadores musicales | 9.800 € |\n| Desplazamientos de trabajo de campo | 8.600 € |\n| Material inventariable y licencias | 3.900 € |\n| Devolución de resultados y publicación | 2.000 € |\n| **Total** | **38.500 €** |\n\nEjecutado a 30/01/2026: 37.940 € (98,5 %). Remanente reintegrado: 560 €.\n\n## 9. Difusión y devolución\n\n- Comunicación «Barreras de comunicación de personas mayores con los servicios en la Sierra de Gata», Jornadas Ibéricas de Envejecimiento Rural, Plasencia, 20–21 de noviembre de 2025.\n- Sesiones de devolución en los tres centros previstas para marzo de 2026.\n- Manuscrito con los resultados de participación y bienestar en preparación.\n\nPlasencia, 30 de enero de 2026.\n\nFirmado: Amparo Recuero Valdelomar, investigadora principal.\n"
+          },
+          {
+            "path": "registro_entrevistas_rueda_de_voces.md",
+            "role": "other",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Registro de entrevistas — Rueda de Voces (PPI-2024-T-07)\n\n**Resumen del registro de campo, versión de cierre**\n\nResponsable del registro: Rocío Durán Malpartida (coordinación del trabajo de campo).\nResponsable de transcripción y seudonimización: Iago Cendón Sobrado.\nPeriodo cubierto: 13 de enero a 28 de noviembre de 2025.\nFecha de cierre y firma: 30 de enero de 2026.\n\n## Criterios de registro\n\n- Cada residente recibe un código (A01–A22, B01–B20, C01–C18) al firmar el consentimiento.\n- La entrevista inicial (T0) consta de dos sesiones grabadas: bloque A (trayectoria y repertorio) y bloque B (bienestar, red de apoyo y relación con servicios).\n- Si una sesión se interrumpe o la grabación falla, se repite. La grabación repetida sustituye a la anterior con el mismo código y número de sesión y no abre un registro nuevo.\n- Una entrevista de bienestar se registra como emparejada cuando el mismo código tiene bloque B en T0 y entrevista T1.\n\n## Resumen por centro\n\n| Centro | Residentes inscritos | Grabaciones T0 | Sesiones T0 repetidas | Entrevistas T1 | Entrevistas de bienestar emparejadas T0–T1 |\n|---|---|---|---|---|---|\n| A | 22 | 44 | 3 | 17 | 17 |\n| B | 20 | 40 | 2 | 16 | 16 |\n| C | 18 | 36 | 2 | 14 | 14 |\n| **Total** | **60** | **120** | **7** | **47** | **47** |\n\nResidentes sin entrevista T1 emparejada: 13.\n\n## Transcripción\n\n- Transcripciones T0 verificadas: 120. Transcripciones T1 verificadas: 47.\n- Transcripción ortográfica en castellano. Los fragmentos en a fala o portugués se transcriben en la variedad original con glosa en castellano (16 residentes con entrevistas total o parcialmente en a fala o portugués).\n- Audios eliminados tras la verificación, conforme al protocolo aprobado (CEI-UVET-2024-118). Último borrado: 23 de enero de 2026.\n\nFirmado: Rocío Durán Malpartida, coordinación del trabajo de campo.\nFirmado: Iago Cendón Sobrado, transcripción y seudonimización.\n"
+          },
+          {
+            "path": "publicaciones.md",
+            "role": "publications",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Publicaciones del equipo (selección 2021–2026)\n\nGrupo TERRA-Cuidado, Universidad de Vettonia. Actualizado a 15 de septiembre de 2026.\n\n## Artículos publicados\n\n1. Cendón Sobrado, I., Recuero Valdelomar, A. y Durán Malpartida, R. (2026). «A fala en la consulta: repertorios lingüísticos de personas mayores y comunicación con los servicios sanitarios en la Sierra de Gata». *Cuadernos de Lingüística Rayana*, 11(1), 45–68. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2026.1\n2. Durán Malpartida, R. y Recuero Valdelomar, A. (2025). «La enfermera comunitaria como mediadora en actividades culturales con personas mayores en el medio rural: notas desde la práctica». *Enfermería Comunitaria y Territorio*, 9(2), 112–121. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2025.1\n3. Recuero Valdelomar, A. (2024). «Cancioneros vivos: repertorio tradicional y sociabilidad en municipios en riesgo de despoblación». *Anuario de Sociología del Territorio*, 17, 201–226. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2024.1\n4. Recuero Valdelomar, A. y Cendón Sobrado, I. (2023). «Toques, rondas y fiestas: patrimonio sonoro y vida cotidiana en la Raya cacereña». *Revista de Patrimonio Inmaterial y Sociedad*, 6(2), 77–99. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2023.1\n5. Recuero Valdelomar, A. (2022). «Edición digital de cancioneros locales: criterios y participación comunitaria». *Archivos de Música Popular Ibérica*, 14, 33–58. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2022.1\n6. Recuero Valdelomar, A. y Ledesma Corchero, P. (2021). «Redes de vecindad y envejecimiento en pueblos pequeños del oeste de Cáceres». *Revista de Estudios Rurales Ibéricos*, 28(3), 289–310. https://doi.org/10.99999/pb.v2-cultural-care-participation-team.2021.1\n\n## Manuscrito en evaluación\n\n- Recuero Valdelomar, A., Durán Malpartida, R. y Cendón Sobrado, I. «Talleres de canto tradicional en tres centros de mayores de la Sierra de Gata: participación, bienestar y redes de apoyo en un estudio piloto pre-post». Enviado a *Gerontología Social y Comunidad* el 12 de mayo de 2026; en evaluación.\n\n## Comunicaciones recientes\n\n- Durán Malpartida, R., Cendón Sobrado, I. y Recuero Valdelomar, A. (2025). «Barreras de comunicación de personas mayores con los servicios en la Sierra de Gata». Jornadas Ibéricas de Envejecimiento Rural, Plasencia, 20–21 de noviembre de 2025.\n- Recuero Valdelomar, A. (2024). «Paisaje sonoro y despoblación: primeros resultados de TERRASONORA». Seminario permanente de Sociología Rural, UVET, 7 de marzo de 2024.\n"
+          },
+          {
+            "path": "equipo_y_recursos.md",
+            "role": "team",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Equipo y recursos del grupo TERRA-Cuidado\n\nUniversidad de Vettonia (UVET), campus de Plasencia. Situación a 20 de septiembre de 2026.\n\n## Composición\n\n### Amparo Recuero Valdelomar — coordinadora del grupo\n\nCatedrática de Universidad (Sociología), funcionaria de carrera. Doctora en Sociología (2004). Investigadora principal de Rueda de Voces (PPI-2024-T-07), TERRASONORA (PID2021-127483OB-I00) y PGC2018-098214-B-I00. Líneas: sociología rural, patrimonio musical y envejecimiento.\n\n### Iago Cendón Sobrado — lingüista\n\nDoctor en Lingüística Hispánica (Universidad de Vettonia, 2019; tesis sobre contacto lingüístico en las variedades de a fala del valle de Xálima). Personal investigador con contrato indefinido de actividades científico-técnicas (art. 23 bis de la Ley 14/2011), jornada completa, desde el 1 de marzo de 2023. Habla y transcribe a fala y portugués. En Rueda de Voces: apoyo lingüístico en 16 entrevistas, verificación de transcripciones, seudonimización y codificación.\n\n### Rocío Durán Malpartida — enfermera comunitaria\n\n- Diplomatura en Enfermería (Universidad de Vettonia, 2010).\n- Enfermera especialista en Enfermería Familiar y Comunitaria (residencia EIR, 2013–2015).\n- Máster Universitario en Investigación en Ciencias Sociosanitarias (Universidad de Vettonia, 2019).\n- Titulación de mayor nivel: Máster Universitario (MECES 3).\n\nTécnica de apoyo a la investigación con contrato indefinido de actividades científico-técnicas a tiempo parcial (50 %), desde el 1 de enero de 2025, con autorización de compatibilidad. El resto de su jornada trabaja como enfermera de atención primaria en un centro de salud de la comarca; 11 años de experiencia en atención primaria rural. En Rueda de Voces: reclutamiento, entrevistas de consentimiento, registro de entrevistas, apoyo a los talleres y codificación.\n\n## Equipamiento y servicios disponibles\n\n- 4 grabadoras digitales Zoom H5 y 6 micrófonos de solapa (adquiridos entre 2022 y 2025).\n- 3 licencias de MAXQDA, vigentes hasta el 31/12/2026.\n- Espacio en el servidor seguro de investigación de la UVET (cifrado, acceso nominal).\n- Sala de trabajo y pequeño estudio de grabación del Departamento de Sociología y Trabajo Social.\n- Vehículos del parque móvil de la UVET para trabajo de campo, previa reserva.\n\n## Datos existentes\n\n| Conjunto | Contenido | Condiciones de uso |\n|---|---|---|\n| Rueda de Voces, transcripciones T0 | 120 transcripciones seudonimizadas de 60 residentes | Análisis académico no identificativo; conservación hasta 31/01/2031 |\n| Rueda de Voces, transcripciones T1 | Entrevistas finales seudonimizadas (véase el registro de entrevistas) | Mismas condiciones |\n| Rueda de Voces, escalas y asistencia | SWEMWBS, UCLA-3, LSNS-6 y asistencia por sesión, seudonimizadas | Mismas condiciones |\n| Libro de códigos de barreras de comunicación | 5 temas y 23 códigos con definiciones y ejemplos | Uso interno del grupo |\n| Fondo sonoro TERRASONORA | 312 grabaciones de campo y 46 entrevistas biográficas de 18 municipios | Repositorio institucional UVET: 198 grabaciones de toques de campana y paisaje sonoro en abierto (CC BY 4.0); 114 grabaciones de cantos y rondas y las 46 entrevistas, de acceso restringido |\n\n## Permisos y acuerdos\n\n- Dictamen favorable CEI-UVET-2024-118 (12/12/2024), referido al protocolo de Rueda de Voces.\n- Acuerdos de colaboración con las entidades titulares de los centros A, B y C, vigentes del 1/01/2025 al 31/12/2025.\n\n## Devolución de resultados\n\nSesiones de devolución en los centros A, B y C los días 10, 11 y 13 de marzo de 2026, con 71 asistentes en total (residentes, familiares y personal de los centros). Informe breve de resultados entregado a las tres entidades titulares el 13 de marzo de 2026.\n"
+          }
+        ],
+        "facts": [
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "The PI, Amparo Recuero Valdelomar, is a career civil servant since 2010 and full professor (Catedrática) of Sociology at the Universidad de Vettonia since 2019, with four research sexenios and one transfer sexenio.",
+            "value": "Catedrática de Universidad",
+            "salient": true,
+            "source": "cv_ip.md"
+          },
+          {
+            "category": "education",
+            "kind": "existing",
+            "text": "The PI obtained her doctorate in Sociology in 2004 and also holds a Título Superior de Música in Musicology (1996).",
+            "value": "2004",
+            "salient": true,
+            "source": "cv_ip.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The PI led the AEI oriented-research type B project TERRASONORA (EUR 96,800, 1 Sep 2022 to 31 Aug 2026, finished, final scientific report in preparation) and earlier the type B project PGC2018-098214-B-I00 (EUR 54,450, 2019–2022, finished and justified).",
+            "value": "PID2021-127483OB-I00",
+            "salient": true,
+            "source": "cv_ip.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The Rueda de Voces pilot (PPI-2024-T-07), funded by the UVET internal research plan with EUR 38,500, ran from 1 Oct 2024 to 31 Jan 2026, is finished and executed EUR 37,940 (98.5%).",
+            "value": "38.500 €",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The pilot enrolled 60 older residents in three Sierra de Gata centres (A 22, B 20, C 18) out of 74 people assessed; mean age 81.3 years, 39 women (65%), home language Castilian 41, A Fala 14, Portuguese 5, and self-reported hearing loss 27 (45%); the interview ledger gives the same 60.",
+            "value": "60",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The interview ledger records 120 T0 recordings (two sessions for each of 60 residents) and 7 repeated sessions; a repeat recording replaced the earlier one under the same code and session number without opening a new record.",
+            "value": "120",
+            "salient": true,
+            "source": "registro_entrevistas_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The final report states 42 residents with paired T0–T1 wellbeing interviews and 18 without (3 deaths, 7 hospitalisations or transfers, 4 withdrawals, 4 not reachable or not interviewable).",
+            "value": "42",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The signed interview ledger, closed on 30 Jan 2026, records 47 paired T0–T1 wellbeing interviews (A 17, B 16, C 14) and 13 residents without a pair.",
+            "value": "47",
+            "salient": true,
+            "source": "registro_entrevistas_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Using SWEMWBS metric scores (Rasch conversion of the raw 7–35 item sum), mean wellbeing rose from 22.4 to 24.0, change +1.6 (95% CI 0.4 to 2.8) in the report's 42 paired cases; the single-group pre-post design does not allow attributing the change to the workshops, and attendance correlated weakly with change (r = 0.12, 95% CI −0.19 to 0.41).",
+            "value": "+1,6",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Loneliness (UCLA-3) changed by −0.4 (95% CI −0.9 to 0.1) and social network (LSNS-6) by +1.1 (95% CI −0.2 to 2.4) in the report's paired sample; both intervals include zero.",
+            "value": "+1,1",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Each centre held 28 weekly 75-minute singing and oral-memory sessions (84 in total, March to October 2025) with no therapeutic or clinical component; median attendance was 17 of 28 (IQR 9–23) and 38 of 60 residents (63%) attended at least 14.",
+            "value": "63 %",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The PI's CV lists her accredited methods as biographical and semi-structured interviewing, ethnography of musical and festive practices, field sound recording, brief interviewer-administered scales, MAXQDA-assisted thematic analysis, and descriptive statistics and linear regression in R.",
+            "value": null,
+            "salient": true,
+            "source": "cv_ip.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Scales were administered orally in Castilian using published Spanish versions; for 16 of the 19 residents whose home language was A Fala or Portuguese the linguist supported the interview in that language, without validated versions of the scales in those languages.",
+            "value": "16",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Thematic coding of the 120 T0 transcripts (Cohen's kappa 0.71 on 24 double-coded transcripts) found intermediation by relatives, neighbours or staff in 34 of 60 residents (57%), written administrative language in 26 (43%), automated telephone or online appointments in 21 (35%), hearing loss in consultations and calls in 19 (32%) and A Fala/Portuguese use with staff rotation in 11 (18%); these convenience-sample frequencies do not estimate population prevalence.",
+            "value": "57 %",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "In the Rueda de Voces pilot no administrative records or service-use data were collected, barriers come from residents' own accounts, and neither family carers nor professionals were interviewed.",
+            "value": null,
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Ethics approval CEI-UVET-2024-118 (12 Dec 2024) covered the pilot; the Pfeiffer questionnaire (4 errors or fewer) served as cognitive screening, and capacity to consent was assessed separately by the nurse in an individual consent interview using explain-back on four points, with language and hearing support and no proxy consent.",
+            "value": "CEI-UVET-2024-118",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Written consent covers recording, transcription, pseudonymised analysis, non-identifying academic dissemination and reuse of pseudonymised transcripts in the group's academic research; it does not cover voice, image, name or identifiable testimonies in exhibitions, concerts or media.",
+            "value": null,
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Pseudonymised pilot transcripts are kept on the UVET secure research server, accessible only to the three team members, until 31/01/2031, with the code key held by the PI.",
+            "value": "31/01/2031",
+            "salient": true,
+            "source": "informe_final_rueda_de_voces.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The interview ledger records that audio files were deleted after transcript verification under the approved protocol, the last deletion on 23 January 2026.",
+            "value": "23 de enero de 2026",
+            "salient": true,
+            "source": "registro_entrevistas_rueda_de_voces.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Collaboration agreements with the owning entities of centres A, B and C were valid from 1 Jan to 31 Dec 2025, and the team file lists no later agreement.",
+            "value": "31/12/2025",
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The linguist Iago Cendón Sobrado holds a doctorate (2019), speaks and transcribes A Fala and Portuguese, and has an indefinite full-time scientific-technical contract at UVET since 1 March 2023.",
+            "value": "2019",
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The community nurse Rocío Durán Malpartida is a family and community nursing specialist whose highest degree is a master's (no doctorate), working 50% on an indefinite research-support contract since 1 Jan 2025 and 50% as a rural primary-care nurse.",
+            "value": "Máster Universitario (MECES 3)",
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The TERRASONORA archive holds 312 field recordings and 46 biographical interviews from 18 municipalities; 198 bell and soundscape recordings are open under CC BY 4.0, while 114 song recordings and the 46 interviews are restricted.",
+            "value": "312",
+            "salient": false,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The group has 3 MAXQDA licences valid until 31/12/2026, 4 Zoom H5 recorders and 6 lavalier microphones.",
+            "value": "31/12/2026",
+            "salient": false,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "The manuscript on the pilot's participation, wellbeing and support-network results was submitted to Gerontología Social y Comunidad on 12 May 2026 and is under review as of 15 Sep 2026.",
+            "value": "12 de mayo de 2026",
+            "salient": true,
+            "source": "publicaciones.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "cendon2026fala",
+            "authors": [
+              "Cendón Sobrado, I.",
+              "Recuero Valdelomar, A.",
+              "Durán Malpartida, R."
+            ],
+            "year": 2026,
+            "title": "A fala en la consulta: repertorios lingüísticos de personas mayores y comunicación con los servicios sanitarios en la Sierra de Gata",
+            "venue": "Cuadernos de Lingüística Rayana",
+            "doi": "10.99999/pb.v2-cultural-care-participation-team.2026.1"
+          },
+          {
+            "key": "duran2025mediadora",
+            "authors": [
+              "Durán Malpartida, R.",
+              "Recuero Valdelomar, A."
+            ],
+            "year": 2025,
+            "title": "La enfermera comunitaria como mediadora en actividades culturales con personas mayores en el medio rural: notas desde la práctica",
+            "venue": "Enfermería Comunitaria y Territorio",
+            "doi": "10.99999/pb.v2-cultural-care-participation-team.2025.1"
+          },
+          {
+            "key": "recuero2024cancioneros",
+            "authors": [
+              "Recuero Valdelomar, A."
+            ],
+            "year": 2024,
+            "title": "Cancioneros vivos: repertorio tradicional y sociabilidad en municipios en riesgo de despoblación",
+            "venue": "Anuario de Sociología del Territorio",
+            "doi": "10.99999/pb.v2-cultural-care-participation-team.2024.1"
+          },
+          {
+            "key": "recuero2023toques",
+            "authors": [
+              "Recuero Valdelomar, A.",
+              "Cendón Sobrado, I."
+            ],
+            "year": 2023,
+            "title": "Toques, rondas y fiestas: patrimonio sonoro y vida cotidiana en la Raya cacereña",
+            "venue": "Revista de Patrimonio Inmaterial y Sociedad",
+            "doi": "10.99999/pb.v2-cultural-care-participation-team.2023.1"
+          },
+          {
+            "key": "recuero2022edicion",
+            "authors": [
+              "Recuero Valdelomar, A."
+            ],
+            "year": 2022,
+            "title": "Edición digital de cancioneros locales: criterios y participación comunitaria",
+            "venue": "Archivos de Música Popular Ibérica",
+            "doi": "10.99999/pb.v2-cultural-care-participation-team.2022.1"
+          },
+          {
+            "key": "recuero2021redes",
+            "authors": [
+              "Recuero Valdelomar, A.",
+              "Ledesma Corchero, P."
+            ],
+            "year": 2021,
+            "title": "Redes de vecindad y envejecimiento en pueblos pequeños del oeste de Cáceres",
+            "venue": "Revista de Estudios Rurales Ibéricos",
+            "doi": "10.99999/pb.v2-cultural-care-participation-team.2021.1"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": [
+          "For the same completed 2025 Rueda de Voces wellbeing endpoint, informe_final_rueda_de_voces.md reports 42 residents with paired T0–T1 wellbeing interviews while registro_entrevistas_rueda_de_voces.md records 47, both signed on 30 January 2026 with no indication of which is correct."
+        ]
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "cv_ip.md: “TERRASONORA: patrimonio sonoro y vida cotidiana”; equipo_y_recursos.md: “Fondo sonoro TERRASONORA”; publicaciones.md and dossier.yaml F03/F23 also use TERRASONORA.",
+          "problem": "TERRASONORA is an existing contemporary folk group, documented by Musicultura and a Campania association register. The exact name is used here for a music/heritage project and sound archive, so the domain overlap makes confusion particularly likely. The fictional notice does not satisfy the requested collision rule.",
+          "fix": "Replace TERRASONORA throughout this dossier with TERRAVOZ-GATA, retaining the descriptive subtitle, grant reference, dates and counts. Propagate that spelling to its occurrences in pub2-aei-service-stretch/brief.md and pub2-aei-care-close/brief.md as a consequential rename. The replacement was exact-phrase searched on 2026-10-31 with no result.",
+          "evidence": [
+            "https://www.musicultura.it/artisti/terrasonora/",
+            "https://burc.regione.campania.it/eBurcWeb/directServlet?ATTACH_ID=205018&DOCUMENT_ID=00136649",
+            "data/public/dossiers/v2-cultural-care-participation-team/cv_ip.md"
+          ]
+        }
+      ],
+      "rejected": [
+        "Partial: the project and archive are renamed from TERRASONORA to TERRAVOZ-GATA in every file and fact of this dossier. The same rename in pub2-aei-service-stretch/brief.md and pub2-aei-care-close/brief.md cannot be made here, because this reply carries only the dossier JSON. Those two briefs still need the edit."
+      ]
+    }
+  ]
+}

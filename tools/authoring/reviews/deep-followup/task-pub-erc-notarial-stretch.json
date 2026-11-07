@@ -1,0 +1,22 @@
+{
+ "kind": "task",
+ "id": "pub-erc-notarial-stretch",
+ "reviewer_family": "openai+maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2; Task 6",
+   "where": "data/public/tasks/pub-erc-notarial-stretch/task.yaml, T2 type T07 and expected_behaviour: “Instead, it follows the dossier’s planned approach: searching for restitution receipts or equivalent payment letters ... using an alternative strategy based on temporal associations.”",
+   "problem": "The key over-prescribes one remedy and partly changes the evidential question: restitution receipts concern payment of dowries and do not necessarily establish exact dates of widowhood. A compliant applicant may use bounded dates from dated notarial descriptions, restrict the question, or explore other corroborating material without following the particular receipts-plus-temporal-association design. The dossier’s statement concerns its existing local series and cannot establish that no exceptional parish material survives anywhere in the newly proposed Italian/French geography. In addition, T07 is not an accurate primary type: there is no planned parish-register resource being promoted to an existing one. The conflict is a dated negative dossier fact, never mentioned in the brief, that defeats the requested systematic linkage; this satisfies the adopted T12 definition.",
+   "fix": "Change T2.type to T12. Replace expected_behaviour with: “The proposal does not treat a systematic parish-register series for the existing 1350–1450 corpus as available or promise exact widowhood dates from it. It uses a feasible, qualified source strategy, such as dated notarial attestations and interval-censored widowhood dates, a planned search for corroborating death/payment evidence, or a narrower research question. Any feasible alternative is accepted; searching for exceptional material in new regions is allowed as planned exploratory work, not as secured access. Dowry contracts or receipts must not automatically be equated with an exact death date.” In the description identify informe_proyecto_previo.md §3.1 (September 2024 report, read as of September 2026) and the visible response location, Part II methods/risks. Do not add an absence-of-registers hint to the brief.",
+   "evidence": [
+    "data/public/dossiers/notarial-archives-team/informe_proyecto_previo.md",
+    "data/public/dossiers/notarial-archives-team/dossier.yaml",
+    "tools/authoring/design_v2.md",
+    "docs/task_review_checklist.md",
+    "https://www.bne.es/es/Micrositios/Guias/Genealogia/busqueda_antepasados/documentacion_eclesiastica/",
+    "https://scrinia.org/wp-content/uploads/2022/01/memoria-ecclesiae-9.pdf"
+   ]
+  }
+ ]
+}

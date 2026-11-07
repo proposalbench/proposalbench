@@ -1,0 +1,58 @@
+{
+  "kind": "call",
+  "id": "v2-aei-oriented-service-access",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml: eligibility.min_budget and eligibility.max_budget; call.md: Condiciones principales",
+      "problem": "The YAML records a minimum of EUR 30,000 and a maximum of 0, whereas the prose specifies EUR 30,000–75,000 for type A and EUR 50,000–99,000 for type B. Neither a literal zero nor a zero meaning unspecified reproduces these conditions. The type-specific limits are absent from the YAML.",
+      "fix": "Record both type-specific budget bands in structured eligibility data and set any overall maximum to EUR 99,000. Ensure the type B minimum and type A maximum remain enforceable.",
+      "part": "template"
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml: eligibility.duration_months_min and eligibility.duration_months_max; call.md: duration row",
+      "problem": "The YAML specifies a minimum duration of 36 months and a maximum of 0. The prose permits exactly 36 or 48 months, with 48 mandatory for oceanographic campaigns. The YAML does not reproduce either the permitted choices or the conditional requirement.",
+      "fix": "Encode permitted durations as 36 and 48 months, record the oceanographic-campaign condition, and set the overall maximum to 48 months.",
+      "part": "template"
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md: Ámbito introduction; call.yaml: scope",
+      "problem": "The scope introduction requires combining normative analysis with empirical research and testing how the barriers interact. No YAML item requires normative analysis, and SC1 requires effects of barriers without requiring their interaction. A proposal could satisfy the structured scope items while omitting explicit requirements in the applicant-facing call.",
+      "fix": "Add separate, concrete scope items for normative analysis and interaction hypotheses in both files, or remove those additional obligations from the introduction.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md: third expected outcome; call.yaml: EO3",
+      "problem": "EO3 combines administrative simplification and participation in decision-making under an undefined promise of empowerment. These are independently satisfiable outcomes, and the text provides no concrete meaning for empowerment that a reviewer could check in the proposed research.",
+      "fix": "Split administrative simplification and participation into separate outcomes. Define each through an observable proposed result, such as reduced procedural burden and a specified mechanism for users to influence service decisions.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md: first expected outcome and first scope item; call.yaml: EO1 and SC1",
+      "problem": "EO1's improvement in understanding is too open-ended and substantially repeats SC1's investigation of the same barriers and access effects. It does not identify a distinct research output against which the proposed contribution can be assessed.",
+      "fix": "Define EO1 as a concrete expected knowledge output, such as a comparative account of mechanisms linking barriers to specified access outcomes. Retain SC1 as the requirement to formulate and test hypotheses producing that output.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 4",
+      "where": "call.md: final mandatory element; call.yaml: ME10",
+      "problem": "ME10 prohibits basing feasibility on established collaborations or access authorizations. For participatory research involving older people and local services, those arrangements can provide legitimate evidence of recruitment and fieldwork feasibility. The blanket prohibition discourages stronger access arrangements, while 'basar la viabilidad' leaves the boundary of compliance unclear.",
+      "fix": "Require a concrete access and recruitment strategy that distinguishes secured arrangements from planned ones, identifies dependencies, and provides alternatives if access fails. Allow established collaborations and authorizations to support feasibility.",
+      "part": "topic"
+    }
+  ]
+}

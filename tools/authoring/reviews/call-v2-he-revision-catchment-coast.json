@@ -1,0 +1,73 @@
+{
+  "kind": "call",
+  "id": "v2-he-revision-catchment-coast",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml scope SC6 and call.md Scope, last bullet ('Develop dissemination, exploitation and uptake pathways with resource estimates for public-manager use, identifying staffing, data-access, computing and maintenance risks and measures to address them')",
+      "problem": "SC6 packs four separate demands into one item: a dissemination and exploitation plan, resource estimates, a risk register and mitigation measures. Most of it duplicates other requirements. A dissemination and exploitation plan is already required by template section 2.2. Critical risks with mitigation measures are already required by section 3.1. 'Data-access risks and measures' repeats ME4. 'Resource estimates … maintenance' repeats EO4 ('resource needs for their adoption and maintenance'). Any proposal that follows the template and addresses ME4 satisfies most of SC6. The item therefore does not discriminate between proposals and counts the same content twice.",
+      "fix": "Replace SC6 in both files with a single requirement that nothing else covers, e.g. 'Estimate the staff time, computing and maintenance effort that participating public managers need to operate the forecasting and decision-support workflows after the project ends, and identify which of these needs are not yet covered by their current resources.' Drop 'dissemination, exploitation', 'data-access' and 'risks and measures to address them'."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml mandatory_elements ME4 and call.md Specific conditions, fourth bullet",
+      "problem": "ME4 overlaps SC6 on two points. Its 'arrangements for access to monitoring and operational data' and 'contingencies' repeat SC6's 'data-access … risks and measures'. Its 'interruptions to participating managers' capacity' repeats SC6's 'staffing … risks'. The phrase 'interruptions to … capacity' is also too vague to check: it does not say whether it means staff, budget, IT systems or legal mandate. As written, ME4 bundles data governance with partner-continuity risk.",
+      "fix": "Restrict ME4 in both files to data access, e.g. 'Proposals must state, for each monitoring and operational data stream used, which participant or third party provides and grants access to it, the status of the corresponding access agreement, and the fallback used if the agreement is delayed or the observations are unavailable.' Move staffing continuity to the rewritten SC6, or leave it to the critical-risk table in section 3.1."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml ME3 versus SC5 (call.md Specific conditions, third bullet, and Scope, fifth bullet)",
+      "problem": "ME3 requires the proposal to 'investigate underserved users' circumstances … and their interaction with socioeconomic and accessibility factors'. SC5 already requires assessing exposure, warning accessibility and 'practical barriers to acting on advice' for underserved users. A proposal that meets SC5 meets almost all of ME3. Only two parts of ME3 are new: SSH expertise and the sex and gender dimension. The same analysis is therefore scored twice, and EO3 adds a third time.",
+      "fix": "Limit ME3 in both files to what SC5 does not cover, e.g. 'Proposals must integrate social sciences and humanities expertise, with defined tasks and effort in the work plan, and must analyse relevant sex and gender differences in exposure to contaminated water and in responses to warnings.' Keep SC5 as the item on underserved users' barriers and on the distribution of benefits and burdens."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml exclusions EX2 and call.md out-of-scope, second bullet ('Construction of full-scale drainage or treatment infrastructure, or routine commercial rollout of forecasting services')",
+      "problem": "One exclusion covers two unrelated activities: building physical infrastructure and commercially operating a service. A proposal can breach one and not the other, so a single EX2 judgement cannot be made cleanly.",
+      "fix": "Split the item in both files: EX2 'Construction of full-scale drainage or treatment infrastructure.' and EX3 'Routine commercial rollout of forecasting services.'"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.yaml EX1 and call.md out-of-scope, first bullet",
+      "problem": "'does not address contaminant transport from stormwater pathways and its implications for public water-management decisions' is ambiguous. It can be read as excluding only work that misses both elements, or as excluding work that misses either. A proposal that forecasts stormwater-borne contamination but does not link it to decisions could be judged either way.",
+      "fix": "Rewrite in both files: 'Marine pollution forecasting that does not represent contaminant transport from stormwater pathways, or that is not linked to public water-management decisions.'"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.yaml SC2 and call.md Scope, second bullet ('assess these through exercises in relevant environments')",
+      "problem": "'exercises in relevant environments' is vague: almost any desk exercise could be presented as satisfying it. The item also joins two demands, defining the thresholds and testing them, without saying who takes part in the test or where it happens.",
+      "fix": "Replace the final clause in both files with 'and test them in tabletop or live exercises with the participating managers at each study site.'"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.yaml SC3 and call.md Scope, third bullet",
+      "problem": "A semicolon joins two separate requirements: uncertainty quantification and propagation, and forecast verification against observed events and current practice. A proposal can satisfy one and not the other, which makes a single judgement awkward.",
+      "fix": "Phrase SC3 as one requirement in both files, e.g. 'Produce probabilistic forecasts that propagate observation, forcing, parameter and model uncertainties, and verify their calibration and lead time against observed events and against the decisions taken under existing management practice.'"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md topic table and fictional-call notice",
+      "problem": "The call gives no opening date, deadline or expected start date. A real Horizon Europe topic page states them, and the benchmark rules require call deadlines to fall after 1 October 2026. Without them the timing of the work plan (project start, the seasons used for exercises and observed-event verification) has no anchor, and the notice's list of invented elements is incomplete.",
+      "fix": "Add a 'Deadline' row with an invented date after 1 October 2026 (e.g. 16 February 2027, 17:00 Brussels time) and add 'dates' to the list of invented elements in the notice."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 6",
+      "where": "call.md heading and topic table, identifier 'PB2-HE-REV-WATER-02'",
+      "problem": "The 'REV' segment of the applicant-facing topic code matches the internal 'revision' task family (id 'v2-he-revision-catchment-coast'). It tells the reader something about the benchmark task type rather than reading as a funder identifier.",
+      "fix": "Use a neutral code without the task-family marker, e.g. 'PB2-HE-WATER-02', in call.md and in call.yaml topic_code."
+    }
+  ]
+}

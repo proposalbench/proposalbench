@@ -1,0 +1,71 @@
+{
+  "kind": "dossier",
+  "id": "v2-nursing-transition-a1-team",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 9",
+      "where": "data/public/dossiers/v2-nursing-transition-a1-team/summary_statement.md, ADDITIONAL REVIEW CRITERIA: \"Inclusion of Women, Minorities, and Individuals Across the Lifespan: Acceptable.\"",
+      "problem": "The June 2026 summary statement explicitly uses the simplified framework but places inclusion in the old Additional Review Criteria block. Inclusion now belongs to scored Factor 2. This reproduces the official-review misclassification found in both NIH calls.",
+      "fix": "Move the existing inclusion assessment, unchanged in substance, under Factor 2 in the SRO summary or the applicable critique. Keep human-subject protections under Additional Review Criteria and budget under Additional Review Considerations.",
+      "evidence": [
+        "https://grants.nih.gov/policy-and-compliance/policy-topics/peer-review/simplifying-review/framework",
+        "data/public/dossiers/v2-nursing-transition-a1-team/summary_statement.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/v2-nursing-transition-a1-team/summary_statement.md, Review Group: \"NRCS, Nursing and Related Clinical Sciences Study Section\"; Meeting Date: \"06/11/2026\".",
+      "problem": "NRCS was reorganised in the CSR changes beginning October 2020. Using its old name for a 2026 standing study section is an anachronism, not an identified fictional-panel adaptation.",
+      "fix": "Replace the Review Group cell with 'ICSC, Interdisciplinary Clinical Care in Specialty Care Settings Study Section'. Its official remit includes transitions between institutional and home-based care. Retain the fictional meeting date and application; make no assertion that this was a real ICSC meeting.",
+      "evidence": [
+        "https://www.ninr.nih.gov/newsandevents/news/nih-center-scientific-review-study-section-changes-beginning-october-2020",
+        "https://public.csr.nih.gov/sites/default/files/2020-05/ENQUIRE_2019_Healthcare_descriptions.pdf",
+        "data/public/dossiers/v2-nursing-transition-a1-team/summary_statement.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 9",
+      "where": "data/public/dossiers/v2-nursing-transition-a1-team/dossier.yaml, reviewer_criticisms contains R1–R4 only; summary_statement.md: \"Aim 3 is framed as identifying a mechanism, which an observational design with these measurement intervals cannot establish\" and \"Biostatistics support is 3% core effort with no named statistician.\"",
+      "problem": "Two substantive review findings are absent from the hidden RESUB key. Causal interpretation is in the discussion summary and multiple critiques; missing named statistical expertise is a Factor 3 gap. The nursing-close trap partially compensates for the causal omission, but nursing-stretch has no such trap, producing unequal assessment of the same underlying resubmission.",
+      "fix": "Append R5: 'Aim 3 claims to identify a mechanism although the observational design and exposure/outcome timing do not establish temporal or causal identification; it needs an appropriately bounded interpretation or a justified revised design.' Append R6: 'The A0 relies on 3% shared-core biostatistics effort without a named statistician or adequately specified statistical responsibility.' Existing team.md and feasibility_report.md already document Lindqvist's appointment and the limited scope of his plan, so no completed analysis should be invented.",
+      "evidence": [
+        "data/public/dossiers/v2-nursing-transition-a1-team/summary_statement.md",
+        "data/public/dossiers/v2-nursing-transition-a1-team/dossier.yaml",
+        "data/public/dossiers/v2-nursing-transition-a1-team/team.md",
+        "data/public/dossiers/v2-nursing-transition-a1-team/feasibility_report.md",
+        "tools/authoring/design_v2.md:85",
+        "docs/scoring_spec.md:87"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 8",
+      "where": "data/public/dossiers/v2-nursing-transition-a1-team/feasibility_report.md, Limitations: \"Consent in both phases covered devices, diaries and visits only\"; resources.md: consent also covers \"review of the CRH discharge summary to record the discharge medication list\".",
+      "problem": "The unrestricted 'only' excludes record review that resources.md expressly permits for Phase 2. This is an undocumented cross-file inconsistency in the very consent scope used by the T14 task. The pharmacy prohibition itself is consistent and should be retained.",
+      "fix": "Replace the report bullet with: 'Neither phase obtained or linked pharmacy refill data. Phase 2 consent also covered review of the CRH discharge summary to record the discharge medication list, but not pharmacy-record access, linkage or recontact for that purpose (see resources.md).' Update the copied report quotation in pub2-nih-stress-stretch/task.yaml to match; do not weaken its pharmacy restriction.",
+      "evidence": [
+        "data/public/dossiers/v2-nursing-transition-a1-team/feasibility_report.md",
+        "data/public/dossiers/v2-nursing-transition-a1-team/resources.md",
+        "data/public/tasks/pub2-nih-stress-stretch/task.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all seven visible files and the hidden key, including A0, summary statement, both feasibility phases, dated resources and team access statuses; reviewed the earlier automated reports for this unit.",
+    "Recomputed Phase 1 completion 26/31=83.9%, EMA 660/868=76.0%, PVT 171/217=78.8%, diary 189/217=87.1%; Phase 2 383/420=91.2% and 330/383=86.2%. Counts, visit opportunities, dropout totals and the 31-person/12-person separate cohorts are coherent.",
+    "Verified USD 25,000 and USD 18,500 expenditure subtotals; the A0 direct-cost years total USD 275,000 and neither exceeds USD 200,000. Enrollment/last-visit, training/career, approvals and September status dates are ordered.",
+    "Every non-null fact.value occurs in its declared source after whitespace/case normalization. Own-publication metadata agree across the six entries and visible bibliography, with 10.99999/pb. DOIs and fictional journal names. No intentional gaps or inconsistencies are registered.",
+    "Name searches covered full investigator/clinic-director names, universities, clinics, foundation, lab names and all six journals; no supported known-researcher/institution collision was found for those identities. Search queries and limitations are recorded in .codex-handoff/deep_review_c_sources/search_audit.json.",
+    "Standard PSS-10 uses past-month recall (https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/html/pss.html); the dossier correctly identifies the past-week adaptation and its unvalidated status.",
+    "Brief PVT and electronic-monitoring methods are plausible: https://pmc.ncbi.nlm.nih.gov/articles/PMC3197786/ and https://pubmed.ncbi.nlm.nih.gov/28153823/. Device opening is explicitly distinguished from ingestion, unclustered uncertainty is disclosed, and a 10-person feasibility run is not presented as validation.",
+    "Lakevale pending on 30 September versus the brief's alleged 24 September signature is decidable. Ridgeline's up-to-60/18-month letter and 15 working caps support a feasible scaled design. The missing-data plan is written/simulation-tested, not applied to participant data."
+  ]
+}

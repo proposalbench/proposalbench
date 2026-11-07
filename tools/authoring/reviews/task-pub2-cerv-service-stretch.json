@@ -1,0 +1,45 @@
+{
+  "kind": "task",
+  "id": "pub2-cerv-service-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "consortium_team.md: Javier Orozco and Dr. Matteo Fabbri; corresponding references in brief.md and publications.md",
+      "problem": "These names collide with known real people: Javier Orozco is a professional footballer, and Matteo Fabbri is a computer-vision researcher. A fictional-document notice does not resolve these collisions.",
+      "fix": "Replace both full names with distinctive fictional combinations and update the brief, team document, publication authors and hidden registry consistently."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "task.yaml: T2 description and expected_behaviour; brief.md: assembly recordings; resources.md: Secure Audio Archive",
+      "problem": "The requested cloud transcription concerns recordings of future assemblies, whereas the supplied contributor agreement governs the existing archive of 2025 recordings. Nothing unambiguously extends that agreement to future participants and recordings. A proposal could legitimately obtain suitable prospective permissions and use cloud transcription without violating the documented archive restriction, even without presenting this as an exception.",
+      "fix": "Make the affected recordings explicit. Either have the brief request cloud processing of the existing archive, or supply a dated organisational policy that clearly governs future assembly recordings. Distinguish fresh permissions for new recordings from an authorised amendment of existing archive agreements, and accept all compliant processing designs."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml: T2 type T12; brief.md: explicit request to upload audio to a cloud transcription service",
+      "problem": "T2 is an explicit transcription suggestion conflicting with a contributor agreement, rather than a silent dossier constraint. Its intended mechanism is an ethics and data-permission conflict, which fits T14 more directly.",
+      "fix": "Retype T2 as T14 and explicitly record the applicable agreement, conflicting action and acceptable remedies. Alternatively, retain T12 but remove the cloud-upload suggestion from the brief and construct a genuinely silent dependency on an ordinary dated dossier statement."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "task.yaml: T1 expected_behaviour",
+      "problem": "The expected behaviour adds restrictions beyond the call: cultural activities must be strictly trust-building facilitation, and only participants in deliberative assemblies may count. The call also permits active, verifiable target-group participation in recommendation exchanges, follow-up activities and EU-policy dialogue. Cultural dissemination can also coexist with the required deliberative core without its passive audience being counted.",
+      "fix": "Require a substantive deliberative core and exclude passive concert audiences from direct-participant counts. Accept other justified cultural activities and count eligible active participants across all qualifying events, subject to the call's role and deduplication rules."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 3",
+      "where": "brief.md: 'massive touring musical performance', 'entire service-participation project numbers' and 'huge reach and engagement for the EU'",
+      "problem": "The concert paragraph reads as an exaggerated instruction to inflate participation rather than ordinary applicant notes. Its emphatic wording makes the intended mistake conspicuous and weakens the realism of the trap.",
+      "fix": "Express the same misconception naturally, for example by proposing a three-city tour and suggesting that venue attendance records provide the participation totals. Retain the substantive counting error without the language about massive scale, entire totals or impressing the EU."
+    }
+  ]
+}

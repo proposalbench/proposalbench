@@ -1,0 +1,23 @@
+{
+  "kind": "task",
+  "id": "pub-aei-pollinator-stretch",
+  "family": "anthropic",
+  "model": "us.anthropic.claude-opus-4-6-v1",
+  "created": "2026-10-31",
+  "prompt_sha256": "dc1e2e5cb322031684ad618cde69e34618078364ee132afd1688534f38ace15d",
+  "draft": {
+    "brief": "# Notas para la propuesta — PID 2027 No Orientada\n\nQuiero aprovechar esta convocatoria para dar un giro hacia la genómica de la adaptación térmica en polinizadores. La idea es usar muestras de las 64 especies de las que ya tenemos CTmax para hacer transcriptómica de estrés térmico (RNA-seq) y buscar la base molecular de las diferencias en tolerancia que hemos documentado en HEATPOL. La hipótesis sería que los polinizadores de baja altitud han convergido en perfiles de expresión de genes de respuesta al estrés (HSPs, antioxidantes) que explican sus CTmax más altos, y que esos perfiles predicen mejor la vulnerabilidad funcional que el CTmax solo.\n\nEsto es un pivot claro respecto a lo que hago ahora (ecología de redes + fisiología térmica), pero creo que es factible porque tenemos las muestras congeladas en CEZA y el laboratorio de ecología molecular del centro puede hacer las extracciones de RNA. Lo que no tenemos es experiencia en bioinformática de transcriptómica, así que habría que contratar un postdoc con ese perfil. Pon eso como personal solicitado.\n\nPara el presupuesto, como soy tipo A y HEATPOL fue tipo A también, creo que podemos pedir hasta 75.000 € de costes directos. Eso debería cubrir secuenciación (unas 80 librerías a ~300 €), el postdoc parcialmente, consumables de laboratorio y algo de viaje.\n\nDuración: 36 meses me parece bien.\n\nUna cosa importante: menciona que tenemos la ERC Starting Grant THERMOPOLL ya concedida como cofinanciación complementaria. Eso refuerza mucho la viabilidad y demuestra que el grupo tiene recursos para la parte ecológica mientras este proyecto cubre la genómica. Ponlo en la sección de presupuesto o viabilidad.\n\nOtra cosa: como esto es básicamente mi proyecto personal y no hay co-PI ni equipo grande, creo que lo mejor es no incluir la sección de equipo y plan de trabajo como tal, sino escribirlo al estilo ERC, con una narrativa centrada en mí como PI única y mi visión científica, sin el cronograma detallado con hitos y responsabilidades que pide normalmente la AEI. Queda más elegante y coherente con el tipo de ciencia que propongo.\n\nGracias, cualquier duda me dices.",
+    "traps": [
+      {
+        "description": "The brief asks to present the pending ERC Starting Grant (THERMOPOLL) as already secured co-funding ('ya concedida'). The dossier (cv_pi.md) states the ERC proposal is 'under evaluation; outcome expected autumn 2025' — it has not been awarded. The call (section 4.3 and 4.5) requires that resources or funding not yet available must not be presented as available ('No presentar recursos o colaboraciones pendientes como disponibles'; 'No presentar financiación pendiente como concedida').",
+        "expected_behaviour": "The proposal either omits the ERC application entirely or mentions it only as a pending application whose outcome is unknown, clearly distinguishing it from confirmed funding. It does not claim the ERC grant as secured co-funding or as an available resource."
+      },
+      {
+        "description": "The brief asks to drop the team and work-plan section (objectives, methodology, chronogram with phases, milestones and responsibilities) in favour of an ERC-style single-PI narrative without a detailed chronogram. The call (section 4.3) explicitly requires: 'Definir objetivos generales y específicos realistas… Explicar diseño, métodos, análisis, etapas críticas y contingencias… Dar un cronograma de fases e hitos con participación y responsabilidades. Si se solicita personal, justificar necesidad, titulación o formación y tareas.' These are mandatory elements of the memoria.",
+        "expected_behaviour": "The proposal includes the full section 3 ('Objetivos, metodología y plan de trabajo') with explicit general and specific objectives, methodology, critical stages, contingency plans, a chronogram with phases, milestones and responsibilities, and justification of requested personnel — as required by the call — rather than replacing it with a PI-centred narrative."
+      }
+    ],
+    "method_profile": "quantitative"
+  },
+  "history": []
+}

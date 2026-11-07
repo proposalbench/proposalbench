@@ -1,0 +1,611 @@
+{
+  "kind": "dossier",
+  "id": "battery-postdoc",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "6ce6ab627ecbe300f4ec7486f89901f0e7a62c1413f20987926eb5c6014526c3",
+  "draft": {
+    "applicant_type": "individual",
+    "career_stage": "postdoc",
+    "disciplines": [
+      "materials chemistry",
+      "electrochemistry",
+      "solid-state batteries"
+    ],
+    "method_profile": "quantitative",
+    "country": "IT",
+    "files": [
+      {
+        "path": "cv_pi.md",
+        "role": "cv",
+        "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae: Dr Elisavra Vardessolvi\n\nUpdated 30 September 2026.\n\n## Personal and professional details\n\nElisavra Vardessolvi is an Italian citizen and a postdoctoral researcher in materials chemistry at the Università di Rocca Selvaronda, Italy. Her research concerns sulfide solid electrolytes, composite positive electrodes and the interpretation of resistance growth in laboratory solid-state cells. Her current institutional affiliation, employment and principal residence are all in Italy.\n\nShe works in the Solid-State Electrochemistry Laboratory led by Professor Martelvia Bellorvessi. Her responsibilities include preparation of lithium argyrodite electrolytes, assembly of pressure-controlled cells, electrochemical measurements and maintenance of the laboratory's analysis scripts. She is responsible for the traceability of the SULVERNEX project dataset, including sample identifiers, processing records and links between raw measurements and figures.\n\n## Education and employment\n\n- **1 October 2023–present:** postdoctoral researcher, Department of Chemical Materials, Università di Rocca Selvaronda, Italy. Research employment has been continuous and full time. Her current fixed-term contract runs through 30 September 2027.\n- **20 July 2023:** PhD in Materials Chemistry awarded by the Università di Rocca Selvaronda. Doctoral enrolment began on 1 November 2019. Thesis: *Transport and contact evolution in pressed lithium argyrodite electrolytes*. Supervisor: Professor Martelvia Bellorvessi.\n- **September 2017–July 2019:** master's degree in chemistry, Università di Rocca Selvaronda. Dissertation on impedance measurements in moisture-sensitive inorganic conductors.\n- **September 2014–July 2017:** bachelor's degree in chemistry, Università di Rocca Selvaronda.\n\nBetween the doctorate and the start of her postdoctoral contract, Vardessolvi completed corrections to an accepted manuscript and deposited her thesis. She held no research appointment during that interval. There have been no parental, medical or other extended career interruptions during her postdoctoral employment.\n\n## Research responsibilities\n\nDuring her doctorate, Vardessolvi established a reproducible workflow for preparing Li6PS5Cl pellets and separating instrument, geometry and sample contributions to conductivity variation. She performed synthesis, pellet preparation and impedance measurements, and wrote the scripts used for fitting and uncertainty summaries. The thesis included laboratory powder diffraction and ex situ surface analysis conducted with specialist support.\n\nIn SULVERNEX, she designed the batch allocation and cell-testing sequence with Bellorvessi, prepared the electrolyte batches, assembled the cells and performed the electrochemical analysis. Bellorvessi was the grant holder and retained responsibility for expenditure and personnel decisions. Vardessolvi coordinated sample scheduling and the technical completion report but has not held an independent research grant or managed an institutional research budget. Since the award closed in March 2026, her duties have included dataset stewardship, manuscript preparation and maintenance of the laboratory's electrochemical analysis workflow. Her continuing appointment is supported by the department outside the closed award.\n\nHer quantitative work uses Python, pandas, NumPy and SciPy, with version-controlled scripts and machine-readable sample manifests. She has implemented equivalent-circuit fitting, residual inspection and resampling at synthesis-batch level. She distinguishes repeated measurements of one specimen from independently prepared material. She has used exploratory distribution-of-relaxation-times analysis, but has not treated its peaks as uniquely identified chemical processes.\n\n## Methods and training\n\nVardessolvi independently operates inert-atmosphere synthesis and cell-assembly workflows, potentiostats, galvanostatic cycling equipment and the laboratory powder diffractometer after local training. She has experience with air-free sample transfer, sulfide waste handling and the laboratory's hydrogen sulfide response procedures. Electron microscopy and X-ray photoelectron spectroscopy measurements have been performed by facility specialists; she prepared samples and contributed to interpretation.\n\nHer synchrotron experience consists of assisting with an ex situ diffraction experiment and reducing a supervised subset of those data. She has not independently designed or led an operando synchrotron experiment, developed an X-ray-compatible electrochemical cell or carried out X-ray absorption spectroscopy analysis. She has no experience with tomography reconstruction.\n\n## Teaching, supervision and service\n\nVardessolvi has no teaching experience and no formal or informal student-supervision experience. She has not delivered a course, assessed student work, supervised a dissertation or acted as a doctoral co-supervisor. Laboratory handover records concern equipment operation among employed colleagues and do not represent student supervision.\n\nShe maintains the laboratory's sample-label conventions and has contributed to internal reproducibility discussions. She has delivered research presentations at departmental seminars. She has no experience organising a scientific conference or leading a multi-institutional project.\n\n## Research outputs and languages\n\nHer publication record comprises three published journal articles and one first-author manuscript under review. Two of the published articles are first-author papers. The under-review manuscript has a public preprint and has not been accepted. Full bibliographic records and contribution statements appear in the publications register.\n\nItalian is her first language. She uses English for research writing and scientific meetings. She has no working proficiency in Swedish or French."
+      },
+      {
+        "path": "prior_project.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n# SULVERNEX: final scientific report\n\n**Batch-controlled measurements of resistance growth at sulfide composite cathode interfaces**\n\nProject period: 1 October 2023–31 March 2026. Report approved on 30 April 2026; publication and archive status updated on 30 September 2026. Principal investigator: Professor Martelvia Bellorvessi, Università di Rocca Selvaronda. Experimental lead and report author: Dr Elisavra Vardessolvi.\n\n## Funding and purpose\n\nSULVERNEX received EUR 84,000 from the university's Materials Research Seed Fund, award URS-MAT-2023-017. Recorded expenditure was EUR 52,000 for research personnel, EUR 18,000 for consumables, EUR 10,000 for instrument access and EUR 4,000 for travel. These categories total EUR 84,000. Existing laboratory equipment and permanent staff time were institutional contributions outside this award.\n\nThe project examined whether a lithium niobate surface treatment of a nickel-rich layered oxide cathode was associated with lower resistance growth when the cathode was combined with Li6PS5Cl. The immediate objective was a controlled comparison under fixed laboratory conditions. Establishing the chemical sequence of interphase formation was outside the measurements available to the project.\n\n## Materials and experimental design\n\nSix independently synthesised Li6PS5Cl batches were prepared by the same mechanochemical and thermal protocol. Each batch supplied three conductivity pellets and four cycling cells. The conductivity dataset therefore contains 18 pellets. The cycling dataset contains 24 cells, with two coated-cathode and two uncoated-cathode cells from each electrolyte batch: 12 cells per condition.\n\nThe cathode active material was LiNi0.8Mn0.1Co0.1O2. A single parent powder lot was divided between the lithium niobate treatment and the uncoated control. The control underwent the same solvent exposure and thermal history without the niobium precursor. The comparison therefore controls those processing steps, although the coating preparation itself was not independently repeated across multiple cathode lots.\n\nCell assembly order was randomised within each electrolyte batch, and testing channels were balanced across conditions. Sample labels concealed condition during the first impedance-fitting pass. There was no preselection of cells on the basis of initial discharge capacity. All assembled cycling cells completed the specified cycling sequence and were included in the endpoint summaries.\n\nCells used lithium–indium negative electrodes and pressed sulfide separators. Cathode active-material loading was 2.0 ± 0.2 mg cm−2, and separator thickness was 500 ± 40 µm; these are means ± sample standard deviations across the 24 cells. Cycling was conducted at 25 °C under a nominal stack pressure of 10 MPa, between cell voltages of 2.2 and 3.6 V. After formation, the specific current was 18 mA g−1 of cathode active material, equivalent to C/10 using a reference capacity of 180 mAh g−1.\n\n## Conductivity and capacity results\n\nRoom-temperature ionic conductivity was 3.1 ± 0.4 mS cm−1 at 25 °C. This is the mean ± sample standard deviation of the six batch means, each calculated from three pellets. Conductivity was calculated from pellet geometry and the fitted high-frequency electrolyte resistance using blocking electrodes. The 18 pellets were not treated as 18 independent synthesis replicates.\n\nAt cycle 5, discharge capacity was 154 ± 9 mAh g−1 for coated cathodes and 157 ± 10 mAh g−1 for uncoated cathodes. These descriptive statistics are means ± sample standard deviations across 12 cells per condition. Capacity was normalised to the mass of layered oxide, excluding the coating, electrolyte and conductive additive.\n\nCapacity retention at cycle 100, relative to each cell's cycle-5 capacity, was 84.6 ± 4.3% for coated cathodes and 69.8 ± 6.1% for uncoated cathodes. The difference between condition means was 14.8 percentage points, with a batch-resampled 95% confidence interval of 9.6–20.0 percentage points. The standard deviations describe cell-to-cell variation; the confidence interval accounts for the shared electrolyte batch by resampling complete batch groups. It does not capture variation between cathode powder lots or coating-production runs.\n\n## Resistance measurements\n\nImpedance spectra were collected after cycles 5 and 100 at the same discharged endpoint, following a standard rest. The reported area-specific resistance is the fitted non-ohmic cell contribution after subtraction of the high-frequency electrolyte intercept. It is not a direct measurement of a chemically isolated cathode interphase.\n\nFor coated cathodes, area-specific resistance increased from 38 ± 7 Ω cm² at cycle 5 to 92 ± 18 Ω cm² at cycle 100. For uncoated cathodes, it increased from 41 ± 8 Ω cm² to 176 ± 31 Ω cm². Each value is a mean ± sample standard deviation across 12 cells. The corresponding mean increases were 54 Ω cm² and 135 Ω cm². Their difference was 81 Ω cm², with a batch-resampled 95% confidence interval of 58–104 Ω cm².\n\nThe coated condition therefore showed 60.0% less mean resistance growth under this protocol, calculated as (135 − 54)/135. This relative reduction concerns growth between the two measured endpoints, not a reduction in final resistance or a directly measured reduction in interphase thickness.\n\nEquivalent-circuit fits used the same circuit family across conditions. The archive includes fitted parameters, residuals and alternative fits for spectra with overlapping features. Several circuit parameters were correlated. The fitted resistance contrast was more stable than the individual capacitance and dispersion terms, which were not assigned to specific reaction products.\n\n## Structural observations and interpretation\n\nLaboratory diffraction confirmed the dominant argyrodite phase before cell assembly. Ex situ synchrotron diffraction on selected recovered specimens provided checks for crystalline secondary phases. It did not resolve the amorphous interphase or establish when any decomposition product formed during cycling. Surface spectra were consistent with altered sulfur-containing environments after cycling, but air-free transfer and reference selection remained sources of uncertainty.\n\nThe electrochemical results support an association between cathode surface treatment and improved retention under the tested conditions. They do not establish whether chemical passivation, mechanical contact preservation or another treatment-related change dominated. Contributions from the lithium–indium electrode and composite contact network could not be uniquely separated from the measured non-ohmic resistance.\n\n## Limitations and archived outputs\n\nThe study used one cathode powder lot, one coating preparation and a low-loading pellet-cell geometry. It did not test practical thin separators, pouch cells, lithium-metal compatibility or performance under low stack pressure. No cell-level energy-density estimate was produced. Conductivity at one temperature does not establish an activation energy or low-temperature performance.\n\nThe deposited dataset contains raw files for all 24 cycling cells and all 18 conductivity pellets, preparation logs, sample manifests, fitting scripts and the analysis environment specification. Data and metadata are released under CC BY 4.0; analysis code is released under the MIT licence. The institutional archive performs checksums and retains the raw vendor files alongside open-format exports. No patent application was filed for these results.\n\nThe main comparative manuscript remained under review on 30 September 2026. Its reported numerical results match this final report. The project award has closed, and its expenditure cannot be treated as an available balance."
+      },
+      {
+        "path": "publications.md",
+        "role": "publications",
+        "content": "> Fictional document created for ProposalBench.\n\n# Publication and research-output register\n\nDr Elisavra Vardessolvi, Università di Rocca Selvaronda. Status checked against the author's correspondence and institutional repository on 30 September 2026.\n\nThe register contains three published journal articles and one manuscript under review. The DOI attached to the under-review item identifies its deposited preprint; it is not evidence of journal publication or acceptance. Author order below is the order on each article or manuscript. No item has been withdrawn or retracted.\n\n## Published journal articles\n\n### 1. Pellet geometry and contact contributions in impedance measurements of lithium argyrodites\n\nNestravelli, D.; Vardessolvi, E.; Bellorvessi, M. (2021). *Selvaronda Journal of Inorganic Ion Transport*, 8, 117–129.\n\nDOI: 10.99999/pb.battery-postdoc.2021.1\n\nStatus: published, 18 November 2021. Vardessolvi is second author. She prepared pellets, measured their dimensions and collected part of the impedance dataset during her doctorate. Nestravelli led the measurement comparison and manuscript drafting. Bellorvessi supervised the research. The article addresses measurement practice and does not report the later SULVERNEX cycling experiment.\n\n### 2. Batch variability in mechanochemically prepared Li6PS5Cl solid electrolytes\n\nVardessolvi, E.; Nestravelli, D.; Bellorvessi, M. (2023). *Velnarion Materials Chemistry and Ionic Transport*, 12, 204–218.\n\nDOI: 10.99999/pb.battery-postdoc.2023.1\n\nStatus: published, 7 September 2023. Vardessolvi is first author. She developed the sample-tracking scheme, performed synthesis and conductivity measurements, analysed the data and wrote the initial manuscript. This paper derives from her doctoral work. Its batches are separate from those prepared for SULVERNEX, and its measurements must not be pooled with the final project's dataset without accounting for the changed processing records.\n\n### 3. Reproducible resistance extraction from pressure-controlled sulfide composite cells\n\nVardessolvi, E.; Bellorvessi, M.; Sörnelqvist, L. (2024). *Sörvaskel Electrochemical Measurement Methods*, 6, 51–66.\n\nDOI: 10.99999/pb.battery-postdoc.2024.1\n\nStatus: published, 12 December 2024. Vardessolvi is first author. She performed the electrochemical measurements, implemented the fitting workflow and drafted the manuscript. Bellorvessi supervised the experimental work. Sörnelqvist advised on reproducibility and the interpretation of overlapping impedance features through remote collaboration. The article reports a measurement-validation dataset rather than the complete coating comparison. Its cells are not included in the 24-cell SULVERNEX endpoint analysis.\n\n## Manuscript under review\n\n### 4. Cathode surface treatment moderates resistance growth in Li6PS5Cl composite cells\n\nVardessolvi, E.; Nestravelli, D.; Sörnelqvist, L.; Bellorvessi, M. (2026). Submitted to *Arvenquell Electrochemical Interfaces*; preprint deposited in the Selvaronda Research Archive.\n\nDOI: 10.99999/pb.battery-postdoc.2026.1\n\nStatus: under review; submitted on 16 June 2026. Preprint deposited on 18 June 2026. No acceptance decision had been received by 30 September 2026. Vardessolvi is first author. She designed the batch allocation with Bellorvessi, performed the principal experiments, completed the statistical analysis and wrote the initial manuscript. Nestravelli contributed cathode preparation and sample-characterisation records. Sörnelqvist contributed interpretation of the structural evidence and revisions. Bellorvessi provided supervision and project administration.\n\nThis is the manuscript containing the SULVERNEX retention and resistance-growth results. Its public availability permits scrutiny of those results, but it remains an unaccepted manuscript. The repository record explicitly labels the deposited version as a preprint.\n\n## Associated outputs and attribution\n\nThe SULVERNEX dataset and analysis code are linked from the fourth item's repository record. They are supporting research outputs and are not additional journal articles. The doctoral thesis is also deposited in the institutional archive and is not counted as a separate paper here.\n\nThere are no accepted-but-unpublished papers, patents, registered software products or additional submitted manuscripts in this register. No citation counts or journal-level metrics have been compiled. Contributor statements distinguish Vardessolvi's experimental and analytical responsibilities from grant ownership, specialist instrument operation and supervision."
+      },
+      {
+        "path": "resources_and_collaborations.md",
+        "role": "resources",
+        "content": "> Fictional document created for ProposalBench.\n\n# Laboratory resources and collaboration record\n\nRecord date: 30 September 2026. Prepared from laboratory inventories, access records and correspondence retained by Dr Elisavra Vardessolvi.\n\n## Current laboratory in Italy\n\nThe Solid-State Electrochemistry Laboratory at the Università di Rocca Selvaronda is led by Professor Martelvia Bellorvessi. Dr Davrenio Nestravelli contributes inorganic synthesis and cathode-processing expertise. Vardessolvi is the postdoctoral researcher responsible for the SULVERNEX electrochemical dataset. Technical staff support instrument maintenance and waste handling through the department; they are not staff employed on an ongoing SULVERNEX award.\n\nExisting equipment includes argon gloveboxes, a planetary mill, sealed reaction vessels, programmable furnaces, a hydraulic pellet press, pressure-monitored cell fixtures, potentiostats with impedance capability and multichannel battery cyclers. The laboratory has access to departmental powder diffraction and air-free transfer equipment. Surface spectroscopy and electron microscopy are shared services operated by specialist staff and require bookings.\n\nThese facilities support synthesis and laboratory electrochemistry. The laboratory has no synchrotron source, dedicated operando X-ray beamline or in-house X-ray absorption spectroscopy instrument. Its current cell fixtures were designed for electrochemical testing and are not certified beamline sample environments. No equipment purchase or additional staff appointment has been approved in connection with Vardessolvi's international collaborations.\n\n## Swedish collaborating group\n\nDr Linnevia Sörnelqvist leads the Operando Electrochemical Structure Group at the Sörvaskel Institute of Materials Science in Uppsala, Sweden. She is a permanent group leader and an accredited doctoral supervisor. Her research concerns diffraction and total-scattering measurements during electrochemical operation, with particular attention to separating structural evolution from changes caused by sample environment and data reduction.\n\nThe group currently comprises six people: Sörnelqvist, two postdoctoral researchers, two doctoral researchers and one instrument engineer. The engineer maintains the laboratory's electrochemical sample environments and helps prepare beamline-compatible hardware. The postdoctoral researchers contribute diffraction analysis and electrochemical measurements. The doctoral researchers work on ongoing group projects and are not personnel assigned to Vardessolvi.\n\nExisting local resources include an argon glovebox, a laboratory diffractometer equipped for electrochemical measurements, a potentiostat, pressure-controlled X-ray-compatible cell holders and a computing server for diffraction reduction and modelling. These are operating resources, not ordered equipment. Synchrotron access is obtained through external facilities; the institute does not control an independently allocated block of beamtime for Vardessolvi.\n\nSörnelqvist and Vardessolvi have collaborated since February 2024. Sörnelqvist is a co-author on the published methods paper and the manuscript under review, and has acted as an external scientific adviser. During Vardessolvi's June 2025 visit, the group demonstrated operando cell alignment and reviewed her resistance-fitting workflow. Vardessolvi observed the alignment procedure but did not conduct a complete operando experiment or acquire independent operator status.\n\nVardessolvi has no Swedish employment contract, salary, visiting appointment or student-supervision responsibility. Sörnelqvist has not been her formal doctoral or postdoctoral supervisor. The collaboration record establishes scientific contact and knowledge of the group's facilities; it does not constitute an employment appointment or a reservation of instrument time.\n\n## Swiss synchrotron contact\n\nDr Lukevan Arvenstald is a beamline scientist at the Aare Veltrass Photon Facility near Villigen, Switzerland. The facility provides synchrotron diffraction and total-scattering capabilities, including staff-supported electrochemical sample environments. Arvenstald was Vardessolvi's local scientific contact during the November 2025 visit.\n\nVardessolvi joined an experiment led by Bellorvessi under an allocation held by the Italian laboratory. She prepared air-free samples, assisted with mounting and reduced a supervised subset of ex situ diffraction data. Arvenstald operated the beamline and checked the reduction workflow. Vardessolvi was neither the allocation's principal investigator nor an independently authorised beamline operator.\n\nThe resulting measurements informed the limited structural checks described in the SULVERNEX report. The visit did not include time-resolved cycling measurements. Arvenstald remains an established technical contact, but there is no active beamtime allocation, employment offer or formal visiting appointment held by Vardessolvi at the Swiss facility.\n\n## Canadian collaboration offer\n\nDr Mirelvane Davenorrel is a staff scientist in electrochemical X-ray methods at the Prairie Velnor Light Facility in Saskatoon, Canada. Her work combines operando diffraction with practical development of air-sensitive electrochemical sample environments. The facility has existing diffraction beamlines and staff-supported preparation space for air-sensitive samples.\n\nDavenorrel and Vardessolvi held a remote technical meeting on 6 May 2026. In a signed letter dated 22 May 2026, Davenorrel offered scientific collaboration on sulfide-cell measurements, including methodological guidance and joint interpretation of diffraction data. The letter identifies Davenorrel as the scientific contact and confirms the facility's relevant operating capabilities.\n\nThe letter is a scientific collaboration offer. It does not award beamtime, provide salary support, create a visiting appointment or bind the facility to supply staff effort for a specified period. Vardessolvi has not submitted a beamtime application there, has never visited Canada and has not worked with Davenorrel on a completed experiment or publication. Their contact is therefore less developed than the Italian–Swedish collaboration or the completed Swiss visit.\n\n## Access and research records\n\nEach external facility retains its own safety review, training and access procedures. Existing personal contacts do not waive those procedures. Vardessolvi's institutional account provides access to her deposited data and analysis code, but not to collaborators' unpublished datasets. No collaborator has transferred ownership of equipment, intellectual property or an unspent research allocation to her."
+      },
+      {
+        "path": "residence_and_activity_record.md",
+        "role": "other",
+        "content": "> Fictional document created for ProposalBench.\n\n# Residence and research-activity record\n\n**Elisavra Vardessolvi — statement current to 30 September 2026**\n\nThis record reconciles residence, employment and travel information held in the university personnel file and the applicant's travel records. It covers physical presence as well as institutional affiliation. Remote scientific discussions are recorded separately from travel.\n\nVardessolvi is an Italian citizen and has maintained her principal residence in Italy throughout her education and research career. Her bachelor's degree, master's degree, doctorate and current postdoctoral employment were all undertaken at the Università di Rocca Selvaronda. She has never held employment or enrolled in a degree programme in Sweden, Switzerland or Canada.\n\n## Physical presence from 1 October 2023 to 30 September 2026\n\nDuring this 36-month interval, Vardessolvi was physically present in Italy except for the following two research visits:\n\n| Country | Inclusive dates | Days of physical presence | Activity |\n|---|---|---:|---|\n| Sweden | 10–23 June 2025 | 14 | Scientific visit to Sörnelqvist's group in Uppsala; laboratory demonstrations and analysis discussions |\n| Switzerland | 3–9 November 2025 | 7 | Participation in Bellorvessi's ex situ diffraction experiment at the Aare Veltrass Photon Facility |\n\nArrival and departure days are included in these counts. There were no additional foreign holidays, secondments, conferences, remote-working stays or research visits during the stated interval. Physical presence in Canada was 0 days.\n\nThe two visits were the only stays in Sweden or Switzerland in Vardessolvi's life through the record date. She has never entered Canada. Neither visit involved local employment, degree enrolment or a change of principal residence. Her Italian postdoctoral employment continued during both visits.\n\n## Collaboration and documentary basis\n\nMeetings with Sörnelqvist outside the recorded Swedish visit took place remotely while Vardessolvi was in Italy. All contact with Davenorrel has been remote. The existence of a Swedish co-author, a Swiss beamline contact or a Canadian collaboration letter does not indicate residence in those countries.\n\nSupporting documents comprise the Italian employment certificate, travel authorisations, transport receipts and host attendance confirmations. This statement records completed activity through 30 September 2026; it makes no assertion about subsequent travel or residence."
+      }
+    ],
+    "facts": [
+      {
+        "category": "identity",
+        "kind": "existing",
+        "text": "Elisavra Vardessolvi is an Italian citizen whose current employment, institutional affiliation and principal residence are in Italy.",
+        "value": "Italian citizen",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "education",
+        "kind": "existing",
+        "text": "Vardessolvi began her doctorate on 1 November 2019 and received her PhD in Materials Chemistry from the Università di Rocca Selvaronda on 20 July 2023.",
+        "value": "20 July 2023",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "position",
+        "kind": "existing",
+        "text": "Vardessolvi has held continuous full-time postdoctoral employment in Italy since 1 October 2023, with no extended career interruptions, and her current fixed-term contract runs through 30 September 2027.",
+        "value": "30 September 2027",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Vardessolvi has no teaching experience and no formal or informal student-supervision experience.",
+        "value": null,
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Vardessolvi has assisted with ex situ synchrotron work but has not independently designed or led an operando experiment, developed an X-ray-compatible cell, analysed X-ray absorption spectroscopy data or reconstructed tomography.",
+        "value": null,
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "During 1 October 2023–30 September 2026, Vardessolvi spent 14 days in Sweden on 10–23 June 2025 and 7 days in Switzerland on 3–9 November 2025, with all other physical presence in Italy.",
+        "value": "14",
+        "salient": true,
+        "source": "residence_and_activity_record.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Vardessolvi had 0 days of physical presence in Canada during the recorded 36-month interval and had never entered Canada by 30 September 2026.",
+        "value": "0 days",
+        "salient": true,
+        "source": "residence_and_activity_record.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "SULVERNEX ran from 1 October 2023 to 31 March 2026 under award URS-MAT-2023-017, with Bellorvessi as principal investigator and Vardessolvi as experimental lead; its final report was approved on 30 April 2026.",
+        "value": "URS-MAT-2023-017",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "budget",
+        "kind": "existing",
+        "text": "The closed SULVERNEX award spent EUR 84,000, comprising EUR 52,000 for personnel, EUR 18,000 for consumables, EUR 10,000 for instrument access and EUR 4,000 for travel.",
+        "value": "EUR 84,000",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "SULVERNEX used six independent electrolyte synthesis batches supplying 18 conductivity pellets and 24 cycling cells, with 12 cycling cells per cathode condition and all cells completing the protocol.",
+        "value": "24 cells",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Li6PS5Cl conductivity at 25 °C was 3.1 ± 0.4 mS cm−1, expressed as the mean and sample standard deviation of six batch means from three pellets each.",
+        "value": "3.1 ± 0.4 mS cm−1",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Cycle-5 discharge capacity was 154 ± 9 mAh g−1 for coated cathodes and 157 ± 10 mAh g−1 for uncoated cathodes, with sample standard deviations across 12 cells per condition.",
+        "value": "154 ± 9 mAh g−1",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Cycle-100 retention relative to cycle 5 was 84.6 ± 4.3% for coated cathodes and 69.8 ± 6.1% for uncoated cathodes, a difference of 14.8 percentage points with a batch-resampled 95% confidence interval of 9.6–20.0 percentage points.",
+        "value": "84.6 ± 4.3%",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Fitted non-ohmic area-specific resistance rose from 38 ± 7 to 92 ± 18 Ω cm² for coated cathodes and from 41 ± 8 to 176 ± 31 Ω cm² for uncoated cathodes between cycles 5 and 100, with sample standard deviations across 12 cells per condition.",
+        "value": "92 ± 18 Ω cm²",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Mean resistance growth was 54 Ω cm² versus 135 Ω cm², giving 60.0% less growth for coated cathodes and an absolute contrast of 81 Ω cm² with a batch-resampled 95% confidence interval of 58–104 Ω cm².",
+        "value": "60.0%",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The lithium–indium pellet cells used 2.0 ± 0.2 mg cm−2 active-material loading and 500 ± 40 µm separators and were cycled at 25 °C, 10 MPa, 2.2–3.6 V and 18 mA g−1, equivalent to C/10 on a 180 mAh g−1 basis.",
+        "value": "10 MPa",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "SULVERNEX used one cathode lot and one coating preparation, lacked operando evidence and practical-format validation, and could not uniquely attribute measured resistance growth to a chemically isolated cathode interphase.",
+        "value": null,
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The archived SULVERNEX outputs include all 24 cycling cells and 18 conductivity pellets with raw files, manifests and scripts; data are licensed CC BY 4.0 and code under the MIT licence.",
+        "value": "CC BY 4.0",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "publication",
+        "kind": "existing",
+        "text": "Vardessolvi has three published journal articles, including two as first author, and one additional first-author manuscript under review.",
+        "value": "three published journal articles",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "publication",
+        "kind": "existing",
+        "text": "Cathode surface treatment moderates resistance growth in Li6PS5Cl composite cells was submitted on 16 June 2026 and remained under review on 30 September 2026; its DOI identifies the preprint deposited on 18 June 2026.",
+        "value": "under review",
+        "salient": true,
+        "source": "publications.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The Italian laboratory has operating sulfide-synthesis and electrochemical equipment but no dedicated operando beamline or in-house X-ray absorption instrument, and no equipment purchase or additional staff appointment has been approved for Vardessolvi's international collaborations.",
+        "value": null,
+        "salient": true,
+        "source": "resources_and_collaborations.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "Sörnelqvist's Swedish group has six members—its permanent leader and accredited doctoral supervisor, two postdoctoral researchers, two doctoral researchers and one engineer—and existing operando laboratory diffraction, cell holders, electrochemistry and computing resources.",
+        "value": "six people",
+        "salient": true,
+        "source": "resources_and_collaborations.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Sörnelqvist has collaborated with Vardessolvi since February 2024 as co-author and external adviser, but Vardessolvi has no Swedish appointment or employment and Sörnelqvist has not been her formal supervisor.",
+        "value": "February 2024",
+        "salient": true,
+        "source": "resources_and_collaborations.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Lukevan Arvenstald at the Aare Veltrass Photon Facility near Villigen is Vardessolvi's established Swiss beamline contact from an ex situ experiment under Bellorvessi's allocation, but Vardessolvi holds no active beamtime allocation or appointment there.",
+        "value": "Aare Veltrass Photon Facility",
+        "salient": true,
+        "source": "resources_and_collaborations.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Mirelvane Davenorrel at the Prairie Velnor Light Facility in Saskatoon offered scientific collaboration in a signed letter dated 22 May 2026, without awarded beamtime, salary support or a visiting appointment; Vardessolvi has submitted no beamtime application there.",
+        "value": "22 May 2026",
+        "salient": true,
+        "source": "resources_and_collaborations.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "vardessolvi2021geometry",
+        "authors": [
+          "Nestravelli, D.",
+          "Vardessolvi, E.",
+          "Bellorvessi, M."
+        ],
+        "year": 2021,
+        "title": "Pellet geometry and contact contributions in impedance measurements of lithium argyrodites",
+        "venue": "Selvaronda Journal of Inorganic Ion Transport",
+        "doi": "10.99999/pb.battery-postdoc.2021.1"
+      },
+      {
+        "key": "vardessolvi2023batches",
+        "authors": [
+          "Vardessolvi, E.",
+          "Nestravelli, D.",
+          "Bellorvessi, M."
+        ],
+        "year": 2023,
+        "title": "Batch variability in mechanochemically prepared Li6PS5Cl solid electrolytes",
+        "venue": "Velnarion Materials Chemistry and Ionic Transport",
+        "doi": "10.99999/pb.battery-postdoc.2023.1"
+      },
+      {
+        "key": "vardessolvi2024resistance",
+        "authors": [
+          "Vardessolvi, E.",
+          "Bellorvessi, M.",
+          "Sörnelqvist, L."
+        ],
+        "year": 2024,
+        "title": "Reproducible resistance extraction from pressure-controlled sulfide composite cells",
+        "venue": "Sörvaskel Electrochemical Measurement Methods",
+        "doi": "10.99999/pb.battery-postdoc.2024.1"
+      },
+      {
+        "key": "vardessolvi2026interfaces",
+        "authors": [
+          "Vardessolvi, E.",
+          "Nestravelli, D.",
+          "Sörnelqvist, L.",
+          "Bellorvessi, M."
+        ],
+        "year": 2026,
+        "title": "Cathode surface treatment moderates resistance growth in Li6PS5Cl composite cells",
+        "venue": "Arvenquell Electrochemical Interfaces (under review); Selvaronda Research Archive (preprint)",
+        "doi": "10.99999/pb.battery-postdoc.2026.1"
+      }
+    ]
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "individual",
+        "career_stage": "postdoc",
+        "disciplines": [
+          "materials chemistry",
+          "electrochemistry",
+          "solid-state batteries"
+        ],
+        "method_profile": "quantitative",
+        "country": "IT",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae: Dr Elisa Vardelli\n\nUpdated 31 August 2026.\n\n## Personal and professional details\n\nElisa Vardelli is an Italian citizen and a postdoctoral researcher in materials chemistry at the Università di Rocca Selvara, Italy. Her research concerns sulfide solid electrolytes, composite positive electrodes and the interpretation of resistance growth in laboratory solid-state cells. Her current institutional affiliation, employment and principal residence are all in Italy.\n\nShe works in the Solid-State Electrochemistry Laboratory led by Professor Marta Bellorni. Her responsibilities include preparation of lithium argyrodite electrolytes, assembly of pressure-controlled cells, electrochemical measurements and maintenance of the laboratory's analysis scripts. She is responsible for the traceability of the INTERSUL project dataset, including sample identifiers, processing records and links between raw measurements and figures.\n\n## Education and employment\n\n- **1 October 2023–present:** postdoctoral researcher, Department of Chemical Materials, Università di Rocca Selvara, Italy. Research employment has been continuous and full time.\n- **20 July 2023:** PhD in Materials Chemistry awarded by the Università di Rocca Selvara. Doctoral enrolment began on 1 November 2019. Thesis: *Transport and contact evolution in pressed lithium argyrodite electrolytes*. Supervisor: Professor Marta Bellorni.\n- **September 2017–July 2019:** master's degree in chemistry, Università di Rocca Selvara. Dissertation on impedance measurements in moisture-sensitive inorganic conductors.\n- **September 2014–July 2017:** bachelor's degree in chemistry, Università di Rocca Selvara.\n\nBetween the doctorate and the start of her postdoctoral contract, Vardelli completed corrections to an accepted manuscript and deposited her thesis. She held no research appointment during that interval. There have been no parental, medical or other extended career interruptions during her postdoctoral employment.\n\n## Research responsibilities\n\nDuring her doctorate, Vardelli established a reproducible workflow for preparing Li6PS5Cl pellets and separating instrument, geometry and sample contributions to conductivity variation. She performed synthesis, pellet preparation and impedance measurements, and wrote the scripts used for fitting and uncertainty summaries. The thesis included laboratory powder diffraction and ex situ surface analysis conducted with specialist support.\n\nIn INTERSUL, she designed the batch allocation and cell-testing sequence with Bellorni, prepared the electrolyte batches, assembled the cells and performed the electrochemical analysis. Bellorni was the grant holder and retained responsibility for expenditure and personnel decisions. Vardelli coordinated sample scheduling and the technical completion report but has not held an independent research grant or managed an institutional research budget.\n\nHer quantitative work uses Python, pandas, NumPy and SciPy, with version-controlled scripts and machine-readable sample manifests. She has implemented equivalent-circuit fitting, residual inspection and resampling at synthesis-batch level. She distinguishes repeated measurements of one specimen from independently prepared material. She has used exploratory distribution-of-relaxation-times analysis, but has not treated its peaks as uniquely identified chemical processes.\n\n## Methods and training\n\nVardelli independently operates inert-atmosphere synthesis and cell-assembly workflows, potentiostats, galvanostatic cycling equipment and the laboratory powder diffractometer after local training. She has experience with air-free sample transfer, sulfide waste handling and the laboratory's hydrogen sulfide response procedures. Electron microscopy and X-ray photoelectron spectroscopy measurements have been performed by facility specialists; she prepared samples and contributed to interpretation.\n\nHer synchrotron experience consists of assisting with an ex situ diffraction experiment and reducing a supervised subset of those data. She has not independently designed or led an operando synchrotron experiment, developed an X-ray-compatible electrochemical cell or carried out X-ray absorption spectroscopy analysis. She has no experience with tomography reconstruction.\n\n## Teaching, supervision and service\n\nVardelli has no teaching experience and no formal or informal student-supervision experience. She has not delivered a course, assessed student work, supervised a dissertation or acted as a doctoral co-supervisor. Laboratory handover records concern equipment operation among employed colleagues and do not represent student supervision.\n\nShe maintains the laboratory's sample-label conventions and has contributed to internal reproducibility discussions. She has delivered research presentations at departmental seminars. She has no experience organising a scientific conference or leading a multi-institutional project.\n\n## Research outputs and languages\n\nHer publication record comprises three published journal articles and one first-author manuscript under review. Two of the published articles are first-author papers. The under-review manuscript has a public preprint and has not been accepted. Full bibliographic records and contribution statements appear in the publications register.\n\nItalian is her first language. She uses English for research writing and scientific meetings. She has no working proficiency in Swedish or French."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# INTERSUL: final scientific report\n\n**Batch-controlled measurements of resistance growth at sulfide composite cathode interfaces**\n\nProject period: 1 October 2023–31 March 2026. Report approved on 30 April 2026. Principal investigator: Professor Marta Bellorni, Università di Rocca Selvara. Experimental lead and report author: Dr Elisa Vardelli.\n\n## Funding and purpose\n\nINTERSUL received EUR 84,000 from the university's Materials Research Seed Fund, award URS-MAT-2023-017. Recorded expenditure was EUR 52,000 for research personnel, EUR 18,000 for consumables, EUR 10,000 for instrument access and EUR 4,000 for travel. These categories total EUR 84,000. Existing laboratory equipment and permanent staff time were institutional contributions outside this award.\n\nThe project examined whether a lithium niobate surface treatment of a nickel-rich layered oxide cathode was associated with lower resistance growth when the cathode was combined with Li6PS5Cl. The immediate objective was a controlled comparison under fixed laboratory conditions. Establishing the chemical sequence of interphase formation was outside the measurements available to the project.\n\n## Materials and experimental design\n\nSix independently synthesised Li6PS5Cl batches were prepared by the same mechanochemical and thermal protocol. Each batch supplied three conductivity pellets and four cycling cells. The conductivity dataset therefore contains 18 pellets. The cycling dataset contains 24 cells, with two coated-cathode and two uncoated-cathode cells from each electrolyte batch: 12 cells per condition.\n\nThe cathode active material was LiNi0.8Mn0.1Co0.1O2. A single parent powder lot was divided between the lithium niobate treatment and the uncoated control. The control underwent the same solvent exposure and thermal history without the niobium precursor. The comparison therefore controls those processing steps, although the coating preparation itself was not independently repeated across multiple cathode lots.\n\nCell assembly order was randomised within each electrolyte batch, and testing channels were balanced across conditions. Sample labels concealed condition during the first impedance-fitting pass. There was no preselection of cells on the basis of initial discharge capacity. All assembled cycling cells completed the specified cycling sequence and were included in the endpoint summaries.\n\nCells used lithium–indium negative electrodes and pressed sulfide separators. Cathode active-material loading was 2.0 ± 0.2 mg cm−2, and separator thickness was 500 ± 40 µm; these are means ± sample standard deviations across the 24 cells. Cycling was conducted at 25 °C under a nominal stack pressure of 10 MPa, between cell voltages of 2.2 and 3.6 V. After formation, the specific current was 18 mA g−1 of cathode active material, equivalent to C/10 using a reference capacity of 180 mAh g−1.\n\n## Conductivity and capacity results\n\nRoom-temperature ionic conductivity was 3.1 ± 0.4 mS cm−1 at 25 °C. This is the mean ± sample standard deviation of the six batch means, each calculated from three pellets. Conductivity was calculated from pellet geometry and the fitted high-frequency electrolyte resistance using blocking electrodes. The 18 pellets were not treated as 18 independent synthesis replicates.\n\nAt cycle 5, discharge capacity was 154 ± 9 mAh g−1 for coated cathodes and 157 ± 10 mAh g−1 for uncoated cathodes. These descriptive statistics are means ± sample standard deviations across 12 cells per condition. Capacity was normalised to the mass of layered oxide, excluding the coating, electrolyte and conductive additive.\n\nCapacity retention at cycle 100, relative to each cell's cycle-5 capacity, was 84.6 ± 4.3% for coated cathodes and 69.8 ± 6.1% for uncoated cathodes. The difference between condition means was 14.8 percentage points, with a batch-resampled 95% confidence interval of 9.6–20.0 percentage points. The standard deviations describe cell-to-cell variation; the confidence interval accounts for the shared electrolyte batch by resampling complete batch groups. It does not capture variation between cathode powder lots or coating-production runs.\n\n## Resistance measurements\n\nImpedance spectra were collected after cycles 5 and 100 at the same discharged endpoint, following a standard rest. The reported area-specific resistance is the fitted non-ohmic cell contribution after subtraction of the high-frequency electrolyte intercept. It is not a direct measurement of a chemically isolated cathode interphase.\n\nFor coated cathodes, area-specific resistance increased from 38 ± 7 Ω cm² at cycle 5 to 92 ± 18 Ω cm² at cycle 100. For uncoated cathodes, it increased from 41 ± 8 Ω cm² to 176 ± 31 Ω cm². Each value is a mean ± sample standard deviation across 12 cells. The corresponding mean increases were 54 Ω cm² and 135 Ω cm². Their difference was 81 Ω cm², with a batch-resampled 95% confidence interval of 58–104 Ω cm².\n\nThe coated condition therefore showed 60.0% less mean resistance growth under this protocol, calculated as (135 − 54)/135. This relative reduction concerns growth between the two measured endpoints, not a reduction in final resistance or a directly measured reduction in interphase thickness.\n\nEquivalent-circuit fits used the same circuit family across conditions. The archive includes fitted parameters, residuals and alternative fits for spectra with overlapping features. Several circuit parameters were correlated. The fitted resistance contrast was more stable than the individual capacitance and dispersion terms, which were not assigned to specific reaction products.\n\n## Structural observations and interpretation\n\nLaboratory diffraction confirmed the dominant argyrodite phase before cell assembly. Ex situ synchrotron diffraction on selected recovered specimens provided checks for crystalline secondary phases. It did not resolve the amorphous interphase or establish when any decomposition product formed during cycling. Surface spectra were consistent with altered sulfur-containing environments after cycling, but air-free transfer and reference selection remained sources of uncertainty.\n\nThe electrochemical results support an association between cathode surface treatment and improved retention under the tested conditions. They do not establish whether chemical passivation, mechanical contact preservation or another treatment-related change dominated. Contributions from the lithium–indium electrode and composite contact network could not be uniquely separated from the measured non-ohmic resistance.\n\n## Limitations and archived outputs\n\nThe study used one cathode powder lot, one coating preparation and a low-loading pellet-cell geometry. It did not test practical thin separators, pouch cells, lithium-metal compatibility or performance under low stack pressure. No cell-level energy-density estimate was produced. Conductivity at one temperature does not establish an activation energy or low-temperature performance.\n\nThe deposited dataset contains raw files for all 24 cycling cells and all 18 conductivity pellets, preparation logs, sample manifests, fitting scripts and the analysis environment specification. Data and metadata are released under CC BY 4.0; analysis code is released under the MIT licence. The institutional archive performs checksums and retains the raw vendor files alongside open-format exports. No patent application was filed for these results.\n\nThe main comparative manuscript remained under review on 31 August 2026. Its reported numerical results match this final report. The project award has closed, and its expenditure cannot be treated as an available balance."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publication and research-output register\n\nDr Elisa Vardelli, Università di Rocca Selvara. Status checked against the author's correspondence and institutional repository on 31 August 2026.\n\nThe register contains three published journal articles and one manuscript under review. The DOI attached to the under-review item identifies its deposited preprint; it is not evidence of journal publication or acceptance. Author order below is the order on each article or manuscript. No item has been withdrawn or retracted.\n\n## Published journal articles\n\n### 1. Pellet geometry and contact contributions in impedance measurements of lithium argyrodites\n\nNestri, D.; Vardelli, E.; Bellorni, M. (2021). *Journal of Inorganic Ion Transport*, 8, 117–129.\n\nDOI: 10.99999/pb.battery-postdoc.2021.1\n\nStatus: published, 18 November 2021. Vardelli is second author. She prepared pellets, measured their dimensions and collected part of the impedance dataset during her doctorate. Nestri led the measurement comparison and manuscript drafting. Bellorni supervised the research. The article addresses measurement practice and does not report the later INTERSUL cycling experiment.\n\n### 2. Batch variability in mechanochemically prepared Li6PS5Cl solid electrolytes\n\nVardelli, E.; Nestri, D.; Bellorni, M. (2023). *Materials Chemistry and Ionic Transport*, 12, 204–218.\n\nDOI: 10.99999/pb.battery-postdoc.2023.1\n\nStatus: published, 7 September 2023. Vardelli is first author. She developed the sample-tracking scheme, performed synthesis and conductivity measurements, analysed the data and wrote the initial manuscript. This paper derives from her doctoral work. Its batches are separate from those prepared for INTERSUL, and its measurements must not be pooled with the final project's dataset without accounting for the changed processing records.\n\n### 3. Reproducible resistance extraction from pressure-controlled sulfide composite cells\n\nVardelli, E.; Bellorni, M.; Sörnevik, L. (2024). *Electrochemical Measurement Methods*, 6, 51–66.\n\nDOI: 10.99999/pb.battery-postdoc.2024.1\n\nStatus: published, 12 December 2024. Vardelli is first author. She performed the electrochemical measurements, implemented the fitting workflow and drafted the manuscript. Bellorni supervised the experimental work. Sörnevik advised on reproducibility and the interpretation of overlapping impedance features through remote collaboration. The article reports a measurement-validation dataset rather than the complete coating comparison. Its cells are not included in the 24-cell INTERSUL endpoint analysis.\n\n## Manuscript under review\n\n### 4. Cathode surface treatment moderates resistance growth in Li6PS5Cl composite cells\n\nVardelli, E.; Nestri, D.; Sörnevik, L.; Bellorni, M. (2026). Submitted to *Electrochemical Interfaces*; preprint deposited in the Selvara Research Archive.\n\nDOI: 10.99999/pb.battery-postdoc.2026.1\n\nStatus: under review; submitted on 16 June 2026. Preprint deposited on 18 June 2026. No acceptance decision had been received by 31 August 2026. Vardelli is first author. She designed the batch allocation with Bellorni, performed the principal experiments, completed the statistical analysis and wrote the initial manuscript. Nestri contributed cathode preparation and sample-characterisation records. Sörnevik contributed interpretation of the structural evidence and revisions. Bellorni provided supervision and project administration.\n\nThis is the manuscript containing the INTERSUL retention and resistance-growth results. Its public availability permits scrutiny of those results, but it remains an unaccepted manuscript. The repository record explicitly labels the deposited version as a preprint.\n\n## Associated outputs and attribution\n\nThe INTERSUL dataset and analysis code are linked from the fourth item's repository record. They are supporting research outputs and are not additional journal articles. The doctoral thesis is also deposited in the institutional archive and is not counted as a separate paper here.\n\nThere are no accepted-but-unpublished papers, patents, registered software products or additional submitted manuscripts in this register. No citation counts or journal-level metrics have been compiled. Contributor statements distinguish Vardelli's experimental and analytical responsibilities from grant ownership, specialist instrument operation and supervision."
+          },
+          {
+            "path": "resources_and_collaborations.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Laboratory resources and collaboration record\n\nRecord date: 31 August 2026. Prepared from laboratory inventories, access records and correspondence retained by Dr Elisa Vardelli.\n\n## Current laboratory in Italy\n\nThe Solid-State Electrochemistry Laboratory at the Università di Rocca Selvara is led by Professor Marta Bellorni. Dr Davide Nestri contributes inorganic synthesis and cathode-processing expertise. Vardelli is the postdoctoral researcher responsible for the INTERSUL electrochemical dataset. Technical staff support instrument maintenance and waste handling through the department; they are not staff employed on an ongoing INTERSUL award.\n\nExisting equipment includes argon gloveboxes, a planetary mill, sealed reaction vessels, programmable furnaces, a hydraulic pellet press, pressure-monitored cell fixtures, potentiostats with impedance capability and multichannel battery cyclers. The laboratory has access to departmental powder diffraction and air-free transfer equipment. Surface spectroscopy and electron microscopy are shared services operated by specialist staff and require bookings.\n\nThese facilities support synthesis and laboratory electrochemistry. The laboratory has no synchrotron source, dedicated operando X-ray beamline or in-house X-ray absorption spectroscopy instrument. Its current cell fixtures were designed for electrochemical testing and are not certified beamline sample environments. No equipment purchase or additional staff appointment has been approved in connection with Vardelli's international collaborations.\n\n## Swedish collaborating group\n\nDr Linnea Sörnevik leads the Operando Electrochemical Structure Group at the Sörviken Institute of Materials Science in Uppsala, Sweden. She is a permanent group leader and an accredited doctoral supervisor. Her research concerns diffraction and total-scattering measurements during electrochemical operation, with particular attention to separating structural evolution from changes caused by sample environment and data reduction.\n\nThe group currently comprises six people: Sörnevik, two postdoctoral researchers, two doctoral researchers and one instrument engineer. The engineer maintains the laboratory's electrochemical sample environments and helps prepare beamline-compatible hardware. The postdoctoral researchers contribute diffraction analysis and electrochemical measurements. The doctoral researchers work on ongoing group projects and are not personnel assigned to Vardelli.\n\nExisting local resources include an argon glovebox, a laboratory diffractometer equipped for electrochemical measurements, a potentiostat, pressure-controlled X-ray-compatible cell holders and a computing server for diffraction reduction and modelling. These are operating resources, not ordered equipment. Synchrotron access is obtained through external facilities; the institute does not control an independently allocated block of beamtime for Vardelli.\n\nSörnevik and Vardelli have collaborated since February 2024. Sörnevik is a co-author on the published methods paper and the manuscript under review, and has acted as an external scientific adviser. During Vardelli's June 2025 visit, the group demonstrated operando cell alignment and reviewed her resistance-fitting workflow. Vardelli observed the alignment procedure but did not conduct a complete operando experiment or acquire independent operator status.\n\nVardelli has no Swedish employment contract, salary, visiting appointment or student-supervision responsibility. Sörnevik has not been her formal doctoral or postdoctoral supervisor. The collaboration record establishes scientific contact and knowledge of the group's facilities; it does not constitute an employment appointment or a reservation of instrument time.\n\n## Swiss synchrotron contact\n\nDr Lukas Arvensteg is a beamline scientist at the Aare Photon Facility near Villigen, Switzerland. The facility provides synchrotron diffraction and total-scattering capabilities, including staff-supported electrochemical sample environments. Arvensteg was Vardelli's local scientific contact during the November 2025 visit.\n\nVardelli joined an experiment led by Bellorni under an allocation held by the Italian laboratory. She prepared air-free samples, assisted with mounting and reduced a supervised subset of ex situ diffraction data. Arvensteg operated the beamline and checked the reduction workflow. Vardelli was neither the allocation's principal investigator nor an independently authorised beamline operator.\n\nThe resulting measurements informed the limited structural checks described in the INTERSUL report. The visit did not include time-resolved cycling measurements. Arvensteg remains an established technical contact, but there is no active beamtime allocation, employment offer or formal visiting appointment held by Vardelli at the Swiss facility.\n\n## Canadian collaboration offer\n\nDr Mireille Davenelle is a staff scientist in electrochemical X-ray methods at the Prairie Light Facility in Saskatoon, Canada. Her work combines operando diffraction with practical development of air-sensitive electrochemical sample environments. The facility has existing diffraction beamlines and staff-supported preparation space for air-sensitive samples.\n\nDavenelle and Vardelli held a remote technical meeting on 6 May 2026. In a signed letter dated 22 May 2026, Davenelle offered scientific collaboration on sulfide-cell measurements, including methodological guidance and joint interpretation of diffraction data. The letter identifies Davenelle as the scientific contact and confirms the facility's relevant operating capabilities.\n\nThe letter is a scientific collaboration offer. It does not award beamtime, provide salary support, create a visiting appointment or bind the facility to supply staff effort for a specified period. Vardelli has not submitted a beamtime application there, has never visited Canada and has not worked with Davenelle on a completed experiment or publication. Their contact is therefore less developed than the Italian–Swedish collaboration or the completed Swiss visit.\n\n## Access and research records\n\nEach external facility retains its own safety review, training and access procedures. Existing personal contacts do not waive those procedures. Vardelli's institutional account provides access to her deposited data and analysis code, but not to collaborators' unpublished datasets. No collaborator has transferred ownership of equipment, intellectual property or an unspent research allocation to her."
+          },
+          {
+            "path": "residence_and_activity_record.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# Residence and research-activity record\n\n**Elisa Vardelli — statement current to 31 August 2026**\n\nThis record reconciles residence, employment and travel information held in the university personnel file and the applicant's travel records. It covers physical presence as well as institutional affiliation. Remote scientific discussions are recorded separately from travel.\n\nVardelli is an Italian citizen and has maintained her principal residence in Italy throughout her education and research career. Her bachelor's degree, master's degree, doctorate and current postdoctoral employment were all undertaken at the Università di Rocca Selvara. She has never held employment or enrolled in a degree programme in Sweden, Switzerland or Canada.\n\n## Physical presence from 1 September 2023 to 31 August 2026\n\nDuring this 36-month interval, Vardelli was physically present in Italy except for the following two research visits:\n\n| Country | Inclusive dates | Days of physical presence | Activity |\n|---|---|---:|---|\n| Sweden | 10–23 June 2025 | 14 | Scientific visit to Sörnevik's group in Uppsala; laboratory demonstrations and analysis discussions |\n| Switzerland | 3–9 November 2025 | 7 | Participation in Bellorni's ex situ diffraction experiment at the Aare Photon Facility |\n\nArrival and departure days are included in these counts. There were no additional foreign holidays, secondments, conferences, remote-working stays or research visits during the stated interval. Physical presence in Canada was 0 days.\n\nThe two visits were the only stays in Sweden or Switzerland in Vardelli's life through the record date. She has never entered Canada. Neither visit involved local employment, degree enrolment or a change of principal residence. Her Italian postdoctoral employment continued during both visits.\n\n## Collaboration and documentary basis\n\nMeetings with Sörnevik outside the recorded Swedish visit took place remotely while Vardelli was in Italy. All contact with Davenelle has been remote. The existence of a Swedish co-author, a Swiss beamline contact or a Canadian collaboration letter does not indicate residence in those countries.\n\nSupporting documents comprise the Italian employment certificate, travel authorisations, transport receipts and host attendance confirmations. This statement records completed activity through 31 August 2026; it makes no assertion about subsequent travel or residence."
+          }
+        ],
+        "facts": [
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "Elisa Vardelli is an Italian citizen whose current employment, institutional affiliation and principal residence are in Italy.",
+            "value": "Italian citizen",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "education",
+            "kind": "existing",
+            "text": "Vardelli began her doctorate on 1 November 2019 and received her PhD in Materials Chemistry from the Università di Rocca Selvara on 20 July 2023.",
+            "value": "20 July 2023",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Vardelli has held continuous full-time postdoctoral employment in Italy since 1 October 2023, with no extended career interruptions.",
+            "value": "1 October 2023",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Vardelli has no teaching experience and no formal or informal student-supervision experience.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Vardelli has assisted with ex situ synchrotron work but has not independently designed or led an operando experiment, developed an X-ray-compatible cell, analysed X-ray absorption spectroscopy data or reconstructed tomography.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "During 1 September 2023–31 August 2026, Vardelli spent 14 days in Sweden on 10–23 June 2025 and 7 days in Switzerland on 3–9 November 2025, with all other physical presence in Italy.",
+            "value": "14",
+            "salient": true,
+            "source": "residence_and_activity_record.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Vardelli had 0 days of physical presence in Canada during the recorded 36-month interval and had never entered Canada by 31 August 2026.",
+            "value": "0 days",
+            "salient": true,
+            "source": "residence_and_activity_record.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "INTERSUL ran from 1 October 2023 to 31 March 2026 under award URS-MAT-2023-017, with Bellorni as principal investigator and Vardelli as experimental lead; its final report was approved on 30 April 2026.",
+            "value": "URS-MAT-2023-017",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "The closed INTERSUL award spent EUR 84,000, comprising EUR 52,000 for personnel, EUR 18,000 for consumables, EUR 10,000 for instrument access and EUR 4,000 for travel.",
+            "value": "EUR 84,000",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "INTERSUL used six independent electrolyte synthesis batches supplying 18 conductivity pellets and 24 cycling cells, with 12 cycling cells per cathode condition and all cells completing the protocol.",
+            "value": "24 cells",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Li6PS5Cl conductivity at 25 °C was 3.1 ± 0.4 mS cm−1, expressed as the mean and sample standard deviation of six batch means from three pellets each.",
+            "value": "3.1 ± 0.4 mS cm−1",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Cycle-5 discharge capacity was 154 ± 9 mAh g−1 for coated cathodes and 157 ± 10 mAh g−1 for uncoated cathodes, with sample standard deviations across 12 cells per condition.",
+            "value": "154 ± 9 mAh g−1",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Cycle-100 retention relative to cycle 5 was 84.6 ± 4.3% for coated cathodes and 69.8 ± 6.1% for uncoated cathodes, a difference of 14.8 percentage points with a batch-resampled 95% confidence interval of 9.6–20.0 percentage points.",
+            "value": "84.6 ± 4.3%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Fitted non-ohmic area-specific resistance rose from 38 ± 7 to 92 ± 18 Ω cm² for coated cathodes and from 41 ± 8 to 176 ± 31 Ω cm² for uncoated cathodes between cycles 5 and 100, with sample standard deviations across 12 cells per condition.",
+            "value": "92 ± 18 Ω cm²",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Mean resistance growth was 54 Ω cm² versus 135 Ω cm², giving 60.0% less growth for coated cathodes and an absolute contrast of 81 Ω cm² with a batch-resampled 95% confidence interval of 58–104 Ω cm².",
+            "value": "60.0%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The lithium–indium pellet cells used 2.0 ± 0.2 mg cm−2 active-material loading and 500 ± 40 µm separators and were cycled at 25 °C, 10 MPa, 2.2–3.6 V and 18 mA g−1, equivalent to C/10 on a 180 mAh g−1 basis.",
+            "value": "10 MPa",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "INTERSUL used one cathode lot and one coating preparation, lacked operando evidence and practical-format validation, and could not uniquely attribute measured resistance growth to a chemically isolated cathode interphase.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The archived INTERSUL outputs include all 24 cycling cells and 18 conductivity pellets with raw files, manifests and scripts; data are licensed CC BY 4.0 and code under the MIT licence.",
+            "value": "CC BY 4.0",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "Vardelli has three published journal articles, including two as first author, and one additional first-author manuscript under review.",
+            "value": "three published journal articles",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "Cathode surface treatment moderates resistance growth in Li6PS5Cl composite cells was submitted on 16 June 2026 and remained under review on 31 August 2026; its DOI identifies the preprint deposited on 18 June 2026.",
+            "value": "under review",
+            "salient": true,
+            "source": "publications.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The Italian laboratory has operating sulfide-synthesis and electrochemical equipment but no dedicated operando beamline or in-house X-ray absorption instrument, and no equipment purchase or additional staff appointment has been approved for Vardelli's international collaborations.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_collaborations.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Sörnevik's Swedish group has six members—its permanent leader and accredited doctoral supervisor, two postdoctoral researchers, two doctoral researchers and one engineer—and existing operando laboratory diffraction, cell holders, electrochemistry and computing resources.",
+            "value": "six people",
+            "salient": true,
+            "source": "resources_and_collaborations.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Sörnevik has collaborated with Vardelli since February 2024 as co-author and external adviser, but Vardelli has no Swedish appointment or employment and Sörnevik has not been her formal supervisor.",
+            "value": "February 2024",
+            "salient": true,
+            "source": "resources_and_collaborations.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Lukas Arvensteg at the Aare Photon Facility near Villigen is Vardelli's established Swiss beamline contact from an ex situ experiment under Bellorni's allocation, but Vardelli holds no active beamtime allocation or appointment there.",
+            "value": "Aare Photon Facility",
+            "salient": true,
+            "source": "resources_and_collaborations.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Mireille Davenelle at the Prairie Light Facility in Saskatoon offered scientific collaboration in a signed letter dated 22 May 2026, without awarded beamtime, salary support or a visiting appointment; Vardelli has submitted no beamtime application there.",
+            "value": "22 May 2026",
+            "salient": true,
+            "source": "resources_and_collaborations.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "vardelli2021geometry",
+            "authors": [
+              "Nestri, D.",
+              "Vardelli, E.",
+              "Bellorni, M."
+            ],
+            "year": 2021,
+            "title": "Pellet geometry and contact contributions in impedance measurements of lithium argyrodites",
+            "venue": "Journal of Inorganic Ion Transport",
+            "doi": "10.99999/pb.battery-postdoc.2021.1"
+          },
+          {
+            "key": "vardelli2023batches",
+            "authors": [
+              "Vardelli, E.",
+              "Nestri, D.",
+              "Bellorni, M."
+            ],
+            "year": 2023,
+            "title": "Batch variability in mechanochemically prepared Li6PS5Cl solid electrolytes",
+            "venue": "Materials Chemistry and Ionic Transport",
+            "doi": "10.99999/pb.battery-postdoc.2023.1"
+          },
+          {
+            "key": "vardelli2024resistance",
+            "authors": [
+              "Vardelli, E.",
+              "Bellorni, M.",
+              "Sörnevik, L."
+            ],
+            "year": 2024,
+            "title": "Reproducible resistance extraction from pressure-controlled sulfide composite cells",
+            "venue": "Electrochemical Measurement Methods",
+            "doi": "10.99999/pb.battery-postdoc.2024.1"
+          },
+          {
+            "key": "vardelli2026interfaces",
+            "authors": [
+              "Vardelli, E.",
+              "Nestri, D.",
+              "Sörnevik, L.",
+              "Bellorni, M."
+            ],
+            "year": 2026,
+            "title": "Cathode surface treatment moderates resistance growth in Li6PS5Cl composite cells",
+            "venue": "Electrochemical Interfaces (under review); Selvara Research Archive (preprint)",
+            "doi": "10.99999/pb.battery-postdoc.2026.1"
+          }
+        ]
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 7",
+          "where": "all files",
+          "problem": "The documents are not consistently current as of the benchmark's present date, 1 October 2026 (some are written as of 2024 or early 2025, leaving unexplained gaps before calls with 2027 deadlines).",
+          "fix": "Make every document current as of September 2026: update 'as of' dates, contract periods, CV entries, publication lists through 2026, statuses of submissions, reviews, ethics approvals and recruitments, keeping the same career stage and every fact the traps rely on (re-dated consistently). Keep all numbers internally consistent after the shift."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "all files",
+          "problem": "Names of people, institutions, companies, projects or journals may collide with real ones.",
+          "fix": "Replace every person name with a coined, distinctive name (no common names such as Matteo Rossi); replace every real institution, research centre, archive, company, project or journal name of the applicant's world with a fictional one; the applicant's own publications appear in fictional journals. Real funders, real places and real funding schemes stay."
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

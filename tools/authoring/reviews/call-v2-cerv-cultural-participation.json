@@ -1,0 +1,42 @@
+{
+  "kind": "call",
+  "id": "v2-cerv-cultural-participation",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "call.md: Purpose and eligibility; sections 2.6 and 4.2; Length contract; final HTML comment",
+      "problem": "The applicant-facing text repeatedly exposes benchmark mechanics beyond the permitted fictional-call notice: \"without an extension in this benchmark\", \"the benchmark uses one application\", narrative allocation and counting \"benchmark conventions\", and the canary marker.",
+      "fix": "Describe the duration, application, allocation, counting and converted word-limit rules as restrictions or conventions of this fictional call. Keep the fictional-call notice, but remove benchmark implementation language and the canary comment from applicant-facing text.",
+      "part": "template"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md: Exclusions, eighth item; call.yaml: EX8, read alongside SC6 and SC8",
+      "problem": "EX8 excludes professional-majority seminars and conferences without distinguishing the resident participation programme from supporting activities. This excludes ordinary delivery formats for the required staff training and presentations to policymakers, even when those activities directly support the resident-led process.",
+      "fix": "Limit EX8 to projects whose principal participation activities primarily serve professionals or established representatives. Explicitly permit supporting staff training, methodological exchange and policy dissemination where these serve the required resident participation process.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md: third and fourth expected outcomes and ninth scope item; call.yaml: EO3, EO4 and SC9",
+      "problem": "These items combine independently assessable requirements. EO3 requires both organisational use of tested methods and continuing staff capacity; EO4 combines knowledge of decision-making with confidence about future participation; SC9 requires both publication of residents' heritage interpretations and a practical method guide. A proposal can satisfy one component while omitting another, making each combined item unsuitable as a single checkable requirement.",
+      "fix": "Split these items into separate requirements for method adoption, continuing facilitation capacity, decision-making knowledge, participation confidence, publication of consenting residents' interpretations, and publication of the method guide. Update both files together.",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md: sections 2.6 and 4.2, particularly \"The shares must sum to the total request\"; call.yaml: ME4",
+      "problem": "The allocation rule does not specify whether a work-package share is a percentage or a euro amount. Percentage shares sum to 100%, whereas monetary allocations sum to the requested grant.",
+      "fix": "Specify the unit consistently: require euro allocations summing to the total request, or percentage shares summing to 100%. If both are requested, require their agreement.",
+      "part": "template"
+    }
+  ]
+}

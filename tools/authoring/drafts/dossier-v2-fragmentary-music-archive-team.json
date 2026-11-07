@@ -1,0 +1,1240 @@
+{
+  "kind": "dossier",
+  "id": "v2-fragmentary-music-archive-team",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "784bca221be738453b1bb73c78d6cd6bc06f4efef2df6c678e88c107c291b82a",
+  "draft": {
+    "applicant_type": "team",
+    "career_stage": "mid_career",
+    "disciplines": [
+      "music",
+      "cultural heritage",
+      "linguistics",
+      "acoustic signal processing"
+    ],
+    "method_profile": "mixed",
+    "country": "EE",
+    "files": [
+      {
+        "path": "cv_pi.md",
+        "role": "cv",
+        "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae: Dr Maarja Sirelkoit\n\nUpdated 18 September 2026\n\n## Current appointment\n\nAssociate Professor of Musicology, School of Cultural Evidence, Rannakaar University, Tartu, Estonia. Permanent appointment since September 2021; employment fraction 1.0 FTE. Coordinator of the university's Fragmentary Music Evidence team. My work concerns musical notation in damaged manuscripts, the evidential status of reconstructed readings, and the relationship between written musical sources and performed examples.\n\nRannakaar University is my employing institution and the custodian of the manuscript material used in our completed pilot. The team is an internal university group. My appointment includes research, teaching and collection-related service.\n\n## Education and appointments\n\n- 2005–2008: BA in Music Studies, Rannakaar University.\n- 2008–2010: MA in Historical Musicology, Rannakaar University. Dissertation on attribution practices in unsigned domestic song manuscripts.\n- 2010–2014: Doctoral researcher, Rannakaar University. PhD awarded June 2014 for *Reading musical remnants: evidential boundaries in incomplete household manuscripts*.\n- September 2014–August 2017: Research Fellow in Manuscript Music, Rannakaar University.\n- September 2017–August 2021: Lecturer in Musicology, Rannakaar University.\n- September 2021–present: Associate Professor of Musicology, Rannakaar University.\n\n## Research responsibilities\n\nI was principal investigator of the university-funded project *Fragmentary Music Evidence Pilot*, award RU-CE-2024-07, from January 2024 to December 2025. I held responsibility for expenditure, access permissions, the classification protocol, performer recruitment and submission of the final report. The university accepted the report in February 2026 and closed the financial account in March 2026.\n\nFor that project I wrote the musicological annotation guide and served as one of the independent annotators. I also documented relationships between fragment identifiers, manuscript folders, image derivatives and interpretive statements. The final catalogue preserves the independent labels alongside any later commentary.\n\nMy current teaching covers source criticism, musical palaeography and documentation of editorial interventions. I have supervised completed master's dissertations involving manuscript descriptions and performance-based interpretation. I have not supervised a doctoral thesis to completion.\n\n## Methods and contribution\n\nMy practical methods include close reading of notation, comparison of scribal habits, source description, structured annotation and qualitative analysis of reasons for disagreement. I use scripted catalogue checks prepared with colleagues. Historical language assessment is undertaken by our employed historical linguist; acoustic processing and numerical implementation are undertaken by our employed acoustic analyst.\n\nThe distinctive contribution of my work is the separation of what survives on the page from what an editor supplies. A legible note, an uncertain note, a missing passage and a plausible supplied passage have different statuses in our records. A performance of a supplied passage remains an interpretation, even when it sounds coherent.\n\n## Research outputs and service\n\nThe accompanying publication record contains four published articles, including the jointly authored pilot methods and results paper published in July 2026. These publications concern manuscript evidence, linguistic attribution and documented audio processing.\n\nI maintain the team's annotation vocabulary and chair its internal source-reading meetings. The university collection staff retain authority over handling and reproduction of originals."
+      },
+      {
+        "path": "prior_project.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n# Final report: Fragmentary Music Evidence Pilot\n\nAward RU-CE-2024-07, Rannakaar University Research Development Fund\n\nProject period: 1 January 2024–31 December 2025. Final report accepted 20 February 2026. This copy incorporates the permissions and deposit status recorded on 18 September 2026; the analytical results are unchanged.\n\nPrincipal investigator: Dr Maarja Sirelkoit. Team: Dr Tõnis Lehevald, historical linguistics; Kadri Vahenurm, acoustic signal processing.\n\n## Purpose and material\n\nThe pilot examined whether incomplete musical sources could be described without concealing disagreements between readers. Its practical outputs were a linked catalogue, independent classifications, provenance records and a small set of documented performance examples.\n\nThe corpus comprised 180 score fragments from six manuscript folders, with 30 fragments selected from each folder. Collection descriptions assign the source material to approximately 1870–1935. Those dates are catalogue ranges, not independently verified dates for every leaf. Selection required permission to reproduce the fragment and enough surviving notation for an initial reading. Completely illegible leaves were therefore absent from the sample.\n\nEach fragment received a stable identifier linked to its physical folder and leaf reference. Separate records described visible notation, surviving words, physical loss and editorial inference. Fragment identifiers refer to physical source units. Several fragments can preserve related material, and similarity between them does not establish a shared author or date.\n\nThe audio component comprised 24 consented examples performed by eight adult participants, with three examples per participant. All 24 examples are unaccompanied solo singing with underlaid text: one singer performs a single melodic line in each recording. Each deposited example lasts 45 seconds, giving 18 minutes of deposited audio. Participants performed short readings prepared from the source material. These are contemporary demonstration recordings of the team's interpretations. The deposited reading sheets distinguish surviving words and syllables from supplied text and record uncertain placement of syllables beneath notes.\n\n## Annotation and provenance methods\n\nSirelkoit and Lehevald independently assigned one of three labels to each fragment: predominantly vocal, predominantly instrumental, or insufficient evidence. The guide required readers to cite visible features supporting their choice. Surviving verbal text could support a vocal classification, but its absence was not sufficient evidence of instrumental use. The insufficient-evidence label was available whenever the surviving material did not support either positive classification.\n\nThe readers entered their labels before seeing each other's decisions. Subsequent discussion was recorded separately and did not overwrite the independent records. The project did not appoint an adjudicator, assemble a gold-standard set or ask a third reader to settle disagreement. Interpretive notes distinguish a surviving inscription from an inferred language identification and distinguish both from a modern transcription.\n\nThe team completed source links and separate observation/inference fields for all 180 catalogue entries. This is a documentation-completeness result. Verification of the underlying provenance statements and classifications remained outside that check.\n\n## Classification results\n\nThe two annotators agreed on 146 of 180 classifications, or 81.1%. A descriptive Wilson 95% confidence interval for this proportion is 74.8%–86.2%, treating fragments as independent observations. Because fragments were selected within folders and can be related, that interval does not capture all dependence or selection uncertainty and is not a population-level estimate for the whole collection.\n\nThe agreed classifications comprised 96 predominantly vocal fragments and 50 predominantly instrumental fragments. There were no cases in which both readers selected insufficient evidence. The remaining 34 fragments were disputed: 18 had vocal/instrumental disagreement, 10 had vocal/insufficient-evidence disagreement and six had instrumental/insufficient-evidence disagreement. These categories account for the entire corpus.\n\nThe 34 disputed cases remain disputed in the deposited catalogue. They are not 34 demonstrated errors, and the 146 agreements are not 146 verified correct answers. Agreement was an observed property of these two readers using this guide.\n\nReading meetings identified recurring reasons for disagreement, including detached verbal text, notation resembling both a sung line and an instrumental part, and uncertainty about whether marks belonged to the original writing or a later addition. These observations were qualitative explanations of particular cases. The project did not estimate their prevalence across the wider archive.\n\n## Audio processing results\n\nVahenurm implemented a reproducible desktop workflow for importing the licensed recordings, retaining untouched source files, generating denoised derivatives and logging processing settings. All 24 examples passed through the workflow. The deposited audio format is mono PCM WAV at 48 kHz and 24-bit resolution. File checksums distinguish each original from its derivatives.\n\nNoise reduction was assessed in manually marked non-performance intervals within the same recordings. The median reduction in measured noise power was 3.2 dB across 24 examples. A performer-cluster bootstrap gave a 95% interval of 2.4–4.0 dB for the median; the resampling unit was the performer, retaining the three associated examples together. With only eight performer clusters, this interval provides limited information about variation beyond these recordings.\n\nNo reference annotation of note onsets exists for any of the 24 recordings as of 18 September 2026. The interval markings identify non-performance regions only; the reading sheets have no alignment to recorded event times. Untouched recordings preserve the performed interpretations, rather than establishing the historical correctness of the readings.\n\nThis measure concerns intervals without intended performance. Note recognition, preservation of musical transients and recovery of masked material were not evaluated. Informal listening informed settings but was not a blinded perceptual evaluation. There was no held-out test set or predetermined recovery pass/fail rule. Recovery of missing material was outside the pilot's aims.\n\n## Delivery, expenditure and limitations\n\nThe final accepted expenditure was EUR 46,800: EUR 31,200 in staff costs, EUR 6,000 in performer fees and recording-session support, EUR 4,800 in collection handling and digitisation services, and EUR 4,800 in institutional indirect costs. These amounts exhaust the award. No equipment purchase was charged to it. The internal award specified a fixed indirect-cost contribution of EUR 4,800 against EUR 42,000 in direct costs; it did not use the university's external-grant percentage rate.\n\nThe project delivered the catalogue, annotation guide, processing scripts, consent register and restricted audio deposit. The public metadata deposit contains the independent labels and provenance fields. Audio access follows the separate performer agreements.\n\nThe pilot established that the team could process and document the selected material with existing facilities. It left the central interpretive problem unresolved: plausible readings can differ even when their supporting evidence is recorded. The sample excluded the most illegible material, the performers were recruited locally, and the recordings were made for demonstration."
+      },
+      {
+        "path": "publications.md",
+        "role": "publications",
+        "content": "> Fictional document created for ProposalBench.\n\n# Publications and associated research outputs\n\nFragmentary Music Evidence team, Rannakaar University\n\nRecord checked 18 September 2026. All four articles listed below are published. There are no submitted or under-review manuscripts in this record. Titles and identifiers are given as registered in the university's publication catalogue.\n\n## Published articles\n\n**Sirelkoit, M. (2018). Reading absence in domestic song manuscripts: a layered description protocol.** *Rannakaar Papers in Musical Evidence*, 3(1), 21–39. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2018.1\n\nThis single-author article separates physical description, diplomatic transcription and editorial supplementation in descriptions of incomplete musical manuscripts. Its contribution is a source-reading protocol and worked examples. It predates the pilot corpus. The protocol provided the conceptual basis for retaining visible evidence and supplied material in different catalogue fields.\n\n**Lehevald, T., and Sirelkoit, M. (2021). Language attribution when song texts survive as isolated syllables.** *Baltic Review of Manuscript Linguistics*, 6(2), 77–96. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2021.2\n\nThis article examines the distinction between a readable character sequence and an attribution of that sequence to a language or dialect. It documents cases in which musical underlay, abbreviation and later handwriting prevent a secure attribution. The authors argue for preserving alternative readings with their evidence. Lehevald led the linguistic analysis; Sirelkoit analysed notation and placement of text beneath the musical line.\n\n**Vahenurm, K., and Sirelkoit, M. (2024). Documenting denoising decisions in short performed manuscript examples.** *Journal of Annotated Sound Provenance*, 2(1), 11–28. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2024.3\n\nThis methods article describes retention of originals, parameter logging and reversible comparison of processed audio derivatives. It reports workflow development during the pilot's early recording work. Vahenurm implemented the processing and file-validation procedures; Sirelkoit supplied the musicological requirements and checked links to source readings. The article concerns auditable processing decisions.\n\n**Sirelkoit, M., Lehevald, T., and Vahenurm, K. (2026). Agreement without adjudication: linked evidence for fragmentary musical sources.** *Rannakaar Papers in Musical Evidence*, 11(2), 44–68. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2026.4\n\nPublished July 2026. This is the pilot's joint results article. It reports the independent classification exercise, preservation of unresolved disagreements and linkage between source descriptions and audio derivatives. The numerical results are those in the final report; the publication is not an independent replication. Sirelkoit coordinated the study and manuscript, Lehevald co-designed and undertook annotation, and Vahenurm implemented the processing and numerical summaries. All authors reviewed the interpretation of uncertainty.\n\n## Associated deposits\n\nThe *Fragmentary Music Evidence Pilot Catalogue*, release 1.0, is held in the Rannakaar University repository. Its public component contains catalogue metadata, independent classifications, the annotation guide and processing scripts. Its restricted component contains licensed source images, consent records and the complete audio examples.\n\nThe team's publication record establishes experience with musical source criticism, linguistic ambiguity and reproducible audio documentation."
+      },
+      {
+        "path": "resources_and_permissions.md",
+        "role": "resources",
+        "content": "> Fictional document created for ProposalBench.\n\n# Facilities, holdings and permissions statement\n\nRannakaar University, School of Cultural Evidence\n\nInventory and rights status: 18 September 2026\n\n## Existing facilities\n\nThe team has two university-owned desktop workstations, each with 32 GB RAM and a 1 TB solid-state drive. Both are operational and available through the school's ordinary research facilities allocation. The installed workflow uses Python, NumPy, SciPy and an audio editor for inspection, parameter recording and digital denoising.\n\nA managed university file service stores the authoritative project directory, including untouched originals, versioned metadata and processed derivatives. Routine institutional backups cover this directory. The desktops hold working copies. Access to participant-linked files is limited to named team members and authorised repository staff.\n\nThe university's shared digitisation room has a copy stand, a digital camera, diffuse lighting and a book cradle suitable for the loose leaves and supported manuscript openings used in the pilot. Collection staff supervise handling and maintain the link between source identifiers and image filenames. These facilities supplied the pilot images. Their continued availability under the ordinary internal booking system is confirmed in the host letter.\n\nThe school's existing recording room, audio interface and microphone supported the contemporary performance examples. The recording chain is sufficient to replay, inspect and process the existing files. The completed corpus can be analysed as deposited.\n\nThe November 2025 facilities review recorded a supplier quotation for an overhead scanner at EUR 28,000, including delivery and VAT. The quotation was not pursued and expired in February 2026; no order was placed and the scanner was not purchased. The pilot completed its digitisation through the existing shared room.\n\n## Source and participant permissions\n\nThe Rannakaar Manuscript and Sound Collection is an internal university collection. The university holds the physical manuscripts used in the pilot and controls access to them under its collection procedures. Custody of an object is recorded separately from permission to publish its image.\n\nThe collection director signed the pilot reproduction and publication permission on 12 June 2025. It covers the selected source images, annotated excerpts, catalogue descriptions and publication of the described pilot results. It does not automatically cover other material in the collection. The signed document is held with the source-access register.\n\nAll eight performers signed participation and use agreements before recording. The agreements cover research processing, creation of denoised and synthetically masked derivatives, and publication of the designated audio examples and related pilot findings. They exclude unrestricted redistribution of the complete recordings and voice identification or voice cloning.\n\nThe university ethics panel issued its favourable determination on 22 November 2023, before recruitment began. The determination covers secondary research analysis of the recorded examples within the terms of the participant agreements, without time limit. Recruitment and recording ended during the completed pilot. No participant withdrawal was recorded by 18 September 2026. No new recruitment is active, and there is no pending ethics application for an extension of the study.\n\n## Host confirmation and access boundaries\n\nThe dean signed the host support statement on 15 September 2026. It confirms the team's employment, access to the existing facilities, institutional administration of research funds and stewardship of the completed pilot records. It does not commit additional posts, dedicated future staff effort or a cash contribution to an unapproved project.\n\nThe finance schedule accompanying the statement records the university's external-grant indirect-cost rate as 15% of all direct costs, including staff and internal services. Indirect costs are added to direct costs to obtain the total grant cost. This schedule has been effective since 1 January 2026. The completed internal pilot retained the fixed contribution specified in its award.\n\nCurrent monthly employer costs for one full-time equivalent are EUR 4,800 for Sirelkoit's grade, EUR 4,200 for Lehevald's grade and EUR 4,000 for Vahenurm's grade. These amounts include salary and employer contributions, exclude institutional indirect costs and are prorated by charged employment fraction and duration. Vahenurm's existing 0.8 FTE appointment therefore costs EUR 3,200 per calendar month before indirect costs. Research time is charged against recorded effort; employment fractions do not establish available project effort.\n\nThe internal tariff is EUR 30 per booked room-hour for the digitisation room and EUR 45 per staff-hour for collection handling, charged separately when both are used. Room use includes the camera, lighting and cradle. Existing deposited files carry no additional digitisation charge. Workstation use and routine storage are covered by institutional indirect costs. The university's statistical consultation service charges EUR 75 per adviser-hour before indirect costs; it is available through internal booking, with no adviser or hours assigned to this team as of the statement date. Internal tariffs carry no additional VAT.\n\nPublic catalogue metadata are available under CC BY 4.0; the processing scripts are released under the MIT licence. Manuscript images and audio retain their documented access conditions. Consent forms are not public research data. External researchers can inspect the public annotation structure and scripts, but access to restricted files requires a separate decision under the repository's procedures.\n\nThe signed host statement and the pilot publication permissions are complete and in force as of this inventory date."
+      },
+      {
+        "path": "team_and_research_practice.md",
+        "role": "team",
+        "content": "> Fictional document created for ProposalBench.\n\n# Team roles and research practice\n\nFragmentary Music Evidence team, Rannakaar University\n\nStatement dated 18 September 2026\n\n## Composition and employment\n\nThe team comprises three employed researchers: Dr Maarja Sirelkoit, musicologist and coordinator; Dr Tõnis Lehevald, historical linguist; and Kadri Vahenurm, acoustic signal analyst. Sirelkoit and Lehevald each hold permanent 1.0 FTE appointments. Vahenurm holds a permanent 0.8 FTE research software and acoustics appointment. These are employment fractions across their institutional duties, not fractions already committed to another research award.\n\nSirelkoit is responsible for musical source criticism, interpretation of notation, coordination and accountability for research decisions. Her CV accompanies this statement. She was an annotator in the pilot.\n\nLehevald joined the university in September 2018 after completing a doctorate in historical linguistics at Rannakaar University in 2016. His work concerns fragmentary written Estonian, orthographic variation and language attribution from limited verbal evidence. He designed the linguistic evidence fields and was the second independent pilot annotator. His assessments record alternative readings and the limits of attribution from surviving syllables.\n\nVahenurm completed an MSc in acoustic signal processing at Rannakaar University in 2019, worked as a fixed-term technician in the university's media unit from 2019 to 2021, and took up her permanent research software and acoustics post in January 2022. She maintains the audio-processing scripts, checks file integrity and documents how processing choices affect derivatives. She has experience with digital filtering, spectral analysis and reproducible numerical workflows. She does not hold a doctorate.\n\n## Collaboration and responsibilities\n\nThe university collection staff provided supervised access and digitisation services during the pilot. Repository staff administer the public and restricted deposits. These are internal service relationships. There are no external institutional partners, subcontracted research teams or signed external research collaboration agreements in the current group.\n\nThe eight performers contributed the licensed contemporary examples as participants. Their participation does not constitute an agreement to provide further recordings.\n\nInterpretive changes require an entry explaining what evidence was reconsidered and who made the change. Original observations and independent labels remain recoverable. Vahenurm checks the technical integrity of a new deposit; Sirelkoit and Lehevald check whether its descriptions preserve the distinction between observed and inferred content.\n\n## Established practice and limits\n\nThe team combines qualitative source reading with structured annotations and quantitative summaries. Its strongest completed evidence concerns the practicability of documenting incomplete sources and processing linked audio on ordinary desktop equipment. The unresolved classifications show that a complete catalogue record can still contain substantial interpretive uncertainty.\n\nThe existing recordings retain unprocessed references and documented licences for research transformations. The software can mix recorded audio with generated noise and retain parameters and derivative identifiers. No controlled synthetic-masking recovery study, calibrated uncertainty model or independent comparison of recovery methods has been completed.\n\nWithin the musical material, modern performances provide examples of particular readings, while the catalogue records the evidence and uncertainty behind those readings. The team retains the original audio alongside processed derivatives so that changes to acoustic features can be inspected."
+      }
+    ],
+    "facts": [
+      {
+        "category": "identity",
+        "kind": "existing",
+        "text": "Dr Maarja Sirelkoit coordinates an internal music, linguistics and acoustic-processing team at Rannakaar University in Tartu, Estonia.",
+        "value": "Rannakaar University",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "education",
+        "kind": "existing",
+        "text": "Sirelkoit received her musicology PhD in June 2014, has held a permanent associate professorship since September 2021, and has supervised completed master's dissertations but no doctoral thesis to completion.",
+        "value": "I have not supervised a doctoral thesis to completion.",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "The three employed researchers are musicologist Sirelkoit and historical linguist Lehevald, each at permanent 1.0 FTE, and acoustic analyst Vahenurm at permanent 0.8 FTE; these fractions cover all institutional duties.",
+        "value": "0.8 FTE",
+        "salient": true,
+        "source": "team_and_research_practice.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "Lehevald completed his historical-linguistics doctorate in 2016 and joined the university in September 2018; Vahenurm completed her acoustic-signal-processing MSc in 2019, worked in the university's media unit from 2019 to 2021, began her permanent post in January 2022 and holds no doctorate.",
+        "value": "January 2022",
+        "salient": true,
+        "source": "team_and_research_practice.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "The university-funded Fragmentary Music Evidence Pilot ran from 1 January 2024 to 31 December 2025 under award RU-CE-2024-07, and its final report was accepted on 20 February 2026.",
+        "value": "RU-CE-2024-07",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "budget",
+        "kind": "existing",
+        "text": "Final pilot expenditure totalled EUR 46,800, comprising EUR 31,200 staff costs, EUR 6,000 performer and recording support, EUR 4,800 collection and digitisation services, and a fixed EUR 4,800 indirect-cost contribution against EUR 42,000 direct costs, with no equipment purchase.",
+        "value": "EUR 46,800",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The pilot catalogued 180 score fragments, selecting 30 from each of six folders; collection descriptions assign the material to approximately 1870–1935 (catalogue ranges, not verified dates), the sample excluded the most illegible material, and the performers were recruited locally.",
+        "value": "1870–1935",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The corpus contains 24 consented contemporary examples of unaccompanied solo singing with underlaid text from eight adult performers, three per performer, each lasting 45 seconds and totalling 18 minutes, all processed through the documented workflow and deposited as mono PCM WAV at 48 kHz and 24-bit resolution with checksums distinguishing originals from derivatives.",
+        "value": "unaccompanied solo singing with underlaid text",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The annotators agreed on 146 of 180 classifications, or 81.1%, with a descriptive Wilson 95% interval of 74.8%–86.2% that does not account for dependence within folders or sample selection.",
+        "value": "81.1%",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The agreed classifications comprised 96 vocal and 50 instrumental fragments, while 34 remained disputed, comprising 18 vocal/instrumental, 10 vocal/insufficient-evidence and six instrumental/insufficient-evidence disagreements; without an adjudicator or gold standard, these are disagreements rather than demonstrated errors and agreements rather than verified correct classifications.",
+        "value": "34",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "All 180 catalogue entries have source links and separate observation/inference fields, establishing documentation completeness rather than verified provenance or classification accuracy.",
+        "value": "180",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Across 24 examples, median noise-power reduction in non-performance intervals was 3.2 dB, with a performer-cluster bootstrap 95% interval of 2.4–4.0 dB based on eight performer clusters.",
+        "value": "3.2 dB",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "None of the 24 recordings has reference note-onset annotation or time-aligned reading sheets; the pilot used informal listening rather than blinded perceptual evaluation, had no held-out test set or predetermined recovery pass/fail rule, and did not evaluate note recognition, transient preservation or masked-material recovery.",
+        "value": "No reference annotation of note onsets exists for any of the 24 recordings as of 18 September 2026.",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Two existing desktops each have 32 GB RAM and a 1 TB solid-state drive, a managed university file service holds the authoritative directory with institutional backups, and an existing recording room, audio interface and microphone supported the pilot.",
+        "value": "32 GB RAM",
+        "salient": true,
+        "source": "resources_and_permissions.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Existing shared camera-based digitisation facilities supplied the pilot images and remain available through ordinary internal booking.",
+        "value": null,
+        "salient": true,
+        "source": "resources_and_permissions.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The EUR 28,000 scanner quotation, including delivery and VAT, was recorded in the November 2025 facilities review and expired in February 2026; no order was placed, the scanner was not purchased, and the pilot used the existing shared digitisation room.",
+        "value": "EUR 28,000",
+        "salient": true,
+        "source": "resources_and_permissions.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The dean signed host support on 15 September 2026 confirming employment, existing facilities and institutional administration, without committing new posts, dedicated future effort or an additional cash contribution; the statement is complete and in force.",
+        "value": "15 September 2026",
+        "salient": true,
+        "source": "resources_and_permissions.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The collection director signed reproduction and publication permission for the selected pilot source material and results on 12 June 2025; it is complete and in force but does not automatically cover other material in the collection.",
+        "value": "does not automatically cover other material in the collection",
+        "salient": true,
+        "source": "resources_and_permissions.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "All eight performers signed agreements permitting research processing, denoised and synthetically masked derivatives, and designated publication, while excluding unrestricted complete-recording redistribution and voice identification or cloning.",
+        "value": null,
+        "salient": true,
+        "source": "resources_and_permissions.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The favourable ethics determination issued on 22 November 2023 covers secondary analysis within participant-agreement terms without time limit; no withdrawal was recorded by 18 September 2026, and no new recruitment or extension application is active.",
+        "value": "The determination covers secondary research analysis of the recorded examples within the terms of the participant agreements, without time limit.",
+        "salient": true,
+        "source": "resources_and_permissions.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Public catalogue metadata use CC BY 4.0 and processing scripts use the MIT licence, while source images and audio retain their documented access restrictions.",
+        "value": "CC BY 4.0",
+        "salient": true,
+        "source": "resources_and_permissions.md"
+      },
+      {
+        "category": "publication",
+        "kind": "existing",
+        "text": "The record contains four published articles from 2018, 2021, 2024 and 2026, including the July 2026 pilot results article, no submitted or under-review manuscripts, and the associated Fragmentary Music Evidence Pilot Catalogue at release 1.0.",
+        "value": "release 1.0",
+        "salient": true,
+        "source": "publications.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Collection and repository services are internal university relationships, the team has no external institutional partners, subcontracted research teams or signed external research collaboration agreements, and the eight performers' participation does not constitute an agreement to provide further recordings.",
+        "value": "does not constitute an agreement to provide further recordings",
+        "salient": true,
+        "source": "team_and_research_practice.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Software can generate and log noise-mixed derivatives, but no controlled synthetic-masking recovery study, calibrated uncertainty model or independent comparison of recovery methods has been completed.",
+        "value": null,
+        "salient": true,
+        "source": "team_and_research_practice.md"
+      },
+      {
+        "category": "budget",
+        "kind": "existing",
+        "text": "The current external-grant schedule adds 15% indirect costs to all direct costs, sets monthly employer costs per full-time equivalent at EUR 4,800 for Sirelkoit, EUR 4,200 for Lehevald and EUR 4,000 for Vahenurm (EUR 3,200 at her existing 0.8 FTE), and charges EUR 30 per digitisation room-hour, EUR 45 per collection staff-hour and EUR 75 per statistical adviser-hour before indirect costs, with no additional VAT on internal tariffs, no digitisation charge for existing files and workstation use and routine storage covered by indirect costs.",
+        "value": "15%",
+        "salient": true,
+        "source": "resources_and_permissions.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "sirelkoit2018absence",
+        "authors": [
+          "Sirelkoit, M."
+        ],
+        "year": 2018,
+        "title": "Reading absence in domestic song manuscripts: a layered description protocol",
+        "venue": "Rannakaar Papers in Musical Evidence",
+        "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2018.1"
+      },
+      {
+        "key": "lehevald2021syllables",
+        "authors": [
+          "Lehevald, T.",
+          "Sirelkoit, M."
+        ],
+        "year": 2021,
+        "title": "Language attribution when song texts survive as isolated syllables",
+        "venue": "Baltic Review of Manuscript Linguistics",
+        "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2021.2"
+      },
+      {
+        "key": "vahenurm2024denoising",
+        "authors": [
+          "Vahenurm, K.",
+          "Sirelkoit, M."
+        ],
+        "year": 2024,
+        "title": "Documenting denoising decisions in short performed manuscript examples",
+        "venue": "Journal of Annotated Sound Provenance",
+        "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2024.3"
+      },
+      {
+        "key": "sirelkoit2026agreement",
+        "authors": [
+          "Sirelkoit, M.",
+          "Lehevald, T.",
+          "Vahenurm, K."
+        ],
+        "year": 2026,
+        "title": "Agreement without adjudication: linked evidence for fragmentary musical sources",
+        "venue": "Rannakaar Papers in Musical Evidence",
+        "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2026.4"
+      }
+    ],
+    "reviewer_criticisms": [],
+    "gaps": [],
+    "inconsistencies": []
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "team",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "music",
+          "cultural heritage",
+          "linguistics",
+          "acoustic signal processing"
+        ],
+        "method_profile": "mixed",
+        "country": "EE",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae: Dr Maarja Sirelkoit\n\nUpdated 18 September 2026\n\n## Current appointment\n\nAssociate Professor of Musicology, School of Cultural Evidence, Rannakaar University, Tartu, Estonia. Permanent appointment since September 2021; employment fraction 1.0 FTE. Coordinator of the university's Fragmentary Music Evidence team. My work concerns musical notation in damaged manuscripts, the evidential status of reconstructed readings, and the relationship between written musical sources and performed examples.\n\nRannakaar University is my employing institution and the custodian of the manuscript material used in our completed pilot. The team is an internal university group, rather than a consortium of separately funded organisations. My appointment includes research, teaching and collection-related service. It does not depend on renewal of the pilot award.\n\n## Education and appointments\n\n- 2005–2008: BA in Music Studies, Rannakaar University.\n- 2008–2010: MA in Historical Musicology, Rannakaar University. Dissertation on attribution practices in unsigned domestic song manuscripts.\n- 2010–2014: Doctoral researcher, Rannakaar University. PhD awarded June 2014 for *Reading musical remnants: evidential boundaries in incomplete household manuscripts*.\n- September 2014–August 2017: Research Fellow in Manuscript Music, Rannakaar University.\n- September 2017–August 2021: Lecturer in Musicology, Rannakaar University.\n- September 2021–present: Associate Professor of Musicology, Rannakaar University.\n\nMy doctoral and subsequent appointments have been in musicology. I have no degree or professional appointment in astronomy, physics or observational science.\n\n## Research responsibilities\n\nI was principal investigator of the university-funded project *Fragmentary Music Evidence Pilot*, award RU-CE-2024-07, from January 2024 to December 2025. I held responsibility for expenditure, access permissions, the classification protocol, performer recruitment and submission of the final report. The university accepted the report in February 2026 and closed the financial account in March 2026.\n\nFor that project I wrote the musicological annotation guide and served as one of the independent annotators. I also documented relationships between fragment identifiers, manuscript folders, image derivatives and interpretive statements. I did not treat majority preference or my own seniority as grounds for declaring a disputed reading correct. The final catalogue preserves the independent labels alongside any later commentary.\n\nMy current teaching covers source criticism, musical palaeography and documentation of editorial interventions. I have supervised completed master's dissertations involving manuscript descriptions and performance-based interpretation. I have not supervised a doctoral thesis to completion and do not claim that role as part of the team's present capacity.\n\n## Methods and contribution\n\nMy practical methods include close reading of notation, comparison of scribal habits, source description, structured annotation and qualitative analysis of reasons for disagreement. I use scripted catalogue checks prepared with colleagues, but I am not the team's signal-processing specialist. Historical language assessment is undertaken by our employed historical linguist; acoustic processing and numerical implementation are undertaken by our employed acoustic analyst.\n\nThe distinctive contribution of my work is the separation of what survives on the page from what an editor supplies. A legible note, an uncertain note, a missing passage and a plausible supplied passage have different statuses in our records. A performance of a supplied passage remains an interpretation, even when it sounds coherent.\n\n## Research outputs and service\n\nThe accompanying publication record contains four published articles, including the jointly authored pilot methods and results paper published in July 2026. These publications concern manuscript evidence, linguistic attribution and documented audio processing. None reports recovery of a historically verified missing melody or validation in another scientific domain.\n\nI maintain the team's annotation vocabulary and chair its internal source-reading meetings. The university collection staff retain authority over handling and reproduction of originals. My research role does not give me authority to extend participant consent or release restricted source files."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final report: Fragmentary Music Evidence Pilot\n\nAward RU-CE-2024-07, Rannakaar University Research Development Fund\n\nProject period: 1 January 2024–31 December 2025. Final report accepted 20 February 2026. This copy incorporates the permissions and deposit status recorded on 18 September 2026; the analytical results are unchanged.\n\nPrincipal investigator: Dr Maarja Sirelkoit. Team: Dr Tõnis Lehevald, historical linguistics; Kadri Vahenurm, acoustic signal processing.\n\n## Purpose and material\n\nThe pilot examined whether incomplete musical sources could be described without concealing disagreements between readers. Its practical outputs were a linked catalogue, independent classifications, provenance records and a small set of documented performance examples. It was not a complete survey of the university collection and did not attempt to reconstruct every missing passage.\n\nThe corpus comprised 180 score fragments from six manuscript folders, with 30 fragments selected from each folder. Collection descriptions assign the source material to approximately 1870–1935. Those dates are catalogue ranges, not independently verified dates for every leaf. Selection required permission to reproduce the fragment and enough surviving notation for an initial reading. Completely illegible leaves were therefore absent from the sample.\n\nEach fragment received a stable identifier linked to its physical folder and leaf reference. Separate records described visible notation, surviving words, physical loss and editorial inference. Fragment identifiers refer to physical source units, not to independent compositions. Several fragments can preserve related material, and similarity between them does not establish a shared author or date.\n\nThe audio component comprised 24 consented examples performed by eight adult participants, with three examples per participant. Each deposited example lasts 45 seconds, giving 18 minutes of deposited audio. Participants performed short readings prepared from the source material. These are contemporary demonstration recordings, not historical recordings of the manuscripts' original use. They cannot establish that a supplied melody or pronunciation is historically correct.\n\n## Annotation and provenance methods\n\nSirelkoit and Lehevald independently assigned one of three labels to each fragment: predominantly vocal, predominantly instrumental, or insufficient evidence. The guide required readers to cite visible features supporting their choice. Surviving verbal text could support a vocal classification, but its absence was not sufficient evidence of instrumental use. The insufficient-evidence label was available whenever the surviving material did not support either positive classification.\n\nThe readers entered their labels before seeing each other's decisions. Subsequent discussion was recorded separately and did not overwrite the independent records. The project did not appoint an adjudicator, assemble a gold-standard set or ask a third reader to settle disagreement. Interpretive notes distinguish a surviving inscription from an inferred language identification and distinguish both from a modern transcription.\n\nThe team completed source links and separate observation/inference fields for all 180 catalogue entries. This is a documentation-completeness result. It does not show that every provenance statement is correct or that the classifications are accurate. References to missing leaves identify an absence in the source; they do not supply the content of the absent material.\n\n## Classification results\n\nThe two annotators agreed on 146 of 180 classifications, or 81.1%. A descriptive Wilson 95% confidence interval for this proportion is 74.8%–86.2%, treating fragments as independent observations. Because fragments were selected within folders and can be related, that interval does not capture all dependence or selection uncertainty and is not a population-level estimate for the whole collection.\n\nThe agreed classifications comprised 96 predominantly vocal fragments and 50 predominantly instrumental fragments. There were no cases in which both readers selected insufficient evidence. The remaining 34 fragments were disputed: 18 had vocal/instrumental disagreement, 10 had vocal/insufficient-evidence disagreement and six had instrumental/insufficient-evidence disagreement. These categories account for the entire corpus.\n\nThe 34 disputed cases remain disputed in the deposited catalogue. They are not 34 demonstrated errors, and the 146 agreements are not 146 verified correct answers. Agreement was an observed property of these two readers using this guide. It was not measured against knowledge of the original intended performance.\n\nReading meetings identified recurring reasons for disagreement, including detached verbal text, notation resembling both a sung line and an instrumental part, and uncertainty about whether marks belonged to the original writing or a later addition. These observations were qualitative explanations of particular cases. The project did not estimate their prevalence across the wider archive.\n\n## Audio processing results\n\nVahenurm implemented a reproducible desktop workflow for importing the licensed recordings, retaining untouched source files, generating denoised derivatives and logging processing settings. All 24 examples passed through the workflow. The deposited audio format is mono PCM WAV at 48 kHz and 24-bit resolution. File checksums distinguish each original from its derivatives.\n\nNoise reduction was assessed in manually marked non-performance intervals within the same recordings. The median reduction in measured noise power was 3.2 dB across 24 examples. A performer-cluster bootstrap gave a 95% interval of 2.4–4.0 dB for the median; the resampling unit was the performer, retaining the three associated examples together. With only eight performer clusters, this interval provides limited information about variation beyond these recordings.\n\nThis measure concerns intervals without intended performance. It does not establish improved note recognition, preservation of every musical transient or recovery of masked material. Informal listening informed settings but was not a blinded perceptual evaluation. There was no separate held-out test set or predetermined recovery pass/fail rule. The project did not generate synthetic masking trials, quantify recovery under controlled signal-to-noise ratios or train a model to fill missing musical passages.\n\n## Delivery, expenditure and limitations\n\nThe final accepted expenditure was EUR 46,800: EUR 31,200 in staff costs, EUR 6,000 in performer fees and recording-session support, EUR 4,800 in collection handling and digitisation services, and EUR 4,800 in institutional indirect costs. These amounts exhaust the award. No equipment purchase was charged to it.\n\nThe project delivered the catalogue, annotation guide, processing scripts, consent register and restricted audio deposit. The public metadata deposit contains the independent labels and provenance fields. Audio access follows the separate performer agreements. The final report and financial closure did not extend any licence beyond its written terms.\n\nThe pilot established that the team could process and document the selected material with existing facilities. It left the central interpretive problem unresolved: plausible readings can differ even when their supporting evidence is recorded. The sample excluded the most illegible material, the performers were recruited locally, and the recordings were made for demonstration. Neither classification agreement nor measured noise reduction supports a claim of validated missing-content recovery. No work in astronomy or another observational-science domain formed part of the project."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications and associated research outputs\n\nFragmentary Music Evidence team, Rannakaar University\n\nRecord checked 18 September 2026. All four articles listed below are published. There are no submitted or under-review manuscripts in this record. Titles and identifiers are given as registered in the university's publication catalogue.\n\n## Published articles\n\n**Sirelkoit, M. (2018). Reading absence in domestic song manuscripts: a layered description protocol.** *Rannakaar Papers in Musical Evidence*, 3(1), 21–39. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2018.1\n\nThis single-author article separates physical description, diplomatic transcription and editorial supplementation in descriptions of incomplete musical manuscripts. Its contribution is a source-reading protocol and worked examples, rather than a statistical assessment of reconstruction accuracy. It predates the pilot corpus and does not report results from the later annotation exercise. The protocol provided the conceptual basis for retaining visible evidence and supplied material in different catalogue fields.\n\n**Lehevald, T., and Sirelkoit, M. (2021). Language attribution when song texts survive as isolated syllables.** *Baltic Review of Manuscript Linguistics*, 6(2), 77–96. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2021.2\n\nThis article examines the distinction between a readable character sequence and an attribution of that sequence to a language or dialect. It documents cases in which musical underlay, abbreviation and later handwriting prevent a secure attribution. The authors argue for preserving alternative readings with their evidence. It does not provide an automated language identifier, a dialect classifier or verified authorship assignments for unsigned sources. Lehevald led the linguistic analysis; Sirelkoit analysed notation and placement of text beneath the musical line.\n\n**Vahenurm, K., and Sirelkoit, M. (2024). Documenting denoising decisions in short performed manuscript examples.** *Journal of Annotated Sound Provenance*, 2(1), 11–28. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2024.3\n\nThis methods article describes retention of originals, parameter logging and reversible comparison of processed audio derivatives. It reports workflow development during the pilot's early recording work. Vahenurm implemented the processing and file-validation procedures; Sirelkoit supplied the musicological requirements and checked links to source readings. The article concerns auditable processing decisions. It makes no claim that reduced background noise establishes the historical truth of a performed interpretation.\n\n**Sirelkoit, M., Lehevald, T., and Vahenurm, K. (2026). Agreement without adjudication: linked evidence for fragmentary musical sources.** *Rannakaar Papers in Musical Evidence*, 11(2), 44–68. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2026.4\n\nPublished July 2026. This is the pilot's joint results article. It reports the independent classification exercise, preservation of unresolved disagreements and linkage between source descriptions and audio derivatives. The numerical results are those in the final report; the publication is not an independent replication. Sirelkoit coordinated the study and manuscript, Lehevald co-designed and undertook annotation, and Vahenurm implemented the processing and numerical summaries. All authors reviewed the interpretation of uncertainty.\n\n## Associated deposits\n\nThe *Fragmentary Music Evidence Pilot Catalogue*, release 1.0, is held in the Rannakaar University repository. Its public component contains catalogue metadata, independent classifications, the annotation guide and processing scripts. Its restricted component contains licensed source images, consent records and the complete audio examples. The catalogue is a research output, not an additional journal publication.\n\nThe team's publication record establishes experience with musical source criticism, linguistic ambiguity and reproducible audio documentation. It contains no astronomy publication, cross-domain recovery evaluation or benchmark demonstrating reconstruction of information removed from an independently known reference."
+          },
+          {
+            "path": "resources_and_permissions.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Facilities, holdings and permissions statement\n\nRannakaar University, School of Cultural Evidence\n\nInventory and rights status: 18 September 2026\n\n## Existing facilities\n\nThe team has two university-owned desktop workstations, each with 32 GB RAM and a 1 TB solid-state drive. Both are operational and available through the school's ordinary research facilities allocation. The installed workflow uses Python, NumPy, SciPy and an audio editor for inspection, parameter recording and digital denoising. The present workflow does not require a dedicated graphics processor, a new scanner or a new musical instrument.\n\nA managed university file service stores the authoritative project directory, including untouched originals, versioned metadata and processed derivatives. Routine institutional backups cover this directory. The desktops hold working copies; they are not the sole storage location. Access to participant-linked files is limited to named team members and authorised repository staff.\n\nThe university's shared digitisation room has a copy stand, a digital camera, diffuse lighting and a book cradle suitable for the loose leaves and supported manuscript openings used in the pilot. Collection staff supervise handling and maintain the link between source identifiers and image filenames. These facilities supplied the pilot images. Their continued availability under the ordinary internal booking system is confirmed in the host letter; they are not contingent on an equipment award.\n\nThe school's existing recording room, audio interface and microphone supported the contemporary performance examples. The recording chain is sufficient to replay, inspect and process the existing files. Instrument ownership is separate from processing capacity: the completed corpus can be analysed as deposited without arranging another performance session.\n\n## Scanner quotation record\n\nA supplier quotation for an overhead scanner at EUR 28,000, including delivery and VAT, was obtained during the pilot's facilities review in November 2025. It expired in February 2026. It was an option reviewed by the school, not an approved procurement. The scanner was not purchased, ordered, leased or installed, and no funds are reserved for it. The quotation is retained in the equipment correspondence file; the scanner is absent from the university asset register.\n\nThe pilot completed its digitisation through the existing shared room. The facilities review recorded no technical dependency on the quoted scanner for handling the selected fragments, processing audio or maintaining provenance-aware transcriptions. There is no outstanding instrument order or approved equipment acquisition associated with this team.\n\n## Source and participant permissions\n\nThe Rannakaar Manuscript and Sound Collection is an internal university collection. It is not a separate partner institution. The university holds the physical manuscripts used in the pilot and controls access to them under its collection procedures. Custody of an object is recorded separately from permission to publish its image.\n\nThe collection director signed the pilot reproduction and publication permission on 12 June 2025. It covers the selected source images, annotated excerpts, catalogue descriptions and publication of the described pilot results. It does not automatically cover other material in the collection. The signed document is held with the source-access register.\n\nAll eight performers signed participation and use agreements before recording. The agreements cover research processing, creation of denoised and synthetically masked derivatives, and publication of the designated audio examples and related pilot findings. They exclude unrestricted redistribution of the complete recordings and voice identification or voice cloning. Synthetic masking is therefore within the existing research licence, although no masking-and-recovery experiment had been conducted by this statement date.\n\nThe university ethics panel issued its favourable determination on 22 November 2023, before recruitment began. Recruitment and recording ended during the completed pilot. No participant withdrawal was recorded by 18 September 2026. No new recruitment is active, and there is no pending ethics application for an extension of the study.\n\n## Host confirmation and access boundaries\n\nThe dean signed the host support statement on 15 September 2026. It confirms the team's employment, access to the existing facilities, institutional administration of research funds and stewardship of the completed pilot records. It does not commit additional posts, dedicated future staff effort or a cash contribution to an unapproved project.\n\nPublic catalogue metadata are available under CC BY 4.0; the processing scripts are released under the MIT licence. Manuscript images and audio retain their documented access conditions. Consent forms are not public research data. External researchers can inspect the public annotation structure and scripts, but access to restricted files requires a separate decision under the repository's procedures.\n\nThe signed host statement and the pilot publication permissions are complete and in force as of this inventory date. Neither document is awaiting a signature or conditional on a later funding decision."
+          },
+          {
+            "path": "team_and_research_practice.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Team roles and research practice\n\nFragmentary Music Evidence team, Rannakaar University\n\nStatement dated 18 September 2026\n\n## Composition and employment\n\nThe team comprises three employed researchers: Dr Maarja Sirelkoit, musicologist and coordinator; Dr Tõnis Lehevald, historical linguist; and Kadri Vahenurm, acoustic signal analyst. Sirelkoit and Lehevald each hold permanent 1.0 FTE appointments. Vahenurm holds a permanent 0.8 FTE research software and acoustics appointment. These are employment fractions across their institutional duties, not fractions already committed to another research award.\n\nSirelkoit is responsible for musical source criticism, interpretation of notation, coordination and accountability for research decisions. Her CV accompanies this statement. She was an annotator in the pilot and is therefore not an independent assessor of its classification results.\n\nLehevald joined the university in September 2018 after completing a doctorate in historical linguistics at Rannakaar University in 2016. His work concerns fragmentary written Estonian, orthographic variation and language attribution from limited verbal evidence. He designed the linguistic evidence fields and was the second independent pilot annotator. He is an existing employee, not an adviser awaiting appointment or a proposed hire. His assessment can identify alternative readings and limitations; it cannot reliably assign a dialect from every surviving syllable.\n\nVahenurm joined the university in January 2022 following an MSc in acoustic signal processing at Rannakaar University in 2019 and subsequent technical work within the university. She maintains the audio-processing scripts, checks file integrity and documents how processing choices affect derivatives. She has experience with digital filtering, spectral analysis and reproducible numerical workflows. She does not hold a doctorate and was not responsible for historical attribution of manuscript content.\n\n## Collaboration and responsibilities\n\nThe university collection staff provided supervised access and digitisation services during the pilot. Repository staff administer the public and restricted deposits. These are internal service relationships. There are no external institutional partners, subcontracted research teams or signed cross-domain collaboration agreements in the current group.\n\nThe eight performers contributed the licensed contemporary examples as participants. They are not employees, consortium members or a standing recruitment panel. Their participation does not constitute an agreement to provide further recordings.\n\nInterpretive changes require an entry explaining what evidence was reconsidered and who made the change. Original observations and independent labels remain recoverable. Vahenurm checks the technical integrity of a new deposit; Sirelkoit and Lehevald check whether its descriptions preserve the distinction between observed and inferred content. None of these checks substitutes for independent validation of historical truth.\n\n## Established practice and limits\n\nThe team combines qualitative source reading with structured annotations and quantitative summaries. Its strongest completed evidence concerns the practicability of documenting incomplete sources and processing linked audio on ordinary desktop equipment. The unresolved classifications show that a complete catalogue record can still contain substantial interpretive uncertainty.\n\nThe existing recordings retain unprocessed references and documented licences for research transformations. The software can mix recorded audio with generated noise and retain parameters and derivative identifiers. This is available computational functionality, not evidence of successful weak-signal recovery. No controlled synthetic-masking recovery study, calibrated uncertainty model or independent comparison of recovery methods has been completed.\n\nThe team has no practical research experience with astronomical observations and has not analysed telescope data. It has no demonstrated transfer of its methods to astronomy, medicine or other observational-science domains. Similar language about incomplete evidence across disciplines has not been tested as equivalence between their noise processes, missingness mechanisms or validation standards.\n\nWithin the musical material, the principal limitations are equally explicit. Modern performances cannot supply ground truth for a lost historical performance. Reader agreement cannot supply ground truth for an ambiguous classification. A quieter recording need not preserve every relevant acoustic feature. These distinctions are part of the team's present documentation practice and delimit what its completed work supports."
+          }
+        ],
+        "facts": [
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "Dr Maarja Sirelkoit coordinates an internal music, linguistics and acoustic-processing team at Rannakaar University in Tartu, Estonia.",
+            "value": "Rannakaar University",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "education",
+            "kind": "existing",
+            "text": "Sirelkoit received her musicology PhD in June 2014 and has held a permanent associate professorship since September 2021.",
+            "value": "June 2014",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The three employed researchers are musicologist Sirelkoit and historical linguist Lehevald, each at permanent 1.0 FTE, and acoustic analyst Vahenurm at permanent 0.8 FTE; these fractions cover all institutional duties.",
+            "value": "0.8 FTE",
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The university-funded Fragmentary Music Evidence Pilot ran from 1 January 2024 to 31 December 2025 under award RU-CE-2024-07, and its final report was accepted on 20 February 2026.",
+            "value": "RU-CE-2024-07",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "Final pilot expenditure totalled EUR 46,800, comprising EUR 31,200 staff costs, EUR 6,000 performer and recording support, EUR 4,800 collection and digitisation services, and EUR 4,800 indirect costs, with no equipment purchase.",
+            "value": "EUR 46,800",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The pilot catalogued 180 score fragments, selecting 30 from each of six folders dated approximately 1870–1935 and excluding completely illegible leaves.",
+            "value": "180",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The audio corpus contains 24 consented contemporary examples from eight adult performers, three per performer, each lasting 45 seconds and totalling 18 minutes.",
+            "value": "24",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The annotators agreed on 146 of 180 classifications, or 81.1%, with a descriptive Wilson 95% interval of 74.8%–86.2% that does not account for dependence within folders or sample selection.",
+            "value": "81.1%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The agreed classifications comprised 96 vocal and 50 instrumental fragments; 34 remained disputed, comprising 18 vocal/instrumental, 10 vocal/insufficient-evidence and six instrumental/insufficient-evidence disagreements.",
+            "value": "34",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The pilot had no adjudicator or gold standard, so disagreements are not demonstrated errors and agreements are not verified correct classifications.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "All 180 catalogue entries have source links and separate observation/inference fields, establishing documentation completeness rather than verified provenance or classification accuracy.",
+            "value": "180",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Across 24 examples, median noise-power reduction in non-performance intervals was 3.2 dB, with a performer-cluster bootstrap 95% interval of 2.4–4.0 dB based on eight performer clusters.",
+            "value": "3.2 dB",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "All 24 examples were processed through the documented workflow and deposited as mono PCM WAV at 48 kHz and 24-bit resolution, with originals distinguished from derivatives by checksums.",
+            "value": "48 kHz",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Two existing desktops each have 32 GB RAM and a 1 TB solid-state drive, and operational software supports denoising and provenance-aware work without a new scanner or instrument.",
+            "value": "32 GB RAM",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Existing shared camera-based digitisation facilities supplied the pilot images and remain available through ordinary internal booking.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The EUR 28,000 scanner quotation expired in February 2026; the scanner was never purchased, ordered, leased or installed, no funds are reserved, and the pilot had no technical dependency on it.",
+            "value": "EUR 28,000",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The dean signed host support on 15 September 2026 confirming employment, existing facilities and institutional administration, without committing new posts, dedicated future effort or an additional cash contribution.",
+            "value": "15 September 2026",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The collection director signed reproduction and publication permission for the selected pilot source material and results on 12 June 2025, and that permission is complete and in force.",
+            "value": "12 June 2025",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "All eight performers signed agreements permitting research processing, denoised and synthetically masked derivatives, and designated publication, while excluding unrestricted complete-recording redistribution and voice identification or cloning.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Ethics clearance was issued on 22 November 2023 before recruitment; no withdrawal was recorded by 18 September 2026, and no new recruitment or extension application is active.",
+            "value": "22 November 2023",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Public catalogue metadata use CC BY 4.0 and processing scripts use the MIT licence, while source images and audio retain their documented access restrictions.",
+            "value": "CC BY 4.0",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "The publication record contains four published articles from 2018, 2021, 2024 and 2026, including the July 2026 pilot results article, with no submitted or under-review manuscripts.",
+            "value": "July 2026",
+            "salient": true,
+            "source": "publications.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Collection and repository services are internal university relationships, and the team has no external institutional partners or signed cross-domain collaboration agreements.",
+            "value": null,
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Software can generate and log noise-mixed derivatives, but no controlled synthetic-masking recovery study, calibrated uncertainty model or independent comparison of recovery methods has been completed.",
+            "value": null,
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The team has no practical astronomy research experience, has not analysed telescope data and has no demonstrated transfer of its methods to other observational-science domains.",
+            "value": null,
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "sirelkoit2018absence",
+            "authors": [
+              "Sirelkoit, M."
+            ],
+            "year": 2018,
+            "title": "Reading absence in domestic song manuscripts: a layered description protocol",
+            "venue": "Rannakaar Papers in Musical Evidence",
+            "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2018.1"
+          },
+          {
+            "key": "lehevald2021syllables",
+            "authors": [
+              "Lehevald, T.",
+              "Sirelkoit, M."
+            ],
+            "year": 2021,
+            "title": "Language attribution when song texts survive as isolated syllables",
+            "venue": "Baltic Review of Manuscript Linguistics",
+            "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2021.2"
+          },
+          {
+            "key": "vahenurm2024denoising",
+            "authors": [
+              "Vahenurm, K.",
+              "Sirelkoit, M."
+            ],
+            "year": 2024,
+            "title": "Documenting denoising decisions in short performed manuscript examples",
+            "venue": "Journal of Annotated Sound Provenance",
+            "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2024.3"
+          },
+          {
+            "key": "sirelkoit2026agreement",
+            "authors": [
+              "Sirelkoit, M.",
+              "Lehevald, T.",
+              "Vahenurm, K."
+            ],
+            "year": 2026,
+            "title": "Agreement without adjudication: linked evidence for fragmentary musical sources",
+            "venue": "Rannakaar Papers in Musical Evidence",
+            "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2026.4"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Dossier 4; Task 4",
+          "where": "cv_pi.md ('I have no degree or professional appointment in astronomy, physics or observational science'; 'None reports ... validation in another scientific domain'); prior_project.md last sentence ('No work in astronomy or another observational-science domain formed part of the project'); publications.md closing paragraph ('It contains no astronomy publication, cross-domain recovery evaluation or benchmark ...'); team_and_research_practice.md ('Similar language about incomplete evidence across disciplines has not been tested as equivalence ...'); resources_and_permissions.md scanner section ('There is no outstanding instrument order or approved equipment acquisition ...') and 'Synthetic masking is therefore within the existing research licence ...'",
+          "problem": "A musicologist's CV, an internal final report and a publication list would not deny work in astronomy or cross-domain recovery. These sentences are written against one call (weak signals) and its expected stretch gap, and they show the rubric's expected acknowledgement. The scanner passage repeats the scanner's non-status five times, which marks it as a trap. The masking sentence argues the stretch task's feasibility for the reader. Throughout, the many defensive 'does not establish / is not / cannot' sentences read as a specification. The same files also serve the sparse-records task, where the astronomy remarks have no context.",
+          "fix": "State the cross-domain absence once, plainly, in team_and_research_practice.md: 'The team has not worked with astronomical or other observational-science data.' Delete the astronomy and cross-domain sentences from cv_pi.md, prior_project.md and publications.md. Reduce the scanner record to its facts: quotation date, expiry, not purchased, pilot digitised in the shared room. Replace 'Synthetic masking is therefore within the existing research licence, although ...' with the consent clause itself. Cut about half of the remaining 'X is not Y' disclaimers that no real author would write."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 2",
+          "where": "team_and_research_practice.md, Vahenurm paragraph",
+          "problem": "'Vahenurm joined the university in January 2022 following an MSc ... in 2019 and subsequent technical work within the university' contradicts itself. She cannot have worked within the university before joining it. Her start date is one a proposal would quote.",
+          "fix": "Change the sentence to: 'Vahenurm completed an MSc in acoustic signal processing at Rannakaar University in 2019, worked as a fixed-term technician in the university's media unit from 2019 to 2021, and took up her permanent research software and acoustics post in January 2022.' Add her post start date to the facts registry."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3; Task 1",
+          "where": "resources_and_permissions.md, ethics paragraph; dossier.yaml F20",
+          "problem": "The dossier says the 22 November 2023 determination covered the pilot and that no extension application is pending. It never says whether that determination covers new analysis of the existing recordings under a new project, for example the synthetic-masking study the weak-signals task invites. A proposal cannot state its ethics position without inventing one. F20's 'no extension application is active' leaves it open whether one is needed.",
+          "fix": "Add one sentence fixing the scope. Either 'The determination covers secondary research analysis of the recorded examples within the terms of the participant agreements, without time limit', or 'Use of the recordings in a new funded project requires an amendment to the determination; none has been submitted.' Extend F20, or add a fact, with the exact wording."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml facts",
+          "problem": "Several salient limitations and statuses are stated in the files but missing from the registry. (a) The pilot had no blinded perceptual evaluation, no held-out test set and no predetermined pass/fail rule (prior_project.md); this bears directly on the T09 go/no-go trap. (b) The 12 June 2025 permission does not cover other collection material; this matters for the T11 brief, which proposes digitising the archive. (c) Performers have no agreement to provide further recordings. (d) The sample excluded the most illegible material and the performers were recruited locally. (e) Sirelkoit has no completed doctoral supervision. (f) Lehevald's doctorate (2016) and start date (September 2018); Vahenurm holds no doctorate. (g) The scanner quotation was dated November 2025. (h) The existing recording room and the managed backed-up file service. (i) The public catalogue is release 1.0. F06 also drops the source's caveat that 1870–1935 is a catalogue range, not verified dating.",
+          "fix": "Add facts for (a)–(h) with values exactly as written: 'no held-out test set or predetermined recovery pass/fail rule'; 'does not automatically cover other material in the collection'; 'does not constitute an agreement to provide further recordings'; and so on. Reword F06 to 'collection descriptions assign the material to approximately 1870–1935 (catalogue ranges, not verified dates)'."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "applicant_type": "team",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "music",
+          "cultural heritage",
+          "linguistics",
+          "acoustic signal processing"
+        ],
+        "method_profile": "mixed",
+        "country": "EE",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae: Dr Maarja Sirelkoit\n\nUpdated 18 September 2026\n\n## Current appointment\n\nAssociate Professor of Musicology, School of Cultural Evidence, Rannakaar University, Tartu, Estonia. Permanent appointment since September 2021; employment fraction 1.0 FTE. Coordinator of the university's Fragmentary Music Evidence team. My work concerns musical notation in damaged manuscripts, the evidential status of reconstructed readings, and the relationship between written musical sources and performed examples.\n\nRannakaar University is my employing institution and the custodian of the manuscript material used in our completed pilot. The team is an internal university group. My appointment includes research, teaching and collection-related service.\n\n## Education and appointments\n\n- 2005–2008: BA in Music Studies, Rannakaar University.\n- 2008–2010: MA in Historical Musicology, Rannakaar University. Dissertation on attribution practices in unsigned domestic song manuscripts.\n- 2010–2014: Doctoral researcher, Rannakaar University. PhD awarded June 2014 for *Reading musical remnants: evidential boundaries in incomplete household manuscripts*.\n- September 2014–August 2017: Research Fellow in Manuscript Music, Rannakaar University.\n- September 2017–August 2021: Lecturer in Musicology, Rannakaar University.\n- September 2021–present: Associate Professor of Musicology, Rannakaar University.\n\n## Research responsibilities\n\nI was principal investigator of the university-funded project *Fragmentary Music Evidence Pilot*, award RU-CE-2024-07, from January 2024 to December 2025. I held responsibility for expenditure, access permissions, the classification protocol, performer recruitment and submission of the final report. The university accepted the report in February 2026 and closed the financial account in March 2026.\n\nFor that project I wrote the musicological annotation guide and served as one of the independent annotators. I also documented relationships between fragment identifiers, manuscript folders, image derivatives and interpretive statements. The final catalogue preserves the independent labels alongside any later commentary.\n\nMy current teaching covers source criticism, musical palaeography and documentation of editorial interventions. I have supervised completed master's dissertations involving manuscript descriptions and performance-based interpretation. I have not supervised a doctoral thesis to completion.\n\n## Methods and contribution\n\nMy practical methods include close reading of notation, comparison of scribal habits, source description, structured annotation and qualitative analysis of reasons for disagreement. I use scripted catalogue checks prepared with colleagues. Historical language assessment is undertaken by our employed historical linguist; acoustic processing and numerical implementation are undertaken by our employed acoustic analyst.\n\nThe distinctive contribution of my work is the separation of what survives on the page from what an editor supplies. A legible note, an uncertain note, a missing passage and a plausible supplied passage have different statuses in our records. A performance of a supplied passage remains an interpretation, even when it sounds coherent.\n\n## Research outputs and service\n\nThe accompanying publication record contains four published articles, including the jointly authored pilot methods and results paper published in July 2026. These publications concern manuscript evidence, linguistic attribution and documented audio processing.\n\nI maintain the team's annotation vocabulary and chair its internal source-reading meetings. The university collection staff retain authority over handling and reproduction of originals."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final report: Fragmentary Music Evidence Pilot\n\nAward RU-CE-2024-07, Rannakaar University Research Development Fund\n\nProject period: 1 January 2024–31 December 2025. Final report accepted 20 February 2026. This copy incorporates the permissions and deposit status recorded on 18 September 2026; the analytical results are unchanged.\n\nPrincipal investigator: Dr Maarja Sirelkoit. Team: Dr Tõnis Lehevald, historical linguistics; Kadri Vahenurm, acoustic signal processing.\n\n## Purpose and material\n\nThe pilot examined whether incomplete musical sources could be described without concealing disagreements between readers. Its practical outputs were a linked catalogue, independent classifications, provenance records and a small set of documented performance examples.\n\nThe corpus comprised 180 score fragments from six manuscript folders, with 30 fragments selected from each folder. Collection descriptions assign the source material to approximately 1870–1935. Those dates are catalogue ranges, not independently verified dates for every leaf. Selection required permission to reproduce the fragment and enough surviving notation for an initial reading. Completely illegible leaves were therefore absent from the sample.\n\nEach fragment received a stable identifier linked to its physical folder and leaf reference. Separate records described visible notation, surviving words, physical loss and editorial inference. Fragment identifiers refer to physical source units. Several fragments can preserve related material, and similarity between them does not establish a shared author or date.\n\nThe audio component comprised 24 consented examples performed by eight adult participants, with three examples per participant. Each deposited example lasts 45 seconds, giving 18 minutes of deposited audio. Participants performed short readings prepared from the source material. These are contemporary demonstration recordings of the team's interpretations.\n\n## Annotation and provenance methods\n\nSirelkoit and Lehevald independently assigned one of three labels to each fragment: predominantly vocal, predominantly instrumental, or insufficient evidence. The guide required readers to cite visible features supporting their choice. Surviving verbal text could support a vocal classification, but its absence was not sufficient evidence of instrumental use. The insufficient-evidence label was available whenever the surviving material did not support either positive classification.\n\nThe readers entered their labels before seeing each other's decisions. Subsequent discussion was recorded separately and did not overwrite the independent records. The project did not appoint an adjudicator, assemble a gold-standard set or ask a third reader to settle disagreement. Interpretive notes distinguish a surviving inscription from an inferred language identification and distinguish both from a modern transcription.\n\nThe team completed source links and separate observation/inference fields for all 180 catalogue entries. This is a documentation-completeness result. Verification of the underlying provenance statements and classifications remained outside that check.\n\n## Classification results\n\nThe two annotators agreed on 146 of 180 classifications, or 81.1%. A descriptive Wilson 95% confidence interval for this proportion is 74.8%–86.2%, treating fragments as independent observations. Because fragments were selected within folders and can be related, that interval does not capture all dependence or selection uncertainty and is not a population-level estimate for the whole collection.\n\nThe agreed classifications comprised 96 predominantly vocal fragments and 50 predominantly instrumental fragments. There were no cases in which both readers selected insufficient evidence. The remaining 34 fragments were disputed: 18 had vocal/instrumental disagreement, 10 had vocal/insufficient-evidence disagreement and six had instrumental/insufficient-evidence disagreement. These categories account for the entire corpus.\n\nThe 34 disputed cases remain disputed in the deposited catalogue. They are not 34 demonstrated errors, and the 146 agreements are not 146 verified correct answers. Agreement was an observed property of these two readers using this guide.\n\nReading meetings identified recurring reasons for disagreement, including detached verbal text, notation resembling both a sung line and an instrumental part, and uncertainty about whether marks belonged to the original writing or a later addition. These observations were qualitative explanations of particular cases. The project did not estimate their prevalence across the wider archive.\n\n## Audio processing results\n\nVahenurm implemented a reproducible desktop workflow for importing the licensed recordings, retaining untouched source files, generating denoised derivatives and logging processing settings. All 24 examples passed through the workflow. The deposited audio format is mono PCM WAV at 48 kHz and 24-bit resolution. File checksums distinguish each original from its derivatives.\n\nNoise reduction was assessed in manually marked non-performance intervals within the same recordings. The median reduction in measured noise power was 3.2 dB across 24 examples. A performer-cluster bootstrap gave a 95% interval of 2.4–4.0 dB for the median; the resampling unit was the performer, retaining the three associated examples together. With only eight performer clusters, this interval provides limited information about variation beyond these recordings.\n\nThis measure concerns intervals without intended performance. Note recognition, preservation of musical transients and recovery of masked material were not evaluated. Informal listening informed settings but was not a blinded perceptual evaluation. There was no held-out test set or predetermined recovery pass/fail rule. The project did not generate synthetic masking trials, quantify recovery under controlled signal-to-noise ratios or train a model to fill missing musical passages.\n\n## Delivery, expenditure and limitations\n\nThe final accepted expenditure was EUR 46,800: EUR 31,200 in staff costs, EUR 6,000 in performer fees and recording-session support, EUR 4,800 in collection handling and digitisation services, and EUR 4,800 in institutional indirect costs. These amounts exhaust the award. No equipment purchase was charged to it.\n\nThe project delivered the catalogue, annotation guide, processing scripts, consent register and restricted audio deposit. The public metadata deposit contains the independent labels and provenance fields. Audio access follows the separate performer agreements.\n\nThe pilot established that the team could process and document the selected material with existing facilities. It left the central interpretive problem unresolved: plausible readings can differ even when their supporting evidence is recorded. The sample excluded the most illegible material, the performers were recruited locally, and the recordings were made for demonstration."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications and associated research outputs\n\nFragmentary Music Evidence team, Rannakaar University\n\nRecord checked 18 September 2026. All four articles listed below are published. There are no submitted or under-review manuscripts in this record. Titles and identifiers are given as registered in the university's publication catalogue.\n\n## Published articles\n\n**Sirelkoit, M. (2018). Reading absence in domestic song manuscripts: a layered description protocol.** *Rannakaar Papers in Musical Evidence*, 3(1), 21–39. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2018.1\n\nThis single-author article separates physical description, diplomatic transcription and editorial supplementation in descriptions of incomplete musical manuscripts. Its contribution is a source-reading protocol and worked examples. It predates the pilot corpus. The protocol provided the conceptual basis for retaining visible evidence and supplied material in different catalogue fields.\n\n**Lehevald, T., and Sirelkoit, M. (2021). Language attribution when song texts survive as isolated syllables.** *Baltic Review of Manuscript Linguistics*, 6(2), 77–96. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2021.2\n\nThis article examines the distinction between a readable character sequence and an attribution of that sequence to a language or dialect. It documents cases in which musical underlay, abbreviation and later handwriting prevent a secure attribution. The authors argue for preserving alternative readings with their evidence. Lehevald led the linguistic analysis; Sirelkoit analysed notation and placement of text beneath the musical line.\n\n**Vahenurm, K., and Sirelkoit, M. (2024). Documenting denoising decisions in short performed manuscript examples.** *Journal of Annotated Sound Provenance*, 2(1), 11–28. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2024.3\n\nThis methods article describes retention of originals, parameter logging and reversible comparison of processed audio derivatives. It reports workflow development during the pilot's early recording work. Vahenurm implemented the processing and file-validation procedures; Sirelkoit supplied the musicological requirements and checked links to source readings. The article concerns auditable processing decisions.\n\n**Sirelkoit, M., Lehevald, T., and Vahenurm, K. (2026). Agreement without adjudication: linked evidence for fragmentary musical sources.** *Rannakaar Papers in Musical Evidence*, 11(2), 44–68. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2026.4\n\nPublished July 2026. This is the pilot's joint results article. It reports the independent classification exercise, preservation of unresolved disagreements and linkage between source descriptions and audio derivatives. The numerical results are those in the final report; the publication is not an independent replication. Sirelkoit coordinated the study and manuscript, Lehevald co-designed and undertook annotation, and Vahenurm implemented the processing and numerical summaries. All authors reviewed the interpretation of uncertainty.\n\n## Associated deposits\n\nThe *Fragmentary Music Evidence Pilot Catalogue*, release 1.0, is held in the Rannakaar University repository. Its public component contains catalogue metadata, independent classifications, the annotation guide and processing scripts. Its restricted component contains licensed source images, consent records and the complete audio examples.\n\nThe team's publication record establishes experience with musical source criticism, linguistic ambiguity and reproducible audio documentation."
+          },
+          {
+            "path": "resources_and_permissions.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Facilities, holdings and permissions statement\n\nRannakaar University, School of Cultural Evidence\n\nInventory and rights status: 18 September 2026\n\n## Existing facilities\n\nThe team has two university-owned desktop workstations, each with 32 GB RAM and a 1 TB solid-state drive. Both are operational and available through the school's ordinary research facilities allocation. The installed workflow uses Python, NumPy, SciPy and an audio editor for inspection, parameter recording and digital denoising. The present workflow does not require a dedicated graphics processor, a new scanner or a new musical instrument.\n\nA managed university file service stores the authoritative project directory, including untouched originals, versioned metadata and processed derivatives. Routine institutional backups cover this directory. The desktops hold working copies. Access to participant-linked files is limited to named team members and authorised repository staff.\n\nThe university's shared digitisation room has a copy stand, a digital camera, diffuse lighting and a book cradle suitable for the loose leaves and supported manuscript openings used in the pilot. Collection staff supervise handling and maintain the link between source identifiers and image filenames. These facilities supplied the pilot images. Their continued availability under the ordinary internal booking system is confirmed in the host letter.\n\nThe school's existing recording room, audio interface and microphone supported the contemporary performance examples. The recording chain is sufficient to replay, inspect and process the existing files. The completed corpus can be analysed as deposited.\n\n## Scanner quotation record\n\nA supplier quotation for an overhead scanner at EUR 28,000, including delivery and VAT, was obtained during the pilot's facilities review in November 2025. It expired in February 2026. The scanner was not purchased. The pilot completed its digitisation through the existing shared room.\n\n## Source and participant permissions\n\nThe Rannakaar Manuscript and Sound Collection is an internal university collection. The university holds the physical manuscripts used in the pilot and controls access to them under its collection procedures. Custody of an object is recorded separately from permission to publish its image.\n\nThe collection director signed the pilot reproduction and publication permission on 12 June 2025. It covers the selected source images, annotated excerpts, catalogue descriptions and publication of the described pilot results. It does not automatically cover other material in the collection. The signed document is held with the source-access register.\n\nAll eight performers signed participation and use agreements before recording. The agreements cover research processing, creation of denoised and synthetically masked derivatives, and publication of the designated audio examples and related pilot findings. They exclude unrestricted redistribution of the complete recordings and voice identification or voice cloning.\n\nThe university ethics panel issued its favourable determination on 22 November 2023, before recruitment began. The determination covers secondary research analysis of the recorded examples within the terms of the participant agreements, without time limit. Recruitment and recording ended during the completed pilot. No participant withdrawal was recorded by 18 September 2026. No new recruitment is active, and there is no pending ethics application for an extension of the study.\n\n## Host confirmation and access boundaries\n\nThe dean signed the host support statement on 15 September 2026. It confirms the team's employment, access to the existing facilities, institutional administration of research funds and stewardship of the completed pilot records. It does not commit additional posts, dedicated future staff effort or a cash contribution to an unapproved project.\n\nPublic catalogue metadata are available under CC BY 4.0; the processing scripts are released under the MIT licence. Manuscript images and audio retain their documented access conditions. Consent forms are not public research data. External researchers can inspect the public annotation structure and scripts, but access to restricted files requires a separate decision under the repository's procedures.\n\nThe signed host statement and the pilot publication permissions are complete and in force as of this inventory date."
+          },
+          {
+            "path": "team_and_research_practice.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Team roles and research practice\n\nFragmentary Music Evidence team, Rannakaar University\n\nStatement dated 18 September 2026\n\n## Composition and employment\n\nThe team comprises three employed researchers: Dr Maarja Sirelkoit, musicologist and coordinator; Dr Tõnis Lehevald, historical linguist; and Kadri Vahenurm, acoustic signal analyst. Sirelkoit and Lehevald each hold permanent 1.0 FTE appointments. Vahenurm holds a permanent 0.8 FTE research software and acoustics appointment. These are employment fractions across their institutional duties, not fractions already committed to another research award.\n\nSirelkoit is responsible for musical source criticism, interpretation of notation, coordination and accountability for research decisions. Her CV accompanies this statement. She was an annotator in the pilot.\n\nLehevald joined the university in September 2018 after completing a doctorate in historical linguistics at Rannakaar University in 2016. His work concerns fragmentary written Estonian, orthographic variation and language attribution from limited verbal evidence. He designed the linguistic evidence fields and was the second independent pilot annotator. His assessments record alternative readings and the limits of attribution from surviving syllables.\n\nVahenurm completed an MSc in acoustic signal processing at Rannakaar University in 2019, worked as a fixed-term technician in the university's media unit from 2019 to 2021, and took up her permanent research software and acoustics post in January 2022. She maintains the audio-processing scripts, checks file integrity and documents how processing choices affect derivatives. She has experience with digital filtering, spectral analysis and reproducible numerical workflows. She does not hold a doctorate.\n\n## Collaboration and responsibilities\n\nThe university collection staff provided supervised access and digitisation services during the pilot. Repository staff administer the public and restricted deposits. These are internal service relationships. There are no external institutional partners, subcontracted research teams or signed cross-domain collaboration agreements in the current group.\n\nThe eight performers contributed the licensed contemporary examples as participants. Their participation does not constitute an agreement to provide further recordings.\n\nInterpretive changes require an entry explaining what evidence was reconsidered and who made the change. Original observations and independent labels remain recoverable. Vahenurm checks the technical integrity of a new deposit; Sirelkoit and Lehevald check whether its descriptions preserve the distinction between observed and inferred content.\n\n## Established practice and limits\n\nThe team combines qualitative source reading with structured annotations and quantitative summaries. Its strongest completed evidence concerns the practicability of documenting incomplete sources and processing linked audio on ordinary desktop equipment. The unresolved classifications show that a complete catalogue record can still contain substantial interpretive uncertainty.\n\nThe existing recordings retain unprocessed references and documented licences for research transformations. The software can mix recorded audio with generated noise and retain parameters and derivative identifiers. No controlled synthetic-masking recovery study, calibrated uncertainty model or independent comparison of recovery methods has been completed.\n\nThe team has not worked with astronomical or other observational-science data.\n\nWithin the musical material, modern performances provide examples of particular readings, while the catalogue records the evidence and uncertainty behind those readings. The team retains the original audio alongside processed derivatives so that changes to acoustic features can be inspected."
+          }
+        ],
+        "facts": [
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "Dr Maarja Sirelkoit coordinates an internal music, linguistics and acoustic-processing team at Rannakaar University in Tartu, Estonia.",
+            "value": "Rannakaar University",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "education",
+            "kind": "existing",
+            "text": "Sirelkoit received her musicology PhD in June 2014, has held a permanent associate professorship since September 2021, and has supervised completed master's dissertations but no doctoral thesis to completion.",
+            "value": "I have not supervised a doctoral thesis to completion.",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The three employed researchers are musicologist Sirelkoit and historical linguist Lehevald, each at permanent 1.0 FTE, and acoustic analyst Vahenurm at permanent 0.8 FTE; these fractions cover all institutional duties.",
+            "value": "0.8 FTE",
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Lehevald completed his historical-linguistics doctorate in 2016 and joined the university in September 2018; Vahenurm completed her acoustic-signal-processing MSc in 2019, worked in the university's media unit from 2019 to 2021, began her permanent post in January 2022 and holds no doctorate.",
+            "value": "January 2022",
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The university-funded Fragmentary Music Evidence Pilot ran from 1 January 2024 to 31 December 2025 under award RU-CE-2024-07, and its final report was accepted on 20 February 2026.",
+            "value": "RU-CE-2024-07",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "Final pilot expenditure totalled EUR 46,800, comprising EUR 31,200 staff costs, EUR 6,000 performer and recording support, EUR 4,800 collection and digitisation services, and EUR 4,800 indirect costs, with no equipment purchase.",
+            "value": "EUR 46,800",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The pilot catalogued 180 score fragments, selecting 30 from each of six folders; collection descriptions assign the material to approximately 1870–1935 (catalogue ranges, not verified dates), the sample excluded the most illegible material, and the performers were recruited locally.",
+            "value": "1870–1935",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The corpus contains 24 consented contemporary examples from eight adult performers, three per performer, each lasting 45 seconds and totalling 18 minutes, all processed through the documented workflow and deposited as mono PCM WAV at 48 kHz and 24-bit resolution with checksums distinguishing originals from derivatives.",
+            "value": "24",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The annotators agreed on 146 of 180 classifications, or 81.1%, with a descriptive Wilson 95% interval of 74.8%–86.2% that does not account for dependence within folders or sample selection.",
+            "value": "81.1%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The agreed classifications comprised 96 vocal and 50 instrumental fragments, while 34 remained disputed, comprising 18 vocal/instrumental, 10 vocal/insufficient-evidence and six instrumental/insufficient-evidence disagreements; without an adjudicator or gold standard, these are disagreements rather than demonstrated errors and agreements rather than verified correct classifications.",
+            "value": "34",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "All 180 catalogue entries have source links and separate observation/inference fields, establishing documentation completeness rather than verified provenance or classification accuracy.",
+            "value": "180",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Across 24 examples, median noise-power reduction in non-performance intervals was 3.2 dB, with a performer-cluster bootstrap 95% interval of 2.4–4.0 dB based on eight performer clusters.",
+            "value": "3.2 dB",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The pilot used informal listening rather than blinded perceptual evaluation and had no held-out test set or predetermined recovery pass/fail rule; note recognition, transient preservation and masked-material recovery were not evaluated.",
+            "value": "no held-out test set or predetermined recovery pass/fail rule",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Two existing desktops each have 32 GB RAM and a 1 TB solid-state drive, a managed university file service holds the authoritative directory with institutional backups, and an existing recording room, audio interface and microphone supported the pilot; the current workflow requires no new scanner or musical instrument.",
+            "value": "32 GB RAM",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Existing shared camera-based digitisation facilities supplied the pilot images and remain available through ordinary internal booking.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The EUR 28,000 scanner quotation, including delivery and VAT, was obtained in November 2025 and expired in February 2026; the scanner was not purchased, and the pilot used the existing shared digitisation room.",
+            "value": "EUR 28,000",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The dean signed host support on 15 September 2026 confirming employment, existing facilities and institutional administration, without committing new posts, dedicated future effort or an additional cash contribution; the statement is complete and in force.",
+            "value": "15 September 2026",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The collection director signed reproduction and publication permission for the selected pilot source material and results on 12 June 2025; it is complete and in force but does not automatically cover other material in the collection.",
+            "value": "does not automatically cover other material in the collection",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "All eight performers signed agreements permitting research processing, denoised and synthetically masked derivatives, and designated publication, while excluding unrestricted complete-recording redistribution and voice identification or cloning.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The favourable ethics determination issued on 22 November 2023 covers secondary analysis within participant-agreement terms without time limit; no withdrawal was recorded by 18 September 2026, and no new recruitment or extension application is active.",
+            "value": "The determination covers secondary research analysis of the recorded examples within the terms of the participant agreements, without time limit.",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Public catalogue metadata use CC BY 4.0 and processing scripts use the MIT licence, while source images and audio retain their documented access restrictions.",
+            "value": "CC BY 4.0",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "The record contains four published articles from 2018, 2021, 2024 and 2026, including the July 2026 pilot results article, no submitted or under-review manuscripts, and the associated Fragmentary Music Evidence Pilot Catalogue at release 1.0.",
+            "value": "release 1.0",
+            "salient": true,
+            "source": "publications.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Collection and repository services are internal university relationships, the team has no external institutional partners, subcontracted research teams or signed cross-domain collaboration agreements, and the eight performers' participation does not constitute an agreement to provide further recordings.",
+            "value": "does not constitute an agreement to provide further recordings",
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Software can generate and log noise-mixed derivatives, but no controlled synthetic-masking recovery study, calibrated uncertainty model or independent comparison of recovery methods has been completed.",
+            "value": null,
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The team has not worked with astronomical or other observational-science data.",
+            "value": null,
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "sirelkoit2018absence",
+            "authors": [
+              "Sirelkoit, M."
+            ],
+            "year": 2018,
+            "title": "Reading absence in domestic song manuscripts: a layered description protocol",
+            "venue": "Rannakaar Papers in Musical Evidence",
+            "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2018.1"
+          },
+          {
+            "key": "lehevald2021syllables",
+            "authors": [
+              "Lehevald, T.",
+              "Sirelkoit, M."
+            ],
+            "year": 2021,
+            "title": "Language attribution when song texts survive as isolated syllables",
+            "venue": "Baltic Review of Manuscript Linguistics",
+            "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2021.2"
+          },
+          {
+            "key": "vahenurm2024denoising",
+            "authors": [
+              "Vahenurm, K.",
+              "Sirelkoit, M."
+            ],
+            "year": 2024,
+            "title": "Documenting denoising decisions in short performed manuscript examples",
+            "venue": "Journal of Annotated Sound Provenance",
+            "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2024.3"
+          },
+          {
+            "key": "sirelkoit2026agreement",
+            "authors": [
+              "Sirelkoit, M.",
+              "Lehevald, T.",
+              "Vahenurm, K."
+            ],
+            "year": 2026,
+            "title": "Agreement without adjudication: linked evidence for fragmentary musical sources",
+            "venue": "Rannakaar Papers in Musical Evidence",
+            "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2026.4"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Dossier 3 / Task 1",
+          "where": "prior_project.md 'Purpose and material' and 'Audio processing results'; team_and_research_practice.md; brief.md (Tõnis 'ambiguous text placement'); dossier.yaml facts F08, F13",
+          "problem": "The brief's central question is note-onset recovery, but no file says what the 24 examples contain. It is not stated whether they are sung or played, solo or ensemble, or with or without text. It is also not stated whether any reference onset annotation exists. The brief gives Lehevald 'ambiguous text placement', which implies sung examples, but the dossier never says the performances carry text. A proposal must define the signal (SC2), the ground truth for 'events that were never in the recording' (ME5, ME7) and each member's task (ME4). Without these, a writer must either guess the performance medium or stay vague about the signal being recovered. dossier.yaml has no gaps section recording this absence.",
+          "fix": "In prior_project.md, state the medium and texture of the examples, for example: '24 unaccompanied sung examples with underlaid text; 12 performers sang, ...' or a stated mix with counts per performer. Add one sentence that no onset reference annotation exists, or that one exists, with method and count. Register both as facts. If the absence of onset references is meant to be a planned activity, record it as a gap in dossier.yaml.",
+          "from_task_review": "pub2-foundation-signals-stretch"
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3 / Task 1",
+          "where": "resources_and_permissions.md 'Host confirmation'; prior_project.md 'Delivery, expenditure and limitations'; task.yaml T2 expected_behaviour",
+          "problem": "T2 requires 'an internally consistent indicative allocation ... including indirect costs', and the call requires indirect costs within the ceiling. The dossier gives no cost basis for this. There is no institutional indirect-cost rate; the pilot's EUR 4,800 on EUR 42,000 direct implies about 11.4%, but no rate is stated. There are no staff cost rates or person-month costs, and no basis for a statistical adviser's cost. There is no internal charge for the shared digitisation room, although the pilot paid EUR 4,800 for 'collection handling and digitisation services', so the T2 alternative may itself carry a charge. Any budget after removing the scanner rests on numbers the system must invent, and graders cannot judge internal consistency against a dossier anchor.",
+          "fix": "Add to the host confirmation or resources file: the university's indirect-cost rate for external grants (for example 'calculated at 15% of direct costs'); indicative monthly employer costs for the three staff grades or the school's standard research-hour rate; and the internal booking charge for the digitisation room and collection handling. Register these as facts. Alternatively, record them as gaps and loosen T2 so it does not grade budget arithmetic.",
+          "from_task_review": "pub2-foundation-signals-stretch"
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "team_and_research_practice.md ('The team has not worked with astronomical or other observational-science data'; 'signed cross-domain collaboration agreements'); prior_project.md ('The project did not generate synthetic masking trials, quantify recovery under controlled signal-to-noise ratios or train a model to fill missing musical passages'); resources_and_permissions.md ('does not require a dedicated graphics processor, a new scanner or a new musical instrument' and the separate 'Scanner quotation record' section)",
+          "problem": "Several statements answer this particular call and trap rather than reading as the team's own documents. A musicology team statement would not mention astronomy, which is the call's illustrative domain, or 'cross-domain' agreements, which echo the call's 'transfer between domains'. A 2025 cataloguing report would not list the synthetic-masking and controlled-SNR experiments that the call's scope asks for. A facilities inventory would not keep a dedicated section for an expired quotation on equipment never bought, nor list items it does not need. Together these read as a benchmark specification and pre-cue the scanner trap.",
+          "fix": "Delete the astronomy sentence and drop F25, or replace it with a natural statement of methodological limits ('no member has formal training in statistical modelling of measurement uncertainty'). Replace 'cross-domain collaboration agreements' with 'external research collaboration agreements'. Reduce the final-report limitation to what the pilot measured ('recovery of missing material was outside the pilot's aims'). Move the quotation into an ordinary facilities-review note or the CV's account of the pilot ('a quotation for an overhead scanner, EUR 28,000 incl. VAT, Nov 2025, was not pursued'). Remove the 'does not require ... a new scanner' clause.",
+          "from_task_review": "pub2-foundation-signals-stretch"
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "applicant_type": "team",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "music",
+          "cultural heritage",
+          "linguistics",
+          "acoustic signal processing"
+        ],
+        "method_profile": "mixed",
+        "country": "EE",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae: Dr Maarja Sirelkoit\n\nUpdated 18 September 2026\n\n## Current appointment\n\nAssociate Professor of Musicology, School of Cultural Evidence, Rannakaar University, Tartu, Estonia. Permanent appointment since September 2021; employment fraction 1.0 FTE. Coordinator of the university's Fragmentary Music Evidence team. My work concerns musical notation in damaged manuscripts, the evidential status of reconstructed readings, and the relationship between written musical sources and performed examples.\n\nRannakaar University is my employing institution and the custodian of the manuscript material used in our completed pilot. The team is an internal university group. My appointment includes research, teaching and collection-related service.\n\n## Education and appointments\n\n- 2005–2008: BA in Music Studies, Rannakaar University.\n- 2008–2010: MA in Historical Musicology, Rannakaar University. Dissertation on attribution practices in unsigned domestic song manuscripts.\n- 2010–2014: Doctoral researcher, Rannakaar University. PhD awarded June 2014 for *Reading musical remnants: evidential boundaries in incomplete household manuscripts*.\n- September 2014–August 2017: Research Fellow in Manuscript Music, Rannakaar University.\n- September 2017–August 2021: Lecturer in Musicology, Rannakaar University.\n- September 2021–present: Associate Professor of Musicology, Rannakaar University.\n\n## Research responsibilities\n\nI was principal investigator of the university-funded project *Fragmentary Music Evidence Pilot*, award RU-CE-2024-07, from January 2024 to December 2025. I held responsibility for expenditure, access permissions, the classification protocol, performer recruitment and submission of the final report. The university accepted the report in February 2026 and closed the financial account in March 2026.\n\nFor that project I wrote the musicological annotation guide and served as one of the independent annotators. I also documented relationships between fragment identifiers, manuscript folders, image derivatives and interpretive statements. The final catalogue preserves the independent labels alongside any later commentary.\n\nMy current teaching covers source criticism, musical palaeography and documentation of editorial interventions. I have supervised completed master's dissertations involving manuscript descriptions and performance-based interpretation. I have not supervised a doctoral thesis to completion.\n\n## Methods and contribution\n\nMy practical methods include close reading of notation, comparison of scribal habits, source description, structured annotation and qualitative analysis of reasons for disagreement. I use scripted catalogue checks prepared with colleagues. Historical language assessment is undertaken by our employed historical linguist; acoustic processing and numerical implementation are undertaken by our employed acoustic analyst.\n\nThe distinctive contribution of my work is the separation of what survives on the page from what an editor supplies. A legible note, an uncertain note, a missing passage and a plausible supplied passage have different statuses in our records. A performance of a supplied passage remains an interpretation, even when it sounds coherent.\n\n## Research outputs and service\n\nThe accompanying publication record contains four published articles, including the jointly authored pilot methods and results paper published in July 2026. These publications concern manuscript evidence, linguistic attribution and documented audio processing.\n\nI maintain the team's annotation vocabulary and chair its internal source-reading meetings. The university collection staff retain authority over handling and reproduction of originals."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final report: Fragmentary Music Evidence Pilot\n\nAward RU-CE-2024-07, Rannakaar University Research Development Fund\n\nProject period: 1 January 2024–31 December 2025. Final report accepted 20 February 2026. This copy incorporates the permissions and deposit status recorded on 18 September 2026; the analytical results are unchanged.\n\nPrincipal investigator: Dr Maarja Sirelkoit. Team: Dr Tõnis Lehevald, historical linguistics; Kadri Vahenurm, acoustic signal processing.\n\n## Purpose and material\n\nThe pilot examined whether incomplete musical sources could be described without concealing disagreements between readers. Its practical outputs were a linked catalogue, independent classifications, provenance records and a small set of documented performance examples.\n\nThe corpus comprised 180 score fragments from six manuscript folders, with 30 fragments selected from each folder. Collection descriptions assign the source material to approximately 1870–1935. Those dates are catalogue ranges, not independently verified dates for every leaf. Selection required permission to reproduce the fragment and enough surviving notation for an initial reading. Completely illegible leaves were therefore absent from the sample.\n\nEach fragment received a stable identifier linked to its physical folder and leaf reference. Separate records described visible notation, surviving words, physical loss and editorial inference. Fragment identifiers refer to physical source units. Several fragments can preserve related material, and similarity between them does not establish a shared author or date.\n\nThe audio component comprised 24 consented examples performed by eight adult participants, with three examples per participant. All 24 examples are unaccompanied solo singing with underlaid text: one singer performs a single melodic line in each recording. Each deposited example lasts 45 seconds, giving 18 minutes of deposited audio. Participants performed short readings prepared from the source material. These are contemporary demonstration recordings of the team's interpretations. The deposited reading sheets distinguish surviving words and syllables from supplied text and record uncertain placement of syllables beneath notes.\n\n## Annotation and provenance methods\n\nSirelkoit and Lehevald independently assigned one of three labels to each fragment: predominantly vocal, predominantly instrumental, or insufficient evidence. The guide required readers to cite visible features supporting their choice. Surviving verbal text could support a vocal classification, but its absence was not sufficient evidence of instrumental use. The insufficient-evidence label was available whenever the surviving material did not support either positive classification.\n\nThe readers entered their labels before seeing each other's decisions. Subsequent discussion was recorded separately and did not overwrite the independent records. The project did not appoint an adjudicator, assemble a gold-standard set or ask a third reader to settle disagreement. Interpretive notes distinguish a surviving inscription from an inferred language identification and distinguish both from a modern transcription.\n\nThe team completed source links and separate observation/inference fields for all 180 catalogue entries. This is a documentation-completeness result. Verification of the underlying provenance statements and classifications remained outside that check.\n\n## Classification results\n\nThe two annotators agreed on 146 of 180 classifications, or 81.1%. A descriptive Wilson 95% confidence interval for this proportion is 74.8%–86.2%, treating fragments as independent observations. Because fragments were selected within folders and can be related, that interval does not capture all dependence or selection uncertainty and is not a population-level estimate for the whole collection.\n\nThe agreed classifications comprised 96 predominantly vocal fragments and 50 predominantly instrumental fragments. There were no cases in which both readers selected insufficient evidence. The remaining 34 fragments were disputed: 18 had vocal/instrumental disagreement, 10 had vocal/insufficient-evidence disagreement and six had instrumental/insufficient-evidence disagreement. These categories account for the entire corpus.\n\nThe 34 disputed cases remain disputed in the deposited catalogue. They are not 34 demonstrated errors, and the 146 agreements are not 146 verified correct answers. Agreement was an observed property of these two readers using this guide.\n\nReading meetings identified recurring reasons for disagreement, including detached verbal text, notation resembling both a sung line and an instrumental part, and uncertainty about whether marks belonged to the original writing or a later addition. These observations were qualitative explanations of particular cases. The project did not estimate their prevalence across the wider archive.\n\n## Audio processing results\n\nVahenurm implemented a reproducible desktop workflow for importing the licensed recordings, retaining untouched source files, generating denoised derivatives and logging processing settings. All 24 examples passed through the workflow. The deposited audio format is mono PCM WAV at 48 kHz and 24-bit resolution. File checksums distinguish each original from its derivatives.\n\nNoise reduction was assessed in manually marked non-performance intervals within the same recordings. The median reduction in measured noise power was 3.2 dB across 24 examples. A performer-cluster bootstrap gave a 95% interval of 2.4–4.0 dB for the median; the resampling unit was the performer, retaining the three associated examples together. With only eight performer clusters, this interval provides limited information about variation beyond these recordings.\n\nNo reference annotation of note onsets exists for any of the 24 recordings as of 18 September 2026. The interval markings identify non-performance regions only; the reading sheets have no alignment to recorded event times. Untouched recordings preserve the performed interpretations, rather than establishing the historical correctness of the readings.\n\nThis measure concerns intervals without intended performance. Note recognition, preservation of musical transients and recovery of masked material were not evaluated. Informal listening informed settings but was not a blinded perceptual evaluation. There was no held-out test set or predetermined recovery pass/fail rule. Recovery of missing material was outside the pilot's aims.\n\n## Delivery, expenditure and limitations\n\nThe final accepted expenditure was EUR 46,800: EUR 31,200 in staff costs, EUR 6,000 in performer fees and recording-session support, EUR 4,800 in collection handling and digitisation services, and EUR 4,800 in institutional indirect costs. These amounts exhaust the award. No equipment purchase was charged to it. The internal award specified a fixed indirect-cost contribution of EUR 4,800 against EUR 42,000 in direct costs; it did not use the university's external-grant percentage rate.\n\nThe project delivered the catalogue, annotation guide, processing scripts, consent register and restricted audio deposit. The public metadata deposit contains the independent labels and provenance fields. Audio access follows the separate performer agreements.\n\nThe pilot established that the team could process and document the selected material with existing facilities. It left the central interpretive problem unresolved: plausible readings can differ even when their supporting evidence is recorded. The sample excluded the most illegible material, the performers were recruited locally, and the recordings were made for demonstration."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications and associated research outputs\n\nFragmentary Music Evidence team, Rannakaar University\n\nRecord checked 18 September 2026. All four articles listed below are published. There are no submitted or under-review manuscripts in this record. Titles and identifiers are given as registered in the university's publication catalogue.\n\n## Published articles\n\n**Sirelkoit, M. (2018). Reading absence in domestic song manuscripts: a layered description protocol.** *Rannakaar Papers in Musical Evidence*, 3(1), 21–39. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2018.1\n\nThis single-author article separates physical description, diplomatic transcription and editorial supplementation in descriptions of incomplete musical manuscripts. Its contribution is a source-reading protocol and worked examples. It predates the pilot corpus. The protocol provided the conceptual basis for retaining visible evidence and supplied material in different catalogue fields.\n\n**Lehevald, T., and Sirelkoit, M. (2021). Language attribution when song texts survive as isolated syllables.** *Baltic Review of Manuscript Linguistics*, 6(2), 77–96. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2021.2\n\nThis article examines the distinction between a readable character sequence and an attribution of that sequence to a language or dialect. It documents cases in which musical underlay, abbreviation and later handwriting prevent a secure attribution. The authors argue for preserving alternative readings with their evidence. Lehevald led the linguistic analysis; Sirelkoit analysed notation and placement of text beneath the musical line.\n\n**Vahenurm, K., and Sirelkoit, M. (2024). Documenting denoising decisions in short performed manuscript examples.** *Journal of Annotated Sound Provenance*, 2(1), 11–28. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2024.3\n\nThis methods article describes retention of originals, parameter logging and reversible comparison of processed audio derivatives. It reports workflow development during the pilot's early recording work. Vahenurm implemented the processing and file-validation procedures; Sirelkoit supplied the musicological requirements and checked links to source readings. The article concerns auditable processing decisions.\n\n**Sirelkoit, M., Lehevald, T., and Vahenurm, K. (2026). Agreement without adjudication: linked evidence for fragmentary musical sources.** *Rannakaar Papers in Musical Evidence*, 11(2), 44–68. DOI: 10.99999/pb.v2-fragmentary-music-archive-team.2026.4\n\nPublished July 2026. This is the pilot's joint results article. It reports the independent classification exercise, preservation of unresolved disagreements and linkage between source descriptions and audio derivatives. The numerical results are those in the final report; the publication is not an independent replication. Sirelkoit coordinated the study and manuscript, Lehevald co-designed and undertook annotation, and Vahenurm implemented the processing and numerical summaries. All authors reviewed the interpretation of uncertainty.\n\n## Associated deposits\n\nThe *Fragmentary Music Evidence Pilot Catalogue*, release 1.0, is held in the Rannakaar University repository. Its public component contains catalogue metadata, independent classifications, the annotation guide and processing scripts. Its restricted component contains licensed source images, consent records and the complete audio examples.\n\nThe team's publication record establishes experience with musical source criticism, linguistic ambiguity and reproducible audio documentation."
+          },
+          {
+            "path": "resources_and_permissions.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Facilities, holdings and permissions statement\n\nRannakaar University, School of Cultural Evidence\n\nInventory and rights status: 18 September 2026\n\n## Existing facilities\n\nThe team has two university-owned desktop workstations, each with 32 GB RAM and a 1 TB solid-state drive. Both are operational and available through the school's ordinary research facilities allocation. The installed workflow uses Python, NumPy, SciPy and an audio editor for inspection, parameter recording and digital denoising.\n\nA managed university file service stores the authoritative project directory, including untouched originals, versioned metadata and processed derivatives. Routine institutional backups cover this directory. The desktops hold working copies. Access to participant-linked files is limited to named team members and authorised repository staff.\n\nThe university's shared digitisation room has a copy stand, a digital camera, diffuse lighting and a book cradle suitable for the loose leaves and supported manuscript openings used in the pilot. Collection staff supervise handling and maintain the link between source identifiers and image filenames. These facilities supplied the pilot images. Their continued availability under the ordinary internal booking system is confirmed in the host letter.\n\nThe school's existing recording room, audio interface and microphone supported the contemporary performance examples. The recording chain is sufficient to replay, inspect and process the existing files. The completed corpus can be analysed as deposited.\n\nThe November 2025 facilities review recorded a supplier quotation for an overhead scanner at EUR 28,000, including delivery and VAT. The quotation was not pursued and expired in February 2026; no order was placed and the scanner was not purchased. The pilot completed its digitisation through the existing shared room.\n\n## Source and participant permissions\n\nThe Rannakaar Manuscript and Sound Collection is an internal university collection. The university holds the physical manuscripts used in the pilot and controls access to them under its collection procedures. Custody of an object is recorded separately from permission to publish its image.\n\nThe collection director signed the pilot reproduction and publication permission on 12 June 2025. It covers the selected source images, annotated excerpts, catalogue descriptions and publication of the described pilot results. It does not automatically cover other material in the collection. The signed document is held with the source-access register.\n\nAll eight performers signed participation and use agreements before recording. The agreements cover research processing, creation of denoised and synthetically masked derivatives, and publication of the designated audio examples and related pilot findings. They exclude unrestricted redistribution of the complete recordings and voice identification or voice cloning.\n\nThe university ethics panel issued its favourable determination on 22 November 2023, before recruitment began. The determination covers secondary research analysis of the recorded examples within the terms of the participant agreements, without time limit. Recruitment and recording ended during the completed pilot. No participant withdrawal was recorded by 18 September 2026. No new recruitment is active, and there is no pending ethics application for an extension of the study.\n\n## Host confirmation and access boundaries\n\nThe dean signed the host support statement on 15 September 2026. It confirms the team's employment, access to the existing facilities, institutional administration of research funds and stewardship of the completed pilot records. It does not commit additional posts, dedicated future staff effort or a cash contribution to an unapproved project.\n\nThe finance schedule accompanying the statement records the university's external-grant indirect-cost rate as 15% of all direct costs, including staff and internal services. Indirect costs are added to direct costs to obtain the total grant cost. This schedule has been effective since 1 January 2026. The completed internal pilot retained the fixed contribution specified in its award.\n\nCurrent monthly employer costs for one full-time equivalent are EUR 4,800 for Sirelkoit's grade, EUR 4,200 for Lehevald's grade and EUR 4,000 for Vahenurm's grade. These amounts include salary and employer contributions, exclude institutional indirect costs and are prorated by charged employment fraction and duration. Vahenurm's existing 0.8 FTE appointment therefore costs EUR 3,200 per calendar month before indirect costs. Research time is charged against recorded effort; employment fractions do not establish available project effort.\n\nThe internal tariff is EUR 30 per booked room-hour for the digitisation room and EUR 45 per staff-hour for collection handling, charged separately when both are used. Room use includes the camera, lighting and cradle. Existing deposited files carry no additional digitisation charge. Workstation use and routine storage are covered by institutional indirect costs. The university's statistical consultation service charges EUR 75 per adviser-hour before indirect costs; it is available through internal booking, with no adviser or hours assigned to this team as of the statement date. Internal tariffs carry no additional VAT.\n\nPublic catalogue metadata are available under CC BY 4.0; the processing scripts are released under the MIT licence. Manuscript images and audio retain their documented access conditions. Consent forms are not public research data. External researchers can inspect the public annotation structure and scripts, but access to restricted files requires a separate decision under the repository's procedures.\n\nThe signed host statement and the pilot publication permissions are complete and in force as of this inventory date."
+          },
+          {
+            "path": "team_and_research_practice.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Team roles and research practice\n\nFragmentary Music Evidence team, Rannakaar University\n\nStatement dated 18 September 2026\n\n## Composition and employment\n\nThe team comprises three employed researchers: Dr Maarja Sirelkoit, musicologist and coordinator; Dr Tõnis Lehevald, historical linguist; and Kadri Vahenurm, acoustic signal analyst. Sirelkoit and Lehevald each hold permanent 1.0 FTE appointments. Vahenurm holds a permanent 0.8 FTE research software and acoustics appointment. These are employment fractions across their institutional duties, not fractions already committed to another research award.\n\nSirelkoit is responsible for musical source criticism, interpretation of notation, coordination and accountability for research decisions. Her CV accompanies this statement. She was an annotator in the pilot.\n\nLehevald joined the university in September 2018 after completing a doctorate in historical linguistics at Rannakaar University in 2016. His work concerns fragmentary written Estonian, orthographic variation and language attribution from limited verbal evidence. He designed the linguistic evidence fields and was the second independent pilot annotator. His assessments record alternative readings and the limits of attribution from surviving syllables.\n\nVahenurm completed an MSc in acoustic signal processing at Rannakaar University in 2019, worked as a fixed-term technician in the university's media unit from 2019 to 2021, and took up her permanent research software and acoustics post in January 2022. She maintains the audio-processing scripts, checks file integrity and documents how processing choices affect derivatives. She has experience with digital filtering, spectral analysis and reproducible numerical workflows. She does not hold a doctorate.\n\n## Collaboration and responsibilities\n\nThe university collection staff provided supervised access and digitisation services during the pilot. Repository staff administer the public and restricted deposits. These are internal service relationships. There are no external institutional partners, subcontracted research teams or signed external research collaboration agreements in the current group.\n\nThe eight performers contributed the licensed contemporary examples as participants. Their participation does not constitute an agreement to provide further recordings.\n\nInterpretive changes require an entry explaining what evidence was reconsidered and who made the change. Original observations and independent labels remain recoverable. Vahenurm checks the technical integrity of a new deposit; Sirelkoit and Lehevald check whether its descriptions preserve the distinction between observed and inferred content.\n\n## Established practice and limits\n\nThe team combines qualitative source reading with structured annotations and quantitative summaries. Its strongest completed evidence concerns the practicability of documenting incomplete sources and processing linked audio on ordinary desktop equipment. The unresolved classifications show that a complete catalogue record can still contain substantial interpretive uncertainty.\n\nThe existing recordings retain unprocessed references and documented licences for research transformations. The software can mix recorded audio with generated noise and retain parameters and derivative identifiers. No controlled synthetic-masking recovery study, calibrated uncertainty model or independent comparison of recovery methods has been completed.\n\nWithin the musical material, modern performances provide examples of particular readings, while the catalogue records the evidence and uncertainty behind those readings. The team retains the original audio alongside processed derivatives so that changes to acoustic features can be inspected."
+          }
+        ],
+        "facts": [
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "Dr Maarja Sirelkoit coordinates an internal music, linguistics and acoustic-processing team at Rannakaar University in Tartu, Estonia.",
+            "value": "Rannakaar University",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "education",
+            "kind": "existing",
+            "text": "Sirelkoit received her musicology PhD in June 2014, has held a permanent associate professorship since September 2021, and has supervised completed master's dissertations but no doctoral thesis to completion.",
+            "value": "I have not supervised a doctoral thesis to completion.",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The three employed researchers are musicologist Sirelkoit and historical linguist Lehevald, each at permanent 1.0 FTE, and acoustic analyst Vahenurm at permanent 0.8 FTE; these fractions cover all institutional duties.",
+            "value": "0.8 FTE",
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Lehevald completed his historical-linguistics doctorate in 2016 and joined the university in September 2018; Vahenurm completed her acoustic-signal-processing MSc in 2019, worked in the university's media unit from 2019 to 2021, began her permanent post in January 2022 and holds no doctorate.",
+            "value": "January 2022",
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The university-funded Fragmentary Music Evidence Pilot ran from 1 January 2024 to 31 December 2025 under award RU-CE-2024-07, and its final report was accepted on 20 February 2026.",
+            "value": "RU-CE-2024-07",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "Final pilot expenditure totalled EUR 46,800, comprising EUR 31,200 staff costs, EUR 6,000 performer and recording support, EUR 4,800 collection and digitisation services, and a fixed EUR 4,800 indirect-cost contribution against EUR 42,000 direct costs, with no equipment purchase.",
+            "value": "EUR 46,800",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The pilot catalogued 180 score fragments, selecting 30 from each of six folders; collection descriptions assign the material to approximately 1870–1935 (catalogue ranges, not verified dates), the sample excluded the most illegible material, and the performers were recruited locally.",
+            "value": "1870–1935",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The corpus contains 24 consented contemporary examples of unaccompanied solo singing with underlaid text from eight adult performers, three per performer, each lasting 45 seconds and totalling 18 minutes, all processed through the documented workflow and deposited as mono PCM WAV at 48 kHz and 24-bit resolution with checksums distinguishing originals from derivatives.",
+            "value": "unaccompanied solo singing with underlaid text",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The annotators agreed on 146 of 180 classifications, or 81.1%, with a descriptive Wilson 95% interval of 74.8%–86.2% that does not account for dependence within folders or sample selection.",
+            "value": "81.1%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The agreed classifications comprised 96 vocal and 50 instrumental fragments, while 34 remained disputed, comprising 18 vocal/instrumental, 10 vocal/insufficient-evidence and six instrumental/insufficient-evidence disagreements; without an adjudicator or gold standard, these are disagreements rather than demonstrated errors and agreements rather than verified correct classifications.",
+            "value": "34",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "All 180 catalogue entries have source links and separate observation/inference fields, establishing documentation completeness rather than verified provenance or classification accuracy.",
+            "value": "180",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Across 24 examples, median noise-power reduction in non-performance intervals was 3.2 dB, with a performer-cluster bootstrap 95% interval of 2.4–4.0 dB based on eight performer clusters.",
+            "value": "3.2 dB",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "None of the 24 recordings has reference note-onset annotation or time-aligned reading sheets; the pilot used informal listening rather than blinded perceptual evaluation, had no held-out test set or predetermined recovery pass/fail rule, and did not evaluate note recognition, transient preservation or masked-material recovery.",
+            "value": "No reference annotation of note onsets exists for any of the 24 recordings as of 18 September 2026.",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Two existing desktops each have 32 GB RAM and a 1 TB solid-state drive, a managed university file service holds the authoritative directory with institutional backups, and an existing recording room, audio interface and microphone supported the pilot.",
+            "value": "32 GB RAM",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Existing shared camera-based digitisation facilities supplied the pilot images and remain available through ordinary internal booking.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The EUR 28,000 scanner quotation, including delivery and VAT, was recorded in the November 2025 facilities review and expired in February 2026; no order was placed, the scanner was not purchased, and the pilot used the existing shared digitisation room.",
+            "value": "EUR 28,000",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The dean signed host support on 15 September 2026 confirming employment, existing facilities and institutional administration, without committing new posts, dedicated future effort or an additional cash contribution; the statement is complete and in force.",
+            "value": "15 September 2026",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The collection director signed reproduction and publication permission for the selected pilot source material and results on 12 June 2025; it is complete and in force but does not automatically cover other material in the collection.",
+            "value": "does not automatically cover other material in the collection",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "All eight performers signed agreements permitting research processing, denoised and synthetically masked derivatives, and designated publication, while excluding unrestricted complete-recording redistribution and voice identification or cloning.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The favourable ethics determination issued on 22 November 2023 covers secondary analysis within participant-agreement terms without time limit; no withdrawal was recorded by 18 September 2026, and no new recruitment or extension application is active.",
+            "value": "The determination covers secondary research analysis of the recorded examples within the terms of the participant agreements, without time limit.",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Public catalogue metadata use CC BY 4.0 and processing scripts use the MIT licence, while source images and audio retain their documented access restrictions.",
+            "value": "CC BY 4.0",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "The record contains four published articles from 2018, 2021, 2024 and 2026, including the July 2026 pilot results article, no submitted or under-review manuscripts, and the associated Fragmentary Music Evidence Pilot Catalogue at release 1.0.",
+            "value": "release 1.0",
+            "salient": true,
+            "source": "publications.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Collection and repository services are internal university relationships, the team has no external institutional partners, subcontracted research teams or signed external research collaboration agreements, and the eight performers' participation does not constitute an agreement to provide further recordings.",
+            "value": "does not constitute an agreement to provide further recordings",
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Software can generate and log noise-mixed derivatives, but no controlled synthetic-masking recovery study, calibrated uncertainty model or independent comparison of recovery methods has been completed.",
+            "value": null,
+            "salient": true,
+            "source": "team_and_research_practice.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "The current external-grant schedule adds 15% indirect costs to all direct costs, sets monthly employer costs per full-time equivalent at EUR 4,800 for Sirelkoit, EUR 4,200 for Lehevald and EUR 4,000 for Vahenurm (EUR 3,200 at her existing 0.8 FTE), and charges EUR 30 per digitisation room-hour, EUR 45 per collection staff-hour and EUR 75 per statistical adviser-hour before indirect costs, with no additional VAT on internal tariffs, no digitisation charge for existing files and workstation use and routine storage covered by indirect costs.",
+            "value": "15%",
+            "salient": true,
+            "source": "resources_and_permissions.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "sirelkoit2018absence",
+            "authors": [
+              "Sirelkoit, M."
+            ],
+            "year": 2018,
+            "title": "Reading absence in domestic song manuscripts: a layered description protocol",
+            "venue": "Rannakaar Papers in Musical Evidence",
+            "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2018.1"
+          },
+          {
+            "key": "lehevald2021syllables",
+            "authors": [
+              "Lehevald, T.",
+              "Sirelkoit, M."
+            ],
+            "year": 2021,
+            "title": "Language attribution when song texts survive as isolated syllables",
+            "venue": "Baltic Review of Manuscript Linguistics",
+            "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2021.2"
+          },
+          {
+            "key": "vahenurm2024denoising",
+            "authors": [
+              "Vahenurm, K.",
+              "Sirelkoit, M."
+            ],
+            "year": 2024,
+            "title": "Documenting denoising decisions in short performed manuscript examples",
+            "venue": "Journal of Annotated Sound Provenance",
+            "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2024.3"
+          },
+          {
+            "key": "sirelkoit2026agreement",
+            "authors": [
+              "Sirelkoit, M.",
+              "Lehevald, T.",
+              "Vahenurm, K."
+            ],
+            "year": 2026,
+            "title": "Agreement without adjudication: linked evidence for fragmentary musical sources",
+            "venue": "Rannakaar Papers in Musical Evidence",
+            "doi": "10.99999/pb.v2-fragmentary-music-archive-team.2026.4"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [
+          "The 24 recordings have no reference note-onset annotations or time-aligned reading sheets; existing interval markings identify non-performance regions only.",
+          "The team has completed no controlled synthetic-masking recovery study, calibrated uncertainty model or independent comparison of recovery methods."
+        ],
+        "inconsistencies": []
+      },
+      "errors": [
+        "\"gaps\" has 2 entries; this dossier needs exactly 0"
+      ]
+    }
+  ]
+}

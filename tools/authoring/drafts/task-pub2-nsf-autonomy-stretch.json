@@ -1,0 +1,81 @@
+{
+  "kind": "task",
+  "id": "pub2-nsf-autonomy-stretch",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "57c31116498361f523a162893414b586be7664fb8048a18a814b8eef722bb1f1",
+  "draft": {
+    "brief": "# Notes for the CAREER draft\n\n1 October 2026\n\nI want to move from replayed sensor faults to robots coordinating deliveries indoors. The picture I have in mind is our six bench robots moving mock parcels between marked stations, with visitors watching a live display of routes and localization estimates. Make this demonstrator the centre of the proposal: something a prospective commercial adopter could watch and immediately see a use for. Successful deliveries, a polished interface and demonstrations for potential customers would be the main measures of success. Guarantees and the distributed-reliability theory can wait for a follow-on grant once people are interested.\n\nBuild on the residual-screening software, frozen replay archive and experience comparing estimators under identical faults. I would like the new system to exchange position estimates between robots and keep deliveries moving when observations or messages are delayed. The sharp-turn cases where screening threw away useful observations are worth another look once robots start using each other's estimates.\n\nPlease keep the practical plan within five years and our existing indoor room. We have six robots, but simultaneous operation still needs setup validation. Schedule research around the undergraduate laboratory. Ravi and Elena are on TAs this year. I'd like room in the project for a research student working on communication failures.\n\nFor education, I'd like students in Sensor Systems Laboratory to try exercises using the shared position estimates, then explain where their conclusions stop being supported by the experiments. The replay exercises and assessment rubric give us somewhere to start. A yearly demonstration could also give students practice explaining their work to visitors.\n\nI've never done formal methods. Jonah did the probability side of the calibration paper; Nadia looked over the fault taxonomy and security terminology.",
+    "traps": [
+      {
+        "type": "T11",
+        "description": "The brief makes a sales-oriented indoor delivery demonstrator the centre of the project, measures success through deliveries, interface polish and customer demonstrations, and postpones guarantees and distributed-reliability theory to a follow-on grant. This conflicts with the call's requirement to \"Develop theory, algorithms or verification methods that establish guarantees for coordination, consensus, planning or control among multiple autonomous agents, or that prove limits on what any method can guarantee.\" The call excludes \"Building or procuring a robot fleet, testbed or computing facility as an end in itself rather than as the means to test stated hypotheses\" and requires applicants to \"Name the means of validating each claim: mechanised or written proof, simulation, hardware experiment or field trial. State what outcome would count against the central hypothesis.\"",
+        "expected_behaviour": "The proposal makes a foundational distributed-autonomy contribution involving a multi-agent guarantee, bound or analysed limit a principal objective during the award, with explicit assumptions and a validation approach that identifies what would count against the central hypothesis. Demonstration performance and customer interest do not substitute for that contribution. The delivery scenario may serve as a validation platform or be replaced by another feasible multi-robot coordination task. Theorem-led, systems-led, security-led and combined approaches are acceptable; no particular algorithm, proof technique or mechanised verification is required. If formal verification is included, the necessary PI training, source of expertise and verification development are described as planned rather than already established. Prior replay findings are not presented as existing proofs or multi-agent guarantees."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "# Notes for the CAREER draft\n\nI want to move from replayed sensor faults to robots coordinating deliveries indoors. The picture I have in mind is our six bench robots moving mock parcels between marked stations, with visitors watching a live display of routes and localization estimates. Make this demonstrator the centre of the proposal: something a prospective commercial adopter could watch and immediately see a use for. Successful deliveries, a polished interface and demonstrations for potential customers would be the main measures of success. We can leave the deeper distributed-reliability question and formal guarantees for follow-on work once the demonstration attracts interest.\n\nBuild on the residual-screening software, frozen replay archive and experience comparing estimators under identical faults. The completed study gives us a starting point for deciding what to measure, although it only involved robots operating individually and offline estimation. I would like the new system to exchange position estimates between robots and keep deliveries moving when observations or messages are delayed.\n\nPlease keep the practical plan within five years and our existing indoor room. We have six robots, but simultaneous operation still needs setup validation. Schedule research around the undergraduate laboratory. Any additional research appointments would need to be proposed; the current students' teaching assistantships are not project research staffing.\n\nFor education, my initial thought is to keep Sensor Systems Laboratory running and add an annual demonstration where students explain the delivery system to visitors. The existing replay exercises and assessment rubric are useful material to build from. I have no formal-methods training, so any verification strand would need time for my development and a realistically bounded source of expertise. Pelloran's contribution so far has been statistical; Braskett's paper contribution does not give us access to her laboratory.",
+        "traps": [
+          {
+            "type": "T11",
+            "description": "The brief makes a sales-oriented indoor delivery demonstrator the centre of the proposal, measures success through deliveries, interface polish and prospective-customer demonstrations, and suggests postponing the distributed-reliability question and formal guarantees. It also initially offers existing teaching plus demonstrations as the education plan. This conflicts with the call's requirement to \"Develop theory, algorithms or verification methods that establish guarantees for coordination, consensus, planning or control among multiple autonomous agents, or that prove limits on what any method can guarantee.\" The call also excludes \"Education plans that consist only of teaching existing courses, or outreach events with no stated learning objective or assessment.\" The dossier limits the starting evidence: \"The study did not test closed-loop control or multiple robots\" and \"Formal methods: no prior coursework or publications.\"",
+            "expected_behaviour": "The proposal makes a fundamental, testable contribution to verifiable distributed autonomy a principal objective and uses the delivery demonstrator to validate that contribution. It specifies the multi-agent coordination question, communication and fault assumptions, intended guarantee or analysed limit, validation method and an outcome that would count against the hypothesis. Formal-methods training, expertise and verification development are described as planned; prior replay results are not presented as existing proofs or multi-agent safety guarantees. The education plan integrates the new research into activities with identified learners, learning objectives, named assessment instruments, collection times, comparison baselines and revision points. Feasible theorem-led, systems-led, security-led or combined designs are compliant if they establish the required foundational contribution and assessed research–education integration; no particular delivery algorithm or proof technique is required."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2 / Task 6",
+          "where": "task.yaml, traps T1 (description and expected_behaviour)",
+          "problem": "One trap entry holds two independent premises under a single type (T11) and a single expected behaviour. Premise (a) makes the demonstrator the centre, measures success by deliveries, interface polish and customer demonstrations, and postpones guarantees; it conflicts with SC2. Premise (b) offers the existing Sensor Systems Laboratory plus an annual visitor demonstration as the education plan; it conflicts with EX8, ME5 and ME8. A proposal that fixes one premise and accepts the other has no defined outcome. Premise (b) also has no designed type, premise or conflict record of its own. The task therefore contains two traps recorded as one, and grading of the merged entry is ambiguous.",
+          "fix": "Split the entry. T1 (T11) covers the demonstrator-centred project with postponed guarantees; it conflicts with SC2, EX7 and SC3, and its expected behaviour is that a multi-agent guarantee or analysed limit is a principal objective and the demonstrator serves validation. T2 takes its own designed type and covers the existing course plus visitor demo as the education plan; it conflicts with EX8, ME5 and ME8, and its expected behaviour is new or revised research-linked activities with stated objectives and assessment. Give each entry its own premise, conflicting rule and expected behaviour."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 6",
+          "where": "task.yaml, T1 expected_behaviour: 'uses the delivery demonstrator to validate that contribution' and 'Formal-methods training, expertise and verification development are described as planned'",
+          "problem": "The expected behaviour requires every proposal to keep the delivery demonstrator as its validation platform and to plan formal-methods training and verification development. The same paragraph accepts theorem-led, systems-led and security-led designs, and SC2 accepts algorithms with written proofs or proved limits without mechanised verification. Feasible compliant designs would fail this check. Examples: a resilient cooperative-localization algorithm with written proofs plus hardware measurement of assumption mismatch; probabilistic bounds built on the PI's statistics background; or a different multi-robot coordination task. The education clause also repeats the full ME7/ME8 checklist (instruments, collection times, baselines, revision points), which the rubric already scores, so the trap double-counts those items instead of testing the response to the premise.",
+          "fix": "Make these clauses conditional. Rewrite as: 'if the design includes formal verification, the PI's training and the source of expertise are described as planned, not existing'. Replace the demonstrator clause with: 'the delivery scenario may serve as a validation platform or be replaced by another multi-robot coordination task'. Cut the education part to the observable response to the premise: the plan goes beyond the existing course and an unassessed demonstration."
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 2",
+          "where": "brief.md, paragraphs 1 and 4",
+          "problem": "The brief signals that the trap suggestions are provisional or wrong. 'the deeper distributed-reliability question' labels the postponed item as the substantive one. 'my initial thought is' marks the education idea as revisable. 'any verification strand would need time for my development and a realistically bounded source of expertise' presupposes a verification strand two paragraphs after proposing to postpone formal guarantees, and 'bounded' echoes the call's ME10 wording. Together these cues let a system dismiss the suggestions without reasoning from the call.",
+          "fix": "State the suggestions plainly: 'Guarantees and the distributed-reliability theory can wait for a follow-on grant once people are interested.' and 'For education: keep running Sensor Systems Lab and add a yearly demo day where students explain the system.' Replace the verification sentence with a neutral fact ('I've never done formal methods') or delete it."
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 3",
+          "where": "brief.md, paragraphs 3 and 4",
+          "problem": "The brief reads as a constraint memo that pre-resolves dossier checks the proposal should make itself. Examples: 'the current students' teaching assistantships are not project research staffing', 'Any additional research appointments would need to be proposed', 'Braskett's paper contribution does not give us access to her laboratory', 'Pelloran's contribution so far has been statistical'. An applicant would not write these interpretations into her own notes. They hand the system the dossier readings that the evaluation should test, and the register is uniformly formal.",
+          "fix": "Rewrite as informal, incomplete notes, e.g. 'Ravi and Elena are on TAs this year.' and 'Jonah did the probability side of the calibration paper; Nadia only looked over the terminology.' Drop the sentences that state what may or may not be claimed. Keep the idea, the five-year horizon, the room and the six robots."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4 / Task 4",
+          "where": "prior_project.md ('public-road deployments: 0'; 'Collision risk, coordinated agent failures, and communication-dependent behavior were outside the measured outcomes'); resources_team.md ('Outdoor test area | None', 'Road test facility | None', 'Funded vacancies: none. Recruitment searches: none. Approved future appointments: none.', 'External agreements in force: none. External facility-access allocations: none. Continuing external personnel commitments: none.'); publications.md ('This is Halwick's only joint paper with Pelloran and her only joint paper with a national-laboratory researcher'); cv_pi.md ('Concurrent faculty appointments: none'); teaching_record.md ('inference-performance measurement')",
+          "problem": "These passages are negative enumerations written to support trap and rubric checks. They are not what a final report, an inventory or a publication list contains. A road-test count in an indoor-localization report, or 'only joint paper' statements in a publication record, point the reader at exactly the answer-key items and make the documents read like a specification.",
+          "fix": "Rewrite in the documents' natural form. The resources table lists what exists. Personnel status reads 'No other paid positions in the group'. The limitations section says the study was a single-robot, offline replay in one room. Remove the road-test line, the 'only joint paper' sentence and the agreements enumeration; collaborator roles already follow from the contribution statements. Update the F12 and F20 values to the new exact wording."
+        }
+      ],
+      "rejected": [
+        {
+          "problem": "Split the research and education premises into two traps.",
+          "reason": "The ambiguity is valid, but the task supplies only one designed trap, T11, and requires preserving the designed types and order. The revision instead removes the independent education trap premise, leaving one research-scope premise with one decidable expected behaviour."
+        },
+        {
+          "problem": "Rewrite the supplied dossier passages and update F12 and F20.",
+          "reason": "The stylistic concern is reasonable, but the requested output permits revisions only to the brief and trap records. It contains neither dossier files nor F12/F20 fields. Those supplied documents and hidden facts cannot be revised within this JSON deliverable."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "kind": "call",
+  "id": "v2-ka220-accessible-studios",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "8bd0bacd8a935b5b4d4c6976eccf3c66b7fc6479930fea76b77297604eaaab2f",
+  "draft": {
+    "title": "Accessible Collaborative Studios and Placements in Higher Education",
+    "expected_outcomes_intro": "This topic aims to remove structural and pedagogical barriers in practice-based higher education. By adapting collaborative environments, projects will ensure equitable access to studio work or professional placements for students facing sensory or language challenges.",
+    "expected_outcomes": [
+      "Higher education institutions offer collaborative studios or placement teaching that accommodate students with sensory or language access barriers.",
+      "Academic staff or placement supervisors possess the pedagogical skills to facilitate inclusive practice-based learning, including arts or language-practice routes.",
+      "Participating institutions formally adopt the co-created accessibility frameworks into their standard curriculum design or placement management processes."
+    ],
+    "scope_intro": "Practice-based higher education, such as arts studios, language-practice routes and professional placements, often relies on rapid, unstructured communication and dynamic physical environments. These settings can inadvertently exclude students with sensory impairments or language access barriers. Standard classroom accommodations rarely translate effectively to these collaborative spaces.\n\nProposals must co-create accessible studio or placement models directly with the affected students. Consortia should implement these models, train the relevant teaching or supervisory staff, and rigorously evaluate the impact on student participation and learning outcomes to drive institutional policy changes.",
+    "scope": [
+      "Co-create accessible collaborative studio environments or placement teaching models in partnership with students experiencing sensory or language barriers.",
+      "Develop and deliver targeted training for academic staff or placement supervisors on inclusive pedagogical practices for practice-based learning.",
+      "Compare student participation rates and assessed learning outcomes before and after the implementation of the accessible teaching models.",
+      "Formulate a strategy for institutional uptake that embeds the successful accessibility measures into standard departmental or university policies."
+    ],
+    "exclusions": [
+      "Proposals focusing exclusively on traditional lecture-based teaching without addressing collaborative studios, arts practice or placement environments.",
+      "Projects limited to the procurement of assistive technology hardware without developing the associated pedagogical frameworks and staff training."
+    ],
+    "mandatory_elements": [
+      "Describe the baseline limitations in current studio or placement teaching that create sensory or language access barriers.",
+      "Detail the evaluation plan, including an explicit approach to handling missing evaluation data when comparing participation and learning outcomes.",
+      "Identify the institutional bodies responsible for adoption decisions and provide their decision timetable for securing institutional uptake."
+    ],
+    "conditions": {
+      "max_budget": 400000,
+      "duration_months_max": 36,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": 0
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Accessible Collaborative Studios and Placements in Higher Education",
+        "expected_outcomes_intro": "This topic aims to remove structural and pedagogical barriers in practice-based higher education. By adapting collaborative environments, projects will ensure equitable access to studio work and professional placements for students facing sensory or language challenges.",
+        "expected_outcomes": [
+          "Higher education institutions offer collaborative studios and placement teaching that accommodate students with sensory or language access barriers.",
+          "Academic staff and placement supervisors possess the pedagogical skills to facilitate inclusive practice-based learning, including arts or language-practice routes.",
+          "Participating institutions formally adopt the co-created accessibility frameworks into their standard curriculum design and placement management processes."
+        ],
+        "scope_intro": "Practice-based higher education, such as arts studios, language-practice routes and professional placements, often relies on rapid, unstructured communication and dynamic physical environments. These settings can inadvertently exclude students with sensory impairments or language access barriers. Standard classroom accommodations rarely translate effectively to these collaborative spaces.\n\nProposals must co-create accessible studio and placement models directly with the affected students. Consortia should implement these models, train the relevant teaching and supervisory staff, and rigorously evaluate the impact on student participation and learning outcomes to drive institutional policy changes.",
+        "scope": [
+          "Co-create accessible collaborative studio environments or placement teaching models in partnership with students experiencing sensory or language barriers.",
+          "Develop and deliver targeted training for academic staff and placement supervisors on inclusive pedagogical practices for practice-based learning.",
+          "Compare student participation rates and assessed learning outcomes before and after the implementation of the accessible teaching models.",
+          "Formulate a strategy for institutional uptake that embeds the successful accessibility measures into standard departmental or university policies."
+        ],
+        "exclusions": [
+          "Proposals focusing exclusively on traditional lecture-based teaching without addressing collaborative studios, arts practice or placement environments.",
+          "Projects limited to the procurement of assistive technology hardware without developing the associated pedagogical frameworks and staff training."
+        ],
+        "mandatory_elements": [
+          "Describe the baseline limitations in current studio or placement teaching that create sensory or language access barriers.",
+          "Detail the evaluation plan to compare student participation and assessed learning outcomes against the identified baseline.",
+          "Specify the mechanisms for securing institutional uptake of the co-created accessibility frameworks across the participating higher education institutions."
+        ],
+        "conditions": {
+          "max_budget": 400000,
+          "duration_months_max": 36,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": 0
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md and call.yaml — EO1, EO2, EO3, SC1 and ME9",
+          "problem": "The required breadth is inconsistent. SC1 permits a studio model or a placement model, and ME9 likewise permits either setting. EO1 requires both studios and placement teaching, EO2 requires both academic staff and placement supervisors, and EO3 requires adoption into both curriculum design and placement management. A consortium selecting one expressly permitted route cannot clearly determine which additional setting and participants it must cover.",
+          "fix": "Choose a consistent requirement in both files. Either require both settings throughout, or qualify the outcomes, staff groups and adoption processes as applicable to the selected studio or placement route.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md and call.yaml — SC3/ME10 and SC4/ME11",
+          "problem": "Two requirements are repeated across the item lists. SC3 and ME10 both require baseline comparisons of participation and assessed learning outcomes. SC4 and ME11 both require a strategy or mechanisms for institutional uptake. These pairs would largely be satisfied by the same narrative evidence.",
+          "fix": "Retain each requirement once, or distinguish the mandatory elements concretely: for example, make ME10 require an explicit approach to missing evaluation data, and ME11 require identification of the institutional bodies responsible for adoption decisions and their decision timetable.",
+          "part": "topic"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

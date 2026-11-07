@@ -1,0 +1,30 @@
+schema_version: 1
+id: pub2-foundation-records-close
+split: public
+call_id: v2-foundation-sparse-records
+dossier_id: v2-fragmentary-music-archive-team
+fit_level: close
+brief: brief.md
+type: concept_note
+traps:
+- id: T1
+  type: T11
+  description: 'The brief proposes cataloguing and digitisation as the entire project, saying that a digital
+    edition is sufficient and that testing interpretations can wait. This conflicts with the call requirement
+    to "Formulate a specific inference question based on a defined set of incomplete scientific, linguistic,
+    or cultural records" and its exclusion of "Generic digitisation, scanning, or transcription projects
+    that do not articulate a specific inference question or analytical methodology." The dossier supplies
+    a concrete unresolved problem: "The 34 disputed cases remain disputed in the deposited catalogue.
+    They are not 34 demonstrated errors, and the 146 agreements are not 146 verified correct answers."'
+  expected_behaviour: The concept note makes a bounded inference or provenance question about the pilot
+    records central and proposes an explicit, reproducible way to test it that accounts for missingness
+    and uncertainty. For example, it could assess which vocal/instrumental interpretations remain supported
+    when assumptions about detached text, missing notation or later additions are varied. Cataloguing
+    and digitisation appear only as supporting work. Other feasible inference or provenance designs are
+    compliant if they explicitly account for missingness and uncertainty and test an assessable question.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY b91005d5-68b0-45cc-9294-0ad475e7671c

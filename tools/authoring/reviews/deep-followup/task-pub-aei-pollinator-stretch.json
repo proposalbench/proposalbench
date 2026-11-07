@@ -1,0 +1,31 @@
+{
+ "kind": "task",
+ "id": "pub-aei-pollinator-stretch",
+ "reviewer_family": "openai+maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml trap T1 description",
+   "problem": "The description quotes a passage that is no longer in the call or dossier: 'No presentar financiación pendiente como concedida ni cargar dos veces el mismo ...'. The call was corrected after the in-depth review (benchmark-facing hints such as references to the dossier or to scoring were removed, items split, eligibility worded as in the official rules), or the dossier was revised.",
+   "fix": "Ground the trap in the substantive rule or fact as the call and dossier now state it, quoting their current wording exactly. Keep the conflict, type and expected behaviour unless the change removed the trap's basis; never rely on a hint the call no longer gives.",
+   "source": "maintainer"
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml trap T1 description",
+   "problem": "The description quotes a passage that is no longer in the call or dossier: 'No presentar recursos o colaboraciones pendientes como disponibles...'. The call was corrected after the in-depth review (benchmark-facing hints such as references to the dossier or to scoring were removed, items split, eligibility worded as in the official rules), or the dossier was revised.",
+   "fix": "Ground the trap in the substantive rule or fact as the call and dossier now state it, quoting their current wording exactly. Keep the conflict, type and expected behaviour unless the change removed the trap's basis; never rely on a hint the call no longer gives.",
+   "source": "maintainer"
+  },
+  {
+   "severity": "major",
+   "checklist": "Task 2",
+   "where": "brief.md and task.yaml",
+   "problem": "The dossier was revised after the in-depth review: the prior project HEATPOL (formerly an AEI grant, PID2024-142385RA-I00) is now PB-FILATHERM, funded by CESERAL's Emerging Groups Programme (reference PB-CESERAL-2025-01), and the FPI predoctoral contract is now an institutional predoctoral contract (CESERAL). Update every mention in the brief and traps to the dossier's current facts. Check that each trap's premise and expected behaviour still hold under these facts (in particular any trap that relied on the prior grant being an AEI project) and adapt the trap if its basis changed, keeping its type.",
+   "fix": "As described in the problem.",
+   "source": "maintainer"
+  }
+ ]
+}

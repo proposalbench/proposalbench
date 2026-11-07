@@ -1,0 +1,298 @@
+schema_version: 1
+id: v2-accessible-music-teaching-alliance
+language: en
+applicant_type: consortium
+career_stage: senior
+disciplines:
+- music
+- higher education
+- inclusive pedagogy
+- applied linguistics
+method_profile: mixed
+country: FI
+files:
+- path: cv_coordinator.md
+  role: cv
+- path: consortium_and_resources.md
+  role: team
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+facts:
+- id: F01
+  category: position
+  kind: existing
+  text: Dr Aino Kaarnevuo completed her doctorate in 2010, became principal lecturer in 2018, has directed
+    teaching development since 2021 and chairs the academic coordination group, while each institution
+    retains responsibility for its own awards, records, employment, contracts, finances and curriculum
+    approvals.
+  value: '2018'
+  salient: true
+  source: cv_coordinator.md
+- id: F02
+  category: partner
+  kind: existing
+  text: Kaarensalmi University of Applied Sciences is the independent Finnish legal entity Kaarensalmen
+    ammattikorkeakoulu Oy, established in 1997, holding an Erasmus Charter for Higher Education for 2021–2027
+    and an operating licence covering music and music-pedagogy degree programmes.
+  value: '1997'
+  salient: true
+  source: consortium_and_resources.md
+- id: F03
+  category: partner
+  kind: existing
+  text: Velinac College of Music Pedagogy is the independent Croatian legal entity Veleučilište za glazbenu
+    pedagogiju Velinac, established in 2005 and holding an Erasmus Charter for Higher Education for 2021–2027,
+    where senior lecturer Petra Vraneković leads practical teaching moderation and maintains the Croatian
+    staff-development record.
+  value: Petra Vraneković
+  salient: true
+  source: consortium_and_resources.md
+- id: F04
+  category: partner
+  kind: existing
+  text: Ravelbeek University College of Music and Language Education is the independent Belgian legal
+    entity Hogeschool voor Muziek en Taalonderwijs Ravelbeek vzw, established in 1996 and holding an Erasmus
+    Charter for Higher Education for 2021–2027, where head of practical learning Lotte Verhaegelin coordinates
+    curriculum-decision records and programme-board follow-up.
+  value: Lotte Verhaegelin
+  salient: true
+  source: consortium_and_resources.md
+- id: F05
+  category: partner
+  kind: existing
+  text: The institutions signed their teaching collaboration agreement on 17 June 2024, covering joint
+    staff seminars, teaching materials, assessment moderation and procedures for exchanging approved research
+    extracts.
+  value: 17 June 2024
+  salient: true
+  source: consortium_and_resources.md
+- id: F06
+  category: grant
+  kind: existing
+  text: The project received an internal award of EUR 48,000 and no external research grant, with EUR
+    16,000 contributed per institution and full expenditure of EUR 30,000 on staff release, EUR 9,000
+    on technical support, EUR 6,000 on access support and EUR 3,000 on travel, before account closure
+    in February 2026.
+  value: EUR 48,000
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: result
+  kind: existing
+  text: The pilot enrolled 72 students, 24 per institution, and obtained paired assessments for 60 students,
+    20 per institution or 83.3% of enrolment, leaving 12 without usable follow-up assessments, four per
+    institution, with missingness unclassified by disability or access need.
+  value: 83.3%
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: The complete-case mean improvement was 0.18 SD with a 95% CI of -0.03 to 0.39, standardised using
+    the paired sample's pooled baseline standard deviation and calculated without accounting for shared
+    class or institutional influences or imputing missing outcomes.
+  value: 0.18 SD
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: Two analysts interpreted interviews with 18 students and nine teachers, six students and three
+    teachers per institution, identifying accounts of written instructions helping with rapid speech,
+    captions distracting during simultaneous playing and listening, and terminology checks exposing assumptions
+    about prior knowledge.
+  value: '18'
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: All participating classes received the intervention without an untreated comparison group or random
+    allocation, the same local assessment teams scored both occasions with knowledge of timing after moderating
+    sample work, and no separate language, disability-subgroup or institution-specific effects were estimated.
+  value: no untreated comparison group and no random allocation
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: Musical execution was recorded separately and excluded from the pedagogical learning score, which
+    assessed instructional clarity, responsiveness and justification.
+  value: instructional clarity, responsiveness and justification
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: result
+  kind: existing
+  text: By 30 September 2026, all three programme boards had approved the instruction sequence, uptake
+    remained confined to participating music-pedagogy modules, staff seminars had been delivered at each
+    institution and materials were available in institutional repositories, while external reuse and sustained
+    post-adoption learning remained unmeasured.
+  value: 30 September 2026
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: resource
+  kind: existing
+  text: The consortium has three teaching studios that remain in ordinary teaching use, with recording
+    equipment, induction loops and instruction displays, institutionally licensed captioning software
+    requiring human correction, and studio technicians supporting recording and caption correction.
+  value: three
+  salient: true
+  source: consortium_and_resources.md
+- id: F14
+  category: team
+  kind: existing
+  text: Language-support lecturer Maija Kuusentola holds a master's degree in applied linguistics from
+    2009 and completed 60 ECTS of teacher pedagogical studies in 2011, and her duties include coordinating
+    multilingual adaptation with local teachers and organising student review.
+  value: 60 ECTS
+  salient: true
+  source: consortium_and_resources.md
+- id: F15
+  category: team
+  kind: existing
+  text: Consortium accessibility officer Eeva Rantakoski oversees evaluation accessibility, consent formats,
+    assessment instructions and confidential access-related disclosures.
+  value: Eeva Rantakoski
+  salient: true
+  source: consortium_and_resources.md
+- id: F16
+  category: resource
+  kind: existing
+  text: The pilot used written and spoken instructions, a demonstration with corrected captions, a comprehension
+    check and collaborative microteaching, supported by terminology sheets in Finnish, Croatian, Dutch
+    and English, and produced annotated teaching materials, rubric examples and a staff seminar pack.
+  value: Finnish, Croatian, Dutch and English
+  salient: true
+  source: prior_project.md
+- id: F17
+  category: resource
+  kind: planned
+  text: At its meeting on 25 September 2026, the coordination group agreed to explore a network of 12
+    external teaching placements.
+  value: '12'
+  salient: true
+  source: consortium_and_resources.md
+- id: F18
+  category: other
+  kind: existing
+  text: At the close of records on 30 September 2026, the planned placement network had no signed placement
+    agreements and no recruited sites, mentors or students.
+  value: null
+  salient: true
+  source: consortium_and_resources.md
+- id: F19
+  category: other
+  kind: existing
+  text: The number of existing accessible placements is undocumented because historical registers do not
+    identify placements meeting a common accessibility definition.
+  value: null
+  salient: true
+  source: consortium_and_resources.md
+- id: F20
+  category: other
+  kind: existing
+  text: The baseline rate of disabled-student participation is unavailable because records lack a harmonised
+    classification and compatible participation numerator and denominator, while language-support and
+    caption requests are recorded as service requests.
+  value: null
+  salient: true
+  source: consortium_and_resources.md
+- id: F21
+  category: publication
+  kind: existing
+  text: The selected bibliography contains four published journal articles from 2023–2026, including the
+    July 2026 article reporting the studio pilot described in the final report.
+  value: July 2026
+  salient: true
+  source: publications.md
+- id: F22
+  category: other
+  kind: existing
+  text: Institutional research approval KAA-EDU-2024-11 preceded recruitment and covers only the 2025
+    pilot, which used voluntary consent and restricted identifiable recordings to authorised staff, with
+    no subsequent evaluation approval recorded as of 30 September 2026.
+  value: KAA-EDU-2024-11
+  salient: true
+  source: prior_project.md
+- id: F23
+  category: resource
+  kind: existing
+  text: Local teachers checked the terminology sheets for terminology and students commented on comprehensibility,
+    but the sheets have not undergone programme-board review or validation as a translation curriculum.
+  value: terminology and students commented on comprehensibility
+  salient: true
+  source: prior_project.md
+- id: F24
+  category: resource
+  kind: existing
+  text: Institutional repositories hold accepted manuscripts and recreated teaching examples, including
+    accessible text and corrected captions in the seminar pack, while raw student recordings and identifiable
+    interview transcripts are not publicly released.
+  value: Raw student recordings and identifiable interview transcripts are not publicly released.
+  salient: true
+  source: publications.md
+- id: F25
+  category: other
+  kind: existing
+  text: Studio Instructions and Shared Access ran from 1 January–31 December 2025, its final report was
+    issued on 18 February 2026 and its institutional uptake addendum was dated 30 September 2026.
+  value: 1 January–31 December 2025
+  salient: true
+  source: prior_project.md
+own_publications:
+- key: kaarnevuo2023rubric
+  authors:
+  - Kaarnevuo, A.
+  - Vraneković, P.
+  year: 2023
+  title: 'Making rehearsal instructions assessable: A rubric for pedagogical explanation'
+  venue: Journal of Situated Studio Learning
+  doi: 10.99999/pb.v2-accessible-music-teaching-alliance.2023.1
+- key: kuusentola2024terminology
+  authors:
+  - Kuusentola, M.
+  - Kaarnevuo, A.
+  - Verhaegelin, L.
+  year: 2024
+  title: Terminology negotiation in multilingual music-pedagogy seminars
+  venue: Review of Multilingual Arts Instruction
+  doi: 10.99999/pb.v2-accessible-music-teaching-alliance.2024.2
+- key: rantakoski2025captions
+  authors:
+  - Rantakoski, E.
+  - Vraneković, P.
+  - Kaarnevuo, A.
+  year: 2025
+  title: Caption choice and learner control in collaborative rehearsal teaching
+  venue: Studies in Rehearsal Pedagogy and Access
+  doi: 10.99999/pb.v2-accessible-music-teaching-alliance.2025.3
+- key: kaarnevuo2026pilot
+  authors:
+  - Kaarnevuo, A.
+  - Vraneković, P.
+  - Verhaegelin, L.
+  - Kuusentola, M.
+  - Rantakoski, E.
+  year: 2026
+  title: 'Accessible instructions in music-pedagogy studios: A three-institution paired pilot'
+  venue: Higher Arts Curriculum Inquiry
+  doi: 10.99999/pb.v2-accessible-music-teaching-alliance.2026.4
+gaps:
+- id: G1
+  text: The number of existing accessible placements is missing and cannot be derived from the registers;
+    a proposal needs a labelled baseline placeholder to distinguish current provision from prospective
+    network capacity.
+- id: G2
+  text: The baseline rate of disabled-student participation is missing, including a compatible numerator
+    and denominator; a proposal needs a labelled placeholder and a baseline-establishment method to evaluate
+    changes in participation.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 509fc85d-f348-4cee-97fb-cb0ec6376817

@@ -1,0 +1,1621 @@
+{
+  "kind": "dossier",
+  "id": "v2-secure-food-robotics-consortium",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "37d631ef54adb474f43a5ecc652053755c35c51bac353f3022b03a6f620d0e75",
+  "draft": {
+    "applicant_type": "consortium",
+    "career_stage": "mid_career",
+    "disciplines": [
+      "computer security",
+      "robotics",
+      "food microbiology",
+      "systems engineering"
+    ],
+    "method_profile": "quantitative",
+    "country": "DE",
+    "files": [
+      {
+        "path": "cv_pi.md",
+        "role": "cv",
+        "content": "> Fictional document created for ProposalBench.\n\n**Date:** 15 September 2026\n\n# Curriculum Vitae: Prof. Dr. Lukas Varnkötter\n\n**Current Position:** W2 Professor of Systems Engineering and Computer Security\n**Institution:** Technical University of Falkenburg (TUF), Germany\n**Date of Birth:** 14 May 1984\n**Nationality:** German\n**Contact:** lukas.varnkoetter@tuf.example\n\n## 1. Education and Academic Degrees\n\n*   **2014:** Dr. rer. nat. in Computer Science, Technical University of Falkenburg, Germany. \n    *Dissertation:* \"Resilient Data Pipelines in Distributed Industrial Control Systems.\" \n    *Grade:* Summa cum laude.\n*   **2009:** M.Sc. in Computer Science, Technical University of Falkenburg, Germany.\n*   **2007:** B.Sc. in Information Systems, University of Applied Sciences, Neu-Westfalen, Germany.\n\n## 2. Professional Academic Career\n\n*   **2019 – Present (as of September 2026):** W2 Professor, Department of Computer Science, Technical University of Falkenburg (TUF). Head of the Secure Cyber-Physical Systems Group.\n*   **2014 – 2019:** Postdoctoral Researcher and Group Leader, Institute for Secure Industrial Systems (ISIS), Falkenburg. Led a team of four PhD students focusing on adversarial machine learning in sensor networks.\n*   **2010 – 2014:** Research Assistant, Technical University of Falkenburg. \n\n## 3. Research Focus\n\nMy research bridges computer security and systems engineering, with a specific focus on the resilience of cyber-physical systems (CPS) in logistics and robotics. I investigate how autonomous systems can maintain operational integrity when subjected to sensor faults, adversarial data injection, and environmental degradation. Recent work has expanded into the domain of food logistics, exploring how secure data pipelines can support cold-chain monitoring and help mitigate spoilage risks.\n\n## 4. Selected Third-Party Funding\n\n*   **RESIL-BOT (2022–2025):** \"Resilient Anomaly Detection for Autonomous Guided Vehicles in Warehousing.\" Funded by the German Research Foundation (DFG). Role: Principal Investigator. Total budget: EUR 1.2 million. \n*   **PB-THERMOSEAL-20 (2020–2023):** \"Cryptographic Verification of Temperature Logs in Perishable Goods Transport.\" Funded by the Federal Ministry of Education and Research (BMBF). Role: Co-Investigator. Total budget: EUR 850,000 (TUF share: EUR 320,000).\n*   **AutoLog-Sec (2017–2019):** \"Security Protocols for Decentralised Logistics Networks.\" Funded by the State of North Rhine-Westphalia. Role: Project Manager. Total budget: EUR 400,000.\n\n## 5. Teaching and Supervision\n\n*   **Lectures:** \"Introduction to Cyber-Physical Systems Security\" (M.Sc., annually since 2019), \"Advanced Systems Engineering\" (M.Sc., annually since 2020), \"Applied Cryptography in Industry\" (B.Sc., 2019–2022).\n*   **Supervision:** Currently (as of September 2026) supervising 5 PhD students and 2 postdoctoral researchers. Successfully graduated 3 PhD students as primary supervisor. Supervised over 40 M.Sc. and B.Sc. theses.\n\n## 6. Academic Service and Memberships\n\n*   Member of the German Society for Computing and Systems Engineering (GSCSE), Section on Security in Information Technology.\n*   Program Committee Member: International Conference on Resilient Cyber-Physical Systems (ICRCPS) 2023, 2024; European Symposium on Secure Logistics (ESSL) 2022, 2025.\n*   Reviewer for Journal of Embedded Assurance Practice, Journal of Secure Computing and Automation, and International Journal of Systems Resilience."
+      },
+      {
+        "path": "consortium_profile.md",
+        "role": "team",
+        "content": "> Fictional document created for ProposalBench.\n\n**Date:** 15 September 2026\n\n# Consortium Profile: Secure Food Robotics Initiative\n\nThis document outlines the core partners committed to the joint development of resilient AI decision support and robotic automation for food logistics. The consortium brings together expertise in computer security, robotics, food microbiology, and systems engineering. As of 10 September 2026, the Fictional German university coordinator (TUF), independent Italian robotics SME (ALV), Spanish food microbiology institute (IMAA) and Austrian logistics cooperative (AKK) have signed participation agreements for the upcoming proposal.\n\n## Coordinator: Technical University of Falkenburg (TUF), Germany\n\n**Role:** Project coordination, systems engineering, and computer security.\n\nThe Technical University of Falkenburg (TUF) is a leading research institution in Germany, hosting the Secure Cyber-Physical Systems Group led by Prof. Dr. Lukas Varnkötter. TUF will oversee the integration of security protocols and resilient AI decision-support systems. The group has extensive experience in designing algorithms that detect and mitigate sensor faults and adversarial data injections in distributed networks. TUF will ensure that the data pipelines connecting robotic platforms, environmental sensors, and decision engines remain secure and reliable under operational stress.\n\n## Partner 1: Automazione Logistica Veloce S.r.l. (ALV), Italy\n\n**Role:** Robotic hardware provision, autonomous navigation, and mechatronics.\n\nALV is an independent Italian robotics SME based in Turin, specialising in the design and deployment of Autonomous Guided Vehicles (AGVs) for industrial warehousing. Founded in 2015, ALV has a strong track record of developing agile robotic solutions for dynamic environments. Within the consortium, ALV is responsible for the physical robotic platforms and the low-level control systems. Their engineering team will implement the fault-tolerant navigation algorithms developed by TUF onto the robotic hardware, ensuring that the AGVs can safely operate even when individual sensors degrade or fail.\n\n## Partner 2: Instituto de Microbiología Alimentaria de Aragón (IMAA), Spain\n\n**Role:** Food microbiology, spoilage modelling, and hazard assessment.\n\nIMAA is a Spanish public research institute located in Zaragoza, dedicated to advancing food safety and quality. The institute brings critical domain expertise in food microbiology to the consortium. IMAA will develop predictive models for microbial growth and spoilage under varying environmental conditions, specifically focusing on interrupted cold chains. Cold-chain adaptation can combine the Spanish laboratory and Austrian operator to create a comprehensive farm-to-fork validation pipeline. IMAA's researchers will define the biological constraints and safety thresholds that the AI decision-support system must respect when optimising logistics operations.\n\n## Partner 3: Alpen-Kühlkette eG (AKK), Austria\n\n**Role:** Logistics operations, cold-chain infrastructure, and end-user validation.\n\nAlpen-Kühlkette eG (AKK) is an Austrian logistics cooperative headquartered in Innsbruck, operating a network of temperature-controlled warehouses and distribution centres across Central Europe. AKK represents the end-user perspective, providing the operational context and infrastructure necessary for testing and validating the consortium's technologies. They will supply historical environmental data, define operational requirements, and facilitate the deployment of prototype systems within their facilities to ensure that the developed solutions meet the rigorous demands of commercial food logistics.\n\n## Informal Contact: University of Boreal Sciences, Canada\n\n**Role:** Advisory on North American logistics standards.\n\nDr. Elias Thorne, a researcher at the University of Boreal Sciences in Canada, serves as an informal contact for the consortium. His research focuses on trans-Atlantic supply chain interoperability. He provides ad-hoc advice on North American regulatory frameworks and logistics standards. Because he is an informal contact and not a participating beneficiary, he does not count as an EU/associated-country entity for the stated minimum participation requirements, despite Canada's association to Horizon Europe Pillar II. His involvement is strictly advisory and involves no transfer of funds or formal contractual obligations."
+      },
+      {
+        "path": "prior_project_report.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n**Date:** 15 February 2026\n\n# Final Report: RESIL-BOT (2022–2025)\n\n**Resilient Anomaly Detection for Autonomous Guided Vehicles in Warehousing**\n\n**Funding Agency:** German Research Foundation (DFG)\n**Grant Number:** RB-2022-8849-TUF\n**Total Budget:** EUR 1,200,000\n**Duration:** 1 January 2022 to 31 December 2025\n**Principal Investigator:** Prof. Dr. Lukas Varnkötter, Technical University of Falkenburg (TUF)\n\n## 1. Executive Summary\n\nThe RESIL-BOT project aimed to enhance the operational resilience of Autonomous Guided Vehicles (AGVs) in warehouse environments by developing advanced anomaly detection algorithms. The primary focus was on identifying sensor faults and adversarial data injections to provide a foundation for bounded operational safety. Over the four-year period, the project successfully developed a novel AI-driven decision-support framework capable of isolating faulty sensor streams in replay evaluations.\n\n## 2. Objectives\n\n1.  Characterise the statistical properties of common sensor faults (e.g., drift, noise, complete failure) in LiDAR and ultrasonic sensors used on warehouse AGVs.\n2.  Develop a lightweight, real-time anomaly detection engine capable of running on edge hardware.\n3.  Evaluate the detection accuracy and false-positive rate of the engine using historical and synthetic sensor traces.\n4.  Design fallback navigation policies that allow AGVs to safely halt or return to base when critical sensor thresholds are breached.\n\n## 3. Methodology\n\nThe project utilised a data-driven approach, collecting over 4,500 hours of baseline sensor data from AGVs operating in controlled environments. We injected synthetic faults into these data streams to create a comprehensive testing corpus. The anomaly detection engine was built using a semi-supervised learning architecture, trained exclusively on 3,300 hours of healthy data, with the remaining 1,200 hours used for validation. The 80 test traces used for final evaluation were strictly separated from training and validation sets.\n\nTo evaluate the system, we constructed a replay testing framework. This allowed us to feed the recorded and modified sensor traces into the detection engine in real-time, mimicking the data flow of a live AGV without the physical risks associated with testing faulty navigation in a populated warehouse.\n\n## 4. Key Results and Performance Metrics\n\n*   **Fault Detection Accuracy:** In 2025, we completed replay tests on 80 independent sensor traces (each containing exactly one injected fault). The system detected 68 of the 80 injected faults (85 percent, Wilson 95% CI approximately 76 to 91 percent). \n*   **False Positive Rate:** The engine was evaluated over 1,200 hours of healthy validation data, partitioned into 72,000 one-minute decision windows. It flagged 1,728 of these windows as anomalous, resulting in a false positive rate of 2.4%. The operational disruption this would cause in a live setting remains to be measured.\n*   **Latency:** The edge-optimised detection algorithm achieved an average inference time of 14 milliseconds (SD = 2.1 ms, n = 10,000 inferences) on a standard ARM Cortex-A76 edge node, well within the 50-millisecond requirement for real-time AGV control loops.\n*   **Limitation Note:** While the detection metrics are highly promising, it is critical to acknowledge the boundaries of the current validation. These were simulations, not live warehouse validations. The replay tests demonstrated the detector's performance, but closed-loop navigation safety and operational disruption remain to be validated in live settings.\n\n## 5. Dissemination and Open Data\n\nThe project resulted in four peer-reviewed publications in top-tier security and robotics venues. Furthermore, we have released the \"RESIL-BOT Warehouse Sensor Corpus,\" an open dataset containing 2.5 TB of annotated LiDAR, ultrasonic, and IMU data, published under a CC BY 4.0 license to support further research in the community."
+      },
+      {
+        "path": "resources_and_infrastructure.md",
+        "role": "resources",
+        "content": "> Fictional document created for ProposalBench.\n\n**Date:** 25 September 2026\n\n# Consortium Resources and Infrastructure\n\nThis document details the physical infrastructure, hardware, and laboratory facilities available to the consortium partners as of September 2026.\n\n## 1. Robotics Hardware (Automazione Logistica Veloce S.r.l.)\n\nALV maintains a dedicated 800-square-meter mechatronics testing facility in Turin. The facility is equipped with motion capture systems for precise ground-truth tracking of robotic platforms. \n\nRegarding the robotic fleet available for research and development: A planned 30-device robot fleet has zero units acquired at present, as procurement is contingent on future capital expenditure approvals. However, six existing bench robots suffice for an initial bounded study. These bench robots are fully functional, scaled-down AGV prototypes equipped with the complete sensor suite (LiDAR, ultrasonic, RGB-D cameras) and compute modules intended for the final production models. They are ideal for validating navigation algorithms, fault-tolerance mechanisms, and edge-computing workloads in a controlled environment before scaling up to full-size industrial vehicles.\n\n## 2. Food Microbiology Laboratory (Instituto de Microbiología Alimentaria de Aragón)\n\nIMAA operates a state-of-the-art 400-square-meter BSL-2 laboratory in Zaragoza. The facility includes:\n\n*   Four walk-in environmental chambers capable of simulating complex temperature and humidity profiles, essential for replicating interrupted cold chains.\n*   High-throughput sequencing equipment for rapid microbial profiling.\n*   Gas chromatography-mass spectrometry (GC-MS) for detecting volatile spoilage markers.\n\nThe lab can assay food samples to quantify microbial load, identify pathogens, and measure biochemical degradation over time. \n\n**Important Regulatory Note:** No medicinal-product development expertise or approval exists within IMAA or the broader consortium. The institute's mandate and certifications are strictly limited to food safety, agricultural research, and environmental monitoring. The team does not conduct pharmacological research, nor do they develop human or veterinary medicines.\n\n## 3. Logistics Infrastructure (Alpen-Kühlkette eG)\n\nAKK provides access to its primary distribution centre in Innsbruck, Austria. The facility spans 12,000 square meters and features three distinct temperature zones: ambient (15°C to 25°C), chilled (2°C to 8°C), and frozen (-25°C to -18°C). The warehouse is equipped with a dense network of IoT environmental sensors logging temperature and humidity at 5-minute intervals.\n\n**Operational Update:**\nPer an operator notice dated 21 September 2026, AKK management withdraws access to live refrigeration control interfaces for all external research projects due to updated internal risk management policies. Read-only monitoring remains authorised, allowing the consortium to continuously ingest real-time environmental data from the warehouse sensor network. Furthermore, an isolated thermal bench is available at the Innsbruck site; this standalone unit is physically decoupled from the main commercial storage areas and can be used for experimental manipulation of temperature profiles without risking commercial inventory.\n\nBecause live control of the commercial warehouse environment is no longer permitted, full validation of changed operating policies must be planned with access gates. Any proposed changes to AGV routing, door management, or cooling schedules generated by the AI decision-support system must pass through a human-in-the-loop verification step and be tested on the isolated thermal bench or via simulation before being considered for operational deployment."
+      },
+      {
+        "path": "publications.md",
+        "role": "publications",
+        "content": "> Fictional document created for ProposalBench.\n\n**Date:** 15 September 2026\n\n# Selected Publications\n\nBelow is a list of selected recent publications by the consortium partners, demonstrating our track record in computer security, robotics, and food microbiology.\n\n1.  **Varnkötter, L.**, & Klein, H. (2024). \"Adversarial Robustness of Edge-Based Anomaly Detection in Cyber-Physical Logistics Networks.\" *Journal of Secure Systems Engineering*, 12(3), 204-219. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2024.1\n2.  Moretti, A., Rossi, G., & **Varnkötter, L.** (2025). \"Sim-to-Real Challenges in Fault-Tolerant Navigation for Autonomous Guided Vehicles.\" *International Journal of Industrial Robotics*, 38(1), 45-60. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2025.1\n3.  García-López, M., & Fernández, S. (2023). \"Predictive Modelling of Listeria monocytogenes Growth Dynamics During Cold Chain Interruptions.\" *European Food Microbiology Review*, 41(8), 1102-1115. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2023.1\n4.  **Varnkötter, L.**, Weber, T., & Moretti, A. (2023). \"Lightweight Cryptographic Verification of Sensor Data Streams in Resource-Constrained Environments.\" *Transactions on Applied Cryptography*, 9(4), 310-325. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2023.2\n5.  Fernández, S., García-López, M., & Huber, K. (2025). \"Correlating Volatile Organic Compounds with Microbial Spoilage in Packaged Poultry under Fluctuating Temperatures.\" *Journal of Agricultural and Food Quality*, 55(2), 188-201. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2025.2"
+      }
+    ],
+    "facts": [
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "In 2025, replay tests on 80 independent sensor traces detected 68 injected faults.",
+        "value": "68",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The fault detection rate was 85 percent (Wilson 95% CI approximately 76 to 91 percent).",
+        "value": "85 percent",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The replay tests were simulations, not live warehouse validations.",
+        "value": null,
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "resource",
+        "kind": "planned",
+        "text": "A planned 30-device robot fleet has zero units acquired, as procurement is contingent on future capital expenditure approvals.",
+        "value": "zero",
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Six existing bench robots suffice for an initial bounded study.",
+        "value": "six",
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "An operator notice dated 21 September 2026 withdraws access to live refrigeration control interfaces.",
+        "value": "21 September 2026",
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Read-only monitoring remains authorised.",
+        "value": null,
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "An isolated thermal bench is available.",
+        "value": null,
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "identity",
+        "kind": "existing",
+        "text": "No medicinal-product development expertise or approval exists.",
+        "value": null,
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The lab can assay food samples.",
+        "value": null,
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Full validation of changed operating policies must be planned with access gates.",
+        "value": null,
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Cold-chain adaptation can combine the Spanish laboratory and Austrian operator.",
+        "value": null,
+        "salient": true,
+        "source": "consortium_profile.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "A Canadian informal contact is not a participating beneficiary and does not count as an EU/associated-country entity for the stated minimum.",
+        "value": null,
+        "salient": true,
+        "source": "consortium_profile.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Fictional German university coordinator, independent Italian robotics SME, Spanish food microbiology institute and Austrian logistics cooperative have signed participation agreements.",
+        "value": null,
+        "salient": true,
+        "source": "consortium_profile.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The project collected over 4,500 hours of baseline sensor data.",
+        "value": "4,500 hours",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The engine was evaluated over 1,200 hours of healthy validation data, maintaining a false positive rate of 2.4%.",
+        "value": "2.4%",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The edge-optimised detection algorithm achieved an average inference time of 14 milliseconds, well within the 50-millisecond requirement.",
+        "value": "14 milliseconds",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "publication",
+        "kind": "existing",
+        "text": "The project resulted in four peer-reviewed publications.",
+        "value": "four",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The RESIL-BOT Warehouse Sensor Corpus is an open dataset containing 2.5 TB of data published under a CC BY 4.0 license.",
+        "value": "CC BY 4.0",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "The RESIL-BOT project ran from 1 January 2022 to 31 December 2025.",
+        "value": "1 January 2022 to 31 December 2025",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "Currently supervising 5 PhD students and 2 postdoctoral researchers.",
+        "value": "5",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "ALV maintains a dedicated 800-square-meter mechatronics testing facility.",
+        "value": "800-square-meter",
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The IMAA facility includes four walk-in environmental chambers.",
+        "value": "Four",
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "AKK provides access to a 12,000 square meters distribution centre equipped with sensors logging at 5-minute intervals.",
+        "value": "12,000 square meters",
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "position",
+        "kind": "existing",
+        "text": "W2 Professor since 2019.",
+        "value": "2019",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "education",
+        "kind": "existing",
+        "text": "Dr. rer. nat. in Computer Science obtained in 2014.",
+        "value": "2014",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "RESIL-BOT project total budget was EUR 1,200,000.",
+        "value": "EUR 1,200,000",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "RESIL-BOT grant number is RB-2022-8849-TUF.",
+        "value": "RB-2022-8849-TUF",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "PB-THERMOSEAL-20 total budget was EUR 850,000.",
+        "value": "EUR 850,000",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "TUF share for PB-THERMOSEAL-20 was EUR 320,000.",
+        "value": "EUR 320,000",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "AutoLog-Sec total budget was EUR 400,000.",
+        "value": "EUR 400,000",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The anomaly detection engine was trained on 3,300 hours of healthy data.",
+        "value": "3,300 hours",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The validation data was partitioned into 72,000 one-minute decision windows.",
+        "value": "72,000",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The engine flagged 1,728 windows as anomalous.",
+        "value": "1,728",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The latency had an SD of 2.1 ms.",
+        "value": "2.1 ms",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The latency was measured over n = 10,000 inferences.",
+        "value": "10,000",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The inference was performed on a standard ARM Cortex-A76 edge node.",
+        "value": "ARM Cortex-A76",
+        "salient": true,
+        "source": "prior_project_report.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Participation agreements were signed as of 10 September 2026.",
+        "value": "10 September 2026",
+        "salient": true,
+        "source": "consortium_profile.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "IMAA operates a 400-square-meter BSL-2 laboratory.",
+        "value": "400-square-meter",
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The IMAA laboratory is BSL-2 certified.",
+        "value": "BSL-2",
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The AKK distribution centre features three distinct temperature zones.",
+        "value": "three",
+        "salient": true,
+        "source": "resources_and_infrastructure.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "Varnkoetter2024",
+        "authors": [
+          "Varnkötter, L.",
+          "Klein, H."
+        ],
+        "year": 2024,
+        "title": "Adversarial Robustness of Edge-Based Anomaly Detection in Cyber-Physical Logistics Networks",
+        "venue": "Journal of Secure Systems Engineering",
+        "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2024.1"
+      },
+      {
+        "key": "Moretti2025",
+        "authors": [
+          "Moretti, A.",
+          "Rossi, G.",
+          "Varnkötter, L."
+        ],
+        "year": 2025,
+        "title": "Sim-to-Real Challenges in Fault-Tolerant Navigation for Autonomous Guided Vehicles",
+        "venue": "International Journal of Industrial Robotics",
+        "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2025.1"
+      },
+      {
+        "key": "GarciaLopez2023",
+        "authors": [
+          "García-López, M.",
+          "Fernández, S."
+        ],
+        "year": 2023,
+        "title": "Predictive Modelling of Listeria monocytogenes Growth Dynamics During Cold Chain Interruptions",
+        "venue": "European Food Microbiology Review",
+        "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2023.1"
+      },
+      {
+        "key": "Varnkoetter2023",
+        "authors": [
+          "Varnkötter, L.",
+          "Weber, T.",
+          "Moretti, A."
+        ],
+        "year": 2023,
+        "title": "Lightweight Cryptographic Verification of Sensor Data Streams in Resource-Constrained Environments",
+        "venue": "Transactions on Applied Cryptography",
+        "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2023.2"
+      },
+      {
+        "key": "Fernandez2025",
+        "authors": [
+          "Fernández, S.",
+          "García-López, M.",
+          "Huber, K."
+        ],
+        "year": 2025,
+        "title": "Correlating Volatile Organic Compounds with Microbial Spoilage in Packaged Poultry under Fluctuating Temperatures",
+        "venue": "Journal of Agricultural and Food Quality",
+        "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2025.2"
+      }
+    ],
+    "reviewer_criticisms": [],
+    "gaps": [],
+    "inconsistencies": []
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "computer security",
+          "robotics",
+          "food microbiology",
+          "systems engineering"
+        ],
+        "method_profile": "quantitative",
+        "country": "DE",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum Vitae: Prof. Dr. Lukas Reuter\n\n**Current Position:** W2 Professor of Systems Engineering and Computer Security\n**Institution:** Technical University of Falkenburg (TUF), Germany\n**Date of Birth:** 14 May 1984\n**Nationality:** German\n**Contact:** lukas.reuter@tuf-falkenburg.edu.de\n\n## 1. Education and Academic Degrees\n\n*   **2014:** Dr. rer. nat. in Computer Science, Technical University of Falkenburg, Germany. \n    *Dissertation:* \"Resilient Data Pipelines in Distributed Industrial Control Systems.\" \n    *Grade:* Summa cum laude.\n*   **2009:** M.Sc. in Computer Science, Technical University of Falkenburg, Germany.\n*   **2007:** B.Sc. in Information Systems, University of Applied Sciences, Neu-Westfalen, Germany.\n\n## 2. Professional Academic Career\n\n*   **2019 – Present:** W2 Professor, Department of Computer Science, Technical University of Falkenburg (TUF). Head of the Secure Cyber-Physical Systems Group.\n*   **2014 – 2019:** Postdoctoral Researcher and Group Leader, Institute for Secure Industrial Systems (ISIS), Falkenburg. Led a team of four PhD students focusing on adversarial machine learning in sensor networks.\n*   **2010 – 2014:** Research Assistant, Technical University of Falkenburg. \n\n## 3. Research Focus\n\nMy research bridges computer security and systems engineering, with a specific focus on the resilience of cyber-physical systems (CPS) in logistics and robotics. I investigate how autonomous systems can maintain operational integrity when subjected to sensor faults, adversarial data injection, and environmental degradation. Recent work has expanded into the domain of food logistics, exploring how secure data pipelines can guarantee cold-chain integrity and prevent spoilage.\n\n## 4. Selected Third-Party Funding\n\n*   **RESIL-BOT (2022–2025):** \"Resilient Anomaly Detection for Autonomous Guided Vehicles in Warehousing.\" Funded by the German Research Foundation (DFG). Role: Principal Investigator. Total budget: EUR 1.2 million. \n*   **SECURE-CHAIN (2020–2023):** \"Cryptographic Verification of Temperature Logs in Perishable Goods Transport.\" Funded by the Federal Ministry of Education and Research (BMBF). Role: Co-Investigator. Total budget: EUR 850,000 (TUF share: EUR 320,000).\n*   **AutoLog-Sec (2017–2019):** \"Security Protocols for Decentralised Logistics Networks.\" Funded by the State of North Rhine-Westphalia. Role: Project Manager. Total budget: EUR 400,000.\n\n## 5. Teaching and Supervision\n\n*   **Lectures:** \"Introduction to Cyber-Physical Systems Security\" (M.Sc., annually since 2019), \"Advanced Systems Engineering\" (M.Sc., annually since 2020), \"Applied Cryptography in Industry\" (B.Sc., 2019–2022).\n*   **Supervision:** Currently supervising 5 PhD students and 2 postdoctoral researchers. Successfully graduated 3 PhD students as primary supervisor. Supervised over 40 M.Sc. and B.Sc. theses.\n\n## 6. Academic Service and Memberships\n\n*   Member of the German Informatics Society (GI), Section on Security in Information Technology.\n*   Program Committee Member: International Conference on Cyber-Physical Systems (ICCPS) 2023, 2024; European Symposium on Research in Computer Security (ESORICS) 2022, 2025.\n*   Reviewer for IEEE Transactions on Industrial Informatics, ACM Transactions on Cyber-Physical Systems, and Computers & Security."
+          },
+          {
+            "path": "consortium_profile.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Consortium Profile: Secure Food Robotics Initiative\n\nThis document outlines the core partners committed to the joint development of resilient AI decision support and robotic automation for food logistics. The consortium brings together expertise in computer security, robotics, food microbiology, and systems engineering.\n\n## Coordinator: Technical University of Falkenburg (TUF), Germany\n\n**Role:** Project coordination, systems engineering, and computer security.\n\nThe Technical University of Falkenburg (TUF) is a leading research institution in Germany, hosting the Secure Cyber-Physical Systems Group led by Prof. Dr. Lukas Reuter. TUF will oversee the integration of security protocols and resilient AI decision-support systems. The group has extensive experience in designing algorithms that detect and mitigate sensor faults and adversarial data injections in distributed networks. TUF will ensure that the data pipelines connecting robotic platforms, environmental sensors, and decision engines remain secure and reliable under operational stress.\n\n## Partner 1: Automazione Logistica Veloce S.r.l. (ALV), Italy\n\n**Role:** Robotic hardware provision, autonomous navigation, and mechatronics.\n\nALV is an independent Italian robotics SME based in Turin, specialising in the design and deployment of Autonomous Guided Vehicles (AGVs) for industrial warehousing. Founded in 2015, ALV has a strong track record of developing agile robotic solutions for dynamic environments. Within the consortium, ALV is responsible for the physical robotic platforms and the low-level control systems. Their engineering team will implement the fault-tolerant navigation algorithms developed by TUF onto the robotic hardware, ensuring that the AGVs can safely operate even when individual sensors degrade or fail.\n\n## Partner 2: Instituto de Microbiología Alimentaria de Aragón (IMAA), Spain\n\n**Role:** Food microbiology, spoilage modelling, and hazard assessment.\n\nIMAA is a Spanish public research institute located in Zaragoza, dedicated to advancing food safety and quality. The institute brings critical domain expertise in food microbiology to the consortium. IMAA will develop predictive models for microbial growth and spoilage under varying environmental conditions, specifically focusing on interrupted cold chains. Cold-chain adaptation can combine the Spanish laboratory and Austrian operator to create a comprehensive farm-to-fork validation pipeline. IMAA's researchers will define the biological constraints and safety thresholds that the AI decision-support system must respect when optimising logistics operations.\n\n## Partner 3: Alpen-Kühlkette eG (AKK), Austria\n\n**Role:** Logistics operations, cold-chain infrastructure, and end-user validation.\n\nAlpen-Kühlkette eG (AKK) is an Austrian logistics cooperative headquartered in Innsbruck, operating a network of temperature-controlled warehouses and distribution centres across Central Europe. AKK represents the end-user perspective, providing the operational context and infrastructure necessary for testing and validating the consortium's technologies. They will supply historical environmental data, define operational requirements, and facilitate the deployment of prototype systems within their facilities to ensure that the developed solutions meet the rigorous demands of commercial food logistics.\n\n## Informal Contact: University of Boreal Sciences, Canada\n\n**Role:** Advisory on North American logistics standards.\n\nDr. Elias Thorne, a researcher at the University of Boreal Sciences in Canada, serves as an informal contact for the consortium. His research focuses on trans-Atlantic supply chain interoperability. He provides ad-hoc advice on North American regulatory frameworks and logistics standards. Dr. Thorne is not a beneficiary or an EU/associated-country entity for the stated minimum participation requirements. His involvement is strictly advisory and involves no transfer of funds or formal contractual obligations."
+          },
+          {
+            "path": "prior_project_report.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final Report: RESIL-BOT (2022–2025)\n\n**Resilient Anomaly Detection for Autonomous Guided Vehicles in Warehousing**\n\n**Funding Agency:** German Research Foundation (DFG)\n**Grant Number:** RB-2022-8849-TUF\n**Total Budget:** EUR 1,200,000\n**Duration:** 1 January 2022 to 31 December 2025\n**Principal Investigator:** Prof. Dr. Lukas Reuter, Technical University of Falkenburg (TUF)\n\n## 1. Executive Summary\n\nThe RESIL-BOT project aimed to enhance the operational resilience of Autonomous Guided Vehicles (AGVs) in warehouse environments by developing advanced anomaly detection algorithms. The primary focus was on identifying and mitigating sensor faults and adversarial data injections that could compromise navigation and safety. Over the four-year period, the project successfully developed a novel AI-driven decision-support framework capable of isolating faulty sensor streams and maintaining bounded operational safety.\n\n## 2. Objectives\n\n1.  Characterise the statistical properties of common sensor faults (e.g., drift, noise, complete failure) in LiDAR and ultrasonic sensors used on warehouse AGVs.\n2.  Develop a lightweight, real-time anomaly detection engine capable of running on edge hardware.\n3.  Evaluate the detection accuracy and false-positive rate of the engine using historical and synthetic sensor traces.\n4.  Design fallback navigation policies that allow AGVs to safely halt or return to base when critical sensor thresholds are breached.\n\n## 3. Methodology\n\nThe project utilised a data-driven approach, collecting over 4,500 hours of baseline sensor data from AGVs operating in controlled environments. We injected synthetic faults into these data streams to create a comprehensive testing corpus. The anomaly detection engine was built using a semi-supervised learning architecture, trained exclusively on healthy data to identify deviations indicative of faults or attacks.\n\nTo evaluate the system, we constructed a replay testing framework. This allowed us to feed the recorded and modified sensor traces into the detection engine in real-time, mimicking the data flow of a live AGV without the physical risks associated with testing faulty navigation in a populated warehouse.\n\n## 4. Key Results and Performance Metrics\n\n*   **Fault Detection Accuracy:** In the final evaluation phase, we completed 2025 replay tests on 80 sensor traces. The system detected 68 injected faults (85 percent, Wilson 95% CI approximately 76 to 91 percent). \n*   **False Positive Rate:** The engine maintained a false positive rate of 2.4% across 1,200 hours of healthy validation data, ensuring that operational disruptions due to false alarms were minimised.\n*   **Latency:** The edge-optimised detection algorithm achieved an average inference time of 14 milliseconds on standard ARM Cortex-A processors, well within the 50-millisecond requirement for real-time AGV control loops.\n*   **Limitation Note:** While the detection metrics are highly promising, it is critical to acknowledge the boundaries of the current validation. These were simulations, not live warehouse validations. The replay tests relied on pre-recorded traces, and the system has not yet been subjected to the unpredictable dynamics of a fully operational, human-populated logistics centre.\n\n## 5. Dissemination and Open Data\n\nThe project resulted in four peer-reviewed publications in top-tier security and robotics venues. Furthermore, we have released the \"RESIL-BOT Warehouse Sensor Corpus,\" an open dataset containing 2.5 TB of annotated LiDAR, ultrasonic, and IMU data, published under a CC BY 4.0 license to support further research in the community."
+          },
+          {
+            "path": "resources_and_infrastructure.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Consortium Resources and Infrastructure\n\nThis document details the physical infrastructure, hardware, and laboratory facilities available to the consortium partners as of September 2026.\n\n## 1. Robotics Hardware (Automazione Logistica Veloce S.r.l.)\n\nALV maintains a dedicated 800-square-meter mechatronics testing facility in Turin. The facility is equipped with motion capture systems for precise ground-truth tracking of robotic platforms. \n\nRegarding the robotic fleet available for research and development: A planned 30-device robot fleet has zero units acquired at present, as procurement is contingent on future capital expenditure approvals. However, six existing bench robots suffice for an initial bounded study. These bench robots are fully functional, scaled-down AGV prototypes equipped with the complete sensor suite (LiDAR, ultrasonic, RGB-D cameras) and compute modules intended for the final production models. They are ideal for validating navigation algorithms, fault-tolerance mechanisms, and edge-computing workloads in a controlled environment before scaling up to full-size industrial vehicles.\n\n## 2. Food Microbiology Laboratory (Instituto de Microbiología Alimentaria de Aragón)\n\nIMAA operates a state-of-the-art 400-square-meter BSL-2 laboratory in Zaragoza. The facility includes:\n\n*   Four walk-in environmental chambers capable of simulating complex temperature and humidity profiles, essential for replicating interrupted cold chains.\n*   High-throughput sequencing equipment for rapid microbial profiling.\n*   Gas chromatography-mass spectrometry (GC-MS) for detecting volatile spoilage markers.\n\nThe lab can assay food samples to quantify microbial load, identify pathogens, and measure biochemical degradation over time. \n\n**Important Regulatory Note:** No medicinal-product development expertise or approval exists within IMAA or the broader consortium. The institute's mandate and certifications are strictly limited to food safety, agricultural research, and environmental monitoring. The team does not conduct pharmacological research, nor do they develop human or veterinary medicines.\n\n## 3. Logistics Infrastructure (Alpen-Kühlkette eG)\n\nAKK provides access to its primary distribution centre in Innsbruck, Austria. The facility spans 12,000 square meters and features three distinct temperature zones: ambient (15°C to 25°C), chilled (2°C to 8°C), and frozen (-25°C to -18°C). The warehouse is equipped with a dense network of IoT environmental sensors logging temperature and humidity at 5-minute intervals.\n\n**Operational Update:**\nPer an operator notice dated 21 September 2026, AKK management withdraws access to live refrigeration control interfaces for all external research projects due to updated internal risk management policies. Read-only monitoring remains authorised, allowing the consortium to continuously ingest real-time environmental data from the warehouse sensor network. Furthermore, an isolated thermal bench is available at the Innsbruck site; this standalone unit is physically decoupled from the main commercial storage areas and can be used for experimental manipulation of temperature profiles without risking commercial inventory.\n\nBecause live control of the commercial warehouse environment is no longer permitted, full validation of changed operating policies must be planned with access gates. Any proposed changes to AGV routing, door management, or cooling schedules generated by the AI decision-support system must pass through a human-in-the-loop verification step and be tested on the isolated thermal bench or via simulation before being considered for operational deployment."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Selected Publications\n\nBelow is a list of selected recent publications by the consortium partners, demonstrating our track record in computer security, robotics, and food microbiology.\n\n1.  **Reuter, L.**, & Klein, H. (2024). \"Adversarial Robustness of Edge-Based Anomaly Detection in Cyber-Physical Logistics Networks.\" *Journal of Secure Systems Engineering*, 12(3), 204-219. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2024.1\n2.  Moretti, A., Rossi, G., & **Reuter, L.** (2025). \"Sim-to-Real Challenges in Fault-Tolerant Navigation for Autonomous Guided Vehicles.\" *International Journal of Industrial Robotics*, 38(1), 45-60. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2025.1\n3.  García-López, M., & Fernández, S. (2023). \"Predictive Modelling of *Listeria monocytogenes* Growth Dynamics During Cold Chain Interruptions.\" *European Food Microbiology Review*, 41(8), 1102-1115. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2023.1\n4.  **Reuter, L.**, Weber, T., & Moretti, A. (2023). \"Lightweight Cryptographic Verification of Sensor Data Streams in Resource-Constrained Environments.\" *Transactions on Applied Cryptography*, 9(4), 310-325. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2023.2\n5.  Fernández, S., García-López, M., & Huber, K. (2025). \"Correlating Volatile Organic Compounds with Microbial Spoilage in Packaged Poultry under Fluctuating Temperatures.\" *Journal of Agricultural and Food Quality*, 55(2), 188-201. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2025.2"
+          }
+        ],
+        "facts": [
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Completed 2025 replay tests on 80 sensor traces detected 68 injected faults.",
+            "value": "68",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The fault detection rate was 85 percent (Wilson 95% CI approximately 76 to 91 percent).",
+            "value": "85 percent",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The replay tests were simulations, not live warehouse validations.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "A planned 30-device robot fleet has zero units acquired.",
+            "value": "zero",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Six existing bench robots suffice for an initial bounded study.",
+            "value": "six",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "An operator notice dated 21 September 2026 withdraws access to live refrigeration control interfaces.",
+            "value": "21 September 2026",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Read-only monitoring remains authorised.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "An isolated thermal bench is available.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "No medicinal-product development expertise or approval exists.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The lab can assay food samples.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Full validation of changed operating policies must be planned with access gates.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Cold-chain adaptation can combine the Spanish laboratory and Austrian operator.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_profile.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "A Canadian informal contact is not a beneficiary or an EU/associated-country entity for the stated minimum.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_profile.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Fictional German university coordinator, independent Italian robotics SME, Spanish food microbiology institute and Austrian logistics cooperative have signed participation.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_profile.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "The RESIL-BOT project had a total budget of EUR 1.2 million.",
+            "value": "1.2 million",
+            "salient": false,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "IMAA operates a 400-square-meter BSL-2 laboratory.",
+            "value": "400-square-meter",
+            "salient": false,
+            "source": "resources_and_infrastructure.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "Reuter2024",
+            "authors": [
+              "Reuter, L.",
+              "Klein, H."
+            ],
+            "year": 2024,
+            "title": "Adversarial Robustness of Edge-Based Anomaly Detection in Cyber-Physical Logistics Networks",
+            "venue": "Journal of Secure Systems Engineering",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2024.1"
+          },
+          {
+            "key": "Moretti2025",
+            "authors": [
+              "Moretti, A.",
+              "Rossi, G.",
+              "Reuter, L."
+            ],
+            "year": 2025,
+            "title": "Sim-to-Real Challenges in Fault-Tolerant Navigation for Autonomous Guided Vehicles",
+            "venue": "International Journal of Industrial Robotics",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2025.1"
+          },
+          {
+            "key": "GarciaLopez2023",
+            "authors": [
+              "García-López, M.",
+              "Fernández, S."
+            ],
+            "year": 2023,
+            "title": "Predictive Modelling of Listeria monocytogenes Growth Dynamics During Cold Chain Interruptions",
+            "venue": "European Food Microbiology Review",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2023.1"
+          },
+          {
+            "key": "Reuter2023",
+            "authors": [
+              "Reuter, L.",
+              "Weber, T.",
+              "Moretti, A."
+            ],
+            "year": 2023,
+            "title": "Lightweight Cryptographic Verification of Sensor Data Streams in Resource-Constrained Environments",
+            "venue": "Transactions on Applied Cryptography",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2023.2"
+          },
+          {
+            "key": "Fernandez2025",
+            "authors": [
+              "Fernández, S.",
+              "García-López, M.",
+              "Huber, K."
+            ],
+            "year": 2025,
+            "title": "Correlating Volatile Organic Compounds with Microbial Spoilage in Packaged Poultry under Fluctuating Temperatures",
+            "venue": "Journal of Agricultural and Food Quality",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2025.2"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "errors": [
+        "own publication title not in files: Predictive Modelling of Listeria monocytogenes Growth Dynami"
+      ]
+    },
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "computer security",
+          "robotics",
+          "food microbiology",
+          "systems engineering"
+        ],
+        "method_profile": "quantitative",
+        "country": "DE",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum Vitae: Prof. Dr. Lukas Reuter\n\n**Current Position:** W2 Professor of Systems Engineering and Computer Security\n**Institution:** Technical University of Falkenburg (TUF), Germany\n**Date of Birth:** 14 May 1984\n**Nationality:** German\n**Contact:** lukas.reuter@tuf-falkenburg.edu.de\n\n## 1. Education and Academic Degrees\n\n*   **2014:** Dr. rer. nat. in Computer Science, Technical University of Falkenburg, Germany. \n    *Dissertation:* \"Resilient Data Pipelines in Distributed Industrial Control Systems.\" \n    *Grade:* Summa cum laude.\n*   **2009:** M.Sc. in Computer Science, Technical University of Falkenburg, Germany.\n*   **2007:** B.Sc. in Information Systems, University of Applied Sciences, Neu-Westfalen, Germany.\n\n## 2. Professional Academic Career\n\n*   **2019 – Present:** W2 Professor, Department of Computer Science, Technical University of Falkenburg (TUF). Head of the Secure Cyber-Physical Systems Group.\n*   **2014 – 2019:** Postdoctoral Researcher and Group Leader, Institute for Secure Industrial Systems (ISIS), Falkenburg. Led a team of four PhD students focusing on adversarial machine learning in sensor networks.\n*   **2010 – 2014:** Research Assistant, Technical University of Falkenburg. \n\n## 3. Research Focus\n\nMy research bridges computer security and systems engineering, with a specific focus on the resilience of cyber-physical systems (CPS) in logistics and robotics. I investigate how autonomous systems can maintain operational integrity when subjected to sensor faults, adversarial data injection, and environmental degradation. Recent work has expanded into the domain of food logistics, exploring how secure data pipelines can guarantee cold-chain integrity and prevent spoilage.\n\n## 4. Selected Third-Party Funding\n\n*   **RESIL-BOT (2022–2025):** \"Resilient Anomaly Detection for Autonomous Guided Vehicles in Warehousing.\" Funded by the German Research Foundation (DFG). Role: Principal Investigator. Total budget: EUR 1.2 million. \n*   **SECURE-CHAIN (2020–2023):** \"Cryptographic Verification of Temperature Logs in Perishable Goods Transport.\" Funded by the Federal Ministry of Education and Research (BMBF). Role: Co-Investigator. Total budget: EUR 850,000 (TUF share: EUR 320,000).\n*   **AutoLog-Sec (2017–2019):** \"Security Protocols for Decentralised Logistics Networks.\" Funded by the State of North Rhine-Westphalia. Role: Project Manager. Total budget: EUR 400,000.\n\n## 5. Teaching and Supervision\n\n*   **Lectures:** \"Introduction to Cyber-Physical Systems Security\" (M.Sc., annually since 2019), \"Advanced Systems Engineering\" (M.Sc., annually since 2020), \"Applied Cryptography in Industry\" (B.Sc., 2019–2022).\n*   **Supervision:** Currently supervising 5 PhD students and 2 postdoctoral researchers. Successfully graduated 3 PhD students as primary supervisor. Supervised over 40 M.Sc. and B.Sc. theses.\n\n## 6. Academic Service and Memberships\n\n*   Member of the German Informatics Society (GI), Section on Security in Information Technology.\n*   Program Committee Member: International Conference on Cyber-Physical Systems (ICCPS) 2023, 2024; European Symposium on Research in Computer Security (ESORICS) 2022, 2025.\n*   Reviewer for IEEE Transactions on Industrial Informatics, ACM Transactions on Cyber-Physical Systems, and Computers & Security."
+          },
+          {
+            "path": "consortium_profile.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Consortium Profile: Secure Food Robotics Initiative\n\nThis document outlines the core partners committed to the joint development of resilient AI decision support and robotic automation for food logistics. The consortium brings together expertise in computer security, robotics, food microbiology, and systems engineering.\n\n## Coordinator: Technical University of Falkenburg (TUF), Germany\n\n**Role:** Project coordination, systems engineering, and computer security.\n\nThe Technical University of Falkenburg (TUF) is a leading research institution in Germany, hosting the Secure Cyber-Physical Systems Group led by Prof. Dr. Lukas Reuter. TUF will oversee the integration of security protocols and resilient AI decision-support systems. The group has extensive experience in designing algorithms that detect and mitigate sensor faults and adversarial data injections in distributed networks. TUF will ensure that the data pipelines connecting robotic platforms, environmental sensors, and decision engines remain secure and reliable under operational stress.\n\n## Partner 1: Automazione Logistica Veloce S.r.l. (ALV), Italy\n\n**Role:** Robotic hardware provision, autonomous navigation, and mechatronics.\n\nALV is an independent Italian robotics SME based in Turin, specialising in the design and deployment of Autonomous Guided Vehicles (AGVs) for industrial warehousing. Founded in 2015, ALV has a strong track record of developing agile robotic solutions for dynamic environments. Within the consortium, ALV is responsible for the physical robotic platforms and the low-level control systems. Their engineering team will implement the fault-tolerant navigation algorithms developed by TUF onto the robotic hardware, ensuring that the AGVs can safely operate even when individual sensors degrade or fail.\n\n## Partner 2: Instituto de Microbiología Alimentaria de Aragón (IMAA), Spain\n\n**Role:** Food microbiology, spoilage modelling, and hazard assessment.\n\nIMAA is a Spanish public research institute located in Zaragoza, dedicated to advancing food safety and quality. The institute brings critical domain expertise in food microbiology to the consortium. IMAA will develop predictive models for microbial growth and spoilage under varying environmental conditions, specifically focusing on interrupted cold chains. Cold-chain adaptation can combine the Spanish laboratory and Austrian operator to create a comprehensive farm-to-fork validation pipeline. IMAA's researchers will define the biological constraints and safety thresholds that the AI decision-support system must respect when optimising logistics operations.\n\n## Partner 3: Alpen-Kühlkette eG (AKK), Austria\n\n**Role:** Logistics operations, cold-chain infrastructure, and end-user validation.\n\nAlpen-Kühlkette eG (AKK) is an Austrian logistics cooperative headquartered in Innsbruck, operating a network of temperature-controlled warehouses and distribution centres across Central Europe. AKK represents the end-user perspective, providing the operational context and infrastructure necessary for testing and validating the consortium's technologies. They will supply historical environmental data, define operational requirements, and facilitate the deployment of prototype systems within their facilities to ensure that the developed solutions meet the rigorous demands of commercial food logistics.\n\n## Informal Contact: University of Boreal Sciences, Canada\n\n**Role:** Advisory on North American logistics standards.\n\nDr. Elias Thorne, a researcher at the University of Boreal Sciences in Canada, serves as an informal contact for the consortium. His research focuses on trans-Atlantic supply chain interoperability. He provides ad-hoc advice on North American regulatory frameworks and logistics standards. Dr. Thorne is not a beneficiary or an EU/associated-country entity for the stated minimum participation requirements. His involvement is strictly advisory and involves no transfer of funds or formal contractual obligations."
+          },
+          {
+            "path": "prior_project_report.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final Report: RESIL-BOT (2022–2025)\n\n**Resilient Anomaly Detection for Autonomous Guided Vehicles in Warehousing**\n\n**Funding Agency:** German Research Foundation (DFG)\n**Grant Number:** RB-2022-8849-TUF\n**Total Budget:** EUR 1,200,000\n**Duration:** 1 January 2022 to 31 December 2025\n**Principal Investigator:** Prof. Dr. Lukas Reuter, Technical University of Falkenburg (TUF)\n\n## 1. Executive Summary\n\nThe RESIL-BOT project aimed to enhance the operational resilience of Autonomous Guided Vehicles (AGVs) in warehouse environments by developing advanced anomaly detection algorithms. The primary focus was on identifying and mitigating sensor faults and adversarial data injections that could compromise navigation and safety. Over the four-year period, the project successfully developed a novel AI-driven decision-support framework capable of isolating faulty sensor streams and maintaining bounded operational safety.\n\n## 2. Objectives\n\n1.  Characterise the statistical properties of common sensor faults (e.g., drift, noise, complete failure) in LiDAR and ultrasonic sensors used on warehouse AGVs.\n2.  Develop a lightweight, real-time anomaly detection engine capable of running on edge hardware.\n3.  Evaluate the detection accuracy and false-positive rate of the engine using historical and synthetic sensor traces.\n4.  Design fallback navigation policies that allow AGVs to safely halt or return to base when critical sensor thresholds are breached.\n\n## 3. Methodology\n\nThe project utilised a data-driven approach, collecting over 4,500 hours of baseline sensor data from AGVs operating in controlled environments. We injected synthetic faults into these data streams to create a comprehensive testing corpus. The anomaly detection engine was built using a semi-supervised learning architecture, trained exclusively on healthy data to identify deviations indicative of faults or attacks.\n\nTo evaluate the system, we constructed a replay testing framework. This allowed us to feed the recorded and modified sensor traces into the detection engine in real-time, mimicking the data flow of a live AGV without the physical risks associated with testing faulty navigation in a populated warehouse.\n\n## 4. Key Results and Performance Metrics\n\n*   **Fault Detection Accuracy:** In the final evaluation phase, we completed 2025 replay tests on 80 sensor traces. The system detected 68 injected faults (85 percent, Wilson 95% CI approximately 76 to 91 percent). \n*   **False Positive Rate:** The engine maintained a false positive rate of 2.4% across 1,200 hours of healthy validation data, ensuring that operational disruptions due to false alarms were minimised.\n*   **Latency:** The edge-optimised detection algorithm achieved an average inference time of 14 milliseconds on standard ARM Cortex-A processors, well within the 50-millisecond requirement for real-time AGV control loops.\n*   **Limitation Note:** While the detection metrics are highly promising, it is critical to acknowledge the boundaries of the current validation. These were simulations, not live warehouse validations. The replay tests relied on pre-recorded traces, and the system has not yet been subjected to the unpredictable dynamics of a fully operational, human-populated logistics centre.\n\n## 5. Dissemination and Open Data\n\nThe project resulted in four peer-reviewed publications in top-tier security and robotics venues. Furthermore, we have released the \"RESIL-BOT Warehouse Sensor Corpus,\" an open dataset containing 2.5 TB of annotated LiDAR, ultrasonic, and IMU data, published under a CC BY 4.0 license to support further research in the community."
+          },
+          {
+            "path": "resources_and_infrastructure.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Consortium Resources and Infrastructure\n\nThis document details the physical infrastructure, hardware, and laboratory facilities available to the consortium partners as of September 2026.\n\n## 1. Robotics Hardware (Automazione Logistica Veloce S.r.l.)\n\nALV maintains a dedicated 800-square-meter mechatronics testing facility in Turin. The facility is equipped with motion capture systems for precise ground-truth tracking of robotic platforms. \n\nRegarding the robotic fleet available for research and development: A planned 30-device robot fleet has zero units acquired at present, as procurement is contingent on future capital expenditure approvals. However, six existing bench robots suffice for an initial bounded study. These bench robots are fully functional, scaled-down AGV prototypes equipped with the complete sensor suite (LiDAR, ultrasonic, RGB-D cameras) and compute modules intended for the final production models. They are ideal for validating navigation algorithms, fault-tolerance mechanisms, and edge-computing workloads in a controlled environment before scaling up to full-size industrial vehicles.\n\n## 2. Food Microbiology Laboratory (Instituto de Microbiología Alimentaria de Aragón)\n\nIMAA operates a state-of-the-art 400-square-meter BSL-2 laboratory in Zaragoza. The facility includes:\n\n*   Four walk-in environmental chambers capable of simulating complex temperature and humidity profiles, essential for replicating interrupted cold chains.\n*   High-throughput sequencing equipment for rapid microbial profiling.\n*   Gas chromatography-mass spectrometry (GC-MS) for detecting volatile spoilage markers.\n\nThe lab can assay food samples to quantify microbial load, identify pathogens, and measure biochemical degradation over time. \n\n**Important Regulatory Note:** No medicinal-product development expertise or approval exists within IMAA or the broader consortium. The institute's mandate and certifications are strictly limited to food safety, agricultural research, and environmental monitoring. The team does not conduct pharmacological research, nor do they develop human or veterinary medicines.\n\n## 3. Logistics Infrastructure (Alpen-Kühlkette eG)\n\nAKK provides access to its primary distribution centre in Innsbruck, Austria. The facility spans 12,000 square meters and features three distinct temperature zones: ambient (15°C to 25°C), chilled (2°C to 8°C), and frozen (-25°C to -18°C). The warehouse is equipped with a dense network of IoT environmental sensors logging temperature and humidity at 5-minute intervals.\n\n**Operational Update:**\nPer an operator notice dated 21 September 2026, AKK management withdraws access to live refrigeration control interfaces for all external research projects due to updated internal risk management policies. Read-only monitoring remains authorised, allowing the consortium to continuously ingest real-time environmental data from the warehouse sensor network. Furthermore, an isolated thermal bench is available at the Innsbruck site; this standalone unit is physically decoupled from the main commercial storage areas and can be used for experimental manipulation of temperature profiles without risking commercial inventory.\n\nBecause live control of the commercial warehouse environment is no longer permitted, full validation of changed operating policies must be planned with access gates. Any proposed changes to AGV routing, door management, or cooling schedules generated by the AI decision-support system must pass through a human-in-the-loop verification step and be tested on the isolated thermal bench or via simulation before being considered for operational deployment."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Selected Publications\n\nBelow is a list of selected recent publications by the consortium partners, demonstrating our track record in computer security, robotics, and food microbiology.\n\n1.  **Reuter, L.**, & Klein, H. (2024). \"Adversarial Robustness of Edge-Based Anomaly Detection in Cyber-Physical Logistics Networks.\" *Journal of Secure Systems Engineering*, 12(3), 204-219. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2024.1\n2.  Moretti, A., Rossi, G., & **Reuter, L.** (2025). \"Sim-to-Real Challenges in Fault-Tolerant Navigation for Autonomous Guided Vehicles.\" *International Journal of Industrial Robotics*, 38(1), 45-60. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2025.1\n3.  García-López, M., & Fernández, S. (2023). \"Predictive Modelling of Listeria monocytogenes Growth Dynamics During Cold Chain Interruptions.\" *European Food Microbiology Review*, 41(8), 1102-1115. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2023.1\n4.  **Reuter, L.**, Weber, T., & Moretti, A. (2023). \"Lightweight Cryptographic Verification of Sensor Data Streams in Resource-Constrained Environments.\" *Transactions on Applied Cryptography*, 9(4), 310-325. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2023.2\n5.  Fernández, S., García-López, M., & Huber, K. (2025). \"Correlating Volatile Organic Compounds with Microbial Spoilage in Packaged Poultry under Fluctuating Temperatures.\" *Journal of Agricultural and Food Quality*, 55(2), 188-201. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2025.2"
+          }
+        ],
+        "facts": [
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Completed 2025 replay tests on 80 sensor traces detected 68 injected faults.",
+            "value": "68",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The fault detection rate was 85 percent (Wilson 95% CI approximately 76 to 91 percent).",
+            "value": "85 percent",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The replay tests were simulations, not live warehouse validations.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "A planned 30-device robot fleet has zero units acquired.",
+            "value": "zero",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Six existing bench robots suffice for an initial bounded study.",
+            "value": "six",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "An operator notice dated 21 September 2026 withdraws access to live refrigeration control interfaces.",
+            "value": "21 September 2026",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Read-only monitoring remains authorised.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "An isolated thermal bench is available.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "No medicinal-product development expertise or approval exists.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The lab can assay food samples.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Full validation of changed operating policies must be planned with access gates.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Cold-chain adaptation can combine the Spanish laboratory and Austrian operator.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_profile.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "A Canadian informal contact is not a beneficiary or an EU/associated-country entity for the stated minimum.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_profile.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Fictional German university coordinator, independent Italian robotics SME, Spanish food microbiology institute and Austrian logistics cooperative have signed participation.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_profile.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "The RESIL-BOT project had a total budget of EUR 1.2 million.",
+            "value": "1.2 million",
+            "salient": false,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "IMAA operates a 400-square-meter BSL-2 laboratory.",
+            "value": "400-square-meter",
+            "salient": false,
+            "source": "resources_and_infrastructure.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "Reuter2024",
+            "authors": [
+              "Reuter, L.",
+              "Klein, H."
+            ],
+            "year": 2024,
+            "title": "Adversarial Robustness of Edge-Based Anomaly Detection in Cyber-Physical Logistics Networks",
+            "venue": "Journal of Secure Systems Engineering",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2024.1"
+          },
+          {
+            "key": "Moretti2025",
+            "authors": [
+              "Moretti, A.",
+              "Rossi, G.",
+              "Reuter, L."
+            ],
+            "year": 2025,
+            "title": "Sim-to-Real Challenges in Fault-Tolerant Navigation for Autonomous Guided Vehicles",
+            "venue": "International Journal of Industrial Robotics",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2025.1"
+          },
+          {
+            "key": "GarciaLopez2023",
+            "authors": [
+              "García-López, M.",
+              "Fernández, S."
+            ],
+            "year": 2023,
+            "title": "Predictive Modelling of Listeria monocytogenes Growth Dynamics During Cold Chain Interruptions",
+            "venue": "European Food Microbiology Review",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2023.1"
+          },
+          {
+            "key": "Reuter2023",
+            "authors": [
+              "Reuter, L.",
+              "Weber, T.",
+              "Moretti, A."
+            ],
+            "year": 2023,
+            "title": "Lightweight Cryptographic Verification of Sensor Data Streams in Resource-Constrained Environments",
+            "venue": "Transactions on Applied Cryptography",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2023.2"
+          },
+          {
+            "key": "Fernandez2025",
+            "authors": [
+              "Fernández, S.",
+              "García-López, M.",
+              "Huber, K."
+            ],
+            "year": 2025,
+            "title": "Correlating Volatile Organic Compounds with Microbial Spoilage in Packaged Poultry under Fluctuating Temperatures",
+            "venue": "Journal of Agricultural and Food Quality",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2025.2"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "cv_pi.md, section 6, Academic Service and Memberships",
+          "problem": "The CV names real journals: IEEE Transactions on Industrial Informatics, ACM Transactions on Cyber-Physical Systems, and Computers & Security. It also assigns service and membership at real conferences and the German Informatics Society. These are outside the permitted exceptions for real funders, places, methods and scientific knowledge.",
+          "fix": "Replace these journals, conferences and professional organization with fictional entities, or remove the named service claims. Check replacement names for collisions."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 2",
+          "where": "prior_project_report.md, section 4; dossier.yaml, F01–F02",
+          "problem": "The detection result does not establish its denominator or unit of replication. It reports 2025 replay tests, 80 sensor traces and 68 detected injected faults. The stated 85% and Wilson interval correspond to 68 successes in 80 independent binary trials, but the report never states that there were exactly 80 injected faults or explains how 2025 tests relate to those trials. Repeated replays of the same traces cannot automatically count as independent observations.",
+          "fix": "State whether 2025 is a year or a test count. Specify the number of injected faults, their allocation across traces and replays, the independent evaluation unit, and the denominator used for sensitivity. Calculate uncertainty at that unit and update F01–F02 accordingly."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 2",
+          "where": "prior_project_report.md, sections 3–4, false-positive rate and latency",
+          "problem": "A false-positive rate of 2.4% cannot be reconstructed from 1,200 hours alone: the negative decision unit and false-positive count are absent. The 14 ms latency has no sample size, variability or sufficiently identified hardware. These central performance results therefore lack the required sample sizes and uncertainty. The relationship between training data, healthy validation data and replay-test traces is also unspecified.",
+          "fix": "Define the false-positive decision unit, report its numerator and denominator with appropriate uncertainty, and report false alarms per hour if operational disruption is the intended interpretation. Give latency sample size, uncertainty or distribution summaries, hardware and workload. Explain the training/validation/test partition and how correlated or reused traces were handled."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 7",
+          "where": "cv_pi.md; consortium_profile.md; prior_project_report.md; publications.md",
+          "problem": "These documents have no issue or revision dates. The CV uses 'Present' and 'Currently' without anchoring employment and supervision to September 2026, and the consortium's commitment and advisory statuses are likewise undated. The resources document's September 2026 reference does not establish the currency of the other files. The report's project duration is not a document date.",
+          "fix": "Date each document no later than September 2026. Add an explicit September 2026 status date for current appointments, supervision, consortium commitments and advisory involvement, and give the final report its actual fictional issue date."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4; Task 1",
+          "where": "consortium_profile.md, Informal Contact; dossier.yaml, F13",
+          "problem": "The statement that the Canadian contact is not an 'EU/associated-country entity' conflates beneficiary status with country association. Canada has been associated to Horizon Europe Pillar II since 2024. Being an informal, unfunded contact does establish that this person is not a participating beneficiary, but does not make Canada an unassociated country. This could mislead the participation assessment for the planned Horizon Europe tasks.",
+          "fix": "Retain the explicit informal, non-beneficiary status and explain that the contact does not count toward the consortium because no formal beneficiary participation is proposed. Remove the incorrect country-status assertion; state any call-specific participation restriction separately and accurately."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, F14; consortium_profile.md, opening paragraph",
+          "problem": "F14 says that the four core partners 'have signed participation', but its cited source only calls them committed. No signed participation document, date or equivalent statement appears. The hidden registry strengthens the documented commitment status.",
+          "fix": "Either change F14 to match the documented commitment exactly, or add a dated statement identifying what each partner signed and what that signature commits them to."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, facts",
+          "problem": "The registry omits numerous proposal-relevant numbers and statuses: more than 4,500 hours of baseline data; 1,200 validation hours; 2.4% false positives; 14 ms latency and the 50 ms requirement; four peer-reviewed project publications; the released 2.5 TB corpus and its licence; project dates and other funding amounts; current staff and supervision counts; the 800 m² robotics facility; four environmental chambers; the 12,000 m² warehouse, temperature ranges and five-minute logging; and the procurement approval dependency. F04 also gives only 'zero' as its value while combining the planned fleet size with current acquisition status.",
+          "fix": "Expand the registry to cover all salient quantitative and status claims, preserving source wording, units and qualifications. Separate planned fleet size, current acquired units and procurement dependency into distinct facts. Register limitations and access conditions alongside the capabilities they qualify."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "prior_project_report.md, executive summary and section 4; cv_pi.md, Research Focus",
+          "problem": "The report claims the framework maintained 'bounded operational safety', but supplies only replay-based detector performance, with no safety bound, assumptions, formal argument or closed-loop navigation evaluation. It also infers minimized operational disruption from the false-positive percentage without measuring disruption. The CV's suggestion that secure data pipelines can guarantee cold-chain integrity similarly exceeds what data security and the supplied evidence establish.",
+          "fix": "Limit demonstrated achievements to the measured replay outcomes. Describe navigation safety, operational disruption and cold-chain benefits as objectives requiring further validation, or provide concrete supporting analyses with assumptions and uncertainty. Distinguish data integrity from control of physical temperature and microbial hazards."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "computer security",
+          "robotics",
+          "food microbiology",
+          "systems engineering"
+        ],
+        "method_profile": "quantitative",
+        "country": "DE",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n**Date:** 15 September 2026\n\n# Curriculum Vitae: Prof. Dr. Lukas Reuter\n\n**Current Position:** W2 Professor of Systems Engineering and Computer Security\n**Institution:** Technical University of Falkenburg (TUF), Germany\n**Date of Birth:** 14 May 1984\n**Nationality:** German\n**Contact:** lukas.reuter@tuf-falkenburg.edu.de\n\n## 1. Education and Academic Degrees\n\n*   **2014:** Dr. rer. nat. in Computer Science, Technical University of Falkenburg, Germany. \n    *Dissertation:* \"Resilient Data Pipelines in Distributed Industrial Control Systems.\" \n    *Grade:* Summa cum laude.\n*   **2009:** M.Sc. in Computer Science, Technical University of Falkenburg, Germany.\n*   **2007:** B.Sc. in Information Systems, University of Applied Sciences, Neu-Westfalen, Germany.\n\n## 2. Professional Academic Career\n\n*   **2019 – Present (as of September 2026):** W2 Professor, Department of Computer Science, Technical University of Falkenburg (TUF). Head of the Secure Cyber-Physical Systems Group.\n*   **2014 – 2019:** Postdoctoral Researcher and Group Leader, Institute for Secure Industrial Systems (ISIS), Falkenburg. Led a team of four PhD students focusing on adversarial machine learning in sensor networks.\n*   **2010 – 2014:** Research Assistant, Technical University of Falkenburg. \n\n## 3. Research Focus\n\nMy research bridges computer security and systems engineering, with a specific focus on the resilience of cyber-physical systems (CPS) in logistics and robotics. I investigate how autonomous systems can maintain operational integrity when subjected to sensor faults, adversarial data injection, and environmental degradation. Recent work has expanded into the domain of food logistics, exploring how secure data pipelines can support cold-chain monitoring and help mitigate spoilage risks.\n\n## 4. Selected Third-Party Funding\n\n*   **RESIL-BOT (2022–2025):** \"Resilient Anomaly Detection for Autonomous Guided Vehicles in Warehousing.\" Funded by the German Research Foundation (DFG). Role: Principal Investigator. Total budget: EUR 1.2 million. \n*   **SECURE-CHAIN (2020–2023):** \"Cryptographic Verification of Temperature Logs in Perishable Goods Transport.\" Funded by the Federal Ministry of Education and Research (BMBF). Role: Co-Investigator. Total budget: EUR 850,000 (TUF share: EUR 320,000).\n*   **AutoLog-Sec (2017–2019):** \"Security Protocols for Decentralised Logistics Networks.\" Funded by the State of North Rhine-Westphalia. Role: Project Manager. Total budget: EUR 400,000.\n\n## 5. Teaching and Supervision\n\n*   **Lectures:** \"Introduction to Cyber-Physical Systems Security\" (M.Sc., annually since 2019), \"Advanced Systems Engineering\" (M.Sc., annually since 2020), \"Applied Cryptography in Industry\" (B.Sc., 2019–2022).\n*   **Supervision:** Currently (as of September 2026) supervising 5 PhD students and 2 postdoctoral researchers. Successfully graduated 3 PhD students as primary supervisor. Supervised over 40 M.Sc. and B.Sc. theses.\n\n## 6. Academic Service and Memberships\n\n*   Member of the German Society for Computing and Systems Engineering (GSCSE), Section on Security in Information Technology.\n*   Program Committee Member: International Conference on Resilient Cyber-Physical Systems (ICRCPS) 2023, 2024; European Symposium on Secure Logistics (ESSL) 2022, 2025.\n*   Reviewer for Transactions on Industrial Cyber-Physical Systems, Journal of Secure Computing and Automation, and International Journal of Systems Resilience."
+          },
+          {
+            "path": "consortium_profile.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n**Date:** 15 September 2026\n\n# Consortium Profile: Secure Food Robotics Initiative\n\nThis document outlines the core partners committed to the joint development of resilient AI decision support and robotic automation for food logistics. The consortium brings together expertise in computer security, robotics, food microbiology, and systems engineering. As of 10 September 2026, the Fictional German university coordinator (TUF), independent Italian robotics SME (ALV), Spanish food microbiology institute (IMAA) and Austrian logistics cooperative (AKK) have signed participation agreements for the upcoming proposal.\n\n## Coordinator: Technical University of Falkenburg (TUF), Germany\n\n**Role:** Project coordination, systems engineering, and computer security.\n\nThe Technical University of Falkenburg (TUF) is a leading research institution in Germany, hosting the Secure Cyber-Physical Systems Group led by Prof. Dr. Lukas Reuter. TUF will oversee the integration of security protocols and resilient AI decision-support systems. The group has extensive experience in designing algorithms that detect and mitigate sensor faults and adversarial data injections in distributed networks. TUF will ensure that the data pipelines connecting robotic platforms, environmental sensors, and decision engines remain secure and reliable under operational stress.\n\n## Partner 1: Automazione Logistica Veloce S.r.l. (ALV), Italy\n\n**Role:** Robotic hardware provision, autonomous navigation, and mechatronics.\n\nALV is an independent Italian robotics SME based in Turin, specialising in the design and deployment of Autonomous Guided Vehicles (AGVs) for industrial warehousing. Founded in 2015, ALV has a strong track record of developing agile robotic solutions for dynamic environments. Within the consortium, ALV is responsible for the physical robotic platforms and the low-level control systems. Their engineering team will implement the fault-tolerant navigation algorithms developed by TUF onto the robotic hardware, ensuring that the AGVs can safely operate even when individual sensors degrade or fail.\n\n## Partner 2: Instituto de Microbiología Alimentaria de Aragón (IMAA), Spain\n\n**Role:** Food microbiology, spoilage modelling, and hazard assessment.\n\nIMAA is a Spanish public research institute located in Zaragoza, dedicated to advancing food safety and quality. The institute brings critical domain expertise in food microbiology to the consortium. IMAA will develop predictive models for microbial growth and spoilage under varying environmental conditions, specifically focusing on interrupted cold chains. Cold-chain adaptation can combine the Spanish laboratory and Austrian operator to create a comprehensive farm-to-fork validation pipeline. IMAA's researchers will define the biological constraints and safety thresholds that the AI decision-support system must respect when optimising logistics operations.\n\n## Partner 3: Alpen-Kühlkette eG (AKK), Austria\n\n**Role:** Logistics operations, cold-chain infrastructure, and end-user validation.\n\nAlpen-Kühlkette eG (AKK) is an Austrian logistics cooperative headquartered in Innsbruck, operating a network of temperature-controlled warehouses and distribution centres across Central Europe. AKK represents the end-user perspective, providing the operational context and infrastructure necessary for testing and validating the consortium's technologies. They will supply historical environmental data, define operational requirements, and facilitate the deployment of prototype systems within their facilities to ensure that the developed solutions meet the rigorous demands of commercial food logistics.\n\n## Informal Contact: University of Boreal Sciences, Canada\n\n**Role:** Advisory on North American logistics standards.\n\nDr. Elias Thorne, a researcher at the University of Boreal Sciences in Canada, serves as an informal contact for the consortium. His research focuses on trans-Atlantic supply chain interoperability. He provides ad-hoc advice on North American regulatory frameworks and logistics standards. Because he is an informal contact and not a participating beneficiary, he does not count as an EU/associated-country entity for the stated minimum participation requirements, despite Canada's association to Horizon Europe Pillar II. His involvement is strictly advisory and involves no transfer of funds or formal contractual obligations."
+          },
+          {
+            "path": "prior_project_report.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n**Date:** 15 February 2026\n\n# Final Report: RESIL-BOT (2022–2025)\n\n**Resilient Anomaly Detection for Autonomous Guided Vehicles in Warehousing**\n\n**Funding Agency:** German Research Foundation (DFG)\n**Grant Number:** RB-2022-8849-TUF\n**Total Budget:** EUR 1,200,000\n**Duration:** 1 January 2022 to 31 December 2025\n**Principal Investigator:** Prof. Dr. Lukas Reuter, Technical University of Falkenburg (TUF)\n\n## 1. Executive Summary\n\nThe RESIL-BOT project aimed to enhance the operational resilience of Autonomous Guided Vehicles (AGVs) in warehouse environments by developing advanced anomaly detection algorithms. The primary focus was on identifying sensor faults and adversarial data injections to provide a foundation for bounded operational safety. Over the four-year period, the project successfully developed a novel AI-driven decision-support framework capable of isolating faulty sensor streams in replay evaluations.\n\n## 2. Objectives\n\n1.  Characterise the statistical properties of common sensor faults (e.g., drift, noise, complete failure) in LiDAR and ultrasonic sensors used on warehouse AGVs.\n2.  Develop a lightweight, real-time anomaly detection engine capable of running on edge hardware.\n3.  Evaluate the detection accuracy and false-positive rate of the engine using historical and synthetic sensor traces.\n4.  Design fallback navigation policies that allow AGVs to safely halt or return to base when critical sensor thresholds are breached.\n\n## 3. Methodology\n\nThe project utilised a data-driven approach, collecting over 4,500 hours of baseline sensor data from AGVs operating in controlled environments. We injected synthetic faults into these data streams to create a comprehensive testing corpus. The anomaly detection engine was built using a semi-supervised learning architecture, trained exclusively on 3,300 hours of healthy data, with the remaining 1,200 hours used for validation. The 80 test traces used for final evaluation were strictly separated from training and validation sets.\n\nTo evaluate the system, we constructed a replay testing framework. This allowed us to feed the recorded and modified sensor traces into the detection engine in real-time, mimicking the data flow of a live AGV without the physical risks associated with testing faulty navigation in a populated warehouse.\n\n## 4. Key Results and Performance Metrics\n\n*   **Fault Detection Accuracy:** In 2025, we completed replay tests on 80 independent sensor traces (each containing exactly one injected fault). The system detected 68 of the 80 injected faults (85 percent, Wilson 95% CI approximately 76 to 91 percent). \n*   **False Positive Rate:** The engine was evaluated over 1,200 hours of healthy validation data, partitioned into 72,000 one-minute decision windows. It flagged 1,728 of these windows as anomalous, resulting in a false positive rate of 2.4%. The operational disruption this would cause in a live setting remains to be measured.\n*   **Latency:** The edge-optimised detection algorithm achieved an average inference time of 14 milliseconds (SD = 2.1 ms, n = 10,000 inferences) on a standard ARM Cortex-A76 edge node, well within the 50-millisecond requirement for real-time AGV control loops.\n*   **Limitation Note:** While the detection metrics are highly promising, it is critical to acknowledge the boundaries of the current validation. These were simulations, not live warehouse validations. The replay tests demonstrated the detector's performance, but closed-loop navigation safety and operational disruption remain to be validated in live settings.\n\n## 5. Dissemination and Open Data\n\nThe project resulted in four peer-reviewed publications in top-tier security and robotics venues. Furthermore, we have released the \"RESIL-BOT Warehouse Sensor Corpus,\" an open dataset containing 2.5 TB of annotated LiDAR, ultrasonic, and IMU data, published under a CC BY 4.0 license to support further research in the community."
+          },
+          {
+            "path": "resources_and_infrastructure.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n**Date:** 25 September 2026\n\n# Consortium Resources and Infrastructure\n\nThis document details the physical infrastructure, hardware, and laboratory facilities available to the consortium partners as of September 2026.\n\n## 1. Robotics Hardware (Automazione Logistica Veloce S.r.l.)\n\nALV maintains a dedicated 800-square-meter mechatronics testing facility in Turin. The facility is equipped with motion capture systems for precise ground-truth tracking of robotic platforms. \n\nRegarding the robotic fleet available for research and development: A planned 30-device robot fleet has zero units acquired at present, as procurement is contingent on future capital expenditure approvals. However, six existing bench robots suffice for an initial bounded study. These bench robots are fully functional, scaled-down AGV prototypes equipped with the complete sensor suite (LiDAR, ultrasonic, RGB-D cameras) and compute modules intended for the final production models. They are ideal for validating navigation algorithms, fault-tolerance mechanisms, and edge-computing workloads in a controlled environment before scaling up to full-size industrial vehicles.\n\n## 2. Food Microbiology Laboratory (Instituto de Microbiología Alimentaria de Aragón)\n\nIMAA operates a state-of-the-art 400-square-meter BSL-2 laboratory in Zaragoza. The facility includes:\n\n*   Four walk-in environmental chambers capable of simulating complex temperature and humidity profiles, essential for replicating interrupted cold chains.\n*   High-throughput sequencing equipment for rapid microbial profiling.\n*   Gas chromatography-mass spectrometry (GC-MS) for detecting volatile spoilage markers.\n\nThe lab can assay food samples to quantify microbial load, identify pathogens, and measure biochemical degradation over time. \n\n**Important Regulatory Note:** No medicinal-product development expertise or approval exists within IMAA or the broader consortium. The institute's mandate and certifications are strictly limited to food safety, agricultural research, and environmental monitoring. The team does not conduct pharmacological research, nor do they develop human or veterinary medicines.\n\n## 3. Logistics Infrastructure (Alpen-Kühlkette eG)\n\nAKK provides access to its primary distribution centre in Innsbruck, Austria. The facility spans 12,000 square meters and features three distinct temperature zones: ambient (15°C to 25°C), chilled (2°C to 8°C), and frozen (-25°C to -18°C). The warehouse is equipped with a dense network of IoT environmental sensors logging temperature and humidity at 5-minute intervals.\n\n**Operational Update:**\nPer an operator notice dated 21 September 2026, AKK management withdraws access to live refrigeration control interfaces for all external research projects due to updated internal risk management policies. Read-only monitoring remains authorised, allowing the consortium to continuously ingest real-time environmental data from the warehouse sensor network. Furthermore, an isolated thermal bench is available at the Innsbruck site; this standalone unit is physically decoupled from the main commercial storage areas and can be used for experimental manipulation of temperature profiles without risking commercial inventory.\n\nBecause live control of the commercial warehouse environment is no longer permitted, full validation of changed operating policies must be planned with access gates. Any proposed changes to AGV routing, door management, or cooling schedules generated by the AI decision-support system must pass through a human-in-the-loop verification step and be tested on the isolated thermal bench or via simulation before being considered for operational deployment."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n**Date:** 15 September 2026\n\n# Selected Publications\n\nBelow is a list of selected recent publications by the consortium partners, demonstrating our track record in computer security, robotics, and food microbiology.\n\n1.  **Reuter, L.**, & Klein, H. (2024). \"Adversarial Robustness of Edge-Based Anomaly Detection in Cyber-Physical Logistics Networks.\" *Journal of Secure Systems Engineering*, 12(3), 204-219. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2024.1\n2.  Moretti, A., Rossi, G., & **Reuter, L.** (2025). \"Sim-to-Real Challenges in Fault-Tolerant Navigation for Autonomous Guided Vehicles.\" *International Journal of Industrial Robotics*, 38(1), 45-60. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2025.1\n3.  García-López, M., & Fernández, S. (2023). \"Predictive Modelling of Listeria monocytogenes Growth Dynamics During Cold Chain Interruptions.\" *European Food Microbiology Review*, 41(8), 1102-1115. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2023.1\n4.  **Reuter, L.**, Weber, T., & Moretti, A. (2023). \"Lightweight Cryptographic Verification of Sensor Data Streams in Resource-Constrained Environments.\" *Transactions on Applied Cryptography*, 9(4), 310-325. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2023.2\n5.  Fernández, S., García-López, M., & Huber, K. (2025). \"Correlating Volatile Organic Compounds with Microbial Spoilage in Packaged Poultry under Fluctuating Temperatures.\" *Journal of Agricultural and Food Quality*, 55(2), 188-201. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2025.2"
+          }
+        ],
+        "facts": [
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In 2025, replay tests on 80 independent sensor traces detected 68 injected faults.",
+            "value": "68",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The fault detection rate was 85 percent (Wilson 95% CI approximately 76 to 91 percent).",
+            "value": "85 percent",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The replay tests were simulations, not live warehouse validations.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "A planned 30-device robot fleet has zero units acquired, as procurement is contingent on future capital expenditure approvals.",
+            "value": "zero",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Six existing bench robots suffice for an initial bounded study.",
+            "value": "six",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "An operator notice dated 21 September 2026 withdraws access to live refrigeration control interfaces.",
+            "value": "21 September 2026",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Read-only monitoring remains authorised.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "An isolated thermal bench is available.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "No medicinal-product development expertise or approval exists.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The lab can assay food samples.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Full validation of changed operating policies must be planned with access gates.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Cold-chain adaptation can combine the Spanish laboratory and Austrian operator.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_profile.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "A Canadian informal contact is not a participating beneficiary and does not count as an EU/associated-country entity for the stated minimum.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_profile.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Fictional German university coordinator, independent Italian robotics SME, Spanish food microbiology institute and Austrian logistics cooperative have signed participation agreements.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_profile.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The project collected over 4,500 hours of baseline sensor data.",
+            "value": "4,500 hours",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The engine was evaluated over 1,200 hours of healthy validation data, maintaining a false positive rate of 2.4%.",
+            "value": "2.4%",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The edge-optimised detection algorithm achieved an average inference time of 14 milliseconds, well within the 50-millisecond requirement.",
+            "value": "14 milliseconds",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "The project resulted in four peer-reviewed publications.",
+            "value": "four",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The RESIL-BOT Warehouse Sensor Corpus is an open dataset containing 2.5 TB of data.",
+            "value": "2.5 TB",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The RESIL-BOT project ran from 1 January 2022 to 31 December 2025.",
+            "value": "1 January 2022 to 31 December 2025",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Currently supervising 5 PhD students and 2 postdoctoral researchers.",
+            "value": "5",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "ALV maintains a dedicated 800-square-meter mechatronics testing facility.",
+            "value": "800-square-meter",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The IMAA facility includes four walk-in environmental chambers.",
+            "value": "four",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "AKK provides access to a 12,000 square meter distribution centre equipped with sensors logging at 5-minute intervals.",
+            "value": "12,000 square meter",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "Reuter2024",
+            "authors": [
+              "Reuter, L.",
+              "Klein, H."
+            ],
+            "year": 2024,
+            "title": "Adversarial Robustness of Edge-Based Anomaly Detection in Cyber-Physical Logistics Networks",
+            "venue": "Journal of Secure Systems Engineering",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2024.1"
+          },
+          {
+            "key": "Moretti2025",
+            "authors": [
+              "Moretti, A.",
+              "Rossi, G.",
+              "Reuter, L."
+            ],
+            "year": 2025,
+            "title": "Sim-to-Real Challenges in Fault-Tolerant Navigation for Autonomous Guided Vehicles",
+            "venue": "International Journal of Industrial Robotics",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2025.1"
+          },
+          {
+            "key": "GarciaLopez2023",
+            "authors": [
+              "García-López, M.",
+              "Fernández, S."
+            ],
+            "year": 2023,
+            "title": "Predictive Modelling of Listeria monocytogenes Growth Dynamics During Cold Chain Interruptions",
+            "venue": "European Food Microbiology Review",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2023.1"
+          },
+          {
+            "key": "Reuter2023",
+            "authors": [
+              "Reuter, L.",
+              "Weber, T.",
+              "Moretti, A."
+            ],
+            "year": 2023,
+            "title": "Lightweight Cryptographic Verification of Sensor Data Streams in Resource-Constrained Environments",
+            "venue": "Transactions on Applied Cryptography",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2023.2"
+          },
+          {
+            "key": "Fernandez2025",
+            "authors": [
+              "Fernández, S.",
+              "García-López, M.",
+              "Huber, K."
+            ],
+            "year": 2025,
+            "title": "Correlating Volatile Organic Compounds with Microbial Spoilage in Packaged Poultry under Fluctuating Temperatures",
+            "venue": "Journal of Agricultural and Food Quality",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2025.2"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "errors": [
+        "fact 'The IMAA facility includes four walk-in environmental chambe': value 'four' not in resources_and_infrastructure.md"
+      ]
+    },
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "computer security",
+          "robotics",
+          "food microbiology",
+          "systems engineering"
+        ],
+        "method_profile": "quantitative",
+        "country": "DE",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n**Date:** 15 September 2026\n\n# Curriculum Vitae: Prof. Dr. Lukas Reuter\n\n**Current Position:** W2 Professor of Systems Engineering and Computer Security\n**Institution:** Technical University of Falkenburg (TUF), Germany\n**Date of Birth:** 14 May 1984\n**Nationality:** German\n**Contact:** lukas.reuter@tuf-falkenburg.edu.de\n\n## 1. Education and Academic Degrees\n\n*   **2014:** Dr. rer. nat. in Computer Science, Technical University of Falkenburg, Germany. \n    *Dissertation:* \"Resilient Data Pipelines in Distributed Industrial Control Systems.\" \n    *Grade:* Summa cum laude.\n*   **2009:** M.Sc. in Computer Science, Technical University of Falkenburg, Germany.\n*   **2007:** B.Sc. in Information Systems, University of Applied Sciences, Neu-Westfalen, Germany.\n\n## 2. Professional Academic Career\n\n*   **2019 – Present (as of September 2026):** W2 Professor, Department of Computer Science, Technical University of Falkenburg (TUF). Head of the Secure Cyber-Physical Systems Group.\n*   **2014 – 2019:** Postdoctoral Researcher and Group Leader, Institute for Secure Industrial Systems (ISIS), Falkenburg. Led a team of four PhD students focusing on adversarial machine learning in sensor networks.\n*   **2010 – 2014:** Research Assistant, Technical University of Falkenburg. \n\n## 3. Research Focus\n\nMy research bridges computer security and systems engineering, with a specific focus on the resilience of cyber-physical systems (CPS) in logistics and robotics. I investigate how autonomous systems can maintain operational integrity when subjected to sensor faults, adversarial data injection, and environmental degradation. Recent work has expanded into the domain of food logistics, exploring how secure data pipelines can support cold-chain monitoring and help mitigate spoilage risks.\n\n## 4. Selected Third-Party Funding\n\n*   **RESIL-BOT (2022–2025):** \"Resilient Anomaly Detection for Autonomous Guided Vehicles in Warehousing.\" Funded by the German Research Foundation (DFG). Role: Principal Investigator. Total budget: EUR 1.2 million. \n*   **SECURE-CHAIN (2020–2023):** \"Cryptographic Verification of Temperature Logs in Perishable Goods Transport.\" Funded by the Federal Ministry of Education and Research (BMBF). Role: Co-Investigator. Total budget: EUR 850,000 (TUF share: EUR 320,000).\n*   **AutoLog-Sec (2017–2019):** \"Security Protocols for Decentralised Logistics Networks.\" Funded by the State of North Rhine-Westphalia. Role: Project Manager. Total budget: EUR 400,000.\n\n## 5. Teaching and Supervision\n\n*   **Lectures:** \"Introduction to Cyber-Physical Systems Security\" (M.Sc., annually since 2019), \"Advanced Systems Engineering\" (M.Sc., annually since 2020), \"Applied Cryptography in Industry\" (B.Sc., 2019–2022).\n*   **Supervision:** Currently (as of September 2026) supervising 5 PhD students and 2 postdoctoral researchers. Successfully graduated 3 PhD students as primary supervisor. Supervised over 40 M.Sc. and B.Sc. theses.\n\n## 6. Academic Service and Memberships\n\n*   Member of the German Society for Computing and Systems Engineering (GSCSE), Section on Security in Information Technology.\n*   Program Committee Member: International Conference on Resilient Cyber-Physical Systems (ICRCPS) 2023, 2024; European Symposium on Secure Logistics (ESSL) 2022, 2025.\n*   Reviewer for Transactions on Industrial Cyber-Physical Systems, Journal of Secure Computing and Automation, and International Journal of Systems Resilience."
+          },
+          {
+            "path": "consortium_profile.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n**Date:** 15 September 2026\n\n# Consortium Profile: Secure Food Robotics Initiative\n\nThis document outlines the core partners committed to the joint development of resilient AI decision support and robotic automation for food logistics. The consortium brings together expertise in computer security, robotics, food microbiology, and systems engineering. As of 10 September 2026, the Fictional German university coordinator (TUF), independent Italian robotics SME (ALV), Spanish food microbiology institute (IMAA) and Austrian logistics cooperative (AKK) have signed participation agreements for the upcoming proposal.\n\n## Coordinator: Technical University of Falkenburg (TUF), Germany\n\n**Role:** Project coordination, systems engineering, and computer security.\n\nThe Technical University of Falkenburg (TUF) is a leading research institution in Germany, hosting the Secure Cyber-Physical Systems Group led by Prof. Dr. Lukas Reuter. TUF will oversee the integration of security protocols and resilient AI decision-support systems. The group has extensive experience in designing algorithms that detect and mitigate sensor faults and adversarial data injections in distributed networks. TUF will ensure that the data pipelines connecting robotic platforms, environmental sensors, and decision engines remain secure and reliable under operational stress.\n\n## Partner 1: Automazione Logistica Veloce S.r.l. (ALV), Italy\n\n**Role:** Robotic hardware provision, autonomous navigation, and mechatronics.\n\nALV is an independent Italian robotics SME based in Turin, specialising in the design and deployment of Autonomous Guided Vehicles (AGVs) for industrial warehousing. Founded in 2015, ALV has a strong track record of developing agile robotic solutions for dynamic environments. Within the consortium, ALV is responsible for the physical robotic platforms and the low-level control systems. Their engineering team will implement the fault-tolerant navigation algorithms developed by TUF onto the robotic hardware, ensuring that the AGVs can safely operate even when individual sensors degrade or fail.\n\n## Partner 2: Instituto de Microbiología Alimentaria de Aragón (IMAA), Spain\n\n**Role:** Food microbiology, spoilage modelling, and hazard assessment.\n\nIMAA is a Spanish public research institute located in Zaragoza, dedicated to advancing food safety and quality. The institute brings critical domain expertise in food microbiology to the consortium. IMAA will develop predictive models for microbial growth and spoilage under varying environmental conditions, specifically focusing on interrupted cold chains. Cold-chain adaptation can combine the Spanish laboratory and Austrian operator to create a comprehensive farm-to-fork validation pipeline. IMAA's researchers will define the biological constraints and safety thresholds that the AI decision-support system must respect when optimising logistics operations.\n\n## Partner 3: Alpen-Kühlkette eG (AKK), Austria\n\n**Role:** Logistics operations, cold-chain infrastructure, and end-user validation.\n\nAlpen-Kühlkette eG (AKK) is an Austrian logistics cooperative headquartered in Innsbruck, operating a network of temperature-controlled warehouses and distribution centres across Central Europe. AKK represents the end-user perspective, providing the operational context and infrastructure necessary for testing and validating the consortium's technologies. They will supply historical environmental data, define operational requirements, and facilitate the deployment of prototype systems within their facilities to ensure that the developed solutions meet the rigorous demands of commercial food logistics.\n\n## Informal Contact: University of Boreal Sciences, Canada\n\n**Role:** Advisory on North American logistics standards.\n\nDr. Elias Thorne, a researcher at the University of Boreal Sciences in Canada, serves as an informal contact for the consortium. His research focuses on trans-Atlantic supply chain interoperability. He provides ad-hoc advice on North American regulatory frameworks and logistics standards. Because he is an informal contact and not a participating beneficiary, he does not count as an EU/associated-country entity for the stated minimum participation requirements, despite Canada's association to Horizon Europe Pillar II. His involvement is strictly advisory and involves no transfer of funds or formal contractual obligations."
+          },
+          {
+            "path": "prior_project_report.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n**Date:** 15 February 2026\n\n# Final Report: RESIL-BOT (2022–2025)\n\n**Resilient Anomaly Detection for Autonomous Guided Vehicles in Warehousing**\n\n**Funding Agency:** German Research Foundation (DFG)\n**Grant Number:** RB-2022-8849-TUF\n**Total Budget:** EUR 1,200,000\n**Duration:** 1 January 2022 to 31 December 2025\n**Principal Investigator:** Prof. Dr. Lukas Reuter, Technical University of Falkenburg (TUF)\n\n## 1. Executive Summary\n\nThe RESIL-BOT project aimed to enhance the operational resilience of Autonomous Guided Vehicles (AGVs) in warehouse environments by developing advanced anomaly detection algorithms. The primary focus was on identifying sensor faults and adversarial data injections to provide a foundation for bounded operational safety. Over the four-year period, the project successfully developed a novel AI-driven decision-support framework capable of isolating faulty sensor streams in replay evaluations.\n\n## 2. Objectives\n\n1.  Characterise the statistical properties of common sensor faults (e.g., drift, noise, complete failure) in LiDAR and ultrasonic sensors used on warehouse AGVs.\n2.  Develop a lightweight, real-time anomaly detection engine capable of running on edge hardware.\n3.  Evaluate the detection accuracy and false-positive rate of the engine using historical and synthetic sensor traces.\n4.  Design fallback navigation policies that allow AGVs to safely halt or return to base when critical sensor thresholds are breached.\n\n## 3. Methodology\n\nThe project utilised a data-driven approach, collecting over 4,500 hours of baseline sensor data from AGVs operating in controlled environments. We injected synthetic faults into these data streams to create a comprehensive testing corpus. The anomaly detection engine was built using a semi-supervised learning architecture, trained exclusively on 3,300 hours of healthy data, with the remaining 1,200 hours used for validation. The 80 test traces used for final evaluation were strictly separated from training and validation sets.\n\nTo evaluate the system, we constructed a replay testing framework. This allowed us to feed the recorded and modified sensor traces into the detection engine in real-time, mimicking the data flow of a live AGV without the physical risks associated with testing faulty navigation in a populated warehouse.\n\n## 4. Key Results and Performance Metrics\n\n*   **Fault Detection Accuracy:** In 2025, we completed replay tests on 80 independent sensor traces (each containing exactly one injected fault). The system detected 68 of the 80 injected faults (85 percent, Wilson 95% CI approximately 76 to 91 percent). \n*   **False Positive Rate:** The engine was evaluated over 1,200 hours of healthy validation data, partitioned into 72,000 one-minute decision windows. It flagged 1,728 of these windows as anomalous, resulting in a false positive rate of 2.4%. The operational disruption this would cause in a live setting remains to be measured.\n*   **Latency:** The edge-optimised detection algorithm achieved an average inference time of 14 milliseconds (SD = 2.1 ms, n = 10,000 inferences) on a standard ARM Cortex-A76 edge node, well within the 50-millisecond requirement for real-time AGV control loops.\n*   **Limitation Note:** While the detection metrics are highly promising, it is critical to acknowledge the boundaries of the current validation. These were simulations, not live warehouse validations. The replay tests demonstrated the detector's performance, but closed-loop navigation safety and operational disruption remain to be validated in live settings.\n\n## 5. Dissemination and Open Data\n\nThe project resulted in four peer-reviewed publications in top-tier security and robotics venues. Furthermore, we have released the \"RESIL-BOT Warehouse Sensor Corpus,\" an open dataset containing 2.5 TB of annotated LiDAR, ultrasonic, and IMU data, published under a CC BY 4.0 license to support further research in the community."
+          },
+          {
+            "path": "resources_and_infrastructure.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n**Date:** 25 September 2026\n\n# Consortium Resources and Infrastructure\n\nThis document details the physical infrastructure, hardware, and laboratory facilities available to the consortium partners as of September 2026.\n\n## 1. Robotics Hardware (Automazione Logistica Veloce S.r.l.)\n\nALV maintains a dedicated 800-square-meter mechatronics testing facility in Turin. The facility is equipped with motion capture systems for precise ground-truth tracking of robotic platforms. \n\nRegarding the robotic fleet available for research and development: A planned 30-device robot fleet has zero units acquired at present, as procurement is contingent on future capital expenditure approvals. However, six existing bench robots suffice for an initial bounded study. These bench robots are fully functional, scaled-down AGV prototypes equipped with the complete sensor suite (LiDAR, ultrasonic, RGB-D cameras) and compute modules intended for the final production models. They are ideal for validating navigation algorithms, fault-tolerance mechanisms, and edge-computing workloads in a controlled environment before scaling up to full-size industrial vehicles.\n\n## 2. Food Microbiology Laboratory (Instituto de Microbiología Alimentaria de Aragón)\n\nIMAA operates a state-of-the-art 400-square-meter BSL-2 laboratory in Zaragoza. The facility includes:\n\n*   Four walk-in environmental chambers capable of simulating complex temperature and humidity profiles, essential for replicating interrupted cold chains.\n*   High-throughput sequencing equipment for rapid microbial profiling.\n*   Gas chromatography-mass spectrometry (GC-MS) for detecting volatile spoilage markers.\n\nThe lab can assay food samples to quantify microbial load, identify pathogens, and measure biochemical degradation over time. \n\n**Important Regulatory Note:** No medicinal-product development expertise or approval exists within IMAA or the broader consortium. The institute's mandate and certifications are strictly limited to food safety, agricultural research, and environmental monitoring. The team does not conduct pharmacological research, nor do they develop human or veterinary medicines.\n\n## 3. Logistics Infrastructure (Alpen-Kühlkette eG)\n\nAKK provides access to its primary distribution centre in Innsbruck, Austria. The facility spans 12,000 square meters and features three distinct temperature zones: ambient (15°C to 25°C), chilled (2°C to 8°C), and frozen (-25°C to -18°C). The warehouse is equipped with a dense network of IoT environmental sensors logging temperature and humidity at 5-minute intervals.\n\n**Operational Update:**\nPer an operator notice dated 21 September 2026, AKK management withdraws access to live refrigeration control interfaces for all external research projects due to updated internal risk management policies. Read-only monitoring remains authorised, allowing the consortium to continuously ingest real-time environmental data from the warehouse sensor network. Furthermore, an isolated thermal bench is available at the Innsbruck site; this standalone unit is physically decoupled from the main commercial storage areas and can be used for experimental manipulation of temperature profiles without risking commercial inventory.\n\nBecause live control of the commercial warehouse environment is no longer permitted, full validation of changed operating policies must be planned with access gates. Any proposed changes to AGV routing, door management, or cooling schedules generated by the AI decision-support system must pass through a human-in-the-loop verification step and be tested on the isolated thermal bench or via simulation before being considered for operational deployment."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n**Date:** 15 September 2026\n\n# Selected Publications\n\nBelow is a list of selected recent publications by the consortium partners, demonstrating our track record in computer security, robotics, and food microbiology.\n\n1.  **Reuter, L.**, & Klein, H. (2024). \"Adversarial Robustness of Edge-Based Anomaly Detection in Cyber-Physical Logistics Networks.\" *Journal of Secure Systems Engineering*, 12(3), 204-219. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2024.1\n2.  Moretti, A., Rossi, G., & **Reuter, L.** (2025). \"Sim-to-Real Challenges in Fault-Tolerant Navigation for Autonomous Guided Vehicles.\" *International Journal of Industrial Robotics*, 38(1), 45-60. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2025.1\n3.  García-López, M., & Fernández, S. (2023). \"Predictive Modelling of Listeria monocytogenes Growth Dynamics During Cold Chain Interruptions.\" *European Food Microbiology Review*, 41(8), 1102-1115. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2023.1\n4.  **Reuter, L.**, Weber, T., & Moretti, A. (2023). \"Lightweight Cryptographic Verification of Sensor Data Streams in Resource-Constrained Environments.\" *Transactions on Applied Cryptography*, 9(4), 310-325. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2023.2\n5.  Fernández, S., García-López, M., & Huber, K. (2025). \"Correlating Volatile Organic Compounds with Microbial Spoilage in Packaged Poultry under Fluctuating Temperatures.\" *Journal of Agricultural and Food Quality*, 55(2), 188-201. DOI: 10.99999/pb.v2-secure-food-robotics-consortium.2025.2"
+          }
+        ],
+        "facts": [
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In 2025, replay tests on 80 independent sensor traces detected 68 injected faults.",
+            "value": "68",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The fault detection rate was 85 percent (Wilson 95% CI approximately 76 to 91 percent).",
+            "value": "85 percent",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The replay tests were simulations, not live warehouse validations.",
+            "value": null,
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "A planned 30-device robot fleet has zero units acquired, as procurement is contingent on future capital expenditure approvals.",
+            "value": "zero",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Six existing bench robots suffice for an initial bounded study.",
+            "value": "six",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "An operator notice dated 21 September 2026 withdraws access to live refrigeration control interfaces.",
+            "value": "21 September 2026",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Read-only monitoring remains authorised.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "An isolated thermal bench is available.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "No medicinal-product development expertise or approval exists.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The lab can assay food samples.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Full validation of changed operating policies must be planned with access gates.",
+            "value": null,
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Cold-chain adaptation can combine the Spanish laboratory and Austrian operator.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_profile.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "A Canadian informal contact is not a participating beneficiary and does not count as an EU/associated-country entity for the stated minimum.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_profile.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Fictional German university coordinator, independent Italian robotics SME, Spanish food microbiology institute and Austrian logistics cooperative have signed participation agreements.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_profile.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The project collected over 4,500 hours of baseline sensor data.",
+            "value": "4,500 hours",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The engine was evaluated over 1,200 hours of healthy validation data, maintaining a false positive rate of 2.4%.",
+            "value": "2.4%",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The edge-optimised detection algorithm achieved an average inference time of 14 milliseconds, well within the 50-millisecond requirement.",
+            "value": "14 milliseconds",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "The project resulted in four peer-reviewed publications.",
+            "value": "four",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The RESIL-BOT Warehouse Sensor Corpus is an open dataset containing 2.5 TB of data.",
+            "value": "2.5 TB",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The RESIL-BOT project ran from 1 January 2022 to 31 December 2025.",
+            "value": "1 January 2022 to 31 December 2025",
+            "salient": true,
+            "source": "prior_project_report.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Currently supervising 5 PhD students and 2 postdoctoral researchers.",
+            "value": "5",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "ALV maintains a dedicated 800-square-meter mechatronics testing facility.",
+            "value": "800-square-meter",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The IMAA facility includes four walk-in environmental chambers.",
+            "value": "Four",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "AKK provides access to a 12,000 square meters distribution centre equipped with sensors logging at 5-minute intervals.",
+            "value": "12,000 square meters",
+            "salient": true,
+            "source": "resources_and_infrastructure.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "Reuter2024",
+            "authors": [
+              "Reuter, L.",
+              "Klein, H."
+            ],
+            "year": 2024,
+            "title": "Adversarial Robustness of Edge-Based Anomaly Detection in Cyber-Physical Logistics Networks",
+            "venue": "Journal of Secure Systems Engineering",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2024.1"
+          },
+          {
+            "key": "Moretti2025",
+            "authors": [
+              "Moretti, A.",
+              "Rossi, G.",
+              "Reuter, L."
+            ],
+            "year": 2025,
+            "title": "Sim-to-Real Challenges in Fault-Tolerant Navigation for Autonomous Guided Vehicles",
+            "venue": "International Journal of Industrial Robotics",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2025.1"
+          },
+          {
+            "key": "GarciaLopez2023",
+            "authors": [
+              "García-López, M.",
+              "Fernández, S."
+            ],
+            "year": 2023,
+            "title": "Predictive Modelling of Listeria monocytogenes Growth Dynamics During Cold Chain Interruptions",
+            "venue": "European Food Microbiology Review",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2023.1"
+          },
+          {
+            "key": "Reuter2023",
+            "authors": [
+              "Reuter, L.",
+              "Weber, T.",
+              "Moretti, A."
+            ],
+            "year": 2023,
+            "title": "Lightweight Cryptographic Verification of Sensor Data Streams in Resource-Constrained Environments",
+            "venue": "Transactions on Applied Cryptography",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2023.2"
+          },
+          {
+            "key": "Fernandez2025",
+            "authors": [
+              "Fernández, S.",
+              "García-López, M.",
+              "Huber, K."
+            ],
+            "year": 2025,
+            "title": "Correlating Volatile Organic Compounds with Microbial Spoilage in Packaged Poultry under Fluctuating Temperatures",
+            "venue": "Journal of Agricultural and Food Quality",
+            "doi": "10.99999/pb.v2-secure-food-robotics-consortium.2025.2"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "data/public/dossiers/v2-secure-food-robotics-consortium/cv_pi.md heading: “Prof. Dr. Lukas Reuter”; consortium_profile.md and prior_project_report.md coordinator; publications.md Reuter, L.",
+          "problem": "Lukas Reuter is a real computer-science researcher listed by Trier University/DFKI. The dossier assigns him an invented institution, birth date, professorship, grants and publications in a closely related field.",
+          "fix": "Replace the fictional person's name with “Lukas Varnkötter” throughout visible files, hidden facts, publication author strings/keys and linked task briefs (including the sign-off). Use “Varnkötter, L.” in citations and a reserved example-domain email such as lukas.varnkoetter@tuf.example.",
+          "evidence": [
+            "https://www.uni-trier.de/en/university/faculties-and-departments/faculty-iv/study-courses/computer-science/chairs/business-informatics-i/team",
+            "https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-iv/faecher/informatikwissenschaften/professuren/wirtschaftsinformatik-1/forschung/projekte/adaptpro"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "data/public/dossiers/v2-secure-food-robotics-consortium/cv_pi.md funding: “SECURE-CHAIN (2020–2023)”.",
+          "problem": "SecureChain is a real Horizon 2020 project (grant 646457), and Secure Chain also names an active logistics-security initiative. The fictional grant name is confusable in precisely the supply-chain/security domain.",
+          "fix": "Rename this fictional award “PB-THERMOSEAL-20” while retaining its title, 2020–2023 period, BMBF funder, EUR 850,000 total and EUR 320,000 TUF share. Apply the replacement in any new fact entries.",
+          "evidence": [
+            "https://eu-cap-network.ec.europa.eu/projects/practice-abstracts/securechain-small-and-medium-enterprises-securing-future-proof_en",
+            "https://secure-chain.eu/"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "data/public/dossiers/v2-secure-food-robotics-consortium/cv_pi.md Academic Service: “Reviewer for Transactions on Industrial Cyber-Physical Systems”.",
+          "problem": "This is the distinctive title of the real IEEE Transactions on Industrial Cyber-Physical Systems. Dropping 'IEEE' does not make the journal fictional, so the invented reviewing history still claims service to a real organisation/venue.",
+          "fix": "Replace with “Journal of Embedded Assurance Practice”. The other invented service venues can remain subject to the recorded negative searches.",
+          "evidence": [
+            "https://2023.ieee-isie.org/static/files/t-icps_cfp.pdf",
+            "https://ieeexplore.ieee.org/document/10330693/"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "data/public/dossiers/v2-secure-food-robotics-consortium/cv_pi.md “EUR 1.2 million”, “EUR 850,000 (TUF share: EUR 320,000)”, “EUR 400,000”; prior_project_report.md “SD = 2.1 ms, n = 10,000”; dossier.yaml F01–F24.",
+          "problem": "The registry still omits much of the demonstrated funding, position and quantitative performance evidence. It records headline latency but not its uncertainty/replication, and omits all award amounts, making the hidden evidence incomplete even though the visible values are available.",
+          "fix": "Add salient existing facts with exact source values: professor since 2019 and doctorate 2014 (cv_pi.md); RESIL-BOT EUR 1,200,000 and RB-2022-8849-TUF (prior_project_report.md); renamed temperature-log project EUR 850,000/TUF EUR 320,000 and AutoLog-Sec EUR 400,000 (cv_pi.md); training 3,300 hours, healthy validation 1,200 hours, 72,000 windows/1,728 false positives, latency SD 2.1 ms/n=10,000/ARM Cortex-A76 (prior_project_report.md); 10 September 2026 participation signatures (consortium_profile.md); BSL-2/400-square-metre lab and warehouse temperature zones (resources_and_infrastructure.md). Extend F19 with the corpus CC BY 4.0 status.",
+          "evidence": [
+            "data/public/dossiers/v2-secure-food-robotics-consortium/cv_pi.md",
+            "data/public/dossiers/v2-secure-food-robotics-consortium/prior_project_report.md",
+            "data/public/dossiers/v2-secure-food-robotics-consortium/consortium_profile.md",
+            "data/public/dossiers/v2-secure-food-robotics-consortium/resources_and_infrastructure.md",
+            "data/public/dossiers/v2-secure-food-robotics-consortium/dossier.yaml"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

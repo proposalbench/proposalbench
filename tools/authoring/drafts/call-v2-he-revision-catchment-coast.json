@@ -1,0 +1,114 @@
+{
+  "kind": "call",
+  "id": "v2-he-revision-catchment-coast",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "2d18adc637183f93c19722ab5c39c5e352caeb4c7b815c71e8ec8759b7d0fc0c",
+  "draft": {
+    "title": "Stormwater-to-coast forecasts for equitable public water management",
+    "expected_outcomes_intro": "Project results are expected to contribute to all of the following expected outcomes:",
+    "expected_outcomes": [
+      "Public water managers can use forecasts of stormwater-driven coastal contamination to trigger timely, locally appropriate responses, with explicit consideration of forecast uncertainty and the consequences of missed events and false alarms.",
+      "Public authorities and forecasting services have evidence on forecast reliability across contrasting catchments and coastal receiving waters, enabling informed decisions about transfer, local calibration and limits of use.",
+      "Underserved users benefit from more accessible warnings and response arrangements that account for unequal exposure, access to services and ability to act on advice.",
+      "Public water managers and service providers have reusable forecasting and decision-support workflows, with defined responsibilities and resource needs for their adoption and maintenance."
+    ],
+    "scope_intro": "Intense rainfall can mobilise contaminants through urban runoff, drainage networks and sewer overflows into coastal receiving waters. Responses depend on processes operating across catchment and coastal boundaries, while fragmented observations and uncertain forecasts complicate decisions about warnings, monitoring and restrictions on water use.\n\nProposals should connect stormwater transport and coastal contamination forecasting with the decisions of public water managers. Research should establish when forecasts support actionable response thresholds, how performance transfers between sites, and how resulting decisions affect users with different exposure, information and service needs.",
+    "scope": [
+      "Develop coupled stormwater transport and coastal contamination forecasts, explaining contaminant selection, source pathways, observational requirements and the representation of relevant catchment and coastal processes.",
+      "Define operational response thresholds with public water managers, linking forecast information to responsibilities, feasible actions and applicable water-quality obligations, and assess these through exercises in relevant environments.",
+      "Quantify and propagate observation, forcing, parameter and model uncertainties; evaluate forecast calibration, lead times and decision consequences against observed events and existing management practices.",
+      "Test transfer between contrasting catchments and coastal receiving waters using independent validation, identifying local calibration needs, performance limitations and conditions under which forecasts should not inform action.",
+      "Assess how exposure, warning accessibility and response measures affect underserved users, including the distribution of benefits and burdens and practical barriers to acting on advice.",
+      "Estimate the staff time, computing and maintenance effort participating public managers need to operate forecasting and decision-support workflows after the project ends, identifying needs not covered by their current resources."
+    ],
+    "exclusions": [
+      "Marine pollution forecasting that does not address contaminant transport from stormwater pathways and its implications for public water-management decisions.",
+      "Construction of full-scale drainage or treatment infrastructure.",
+      "Routine commercial rollout of forecasting services."
+    ],
+    "mandatory_elements": [
+      "A multi-actor approach is required, involving public water managers and representatives of affected users in defining decision needs, designing response arrangements and assessing results.",
+      "Proposals must integrate social sciences and humanities expertise, with defined tasks and effort in the work plan, and must analyse relevant sex and gender differences in exposure to contaminated water and in responses to warnings.",
+      "Proposals must state, for each monitoring and operational data stream used, which participant or third party provides and grants access to it, the status of the corresponding access agreement, and the fallback used if the agreement is delayed or the observations are unavailable."
+    ],
+    "conditions": {
+      "max_budget": 4800000,
+      "duration_months_max": 36,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": null
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Stormwater-to-coast forecasts for equitable public water management",
+        "expected_outcomes_intro": "Project results are expected to contribute to all of the following expected outcomes:",
+        "expected_outcomes": [
+          "Public water managers can use forecasts of stormwater-driven coastal contamination to trigger timely, locally appropriate responses, with explicit consideration of forecast uncertainty and the consequences of missed events and false alarms.",
+          "Public authorities and forecasting services have evidence on forecast reliability across contrasting catchments and coastal receiving waters, enabling informed decisions about transfer, local calibration and limits of use.",
+          "Underserved users benefit from more accessible warnings and response arrangements that account for unequal exposure, access to services and ability to act on advice.",
+          "Public water managers and service providers have reusable forecasting and decision-support workflows, with defined responsibilities and resource needs for their adoption and maintenance."
+        ],
+        "scope_intro": "Intense rainfall can mobilise contaminants through urban runoff, drainage networks and sewer overflows into coastal receiving waters. Responses depend on processes operating across catchment and coastal boundaries, while fragmented observations and uncertain forecasts complicate decisions about warnings, monitoring and restrictions on water use.\n\nProposals should connect stormwater transport and coastal contamination forecasting with the decisions of public water managers. Research should establish when forecasts support actionable response thresholds, how performance transfers between sites, and how resulting decisions affect users with different exposure, information and service needs.",
+        "scope": [
+          "Develop coupled stormwater transport and coastal contamination forecasts, explaining contaminant selection, source pathways, observational requirements and the representation of relevant catchment and coastal processes.",
+          "Define operational response thresholds with public water managers, linking forecast information to responsibilities, feasible actions and applicable water-quality obligations, and assess these through exercises in relevant environments.",
+          "Quantify and propagate observation, forcing, parameter and model uncertainties; evaluate forecast calibration, lead times and decision consequences against observed events and existing management practices.",
+          "Test transfer between contrasting catchments and coastal receiving waters using independent validation, identifying local calibration needs, performance limitations and conditions under which forecasts should not inform action.",
+          "Assess how exposure, warning accessibility and response measures affect underserved users, including the distribution of benefits and burdens and practical barriers to acting on advice.",
+          "Develop dissemination, exploitation and uptake pathways with resource estimates for public-manager use, identifying staffing, data-access, computing and maintenance risks and measures to address them."
+        ],
+        "exclusions": [
+          "Marine pollution forecasting that does not address contaminant transport from stormwater pathways and its implications for public water-management decisions.",
+          "Construction of full-scale drainage or treatment infrastructure, or routine commercial rollout of forecasting services."
+        ],
+        "mandatory_elements": [
+          "A multi-actor approach is required, involving public water managers and representatives of affected users in defining decision needs, designing response arrangements and assessing results.",
+          "Proposals must integrate social sciences and humanities expertise to investigate underserved users' circumstances, including relevant sex and gender dimensions and their interaction with socioeconomic and accessibility factors.",
+          "Proposals must establish responsibilities and arrangements for access to monitoring and operational data, including contingencies for delayed agreements, unavailable observations and interruptions to participating managers' capacity."
+        ],
+        "conditions": {
+          "max_budget": 4800000,
+          "duration_months_max": 36,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": null
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.yaml scope SC6 and call.md Scope, last bullet ('Develop dissemination, exploitation and uptake pathways with resource estimates for public-manager use, identifying staffing, data-access, computing and maintenance risks and measures to address them')",
+          "problem": "SC6 packs four separate demands into one item: a dissemination and exploitation plan, resource estimates, a risk register and mitigation measures. Most of it duplicates other requirements. A dissemination and exploitation plan is already required by template section 2.2. Critical risks with mitigation measures are already required by section 3.1. 'Data-access risks and measures' repeats ME4. 'Resource estimates … maintenance' repeats EO4 ('resource needs for their adoption and maintenance'). Any proposal that follows the template and addresses ME4 satisfies most of SC6. The item therefore does not discriminate between proposals and counts the same content twice.",
+          "fix": "Replace SC6 in both files with a single requirement that nothing else covers, e.g. 'Estimate the staff time, computing and maintenance effort that participating public managers need to operate the forecasting and decision-support workflows after the project ends, and identify which of these needs are not yet covered by their current resources.' Drop 'dissemination, exploitation', 'data-access' and 'risks and measures to address them'."
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.yaml mandatory_elements ME4 and call.md Specific conditions, fourth bullet",
+          "problem": "ME4 overlaps SC6 on two points. Its 'arrangements for access to monitoring and operational data' and 'contingencies' repeat SC6's 'data-access … risks and measures'. Its 'interruptions to participating managers' capacity' repeats SC6's 'staffing … risks'. The phrase 'interruptions to … capacity' is also too vague to check: it does not say whether it means staff, budget, IT systems or legal mandate. As written, ME4 bundles data governance with partner-continuity risk.",
+          "fix": "Restrict ME4 in both files to data access, e.g. 'Proposals must state, for each monitoring and operational data stream used, which participant or third party provides and grants access to it, the status of the corresponding access agreement, and the fallback used if the agreement is delayed or the observations are unavailable.' Move staffing continuity to the rewritten SC6, or leave it to the critical-risk table in section 3.1."
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.yaml ME3 versus SC5 (call.md Specific conditions, third bullet, and Scope, fifth bullet)",
+          "problem": "ME3 requires the proposal to 'investigate underserved users' circumstances … and their interaction with socioeconomic and accessibility factors'. SC5 already requires assessing exposure, warning accessibility and 'practical barriers to acting on advice' for underserved users. A proposal that meets SC5 meets almost all of ME3. Only two parts of ME3 are new: SSH expertise and the sex and gender dimension. The same analysis is therefore scored twice, and EO3 adds a third time.",
+          "fix": "Limit ME3 in both files to what SC5 does not cover, e.g. 'Proposals must integrate social sciences and humanities expertise, with defined tasks and effort in the work plan, and must analyse relevant sex and gender differences in exposure to contaminated water and in responses to warnings.' Keep SC5 as the item on underserved users' barriers and on the distribution of benefits and burdens."
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.yaml exclusions EX2 and call.md out-of-scope, second bullet ('Construction of full-scale drainage or treatment infrastructure, or routine commercial rollout of forecasting services')",
+          "problem": "One exclusion covers two unrelated activities: building physical infrastructure and commercially operating a service. A proposal can breach one and not the other, so a single EX2 judgement cannot be made cleanly.",
+          "fix": "Split the item in both files: EX2 'Construction of full-scale drainage or treatment infrastructure.' and EX3 'Routine commercial rollout of forecasting services.'"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

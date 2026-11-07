@@ -1,0 +1,320 @@
+schema_version: 1
+id: v2-astronomy-detector-erc-pi
+language: en
+applicant_type: individual
+career_stage: senior
+disciplines:
+- astrophysics
+- detector physics
+- scientific software
+method_profile: quantitative
+country: SE
+files:
+- path: cv_pi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: resources.md
+  role: resources
+- path: team.md
+  role: team
+- path: publications.md
+  role: publications
+facts:
+- id: F01
+  category: grant
+  kind: existing
+  text: The PI holds an ongoing ERC Advanced Grant (CALIFAINT) running from 2022 to 2027 with EUR 2,450,000
+    in funding.
+  value: EUR 2,450,000
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: position
+  kind: existing
+  text: The university host confirms employment through any proposed Proof of Concept grant period.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: grant
+  kind: existing
+  text: No previous ERC Proof of Concept applications have been submitted for the CALIFAINT results, and
+    no spin-out sales operation exists.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F04
+  category: result
+  kind: existing
+  text: Characterized three distinct sCMOS architectures, testing 4 devices per architecture for a total
+    of 12 devices.
+  value: '4'
+  salient: true
+  source: prior_project.md
+- id: F05
+  category: result
+  kind: existing
+  text: Each of the 12 tested devices has 4 million pixels.
+  value: 4 million pixels
+  salient: true
+  source: prior_project.md
+- id: F06
+  category: result
+  kind: existing
+  text: Temperatures ranged from 100 K to 200 K.
+  value: 100 K to 200 K
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: result
+  kind: existing
+  text: 14% (standard deviation of 1.2 percentage points) of pixels exhibit non-Gaussian noise tails.
+  value: 14%
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: Generated a comprehensive defect map library comprising 4.2 terabytes of raw sensor data.
+  value: 4.2 terabytes
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: The primary validation phase ran the calibration algorithm across 200 simulated exposures.
+  value: '200'
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: The simulations injected 10,000 artificial point sources with a Poisson mean of 15 detected electrons
+    per source.
+  value: '15'
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: No astronomical-magnitude or full telescope-sensitivity equivalence is claimed for this detector-only
+    validation.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: result
+  kind: existing
+  text: Source photon arrivals were Poisson sampled with a Gaussian point-spread function of 0.8 arcseconds
+    FWHM.
+  value: 0.8 arcseconds
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: result
+  kind: existing
+  text: A detection was defined as 5 times the background standard deviation; 15 detected electrons yield
+    a source-shot-noise upper bound of approximately 3.87.
+  value: '3.87'
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: result
+  kind: existing
+  text: Sky background and a detector plate scale were not specified, so the reported recovery must not
+    be extrapolated to real-sky completeness.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F15
+  category: result
+  kind: existing
+  text: Held out 50 physical acquisitions and 50 simulated exposures as the test set.
+  value: '50'
+  salient: true
+  source: prior_project.md
+- id: F16
+  category: result
+  kind: existing
+  text: The pipeline reduced false detections from 40 to 26.
+  value: '26'
+  salient: true
+  source: prior_project.md
+- id: F17
+  category: result
+  kind: existing
+  text: Maintained a fixed injected-signal recovery rate of 98%, recovering 1,960 of 2,000 injected sources
+    in the test set.
+  value: 1,960 of 2,000
+  salient: true
+  source: prior_project.md
+- id: F18
+  category: result
+  kind: existing
+  text: The paired bootstrap 95% confidence interval for the absolute reduction in false detections is
+    5 to 23.
+  value: 5 to 23
+  salient: true
+  source: prior_project.md
+- id: F19
+  category: result
+  kind: existing
+  text: The reported performance represents simulation only; field efficacy on physical telescope data
+    has not yet been established.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F20
+  category: resource
+  kind: existing
+  text: FaintCal processes a 4-megapixel frame in 1.2 seconds (standard deviation 0.1s across 100 runs)
+    using 8 threads.
+  value: 1.2 seconds
+  salient: true
+  source: prior_project.md
+- id: F21
+  category: resource
+  kind: existing
+  text: This is a direct improvement from the 8.5 seconds baseline runtime measured on the identical hardware
+    and workload.
+  value: 8.5 seconds
+  salient: true
+  source: prior_project.md
+- id: F22
+  category: other
+  kind: planned
+  text: The final six months of the main grant will focus on finalizing documentation and preparing theoretical
+    findings for publication.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F23
+  category: other
+  kind: planned
+  text: Planned preliminary integration tests with archival data from the Nordic Optical Telescope in
+    months 55–60.
+  value: Months 55–60
+  salient: true
+  source: prior_project.md
+- id: F24
+  category: resource
+  kind: existing
+  text: The cryogenic vacuum chamber maintains 70 K with a thermal stability of ±0.01 K standard deviation.
+  value: 70 K
+  salient: true
+  source: resources.md
+- id: F25
+  category: resource
+  kind: existing
+  text: We currently operate three evaluation boards for next-generation sCMOS sensors, provided under
+    non-disclosure agreements for research purposes.
+  value: three
+  salient: true
+  source: resources.md
+- id: F26
+  category: resource
+  kind: existing
+  text: Västerled University owns the new calibration code and conducted a formal IP review finding no
+    encumbrances on core IP.
+  value: null
+  salient: true
+  source: resources.md
+- id: F27
+  category: resource
+  kind: existing
+  text: The legacy detector-driver module DetControl-Pro is licensed for internal academic use only, with
+    no redistribution rights.
+  value: null
+  salient: true
+  source: resources.md
+- id: F28
+  category: resource
+  kind: existing
+  text: An open-source driver, SkarvDrive, exists but its integration with the FaintCal workflow remains
+    untested.
+  value: null
+  salient: true
+  source: resources.md
+- id: F29
+  category: team
+  kind: planned
+  text: Prospective laboratory user validation is scheduled for Q1 2027 with two external astrophysics
+    groups; these sessions are funded from CALIFAINT and results are not yet available.
+  value: two
+  salient: true
+  source: resources.md
+- id: F30
+  category: other
+  kind: planned
+  text: Translation to nocturnal atmospheric aerosol fluorescence monitoring hypothesizes using UV LED
+    excitation and a 10 Hz readout.
+  value: 10 Hz
+  salient: true
+  source: resources.md
+- id: F31
+  category: team
+  kind: existing
+  text: Dr. Linnea Signe Holmervik authored the core mathematical routines, and Dr. Arvid Torsten Lindekvist
+    optimized the C++ implementation.
+  value: null
+  salient: true
+  source: team.md
+- id: F32
+  category: team
+  kind: existing
+  text: Dr. Tobias Lindvret serves as an unfunded external collaborator advising on environmental sensing.
+  value: null
+  salient: true
+  source: team.md
+own_publications:
+- key: Holmervik2026
+  authors:
+  - Holmervik, L. S.
+  - Bergelund, S. E.
+  - Norväng, E. M.
+  year: 2026
+  title: Dynamic Response Modeling for Non-Stationary Noise in Scientific CMOS Detectors
+  venue: Skarvholm Calibration Studies
+  doi: 10.99999/pb.v2-astronomy-detector-erc-pi.2026.1
+- key: Jannervik2025
+  authors:
+  - Jannervik, S. E.
+  - Holmervik, L. S.
+  - Norväng, E. M.
+  year: 2025
+  title: Synthetic Injection Pipelines for Evaluating Faint-Source Recovery Limits
+  venue: Vasterled Detector Computing Reports
+  doi: 10.99999/pb.v2-astronomy-detector-erc-pi.2025.1
+- key: Lindekvist2025
+  authors:
+  - Lindekvist, A. T.
+  - Holmervik, L. S.
+  - Norväng, E. M.
+  year: 2025
+  title: Low-Latency Processing Architectures for High-Cadence Astronomical Surveys
+  venue: Software for Physics and Astronomy
+  doi: 10.99999/pb.v2-astronomy-detector-erc-pi.2025.2
+- key: Bergelund2024
+  authors:
+  - Bergelund, S. E.
+  - Norliden, M. I.
+  - Norväng, E. M.
+  year: 2024
+  title: Cryogenic Characterization of Random Telegraph Signal in Back-Illuminated sCMOS Sensors
+  venue: Detector Physics Review
+  doi: 10.99999/pb.v2-astronomy-detector-erc-pi.2024.1
+- key: Norvang2023
+  authors:
+  - Norväng, E. M.
+  - Holmervik, L. S.
+  year: 2023
+  title: 'Beyond Flat-Fielding: The Case for State-Dependent Pixel Calibration'
+  venue: Annual Review of Astronomical Techniques
+  doi: 10.99999/pb.v2-astronomy-detector-erc-pi.2023.1
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 5e1e08b1-f45a-4ab6-b7dd-93096b1ce4f7

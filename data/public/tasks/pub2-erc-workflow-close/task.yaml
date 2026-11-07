@@ -1,0 +1,26 @@
+schema_version: 1
+id: pub2-erc-workflow-close
+split: public
+call_id: v2-erc-poc-workflow-transfer
+dossier_id: v2-astronomy-detector-erc-pi
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T12
+  description: The brief asks to package and distribute the complete FaintCal workflow tool "exactly as
+    we currently run it in our lab" as a "fully open-source, plug-and-play software suite". However, the
+    dossier (resources.md) states that the current laboratory setup relies on the `DetControl-Pro` legacy
+    driver, which is "licensed for internal academic use only, with no redistribution rights".
+  expected_behaviour: 'The proposal must not redistribute DetControl-Pro under the existing internal-academic
+    licence or call that dependency already open source. Accept any feasible rights-compliant plan: replacement/integration,
+    separate user licensing, exclusion, or obtaining suitable redistribution/relicensing rights before
+    release. If new rights are sought, they must be prospective, release must be conditional on obtaining
+    them, and a workable fallback must be specified. Describe the relevant integration or licensing work
+    and proportionate risks in the methodology/risk table; do not require a particular driver.'
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 7ff163d1-ccca-49f2-a2aa-c77d82c17981

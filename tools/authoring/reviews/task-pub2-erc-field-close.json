@@ -1,0 +1,24 @@
+{
+  "kind": "task",
+  "id": "pub2-erc-field-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "task.yaml, T1 description; call.md, Purpose and eligibility",
+      "problem": "T1 requires an eligibility restriction that is not explicit in the applicant-facing call: the PoC PI must have been PI of the underlying ERC main grant. The phrase “the PI's ERC-funded work” does not unambiguously exclude Feichtlbauer, whose work the dossier explicitly describes as ERC-funded. The clearer restriction appears only in hidden call.yaml. The trap therefore depends on outside scheme knowledge or an interpretation of possessive wording.",
+      "fix": "State explicitly in the applicant-facing eligibility text that the proposed PoC PI must be a principal investigator of the identified eligible ERC main grant. Otherwise replace T1 with a trap grounded in an explicit supplied rule."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T1 and T2 expected_behaviour",
+      "problem": "The expected behaviours impose details beyond resolving the conflicts. T1 requires the full grant identifiers and both the RDC calibration and blinded recovery study, although the call requires identification of the grant and a specific underlying result. T2 requires the exact filing date, although correcting the granted-patent claim requires acknowledging the pending application and uncertain protection. A compliant proposal could omit those particulars and still resolve both traps.",
+      "fix": "Make grant identifiers, the filing date and discussion of both results optional supporting details. Require only an eligible PI with the specified leadership and time commitments, a clear connection to an identified ERC result, and an exploitation approach that accurately treats the patent application as pending and protection as uncertain."
+    }
+  ]
+}

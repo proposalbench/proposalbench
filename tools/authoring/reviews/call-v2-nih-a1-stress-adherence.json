@@ -1,0 +1,66 @@
+{
+  "kind": "call",
+  "id": "v2-nih-a1-stress-adherence",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Topic-specific requirements; call.yaml, ME9",
+      "problem": "The blanket statement that a redesigned project must be submitted as a new application presents an additional restriction as an NIH resubmission rule. Substantial changes to aims and design can be appropriate in an A1, including changes answering reviewers.",
+      "fix": "Allow substantive redesign addressing the original scientific objective. If retaining a narrower scientific-continuity requirement, explicitly identify it as a restriction of this fictional call and distinguish redesign from an unrelated new project.",
+      "part": "topic"
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md, Direct costs condition; call.yaml, eligibility",
+      "problem": "The Markdown imposes a USD 200,000 annual direct-cost ceiling, but the YAML records only the USD 275,000 project ceiling. The budget constraints are not fully represented consistently.",
+      "fix": "Record the USD 200,000 annual ceiling in the YAML alongside the project ceiling, identifying both as direct-cost limits and preserving the stated treatment of consortium F&A.",
+      "part": "template"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, expected outcomes and scope; call.yaml, EO2, EO4 and SC4",
+      "problem": "All outcomes are mandatory, including evidence about assessment after discharge and representation of people discharged home alone. SC4 nevertheless permits another setting with justification. A study taking that permitted alternative cannot necessarily deliver the mandatory discharge-specific outcomes.",
+      "fix": "Either require a post-discharge population throughout or make the discharge-specific outcomes conditional on selecting that setting, with corresponding outcomes for an alternative setting.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, scientific emphasis and topic-specific requirements; call.yaml, EO2 and ME11",
+      "problem": "The introduction and SC1–SC2 expressly allow stress alone, attention alone, or both. EO2 requires repeated assessment of stress and attention, and ME11 likewise requires justification of both assessment schedules. These requirements make the advertised single-pathway option ambiguous.",
+      "fix": "Use 'stress, attention or both, according to the proposed pathway' consistently in EO2 and ME11 and qualify other measure-specific requirements as applying to the constructs selected.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, permitted designs and progression criteria; call.yaml, EO5 and SC8",
+      "problem": "Secondary analysis of existing data is expressly permitted, but progression criteria must be fixed before data collection. Applicants analyzing an existing dataset cannot prospectively satisfy that timing requirement unless suitable criteria happened to have been established by the original study.",
+      "fix": "Require criteria before new data collection for prospective studies and before the relevant analyses for secondary-data studies, with disclosure of prior access to the data.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, exclusions and topic-specific requirements; call.yaml, EX3, ME12 and ME13",
+      "problem": "EX3 prohibits any reminder or alert functions during observation without limiting this to adherence support. Its wording can therefore prohibit assessment notifications contemplated by ME12 and safety notifications associated with ME13.",
+      "fix": "Specify that EX3 prohibits medication-taking reminders, adherence alerts and adherence feedback. Explicitly distinguish assessment notifications and narrowly defined safety communications, requiring their timing and potential reactivity to be addressed.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml, EO3, SC2, SC6, SC8, ME11, ME12 and ME14; corresponding call.md lists",
+      "problem": "Several requirements are bundled or repeated across separately identified items. EO3 combines cross-source agreement, measurement reactivity and subgroup measurement performance. SC2 combines assessment timing with psychometric support, which recur in ME11 and ME14. Measurement reactivity recurs in EO3, SC6 and ME12, while EO5 and SC8 substantially repeat the requirement for prespecified progression criteria.",
+      "fix": "Give each independently assessable obligation one item: assessment timing, measurement validity, source agreement, reactivity assessment and progression criteria. Split EO3 into distinct outcomes and remove duplicate obligations from the other lists, retaining explanatory cross-references where useful.",
+      "part": "topic"
+    }
+  ]
+}

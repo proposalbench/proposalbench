@@ -1,0 +1,191 @@
+schema_version: 1
+id: v2-cerv-service-voice
+scheme: cerv
+language: en
+title: Residents’ deliberation on inclusive access to public services
+topic_code: PB2-CERV-CIV-01
+proposal_type: full
+length_contract:
+  max_words: 35000
+  enforcement: disregard_excess
+  tolerance: 0.0
+  exempt:
+  - title
+  page_limit: 70
+  words_per_page: 500
+  source_note: 'Verified 2026-10-31. https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/wp-call/2026/call-fiche_cerv-2026-citizens-civ_en.pdf;
+    https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/temp-form/af/af_cerv_en.pdf.
+    Benchmark conversion: 70 pages x 500 words/page = 35000 words; prose estimate, not a funder word-count
+    rule. Tables and captions count.'
+required_sections:
+- id: '1'
+  title: Relevance
+- id: '1.1'
+  title: Background and general objectives
+  parent: '1'
+- id: '1.2'
+  title: Needs analysis and specific objectives
+  parent: '1'
+- id: '1.3'
+  title: Complementarity with other actions and innovation — European added value
+  parent: '1'
+- id: '2'
+  title: Quality
+- id: '2.1'
+  title: Concept and methodology
+  parent: '2'
+- id: '2.2'
+  title: Consortium set-up
+  parent: '2'
+- id: '2.3'
+  title: Project teams, staff and experts
+  parent: '2'
+- id: '2.4'
+  title: Consortium management and decision-making
+  parent: '2'
+- id: '2.5'
+  title: Project management, quality assurance and monitoring and evaluation strategy
+  parent: '2'
+- id: '2.6'
+  title: Cost effectiveness and financial management
+  parent: '2'
+- id: '2.7'
+  title: Risk management
+  parent: '2'
+- id: '3'
+  title: Impact
+- id: '3.1'
+  title: Impact and ambition
+  parent: '3'
+- id: '3.2'
+  title: Communication, dissemination and visibility
+  parent: '3'
+- id: '3.3'
+  title: Sustainability and continuation
+  parent: '3'
+- id: '4'
+  title: Workplan, work packages, activities, resources and timing
+- id: '4.1'
+  title: Work plan
+  parent: '4'
+- id: '4.2'
+  title: Work packages, activities, resources and timing
+  parent: '4'
+- id: '5'
+  title: Other
+- id: '5.1'
+  title: Ethics and EU values
+  parent: '5'
+- id: '5.2'
+  title: Security
+  core: false
+  parent: '5'
+expected_outcomes:
+- id: EO1
+  text: Residents facing language and migration-related barriers have greater confidence and practical
+    opportunities to deliberate about public services and contribute to decisions affecting their communities.
+- id: EO2
+  text: Participating organisations sustain deliberative practices that enable residents with different
+    language skills and migration experiences to shape recommendations together.
+- id: EO3
+  text: Public authorities respond more transparently to residents’ recommendations, making proposed action,
+    reasons for non-adoption and opportunities for follow-up visible to participants.
+- id: EO4
+  text: Residents’ experience informs dialogue on EU policies concerning inclusion and access to services,
+    supported by learning across participating countries.
+scope:
+- id: SC1
+  text: Work with affected residents to identify public-service access problems suitable for collective
+    deliberation.
+- id: SC2
+  text: Recruit residents through trusted community channels, such as community organisations, language
+    courses, faith groups and local service points.
+- id: SC3
+  text: Convene accessible assemblies using interpretation, translated materials and facilitation adapted
+    to participants’ language and communication needs.
+- id: SC4
+  text: Support residents to develop recommendations through informed discussion of different experiences,
+    options and trade-offs.
+- id: SC5
+  text: Organise exchanges with responsible public authorities to present recommendations and obtain documented
+    responses.
+- id: SC6
+  text: Return authorities’ responses to participants in accessible formats and provide opportunities
+    to discuss subsequent action.
+- id: SC7
+  text: Bring residents from participating countries into dialogue with actors involved in EU policymaking
+    on inclusion and access to services.
+exclusions:
+- id: EX1
+  text: Financial support to third parties is not permitted.
+- id: EX2
+  text: Purely academic research without direct citizen engagement is outside this fictional topic.
+- id: EX3
+  text: Activities supporting a specific European Citizens’ Initiative are excluded.
+- id: EX4
+  text: Activities rallying support for a single cause are excluded.
+- id: EX5
+  text: Individual migration-status casework, including advice or representation in residence or asylum
+    proceedings, is excluded; projects may refer participants to existing advice services.
+mandatory_elements:
+- id: ME1
+  text: Describe the participatory activities that constitute each event/work package.
+- id: ME2
+  text: State the planned number of direct participants for each event, using the counting rules below.
+- id: ME3
+  text: Identify the eligible countries represented in each event and give their number, using the counting
+    convention below.
+- id: ME4
+  text: State the share of the total requested EU grant assigned to each work package.
+- id: ME5
+  text: Describe how the target participants can access the planned participation activities.
+- id: ME6
+  text: Explain how the participation design addresses gender-related barriers.
+- id: ME7
+  text: Explain how citizens’ contributions influence the deliberation and subsequent policy engagement.
+- id: ME8
+  text: Where applicable, describe how personal data collected through the participation activities will
+    be protected.
+- id: ME9
+  text: Include, for each event/work package, a report on its implementation (the programme's event description
+    sheet) as a deliverable.
+- id: ME10
+  text: Include a project milestone for asking event attendees to take part in the EU Survey on Justice,
+    Rights and Values once the granting authority provides the link.
+- id: ME11
+  text: State the target share of assembly places for residents not connected to established community
+    organisations, the outreach used to reach them, and how attainment will be checked during recruitment.
+- id: ME12
+  text: Distinguish the responsibilities of resident participants, community intermediaries, facilitators
+    and public-authority representatives within the assemblies.
+- id: ME13
+  text: Describe safeguards enabling residents to discuss service barriers without pressure to disclose
+    migration status or personal experiences of harm.
+- id: ME14
+  text: Specify how recommendations and authorities’ responses will be tracked, including responsibility
+    for seeking responses where none are received.
+- id: ME15
+  text: Explain how recommendations produced in different countries and languages will be compiled for
+    EU-level dialogue while each remains traceable to the assembly that produced it.
+- id: ME16
+  text: Set out how evaluation will assess changes in residents’ ability to participate and the uptake
+    of recommendations, using baseline evidence and participant feedback.
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 75000
+  max_budget: 300000
+  duration_months_min: 12
+  duration_months_max: 24
+  consortium:
+    min_entities: 2
+    min_countries: 2
+    notes: 'Sub-priority 2.1: private nonprofit legal entity or public university coordinator; nonprofit
+      public/private co-beneficiaries or international organisations. Two beneficiaries from two eligible
+      CERV countries; affiliated entities and associated partners do not count.'
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY f98bc26a-fe02-4e17-9392-1d9e91f0d925

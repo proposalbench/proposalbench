@@ -1,0 +1,247 @@
+# Verified 2026-10-31: NSF 24-1 remains current, with Supplements 1 and 2.
+# Budget/duration bounds are invented authoring constraints, not NSF-wide policy.
+# This topic skeleton serves both nsf-ai-learning and nsf-stem-ed.
+name: nsf
+scheme: nsf
+language: en
+topic_code_prefix: PB-NSF
+bottom_up: false
+length_contract:
+  max_words: 9600
+  enforcement: inadmissible
+  tolerance: 0.0
+  exempt:
+  - references
+  - title
+  page_limit: 16
+  words_per_page: 600
+  source_note: |-
+    Verified 2026-10-31: current PAPPG is NSF 24-1, with Supplements 1 and 2.
+    Chapter II.D.2.b gives Project Summary 1 page; II.D.2.d gives Project Description 15
+    pages, including up to 5 pages of applicable Results from Prior NSF Support. The
+    16-page total is only the sum of non-transferable allowances. Benchmark conversion:
+    600 words/page gives Summary 600 words and Description 9,000 words, total 9,600.
+    The prior-support subsection is limited to 3,000 of the Description's words.
+    US Letter and PAPPG-compliant fonts/margins permit a practical estimate of 50 prose
+    lines averaging 12 words, leaving room for headings; this is not an NSF word rule.
+    Tables and captions count; title and References Cited do not. Either main-section
+    limit or the combined limit is binding, with zero tolerance and inadmissible enforcement.
+    Sources: https://www.nsf.gov/policies/pappg; https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation;
+    https://www.nsf.gov/policies/document/pappg24-1-supplement-1;
+    https://www.nsf.gov/policies/document/pappg24-1-supplement-2.
+  counted_sections:
+  - summary
+  - description
+  per_section_max_words:
+    summary: 600
+    description: 9000
+    prior_support: 3000
+required_sections:
+- id: summary
+  title: Project Summary
+- id: description
+  title: Project Description
+- id: prior_support
+  title: Results from Prior NSF Support
+  parent: description
+  core: false
+eligibility:
+  budget_in_narrative: false
+  currency: USD
+  max_budget: 750000
+  duration_months_max: 48
+  consortium:
+    notes: The lead must be a US institution of higher education or a US nonprofit research organisation.
+      This is an invented restriction for this solicitation. A multi-organisation consortium is not mandatory.
+fixed_items:
+  expected_outcomes: []
+  scope: []
+  exclusions:
+  - id: EX1
+    text: The Project Description contains no URLs and no appendices (PAPPG 24-1); web addresses in the
+      References Cited list are allowed.
+  mandatory_elements:
+  - id: ME1
+    text: Project Summary must contain distinct Overview, Intellectual Merit and Broader Impacts headings
+      with substantive text.
+  - id: ME2
+    text: Project Description must include its own separate section headed exactly Broader Impacts, with
+      activities and a means of documenting their outputs.
+  - id: ME3
+    text: Where any PI or co-PI has current NSF funding or an NSF award ending within the five years before
+      submission, include Results from Prior NSF Support with award details and results; report the most
+      closely related qualifying award for each such investigator.
+author_notes: |
+  Sources fetched 2026-10-31: https://www.nsf.gov/policies/pappg, https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation, https://www.nsf.gov/policies/pappg/24-1/ch-3-proposal-processing-review,
+  https://www.nsf.gov/policies/document/pappg24-1-supplement-1 and
+  https://www.nsf.gov/policies/document/pappg24-1-supplement-2.
+  NSF's landing page still identifies 24-1 as current; proposed successor guidance is
+  not effective policy. Supplements concern other requirements and do not replace the
+  Summary/Description limits or the two criteria and five merit-review elements.
+
+  eligibility_bounds:
+    max_budget: {min: 250000, max: 1500000}
+    duration_months_max: {min: 36, max: 48}
+
+  Those bounds are INVENTED authoring constraints, not PAPPG limits. Set the topic's
+  max_budget within that USD total-award envelope (including indirect costs); retain
+  budget_in_narrative=false and currency=USD. Use duration_months_max=36 for
+  nsf-ai-learning and 48 for nsf-stem-ed, with duration_months_min=12. The skeleton's
+  USD 750,000 / 48-month values are default fictional conditions, to be overridden by
+  the topic. PAPPG does not prescribe a universal standard-research award ceiling.
+  The topic's header_table must state the final total-award cap and duration. The fixed
+  frame supplies the US lead-organisation restriction and the invented submission date
+  15 September 2027, the reference for the five-year prior-support window. Do not invent an actual NSF
+  programme endorsement, solicitation number, official deadline or additional official
+  merit-review weighting. Keep the theme scientific and specific; identify checkable
+  outcomes, scope and exclusions without requiring unrelated compliance attachments.
+  Use all topic slots; expected_outcomes and the other bullet-list slots must contain
+  the MERGED fixed and topic items. Preserve existing EO1/SC1/EX1/ME1-ME4; allocate
+  new unused ids within each prefix. Intro paragraphs must not silently add eligibility
+  conditions. Explain any topic-specific condition in specific_conditions and its item.
+  Keep Summary and Description separate; both use Broader Impacts internally. The
+  prior_support child is conditional (core=false) and its ceiling is nested, not added
+  to 9,600. The rubric references only summary and description; the additional child
+  supports the verified five-page sublimit and creates no missing rubric IDs.
+  Budget forms, biosketches, facilities and supplementary documents are outside the
+  benchmark narrative. Scientific resource adequacy still belongs in the Description.
+  Rights record: National Science Foundation, US federal government work (17 USC 105);
+  policy paraphrase and fictional topic/award conditions. Register provenance in the
+  existing seed format when generated calls are integrated; do not edit shared records here.
+  Integration: render_fixed_conditions=true requests the existing renderer to include
+  fixed mandatory elements as well as topic items in specific_conditions.
+call_md: |
+  # {{title}} — {{topic_code}}
+
+  > This call is fictional and was written for ProposalBench. It follows the standard
+  > narrative structure of NSF PAPPG 24-1, with its effective supplements. The research
+  > emphasis, award cap, duration and submission date are invented solicitation conditions;
+  > they do not describe an actual NSF funding opportunity.
+
+  ## Purpose and award conditions
+
+  Support rigorous research that advances knowledge and provides credible societal benefits.
+  Proposals should connect the call's research emphasis to a question, a justified approach
+  and assessable outcomes. The planned work must fit the maximum award and duration below.
+
+  {{header_table}}
+
+  The fictional submission date is **15 September 2027 (invented)**; use it to determine
+  the five-year window for prior NSF support.
+
+  The lead must be a US institution of higher education or a US nonprofit research
+  organisation, an invented restriction for this solicitation. A multi-organisation
+  consortium is not mandatory. The stated award cap includes direct and indirect costs.
+  Budgets and budget justifications are separate submissions in the NSF process and are
+  outside this benchmark narrative; the funding ceiling and duration still bind the proposed
+  work. Explain the necessary people, facilities and access arrangements.
+
+  ## Expected outcomes
+
+  {{expected_outcomes_intro}}
+
+  {{expected_outcomes}}
+
+  ## Scope
+
+  {{scope_intro}}
+
+  {{scope}}
+
+  ## Exclusions
+
+  {{exclusions}}
+
+  ## Specific conditions and mandatory elements
+
+  {{specific_conditions}}
+
+  ## Required narrative
+
+  ### Project Summary
+
+  This is a one-page component, separate from the Project Description. Use three distinct
+  headings within it:
+
+  - **Overview:** the activity to be undertaken, its objectives and the approach.
+  - **Intellectual Merit:** how the work could advance knowledge or understanding.
+  - **Broader Impacts:** how the activity could benefit society or advance a societal goal.
+
+  Write a self-contained account understandable by researchers beyond the immediate specialty.
+  The three parts share the Summary allowance; they are not three separate pages.
+
+  ### Project Description
+
+  Explain the scientific question, relation to existing knowledge, objectives and expected
+  contribution. Provide a reasoned research design, methods and analysis, a realistic work
+  plan, a way to assess success, and the qualifications and resources needed. Describe
+  uncertainties, feasible alternatives and relevant ethical or participant considerations
+  as they affect the design. Describe the status of relevant approvals, collaborations and access arrangements.
+
+  Include a separate section with the heading **Broader Impacts** on its own line within
+  the Project Description, even though the Summary has a part with the same name. Describe
+  concrete activities directed at societal goals, the rationale for them and how their
+  outputs will be documented. Broader impacts can arise through the research itself,
+  related activities or complementary activities; an unrelated outreach programme is not
+  mandatory. Project-level output records can accompany outcome evaluation at a larger
+  programme level.
+
+  #### Results from Prior NSF Support
+
+  Include this subsection only when applicable: a PI or co-PI has current NSF funding,
+  including a no-cost extension, or an NSF award ending within the five years before the
+  submission date stated above. Support need not be related to this proposal. For each
+  qualifying investigator, report the most closely related qualifying award; do not repeat
+  a shared award unnecessarily. Include its number, title, amount and support period;
+  accomplishments under separate **Intellectual Merit** and **Broader Impacts** headings;
+  publications with full citations here or in References Cited (or a statement that none were produced); research products and evidence of their availability;
+  and, for a renewal, how prior work relates to the request. For a recent award without
+  results, describe its goals and broader impacts. Identify any award-reporting details still to be confirmed. This account occupies at most five
+  of the Description's fifteen pages, not five extra pages.
+
+  A References Cited list may follow. Budget forms, biosketches, facilities statements,
+  mentoring plans and the Data Management and Sharing Plan required in the actual NSF
+  process are outside this benchmark deliverable. The PAPPG supplements update, among other
+  matters, data sharing and public access; their separate forms are not extra narrative
+  sections requested here. As in PAPPG 24-1, the Project Description must not contain URLs,
+  and appendices are not permitted.
+
+  ## Merit review criteria
+
+  Both **Intellectual Merit** (advancing knowledge) and **Broader Impacts** (benefiting society)
+  receive full consideration. NSF specifies no numerical weighting between these criteria
+  for this standard review. Reviewers consider these five elements for both criteria:
+
+  1. The potential contribution to knowledge and understanding, and to desired societal outcomes.
+  2. The creativity, originality or potentially transformative character of the proposed concepts.
+  3. Whether the plan is reasoned, organised and justified, with a mechanism for assessing success.
+  4. The qualifications of the investigator, team and organisation for the proposed activities.
+  5. Whether adequate resources are available through the home organisation or collaborations.
+
+  An established broader-impact approach can be justified; every outreach activity need not
+  be novel. Explain what will be done, why it should work and what evidence will show progress.
+
+  ## Length contract
+
+  NSF allows **one page for Project Summary** and **15 pages for Project Description**,
+  including at most five pages of applicable Results from Prior NSF Support. **Benchmark
+  adaptation:** at 600 words per page, the limits are **600 words for the Summary** and
+  **9,000 words for the Description**, with a combined ceiling of **{{max_words}} words**.
+  The prior-support account is limited to **3,000 words within the Description**, not in
+  addition to it. The Summary and Description allowances cannot be transferred.
+
+  Exceeding either section limit, the applicable prior-support sublimit, or the combined
+  ceiling makes the submission **inadmissible**, with no percentage tolerance. Tables,
+  captions and in-text citations count; the title and References Cited list do not. The
+  Summary counts even if it resembles an abstract. This is a benchmark word contract,
+  not an NSF word-count policy; it adapts the strict page limits for plain-text comparison.
+
+  ## Policy sources
+
+  - [Current PAPPG index](https://www.nsf.gov/policies/pappg): identifies NSF 24-1 as current; verified 31 October 2026.
+  - [PAPPG Chapter II](https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation): II.D.2.b and II.D.2.d, Summary, Description, prior support and separate budget components.
+  - [PAPPG Chapter III](https://www.nsf.gov/policies/pappg/24-1/ch-3-proposal-processing-review): merit-review principles, criteria and five elements.
+  - [Supplement 1](https://www.nsf.gov/policies/document/pappg24-1-supplement-1) and [Supplement 2](https://www.nsf.gov/policies/document/pappg24-1-supplement-2): effective updates, checked 31 October 2026.
+
+  <!-- {{canary}} -->
+render_fixed_conditions: true

@@ -1,0 +1,90 @@
+{
+  "type": "software",
+  "id": "https://doi.org/10.5281/zenodo.3727209",
+  "author": [
+    {
+      "family": "Coon",
+      "given": "Ethan"
+    },
+    {
+      "family": "Berndt",
+      "given": "Markus"
+    },
+    {
+      "family": "Jan",
+      "given": "Ahmad"
+    },
+    {
+      "family": "Svyatsky",
+      "given": "Daniil"
+    },
+    {
+      "family": "Atchley",
+      "given": "Adam"
+    },
+    {
+      "family": "Kikinzon",
+      "given": "Eugene"
+    },
+    {
+      "family": "Harp",
+      "given": "Dylan"
+    },
+    {
+      "family": "Manzini",
+      "given": "Gianmarco"
+    },
+    {
+      "family": "Shelef",
+      "given": "Eitan"
+    },
+    {
+      "family": "Lipnikov",
+      "given": "Konstantin"
+    },
+    {
+      "family": "Garimella",
+      "given": "Rao"
+    },
+    {
+      "family": "Xu",
+      "given": "Chonggang"
+    },
+    {
+      "family": "Moulton",
+      "given": "David"
+    },
+    {
+      "family": "Karra",
+      "given": "Satish"
+    },
+    {
+      "family": "Painter",
+      "given": "Scott"
+    },
+    {
+      "family": "Jafarov",
+      "given": "Elchin"
+    },
+    {
+      "family": "Molins",
+      "given": "Sergi"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        3,
+        25
+      ]
+    ]
+  },
+  "abstract": "Advanced Terrestrial Simulator (ATS, v0.88) used for the simulations reported in the publication Jan, A., Coon, E. T., and Painter, S. L.: Evaluating integrated surface/subsurface permafrost thermal hydrology models in ATS (v0.88) against observations from a polygonal tundra site, Geosci. Model Dev. Discuss., https://doi.org/10.5194/gmd-2019-265, in review, 2019. Ethan Coon and Markus Berndt and Ahmad Jan and Daniil Svyatsky and Adam Atchley and Eugene Kikinzon and Dylan Harp and Gianmarco Manzini and Eitan Shelef and Konstantin Lipnikov and Rao Garimella and Chonggang Xu and David Moulton and Satish Karra and Scott Painter and Elchin Jafarov and Sergi Molins",
+  "DOI": "10.5281/ZENODO.3727209",
+  "publisher": "Zenodo",
+  "title": "Advanced Terrestrial Simulator (ATS) v0.88",
+  "URL": "https://zenodo.org/record/3727209",
+  "copyright": "BSD 3-Clause \"New\" or \"Revised\" License",
+  "version": "0.88"
+}

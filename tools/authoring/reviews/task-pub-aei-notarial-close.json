@@ -1,0 +1,31 @@
+{
+  "kind": "task",
+  "id": "pub-aei-notarial-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "brief.md, cv_ip.md, equipo_y_recursos.md, publicaciones.md and hidden YAML: personal names",
+      "problem": "The names use established given names and surnames, including Oriol, Mireia, Guinovart, Castellnou, Llorca and Squarcione. They do not meet the explicit requirement for coined given names and distinctive invented surnames. This finding does not depend on establishing a collision with a particular real person's full name.",
+      "fix": "Replace the personal names with coined names and update the brief, dossier documents, publication author lists, facts and trap descriptions consistently."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml: facts",
+      "problem": "The registry omits several proposal-relevant facts explicitly supplied by the documents: availability of marriage contracts in the same series; the archive agreement and its reproduction restrictions; the IP's institution, appointment start and accreditation; the counts of 315 widow creditors and 228 widow debtors; the merchant and artisan sample sizes and absolute centrality estimates; and the currency-conversion anchors and extrapolation periods. These omissions leave important feasibility claims, eligibility evidence and methodological limitations outside the answer key.",
+      "fix": "Add source-linked facts containing the exact values and qualifications. Register archival availability and permissions separately, and preserve the distinction between observed results, methodological assumptions and planned appointments."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4; Task 1",
+      "where": "brief.md: dowry hypothesis; informe_proyecto_previo.md §3.1; dossier.yaml F39",
+      "problem": "Marriage contracts establish dowry arrangements, but do not by themselves establish actual restitution to a widow or that restitution financed a subsequent loan. The dossier identifies marriage contracts without explaining whether restitution receipts or comparable payment evidence survive. F39 additionally introduces an unsupported connection between the absence of systematic parish registers and confirmation of dowries. This leaves the central evidential limitation of the proposed historical test unstated.",
+      "fix": "State what restitution or payment evidence has actually been located, distinguishing it from marriage contracts and from sources still to be investigated. If availability is unknown, record that limitation and make locating such evidence a planned feasibility stage, with an association-based fallback. Revise F39 to describe the actual genealogical-linkage limitation without implying that parish registers would establish dowry restitution."
+    }
+  ]
+}

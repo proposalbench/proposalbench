@@ -1,0 +1,41 @@
+{
+  "kind": "task",
+  "id": "pub-he-heatstorage-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "data/public/tasks/pub-he-heatstorage-stretch/task.yaml T1 expected_behaviour: 'Describe the Belgian demonstration as prospective' and 'Give the federation a role consistent with its documented housing and tenant-engagement experience'.",
+      "problem": "The false existing-network premise is decidable, but the key requires retaining a Belgian demonstration and the federation. No call condition requires either. A strong proposal could reject the invented asset, select three other prospective district sites in at least two eligible countries, and obtain community representation elsewhere. It would comply with the call and preserve dossier facts yet fail the literal T1 repair instructions.",
+      "fix": "Replace T1 expected_behaviour with: 'Do not claim an existing consortium-operated heat network or secured pilot access. Any proposed site must be supported by an actual or prospective network operator and appropriate access/participation arrangements, with unconfirmed status preserved. The Belgian site may be dropped or replaced. If retained, describe it as prospective; if the federation is retained, use its documented housing/tenant-engagement role without attributing asset ownership or authority over member properties. Assess these claims in sections 1.2, 3.1 and 3.2. Accept any otherwise compliant pilot/partner configuration.'",
+      "evidence": [
+        "data/public/tasks/pub-he-heatstorage-stretch/task.yaml",
+        "data/public/tasks/pub-he-heatstorage-stretch/brief.md",
+        "data/public/calls/he-cl5-heatstorage/call.md",
+        "data/public/dossiers/renovation-health-consortium/consortium.md",
+        "tools/authoring/design_v2.md adopted trap rules"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-he-heatstorage-stretch/brief.md, entire brief: no date line.",
+      "problem": "The brief has no date even though the adopted checklist requires 1 October 2026. The globally fixed present date makes this a presentation defect rather than an undecidable trap.",
+      "fix": "Add '1 October 2026' below the heading, or before the opening salutation. Do not change the September dossier cutoff.",
+      "evidence": [
+        "docs/task_review_checklist.md Task 6"
+      ]
+    }
+  ],
+  "checked": [
+    "Task 2/6: T1 T07 is a resource/capacity fabrication trap: the supplied dossier expressly says the Belgian federation neither owns nor operates a network and nobody has secured thermal-site access. No outside information is needed to reject the premise; alternative acceptance needs the change above.",
+    "Task 2/6: T2 T04 is decidable from the call's EU/associated-country minimum and the dossier's explicit Brazilian-only establishment. Irish+Portuguese+Brazilian entities do not satisfy it; retaining the Slovenian, Belgian or Italian institution, or proposing another eligible beneficiary, can repair it. T2 already accepts these alternatives and preserves the contact's uncommitted status. The call must explicitly say 'beneficiaries' as filed on that call.",
+    "Task 1: a substantial but achievable stretch: exposure/telemetry/engagement methods transfer, while storage engineers, utilities, controls and heat-network economics must be prospectively added. Proposed EUR 6.8m and 48 months fit. The call permits retrofits, allowing three pilots without assuming three entirely new commercial plants. Site selection and access conditions can be planned without falsely declaring them secured.",
+    "Task 3/4/5/7: informal English notes, exactly two traps, full Part B, no rubric leakage or resubmission requirement. Instructions to retain occupied-staff and controlled-data statuses agree with the dossier. No T12/T13 trap; ordinary documented limitations are not silently scored as extra planted traps. Earlier automated .json and .r1.json reviews were read."
+  ]
+}

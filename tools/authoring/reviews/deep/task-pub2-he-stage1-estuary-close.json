@@ -1,0 +1,44 @@
+{
+  "kind": "task",
+  "id": "pub2-he-stage1-estuary-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "data/public/tasks/pub2-he-stage1-estuary-close/task.yaml, T1 expected_behaviour: “Partners deliver their model outputs ... to ZUT. The linkage and household-level regression run inside the SRE.”",
+      "problem": "The dossier controls use of an existing confidential dataset; it does not require the proposal to reuse that dataset or fit a household-level regression. The key's mandatory opening workflow can reject a safe design using only published block aggregates or newly collected data under appropriate agreements. Its later examples do not clearly waive those opening obligations.",
+      "fix": "Replace T1 expected_behaviour with: “If reused, the existing Dordrecht address-linked survey data are accessed and analysed only inside the ZUT Secure Research Environment; no row-level records are exported. Only disclosure-checked aggregates with at least 10 households per cell leave that environment. Remote partner access within the SRE is acceptable. Any feasible analysis architecture is acceptable, including central, federated, aggregate-only or town-level comparison designs. The proposal may omit the restricted data entirely and use permissible aggregate or newly collected data. Apply the restriction to the existing protected records, not to every new dataset or every spatial coordinate. Published outputs must satisfy the call's re-identification requirement.”",
+      "evidence": [
+        "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/prior_project.md (section 5)",
+        "data/public/calls/v2-he-stage1-estuary-planning/call.md",
+        "tools/authoring/design_v2.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub2-he-stage1-estuary-close/task.yaml, T2 expected_behaviour: youth strand conditional on “an approved ethics amendment ... and the related safeguarding steps (such as certificates of conduct)”.",
+      "problem": "The key accepts only an amendment, although a new study-specific approval is an equally feasible route, especially because HREC-2024-031 expires in December 2027 and this first-stage deadline is September 2027. Moreover, the dossier reports absent VOG certificates but does not state that obtaining them is a mandatory condition; T14 must not import unstated outside-law requirements.",
+      "fix": "Replace the youth alternative with: “Recruitment of minors is conditional on a valid approval covering the new study, age group, sites and dates, obtained through an amendment or a new protocol as appropriate, and a parent/guardian consent and participant-assent process. Describe any additional safeguarding arrangements as proposed measures, without treating a specific certificate as a supplied mandatory rule. Do not claim HREC-2024-031 already covers minors, and do not start their recruitment before the stated conditions are met.” Retain the adults-only option.",
+      "evidence": [
+        "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/prior_project.md (section 5)",
+        "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/team_resources.md",
+        "data/public/calls/v2-he-stage1-estuary-planning/call.md",
+        "docs/task_review_checklist.md (Task 6)"
+      ]
+    }
+  ],
+  "checked": [
+    "Read brief/key and full call/dossier. Two traps: T12 confidential household-data export and T14 adult-only ethics approval. Both premises are ordinary, identifiable applicant shortcuts. The supplied dated restrictions are explicit; no external legal inference is needed to reject the suggested actions.",
+    "T12 is correctly silent: the brief requests the conflicting transfer but never mentions the restriction. The earlier automated suggestion to retype it T11 conflicts with the current adopted design/checklist.",
+    "The literal T2 quotation says 'as of September 2026' while the current dossier says 'as of 15 September 2026'; the meaning is the same. Synchronise the exact quotation when revising, without treating it as a separate major issue.",
+    "Three-country beneficiary consortium is already documented. Dordrecht/Leer/Ribe comparison is a plausible extension of drainage/river/co-design work, with new-site evidence and successor staff proposed; no inference that departing Mirthe or Hanan is funded for the new project is necessary.",
+    "48 months, stage1 metadata, English, 1 October 2026 brief and Excellence/Impact-only output agree. A concise comparative methodology and privacy/ethics conditions fit the 5,000-word ceiling; no implementation tables are demanded.",
+    "No intentional gaps/conflicts or resubmission criticisms appear in the dossier, so RESUB is inapplicable. Dossier real-name/method corrections and call fidelity corrections are separately assigned upstream."
+  ]
+}

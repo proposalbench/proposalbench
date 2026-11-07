@@ -1,0 +1,74 @@
+{
+  "kind": "dossier",
+  "id": "adolescent-sleep-lab",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/adolescent-sleep-lab/resources_and_team.md: \"Dr. Elian Thornfield (Cardiology, Oakhaven Medical Center)\"; cv_pi.md: \"Sleep and Chronobiology Institute, Northern Lakeridge University\".",
+      "problem": "Two names fail the requested collision/near-collision screen. 'Elian Thornfield' is an exact publicly indexed Amazon Music artist credit for a release dated 28 July 2026 (this verifies a public artist identity, not the person's legal name or occupation as a researcher). 'Sleep and Chronobiology Institute' merely reverses the main nouns of Penn's real Chronobiology and Sleep Institute in the same specialty. The fictional affiliation does not eliminate the avoidable near-name collision.",
+      "fix": "Rename Elian Thornfield to 'Thalenor Veskareth' in resources_and_team.md, dossier.yaml F23, and the dependent pub-nih-ruralbp-stretch brief and T2 strings. Rename the postdoctoral institute to 'Velquorin Institute for Sleep Development', retaining Northern Lakeridge University. Exact searches for both proposed replacement names returned no matches. Preserve the informal/uncommitted collaboration status.",
+      "evidence": [
+        "https://music.amazon.in/albums/B0HB7BL5M6",
+        "https://www.med.upenn.edu/csi/about.html",
+        "data/public/dossiers/adolescent-sleep-lab/resources_and_team.md",
+        "data/public/dossiers/adolescent-sleep-lab/cv_pi.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/adolescent-sleep-lab/dossier.yaml, facts F01–F25; resources_and_team.md: \"50 Philips Respironics Actiwatch 2 devices\"; community_engagement_report.md: \"2 federally qualified health centers\" and \"45 parents and teens\".",
+      "problem": "The current registry has repaired many earlier omissions but still omits material assets, partnerships and results that a proposal would reasonably quote. Missing facts include 50 Actiwatch devices and their Actiware workflow, the two FQHC partnerships, the 45-person focus groups, formal statistical consulting, baseline SRI 72.4 (SD 8.1), and the additional school-start-time association. These omissions affect grounding and the distinction between available behavioral capacity and clinical capacity still to be acquired.",
+      "fix": "Append source-linked existing facts for: resources_and_team.md—50 Actiwatch 2 devices with Actiware, Calla Arislow's manager role, Jolyon Mercator's postdoctoral role, two PhD students, and Elara Rostovich's formal statistical consulting; community_engagement_report.md—two FQHC partnerships, 45 parents/teens in late-2025 focus groups, and the identified health-literacy/EHR-integration barriers; prior_project.md—Wave 2 n=381, Fall 2022/2023/2024 waves, 14-day deployments, baseline SRI 72.4 (SD 8.1), and additional 1.5-point annual SRI decline for starts before 8 AM (95% CI 0.6–2.4); publications.md—2021 sample n=250, math association −0.4 SD (95% CI −0.6 to −0.2), and indirect association −0.15 (95% CI −0.25 to −0.05). Keep source values verbatim and do not convert FQHC usability relationships into secured new clinical measurement or data-access permissions.",
+      "evidence": [
+        "data/public/dossiers/adolescent-sleep-lab/dossier.yaml",
+        "data/public/dossiers/adolescent-sleep-lab/resources_and_team.md",
+        "data/public/dossiers/adolescent-sleep-lab/community_engagement_report.md",
+        "data/public/dossiers/adolescent-sleep-lab/prior_project.md",
+        "data/public/dossiers/adolescent-sleep-lab/publications.md",
+        "docs/task_review_checklist.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/adolescent-sleep-lab/publications.md, 2021 abstract: \"We assessed circadian phase preference via the Morningness-Eveningness Questionnaire (MEQ)\".",
+      "problem": "The corrected title properly says evening chronotype, but 'circadian phase preference' still blurs questionnaire-assessed diurnal preference with measured endogenous circadian phase.",
+      "fix": "Replace with 'We assessed self-reported morningness–eveningness preference using the Morningness-Eveningness Questionnaire (MEQ).' Retain the association language and corrected title.",
+      "evidence": [
+        "data/public/dossiers/adolescent-sleep-lab/publications.md",
+        "data/public/calls/nih-r21-sleepcardio/call.md",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12316989/"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "data/public/dossiers/adolescent-sleep-lab/cv_pi.md: \"Oakhaven University Seed Grant\"; dossier.yaml F17; affiliation: \"University of Oakhaven\".",
+      "problem": "The seed-grant name reverses the institution's name without explaining whether a different institution awarded it.",
+      "fix": "Use 'University of Oakhaven Seed Grant' in cv_pi.md and F17.",
+      "evidence": [
+        "data/public/dossiers/adolescent-sleep-lab/cv_pi.md",
+        "data/public/dossiers/adolescent-sleep-lab/dossier.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Dossier 1, 7: read all five Markdown files and the complete hidden key. All visible documents carry the fictional notice and are dated August/September 2026; appointments, completed K01, publications and informal collaboration are anchored before 1 October 2026.",
+    "Dossier 2: recalculated 412+381+346=1,139 participant-waves; 346/412=83.98%, consistent with 84%; 13,415/1,139=11.7779, consistent with 11.8. The sleep-category counts 85+142 leave a plausible middle-duration group of 185. The PHQ-9 interval with df=725 implies two-sided p≈0.00031, consistent with p<.001.",
+    "Dossier 2, 4: no implausible effect magnitude established. Baseline SRI and its decline are possible; BMI and PHQ-9 effect directions are consistent with real adolescent observational literature. Single-cohort age/period confounding and selective SRI coverage are explicitly acknowledged and should remain weaknesses for the applicant to address, not silently be repaired into perfect prior evidence.",
+    "Dossier 4: checked SRI/mental-health plausibility against https://pmc.ncbi.nlm.nih.gov/articles/PMC12316989/, and objective sleep/adiposity plausibility against https://pmc.ncbi.nlm.nih.gov/articles/PMC6260972/. GT9X/Cole–Kripke pediatric use is documented in https://pmc.ncbi.nlm.nih.gov/articles/PMC11985398/; using this algorithm is not by itself a scientific impossibility.",
+    "Dossier 3: every existing non-null fact.value occurs literally in its declared source. The omissions listed above are distinct from value/source disagreement.",
+    "Dossier 6: all six own-publication titles, venues, authors, years and DOI strings agree with publications.md; every DOI begins 10.99999/pb.; publication dates follow the relevant data collection. Searches did not identify an actual journal with any of the six cited venue titles.",
+    "Dossier 1 name screen: searched full names Marston Vancura, Calla Arislow, Jolyon Mercator, Elara Rostovich and Elian Thornfield, plus S. Jenkell (only an initial is supplied). Only the Thornfield exact public-name match and the institute near-match above warrant findings; unrelated partial-name hits are not collisions.",
+    "Dossier 1 entity screen: searched University of Oakhaven/Oakhaven University, Central Valerius University, State College of Oakhaven, Northern Lakeridge University, Sleep and Chronobiology Institute, Oakhaven Medical Center, Oakhaven Society for Sleep Science, Adolescent Chronobiology and Development Lab/ACDL, LAPSES and its expansion, the seed-project title, K01 HD999999, all six publication venues and all three CV service journals. Oakhaven University also appears as an online fictional world, not an established real university; no real-university collision inferred.",
+    "Dossier 4: the real NIH K01 mechanism was checked against https://www.grants.nih.gov/grants/guide/contacts/parent-K01-CT-not-allowed.html and https://www.nichd.nih.gov/grants-contracts/training-careers/extramural/FAQs/K-specific. NICHD population-research scope is restricted; the dossier does not document the original mentoring/training plan, so historical programme alignment cannot be certified, but the record does not prove an ineligible award.",
+    "Dossier 5, 8, 9: clinical measurement/equipment absence and Thornfield's informal status are explicit. No intentional gaps, inconsistencies or reviewer_criticisms are registered; these are ordinary full applications, so RESUB is inapplicable. Reviewed the earlier automated and maintainer records as context and did not repeat their resolved numerical, device-light-sensor or pandemic-date defects."
+  ]
+}

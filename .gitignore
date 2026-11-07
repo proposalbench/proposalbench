@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Raw seed documents: never committed (rights are audited in data/seeds/manifest.yaml)
+seeds_raw/
+
+# Sealed split: only hashes are committed (data/sealed.sha256)
+data/sealed/
+
+# Local run artefacts (published results are copied to results/ deliberately)
+.cache/
+runs/
+*.sqlite-journal
+.codex-handoff/
+
+# Raw generations (curated copies are published under results/)
+submissions/
+
+# Pilot evaluations are development artefacts, not published results
+results/pilot*/
+
+# Meta-evaluation runs (summaries are copied into docs/ when final)
+results/meta/
+results/public*/
+.work/
+release/*/explorer/

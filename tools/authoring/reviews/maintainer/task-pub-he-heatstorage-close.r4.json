@@ -1,0 +1,18 @@
+{
+ "reviewer": "task review r3",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 1; Task 2; Dossier 5",
+   "where": "brief.md, Bergdorf fast-track confirmation; consortium.md, GipfelWärme candidate site; task.yaml, T2",
+   "problem": "The brief asserts newly confirmed fast-track permitting and commissioning at month 20, while the September dossier retains unconfirmed access and permitting and month-36 commissioning. No dated update reconciles these accounts. Month 36 leaves only 12 months within the permitted project duration, making two full annual storage cycles impossible. T2 nevertheless requires month-20 commissioning as though its supporting status were settled.",
+   "fix": "Add a dated September update distinguishing confirmed commitments from proposed acceleration, reconcile the site schedule throughout the bundle, and provide a credible route to two complete cycles within 48 months. Make T2 assess the duration limit and feasible monitoring schedule without imposing month 20 as the uniquely acceptable solution."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Task 4",
+   "problem": "The dossier was revised (names, project acronyms, dates and figures may have changed).",
+   "fix": "Make the brief and every trap consistent with the current dossier: same names, acronyms, dates and numbers; each trap description quotes the dossier's current wording."
+  }
+ ]
+}

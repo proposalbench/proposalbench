@@ -1,0 +1,90 @@
+{
+  "kind": "dossier",
+  "id": "v2-secure-food-robotics-consortium",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-secure-food-robotics-consortium/cv_pi.md heading: “Prof. Dr. Lukas Reuter”; consortium_profile.md and prior_project_report.md coordinator; publications.md Reuter, L.",
+      "problem": "Lukas Reuter is a real computer-science researcher listed by Trier University/DFKI. The dossier assigns him an invented institution, birth date, professorship, grants and publications in a closely related field.",
+      "fix": "Replace the fictional person's name with “Lukas Varnkötter” throughout visible files, hidden facts, publication author strings/keys and linked task briefs (including the sign-off). Use “Varnkötter, L.” in citations and a reserved example-domain email such as lukas.varnkoetter@tuf.example.",
+      "evidence": [
+        "https://www.uni-trier.de/en/university/faculties-and-departments/faculty-iv/study-courses/computer-science/chairs/business-informatics-i/team",
+        "https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-iv/faecher/informatikwissenschaften/professuren/wirtschaftsinformatik-1/forschung/projekte/adaptpro"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-secure-food-robotics-consortium/cv_pi.md funding: “SECURE-CHAIN (2020–2023)”.",
+      "problem": "SecureChain is a real Horizon 2020 project (grant 646457), and Secure Chain also names an active logistics-security initiative. The fictional grant name is confusable in precisely the supply-chain/security domain.",
+      "fix": "Rename this fictional award “PB-THERMOSEAL-20” while retaining its title, 2020–2023 period, BMBF funder, EUR 850,000 total and EUR 320,000 TUF share. Apply the replacement in any new fact entries.",
+      "evidence": [
+        "https://eu-cap-network.ec.europa.eu/projects/practice-abstracts/securechain-small-and-medium-enterprises-securing-future-proof_en",
+        "https://secure-chain.eu/"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-secure-food-robotics-consortium/cv_pi.md Academic Service: “Reviewer for Transactions on Industrial Cyber-Physical Systems”.",
+      "problem": "This is the distinctive title of the real IEEE Transactions on Industrial Cyber-Physical Systems. Dropping 'IEEE' does not make the journal fictional, so the invented reviewing history still claims service to a real organisation/venue.",
+      "fix": "Replace with “Journal of Embedded Assurance Practice”. The other invented service venues can remain subject to the recorded negative searches.",
+      "evidence": [
+        "https://2023.ieee-isie.org/static/files/t-icps_cfp.pdf",
+        "https://ieeexplore.ieee.org/document/10330693/"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/v2-secure-food-robotics-consortium/cv_pi.md “EUR 1.2 million”, “EUR 850,000 (TUF share: EUR 320,000)”, “EUR 400,000”; prior_project_report.md “SD = 2.1 ms, n = 10,000”; dossier.yaml F01–F24.",
+      "problem": "The registry still omits much of the demonstrated funding, position and quantitative performance evidence. It records headline latency but not its uncertainty/replication, and omits all award amounts, making the hidden evidence incomplete even though the visible values are available.",
+      "fix": "Add salient existing facts with exact source values: professor since 2019 and doctorate 2014 (cv_pi.md); RESIL-BOT EUR 1,200,000 and RB-2022-8849-TUF (prior_project_report.md); renamed temperature-log project EUR 850,000/TUF EUR 320,000 and AutoLog-Sec EUR 400,000 (cv_pi.md); training 3,300 hours, healthy validation 1,200 hours, 72,000 windows/1,728 false positives, latency SD 2.1 ms/n=10,000/ARM Cortex-A76 (prior_project_report.md); 10 September 2026 participation signatures (consortium_profile.md); BSL-2/400-square-metre lab and warehouse temperature zones (resources_and_infrastructure.md). Extend F19 with the corpus CC BY 4.0 status.",
+      "evidence": [
+        "data/public/dossiers/v2-secure-food-robotics-consortium/cv_pi.md",
+        "data/public/dossiers/v2-secure-food-robotics-consortium/prior_project_report.md",
+        "data/public/dossiers/v2-secure-food-robotics-consortium/consortium_profile.md",
+        "data/public/dossiers/v2-secure-food-robotics-consortium/resources_and_infrastructure.md",
+        "data/public/dossiers/v2-secure-food-robotics-consortium/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-secure-food-robotics-consortium/consortium_profile.md: “Dr. Elias Thorne”; pub2-he-digital-close/brief.md uses the same name.",
+      "problem": "Searches return numerous public research bylines and fictional/AI-generated identities with this exact name. They do not establish a verifiable real Canadian researcher, so this is not classified as a confirmed real-person blocker; it nevertheless makes the supposedly invented contact hard to distinguish from indexed author identities.",
+      "fix": "For a cleaner fictional identity, rename the contact “Elias Brackenholt” in the dossier and digital-close brief.",
+      "evidence": [
+        "https://airjournal.org/author/Elias%20Thorne",
+        "https://theamericanjournals.com/index.php/tajet/article/download/6945/6349/9793"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/v2-secure-food-robotics-consortium/prior_project_report.md: “Fault Detection Accuracy”; “68 of the 80 injected faults”.",
+      "problem": "All 80 observations contain faults, so 85% is the fault-detection proportion/recall rather than overall classification accuracy. The separate false-positive result makes the intended distinction recoverable.",
+      "fix": "Change the heading to “Fault detection rate (recall on injected-fault traces)”. Retain 68/80 and the Wilson interval.",
+      "evidence": [
+        "data/public/dossiers/v2-secure-food-robotics-consortium/prior_project_report.md",
+        "data/public/dossiers/v2-secure-food-robotics-consortium/dossier.yaml F02"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all five dated visible files, 24 facts and five selected publications. Every existing non-null fact.value occurs literally in its source; all fictional notices present; no intentional gaps/inconsistencies or reviewer criticisms declared.",
+    "Recomputed 68/80=.85 and Wilson 95% CI .7559–.9121, consistent with 76–91%; 1,200×60=72,000 decision windows; 1,728/72,000=.024. Training/validation split is approximately 4,500 hours and final 80 traces are explicitly separate. 14±2.1 ms at n=10,000 is not implausible but cannot establish end-to-end safety.",
+    "Read-only AKK monitoring, the withdrawn live-control permission dated 21 September, isolated bench, six existing robots and zero acquired fleet units are explicit and compatible. Both task designs have feasible prospective procurement/access or smaller-scale alternatives.",
+    "Checked all full names and institutional/company/project/dataset/journal/conference/society names. Confirmed collisions are reported above. No relevant exact match established for TUF, ALV, IMAA, AKK, University of Boreal Sciences, Institute for Secure Industrial Systems, Neu-Westfalen institution, RESIL-BOT/corpus, AutoLog-Sec, or the five own-publication venues. Initial-only coauthors cannot be resolved to unique full identities from these files.",
+    "All five own publications and fictional DOIs agree with the key; five selected consortium papers do not contradict a four-paper RESIL-BOT output total, because the list also includes other partners' microbiology papers and is explicitly selected.",
+    "Canada's Pillar II association is correctly acknowledged; the informal adviser fails the minimum because he is not a beneficiary, not because Canada is ineligible. Official source: https://ised-isde.canada.ca/site/ised/en/horizon-europe-applicant-resources/horizon-europe-pillar-2",
+    "Sensor fault injection and replay validation are legitimate methods, with operational limitations now explicit: https://arxiv.org/abs/2108.13803 ; https://arxiv.org/abs/2204.01146 . Cold-chain pathogen modelling is plausible: https://pmc.ncbi.nlm.nih.gov/articles/PMC8883828/ . None of these sources independently validates the fictional benchmark's measured results.",
+    "Earlier review's undated-document, undefined-denominator and unqualified operational-safety issues have been addressed. Real-venue replacement was incomplete, as the remaining IEEE journal collision shows."
+  ]
+}

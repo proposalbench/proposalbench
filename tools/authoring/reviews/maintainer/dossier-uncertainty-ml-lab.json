@@ -1,0 +1,33 @@
+{
+ "reviewer": "maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 7",
+   "where": "all files",
+   "problem": "The documents are not consistently current as of the benchmark's present date, 1 October 2026 (some are written as of 2024 or early 2025, leaving unexplained gaps before calls with 2027 deadlines).",
+   "fix": "Make every document current as of September 2026: update 'as of' dates, contract periods, CV entries, publication lists through 2026, statuses of submissions, reviews, ethics approvals and recruitments, keeping the same career stage and every fact the traps rely on (re-dated consistently). Keep all numbers internally consistent after the shift."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "all files",
+   "problem": "Names of people, institutions, companies, projects or journals may collide with real ones.",
+   "fix": "Replace every person name with a coined, distinctive name (no common names such as Matteo Rossi); replace every real institution, research centre, archive, company, project or journal name of the applicant's world with a fictional one; the applicant's own publications appear in fictional journals. Real funders, real places and real funding schemes stay."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "cv_pi.md, prior_project.md, brief.md, task.yaml (Trap 2), dossier.yaml",
+   "problem": "The call has a submission date of 15 September 2027, but the dossier and brief are written from the perspective of early 2025 (e.g., the PI is in year 3 starting from 2022, the CRII grant ends in August 2025 but the brief calls it \"still active\", publications go up to 2025). This creates a two-year time gap and contradicts the brief's claim that the grant is active.",
+   "fix": "Shift all dates in the dossier, brief, facts registry, and task.yaml forward by two years (e.g., PhD in 2022, Assistant Prof start in 2024, CRII grant 2025–2027, publications 2023–2027) so the applicant's present day is 2027."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "cv_pi.md, prior_project.md, publications.md, resources_team.md, dossier.yaml",
+   "problem": "The call submission date is September 2027, but the dossier is written from the perspective of early 2025 (e.g., the CV lists teaching only up to Fall 2024, the CRII award is active until August 2025, the annual report ends January 2025, cloud credits expire December 2025, and an open PhD position is to be recruited in Fall 2025). This creates a 2.5-year temporal gap where the PI appears to have done nothing.",
+   "fix": "Shift all dates in the dossier forward by 2 years to align with a 2027 submission. For example, update the PI's appointment to August 2024, the CRII award to September 2025 – August 2027, the report period to end January 2027, teaching to include 2025/2026, and publication years/DOIs to 2023–2027. Update the corresponding facts and `own_publications` in `dossier.yaml`."
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+  "kind": "call",
+  "id": "he-cl1-indoorhealth",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "660edf5a4e15b0ba37d91ebf8326876c92eef02b52fe50321b1eac0f0e88de82",
+  "draft": {
+    "title": "Health impacts of deep building renovation on vulnerable populations",
+    "expected_outcomes_intro": "Projects are expected to contribute to all of the following expected outcomes:",
+    "expected_outcomes": [
+      "Public health authorities and building regulators have access to robust evidence on the causal links between deep energy renovations and the physical health of vulnerable occupants.",
+      "Renovation programme managers and urban planners utilize evidence-based guidelines to mitigate health risks, such as overheating and poor indoor air quality, during and after building retrofits.",
+      "Vulnerable citizens, particularly older adults and children with respiratory conditions, experience improved indoor environmental quality and reduced health burdens following residential energy upgrades.",
+      "Policymakers integrate specific health criteria, such as overheating exposure limits and ventilation performance standards, into national or regional building renovation-passport frameworks, evidenced by updated passport templates or guidelines.",
+      "Policymakers incorporate health-centric criteria into national or regional legislation and programmes implementing EU energy-efficiency requirements, evidenced by published policy documents or legislative drafts."
+    ],
+    "scope_intro": "The European Green Deal and the Renovation Wave initiative aim to double building renovation rates to improve energy efficiency. However, deep renovations that increase building airtightness and alter thermal dynamics can inadvertently degrade indoor environmental quality if improperly executed. Changes in indoor temperature, ventilation rates, and moisture levels can lead to overheating, accumulation of indoor air pollutants, and mould growth. These factors disproportionately affect vulnerable occupants, such as older adults and children with asthma, who spend significant time indoors.\n\nProposals should investigate the direct health effects of deep building renovations on these vulnerable groups, comparing pre- and post-renovation conditions to inform future building policies.",
+    "scope": [
+      "Conduct longitudinal field studies measuring indoor temperature, air quality, and moisture levels before and after deep energy renovations in residential buildings.",
+      "Quantify the direct health outcomes of vulnerable occupants, specifically older adults and children with asthma, using validated clinical and patient-reported metrics.",
+      "Identify renovation practices and building characteristics associated with measured adverse health outcomes, such as asthma exacerbations or heat-related symptoms, treating overheating and inadequate ventilation as potential exposure pathways.",
+      "Develop and validate predictive models to assess the health risks and benefits of planned renovation interventions under current and future climate scenarios.",
+      "Co-create evidence-based guidelines and mitigation strategies with building professionals, health practitioners, and occupant representatives to optimize health outcomes in renovation programmes."
+    ],
+    "exclusions": [
+      "The development or clinical testing of new medicinal products or pharmacological treatments.",
+      "Observational or modelling studies of indoor environments that do not include direct measurement of human health outcomes."
+    ],
+    "mandatory_elements": [
+      "Integration of social sciences and humanities (SSH) disciplines to address occupant behaviour.",
+      "Integration of social sciences and humanities (SSH) disciplines to address energy poverty.",
+      "A multi-actor approach involving public health authorities, building sector professionals, and representatives of vulnerable citizen groups.",
+      "Collaboration and knowledge exchange with projects funded under Cluster 5 (Climate, Energy and Mobility) addressing the energy efficiency of the built environment."
+    ],
+    "conditions": {
+      "max_budget": 6000000,
+      "duration_months_max": 48,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": 3
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Health impacts of deep building renovation on vulnerable populations",
+        "expected_outcomes_intro": "Projects are expected to contribute to all of the following expected outcomes:",
+        "expected_outcomes": [
+          "Public health authorities and building regulators have access to robust evidence on the causal links between deep energy renovations and the physical health of vulnerable occupants.",
+          "Renovation programme managers and urban planners utilize evidence-based guidelines to mitigate health risks, such as overheating and poor indoor air quality, during and after building retrofits.",
+          "Vulnerable citizens, particularly older adults and children with respiratory conditions, experience improved indoor environmental quality and reduced health burdens following residential energy upgrades.",
+          "Policymakers integrate health-centric criteria into national and regional building renovation passports and energy efficiency directives."
+        ],
+        "scope_intro": "The European Green Deal and the Renovation Wave initiative aim to double building renovation rates to improve energy efficiency. However, deep renovations that increase building airtightness and alter thermal dynamics can inadvertently degrade indoor environmental quality if improperly executed. Changes in indoor temperature, ventilation rates, and moisture levels can lead to overheating, accumulation of indoor air pollutants, and mould growth. These factors disproportionately affect vulnerable occupants, such as older adults and children with asthma, who spend significant time indoors.\n\nProposals should investigate the direct health effects of deep building renovations on these vulnerable groups, comparing pre- and post-renovation conditions to inform future building policies.",
+        "scope": [
+          "Conduct longitudinal field studies measuring indoor temperature, air quality, and moisture levels before and after deep energy renovations in residential buildings.",
+          "Quantify the direct health outcomes of vulnerable occupants, specifically older adults and children with asthma, using validated clinical and patient-reported metrics.",
+          "Identify specific renovation practices and building characteristics that correlate with adverse health effects, such as summer overheating and inadequate ventilation.",
+          "Develop and validate predictive models to assess the health risks and benefits of planned renovation interventions under current and future climate scenarios.",
+          "Co-create evidence-based guidelines and mitigation strategies with building professionals, health practitioners, and occupant representatives to optimize health outcomes in renovation programmes."
+        ],
+        "exclusions": [
+          "The development or clinical testing of new medicinal products or pharmacological treatments.",
+          "Observational or modelling studies of indoor environments that do not include direct measurement of human health outcomes."
+        ],
+        "mandatory_elements": [
+          "Integration of social sciences and humanities (SSH) disciplines to address occupant behaviour, energy poverty, and the social acceptance of renovation interventions.",
+          "A multi-actor approach involving public health authorities, building sector professionals, and representatives of vulnerable citizen groups.",
+          "Collaboration and knowledge exchange with projects funded under Cluster 5 (Climate, Energy and Mobility) addressing the energy efficiency of the built environment."
+        ],
+        "conditions": {
+          "max_budget": 6000000,
+          "duration_months_max": 48,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": 3
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Call 1",
+          "where": "call.md: introductory notice, award criteria and proposal template; call.yaml: length_contract.source_note",
+          "problem": "The call claims fidelity to the 2026–2027 scheme without citing the applicable General Annexes or a dated application template. The introductory notice also says that 'conditions are invented', although the checklist permits invention only of the topic, identifiers, budgets and dates. This leaves the status of eligibility and award conditions unclear.",
+          "fix": "Cite the official General Annexes and the applicable RIA lump-sum application template, including versions and relevant sections. Reconcile the criteria, template and award conditions with those sources. Narrow the fictionalisation notice to the permitted invented elements and identify benchmark adaptations separately."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Call 1",
+          "where": "call.md: Type of action and Length; call.yaml: length_contract",
+          "problem": "The call specifies a lump-sum RIA but uses the ordinary 40-page RIA/IA limit. The 2026–2027 lump-sum RIA/IA limit is 45 pages. The source note does not account for that distinction.",
+          "fix": "Use the applicable 45-page lump-sum limit and update both files. At the stated conversion of 450 words per page, the corresponding limit is 20,250 words. Alternatively, change the funding form and consistently apply its actual requirements."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Call 3",
+          "where": "call.md: Length; call.yaml: length_contract.tolerance",
+          "problem": "The public call states a strict 18,000-word limit and says excess text is disregarded, but the hidden contract includes a 3% tolerance. That represents 540 words of undisclosed allowance or enforcement discretion.",
+          "fix": "Set tolerance to zero, or state precisely in call.md how the 3% tolerance affects evaluation. Keep the public and hidden enforcement rules identical after correcting the underlying page limit."
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md: Specific conditions; call.yaml: ME1 and ME2",
+          "problem": "Mandatory elements combine independently assessable obligations. ME1 combines FAIR data management, publication access and conditional access to data and tools. ME2 combines SSH work on occupant behaviour, energy poverty and social acceptance. A proposal could satisfy only part of either item, leaving item-level compliance ambiguous.",
+          "fix": "Split these into separately identified requirements in both files. Preserve the qualification on sharing data and tools, and specify that justified restrictions on sensitive health data are compatible with compliance."
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md: fourth expected outcome; call.yaml: EO4",
+          "problem": "EO4 combines adoption into renovation passports and energy-efficiency directives across national and regional levels, without defining what constitutes a health criterion. It also conflates EU directives with national or regional implementing instruments. Compliance is consequently difficult to assess and the policy targets are imprecise.",
+          "fix": "Separate the passport and policy outcomes. Refer explicitly to national or regional renovation-passport frameworks and legislation or programmes implementing EU energy-efficiency requirements. Specify identifiable proposed health criteria, such as overheating exposure or ventilation performance, and the evidence of uptake expected."
+        }
+      ],
+      "rejected": [
+        {
+          "problem": "The call claims fidelity to the 2026–2027 scheme without citing the applicable General Annexes or a dated application template. The introductory notice also says that 'conditions are invented', although the checklist permits invention only of the topic, identifiers, budgets and dates. This leaves the status of eligibility and award conditions unclear.",
+          "reason": "The introductory notice, award criteria, and proposal template are part of the fixed call text frame provided by the benchmark environment. I only generate the JSON content for the specific slots and cannot modify the markdown template."
+        },
+        {
+          "problem": "The call specifies a lump-sum RIA but uses the ordinary 40-page RIA/IA limit. The 2026–2027 lump-sum RIA/IA limit is 45 pages. The source note does not account for that distinction.",
+          "reason": "The 40-page limit is hardcoded in the provided call text frame. I cannot modify the benchmark's template."
+        },
+        {
+          "problem": "The public call states a strict 18,000-word limit and says excess text is disregarded, but the hidden contract includes a 3% tolerance. That represents 540 words of undisclosed allowance or enforcement discretion.",
+          "reason": "The length contract and its tolerance are part of the hidden YAML configuration managed by the benchmark framework, which I do not have access to modify."
+        },
+        {
+          "problem": "Mandatory elements combine independently assessable obligations. ME1 combines FAIR data management, publication access and conditional access to data and tools.",
+          "reason": "ME1 (Open science practices) is a fixed item that every call of this scheme already has, as specified in the prompt. I cannot modify or split it. I have, however, split the SSH mandatory element (ME2) as requested."
+        }
+      ]
+    },
+    {
+      "draft": {
+        "title": "Health impacts of deep building renovation on vulnerable populations",
+        "expected_outcomes_intro": "Projects are expected to contribute to all of the following expected outcomes:",
+        "expected_outcomes": [
+          "Public health authorities and building regulators have access to robust evidence on the causal links between deep energy renovations and the physical health of vulnerable occupants.",
+          "Renovation programme managers and urban planners utilize evidence-based guidelines to mitigate health risks, such as overheating and poor indoor air quality, during and after building retrofits.",
+          "Vulnerable citizens, particularly older adults and children with respiratory conditions, experience improved indoor environmental quality and reduced health burdens following residential energy upgrades.",
+          "Policymakers integrate specific health criteria, such as overheating exposure limits and ventilation performance standards, into national or regional building renovation-passport frameworks, evidenced by updated passport templates or guidelines.",
+          "Policymakers incorporate health-centric criteria into national or regional legislation and programmes implementing EU energy-efficiency requirements, evidenced by published policy documents or legislative drafts."
+        ],
+        "scope_intro": "The European Green Deal and the Renovation Wave initiative aim to double building renovation rates to improve energy efficiency. However, deep renovations that increase building airtightness and alter thermal dynamics can inadvertently degrade indoor environmental quality if improperly executed. Changes in indoor temperature, ventilation rates, and moisture levels can lead to overheating, accumulation of indoor air pollutants, and mould growth. These factors disproportionately affect vulnerable occupants, such as older adults and children with asthma, who spend significant time indoors.\n\nProposals should investigate the direct health effects of deep building renovations on these vulnerable groups, comparing pre- and post-renovation conditions to inform future building policies.",
+        "scope": [
+          "Conduct longitudinal field studies measuring indoor temperature, air quality, and moisture levels before and after deep energy renovations in residential buildings.",
+          "Quantify the direct health outcomes of vulnerable occupants, specifically older adults and children with asthma, using validated clinical and patient-reported metrics.",
+          "Identify specific renovation practices and building characteristics that correlate with adverse health effects, such as summer overheating and inadequate ventilation.",
+          "Develop and validate predictive models to assess the health risks and benefits of planned renovation interventions under current and future climate scenarios.",
+          "Co-create evidence-based guidelines and mitigation strategies with building professionals, health practitioners, and occupant representatives to optimize health outcomes in renovation programmes."
+        ],
+        "exclusions": [
+          "The development or clinical testing of new medicinal products or pharmacological treatments.",
+          "Observational or modelling studies of indoor environments that do not include direct measurement of human health outcomes."
+        ],
+        "mandatory_elements": [
+          "Integration of social sciences and humanities (SSH) disciplines to address occupant behaviour.",
+          "Integration of social sciences and humanities (SSH) disciplines to address energy poverty.",
+          "A multi-actor approach involving public health authorities, building sector professionals, and representatives of vulnerable citizen groups.",
+          "Collaboration and knowledge exchange with projects funded under Cluster 5 (Climate, Energy and Mobility) addressing the energy efficiency of the built environment."
+        ],
+        "conditions": {
+          "max_budget": 6000000,
+          "duration_months_max": 48,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": 3
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Call 1",
+          "where": "call.md opening notice, award criteria and proposal template; call.yaml length_contract.source_note",
+          "problem": "The claimed scheme fidelity is not supported by identifiable source citations. The YAML names the General Annexes and an unspecified standard application form, but provides no version, section or link. The applicant-facing call supplies neither source. This leaves the prescribed template, page limit and award conditions unverifiable against the claimed programme edition.",
+          "fix": "Cite the official 2026–2027 General Annexes and the applicable version of the actual-cost RIA/IA application form in call.md, with links and relevant sections. Reconcile the criteria, mandatory headings, resource tables and page limit against those sources, and record the same references in call.yaml."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Call 1",
+          "where": "call.md opening notice: 'The topic identifier, budget and conditions are invented.'",
+          "problem": "The notice permits invented conditions without distinguishing topic-specific provisions from the scheme's real eligibility and award conditions. The checklist permits invention only of the topic, identifiers, budgets and dates. The notice also fails to explicitly identify the topic content as invented.",
+          "fix": "State explicitly that the topic content, identifier and budget are fictional. Identify the word conversion separately as a benchmark adaptation, and state that scheme eligibility, evaluation and award conditions follow the cited official sources. Remove the blanket statement that conditions are invented."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Call 3",
+          "where": "call.md Length; call.yaml length_contract.tolerance",
+          "problem": "The public call states a strict 18,000-word limit and says excess text is disregarded, whereas the hidden contract allows a 0.03 tolerance. A 3% allowance is 540 words, potentially moving the effective boundary to 18,540 words without informing applicants.",
+          "fix": "Set tolerance to 0 to match the public rule, or explicitly state the tolerance and its precise enforcement effect in call.md and align both files."
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md Scope, third bullet; call.yaml scope.SC3",
+          "problem": "The requirement describes summer overheating and inadequate ventilation as examples of adverse health effects. They are environmental exposures or building-performance conditions, not measured human health outcomes. This makes it unclear whether identifying exposure problems alone satisfies SC3, despite the call's requirement for direct health measurement.",
+          "fix": "Require identification of renovation practices and building characteristics associated with measured adverse health outcomes, such as asthma exacerbations or heat-related symptoms, and identify overheating and inadequate ventilation separately as potential exposure pathways. Apply the same wording in both files."
+        }
+      ],
+      "rejected": [
+        {
+          "problem": "The claimed scheme fidelity is not supported by identifiable source citations. The YAML names the General Annexes and an unspecified standard application form, but provides no version, section or link. The applicant-facing call supplies neither source. This leaves the prescribed template, page limit and award conditions unverifiable against the claimed programme edition.",
+          "reason": "I only generate the topic-specific JSON content (title, outcomes, scope, etc.). The call.md template, opening notice, award criteria, proposal template, and call.yaml metadata are part of the benchmark engine's framing and are not controlled by my JSON output."
+        },
+        {
+          "problem": "The notice permits invented conditions without distinguishing topic-specific provisions from the scheme's real eligibility and award conditions. The checklist permits invention only of the topic, identifiers, budgets and dates. The notice also fails to explicitly identify the topic content as invented.",
+          "reason": "The opening notice is part of the call.md template provided in the prompt, which I do not generate or control. I only provide the JSON content to be inserted into the template."
+        },
+        {
+          "problem": "The public call states a strict 18,000-word limit and says excess text is disregarded, whereas the hidden contract allows a 0.03 tolerance. A 3% allowance is 540 words, potentially moving the effective boundary to 18,540 words without informing applicants.",
+          "reason": "The word limit, tolerance, and length contract are defined in the call.md template and call.yaml, which are outside the scope of the JSON object I generate."
+        }
+      ]
+    }
+  ]
+}

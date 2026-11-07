@@ -1,0 +1,336 @@
+schema_version: 1
+id: maternal-health-postdoc
+language: en
+applicant_type: individual
+career_stage: postdoc
+disciplines:
+- global health
+- epidemiology
+- implementation science
+method_profile: mixed
+country: NL
+files:
+- path: cv_pi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources_and_partners.md
+  role: resources
+- path: training_gaps.md
+  role: other
+facts:
+- id: F01
+  category: identity
+  kind: existing
+  text: Dr. Abena Owusu-Darko is a Ghanaian and Dutch dual citizen, postdoctoral researcher at the Department
+    of Global Health, Drelvani University (DU), Maastricht, the Netherlands.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: position
+  kind: existing
+  text: Dr. Owusu-Darko has been resident in the Netherlands since August 2019.
+  value: August 2019
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: education
+  kind: existing
+  text: PhD in Global Health from DU, awarded June 2022 (cum laude).
+  value: Jun 2022
+  salient: true
+  source: cv_pi.md
+- id: F04
+  category: position
+  kind: existing
+  text: Current postdoctoral contract at DU runs until 31 August 2027.
+  value: 31 August 2027
+  salient: true
+  source: resources_and_partners.md
+- id: F05
+  category: result
+  kind: existing
+  text: NEVRAMAT trial enrolled 2,150 women across 12 CHPS zones in Bono East Region over 15 months; 1,214
+    were screened in intervention periods and 936 received standard care in control periods.
+  value: 2,150
+  salient: true
+  source: prior_project.md
+- id: F06
+  category: result
+  kind: existing
+  text: 327 of 1,214 screened women (26.9%) were classified as high-risk by CHWs in intervention periods.
+  value: 26.9%
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: result
+  kind: existing
+  text: Referral completion among high-risk women increased from 37.5% (control) to 75.8% (intervention),
+    an adjusted increase of 34.2 percentage points (95% CI 25.8–42.6 pp).
+  value: 34.2 percentage points
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: There were 588 paired CHW/physician assessments; the archived summary does not document selection
+    of this subset or the reference-standard cross-tabulation, so population sensitivity and specificity
+    cannot be established from these materials.
+  value: '588'
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: Among facility deliveries, PPH was observed in 41/494 (8.3%) intervention-period deliveries and
+    38/325 (11.7%) control-period deliveries; adjusted OR 0.68 (95% CI 0.42–1.10; p=0.12). The archived
+    summary does not stratify by whether initial enrolment preceded delivery; these are descriptive facility-period
+    rates.
+  value: '0.68'
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: Qualitative component comprised 42 in-depth interviews (24 women, 18 CHWs) and 6 focus group discussions
+    (48 participants total).
+  value: '42'
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: CHW attrition during the NEVRAMAT trial was 11% (4 of 36 CHWs).
+  value: 11%
+  salient: false
+  source: prior_project.md
+- id: F12
+  category: grant
+  kind: existing
+  text: NWO-WOTRO pilot grant of EUR 48,000 (2025–2026) for scaling community PPH screening in three additional
+    Ghanaian districts.
+  value: EUR 48,000
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: resource
+  kind: existing
+  text: NWO-WOTRO pilot has screened 410 women across 6 CHPS zones in 3 additional districts as of August
+    2026.
+  value: '410'
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: partner
+  kind: existing
+  text: Dr. Comfort Asante-Mensah at Neranvi Community Health Research Institute (NCHRI), Ghana, has confirmed
+    in principle her willingness to host Dr. Owusu-Darko for a research stay.
+  value: null
+  salient: true
+  source: resources_and_partners.md
+- id: F15
+  category: partner
+  kind: existing
+  text: Prof. dr. Lieve Janssens-Willekens at Veltrenne Institute of Population Health (VIPH), Antwerp,
+    Belgium, has offered in principle to host Dr. Owusu-Darko for a research fellowship.
+  value: null
+  salient: true
+  source: resources_and_partners.md
+- id: F16
+  category: partner
+  kind: existing
+  text: 'Prof. dr. Hendrel Vossenkade at DU is the current postdoctoral supervisor (H-index: 38).'
+  value: '38'
+  salient: true
+  source: resources_and_partners.md
+- id: F17
+  category: other
+  kind: existing
+  text: Dr. Owusu-Darko has no experience with causal-inference methods (instrumental variables, regression
+    discontinuity, difference-in-differences, synthetic control).
+  value: null
+  salient: true
+  source: training_gaps.md
+- id: F18
+  category: other
+  kind: existing
+  text: Prof. Janssens-Willekens at VIPH leads the Health Impact Evaluation Group specialising in quasi-experimental
+    and econometric methods for health programme evaluation.
+  value: null
+  salient: true
+  source: resources_and_partners.md
+- id: F19
+  category: other
+  kind: existing
+  text: 'NCHRI Research Ethics Committee application for additional qualitative data collection submitted
+    15 March 2026; status as of September 2026: applied for, not yet granted.'
+  value: null
+  salient: true
+  source: resources_and_partners.md
+- id: F20
+  category: resource
+  kind: existing
+  text: NCHRI maintains a Health and Demographic Surveillance System covering approximately 156,000 residents.
+  value: 156,000
+  salient: true
+  source: resources_and_partners.md
+- id: F21
+  category: publication
+  kind: existing
+  text: Dr. Owusu-Darko has 7 peer-reviewed publications, 6 as first author.
+  value: '7'
+  salient: true
+  source: publications.md
+- id: F22
+  category: resource
+  kind: existing
+  text: NEVRAMAT de-identified dataset (2,150 women enrolled, including 1,214 screened in intervention
+    periods and 936 from control periods) deposited at DU under restricted access.
+  value: 2,150
+  salient: false
+  source: prior_project.md
+- id: F23
+  category: result
+  kind: existing
+  text: Haemoglobin measurement was missing for 7.2% of screened women due to device malfunction or supply
+    stock-outs.
+  value: 7.2%
+  salient: false
+  source: prior_project.md
+- id: F24
+  category: other
+  kind: existing
+  text: No formal cost-effectiveness analysis was conducted in the NEVRAMAT trial.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F25
+  category: result
+  kind: existing
+  text: In control periods, 261 women met high-risk criteria based on retrospective review of routine
+    facility records, of whom 98 completed referral within 72 hours (37.5%).
+  value: '261'
+  salient: true
+  source: prior_project.md
+- id: F26
+  category: resource
+  kind: existing
+  text: DU Department of Global Health has 28 academic staff and 14 PhD candidates.
+  value: '28'
+  salient: true
+  source: resources_and_partners.md
+- id: F27
+  category: resource
+  kind: existing
+  text: NCHRI has over 300 staff and a network of over 200 trained community health workers.
+  value: '300'
+  salient: true
+  source: resources_and_partners.md
+- id: F28
+  category: resource
+  kind: existing
+  text: VIPH has approximately 400 researchers.
+  value: '400'
+  salient: true
+  source: resources_and_partners.md
+- id: F29
+  category: grant
+  kind: existing
+  text: NWO-WOTRO pilot grant is active and ends December 2026.
+  value: December 2026
+  salient: true
+  source: resources_and_partners.md
+- id: F30
+  category: other
+  kind: existing
+  text: DU METC approved the NWO-WOTRO pilot quantitative study (ref. METC-2025-0287).
+  value: METC-2025-0287
+  salient: true
+  source: resources_and_partners.md
+own_publications:
+- key: owusu-darko-2022-trial
+  authors:
+  - Owusu-Darko, A.
+  - Vossenkade, H.
+  - Asante-Mensah, C.
+  year: 2022
+  title: 'Community health worker-led screening for postpartum haemorrhage risk in rural Ghana: results
+    of a stepped-wedge cluster-randomised trial'
+  venue: Journal of Maternal and Tropical Health
+  doi: 10.99999/pb.maternal-health-postdoc.2022.1
+- key: owusu-darko-2023-qual
+  authors:
+  - Owusu-Darko, A.
+  - Asante-Mensah, C.
+  - Vossenkade, H.
+  year: 2023
+  title: '"They gave me the paper and the money for the car": women''s and community health workers''
+    experiences of a PPH risk screening programme in Bono East, Ghana — a qualitative study'
+  venue: Qualitative Studies in Health and Society
+  doi: 10.99999/pb.maternal-health-postdoc.2023.2
+- key: owusu-darko-2024-dx
+  authors:
+  - Owusu-Darko, A.
+  - Vossenkade, H.
+  year: 2024
+  title: 'Accuracy of a simplified checklist and point-of-care haemoglobin testing for PPH risk classification
+    by community health workers: a diagnostic accuracy study nested in the NEVRAMAT trial'
+  venue: Reproductive Health Diagnostics
+  doi: 10.99999/pb.maternal-health-postdoc.2024.1
+- key: owusu-darko-2025-process
+  authors:
+  - Owusu-Darko, A.
+  - Boateng-Frimpong, K.
+  - Vossenkade, H.
+  - Asante-Mensah, C.
+  year: 2025
+  title: 'Referral completion and transport vouchers for high-risk postpartum women in Ghana: a mixed-methods
+    process evaluation'
+  venue: Advances in Global Health Action
+  doi: 10.99999/pb.maternal-health-postdoc.2025.1
+- key: boateng-frimpong-2019-barriers
+  authors:
+  - Boateng-Frimpong, K.
+  - Owusu-Darko, A.
+  - Mensah-Tawiah, R. O.
+  year: 2019
+  title: 'Barriers to emergency obstetric referral in the Bono East Region of Ghana: a facility-based
+    cross-sectional study'
+  venue: West African Journal of Reproductive Health
+  doi: 10.99999/pb.maternal-health-postdoc.2019.1
+- key: owusu-darko-2025-attrition
+  authors:
+  - Owusu-Darko, A.
+  - Kankam-Boadu, P. A.
+  - Vossenkade, H.
+  year: 2025
+  title: 'Community health worker attrition in maternal health programmes in sub-Saharan Africa: a scoping
+    review'
+  venue: International Journal of Health Workforce Research
+  doi: 10.99999/pb.maternal-health-postdoc.2025.2
+- key: owusu-darko-2026-scaleup
+  authors:
+  - Owusu-Darko, A.
+  - Vossenkade, H.
+  - Asante-Mensah, C.
+  year: 2026
+  title: 'Early results from scaling CHW-led postpartum haemorrhage screening to three additional Ghanaian
+    districts: a pre-post implementation study'
+  venue: Journal of Implementation Science in Global Health
+  doi: 10.99999/pb.maternal-health-postdoc.2026.1
+- key: nevramat-data-2022
+  authors:
+  - Owusu-Darko, A.
+  year: 2022
+  title: NEVRAMAT de-identified quantitative dataset
+  venue: DU Research Data Repository
+  doi: 10.99999/pb.maternal-health-postdoc.2022.data
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: us.anthropic.claude-opus-4-6-v1
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY ce739328-a3f0-40fe-824b-ccd0e88fc185

@@ -1,0 +1,42 @@
+{
+  "kind": "task",
+  "id": "pub2-foundation-signals-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1; Task 3",
+      "where": "brief.md: “public simulated frames on NimbusCompute”; “formal quotation from NimbusCompute”.",
+      "problem": "Nimbus Compute is a real UK cloud/DevOps consultancy using nimbuscompute.co.uk. Removing the space does not distinguish the fictional prospective compute supplier from that company. This collision was introduced in a task brief, so the repair belongs here.",
+      "fix": "Replace both instances of NimbusCompute with “Nivorva Compute” (exact-phrase searched with no result on 2026-10-31), or use “an external compute provider” in both places. Retain the absence of a quotation and explicit planning-estimate status.",
+      "evidence": [
+        "https://nimbuscompute.co.uk/about-us",
+        "data/public/tasks/pub2-foundation-signals-close/brief.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 1",
+      "where": "brief.md: “I want to pitch the stretch goal of my PhD ... historical observing logs”; task.yaml: “fit_level: close”.",
+      "problem": "The nominal close task uses the same archival-weather reconstruction pivot as pub2-foundation-records-stretch. The dossier explicitly calls that a stretch goal: the imaging theorem does not establish sparsity of historical conditions or identify outcome-dependent recording. The paired tasks consequently lose the intended close-versus-stretch distinction and add the same untested domain transfer to both.",
+      "fix": "Keep fit_level close and the T01 budget trap. Replace the first two substantive paragraphs with: “I want to build directly on my sparse-source imaging work. Test whether our recovery method remains useful when astronomical frames have missing pixels or interrupted exposures and the PSF is imperfectly calibrated. Start with controlled masking of synthetic frames, compare against a simple baseline, and quantify missed sources, false detections and uncertainty under scattered losses and gaps near sources. Use telescope-archive data as a prospective observational test within our access agreement. Prof. Vranokvětová will sponsor and oversee the work.” Change “raw logbook scans” in the practical bullet to “raw telescope frames”. Retain EUR 115,000/18 months, local raw processing and optional public-simulation compute with a labelled estimate. Leave historical-log selection bias to records-stretch.",
+      "evidence": [
+        "data/public/tasks/pub2-foundation-signals-close/brief.md",
+        "data/public/tasks/pub2-foundation-records-stretch/brief.md",
+        "data/public/dossiers/v2-sparse-sky-doctoral-project/phd_progress_report.md",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "T01 alone is correctly typed and decidable from the mandatory Budget outline. EUR 115,000 exceeds EUR 100,000 including indirect costs. A revised request can satisfy both the cap and dossier's 20% overhead, e.g. EUR 80,000 direct + EUR 16,000 indirect.",
+    "The prior bundled quotation trap has been removed: current T01 only tests the funding ceiling. A labelled compute estimate, quotation procurement before internal routing, or local-only design is feasible. G1 does not require invented provider prices.",
+    "1 October 2026 date, concept_note type, English language, six call sections and 1,500-word limit match. Faculty sponsorship is documented; expected defence is prospective. No detailed work-package annex is required.",
+    "Current brief's archival approach is scientifically feasible as assumption-testing/partial identification, but is a stretch rather than a close continuation; filing the fit defect does not claim that the task is impossible.",
+    "Supervisor/institution/provider examples in the dossier and theoretical/simulation defects are filed on the dossier; consequential supervisor rename should propagate here."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "task",
+  "id": "pub-erc-notarial-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "cv_ip.md, equipo_y_recursos.md, publicaciones.md, brief.md and hidden YAML: personal names",
+      "problem": "The personal names use established given names and surnames rather than the distinctively coined given names and surnames required by the authoring instructions. This includes Oriol Guinovart i Balcells, Lorenzo Squarcione, Mireia Castellnou and Dídac Llorca. This is an authoring-rule violation irrespective of whether any complete name happens to identify a real person.",
+      "fix": "Replace all four names with distinctive invented names and update every occurrence, publication author list, citation key and trap description consistently."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2",
+      "where": "informe_proyecto_previo.md, section 3: coverage of 1350–1450 and ten non-overlapping ten-year windows",
+      "problem": "The temporal boundaries are ambiguous. Inclusive coverage of calendar years 1350–1450 contains 101 years, which cannot be partitioned into ten ten-year windows. The separate reference to material from 1440–1450 leaves the treatment of 1450 unresolved.",
+      "fix": "List the ten window boundaries and state how endpoint years are handled. For example, use 1350–1359 through 1440–1449 and explicitly explain whether material dated 1450 is excluded from network analysis."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "informe_proyecto_previo.md, section 2.3; dossier.yaml, F12",
+      "problem": "The reported 95% interval of ±0.002 for mean betweenness has no central estimate or defined averaging population. It is unclear whether it concerns the pooled network, averages across temporal windows, or a particular group. The report also labels a distribution from identity-error perturbations a confidence interval without explaining its inferential interpretation. Consequently, this apparent robustness result cannot be quoted meaningfully.",
+      "fix": "Specify the normalized statistic, population, temporal aggregation, central estimate and interval endpoints. Describe the interval as a conditional simulation uncertainty interval unless a confidence-interval construction is justified, and record those qualifications in F12."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml: facts registry",
+      "problem": "The registry omits numerous proposal-relevant quantities and statuses present in the documents. Examples include the 6,200-document historical subset; widow counts of 315 and 228; merchant and artisan counts, centrality means and standard deviations; the 1,000 simulation iterations; monetary conversion anchors and extrapolation assumptions; training, validation and test folio counts; the PI's appointment date and accreditation; Mireia's previous contract duration and funding; and the existing archive agreement. Several omissions are limitations or resource conditions that materially affect a proposal.",
+      "fix": "Add sourced facts covering these quantities, statuses and limitations, preserving their denominators, units and qualifications. Include the existing archive agreement's research-only reproduction conditions and distinguish existing resources from future recruitment."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, F39",
+      "problem": "F39 adds the claim that the absence of systematic parish registers limits confirmation of dowries. The source does not state that consequence: it identifies marriage contracts as the proposed evidence for investigating the dowry hypothesis. Parish registers would not ordinarily establish dowry restitution. This changes the evidential limitation relevant to T2.",
+      "fix": "Record the absence of systematic parish registers without adding a claim about confirming dowries. Separately record the availability of marriage contracts and the unconfirmed dowry-restitution hypothesis; clarify that marriage contracts alone do not establish restitution payments or exact widowhood dates."
+    }
+  ]
+}

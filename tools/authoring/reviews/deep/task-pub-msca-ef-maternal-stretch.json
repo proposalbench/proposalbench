@@ -1,0 +1,43 @@
+{
+  "kind": "task",
+  "id": "pub-msca-ef-maternal-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "data/public/tasks/pub-msca-ef-maternal-stretch/task.yaml T1: \"The proposal names FITH ... as the beneficiary ...\"; \"must demonstrate ... not ... more than 12 months ... before the deadline\"; description: \"for the entire 36 months\"",
+      "problem": "The Netherlands exclusion is supported by already-recorded residence exceeding 12 months, but the key overstates knowledge of future residence through September 2027 and requires a specific Belgian host plus proof of Belgian mobility that is absent from the dossier. Netherlands residence is not an exhaustive foreign-travel record. A compliant conditional Belgian plan, or another feasible eligible host proposed as unconfirmed, can fail this key. Reintegration is also described as though it were a general mobility exemption, although the call distinguishes the research-experience deduction.",
+      "fix": "Replace expected_behaviour with: \"Do not retain VUM/the renamed Netherlands institution as European beneficiary, because the documented Dutch residence already exceeds 12 months inside the 15 September 2024–15 September 2027 look-back. Propose an eligible EU/MSCA-associated beneficiary in another country with a feasible research/training plan. FITH/the renamed Belgian institute is the dossier-supported option, not the sole accepted solution. Preserve its in-principle offer and identify missing travel/main-activity periods, including October 2026 to the deadline; future eligibility is conditional on verification. VUM may remain a collaborator or secondment host within the call’s limit.\" Replace the description’s asserted full 36-month residence with the already documented September 2024–September 2026 interval. Remove unsupported claims of a complete Belgian history and do not require a categorical future-eligibility certification.",
+      "evidence": [
+        "data/public/tasks/pub-msca-ef-maternal-stretch/brief.md",
+        "data/public/dossiers/maternal-health-postdoc/cv_pi.md",
+        "data/public/dossiers/maternal-health-postdoc/resources_and_partners.md",
+        "data/public/calls/msca-pf-ef/call.md",
+        "tools/authoring/design_v2.md",
+        "docs/scoring_spec.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-msca-ef-maternal-stretch/brief.md: \"# Notes for proposal writer\" (undated)",
+      "problem": "The brief is not dated 1 October 2026 as required by Task 6. This has no demonstrated scoring consequence here because no T12 silent dated fact is planted.",
+      "fix": "Date the applicant notes \"1 October 2026\"; preserve all September dossier statuses.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "One correctly typed T03 trap, explicit ordinary host suggestion, and real conflicting rule. The Belgian offer supplies a plausible remedy; its precise host identity must not become the scoring condition.",
+    "24-month fellowship and suggested total secondments of 9–10 months are within the 12-month secondment maximum; the earlier removed secondment trap was not reinstated.",
+    "Stretch fit is achievable through supervised quasi-experimental/health-economics training, building on trial and field expertise. The proposal must test donor-pool, pre-period and rollout-data availability before promising synthetic-control or staggered-adoption identification. A valid staged or alternative analysis is feasible; no unpublished data fields should be invented.",
+    "Full Part B-1 can visibly describe beneficiary, mobility uncertainty, supervision and methods within 5,000 words. English matches. No T12/T13, no resubmission/RESUB, no budget trap. Dossier collisions and science defects are filed on the dossier and shared call issues on the call."
+  ]
+}

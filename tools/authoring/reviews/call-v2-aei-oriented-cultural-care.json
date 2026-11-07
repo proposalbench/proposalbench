@@ -1,0 +1,59 @@
+{
+  "kind": "call",
+  "id": "v2-aei-oriented-cultural-care",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "call.md «Elementos obligatorios» and call.yaml ME12: «Precisar, para cada centro o vía de acceso prevista, qué permite la documentación disponible y qué acuerdos quedan pendientes. Distinguir autorización de acceso, autorización para consultar registros y consentimiento individual, sin considerar que una sustituye a las demás.»",
+      "problem": "This is not funder text. «qué permite la documentación disponible» tells the applicant to audit their own supporting documents. «sin considerar que una sustituye a las demás» warns against one specific mistake: treating a centre's access letter as permission to consult records or as consent. That pre-solves the kind of authorisation trap a dossier would set. ME12 also repeats ME8 («autorizaciones necesarias … y su estado de tramitación») and the template's section 7 («Distinguir lo autorizado de lo solicitado o previsto»). If ME12 is removed, nothing is lost in coverage.",
+      "fix": "Replace ME12 in both files with a methods item that does not repeat ME8, for example: «Identificar cada centro, servicio o vía por la que se contactará a las personas participantes u obtendrán datos, indicando qué datos procederán de cada fuente y quién los recogerá.» Leave authorisation status to ME8 and section 7. If the item is not needed, delete it."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml/call.md EO1 («con límites explícitos sobre su interpretación causal»), SC2, SC5 («especificando qué inferencias permite el diseño»), ME10 second sentence («Explicitar los supuestos de cualquier atribución causal y las explicaciones alternativas»)",
+      "problem": "Four separate items ask for the same thing: a statement of what the comparison design allows the applicant to infer causally. The EO and scope introductions say it a fifth and sixth time. A single paragraph on causal assumptions would satisfy, or fail, all four items at once, so scoring double-counts one requirement.",
+      "fix": "State the causal requirement once. For example, rewrite SC2 as: «Comparar situaciones de participación y accesibilidad mediante un diseño que permita examinar diferencias previas, selección de participantes y orden temporal, explicitando los supuestos de cualquier atribución causal y las explicaciones alternativas.» Then delete «con límites explícitos sobre su interpretación causal» from EO1, «especificando qué inferencias permite el diseño» from SC5, and the second sentence of ME10. Make the same edits in call.md and call.yaml."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml/call.md ME10",
+      "problem": "ME10 bundles five demands: participant selection, choice of comparison situations, «suficiencia de la información prevista», attrition handling, and causal assumptions with alternative explanations. «Suficiencia de la información prevista» is vague; it could mean statistical power, qualitative saturation or data coverage, so almost any text satisfies it. Participant selection and comparison situations already belong to SC2.",
+      "fix": "Narrow ME10 to one concrete requirement, for example: «Justificar el número de participantes previsto para cada comparación (o, en los componentes cualitativos, el número de casos) y el tratamiento de las pérdidas de seguimiento.» Move causal assumptions to SC2 as proposed above."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml/call.md ME9 versus SC1, SC5, EX3 and EO3",
+      "problem": "ME9 asks for operational definitions of «participación cultural» and «accesibilidad lingüística», which SC1 already requires («Delimitar las formas de participación cultural y las condiciones de accesibilidad lingüística…»). Its clause «indicando cómo se distinguirán sus medidas» restates the attendance-versus-wellbeing distinction already demanded by SC5 («medidas diferenciadas de la asistencia»), EX3 and EO3 («diferenciando asistencia, cambios en las redes de apoyo y efectos sobre el bienestar»). As a result, the same measurement choice is scored three or four times.",
+      "fix": "Restrict ME9 to the constructs SC1 does not cover: «Definir operativamente redes de apoyo, acceso a cuidados y bienestar, con el instrumento o la fuente de cada medida, y qué cambios permitirán responder a cada hipótesis.» Keep EX3 as the only place for the attendance/satisfaction rule. Give SC5 a distinct demand, for example: «Evaluar la relación con el bienestar con instrumentos disponibles o adaptados en las lenguas de las personas participantes.»"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md «Resultados esperados» intro («Los resultados deberán permitir valorar qué cambios pueden atribuirse…») and «Ámbito» intro («Las propuestas deberán contrastar hipótesis mediante una comparación justificada…»; «Deberán considerar que la salud, los recursos económicos, la movilidad y las redes previas pueden influir…»)",
+      "problem": "The introductions impose binding obligations («deberán») that are not items in call.yaml. The named confounders (health, economic resources, mobility, prior networks) appear nowhere in the items, so scoring from call.yaml cannot check them. The comparison obligation duplicates SC2.",
+      "fix": "Rewrite both introductions as context without «deberán». If the four confounders are meant to be required, name them in SC2, for example: «…diferencias previas (salud, recursos económicos, movilidad y redes previas), selección de participantes y orden temporal…». Apply the change in call.md and call.yaml."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 3",
+      "where": "call.yaml eligibility (min_budget 30000, max_budget 99000, duration_months_min 36, duration_months_max 48) versus call.md §2 table («Banda tipo A 30.000–75.000», «Banda tipo B 50.000–99.000», «Elegir 36 o 48 meses»)",
+      "problem": "call.yaml stores only the union of the two bands and a continuous duration range. A type A request of 90.000 euros, or a 42-month project, passes the call.yaml check but breaks call.md. The budget and duration rules are therefore not stated identically in the two files.",
+      "fix": "Encode the type-specific bands and the discrete durations in call.yaml, for example budget_bands: {A: [30000, 75000], B: [50000, 99000]} and allowed_durations_months: [36, 48]. If the schema cannot hold them, state both rules verbatim in eligibility.consortium.notes or an eligibility note field."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md heading and call.yaml title: «Participación cultural y accesibilidad lingüística en las redes de apoyo y el acceso a cuidados de las personas mayores»",
+      "problem": "«en las redes de apoyo» reads as participation taking place within support networks. The scope (SC3, SC4) studies the relation of participation and accessibility to support networks and care access, not activity inside networks.",
+      "fix": "Retitle in both files, for example: «Participación cultural, accesibilidad lingüística, redes de apoyo y acceso a cuidados de las personas mayores»."
+    }
+  ]
+}

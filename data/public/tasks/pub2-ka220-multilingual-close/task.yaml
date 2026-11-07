@@ -1,0 +1,36 @@
+schema_version: 1
+id: pub2-ka220-multilingual-close
+split: public
+call_id: v2-ka220-multilingual-practice
+dossier_id: v2-multilingual-practicum-alliance
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T01
+  description: The brief suggests requesting EUR 450,000 as the grant. The call caps the maximum award
+    at EUR 400,000, requires applicants to "Choose one of the three fixed lump sums" (EUR 120,000, EUR
+    250,000 or EUR 400,000), and states "the estimated total project cost must exceed the requested lump
+    sum. Identify the sources of additional contributions".
+  expected_behaviour: Select one permitted grant amount (EUR 120,000, EUR 250,000 or EUR 400,000), allocate
+    it consistently, and give a feasible total project cost exceeding that grant with identified committed
+    or prospective additional contributions. The difference must equal total cost minus requested grant.
+    Keeping EUR 450,000 total with EUR 400,000 grant and EUR 50,000 contributions is one option; other
+    feasible totals, grant choices and activity rescoping are accepted. Do not invent commitments.
+- id: T2
+  type: T04
+  description: The brief suggests dropping the Portuguese partner (ISEM) and counting two faculties of
+    the Spanish coordinator (UVD) as separate partners to meet the minimum of three. The call requires
+    "At least three organisations from three EU Member States or associated countries" and explicitly
+    states "Faculties or departments of one higher-education institution count as a single organisation
+    towards the minimum partnership."
+  expected_behaviour: The proposal does not count the two UVD faculties as separate partners. To satisfy
+    the minimum partnership requirement, it either retains ISEM (Portugal) with a credible workload arrangement,
+    or proposes a feasible timetable to recruit a new eligible independent organisation from a third eligible
+    country before the submission deadline, accurately reflecting the partnership's current status.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 2045c6e7-9820-4823-a907-07e628ef1c04

@@ -1,0 +1,97 @@
+{
+  "kind": "call",
+  "id": "v2-foundation-sparse-records",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "5307f48d1da1242f98692b5f537d26e76138eb86435fd268e84826ba4034cfeb",
+  "draft": {
+    "title": "Reproducible Interpretation of Incomplete Records: Navigating Missingness and Uncertainty",
+    "expected_outcomes_intro": "Projects supported under this theme are expected to advance methodological rigor in fields reliant on fragmented data. Successful concept notes will outline pathways to the following outcomes:",
+    "expected_outcomes": [
+      "Researchers demonstrate which conclusions remain supported when explicitly stated assumptions about missing records are varied.",
+      "Curators and data stewards benefit from transparent protocols that explicitly document provenance and quantify uncertainty in historical or observational records."
+    ],
+    "scope_intro": "Scientific and cultural records are frequently incomplete, degraded, or biased by historical collection practices. Whether analyzing fragmented archival manuscripts, sparse linguistic corpora, or interrupted observational time series, researchers face the challenge of drawing valid conclusions without overstating the evidence. Traditional approaches often obscure these gaps, leading to interpretations that cannot be reliably reproduced or verified by subsequent scholars.\n\nThis call invites concept notes that place missingness, provenance, and uncertainty at the center of the analytical method. Proposals should outline a clear inference question and propose a reproducible approach to interpreting incomplete records. Applicants must demonstrate how their methodology explicitly accounts for what is absent, ensuring that the resulting interpretations are transparent and methodologically sound.",
+    "scope": [
+      "Formulate a specific inference question based on a defined set of incomplete scientific, linguistic, or cultural records.",
+      "Design a reproducible methodological framework that explicitly models or accounts for missingness, uncertainty, and data provenance.",
+      "Define clear go/no-go decision points to evaluate the feasibility of the proposed analytical method before full-scale implementation."
+    ],
+    "exclusions": [
+      "Generic digitisation, scanning, or transcription projects that do not articulate a specific inference question or analytical methodology.",
+      "Proposals that rely on proprietary algorithms to impute missing data, unless the narrative explains how independent reviewers will be granted access to a detailed method specification and an executable implementation for testing."
+    ],
+    "mandatory_elements": [
+      "Detail the specific nature of the missingness or uncertainty in the target records and justify why the proposed method is appropriate for this limitation.",
+      "Identify the principal dependency governing the proposed sequence of activities in the work plan."
+    ],
+    "conditions": {
+      "max_budget": 100000,
+      "duration_months_max": 24,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": 0
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Reproducible Interpretation of Incomplete Records: Navigating Missingness and Uncertainty",
+        "expected_outcomes_intro": "Projects supported under this theme are expected to advance methodological rigor in fields reliant on fragmented data. Successful concept notes will outline pathways to the following outcomes:",
+        "expected_outcomes": [
+          "Researchers in archival, linguistic, or observational sciences gain robust frameworks for drawing reproducible inferences from datasets with significant missingness.",
+          "Curators and data stewards benefit from transparent protocols that explicitly document provenance and quantify uncertainty in historical or observational records."
+        ],
+        "scope_intro": "Scientific and cultural records are frequently incomplete, degraded, or biased by historical collection practices. Whether analyzing fragmented archival manuscripts, sparse linguistic corpora, or interrupted observational time series, researchers face the challenge of drawing valid conclusions without overstating the evidence. Traditional approaches often obscure these gaps, leading to interpretations that cannot be reliably reproduced or verified by subsequent scholars.\n\nThis call invites concept notes that place missingness, provenance, and uncertainty at the center of the analytical method. Proposals should outline a clear inference question and propose a reproducible approach to interpreting incomplete records. Applicants must demonstrate how their methodology explicitly accounts for what is absent, ensuring that the resulting interpretations are transparent and methodologically sound.",
+        "scope": [
+          "Formulate a specific inference question based on a defined set of incomplete scientific, linguistic, or cultural records.",
+          "Design a reproducible methodological framework that explicitly models or accounts for missingness, uncertainty, and data provenance.",
+          "Define clear go/no-go decision points to evaluate the feasibility of the proposed analytical method before full-scale implementation."
+        ],
+        "exclusions": [
+          "Generic digitisation, scanning, or transcription projects that do not articulate a specific inference question or analytical methodology.",
+          "Proposals that rely on proprietary, closed-source algorithms to impute missing data without allowing for independent methodological scrutiny."
+        ],
+        "mandatory_elements": [
+          "Detail the specific nature of the missingness or uncertainty in the target records and justify why the proposed method is appropriate for this limitation.",
+          "Provide a feasible work plan that explicitly incorporates a go/no-go decision point to assess methodological viability."
+        ],
+        "conditions": {
+          "max_budget": 100000,
+          "duration_months_max": 24,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": 0
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md Scope, third bullet, and mandatory elements, sixth bullet; call.yaml SC3 and ME6",
+          "problem": "SC3 and ME6 repeat the requirement for a go/no-go decision point assessing methodological feasibility. Incorporating that decision into a work plan does not make it a distinct requirement.",
+          "fix": "Keep the methodological feasibility decision in SC3 and replace ME6 with a distinct requirement, such as identifying the principal dependency governing the proposed sequence of activities. Preserve the distinction between SC3's feasibility decision and ME3's end-of-project continuation decision. Update both files.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md Expected outcomes, first bullet, and Scope, second bullet; call.yaml EO1 and SC2",
+          "problem": "EO1 substantially repeats SC2's requirement to develop a reproducible framework addressing missingness. 'Robust frameworks' does not identify a distinct, checkable outcome beyond producing the methodology.",
+          "fix": "Rewrite EO1 as a distinct intended result, such as demonstrating which conclusions remain supported when explicitly stated assumptions about missing records are varied. Keep SC2 as the methodological design requirement and update both files.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md Exclusions, fifth bullet; call.yaml EX5",
+          "problem": "The exception for 'independent methodological scrutiny' leaves the exclusion insufficiently decidable. It does not establish whether published descriptions, executable access, independent output validation, or source-code inspection would permit use of a proprietary imputation method.",
+          "fix": "Specify what access or documentation makes such a method permissible and require the narrative to explain how independent scrutiny will be enabled. For example, require independent reviewers to have access to a sufficiently detailed method specification and an executable implementation for testing. Update both files.",
+          "part": "topic"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+ "reviewer": "maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 7",
+   "where": "all files",
+   "problem": "The documents are not consistently current as of the benchmark's present date, 1 October 2026 (some are written as of 2024 or early 2025, leaving unexplained gaps before calls with 2027 deadlines).",
+   "fix": "Make every document current as of September 2026: update 'as of' dates, contract periods, CV entries, publication lists through 2026, statuses of submissions, reviews, ethics approvals and recruitments, keeping the same career stage and every fact the traps rely on (re-dated consistently). Keep all numbers internally consistent after the shift."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "all files",
+   "problem": "Names of people, institutions, companies, projects or journals may collide with real ones.",
+   "fix": "Replace every person name with a coined, distinctive name (no common names such as Matteo Rossi); replace every real institution, research centre, archive, company, project or journal name of the applicant's world with a fictional one; the applicant's own publications appear in fictional journals. Real funders, real places and real funding schemes stay."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "cv_pi.md, resources_and_partners.md, brief.md, prior_project.md",
+   "problem": "The dossier uses real universities and research institutes: Kintampo Health Research Centre (KHRC), Instituut voor Tropische Geneeskunde Antwerpen (ITG-Antwerp), University of Cape Coast, and Kwame Nkrumah University of Science and Technology. The rules require all universities and research institutes to be fictional.",
+   "fix": "Replace these with fictional institutions (e.g., \"Bono East Health Research Institute\", \"Flanders Institute of Global Health\", \"University of Southern Ghana\", \"Kumasi University of Applied Sciences\")."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml (facts)",
+   "problem": "Several salient numbers relevant to the host capacity section are missing from the facts registry: VUM's 28 academic staff and 14 PhD candidates, the outgoing host's 300 staff and 200 CHWs, and the secondment host's 400 researchers. Additionally, Fact F16 includes the supervisor's H-index (38) in the text but sets the value to `null` instead of `38`.",
+   "fix": "Add facts for the institutional staff/researcher counts at VUM, the outgoing host, and the secondment host. Update F16 to have `value: 38`."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "cv_pi.md, resources_and_partners.md, brief.md, task.yaml, dossier.yaml",
+   "problem": "The dossier uses real universities and research institutes, which violates the rule that institutions must be fictional. Specifically, 'Kintampo Health Research Centre (KHRC)', 'Instituut voor Tropische Geneeskunde Antwerpen (ITG-Antwerp)', 'University of Cape Coast', and 'Kwame Nkrumah University of Science and Technology' are all real institutions.",
+   "fix": "Replace all real universities and research institutes with fictional names (e.g., 'Bono East Health Research Institute', 'Flanders Institute of Tropical Health', 'University of Southern Ghana') across all files, including the brief, task traps, and dossier facts."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "cv_pi.md, resources_and_partners.md, prior_project.md, publications.md, dossier.yaml",
+   "problem": "The dossier's internal 'current' date is mid-2024, which contradicts the call's 2027 deadline and creates an unexplained 3-year gap in the applicant's timeline. The CV lists a contract ending in August 2025, the pilot grant ends in 2024, publications stop in 2024, and statuses are given 'as of June/July 2024'.",
+   "fix": "Shift the recent dates forward to align with a 2027 application. For example, extend the current postdoc contract to August 2028, change the pilot grant to 2026–2027, update 'as of 2024' statuses to 2027, and shift the recent publication years forward. Update the corresponding facts (F04, F12, F13, F19) in `dossier.yaml`."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "prior_project.md (Sections 4 and 7) and dossier.yaml (F05, F22)",
+   "problem": "The SafeMother trial is a stepped-wedge design, which requires both control and intervention data. The text states '1,214 women screened over 15 months' and the dataset contains '1,214 women'. Since screening is the intervention, this implies all 1,214 women were in the intervention arm. However, the results mention 261 high-risk women and 325 facility deliveries in the control periods. If 1,214 is the total trial N, they could not all have been 'screened'. If 1,214 is only the intervention N, the dataset description is missing the control observations required for the analysis.",
+   "fix": "Change the total enrolled to a larger number (e.g., '2,150 women enrolled over 15 months. In the intervention periods, 1,214 women were screened...'). Update the dataset description to reflect the total enrolled (e.g., 'De-identified quantitative dataset (2,150 women, including 1,214 screened in intervention periods and 936 from control periods)...'). Update F05 and F22 accordingly."
+  }
+ ]
+}

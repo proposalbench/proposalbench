@@ -1,0 +1,59 @@
+{
+  "kind": "call",
+  "id": "v2-aei-oriented-service-access",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Condiciones principales and Exclusiones; call.yaml, EX3 and EX6",
+      "problem": "The call expressly changes scheme eligibility by excluding coordinated projects and the justified two-year duration exception. The checklist permits inventing topics, identifiers, budgets and dates, not changing award conditions. Labelling these restrictions fictional does not resolve the fidelity failure.",
+      "fix": "Restore the scheme's project-format and duration options. An individual three- or four-year application may be the applicant's chosen format without being imposed as a new scheme-wide eligibility restriction."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md, Resultados esperados and Ámbito; call.yaml, expected_outcomes and SC1–SC2",
+      "problem": "The public call requires the specific priority «Cultura, creatividad y sociedad inclusiva», but the YAML never names it and instead accepts a thematic priority appropriate to the topic. The hidden requirements therefore permit a broader choice than the public call.",
+      "fix": "Name «Cultura, creatividad y sociedad inclusiva» explicitly in a dedicated YAML scope requirement and use the same requirement in call.md."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md, duration row; call.yaml, eligibility.duration_months_min and eligibility.duration_months_max",
+      "problem": "The public call permits exactly 36 or 48 months, while the structured eligibility records only a 36–48-month interval. It does not encode the discrete restriction, so intermediate durations are not excluded by the hidden eligibility fields.",
+      "fix": "After resolving the scheme-fidelity issue, encode the permitted durations and any exceptional-duration conditions explicitly in YAML and state identical rules in call.md."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "Both files, expected outcomes, scope, exclusions and mandatory elements",
+      "problem": "Sixteen requirements are duplicated verbatim: EO3–EO4 repeat EO1–EO2; SC2 repeats SC1; EX4–EX6 repeat EX1–EX3; ME10–ME18 repeat ME1–ME9. Separate answer-key IDs for identical requirements can double-count compliance or omissions.",
+      "fix": "Remove the duplicate entries from both files and renumber the remaining IDs consistently."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml, EO2/EO4, SC1/SC2, ME1/ME10, ME3/ME12, ME4/ME13 and ME5/ME14; matching call.md bullets",
+      "problem": "Many entries combine independently assessable requirements. ME5, for example, combines scientific communication, internationalisation, open access, public dissemination, transfer, data management and gender considerations. ME3 combines objectives, methodology, critical stages, contingencies, resources and prior results. A single compliance decision cannot distinguish substantial partial fulfilment.",
+      "fix": "Split these entries into atomic requirements in both files. Separate communication, internationalisation, open access, dissemination, transfer, data management and gender; likewise separate the methodological and resource requirements. Preserve conditional wording where the official scheme makes an element conditional."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml, SC4; call.md, Ámbito participation requirement",
+      "problem": "«Participación activa» does not establish whether interviewing older people as research participants satisfies the requirement or whether participation in research decisions is required. These interpretations impose materially different research designs.",
+      "fix": "Specify the intended observable contribution, such as collecting users' first-hand accounts or involving users or carers in at least one named research decision, and use identical wording in both files."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 3",
+      "where": "call.md, «Fuentes verificadas el 31 de octubre de 2026»; call.yaml, length_contract.source_note",
+      "problem": "The applicant-facing call describes source verification completed on 31 October 2026, after the benchmark's present date of 1 October 2026. This introduces future knowledge into the supplied call. The later authoring timestamp in provenance is a separate matter.",
+      "fix": "Remove the future verification claim from the simulated call and its source note, or use a genuinely supported verification date no later than 1 October 2026."
+    }
+  ]
+}

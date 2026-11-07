@@ -1,0 +1,73 @@
+{
+  "kind": "task",
+  "id": "pub-aei-notarial-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "brief.md; cv_ip.md; equipo_y_recursos.md; publicaciones.md; dossier.yaml — personal names",
+      "problem": "Several invented identities collide with real people. Laia Pujol is an established researcher in digital cultural heritage, Matteo Rossi is a real computer-science researcher, and Carlos Giménez is a well-known Spanish cartoonist. The first two are especially liable to be confused with researchers connected to this dossier's disciplines.",
+      "fix": "Replace these names with distinctive fictional identities throughout the visible documents, publication metadata, facts registry and trap definitions."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 3; Dossier 3",
+      "where": "brief.md — 'en cuanto lea la tesis este septiembre'; cv_ip.md and equipo_y_recursos.md — May 2026 updates; dossier.yaml — F30–F31",
+      "problem": "The application timeline is unresolved. The task was created on 31 October 2026 for a 2027 call, but the undated brief treats September's thesis defence as forthcoming. The May dossier records an August 2026 contract expiry and an expected September 2026 defence without subsequent confirmation. A proposal cannot reliably determine Carlos's current employment or doctoral status.",
+      "fix": "Date the applicant's brief and establish the application reference date. Update Carlos's status or explicitly state that the defence outcome remains unconfirmed and that any postdoctoral appointment is conditional on obtaining the doctorate."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml — facts registry",
+      "problem": "The registry omits several consequential facts: Marc's three-year tenure as JIN IP, Laia's current lack of a contract, Carlos's expected defence date, Rossi's stated work-team membership, both CER confidence intervals and their evaluation denominators, the training/validation/test allocation, the 1360–1400 restriction on the widow analysis, and the 45 widows appearing in both roles. These omissions affect eligibility, staffing assumptions and interpretation of results.",
+      "fix": "Add explicit facts for these statuses, dates, limitations and evaluation details, preserving their source wording and distinguishing confirmed facts from expectations. Record the separate TFM and TFG date ranges accurately as well."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "informe_proyecto_previo.md §2.2 — division 'a nivel de registro notarial para evaluar la generalización a manos no vistas'",
+      "problem": "Splitting by notarial record does not establish generalisation to unseen handwriting. Records or even separate register volumes can share a scribe. The dossier does not establish that hands are disjoint across training, validation and test, so the interpretation attached to the CER results is unsupported.",
+      "fix": "Specify the allocation of scribal hands and register volumes across the three partitions, including the hands represented in each test stratum. If writers overlap, describe the evaluation accordingly and reserve unseen-hand generalisation for a separately designed evaluation."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4; Task 1",
+      "where": "brief.md — proposed linkage with 'registros matrimoniales'; equipo_y_recursos.md — archival resources",
+      "problem": "The central new source is not defined. Fifteenth-century notarial marriage contracts and parish marriage registers are different records with different survival patterns; systematic parish marriage registration cannot simply be assumed for this period. Moreover, a marriage or promised dowry does not establish actual restitution to a widow. No identified source series supports observing the proposed transfer of money.",
+      "fix": "Identify the intended archival record types, relevant dates and known holdings, distinguishing verified availability from planned reconnaissance. Explain whether restitution receipts, settlements, probate records or equivalent evidence can establish payment and its timing. Include a feasible fallback if only marriage contracts survive."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "informe_proyecto_previo.md §3 — monetary conversion using rates dated 1362, 1389 and 1412",
+      "problem": "The conversion procedure is incomplete for the stated 1350–1450 corpus: interpolation between the listed dates cannot supply rates before 1362 or after 1412. The report also provides no traceable basis for the specific official equivalence tables, their territorial applicability or the market-rate comparison supporting the claimed ±5% sensitivity.",
+      "fix": "Document historically supportable rate sources, currency pairs and applicable territories. Supply rates bracketing the full analysis period or explicitly describe and test extrapolation. Define which observations and years underpin the sensitivity result, and distinguish nominal currency conversion from comparisons of purchasing power."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2; Dossier 4",
+      "where": "informe_proyecto_previo.md §§2.3 and 3.2 — extraction evaluation and centrality uncertainty",
+      "problem": "The reported '±4%' uncertainty in betweenness has no defined denominator, confidence level or summary population. The perturbation procedure is unspecified, and a homonym-disambiguation error rate does not by itself define an edge-rewiring distribution. The artisan comparator sample size is missing, and the F1 estimates have no uncertainty intervals.",
+      "fix": "Define whether ±4% is relative or absolute, which statistic it describes, its coverage and how perturbations were generated from observed linkage errors. Give the artisan sample size and the population used for each centrality summary. Add appropriately clustered uncertainty estimates for the F1 scores and register these details as facts."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2; Dossier 6",
+      "where": "publicaciones.md, publication 1 abstract; informe_proyecto_previo.md §2.2; dossier.yaml F10",
+      "problem": "The same 8.5% CER is attributed to 'cursivas tardías del siglo XV' in the publication abstract and to handwriting from the middle of the fifteenth century in the report and registry. The former wording suggests a later chronological population than the corpus ending in 1450.",
+      "fix": "Use an identical, explicit date range for this test stratum in the report, publication abstract and registry. If 'tardías' describes a script classification rather than late-century documents, explain that distinction."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "informe_proyecto_previo.md §3.2; dossier.yaml F25",
+      "problem": "The displayed centrality means imply an increase of (0.045 − 0.032) / 0.032 = 40.625%, rather than exactly 40%. The text does not identify the percentage as approximate or explain whether it was calculated from unrounded means.",
+      "fix": "Report approximately 40.6% using the displayed values, write 'aproximadamente un 40%', or provide the unrounded means supporting the stated percentage. Update F25 consistently."
+    }
+  ]
+}

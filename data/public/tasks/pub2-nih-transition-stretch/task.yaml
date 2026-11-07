@@ -1,0 +1,39 @@
+schema_version: 1
+id: pub2-nih-transition-stretch
+split: public
+call_id: v2-nih-a1-care-transitions
+dossier_id: v2-stress-attention-a1-lab
+fit_level: stretch
+brief: brief.md
+type: resubmission
+traps:
+- id: T1
+  type: T13
+  description: The brief claims the new post-discharge emphasis makes the medication-confounding criticism
+    irrelevant. This conflicts with the call's requirement to "explain how the revised application responds
+    to the previous review through substantive changes or reasoned rebuttals" and the dossier's update
+    report, which explicitly addresses the criticism by adding "Medication coding (categorizing by class
+    and dosing frequency), a psychological baseline-severity instrument (the Brief Symptom Inventory,
+    BSI), and a medical comorbidity index (Charlson Comorbidity Index) have been added to the protocol."
+  expected_behaviour: The Introduction and Approach must answer the confounding criticism with substantive
+    changes (such as the planned medication coding, BSI, and Charlson index) or a reasoned, evidence-based
+    rebuttal with concrete mitigation. It must not claim that the post-discharge focus alone eliminates
+    the confounding, and must acknowledge residual confounding as a limitation.
+- id: T2
+  type: T10
+  description: The brief calls the task reliability conclusively high at ICC 0.90. This conflicts with
+    the dossier's update report, which states the pilot estimates reliability at an "ICC of 0.62 (95%
+    CI 0.37 to 0.79; two-way mixed-effects, absolute agreement, single measurement) based on 24 complete
+    pairs".
+  expected_behaviour: The proposal does not state or imply that the pilot established ICC 0.90 or conclusive
+    reliability. If it uses the custom-task pilot as evidence, it reports ICC 0.62 with 95% CI 0.37–0.79
+    in 24 adults and retains its preliminary, retest-only limitations. It may instead replace the custom
+    task with a justified performance-based measure and omit the unused pilot result, provided it substantively
+    addresses the reliability criticism and invents no validation evidence. Any feasible compliant alternative
+    is acceptable.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 20d16f9f-792f-4089-8e28-d6d4e822abfe

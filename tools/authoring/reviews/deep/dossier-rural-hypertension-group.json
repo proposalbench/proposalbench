@@ -1,0 +1,35 @@
+{
+  "kind": "dossier",
+  "id": "rural-hypertension-group",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Dossier 4; Dossier 3",
+      "where": "data/public/dossiers/rural-hypertension-group/prior_project.md, Participant accounting: \"four who died before assessment\"; subsequent analysis: \"A sensitivity analysis using multiple imputation for missing endpoints gave an adjusted difference of −5.5 mmHg\". dossier.yaml F08/F11.",
+      "problem": "The report puts deaths among the 72 absent endpoints and then describes imputation for missing endpoints under an ordinary observed-variable missingness assumption, without saying how deaths were treated or what population the BP contrast targets. Six-month BP after death does not exist; it cannot simply be treated as an unobserved living-person measurement. The supplied sensitivity estimate is therefore scientifically ambiguous, especially because the stretch brief explicitly asks the writer to build on this missing-data expertise.",
+      "fix": "Make the fictional historical analysis explicit: 'The four deaths were handled as terminal events and were not assigned or imputed six-month BP values. The multiple-imputation analysis was restricted to the 476 participants alive at six months, imputing the 68 missing measurements among those survivors. It estimated a survivor-conditional adjusted contrast of −5.5 mmHg (95% CI −9.6 to −1.4), under an observed-variable missingness assumption among survivors. Both this contrast and the observed-endpoint analysis may be affected by post-randomization survival/attendance selection and do not estimate a treatment effect for all 480 enrollees.' Distinguish terminal events from missing measurements in F08 and carry the restricted population and limitations into F10/F11 and the primary-publication summary. Do not describe this as an all-participant intention-to-treat robustness check.",
+      "evidence": [
+        "https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf",
+        "data/public/dossiers/rural-hypertension-group/prior_project.md",
+        "data/public/dossiers/rural-hypertension-group/dossier.yaml",
+        "data/public/tasks/pub-nih-sleepcardio-stretch/brief.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Dossier 1, 7: read all five visible files and the complete hidden key; every visible file carries the fiction notice and a September 2026 status review. Recruitment, endpoint closure, database lock, award closeout and continuing archive activity are chronologically consistent.",
+    "Dossier 2: 8 clinics×60=480; 4 clinics/arm×60=240; 208+200=408; 408/480=85%; arm retention rounds to 86.7%/83.3%; Wilson 95% interval recalculates to 81.528%–87.916%. Missing-endpoint reasons total 72; 456+24=480 and 16+8=24; linkage is 95%.",
+    "Dossier 2: interviews 20+6+6=32; workflow 12/18=66.7% and 16/18=88.9%; monitors 16+8=24 and 2×8=16; CHWs 7+5=12 with coordinator included; funding 480,000+96,000=576,000. Baseline arm means average to 153.2. The −6.0 adjusted contrast is correctly distinguished from the −6.3 difference of unadjusted changes.",
+    "Dossier 4: a six-month pharmacist-associated BP difference near 6 mmHg with this scale of trial is plausible against https://pubmed.ncbi.nlm.nih.gov/19933962/ and https://jamanetwork.com/journals/jama/fullarticle/1707720. Small-cluster inference, incomplete masking, MAR limitations and practice effects are acknowledged. The new death-handling issue is supported by ICH E9(R1), especially section A.4: https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf.",
+    "Dossier 3: all 25 facts were checked against their named source; every non-null value occurs literally. Existing equipment, adult-clinic experience, closed award, limited data permission and absent sleep/adolescent capacity are consistently distinguished. The under-review manuscript remains unpublished with no DOI.",
+    "Dossier 6: all four published records agree across the visible list and own_publications (authors/order, titles, years, venues, DOI strings); all use 10.99999/pb. The fifth manuscript is correctly excluded from the published count.",
+    "Dossier 1 person screen: exact full-name searches for Adrelisse Pellavreth, Calverin Norravick, Tessavelle Brindelvane, Lurencio Arvendrel, Naomelle Ellsvareth and Ruthavelle Densavren found no matching real person; no collision inferred from unrelated names.",
+    "Dossier 1 entity screen: searched Veylorn Ridge Academic Health Center, Keldavren College, Ordelvane Institute of Public Health, Celdavreth Trace Community Clinics, Veylorn Community Care Research Trust, Rural Cardiovascular Research Unit, V-RMAPS and its expansion, VCCRT-20-047, and all three journal titles. No matching real organization, hypertension study/dataset or journal identified; unrelated mapping-software 'RMaps' hits are not the V-RMAPS study.",
+    "Dossier 5, 8, 9: no undocumented cross-file numerical/status contradiction found; no intentional gaps/inconsistencies/reviewer_criticisms registered. Adult-only recruitment and absence of sleep data/equipment are explicit trap support. No resubmission material is required."
+  ]
+}

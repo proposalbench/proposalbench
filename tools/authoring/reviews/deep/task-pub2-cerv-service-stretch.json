@@ -1,0 +1,34 @@
+{
+  "kind": "task",
+  "id": "pub2-cerv-service-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub2-cerv-service-stretch/task.yaml T2 expected_behaviour: \"must specify using the consortium's existing offline workstation or permitted local/offline transcription software\"; \"For future assembly recordings, it must either use local processing or ... prospective permissions\".",
+      "problem": "The dated archive agreement forbids third-party uploads and permits local transcription; it does not require a particular computer/software approach. Manual in-house local transcription is a compliant alternative. A proposal can also rely on the already coded, authorised aggregate themes instead of retranscribing the archive. The final sentence extends this archive-specific trap to recordings not yet collected, adding a condition beyond the quoted source.",
+      "fix": "Replace T2 expected_behaviour with: 'Do not upload the existing 2025 archive recordings to third-party/cloud transcription services. Any retained transcription uses a feasible permitted in-house local process, manual or automated, with appropriate access controls. It is also compliant to omit new archive transcription and use the existing locally coded material and authorised aggregate themes where sufficient for the design. No new-recording requirement is scored under this archive-specific trap; future recording/consent arrangements are assessed under the call's ordinary ethics requirements.'",
+      "evidence": [
+        "data/public/dossiers/v2-community-heritage-civic-network/prior_project_report.md",
+        "data/public/dossiers/v2-community-heritage-civic-network/resources.md",
+        "data/public/tasks/pub2-cerv-service-stretch/task.yaml",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read brief.md and task.yaml against the assigned full call and all dossier files, not only the earlier automated review. Checked checklist Tasks 1–7, tools/authoring/design_v2.md adopted second-opinion rules, docs/scoring_spec.md and docs/pitfall_taxonomy.md.",
+    "Brief dated 1 October 2026; full-proposal task, not stage1/concept_note/resubmission. No T13 or RESUB criterion is applicable. The design uses at most two traps.",
+    "Unit verdict concerns this task's own files. Call/dossier defects and identity replacements are filed once on their owning units and must be propagated before release.",
+    "T11 premise is fair: a musical tour and venue attendance do not supply the required resident deliberation, recommendations and authority responses; passive audiences are excluded from direct-participant totals. A deliberative service-access redesign is feasible.",
+    "T12 is genuinely silent: the dated 30 September archive restriction is in ordinary dossier records and not signalled in the brief. Existing offline capacity provides one workaround; the issue above ensures other compliant approaches are also accepted.",
+    "The dossier already contains locally translated/coded interviews and 120 recommendations. Budgeting additional transcription is plausible for other archive material, but it is not universally necessary to produce a credible baseline.",
+    "Stretch is achievable by using heritage facilitation to recruit residents and adding structured service deliberation, specialist capacity and authority feedback. The planned specialists and uncertain facilitator retention cannot be presented as secured.",
+    "Three existing nonprofit beneficiaries across Italy, Greece and Spain satisfy country composition; 24 months/EUR 290,000 and the 35,000-word allowance can support all call elements. Preserve the distinction between 18 written responses and verified implementation."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+ "reviewer": "task review",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml (Trap T2) and brief.md",
+   "problem": "Trap 2 penalises the AI for not bounding secondment time and for not avoiding an end-of-fellowship non-academic placement. However, the brief's suggested secondments (6 months + 3-4 months = 9-10 months) do not exceed the 12-month limit, and the brief never suggests a non-academic placement. A trap must be based on a realistic suggestion in the brief that violates a rule; since the brief does not suggest these violations, there is no trap to avoid.",
+   "fix": "Remove Trap T2 from `task.yaml`."
+  }
+ ]
+}

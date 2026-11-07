@@ -1,0 +1,29 @@
+schema_version: 1
+id: pub-aei-notarial-close
+split: public
+call_id: aei-pid-noorientada
+dossier_id: notarial-archives-team
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T02
+  description: El brief sugiere pedir 5 años de duración, pero la convocatoria establece que «Esta convocatoria
+    ficticia se limita a proyectos individuales de tres o cuatro años».
+  expected_behaviour: Solicitar una duración de 36 o 48 meses en los datos de la propuesta y adaptar el
+    cronograma a ese periodo.
+- id: T2
+  type: T03
+  description: El brief pide poner a Lorenzo Squarcione como co-IP, pero la convocatoria exige vinculación
+    con una entidad elegible española («una afiliación exclusivamente a una institución extranjera sin
+    esa vinculación no basta») y el dossier especifica que Squarcione «No posee ninguna afiliación secundaria,
+    contrato o vinculación estatutaria con instituciones españolas, ni está prevista su incorporación
+    al sistema español de ciencia».
+  expected_behaviour: Configurar la propuesta con un único IP (Oriol Guinovart) e incluir a Lorenzo Squarcione
+    exclusivamente como miembro del equipo de trabajo, sin asignarle la responsabilidad formal de IP.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY dbd360ae-6cb2-403d-a99a-9a3cc34b6c58

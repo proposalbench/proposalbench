@@ -1,0 +1,31 @@
+{
+ "kind": "dossier",
+ "id": "v2-coastal-transport-observatory",
+ "reviewer_family": "task-reviews",
+ "issues": [
+  {
+   "severity": "major",
+   "checklist": "Dossier 4 (affects Task 1)",
+   "where": "prior_project.md 'Observational design': 'The Tagus input represented its upstream contributing catchment… Each required a distinct runoff rising limb followed by recession to antecedent flow'; 'Models and validation' (4.0 h and 2.8 h MAE)",
+   "problem": "Taken literally, the Tagus contributing catchment is about 80,000 km², two-thirds of it in Spain. Its flow is heavily regulated by reservoirs in Spain and on the Zêzere. A rainfall-weighted centroid over that basin, and 'recession to antecedent flow' between paired frontal storms, are not hydrologically meaningful. Travel times from such a centroid run to days. A tide-and-salinity baseline with no catchment information would then not achieve a 4.0 h storm-balanced MAE. Because the brief's central question replaces observed inputs with rainfall forecasts, this ambiguity leads proposals to ignore dam regulation.",
+   "fix": "Define the Tagus input as a bounded, mostly unregulated area. For example, use the Sorraia and Trancão catchments plus lateral inflow below a named gauge, with releases from upstream regulation treated as an observed boundary flow. State the typical range of catchment-to-arrival lags in each estuary. Record the regulation as a limitation fact relevant to forecast-driven inputs.",
+   "from_task_review": "pub2-he-stage1-coast-close"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3 (decides Task 1)",
+   "where": "dossier.yaml facts; resources.md, consortium.md, prior_project.md",
+   "problem": "The registry records few of the limitations the stretch rests on, and the task does not say what the stretch gap is. The following are unregistered or not stated anywhere:\n- No estuarine observations or water-level records for the Lee; this is only implied by the six stations being in the Tagus and Arousa.\n- No coupled flood–drainage or hydrodynamic inundation model or modeller among the eight staff.\n- No social-science or qualitative researcher.\n- No agreement with any municipal planning or drainage authority in Portugal or Ireland.\n- No live alerts issued and no decision threshold tested with a response agency (prior_project.md).\n- No city drainage sensor stream used as a predictor (prior_project.md).\n- The Irish study's location-dependent under-reporting of incidents (consortium.md, publications.md).\n- Only disclosure-checked aggregates released from the drainage study (resources.md).\nWithout these, a grader cannot check whether a proposal overclaims existing capacity.",
+   "fix": "Add facts, kind existing or gap as appropriate. State explicitly in the dossier: 'the consortium holds no estuarine observations for the Lee' and 'no assigned staff member has coupled flood–drainage modelling or qualitative social-research expertise'. Add a short stretch note in task.yaml naming the gap: flood-drainage modelling, social science, municipal access, drainage records for the Tagus site and estuarine data for the Lee.",
+   "from_task_review": "pub2-he-stage1-estuary-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4 (decides Task 1 and T1)",
+   "where": "prior_project.md 'Observational design' and 'Models and validation'",
+   "problem": "Two points weaken the 4.0 h and 2.8 h results that the methodological rationale and T1 rest on.\n1. 'The Tagus input represented its upstream contributing catchment.' That is a dam-regulated basin of roughly 80,000 km². A storm-scale rising limb followed by recession to antecedent flow before each of 18 storms in two winters is implausible there. Rainfall-centroid-to-arrival lags would be days and strongly affected by reservoir releases. A baseline using only tidal phase, salinity history and station identity is then unlikely to reach a 4.0 h MAE.\n2. The report never gives the scale of the predicted quantity (median or range of hours from reference to arrival per estuary). A reader cannot judge whether a 4.0 h or 2.8 h error is small or large.",
+   "fix": "Define the Tagus input as a specific gauged lower-estuary inflow, e.g. discharge at the estuary head plus named lower tributaries such as the Sorraia or Trancão, with its catchment area. Add per-estuary median and range of observed lags, e.g. 'median 19 h, range 7–41 h', consistent with the reported MAEs.",
+   "from_task_review": "pub2-he-stage1-estuary-stretch"
+  }
+ ]
+}

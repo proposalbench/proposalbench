@@ -1,0 +1,299 @@
+schema_version: 1
+id: v2-food-safety-chemistry-consortium
+language: en
+applicant_type: consortium
+career_stage: senior
+disciplines:
+- chemistry
+- veterinary science
+- food systems
+- computer security
+method_profile: quantitative
+country: FR
+files:
+- path: cv_pi.md
+  role: cv
+- path: consortium.md
+  role: team
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources.md
+  role: resources
+facts:
+- id: F01
+  category: position
+  kind: existing
+  text: Mireille Vauzernac received her analytical chemistry doctorate in 2005, has headed IIMAV's Food
+    Measurement and Process Evidence department since 2019, and has coordinated national projects and
+    cross-border services but has not coordinated an EU framework project.
+  value: '2019'
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: publication
+  kind: existing
+  text: Vauzernac's career record comprises 41 peer-reviewed articles, eight completed doctorates with
+    five principal and three co-supervisions, three current doctoral co-supervisions, six completed postdoctoral
+    appointments, and service on IIMAV's analytical quality and research integrity committees.
+  value: '41'
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: grant
+  kind: existing
+  text: Vauzernac was principal investigator on closed national ANR awards ANR-PB-MR10-006 for EUR 240,000
+    in 2010–2013, ANR-PB-EF16-021 for EUR 510,000 in 2016–2020 and ANR-PB-MF25-017 for EUR 840,000 in
+    2023–2025, and is scientific lead on the active EUR 360,000 calibration award for 2026–2028.
+  value: EUR 510,000
+  salient: true
+  source: cv_pi.md
+- id: F04
+  category: identity
+  kind: existing
+  text: IIMAV's Nantes and Lyon sites and its registered Belgian branch in Ghent share one legal personality,
+    governing board and annual accounts, with Ghent staff employed on IIMAV contracts.
+  value: Registered Belgian branch of IIMAV, without separate legal personality
+  salient: true
+  source: consortium.md
+- id: F05
+  category: partner
+  kind: existing
+  text: The independent entities IIMAV in France, Rzewska Veterinary University in Poland and Kelderspoor
+    Sensorbeveiliging BV in the Netherlands signed their collaboration agreement on 20 June 2026 and data-use
+    schedule on 8 July 2026, with technical contributions led respectively by Mireille Vauzernac, Alicja
+    Brzełowska and Sander Velderschoot.
+  value: three independent legal entities
+  salient: true
+  source: consortium.md
+- id: F06
+  category: resource
+  kind: existing
+  text: The partners' computing competence covers statistical classification, data pipelines, telemetry
+    checks and laboratory fault injection with advisory cold-chain decision support as their demonstrated
+    application, while the Dutch SME supplies sensor-gateway threat modelling, signed-telemetry integration
+    and replay testing and has not undertaken an industrial robot programme.
+  value: advisory cold-chain decision support
+  salient: true
+  source: consortium.md
+- id: F07
+  category: grant
+  kind: existing
+  text: Mésurafroid-25 ran from 1 January 2023 to 31 December 2025 under national ANR award ANR-PB-MF25-017,
+    with EUR 840,000 awarded and spent as EUR 502,000 personnel, EUR 118,000 equipment and depreciation,
+    EUR 104,000 consumables and EUR 116,000 external services, and its final report was accepted on 27
+    February 2026.
+  value: ANR-PB-MF25-017
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: The study measured 160 lots comprising 80 rice and 80 poultry lots in 24 batches, with sixteen
+    seven-lot and eight six-lot batches, using the sole surrogate Lactococcus lactis IIMAV LL-07 under
+    4 °C storage and 10 °C excursion profiles.
+  value: '160'
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: The analysis retained 144 complete pairs, or 90% of 160 lots, comprising 70 rice and 74 poultry
+    lots, while ten missing sensor histories and six uninterpretable reference counts affected 11 batches
+    and were concentrated in excursion batches, creating a risk of optimistic complete-case results.
+  value: '144'
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: Six outer folds each held out four batches and contained 21, 23, 24, 24, 25 and 27 complete lots,
+    yielding 81 true positives among 100 positives and 36 true negatives among 44 negatives, sensitivity
+    0.81 with bootstrap 95% CI 0.72 to 0.88 from 10,000 bias-corrected batch resamples, specificity 0.82,
+    19 false negatives and eight false positives.
+  value: '0.81'
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: On the same complete lots, the fixed time–temperature baseline detected 68 of 100 positives and
+    correctly classified 33 of 44 negatives, while temperature-only logistic regression detected 72 positives
+    and correctly classified 34 negatives.
+  value: '68'
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: result
+  kind: existing
+  text: The 48-trace replay exercise flagged 20 of 24 modified traces and incorrectly flagged two of 24
+    unchanged traces, without independent penetration testing, adaptive adversarial search or testing
+    an attacker controlling both gateway credentials and clock.
+  value: '48'
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: other
+  kind: existing
+  text: The study used controlled surrogate experiments and internal grouped validation, with no external
+    commercial validation or measured food-loss, illness or pathogen-specific hazard reduction.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: resource
+  kind: existing
+  text: Mésurafroid paired-lot release 1 contains batch assignments, missingness reasons, reference counts,
+    calibration records and telemetry, is shared through a restricted partner extract, and has no public
+    DOI.
+  value: Mésurafroid paired-lot release 1
+  salient: true
+  source: prior_project.md
+- id: F15
+  category: publication
+  kind: existing
+  text: The collaboration register lists four published articles from 2023–2026, including the classification
+    article published on 14 August 2026 using the Mésurafroid-25 archive of 144 complete pairs and its
+    grouped validation procedure.
+  value: 14 August 2026
+  salient: true
+  source: publications.md
+- id: F16
+  category: team
+  kind: existing
+  text: Twelve existing staff contribute 8.4 FTE, allocated as 4.2 at IIMAV, 2.8 at the Polish university
+    and 1.4 at the Dutch SME, with those allocations committed to existing award activities and no approved
+    additional hires or outstanding instrument orders.
+  value: Current allocations are committed to the activities specified in their respective award records.
+  salient: true
+  source: resources.md
+- id: F17
+  category: resource
+  kind: existing
+  text: Existing facilities include Nantes reference analytical equipment, Lyon microbiology and headspace
+    measurement facilities adjoining the contained line, a Ghent dry telemetry pilot room, a Dutch gateway
+    replay bench, and an advisory refrigeration interface allowing recorded rejection or deferral while
+    remaining read-only with respect to equipment controls.
+  value: read-only
+  salient: true
+  source: resources.md
+- id: F18
+  category: resource
+  kind: existing
+  text: Ghent uses electronic records and inert loads, has no separately assigned research team, draws
+    visiting staff from IIMAV's existing allocation, and records equipment expenditure and staff time
+    in IIMAV's accounts.
+  value: Equipment expenditure and staff time enter IIMAV's accounts.
+  salient: true
+  source: resources.md
+- id: F19
+  category: other
+  kind: existing
+  text: IIMAV's biological permissions are confined to Lyon's containment-level-1 rooms LY-M2 and LY-P1
+    under BS-IIMAV-24-06, approved on 18 June 2024 to replace BS-IIMAV-22-11 of 14 November 2022 and reviewed
+    on 10 September 2026, permitting only Lactococcus lactis IIMAV LL-07 handling in LY-M2 and sealed
+    vessels on the contained LY-P1 line, with no amendment submitted by 30 September 2026.
+  value: 10 September 2026
+  salient: true
+  source: resources.md
+- id: F20
+  category: resource
+  kind: existing
+  text: As of 30 September 2026, Rzewska's laboratory operates at containment level 1 for nonpathogenic
+    reference organisms, has no pathogen-handling authorisation including for Listeria monocytogenes,
+    has no food challenge-test protocol or process line, and has submitted no application to extend its
+    biological permissions.
+  value: holds no pathogen-handling authorisation, including for Listeria monocytogenes
+  salient: true
+  source: resources.md
+- id: F21
+  category: grant
+  kind: existing
+  text: Signed active national support comprises ANR-PB-CAL26-004 for EUR 360,000 from 1 January 2026
+    to 31 December 2028, NCN-PB-RV24-011 for PLN 1,080,000 from 1 July 2024 to 30 June 2027, and RVO-PB-KS25-008
+    for EUR 180,000 from 1 January 2025 to 31 December 2027.
+  value: PLN 1,080,000
+  salient: true
+  source: resources.md
+- id: F22
+  category: other
+  kind: existing
+  text: No human dietary intervention is required for the contained experiments, and technician response
+    records are pseudonymised personal data with a locally held identification key under restricted access.
+  value: pseudonymised personal data
+  salient: true
+  source: resources.md
+- id: F23
+  category: partner
+  kind: existing
+  text: The agreement covers the three research partners, discussions with two chilled-food distributors
+    have produced no access agreement, and the stakeholder register records no contact with food-safety
+    authorities or assigned authority role.
+  value: no access agreement has been concluded
+  salient: true
+  source: consortium.md
+- id: F24
+  category: team
+  kind: existing
+  text: The September staff review found no social-science or human-factors research expertise at any
+    partner, and the team has no experience operating commercial food-logistics fleets, warehouses or
+    packing lines.
+  value: no social-science or human-factors research expertise at any partner
+  salient: true
+  source: consortium.md
+- id: F25
+  category: result
+  kind: existing
+  text: The reference endpoint was a surrogate count above 6.0 log10 CFU/g, defined as an experimental
+    growth threshold rather than a statutory food-safety limit.
+  value: 6.0 log10 CFU/g
+  salient: true
+  source: prior_project.md
+own_publications:
+- key: vauzernac2023calibration
+  authors:
+  - Vauzernac, M.
+  - Rouvessac, H.
+  - Brzełowska, A.
+  year: 2023
+  title: Matrix-matched headspace calibration for chilled rice and poultry preparations.
+  venue: Journal of Quantitative Food Measurement
+  doi: 10.99999/pb.v2-food-safety-chemistry-consortium.2023.1
+- key: brzelowska2024surrogate
+  authors:
+  - Brzełowska, A.
+  - Karszewicz, T.
+  - Rouvessac, H.
+  - Vauzernac, M.
+  year: 2024
+  title: Interpreting nonpathogenic surrogate growth during controlled refrigeration interruptions.
+  venue: Veterinary Food Process Studies
+  doi: 10.99999/pb.v2-food-safety-chemistry-consortium.2024.1
+- key: velderschoot2025replay
+  authors:
+  - Velderschoot, S.
+  - Drevenholt, L.
+  - Vauzernac, M.
+  year: 2025
+  title: Replay and timestamp faults in laboratory cold-chain telemetry.
+  venue: Sensor Systems Security Methods
+  doi: 10.99999/pb.v2-food-safety-chemistry-consortium.2025.1
+- key: vauzernac2026classification
+  authors:
+  - Vauzernac, M.
+  - Brzełowska, A.
+  - Karszewicz, T.
+  - Rouvessac, H.
+  - Velderschoot, S.
+  - Drevenholt, L.
+  year: 2026
+  title: Batch-held-out classification of surrogate growth from paired food measurements.
+  venue: Food Chain Measurement and Decisions
+  doi: 10.99999/pb.v2-food-safety-chemistry-consortium.2026.1
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY bd56aa81-9fe9-470b-96d1-9ad2a2a826b0

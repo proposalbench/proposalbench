@@ -1,0 +1,291 @@
+schema_version: 1
+id: rural-hypertension-group
+language: en
+applicant_type: team
+career_stage: senior
+disciplines:
+- cardiovascular epidemiology
+- community health
+- health services research
+method_profile: mixed
+country: US
+files:
+- path: cv_pi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: team.md
+  role: team
+- path: resources.md
+  role: resources
+facts:
+- id: F01
+  category: identity
+  kind: existing
+  text: Adrelisse Pellavreth leads the Rural Cardiovascular Research Unit at Veylorn Ridge Academic Health
+    Center in West Virginia, United States.
+  value: Adrelisse Pellavreth
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: position
+  kind: existing
+  text: Pellavreth has held a professor appointment since 2018 and has directed the unit since 2019.
+  value: 2018–present
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: education
+  kind: existing
+  text: Pellavreth completed her BS in 1996, MPH in 1998, PhD in 2003, and postdoctoral appointment during
+    2003–2005.
+  value: '2003'
+  salient: false
+  source: cv_pi.md
+- id: F04
+  category: grant
+  kind: existing
+  text: Foundation award VCCRT-20-047 supported V-RMAPS from 1 January 2021 through 31 December 2024 with
+    $576,000 total funding, comprising $480,000 direct and $96,000 indirect costs, and is financially
+    closed with no remaining balance.
+  value: $576,000
+  salient: true
+  source: cv_pi.md
+- id: F05
+  category: other
+  kind: existing
+  text: V-RMAPS was a completed cluster-randomized clinical trial involving eight clinics, four in each
+    state and four in each study arm, with two clinics per arm within each state.
+  value: eight clinics
+  salient: true
+  source: prior_project.md
+- id: F06
+  category: result
+  kind: existing
+  text: V-RMAPS recruited 480 adults aged 30–79 during July 2021–June 2022, with 60 participants per clinic
+    and 240 per arm, and completed its final six-month assessment window on 31 January 2023.
+  value: '480'
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: result
+  kind: existing
+  text: Six-month retention was 408 of 480 participants, or 85.0% with a Wilson 95% confidence interval
+    of 81.5%–87.9%, including 208 of 240 in pharmacist care and 200 of 240 in usual care.
+  value: 408 of 480 (85.0%)
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: The 72 participants without standardized endpoints comprised 68 survivors with missing measurements—36
+    who could not be contacted, 20 who declined assessment, and 12 who moved away—and four deaths before
+    six months treated as terminal events without assigned or imputed six-month blood-pressure values.
+  value: '72'
+  salient: false
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: Baseline systolic blood pressure averaged 153.2 mmHg with standard deviation 12.4 mmHg overall,
+    with arm means of 153.6 and 152.8 mmHg, while paired unadjusted changes were −11.4 mmHg in pharmacist
+    care and −5.1 mmHg in usual care.
+  value: −11.4 mmHg
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: The primary adjusted between-arm contrast in six-month systolic blood pressure was −6.0 mmHg with
+    a 95% confidence interval from −9.8 to −2.2, estimated using 408 observed endpoints and a clinic random-intercept
+    model with a small-sample correction, and may be affected by post-randomization survival and attendance
+    selection rather than estimating a treatment effect for all 480 enrollees.
+  value: −6.0 mmHg (95% CI −9.8 to −2.2)
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: The multiple-imputation sensitivity analysis imputed 68 missing measurements among 476 six-month
+    survivors, excluding four deaths as terminal events, and estimated a survivor-conditional adjusted
+    contrast of −5.5 mmHg with a 95% confidence interval from −9.6 to −1.4 under an observed-variable
+    missingness assumption among survivors, with possible post-randomization survival and attendance selection
+    and no treatment-effect estimate for all 480 enrollees.
+  value: −5.5 mmHg (95% CI −9.6 to −1.4)
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: result
+  kind: existing
+  text: Record linkage succeeded for 456 of 480 participants, or 95.0%, while 16 inactive legacy records
+    and eight unresolved identifier discrepancies accounted for the 24 unsuccessful matches.
+  value: 456 of 480 (95.0%)
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: result
+  kind: existing
+  text: The qualitative component comprised 32 interviews with 20 patients, six clinic staff, and six
+    community health workers and identified transport, cost uncertainty, telephone access, and medication
+    reconciliation barriers without estimating their population prevalence.
+  value: '32'
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: result
+  kind: existing
+  text: In a repeated-session workflow exercise with 18 staff, unaided task completion increased from
+    12 of 18, or 66.7%, to 16 of 18, or 88.9%, after form revisions, with practice effects unresolved
+    and no patient blood-pressure effect measured.
+  value: 16 of 18 (88.9%)
+  salient: true
+  source: prior_project.md
+- id: F15
+  category: publication
+  kind: existing
+  text: The unit lists four published articles from 2022, 2024, 2025, and 2026, while its workflow manuscript
+    submitted on 18 August 2026 remained under review on 30 September 2026 with no acceptance or assigned
+    DOI.
+  value: under review as of 30 September 2026
+  salient: true
+  source: publications.md
+- id: F16
+  category: team
+  kind: existing
+  text: The six current core members cover cardiovascular epidemiology, clinical pharmacy, qualitative
+    health services research, biostatistics, research operations, and community health worker coordination.
+  value: six
+  salient: true
+  source: team.md
+- id: F17
+  category: team
+  kind: existing
+  text: The community health worker network has 12 members, including coordinator Ruthavelle Densavren,
+    with seven based in West Virginia and five in Kentucky.
+  value: 12 community health workers
+  salient: true
+  source: team.md
+- id: F18
+  category: partner
+  kind: existing
+  text: Celdavreth Trace Community Clinics remains a partner across eight clinics under a memorandum in
+    force as of 30 September 2026 that does not authorize new patient enrollment or release of identifiable
+    records.
+  value: Celdavreth Trace Community Clinics
+  salient: true
+  source: team.md
+- id: F19
+  category: resource
+  kind: existing
+  text: The unit owns 24 adult-validated upper-arm blood-pressure monitors, with 16 assigned as two per
+    clinic and eight held centrally, and adult cuffs covering arm circumferences of 22 to 52 cm.
+  value: '24'
+  salient: true
+  source: resources.md
+- id: F20
+  category: resource
+  kind: existing
+  text: The controlled-access archive holds 480 baseline records, 408 standardized endpoints, 456 verified
+    record links, redacted interview transcripts, workflow records, and analysis scripts, with the participant
+    groups overlapping rather than additive.
+  value: 480 baseline participant records
+  salient: true
+  source: resources.md
+- id: F21
+  category: other
+  kind: existing
+  text: Neither Pellavreth nor the current team has recruited adolescents or conducted school research,
+    and their completed V-RMAPS cohort contained no participant younger than 30.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F22
+  category: team
+  kind: existing
+  text: The core team has no sleep scientist, pediatric investigator, school liaison, or signed external
+    research collaborator in those specialties, and has no completed adolescent assent and parental permission
+    experience.
+  value: null
+  salient: true
+  source: team.md
+- id: F23
+  category: resource
+  kind: existing
+  text: The unit has no actigraphs, polysomnography equipment, sleep-specific wearables, ambulatory blood-pressure
+    monitors, equipment orders for those instruments, or signed external sleep-laboratory access agreement.
+  value: null
+  salient: true
+  source: resources.md
+- id: F24
+  category: resource
+  kind: existing
+  text: The archive contains no adolescent or age-18–29 observations, objective sleep records, sleep diaries,
+    timing, duration or regularity measures, school-level information, retained biospecimens, or standardized
+    research lipid or glycemic measurements.
+  value: 18–29
+  salient: true
+  source: resources.md
+- id: F25
+  category: other
+  kind: existing
+  text: As of 30 September 2026, V-RMAPS remains closed to enrollment and intervention delivery, with
+    approval and data-use arrangements covering retention and approved secondary analyses but not unrestricted
+    recontact, school recruitment, additional physiological measurements, or open dataset release.
+  value: null
+  salient: true
+  source: resources.md
+own_publications:
+- key: pellavreth2022protocol
+  authors:
+  - Pellavreth, A.
+  - Norravick, C.
+  - Ellsvareth, N.
+  - Arvendrel, L.
+  - Brindelvane, T.
+  year: 2022
+  title: 'Pharmacist-led blood-pressure management in rural primary care: protocol for the V-RMAPS cluster-randomized
+    trial'
+  venue: Veylorn Journal of Rural Cardiovascular Practice
+  doi: 10.99999/pb.rural-hypertension-group.2022.1
+- key: brindelvane2024interviews
+  authors:
+  - Brindelvane, T.
+  - Densavren, R.
+  - Ellsvareth, N.
+  - Pellavreth, A.
+  year: 2024
+  title: 'Medication access and follow-up in rural hypertension care: interviews with patients, clinic
+    staff, and community health workers'
+  venue: Ordelvane Community Care Methods
+  doi: 10.99999/pb.rural-hypertension-group.2024.1
+- key: pellavreth2025outcomes
+  authors:
+  - Pellavreth, A.
+  - Arvendrel, L.
+  - Norravick, C.
+  - Ellsvareth, N.
+  - Brindelvane, T.
+  - Densavren, R.
+  year: 2025
+  title: 'Six-month blood-pressure outcomes of pharmacist-led management in eight rural clinics: the V-RMAPS
+    trial'
+  venue: Veylorn Journal of Rural Cardiovascular Practice
+  doi: 10.99999/pb.rural-hypertension-group.2025.1
+- key: ellsvareth2026linkage
+  authors:
+  - Ellsvareth, N.
+  - Arvendrel, L.
+  - Pellavreth, A.
+  - Densavren, R.
+  year: 2026
+  title: Reconciling research and electronic clinical records in a rural hypertension cohort
+  venue: Keldavren Health Services Measurement and Linkage
+  doi: 10.99999/pb.rural-hypertension-group.2026.1
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 5f6853db-6f23-4eaf-bc16-f35268d7a487

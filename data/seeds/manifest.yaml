@@ -1,0 +1,259 @@
+seeds:
+- id: sedia:HORIZON-CL6-2021-CLIMATE-01-08
+  kind: call
+  title: Agroforestry to meet climate, biodiversity and farming sustainability goals
+  funder: European Commission
+  programme: HORIZON
+  url: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2021-climate-01-08
+  licence: CC-BY-4.0 (Commission Decision 2011/833/EU)
+  attribution: '© European Union; source: EU Funding & Tenders Portal'
+  use: structure and topic inspiration for a synthetic call
+  retrieved: '2026-10-30'
+  sha256: afaaa7210eceb38fbf15bd5743ae0cd3a8e061c5cd468cc4564d2af1d0f6f620
+  raw_path: seeds_raw/calls/HORIZON-CL6-2021-CLIMATE-01-08.md
+- id: sedia:HORIZON-CL6-2023-GOVERNANCE-01-22
+  kind: call
+  title: Developing EU advisory networks on the optimal fertiliser use
+  funder: European Commission
+  programme: HORIZON
+  url: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-cl6-2023-governance-01-22
+  licence: CC-BY-4.0 (Commission Decision 2011/833/EU)
+  attribution: '© European Union; source: EU Funding & Tenders Portal'
+  use: structure and topic inspiration for a synthetic call
+  retrieved: '2026-10-30'
+  sha256: 900d977d687f9699dcee8643984cade352e7d44018b0a8eb019a627a67c75ebb
+  raw_path: seeds_raw/calls/HORIZON-CL6-2023-GOVERNANCE-01-22.md
+- id: scheme:aei_pid_orientada:resolucion-convocatoria-proyectosgeneraci-nconocimiento-pid2
+  kind: scheme_rules
+  title: Resolución de la Presidencia de la Agencia Estatal de Investigación por la
+    que se aprueba la convocatoria de tramitación anticipada para el año 2025 d
+  funder: Agencia Estatal de Investigación
+  programme: aei_pid
+  url: https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf
+  licence: Official act, excluded from copyright (Ley de Propiedad Intelectual, art.
+    13)
+  attribution: 'Agencia Estatal de Investigación; source: www.aei.gob.es'
+  use: scheme rules of skeleton aei_pid_orientada (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: f535719e66aa2fd4bf85a6f1e9f571b677af1f1f8cd9724ccf03eab8deef91e0
+  raw_path: seeds_raw/schemes/aei_pid_orientada/resolucion-convocatoria-proyectosgeneraci-nconocimiento-pid2.md
+- id: scheme:cerv:call-fiche-cerv-2026-citizens-civ-en
+  kind: scheme_rules
+  title: Call document for the call "To foster Citizens' engagement and participation
+    in the dmeocratic and civil life of the Union"
+  funder: European Commission
+  programme: cerv
+  url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/wp-call/2026/call-fiche_cerv-2026-citizens-civ_en.pdf
+  licence: CC-BY-4.0 (Commission Decision 2011/833/EU)
+  attribution: '© European Union; source: ec.europa.eu'
+  use: scheme rules of skeleton cerv (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: 1c5d912516b8fdb3dc9ffbe71d5f220cf05ac6af1c5c6f8f337071a498a64cde
+  raw_path: seeds_raw/schemes/cerv/call-fiche-cerv-2026-citizens-civ-en.md
+- id: scheme:cerv:af-cerv-en
+  kind: scheme_rules
+  title: 'Call: [insert call identifier] — [insert call name] EU Grants: Application
+    form (CERV): V3.0 – 15.01.2025'
+  funder: European Commission
+  programme: cerv
+  url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/cerv/temp-form/af/af_cerv_en.pdf
+  licence: CC-BY-4.0 (Commission Decision 2011/833/EU)
+  attribution: '© European Union; source: ec.europa.eu'
+  use: scheme rules of skeleton cerv (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: 4ac10bb194d576ca53ade32ab4a0694334aa410ed63869a417a0066d77f4f52a
+  raw_path: seeds_raw/schemes/cerv/af-cerv-en.md
+- id: scheme:erasmus_ka220:cooperation-partnerships
+  kind: scheme_rules
+  title: Cooperation partnerships - Erasmus+
+  funder: European Commission
+  programme: erasmus_ka220
+  url: https://erasmus-plus.ec.europa.eu/programme-guide/part-b/key-action-2/cooperation-partnerships
+  licence: CC-BY-4.0 (Commission Decision 2011/833/EU)
+  attribution: '© European Union; source: erasmus-plus.ec.europa.eu'
+  use: scheme rules of skeleton erasmus_ka220 (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: 0eef2d705b19f9e1a9bafb833f6b5b71d0b78d3dffdf3437f081916383515bfd
+  raw_path: seeds_raw/schemes/erasmus_ka220/cooperation-partnerships.md
+- id: scheme:erasmus_ka220:call-2026-cooperation-partnerships-in-higher-education-ka220
+  kind: scheme_rules
+  title: 'Call 2026 - Round 1 Cooperation partnerships in higher education (KA220-HED)
+    Form ID: KA220-HED-23F30B5E Deadline (Brussels Time): 05 Mar 2026 12:00:0'
+  funder: European Commission
+  programme: erasmus_ka220
+  url: https://erasmus-plus.ec.europa.eu/sites/default/files/2025-11/Call%202026%20Cooperation%20partnerships%20in%20higher%20education%20%28KA220-HED%29_watermark.pdf
+  licence: CC-BY-4.0 (Commission Decision 2011/833/EU)
+  attribution: '© European Union; source: erasmus-plus.ec.europa.eu'
+  use: scheme rules of skeleton erasmus_ka220 (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: 60478270e470f77272d78ece5527df46e9209de6c926b8012e261c83b50a95fc
+  raw_path: seeds_raw/schemes/erasmus_ka220/call-2026-cooperation-partnerships-in-higher-education-ka220.md
+- id: scheme:erc_poc:wp-horizon-erc-2027-en
+  kind: scheme_rules
+  title: ERC Work Programme 2027
+  funder: European Commission
+  programme: erc_poc
+  url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf
+  licence: CC-BY-4.0 (Commission Decision 2011/833/EU)
+  attribution: '© European Union; source: ec.europa.eu'
+  use: scheme rules of skeleton erc_poc (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: 013b1f8713c09bce509b795982cc70b5eb38f40ca4d079743dedd73f6be64dd0
+  raw_path: seeds_raw/schemes/erc_poc/wp-horizon-erc-2027-en.md
+- id: scheme:erc_poc:information-for-applicants-he-erc-poc-en
+  kind: scheme_rules
+  title: Information for Applicants to the Proof of Concept Grant 2026 Call
+  funder: European Commission
+  programme: erc_poc
+  url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/information-for-applicants_he-erc-poc_en.pdf
+  licence: CC-BY-4.0 (Commission Decision 2011/833/EU)
+  attribution: '© European Union; source: ec.europa.eu'
+  use: scheme rules of skeleton erc_poc (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: fe545b549fe54b2f8f3edc98995e8e86f3aef59274cc4e511d18ddc2bc44efa7
+  raw_path: seeds_raw/schemes/erc_poc/information-for-applicants-he-erc-poc-en.md
+- id: scheme:horizon_stage1:wp-15-general-annexes-horizon-2026-2027-en
+  kind: scheme_rules
+  title: Horizon Europe Work Programme 2026-2027 - 15. General Annexes
+  funder: European Commission
+  programme: horizon_stage1
+  url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf
+  licence: CC-BY-4.0 (Commission Decision 2011/833/EU)
+  attribution: '© European Union; source: ec.europa.eu'
+  use: scheme rules of skeleton horizon_stage1 (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: 5c4337c4984629697d5a073f66862ead9fe291d64c561e003ea5f154df8de78f
+  raw_path: seeds_raw/schemes/horizon_stage1/wp-15-general-annexes-horizon-2026-2027-en.md
+- id: scheme:nsf_career:solicitation
+  kind: scheme_rules
+  title: 'NSF 22-586: Faculty Early Career Development Program (CAREER) | NSF - U.S.
+    National Science Foundation'
+  funder: National Science Foundation
+  programme: nsf_career
+  url: https://www.nsf.gov/funding/opportunities/career-faculty-early-career-development-program/nsf22-586/solicitation
+  licence: 'Public domain: work of the US federal government (17 U.S.C. §105)'
+  attribution: 'National Science Foundation; source: www.nsf.gov'
+  use: scheme rules of skeleton nsf_career (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: 69fca80605cf01cf2a049ced8d4d8dc6dbb2c78dd54330e6ce8b2673b5fc0d5f
+  raw_path: seeds_raw/schemes/nsf_career/solicitation.md
+- id: scheme:nsf_career:ch-2-proposal-preparation
+  kind: scheme_rules
+  title: 'Chapter II: Proposal Preparation Instructions - Proposal & Award Policies
+    & Procedures Guide (PAPPG) (NSF 24-1) | NSF - U.S. National Science Foundati'
+  funder: National Science Foundation
+  programme: nsf_career
+  url: https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation
+  licence: 'Public domain: work of the US federal government (17 U.S.C. §105)'
+  attribution: 'National Science Foundation; source: www.nsf.gov'
+  use: scheme rules of skeleton nsf_career (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: fd964faf32eeaf1f3103617d31d2119da6885fa2e39926feb0b64f604a1c7012
+  raw_path: seeds_raw/schemes/nsf_career/ch-2-proposal-preparation.md
+- id: scheme:nsf_career:pappg
+  kind: scheme_rules
+  title: NSF Proposal & Award Policies & Procedures Guide (PAPPG) | NSF - U.S. National
+    Science Foundation
+  funder: National Science Foundation
+  programme: nsf_career
+  url: https://www.nsf.gov/policies/pappg
+  licence: 'Public domain: work of the US federal government (17 U.S.C. §105)'
+  attribution: 'National Science Foundation; source: www.nsf.gov'
+  use: scheme rules of skeleton nsf_career (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: 122a332eca5a1b4905d02c573625983d2eb29e3e08d248dedd2c3d8d147add3c
+  raw_path: seeds_raw/schemes/nsf_career/pappg.md
+- id: scheme:nih_r21_resubmission:resubmission-applications
+  kind: scheme_rules
+  title: Resubmission Applications | Grants & Funding
+  funder: National Institutes of Health
+  programme: nih_r21
+  url: https://grants.nih.gov/grants-process/submit/submission-policies/resubmission-applications
+  licence: 'Public domain: work of the US federal government (17 U.S.C. §105)'
+  attribution: 'National Institutes of Health; source: grants.nih.gov'
+  use: scheme rules of skeleton nih_r21_resubmission (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: 8f2abb7a36c4603e52be7af7953263044c6bd6cbc393b1b420bc4acec76c47d4
+  raw_path: seeds_raw/schemes/nih_r21_resubmission/resubmission-applications.md
+  retrieved_via: reader service
+- id: scheme:nih_r21_resubmission:page-limits
+  kind: scheme_rules
+  title: Page Limits | Grants & Funding
+  funder: National Institutes of Health
+  programme: nih_r21
+  url: https://grants.nih.gov/grants-process/write-application/how-to-apply-application-guide/page-limits
+  licence: 'Public domain: work of the US federal government (17 U.S.C. §105)'
+  attribution: 'National Institutes of Health; source: grants.nih.gov'
+  use: scheme rules of skeleton nih_r21_resubmission (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: d4ff5fd1951c7f698ffaf512ce930f33c492611a3ac4acafa48ca313323cb1ba
+  raw_path: seeds_raw/schemes/nih_r21_resubmission/page-limits.md
+  retrieved_via: reader service
+- id: scheme:nih_r21_resubmission:pa-25-304
+  kind: scheme_rules
+  title: 'PA-25-304: NIH Exploratory/Developmental Research Project Grant (Parent
+    R21 Clinical Trial Not Allowed)'
+  funder: National Institutes of Health
+  programme: nih_r21
+  url: https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html
+  licence: 'Public domain: work of the US federal government (17 U.S.C. §105)'
+  attribution: 'National Institutes of Health; source: grants.nih.gov'
+  use: scheme rules of skeleton nih_r21_resubmission (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: dc6585a2c6ec5c7a7b3a68c0299bf6705da7a650037d6f9a1ce1bf2f2d643294
+  raw_path: seeds_raw/schemes/nih_r21_resubmission/pa-25-304.md
+  retrieved_via: reader service
+- id: scheme:nih_r21_resubmission:submission-policies
+  kind: scheme_rules
+  title: Submission Policies | Grants & Funding
+  funder: National Institutes of Health
+  programme: nih_r21
+  url: https://grants.nih.gov/grants-process/submit/submission-policies
+  licence: 'Public domain: work of the US federal government (17 U.S.C. §105)'
+  attribution: 'National Institutes of Health; source: grants.nih.gov'
+  use: scheme rules of skeleton nih_r21_resubmission (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: a1481b3d0b8851f616db5f5bab1d294d77c0d29a4ae932c89760ca2aa265f35b
+  raw_path: seeds_raw/schemes/nih_r21_resubmission/submission-policies.md
+  retrieved_via: reader service
+- id: scheme:horizon_stage1:af-he-ria-ia-stage-1-en
+  kind: scheme_rules
+  title: Application form (Part A)
+  funder: European Commission
+  programme: horizon_stage1
+  url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia-stage-1_en.pdf
+  licence: CC-BY-4.0 (Commission Decision 2011/833/EU)
+  attribution: '© European Union; source: ec.europa.eu'
+  use: scheme rules of skeleton horizon_stage1 (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: 4df50a6f9755505d16f207949418548ac7dd40837ab74c3bba41047482c88c37
+  raw_path: seeds_raw/schemes/horizon_stage1/af-he-ria-ia-stage-1-en.md
+- id: scheme:horizon_ria:af-he-ria-ia-en
+  kind: scheme_rules
+  title: Application form (Part A)
+  funder: European Commission
+  programme: horizon_ria
+  url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia_en.pdf
+  licence: CC-BY-4.0 (Commission Decision 2011/833/EU)
+  attribution: '© European Union; source: ec.europa.eu'
+  use: scheme rules of skeleton horizon_ria (summarised and paraphrased)
+  retrieved: '2026-10-31'
+  verified: '2026-10-31'
+  sha256: 3ca0d61a2fbc620e105be6ad3c0e8ede810fdf74aa8b1bbb2984a803360fa8c4
+  raw_path: seeds_raw/schemes/horizon_ria/af-he-ria-ia-en.md

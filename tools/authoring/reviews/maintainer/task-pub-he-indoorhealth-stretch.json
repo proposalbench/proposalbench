@@ -1,0 +1,19 @@
+{
+ "reviewer": "task review",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml, T1; consortium.md, WoonKoepel Candidate Site Note; resources.md, Indoor Climate Monitoring",
+   "problem": "T1 depends on renovation and monitoring histories that the dossier does not establish. The five proposed blocks are described as receiving new pilot installations, not explicitly as awaiting deep renovation. For the fifteen renovated blocks, neither renovation dates nor sensor installation dates are supplied. Being already renovated does not itself rule out a longitudinal study using historical baseline measurements. The preferred correction and the rejection of the suggested sites therefore depend on unstated facts.",
+   "fix": "State that the five blocks have not yet undergone deep renovation, give their prospective renovation schedule, and distinguish renovation completion from pilot commissioning. For the fifteen blocks, specify when monitoring began relative to renovation and explicitly state whether usable pre-renovation environmental and health records exist. Align T1 with those documented facts."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml, T2 expected_behaviour",
+   "problem": "The answer key requires recruiting a new public-health or clinical partner, although the call requires suitable expertise and direct health measurements without prescribing that organisational route. A proposal could satisfy the requirement through planned qualified hires and appropriate clinical arrangements. The expected behaviour risks rejecting a compliant response for choosing a different way to close the capability gap.",
+   "fix": "Require validated clinical and patient-reported health measurements, a credible plan to obtain qualified expertise, and prospective ethics and recruitment arrangements. Accept a planned new partner or another adequately justified staffing and clinical-access arrangement."
+  }
+ ]
+}

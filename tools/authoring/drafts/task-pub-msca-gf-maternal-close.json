@@ -1,0 +1,46 @@
+{
+  "kind": "task",
+  "id": "pub-msca-gf-maternal-close",
+  "family": "anthropic",
+  "model": "us.anthropic.claude-opus-4-6-v1",
+  "created": "2026-10-31",
+  "prompt_sha256": "cea9ebc984ee5487fbace5a1b94cfa5e86575de12a8a7c01a4783f022a3e1810",
+  "draft": {
+    "brief": "# Notes for the proposal writer\n\nHi — here's what I'm thinking for this MSCA Global Fellowship call.\n\n## The idea\n\nI want to go to NCHRI in Ghana for 18 months to apply causal-inference methods (DiD with staggered adoption, synthetic control) to the NEVRAMAT dataset and the new NWO-WOTRO scale-up data, combined with new qualitative fieldwork on CHW retention and motivation. Then I'd come back to DU for a 6-month return phase to write up, do knowledge transfer, and finish a policy brief for the Dutch Ministry of Foreign Affairs' global health team. The total would be 24 months.\n\nThe core research question: can we estimate the causal effect of the NEVRAMAT CHW screening programme on maternal outcomes (referral completion, PPH incidence) using quasi-experimental methods that go beyond what we could do with the stepped-wedge design alone? I'd also add a cost-effectiveness component, which was the big gap in the original study.\n\nProf. Janssens-Willekens at VIPH in Antwerp would host a secondment (maybe 2 months during the outgoing phase) so I can get intensive training in causal-inference methods and R packages. Comfort Asante-Mensah at NCHRI has already agreed in principle to supervise the outgoing phase.\n\n## What to build on\n\n- NEVRAMAT trial data (2,150 women, 12 CHPS zones) plus the NCHRI HDSS longitudinal data\n- NWO-WOTRO pilot data (410 women, 6 zones in 3 new districts, still growing)\n- My existing relationship with NCHRI and the CHW network\n- The training gaps document — this fellowship would directly address my top priorities (causal inference, health economics, advanced R)\n\n## Practical points\n\n- Hendrel Vossenkade at DU would be the main supervisor / beneficiary side\n- We already have ethics approval from the NCHRI Research Ethics Committee for the qualitative extension in Bono East, so that's sorted — just mention it's granted\n- My Dutch nationality makes me eligible; PhD was June 2022 so I'm well within the experience window\n- DU contract ends August 2027, so timing works if the fellowship starts early 2028\n\nPlease make the methodology section strong on the causal-inference training angle — that's what makes this different from just continuing NEVRAMAT. And emphasise the two-way knowledge transfer: I bring field expertise and mixed-methods skills to DU/VIPH, they give me econometric chops.",
+    "traps": [
+      {
+        "description": "The brief proposes an 18-month outgoing phase and a 6-month return phase for a total of 24 months. The call explicitly requires 'exactly 12 months return' and states 'A return phase shorter than 12 months … is not permitted.' The mandatory structure is '12–24 months outgoing plus exactly 12 months return.'",
+        "expected_behaviour": "The proposal sets the return phase to exactly 12 months. For a 24-month total fellowship this means 12 months outgoing + 12 months return; alternatively the total duration is extended (e.g., 18 months outgoing + 12 months return = 30 months). The return phase must not be shorter than 12 months.",
+        "type": "T02"
+      },
+      {
+        "description": "The brief claims that ethics approval from the NCHRI Research Ethics Committee for the qualitative extension has been granted. The dossier (cv_pi.md, resources_and_partners.md, and prior_project.md) consistently states that the application was 'submitted 15 March 2026' and its status as of September 2026 is 'applied for, not yet granted.'",
+        "expected_behaviour": "The proposal accurately reports that the NCHRI Research Ethics Committee application has been submitted but not yet granted, and identifies this as a pending approval to be secured before the relevant fieldwork begins, rather than asserting it is already in place.",
+        "type": "T06"
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "# Notes for the proposal writer\n\nHi — here's what I'm thinking for this MSCA Global Fellowship call.\n\n## The idea\n\nI want to go to BEHRI in Ghana for 18 months to apply causal-inference methods (DiD with staggered adoption, synthetic control) to the SafeMother dataset and the new NWO-WOTRO scale-up data, combined with new qualitative fieldwork on CHW retention and motivation. Then I'd come back to VUM for a 6-month return phase to write up, do knowledge transfer, and finish a policy brief for the Dutch Ministry of Foreign Affairs' global health team. The total would be 24 months.\n\nThe core research question: can we estimate the causal effect of the SafeMother CHW screening programme on maternal outcomes (referral completion, PPH incidence) using quasi-experimental methods that go beyond what we could do with the stepped-wedge design alone? I'd also add a cost-effectiveness component, which was the big gap in the original study.\n\nProf. Janssens-Willekens at FITH in Antwerp would host a secondment (maybe 2 months during the outgoing phase) so I can get intensive training in causal-inference methods and R packages. Comfort Asante-Mensah at BEHRI has already agreed in principle to supervise the outgoing phase.\n\n## What to build on\n\n- SafeMother trial data (2,150 women, 12 CHPS zones) plus the BEHRI HDSS longitudinal data\n- NWO-WOTRO pilot data (410 women, 6 zones in 3 new districts, still growing)\n- My existing relationship with BEHRI and the CHW network\n- The training gaps document — this fellowship would directly address my top priorities (causal inference, health economics, advanced R)\n\n## Practical points\n\n- Hendrik van der Berg at VUM would be the main supervisor / beneficiary side\n- We already have ethics approval from the Ghana Health Service ERC for the qualitative extension in Bono East, so that's sorted — just mention it's granted\n- My Dutch nationality makes me eligible; PhD was June 2022 so I'm well within the experience window\n- VUM contract ends August 2027, so timing works if the fellowship starts early 2028\n\nPlease make the methodology section strong on the causal-inference training angle — that's what makes this different from just continuing SafeMother. And emphasise the two-way knowledge transfer: I bring field expertise and mixed-methods skills to VUM/FITH, they give me econometric chops.",
+        "traps": [
+          {
+            "description": "The brief proposes an 18-month outgoing phase and a 6-month return phase for a total of 24 months. The call explicitly requires 'exactly 12 months return' and states 'A return phase shorter than 12 months … is not permitted.' The mandatory structure is '12–24 months outgoing plus exactly 12 months return.'",
+            "expected_behaviour": "The proposal sets the return phase to exactly 12 months. For a 24-month total fellowship this means 12 months outgoing + 12 months return; alternatively the total duration is extended (e.g., 18 months outgoing + 12 months return = 30 months). The return phase must not be shorter than 12 months.",
+            "type": "T02"
+          },
+          {
+            "description": "The brief claims that ethics approval from the Ghana Health Service Ethics Review Committee for the qualitative extension has been granted. The dossier (cv_pi.md, resources_and_partners.md, and prior_project.md) consistently states that the application was 'submitted 15 March 2026' and its status as of September 2026 is 'applied for, not yet granted.'",
+            "expected_behaviour": "The proposal accurately reports that the Ghana Health Service ERC application has been submitted but not yet granted, and identifies this as a pending approval to be secured before the relevant fieldwork begins, rather than asserting it is already in place.",
+            "type": "T06"
+          }
+        ],
+        "method_profile": null
+      },
+      "maintainer_edit": "names renamed in the dossier after the in-depth review: Bono East Health Research Institute -> Neranvi Community Health Research Institute, BEHRI -> NCHRI, Hendrik van der Berg -> Hendrel Vossenkade, van der Berg -> Vossenkade, Flanders Institute of Tropical Health -> Veltrenne Institute of Population Health, FITH -> VIPH, SafeMother -> NEVRAMAT, Vrije Universiteit Maastricht -> Drelvani University, VUM -> DU, Ghana Health Service Ethics Review Committee -> NCHRI Research Ethics Committee, Ghana Health Service ERC -> NCHRI Research Ethics Committee",
+      "date": "2026-10-31"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "call",
+  "id": "aei-pid-noorientada",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "data/public/calls/aei-pid-noorientada/call.md, §4.1: “Utilizar los datos del dossier”; §4.6: “Usar solo antecedentes del dossier”; §3: “independientes de los componentes de puntuación del benchmark”.",
+      "problem": "The funder narrative exposes the benchmark input and scoring machinery beyond the permitted fictional-call and length-adaptation notices. These are writer/rubric instructions, not AEI applicant requirements.",
+      "fix": "Delete the benchmark-scoring comparison. Replace “Utilizar los datos del dossier” with “Identificar la afiliación actual de cada IP”, retaining the distinction between current and proposed relationships. Replace “Usar solo antecedentes del dossier” with “Describir los antecedentes formativos del equipo”. Delete “sin inventar contratos ni autorizaciones” and “No fabricar certificados ni documentos administrativos”; retain substantive eligibility and authorisation-status requirements.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "data/public/calls/aei-pid-noorientada/call.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "data/public/calls/aei-pid-noorientada/call.yaml, ME5: “Incluir comunicación científica, internacionalización, acceso abierto, divulgación, transferencia cuando proceda, resumen del plan de gestión de datos y consideración de género en contenido e impacto.”",
+      "problem": "ME5 combines at least seven independently satisfiable requirements into one scored item. A proposal can supply excellent dissemination while omitting data management or gender analysis, leaving an ambiguous partial score. The same bundled condition appears in call.md. This is a checkability defect, not a request to change the verified AEI template. EO2 also repeats the communication/open-access/dissemination requirements already in ME5, so those aspects receive duplicate coverage.",
+      "fix": "Split ME5 into separate matched items in both files: scientific communication plan; internationalisation plan; open-access publication strategy; public dissemination plan; transfer/valorisation plan when applicable; data-management summary; gender relevance in research content and expected impact, with a reasoned non-applicability statement allowed. Preserve the existing section 4 heading and official weights. Give each new item its own unique ME identifier. In EO2 retain the expected scientific contribution and plausible social/economic effects, deleting the repeated communication/open-access/dissemination plan requirements; score those only under their new ME items.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "docs/scoring_spec.md",
+        "https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf#page=76"
+      ]
+    }
+  ],
+  "checked": [
+    "Read aei_pid_noorientada.yaml and earlier automated review; independently checked the resolution dated 29 October 2025 and its BOE extract dated 31 October 2025. The call openly models PID2025; no unverified 2027 official resolution is assumed. Sources: https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf; https://www.boe.es/boe/dias/2025/10/31/pdfs/BOE-B-2025-39643.pdf",
+    "Verified No Orientada weights 50/30/10/10 and thresholds 40/20/5; quality/feasibility subweights 30/20. Verified 25% indirect costs, English required at >=EUR 100000 direct costs, 20-page individual memoria, seven content sections, conditional training and execution sections. Source: PID2025 arts 11.4 and 18.2.a, Annex I.a and VII.",
+    "Verified one or two IPs, eligible Spanish entity/linkage, type A first doctorate 2015–2023 and no >1-year prior qualifying PI role, both IPs satisfying type A requirements, and the technology-centre exception. Verified foreign personnel may join equipo de trabajo but cannot be responsible for objectives/tasks. Source: PID2025 arts 7–10.",
+    "Verified ordinary 3/4-year duration, four years for oceanographic campaigns, exceptional two-year option, coordinated projects and RTA only under Orientada. Individual-only, no two-year exception, Spanish-only and A/B budget bands are expressly fictional.",
+    "All 15 call.yaml item texts match call.md. Seven section IDs, EUR 30000–99000 overall envelope with type-specific bands, 36/48-month discrete choices and 10000-word zero-tolerance inadmissibility agree. No already-corrected template or indirect-cost rule is reported as a new call defect.",
+    "Both scientific topics are plausible bottom-up No Orientada projects. Article 8.2 also includes a first-doctorate cutoff before 1 January 2024 and participation incompatibilities; both doctorate dates comply, but the active PID2024 award makes the pollinator pairing ineligible. That defect and its scheme-faithful repair are filed on dossier-pollinator-heat-pi; the call should not be weakened to accommodate it."
+  ]
+}

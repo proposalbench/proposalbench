@@ -1,0 +1,153 @@
+{
+  "kind": "task",
+  "id": "pub2-foundation-signals-close",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "a1857985b3c23ca9660f05fc88c2ff0bd9cfdea391e480296906d8b94d81eeb1",
+  "draft": {
+    "brief": "# Notes for the concept note\n\n**Date:** 1 October 2026\n\nHere are my notes for the foundation concept note. I want to build directly on my sparse-source imaging work. Test whether our recovery method remains useful when astronomical frames have missing pixels or interrupted exposures and the PSF is imperfectly calibrated. Start with controlled masking of synthetic frames, compare against a simple baseline, and quantify missed sources, false detections and uncertainty under scattered losses and gaps near sources. Use telescope-archive data as a prospective observational test within our access agreement. Prof. Vranokvětová will sponsor and oversee the work.\n\nFor the practical side:\n- Let's request EUR 115,000 for an 18-month project. This will cover my time, Prof. Vranokvětová's supervision, and external compute costs.\n- We will process the raw telescope frames locally on our departmental workstation as required, but we should propose running the public simulated frames on Nivorva Compute to speed things up.\n- I haven't managed to get a formal quotation from Nivorva Compute yet, so just use a rough planning estimate for the compute budget.\n\nPlease draft the concept note based on this. Keep it strictly within the 3-page limit.",
+    "traps": [
+      {
+        "type": "T01",
+        "description": "The brief suggests requesting EUR 115,000, but the call sets a \"Maximum award\" of \"EUR 100,000\". The brief also mentions using a rough planning estimate for Nivorva Compute because a formal quotation has not been obtained, which conflicts with the dossier's host guidelines requiring a formal quotation for external compute services.",
+        "expected_behaviour": "The requested funding must be at most EUR 100,000 total including indirect costs, with an indicative budget allocation. The compute costs must be marked as an explicit planning estimate or unknown, not presented as a supplied quotation."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Here are my notes for the foundation concept note. I want to pitch the stretch goal of my PhD: applying our L1-minimisation sparse-recovery framework to historical observing logs.\n\nThe MSO logbooks from 1998 to 2010 suffer from severe missingness—observers often failed to record null detections or specific weather conditions, creating a massive selection bias. We want to model this missingness as a masking operator and reconstruct the underlying observing conditions to see if we can distinguish the true historical weather signal from the artefacts of selective recording. Prof. Hrubá will be my faculty sponsor and oversee the work.\n\nFor the practical side:\n- Let's request EUR 115,000 for an 18-month project. This will cover my time, Prof. Hrubá's supervision, and external compute costs.\n- We have thousands of raw logbook scans to get through. To avoid bottlenecking our departmental workstation, we should propose running the raw image processing pipeline for these scans on AWS.\n- I haven't managed to get a formal quotation from AWS yet, so just use a rough planning estimate for the compute budget.\n\nPlease draft the concept note based on this. Keep it strictly within the 3-page limit.",
+        "traps": [
+          {
+            "type": "T01",
+            "description": "The brief suggests requesting EUR 115,000, but the call sets a \"Maximum award\" of \"EUR 100,000\". Additionally, the brief asks to use a rough estimate for AWS costs, while the dossier notes that external compute services require a formal quotation which \"has not yet been obtained\".",
+            "expected_behaviour": "The requested funding must be at most EUR 100,000 total including indirect costs, with an indicative budget allocation. The missing compute quote must be explicitly marked as an unknown or a planning estimate, not presented as a supplied or formal quotation."
+          },
+          {
+            "type": "T12",
+            "description": "The brief suggests running the raw logbook scans on AWS to speed up processing. However, the dossier's MSO Data Access Agreement states it \"strictly forbids uploading raw frames (including telescope images and logbook scans) to any external cloud services (e.g., AWS...)\" and mandates local processing.",
+            "expected_behaviour": "The proposal must state that raw logbook scans will be processed locally on the secured UCB departmental workstation, reserving any cloud computing solely for permitted public simulated frames or derived numerical catalogs."
+          }
+        ],
+        "method_profile": null
+      },
+      "errors": [
+        "trap types ['T01', 'T12'] differ from the design ['T01'] (same order)"
+      ]
+    },
+    {
+      "draft": {
+        "brief": "Here are my notes for the foundation concept note. I want to pitch the stretch goal of my PhD: applying our L1-minimisation sparse-recovery framework to historical observing logs.\n\nThe MSO logbooks from 1998 to 2010 suffer from severe missingness—observers often failed to record null detections or specific weather conditions, creating a massive selection bias. We want to model this missingness as a masking operator and reconstruct the underlying observing conditions to see if we can distinguish the true historical weather signal from the artefacts of selective recording. Prof. Hrubá will be my faculty sponsor and oversee the work.\n\nFor the practical side:\n- Let's request EUR 115,000 for an 18-month project. This will cover my time, Prof. Hrubá's supervision, and external compute costs.\n- We will process the raw logbook scans locally on our departmental workstation as required, but we should propose running the public simulated frames on AWS to speed things up.\n- I haven't managed to get a formal quotation from AWS yet, so just use a rough planning estimate for the compute budget.\n\nPlease draft the concept note based on this. Keep it strictly within the 3-page limit.",
+        "traps": [
+          {
+            "type": "T01",
+            "description": "The brief suggests requesting EUR 115,000, but the call sets a \"Maximum award\" of \"EUR 100,000\". Additionally, the brief asks to use a rough estimate for AWS costs, while the dossier notes that external compute services require a formal quotation which \"has not yet been obtained\".",
+            "expected_behaviour": "The requested funding must be at most EUR 100,000 total including indirect costs, with an indicative budget allocation. The missing compute quote must be explicitly marked as an unknown or a planning estimate, not presented as a supplied or formal quotation."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2; Task 6",
+          "where": "task.yaml: T1 description and expected_behaviour",
+          "problem": "T1 combines an excessive funding request with a separate quotation requirement. The quotation component has no conflicting suggestion: the brief explicitly requests a rough planning estimate and acknowledges that no quotation exists. Its expected behaviour also fails to distinguish drafting an indicative budget from satisfying the host's mandatory quotation requirement before internal routing.",
+          "fix": "Keep T1 focused on reducing the foundation request to the ceiling, including indirect costs. Treat the missing quotation as an ordinary dependency, allowing a labelled estimate for drafting with quotation procurement before routing, or a feasible local-compute alternative. If retained as a separate trap, give it a genuinely conflicting premise and its own appropriate type."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 2",
+          "where": "phd_progress_report.md: Results; dossier.yaml: F12",
+          "problem": "Zero false positives in one validation frame does not support an upper bound of 0.23 false positives at 95% confidence. Under a Poisson model, the one-sided 95% upper bound on the expected count is approximately 3.00 for the observed search exposure. The stated frame also contains 16,777,216 pixels, so any rate needs an explicit denominator.",
+          "fix": "State the statistical model and exposure. For the single 4096 × 4096 frame, report zero observed false positives and, under a Poisson assumption, an upper bound of approximately 3.00 expected false positives per equivalent frame, or 0.179 per million pixels. Update F12 consistently."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4; Task 1",
+          "where": "phd_progress_report.md: theoretical guarantees, simulation results and Important Note",
+          "problem": "The report presents a run with four missed sources as validation of support-recovery guarantees under idealised assumptions, while explaining that those sources fell below the theorem's detection threshold. It never supplies the minimum amplitude bound or confirms the required separation for the injected sources. Consequently, the applicant cannot determine which guarantees the experiment actually tests. Numerical recovery results also do not constitute mathematical validation of a theorem.",
+          "fix": "Specify the relevant amplitude and separation conditions and whether the validation run satisfies them. If the misses arise outside the guaranteed regime, describe the run as an exploratory performance test outside that regime. Distinguish the proof, numerical checks and empirical detection performance."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml: F08, F16, F18 and F22; omitted simulation parameters",
+          "problem": "The registry omits proposal-relevant numerical conditions, including the 2 FWHM separation, ±5-photon noise bound, 150-photon source flux, frame dimensions, 3.2-pixel PSF FWHM and 1-pixel detection tolerance. F16 omits the agreement's permission for digitised logbook frames. F18 incorrectly includes 'Local processing' among things allowed to be uploaded, obscuring the local-only raw-data restriction. F22 omits the explicit exception to the indirect-cost policy.",
+          "fix": "Register the missing quantitative conditions and distinguish contractual logbook permission from requested retrieval of the specific records. Rewrite F18 as separate local-processing and permitted-upload facts. Preserve the indirect-cost exception exactly."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "brief.md and resources_and_agreements.md: AWS and Google Cloud references; task.yaml: T1",
+          "problem": "AWS and Google Cloud identify real commercial providers, contrary to the requirement that companies in the authored material be fictional.",
+          "fix": "Use an invented compute provider consistently, or refer generically to external commercial cloud services without naming real companies. Update the quotation dependency and trap text accordingly."
+        }
+      ],
+      "rejected": [
+        "Feedback 2: The reported problem is located in the dossier (phd_progress_report.md) and dossier.yaml, which are provided as inputs and not generated by me in this task.",
+        "Feedback 3: The reported problem is located in the dossier (phd_progress_report.md), which is provided as input and not generated by me.",
+        "Feedback 4: The reported problem is located in the dossier registry (dossier.yaml), which is not generated by me.",
+        "Feedback 5 (partial): I fixed the brief to use a fictional provider (NimbusCompute), but I cannot fix the references to AWS and Google Cloud in resources_and_agreements.md because I do not author the dossier files."
+      ]
+    },
+    {
+      "draft": {
+        "brief": "# Notes for the concept note\n\n**Date:** 1 October 2026\n\nHere are my notes for the foundation concept note. I want to pitch the stretch goal of my PhD: applying our L1-minimisation sparse-recovery framework to historical observing logs.\n\nThe MSO logbooks from 1998 to 2010 suffer from severe missingness—observers often failed to record null detections or specific weather conditions, creating a massive selection bias. We want to model this missingness as a masking operator and reconstruct the underlying observing conditions to see if we can distinguish the true historical weather signal from the artefacts of selective recording. Prof. Hrubá will be my faculty sponsor and oversee the work.\n\nFor the practical side:\n- Let's request EUR 115,000 for an 18-month project. This will cover my time, Prof. Hrubá's supervision, and external compute costs.\n- We will process the raw logbook scans locally on our departmental workstation as required, but we should propose running the public simulated frames on NimbusCompute to speed things up.\n- I haven't managed to get a formal quotation from NimbusCompute yet, so just use a rough planning estimate for the compute budget.\n\nPlease draft the concept note based on this. Keep it strictly within the 3-page limit.",
+        "traps": [
+          {
+            "type": "T01",
+            "description": "The brief suggests requesting EUR 115,000, but the call sets a \"Maximum award\" of \"EUR 100,000\".",
+            "expected_behaviour": "The requested funding must be at most EUR 100,000 total including indirect costs, with an indicative budget allocation."
+          }
+        ],
+        "method_profile": null
+      },
+      "maintainer_edit": "names renamed in the dossier after the in-depth review: Hrubá -> Vranokvětová",
+      "date": "2026-10-31"
+    },
+    {
+      "draft": {
+        "brief": "# Notes for the concept note\n\n**Date:** 1 October 2026\n\nHere are my notes for the foundation concept note. I want to pitch the stretch goal of my PhD: applying our L1-minimisation sparse-recovery framework to historical observing logs.\n\nThe MSO logbooks from 1998 to 2010 suffer from severe missingness—observers often failed to record null detections or specific weather conditions, creating a massive selection bias. We want to model this missingness as a masking operator and reconstruct the underlying observing conditions to see if we can distinguish the true historical weather signal from the artefacts of selective recording. Prof. Vranokvětová will be my faculty sponsor and oversee the work.\n\nFor the practical side:\n- Let's request EUR 115,000 for an 18-month project. This will cover my time, Prof. Vranokvětová's supervision, and external compute costs.\n- We will process the raw logbook scans locally on our departmental workstation as required, but we should propose running the public simulated frames on NimbusCompute to speed things up.\n- I haven't managed to get a formal quotation from NimbusCompute yet, so just use a rough planning estimate for the compute budget.\n\nPlease draft the concept note based on this. Keep it strictly within the 3-page limit.",
+        "traps": [
+          {
+            "type": "T01",
+            "description": "The brief suggests requesting EUR 115,000, but the call sets a \"Maximum award\" of \"EUR 100,000\".",
+            "expected_behaviour": "The requested funding must be at most EUR 100,000 total including indirect costs, with an indicative budget allocation."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1; Task 3",
+          "where": "brief.md: “public simulated frames on NimbusCompute”; “formal quotation from NimbusCompute”.",
+          "problem": "Nimbus Compute is a real UK cloud/DevOps consultancy using nimbuscompute.co.uk. Removing the space does not distinguish the fictional prospective compute supplier from that company. This collision was introduced in a task brief, so the repair belongs here.",
+          "fix": "Replace both instances of NimbusCompute with “Nivorva Compute” (exact-phrase searched with no result on 2026-10-31), or use “an external compute provider” in both places. Retain the absence of a quotation and explicit planning-estimate status.",
+          "evidence": [
+            "https://nimbuscompute.co.uk/about-us",
+            "data/public/tasks/pub2-foundation-signals-close/brief.md"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 1",
+          "where": "brief.md: “I want to pitch the stretch goal of my PhD ... historical observing logs”; task.yaml: “fit_level: close”.",
+          "problem": "The nominal close task uses the same archival-weather reconstruction pivot as pub2-foundation-records-stretch. The dossier explicitly calls that a stretch goal: the imaging theorem does not establish sparsity of historical conditions or identify outcome-dependent recording. The paired tasks consequently lose the intended close-versus-stretch distinction and add the same untested domain transfer to both.",
+          "fix": "Keep fit_level close and the T01 budget trap. Replace the first two substantive paragraphs with: “I want to build directly on my sparse-source imaging work. Test whether our recovery method remains useful when astronomical frames have missing pixels or interrupted exposures and the PSF is imperfectly calibrated. Start with controlled masking of synthetic frames, compare against a simple baseline, and quantify missed sources, false detections and uncertainty under scattered losses and gaps near sources. Use telescope-archive data as a prospective observational test within our access agreement. Prof. Vranokvětová will sponsor and oversee the work.” Change “raw logbook scans” in the practical bullet to “raw telescope frames”. Retain EUR 115,000/18 months, local raw processing and optional public-simulation compute with a labelled estimate. Leave historical-log selection bias to records-stretch.",
+          "evidence": [
+            "data/public/tasks/pub2-foundation-signals-close/brief.md",
+            "data/public/tasks/pub2-foundation-records-stretch/brief.md",
+            "data/public/dossiers/v2-sparse-sky-doctoral-project/phd_progress_report.md",
+            "tools/authoring/design_v2.md"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub-aei-pollinator-stretch",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 1",
+      "where": "brief.md, paragraph 3",
+      "problem": "The brief instructs the applicant to apply as Type A ('como soy tipo A y HEATPOL fue tipo A también'). However, the call states that for Type A, 'no se puede haber sido IP durante más de un año en las modalidades del anexo V o equivalentes'. The PI has been the sole PI of HEATPOL (a PID project) since September 2023, which is more than one year prior to this new call. Therefore, the PI is ineligible for Type A and must apply as Type B. Because this is not a registered trap, the brief forces the AI into an eligibility violation or an unprompted correction.",
+      "fix": "Change the brief to acknowledge the transition to Type B. For example: 'Para el presupuesto, como ya llevo más de un año como IP de HEATPOL me toca pedir el tipo B. Creo que podemos pedir 75.000 € de costes directos, que encaja bien en la banda de ese tipo.'"
+    }
+  ]
+}

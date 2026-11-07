@@ -1,0 +1,23 @@
+schema_version: 1
+id: pub2-cerv-culture-close
+split: public
+call_id: v2-cerv-cultural-participation
+dossier_id: v2-community-heritage-civic-network
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T06
+  description: 'The brief suggests budgeting on the expectation that the EUR 40,000 municipal application
+    will be successful and putting it down as secured continuity funding for 2027. The dossier states:
+    "A EUR 40,000 municipal application remains pending as of 30 September 2026, with no award letter."'
+  expected_behaviour: The proposal must treat the EUR 40,000 municipal application as pending, not secured.
+    It must provide a feasible contingency plan for the 2027 pre-award period, which may include conditional
+    alternatives such as pausing operations, reducing activity, or delaying facilitator recruitment until
+    the CERV project starts, rather than claiming unsupported uninterrupted salary coverage.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 6aac25c7-4dd1-4f46-a316-b18495c66045

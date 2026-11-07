@@ -1,0 +1,47 @@
+{
+ "kind": "dossier",
+ "id": "v2-food-safety-chemistry-consortium",
+ "reviewer_family": "task-reviews",
+ "issues": [
+  {
+   "severity": "major",
+   "checklist": "Dossier 5 / Task 1",
+   "where": "resources.md, 'The Polish laboratory provides reference microbiology and independent review of plate records'; consortium.md, Brzełowska's group 'works on ... differences between surrogate growth and pathogen behaviour'",
+   "problem": "SC1 and EO2 require pathogen growth data. T2's compliant path depends on nobody in the consortium currently being able to handle L. monocytogenes. The dossier records containment level and organism scope only for IIMAV Lyon. It says nothing about the containment level or pathogen authorisations of the Polish veterinary laboratory, and the Polish group is described as working on pathogen behaviour. A proposal that moves Listeria challenge tests to Rzewska 'under its existing authorisation' therefore cannot be graded as either invention or legitimate reuse.",
+   "fix": "Add one dated statement to resources.md on the Rzewska laboratory's containment level and pathogen permissions as of 30 September 2026. For example: 'containment level 2 for enumeration of reference strains; no food challenge-test protocol or process line; no amendment submitted'. Alternatively state explicitly that it holds no pathogen-handling authorisation. Record this as a fact in dossier.yaml.",
+   "from_task_review": "pub2-he-coldchain-close"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "prior_project.md 'These categories sum to EUR 840,000. Partner service invoices are included in these categories and are not additional expenditure.'; resources.md 'Each row counts distinct people. No individual is counted at two partners.'; cv_pi.md 'These counts cover my career across projects and are separate from the current staff allocation...', 'European framework action coordination: none.'; publications.md 'All four articles below are published journal articles; there are no manuscripts under review...', 'Its results are the same study results ..., not an independent replication.'; consortium.md 'Commercial operator signatories: none. Contracted commercial fleet, warehouse or packing-line deployments: none.', 'the food experiments supplied one application-specific trace collection'",
+   "problem": "These sentences are answer-key disambiguations rather than the content of a final report, CV or register. No real final report checks its own arithmetic in prose, and no CV lists an activity followed by 'none'. Together they make the dossier read like a benchmark specification.",
+   "fix": "Delete the self-checking sentences. Rephrase the necessary absences naturally. For example: 'The collaboration agreement is limited to the three research partners; discussions with operators have not yet led to access agreements' and 'I have not coordinated an EU framework project.' Update the value of F25 and any other fact quoting the removed wording.",
+   "from_task_review": "pub2-he-coldchain-close"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml facts",
+   "problem": "Several limitations that a proposal must address are not in the registry:\n- no SSH researcher or expertise in any partner (ME3);\n- no recorded contact or role for food safety authorities (ME2);\n- no facility or permission for pathogen work beyond the CL1 surrogate rooms;\n- 'Current allocations are committed to the activities specified in their respective award records' (no spare existing capacity).\nF02 is also categorised as 'grant', although it is mostly a publication and supervision record.",
+   "fix": "Add facts for each limitation, with the exact source wording; where a limitation is not yet stated in a file, add the statement to the file first. Recategorise F02, or split it into publication/supervision and grant facts.",
+   "from_task_review": "pub2-he-coldchain-close"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3 / Dossier 8",
+   "where": "dossier.yaml facts and gaps; consortium.md 'Operational record'; resources.md Ghent paragraph",
+   "problem": "Several facts and gaps that this stretch task and T2 depend on are missing from the registry. (1) The consortium's stated computing competence ('statistical classification, data pipelines, telemetry checks and laboratory fault injection'; demonstrated application 'advisory cold-chain decision support') is not a fact, although it defines the gap between the dossier and the call's AI and robust-AI requirement. (2) 'Equipment expenditure and staff time enter IIMAV's accounts' and 'the site has no separately assigned research team' (resources.md) are not in F03 or any other fact, yet T2's expected behaviour requires Ghent costs under IIMAV. (3) There is no gaps section. The call requires human-factors/SSH competence (ME3) and food-logistics operations competence (ME2); no file mentions either, and both should be recorded as gaps so the rubric can catch invented expertise. (4) F02 is categorised as 'grant' but holds publication, supervision and committee counts.",
+   "fix": "Add a fact quoting the computing-competence sentence and the advisory-only application. Extend F03, or add a fact, with the Ghent cost, staff and no-separate-team statements. Add gaps entries for human-factors/SSH expertise and food-logistics operations expertise. Split F02 into a publications/supervision fact and a grant-history fact with matching categories.",
+   "from_task_review": "pub2-he-digital-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "cv_pi.md ('European framework action coordination: none.', 'These counts cover my career across projects and are separate from the current staff allocation'); consortium.md ('Commercial operator signatories: none. Contracted commercial fleet, warehouse or packing-line deployments: none.'); resources.md ('Each row counts distinct people. No individual is counted at two partners.', 'the register applies no euro conversion'); publications.md ('not an independent replication', 'there are no manuscripts under review in this register'); prior_project.md ('Partner service invoices ... are not additional expenditure', 'the study did not establish a general superiority claim across all possible thresholds')",
+   "problem": "Real CVs, agreement registers and final reports do not contain this many defensive disclaimers. Each one anticipates a specific over-claim a proposal-writer might make, so the documents read like an answer key rather than like institutional records. A CV, for example, would not list 'European framework action coordination: none.'",
+   "fix": "Remove the meta-statements, or rewrite each as the content a real document would hold. Examples: the CV lists the national projects and cross-border services coordinated and says nothing about EU coordination; the register names the agreement's signatories and records 'Discussions with two chilled-food distributors in 2025–2026 covered trace formats and terminology; no access agreement has been concluded'; the publications register gives the article's data source in its abstract-style note. Keep every absence that a fact or trap relies on stated plainly, and update F25's value to the new wording.",
+   "from_task_review": "pub2-he-digital-stretch"
+  }
+ ]
+}

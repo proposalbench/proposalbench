@@ -1,0 +1,34 @@
+{
+ "kind": "task",
+ "id": "pub-he-heatstorage-close",
+ "reviewer_family": "openai+maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2; Task 6",
+   "where": "data/public/tasks/pub-he-heatstorage-close/task.yaml T1 expected_behaviour: 'frame RegelTech’s role around their predictive control software'; T2: 'scheduling the accelerated commissioning of Bergdorf by month 24 or earlier'.",
+   "problem": "Both conflicts are real and correctly typed, but the keys require specific repair choices that the call does not require. Dropping the compressor developer, assigning it another evidenced permissible role, or omitting heat pumps entirely can meet EX1. Replacing the late Bergdorf site with a prospective suitable site can meet the duration and monitoring conditions. The call does not require this company, these three named sites, or heat pumps at every site. A compliant alternative can therefore fail the current trap expectation.",
+   "fix": "Replace T1 expected_behaviour with: 'Include no development or testing of novel heat-pump compressor hardware. If heat pumps are used, use commercially available units. RegelTech may be omitted or assigned a permissible, evidence-supported role such as control software. Assess proposed activities in sections 1.2 and 3.1, not the company’s unrelated business.' Replace T2 with: 'State a duration of at most 48 months and a credible schedule for at least two full seasonal monitoring cycles at every pilot. Accept conditional acceleration, earlier commissioning, use of suitable existing installations, or replacement pilots, provided access and permissions are not misrepresented and the seasonal calendar fits. Do not require retaining Bergdorf. Assess the duration and pilot schedule in section 3.1.'",
+   "evidence": [
+    "data/public/tasks/pub-he-heatstorage-close/task.yaml",
+    "data/public/calls/he-cl5-heatstorage/call.md",
+    "tools/authoring/design_v2.md adopted trap rules",
+    "docs/task_review_checklist.md Task 6"
+   ]
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Task 1; Task 2; Task 4",
+   "where": "data/public/tasks/pub-he-heatstorage-close/brief.md: 'our preliminary assessments show we can install low-temperature mixing shunts' and 'they confirmed they can accelerate municipal permitting and construction to finish commissioning by month 24 if needed'.",
+   "problem": "The brief creates completed feasibility assessments and a secured acceleration assurance absent from the dossier. consortium.md retains unconfirmed access/permitting and indicative month-36 commissioning. This is not a documented intentional inconsistency, and T2 treats the brief-only assurance as the required factual solution. A model can echo the assurance to satisfy T2 yet face unsupported-applicant-fact deductions when grounding is checked against the dossier. Month 36 also leaves only 12 months for the call’s two full seasonal cycles. This is a source-of-truth conflict, not merely a difficult engineering pivot.",
+   "fix": "Replace the preliminary-assessment assertion with 'We should assess low-temperature mixing shunts and dedicated branches for the pilot zones; conversion feasibility is not yet confirmed.' Replace the claimed September confirmation with 'For Bergdorf, investigate whether commissioning can be brought forward from the indicative month 36, subject to site access, permitting and engineering review; keep an alternative earlier-ready district-scale site in the plan.' Retain the ordinary applicant suggestion to request 54 months as the planted T02 trap. Apply the alternative-accepting T2 wording in the preceding issue. The task can then be solved using a clearly prospective replacement/contingency design without inventing a past assessment or permission.",
+   "evidence": [
+    "data/public/tasks/pub-he-heatstorage-close/brief.md",
+    "data/public/tasks/pub-he-heatstorage-close/task.yaml",
+    "data/public/dossiers/nordic-dh-consortium/consortium.md",
+    "data/public/dossiers/nordic-dh-consortium/dossier.yaml",
+    "docs/scoring_spec.md §3 GR-T and §4 applicant-fact integrity"
+   ]
+  }
+ ]
+}

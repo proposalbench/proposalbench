@@ -1,0 +1,26 @@
+{
+ "reviewer": "task reviews",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 7",
+   "where": "cv_pi.md, prior_project.md, publications.md, and resources_and_team.md",
+   "problem": "These documents have no document date or explicit status cutoff. Appointment dates ending in 'Present', current staffing and equipment claims, the absence of a support letter, and publications dated only '2026' cannot be anchored unambiguously to September 2026.",
+   "fix": "Date each document no later than September 2026 and state its status cutoff. Confirm publication status by that cutoff and refresh the current personnel, collaboration, and resource statements."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "prior_project.md, 'School Schedules'; publications.md, first abstract; dossier.yaml, F15",
+   "problem": "The report describes normal in-person schooling in Fall 2022, pandemic-driven hybrid or remote schooling in Fall 2023, and a return in Fall 2024. This is not a credible default account of US pandemic schooling during those years. No local event explains the unusual reversal, yet it supplies the explanation for disrupted sleep patterns and a central limitation of the results.",
+   "fix": "Either retain the wave dates and provide a specific, plausible local explanation for the schedule changes, or revise the schedule history and corresponding interpretations. Describe age-versus-calendar-time confounding separately; that limitation exists in this single cohort without invoking pandemic closures."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml, facts registry",
+   "problem": "The registry omits salient methodological limitations and quotable resources. In particular, it does not record the permissive wear-time rule, acceptance of incompletely captured sleep intervals, exclusion of missing epoch pairs from SRI, or the resulting coverage bias and overstated monitoring yield. Other omissions include the completed grant dates, the $45,000 seed award, and the available computing and secure-storage resources. F15 records calendar confounding but does not cover these separate measurement limitations.",
+   "fix": "Add source-linked facts for the processing rules and their stated limitations, grant periods and amounts, and material existing computing resources. Preserve the distinction between nominal valid-night yield and continuous coverage rather than representing 11.8 nights as an unqualified monitoring success."
+  }
+ ]
+}

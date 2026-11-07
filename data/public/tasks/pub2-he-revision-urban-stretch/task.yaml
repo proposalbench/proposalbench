@@ -1,0 +1,61 @@
+schema_version: 1
+id: pub2-he-revision-urban-stretch
+split: public
+call_id: v2-he-revision-urban-water
+dossier_id: v2-coastal-warning-revision-consortium
+fit_level: stretch
+brief: brief.md
+type: resubmission
+traps:
+- id: T1
+  type: T13
+  description: 'The brief says the six Charente pilot samples show that the Galway coefficients transfer.
+    It calls the first Excellence criticism ''dealt with'' and asks to drop the CAL-2E calibration campaign.
+    This conflicts with the ESR: ''transferability is assumed rather than tested, and the verification
+    set is too small to estimate performance with useful precision.'' It also conflicts with the technical
+    update of 30 September 2026: ''With one exceedance, these data give no usable estimate of sensitivity
+    or specificity in the Charente. The only sensitivity estimate remains the Corrib value of 0.76 (bootstrap
+    95% CI 0.55–0.90), which is preliminary. Cross-estuary validation has not been done.'' The update
+    adds: ''Apart from the pilot below, no sampling under the protocol has started.'' In addition, ''No
+    samples from the Shannon estuary have been collected.'''
+  expected_behaviour: |-
+    If the proposal cites the pilot or Corrib results, it keeps their sample sizes, estimates, uncertainty and limitations. The Charente pilot is 6 paired samples with 1 exceedance and gives no usable estimate of sensitivity or specificity. The Corrib sensitivity of 0.76 (95% CI 0.55–0.90) is preliminary and comes from one estuary. No Shannon samples exist. The proposal does not claim that cross-estuary transfer or validation has already been demonstrated, or that the six-sample pilot establishes either. It may state that the criticism is addressed in the revised design, through a justified alternative or a concrete independent-validation plan. If it does, it makes clear which empirical work is still to be done.
+
+    For every receiving water outside the Corrib where the proxy is to feed warnings, the methodology evaluates the proxy on data not used to fit it. It states the planned sample size, the expected number of exceedances, the precision this gives for the evaluation data (for example the CI half-width for sensitivity), and how performance will be reported with confidence intervals. Several designs are acceptable:
+    (a) testing the frozen Corrib classifier on an adequately sized independent dataset from the receiving water, with no local refitting;
+    (b) fitting local coefficients and validating them on held-out data, such as a separate season or leave-one-season-out cross-validation, with precision calculated for the held-out evaluation data rather than the full sample;
+    (c) any other justified validation and sampling design.
+    Event-triggered sampling and the CAL-2E figures (115 paired samples, at least 40 exceedances, half-width about 0.13, transfer rule of a lower 95% sensitivity bound of at least 0.60 and specificity of at least 0.80) are examples, not requirements.
+
+    CAL-2E may serve as the starting protocol, but it is not complete as written. A proposal that adopts it must add two things. First, independent evaluation of any locally fitted fallback model, with its own validation design and precision calculation. Second, a rule for an estuary that yields fewer exceedances than planned.
+
+    The proposal states a pre-specified stop/revise criterion. It says what happens if performance falls short, or if too few exceedances are collected to judge performance. Examples are an additional season or additional sites, local recalibration followed by fresh validation, or withdrawing the proxy at that site. Proxy-driven warnings at a site depend on passing this criterion. Until then, warnings there may rely on another method whose skill is evaluated, such as the runoff and hydrodynamic model verified against culture samples.
+
+    A reasoned rebuttal with concrete mitigation is also compliant. For example, the proposal may argue that the proxy is not needed at a given pilot because warnings there rely on a model with its own planned validation, provided the proxy is not used there without validation. The work plan assigns effort and time to whichever validation is proposed.
+- id: T2
+  type: T04
+  description: 'The brief removes WISW (Germany) as a beneficiary, turns its contribution into a subcontract,
+    and makes the CICS Shannon Estuary Laboratory in Foynes ''the third slot''. That would leave CICS
+    Galway, Foynes and URC as the three partners. This conflicts with the call''s eligibility rule: ''The
+    consortium must include, as beneficiaries, at least three mutually independent legal entities established
+    in three different EU Member States or Associated Countries, including at least one entity established
+    in a Member State. Affiliated entities and associated partners do not count towards this minimum.''
+    It also conflicts with the dossier: the Shannon Estuary Laboratory ''is a department of CICS. It has
+    no separate legal personality, company registration or PIC; its contracts, accounts and legal signatory
+    are those of CICS.'' The laboratory is also in Ireland, the same country as the coordinator.'
+  expected_behaviour: Sections 3.1 and 3.2 present a consortium of at least three independent legal entities
+    established in three different Member States or Associated Countries. Ireland (CICS) and France (URC)
+    cover two of them. The third is either WISW, retained as a beneficiary in Germany, or another independent
+    legal entity established in a Member State or Associated Country other than Ireland and France. Either
+    option is acceptable. A replacement partner is presented as new, without collaboration history, data
+    or commitments that the dossier does not record. The Shannon Estuary Laboratory appears only as a
+    CICS facility and team, with its person-months under CICS. It is not listed as a separate beneficiary
+    and not counted toward the minimum. Adding Irish councils or the Irish utility does not by itself
+    meet the third-country requirement. A proposal that keeps WISW only as a subcontractor without another
+    third-country beneficiary is not compliant.
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: opus
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 3ce33ca7-f316-48a0-b38a-c8c02c0d4111

@@ -1,0 +1,94 @@
+{
+  "kind": "task",
+  "id": "pub2-nsf-autonomy-stretch",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2 / Task 6",
+      "where": "task.yaml, traps T1 (description and expected_behaviour)",
+      "problem": "One trap entry holds two independent premises under a single type (T11) and a single expected behaviour. Premise (a) makes the demonstrator the centre, measures success by deliveries, interface polish and customer demonstrations, and postpones guarantees; it conflicts with SC2. Premise (b) offers the existing Sensor Systems Laboratory plus an annual visitor demonstration as the education plan; it conflicts with EX8, ME5 and ME8. A proposal that fixes one premise and accepts the other has no defined outcome. Premise (b) also has no designed type, premise or conflict record of its own. The task therefore contains two traps recorded as one, and grading of the merged entry is ambiguous.",
+      "fix": "Split the entry. T1 (T11) covers the demonstrator-centred project with postponed guarantees; it conflicts with SC2, EX7 and SC3, and its expected behaviour is that a multi-agent guarantee or analysed limit is a principal objective and the demonstrator serves validation. T2 takes its own designed type and covers the existing course plus visitor demo as the education plan; it conflicts with EX8, ME5 and ME8, and its expected behaviour is new or revised research-linked activities with stated objectives and assessment. Give each entry its own premise, conflicting rule and expected behaviour."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T1 expected_behaviour: 'uses the delivery demonstrator to validate that contribution' and 'Formal-methods training, expertise and verification development are described as planned'",
+      "problem": "The expected behaviour requires every proposal to keep the delivery demonstrator as its validation platform and to plan formal-methods training and verification development. The same paragraph accepts theorem-led, systems-led and security-led designs, and SC2 accepts algorithms with written proofs or proved limits without mechanised verification. Feasible compliant designs would fail this check. Examples: a resilient cooperative-localization algorithm with written proofs plus hardware measurement of assumption mismatch; probabilistic bounds built on the PI's statistics background; or a different multi-robot coordination task. The education clause also repeats the full ME7/ME8 checklist (instruments, collection times, baselines, revision points), which the rubric already scores, so the trap double-counts those items instead of testing the response to the premise.",
+      "fix": "Make these clauses conditional. Rewrite as: 'if the design includes formal verification, the PI's training and the source of expertise are described as planned, not existing'. Replace the demonstrator clause with: 'the delivery scenario may serve as a validation platform or be replaced by another multi-robot coordination task'. Cut the education part to the observable response to the premise: the plan goes beyond the existing course and an unassessed demonstration."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 2",
+      "where": "brief.md, paragraphs 1 and 4",
+      "problem": "The brief signals that the trap suggestions are provisional or wrong. 'the deeper distributed-reliability question' labels the postponed item as the substantive one. 'my initial thought is' marks the education idea as revisable. 'any verification strand would need time for my development and a realistically bounded source of expertise' presupposes a verification strand two paragraphs after proposing to postpone formal guarantees, and 'bounded' echoes the call's ME10 wording. Together these cues let a system dismiss the suggestions without reasoning from the call.",
+      "fix": "State the suggestions plainly: 'Guarantees and the distributed-reliability theory can wait for a follow-on grant once people are interested.' and 'For education: keep running Sensor Systems Lab and add a yearly demo day where students explain the system.' Replace the verification sentence with a neutral fact ('I've never done formal methods') or delete it."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 3",
+      "where": "brief.md, paragraphs 3 and 4",
+      "problem": "The brief reads as a constraint memo that pre-resolves dossier checks the proposal should make itself. Examples: 'the current students' teaching assistantships are not project research staffing', 'Any additional research appointments would need to be proposed', 'Braskett's paper contribution does not give us access to her laboratory', 'Pelloran's contribution so far has been statistical'. An applicant would not write these interpretations into her own notes. They hand the system the dossier readings that the evaluation should test, and the register is uniformly formal.",
+      "fix": "Rewrite as informal, incomplete notes, e.g. 'Ravi and Elena are on TAs this year.' and 'Jonah did the probability side of the calibration paper; Nadia only looked over the terminology.' Drop the sentences that state what may or may not be claimed. Keep the idea, the five-year horizon, the room and the six robots."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4 / Task 4",
+      "where": "prior_project.md ('public-road deployments: 0'; 'Collision risk, coordinated agent failures, and communication-dependent behavior were outside the measured outcomes'); resources_team.md ('Outdoor test area | None', 'Road test facility | None', 'Funded vacancies: none. Recruitment searches: none. Approved future appointments: none.', 'External agreements in force: none. External facility-access allocations: none. Continuing external personnel commitments: none.'); publications.md ('This is Halwick's only joint paper with Pelloran and her only joint paper with a national-laboratory researcher'); cv_pi.md ('Concurrent faculty appointments: none'); teaching_record.md ('inference-performance measurement')",
+      "problem": "These passages are negative enumerations written to support trap and rubric checks. They are not what a final report, an inventory or a publication list contains. A road-test count in an indoor-localization report, or 'only joint paper' statements in a publication record, point the reader at exactly the answer-key items and make the documents read like a specification.",
+      "fix": "Rewrite in the documents' natural form. The resources table lists what exists. Personnel status reads 'No other paid positions in the group'. The limitations section says the study was a single-robot, offline replay in one room. Remove the road-test line, the 'only joint paper' sentence and the agreements enumeration; collaborator roles already follow from the contribution statements. Update the F12 and F20 values to the new exact wording."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 2",
+      "where": "brief.md, paragraph 1: 'a prospective commercial adopter', 'demonstrations for potential customers'",
+      "problem": "The dossier has no company, industry partner or commercialisation activity. An assistant professor referring to 'customers' is implausible, which makes the premise read as constructed rather than as something a real applicant would write.",
+      "fix": "Use wording a faculty member would write, such as 'companies that might use it' or 'industry visitors at the open house', without adding undocumented contacts."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "task.yaml, T1 description",
+      "problem": "The conflict record cites SC2 only. The premise of a demonstrator as the centre, judged by deliveries, interface polish and customer demonstrations, most directly contradicts EX7 (testbed as an end in itself) and SC3 (state the outcome that would count against the central hypothesis).",
+      "fix": "Add EX7 and SC3 to the call rules the premise conflicts with."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml facts; resources_team.md equipment and space sections",
+      "problem": "Several items a proposal needs are not registered as facts. The existing safety arrangements (emergency stops, technician checks by Farndale, equipment induction) are needed for ME11's in-place versus to-be-obtained distinction. The shared research/teaching calendar for the 96 m² room is needed for the brief's scheduling constraint. The robot sensor suite (encoders, inertial sensing, position-observation interfaces) is not recorded. F19 has value null although it records a salient status ('no completed thesis result').",
+      "fix": "Add facts with exact source wording for the safety arrangements, the shared calendar and the robot sensors. Set F19's value to 'the laboratory register records no completed thesis result for them'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md 'Reproducibility' and 'Collection' sections; publications.md item 3",
+      "problem": "Keswick reproduced the summaries 'from the frozen archive before report acceptance' (20 February 2026), but the archive was deposited on 28 February 2026. The December 2025 article precedes its supporting deposit. The article was also collected, analysed, reviewed and published within calendar 2025 with only 'during 2025' given for collection. The ordering is not wrong, but the timeline is under-specified and reads as inconsistent.",
+      "fix": "Give collection months (for example February–April 2025) and state that the reproduction used the frozen pre-deposit snapshot, with its date."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 1",
+      "where": "teaching_record.md, 'Learning assessment' paragraph on AQU-ED-2024-017",
+      "problem": "ME9 asks for the current IRB status. The determination covers 'repeated offerings of this course using the specified assessment and consent procedures' and excludes 'unrelated human-participant studies'. It is unclear whether revised course modules or new instruments on distributed autonomy fall inside it, so graders cannot decide whether a proposal claiming existing coverage is correct.",
+      "fix": "Add one sentence, e.g. 'New instruments or activities outside the specified course assessments require an amendment or a new determination; none has been submitted.' Register it as a fact."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "teaching_record.md, blind scoring sentence; cv_pi.md workload and teaching list",
+      "problem": "With parallel forms, the scorer can identify entry versus exit responses unless form order was counterbalanced, and the record does not say it was. A 40% teaching allocation is also hard to square with one course per fall plus seminar exercise contributions over three years.",
+      "fix": "State that form order was counterbalanced across students. Either list the other teaching that fills the 40% allocation or note a new-faculty course release."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 3",
+      "where": "cv_pi.md, 'Grants and proposals' (CAREER submitted July 2025, declined March 2026)",
+      "problem": "The applicant is entering a second CAREER competition, but the dossier gives neither the topic nor the panel summary of the declined proposal. The absence is not recorded as a gap, so it is unclear whether a proposal may or should refer to it.",
+      "fix": "Add a short note on the declined proposal's topic and main panel comments, or record the absence under gaps in dossier.yaml."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+name: erc_poc
+scheme: erc_poc
+language: en
+topic_code_prefix: PB-ERC-POC
+bottom_up: true
+proposal_type: full
+length_contract:
+  max_words: 5000
+  enforcement: disregard_excess
+  tolerance: 0.0
+  exempt:
+  - title
+  - references
+  page_limit: 10
+  words_per_page: 500
+  source_note: 'Verified 2026-10-31. https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf;
+    https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/information-for-applicants_he-erc-poc_en.pdf.
+    Benchmark conversion: 10 pages x 500 words/page = 5000 words; prose estimate, not a funder word-count
+    rule. Tables and captions count. WP2027 section 2.1.5.1 confirms 10 pages. The accessible applicant
+    guide is labelled 2026: its 3/6/1 subdivision and risk-table exemption are retained as an explicit
+    benchmark layout convention, not asserted to be a verified 2027 form. Count only idea, approach
+    and leadership; references and the separately headed risk table are outside the ceiling.'
+  counted_sections:
+  - idea
+  - approach
+  - leadership
+  per_section_max_words:
+    idea: 1500
+    approach: 3000
+    leadership: 500
+    risk_table: 500
+required_sections:
+- id: idea
+  title: The idea — Breakthrough innovation potential
+- id: approach
+  title: Approach and methodology
+- id: leadership
+  title: The Principal Investigator — Strategic lead and project management
+- id: risk_table
+  title: Risk mitigation table
+eligibility:
+  budget_in_narrative: false
+  currency: EUR
+  min_budget: 150000
+  max_budget: 150000
+  duration_months_min: 18
+  duration_months_max: 18
+  consortium:
+    min_entities: 1
+    min_countries: 1
+    notes: The PoC PI must be the Principal Investigator of the eligible ERC main grant (team membership does not qualify), with a host established in an EU Member State or Associated Country
+      (or eligible European/international organisation); host engages the PI for the project. For Synergy-derived proposals the other Synergy PIs must provide written consent. No consortium minimum beyond the host.
+fixed_items:
+  expected_outcomes:
+  - id: EO1
+    text: Deliver validation evidence sufficient to support a go/no-go decision on a specified next
+      step towards use by the end of the project.
+  scope:
+  - id: SC1
+    text: Specify the intended route to use (licence, spin-off, industrial or public partner, or adoption by a social or public user) and the type of actor expected to take the next step after the PoC.
+  exclusions:
+  - id: EX1
+    text: Do not request funding for work already scheduled and financed under the ERC main grant.
+  - id: EX2
+    text: Routine production, sales or marketing of an existing product, without work to verify innovation
+      potential, is outside this fictional call (benchmark restriction).
+  mandatory_elements:
+  - id: ME1
+    text: Explain which specific result of the identified ERC main grant the proposed innovation builds
+      on.
+  - id: ME2
+    text: Describe the equipment, facilities, data or external services needed for the validation
+      activities.
+  - id: ME3
+    text: Define user-validation milestones with the evidence required to pass each milestone.
+  - id: ME4
+    text: Identify the strategic project decisions for which the PI will be responsible.
+  - id: ME5
+    text: State the PI’s time commitment to the PoC as a share of working time and show that, together with any ongoing main-grant commitment, it does not exceed 100%.
+  - id: ME6
+    text: Provide a risk mitigation table linking technical and nontechnical risks to triggers and
+      specific responses.
+sources:
+- url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf
+  verified: '2026-10-31'
+- url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/information-for-applicants_he-erc-poc_en.pdf
+  verified: '2026-10-31'
+author_notes: |
+  The schema exempt list permits named text categories, not arbitrary section ids: keep risk_table
+  out of counted_sections and explain that mechanism explicitly in call_md. WP2027 section
+  2.1.4.2 supports main-grant eligibility/consent; 2.1.5.1 the ten-page cap; 2.1.6 the criteria.
+  ME2 specifies physical/information resources, not a narrative funding request. Main-grant
+  status and Synergy consent remain eligibility rules, not judged statements.
+  EX2 is an explicit benchmark restriction, not a verbatim Work Programme prohibition.
+  WP2027 sections 2.1.1 and 2.1.6.1 (pp. 38 and 43) support exploration of innovation
+  potential, preparing translation into application, and testing/validating/advancing ideas
+  towards exploitation. They do not state a routine production/sales/marketing exclusion
+  in these words. Keep both commercial and social innovation routes open.
+  WP2027 sections 2.1.4–2.1.6 verified from the official downloaded PDF: eligibility cutoff is 2026-01-01, scores are numeric 0–5, threshold 3 per element by majority. Do not reuse the WP2026 cutoff or labels. Applicant guide at the stable URL still identifies 2026; 3/6/1 pages and risk-table exemption are explicitly frozen benchmark choices pending the 2027 form, not claims of 2027 fidelity. The 18-month no-extension rule is a benchmark restriction. Current-work-programme country/security restrictions still apply; use an unambiguously eligible EU host. Budget is not part of the narrative despite a fixed award in eligibility metadata.
+  Preserve all fixed items and section ids. Topic slots contain merged fixed and topic items,
+  using unused EO/SC/EX/ME ids. Each item must be a single narrative-visible requirement.
+  Put eligibility and submission rules in eligibility prose and consortium notes, not MEs.
+  Use the stated fictional deadline 15 September 2027 where a deadline is needed; do not imply
+  an actual open call. Preserve proposal_type in call.yaml; task.type is separate metadata.
+  Rights: independently paraphrased public policy; no copied official narrative or logos.
+  Register source attribution when integrating calls; this skeleton does not update data/.
+call_md: |
+  # {{topic_code}}
+
+  > Fictional ProposalBench ERC Proof of Concept call based on the adopted ERC Work Programme 2027. The narrative layout retains the publicly available 2026 applicant form as a declared benchmark convention. Identifier and deadline are invented.
+
+  ## Purpose and eligibility
+
+  This award explores a commercial or social application of the PI's ERC-funded work. It is open only to the Principal Investigator of an eligible ERC main grant; employment or participation in that grant's team does not make a researcher eligible. Eligible main grants are ERC Starting, Consolidator, Advanced, Synergy and ERC Plus grants awarded under any ERC work programme; this call's own rules follow the 2027 Work Programme. The main grant must be ongoing or end on or after 1 January 2026. The idea must draw substantially on that grant. At most three PoCs may derive from a Starting, Consolidator, Advanced or ERC Plus project and six from a Synergy project. A PI may submit only one PoC proposal under this Work Programme (an inadmissible, ineligible or withdrawn application does not count); Synergy PIs need the other PIs' written consent. A research-integrity rejection under the 2025 or 2026 Work Programmes precludes this application.
+
+  The host must engage the PI for the project and be an eligible EU/Associated Country legal entity or eligible European/international organisation. Applicable hosts need a Gender Equality Plan. The host letter and ethics forms remain separate actual-application requirements outside the benchmark narrative. Funding is a single EUR 150,000 lump sum for 18 months. The official programme permits justified extensions; this benchmark fixes the planned duration at 18 months. No fixed minimum PI time percentage is imposed. The fictional deadline is 15 September 2027.
+
+  ## Expected outcomes
+
+  - Deliver validation evidence sufficient to support a go/no-go decision on a specified next step towards use by the end of the project.
+
+  ## Scope
+
+  - Specify the intended route to use (licence, spin-off, industrial or public partner, or adoption by a social or public user) and the type of actor expected to take the next step after the PoC.
+
+  ## Exclusions
+
+  - Do not request funding for work already scheduled and financed under the ERC main grant.
+  - Routine production, sales or marketing of an existing product, without work to verify innovation potential, is outside this fictional call (benchmark restriction).
+
+  ## Specific conditions and mandatory elements
+
+  - Explain which specific result of the identified ERC main grant the proposed innovation builds on.
+  - Describe the equipment, facilities, data or external services needed for the validation activities.
+  - Define user-validation milestones with the evidence required to pass each milestone.
+  - Identify the strategic project decisions for which the PI will be responsible.
+  - State the PI’s time commitment to the PoC as a share of working time and show that, together with any ongoing main-grant commitment, it does not exceed 100%.
+  - Provide a risk mitigation table linking technical and nontechnical risks to triggers and specific responses.
+
+  ## Required narrative
+
+  ### The idea — Breakthrough innovation potential
+  Identify the underlying ERC project and result, the problem, intended users, distinctive solution and potential gain over alternatives. Explain the uncertain step and why testing it is worthwhile. Maximum 1,500 words.
+
+  ### Approach and methodology
+  Describe validation, user/stakeholder engagement, IP or other rights where relevant, exploitation route and decision milestones. Explain who does the work, when and with which resources. Commercial routes are not mandatory for social innovation. Maximum 3,000 words.
+
+  ### The Principal Investigator — Strategic lead and project management
+  Explain the PI's strategic role, time allocation, team capability, decision-making and how evidence changes the route. Maximum 500 words.
+
+  ### Risk mitigation table
+  Summarise technical and nontechnical risks, triggers and specific responses. This separately headed table is outside the counted idea, approach and leadership sections and is therefore excluded from the narrative limit under the retained 2026 layout convention. A reference list may follow. No new CV or administrative support-letter text is requested.
+
+  ## Award criteria
+
+  Excellence is the sole criterion, assessed through (1.a) breakthrough innovation potential, (1.b) approach and methodology, and (1.c) PI strategic leadership and project management. Under WP2027 each expert scores each element 0–5 in half-point increments. Each element must receive at least 3 from a majority of experts. Failing any element prevents ranking/funding. Where funding is insufficient, passing proposals are ranked by expert marks with priority in element order 1.a, then 1.b, then 1.c; this is not a weighted arithmetic total.
+
+  ## Length contract
+
+  The ERC Work Programme 2027 sets a strict limit of 10 pages for this part of the proposal. In this fictional call the limit is applied as words, following the page split of the applicant form (500 words per page): at most 1,500 words for the idea, 3,000 for the approach and 500 for the PI's leadership, {{max_words}} in total; unused allowance cannot move between sections. Tables and captions inside these three sections count. The risk mitigation table is limited separately to table rows (risk, type, trigger, response) of at most 500 words; prose placed there counts against the approach. Title and references are not counted. Text beyond a section's allowance is not evaluated.
+
+  ## Sources
+
+  Verified 2026-10-31; policy paraphrases, not an official funding notice.
+  - https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf — section 2.1.4.2 (pp. 40–41): eligible main grants, consent, grant/application limits and integrity restrictions; section 2.1.5.1 (p. 42): ten-page narrative; sections 2.1.6.1–2.1.6.2 (pp. 43–44): criteria, marks, thresholds and ranking.
+  - https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/information-for-applicants_he-erc-poc_en.pdf
+
+  <!-- {{canary}} -->
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+  notes: Official rules checked on 2026-10-31; fictional adaptations identified. No human review claimed.
+render_fixed_conditions: true

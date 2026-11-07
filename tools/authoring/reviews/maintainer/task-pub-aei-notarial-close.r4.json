@@ -1,0 +1,11 @@
+{
+ "reviewer": "maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 4",
+   "problem": "The dossier was revised (names, project acronyms, dates and figures may have changed).",
+   "fix": "Make the brief and every trap consistent with the current dossier: same names, acronyms, dates and numbers; each trap description quotes the dossier's current wording."
+  }
+ ]
+}

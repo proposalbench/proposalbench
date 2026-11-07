@@ -1,0 +1,84 @@
+{
+  "kind": "call",
+  "id": "v2-he-food-coldchain",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "data/public/calls/v2-he-food-coldchain/call.md, “Write Part B with exactly these sections” followed by “2.3 Summary”; call.yaml required_sections includes id '2.3'.",
+      "problem": "Section 2.3 is optional in the current standard form V5.1 (22 January 2026), whereas this call makes it compulsory and claims its template follows the real scheme.",
+      "fix": "Remove 2.3 from required_sections and describe it in call.md as an optional impact summary that may be omitted. Alternatively, retain it only after expressly labelling its compulsory status a restriction of this fictional call.",
+      "evidence": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia_en.pdf (Part B p. 11 and clean template)"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "data/public/calls/v2-he-food-coldchain/call.md, 3.1: “purchase costs (travel and subsistence, equipment, other goods, works and services) when they exceed 15% of its personnel costs”",
+      "problem": "The current form narrows this justification trigger to equipment costs, not the entire purchase-cost category. The call states the older rule as the official template.",
+      "fix": "Replace this clause with “justification of equipment costs for a participant when those equipment costs exceed 15% of that participant's personnel costs”. If broader purchase justifications are desired, label them as a separate fictional-topic condition.",
+      "evidence": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia_en.pdf (Part B pp. 13 and 19, table 3.1h)"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "data/public/calls/v2-he-food-coldchain/call.md, Award criteria, Impact: “and the likely scale and significance of the contributions due to the project”",
+      "problem": "This phrase is absent from the 2026–2027 official Impact criterion; keeping it under the explicit scheme-fidelity claim misstates the award rule.",
+      "fix": "Delete the quoted phrase. Retain the requirements concerning credible pathways and suitable dissemination, exploitation and communication measures.",
+      "evidence": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf (Annex D, p. 23)",
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia_en.pdf"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "data/public/calls/v2-he-food-coldchain/call.md, Length: “18,000 words” and “Text beyond the limit is not evaluated”; call.yaml length_contract.tolerance: 0.03.",
+      "problem": "The hidden key actually permits 18,540 counted words. check_admissibility uses max_words × (1+tolerance) both to trigger truncation and to set the retained text, so this mismatch affects what judges read.",
+      "fix": "Set length_contract.tolerance to 0.0, retaining the published 18,000-word ceiling.",
+      "evidence": [
+        "data/public/calls/v2-he-food-coldchain/call.yaml",
+        "src/proposalbench/checks/admissibility.py:131",
+        "src/proposalbench/checks/admissibility.py:162",
+        "docs/scoring_spec.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 4",
+      "where": "data/public/calls/v2-he-food-coldchain/call.md, topic conditions table (no submission deadline).",
+      "problem": "The fictional full call gives no closing date. This does not make any current trap undecidable, but makes it less complete as a funding notice and leaves partner/access scheduling unanchored.",
+      "fix": "Add “Fictional submission deadline: 15 September 2027, 17:00 Brussels time” to the conditions table and include dates among the invented particulars in the opening notice.",
+      "evidence": [
+        "data/public/calls/v2-he-food-coldchain/call.md",
+        "tools/authoring/design_v2.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 4",
+      "where": "data/public/calls/v2-he-food-coldchain/call.md, Scope: “Temperature fluctuations and interruptions in the cold chain remain a primary cause of food spoilage and microbial contamination”",
+      "problem": "Temperature abuse principally promotes proliferation of organisms already present; the sentence confuses growth with introduction of contamination.",
+      "fix": "Replace with “Cold-chain interruptions can promote spoilage and the growth of pathogens already present in susceptible perishable foods.”",
+      "evidence": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8883828/"
+      ]
+    }
+  ],
+  "checked": [
+    "Read call.md/call.yaml and tools/authoring/schemes/horizon_ria.yaml; all scored EO/SC/EX/ME texts match after whitespace normalization. Budget and duration agree (digital EUR 5m/42 months; coldchain EUR 5.5m/42 months, TRL 3→6).",
+    "Official Annexes A/B/D: actual-cost RIA 40 pages; lump-sum RIA 45; equal RIA criteria scored 0–5, thresholds 3 each/10 total; three independent entities/three eligible countries including an EU entity. Source: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf",
+    "Retrieved the official full form directly with HTTPS and pdftotext after web-reader timeouts; verified V5.1 of 22 January 2026, optional 2.3, equipment-only 15% trigger, work packages/deliverables/milestones/risks/staff tables. Source: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia_en.pdf",
+    "Topic budgets, duration, exclusions and extra conditions are expressly fictional; hard 'up to' grant caps are therefore legitimate. Title/reference exemptions and words-per-page conversion are expressly benchmark adaptations.",
+    "Interrupted-temperature predictive microbiology and uncertainty are plausible: https://pmc.ncbi.nlm.nih.gov/articles/PMC8883828/ ; challenge-test/model distinction: https://food.ec.europa.eu/system/files/2016-10/biosafety_fh_mc_guidance_document_lysteria.pdf",
+    "Checked both paired tasks for feasible scope, budget, biosafety/operator-access workarounds and adequate narrative space. No resubmission-specific template or RESUB criterion applies. Earlier automated review considered; already-repaired EO/SC issues were not repeated."
+  ]
+}

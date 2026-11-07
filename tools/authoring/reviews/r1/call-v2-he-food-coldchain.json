@@ -1,0 +1,59 @@
+{
+  "kind": "call",
+  "id": "v2-he-food-coldchain",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md — Award criteria and scoring",
+      "problem": "The overall threshold of 10 reproduces the earlier RIA threshold. The cited 2026–2027 rules use an overall threshold of 12; the individual thresholds remain 3.",
+      "fix": "Change the overall threshold to 12 and cite the specific adopted General Annexes version supporting the scoring rules."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md — Proposal template; call.yaml — required_sections, section 2.3",
+      "problem": "The call makes section 2.3 Summary compulsory while claiming to reproduce the standard template. The standard template does not require this compulsory subsection; the summary was optional in earlier versions.",
+      "fix": "Use the mandatory section structure of the cited 2026–2027 template, removing 2.3 from required_sections and the compulsory outline. Identify the template version and date."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md — section 3.1 Work plan and resources",
+      "problem": "The resource instructions do not faithfully reproduce the standard template. The 15% condition concerns purchase costs relative to personnel costs for each participant, rather than undifferentiated 'other direct costs'. The outline also omits applicable resource tables for subcontracting, other cost categories and third-party in-kind contributions.",
+      "fix": "Restore the applicable standard resource-table requirements. State the purchase-cost threshold per participant and distinguish purchase costs from subcontracting and other cost categories."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md — Length; call.yaml — length_contract.tolerance",
+      "problem": "The public call says text beyond 18,000 words is disregarded, but YAML specifies a 3% tolerance. That potentially permits 18,540 words before enforcement, an undisclosed allowance of 540 words.",
+      "fix": "Set tolerance to zero or explicitly describe the same tolerance and its enforcement in call.md."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml — eligibility.budget_in_narrative; call.md — section 3.1",
+      "problem": "YAML requires a budget in the narrative, but the public instructions request staff effort and selected cost justifications without explicitly requiring the total requested EU contribution. Those tables do not necessarily establish whether the EUR 5.5 million ceiling is respected.",
+      "fix": "Explicitly require section 3.1 to state the total requested EU contribution and provide the budget information needed to check the ceiling, or remove the hidden narrative-budget requirement."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml — expected outcomes EO3 and EO4",
+      "problem": "Reduction in foodborne illness and 'enhanced resilience' lack a defined evidential basis. The call does not distinguish longer-term contributions from results expected during the project. Generic claims could satisfy these outcomes, while directly demonstrating fewer illness incidents would require substantially different evidence from TRL 5 validation.",
+      "fix": "Specify checkable project contributions: separately assessed waste reduction and microbial-risk reduction against stated baselines, with illness reduction framed as a longer-term pathway. Define a resilience indicator and the validation setting for the sampling and monitoring protocols."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 4",
+      "where": "call.md — call conditions",
+      "problem": "No submission deadline is supplied, so the call lacks an essential operational condition and cannot be checked against the requirement that deadlines fall after 1 October 2026.",
+      "fix": "Add a fictional submission deadline after 1 October 2026, including time and time zone, and extend the fictional-call notice to cover invented dates."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "call",
+  "id": "msca-pf-ef",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "data/public/calls/msca-pf-ef/call.md: \"Use dossier evidence and mark any missing periods.\"; \"Use the supplied dossier for experience and institutional claims.\"; \"These are funder weights, separate from ProposalBench's scoring components.\"",
+      "problem": "The applicant-facing funder text explicitly refers to the supplied dossier and the benchmark scoring system. Those are prohibited by Call 6, independently of the permitted fictional-call and length-adaptation notices. The fraud-prevention instructions also read as instructions to the benchmark writer rather than a funder call.",
+      "fix": "Replace the mobility sentence with \"Describe the residence and main-activity history relevant to the deadline and identify any periods requiring confirmation.\" Delete \"Use the supplied dossier for experience and institutional claims.\" Replace \"Connect dossier-supported expertise\" with \"Connect relevant expertise\" in 1.4. Delete the sentence comparing funder weights with ProposalBench scoring. Replace \"identifying documentary gaps rather than inventing eligibility\" in both visible and hidden ME1 with \"identifying periods or documents requiring confirmation\". Keep the fictional-call notice and explicitly labelled benchmark restrictions.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "data/public/calls/msca-pf-ef/call.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "data/public/calls/msca-pf-ef/call.yaml / call.md, ME5: \"Provide career-development, dissemination, exploitation and communication measures; justify intellectual-property management where relevant.\"; ME7: \"For Euratom research, the beneficiary and the researcher must meet ...\"",
+      "problem": "ME5 combines five separately assessable requirements in one scored item. The Euratom item is pure eligibility, not a narrative treatment. These constructions violate the checklist’s atomic-item and eligibility-routing rules and can change partial/no judgements and call-component weighting.",
+      "fix": "Split ME5 into separate, matching Markdown/YAML items: \"Define measures to develop the fellow’s career\"; \"Plan dissemination of research outputs to scientific audiences\"; \"Plan exploitation of results by intended users\"; \"Plan communication with non-specialist audiences\"; \"Explain intellectual-property management, or justify its non-applicability.\" Move the Euratom eligibility item to the eligibility prose without removing the rule. Replace ME2 with separate items: \"Identify the beneficiary and responsible supervisors\"; \"Describe access to the required hosting resources\"; \"Specify individual training and supervision arrangements\"; \"Define reciprocal knowledge-transfer activities\". Replace ME4 with: \"Present a timed work plan with responsibilities and effort, including all host stays and secondments\"; \"Provide a Gantt chart locating milestones and deliverables\"; \"Identify implementation risks and specific mitigations\". Use unique item IDs and identical text in both files. Preserve the eligibility-history narrative requested by ME1, since it provides the visible location for the mobility trap.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "docs/scoring_spec.md",
+        "data/public/calls/msca-pf-ef/call.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Read both MSCA skeletons and compared every visible/hidden item: data/public/calls/msca-pf-ef/call.md, call.yaml; tools/authoring/schemes/msca_pf_ef.yaml; tools/authoring/schemes/msca_pf_gf.yaml. All 13 item texts agree after whitespace normalization; section IDs, language, durations, entity counts and null monetary caps agree.",
+    "Verified PhD/defence, eight-year FTE calculation, maternity/reintegration qualifications, mobility definitions/exceptions, beneficiary and Euratom conditions: amended WP sections 2.3.1–2.3.2, https://research-and-innovation.ec.europa.eu/document/download/31f45742-380d-4096-9faa-e078cf55d7f7_en",
+    "Verified European nationality and 12–24-month structure; secondments, unit funding, CDP and 50/30/20 weights with 3/5 and 70% thresholds: WP pp.31–33, 77–86, https://research-and-innovation.ec.europa.eu/document/download/31f45742-380d-4096-9faa-e078cf55d7f7_en",
+    "Verified Part B-1 headings, Gantt requirement and 10-page inclusion of references; the 5,000-word conversion and excluded end placement are expressly fictional: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-msca-pf_en.pdf",
+    "Checked all 19 MSCA-associated countries, Switzerland, four Pillar-II-only associations and the separately labelled transitional arrangements: V4.2 country list, https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/list-3rd-country-participation_horizon-euratom_en.pdf. Morocco call-specific transitional operation remains outside this review; neither task relies on it.",
+    "Bottom-up battery and maternal-health research/training are plausible; no budget narrative or lump-sum trap is imposed. Read earlier reviews for context; did not revive their outdated Switzerland objection. Source-verification dates are provenance, not dossier dates. No previously corrected template issue is re-reported."
+  ]
+}

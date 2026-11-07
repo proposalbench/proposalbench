@@ -1,0 +1,117 @@
+{
+  "kind": "dossier",
+  "id": "uncertainty-ml-lab",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/uncertainty-ml-lab/resources_team.md: “Dr. Priya Narayanan” and “Ravi Chandrasekaran”; prior_project.md: “Elena Voss”; these names also occur in CV/publication metadata and dependent tasks.",
+      "problem": "Priya Narayanan is a real associate professor (IIM Kozhikode) and also the name of published AI researchers. Ravi Chandrasekaran is a publicly documented Cisco engineering executive and technology author. Dr Elena Voss is listed on an official South Australian clinical-trials taskforce. These are verified exact full-name collisions; the Elena finding rests on government material, not the numerous unreliable AI-generated biographies returned by search.",
+      "fix": "Rename Priya Narayanan → Priyana Velmori; Ravi Chandrasekaran → Ravin Keshavren; Elena Voss → Elena Vossmere. Update all visible mentions, initials in references, own_publications authors, facts and both dependent task bundles. Exact replacement-name searches returned no matches on 2026-10-31.",
+      "evidence": [
+        "https://www.iimk.ac.in/faculty-profiles/npriya",
+        "https://arxiv.org/abs/2303.07622",
+        "https://blogs.cisco.com/author/ravichandrasekaran",
+        "https://www.sapc.sa.gov.au/__data/assets/pdf_file/0004/255856/Adelaide-BioMed-City-Clinical-Trials-Expert-Taskforce.pdf"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/uncertainty-ml-lab/cv_pi.md and prior_project.md: “NSF CRII (Award #2438012)”; dossier.yaml F02; both dependent briefs.",
+      "problem": "2438012 is an actual NSF award, confirmed through the official API: a $50,000 SUNY Albany I-Corps award led by Nathaniel C. Cady for a Lyme-disease diagnostic technology, starting December 2024. Assigning it to Solberg’s $175,000 CRII calibration project fabricates a different history for a real grant.",
+      "fix": "Replace #2438012 throughout the dossier and dependent briefs with the unmistakably fictional identifier “PB-NSF-UM-CRII-01”. Preserve the $175,000, September 2025–August 2027 period and calibration-project title. For consistency and future collision avoidance, replace the two invented DRL identifiers with “PB-NSF-UM-DRL-01” and “PB-NSF-UM-DRL-02”; those two original numbers returned no NSF API records and are not claimed to be confirmed collisions.",
+      "evidence": [
+        "https://api.nsf.gov/services/v1/awards/2438012.json",
+        "https://nsf.elsevierpure.com/en/projects/i-corps-translation-potential-of-an-enhanced-fluorescence-based-d/",
+        "data/public/dossiers/uncertainty-ml-lab/cv_pi.md",
+        "data/public/dossiers/uncertainty-ml-lab/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 6; Dossier 1; Dossier 7",
+      "where": "data/public/dossiers/uncertainty-ml-lab/publications.md items 3–7: “Proceedings of the AAAI Conference ... (AAAI-26)”, “Advances in Neural Information Processing Systems 38 (NeurIPS 2025)”, “Proceedings of the 40th ... ICML 2023”, “NeurIPS 2025 Workshop on Generative AI for Education”, and “arXiv preprint arXiv:2607.09821. Under review at NeurIPS 2026”.",
+      "problem": "Only the first two venues were fictionalised. The remaining entries attach invented papers to real proceedings or a real conference brand. Worse, arXiv:2607.09821 resolves to an unrelated medical-image clustering paper by Sisipho Hamlomo and Marcellin Atemkeng. NeurIPS 2026 main-track decisions were issued September 24, so an unexplained “under review at NeurIPS 2026” status is stale on October 1. Reserved DOIs do not cure a colliding arXiv identifier or real publication venue.",
+      "fix": "Move items 3–5 to fictional journals while retaining author/year/title/DOI: item 3 → Keldara Transactions on Interactive Intelligent Systems, 16(4), Article 52; item 4 → Borgström Journal of Machine Learning Research, 26(84), 1–13; item 5 → Borgström Journal of Machine Learning Research, 24(63), 1–12. Group items 1–5 under Refereed Journal Articles. For item 6 use “Lakeridge University Working Papers in Learning Technologies, 2025(1), 1–6”, explicitly a non-refereed working paper, and replace “workshop paper” consistently in the report, facts and both briefs. For item 7 use “Lakeridge University research preprint; under review at Borgström Journal of Machine Learning Research as of 30 September 2026”, remove the arXiv identifier entirely, retain its 10.99999/pb. DOI, and mirror all metadata/status changes in own_publications/F18. This preserves the four grant-era refereed papers, one working paper and one pending preprint without inventing acceptance.",
+      "evidence": [
+        "https://arxiv.org/abs/2607.09821",
+        "https://neurips.cc/Conferences/2026/Dates",
+        "https://proceedings.neurips.cc/paper_files/paper/2025",
+        "https://proceedings.mlr.press/v202/",
+        "data/public/dossiers/uncertainty-ml-lab/publications.md",
+        "data/public/dossiers/uncertainty-ml-lab/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/uncertainty-ml-lab/cv_pi.md, Professional Service: “Program Committee: NeurIPS 2025, 2026; ICML 2026; AAAI 2025, 2026” and “Session chair, AAAI 2026 Workshop on Uncertainty in Deep Learning”; prior_project.md §5: “1 invited talk at the Midwest AI Symposium, 2026”.",
+      "problem": "The invented CV still assigns service to real conference organisations and a talk to a name already used for public AI events. These are applicant-world professional activities, not permitted real methods or funders. Changing the own-publication venues alone would leave these real-organisation claims behind.",
+      "fix": "Replace the programme-committee line with “Member, Lakeridge University AI Research Seminar Committee, 2025–2026”; replace the session-chair line with “Session chair, Lakeridge University Seminar on Predictive Uncertainty, 2026”. Replace the report’s invited-talk line with “1 invited talk at the Hargrove Institute of Technology AI Research Colloquium, 2026”. Retain reviewing for the two already fictional journals. Delete the real conference names from this invented service record.",
+      "evidence": [
+        "https://neurips.cc/Downloads/2025",
+        "https://neurips.cc/Conferences/2026/Dates",
+        "https://www.linkedin.com/posts/macleanvictoria_midwestaisymposium-ai-businessinnovation-activity-7222646932400168961-StoX",
+        "data/public/dossiers/uncertainty-ml-lab/cv_pi.md",
+        "data/public/dossiers/uncertainty-ml-lab/prior_project.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3; Dossier 8",
+      "where": "data/public/dossiers/uncertainty-ml-lab/resources_team.md: “She has led two prior NSF-funded projects ... (DRL-1942390 and DRL-2155781)”; dossier.yaml F23 and absence of gaps entries.",
+      "problem": "Both tasks name this person as proposed co-PI and request her prior NSF support, but the dossier supplies no support periods, amounts, titles, results, publications or product availability. In particular, the award numbers alone do not establish the five-year end-date trigger or which award is most closely related. The call expressly permits identifying missing records, so the task need not be impossible; however these required, genuinely missing reporting details are not documented as intentional gaps and are invisible to the gap-specific GR-T checks.",
+      "fix": "Add an ordinary September 2026 records note to resources_team.md: “The records supplied for the two previous NSF projects do not include support dates, amounts, project titles, results, publication lists or research-product availability; these details remain to be obtained from the investigator’s award files.” Register G1 for missing support periods/qualification in the reporting window, G2 for missing amounts and titles, and G3 for missing results/publications/product availability. Accept explicitly identified gaps rather than an invented award record. Do not infer the reporting period or award selection from the numeric identifier or the brief’s “most recent” wording.",
+      "evidence": [
+        "data/public/dossiers/uncertainty-ml-lab/resources_team.md",
+        "data/public/dossiers/uncertainty-ml-lab/dossier.yaml",
+        "data/public/calls/nsf-ai-learning/call.md",
+        "data/public/calls/nsf-stem-ed/call.md",
+        "docs/scoring_spec.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/uncertainty-ml-lab/resources_team.md: “(open position) | Ph.D. student | Fall 2027 | To be recruited”; prior_project.md §4 limitations; dossier.yaml F03–F05/F09/F13/F18.",
+      "problem": "The planned PhD recruitment is absent from the registry. F13 describes a willing collaborator with kind existing but loses the explicit future co-PI status, while the implementation selects GR-T statuses by kind/planning words. The registry also omits the 13B calibration row and limitations concerning adult crowdworker essays, unavailable proprietary-model logits and absent longitudinal outcomes. F18 retains a pending preprint only as part of a product-count fact, without the paper’s identity. These are salient feasibility and grounding constraints for both pivots.",
+      "fix": "Add a salient kind planned team fact for the Fall 2027 open PhD position, value “Fall 2027”, source resources_team.md. Restate F13 as “The collaboration is planned: [renamed collaborator] has expressed willingness to serve as co-PI on a future joint project; no current joint co-PI relationship is established”, kind planned, retaining her expertise and existing protocols as separate facts. Add a dedicated salient publication fact naming the preprint and its corrected under-review status, source publications.md. Add the omitted 0.152→0.033 (78%) model row and separate source-faithful limitations for adult crowdworker essays, token-logit access and no longitudinal evaluation. Keep F18’s count/status internally consistent with the publication correction above. Add “6 products in total” explicitly to the report’s product summary so F18’s value is directly stated rather than only summed from its components.",
+      "evidence": [
+        "data/public/dossiers/uncertainty-ml-lab/resources_team.md",
+        "data/public/dossiers/uncertainty-ml-lab/prior_project.md",
+        "data/public/dossiers/uncertainty-ml-lab/publications.md",
+        "data/public/dossiers/uncertainty-ml-lab/dossier.yaml",
+        "docs/scoring_spec.md",
+        "src/proposalbench/judge/items.py"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/uncertainty-ml-lab/prior_project.md §5: “https://github.com/solberg-lab/feedbackcalib”.",
+      "problem": "The fictional release is assigned a live GitHub namespace rather than a reserved illustrative address. The URL could not be retrieved and no collision was established; it should not be represented as a verified real repository.",
+      "fix": "Use “https://example.org/feedbackcalib” in the fictional report, or state availability through the fictional university repository without a live URL. Keep the released/licensed status consistent across source files and facts.",
+      "evidence": [
+        "data/public/dossiers/uncertainty-ml-lab/prior_project.md",
+        "https://github.com/solberg-lab/feedbackcalib"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all four Markdown files, 28 facts and 7 own-publication entries. All non-null value strings occur in the declared source (F18 total six is also derivable as 4+1+1). No hidden gaps/inconsistencies/reviewer_criticisms were declared. Prior-support records missing for the proposed co-PI are reported, not silently filled in.",
+    "Recomputed ECE reductions: 78.07%, 78.29%, 74.31%, 76.07%, matching integer rounding. Abstention identity: (0.72−0.25×0.27)/0.75=0.87 exactly. The corrected 25%/73%/27% figures are coherent and are not re-reported as defects.",
+    "The two arms sum to 64. Revision-quality means/SDs yield pooled d≈0.597 and t≈2.387, compatible with reported d=0.60 and t=2.38 given rounded inputs. Rejection-rate intervals are compatible with a participant-level t test. Reliability statistics, data sizes and effect directions are plausible.",
+    "Temperature scaling and learned calibration are plausible methods, and the ECE magnitudes are not inherently impossible: https://proceedings.mlr.press/v70/guo17a . The short report does not establish independent test-split sizes or ECE binning/uncertainty; I do not infer misconduct or data leakage from that omission. The results remain limited to the reported datasets, not evidence of child-classroom efficacy.",
+    "CRII $175,000 over 24 months matches the real scheme scale: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22598/nsf22598.pdf . Lakeridge is not specified as R1, so no ineligibility is inferred from its shared GPU facilities. Forty-eight 80-GB GPUs and a 20,000 GPU-hour shared allocation are plausible for stated inference/fine-tuning; no claim of exclusive ownership or full training from scratch is made.",
+    "PhD 2022, postdoc 2022–2024, appointment August 2024/year 3, student entry/year labels, July 2026 reporting endpoint and September 2026 status updates align. October 2024 adult-only IRB approval precedes dataset/user-study publications. The repaired IRB chronology and four-publication count are accepted. Future startup/credit expirations and planned recruitment are not future-dated documents.",
+    "Searched all full names: Maren T. Solberg, Yun-Seo Kwak, Ravi Chandrasekaran, Jia-Wen Tsao, Priya Narayanan and Elena Voss; institutions Lakeridge University, Hargrove Institute of Technology and Westhaven College; ConfSteer, FeedbackCalib-Essay, FeedbackCalib-Code, Prairie HPC, both fictional journals and named meetings. Exact-name searches did not establish other real institutional, dataset or journal collisions. Real model/software/hardware names are methods/instruments, retained as permitted.",
+    "Official NSF API verified collision for 2438012 and returned empty award arrays for 1942390 and 2155781. Direct arXiv resolution and official NeurIPS dates establish the publication/chronology defects. All seven listed DOIs themselves use the required 10.99999/pb. prefix. No real DOI was substituted.",
+    "Both task types are ordinary full proposals, so RESUB does not apply; no T12/T13 occurs. Adult-only approval, absence of joint publications and absence of direct K-12 data/access are explicitly supported in visible files. Feasible pivots can stage classroom access, ethics approvals and disciplinary collaboration rather than claim them secured."
+  ]
+}

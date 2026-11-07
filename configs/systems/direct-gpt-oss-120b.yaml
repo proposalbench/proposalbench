@@ -1,0 +1,3 @@
+id: direct-gpt-oss-120b
+kind: direct
+model: {provider: bedrock, id: openai.gpt-oss-120b-1:0, max_output_tokens: 32000}

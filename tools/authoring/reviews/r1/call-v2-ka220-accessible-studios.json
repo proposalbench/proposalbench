@@ -1,0 +1,31 @@
+{
+  "kind": "call",
+  "id": "v2-ka220-accessible-studios",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1; Call 3",
+      "where": "call.md, mandatory element requiring three charter-holding HEIs; call.yaml, ME9 and eligibility.consortium",
+      "problem": "ME9 imposes a consortium restriction that KA220-HED does not require: all three minimum partners need not be HEIs. Eligible organisations from other sectors can count toward the minimum. This also conflicts with the broader consortium requirements stated in the eligibility prose and YAML eligibility record.",
+      "fix": "Remove the three-HEI requirement from both files. Require three eligible organisations from three eligible countries, with ECHE required for participating HEIs established in EU Member States or associated countries. Retain the clarification that departments of one legal entity cannot count as separate applicants."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Length contract; call.yaml, length_contract",
+      "problem": "The invented 12-page/6,000-word ceiling and automatic inadmissibility introduce a submission limit and rejection condition absent from the cited scheme. Disclosure makes their origin clear but does not satisfy the checklist, which permits invention only of topics, identifiers, budgets and dates and explicitly requires fidelity for page limits and award conditions.",
+      "fix": "Remove the invented overall limit and rejection condition, and reflect the applicable official form limits. If ProposalBench requires a separate synthetic length contract, first amend the governing checklist to permit that exception explicitly."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, Specific conditions and mandatory elements; call.yaml, ME2, ME3, ME6, ME7 and ME12",
+      "problem": "Several mandatory items combine independently assessable requirements. ME6 combines accessibility, environmental sustainability, digital cooperation and evaluation indicators. ME2 combines duration and consortium eligibility; ME3 combines coordinator location, establishment age and HEI accreditation; ME7 combines sustainability and licensing; ME12 combines execution accessibility and institutional uptake. A proposal can satisfy only part of each item, making item-level assessment ambiguous.",
+      "fix": "Split these into separate requirements in both files, each with its own YAML identifier. Consolidate overlapping requirements when doing so: ME10 repeats the lump-sum selection and allocation requirements already in ME1 and ME5."
+    }
+  ]
+}

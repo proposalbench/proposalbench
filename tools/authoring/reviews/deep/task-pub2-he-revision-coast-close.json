@@ -1,0 +1,32 @@
+{
+  "kind": "task",
+  "id": "pub2-he-revision-coast-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub2-he-revision-coast-close/task.yaml T2 expected_behaviour: U1 release requires URC approval, but a fallback if approval is \"delayed or refused\" includes \"including the records in the later full Charente dataset\".",
+      "problem": "The example contradicts the permission condition. Moving the same six records into a later dataset does not remove URC's required approval. A judge could accept that exact example as a compliant fallback, or reject it under the key's later requirement that conditional assets keep their conditions.",
+      "fix": "Replace the U1 sentence with: 'U1 Charente pilot records may be released only after URC approval. If approval is delayed or refused, omit those records from public deposits and release only outputs whose release is separately authorised. Inclusion of the records in a later combined Charente dataset still requires URC approval.' Keep U2's separate unrestricted status and D5's utility-review condition.",
+      "evidence": [
+        "data/public/tasks/pub2-he-revision-coast-close/task.yaml",
+        "data/public/dossiers/v2-coastal-warning-revision-consortium/technical_update_sept2026.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read brief.md and both hidden keys in the complete assigned call/dossier bundle; checked the earlier automated task review against the current version.",
+    "Brief is dated 1 October 2026, is informal applicant guidance, and contains no explicit trap/rubric disclosure. Task type, language and close/stretch mapping agree. At most two typed traps are present.",
+    "Assessed simultaneous feasibility within the scheme's narrative allowance, permitting prospective resources and revised designs without inventing completed work. Shared call/dossier defects are filed on their owning unit, not duplicated here.",
+    "T1 correctly targets T13: the 0.14 cost-loss value is an unreviewed draft and no authority has agreed to own or apply it. The key allows replacing the draft cost assumptions and specifies concrete manager engagement, development, testing and fallback.",
+    "Checked threshold arithmetic against the dossier: 0.05–0.33 range, central 0.14, 32/38 hit rate and 29/61 false-alarm ratio. The key makes quoting these figures optional.",
+    "T2 correctly targets T09: a future-DMP promise alone cannot replace required substantive open-science methodology. An 18,000-word full RIA can carry a concise output/licence/timing/responsibility table while integrating review responses in ordinary sections.",
+    "The visible inventory distinguishes five restricted raw assets, two raw assets not yet deposited, five derived assets and two open assets. No dedicated data steward is currently secured; code/public registration remain prospective.",
+    "Close fit is strong, but genuine forecast lead times, uncertainty, public-manager ownership, accessible warnings and conditional data-access routes still need proposed work. None requires an invented completed validation or new rebuttal section."
+  ]
+}

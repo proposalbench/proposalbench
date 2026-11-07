@@ -1,0 +1,457 @@
+schema_version: 1
+id: math-tutoring-econ
+language: en
+applicant_type: team
+career_stage: mid_career
+disciplines:
+- economics of education
+- mathematics education
+- causal inference
+method_profile: mixed
+country: US
+files:
+- path: cv_pi.md
+  role: cv
+- path: cv_copi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: team_resources.md
+  role: team
+facts:
+- id: F01
+  category: grant
+  kind: existing
+  text: The RatioWeave-Tutor study was funded by the Spencer Foundation (research grant PB-SP-MTE-2020-01),
+    not by the National Science Foundation.
+  value: Spencer Foundation
+  salient: true
+  source: prior_project.md
+- id: F02
+  category: grant
+  kind: existing
+  text: The Spencer Foundation grant totalled $748,000 for the period 1 August 2020 to 31 July 2024 and
+    covered only the research and evaluation, not the tutoring programme itself.
+  value: $748,000
+  salient: true
+  source: prior_project.md
+- id: F03
+  category: result
+  kind: existing
+  text: The primary ITT effect on the state math assessment after two years was 0.21 SD (Hedges' g = 0.21,
+    95% CI [0.09, 0.33]).
+  value: 0.21 SD
+  salient: true
+  source: prior_project.md
+- id: F04
+  category: result
+  kind: existing
+  text: The 95% confidence interval for the primary effect size was [0.09, 0.33].
+  value: '[0.09, 0.33]'
+  salient: true
+  source: prior_project.md
+- id: F05
+  category: result
+  kind: existing
+  text: The effect on the algebraic reasoning assessment was 0.28 SD (95% CI [0.14, 0.42]).
+  value: 0.28 SD
+  salient: true
+  source: prior_project.md
+- id: F06
+  category: result
+  kind: existing
+  text: The effect on mathematics self-efficacy was 0.13 SD (95% CI [0.01, 0.25]).
+  value: 0.13 SD
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: result
+  kind: existing
+  text: The analytic sample comprised 4,217 students (2,118 treatment, 2,099 control) across 38 schools
+    after 6.9% attrition from an original enrolled sample of 4,530.
+  value: 4,217
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: Students in the bottom quartile of baseline math scores showed an effect of 0.34 SD (95% CI [0.16,
+    0.52]).
+  value: 0.34 SD
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: Median tutoring attendance rate among treatment students was 87% of scheduled sessions.
+  value: 87%
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: The per-student cost of the RatioWeave-Tutor programme was $3,400 per year, funded by CQMSD (not
+    the Spencer grant).
+  value: $3,400 per year
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: 48 tutors were interviewed; 31 of 48 (65%) felt the scripted curriculum limited responsive teaching.
+  value: 65%
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: result
+  kind: existing
+  text: 38 of 48 tutors (79%) reported meeting with the student's regular math teacher fewer than twice
+    per semester.
+  value: 79%
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: other
+  kind: existing
+  text: The study did not incorporate any technology-based or AI-assisted tutoring tools; all instruction
+    was face-to-face by human tutors.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: team
+  kind: existing
+  text: Neither the PI nor the Co-PI has expertise in computer science, artificial intelligence, or machine
+    learning.
+  value: null
+  salient: true
+  source: team_resources.md
+- id: F15
+  category: team
+  kind: existing
+  text: The team has no existing collaborations with computer science or engineering departments.
+  value: null
+  salient: true
+  source: team_resources.md
+- id: F16
+  category: partner
+  kind: existing
+  text: Velmarden University has a standing MOU with CQMSD valid through 2028 for collaborative research.
+  value: '2028'
+  salient: true
+  source: team_resources.md
+- id: F17
+  category: resource
+  kind: existing
+  text: De-identified student-level data deposited in the Velmarden Center for Education Research restricted
+    archive, record PB-MTE-DATA-01, under a restricted-use agreement.
+  value: PB-MTE-DATA-01
+  salient: false
+  source: prior_project.md
+- id: F18
+  category: grant
+  kind: existing
+  text: Ostrander has never received NSF funding.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F19
+  category: position
+  kind: existing
+  text: Ostrander is a tenured Associate Professor at Velmarden University, appointed 2021.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F20
+  category: team
+  kind: existing
+  text: Dr. Yunara Pellen is a postdoctoral research associate appointed September 2024, funded through
+    August 2027, specialising in multilevel modelling and psychometrics.
+  value: August 2027
+  salient: true
+  source: team_resources.md
+- id: F21
+  category: partner
+  kind: existing
+  text: CQMSD serves approximately 47,000 students across 78 schools; 81% qualify for free or reduced-price
+    lunch; 49% Black, 29% Hispanic, 13% White, 9% other.
+  value: 47,000
+  salient: true
+  source: team_resources.md
+- id: F22
+  category: result
+  kind: existing
+  text: The analytic sample was 83% eligible for free or reduced-price lunch; 47% Black, 31% Hispanic,
+    12% White, 10% other.
+  value: 83%
+  salient: true
+  source: prior_project.md
+- id: F23
+  category: result
+  kind: existing
+  text: Inter-rater reliability for qualitative coding was Cohen's κ = 0.81.
+  value: '0.81'
+  salient: false
+  source: prior_project.md
+- id: F24
+  category: result
+  kind: existing
+  text: Effect for English learners on the state math assessment was 0.24 SD (95% CI [0.06, 0.42]).
+  value: 0.24 SD
+  salient: true
+  source: prior_project.md
+- id: F25
+  category: result
+  kind: existing
+  text: The RatioWeave-Tutor tutoring model used small groups of 3 students per tutor.
+  value: 3 students per tutor
+  salient: true
+  source: prior_project.md
+- id: F26
+  category: result
+  kind: existing
+  text: Tutors received 80 hours of initial training plus weekly coaching from a district mathematics
+    coach.
+  value: 80 hours
+  salient: true
+  source: prior_project.md
+- id: F27
+  category: result
+  kind: existing
+  text: In an exploratory (non-randomised) comparison, the 1,614 treatment students attending at least
+    80% of sessions showed an adjusted difference of 0.27 SD (95% CI [0.13, 0.41]) on the state assessment;
+    attendance was not randomised and this does not identify a causal effect.
+  value: 0.27 SD
+  salient: true
+  source: prior_project.md
+- id: F28
+  category: other
+  kind: existing
+  text: 'Limitation: the study was conducted in a single urban district; generalisability to suburban
+    or rural settings is unknown.'
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F29
+  category: other
+  kind: existing
+  text: 'Limitation: the control condition was business-as-usual instruction; the study cannot isolate
+    which components of the tutoring model drove the effects.'
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F30
+  category: other
+  kind: existing
+  text: 'Limitation: outcomes were measured only through the end of the two-year treatment period; longer-term
+    persistence of effects is unknown.'
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F31
+  category: other
+  kind: existing
+  text: 'Limitation: the qualitative sample of 48 tutors, while purposive, may not capture the full range
+    of tutor experiences.'
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F32
+  category: result
+  kind: existing
+  text: 42 eligible schools in CQMSD; 38 agreed to participate; 19 treatment, 19 control.
+  value: '42'
+  salient: true
+  source: prior_project.md
+- id: F33
+  category: result
+  kind: existing
+  text: Original enrolled sample was 4,530 students; attrition was 6.9%.
+  value: 4,530
+  salient: true
+  source: prior_project.md
+- id: F34
+  category: result
+  kind: existing
+  text: 'Analytic sample demographics: 14% receiving special education services; 19% classified as English
+    learners.'
+  value: 14%
+  salient: true
+  source: prior_project.md
+- id: F35
+  category: result
+  kind: existing
+  text: 'Hispanic students: effect of 0.26 SD (95% CI [0.10, 0.42]); Black students: 0.19 SD (95% CI [0.05,
+    0.33]).'
+  value: 0.26 SD
+  salient: true
+  source: prior_project.md
+- id: F36
+  category: result
+  kind: existing
+  text: '48 tutors interviewed: 25 in Year 2, 23 in Year 3.'
+  value: '48'
+  salient: true
+  source: prior_project.md
+- id: F37
+  category: result
+  kind: existing
+  text: 1,614 students (76% of treatment group) attended at least 80% of scheduled sessions.
+  value: 1,614
+  salient: true
+  source: prior_project.md
+- id: F38
+  category: team
+  kind: existing
+  text: Two doctoral research assistants in the Department of Education Policy & Economics are available
+    for project work on a half-time basis.
+  value: null
+  salient: true
+  source: team_resources.md
+- id: F39
+  category: partner
+  kind: existing
+  text: Key district contact is Dr. Alicia R. Veldren, Executive Director of Curriculum and Instruction,
+    CQMSD.
+  value: null
+  salient: true
+  source: team_resources.md
+- id: F40
+  category: resource
+  kind: existing
+  text: Velmarden Center for Education Research (VCER) provides IRB support, data management infrastructure,
+    and secure servers; it has no AI or computing research facilities.
+  value: null
+  salient: true
+  source: team_resources.md
+- id: F41
+  category: resource
+  kind: existing
+  text: Survey and Measurement Core supports instrument development, cognitive interviewing, and psychometric
+    analysis.
+  value: null
+  salient: true
+  source: team_resources.md
+- id: F42
+  category: resource
+  kind: existing
+  text: Office of Research Computing provides a general-purpose high-performance computing cluster available
+    to all faculty; the team has not used it for prior work.
+  value: null
+  salient: true
+  source: team_resources.md
+- id: F43
+  category: result
+  kind: existing
+  text: RatioWeave-Tutor provided three 45-minute sessions per week.
+  value: three 45-minute sessions per week
+  salient: true
+  source: prior_project.md
+- id: F44
+  category: partner
+  kind: existing
+  text: 'CQMSD has 78 schools; demographics: 13% White, 9% other.'
+  value: '78'
+  salient: true
+  source: team_resources.md
+- id: F45
+  category: partner
+  kind: existing
+  text: CQMSD has expressed interest in continuing the RatioWeave-Tutor programme and exploring technology
+    support for tutor effectiveness, but no formal commitment for a new study has been made.
+  value: null
+  salient: true
+  source: team_resources.md
+- id: F46
+  category: resource
+  kind: existing
+  text: Interview transcripts from the qualitative component are available upon request with IRB approval.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F47
+  category: resource
+  kind: existing
+  text: The RatioWeave-Tutor curriculum materials are proprietary to CQMSD and are not publicly available.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F48
+  category: grant
+  kind: existing
+  text: Treviño has never received NSF funding.
+  value: null
+  salient: true
+  source: cv_copi.md
+- id: F49
+  category: grant
+  kind: existing
+  text: Ostrander received a William T. Grant Foundation Scholars Program award of $350,000 for the period
+    1 July 2017 to 30 June 2022.
+  value: $350,000
+  salient: false
+  source: cv_pi.md
+own_publications:
+- key: ostrander-trevino-2024-rct
+  authors:
+  - Ostrander, R. M.
+  - Treviño, M. J.
+  year: 2024
+  title: 'Effects of high-dosage mathematics tutoring on middle-school achievement: A district-wide randomised
+    controlled trial'
+  venue: Ridgeway Educational Research Journal
+  doi: 10.99999/pb.math-tutoring-econ.2024.1
+- key: trevino-ostrander-2024-qual
+  authors:
+  - Treviño, M. J.
+  - Ostrander, R. M.
+  year: 2024
+  title: '"I can see when they''re stuck": Tutor diagnostic reasoning in high-dosage mathematics tutoring'
+  venue: Stanton Journal for Research in Mathematics Education
+  doi: 10.99999/pb.math-tutoring-econ.2024.2
+- key: ostrander-2023-cost
+  authors:
+  - Ostrander, R. M.
+  year: 2023
+  title: Cost-effectiveness of high-dosage tutoring versus extended learning time in urban middle schools
+  venue: Hargrove Review of Educational Evaluation and Policy
+  doi: 10.99999/pb.math-tutoring-econ.2023.1
+- key: ostrander-trevino-2023-het
+  authors:
+  - Ostrander, R. M.
+  - Treviño, M. J.
+  year: 2023
+  title: Heterogeneous effects of math tutoring by baseline achievement and English-learner status
+  venue: Quarterly Review of Education Economics
+  doi: 10.99999/pb.math-tutoring-econ.2023.2
+- key: trevino-2023-scripts
+  authors:
+  - Treviño, M. J.
+  year: 2023
+  title: 'Curriculum scripts and responsive teaching: Tensions in structured tutoring programmes'
+  venue: Clearfield Review of Mathematical Thinking and Learning
+  doi: 10.99999/pb.math-tutoring-econ.2023.3
+- key: ostrander-2019-dosage
+  authors:
+  - Ostrander, R. M.
+  year: 2019
+  title: 'Dosage thresholds in after-school mathematics programmes: Evidence from a regression discontinuity
+    design'
+  venue: Pearlman Journal of Research on Educational Effectiveness
+  doi: 10.99999/pb.math-tutoring-econ.2019.1
+- key: trevino-munoz-2016-algebra
+  authors:
+  - Treviño, M. J.
+  - Muñoz, S. L.
+  year: 2016
+  title: Algebraic reasoning and representational fluency among bilingual middle-school students
+  venue: Stanton Journal for Research in Mathematics Education
+  doi: 10.99999/pb.math-tutoring-econ.2016.1
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: us.anthropic.claude-opus-4-6-v1
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 85a4ea1e-96c7-4d7b-8ba2-77f3f68c5a3a

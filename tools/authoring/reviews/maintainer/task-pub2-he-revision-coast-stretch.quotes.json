@@ -1,0 +1,14 @@
+{
+ "kind": "task",
+ "id": "pub2-he-revision-coast-stretch",
+ "reviewer_family": "maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml trap T2 description",
+   "problem": "The description quotes a passage that no longer appears in the call, dossier or brief (the dossier was revised): \"The national Spanish catchment-data licence for the Drainage Atlas Series, issued by Fundación Cartográfica de Valdemare\". A trap must quote the material the system actually receives.",
+   "fix": "Quote the dossier's current wording for the same fact (or the brief's, if the quote was from the brief). Check that the fact still holds in the revised dossier and that the trap is still decidable; if the dossier now states it differently, adjust the description and expected behaviour to the current text. Change nothing else."
+  }
+ ]
+}

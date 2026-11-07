@@ -1,0 +1,18 @@
+{
+  "kind": "task",
+  "id": "pub2-erc-field-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Task 2–7: English applicant notes dated 1 October 2026; full is the schema default and matches the call; at most two traps; no T13/resubmission material is applicable. Prior automated reviews were context only.",
+    "Read brief/key, field call and all chemical-sensing records. T03 concerns main-grant PI eligibility; CALISORB names Auernig-Sattler as PI and Feichtlbauer as a 0.6 FTE scientist, not an ERC holder. The call's missing explicit PI condition is filed on both ERC calls and must be corrected before release.",
+    "T06 is supported by pending/unpublished patent status, no grant decision, examination request not filed, and inventive-step objection. The revised key permits licence/option, service and other prospective routes and does not require every patent identifier or date.",
+    "Time is feasible: 0.5 FTE on ongoing CALISORB plus the brief's 10% PoC share is 60%; Feichtlbauer may coordinate technically while the ERC holder retains strategic decisions. EUR150,000/18 months and the 5000+500-word narrative contract are compatible.",
+    "Close fit: PR2 readers, RDC calibration, spiked-water recovery and existing user workshop support prospective laboratory-service or licensing validation. Core in-vitro validation can stay within the supplied permissions; existing workshop contacts do not constitute contracts.",
+    "Main grant's continuing carbamazepine/sulfamethoxazole and antifouling research can be separated from PoC user/uptake validation; no double funding is necessary. Official scheme: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf. Patent chronology: https://www.epo.org/en/new-to-patents/how-to-apply-for-a-patent."
+  ]
+}

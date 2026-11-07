@@ -1,0 +1,376 @@
+schema_version: 1
+id: adolescent-sleep-lab
+language: en
+applicant_type: individual
+career_stage: mid_career
+disciplines:
+- developmental psychology
+- sleep science
+- behavioural medicine
+method_profile: quantitative
+country: US
+files:
+- path: cv_pi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources_and_team.md
+  role: resources
+- path: community_engagement_report.md
+  role: other
+facts:
+- id: F01
+  category: result
+  kind: existing
+  text: The LAPSES study recruited a baseline cohort of 412 adolescents (ages 12-14, 52% female).
+  value: '412'
+  salient: true
+  source: prior_project.md
+- id: F02
+  category: result
+  kind: existing
+  text: Wave 3 retained 346 participants, an 84% retention rate.
+  value: 84%
+  salient: true
+  source: prior_project.md
+- id: F03
+  category: result
+  kind: existing
+  text: The study yielded 1,139 usable participant-waves.
+  value: 1,139
+  salient: true
+  source: prior_project.md
+- id: F04
+  category: result
+  kind: existing
+  text: The project collected a total of 13,415 valid nights of actigraphy across three waves.
+  value: 13,415
+  salient: true
+  source: prior_project.md
+- id: F05
+  category: result
+  kind: existing
+  text: Participants averaged 11.8 valid nights of actigraphy per completed wave.
+  value: '11.8'
+  salient: true
+  source: prior_project.md
+- id: F06
+  category: result
+  kind: existing
+  text: A valid night required >10 hours of wear time per 24-hour period, regardless of whether the principal
+    sleep interval was fully captured.
+  value: '>10 hours'
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: result
+  kind: existing
+  text: Missing epoch pairs were simply excluded from the SRI denominator, subjecting regularity estimates
+    to selective coverage biases.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: The 11.8-night yield overestimates the true 24-hour continuous coverage.
+  value: '11.8'
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: Average objective sleep duration declined by 22 minutes per year (95% CI 18-26 minutes).
+  value: '22'
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: SRI showed a significant linear decrease of 3.1 points per year (95% CI 2.2-4.0).
+  value: '3.1'
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: A 10-point decrease in SRI was associated with a 2.4-point increase in PHQ-9 scores (95% CI 1.1-3.7),
+    independent of total sleep duration.
+  value: '2.4'
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: result
+  kind: existing
+  text: In a baseline cross-sectional analysis, short sleep duration (<7 hours, n = 85) was associated
+    with a +0.42 higher BMI z-score (95% CI 0.15-0.69) compared to >8 hours (n = 142).
+  value: '+0.42'
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: result
+  kind: existing
+  text: In longitudinal mixed-effects analyses, lower SRI was independently associated with higher BMI
+    z-scores over time (+0.18 per 10-point SRI decrease, 95% CI 0.05-0.31).
+  value: '+0.18'
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: result
+  kind: existing
+  text: Because data collection followed a single cohort across three calendar years, developmental and
+    calendar-period effects cannot be cleanly separated.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F15
+  category: result
+  kind: existing
+  text: The existing LAPSES cohort data contains no blood pressure or metabolic measurements.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F16
+  category: grant
+  kind: existing
+  text: The NIH K01 grant provided $685,000 in direct costs from 07/01/2021 to 06/30/2026.
+  value: $685,000
+  salient: true
+  source: cv_pi.md
+- id: F17
+  category: grant
+  kind: existing
+  text: The Oakhaven University Seed Grant provided $45,000 in direct costs from 09/01/2019 to 08/31/2021.
+  value: $45,000
+  salient: true
+  source: cv_pi.md
+- id: F18
+  category: resource
+  kind: existing
+  text: The lab owns and maintains 150 ActiGraph GT9X Link monitors.
+  value: '150'
+  salient: true
+  source: resources_and_team.md
+- id: F19
+  category: resource
+  kind: existing
+  text: The lab houses 4 high-performance workstations dedicated to actigraphy data scoring and statistical
+    modeling.
+  value: '4'
+  salient: true
+  source: resources_and_team.md
+- id: F20
+  category: resource
+  kind: existing
+  text: Data are stored on the University of Oakhaven's secure, HIPAA-compliant server.
+  value: null
+  salient: true
+  source: resources_and_team.md
+- id: F21
+  category: other
+  kind: existing
+  text: The PI has never conducted a clinical trial and the lab lacks clinical trial infrastructure.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F22
+  category: other
+  kind: existing
+  text: The PI and the laboratory currently have no experience, equipment, or trained personnel to conduct
+    cardiovascular or metabolic assessments.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F23
+  category: partner
+  kind: existing
+  text: The relationship with cardiology collaborator Dr. Thalenor Veskareth is strictly informal; he
+    is not a co-investigator and there is no letter of support from him.
+  value: null
+  salient: true
+  source: resources_and_team.md
+- id: F24
+  category: partner
+  kind: existing
+  text: The lab conducted usability work with 12 clinic staff in Spring 2026.
+  value: '12'
+  salient: true
+  source: community_engagement_report.md
+- id: F25
+  category: partner
+  kind: existing
+  text: As of August 15, 2026, the lab maintains active MOUs with 8 rural school districts.
+  value: '8'
+  salient: true
+  source: community_engagement_report.md
+- id: F26
+  category: resource
+  kind: existing
+  text: The lab owns and maintains 50 Philips Respironics Actiwatch 2 devices with Actiware software.
+  value: '50'
+  salient: true
+  source: resources_and_team.md
+- id: F27
+  category: team
+  kind: existing
+  text: Calla Arislow serves as the Lab Manager.
+  value: null
+  salient: true
+  source: resources_and_team.md
+- id: F28
+  category: team
+  kind: existing
+  text: Jolyon Mercator is a Postdoctoral Fellow specializing in sleep and weight status.
+  value: null
+  salient: true
+  source: resources_and_team.md
+- id: F29
+  category: team
+  kind: existing
+  text: The lab includes two full-time Ph.D. students in Developmental Psychology.
+  value: Two
+  salient: true
+  source: resources_and_team.md
+- id: F30
+  category: partner
+  kind: existing
+  text: Dr. Elara Rostovich provides formal statistical consulting for longitudinal mixed-effects modeling.
+  value: null
+  salient: true
+  source: resources_and_team.md
+- id: F31
+  category: partner
+  kind: existing
+  text: The lab has partnered with 2 federally qualified health centers (FQHCs).
+  value: '2'
+  salient: true
+  source: community_engagement_report.md
+- id: F32
+  category: result
+  kind: existing
+  text: Focus groups in late 2025 involved 45 parents and teens.
+  value: '45'
+  salient: true
+  source: community_engagement_report.md
+- id: F33
+  category: result
+  kind: existing
+  text: Usability work identified low health literacy and lack of EHR integration as primary barriers.
+  value: null
+  salient: true
+  source: community_engagement_report.md
+- id: F34
+  category: result
+  kind: existing
+  text: Wave 2 participation was n = 381.
+  value: '381'
+  salient: true
+  source: prior_project.md
+- id: F35
+  category: result
+  kind: existing
+  text: Data were collected in 3 annual waves (Fall 2022, Fall 2023, Fall 2024).
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F36
+  category: result
+  kind: existing
+  text: Participants wore wrist actigraphs for 14 consecutive days and nights at each wave.
+  value: '14'
+  salient: true
+  source: prior_project.md
+- id: F37
+  category: result
+  kind: existing
+  text: The Sleep Regularity Index (SRI) averaged 72.4 (SD 8.1) at baseline.
+  value: '72.4'
+  salient: true
+  source: prior_project.md
+- id: F38
+  category: result
+  kind: existing
+  text: Adolescents with early school start times exhibited an additional 1.5-point annual SRI decline
+    (95% CI 0.6-2.4).
+  value: '1.5'
+  salient: true
+  source: prior_project.md
+- id: F39
+  category: result
+  kind: existing
+  text: The 2021 study assessed circadian phase preference in 250 eighth-grade students.
+  value: '250'
+  salient: true
+  source: publications.md
+- id: F40
+  category: result
+  kind: existing
+  text: Strong evening preference was associated with significantly lower math scores (-0.4 SD, 95% CI
+    -0.6 to -0.2).
+  value: −0.4
+  salient: true
+  source: publications.md
+- id: F41
+  category: result
+  kind: existing
+  text: The effect on math scores was partially mediated by daytime sleepiness (indirect effect -0.15,
+    95% CI -0.25 to -0.05).
+  value: −0.15
+  salient: true
+  source: publications.md
+own_publications:
+- key: vancura2026a
+  authors:
+  - Vancura, M.
+  - Arislow, C.
+  year: 2026
+  title: 'Longitudinal declines in sleep regularity during early adolescence: The LAPSES cohort'
+  venue: Pediatric Sleep Science
+  doi: 10.99999/pb.adolescent-sleep-lab.2026.1
+- key: vancura2025
+  authors:
+  - Vancura, M.
+  - Mercator, J.
+  - Rostovich, E.
+  year: 2025
+  title: Day-to-day sleep variability and depressive symptoms in rural youth
+  venue: Developmental Behavioral Medicine
+  doi: 10.99999/pb.adolescent-sleep-lab.2025.1
+- key: mercator2024
+  authors:
+  - Mercator, J.
+  - Vancura, M.
+  year: 2024
+  title: Objective short sleep duration and BMI z-scores in a rural middle school sample
+  venue: Adolescent Health Research
+  doi: 10.99999/pb.adolescent-sleep-lab.2024.1
+- key: vancura2026b
+  authors:
+  - Vancura, M.
+  year: 2026
+  title: Methodological considerations for deploying wrist actigraphy in rural school settings
+  venue: Behavioral Measurement
+  doi: 10.99999/pb.adolescent-sleep-lab.2026.2
+- key: vancura2021
+  authors:
+  - Vancura, M.
+  - Jenkell, S.
+  year: 2021
+  title: Evening chronotype and academic performance in eighth-grade students
+  venue: Chronobiology in Education
+  doi: 10.99999/pb.adolescent-sleep-lab.2021.1
+- key: vancura2019
+  authors:
+  - Vancura, M.
+  year: 2019
+  title: Environmental determinants of sleep hygiene in early adolescence
+  venue: Youth Development Perspectives
+  doi: 10.99999/pb.adolescent-sleep-lab.2019.1
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY a6c2ecdf-c7bb-42a9-a88d-b671974ae2bf

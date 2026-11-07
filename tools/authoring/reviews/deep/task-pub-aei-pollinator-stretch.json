@@ -1,0 +1,32 @@
+{
+  "kind": "task",
+  "id": "pub-aei-pollinator-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [
+    {
+      "severity": "minor",
+      "checklist": "Task 5; Task 6",
+      "where": "data/public/tasks/pub-aei-pollinator-stretch/brief.md: opening notes have no date.",
+      "problem": "The brief is not explicitly dated at the required task present date. The language difference is visible but is not explicitly noted as deliberate.",
+      "fix": "Add a dateline “1 October 2026” (or “1 de octubre de 2026”) at the start of brief.md. Add “Te adjunto el CV y los informes en inglés; la memoria la necesitamos en español” to the applicant notes, or record that deliberate language difference in task.yaml provenance.notes.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "data/public/tasks/pub-aei-pollinator-stretch/task.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Read current task, both AEI call files, all pollinator documents and hidden facts; read earlier reviews and maintainer r3 follow-up as context only. Type B and the not-yet-submitted future ERC attempt now match the visible material, replacing stale earlier variants.",
+    "T1 is appropriately a funding-status T06: the brief’s overconfident assurance about a future resubmission is contradicted by F24/CV (previous attempt not funded, new attempt in preparation and not submitted). No outside grant database is needed. It is visible in the requested budget/feasibility narrative. Omitting the speculative co-funding claim is compliant; if discussed, its actual status must remain clear.",
+    "T1’s independence requirement is read as independence from the unawarded ERC application. Confirmed host resources include the documented existing data/equipment/student support, subject to no duplicate charging and lawful effort compatibility. It should not be interpreted to ban those existing resources. The separate official active-PID eligibility problem is filed on dossier-pollinator-heat-pi, which must be repaired before this bundle is runnable.",
+    "T2 is correctly T09: the suggestion to replace required section 3 with a PI-centred narrative conflicts with the supplied template. The key’s objectives, methods, risks, contingencies, resources, prior results, timeline/responsibilities and requested-personnel justification are all actually required in section 3. A sole PI still needs this section. Source: PID2025 Annex VII, https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf",
+    "The 36-month, EUR 72000-direct type B configuration fits the fictional duration/budget range. A partially funded modeller and a bounded focal-species pilot can fit; there is no requirement to promise a fully validated all-species extinction forecast. The requested postdoc is explicitly planned, not falsely existing.",
+    "IPMs require survival, reproduction and state-transition inputs; CTmax, safety margins and visitation data alone do not identify them. The stretch is nevertheless bridgeable through planned focal-species demography or justified literature parameters with uncertainty and validation. Any compliant design needs to keep those new inputs prospective. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC4258094/ ; https://doi.org/10.1111/2041-210X.12146",
+    "One completed season in 2026 plus a planned 2027 season can make a later new-project campaign a third season; the brief need not be changed merely for saying “tercera temporada”. The contradictory completed-second-season CV sentence is filed only on the dossier.",
+    "Two traps, normal notes, no hidden type T12/T13/T14. The task is an AEI full application, not an AEI resubmission; mentioning a different ERC application does not require RESUB here. All seven sections and both trap corrections are achievable within 10000 words once the shared call/dossier blockers are fixed."
+  ]
+}

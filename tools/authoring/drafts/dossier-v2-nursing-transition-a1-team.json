@@ -1,0 +1,1444 @@
+{
+  "kind": "dossier",
+  "id": "v2-nursing-transition-a1-team",
+  "family": "anthropic",
+  "model": "opus",
+  "created": "2026-10-31",
+  "prompt_sha256": "c396b82fbe9bed0823726e3e2dc777eaf8afbd03c9476b15a8abcf324d4ca4e5",
+  "draft": {
+    "applicant_type": "team",
+    "career_stage": "mid_career",
+    "disciplines": [
+      "nursing",
+      "clinical psychology",
+      "health-services research"
+    ],
+    "method_profile": "mixed",
+    "country": "US",
+    "files": [
+      {
+        "path": "cv_pi.md",
+        "role": "cv",
+        "content": "> Fictional document created for ProposalBench.\n\n# Curriculum Vitae\n\n**Audra N. Kesselring, PhD, RN**\nAssociate Professor (tenured), College of Nursing, Cuyahoga Ridge University (CRU), Cleveland, Ohio\nUpdated 30 September 2026\n\n## Education\n\n| Year | Degree | Institution |\n|---|---|---|\n| 2012 | PhD, Nursing | Allegheny Crest University, Pittsburgh, PA |\n| 2007 | MSN, Adult-Gerontology Clinical Nurse Specialist | Cuyahoga Ridge University |\n| 2003 | BSN | Cuyahoga Ridge University |\n\nDissertation: *Daily routines and medication taking in adults living with heart failure* (2012). Registered Nurse, State of Ohio, licensed since 2003.\n\n## Positions\n\n- 2021–present: Associate Professor (tenure awarded July 2021), CRU College of Nursing. Effort allocation for 2026–27: 40% research, 50% teaching, 10% service (9-month appointment).\n- 2014–2021: Assistant Professor, CRU College of Nursing.\n- 2012–2014: Postdoctoral Fellow, CRU Center for Behavioral Health Research.\n- 2003–2008: Staff nurse, cardiac step-down unit, Cuyahoga Ridge Health.\n\n## Research focus\n\nHow adults manage medications in the first weeks after hospital discharge, and how daily stress and lapses of attention relate to the routines they keep. Methods: intensive longitudinal designs (ecological momentary assessment, daily diaries), structured weekly assessments, electronic event monitoring (since 2026) and semi-structured interviews.\n\n## Research support\n\n### Completed\n\n1. Northcoast Nursing Research Foundation. *Medication self-management routines after heart failure discharge.* PI. $48,000. 1 January 2017–31 December 2018. Survey (n = 64) and interview (n = 18) study.\n2. CRU College of Nursing Pilot Research Award. *Stress and medication routines after discharge: diary pilot* (Phase 1). PI. $25,000. 1 July 2024–31 December 2025, including a six-month no-cost extension.\n3. CRU Center for Behavioral Health Research Seed Supplement. *Electronic monitoring feasibility run* (Phase 2). PI. $18,500. 1 March 2026–31 August 2026.\n\nThe two internal awards were limited by their terms to feasibility work; neither funded hypothesis testing.\n\n### Applications\n\n- NIH R21 (Clinical Trial Not Allowed), 1 R21 NR021847-01, *Stress, attention and medication routines in the six weeks after hospital discharge*. PI; Co-Investigator I. D. Okonkwo-Lattimore. Submitted 16 February 2026; reviewed 11 June 2026 by the Interdisciplinary Clinical Care in Specialty Care Settings (ICSC) study section; impact score 46, 39th percentile; not funded. Summary statement released 26 June 2026.\n- As of 30 September 2026, no A1 has been submitted, and no application with overlapping aims is pending at NIH or any other funder.\n\n## Methods experience\n\n- EMA and daily diary studies since 2017; administers the College's smartphone EMA platform.\n- Electronic event monitoring (MEMS Cap): first used in the 2026 Phase 2 run.\n- Has not used pharmacy dispensing, refill or claims records in any study.\n\n## Teaching and mentoring\n\nNURS 512 Research Methods for Advanced Practice (annually since 2015). Primary mentor to 4 PhD students (2 graduated); chair of 6 DNP projects.\n\n## Service\n\nCollege of Nursing Research Committee, member 2022–present, chair 2024–2026.\n\n## Publications\n\nSee publications.md.\n"
+      },
+      {
+        "path": "team.md",
+        "role": "team",
+        "content": "> Fictional document created for ProposalBench.\n\n# Study team and clinical sites: Post-Discharge Routines Study\n\nCollege of Nursing, Cuyahoga Ridge University. Status as of 30 September 2026.\n\n## Investigators and staff\n\n| Role | Name | Appointment | On the study since |\n|---|---|---|---|\n| Principal investigator | Audra N. Kesselring, PhD, RN | Associate Professor, College of Nursing | 2024 |\n| Co-investigator | Imani D. Okonkwo-Lattimore, PhD | Associate Professor of Psychiatry, CRU School of Medicine; licensed psychologist (Ohio) | 2024 |\n| Co-investigator, statistics | Gareth P. Lindqvist, PhD | Research Associate Professor, Department of Biostatistics and Data Science, CRU | 1 July 2026 |\n| Research nurse coordinator | Kayla M. Brandvold, BSN, RN | College of Nursing research staff, 100%, permanent line | 2024 |\n\n**Dr. Okonkwo-Lattimore** (PhD, clinical psychology, 2011) directs the CRU Stress and Cognition Assessment Lab. She adapted the 3-minute mobile Psychomotor Vigilance Task (PVT) used in Phases 1 and 2, prepared the past-week PSS-10 wording used at the Phase 2 weekly visits, trained study staff in PSS-10 and PVT administration, and wrote the distress protocol under which coordinators refer participants who report high distress.\n\n**Dr. Lindqvist** (PhD, biostatistics, 2013) works on sensitivity analysis for informative dropout in longitudinal studies. He was not part of the A0, which budgeted 3% effort from the College's shared biostatistics core without a named statistician. He joined after the summary statement and wrote the missing-data analysis plan dated 24 August 2026 (summarized in feasibility_report.md, section 4).\n\n**Ms. Brandvold** consented all Phase 1 and Phase 2 participants, conducted the weekly visits and managed MEMS cap issue, return and download. Her position is funded by the College and does not depend on grant support.\n\nNo team member is a pharmacist or has worked with pharmacy dispensing or refill data.\n\n## Clinical sites\n\n### Ridgeline Transitional Care Clinic, Cuyahoga Ridge Health (CRH), Cleveland\n\nNurse-practitioner-led clinic that sees adults within 14 days of discharge from CRH medical units; about 210 new post-discharge patients per month in 2025 (clinic statistics). Site of Phase 1 and Phase 2. Letter of support signed 14 August 2026 by the medical director, Priya Raghunathan-Lowe, MD: an examination room for weekly visits on two weekdays, a referral workflow through clinic nurse practitioners, and support for recruitment of up to 60 participants over an 18-month enrollment period. An earlier letter of general support (22 January 2026) accompanied the A0.\n\n### Lakevale Community Health Center, Lorain, Ohio\n\nFederally qualified health center with a post-hospital follow-up clinic. The A0 named Lakevale as the source of 45 of the 90 participants, based on conversations with its medical director, Owen T. Marchbanks, DO; no letter was obtained before submission.\n\n| Date | Step |\n|---|---|\n| 8 July 2026 | Letter requested by email, with draft text and the Phase 2 protocol |\n| 2 September 2026 | Reminder sent |\n| 22 September 2026 | Lakevale research committee replied that it will consider the request at a meeting later in the fall; no date set |\n\nStatus on 30 September 2026: requested, not signed. Lakevale has made no commitment of space, staff, referrals or data and did not take part in Phase 1 or Phase 2.\n\n## Working arrangements\n\nBiweekly team meetings since August 2024; Dr. Lindqvist has attended since July 2026. Study data are held in CRU REDCap; MEMS downloads are stored on the College research server.\n"
+      },
+      {
+        "path": "prior_application_a0.md",
+        "role": "other",
+        "content": "> Fictional document created for ProposalBench.\n\n# NIH R21 application (A0), abridged\n\n**1 R21 NR021847-01** — *Stress, attention and medication routines in the six weeks after hospital discharge*\n\nSubmitted 16 February 2026. Activity code R21, Clinical Trial Not Allowed. PI: Audra N. Kesselring, PhD, RN; Co-I: Imani D. Okonkwo-Lattimore, PhD. Requested period 1 December 2026–30 November 2028. Direct costs requested: $275,000 (Year 1 $161,900; Year 2 $113,100).\n\nAbridged copy kept in the College of Nursing grants file. Reproduced: Specific Aims, Preliminary Data, Approach (shortened), timeline and budget summary. Omitted: Human Subjects, Bibliography, Biosketches and letters (the A0 carried one letter, from Ridgeline, dated 22 January 2026).\n\n## Specific Aims (as submitted)\n\nThe first weeks at home after a hospital stay change how adults take medications: regimens are altered at discharge, routines are interrupted, and follow-up visits, symptoms and household demands compete for attention. Nurses see patients who know their regimen yet miss doses during this period. We propose that stress and lapses of attention during the transition disrupt medication routines, and that these processes can be observed in daily life.\n\nWe will follow 90 adults discharged home from medical units, recruited at two outpatient clinics, for six weeks, using smartphone ecological momentary assessment (EMA) of stress, a brief mobile attention task and medication diaries. The study is observational; no intervention is delivered.\n\n**Aim 1.** Describe the course of perceived and momentary stress, attention lapses and self-reported medication taking over the first six weeks after discharge.\n\n**Aim 2.** Estimate the association between momentary stress in the first week after discharge and self-reported medication adherence at week 6. *Hypothesis:* higher person-mean stress on days 1–7 is associated with lower week-6 adherence (r of -0.30 or stronger).\n\n**Aim 3 (exploratory).** Examine whether attention lapses statistically account for part of the stress–adherence association.\n\nThe results will indicate whether stress and attention should be measured, and later addressed, in nursing care after discharge.\n\n## Preliminary data (as submitted)\n\nPhase 1 diary pilot at Ridgeline Transitional Care Clinic (CRU College of Nursing Pilot Research Award, 2024–2025): 31 adults enrolled and 26 (83.9%) completed six weeks. EMA prompt completion was 76.0% and mobile PVT completion 78.8% on days 1–7. Person-mean momentary stress correlated with week-6 self-reported adherence at r = -0.31 (95% CI -0.62 to 0.09; n = 26). The intraclass correlation of momentary stress was 0.48, indicating substantial within-person variation in the first week.\n\n## Approach (shortened)\n\n**C.1 Design.** Prospective observational cohort; two sites; six-week follow-up from discharge.\n\n**C.2 Participants.** Adults aged 18 years or older discharged home from a medical unit within the previous 7 days, with at least 3 scheduled daily oral medications, English-speaking and able to use a smartphone (loaners provided). Exclusions: discharge to a skilled nursing facility, diagnosis of dementia, hospice enrollment.\n\n**C.3 Recruitment.** 90 participants over 18 months: 45 at Ridgeline Transitional Care Clinic (CRH) and 45 at Lakevale Community Health Center, which 'has agreed in principle; a letter will follow'. Ridgeline enrolled 31 participants in 7 months during Phase 1.\n\n**C.4 Measures.**\n- Baseline: demographics, number of scheduled medications, PSS-10.\n- Days 1–7 (EMA burst): four prompts per day rating momentary stress (0–10); one 3-minute mobile PVT per day (lapses = responses slower than 500 ms).\n- Medication taking: evening diary on days 1–7 (doses taken, missed, late); one structured recall interview at week 6 covering missed doses in the previous 7 days.\n- Week 6: PSS-10.\n\n**C.5 Analysis.** Aim 1: descriptive statistics and linear mixed models for EMA data. Aim 2: linear regression of week-6 adherence on person-mean stress (days 1–7), adjusted for age, number of medications and baseline PSS-10. Missing data handled by multiple imputation under a missing-at-random assumption; 20% attrition expected. Aim 3: product-of-coefficients estimate with bias-corrected bootstrap confidence intervals, reported as exploratory.\n\n**C.6 Sample size.** With 90 enrolled and 20% attrition (72 analyzable), the study has 80% power at two-sided alpha 0.05 to detect r = 0.33.\n\n**C.7 Potential problems and alternatives.** Self-report may overstate adherence; we chose diaries and recall because electronic monitoring adds cost and participant burden during the transition. If EMA completion falls below 70%, prompts will be reduced to three per day.\n\n**C.8 Timeline.** Months 1–3 start-up; months 4–21 enrollment and follow-up; months 22–24 analysis and dissemination.\n\n## Budget summary (direct costs)\n\n| Item | Year 1 | Year 2 |\n|---|---|---|\n| Personnel (PI 15%, Co-I 5%, research nurse 50%, biostatistics core 3%) | $129,400 | $96,300 |\n| Participant compensation ($100 each) | $5,000 | $4,000 |\n| Smartphones, data plans, EMA platform | $14,500 | $6,800 |\n| Travel to Lakevale site | $3,000 | $3,000 |\n| Supplies, printing, recruitment materials, publication | $10,000 | $3,000 |\n| **Total** | **$161,900** | **$113,100** |\n"
+      },
+      {
+        "path": "summary_statement.md",
+        "role": "other",
+        "content": "> Fictional document created for ProposalBench.\n\n# SUMMARY STATEMENT\n\n(Privileged Communication) Release Date: 06/26/2026\n\n| | |\n|---|---|\n| Application Number | 1 R21 NR021847-01 |\n| Principal Investigator | KESSELRING, AUDRA N, PhD, RN |\n| Applicant Organization | CUYAHOGA RIDGE UNIVERSITY |\n| Review Group | ICSC, Interdisciplinary Clinical Care in Specialty Care Settings Study Section |\n| Meeting Date | 06/11/2026 |\n| Council | OCT 2026 |\n| Requested Start | 12/01/2026 |\n| Project Title | Stress, attention and medication routines in the six weeks after hospital discharge |\n| Clinical Trial | Not Allowed |\n| SRG Action | Impact Score: 46; Percentile: 39 |\n| Human Subjects | Human subjects involved; no SRG concerns |\n| Inclusion | Sex/gender, race/ethnicity and age: acceptable |\n\n| Project Year | Direct Costs Requested |\n|---|---|\n| 1 | $161,900 |\n| 2 | $113,100 |\n| Total | $275,000 |\n\nThis application was evaluated under the simplified review framework for research project grants (Factor 1 and Factor 2 scored; Factor 3 rated for sufficiency).\n\n## RESUME AND SUMMARY OF DISCUSSION\n\nThis R21 proposes a six-week observational cohort of 90 adults after hospital discharge to relate momentary stress and attention lapses to medication taking. Reviewers agreed that the post-discharge period is important, that a nursing and clinical psychology team is well placed for the work, and that the Phase 1 pilot shows EMA and a mobile attention task are acceptable to this population. Enthusiasm was reduced by the following concerns. First, adherence is measured only by self-report (a diary on days 1–7 and one recall at week 6) with no objective check, and the pilot shows most participants reporting no missed doses. Second, stress and attention are measured only during days 1–7, so the design cannot capture how these exposures vary across the transition. Third, attrition is handled by multiple imputation under missing at random, although pilot non-completers had higher baseline stress; there is no missing-not-at-random sensitivity analysis, and statistical support is limited to 3% effort from a shared core with no named statistician. Fourth, half of the sample is to come from a second clinic that has provided no letter, so recruitment feasibility is undocumented. Fifth, Aim 3 is framed as identifying a mechanism, which an observational design measuring exposures in week 1 and adherence at week 6 cannot establish; the exploratory mediation aim cannot support causal conclusions.\n\n## CRITIQUE 1\n\n**Overall Impact:** 4\n\n**Factor 1. Importance of the Research (Significance, Innovation): 3**\n\nStrengths\n- Medication taking in the weeks after discharge is clinically important; the focus on stress and attention adds a psychological mechanism to a field dominated by medication reconciliation studies.\n- Intensive longitudinal measurement in recently discharged adults is innovative.\n\nWeaknesses\n- Significance depends on an adherence outcome whose validity is uncertain (see Factor 2).\n\n**Factor 2. Rigor and Feasibility (Approach): 5**\n\nStrengths\n- Pilot completion rates (76.0% EMA prompts, 78.8% PVT sessions) support the measurement burden.\n- Clear eligibility criteria and an appropriate distress protocol.\n\nWeaknesses\n- Adherence is measured only by self-report: a 7-day diary and a single recall at week 6. There is no objective check such as electronic event monitoring or pill counts, and in the pilot 21 of 26 participants reported no missed doses, a ceiling that limits Aim 2. The stated reason for not using electronic monitoring (cost and burden) is not supported by data.\n- Stress and attention are measured only on days 1–7. Regimen changes, follow-up visits and readmissions after the first week will be missed, and a week-1 average cannot describe how exposure varies across six weeks.\n\n**Factor 3. Expertise and Resources (Investigators, Environment):** Additional expertise and/or resources needed. Half of the sample is to come from Lakevale Community Health Center, but there is no letter; 'agreed in principle' is not sufficient. Ridgeline alone enrolled 31 participants in seven months and would not reach 90 in 18 months on its own.\n\n## CRITIQUE 2\n\n**Overall Impact:** 5\n\n**Factor 1. Importance of the Research: 3**\n\nStrengths\n- Integration of nursing and psychological perspectives on medication routines.\n\nWeaknesses\n- Aim 3 is framed as identifying a mechanism, which an observational design with these measurement intervals cannot establish.\n\n**Factor 2. Rigor and Feasibility: 6**\n\nStrengths\n- Feasible procedures at the lead site.\n\nWeaknesses\n- Self-report diaries are known to overstate adherence. Without an objective measure, any stress–adherence association may reflect reporting differences between more and less stressed participants.\n- Attrition of 20% is handled by multiple imputation under missing at random. In the pilot, the five non-completers had higher baseline PSS-10 scores (24.2 vs 18.9). Dropout is likely related to stress and probably to adherence; there is no missing-not-at-random sensitivity analysis (pattern-mixture or selection models, tipping-point analysis).\n- The seven-day exposure window misses later variability.\n- Temporal ordering of stress, attention lapses and adherence is not established when exposures are measured in week 1 and adherence at week 6; Aim 3 should be described as descriptive.\n\n**Factor 3. Expertise and Resources:** Appropriate. A named statistician would strengthen the team.\n\n## CRITIQUE 3\n\n**Overall Impact:** 4\n\n**Factor 1. Importance of the Research: 2**\n\nStrengths\n- High clinical significance for nursing care after discharge.\n\n**Factor 2. Rigor and Feasibility: 5**\n\nStrengths\n- Procedures tested at Ridgeline.\n\nWeaknesses\n- Adherence by self-report only.\n- Exposures should be measured repeatedly, for example weekly, across the six weeks rather than in one burst.\n- The missing-data plan is brief and relies on missing at random only.\n\n**Factor 3. Expertise and Resources:** Additional expertise and/or resources needed. Recruitment at Lakevale is undocumented: no letter, no patient volume, no description of who would recruit there. Biostatistics support is 3% core effort with no named statistician.\n\nTHE FOLLOWING SECTIONS WERE PREPARED BY THE SCIENTIFIC REVIEW OFFICER TO SUMMARIZE THE OUTCOME OF DISCUSSIONS OF THE REVIEW COMMITTEE, OR REVIEWERS' WRITTEN CRITIQUES, ON THE FOLLOWING ISSUES:\n\n## FACTOR 2 (RIGOR AND FEASIBILITY): INCLUSION\n\n**Inclusion of Women, Minorities, and Individuals Across the Lifespan:** Acceptable. Adults aged 18 years and older of both sexes; the planned racial and ethnic distribution reflects the two named clinic populations; exclusion of children is justified by the adult discharge population.\n\n## ADDITIONAL REVIEW CRITERIA\n\n**Protections for Human Subjects:** Acceptable risks and adequate protections. Minimal-risk observational design; the distress protocol is appropriate.\n\n## ADDITIONAL REVIEW CONSIDERATIONS\n\n**Budget and Period of Support:** Recommend as requested.\n"
+      },
+      {
+        "path": "feasibility_report.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n# Final report: internal feasibility work, Post-Discharge Routines Study\n\nPhase 1 (diary pilot, 2024–2025) and Phase 2 (electronic monitoring run, 2026)\nSubmitted to the Associate Dean for Research, CRU College of Nursing, 18 September 2026\nPI: Audra N. Kesselring, PhD, RN. Co-investigators: Imani D. Okonkwo-Lattimore, PhD; Gareth P. Lindqvist, PhD (analysis planning, from July 2026).\n\n## 1. Funding and approvals\n\n| | Phase 1 | Phase 2 |\n|---|---|---|\n| Award | CRU College of Nursing Pilot Research Award, $25,000 | CRU Center for Behavioral Health Research Seed Supplement, $18,500 |\n| Period | 1 July 2024–31 December 2025 | 1 March–31 August 2026 |\n| CRU IRB protocol | STUDY2024-0177, approved 14 August 2024, closed 15 December 2025 | STUDY2026-0118, approved 2 April 2026; enrollment closed |\n| Site | Ridgeline Transitional Care Clinic | Ridgeline Transitional Care Clinic |\n\nBoth awards were limited to feasibility aims. Neither phase was designed or powered to test associations, and no intervention was delivered in either phase.\n\nExpenditure. Phase 1: research nurse $15,600; participant compensation (31 x $100) $3,100; loaner smartphones and data plans $2,800; EMA platform license $3,500. Phase 2: 16 MEMS Caps, 2 readers and software $4,960; research nurse $10,240; participant compensation (12 x $150) $1,800; supplies $1,500.\n\n## 2. Phase 1: diary pilot (September 2024–May 2025)\n\n**Methods.** Adults discharged home from CRH medical units within 7 days, with at least 3 scheduled daily oral medications. Recruitment 9 September 2024–28 March 2025: 118 screened, 52 eligible, 31 enrolled. Days 1–7: four EMA prompts per day (momentary stress, 0–10), one 3-minute mobile PVT per day, evening medication diary. Standard PSS-10 (past-month recall) at baseline and week 6; at week 6 a structured recall of missed doses in the previous 7 days.\n\n**Participants.** Mean age 63.8 years (SD 11.2); 17 women (55%); 12 (39%) Black, 17 (55%) White, 2 (6%) other or more than one race; median 7 scheduled daily medications (IQR 5–9).\n\n| Outcome | Result |\n|---|---|\n| EMA prompts completed | 660 of 868 (76.0%) |\n| Mobile PVT sessions completed | 171 of 217 (78.8%) |\n| Diary days completed | 189 of 217 (87.1%) |\n| Completed week 6 | 26 of 31 (83.9%) |\n| Intraclass correlation, momentary stress | 0.48 |\n| Diary-reported doses taken, days 1–7, median | 97% (IQR 93–100%) |\n| Week-6 recall: no missed doses in previous 7 days | 21 of 26 (81%) |\n| Person-mean stress vs week-6 self-reported adherence | r = -0.31 (95% CI -0.62 to 0.09), n = 26 |\n\n**Non-completers.** 5 of 31 participants did not reach week 6 (2 readmitted, 2 lost to contact, 1 withdrew). Their baseline PSS-10 mean was 24.2 (SD 5.1), against 18.9 (SD 6.0) among completers. Two of the five stopped diaries before day 4.\n\n**Timing of regimen changes.** Clinic records show that 14 of 26 completers had a change to their medication regimen between day 8 and day 42, after the measurement window had closed.\n\n## 3. Phase 2: electronic monitoring run (May–August 2026)\n\n**Purpose.** To test whether electronic event monitoring, daily diaries and weekly visits can be run together for six weeks after discharge.\n\n**Methods.** Enrollment 4 May–3 July 2026 (target of 12 reached); last visit 14 August 2026. 57 screened, 26 eligible, 19 approached, 12 enrolled. At enrollment, participants completed the standard PSS-10 (past-month recall), and one index medication per participant (scheduled once or twice daily) was placed in a MEMS Cap. Participants kept an evening diary (paper or smartphone) for all scheduled medications, with a separate entry for the index medication. Weekly visits in weeks 1–6, at the clinic or at home, included a past-week version of the PSS-10, the 3-minute PVT and a MEMS download. In the past-week version, prepared by Dr. Okonkwo-Lattimore, the stem 'In the last month' was replaced by 'In the last week'; the ten items and the 0–4 response scale were otherwise unchanged. The change was made because the standard past-month wording would give consecutive weekly administrations overlapping reference periods. Adherence data were not fed back to participants or clinicians.\n\n**Participants.** Mean age 61.2 years (SD 12.9); 7 women; 5 Black, 7 White.\n\n| Outcome | Result |\n|---|---|\n| Complete 42-day MEMS record | 10 of 12 |\n| Incomplete records | 1 withdrew in week 2 after readmission; 1 cap lost in week 4 (24 days recorded) |\n| Weekly visits completed | 63 of 72 scheduled (87.5%) |\n| PVT completed at visits | 61 of 63 (97%) |\n| Past-week PSS-10 completed at visits | 63 of 63 |\n| Diary days completed (10 complete records) | 383 of 420 (91.2%) |\n| Day-level agreement, diary vs MEMS (all index doses taken) | 330 of 383 days (86.2%); kappa 0.49 (95% CI 0.36 to 0.62) |\n| Diary minus MEMS adherence, per participant | mean 7.4 percentage points (range -2.1 to 19.0) |\n| MEMS correct-dosing days | median 88% (IQR 74–93%) |\n| Past-week PSS-10, mean absolute change between consecutive completed visits | 3.6 points (SD 2.8; 49 visit pairs) |\n| Past-week PSS-10, Cronbach's alpha (63 administrations pooled; clustering not taken into account) | 0.84 |\n| Cap rated not at all or slightly burdensome at exit | 9 of 10 |\n\nNo association between stress, attention and adherence was estimated, given 10 complete records.\n\n## 4. Missing-data analysis plan (August 2026)\n\nAfter the summary statement, Dr. Lindqvist reviewed the Phase 1 dropout pattern (5 of 31 non-completers; baseline PSS-10 24.2 vs 18.9) and on 24 August 2026 delivered a written missing-data analysis plan for a six-week cohort with MEMS monitoring, diaries and weekly visits. The plan sets a primary linear mixed model for weekly MEMS correct-dosing proportions, valid under missing at random, and a pattern-mixture sensitivity analysis under missing not at random: three dropout patterns (after weeks 1–2, after weeks 3–4, completers), complete-case and neighbouring-case identifying restrictions, delta adjustment of post-dropout weekly adherence from 0 to -20 percentage points, and a tipping-point analysis. Where a MEMS record is incomplete, diary data enter only as auxiliary variables, because diary adherence exceeded MEMS adherence in Phase 2. The R code (mice, lme4) was tested on simulated data. The plan was not applied to Phase 2 data, whose 2 incomplete records are too few for pattern-specific estimates. It covers missing outcome data only; it does not address confounding and gives mediation estimates no causal interpretation.\n\n## 5. Limitations\n\n- Phase 2 was a feasibility run, not a validation study: one site, one index medication per person and 10 complete records. The kappa interval is wide and does not account for clustering of days within participants. The run does not establish MEMS as a criterion measure in this population; a cap opening records bottle access, not ingestion.\n- The weekly stress measure was an adapted, past-week PSS-10. Apart from the pooled alpha above, its reliability and validity have not been evaluated in this population; its scores are not comparable with published past-month norms, with the Phase 2 enrollment score or with Phase 1 PSS-10 scores. With 10 to 12 participants, the 3.6-point week-to-week change cannot be separated from measurement error.\n- Neither phase tested hypotheses or evaluated any intervention.\n- Both phases recruited at Ridgeline only; there are no data from Lakevale or any other site.\n- Phase 2 consent covered the MEMS Cap, diaries and weekly visits, and also review of the CRH discharge summary to record the discharge medication list, but not pharmacy-record access, linkage or recontact for that purpose (see resources.md). Neither phase obtained or linked pharmacy refill data.\n- The missing-data plan of 24 August 2026 has not been applied to device data.\n\n## 6. Data holdings\n\nDe-identified Phase 1 and Phase 2 datasets in CRU REDCap; MEMS event files for 12 participants (10 complete). Available to the study team under the approved protocols. A Phase 2 manuscript is in preparation and had not been submitted on 18 September 2026.\n"
+      },
+      {
+        "path": "resources.md",
+        "role": "resources",
+        "content": "> Fictional document created for ProposalBench.\n\n# Facilities, equipment and approvals\n\nCollege of Nursing, Cuyahoga Ridge University. Status as of 30 September 2026.\n\n## Space\n\nCollege of Nursing Research Office: two private interview rooms, locked storage for devices and paper diaries, three workstations on the CRU research network. Ridgeline Transitional Care Clinic provides an examination room on two weekdays for study visits (letter of 14 August 2026).\n\n## Equipment and software (owned)\n\n- 16 MEMS Caps and 2 MEMS readers with the accompanying adherence software, purchased March 2026 with the Phase 2 seed supplement; 15 caps remain in service after one was lost during Phase 2.\n- 12 loaner Android smartphones (purchased 2024 for Phase 1).\n- Smartphone EMA platform: College subscription renewed through 30 June 2027.\n- Mobile 3-minute PVT configured by the CRU Stress and Cognition Assessment Lab.\n- CRU REDCap (institutionally hosted) and a College research data server with nightly backup.\n\n## Institutional support\n\n- PI research effort of 40% in 2026–27 (9-month appointment).\n- Research nurse coordinator position funded by the College.\n- Dr. Lindqvist's effort on the study is currently supported by his department.\n\n## Human subjects approvals and consent scope\n\n| Protocol | Status |\n|---|---|\n| STUDY2024-0177 (Phase 1) | Approved 14 August 2024; closed 15 December 2025 |\n| STUDY2026-0118 (Phase 2) | Approved 2 April 2026 (expedited, minimal risk); enrollment closed 3 July 2026; open for data analysis |\n\nThe Phase 2 consent form and HIPAA authorization cover: a MEMS Cap on one index medication; daily medication and stress diaries; weekly visits with PSS-10 and PVT; and review of the CRH discharge summary to record the discharge medication list. They do not cover access to pharmacy dispensing or refill records, linkage of study data to pharmacy records, or recontact for that purpose.\n\nNo amendment requesting pharmacy-record linkage has been submitted to or approved by the CRU IRB. No data use agreement exists with the CRH outpatient pharmacy or any external pharmacy or claims source. Participants in Phases 1 and 2 were not asked to consent to future linkage.\n\n## Recruitment record\n\n| Site | Record |\n|---|---|\n| Ridgeline (Phase 1) | 31 enrolled in 7 months (September 2024–March 2025): 118 screened, 52 eligible |\n| Ridgeline (Phase 2) | 12 enrolled in 9 weeks (4 May–3 July 2026): 57 screened, 26 eligible, 19 approached |\n| Ridgeline (letter) | Support for up to 60 participants over 18 months |\n| Lakevale | No letter; request pending (see team.md) |\n"
+      },
+      {
+        "path": "publications.md",
+        "role": "publications",
+        "content": "> Fictional document created for ProposalBench.\n\n# Publications of the study team (selected)\n\nAs of 30 September 2026.\n\n1. Kesselring, A. N., Brandvold, K. M., & Okonkwo-Lattimore, I. D. (2025). Momentary stress and self-reported medication taking in the first week after hospital discharge: a pilot ecological momentary assessment study. *Journal of Transitional Care Nursing*, 9(3), 211–224. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2025.1\n   Phase 1 results (n = 31).\n\n2. Okonkwo-Lattimore, I. D., & Kesselring, A. N. (2024). A three-minute smartphone vigilance task in adults recovering from acute illness: completion, practice effects and missing data. *Behavioral Assessment in Health Settings*, 6(2), 88–101. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2024.1\n   Laboratory sample of 48 adults recruited in 2023.\n\n3. Lindqvist, G. P. (2023). Pattern-mixture sensitivity analysis for informative dropout in intensive longitudinal health studies: a tutorial. *Methods in Applied Health Statistics*, 11, 140–162. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2023.1\n\n4. Brandvold, K. M., & Kesselring, A. N. (2022). Medication discrepancies found at nurse-led post-discharge clinic visits: a retrospective review of 186 patients. *Advances in Transitional Nursing Practice*, 4(1), 17–29. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2022.1\n\n5. Kesselring, A. N., & Hanratty, D. R. (2021). Habit strength and medication routines in adults with multimorbidity: a cross-sectional survey. *Journal of Chronic Illness Self-Management*, 5(1), 45–58. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2021.1\n   Survey of 412 adults.\n\n6. Kesselring, A. N. (2019). Medication self-management routines after heart failure discharge: a mixed-methods study. *Cardiovascular Nursing Research and Practice*, 14(4), 301–315. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2019.1\n\n## In preparation\n\n- Phase 2 electronic monitoring feasibility results (not submitted as of 30 September 2026).\n"
+      }
+    ],
+    "facts": [
+      {
+        "category": "identity",
+        "kind": "existing",
+        "text": "The PI, Audra N. Kesselring, PhD, RN, is a tenured Associate Professor at the Cuyahoga Ridge University College of Nursing whose research concerns medication routines after hospital discharge.",
+        "value": null,
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Institutional support in 2026–27 consists of 40% PI research effort on a 9-month appointment, a College-funded research nurse coordinator position and departmental support for Dr. Lindqvist's effort.",
+        "value": "40%",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "Co-investigator Imani D. Okonkwo-Lattimore, a licensed clinical psychologist, adapted the 3-minute mobile PVT, prepared the past-week PSS-10 wording and wrote the distress protocol.",
+        "value": null,
+        "salient": true,
+        "source": "team.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "The R21 A0 (1 R21 NR021847-01), submitted 16 February 2026, received an impact score of 46 (39th percentile) at the ICSC study section on 11 June 2026 and was not funded; as of 30 September 2026 no A1 has been submitted and no application with overlapping aims is pending.",
+        "value": "46",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "The preliminary work was funded by two internal awards limited to feasibility work: a College of Nursing Pilot Research Award ($25,000, Phase 1, 2024–2025) and a Center for Behavioral Health Research Seed Supplement ($18,500, Phase 2, March–August 2026).",
+        "value": "$25,000",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The A0 proposed 90 participants (45 each from Ridgeline and Lakevale), a days 1–7 EMA burst, adherence by diary and a single week-6 recall, multiple imputation under missing at random, an exploratory mediation Aim 3 and 3% biostatistics core effort.",
+        "value": "90",
+        "salient": true,
+        "source": "prior_application_a0.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "In Phase 1, 26 of 31 enrolled participants completed week 6.",
+        "value": "83.9%",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "On Phase 1 days 1–7, participants completed 660 of 868 EMA prompts and 171 of 217 mobile PVT sessions (78.8%), and the intraclass correlation of momentary stress was 0.48.",
+        "value": "76.0%",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "In Phase 1, person-mean stress correlated with week-6 self-reported adherence at r = -0.31 (95% CI -0.62 to 0.09), n = 26.",
+        "value": "-0.31",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "In Phase 1, 21 of 26 completers reported no missed doses at the week-6 recall, a self-report ceiling.",
+        "value": "21 of 26",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The 5 Phase 1 non-completers (2 readmitted, 2 lost to contact, 1 withdrew) had a mean baseline PSS-10 of 24.2 (SD 5.1) versus 18.9 (SD 6.0) among completers.",
+        "value": "24.2",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "14 of 26 Phase 1 completers had a medication regimen change between day 8 and day 42, after the 7-day measurement window had closed.",
+        "value": "14 of 26",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The non-interventional Phase 2 run obtained complete 42-day MEMS records for 10 of 12 participants (1 withdrew after readmission, 1 cap lost in week 4); it was a one-site feasibility run, not validation or efficacy evidence.",
+        "value": "10 of 12",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "In Phase 2, weekly visits replaced the single recall: 63 of 72 scheduled visits were completed, the PVT was completed at 61 of 63 visits, and 9 of 10 participants with complete records rated the cap not at all or slightly burdensome.",
+        "value": "87.5%",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Among the 10 complete Phase 2 records, diaries were completed on 383 of 420 days (91.2%) and day-level diary–MEMS agreement was 86.2% with kappa 0.49 (95% CI 0.36 to 0.62), not adjusted for clustering.",
+        "value": "0.49",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Diary-reported adherence exceeded MEMS-measured adherence by a mean of 7.4 percentage points per participant (range -2.1 to 19.0).",
+        "value": "7.4",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "MEMS correct-dosing days had a median of 88% (IQR 74–93%) across the 10 complete Phase 2 records.",
+        "value": "88%",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "On an adapted past-week PSS-10 given at weekly visits, the mean absolute change between consecutive visits was 3.6 points (SD 2.8; 49 visit pairs); the adaptation has not been psychometrically evaluated in this population beyond a pooled alpha of 0.84.",
+        "value": "3.6",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Statistician Gareth P. Lindqvist, who joined in July 2026 after the summary statement, delivered on 24 August 2026 a written missing-data plan (MAR mixed model plus pattern-mixture sensitivity analysis with delta adjustment from 0 to -20 percentage points and a tipping-point analysis) that has been tested only on simulated data, has not been applied to any study data, covers missing outcome data only and gives mediation estimates no causal interpretation.",
+        "value": "24 August 2026",
+        "salient": true,
+        "source": "feasibility_report.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Ridgeline's letter of 14 August 2026 supports up to 60 participants over 18 months; the clinic yielded 31 enrollees in 7 months in Phase 1 and 12 in 9 weeks in Phase 2 (57 screened, 26 eligible, 19 approached).",
+        "value": "60",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "The Lakevale Community Health Center letter was requested on 8 July 2026 and is not signed; its research committee has set no meeting date and Lakevale has committed no space, staff, referrals or data.",
+        "value": "not signed",
+        "salient": true,
+        "source": "team.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Under STUDY2026-0118 (approved 2 April 2026; enrollment closed 3 July 2026; open for data analysis), consent and HIPAA authorization cover a MEMS Cap, diaries, weekly visits with PSS-10 and PVT, and review of the CRH discharge summary for the discharge medication list, but not access to pharmacy dispensing or refill records, linkage to pharmacy records or recontact for that purpose; no linkage amendment or pharmacy data use agreement exists.",
+        "value": null,
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The team owns 16 MEMS Caps (15 in service), 2 readers and 12 loaner smartphones, and the College EMA platform subscription runs through 30 June 2027.",
+        "value": "30 June 2027",
+        "salient": false,
+        "source": "resources.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "The PI has not used pharmacy dispensing, refill or claims records in any study.",
+        "value": null,
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "No member of the study team is a pharmacist or has worked with pharmacy dispensing or refill data.",
+        "value": null,
+        "salient": true,
+        "source": "team.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "kesselring2025stress",
+        "authors": [
+          "Kesselring, A. N.",
+          "Brandvold, K. M.",
+          "Okonkwo-Lattimore, I. D."
+        ],
+        "year": 2025,
+        "title": "Momentary stress and self-reported medication taking in the first week after hospital discharge: a pilot ecological momentary assessment study",
+        "venue": "Journal of Transitional Care Nursing",
+        "doi": "10.99999/pb.v2-nursing-transition-a1-team.2025.1"
+      },
+      {
+        "key": "okonkwo2024vigilance",
+        "authors": [
+          "Okonkwo-Lattimore, I. D.",
+          "Kesselring, A. N."
+        ],
+        "year": 2024,
+        "title": "A three-minute smartphone vigilance task in adults recovering from acute illness: completion, practice effects and missing data",
+        "venue": "Behavioral Assessment in Health Settings",
+        "doi": "10.99999/pb.v2-nursing-transition-a1-team.2024.1"
+      },
+      {
+        "key": "lindqvist2023pattern",
+        "authors": [
+          "Lindqvist, G. P."
+        ],
+        "year": 2023,
+        "title": "Pattern-mixture sensitivity analysis for informative dropout in intensive longitudinal health studies: a tutorial",
+        "venue": "Methods in Applied Health Statistics",
+        "doi": "10.99999/pb.v2-nursing-transition-a1-team.2023.1"
+      },
+      {
+        "key": "brandvold2022discrepancies",
+        "authors": [
+          "Brandvold, K. M.",
+          "Kesselring, A. N."
+        ],
+        "year": 2022,
+        "title": "Medication discrepancies found at nurse-led post-discharge clinic visits: a retrospective review of 186 patients",
+        "venue": "Advances in Transitional Nursing Practice",
+        "doi": "10.99999/pb.v2-nursing-transition-a1-team.2022.1"
+      },
+      {
+        "key": "kesselring2021habit",
+        "authors": [
+          "Kesselring, A. N.",
+          "Hanratty, D. R."
+        ],
+        "year": 2021,
+        "title": "Habit strength and medication routines in adults with multimorbidity: a cross-sectional survey",
+        "venue": "Journal of Chronic Illness Self-Management",
+        "doi": "10.99999/pb.v2-nursing-transition-a1-team.2021.1"
+      },
+      {
+        "key": "kesselring2019heartfailure",
+        "authors": [
+          "Kesselring, A. N."
+        ],
+        "year": 2019,
+        "title": "Medication self-management routines after heart failure discharge: a mixed-methods study",
+        "venue": "Cardiovascular Nursing Research and Practice",
+        "doi": "10.99999/pb.v2-nursing-transition-a1-team.2019.1"
+      }
+    ],
+    "reviewer_criticisms": [
+      "Medication adherence was measured only by self-report (a days 1-7 diary and a single week-6 recall) with no objective check such as electronic event monitoring, and the pilot showed a ceiling with 21 of 26 reporting no missed doses.",
+      "Stress and attention were measured only in a seven-day burst after discharge, so the design could not capture how these exposures vary across the six-week transition.",
+      "Attrition was handled by multiple imputation under missing at random despite pilot non-completers having higher baseline stress, with no missing-not-at-random sensitivity analysis such as pattern-mixture or tipping-point models, and statistical support was only 3% shared-core effort without a named statistician.",
+      "Half of the 90 participants were to come from Lakevale Community Health Center without a letter of support, leaving second-site recruitment feasibility undocumented.",
+      "Aim 3 was framed as identifying a mechanism, although an observational design measuring stress and attention in week 1 and adherence at week 6 cannot establish temporal ordering or causal mediation, so the aim needed a bounded descriptive interpretation."
+    ],
+    "gaps": [],
+    "inconsistencies": []
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "team",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "nursing",
+          "clinical psychology",
+          "health-services research"
+        ],
+        "method_profile": "mixed",
+        "country": "US",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum Vitae\n\n**Audra N. Kesselring, PhD, RN**\nAssociate Professor (tenured), College of Nursing, Cuyahoga Ridge University (CRU), Cleveland, Ohio\nUpdated 15 September 2026\n\n## Education\n\n| Year | Degree | Institution |\n|---|---|---|\n| 2012 | PhD, Nursing | Allegheny Crest University, Pittsburgh, PA |\n| 2007 | MSN, Adult-Gerontology Clinical Nurse Specialist | Cuyahoga Ridge University |\n| 2003 | BSN | Cuyahoga Ridge University |\n\nDissertation: *Daily routines and medication taking in adults living with heart failure* (2012). Registered Nurse, State of Ohio, licensed since 2003.\n\n## Positions\n\n- 2021–present: Associate Professor (tenure awarded July 2021), CRU College of Nursing. Effort allocation for 2026–27: 40% research, 50% teaching, 10% service (9-month appointment).\n- 2014–2021: Assistant Professor, CRU College of Nursing.\n- 2012–2014: Postdoctoral Fellow, CRU Center for Behavioral Health Research.\n- 2003–2008: Staff nurse, cardiac step-down unit, Cuyahoga Ridge Health.\n\n## Research focus\n\nHow adults manage medications in the first weeks after hospital discharge, and how daily stress and lapses of attention relate to the routines they keep. Methods: intensive longitudinal designs (ecological momentary assessment, daily diaries), structured weekly assessments, electronic event monitoring (since 2026) and semi-structured interviews.\n\n## Research support\n\n### Completed\n\n1. Northcoast Nursing Research Foundation. *Medication self-management routines after heart failure discharge.* PI. $48,000. 1 January 2017–31 December 2018. Survey (n = 64) and interview (n = 18) study.\n2. CRU College of Nursing Pilot Research Award. *Stress and medication routines after discharge: diary pilot* (Phase 1). PI. $25,000. 1 July 2024–31 December 2025, including a six-month no-cost extension.\n3. CRU Center for Behavioral Health Research Seed Supplement. *Electronic monitoring feasibility run* (Phase 2). PI. $18,500. 1 March 2026–31 August 2026.\n\nThe two internal awards were limited by their terms to feasibility work; neither funded hypothesis testing.\n\n### Applications\n\n- NIH R21 (Clinical Trial Not Allowed), 1 R21 NR021847-01, *Stress, attention and medication routines in the six weeks after hospital discharge*. PI; Co-Investigator I. D. Okonkwo-Lattimore. Submitted 16 February 2026; reviewed 11 June 2026 by the Nursing and Related Clinical Sciences (NRCS) study section; impact score 46, 39th percentile; not funded. Summary statement released 26 June 2026.\n- As of 30 September 2026, no A1 has been submitted, and no application with overlapping aims is pending at NIH or any other funder.\n\n## Methods experience\n\n- EMA and daily diary studies since 2017; administers the College's smartphone EMA platform.\n- Electronic event monitoring (MEMS Cap, AARDEX Group): first used in the 2026 Phase 2 run.\n- Has not used pharmacy dispensing, refill or claims records in any study.\n\n## Teaching and mentoring\n\nNURS 512 Research Methods for Advanced Practice (annually since 2015). Primary mentor to 4 PhD students (2 graduated); chair of 6 DNP projects.\n\n## Service\n\nCollege of Nursing Research Committee, member 2022–present, chair 2024–2026.\n\n## Publications\n\nSee publications.md.\n"
+          },
+          {
+            "path": "team.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Study team and clinical sites: Post-Discharge Routines Study\n\nCollege of Nursing, Cuyahoga Ridge University. Status as of 30 September 2026.\n\n## Investigators and staff\n\n| Role | Name | Appointment | On the study since |\n|---|---|---|---|\n| Principal investigator | Audra N. Kesselring, PhD, RN | Associate Professor, College of Nursing | 2024 |\n| Co-investigator | Imani D. Okonkwo-Lattimore, PhD | Associate Professor of Psychiatry, CRU School of Medicine; licensed psychologist (Ohio) | 2024 |\n| Co-investigator, statistics | Gareth P. Lindqvist, PhD | Research Associate Professor, Department of Biostatistics and Data Science, CRU | 1 July 2026 |\n| Research nurse coordinator | Kayla M. Brandvold, BSN, RN | College of Nursing research staff, 100%, permanent line | 2024 |\n\n**Dr. Okonkwo-Lattimore** (PhD, clinical psychology, 2011) directs the CRU Stress and Cognition Assessment Lab. She adapted the 3-minute mobile Psychomotor Vigilance Task (PVT) used in Phases 1 and 2, trained study staff in PSS-10 and PVT administration, and wrote the distress protocol under which coordinators refer participants who report high distress.\n\n**Dr. Lindqvist** (PhD, biostatistics, 2013) works on sensitivity analysis for informative dropout in longitudinal studies. He was not part of the A0, which budgeted 3% effort from the College's shared biostatistics core without a named statistician. He joined after the summary statement and wrote the missing-data analysis plan dated 24 August 2026 (analysis_plan_memo.md).\n\n**Ms. Brandvold** consented all Phase 1 and Phase 2 participants, conducted the weekly visits and managed MEMS cap issue, return and download. Her position is funded by the College and does not depend on grant support.\n\nNo team member is a pharmacist or has worked with pharmacy dispensing or refill data.\n\n## Clinical sites\n\n### Ridgeline Transitional Care Clinic, Cuyahoga Ridge Health (CRH), Cleveland\n\nNurse-practitioner-led clinic that sees adults within 14 days of discharge from CRH medical units; about 210 new post-discharge patients per month in 2025 (clinic statistics). Site of Phase 1 and Phase 2. Letter of support signed 14 August 2026 by the medical director, Priya Raghunathan-Lowe, MD: an examination room for weekly visits on two weekdays, a referral workflow through clinic nurse practitioners, and support for recruitment of up to 60 participants over an 18-month enrollment period. An earlier letter of general support (22 January 2026) accompanied the A0.\n\n### Lakevale Community Health Center, Lorain, Ohio\n\nFederally qualified health center with a post-hospital follow-up clinic. The A0 named Lakevale as the source of 45 of the 90 participants, based on conversations with its medical director, Owen T. Marchbanks, DO; no letter was obtained before submission.\n\n| Date | Step |\n|---|---|\n| 8 July 2026 | Letter requested by email, with draft text and the Phase 2 protocol |\n| 2 September 2026 | Reminder sent |\n| 22 September 2026 | Lakevale research committee replied that it will consider the request at a meeting later in the fall; no date set |\n\nStatus on 30 September 2026: requested, not signed. Lakevale has made no commitment of space, staff, referrals or data and did not take part in Phase 1 or Phase 2.\n\n## Working arrangements\n\nBiweekly team meetings since August 2024; Dr. Lindqvist has attended since July 2026. Study data are held in CRU REDCap; MEMS downloads are stored on the College research server.\n"
+          },
+          {
+            "path": "prior_application_a0.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# NIH R21 application (A0), abridged\n\n**1 R21 NR021847-01** — *Stress, attention and medication routines in the six weeks after hospital discharge*\n\nSubmitted 16 February 2026. Activity code R21, Clinical Trial Not Allowed. PI: Audra N. Kesselring, PhD, RN; Co-I: Imani D. Okonkwo-Lattimore, PhD. Requested period 1 December 2026–30 November 2028. Direct costs requested: $275,000 (Year 1 $161,900; Year 2 $113,100).\n\nAbridged copy kept in the College of Nursing grants file. Reproduced: Specific Aims, Preliminary Data, Approach (shortened), timeline and budget summary. Omitted: Human Subjects, Bibliography, Biosketches and letters (the A0 carried one letter, from Ridgeline, dated 22 January 2026).\n\n## Specific Aims (as submitted)\n\nThe first weeks at home after a hospital stay change how adults take medications: regimens are altered at discharge, routines are interrupted, and follow-up visits, symptoms and household demands compete for attention. Nurses see patients who know their regimen yet miss doses during this period. We propose that stress and lapses of attention during the transition disrupt medication routines, and that these processes can be observed in daily life.\n\nWe will follow 90 adults discharged home from medical units, recruited at two outpatient clinics, for six weeks, using smartphone ecological momentary assessment (EMA) of stress, a brief mobile attention task and medication diaries. The study is observational; no intervention is delivered.\n\n**Aim 1.** Describe the course of perceived and momentary stress, attention lapses and self-reported medication taking over the first six weeks after discharge.\n\n**Aim 2.** Estimate the association between momentary stress in the first week after discharge and self-reported medication adherence at week 6. *Hypothesis:* higher person-mean stress on days 1–7 is associated with lower week-6 adherence (r of -0.30 or stronger).\n\n**Aim 3 (exploratory).** Examine whether attention lapses statistically account for part of the stress–adherence association.\n\nThe results will indicate whether stress and attention should be measured, and later addressed, in nursing care after discharge.\n\n## Preliminary data (as submitted)\n\nPhase 1 diary pilot at Ridgeline Transitional Care Clinic (CRU College of Nursing Pilot Research Award, 2024–2025): 31 adults enrolled and 26 (83.9%) completed six weeks. EMA prompt completion was 76.0% and mobile PVT completion 78.8% on days 1–7. Person-mean momentary stress correlated with week-6 self-reported adherence at r = -0.31 (95% CI -0.62 to 0.09; n = 26). The intraclass correlation of momentary stress was 0.48, indicating substantial within-person variation in the first week.\n\n## Approach (shortened)\n\n**C.1 Design.** Prospective observational cohort; two sites; six-week follow-up from discharge.\n\n**C.2 Participants.** Adults aged 18 years or older discharged home from a medical unit within the previous 7 days, with at least 3 scheduled daily oral medications, English-speaking and able to use a smartphone (loaners provided). Exclusions: discharge to a skilled nursing facility, diagnosis of dementia, hospice enrollment.\n\n**C.3 Recruitment.** 90 participants over 18 months: 45 at Ridgeline Transitional Care Clinic (CRH) and 45 at Lakevale Community Health Center, which 'has agreed in principle; a letter will follow'. Ridgeline enrolled 31 participants in 7 months during Phase 1.\n\n**C.4 Measures.**\n- Baseline: demographics, number of scheduled medications, PSS-10.\n- Days 1–7 (EMA burst): four prompts per day rating momentary stress (0–10); one 3-minute mobile PVT per day (lapses = responses slower than 500 ms).\n- Medication taking: evening diary on days 1–7 (doses taken, missed, late); one structured recall interview at week 6 covering missed doses in the previous 7 days.\n- Week 6: PSS-10.\n\n**C.5 Analysis.** Aim 1: descriptive statistics and linear mixed models for EMA data. Aim 2: linear regression of week-6 adherence on person-mean stress (days 1–7), adjusted for age, number of medications and baseline PSS-10. Missing data handled by multiple imputation under a missing-at-random assumption; 20% attrition expected. Aim 3: product-of-coefficients estimate with bias-corrected bootstrap confidence intervals, reported as exploratory.\n\n**C.6 Sample size.** With 90 enrolled and 20% attrition (72 analyzable), the study has 80% power at two-sided alpha 0.05 to detect r = 0.33.\n\n**C.7 Potential problems and alternatives.** Self-report may overstate adherence; we chose diaries and recall because electronic monitoring adds cost and participant burden during the transition. If EMA completion falls below 70%, prompts will be reduced to three per day.\n\n**C.8 Timeline.** Months 1–3 start-up; months 4–21 enrollment and follow-up; months 22–24 analysis and dissemination.\n\n## Budget summary (direct costs)\n\n| Item | Year 1 | Year 2 |\n|---|---|---|\n| Personnel (PI 15%, Co-I 5%, research nurse 50%, biostatistics core 3%) | $129,400 | $96,300 |\n| Participant compensation ($100 each) | $5,000 | $4,000 |\n| Smartphones, data plans, EMA platform | $14,500 | $6,800 |\n| Travel to Lakevale site | $3,000 | $3,000 |\n| Supplies, printing, recruitment materials, publication | $10,000 | $3,000 |\n| **Total** | **$161,900** | **$113,100** |\n"
+          },
+          {
+            "path": "summary_statement.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# SUMMARY STATEMENT\n\n(Privileged Communication) Release Date: 06/26/2026\n\n| | |\n|---|---|\n| Application Number | 1 R21 NR021847-01 |\n| Principal Investigator | KESSELRING, AUDRA N, PhD, RN |\n| Applicant Organization | CUYAHOGA RIDGE UNIVERSITY |\n| Review Group | NRCS, Nursing and Related Clinical Sciences Study Section |\n| Meeting Date | 06/11/2026 |\n| Council | OCT 2026 |\n| Requested Start | 12/01/2026 |\n| Project Title | Stress, attention and medication routines in the six weeks after hospital discharge |\n| Clinical Trial | Not Allowed |\n| SRG Action | Impact Score: 46; Percentile: 39 |\n| Human Subjects | Human subjects involved; no SRG concerns |\n| Inclusion | Sex/gender, race/ethnicity and age: acceptable |\n\n| Project Year | Direct Costs Requested |\n|---|---|\n| 1 | $161,900 |\n| 2 | $113,100 |\n| Total | $275,000 |\n\nThis application was evaluated under the simplified review framework for research project grants (Factor 1 and Factor 2 scored; Factor 3 rated for sufficiency).\n\n## RESUME AND SUMMARY OF DISCUSSION\n\nThis R21 proposes a six-week observational cohort of 90 adults after hospital discharge to relate momentary stress and attention lapses to medication taking. Reviewers agreed that the post-discharge period is important, that a nursing and clinical psychology team is well placed for the work, and that the Phase 1 pilot shows EMA and a mobile attention task are acceptable to this population. Enthusiasm was reduced by four concerns. First, adherence is measured only by self-report (a diary on days 1–7 and one recall at week 6) with no objective check, and the pilot shows most participants reporting no missed doses. Second, stress and attention are measured only during days 1–7, so the design cannot capture how these exposures vary across the transition. Third, attrition is handled by multiple imputation under missing at random, although pilot non-completers had higher baseline stress; there is no missing-not-at-random sensitivity analysis. Fourth, half of the sample is to come from a second clinic that has provided no letter, so recruitment feasibility is undocumented. Reviewers also noted that the exploratory mediation aim cannot support causal conclusions.\n\n## CRITIQUE 1\n\n**Overall Impact:** 4\n\n**Factor 1. Importance of the Research (Significance, Innovation): 3**\n\nStrengths\n- Medication taking in the weeks after discharge is clinically important; the focus on stress and attention adds a psychological mechanism to a field dominated by medication reconciliation studies.\n- Intensive longitudinal measurement in recently discharged adults is innovative.\n\nWeaknesses\n- Significance depends on an adherence outcome whose validity is uncertain (see Factor 2).\n\n**Factor 2. Rigor and Feasibility (Approach): 5**\n\nStrengths\n- Pilot completion rates (76.0% EMA prompts, 78.8% PVT sessions) support the measurement burden.\n- Clear eligibility criteria and an appropriate distress protocol.\n\nWeaknesses\n- Adherence is measured only by self-report: a 7-day diary and a single recall at week 6. There is no objective check such as electronic event monitoring or pill counts, and in the pilot 21 of 26 participants reported no missed doses, a ceiling that limits Aim 2. The stated reason for not using electronic monitoring (cost and burden) is not supported by data.\n- Stress and attention are measured only on days 1–7. Regimen changes, follow-up visits and readmissions after the first week will be missed, and a week-1 average cannot describe how exposure varies across six weeks.\n\n**Factor 3. Expertise and Resources (Investigators, Environment):** Additional expertise and/or resources needed. Half of the sample is to come from Lakevale Community Health Center, but there is no letter; 'agreed in principle' is not sufficient. Ridgeline alone enrolled 31 participants in seven months and would not reach 90 in 18 months on its own.\n\n## CRITIQUE 2\n\n**Overall Impact:** 5\n\n**Factor 1. Importance of the Research: 3**\n\nStrengths\n- Integration of nursing and psychological perspectives on medication routines.\n\nWeaknesses\n- Aim 3 is framed as identifying a mechanism, which an observational design with these measurement intervals cannot establish.\n\n**Factor 2. Rigor and Feasibility: 6**\n\nStrengths\n- Feasible procedures at the lead site.\n\nWeaknesses\n- Self-report diaries are known to overstate adherence. Without an objective measure, any stress–adherence association may reflect reporting differences between more and less stressed participants.\n- Attrition of 20% is handled by multiple imputation under missing at random. In the pilot, the five non-completers had higher baseline PSS-10 scores (24.2 vs 18.9). Dropout is likely related to stress and probably to adherence; there is no missing-not-at-random sensitivity analysis (pattern-mixture or selection models, tipping-point analysis).\n- The seven-day exposure window misses later variability.\n- Temporal ordering of stress, attention lapses and adherence is not established when exposures are measured in week 1 and adherence at week 6; Aim 3 should be described as descriptive.\n\n**Factor 3. Expertise and Resources:** Appropriate. A named statistician would strengthen the team.\n\n## CRITIQUE 3\n\n**Overall Impact:** 4\n\n**Factor 1. Importance of the Research: 2**\n\nStrengths\n- High clinical significance for nursing care after discharge.\n\n**Factor 2. Rigor and Feasibility: 5**\n\nStrengths\n- Procedures tested at Ridgeline.\n\nWeaknesses\n- Adherence by self-report only.\n- Exposures should be measured repeatedly, for example weekly, across the six weeks rather than in one burst.\n- The missing-data plan is brief and relies on missing at random only.\n\n**Factor 3. Expertise and Resources:** Additional expertise and/or resources needed. Recruitment at Lakevale is undocumented: no letter, no patient volume, no description of who would recruit there. Biostatistics support is 3% core effort with no named statistician.\n\n## ADDITIONAL REVIEW CONSIDERATIONS\n\n**Protection of Human Subjects:** Acceptable. Minimal-risk observational design; the distress protocol is appropriate.\n\n**Inclusion Plans:** Acceptable.\n\n**Budget and Period of Support:** Reasonable as requested.\n\n**Data Management and Sharing Plan:** Acceptable.\n"
+          },
+          {
+            "path": "feasibility_report.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final report: internal feasibility work, Post-Discharge Routines Study\n\nPhase 1 (diary pilot, 2024–2025) and Phase 2 (electronic monitoring run, 2026)\nSubmitted to the Associate Dean for Research, CRU College of Nursing, 18 September 2026\nPI: Audra N. Kesselring, PhD, RN. Co-investigators: Imani D. Okonkwo-Lattimore, PhD; Gareth P. Lindqvist, PhD (analysis planning, from July 2026).\n\n## 1. Funding and approvals\n\n| | Phase 1 | Phase 2 |\n|---|---|---|\n| Award | CRU College of Nursing Pilot Research Award, $25,000 | CRU Center for Behavioral Health Research Seed Supplement, $18,500 |\n| Period | 1 July 2024–31 December 2025 | 1 March–31 August 2026 |\n| CRU IRB protocol | STUDY2024-0177, approved 14 August 2024, closed 15 December 2025 | STUDY2026-0118, approved 2 April 2026; enrollment closed |\n| Site | Ridgeline Transitional Care Clinic | Ridgeline Transitional Care Clinic |\n\nBoth awards were limited to feasibility aims. Neither phase was designed or powered to test associations, and no intervention was delivered in either phase.\n\nExpenditure. Phase 1: research nurse $15,600; participant compensation (31 x $100) $3,100; loaner smartphones and data plans $2,800; EMA platform license $3,500. Phase 2: 16 MEMS Caps, 2 readers and software $4,960; research nurse $10,240; participant compensation (12 x $150) $1,800; supplies $1,500.\n\n## 2. Phase 1: diary pilot (September 2024–May 2025)\n\n**Methods.** Adults discharged home from CRH medical units within 7 days, with at least 3 scheduled daily oral medications. Recruitment 9 September 2024–28 March 2025: 118 screened, 52 eligible, 31 enrolled. Days 1–7: four EMA prompts per day (momentary stress, 0–10), one 3-minute mobile PVT per day, evening medication diary. PSS-10 at baseline and week 6; at week 6 a structured recall of missed doses in the previous 7 days.\n\n**Participants.** Mean age 63.8 years (SD 11.2); 17 women (55%); 12 (39%) Black, 17 (55%) White, 2 (6%) other or more than one race; median 7 scheduled daily medications (IQR 5–9).\n\n| Outcome | Result |\n|---|---|\n| EMA prompts completed | 660 of 868 (76.0%) |\n| Mobile PVT sessions completed | 171 of 217 (78.8%) |\n| Diary days completed | 189 of 217 (87.1%) |\n| Completed week 6 | 26 of 31 (83.9%) |\n| Intraclass correlation, momentary stress | 0.48 |\n| Diary-reported doses taken, days 1–7, median | 97% (IQR 93–100%) |\n| Week-6 recall: no missed doses in previous 7 days | 21 of 26 (81%) |\n| Person-mean stress vs week-6 self-reported adherence | r = -0.31 (95% CI -0.62 to 0.09), n = 26 |\n\n**Non-completers.** 5 of 31 participants did not reach week 6 (2 readmitted, 2 lost to contact, 1 withdrew). Their baseline PSS-10 mean was 24.2 (SD 5.1), against 18.9 (SD 6.0) among completers. Two of the five stopped diaries before day 4.\n\n**Timing of regimen changes.** Clinic records show that 14 of 26 completers had a change to their medication regimen between day 8 and day 42, after the measurement window had closed.\n\n## 3. Phase 2: electronic monitoring run (May–August 2026)\n\n**Purpose.** To test whether electronic event monitoring, daily diaries and weekly visits can be run together for six weeks after discharge.\n\n**Methods.** Enrollment 4 May–3 July 2026 (target of 12 reached); last visit 14 August 2026. 57 screened, 26 eligible, 19 approached, 12 enrolled. One index medication per participant (scheduled once or twice daily) was placed in a MEMS Cap at enrollment. Participants kept an evening diary (paper or smartphone) for all scheduled medications, with a separate entry for the index medication. Weekly visits in weeks 1–6, at the clinic or at home, included the PSS-10, the 3-minute PVT and a MEMS download. Adherence data were not fed back to participants or clinicians.\n\n**Participants.** Mean age 61.2 years (SD 12.9); 7 women; 5 Black, 7 White.\n\n| Outcome | Result |\n|---|---|\n| Complete 42-day MEMS record | 10 of 12 |\n| Incomplete records | 1 withdrew in week 2 after readmission; 1 cap lost in week 4 (24 days recorded) |\n| Weekly visits completed | 63 of 72 scheduled (87.5%) |\n| PVT completed at visits | 61 of 63 (97%) |\n| Diary days completed (10 complete records) | 383 of 420 (91.2%) |\n| Day-level agreement, diary vs MEMS (all index doses taken) | 330 of 383 days (86.2%); kappa 0.49 (95% CI 0.36 to 0.62) |\n| Diary minus MEMS adherence, per participant | mean 7.4 percentage points (range -2.1 to 19.0) |\n| MEMS correct-dosing days | median 88% (IQR 74–93%) |\n| Weekly PSS-10, mean absolute week-to-week change | 3.6 points (SD 2.8) |\n| Cap rated not at all or slightly burdensome at exit | 9 of 10 |\n\nNo association between stress, attention and adherence was estimated, given 10 complete records.\n\n## 4. Limitations\n\n- Phase 2 was a feasibility run, not a validation study: one site, one index medication per person and 10 complete records. The kappa interval is wide and does not account for clustering of days within participants. The run does not establish MEMS as a criterion measure in this population; a cap opening records bottle access, not ingestion.\n- Neither phase tested hypotheses or evaluated any intervention.\n- Both phases recruited at Ridgeline only; there are no data from Lakevale or any other site.\n- Consent in both phases covered devices, diaries and visits only; no pharmacy refill data were obtained or linked (see resources.md).\n- The missing-data plan of 24 August 2026 has not been applied to device data.\n\n## 5. Data holdings\n\nDe-identified Phase 1 and Phase 2 datasets in CRU REDCap; MEMS event files for 12 participants (10 complete). Available to the study team under the approved protocols. A Phase 2 manuscript is in preparation and had not been submitted on 18 September 2026.\n"
+          },
+          {
+            "path": "analysis_plan_memo.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# Memorandum\n\n**To:** Audra N. Kesselring, PhD, RN\n**From:** Gareth P. Lindqvist, PhD, Department of Biostatistics and Data Science\n**Date:** 24 August 2026\n**Re:** Missing-data analysis plan for a six-week cohort with MEMS monitoring, daily diaries and weekly visits\n\n## 1. Context\n\nIn Phase 1, 5 of 31 participants did not reach week 6, and their mean baseline PSS-10 was 24.2 against 18.9 among completers. Dropout is plausibly related to stress, and adherence after dropout may differ from what observed data predict. An analysis under missing at random (MAR) alone cannot show how conclusions depend on that assumption.\n\n## 2. Primary analysis\n\nOutcome: proportion of MEMS correct-dosing days in each week (weeks 1–6). Linear mixed models with participant random intercepts and slopes, fitted by maximum likelihood, valid under MAR. Auxiliary variables: readmission (by week), baseline PSS-10, number of scheduled medications and diary completion.\n\n## 3. Sensitivity analysis under missing not at random\n\n- **Patterns:** dropout after weeks 1–2; dropout after weeks 3–4; completers.\n- **Identifying restrictions:** complete-case missing values and neighbouring-case missing values, reported side by side.\n- **Delta adjustment:** post-dropout weekly adherence shifted by 0, -5, -10, -15 and -20 percentage points relative to MAR imputations, applied (a) to all dropouts and (b) only to dropouts with baseline PSS-10 at or above the cohort median.\n- **Tipping point:** the smallest shift at which the 95% CI of the stress–adherence estimate includes zero.\n- **Imputation:** 50 imputations per shift, combined with Rubin's rules.\n- The patterns, shift grid and reporting table are fixed before data lock.\n\n## 4. Diary data\n\nWhere a MEMS record is incomplete (for example a lost cap), diary-reported doses enter only as auxiliary variables and are not substituted for MEMS data, because in Phase 2 diary adherence exceeded MEMS adherence by a mean of 7.4 percentage points.\n\n## 5. Status and limits\n\n- Code written in R (mice, lme4) and tested on simulated data.\n- Not applied to Phase 2 data: 2 incomplete records out of 12 are too few to estimate pattern-specific parameters.\n- The plan addresses missing outcome data only. It does not address confounding in the stress–adherence or stress–attention–adherence pathways and does not give mediation estimates a causal interpretation.\n"
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Facilities, equipment and approvals\n\nCollege of Nursing, Cuyahoga Ridge University. Status as of 30 September 2026.\n\n## Space\n\nCollege of Nursing Research Office: two private interview rooms, locked storage for devices and paper diaries, three workstations on the CRU research network. Ridgeline Transitional Care Clinic provides an examination room on two weekdays for study visits (letter of 14 August 2026).\n\n## Equipment and software (owned)\n\n- 16 MEMS Caps and 2 MEMS readers with MEMS Adherence Software (AARDEX Group), purchased March 2026 with the Phase 2 seed supplement; 15 caps remain in service after one was lost during Phase 2.\n- 12 loaner Android smartphones (purchased 2024 for Phase 1).\n- Smartphone EMA platform: College subscription renewed through 30 June 2027.\n- Mobile 3-minute PVT configured by the CRU Stress and Cognition Assessment Lab.\n- CRU REDCap (institutionally hosted) and a College research data server with nightly backup.\n\n## Institutional support\n\n- PI research effort of 40% in 2026–27 (9-month appointment).\n- Research nurse coordinator position funded by the College.\n- Dr. Lindqvist's effort on the study is currently supported by his department.\n\n## Human subjects approvals and consent scope\n\n| Protocol | Status |\n|---|---|\n| STUDY2024-0177 (Phase 1) | Approved 14 August 2024; closed 15 December 2025 |\n| STUDY2026-0118 (Phase 2) | Approved 2 April 2026 (expedited, minimal risk); enrollment closed 3 July 2026; open for data analysis |\n\nThe Phase 2 consent form and HIPAA authorization cover: a MEMS Cap on one index medication; daily medication and stress diaries; weekly visits with PSS-10 and PVT; and review of the CRH discharge summary to record the discharge medication list. They do not cover access to pharmacy dispensing or refill records, linkage of study data to pharmacy records, or recontact for that purpose.\n\nNo amendment requesting pharmacy-record linkage has been submitted to or approved by the CRU IRB. No data use agreement exists with the CRH outpatient pharmacy or any external pharmacy or claims source. Participants in Phases 1 and 2 were not asked to consent to future linkage.\n\n## Recruitment record\n\n| Site | Record |\n|---|---|\n| Ridgeline (Phase 1) | 31 enrolled in 7 months (September 2024–March 2025) |\n| Ridgeline (Phase 2) | 12 enrolled in 9 weeks (4 May–3 July 2026) from 19 approached |\n| Ridgeline (letter) | Support for up to 60 participants over 18 months |\n| Lakevale | No letter; request pending (see team.md) |\n"
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications of the study team (selected)\n\n1. Kesselring, A. N., Brandvold, K. M., & Okonkwo-Lattimore, I. D. (2025). Momentary stress and self-reported medication taking in the first week after hospital discharge: a pilot ecological momentary assessment study. *Journal of Transitional Care Nursing*, 9(3), 211–224. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2025.1\n   Phase 1 results (n = 31).\n\n2. Okonkwo-Lattimore, I. D., & Kesselring, A. N. (2024). A three-minute smartphone vigilance task in adults recovering from acute illness: completion, practice effects and missing data. *Behavioral Assessment in Health Settings*, 6(2), 88–101. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2024.1\n   Laboratory sample of 48 adults recruited in 2023.\n\n3. Lindqvist, G. P. (2023). Pattern-mixture sensitivity analysis for informative dropout in intensive longitudinal health studies: a tutorial. *Methods in Applied Health Statistics*, 11, 140–162. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2023.1\n\n4. Brandvold, K. M., & Kesselring, A. N. (2022). Medication discrepancies found at nurse-led post-discharge clinic visits: a retrospective review of 186 patients. *Advances in Transitional Nursing Practice*, 4(1), 17–29. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2022.1\n\n5. Kesselring, A. N., & Hanratty, D. R. (2021). Habit strength and medication routines in adults with multimorbidity: a cross-sectional survey. *Journal of Chronic Illness Self-Management*, 5(1), 45–58. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2021.1\n   Survey of 412 adults.\n\n6. Kesselring, A. N. (2019). Medication self-management routines after heart failure discharge: a mixed-methods study. *Cardiovascular Nursing Research and Practice*, 14(4), 301–315. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2019.1\n\n## In preparation\n\n- Phase 2 electronic monitoring feasibility results (not submitted as of 18 September 2026).\n"
+          }
+        ],
+        "facts": [
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "The PI, Audra N. Kesselring, PhD, RN, is a tenured Associate Professor at the Cuyahoga Ridge University College of Nursing.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Co-investigator Imani D. Okonkwo-Lattimore is a licensed clinical psychologist who adapted the 3-minute mobile PVT and wrote the distress protocol.",
+            "value": null,
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The R21 A0 (1 R21 NR021847-01) was submitted on 16 February 2026 and was not funded.",
+            "value": "16 February 2026",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The A0 received an impact score of 46 (39th percentile) at the NRCS study section on 11 June 2026; summary statement released 26 June 2026.",
+            "value": "46",
+            "salient": true,
+            "source": "summary_statement.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "As of 30 September 2026 no A1 has been submitted and no application with overlapping aims is pending.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Phase 1 diary pilot was funded by a CRU College of Nursing Pilot Research Award restricted to feasibility work.",
+            "value": "$25,000",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Phase 2 device feasibility run was funded by a CRU Center for Behavioral Health Research Seed Supplement, ending 31 August 2026.",
+            "value": "$18,500",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The A0 proposed 90 participants, 45 each from Ridgeline and Lakevale clinics.",
+            "value": "90",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Phase 1 enrolled 31 adults at Ridgeline between September 2024 and March 2025.",
+            "value": "31",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In Phase 1, 26 of 31 participants completed week 6.",
+            "value": "83.9%",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Phase 1 person-mean stress correlated with week-6 self-reported adherence at r = -0.31 (95% CI -0.62 to 0.09), n = 26.",
+            "value": "-0.31",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In Phase 1, 21 of 26 completers reported no missed doses at week-6 recall, a self-report ceiling.",
+            "value": "21 of 26",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Phase 1 non-completers had a mean baseline PSS-10 of 24.2 versus 18.9 in completers.",
+            "value": "24.2",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "14 of 26 Phase 1 completers had a regimen change between day 8 and day 42, after the 7-day measurement window.",
+            "value": "14 of 26",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The non-interventional Phase 2 run obtained complete 42-day MEMS records for 10 of 12 participants; it is feasibility, not validation or efficacy evidence.",
+            "value": "10 of 12",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Phase 2 diary completion was 383 of 420 days among the 10 complete records.",
+            "value": "91.2%",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Day-level agreement between diary and MEMS was 86.2% with kappa 0.49 (95% CI 0.36 to 0.62).",
+            "value": "0.49",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Diary-reported adherence exceeded MEMS-measured adherence by a mean of 7.4 percentage points.",
+            "value": "7.4",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Phase 2 weekly visits replaced the single recall; 63 of 72 scheduled visits were completed.",
+            "value": "87.5%",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Statistician Gareth P. Lindqvist wrote a pattern-mixture/delta-adjustment missing-data plan, not yet applied to device data.",
+            "value": "24 August 2026",
+            "salient": true,
+            "source": "analysis_plan_memo.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Ridgeline Transitional Care Clinic signed a letter on 14 August 2026 supporting recruitment of up to 60 participants over 18 months.",
+            "value": "60",
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "The Lakevale Community Health Center letter was requested on 8 July 2026 and remains unsigned with no meeting date set.",
+            "value": "not signed",
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Existing consent covers MEMS caps, diaries and weekly visits only; no pharmacy-record linkage consent, IRB amendment or data use agreement exists.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The team owns 16 MEMS Caps (15 in service) and 2 readers purchased in March 2026.",
+            "value": "16",
+            "salient": false,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The PI has never used pharmacy dispensing, refill or claims records, and no team member is a pharmacist.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "kesselring2025stress",
+            "authors": [
+              "Kesselring, A. N.",
+              "Brandvold, K. M.",
+              "Okonkwo-Lattimore, I. D."
+            ],
+            "year": 2025,
+            "title": "Momentary stress and self-reported medication taking in the first week after hospital discharge: a pilot ecological momentary assessment study",
+            "venue": "Journal of Transitional Care Nursing",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2025.1"
+          },
+          {
+            "key": "okonkwo2024vigilance",
+            "authors": [
+              "Okonkwo-Lattimore, I. D.",
+              "Kesselring, A. N."
+            ],
+            "year": 2024,
+            "title": "A three-minute smartphone vigilance task in adults recovering from acute illness: completion, practice effects and missing data",
+            "venue": "Behavioral Assessment in Health Settings",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2024.1"
+          },
+          {
+            "key": "lindqvist2023pattern",
+            "authors": [
+              "Lindqvist, G. P."
+            ],
+            "year": 2023,
+            "title": "Pattern-mixture sensitivity analysis for informative dropout in intensive longitudinal health studies: a tutorial",
+            "venue": "Methods in Applied Health Statistics",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2023.1"
+          },
+          {
+            "key": "brandvold2022discrepancies",
+            "authors": [
+              "Brandvold, K. M.",
+              "Kesselring, A. N."
+            ],
+            "year": 2022,
+            "title": "Medication discrepancies found at nurse-led post-discharge clinic visits: a retrospective review of 186 patients",
+            "venue": "Advances in Transitional Nursing Practice",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2022.1"
+          },
+          {
+            "key": "kesselring2021habit",
+            "authors": [
+              "Kesselring, A. N.",
+              "Hanratty, D. R."
+            ],
+            "year": 2021,
+            "title": "Habit strength and medication routines in adults with multimorbidity: a cross-sectional survey",
+            "venue": "Journal of Chronic Illness Self-Management",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2021.1"
+          },
+          {
+            "key": "kesselring2019heartfailure",
+            "authors": [
+              "Kesselring, A. N."
+            ],
+            "year": 2019,
+            "title": "Medication self-management routines after heart failure discharge: a mixed-methods study",
+            "venue": "Cardiovascular Nursing Research and Practice",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2019.1"
+          }
+        ],
+        "reviewer_criticisms": [
+          "Medication adherence was measured only by self-report (a days 1-7 diary and a single week-6 recall) with no objective check such as electronic event monitoring, and the pilot showed a ceiling with 21 of 26 reporting no missed doses.",
+          "Stress and attention were measured only in a seven-day burst after discharge, so the design could not capture how these exposures vary across the six-week transition.",
+          "Attrition was handled by multiple imputation under missing at random despite pilot non-completers having higher baseline stress, with no missing-not-at-random sensitivity analysis such as pattern-mixture or tipping-point models.",
+          "Half of the 90 participants were to come from Lakevale Community Health Center without a letter of support, leaving second-site recruitment feasibility undocumented."
+        ],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "errors": [
+        "analysis_plan_memo.md: no briefs, notes or plans in the dossier; remove this file"
+      ]
+    },
+    {
+      "draft": {
+        "applicant_type": "team",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "nursing",
+          "clinical psychology",
+          "health-services research"
+        ],
+        "method_profile": "mixed",
+        "country": "US",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum Vitae\n\n**Audra N. Kesselring, PhD, RN**\nAssociate Professor (tenured), College of Nursing, Cuyahoga Ridge University (CRU), Cleveland, Ohio\nUpdated 15 September 2026\n\n## Education\n\n| Year | Degree | Institution |\n|---|---|---|\n| 2012 | PhD, Nursing | Allegheny Crest University, Pittsburgh, PA |\n| 2007 | MSN, Adult-Gerontology Clinical Nurse Specialist | Cuyahoga Ridge University |\n| 2003 | BSN | Cuyahoga Ridge University |\n\nDissertation: *Daily routines and medication taking in adults living with heart failure* (2012). Registered Nurse, State of Ohio, licensed since 2003.\n\n## Positions\n\n- 2021–present: Associate Professor (tenure awarded July 2021), CRU College of Nursing. Effort allocation for 2026–27: 40% research, 50% teaching, 10% service (9-month appointment).\n- 2014–2021: Assistant Professor, CRU College of Nursing.\n- 2012–2014: Postdoctoral Fellow, CRU Center for Behavioral Health Research.\n- 2003–2008: Staff nurse, cardiac step-down unit, Cuyahoga Ridge Health.\n\n## Research focus\n\nHow adults manage medications in the first weeks after hospital discharge, and how daily stress and lapses of attention relate to the routines they keep. Methods: intensive longitudinal designs (ecological momentary assessment, daily diaries), structured weekly assessments, electronic event monitoring (since 2026) and semi-structured interviews.\n\n## Research support\n\n### Completed\n\n1. Northcoast Nursing Research Foundation. *Medication self-management routines after heart failure discharge.* PI. $48,000. 1 January 2017–31 December 2018. Survey (n = 64) and interview (n = 18) study.\n2. CRU College of Nursing Pilot Research Award. *Stress and medication routines after discharge: diary pilot* (Phase 1). PI. $25,000. 1 July 2024–31 December 2025, including a six-month no-cost extension.\n3. CRU Center for Behavioral Health Research Seed Supplement. *Electronic monitoring feasibility run* (Phase 2). PI. $18,500. 1 March 2026–31 August 2026.\n\nThe two internal awards were limited by their terms to feasibility work; neither funded hypothesis testing.\n\n### Applications\n\n- NIH R21 (Clinical Trial Not Allowed), 1 R21 NR021847-01, *Stress, attention and medication routines in the six weeks after hospital discharge*. PI; Co-Investigator I. D. Okonkwo-Lattimore. Submitted 16 February 2026; reviewed 11 June 2026 by the Nursing and Related Clinical Sciences (NRCS) study section; impact score 46, 39th percentile; not funded. Summary statement released 26 June 2026.\n- As of 30 September 2026, no A1 has been submitted, and no application with overlapping aims is pending at NIH or any other funder.\n\n## Methods experience\n\n- EMA and daily diary studies since 2017; administers the College's smartphone EMA platform.\n- Electronic event monitoring (MEMS Cap, AARDEX Group): first used in the 2026 Phase 2 run.\n- Has not used pharmacy dispensing, refill or claims records in any study.\n\n## Teaching and mentoring\n\nNURS 512 Research Methods for Advanced Practice (annually since 2015). Primary mentor to 4 PhD students (2 graduated); chair of 6 DNP projects.\n\n## Service\n\nCollege of Nursing Research Committee, member 2022–present, chair 2024–2026.\n\n## Publications\n\nSee publications.md.\n"
+          },
+          {
+            "path": "team.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Study team and clinical sites: Post-Discharge Routines Study\n\nCollege of Nursing, Cuyahoga Ridge University. Status as of 30 September 2026.\n\n## Investigators and staff\n\n| Role | Name | Appointment | On the study since |\n|---|---|---|---|\n| Principal investigator | Audra N. Kesselring, PhD, RN | Associate Professor, College of Nursing | 2024 |\n| Co-investigator | Imani D. Okonkwo-Lattimore, PhD | Associate Professor of Psychiatry, CRU School of Medicine; licensed psychologist (Ohio) | 2024 |\n| Co-investigator, statistics | Gareth P. Lindqvist, PhD | Research Associate Professor, Department of Biostatistics and Data Science, CRU | 1 July 2026 |\n| Research nurse coordinator | Kayla M. Brandvold, BSN, RN | College of Nursing research staff, 100%, permanent line | 2024 |\n\n**Dr. Okonkwo-Lattimore** (PhD, clinical psychology, 2011) directs the CRU Stress and Cognition Assessment Lab. She adapted the 3-minute mobile Psychomotor Vigilance Task (PVT) used in Phases 1 and 2, trained study staff in PSS-10 and PVT administration, and wrote the distress protocol under which coordinators refer participants who report high distress.\n\n**Dr. Lindqvist** (PhD, biostatistics, 2013) works on sensitivity analysis for informative dropout in longitudinal studies. He was not part of the A0, which budgeted 3% effort from the College's shared biostatistics core without a named statistician. He joined after the summary statement and wrote the missing-data analysis plan dated 24 August 2026 (summarized in feasibility_report.md, section 4).\n\n**Ms. Brandvold** consented all Phase 1 and Phase 2 participants, conducted the weekly visits and managed MEMS cap issue, return and download. Her position is funded by the College and does not depend on grant support.\n\nNo team member is a pharmacist or has worked with pharmacy dispensing or refill data.\n\n## Clinical sites\n\n### Ridgeline Transitional Care Clinic, Cuyahoga Ridge Health (CRH), Cleveland\n\nNurse-practitioner-led clinic that sees adults within 14 days of discharge from CRH medical units; about 210 new post-discharge patients per month in 2025 (clinic statistics). Site of Phase 1 and Phase 2. Letter of support signed 14 August 2026 by the medical director, Priya Raghunathan-Lowe, MD: an examination room for weekly visits on two weekdays, a referral workflow through clinic nurse practitioners, and support for recruitment of up to 60 participants over an 18-month enrollment period. An earlier letter of general support (22 January 2026) accompanied the A0.\n\n### Lakevale Community Health Center, Lorain, Ohio\n\nFederally qualified health center with a post-hospital follow-up clinic. The A0 named Lakevale as the source of 45 of the 90 participants, based on conversations with its medical director, Owen T. Marchbanks, DO; no letter was obtained before submission.\n\n| Date | Step |\n|---|---|\n| 8 July 2026 | Letter requested by email, with draft text and the Phase 2 protocol |\n| 2 September 2026 | Reminder sent |\n| 22 September 2026 | Lakevale research committee replied that it will consider the request at a meeting later in the fall; no date set |\n\nStatus on 30 September 2026: requested, not signed. Lakevale has made no commitment of space, staff, referrals or data and did not take part in Phase 1 or Phase 2.\n\n## Working arrangements\n\nBiweekly team meetings since August 2024; Dr. Lindqvist has attended since July 2026. Study data are held in CRU REDCap; MEMS downloads are stored on the College research server.\n"
+          },
+          {
+            "path": "prior_application_a0.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# NIH R21 application (A0), abridged\n\n**1 R21 NR021847-01** — *Stress, attention and medication routines in the six weeks after hospital discharge*\n\nSubmitted 16 February 2026. Activity code R21, Clinical Trial Not Allowed. PI: Audra N. Kesselring, PhD, RN; Co-I: Imani D. Okonkwo-Lattimore, PhD. Requested period 1 December 2026–30 November 2028. Direct costs requested: $275,000 (Year 1 $161,900; Year 2 $113,100).\n\nAbridged copy kept in the College of Nursing grants file. Reproduced: Specific Aims, Preliminary Data, Approach (shortened), timeline and budget summary. Omitted: Human Subjects, Bibliography, Biosketches and letters (the A0 carried one letter, from Ridgeline, dated 22 January 2026).\n\n## Specific Aims (as submitted)\n\nThe first weeks at home after a hospital stay change how adults take medications: regimens are altered at discharge, routines are interrupted, and follow-up visits, symptoms and household demands compete for attention. Nurses see patients who know their regimen yet miss doses during this period. We propose that stress and lapses of attention during the transition disrupt medication routines, and that these processes can be observed in daily life.\n\nWe will follow 90 adults discharged home from medical units, recruited at two outpatient clinics, for six weeks, using smartphone ecological momentary assessment (EMA) of stress, a brief mobile attention task and medication diaries. The study is observational; no intervention is delivered.\n\n**Aim 1.** Describe the course of perceived and momentary stress, attention lapses and self-reported medication taking over the first six weeks after discharge.\n\n**Aim 2.** Estimate the association between momentary stress in the first week after discharge and self-reported medication adherence at week 6. *Hypothesis:* higher person-mean stress on days 1–7 is associated with lower week-6 adherence (r of -0.30 or stronger).\n\n**Aim 3 (exploratory).** Examine whether attention lapses statistically account for part of the stress–adherence association.\n\nThe results will indicate whether stress and attention should be measured, and later addressed, in nursing care after discharge.\n\n## Preliminary data (as submitted)\n\nPhase 1 diary pilot at Ridgeline Transitional Care Clinic (CRU College of Nursing Pilot Research Award, 2024–2025): 31 adults enrolled and 26 (83.9%) completed six weeks. EMA prompt completion was 76.0% and mobile PVT completion 78.8% on days 1–7. Person-mean momentary stress correlated with week-6 self-reported adherence at r = -0.31 (95% CI -0.62 to 0.09; n = 26). The intraclass correlation of momentary stress was 0.48, indicating substantial within-person variation in the first week.\n\n## Approach (shortened)\n\n**C.1 Design.** Prospective observational cohort; two sites; six-week follow-up from discharge.\n\n**C.2 Participants.** Adults aged 18 years or older discharged home from a medical unit within the previous 7 days, with at least 3 scheduled daily oral medications, English-speaking and able to use a smartphone (loaners provided). Exclusions: discharge to a skilled nursing facility, diagnosis of dementia, hospice enrollment.\n\n**C.3 Recruitment.** 90 participants over 18 months: 45 at Ridgeline Transitional Care Clinic (CRH) and 45 at Lakevale Community Health Center, which 'has agreed in principle; a letter will follow'. Ridgeline enrolled 31 participants in 7 months during Phase 1.\n\n**C.4 Measures.**\n- Baseline: demographics, number of scheduled medications, PSS-10.\n- Days 1–7 (EMA burst): four prompts per day rating momentary stress (0–10); one 3-minute mobile PVT per day (lapses = responses slower than 500 ms).\n- Medication taking: evening diary on days 1–7 (doses taken, missed, late); one structured recall interview at week 6 covering missed doses in the previous 7 days.\n- Week 6: PSS-10.\n\n**C.5 Analysis.** Aim 1: descriptive statistics and linear mixed models for EMA data. Aim 2: linear regression of week-6 adherence on person-mean stress (days 1–7), adjusted for age, number of medications and baseline PSS-10. Missing data handled by multiple imputation under a missing-at-random assumption; 20% attrition expected. Aim 3: product-of-coefficients estimate with bias-corrected bootstrap confidence intervals, reported as exploratory.\n\n**C.6 Sample size.** With 90 enrolled and 20% attrition (72 analyzable), the study has 80% power at two-sided alpha 0.05 to detect r = 0.33.\n\n**C.7 Potential problems and alternatives.** Self-report may overstate adherence; we chose diaries and recall because electronic monitoring adds cost and participant burden during the transition. If EMA completion falls below 70%, prompts will be reduced to three per day.\n\n**C.8 Timeline.** Months 1–3 start-up; months 4–21 enrollment and follow-up; months 22–24 analysis and dissemination.\n\n## Budget summary (direct costs)\n\n| Item | Year 1 | Year 2 |\n|---|---|---|\n| Personnel (PI 15%, Co-I 5%, research nurse 50%, biostatistics core 3%) | $129,400 | $96,300 |\n| Participant compensation ($100 each) | $5,000 | $4,000 |\n| Smartphones, data plans, EMA platform | $14,500 | $6,800 |\n| Travel to Lakevale site | $3,000 | $3,000 |\n| Supplies, printing, recruitment materials, publication | $10,000 | $3,000 |\n| **Total** | **$161,900** | **$113,100** |\n"
+          },
+          {
+            "path": "summary_statement.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# SUMMARY STATEMENT\n\n(Privileged Communication) Release Date: 06/26/2026\n\n| | |\n|---|---|\n| Application Number | 1 R21 NR021847-01 |\n| Principal Investigator | KESSELRING, AUDRA N, PhD, RN |\n| Applicant Organization | CUYAHOGA RIDGE UNIVERSITY |\n| Review Group | NRCS, Nursing and Related Clinical Sciences Study Section |\n| Meeting Date | 06/11/2026 |\n| Council | OCT 2026 |\n| Requested Start | 12/01/2026 |\n| Project Title | Stress, attention and medication routines in the six weeks after hospital discharge |\n| Clinical Trial | Not Allowed |\n| SRG Action | Impact Score: 46; Percentile: 39 |\n| Human Subjects | Human subjects involved; no SRG concerns |\n| Inclusion | Sex/gender, race/ethnicity and age: acceptable |\n\n| Project Year | Direct Costs Requested |\n|---|---|\n| 1 | $161,900 |\n| 2 | $113,100 |\n| Total | $275,000 |\n\nThis application was evaluated under the simplified review framework for research project grants (Factor 1 and Factor 2 scored; Factor 3 rated for sufficiency).\n\n## RESUME AND SUMMARY OF DISCUSSION\n\nThis R21 proposes a six-week observational cohort of 90 adults after hospital discharge to relate momentary stress and attention lapses to medication taking. Reviewers agreed that the post-discharge period is important, that a nursing and clinical psychology team is well placed for the work, and that the Phase 1 pilot shows EMA and a mobile attention task are acceptable to this population. Enthusiasm was reduced by four concerns. First, adherence is measured only by self-report (a diary on days 1–7 and one recall at week 6) with no objective check, and the pilot shows most participants reporting no missed doses. Second, stress and attention are measured only during days 1–7, so the design cannot capture how these exposures vary across the transition. Third, attrition is handled by multiple imputation under missing at random, although pilot non-completers had higher baseline stress; there is no missing-not-at-random sensitivity analysis. Fourth, half of the sample is to come from a second clinic that has provided no letter, so recruitment feasibility is undocumented. Reviewers also noted that the exploratory mediation aim cannot support causal conclusions.\n\n## CRITIQUE 1\n\n**Overall Impact:** 4\n\n**Factor 1. Importance of the Research (Significance, Innovation): 3**\n\nStrengths\n- Medication taking in the weeks after discharge is clinically important; the focus on stress and attention adds a psychological mechanism to a field dominated by medication reconciliation studies.\n- Intensive longitudinal measurement in recently discharged adults is innovative.\n\nWeaknesses\n- Significance depends on an adherence outcome whose validity is uncertain (see Factor 2).\n\n**Factor 2. Rigor and Feasibility (Approach): 5**\n\nStrengths\n- Pilot completion rates (76.0% EMA prompts, 78.8% PVT sessions) support the measurement burden.\n- Clear eligibility criteria and an appropriate distress protocol.\n\nWeaknesses\n- Adherence is measured only by self-report: a 7-day diary and a single recall at week 6. There is no objective check such as electronic event monitoring or pill counts, and in the pilot 21 of 26 participants reported no missed doses, a ceiling that limits Aim 2. The stated reason for not using electronic monitoring (cost and burden) is not supported by data.\n- Stress and attention are measured only on days 1–7. Regimen changes, follow-up visits and readmissions after the first week will be missed, and a week-1 average cannot describe how exposure varies across six weeks.\n\n**Factor 3. Expertise and Resources (Investigators, Environment):** Additional expertise and/or resources needed. Half of the sample is to come from Lakevale Community Health Center, but there is no letter; 'agreed in principle' is not sufficient. Ridgeline alone enrolled 31 participants in seven months and would not reach 90 in 18 months on its own.\n\n## CRITIQUE 2\n\n**Overall Impact:** 5\n\n**Factor 1. Importance of the Research: 3**\n\nStrengths\n- Integration of nursing and psychological perspectives on medication routines.\n\nWeaknesses\n- Aim 3 is framed as identifying a mechanism, which an observational design with these measurement intervals cannot establish.\n\n**Factor 2. Rigor and Feasibility: 6**\n\nStrengths\n- Feasible procedures at the lead site.\n\nWeaknesses\n- Self-report diaries are known to overstate adherence. Without an objective measure, any stress–adherence association may reflect reporting differences between more and less stressed participants.\n- Attrition of 20% is handled by multiple imputation under missing at random. In the pilot, the five non-completers had higher baseline PSS-10 scores (24.2 vs 18.9). Dropout is likely related to stress and probably to adherence; there is no missing-not-at-random sensitivity analysis (pattern-mixture or selection models, tipping-point analysis).\n- The seven-day exposure window misses later variability.\n- Temporal ordering of stress, attention lapses and adherence is not established when exposures are measured in week 1 and adherence at week 6; Aim 3 should be described as descriptive.\n\n**Factor 3. Expertise and Resources:** Appropriate. A named statistician would strengthen the team.\n\n## CRITIQUE 3\n\n**Overall Impact:** 4\n\n**Factor 1. Importance of the Research: 2**\n\nStrengths\n- High clinical significance for nursing care after discharge.\n\n**Factor 2. Rigor and Feasibility: 5**\n\nStrengths\n- Procedures tested at Ridgeline.\n\nWeaknesses\n- Adherence by self-report only.\n- Exposures should be measured repeatedly, for example weekly, across the six weeks rather than in one burst.\n- The missing-data plan is brief and relies on missing at random only.\n\n**Factor 3. Expertise and Resources:** Additional expertise and/or resources needed. Recruitment at Lakevale is undocumented: no letter, no patient volume, no description of who would recruit there. Biostatistics support is 3% core effort with no named statistician.\n\n## ADDITIONAL REVIEW CONSIDERATIONS\n\n**Protection of Human Subjects:** Acceptable. Minimal-risk observational design; the distress protocol is appropriate.\n\n**Inclusion Plans:** Acceptable.\n\n**Budget and Period of Support:** Reasonable as requested.\n\n**Data Management and Sharing Plan:** Acceptable.\n"
+          },
+          {
+            "path": "feasibility_report.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final report: internal feasibility work, Post-Discharge Routines Study\n\nPhase 1 (diary pilot, 2024–2025) and Phase 2 (electronic monitoring run, 2026)\nSubmitted to the Associate Dean for Research, CRU College of Nursing, 18 September 2026\nPI: Audra N. Kesselring, PhD, RN. Co-investigators: Imani D. Okonkwo-Lattimore, PhD; Gareth P. Lindqvist, PhD (analysis planning, from July 2026).\n\n## 1. Funding and approvals\n\n| | Phase 1 | Phase 2 |\n|---|---|---|\n| Award | CRU College of Nursing Pilot Research Award, $25,000 | CRU Center for Behavioral Health Research Seed Supplement, $18,500 |\n| Period | 1 July 2024–31 December 2025 | 1 March–31 August 2026 |\n| CRU IRB protocol | STUDY2024-0177, approved 14 August 2024, closed 15 December 2025 | STUDY2026-0118, approved 2 April 2026; enrollment closed |\n| Site | Ridgeline Transitional Care Clinic | Ridgeline Transitional Care Clinic |\n\nBoth awards were limited to feasibility aims. Neither phase was designed or powered to test associations, and no intervention was delivered in either phase.\n\nExpenditure. Phase 1: research nurse $15,600; participant compensation (31 x $100) $3,100; loaner smartphones and data plans $2,800; EMA platform license $3,500. Phase 2: 16 MEMS Caps, 2 readers and software $4,960; research nurse $10,240; participant compensation (12 x $150) $1,800; supplies $1,500.\n\n## 2. Phase 1: diary pilot (September 2024–May 2025)\n\n**Methods.** Adults discharged home from CRH medical units within 7 days, with at least 3 scheduled daily oral medications. Recruitment 9 September 2024–28 March 2025: 118 screened, 52 eligible, 31 enrolled. Days 1–7: four EMA prompts per day (momentary stress, 0–10), one 3-minute mobile PVT per day, evening medication diary. PSS-10 at baseline and week 6; at week 6 a structured recall of missed doses in the previous 7 days.\n\n**Participants.** Mean age 63.8 years (SD 11.2); 17 women (55%); 12 (39%) Black, 17 (55%) White, 2 (6%) other or more than one race; median 7 scheduled daily medications (IQR 5–9).\n\n| Outcome | Result |\n|---|---|\n| EMA prompts completed | 660 of 868 (76.0%) |\n| Mobile PVT sessions completed | 171 of 217 (78.8%) |\n| Diary days completed | 189 of 217 (87.1%) |\n| Completed week 6 | 26 of 31 (83.9%) |\n| Intraclass correlation, momentary stress | 0.48 |\n| Diary-reported doses taken, days 1–7, median | 97% (IQR 93–100%) |\n| Week-6 recall: no missed doses in previous 7 days | 21 of 26 (81%) |\n| Person-mean stress vs week-6 self-reported adherence | r = -0.31 (95% CI -0.62 to 0.09), n = 26 |\n\n**Non-completers.** 5 of 31 participants did not reach week 6 (2 readmitted, 2 lost to contact, 1 withdrew). Their baseline PSS-10 mean was 24.2 (SD 5.1), against 18.9 (SD 6.0) among completers. Two of the five stopped diaries before day 4.\n\n**Timing of regimen changes.** Clinic records show that 14 of 26 completers had a change to their medication regimen between day 8 and day 42, after the measurement window had closed.\n\n## 3. Phase 2: electronic monitoring run (May–August 2026)\n\n**Purpose.** To test whether electronic event monitoring, daily diaries and weekly visits can be run together for six weeks after discharge.\n\n**Methods.** Enrollment 4 May–3 July 2026 (target of 12 reached); last visit 14 August 2026. 57 screened, 26 eligible, 19 approached, 12 enrolled. One index medication per participant (scheduled once or twice daily) was placed in a MEMS Cap at enrollment. Participants kept an evening diary (paper or smartphone) for all scheduled medications, with a separate entry for the index medication. Weekly visits in weeks 1–6, at the clinic or at home, included the PSS-10, the 3-minute PVT and a MEMS download. Adherence data were not fed back to participants or clinicians.\n\n**Participants.** Mean age 61.2 years (SD 12.9); 7 women; 5 Black, 7 White.\n\n| Outcome | Result |\n|---|---|\n| Complete 42-day MEMS record | 10 of 12 |\n| Incomplete records | 1 withdrew in week 2 after readmission; 1 cap lost in week 4 (24 days recorded) |\n| Weekly visits completed | 63 of 72 scheduled (87.5%) |\n| PVT completed at visits | 61 of 63 (97%) |\n| Diary days completed (10 complete records) | 383 of 420 (91.2%) |\n| Day-level agreement, diary vs MEMS (all index doses taken) | 330 of 383 days (86.2%); kappa 0.49 (95% CI 0.36 to 0.62) |\n| Diary minus MEMS adherence, per participant | mean 7.4 percentage points (range -2.1 to 19.0) |\n| MEMS correct-dosing days | median 88% (IQR 74–93%) |\n| Weekly PSS-10, mean absolute week-to-week change | 3.6 points (SD 2.8) |\n| Cap rated not at all or slightly burdensome at exit | 9 of 10 |\n\nNo association between stress, attention and adherence was estimated, given 10 complete records.\n\n## 4. Missing-data analysis plan (August 2026)\n\nAfter the summary statement, Dr. Lindqvist reviewed the Phase 1 dropout pattern (5 of 31 non-completers; baseline PSS-10 24.2 vs 18.9) and on 24 August 2026 delivered a written missing-data analysis plan for a six-week cohort with MEMS monitoring, diaries and weekly visits. The plan sets a primary linear mixed model for weekly MEMS correct-dosing proportions, valid under missing at random, and a pattern-mixture sensitivity analysis under missing not at random: three dropout patterns (after weeks 1–2, after weeks 3–4, completers), complete-case and neighbouring-case identifying restrictions, delta adjustment of post-dropout weekly adherence from 0 to -20 percentage points, and a tipping-point analysis. Where a MEMS record is incomplete, diary data enter only as auxiliary variables, because diary adherence exceeded MEMS adherence in Phase 2. The R code (mice, lme4) was tested on simulated data. The plan was not applied to Phase 2 data, whose 2 incomplete records are too few for pattern-specific estimates. It covers missing outcome data only; it does not address confounding and gives mediation estimates no causal interpretation.\n\n## 5. Limitations\n\n- Phase 2 was a feasibility run, not a validation study: one site, one index medication per person and 10 complete records. The kappa interval is wide and does not account for clustering of days within participants. The run does not establish MEMS as a criterion measure in this population; a cap opening records bottle access, not ingestion.\n- Neither phase tested hypotheses or evaluated any intervention.\n- Both phases recruited at Ridgeline only; there are no data from Lakevale or any other site.\n- Consent in both phases covered devices, diaries and visits only; no pharmacy refill data were obtained or linked (see resources.md).\n- The missing-data plan of 24 August 2026 has not been applied to device data.\n\n## 6. Data holdings\n\nDe-identified Phase 1 and Phase 2 datasets in CRU REDCap; MEMS event files for 12 participants (10 complete). Available to the study team under the approved protocols. A Phase 2 manuscript is in preparation and had not been submitted on 18 September 2026.\n"
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Facilities, equipment and approvals\n\nCollege of Nursing, Cuyahoga Ridge University. Status as of 30 September 2026.\n\n## Space\n\nCollege of Nursing Research Office: two private interview rooms, locked storage for devices and paper diaries, three workstations on the CRU research network. Ridgeline Transitional Care Clinic provides an examination room on two weekdays for study visits (letter of 14 August 2026).\n\n## Equipment and software (owned)\n\n- 16 MEMS Caps and 2 MEMS readers with MEMS Adherence Software (AARDEX Group), purchased March 2026 with the Phase 2 seed supplement; 15 caps remain in service after one was lost during Phase 2.\n- 12 loaner Android smartphones (purchased 2024 for Phase 1).\n- Smartphone EMA platform: College subscription renewed through 30 June 2027.\n- Mobile 3-minute PVT configured by the CRU Stress and Cognition Assessment Lab.\n- CRU REDCap (institutionally hosted) and a College research data server with nightly backup.\n\n## Institutional support\n\n- PI research effort of 40% in 2026–27 (9-month appointment).\n- Research nurse coordinator position funded by the College.\n- Dr. Lindqvist's effort on the study is currently supported by his department.\n\n## Human subjects approvals and consent scope\n\n| Protocol | Status |\n|---|---|\n| STUDY2024-0177 (Phase 1) | Approved 14 August 2024; closed 15 December 2025 |\n| STUDY2026-0118 (Phase 2) | Approved 2 April 2026 (expedited, minimal risk); enrollment closed 3 July 2026; open for data analysis |\n\nThe Phase 2 consent form and HIPAA authorization cover: a MEMS Cap on one index medication; daily medication and stress diaries; weekly visits with PSS-10 and PVT; and review of the CRH discharge summary to record the discharge medication list. They do not cover access to pharmacy dispensing or refill records, linkage of study data to pharmacy records, or recontact for that purpose.\n\nNo amendment requesting pharmacy-record linkage has been submitted to or approved by the CRU IRB. No data use agreement exists with the CRH outpatient pharmacy or any external pharmacy or claims source. Participants in Phases 1 and 2 were not asked to consent to future linkage.\n\n## Recruitment record\n\n| Site | Record |\n|---|---|\n| Ridgeline (Phase 1) | 31 enrolled in 7 months (September 2024–March 2025) |\n| Ridgeline (Phase 2) | 12 enrolled in 9 weeks (4 May–3 July 2026) from 19 approached |\n| Ridgeline (letter) | Support for up to 60 participants over 18 months |\n| Lakevale | No letter; request pending (see team.md) |\n"
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications of the study team (selected)\n\n1. Kesselring, A. N., Brandvold, K. M., & Okonkwo-Lattimore, I. D. (2025). Momentary stress and self-reported medication taking in the first week after hospital discharge: a pilot ecological momentary assessment study. *Journal of Transitional Care Nursing*, 9(3), 211–224. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2025.1\n   Phase 1 results (n = 31).\n\n2. Okonkwo-Lattimore, I. D., & Kesselring, A. N. (2024). A three-minute smartphone vigilance task in adults recovering from acute illness: completion, practice effects and missing data. *Behavioral Assessment in Health Settings*, 6(2), 88–101. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2024.1\n   Laboratory sample of 48 adults recruited in 2023.\n\n3. Lindqvist, G. P. (2023). Pattern-mixture sensitivity analysis for informative dropout in intensive longitudinal health studies: a tutorial. *Methods in Applied Health Statistics*, 11, 140–162. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2023.1\n\n4. Brandvold, K. M., & Kesselring, A. N. (2022). Medication discrepancies found at nurse-led post-discharge clinic visits: a retrospective review of 186 patients. *Advances in Transitional Nursing Practice*, 4(1), 17–29. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2022.1\n\n5. Kesselring, A. N., & Hanratty, D. R. (2021). Habit strength and medication routines in adults with multimorbidity: a cross-sectional survey. *Journal of Chronic Illness Self-Management*, 5(1), 45–58. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2021.1\n   Survey of 412 adults.\n\n6. Kesselring, A. N. (2019). Medication self-management routines after heart failure discharge: a mixed-methods study. *Cardiovascular Nursing Research and Practice*, 14(4), 301–315. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2019.1\n\n## In preparation\n\n- Phase 2 electronic monitoring feasibility results (not submitted as of 18 September 2026).\n"
+          }
+        ],
+        "facts": [
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "The PI, Audra N. Kesselring, PhD, RN, is a tenured Associate Professor at the Cuyahoga Ridge University College of Nursing.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Co-investigator Imani D. Okonkwo-Lattimore is a licensed clinical psychologist who adapted the 3-minute mobile PVT and wrote the distress protocol.",
+            "value": null,
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The R21 A0 (1 R21 NR021847-01) was submitted on 16 February 2026 and was not funded.",
+            "value": "16 February 2026",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The A0 received an impact score of 46 (39th percentile) at the NRCS study section on 11 June 2026; summary statement released 26 June 2026.",
+            "value": "46",
+            "salient": true,
+            "source": "summary_statement.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "As of 30 September 2026 no A1 has been submitted and no application with overlapping aims is pending.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Phase 1 diary pilot was funded by a CRU College of Nursing Pilot Research Award restricted to feasibility work.",
+            "value": "$25,000",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Phase 2 device feasibility run was funded by a CRU Center for Behavioral Health Research Seed Supplement, ending 31 August 2026.",
+            "value": "$18,500",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The A0 proposed 90 participants, 45 each from Ridgeline and Lakevale clinics.",
+            "value": "90",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Phase 1 enrolled 31 adults at Ridgeline between September 2024 and March 2025.",
+            "value": "31",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In Phase 1, 26 of 31 participants completed week 6.",
+            "value": "83.9%",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Phase 1 person-mean stress correlated with week-6 self-reported adherence at r = -0.31 (95% CI -0.62 to 0.09), n = 26.",
+            "value": "-0.31",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In Phase 1, 21 of 26 completers reported no missed doses at week-6 recall, a self-report ceiling.",
+            "value": "21 of 26",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Phase 1 non-completers had a mean baseline PSS-10 of 24.2 versus 18.9 in completers.",
+            "value": "24.2",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "14 of 26 Phase 1 completers had a regimen change between day 8 and day 42, after the 7-day measurement window.",
+            "value": "14 of 26",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The non-interventional Phase 2 run obtained complete 42-day MEMS records for 10 of 12 participants; it is feasibility, not validation or efficacy evidence.",
+            "value": "10 of 12",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Phase 2 diary completion was 383 of 420 days among the 10 complete records.",
+            "value": "91.2%",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Day-level agreement between diary and MEMS was 86.2% with kappa 0.49 (95% CI 0.36 to 0.62).",
+            "value": "0.49",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Diary-reported adherence exceeded MEMS-measured adherence by a mean of 7.4 percentage points.",
+            "value": "7.4",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Phase 2 weekly visits replaced the single recall; 63 of 72 scheduled visits were completed.",
+            "value": "87.5%",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Statistician Gareth P. Lindqvist wrote a pattern-mixture/delta-adjustment missing-data plan, not yet applied to device data.",
+            "value": "24 August 2026",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Ridgeline Transitional Care Clinic signed a letter on 14 August 2026 supporting recruitment of up to 60 participants over 18 months.",
+            "value": "60",
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "The Lakevale Community Health Center letter was requested on 8 July 2026 and remains unsigned with no meeting date set.",
+            "value": "not signed",
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Existing consent covers MEMS caps, diaries and weekly visits only; no pharmacy-record linkage consent, IRB amendment or data use agreement exists.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The team owns 16 MEMS Caps (15 in service) and 2 readers purchased in March 2026.",
+            "value": "16",
+            "salient": false,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The PI has never used pharmacy dispensing, refill or claims records, and no team member is a pharmacist.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "kesselring2025stress",
+            "authors": [
+              "Kesselring, A. N.",
+              "Brandvold, K. M.",
+              "Okonkwo-Lattimore, I. D."
+            ],
+            "year": 2025,
+            "title": "Momentary stress and self-reported medication taking in the first week after hospital discharge: a pilot ecological momentary assessment study",
+            "venue": "Journal of Transitional Care Nursing",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2025.1"
+          },
+          {
+            "key": "okonkwo2024vigilance",
+            "authors": [
+              "Okonkwo-Lattimore, I. D.",
+              "Kesselring, A. N."
+            ],
+            "year": 2024,
+            "title": "A three-minute smartphone vigilance task in adults recovering from acute illness: completion, practice effects and missing data",
+            "venue": "Behavioral Assessment in Health Settings",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2024.1"
+          },
+          {
+            "key": "lindqvist2023pattern",
+            "authors": [
+              "Lindqvist, G. P."
+            ],
+            "year": 2023,
+            "title": "Pattern-mixture sensitivity analysis for informative dropout in intensive longitudinal health studies: a tutorial",
+            "venue": "Methods in Applied Health Statistics",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2023.1"
+          },
+          {
+            "key": "brandvold2022discrepancies",
+            "authors": [
+              "Brandvold, K. M.",
+              "Kesselring, A. N."
+            ],
+            "year": 2022,
+            "title": "Medication discrepancies found at nurse-led post-discharge clinic visits: a retrospective review of 186 patients",
+            "venue": "Advances in Transitional Nursing Practice",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2022.1"
+          },
+          {
+            "key": "kesselring2021habit",
+            "authors": [
+              "Kesselring, A. N.",
+              "Hanratty, D. R."
+            ],
+            "year": 2021,
+            "title": "Habit strength and medication routines in adults with multimorbidity: a cross-sectional survey",
+            "venue": "Journal of Chronic Illness Self-Management",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2021.1"
+          },
+          {
+            "key": "kesselring2019heartfailure",
+            "authors": [
+              "Kesselring, A. N."
+            ],
+            "year": 2019,
+            "title": "Medication self-management routines after heart failure discharge: a mixed-methods study",
+            "venue": "Cardiovascular Nursing Research and Practice",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2019.1"
+          }
+        ],
+        "reviewer_criticisms": [
+          "Medication adherence was measured only by self-report (a days 1-7 diary and a single week-6 recall) with no objective check such as electronic event monitoring, and the pilot showed a ceiling with 21 of 26 reporting no missed doses.",
+          "Stress and attention were measured only in a seven-day burst after discharge, so the design could not capture how these exposures vary across the six-week transition.",
+          "Attrition was handled by multiple imputation under missing at random despite pilot non-completers having higher baseline stress, with no missing-not-at-random sensitivity analysis such as pattern-mixture or tipping-point models.",
+          "Half of the 90 participants were to come from Lakevale Community Health Center without a letter of support, leaving second-site recruitment feasibility undocumented."
+        ],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "cv_pi.md, Methods experience; resources.md, Equipment and software",
+          "problem": "AARDEX Group is a real company. The fiction rules permit real instruments but require companies to be fictional.",
+          "fix": "Remove the manufacturer attribution while retaining MEMS Cap as the permitted real instrument."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 2",
+          "where": "cv_pi.md, update date and Applications",
+          "problem": "The CV is dated 15 September 2026 but asserts application statuses as of 30 September 2026, after its stated update date.",
+          "fix": "Change the CV update date to 30 September 2026."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, facts",
+          "problem": "The registry omits numerous proposal-relevant results, resources and limitations. Examples include Phase 1 EMA and PVT completion counts, stress ICC, dropout reasons and group SDs; Phase 2 recruitment denominators, PVT completion, MEMS correct-dosing distribution and burden ratings; the PI's research allocation, institutionally funded coordinator, smartphone inventory and EMA subscription expiry; and the protocols' approval and analysis statuses. The missing-data plan's outcome-only scope and lack of causal interpretation are also absent.",
+          "fix": "Add source-linked facts for these quantities and statuses, retaining their denominators, uncertainty, dates and limitations. Record the missing-data procedures as an existing written plan whose application remains prospective."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, F23 and F25",
+          "problem": "F23 says consent covers caps, diaries and visits 'only', but resources.md explicitly also authorizes discharge-summary review. F25 attributes the absence of a pharmacist anywhere on the team to cv_pi.md, which establishes only the PI's experience; the team-wide statement is in team.md.",
+          "fix": "Rewrite F23 to include authorized discharge-summary review and preserve the explicit exclusions for pharmacy access, linkage and recontact. Split F25 into separately sourced PI-experience and team-expertise facts."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "feasibility_report.md, Phase 2 Methods and weekly PSS-10 result",
+          "problem": "The weekly PSS-10 administration does not specify its recall period. The standard PSS-10 asks about the previous month, so weekly administrations have substantially overlapping reference periods. Without clarification, the reported week-to-week changes and their relevance to measuring stress throughout the transition are ambiguous.",
+          "fix": "Specify whether the standard past-month wording was retained. If so, describe the overlapping recall windows and their limitation for week-specific exposure analysis. If wording was changed to the previous week, identify the adaptation and its measurement limitations."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 9",
+          "where": "summary_statement.md, Additional Review Considerations",
+          "problem": "The report presents the Data Management and Sharing Plan as receiving an 'Acceptable' peer-review judgment. Under the NIH framework applicable to this application, the DMS Plan is assessed by NIH program staff rather than evaluated as a separate peer-review consideration. Protection of Human Subjects and Inclusion are also placed under Additional Review Considerations instead of Additional Review Criteria.",
+          "fix": "Move Human Subjects and Inclusion to Additional Review Criteria. Remove the DMS peer-review determination; if a program-staff assessment is necessary, document it separately with its date and status."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "planned tasks, pub2-nih-transition-close, T13",
+          "problem": "The expected behavior requires objective-monitoring plans as the response to the self-report criticism and does not allow a reasoned rebuttal with concrete mitigation. This makes the planned reviewer-criticism trap narrower than the permitted T13 behavior.",
+          "fix": "Explicitly accept either a substantive revision addressing the measurement criticism or a reasoned rebuttal with concrete mitigation, subject to the call's actual requirements. Continue requiring accurate characterization of the limited Phase 2 feasibility evidence."
+        }
+      ],
+      "rejected": [
+        {
+          "problem": "Task 2 / planned tasks, pub2-nih-transition-close, T13: expected behaviour should also accept a reasoned rebuttal with concrete mitigation.",
+          "reason": "The dossier JSON contains no task definitions or trap expectations; the T13 wording is fixed by the task specification and cannot be edited here. The dossier already supports either kind of response: it records the objective-monitoring change (10 of 12 complete MEMS records, kappa 0.49, a 7.4-point diary excess) and its limits (one site, feasibility only, no validation)."
+        }
+      ]
+    },
+    {
+      "draft": {
+        "applicant_type": "team",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "nursing",
+          "clinical psychology",
+          "health-services research"
+        ],
+        "method_profile": "mixed",
+        "country": "US",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum Vitae\n\n**Audra N. Kesselring, PhD, RN**\nAssociate Professor (tenured), College of Nursing, Cuyahoga Ridge University (CRU), Cleveland, Ohio\nUpdated 30 September 2026\n\n## Education\n\n| Year | Degree | Institution |\n|---|---|---|\n| 2012 | PhD, Nursing | Allegheny Crest University, Pittsburgh, PA |\n| 2007 | MSN, Adult-Gerontology Clinical Nurse Specialist | Cuyahoga Ridge University |\n| 2003 | BSN | Cuyahoga Ridge University |\n\nDissertation: *Daily routines and medication taking in adults living with heart failure* (2012). Registered Nurse, State of Ohio, licensed since 2003.\n\n## Positions\n\n- 2021–present: Associate Professor (tenure awarded July 2021), CRU College of Nursing. Effort allocation for 2026–27: 40% research, 50% teaching, 10% service (9-month appointment).\n- 2014–2021: Assistant Professor, CRU College of Nursing.\n- 2012–2014: Postdoctoral Fellow, CRU Center for Behavioral Health Research.\n- 2003–2008: Staff nurse, cardiac step-down unit, Cuyahoga Ridge Health.\n\n## Research focus\n\nHow adults manage medications in the first weeks after hospital discharge, and how daily stress and lapses of attention relate to the routines they keep. Methods: intensive longitudinal designs (ecological momentary assessment, daily diaries), structured weekly assessments, electronic event monitoring (since 2026) and semi-structured interviews.\n\n## Research support\n\n### Completed\n\n1. Northcoast Nursing Research Foundation. *Medication self-management routines after heart failure discharge.* PI. $48,000. 1 January 2017–31 December 2018. Survey (n = 64) and interview (n = 18) study.\n2. CRU College of Nursing Pilot Research Award. *Stress and medication routines after discharge: diary pilot* (Phase 1). PI. $25,000. 1 July 2024–31 December 2025, including a six-month no-cost extension.\n3. CRU Center for Behavioral Health Research Seed Supplement. *Electronic monitoring feasibility run* (Phase 2). PI. $18,500. 1 March 2026–31 August 2026.\n\nThe two internal awards were limited by their terms to feasibility work; neither funded hypothesis testing.\n\n### Applications\n\n- NIH R21 (Clinical Trial Not Allowed), 1 R21 NR021847-01, *Stress, attention and medication routines in the six weeks after hospital discharge*. PI; Co-Investigator I. D. Okonkwo-Lattimore. Submitted 16 February 2026; reviewed 11 June 2026 by the Nursing and Related Clinical Sciences (NRCS) study section; impact score 46, 39th percentile; not funded. Summary statement released 26 June 2026.\n- As of 30 September 2026, no A1 has been submitted, and no application with overlapping aims is pending at NIH or any other funder.\n\n## Methods experience\n\n- EMA and daily diary studies since 2017; administers the College's smartphone EMA platform.\n- Electronic event monitoring (MEMS Cap): first used in the 2026 Phase 2 run.\n- Has not used pharmacy dispensing, refill or claims records in any study.\n\n## Teaching and mentoring\n\nNURS 512 Research Methods for Advanced Practice (annually since 2015). Primary mentor to 4 PhD students (2 graduated); chair of 6 DNP projects.\n\n## Service\n\nCollege of Nursing Research Committee, member 2022–present, chair 2024–2026.\n\n## Publications\n\nSee publications.md.\n"
+          },
+          {
+            "path": "team.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Study team and clinical sites: Post-Discharge Routines Study\n\nCollege of Nursing, Cuyahoga Ridge University. Status as of 30 September 2026.\n\n## Investigators and staff\n\n| Role | Name | Appointment | On the study since |\n|---|---|---|---|\n| Principal investigator | Audra N. Kesselring, PhD, RN | Associate Professor, College of Nursing | 2024 |\n| Co-investigator | Imani D. Okonkwo-Lattimore, PhD | Associate Professor of Psychiatry, CRU School of Medicine; licensed psychologist (Ohio) | 2024 |\n| Co-investigator, statistics | Gareth P. Lindqvist, PhD | Research Associate Professor, Department of Biostatistics and Data Science, CRU | 1 July 2026 |\n| Research nurse coordinator | Kayla M. Brandvold, BSN, RN | College of Nursing research staff, 100%, permanent line | 2024 |\n\n**Dr. Okonkwo-Lattimore** (PhD, clinical psychology, 2011) directs the CRU Stress and Cognition Assessment Lab. She adapted the 3-minute mobile Psychomotor Vigilance Task (PVT) used in Phases 1 and 2, prepared the past-week PSS-10 wording used at the Phase 2 weekly visits, trained study staff in PSS-10 and PVT administration, and wrote the distress protocol under which coordinators refer participants who report high distress.\n\n**Dr. Lindqvist** (PhD, biostatistics, 2013) works on sensitivity analysis for informative dropout in longitudinal studies. He was not part of the A0, which budgeted 3% effort from the College's shared biostatistics core without a named statistician. He joined after the summary statement and wrote the missing-data analysis plan dated 24 August 2026 (summarized in feasibility_report.md, section 4).\n\n**Ms. Brandvold** consented all Phase 1 and Phase 2 participants, conducted the weekly visits and managed MEMS cap issue, return and download. Her position is funded by the College and does not depend on grant support.\n\nNo team member is a pharmacist or has worked with pharmacy dispensing or refill data.\n\n## Clinical sites\n\n### Ridgeline Transitional Care Clinic, Cuyahoga Ridge Health (CRH), Cleveland\n\nNurse-practitioner-led clinic that sees adults within 14 days of discharge from CRH medical units; about 210 new post-discharge patients per month in 2025 (clinic statistics). Site of Phase 1 and Phase 2. Letter of support signed 14 August 2026 by the medical director, Priya Raghunathan-Lowe, MD: an examination room for weekly visits on two weekdays, a referral workflow through clinic nurse practitioners, and support for recruitment of up to 60 participants over an 18-month enrollment period. An earlier letter of general support (22 January 2026) accompanied the A0.\n\n### Lakevale Community Health Center, Lorain, Ohio\n\nFederally qualified health center with a post-hospital follow-up clinic. The A0 named Lakevale as the source of 45 of the 90 participants, based on conversations with its medical director, Owen T. Marchbanks, DO; no letter was obtained before submission.\n\n| Date | Step |\n|---|---|\n| 8 July 2026 | Letter requested by email, with draft text and the Phase 2 protocol |\n| 2 September 2026 | Reminder sent |\n| 22 September 2026 | Lakevale research committee replied that it will consider the request at a meeting later in the fall; no date set |\n\nStatus on 30 September 2026: requested, not signed. Lakevale has made no commitment of space, staff, referrals or data and did not take part in Phase 1 or Phase 2.\n\n## Working arrangements\n\nBiweekly team meetings since August 2024; Dr. Lindqvist has attended since July 2026. Study data are held in CRU REDCap; MEMS downloads are stored on the College research server.\n"
+          },
+          {
+            "path": "prior_application_a0.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# NIH R21 application (A0), abridged\n\n**1 R21 NR021847-01** — *Stress, attention and medication routines in the six weeks after hospital discharge*\n\nSubmitted 16 February 2026. Activity code R21, Clinical Trial Not Allowed. PI: Audra N. Kesselring, PhD, RN; Co-I: Imani D. Okonkwo-Lattimore, PhD. Requested period 1 December 2026–30 November 2028. Direct costs requested: $275,000 (Year 1 $161,900; Year 2 $113,100).\n\nAbridged copy kept in the College of Nursing grants file. Reproduced: Specific Aims, Preliminary Data, Approach (shortened), timeline and budget summary. Omitted: Human Subjects, Bibliography, Biosketches and letters (the A0 carried one letter, from Ridgeline, dated 22 January 2026).\n\n## Specific Aims (as submitted)\n\nThe first weeks at home after a hospital stay change how adults take medications: regimens are altered at discharge, routines are interrupted, and follow-up visits, symptoms and household demands compete for attention. Nurses see patients who know their regimen yet miss doses during this period. We propose that stress and lapses of attention during the transition disrupt medication routines, and that these processes can be observed in daily life.\n\nWe will follow 90 adults discharged home from medical units, recruited at two outpatient clinics, for six weeks, using smartphone ecological momentary assessment (EMA) of stress, a brief mobile attention task and medication diaries. The study is observational; no intervention is delivered.\n\n**Aim 1.** Describe the course of perceived and momentary stress, attention lapses and self-reported medication taking over the first six weeks after discharge.\n\n**Aim 2.** Estimate the association between momentary stress in the first week after discharge and self-reported medication adherence at week 6. *Hypothesis:* higher person-mean stress on days 1–7 is associated with lower week-6 adherence (r of -0.30 or stronger).\n\n**Aim 3 (exploratory).** Examine whether attention lapses statistically account for part of the stress–adherence association.\n\nThe results will indicate whether stress and attention should be measured, and later addressed, in nursing care after discharge.\n\n## Preliminary data (as submitted)\n\nPhase 1 diary pilot at Ridgeline Transitional Care Clinic (CRU College of Nursing Pilot Research Award, 2024–2025): 31 adults enrolled and 26 (83.9%) completed six weeks. EMA prompt completion was 76.0% and mobile PVT completion 78.8% on days 1–7. Person-mean momentary stress correlated with week-6 self-reported adherence at r = -0.31 (95% CI -0.62 to 0.09; n = 26). The intraclass correlation of momentary stress was 0.48, indicating substantial within-person variation in the first week.\n\n## Approach (shortened)\n\n**C.1 Design.** Prospective observational cohort; two sites; six-week follow-up from discharge.\n\n**C.2 Participants.** Adults aged 18 years or older discharged home from a medical unit within the previous 7 days, with at least 3 scheduled daily oral medications, English-speaking and able to use a smartphone (loaners provided). Exclusions: discharge to a skilled nursing facility, diagnosis of dementia, hospice enrollment.\n\n**C.3 Recruitment.** 90 participants over 18 months: 45 at Ridgeline Transitional Care Clinic (CRH) and 45 at Lakevale Community Health Center, which 'has agreed in principle; a letter will follow'. Ridgeline enrolled 31 participants in 7 months during Phase 1.\n\n**C.4 Measures.**\n- Baseline: demographics, number of scheduled medications, PSS-10.\n- Days 1–7 (EMA burst): four prompts per day rating momentary stress (0–10); one 3-minute mobile PVT per day (lapses = responses slower than 500 ms).\n- Medication taking: evening diary on days 1–7 (doses taken, missed, late); one structured recall interview at week 6 covering missed doses in the previous 7 days.\n- Week 6: PSS-10.\n\n**C.5 Analysis.** Aim 1: descriptive statistics and linear mixed models for EMA data. Aim 2: linear regression of week-6 adherence on person-mean stress (days 1–7), adjusted for age, number of medications and baseline PSS-10. Missing data handled by multiple imputation under a missing-at-random assumption; 20% attrition expected. Aim 3: product-of-coefficients estimate with bias-corrected bootstrap confidence intervals, reported as exploratory.\n\n**C.6 Sample size.** With 90 enrolled and 20% attrition (72 analyzable), the study has 80% power at two-sided alpha 0.05 to detect r = 0.33.\n\n**C.7 Potential problems and alternatives.** Self-report may overstate adherence; we chose diaries and recall because electronic monitoring adds cost and participant burden during the transition. If EMA completion falls below 70%, prompts will be reduced to three per day.\n\n**C.8 Timeline.** Months 1–3 start-up; months 4–21 enrollment and follow-up; months 22–24 analysis and dissemination.\n\n## Budget summary (direct costs)\n\n| Item | Year 1 | Year 2 |\n|---|---|---|\n| Personnel (PI 15%, Co-I 5%, research nurse 50%, biostatistics core 3%) | $129,400 | $96,300 |\n| Participant compensation ($100 each) | $5,000 | $4,000 |\n| Smartphones, data plans, EMA platform | $14,500 | $6,800 |\n| Travel to Lakevale site | $3,000 | $3,000 |\n| Supplies, printing, recruitment materials, publication | $10,000 | $3,000 |\n| **Total** | **$161,900** | **$113,100** |\n"
+          },
+          {
+            "path": "summary_statement.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# SUMMARY STATEMENT\n\n(Privileged Communication) Release Date: 06/26/2026\n\n| | |\n|---|---|\n| Application Number | 1 R21 NR021847-01 |\n| Principal Investigator | KESSELRING, AUDRA N, PhD, RN |\n| Applicant Organization | CUYAHOGA RIDGE UNIVERSITY |\n| Review Group | NRCS, Nursing and Related Clinical Sciences Study Section |\n| Meeting Date | 06/11/2026 |\n| Council | OCT 2026 |\n| Requested Start | 12/01/2026 |\n| Project Title | Stress, attention and medication routines in the six weeks after hospital discharge |\n| Clinical Trial | Not Allowed |\n| SRG Action | Impact Score: 46; Percentile: 39 |\n| Human Subjects | Human subjects involved; no SRG concerns |\n| Inclusion | Sex/gender, race/ethnicity and age: acceptable |\n\n| Project Year | Direct Costs Requested |\n|---|---|\n| 1 | $161,900 |\n| 2 | $113,100 |\n| Total | $275,000 |\n\nThis application was evaluated under the simplified review framework for research project grants (Factor 1 and Factor 2 scored; Factor 3 rated for sufficiency).\n\n## RESUME AND SUMMARY OF DISCUSSION\n\nThis R21 proposes a six-week observational cohort of 90 adults after hospital discharge to relate momentary stress and attention lapses to medication taking. Reviewers agreed that the post-discharge period is important, that a nursing and clinical psychology team is well placed for the work, and that the Phase 1 pilot shows EMA and a mobile attention task are acceptable to this population. Enthusiasm was reduced by four concerns. First, adherence is measured only by self-report (a diary on days 1–7 and one recall at week 6) with no objective check, and the pilot shows most participants reporting no missed doses. Second, stress and attention are measured only during days 1–7, so the design cannot capture how these exposures vary across the transition. Third, attrition is handled by multiple imputation under missing at random, although pilot non-completers had higher baseline stress; there is no missing-not-at-random sensitivity analysis. Fourth, half of the sample is to come from a second clinic that has provided no letter, so recruitment feasibility is undocumented. Reviewers also noted that the exploratory mediation aim cannot support causal conclusions.\n\n## CRITIQUE 1\n\n**Overall Impact:** 4\n\n**Factor 1. Importance of the Research (Significance, Innovation): 3**\n\nStrengths\n- Medication taking in the weeks after discharge is clinically important; the focus on stress and attention adds a psychological mechanism to a field dominated by medication reconciliation studies.\n- Intensive longitudinal measurement in recently discharged adults is innovative.\n\nWeaknesses\n- Significance depends on an adherence outcome whose validity is uncertain (see Factor 2).\n\n**Factor 2. Rigor and Feasibility (Approach): 5**\n\nStrengths\n- Pilot completion rates (76.0% EMA prompts, 78.8% PVT sessions) support the measurement burden.\n- Clear eligibility criteria and an appropriate distress protocol.\n\nWeaknesses\n- Adherence is measured only by self-report: a 7-day diary and a single recall at week 6. There is no objective check such as electronic event monitoring or pill counts, and in the pilot 21 of 26 participants reported no missed doses, a ceiling that limits Aim 2. The stated reason for not using electronic monitoring (cost and burden) is not supported by data.\n- Stress and attention are measured only on days 1–7. Regimen changes, follow-up visits and readmissions after the first week will be missed, and a week-1 average cannot describe how exposure varies across six weeks.\n\n**Factor 3. Expertise and Resources (Investigators, Environment):** Additional expertise and/or resources needed. Half of the sample is to come from Lakevale Community Health Center, but there is no letter; 'agreed in principle' is not sufficient. Ridgeline alone enrolled 31 participants in seven months and would not reach 90 in 18 months on its own.\n\n## CRITIQUE 2\n\n**Overall Impact:** 5\n\n**Factor 1. Importance of the Research: 3**\n\nStrengths\n- Integration of nursing and psychological perspectives on medication routines.\n\nWeaknesses\n- Aim 3 is framed as identifying a mechanism, which an observational design with these measurement intervals cannot establish.\n\n**Factor 2. Rigor and Feasibility: 6**\n\nStrengths\n- Feasible procedures at the lead site.\n\nWeaknesses\n- Self-report diaries are known to overstate adherence. Without an objective measure, any stress–adherence association may reflect reporting differences between more and less stressed participants.\n- Attrition of 20% is handled by multiple imputation under missing at random. In the pilot, the five non-completers had higher baseline PSS-10 scores (24.2 vs 18.9). Dropout is likely related to stress and probably to adherence; there is no missing-not-at-random sensitivity analysis (pattern-mixture or selection models, tipping-point analysis).\n- The seven-day exposure window misses later variability.\n- Temporal ordering of stress, attention lapses and adherence is not established when exposures are measured in week 1 and adherence at week 6; Aim 3 should be described as descriptive.\n\n**Factor 3. Expertise and Resources:** Appropriate. A named statistician would strengthen the team.\n\n## CRITIQUE 3\n\n**Overall Impact:** 4\n\n**Factor 1. Importance of the Research: 2**\n\nStrengths\n- High clinical significance for nursing care after discharge.\n\n**Factor 2. Rigor and Feasibility: 5**\n\nStrengths\n- Procedures tested at Ridgeline.\n\nWeaknesses\n- Adherence by self-report only.\n- Exposures should be measured repeatedly, for example weekly, across the six weeks rather than in one burst.\n- The missing-data plan is brief and relies on missing at random only.\n\n**Factor 3. Expertise and Resources:** Additional expertise and/or resources needed. Recruitment at Lakevale is undocumented: no letter, no patient volume, no description of who would recruit there. Biostatistics support is 3% core effort with no named statistician.\n\nTHE FOLLOWING SECTIONS WERE PREPARED BY THE SCIENTIFIC REVIEW OFFICER TO SUMMARIZE THE OUTCOME OF DISCUSSIONS OF THE REVIEW COMMITTEE, OR REVIEWERS' WRITTEN CRITIQUES, ON THE FOLLOWING ISSUES:\n\n## ADDITIONAL REVIEW CRITERIA\n\n**Protections for Human Subjects:** Acceptable risks and adequate protections. Minimal-risk observational design; the distress protocol is appropriate.\n\n**Inclusion of Women, Minorities, and Individuals Across the Lifespan:** Acceptable. Adults aged 18 years and older of both sexes; the planned racial and ethnic distribution reflects the two named clinic populations; exclusion of children is justified by the adult discharge population.\n\n## ADDITIONAL REVIEW CONSIDERATIONS\n\n**Budget and Period of Support:** Recommend as requested.\n"
+          },
+          {
+            "path": "feasibility_report.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final report: internal feasibility work, Post-Discharge Routines Study\n\nPhase 1 (diary pilot, 2024–2025) and Phase 2 (electronic monitoring run, 2026)\nSubmitted to the Associate Dean for Research, CRU College of Nursing, 18 September 2026\nPI: Audra N. Kesselring, PhD, RN. Co-investigators: Imani D. Okonkwo-Lattimore, PhD; Gareth P. Lindqvist, PhD (analysis planning, from July 2026).\n\n## 1. Funding and approvals\n\n| | Phase 1 | Phase 2 |\n|---|---|---|\n| Award | CRU College of Nursing Pilot Research Award, $25,000 | CRU Center for Behavioral Health Research Seed Supplement, $18,500 |\n| Period | 1 July 2024–31 December 2025 | 1 March–31 August 2026 |\n| CRU IRB protocol | STUDY2024-0177, approved 14 August 2024, closed 15 December 2025 | STUDY2026-0118, approved 2 April 2026; enrollment closed |\n| Site | Ridgeline Transitional Care Clinic | Ridgeline Transitional Care Clinic |\n\nBoth awards were limited to feasibility aims. Neither phase was designed or powered to test associations, and no intervention was delivered in either phase.\n\nExpenditure. Phase 1: research nurse $15,600; participant compensation (31 x $100) $3,100; loaner smartphones and data plans $2,800; EMA platform license $3,500. Phase 2: 16 MEMS Caps, 2 readers and software $4,960; research nurse $10,240; participant compensation (12 x $150) $1,800; supplies $1,500.\n\n## 2. Phase 1: diary pilot (September 2024–May 2025)\n\n**Methods.** Adults discharged home from CRH medical units within 7 days, with at least 3 scheduled daily oral medications. Recruitment 9 September 2024–28 March 2025: 118 screened, 52 eligible, 31 enrolled. Days 1–7: four EMA prompts per day (momentary stress, 0–10), one 3-minute mobile PVT per day, evening medication diary. Standard PSS-10 (past-month recall) at baseline and week 6; at week 6 a structured recall of missed doses in the previous 7 days.\n\n**Participants.** Mean age 63.8 years (SD 11.2); 17 women (55%); 12 (39%) Black, 17 (55%) White, 2 (6%) other or more than one race; median 7 scheduled daily medications (IQR 5–9).\n\n| Outcome | Result |\n|---|---|\n| EMA prompts completed | 660 of 868 (76.0%) |\n| Mobile PVT sessions completed | 171 of 217 (78.8%) |\n| Diary days completed | 189 of 217 (87.1%) |\n| Completed week 6 | 26 of 31 (83.9%) |\n| Intraclass correlation, momentary stress | 0.48 |\n| Diary-reported doses taken, days 1–7, median | 97% (IQR 93–100%) |\n| Week-6 recall: no missed doses in previous 7 days | 21 of 26 (81%) |\n| Person-mean stress vs week-6 self-reported adherence | r = -0.31 (95% CI -0.62 to 0.09), n = 26 |\n\n**Non-completers.** 5 of 31 participants did not reach week 6 (2 readmitted, 2 lost to contact, 1 withdrew). Their baseline PSS-10 mean was 24.2 (SD 5.1), against 18.9 (SD 6.0) among completers. Two of the five stopped diaries before day 4.\n\n**Timing of regimen changes.** Clinic records show that 14 of 26 completers had a change to their medication regimen between day 8 and day 42, after the measurement window had closed.\n\n## 3. Phase 2: electronic monitoring run (May–August 2026)\n\n**Purpose.** To test whether electronic event monitoring, daily diaries and weekly visits can be run together for six weeks after discharge.\n\n**Methods.** Enrollment 4 May–3 July 2026 (target of 12 reached); last visit 14 August 2026. 57 screened, 26 eligible, 19 approached, 12 enrolled. At enrollment, participants completed the standard PSS-10 (past-month recall), and one index medication per participant (scheduled once or twice daily) was placed in a MEMS Cap. Participants kept an evening diary (paper or smartphone) for all scheduled medications, with a separate entry for the index medication. Weekly visits in weeks 1–6, at the clinic or at home, included a past-week version of the PSS-10, the 3-minute PVT and a MEMS download. In the past-week version, prepared by Dr. Okonkwo-Lattimore, the stem 'In the last month' was replaced by 'In the last week'; the ten items and the 0–4 response scale were otherwise unchanged. The change was made because the standard past-month wording would give consecutive weekly administrations overlapping reference periods. Adherence data were not fed back to participants or clinicians.\n\n**Participants.** Mean age 61.2 years (SD 12.9); 7 women; 5 Black, 7 White.\n\n| Outcome | Result |\n|---|---|\n| Complete 42-day MEMS record | 10 of 12 |\n| Incomplete records | 1 withdrew in week 2 after readmission; 1 cap lost in week 4 (24 days recorded) |\n| Weekly visits completed | 63 of 72 scheduled (87.5%) |\n| PVT completed at visits | 61 of 63 (97%) |\n| Past-week PSS-10 completed at visits | 63 of 63 |\n| Diary days completed (10 complete records) | 383 of 420 (91.2%) |\n| Day-level agreement, diary vs MEMS (all index doses taken) | 330 of 383 days (86.2%); kappa 0.49 (95% CI 0.36 to 0.62) |\n| Diary minus MEMS adherence, per participant | mean 7.4 percentage points (range -2.1 to 19.0) |\n| MEMS correct-dosing days | median 88% (IQR 74–93%) |\n| Past-week PSS-10, mean absolute change between consecutive completed visits | 3.6 points (SD 2.8; 49 visit pairs) |\n| Past-week PSS-10, Cronbach's alpha (63 administrations pooled; clustering not taken into account) | 0.84 |\n| Cap rated not at all or slightly burdensome at exit | 9 of 10 |\n\nNo association between stress, attention and adherence was estimated, given 10 complete records.\n\n## 4. Missing-data analysis plan (August 2026)\n\nAfter the summary statement, Dr. Lindqvist reviewed the Phase 1 dropout pattern (5 of 31 non-completers; baseline PSS-10 24.2 vs 18.9) and on 24 August 2026 delivered a written missing-data analysis plan for a six-week cohort with MEMS monitoring, diaries and weekly visits. The plan sets a primary linear mixed model for weekly MEMS correct-dosing proportions, valid under missing at random, and a pattern-mixture sensitivity analysis under missing not at random: three dropout patterns (after weeks 1–2, after weeks 3–4, completers), complete-case and neighbouring-case identifying restrictions, delta adjustment of post-dropout weekly adherence from 0 to -20 percentage points, and a tipping-point analysis. Where a MEMS record is incomplete, diary data enter only as auxiliary variables, because diary adherence exceeded MEMS adherence in Phase 2. The R code (mice, lme4) was tested on simulated data. The plan was not applied to Phase 2 data, whose 2 incomplete records are too few for pattern-specific estimates. It covers missing outcome data only; it does not address confounding and gives mediation estimates no causal interpretation.\n\n## 5. Limitations\n\n- Phase 2 was a feasibility run, not a validation study: one site, one index medication per person and 10 complete records. The kappa interval is wide and does not account for clustering of days within participants. The run does not establish MEMS as a criterion measure in this population; a cap opening records bottle access, not ingestion.\n- The weekly stress measure was an adapted, past-week PSS-10. Apart from the pooled alpha above, its reliability and validity have not been evaluated in this population; its scores are not comparable with published past-month norms, with the Phase 2 enrollment score or with Phase 1 PSS-10 scores. With 10 to 12 participants, the 3.6-point week-to-week change cannot be separated from measurement error.\n- Neither phase tested hypotheses or evaluated any intervention.\n- Both phases recruited at Ridgeline only; there are no data from Lakevale or any other site.\n- Consent in both phases covered devices, diaries and visits only; no pharmacy refill data were obtained or linked (see resources.md).\n- The missing-data plan of 24 August 2026 has not been applied to device data.\n\n## 6. Data holdings\n\nDe-identified Phase 1 and Phase 2 datasets in CRU REDCap; MEMS event files for 12 participants (10 complete). Available to the study team under the approved protocols. A Phase 2 manuscript is in preparation and had not been submitted on 18 September 2026.\n"
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Facilities, equipment and approvals\n\nCollege of Nursing, Cuyahoga Ridge University. Status as of 30 September 2026.\n\n## Space\n\nCollege of Nursing Research Office: two private interview rooms, locked storage for devices and paper diaries, three workstations on the CRU research network. Ridgeline Transitional Care Clinic provides an examination room on two weekdays for study visits (letter of 14 August 2026).\n\n## Equipment and software (owned)\n\n- 16 MEMS Caps and 2 MEMS readers with the accompanying adherence software, purchased March 2026 with the Phase 2 seed supplement; 15 caps remain in service after one was lost during Phase 2.\n- 12 loaner Android smartphones (purchased 2024 for Phase 1).\n- Smartphone EMA platform: College subscription renewed through 30 June 2027.\n- Mobile 3-minute PVT configured by the CRU Stress and Cognition Assessment Lab.\n- CRU REDCap (institutionally hosted) and a College research data server with nightly backup.\n\n## Institutional support\n\n- PI research effort of 40% in 2026–27 (9-month appointment).\n- Research nurse coordinator position funded by the College.\n- Dr. Lindqvist's effort on the study is currently supported by his department.\n\n## Human subjects approvals and consent scope\n\n| Protocol | Status |\n|---|---|\n| STUDY2024-0177 (Phase 1) | Approved 14 August 2024; closed 15 December 2025 |\n| STUDY2026-0118 (Phase 2) | Approved 2 April 2026 (expedited, minimal risk); enrollment closed 3 July 2026; open for data analysis |\n\nThe Phase 2 consent form and HIPAA authorization cover: a MEMS Cap on one index medication; daily medication and stress diaries; weekly visits with PSS-10 and PVT; and review of the CRH discharge summary to record the discharge medication list. They do not cover access to pharmacy dispensing or refill records, linkage of study data to pharmacy records, or recontact for that purpose.\n\nNo amendment requesting pharmacy-record linkage has been submitted to or approved by the CRU IRB. No data use agreement exists with the CRH outpatient pharmacy or any external pharmacy or claims source. Participants in Phases 1 and 2 were not asked to consent to future linkage.\n\n## Recruitment record\n\n| Site | Record |\n|---|---|\n| Ridgeline (Phase 1) | 31 enrolled in 7 months (September 2024–March 2025): 118 screened, 52 eligible |\n| Ridgeline (Phase 2) | 12 enrolled in 9 weeks (4 May–3 July 2026): 57 screened, 26 eligible, 19 approached |\n| Ridgeline (letter) | Support for up to 60 participants over 18 months |\n| Lakevale | No letter; request pending (see team.md) |\n"
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications of the study team (selected)\n\nAs of 30 September 2026.\n\n1. Kesselring, A. N., Brandvold, K. M., & Okonkwo-Lattimore, I. D. (2025). Momentary stress and self-reported medication taking in the first week after hospital discharge: a pilot ecological momentary assessment study. *Journal of Transitional Care Nursing*, 9(3), 211–224. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2025.1\n   Phase 1 results (n = 31).\n\n2. Okonkwo-Lattimore, I. D., & Kesselring, A. N. (2024). A three-minute smartphone vigilance task in adults recovering from acute illness: completion, practice effects and missing data. *Behavioral Assessment in Health Settings*, 6(2), 88–101. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2024.1\n   Laboratory sample of 48 adults recruited in 2023.\n\n3. Lindqvist, G. P. (2023). Pattern-mixture sensitivity analysis for informative dropout in intensive longitudinal health studies: a tutorial. *Methods in Applied Health Statistics*, 11, 140–162. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2023.1\n\n4. Brandvold, K. M., & Kesselring, A. N. (2022). Medication discrepancies found at nurse-led post-discharge clinic visits: a retrospective review of 186 patients. *Advances in Transitional Nursing Practice*, 4(1), 17–29. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2022.1\n\n5. Kesselring, A. N., & Hanratty, D. R. (2021). Habit strength and medication routines in adults with multimorbidity: a cross-sectional survey. *Journal of Chronic Illness Self-Management*, 5(1), 45–58. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2021.1\n   Survey of 412 adults.\n\n6. Kesselring, A. N. (2019). Medication self-management routines after heart failure discharge: a mixed-methods study. *Cardiovascular Nursing Research and Practice*, 14(4), 301–315. https://doi.org/10.99999/pb.v2-nursing-transition-a1-team.2019.1\n\n## In preparation\n\n- Phase 2 electronic monitoring feasibility results (not submitted as of 30 September 2026).\n"
+          }
+        ],
+        "facts": [
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "The PI, Audra N. Kesselring, PhD, RN, is a tenured Associate Professor at the Cuyahoga Ridge University College of Nursing whose research concerns medication routines after hospital discharge.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Institutional support in 2026–27 consists of 40% PI research effort on a 9-month appointment, a College-funded research nurse coordinator position and departmental support for Dr. Lindqvist's effort.",
+            "value": "40%",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Co-investigator Imani D. Okonkwo-Lattimore, a licensed clinical psychologist, adapted the 3-minute mobile PVT, prepared the past-week PSS-10 wording and wrote the distress protocol.",
+            "value": null,
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The R21 A0 (1 R21 NR021847-01), submitted 16 February 2026, received an impact score of 46 (39th percentile) at NRCS on 11 June 2026 and was not funded; as of 30 September 2026 no A1 has been submitted and no application with overlapping aims is pending.",
+            "value": "46",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The preliminary work was funded by two internal awards limited to feasibility work: a College of Nursing Pilot Research Award ($25,000, Phase 1, 2024–2025) and a Center for Behavioral Health Research Seed Supplement ($18,500, Phase 2, March–August 2026).",
+            "value": "$25,000",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The A0 proposed 90 participants (45 each from Ridgeline and Lakevale), a days 1–7 EMA burst, adherence by diary and a single week-6 recall, and multiple imputation under missing at random.",
+            "value": "90",
+            "salient": true,
+            "source": "prior_application_a0.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In Phase 1, 26 of 31 enrolled participants completed week 6.",
+            "value": "83.9%",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "On Phase 1 days 1–7, participants completed 660 of 868 EMA prompts and 171 of 217 mobile PVT sessions (78.8%), and the intraclass correlation of momentary stress was 0.48.",
+            "value": "76.0%",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In Phase 1, person-mean stress correlated with week-6 self-reported adherence at r = -0.31 (95% CI -0.62 to 0.09), n = 26.",
+            "value": "-0.31",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In Phase 1, 21 of 26 completers reported no missed doses at the week-6 recall, a self-report ceiling.",
+            "value": "21 of 26",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The 5 Phase 1 non-completers (2 readmitted, 2 lost to contact, 1 withdrew) had a mean baseline PSS-10 of 24.2 (SD 5.1) versus 18.9 (SD 6.0) among completers.",
+            "value": "24.2",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "14 of 26 Phase 1 completers had a medication regimen change between day 8 and day 42, after the 7-day measurement window had closed.",
+            "value": "14 of 26",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The non-interventional Phase 2 run obtained complete 42-day MEMS records for 10 of 12 participants (1 withdrew after readmission, 1 cap lost in week 4); it was a one-site feasibility run, not validation or efficacy evidence.",
+            "value": "10 of 12",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In Phase 2, weekly visits replaced the single recall: 63 of 72 scheduled visits were completed, the PVT was completed at 61 of 63 visits, and 9 of 10 participants with complete records rated the cap not at all or slightly burdensome.",
+            "value": "87.5%",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Among the 10 complete Phase 2 records, diaries were completed on 383 of 420 days (91.2%) and day-level diary–MEMS agreement was 86.2% with kappa 0.49 (95% CI 0.36 to 0.62), not adjusted for clustering.",
+            "value": "0.49",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Diary-reported adherence exceeded MEMS-measured adherence by a mean of 7.4 percentage points per participant (range -2.1 to 19.0).",
+            "value": "7.4",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "MEMS correct-dosing days had a median of 88% (IQR 74–93%) across the 10 complete Phase 2 records.",
+            "value": "88%",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "On an adapted past-week PSS-10 given at weekly visits, the mean absolute change between consecutive visits was 3.6 points (SD 2.8; 49 visit pairs); the adaptation has not been psychometrically evaluated in this population beyond a pooled alpha of 0.84.",
+            "value": "3.6",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Statistician Gareth P. Lindqvist, who joined in July 2026 after the summary statement, delivered on 24 August 2026 a written missing-data plan (MAR mixed model plus pattern-mixture sensitivity analysis with delta adjustment from 0 to -20 percentage points and a tipping-point analysis) that has been tested only on simulated data, has not been applied to any study data, covers missing outcome data only and gives mediation estimates no causal interpretation.",
+            "value": "24 August 2026",
+            "salient": true,
+            "source": "feasibility_report.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Ridgeline's letter of 14 August 2026 supports up to 60 participants over 18 months; the clinic yielded 31 enrollees in 7 months in Phase 1 and 12 in 9 weeks in Phase 2 (57 screened, 26 eligible, 19 approached).",
+            "value": "60",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "The Lakevale Community Health Center letter was requested on 8 July 2026 and is not signed; its research committee has set no meeting date and Lakevale has committed no space, staff, referrals or data.",
+            "value": "not signed",
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Under STUDY2026-0118 (approved 2 April 2026; enrollment closed 3 July 2026; open for data analysis), consent and HIPAA authorization cover a MEMS Cap, diaries, weekly visits with PSS-10 and PVT, and review of the CRH discharge summary for the discharge medication list, but not access to pharmacy dispensing or refill records, linkage to pharmacy records or recontact for that purpose; no linkage amendment or pharmacy data use agreement exists.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The team owns 16 MEMS Caps (15 in service), 2 readers and 12 loaner smartphones, and the College EMA platform subscription runs through 30 June 2027.",
+            "value": "30 June 2027",
+            "salient": false,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The PI has not used pharmacy dispensing, refill or claims records in any study.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "No member of the study team is a pharmacist or has worked with pharmacy dispensing or refill data.",
+            "value": null,
+            "salient": true,
+            "source": "team.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "kesselring2025stress",
+            "authors": [
+              "Kesselring, A. N.",
+              "Brandvold, K. M.",
+              "Okonkwo-Lattimore, I. D."
+            ],
+            "year": 2025,
+            "title": "Momentary stress and self-reported medication taking in the first week after hospital discharge: a pilot ecological momentary assessment study",
+            "venue": "Journal of Transitional Care Nursing",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2025.1"
+          },
+          {
+            "key": "okonkwo2024vigilance",
+            "authors": [
+              "Okonkwo-Lattimore, I. D.",
+              "Kesselring, A. N."
+            ],
+            "year": 2024,
+            "title": "A three-minute smartphone vigilance task in adults recovering from acute illness: completion, practice effects and missing data",
+            "venue": "Behavioral Assessment in Health Settings",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2024.1"
+          },
+          {
+            "key": "lindqvist2023pattern",
+            "authors": [
+              "Lindqvist, G. P."
+            ],
+            "year": 2023,
+            "title": "Pattern-mixture sensitivity analysis for informative dropout in intensive longitudinal health studies: a tutorial",
+            "venue": "Methods in Applied Health Statistics",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2023.1"
+          },
+          {
+            "key": "brandvold2022discrepancies",
+            "authors": [
+              "Brandvold, K. M.",
+              "Kesselring, A. N."
+            ],
+            "year": 2022,
+            "title": "Medication discrepancies found at nurse-led post-discharge clinic visits: a retrospective review of 186 patients",
+            "venue": "Advances in Transitional Nursing Practice",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2022.1"
+          },
+          {
+            "key": "kesselring2021habit",
+            "authors": [
+              "Kesselring, A. N.",
+              "Hanratty, D. R."
+            ],
+            "year": 2021,
+            "title": "Habit strength and medication routines in adults with multimorbidity: a cross-sectional survey",
+            "venue": "Journal of Chronic Illness Self-Management",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2021.1"
+          },
+          {
+            "key": "kesselring2019heartfailure",
+            "authors": [
+              "Kesselring, A. N."
+            ],
+            "year": 2019,
+            "title": "Medication self-management routines after heart failure discharge: a mixed-methods study",
+            "venue": "Cardiovascular Nursing Research and Practice",
+            "doi": "10.99999/pb.v2-nursing-transition-a1-team.2019.1"
+          }
+        ],
+        "reviewer_criticisms": [
+          "Medication adherence was measured only by self-report (a days 1-7 diary and a single week-6 recall) with no objective check such as electronic event monitoring, and the pilot showed a ceiling with 21 of 26 reporting no missed doses.",
+          "Stress and attention were measured only in a seven-day burst after discharge, so the design could not capture how these exposures vary across the six-week transition.",
+          "Attrition was handled by multiple imputation under missing at random despite pilot non-completers having higher baseline stress, with no missing-not-at-random sensitivity analysis such as pattern-mixture or tipping-point models.",
+          "Half of the 90 participants were to come from Lakevale Community Health Center without a letter of support, leaving second-site recruitment feasibility undocumented."
+        ],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 9",
+          "where": "data/public/dossiers/v2-nursing-transition-a1-team/summary_statement.md, ADDITIONAL REVIEW CRITERIA: \"Inclusion of Women, Minorities, and Individuals Across the Lifespan: Acceptable.\"",
+          "problem": "The June 2026 summary statement explicitly uses the simplified framework but places inclusion in the old Additional Review Criteria block. Inclusion now belongs to scored Factor 2. This reproduces the official-review misclassification found in both NIH calls.",
+          "fix": "Move the existing inclusion assessment, unchanged in substance, under Factor 2 in the SRO summary or the applicable critique. Keep human-subject protections under Additional Review Criteria and budget under Additional Review Considerations.",
+          "evidence": [
+            "https://grants.nih.gov/policy-and-compliance/policy-topics/peer-review/simplifying-review/framework",
+            "data/public/dossiers/v2-nursing-transition-a1-team/summary_statement.md"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "data/public/dossiers/v2-nursing-transition-a1-team/summary_statement.md, Review Group: \"NRCS, Nursing and Related Clinical Sciences Study Section\"; Meeting Date: \"06/11/2026\".",
+          "problem": "NRCS was reorganised in the CSR changes beginning October 2020. Using its old name for a 2026 standing study section is an anachronism, not an identified fictional-panel adaptation.",
+          "fix": "Replace the Review Group cell with 'ICSC, Interdisciplinary Clinical Care in Specialty Care Settings Study Section'. Its official remit includes transitions between institutional and home-based care. Retain the fictional meeting date and application; make no assertion that this was a real ICSC meeting.",
+          "evidence": [
+            "https://www.ninr.nih.gov/newsandevents/news/nih-center-scientific-review-study-section-changes-beginning-october-2020",
+            "https://public.csr.nih.gov/sites/default/files/2020-05/ENQUIRE_2019_Healthcare_descriptions.pdf",
+            "data/public/dossiers/v2-nursing-transition-a1-team/summary_statement.md"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 9",
+          "where": "data/public/dossiers/v2-nursing-transition-a1-team/dossier.yaml, reviewer_criticisms contains R1–R4 only; summary_statement.md: \"Aim 3 is framed as identifying a mechanism, which an observational design with these measurement intervals cannot establish\" and \"Biostatistics support is 3% core effort with no named statistician.\"",
+          "problem": "Two substantive review findings are absent from the hidden RESUB key. Causal interpretation is in the discussion summary and multiple critiques; missing named statistical expertise is a Factor 3 gap. The nursing-close trap partially compensates for the causal omission, but nursing-stretch has no such trap, producing unequal assessment of the same underlying resubmission.",
+          "fix": "Append R5: 'Aim 3 claims to identify a mechanism although the observational design and exposure/outcome timing do not establish temporal or causal identification; it needs an appropriately bounded interpretation or a justified revised design.' Append R6: 'The A0 relies on 3% shared-core biostatistics effort without a named statistician or adequately specified statistical responsibility.' Existing team.md and feasibility_report.md already document Lindqvist's appointment and the limited scope of his plan, so no completed analysis should be invented.",
+          "evidence": [
+            "data/public/dossiers/v2-nursing-transition-a1-team/summary_statement.md",
+            "data/public/dossiers/v2-nursing-transition-a1-team/dossier.yaml",
+            "data/public/dossiers/v2-nursing-transition-a1-team/team.md",
+            "data/public/dossiers/v2-nursing-transition-a1-team/feasibility_report.md",
+            "tools/authoring/design_v2.md:85",
+            "docs/scoring_spec.md:87"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 8",
+          "where": "data/public/dossiers/v2-nursing-transition-a1-team/feasibility_report.md, Limitations: \"Consent in both phases covered devices, diaries and visits only\"; resources.md: consent also covers \"review of the CRH discharge summary to record the discharge medication list\".",
+          "problem": "The unrestricted 'only' excludes record review that resources.md expressly permits for Phase 2. This is an undocumented cross-file inconsistency in the very consent scope used by the T14 task. The pharmacy prohibition itself is consistent and should be retained.",
+          "fix": "Replace the report bullet with: 'Neither phase obtained or linked pharmacy refill data. Phase 2 consent also covered review of the CRH discharge summary to record the discharge medication list, but not pharmacy-record access, linkage or recontact for that purpose (see resources.md).' Update the copied report quotation in pub2-nih-stress-stretch/task.yaml to match; do not weaken its pharmacy restriction.",
+          "evidence": [
+            "data/public/dossiers/v2-nursing-transition-a1-team/feasibility_report.md",
+            "data/public/dossiers/v2-nursing-transition-a1-team/resources.md",
+            "data/public/tasks/pub2-nih-stress-stretch/task.yaml"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "problem": "Dossier 9 (major): append the missing named-statistician finding as a separate sixth criticism R6.",
+          "reason": "Accepted in substance but not as a separate entry. The specification limits reviewer_criticisms to 3-5 items, and adding both R5 and R6 would make six. The Aim 3 causal-interpretation point is now R5. The statistician point is folded into R3, where it belongs with the statistical-rigor concern; the summary statement's Resume now states it in the third concern, so the merged paraphrase follows the report. The criticism stays in the key, so both tasks assess it equally."
+        },
+        {
+          "problem": "Dossier 8 (major): update the copied report quotation in pub2-nih-stress-stretch/task.yaml.",
+          "reason": "The reviewer is right, but that file lies outside this dossier JSON, so it cannot be edited here. The feasibility_report.md limitation bullet uses the reviewer's wording almost verbatim (Phase 2 consent covered the MEMS Cap, diaries, weekly visits and review of the CRH discharge summary, but not pharmacy-record access, linkage or recontact; neither phase obtained or linked pharmacy refill data). The task.yaml quotation can be replaced with this sentence directly, and the pharmacy restriction is unchanged."
+        }
+      ]
+    }
+  ]
+}

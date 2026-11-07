@@ -1,0 +1,52 @@
+{
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "kind": "call",
+  "id": "v2-erc-poc-field-translation",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1; Call 3",
+      "where": "data/public/calls/v2-erc-poc-field-translation/call.md, Purpose and eligibility: 'a commercial or social application of the PI's ERC-funded work'; 'Eligible main grants are ERC Starting, Consolidator, Advanced, Synergy and ERC Plus grants'; data/public/calls/v2-erc-poc-field-translation/call.yaml consortium notes: 'Eligible ERC main-grant PI'.",
+      "problem": "The visible call never explicitly requires the proposed PoC PI to be a PI of the underlying ERC award. Having ERC-funded work is also true of salaried researchers such as Feichtlbauer. The hidden key and the field-close T03 trap require the narrower rule. The official WP does explicitly limit this action to main-grant holders/PIs; indirect possessive wording is insufficient for a decisive eligibility trap.",
+      "fix": "Insert after the opening eligibility sentence: 'The proposed PoC Principal Investigator must be a Principal Investigator of the identified eligible ERC main grant. Employment or participation in its team alone does not confer eligibility.' Keep that same condition in the YAML eligibility notes. File this fix on both calls rather than duplicating it as a task defect.",
+      "evidence": [
+        "data/public/calls/v2-erc-poc-field-translation/call.md",
+        "data/public/calls/v2-erc-poc-field-translation/call.yaml",
+        "data/public/tasks/pub2-erc-field-close/task.yaml",
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "data/public/calls/v2-erc-poc-field-translation/call.md: 'A PI may submit only one PoC proposal under this Work Programme'.",
+      "problem": "The statement omits the official exception for inadmissible, ineligible and withdrawn applications, converting a limit on evaluated applications into an absolute submission ban. WP2027 section 2.1.4.1 explicitly excludes those cases from the count. The extra restriction is not labelled fictional.",
+      "fix": "Replace with: 'For each PI, evaluation is limited to their earliest qualifying PoC submission within this Work Programme. Submissions withdrawn or ruled inadmissible or ineligible are excluded when applying this limit.' Mirror the rule in the YAML eligibility notes.",
+      "evidence": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf",
+        "data/public/calls/v2-erc-poc-field-translation/call.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 3",
+      "where": "data/public/calls/v2-erc-poc-field-translation/call.md heading is only '# PB2-ERC-POC-01'; call.yaml gives a descriptive title with 'window A'.",
+      "problem": "The visible heading omits the title and never explains the window label.",
+      "fix": "Use the YAML title plus topic code in the visible heading, or remove the window suffix from the YAML title and use the remaining descriptive title in both files.",
+      "evidence": [
+        "data/public/calls/v2-erc-poc-field-translation/call.md",
+        "data/public/calls/v2-erc-poc-field-translation/call.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Call 1: WP2027 sections 2.1.1–2.1.6 verified at https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2027/wp_horizon-erc-2027_en.pdf: eligible award types/cutoff, grant caps, Synergy consent, integrity restriction, host/GEP, EUR150000/18 months, ten pages, excellence elements and numeric thresholds/ranking.",
+    "Call 1: 2026 guide section 2.3 checked at https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/information-for-applicants_he-erc-poc_en.pdf; 3/6/1 layout and risk-table exemption are expressly benchmark conventions. No fixed PI minimum; combined commitment condition is supported.",
+    "Call 2–3: all scored item texts match Markdown exactly after whitespace normalization; checked 1500/3000/500 and separate 500-word table limits, 5000 counted total, disregard-excess, and fixed 18-month/lump-sum metadata.",
+    "Call 4–6: bottom-up commercial/social innovation scope is plausible; routine sales exclusion and fixed duration are labelled fictional. Work/resources can be described without a cost-category budget. No planted-answer disclosure found."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "task",
+  "id": "pub2-foundation-records-close",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Task 2 / Task 6",
+      "where": "task.yaml, T1 expected_behaviour: \"It identifies evidence for its aims, represents unresolved alternatives and uncertainty, and specifies feasibility and end-of-project decision criteria. The disputed classifications motivate the inquiry without becoming known errors or a gold standard.\"",
+      "problem": "The trap's pass condition bundles several call requirements that are scored separately: per-aim evidence (ME1), go/no-go feasibility points (SC3) and the end-of-project continue/redirect/stop criterion (ME3). It also adds a second test, not treating the 34/146 as errors or a gold standard, which the brief already instructs explicitly. Take a note that correctly makes an inference question central but states a weak ME3 criterion. A grader could mark the trap failed and penalise the same omission twice. The criterion for passing the trap is therefore unclear.",
+      "fix": "Limit expected_behaviour to the trap itself. The note makes a bounded inference or provenance question about the pilot records central. It proposes a reproducible way to test that question that accounts for missingness and uncertainty. Cataloguing and digitisation appear only as supporting work. Keep the existing 'other feasible designs' sentence. Delete the clauses on per-aim evidence, feasibility, end-of-project criteria and errors/gold standard, and leave those to ME1, ME3 and SC3."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 1",
+      "where": "resources_and_permissions.md, Source and participant permissions: the collection permission covers \"publication of the described pilot results\"; the performer agreements cover \"publication of the designated audio examples and related pilot findings\"",
+      "problem": "Both permissions are tied to pilot results. Any new project would publish new analyses or a new edition of the same 180 fragments, and possibly use the 24 examples. The dossier does not say whether such new outputs fall under the existing permissions or need a fresh request. The brief tells the applicant to stay within \"existing access conditions\". A proposal claiming the permissions suffice could be scored as an unsupported claim, and one requesting new permission could be scored as unnecessary. Neither reading is decidable.",
+      "fix": "Add one dated sentence settling this. One option: the 12 June 2025 permission also covers further research publication on the same selected leaves, subject to the same image conditions. The other: new outputs require a short supplementary request to the collection director, with nothing yet requested. Make the matching statement for the audio. Record it as a fact in dossier.yaml."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md, \"Selection required permission to reproduce the fragment\"; resources_and_permissions.md, permission signed 12 June 2025; scanner quotation \"obtained during the pilot's facilities review in November 2025\"",
+      "problem": "Selection was conditional on reproduction permission, and that permission was signed in month 18 of a 24-month pilot. Read literally, all selection, imaging and two independent annotations of 180 fragments took place between mid-June and December 2025. Meanwhile the 2024 article and the early recordings show other work starting in early 2024. A scanner facilities review one month before the end, after digitisation was finished, adds to the oddity.",
+      "fix": "Do one of two things. Either move the permission date to early 2024 (e.g. 12 February 2024). Or state that internal imaging and access were authorised under collection procedures from January 2024, and that the June 2025 document added publication rights. Give the November 2025 review a reason, e.g. planning for a possible follow-on, or move it earlier in the project."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 3",
+      "where": "brief.md, whole text; especially \"I do not want the presentation to turn the disputed cases into mistakes or imply that agreement established the correct reading\" and \"I think a complete, usable digital edition is enough of an endpoint here\"",
+      "problem": "The brief closely follows the call's template, item by item: length, duration and budget, one task per team member (ME4), cost categories (ME2), facilities, ethics/recordings, and a final audience sentence for Expected impact. The disputed-cases sentence restates the final report's wording almost verbatim. It reads as drafted from the answer key rather than as Maarja's own notes. The defensive \"is enough of an endpoint\" also mildly flags the suggestion as doubtful.",
+      "fix": "Make the notes looser and less complete. Drop or shorten the audience sentence and the per-person role list (e.g. 'usual split between the three of us'). Put the disputed-cases concern in her own words (e.g. 'don't let it look like we got 34 wrong'). State the edition plan plainly (e.g. 'a proper digital edition is what we need now; testing readings can be the next grant')."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "team_and_research_practice.md: \"The team has not worked with astronomical or other observational-science data.\"; \"These are employment fractions across their institutional duties, not fractions already committed to another research award.\"; \"signed cross-domain collaboration agreements\"; publications.md: \"There are no submitted or under-review manuscripts in this record.\"",
+      "problem": "These sentences read like benchmark specification, not institutional documents. The astronomy sentence is irrelevant to a musicology team and appears seeded for a different call. It is also registered as F25.",
+      "fix": "Delete the astronomy sentence and F25. Rephrase the rest the way an institution would write them, e.g. 'None of the three currently holds a buyout on another externally funded project' and 'There are no external partners'. Drop the sentence about manuscripts under review, or replace it with an ordinary status line."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "cv_pi.md, Research outputs: \"The accompanying publication record contains four published articles\"; Education: PhD June 2014, Associate Professor since September 2021",
+      "problem": "The CV presents four articles, one of them single-authored, as the record of a permanent associate professor twelve years after her PhD. No output from the thesis is listed. This is thin enough to undermine the Team section and invites applicants to invent outputs.",
+      "fix": "Label the list as the team's outputs relevant to the pilot. Add a line in the CV for selected other outputs, e.g. a fictional 2016 monograph from the thesis and two further articles, all with 10.99999/pb. DOIs, and register them under own_publications."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "team_and_research_practice.md: \"Lehevald joined the university in September 2018 after completing a doctorate in historical linguistics at Rannakaar University in 2016.\"",
+      "problem": "He could not have 'joined' a university where he had just completed his doctorate. The 2016–2018 period is also unaccounted for.",
+      "fix": "Rewrite as 'took up a staff post at the university in September 2018'. Add what he did from 2016 to 2018, e.g. a fixed-term postdoctoral post at a fictional institute."
+    }
+  ]
+}

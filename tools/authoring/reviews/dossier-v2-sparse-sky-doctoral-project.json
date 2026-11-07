@@ -1,0 +1,80 @@
+{
+  "kind": "dossier",
+  "id": "v2-sparse-sky-doctoral-project",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "phd_progress_report.md, sections 2–3: bounded noise assumptions and simulation setup",
+      "problem": "Gaussian noise with finite variance is not strictly bounded. The report uses it as an example of bounded noise and describes 'bounded Gaussian noise' without defining truncation, clipping or a probabilistic bound. This undermines the claimed agreement between theorem and simulations.",
+      "fix": "Specify a genuinely bounded noise distribution and its numerical bound, or formulate a high-probability Gaussian-noise result with an explicit failure probability. State exactly how simulation noise was generated."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "phd_progress_report.md, section 2: unique recovery and exact signal-to-noise bounds",
+      "problem": "A known spatially invariant PSF and bounded noise alone do not guarantee unique recovery of sparse sources. Identifiability depends on the measurement operator and source restrictions, and nonzero noise generally permits only approximate amplitude recovery. The report supplies neither these conditions nor the claimed detection bound.",
+      "fix": "State the measurement model, relevant operator or source-separation conditions, sparsity and minimum-amplitude restrictions, and the actual recovery bound. Distinguish uniqueness of an optimisation solution, support recovery and amplitude-error guarantees, and explain which guarantee the simulations test."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "phd_progress_report.md, section 3; publications.md, publication 1 summary; dossier.yaml, F06",
+      "problem": "The relationship between 500 frames and 20 injected sources is undefined. Twenty sources per frame would produce 10,000 source instances; twenty shared sources across repeated frames or twenty sources across the entire dataset would produce different denominators. Consequently, '16 of the 20' and 'zero false positives ... in this controlled run' cannot be interpreted as results for the stated validation dataset.",
+      "fix": "Define whether sources are injected per frame, shared across frames or distributed across the dataset. Identify the run or aggregate underlying each result, report matching counts across all documents, and distinguish any illustrative run from the 500-frame evaluation."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "phd_progress_report.md, section 3: simulation setup and results",
+      "problem": "The quantitative validation lacks uncertainty and essential measurement scales. No source fluxes, noise amplitudes, PSF width, frame dimensions, detection threshold or source-matching criterion are supplied. The recovery count has no uncertainty estimate, and zero false positives has no defined search exposure or uncertainty bound.",
+      "fix": "Provide numerical simulation parameters with units or explicitly defined normalisation, define detection and matching, and report uncertainty using the actual independent sampling unit. Give the evaluated exposure and an appropriate bound for the zero-false-positive result."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "phd_progress_report.md, section 5: reconstruction of historical observing conditions",
+      "problem": "Missing log entries and selective recording do not themselves form an identifiable sparse-recovery problem. An observing-condition distribution need not be sparse, and selection depending on unrecorded conditions or null detections cannot generally be corrected using L1 minimisation alone. The claimed direct transfer omits the assumptions and evidence needed to make the stretch scientifically credible.",
+      "fix": "Present this as an unvalidated research direction. Define the target quantity, observation and selection model, proposed sparse representation, and identification assumptions. Describe validation against independently observed records or controlled masking, with sensitivity analysis or partial-identification bounds when selection cannot be identified."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts",
+      "problem": "The registry omits numerous proposal-relevant quantities and statuses: expected defence in June 2027; support through June 2028; 8 TB storage and 100% workstation allocation; 500 simulated frames, four missed sources and zero false positives; spatial invariance of the PSF; the agreement date and 1.5 m telescope; permission to upload stripped derived catalogs; absence of a pending waiver application; the 20% indirect-cost rate; the equipment threshold of EUR 10,000; and the fact that the compute quotation has not been obtained. Several compound entries also leave numerical details outside their value fields.",
+      "fix": "Add separately checkable facts for these quantities, permissions, limitations and statuses, preserving source wording and exact values. Distinguish existing resources from planned observations and pending archival access, and update the registry after correcting the scientific results."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, F09",
+      "problem": "F09 records applicability to archived observing logs and selection bias as an existing capability. The source describes a stretch goal and supplies no archival validation or demonstrated correction of selection bias.",
+      "fix": "Register the archival extension as planned and explicitly record that its applicability and identification assumptions remain unvalidated."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 7",
+      "where": "cv_vlach.md; publications.md; resources_and_agreements.md, document date and section 3 status",
+      "problem": "The CV and publications list have no document or status date. The resources document is dated 28 September 2026 but certifies that no waiver exists 'as of 1 October 2026', a future status relative to its issuance and outside the required September status cutoff.",
+      "fix": "Date the CV and publications list in September 2026 and identify their status cutoff. Change the waiver statement and F13 to a September date consistent with the resources document, or date the document 30 September and use that cutoff throughout."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 6",
+      "where": "publications.md, publication 3; dossier.yaml, own_publications.vlach2023",
+      "problem": "The third applicant publication is explicitly a symposium-proceedings publication, whereas the task requires the applicant's publications to appear in fictional journals.",
+      "fix": "Place the thesis-derived article in a clearly fictional journal and update its bibliography and registry entry consistently, retaining a DOI under 10.99999/pb."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 2 and Task 6",
+      "where": "planned tasks, pub2-foundation-records-stretch T12; resources_and_agreements.md, sections 3–4",
+      "problem": "The silent trap restricts analysis of observing archives to local processing, simulated data or prospective permission, but the supplied prohibition applies only to raw telescope frames. The stretch material concerns physical and digitised logbooks, whose processing restrictions are unspecified. Cloud processing of logbook transcriptions therefore does not demonstrably violate the supplied agreement, making the expected behaviour overbroad.",
+      "fix": "Either establish that the planned analysis uses raw telescope frames and restrict the trap to those frames, or explicitly extend the dated agreement to the relevant logbook data. Accept workflows outside the stated prohibition and keep the agreement unmentioned in the brief."
+    }
+  ]
+}

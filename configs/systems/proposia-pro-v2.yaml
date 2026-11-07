@@ -1,0 +1,16 @@
+id: proposia-pro-v2
+kind: proposia
+# Proposia Pro v2 as deployed on proposia.ai on 2026-11-05 (commit e021518): the proposal stage of
+# the web app, Opus 5.5 writing and Sonnet 5.5 auditing, revising and cutting to length. Production
+# serves the same models through Bedrock; this run uses the Claude API (PRO_V2_ANTHROPIC_API_KEY).
+# Developed against the public split: scored only on public tasks never used in its development.
+proposia:
+  checkout: ${PROPOSIA_CHECKOUT}  # a Proposia checkout at the commit below
+  commit: e02151800f6ccf10439f582366ff41d0c6ceffbf
+  python: ${PROPOSIA_PYTHON}  # Proposia's virtualenv interpreter
+  driver: driver_v2.py
+  keep_work: true
+  families: [anthropic]
+  timeout_s: 7200
+  env:
+    PRO_V2_SETTINGS: '{"writer": "anthropic:claude-opus-5-5", "auditor": "anthropic:claude-sonnet-5-5", "reviser": "anthropic:claude-sonnet-5-5", "shortener": "anthropic:claude-sonnet-5-5", "shorten_effort": "low", "budget_ratio": 0.82}'

@@ -1,0 +1,273 @@
+schema_version: 1
+id: v2-sparse-sky-doctoral-project
+language: en
+applicant_type: individual
+career_stage: phd
+disciplines:
+- astrophysics
+- theoretical mathematics
+- inverse problems
+method_profile: theoretical
+country: CZ
+files:
+- path: cv_hlubocky.md
+  role: cv
+- path: phd_progress_report.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources_and_agreements.md
+  role: resources
+facts:
+- id: F01
+  category: identity
+  kind: existing
+  text: The applicant is a fictional Czech university doctoral researcher enrolled in 2023.
+  value: '2023'
+  salient: true
+  source: cv_hlubocky.md
+- id: F02
+  category: education
+  kind: planned
+  text: The applicant expects to defend their thesis in June 2027.
+  value: June 2027
+  salient: true
+  source: cv_hlubocky.md
+- id: F03
+  category: identity
+  kind: existing
+  text: The applicant has no formal training or prior experience in archival historiography.
+  value: null
+  salient: true
+  source: cv_hlubocky.md
+- id: F04
+  category: position
+  kind: existing
+  text: The applicant has an existing employed faculty sponsor, Prof. Dr. Milena Vranokvětová.
+  value: null
+  salient: true
+  source: resources_and_agreements.md
+- id: F05
+  category: resource
+  kind: existing
+  text: The applicant has signed host support providing infrastructure through June 2028.
+  value: June 2028
+  salient: true
+  source: resources_and_agreements.md
+- id: F06
+  category: resource
+  kind: existing
+  text: The applicant has a 100% dedicated allocation on a departmental workstation with a 64-core processor,
+    256 GB RAM, and 8 TB storage.
+  value: 100%
+  salient: true
+  source: resources_and_agreements.md
+- id: F07
+  category: result
+  kind: existing
+  text: The completed result establishes unique recovery in the noiseless case and conditional bounds
+    on amplitude error and source localisation under bounded noise, assuming a known spatially invariant
+    PSF.
+  value: null
+  salient: true
+  source: phd_progress_report.md
+- id: F08
+  category: result
+  kind: existing
+  text: The conditional bounds assume strictly bounded noise, minimum spatial separation of 2 FWHM, and
+    minimum source amplitude.
+  value: 2 FWHM
+  salient: true
+  source: phd_progress_report.md
+- id: F09
+  category: result
+  kind: existing
+  text: The synthetic imaging pipeline generated 500 simulated astronomical frames to test computational
+    scaling.
+  value: '500'
+  salient: true
+  source: phd_progress_report.md
+- id: F10
+  category: result
+  kind: existing
+  text: The primary frame was a deliberately constructed stress test with 16 isolated sources and four
+    additional sources arranged as two pairs, each with flux 150 photons in a 4096 × 4096 pixel frame.
+  value: 4096 × 4096
+  salient: true
+  source: phd_progress_report.md
+- id: F11
+  category: result
+  kind: existing
+  text: The background was populated with uniform noise bounded by ± 5 photons, and sources were convolved
+    with a Gaussian PSF of FWHM 3.2 pixels.
+  value: '3.2'
+  salient: true
+  source: phd_progress_report.md
+- id: F12
+  category: result
+  kind: existing
+  text: Detection was defined as a recovered support within 1 pixel of the true centroid.
+  value: 1 pixel
+  salient: true
+  source: phd_progress_report.md
+- id: F13
+  category: result
+  kind: existing
+  text: The algorithm successfully recovered 16 of the 20 injected sources, with the binomial interval
+    being descriptive rather than a generalisable detection-efficiency estimate.
+  value: 16 of the 20
+  salient: true
+  source: phd_progress_report.md
+- id: F14
+  category: result
+  kind: existing
+  text: The 4 missed sources were those deliberately crowded sources, placing them outside the guaranteed
+    regime.
+  value: '4'
+  salient: true
+  source: phd_progress_report.md
+- id: F15
+  category: result
+  kind: existing
+  text: Zero false positives were recorded in the single frame, yielding a Poisson 95% upper bound of
+    approximately 3.00 expected false positives per frame, or 0.179 per million pixels.
+  value: '3.00'
+  salient: true
+  source: phd_progress_report.md
+- id: F16
+  category: result
+  kind: existing
+  text: The completed result does not claim exact identification of the true amplitudes under arbitrary
+    nonzero noise, and empirical detection performance remains separate.
+  value: null
+  salient: false
+  source: phd_progress_report.md
+- id: F17
+  category: other
+  kind: planned
+  text: New observations and uncertain calibration are planned tests for the next phase of the PhD.
+  value: null
+  salient: true
+  source: phd_progress_report.md
+- id: F18
+  category: other
+  kind: planned
+  text: The extension to archived observing logs frames the problem around testing sparsity and selection
+    assumptions using outcome-dependent masking experiments.
+  value: null
+  salient: true
+  source: phd_progress_report.md
+- id: F19
+  category: resource
+  kind: existing
+  text: The MSO Data Access Agreement grants access to the 1.5m telescope archive and the raw image frames
+    of the digitised historical logbooks.
+  value: null
+  salient: true
+  source: resources_and_agreements.md
+- id: F20
+  category: resource
+  kind: existing
+  text: The existing observatory agreement strictly forbids uploading raw frames to external cloud services.
+  value: null
+  salient: true
+  source: resources_and_agreements.md
+- id: F21
+  category: resource
+  kind: existing
+  text: All processing of raw frames must be conducted locally on secured UCB departmental infrastructure.
+  value: null
+  salient: true
+  source: resources_and_agreements.md
+- id: F22
+  category: resource
+  kind: existing
+  text: Public simulated frames and derived numerical catalogs are allowed to be uploaded to external
+    services.
+  value: null
+  salient: true
+  source: resources_and_agreements.md
+- id: F23
+  category: resource
+  kind: existing
+  text: No cloud waiver exists as of 30 September 2026, and no application is pending.
+  value: 30 September 2026
+  salient: true
+  source: resources_and_agreements.md
+- id: F24
+  category: resource
+  kind: existing
+  text: A formal request for historical observing logs from 1998 to 2010 was submitted on 10 August 2026.
+  value: 1998 to 2010
+  salient: true
+  source: resources_and_agreements.md
+- id: F25
+  category: resource
+  kind: existing
+  text: The archive custodian has not yet supplied the expected access turnaround time for the historical
+    logs.
+  value: null
+  salient: true
+  source: resources_and_agreements.md
+- id: F26
+  category: budget
+  kind: existing
+  text: UCB mandates a flat 20% indirect cost rate on all direct costs, unless explicitly capped by the
+    funder.
+  value: 20%
+  salient: true
+  source: resources_and_agreements.md
+- id: F27
+  category: budget
+  kind: existing
+  text: Purchases of major equipment over EUR 10,000 require a separate departmental justification.
+  value: EUR 10,000
+  salient: true
+  source: resources_and_agreements.md
+- id: F28
+  category: budget
+  kind: existing
+  text: Host funding-request guidance requires a formal quotation for external compute services, which
+    has not yet been obtained.
+  value: null
+  salient: true
+  source: resources_and_agreements.md
+own_publications:
+- key: hlubocky2026
+  authors:
+  - Hlubocký, R.
+  - Vranokvětová, M.
+  year: 2026
+  title: Simulation of Sparse-Source Recovery in High-Noise Regimes with Known Point-Spread Functions.
+  venue: Journal of Theoretical Astrophysics and Inverse Methods
+  doi: 10.99999/pb.v2-sparse-sky-doctoral-project.2026.1
+- key: hlubocky2025
+  authors:
+  - Hlubocký, R.
+  - Vranokvětová, M.
+  year: 2025
+  title: Theoretical Bounds on L1-Minimisation for Point Source Extraction in Bounded Noise.
+  venue: Annals of Applied Mathematical Physics
+  doi: 10.99999/pb.v2-sparse-sky-doctoral-project.2025.1
+- key: hlubocky2023
+  authors:
+  - Hlubocký, R.
+  year: 2023
+  title: Regularisation Techniques for Non-Linear Inverse Problems in Signal Processing.
+  venue: Journal of Applied Mathematical Signal Processing
+  doi: 10.99999/pb.v2-sparse-sky-doctoral-project.2023.1
+gaps:
+- id: G1
+  text: The host funding-request guidance requires a formal quotation for external compute services, but
+    the dossier omits this quotation; a proposal proposing external compute expenditure must use a labelled
+    cost placeholder or explicit planning estimate, or alternatively use local resources.
+- id: G2
+  text: The archive custodian has not supplied the expected access turnaround time for the historical
+    observing logs, meaning a proposal must use a timing placeholder or explicit prospective assumption
+    for the schedule.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY cda3949a-1b58-4d37-b8bc-b6314cc9d761

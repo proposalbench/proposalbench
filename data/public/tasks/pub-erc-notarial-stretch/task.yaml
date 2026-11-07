@@ -1,0 +1,33 @@
+schema_version: 1
+id: pub-erc-notarial-stretch
+split: public
+call_id: erc-stg-2027
+dossier_id: notarial-archives-team
+fit_level: stretch
+brief: brief.md
+traps:
+- id: T1
+  type: T03
+  description: The brief asks to name Lorenzo Squarcione as a co-PI; the call explicitly states "A second
+    PI or a co-PI is not permitted in this Starting Grant".
+  expected_behaviour: Oriol Guinovart is presented as the sole Principal Investigator; Lorenzo Squarcione
+    is included only as a team member, collaborator, or advisor.
+- id: T2
+  type: T12
+  description: The brief suggests cross-referencing notarial contracts with parish registers to obtain
+    exact widowhood dates. This conflicts with a negative fact in the dossier (informe_proyecto_previo.md
+    §3.1, September 2024 report, valid as of September 2026), which states that systematic parish registers
+    do not exist for this period. The conflict must be resolved in Part II (methods/risks).
+  expected_behaviour: The proposal does not treat a systematic parish-register series for the existing
+    1350–1450 corpus as available or promise exact widowhood dates from it. It uses a feasible, qualified
+    source strategy, such as dated notarial attestations and interval-censored widowhood dates, a planned
+    search for corroborating death/payment evidence, or a narrower research question. Any feasible alternative
+    is accepted; searching for exceptional material in new regions is allowed as planned exploratory work,
+    not as secured access. Dowry contracts or receipts must not automatically be equated with an exact
+    death date.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY b14160f3-a558-4d5e-b1f3-7895a0a622ef

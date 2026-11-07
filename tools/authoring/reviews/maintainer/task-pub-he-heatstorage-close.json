@@ -1,0 +1,19 @@
+{
+ "reviewer": "task review",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 1; Task 2",
+   "where": "consortium.md, GipfelWärme candidate site; brief.md, pilot selection and timeline; task.yaml, T2",
+   "problem": "The requested Austrian pilot is scheduled for commissioning in month 36. Two full seasonal monitoring cycles would therefore finish around month 60, beyond the 48-month maximum. T2 expects the applicant to fit construction, commissioning and monitoring within 48 months, but the dossier provides no basis for advancing this site's commissioning by at least 12 months. Merely correcting the brief's requested duration does not produce a feasible project.",
+   "fix": "Provide a supported, explicitly conditional construction and permitting schedule allowing commissioning by month 24 with suitable seasonal alignment, or supply an alternative pilot that can meet that schedule. Update T2's expected behaviour to match the feasible route."
+  },
+  {
+   "severity": "major",
+   "checklist": "Task 1",
+   "where": "task.yaml, fit_level; brief.md, proposed three-site configuration; prior_project.md, network integration; consortium.md, candidate site notes",
+   "problem": "The claimed close fit lacks essential information for the proposed demonstrations. The three networks operate at 65°C, 75°C and 70°C, whereas the call requires supply temperatures no higher than 55°C. The dossier provides no assessed conversion or low-temperature branch options. Rotterdam additionally has only one identified heat source and no specified storage technology, capacity or shared configuration serving multiple buildings. These are substantial infrastructure gaps beyond the explicitly acknowledged social-science recruitment need.",
+   "fix": "Add preliminary site assessments identifying feasible low-temperature configurations, the necessary modifications, indicative costs and schedules. For Rotterdam, identify a plausible second heat source and a shared district-connected storage concept. Keep unconfirmed arrangements explicitly planned, and reassess the close-fit classification against the resulting scope and budget."
+  }
+ ]
+}

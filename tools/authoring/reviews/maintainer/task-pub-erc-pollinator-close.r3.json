@@ -1,0 +1,4 @@
+{"reviewer": "maintainer", "issues": [
+ {"severity": "blocker", "checklist": "Task 1", "where": "brief.md",
+  "problem": "The dossier now records the 2026 ERC proposal as evaluated at Step 2, category A, not funded for lack of budget (no resubmission restriction), with a resubmission to the 31 March 2027 deadline in preparation. The brief says the proposal 'got a B last round'.",
+  "fix": "Describe the previous outcome exactly as the dossier states it (Step 2, category A, not funded for lack of budget). Keep everything else, including the traps, unless it depends on the old wording."}]}

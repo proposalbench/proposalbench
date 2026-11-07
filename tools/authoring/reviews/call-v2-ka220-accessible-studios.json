@@ -1,0 +1,42 @@
+{
+  "kind": "call",
+  "id": "v2-ka220-accessible-studios",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md — Purpose and eligibility; Relevance of the project",
+      "problem": "The call omits the KA220 requirement to address at least one horizontal priority or at least one relevant field-specific priority. Asking applicants to connect their proposal to unspecified 'selected priorities' does not establish this requirement or identify the applicable priorities.",
+      "fix": "State the priority requirement explicitly and identify the applicable priorities from the cited 2026 Guide. If this fictional topic requires the horizontal inclusion and diversity priority, state that restriction.",
+      "part": "template"
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "call.md — Length contract; final HTML comment",
+      "problem": "The applicant-facing text explicitly exposes benchmark mechanics through 'For this benchmark only' and 'a benchmark enforcement choice'. The PROPOSALBENCH-CANARY comment also exposes authoring infrastructure beyond the permitted fictional-call notice.",
+      "fix": "Describe the 6,000-word ceiling and inadmissibility rule as restrictions of this fictional call, while retaining the clarification that they are not official Erasmus+ limits. Remove the canary comment from the applicant-facing document.",
+      "part": "template"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml — EO1, EO2, EO3, SC1 and ME9",
+      "problem": "The required breadth is inconsistent. SC1 permits a studio model or a placement model, and ME9 likewise permits either setting. EO1 requires both studios and placement teaching, EO2 requires both academic staff and placement supervisors, and EO3 requires adoption into both curriculum design and placement management. A consortium selecting one expressly permitted route cannot clearly determine which additional setting and participants it must cover.",
+      "fix": "Choose a consistent requirement in both files. Either require both settings throughout, or qualify the outcomes, staff groups and adoption processes as applicable to the selected studio or placement route.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml — SC3/ME10 and SC4/ME11",
+      "problem": "Two requirements are repeated across the item lists. SC3 and ME10 both require baseline comparisons of participation and assessed learning outcomes. SC4 and ME11 both require a strategy or mechanisms for institutional uptake. These pairs would largely be satisfied by the same narrative evidence.",
+      "fix": "Retain each requirement once, or distinguish the mandatory elements concretely: for example, make ME10 require an explicit approach to missing evaluation data, and ME11 require identification of the institutional bodies responsible for adoption decisions and their decision timetable.",
+      "part": "topic"
+    }
+  ]
+}

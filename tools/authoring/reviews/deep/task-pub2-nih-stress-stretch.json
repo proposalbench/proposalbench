@@ -1,0 +1,19 @@
+{
+  "kind": "task",
+  "id": "pub2-nih-stress-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read brief.md and both hidden keys in the complete assigned call/dossier bundle; checked the earlier automated task review against the current version.",
+    "Brief is dated 1 October 2026, is informal applicant guidance, and contains no explicit trap/rubric disclosure. Task type, language and close/stretch mapping agree. At most two typed traps are present.",
+    "Assessed simultaneous feasibility within the scheme's narrative allowance, permitting prospective resources and revised designs without inventing completed work. Shared call/dossier defects are filed on their owning unit, not duplicated here.",
+    "The sole trap is properly T14 and rests on explicit supplied consent/IRB/data-access restrictions, not unstated HIPAA law. No pharmacy records or three-way agreement estimates exist in the pilot.",
+    "The expected behavior accepts no linkage, prospective new-cohort linkage conditional on approvals/access, or later retrospective linkage conditional on the necessary new permissions. It does not require one fixed design and does not treat an unsubmitted amendment as approved.",
+    "The nursing dossier can pivot toward naturally varying stress and attention while retaining its post-discharge population, MEMS outcomes, clinical expertise and existing A0. Measurement refinements, prospective pharmacist input and bounded analyses are feasible.",
+    "The upstream contradictory consent-scope sentence and copied quotation are owned by dossier-v2-nursing-transition-a1-team. Its repair preserves this task's unambiguous pharmacy prohibition."
+  ]
+}

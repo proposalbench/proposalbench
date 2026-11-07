@@ -1,0 +1,38 @@
+{
+  "kind": "dossier",
+  "id": "maternal-health-postdoc",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 1",
+      "where": "cv_pi.md and planned tasks",
+      "problem": "The applicant is Ghanaian and must be a long-term resident (5 consecutive years) of an EU MS/AC to be eligible for the MSCA-PF-GF task. She has been resident in the Netherlands since August 2019. Depending on the exact call deadline (e.g., if it falls in July or August 2024), she may barely meet or just miss the 5-year requirement, creating an ambiguous eligibility trap.",
+      "fix": "Change her nationality to 'Ghanaian and Dutch (dual citizen)' in `cv_pi.md` to unambiguously satisfy the nationality/residency requirement for MSCA-PF-GF."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md (Section 3 and 4)",
+      "problem": "The fieldwork period is stated as 'October 2020 – November 2021' (which is 14 months), but the text later says '1,214 women screened over 15 months' and 'five time periods (each period = 3 months)' which equals 15 months.",
+      "fix": "Change the fieldwork end date to 'December 2021' to equal exactly 15 months."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml (Fact F21) and publications.md",
+      "problem": "In `publications.md`, Dr. Owusu-Darko is the first author on 5 out of 6 publications (items 1, 2, 3, 4, and 6). However, `dossier.yaml` Fact F21 states she has '4 as first author'.",
+      "fix": "Update Fact F21 to state '5 as first author'."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md (Section 4)",
+      "problem": "The trial compares referral completion among 'high-risk women' in the intervention (identified via CHW screening with Hb testing) and control periods (261 women). However, if the intervention introduced the screening and Hb testing, it is impossible to identify the exact same denominator of 'high-risk women' in the control period (especially those who did not complete a referral and thus have no facility record). This is a methodological flaw for a cum-laude PhD in epidemiology.",
+      "fix": "Briefly state how the control group denominator was identified (e.g., 'identified retrospectively via routine antenatal and delivery records'), or change the primary outcome denominator to all pregnant women."
+    }
+  ]
+}

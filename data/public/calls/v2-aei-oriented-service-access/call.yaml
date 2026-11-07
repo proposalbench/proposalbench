@@ -1,0 +1,135 @@
+schema_version: 1
+id: v2-aei-oriented-service-access
+scheme: aei_pid
+language: es
+title: Barreras lingüísticas, administrativas y territoriales en el acceso a cuidados de personas mayores
+topic_code: PB2-AEI-OR-01
+proposal_type: full
+length_contract:
+  max_words: 10000
+  enforcement: inadmissible
+  tolerance: 0.0
+  exempt:
+  - references
+  page_limit: 20
+  words_per_page: 500
+  source_note: |-
+    Verificado el 2026-10-31: resolución AEI PID2025 de 29 de octubre de 2025,
+    artículo 18.2.a y anexo VII: máximo de 20 páginas para proyectos individuales,
+    incluidos todos los apartados; 35 para coordinados (fuera de esta convocatoria ficticia).
+    La aplicación no admite memorias que excedan ese límite. Formato recomendado:
+    Times New Roman, Calibri o Arial, mínimo 11 puntos, márgenes laterales de 2,5 cm,
+    superior/inferior de 1,5 cm e interlineado mínimo sencillo. Adaptación: 20 x 500
+    palabras por página = 10.000 palabras, sin tolerancia. Las 500 palabras son una
+    estimación de prosa con espacio para títulos y tablas, no una regla de la AEI.
+    Se excluyen las referencias SOLO por adaptación del benchmark; la fuente no les
+    concede una exención de páginas. Se cuentan títulos de apartados, tablas y pies.
+    Resolución: https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf
+    Extracto BOE publicado el 31 de octubre, no el 29: https://www.boe.es/boe/dias/2025/10/31/pdfs/BOE-B-2025-39643.pdf
+required_sections:
+- id: '1'
+  title: Datos de la propuesta
+- id: '2'
+  title: Justificación y novedad de la propuesta
+- id: '3'
+  title: Objetivos, metodología y plan de trabajo
+- id: '4'
+  title: Impacto esperado de los resultados
+- id: '5'
+  title: Justificación del presupuesto solicitado
+- id: '6'
+  title: Capacidad formativa
+  core: false
+- id: '7'
+  title: Condiciones específicas para la ejecución del proyecto
+  core: false
+expected_outcomes:
+- id: EO1
+  text: Generación de un marco explicativo comparado que detalle los mecanismos mediante los cuales las
+    barreras lingüísticas, administrativas y territoriales determinan los niveles de acceso a los servicios
+    de cuidados.
+- id: EO2
+  text: Diseño de estrategias basadas en evidencia empírica que faciliten la adaptación de los servicios
+    locales de atención a la diversidad lingüística y territorial de los usuarios.
+- id: EO3
+  text: Reducción de la carga procedimental en el acceso a los cuidados mediante modelos de intervención
+    que simplifiquen los trámites administrativos para las personas mayores y sus familias.
+- id: EO4
+  text: Establecimiento de mecanismos concretos que permitan a los usuarios influir en las decisiones
+    sobre la prestación y organización de los servicios locales de atención.
+scope:
+- id: SC1
+  text: Formular y contrastar hipótesis sobre el impacto de las barreras lingüísticas, administrativas
+    y territoriales en la exclusión de las personas mayores de los servicios de cuidados.
+- id: SC2
+  text: Diseñar metodologías participativas que involucren a personas mayores, cuidadores y profesionales
+    en la identificación de obstáculos burocráticos y de comunicación.
+- id: SC3
+  text: Proponer protocolos o herramientas de transferencia dirigidos a los servicios locales para simplificar
+    los trámites administrativos y mejorar la accesibilidad lingüística.
+- id: SC4
+  text: Analizar comparativamente cómo la dispersión geográfica y la brecha digital agravan las dificultades
+    de acceso a los recursos de atención en distintos entornos territoriales.
+exclusions:
+- id: EX1
+  text: No se asignarán tareas del plan de trabajo a entidades ajenas a la participación descrita en la
+    solicitud; estudiar sus actividades o acceder a ellas mediante colaboración no las convierte en ejecutoras
+    de tareas del proyecto (convención del benchmark para aplicar el anexo VII).
+- id: EX2
+  text: Proyectos centrados exclusivamente en el desarrollo de soluciones tecnológicas o aplicaciones
+    informáticas para la salud sin analizar las barreras administrativas, territoriales o lingüísticas
+    subyacentes.
+- id: EX3
+  text: Investigaciones clínicas o estudios epidemiológicos sobre patologías específicas del envejecimiento
+    que no aborden el acceso a los sistemas de cuidados.
+mandatory_elements:
+- id: ME1
+  text: Explicar cómo los objetivos contribuyen a resolver un problema concreto de la prioridad temática
+    nombrada en los resultados esperados.
+- id: ME2
+  text: Describir un plan de contingencia para las etapas críticas del proyecto.
+- id: ME3
+  text: Presentar un cronograma que sitúe las tareas y sus responsables en el tiempo.
+- id: ME4
+  text: Incluir un resumen del plan de gestión de los datos de investigación.
+- id: ME5
+  text: Cuando proceda, explicar cómo se considera la dimensión de género en el contenido de la investigación;
+    justificar su falta de pertinencia en otro caso.
+- id: ME6
+  text: Justificar cada partida de costes directos solicitados por su relación con las actividades del
+    proyecto.
+- id: ME7
+  text: Cuando proceda por solicitarse ayuda predoctoral asociada, describir el programa formativo previsto;
+    en otro caso indicar «No procede».
+- id: ME8
+  text: Cuando proceda, indicar las autorizaciones necesarias para ejecutar la investigación y su estado
+    de tramitación; en otro caso indicar «No procede».
+- id: ME9
+  text: Especificar las tareas asignadas a estudiantes o profesionales del equipo de trabajo, garantizando
+    que su colaboración complementa al proyecto pero no sustituye las responsabilidades de la persona
+    investigadora principal.
+- id: ME10
+  text: Describir una estrategia concreta de acceso y reclutamiento de usuarios y servicios locales que
+    distinga los acuerdos ya asegurados de los previstos, identifique dependencias y ofrezca alternativas
+    en caso de fallar el acceso.
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 30000
+  max_budget: 99000
+  duration_months_min: 36
+  duration_months_max: 48
+  consortium:
+    min_entities: 1
+    min_countries: 1
+    notes: Proyecto individual con una o dos IP y entidad beneficiaria elegible con residencia fiscal
+      o establecimiento permanente en España; no se exige un consorcio internacional. Condiciones adicionales
+      de esta convocatoria ficticia, que se aplican junto con los límites numéricos; costes directos tipo
+      A, 30.000-75.000 EUR; tipo B, 50.000-99.000 EUR; duración de 36 o 48 meses exclusivamente, 48 meses
+      obligatorios si hay campañas oceanográficas.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 0ea6576a-74cc-49e4-8538-bb6693cf6fc8

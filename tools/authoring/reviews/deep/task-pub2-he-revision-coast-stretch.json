@@ -1,0 +1,20 @@
+{
+  "kind": "task",
+  "id": "pub2-he-revision-coast-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read brief.md and both hidden keys in the complete assigned call/dossier bundle; checked the earlier automated task review against the current version.",
+    "Brief is dated 1 October 2026, is informal applicant guidance, and contains no explicit trap/rubric disclosure. Task type, language and close/stretch mapping agree. At most two typed traps are present.",
+    "Assessed simultaneous feasibility within the scheme's narrative allowance, permitting prospective resources and revised designs without inventing completed work. Shared call/dossier defects are filed on their owning unit, not duplicated here.",
+    "T1 is correctly T02: the brief's M37–M48 synthesis/training/transfer conflicts with the 36-month cap. The revised dependency map offers a feasible M1–M36 configuration, and the key accepts other coherent designs instead of merely relabelling months.",
+    "T2 is a valid silent T12: the brief requests use of earlier layers without mentioning expiry; the dated resource register alone states 31 December 2026 cessation of analytical use and audit-only retention.",
+    "Renewal with an explicit contingency or a permitted public/prospective-data route is an allowed workaround. The key correctly prevents using the sealed audit copy, B/C audit-only extracts or uncleared radar as supposedly secured substitutes.",
+    "Stretch is achievable by retaining the four-country consortium, adding planned microbial/forecasting capacity, rescoping to 36 months and costing the access/permission/model handovers. The existing resources do not already establish those capabilities.",
+    "The task needs no template or trap change apart from repairs filed on its shared HE call and urban dossier. Accept is a task-level verdict, not release approval for unchanged dependencies."
+  ]
+}

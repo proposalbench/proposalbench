@@ -1,0 +1,288 @@
+schema_version: 1
+id: v2-fragmentary-music-archive-team
+language: en
+applicant_type: team
+career_stage: mid_career
+disciplines:
+- music
+- cultural heritage
+- linguistics
+- acoustic signal processing
+method_profile: mixed
+country: EE
+files:
+- path: cv_pi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources_and_permissions.md
+  role: resources
+- path: team_and_research_practice.md
+  role: team
+facts:
+- id: F01
+  category: identity
+  kind: existing
+  text: Dr Maarja Sirelkoit coordinates an internal music, linguistics and acoustic-processing team at
+    Rannakaar University in Tartu, Estonia.
+  value: Rannakaar University
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: education
+  kind: existing
+  text: Sirelkoit received her musicology PhD in June 2014, has held a permanent associate professorship
+    since September 2021, and has supervised completed master's dissertations but no doctoral thesis to
+    completion.
+  value: I have not supervised a doctoral thesis to completion.
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: team
+  kind: existing
+  text: The three employed researchers are musicologist Sirelkoit and historical linguist Lehevald, each
+    at permanent 1.0 FTE, and acoustic analyst Vahenurm at permanent 0.8 FTE; these fractions cover all
+    institutional duties.
+  value: 0.8 FTE
+  salient: true
+  source: team_and_research_practice.md
+- id: F04
+  category: team
+  kind: existing
+  text: Lehevald completed his historical-linguistics doctorate in 2016 and joined the university in September
+    2018; Vahenurm completed her acoustic-signal-processing MSc in 2019, worked in the university's media
+    unit from 2019 to 2021, began her permanent post in January 2022 and holds no doctorate.
+  value: January 2022
+  salient: true
+  source: team_and_research_practice.md
+- id: F05
+  category: grant
+  kind: existing
+  text: The university-funded Fragmentary Music Evidence Pilot ran from 1 January 2024 to 31 December
+    2025 under award RU-CE-2024-07, and its final report was accepted on 20 February 2026.
+  value: RU-CE-2024-07
+  salient: true
+  source: prior_project.md
+- id: F06
+  category: budget
+  kind: existing
+  text: Final pilot expenditure totalled EUR 46,800, comprising EUR 31,200 staff costs, EUR 6,000 performer
+    and recording support, EUR 4,800 collection and digitisation services, and a fixed EUR 4,800 indirect-cost
+    contribution against EUR 42,000 direct costs, with no equipment purchase.
+  value: EUR 46,800
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: resource
+  kind: existing
+  text: The pilot catalogued 180 score fragments, selecting 30 from each of six folders; collection descriptions
+    assign the material to approximately 1870–1935 (catalogue ranges, not verified dates), the sample
+    excluded the most illegible material, and the performers were recruited locally.
+  value: 1870–1935
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: resource
+  kind: existing
+  text: The corpus contains 24 consented contemporary examples of unaccompanied solo singing with underlaid
+    text from eight adult performers, three per performer, each lasting 45 seconds and totalling 18 minutes,
+    all processed through the documented workflow and deposited as mono PCM WAV at 48 kHz and 24-bit resolution
+    with checksums distinguishing originals from derivatives.
+  value: unaccompanied solo singing with underlaid text
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: The annotators agreed on 146 of 180 classifications, or 81.1%, with a descriptive Wilson 95% interval
+    of 74.8%–86.2% that does not account for dependence within folders or sample selection.
+  value: 81.1%
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: The agreed classifications comprised 96 vocal and 50 instrumental fragments, while 34 remained
+    disputed, comprising 18 vocal/instrumental, 10 vocal/insufficient-evidence and six instrumental/insufficient-evidence
+    disagreements; without an adjudicator or gold standard, these are disagreements rather than demonstrated
+    errors and agreements rather than verified correct classifications.
+  value: '34'
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: All 180 catalogue entries have source links and separate observation/inference fields, establishing
+    documentation completeness rather than verified provenance or classification accuracy.
+  value: '180'
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: result
+  kind: existing
+  text: Across 24 examples, median noise-power reduction in non-performance intervals was 3.2 dB, with
+    a performer-cluster bootstrap 95% interval of 2.4–4.0 dB based on eight performer clusters.
+  value: 3.2 dB
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: other
+  kind: existing
+  text: None of the 24 recordings has reference note-onset annotation or time-aligned reading sheets;
+    the pilot used informal listening rather than blinded perceptual evaluation, had no held-out test
+    set or predetermined recovery pass/fail rule, and did not evaluate note recognition, transient preservation
+    or masked-material recovery.
+  value: No reference annotation of note onsets exists for any of the 24 recordings as of 18 September
+    2026.
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: resource
+  kind: existing
+  text: Two existing desktops each have 32 GB RAM and a 1 TB solid-state drive, a managed university file
+    service holds the authoritative directory with institutional backups, and an existing recording room,
+    audio interface and microphone supported the pilot.
+  value: 32 GB RAM
+  salient: true
+  source: resources_and_permissions.md
+- id: F15
+  category: resource
+  kind: existing
+  text: Existing shared camera-based digitisation facilities supplied the pilot images and remain available
+    through ordinary internal booking.
+  value: null
+  salient: true
+  source: resources_and_permissions.md
+- id: F16
+  category: resource
+  kind: existing
+  text: The EUR 28,000 scanner quotation, including delivery and VAT, was recorded in the November 2025
+    facilities review and expired in February 2026; no order was placed, the scanner was not purchased,
+    and the pilot used the existing shared digitisation room.
+  value: EUR 28,000
+  salient: true
+  source: resources_and_permissions.md
+- id: F17
+  category: resource
+  kind: existing
+  text: The dean signed host support on 15 September 2026 confirming employment, existing facilities and
+    institutional administration, without committing new posts, dedicated future effort or an additional
+    cash contribution; the statement is complete and in force.
+  value: 15 September 2026
+  salient: true
+  source: resources_and_permissions.md
+- id: F18
+  category: resource
+  kind: existing
+  text: The collection director signed reproduction and publication permission for the selected pilot
+    source material and results on 12 June 2025; it is complete and in force but does not automatically
+    cover other material in the collection.
+  value: does not automatically cover other material in the collection
+  salient: true
+  source: resources_and_permissions.md
+- id: F19
+  category: resource
+  kind: existing
+  text: All eight performers signed agreements permitting research processing, denoised and synthetically
+    masked derivatives, and designated publication, while excluding unrestricted complete-recording redistribution
+    and voice identification or cloning.
+  value: null
+  salient: true
+  source: resources_and_permissions.md
+- id: F20
+  category: other
+  kind: existing
+  text: The favourable ethics determination issued on 22 November 2023 covers secondary analysis within
+    participant-agreement terms without time limit; no withdrawal was recorded by 18 September 2026, and
+    no new recruitment or extension application is active.
+  value: The determination covers secondary research analysis of the recorded examples within the terms
+    of the participant agreements, without time limit.
+  salient: true
+  source: resources_and_permissions.md
+- id: F21
+  category: resource
+  kind: existing
+  text: Public catalogue metadata use CC BY 4.0 and processing scripts use the MIT licence, while source
+    images and audio retain their documented access restrictions.
+  value: CC BY 4.0
+  salient: true
+  source: resources_and_permissions.md
+- id: F22
+  category: publication
+  kind: existing
+  text: The record contains four published articles from 2018, 2021, 2024 and 2026, including the July
+    2026 pilot results article, no submitted or under-review manuscripts, and the associated Fragmentary
+    Music Evidence Pilot Catalogue at release 1.0.
+  value: release 1.0
+  salient: true
+  source: publications.md
+- id: F23
+  category: partner
+  kind: existing
+  text: Collection and repository services are internal university relationships, the team has no external
+    institutional partners, subcontracted research teams or signed external research collaboration agreements,
+    and the eight performers' participation does not constitute an agreement to provide further recordings.
+  value: does not constitute an agreement to provide further recordings
+  salient: true
+  source: team_and_research_practice.md
+- id: F24
+  category: other
+  kind: existing
+  text: Software can generate and log noise-mixed derivatives, but no controlled synthetic-masking recovery
+    study, calibrated uncertainty model or independent comparison of recovery methods has been completed.
+  value: null
+  salient: true
+  source: team_and_research_practice.md
+- id: F25
+  category: budget
+  kind: existing
+  text: The current external-grant schedule adds 15% indirect costs to all direct costs, sets monthly
+    employer costs per full-time equivalent at EUR 4,800 for Sirelkoit, EUR 4,200 for Lehevald and EUR
+    4,000 for Vahenurm (EUR 3,200 at her existing 0.8 FTE), and charges EUR 30 per digitisation room-hour,
+    EUR 45 per collection staff-hour and EUR 75 per statistical adviser-hour before indirect costs, with
+    no additional VAT on internal tariffs, no digitisation charge for existing files and workstation use
+    and routine storage covered by indirect costs.
+  value: 15%
+  salient: true
+  source: resources_and_permissions.md
+own_publications:
+- key: sirelkoit2018absence
+  authors:
+  - Sirelkoit, M.
+  year: 2018
+  title: 'Reading absence in domestic song manuscripts: a layered description protocol'
+  venue: Rannakaar Papers in Musical Evidence
+  doi: 10.99999/pb.v2-fragmentary-music-archive-team.2018.1
+- key: lehevald2021syllables
+  authors:
+  - Lehevald, T.
+  - Sirelkoit, M.
+  year: 2021
+  title: Language attribution when song texts survive as isolated syllables
+  venue: Baltic Review of Manuscript Linguistics
+  doi: 10.99999/pb.v2-fragmentary-music-archive-team.2021.2
+- key: vahenurm2024denoising
+  authors:
+  - Vahenurm, K.
+  - Sirelkoit, M.
+  year: 2024
+  title: Documenting denoising decisions in short performed manuscript examples
+  venue: Journal of Annotated Sound Provenance
+  doi: 10.99999/pb.v2-fragmentary-music-archive-team.2024.3
+- key: sirelkoit2026agreement
+  authors:
+  - Sirelkoit, M.
+  - Lehevald, T.
+  - Vahenurm, K.
+  year: 2026
+  title: 'Agreement without adjudication: linked evidence for fragmentary musical sources'
+  venue: Rannakaar Papers in Musical Evidence
+  doi: 10.99999/pb.v2-fragmentary-music-archive-team.2026.4
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY c399d818-4594-4451-a4c3-001708782dea

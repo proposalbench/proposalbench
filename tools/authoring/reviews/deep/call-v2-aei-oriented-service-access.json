@@ -1,0 +1,44 @@
+{
+  "kind": "call",
+  "id": "v2-aei-oriented-service-access",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "data/public/calls/v2-aei-oriented-service-access/call.md §2: “Banda tipo A | 30.000–75.000”, “Banda tipo B | 50.000–99.000”, “Elegir 36 o 48 meses; 48 obligatorios si hay campañas oceanográficas”; call.yaml eligibility: min_budget: 30000, max_budget: 99000, duration_months_min: 36, duration_months_max: 48.",
+      "problem": "The hidden key retains only the outer envelope. It never states either type-specific budget band, the discrete duration choices, or the oceanographic condition. A type-A EUR 90,000 request, type-B EUR 40,000 request, or 42-month project satisfies that envelope but violates the visible rules. This remains unfixed after earlier reviews; correcting the old zero maxima did not encode the actual conditions.",
+      "fix": "Keep the outer bounds, but append this exact text to the existing eligibility.consortium.notes field in call.yaml: “Condiciones adicionales de esta convocatoria ficticia: costes directos tipo A, 30.000–75.000 EUR; tipo B, 50.000–99.000 EUR. Duraciones admisibles exclusivamente 36 o 48 meses; 48 meses obligatorios con campañas oceanográficas. Una o dos personas IP.” This supplies the missing conditions without requiring an unsupported schema field. These conditions must be considered together with the numeric envelope when judging compliance.",
+      "evidence": [
+        "data/public/calls/v2-aei-oriented-service-access/call.md",
+        "data/public/calls/v2-aei-oriented-service-access/call.yaml",
+        "docs/task_review_checklist.md",
+        "docs/scoring_spec.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "data/public/calls/v2-aei-oriented-service-access/call.md §2: “El tipo B requiere una trayectoria consolidada y los requisitos generales del artículo 8.2; no aplica la ventana del tipo A. Se exige doctorado”.",
+      "problem": "The reference to article 8.2 imports a first-doctorate cutoff that the prose does not spell out: PID2025 requires the first doctorate before 1 January 2024 for type B too. There is no lower-date boundary for B, but it is not completely date-unrestricted. The named applicants are unaffected.",
+      "fix": "After “Se exige doctorado”, insert “obtenido antes del 1 de enero de 2024 (primer doctorado), también para tipo B”. Retain the stated technological-centre exception and the explicit frozen-2025 convention.",
+      "evidence": [
+        "https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf#page=12",
+        "data/public/calls/v2-aei-oriented-service-access/call.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all visible prose and YAML; every EO, SC, EX and ME text matches after whitespace normalization. Seven section titles, 10,000 words, zero tolerance and reference exemption agree; remaining eligibility mismatch is reported.",
+    "PID2025 arts. 7–10, 11.4, 13–14, 18.2.a and Annex VII: checked host/PI conditions, individual/coordinated forms, 3/4-year choices, 25% indirect costs, separate predoctoral support, EUR 100,000 English threshold, 20-page maximum, sections and work-team responsibility restriction: https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf",
+    "PID2025 Annex I.b: 40/30/20/10, subcriteria 25/15, thresholds 30/20/10; Annex III contains Cultura, creatividad y sociedad inclusiva: https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf",
+    "Current-version check: PID2026 changes oriented weights to 45/30/25 (25/20 within criterion 1), thresholds 30/20/15, and folds budget into feasibility. These calls expressly model PID2025 and freeze its dates; do not describe their weights as current PID2026: https://www.aei.gob.es/convocatorias/buscador-convocatorias/proyectos-generacion-conocimiento-actuaciones-formacion-9",
+    "Fictional topic, bands, deadline, exclusion of coordinated/RTA/two-year projects, Spanish language and word conversion are labelled adaptations. No real foundation or open-call claim is made.",
+    "Topic plausibility and feasible research scope checked against the paired dossiers; the service topic can study administrative burden and participation, and the cultural topic can test support-network pathways without requiring clinical efficacy. Both fit the named broad priority.",
+    "Earlier automated call reviews consulted as historical context; removed leakage and priority conflicts are not re-reported."
+  ]
+}

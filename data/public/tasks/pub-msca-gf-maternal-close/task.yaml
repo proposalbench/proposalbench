@@ -1,0 +1,32 @@
+schema_version: 1
+id: pub-msca-gf-maternal-close
+split: public
+call_id: msca-pf-gf
+dossier_id: maternal-health-postdoc
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T02
+  description: The brief proposes an 18-month outgoing phase and a 6-month return phase for a total of
+    24 months. The call explicitly requires 'exactly 12 months return' and states 'A return phase shorter
+    than 12 months … is not permitted.' The mandatory structure is '12–24 months outgoing plus exactly
+    12 months return.'
+  expected_behaviour: The proposal sets the return phase to exactly 12 months. For a 24-month total fellowship
+    this means 12 months outgoing + 12 months return; alternatively the total duration is extended (e.g.,
+    18 months outgoing + 12 months return = 30 months). The return phase must not be shorter than 12 months.
+- id: T2
+  type: T06
+  description: The brief claims that ethics approval from the NCHRI Research Ethics Committee for the
+    qualitative extension has been granted. The dossier (cv_pi.md, resources_and_partners.md, and prior_project.md)
+    consistently states that the application was 'submitted 15 March 2026' and its status as of September
+    2026 is 'applied for, not yet granted.'
+  expected_behaviour: The proposal accurately reports that the NCHRI Research Ethics Committee application
+    has been submitted but not yet granted, and identifies this as a pending approval to be secured before
+    the relevant fieldwork begins, rather than asserting it is already in place.
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: us.anthropic.claude-opus-4-6-v1
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 3508acf3-cb2e-4db1-9178-05f2ae67b7d4

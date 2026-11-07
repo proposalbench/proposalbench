@@ -1,0 +1,306 @@
+schema_version: 1
+id: v2-rural-service-language-team
+language: en
+applicant_type: team
+career_stage: mid_career
+disciplines:
+- linguistics
+- law
+- public administration
+- nursing
+method_profile: mixed
+country: ES
+files:
+- path: cv_pi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: team_and_resources.md
+  role: resources
+- path: ethics_and_corpus_status.md
+  role: other
+facts:
+- id: F01
+  category: position
+  kind: existing
+  text: Maite Sorell Valdeza holds a permanent Profesora Titular de Universidad appointment at the Spanish
+    public Universidad de Valdencina from 1 September 2018 without a contractual end date, following accreditation
+    in 2017, a degree in 2006, a master's in 2008 and a PhD in Applied Linguistics in 2012; her 2025–2026
+    teaching allocation was 160 contact hours and her two recognised research periods cover 2012–2017
+    and 2018–2023.
+  value: 1 September 2018
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: grant
+  kind: existing
+  text: Sorell Valdeza was principal investigator of Understanding municipal appointment letters under
+    the university's internal research programme from 2017 to 2019, and her full publication record comprises
+    14 peer-reviewed articles and 5 book chapters.
+  value: 2017 to 2019
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: grant
+  kind: existing
+  text: The completed predecessor ran from 1 January 2023 to 31 December 2025 under regional Programa
+    Aragonés de Investigación sobre Servicios de Proximidad award PAISP-2022-017, receiving EUR 184,000
+    split between EUR 120,000 for Instituto de Estudios Cívicos de Valdemora and EUR 64,000 for Universidad
+    de Valdencina, with Berta Lascuén Aroza as overall scientific coordinator and Sorell Valdeza as language-assessment
+    work-package lead.
+  value: EUR 184,000
+  salient: true
+  source: prior_project.md
+- id: F04
+  category: result
+  kind: existing
+  text: The purposive study interviewed 90 rural residents aged at least 65 across 15 service centres,
+    six per centre, between February and May 2025, with repeat assessments completed by July 2025 and
+    72 paired assessments representing 80% of the sample; 11 participants declined follow-up and seven
+    could not be reached.
+  value: '72'
+  salient: true
+  source: prior_project.md
+- id: F05
+  category: result
+  kind: existing
+  text: Mean initial scores were 52 among the 72 completers and 49 among the 18 non-completers, giving
+    an initial mean of 51.4 across all 90 participants.
+  value: '51.4'
+  salient: true
+  source: prior_project.md
+- id: F06
+  category: result
+  kind: existing
+  text: 'Repeat assessment four to six weeks after baseline examined change across routine centre contact:
+    completers'' mean scores changed from 52 to 58, a mean within-person change of 6 points on the 0–100
+    scale with a centre-resampled 95% confidence interval of 2 to 10 points, in an observational design
+    without randomisation, a comparison group or standardised support and without evidence of a causal
+    care-access benefit.'
+  value: 6 points
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: result
+  kind: existing
+  text: Independent double-scoring of 32 of the 162 assessment records, comprising 16 initial and 16 repeat
+    records, yielded a single-assessor absolute-agreement ICC of 0.86 with 95% CI 0.73–0.93.
+  value: '0.86'
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: Non-exclusive difficulty counts were 54 for language, 41 for administrative sequencing and 37
+    for transport among 90 interviews; double-coding of 18 interviews yielded respective kappa values
+    of 0.78, 0.77 and 0.75 with interview-resampled 95% confidence intervals of 0.44–1.00, 0.42–1.00 and
+    0.36–1.00, while digital procedures were not coded as a separate category.
+  value: '54'
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: other
+  kind: existing
+  text: The language-access rubric was developed within the project and was not validated against health
+    literacy, completed care access or wellbeing measures.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: other
+  kind: existing
+  text: The sample is not population-representative, excludes residents without contact with participating
+    centres, lacks clinical-record linkage and independent referral verification, and contains no measurement
+    of wellbeing change.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: publication
+  kind: existing
+  text: The selected service-language list contains five published articles, including the paired-assessment
+    article published in March 2026 and the interview analysis published in June 2026 using the predecessor
+    sample.
+  value: March 2026
+  salient: true
+  source: publications.md
+- id: F12
+  category: team
+  kind: existing
+  text: The university team includes permanent nursing lecturer, registered nurse and doctorate holder
+    Alba Nereda Soláns as nursing co-investigator, permanent administrative-law lecturer Tomás Brizuela
+    Laredo, and doctoral researcher Elena Valtuerña Saz, enrolled since October 2023 with her doctorate
+    in progress and a contract ending in September 2027.
+  value: September 2027
+  salient: true
+  source: team_and_resources.md
+- id: F13
+  category: partner
+  kind: existing
+  text: Rocío Cendal Orduña is an established public-administration collaborator at Instituto de Estudios
+    Cívicos de Valdemora under an active agreement covering scholarly exchange and authorised analysis
+    of the completed study, while site entry and access to personal service records are handled through
+    separate permissions.
+  value: Dr Rocío Cendal Orduña
+  salient: true
+  source: team_and_resources.md
+- id: F14
+  category: resource
+  kind: existing
+  text: Existing university facilities include an access-controlled audio repository, secure internal
+    transcription workstation, encrypted consent storage, statistical and qualitative coding software,
+    version control and an archived record of instruments and analysis decisions.
+  value: null
+  salient: true
+  source: team_and_resources.md
+- id: F15
+  category: other
+  kind: existing
+  text: An aggregate feedback note was returned to participating service managers, with receipt documented
+    and implementation not evaluated.
+  value: Receipt of that note was documented; implementation was not evaluated.
+  salient: true
+  source: prior_project.md
+- id: F16
+  category: partner
+  kind: existing
+  text: June 2026 discussions with Asociación Cultural del Olmo de Niebla and Red de Bibliotecas Comunitarias
+    de Valdelumbre remain exploratory correspondence with no agreement drafted, no operational arrangements
+    agreed for staffing, research hosting, recruitment or data transfer, and no completed evaluation of
+    either organisation's activities by the university team.
+  value: June 2026
+  salient: true
+  source: team_and_resources.md
+- id: F17
+  category: other
+  kind: existing
+  text: The PI's completed empirical portfolio comprises observational studies, qualitative analyses and
+    instrument development.
+  value: observational studies, qualitative analyses and instrument development
+  salient: true
+  source: cv_pi.md
+- id: F18
+  category: resource
+  kind: existing
+  text: The restricted corpus retains 90 transcripts with associated audio, initial assessments for all
+    90 participants and repeat assessments for 72, totalling 162 assessment records, with restricted retention
+    authorised through 31 December 2030.
+  value: 31 December 2030
+  salient: true
+  source: ethics_and_corpus_status.md
+- id: F19
+  category: other
+  kind: existing
+  text: Ethics approval UV-CEI-2024-041 was issued on 12 December 2024, and the completed study had written
+    permission for all 15 participating centres and documented informed consent from all 90 participants.
+  value: UV-CEI-2024-041
+  salient: true
+  source: ethics_and_corpus_status.md
+- id: F20
+  category: other
+  kind: existing
+  text: Secondary analysis of language, administrative and territorial barriers within the approved service-encounter
+    scope requires no further approval, while the existing authorisation excludes new interviews, recontact
+    for another study, clinical-record linkage and unrestricted changes of purpose.
+  value: null
+  salient: true
+  source: ethics_and_corpus_status.md
+- id: F21
+  category: other
+  kind: existing
+  text: Incidental cultural references do not provide consent for a separate cultural-participation study
+    or constitute a validated participation measure, and materially changing the approved purpose requires
+    governance assessment and, where applicable, an ethics amendment or additional consent.
+  value: null
+  salient: true
+  source: ethics_and_corpus_status.md
+- id: F22
+  category: resource
+  kind: existing
+  text: Publicly shareable materials are limited to blank instruments, the codebook and disclosure-checked
+    aggregate results; individual-level files remain restricted and external access requires approval
+    of role, purpose and confidentiality obligations.
+  value: null
+  salient: true
+  source: ethics_and_corpus_status.md
+- id: F23
+  category: other
+  kind: existing
+  text: At 24 September 2026, the permission register contains only the 15 centres under UV-CEI-2024-041,
+    the consent register contains only the 90 original participants, and no new-site application or ethics
+    amendment is on file.
+  value: 24 September 2026
+  salient: true
+  source: ethics_and_corpus_status.md
+- id: F24
+  category: other
+  kind: existing
+  text: Institutional protocol requires written site permission identifying the authorised activity and
+    responsible site contact before recruitment, records informal introductions and expressions of interest
+    separately as correspondence, permits circulation of approved information only after site permission
+    and applicable ethics approval, and requires an accessible explanation, voluntariness, appropriate
+    communication support, an understanding check and documented individual consent before enrolment or
+    research assessment, with service access independent of participation, older age alone insufficient
+    to establish impaired capacity and proxy consent requiring separate approved arrangements.
+  value: null
+  salient: true
+  source: ethics_and_corpus_status.md
+- id: F25
+  category: other
+  kind: existing
+  text: The predecessor contained no structured cultural-participation exposure or cultural intervention,
+    and incidental references to cultural activities lacked a common question sequence and reliable denominator.
+  value: null
+  salient: true
+  source: prior_project.md
+own_publications:
+- key: sorell2016repair
+  authors:
+  - Sorell Valdeza, M.
+  year: 2016
+  title: 'Repair sequences in municipal information encounters: an interactional account'
+  venue: Journal of Institutional Language Practices
+  doi: 10.99999/pb.v2-rural-service-language-team.2016.1
+- key: sorell2019letters
+  authors:
+  - Sorell Valdeza, M.
+  - Brizuela Laredo, T.
+  year: 2019
+  title: 'When an appointment letter becomes an administrative barrier: comprehension and procedural obligations'
+  venue: Review of Language and Administrative Practice
+  doi: 10.99999/pb.v2-rural-service-language-team.2019.2
+- key: sorell2023separating
+  authors:
+  - Sorell Valdeza, M.
+  - Nereda Soláns, A.
+  - Lascuén Aroza, B.
+  year: 2023
+  title: Separating comprehension from service access in rural care communication research
+  venue: Studies in Rural Service Encounters
+  doi: 10.99999/pb.v2-rural-service-language-team.2023.3
+- key: sorell2026assessments
+  authors:
+  - Sorell Valdeza, M.
+  - Nereda Soláns, A.
+  - Valtuerña Saz, E.
+  year: 2026
+  title: 'Repeated language-access assessments among older rural service users: an observational study'
+  venue: Journal of Public Service Comprehension
+  doi: 10.99999/pb.v2-rural-service-language-team.2026.4
+- key: sorell2026paperwork
+  authors:
+  - Sorell Valdeza, M.
+  - Brizuela Laredo, T.
+  - Cendal Orduña, R.
+  year: 2026
+  title: Language, paperwork and travel in older residents' accounts of rural care services
+  venue: Review of Territorial Service Research
+  doi: 10.99999/pb.v2-rural-service-language-team.2026.5
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY c84dfcef-8391-4c98-86ac-facc8f9a8920

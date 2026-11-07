@@ -1,0 +1,33 @@
+{
+  "kind": "dossier",
+  "id": "v2-cultural-care-participation-team",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "cv_ip.md: “TERRASONORA: patrimonio sonoro y vida cotidiana”; equipo_y_recursos.md: “Fondo sonoro TERRASONORA”; publicaciones.md and dossier.yaml F03/F23 also use TERRASONORA.",
+      "problem": "TERRASONORA is an existing contemporary folk group, documented by Musicultura and a Campania association register. The exact name is used here for a music/heritage project and sound archive, so the domain overlap makes confusion particularly likely. The fictional notice does not satisfy the requested collision rule.",
+      "fix": "Replace TERRASONORA throughout this dossier with TERRAVOZ-GATA, retaining the descriptive subtitle, grant reference, dates and counts. Propagate that spelling to its occurrences in pub2-aei-service-stretch/brief.md and pub2-aei-care-close/brief.md as a consequential rename. The replacement was exact-phrase searched on 2026-10-31 with no result.",
+      "evidence": [
+        "https://www.musicultura.it/artisti/terrasonora/",
+        "https://burc.regione.campania.it/eBurcWeb/directServlet?ATTACH_ID=205018&DOCUMENT_ID=00136649",
+        "data/public/dossiers/v2-cultural-care-participation-team/cv_ip.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all five Markdown files and dossier.yaml; all carry fictional-document notices, all document/status dates are no later than September 2026, and all non-null values across the 25 registered facts occur literally in their cited files (null-valued entries also checked semantically).",
+    "Preserved I1 deliberately: final report 42 paired/18 missing versus signed ledger 47 paired/13 missing, both 30 January 2026. Both total 60; repeated T0 recordings replace originals and do not explain the discrepancy. Nothing establishes one count as correct.",
+    "Recomputed 22+20+18=60; 41+14+5=60; 39/60=65%; 27/60=45%; 38/60 rounds to 63%; thematic frequencies and rounding; 44+40+36=120, repetitions 3+2+2=7, paired ledger 17+16+14=47; 198+114=312.",
+    "Budget categories sum to EUR 38,500; EUR 37,940/EUR 38,500 rounds to 98.5%, remainder EUR 560. Three sets of 28 workshops give 84; March–October with August pause accommodates the schedule.",
+    "SWEMWBS metric scoring and 7–35 range, UCLA-3 3–9, LSNS-6 0–30 checked against https://pure.plymouth.ac.uk/ws/portalfiles/portal/49389429/P2_SAP_v1.0_16122020_signed_ALL.pdf, https://pmc.ncbi.nlm.nih.gov/articles/PMC2394670/ and https://www.brandeis.edu/roybal/docs/LSNS_website_PDF.pdf. Fisher interval for r=.12,n=42 is approximately [-.1909,.4090], consistent with the report.",
+    "Singing/wellbeing pilot design and modest changes are plausible, with causal limits correctly retained: https://pubmed.ncbi.nlm.nih.gov/26089304/ and https://pmc.ncbi.nlm.nih.gov/articles/PMC7328053/. Separate consent-capacity procedure avoids equating Pfeiffer screening with consent capacity.",
+    "Names searched: Amparo Recuero Valdelomar, Iago Cendón Sobrado, Rocío Durán Malpartida, P. Ledesma Corchero (only initials supplied), Universidad de Vettonia, TERRA-Cuidado, Rueda de Voces, TERRASONORA, grant identifiers, all seven journal names and the named conference. Only the TERRASONORA collision is established; negative searches are not proof of nonexistence.",
+    "All six own_publications match visible authors/titles/years/fictional venues and 10.99999/pb. DOIs; the seventh manuscript is correctly under review, not an accepted article. Earlier automated issues concerning raw/metric scoring, consent, permissions and missing facts are resolved."
+  ]
+}

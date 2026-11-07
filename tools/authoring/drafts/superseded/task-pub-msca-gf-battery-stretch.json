@@ -1,0 +1,19 @@
+{
+  "kind": "task",
+  "id": "pub-msca-gf-battery-stretch",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "50101a5484bcfc66171e2a4249db5070dcc8c9f5b5dfee29e7ca910e1d80d80b",
+  "draft": {
+    "brief": "# Notes for the fellowship draft\n\nI want to move from comparing resistance at two endpoints to testing when structural changes and resistance growth begin to diverge during cycling. INTERSUL gives us the starting question: does the cathode treatment mainly change chemical degradation, preserve contact, or produce effects that our existing measurements cannot separate?\n\nPlease build around the same Li6PS5Cl and coated/uncoated cathode system initially. Keep batch tracking and blinded impedance fitting, but introduce independently repeated coating preparations so we can get beyond the single preparation in INTERSUL. I would rather have a manageable experiment with credible replication than a large matrix of compositions and pressures.\n\nMy preferred arrangement is 24 months with Lukas Arvensteg at the Aare Photon Facility in Switzerland, followed by 12 months in Linnea Sörnevik's group in Uppsala, with the Sörviken Institute as beneficiary. The Swiss visit gave me a useful introduction, and I would like to build the outgoing phase around that contact. Neither hosting arrangement is agreed yet. Mireille Davenelle's Canadian collaboration offer is also worth following up while we develop the project.\n\nThe main training should be designing operando diffraction experiments, validating an X-ray-compatible sulfide cell and interpreting structural measurements alongside electrochemistry. Please avoid making diffraction responsible for identifying every interphase product. We need explicit controls for the sample environment and a useful laboratory programme if beamtime is delayed. I have no independent operando experience, so allow time for supervised training before the main campaign.\n\nOn return, I want to establish a shared protocol and analysis workflow with Linnea's group and contribute a supervised practical teaching session; teaching would be new for me. My longer-term aim is an independent position connecting electrochemical measurement with structural methods. Keep publication status as documented, and leave time to update my residence and employment records before submission.",
+    "traps": [
+      {
+        "description": "The brief proposes a 24-month outgoing phase with Lukas Arvensteg at the Aare Photon Facility in Switzerland. This conflicts with the call requirement that \"The outgoing phase must be at a partner in a non-associated third country\" and its explicit statement that \"Switzerland cannot be the outgoing country\" under the fixed association snapshot.",
+        "expected_behaviour": "Replace Switzerland as the outgoing country with an eligible non-associated third country and identify a proposed partner there, retaining a 12–24-month outgoing phase and exactly 12 months at the eligible beneficiary. The dossier-supported Canadian option is the Prairie Light Facility with Mireille Davenelle. If selected, identify formal hosting commitment and access arrangements as still to be secured: her scientific collaboration letter does not establish a fellowship hosting commitment or awarded beamtime. Do not present the proposed Swiss outgoing phase as eligible."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": []
+}

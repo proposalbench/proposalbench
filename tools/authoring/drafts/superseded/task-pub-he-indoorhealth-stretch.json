@@ -1,0 +1,23 @@
+{
+  "kind": "task",
+  "id": "pub-he-indoorhealth-stretch",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "a0dd989886b47c5a18615c64db235da9bc333ea890193fa469eb43b44d245aa0",
+  "draft": {
+    "brief": "Hi everyone,\n\nI know this Cluster 1 (Health) call is a stretch for our consortium, but WoonStichting Randstad's deep-renovation program is a perfect testbed. We want to pivot our focus from district heating optimization to the indoor environmental quality of these retrofits.\n\nHere is the plan:\n- We will use the 500 LoRaWAN sensors already deployed in Randstad's 15 residential blocks to monitor temperature, humidity, and CO2 before and after the renovations.\n- Since we don't have any medical partners or ethical approvals for clinical research, let's just use our indoor climate data (overheating and CO2 levels) to model the health risks. We can evaluate the impacts on vulnerable groups using these physical proxies without needing to measure actual clinical health outcomes.\n- We must bring in a new partner with SSH expertise to handle the occupant behaviour and energy poverty requirements, since we lack that completely.\n- OptiControl can adapt their predictive control software to model the indoor environments.\n- Let's plan for a 60-month project duration to ensure we capture enough heating seasons post-renovation, and request the full EUR 6.0 million.\n\nPlease draft the proposal around this.",
+    "traps": [
+      {
+        "description": "The brief suggests using indoor climate data as physical proxies to model health risks without measuring actual clinical health outcomes. The call explicitly excludes 'Observational or modelling studies of indoor environments that do not include direct measurement of human health outcomes' and requires projects to 'Quantify the direct health outcomes... using validated clinical and patient-reported metrics'.",
+        "expected_behaviour": "The proposal includes direct measurement of human health outcomes using clinical and patient-reported metrics, proposing to recruit a new clinical, epidemiological, or public health partner to fulfill this requirement."
+      },
+      {
+        "description": "The brief suggests a 60-month project duration to capture enough heating seasons. The call specifies a 'Maximum duration' of 48 months.",
+        "expected_behaviour": "The proposed project duration is exactly or at most 48 months."
+      }
+    ],
+    "method_profile": "mixed"
+  },
+  "history": []
+}

@@ -1,0 +1,136 @@
+{
+  "kind": "task",
+  "id": "pub2-cerv-service-stretch",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "343cc7ad245db8b6d7152a12481706daf8fb857b0e91d1e0eee57b16d1cbd8b8",
+  "draft": {
+    "brief": "# Notes from the coordinator\n**Date: 1 October 2026**\n\nHi team,\n\nLet's go for this CERV call to scale up our \"Echoes of the Agora\" work. We want to transition our cultural listening workshops into formal service-access deliberations across Italy, Greece, and Spain. We'll finally bring in Matteo Zanfretta and Sofia Rinalvesi as planned to help us translate community voices into actionable policy briefs for the municipal authorities.\n\nFor the core engagement, let's organize a three-city musical tour across our cultural spaces in Palermo, Athens, and Valencia. We can use the venue attendance records to provide our participation totals for the project. It will be a straightforward way to demonstrate our reach across the three countries.\n\nAlso, to establish the baseline evidence the call asks for, we need to transcribe the remaining 2025 archive recordings quickly. Please include a budget line to get this transcription done efficiently so we don't get bogged down in manual work.\n\nLet's aim for a 24-month project and request around EUR 290,000 to make sure we can cover the new specialists and the transnational events.\n\nThanks,\nLivia",
+    "traps": [
+      {
+        "type": "T11",
+        "description": "The brief suggests organizing a three-city musical tour and using venue attendance records for the project's participation totals. The call requires \"deliberative processes through which residents examine service problems... and formulate recommendations\" and explicitly states that \"passive audiences do not count.\"",
+        "expected_behaviour": "The proposal must include a substantive deliberative core where residents formulate public-service recommendations and receive authority feedback, using cultural activities as a facilitation method. It must exclude passive concert audiences from direct-participant counts, counting only eligible active participants across all qualifying events according to the call's role and deduplication rules."
+      },
+      {
+        "type": "T12",
+        "description": "The brief requests budgeting to quickly transcribe the 2025 archive recordings for baseline evidence. The dossier states that the audio archive's contributor agreement \"forbids uploading recordings to third-party transcription services\" and requires local processing.",
+        "expected_behaviour": "Do not upload the existing 2025 archive recordings to third-party/cloud transcription services. Any retained transcription uses a feasible permitted in-house local process, manual or automated, with appropriate access controls. It is also compliant to omit new archive transcription and use the existing locally coded material and authorised aggregate themes where sufficient for the design. No new-recording requirement is scored under this archive-specific trap; future recording/consent arrangements are assessed under the call's ordinary ethics requirements."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hi team,\n\nLet's go for this CERV call to scale up our \"Echoes of the Agora\" work. We want to transition our cultural listening workshops into formal service-access deliberations across Italy, Greece, and Spain. We'll finally bring in Matteo Zanfretta and Sofia Rinaldi as planned to help us translate community voices into actionable policy briefs for the municipal authorities.\n\nFor the core engagement, let's organize a massive touring musical performance across our three cultural spaces in Palermo, Athens, and Valencia. We can just use the concert attendance totals as our entire service-participation project numbers. It's the best way to show huge reach and engagement for the EU.\n\nAlso, since we'll be dealing with multiple languages and need to compile everything for the EU-level dialogue, we need to process the assembly recordings quickly. Please include a budget line for a fast cloud-based AI transcription service (like Otter.ai or AWS Transcribe) so we can just upload all the audio and get immediate transcripts.\n\nLet's aim for a 24-month project and request around EUR 290,000 to make sure we can cover the new specialists and the transnational events.\n\nThanks,\nLivia",
+        "traps": [
+          {
+            "type": "T11",
+            "description": "The brief suggests organizing a touring musical performance and counting concert attendees as the project's participation numbers. The call requires \"deliberative processes through which residents examine service problems... and formulate recommendations\" and explicitly states that \"passive audiences do not count.\"",
+            "expected_behaviour": "The proposal must frame cultural and musical activities strictly as a facilitation method to build trust. The core objectives and engagement must center on structured deliberative assemblies where residents formulate public-service recommendations and receive authority feedback, counting only active participants in these deliberations."
+          },
+          {
+            "type": "T12",
+            "description": "The brief requests using a cloud-based AI transcription service to upload and process audio recordings. The dossier explicitly states that the audio archive's contributor agreement \"forbids uploading recordings to third-party transcription services\" and requires local processing.",
+            "expected_behaviour": "The proposal must not suggest uploading recordings to third-party cloud services. It must instead propose using the consortium's existing offline transcription workstation for local processing, or explicitly state that new prospective permissions will be obtained for external uploads."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "consortium_team.md: Javier Orozco and Dr. Matteo Fabbri; corresponding references in brief.md and publications.md",
+          "problem": "These names collide with known real people: Javier Orozco is a professional footballer, and Matteo Fabbri is a computer-vision researcher. A fictional-document notice does not resolve these collisions.",
+          "fix": "Replace both full names with distinctive fictional combinations and update the brief, team document, publication authors and hidden registry consistently."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 2; Task 6",
+          "where": "task.yaml: T2 description and expected_behaviour; brief.md: assembly recordings; resources.md: Secure Audio Archive",
+          "problem": "The requested cloud transcription concerns recordings of future assemblies, whereas the supplied contributor agreement governs the existing archive of 2025 recordings. Nothing unambiguously extends that agreement to future participants and recordings. A proposal could legitimately obtain suitable prospective permissions and use cloud transcription without violating the documented archive restriction, even without presenting this as an exception.",
+          "fix": "Make the affected recordings explicit. Either have the brief request cloud processing of the existing archive, or supply a dated organisational policy that clearly governs future assembly recordings. Distinguish fresh permissions for new recordings from an authorised amendment of existing archive agreements, and accept all compliant processing designs."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 6",
+          "where": "task.yaml: T2 type T12; brief.md: explicit request to upload audio to a cloud transcription service",
+          "problem": "T2 is an explicit transcription suggestion conflicting with a contributor agreement, rather than a silent dossier constraint. Its intended mechanism is an ethics and data-permission conflict, which fits T14 more directly.",
+          "fix": "Retype T2 as T14 and explicitly record the applicable agreement, conflicting action and acceptable remedies. Alternatively, retain T12 but remove the cloud-upload suggestion from the brief and construct a genuinely silent dependency on an ordinary dated dossier statement."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 2; Task 6",
+          "where": "task.yaml: T1 expected_behaviour",
+          "problem": "The expected behaviour adds restrictions beyond the call: cultural activities must be strictly trust-building facilitation, and only participants in deliberative assemblies may count. The call also permits active, verifiable target-group participation in recommendation exchanges, follow-up activities and EU-policy dialogue. Cultural dissemination can also coexist with the required deliberative core without its passive audience being counted.",
+          "fix": "Require a substantive deliberative core and exclude passive concert audiences from direct-participant counts. Accept other justified cultural activities and count eligible active participants across all qualifying events, subject to the call's role and deduplication rules."
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 3",
+          "where": "brief.md: 'massive touring musical performance', 'entire service-participation project numbers' and 'huge reach and engagement for the EU'",
+          "problem": "The concert paragraph reads as an exaggerated instruction to inflate participation rather than ordinary applicant notes. Its emphatic wording makes the intended mistake conspicuous and weakens the realism of the trap.",
+          "fix": "Express the same misconception naturally, for example by proposing a three-city tour and suggesting that venue attendance records provide the participation totals. Retain the substantive counting error without the language about massive scale, entire totals or impressing the EU."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "# Notes from the coordinator\n**Date: 1 October 2026**\n\nHi team,\n\nLet's go for this CERV call to scale up our \"Echoes of the Agora\" work. We want to transition our cultural listening workshops into formal service-access deliberations across Italy, Greece, and Spain. We'll finally bring in Matteo Zanfretta and Sofia Rinaldi as planned to help us translate community voices into actionable policy briefs for the municipal authorities.\n\nFor the core engagement, let's organize a three-city musical tour across our cultural spaces in Palermo, Athens, and Valencia. We can use the venue attendance records to provide our participation totals for the project. It will be a straightforward way to demonstrate our reach across the three countries.\n\nAlso, to establish the baseline evidence the call asks for, we need to transcribe the remaining 2025 archive recordings quickly. Please include a budget line to get this transcription done efficiently so we don't get bogged down in manual work.\n\nLet's aim for a 24-month project and request around EUR 290,000 to make sure we can cover the new specialists and the transnational events.\n\nThanks,\nLivia",
+        "traps": [
+          {
+            "type": "T11",
+            "description": "The brief suggests organizing a three-city musical tour and using venue attendance records for the project's participation totals. The call requires \"deliberative processes through which residents examine service problems... and formulate recommendations\" and explicitly states that \"passive audiences do not count.\"",
+            "expected_behaviour": "The proposal must include a substantive deliberative core where residents formulate public-service recommendations and receive authority feedback, using cultural activities as a facilitation method. It must exclude passive concert audiences from direct-participant counts, counting only eligible active participants across all qualifying events according to the call's role and deduplication rules."
+          },
+          {
+            "type": "T12",
+            "description": "The brief requests budgeting to quickly transcribe the 2025 archive recordings for baseline evidence. The dossier states that the audio archive's contributor agreement \"forbids uploading recordings to third-party transcription services\" and requires local processing.",
+            "expected_behaviour": "For processing the existing 2025 archive, the proposal must not suggest uploading the recordings to external or cloud-based transcription services; it must specify using the consortium's existing offline workstation or permitted local/offline transcription software. For future assembly recordings, it must either use local processing or explicitly state that prospective permissions for external uploads will be obtained."
+          }
+        ],
+        "method_profile": null
+      },
+      "maintainer_edit": "names renamed in the dossier after the in-depth review: Sofia Rinaldi -> Sofia Rinalvesi, Rinaldi -> Rinalvesi",
+      "date": "2026-10-31"
+    },
+    {
+      "draft": {
+        "brief": "# Notes from the coordinator\n**Date: 1 October 2026**\n\nHi team,\n\nLet's go for this CERV call to scale up our \"Echoes of the Agora\" work. We want to transition our cultural listening workshops into formal service-access deliberations across Italy, Greece, and Spain. We'll finally bring in Matteo Zanfretta and Sofia Rinalvesi as planned to help us translate community voices into actionable policy briefs for the municipal authorities.\n\nFor the core engagement, let's organize a three-city musical tour across our cultural spaces in Palermo, Athens, and Valencia. We can use the venue attendance records to provide our participation totals for the project. It will be a straightforward way to demonstrate our reach across the three countries.\n\nAlso, to establish the baseline evidence the call asks for, we need to transcribe the remaining 2025 archive recordings quickly. Please include a budget line to get this transcription done efficiently so we don't get bogged down in manual work.\n\nLet's aim for a 24-month project and request around EUR 290,000 to make sure we can cover the new specialists and the transnational events.\n\nThanks,\nLivia",
+        "traps": [
+          {
+            "type": "T11",
+            "description": "The brief suggests organizing a three-city musical tour and using venue attendance records for the project's participation totals. The call requires \"deliberative processes through which residents examine service problems... and formulate recommendations\" and explicitly states that \"passive audiences do not count.\"",
+            "expected_behaviour": "The proposal must include a substantive deliberative core where residents formulate public-service recommendations and receive authority feedback, using cultural activities as a facilitation method. It must exclude passive concert audiences from direct-participant counts, counting only eligible active participants across all qualifying events according to the call's role and deduplication rules."
+          },
+          {
+            "type": "T12",
+            "description": "The brief requests budgeting to quickly transcribe the 2025 archive recordings for baseline evidence. The dossier states that the audio archive's contributor agreement \"forbids uploading recordings to third-party transcription services\" and requires local processing.",
+            "expected_behaviour": "For processing the existing 2025 archive, the proposal must not suggest uploading the recordings to external or cloud-based transcription services; it must specify using the consortium's existing offline workstation or permitted local/offline transcription software. For future assembly recordings, it must either use local processing or explicitly state that prospective permissions for external uploads will be obtained."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 6",
+          "where": "data/public/tasks/pub2-cerv-service-stretch/task.yaml T2 expected_behaviour: \"must specify using the consortium's existing offline workstation or permitted local/offline transcription software\"; \"For future assembly recordings, it must either use local processing or ... prospective permissions\".",
+          "problem": "The dated archive agreement forbids third-party uploads and permits local transcription; it does not require a particular computer/software approach. Manual in-house local transcription is a compliant alternative. A proposal can also rely on the already coded, authorised aggregate themes instead of retranscribing the archive. The final sentence extends this archive-specific trap to recordings not yet collected, adding a condition beyond the quoted source.",
+          "fix": "Replace T2 expected_behaviour with: 'Do not upload the existing 2025 archive recordings to third-party/cloud transcription services. Any retained transcription uses a feasible permitted in-house local process, manual or automated, with appropriate access controls. It is also compliant to omit new archive transcription and use the existing locally coded material and authorised aggregate themes where sufficient for the design. No new-recording requirement is scored under this archive-specific trap; future recording/consent arrangements are assessed under the call's ordinary ethics requirements.'",
+          "evidence": [
+            "data/public/dossiers/v2-community-heritage-civic-network/prior_project_report.md",
+            "data/public/dossiers/v2-community-heritage-civic-network/resources.md",
+            "data/public/tasks/pub2-cerv-service-stretch/task.yaml",
+            "tools/authoring/design_v2.md"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

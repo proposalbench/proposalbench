@@ -1,0 +1,79 @@
+{
+ "kind": "dossier",
+ "id": "v2-sparse-sky-doctoral-project",
+ "reviewer_family": "task-reviews",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "phd_progress_report.md, Results; dossier.yaml, F12",
+   "problem": "Zero false positives in one frame does not support an upper bound of 0.23 false positives at 95% confidence. Under a Poisson count model, the one-sided upper bound is approximately 3.00 expected false positives per observed frame. The stated image dimensions also give 16,777,216 pixels.",
+   "fix": "Specify the sampling model and exposure. For a single 4096 × 4096 frame under a Poisson model, report approximately 3.00 false positives per frame, or 0.179 per million pixels, as the one-sided 95% upper bound. Update F12 consistently.",
+   "from_task_review": "pub2-foundation-records-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4; Task 1",
+   "where": "phd_progress_report.md, theoretical assumptions and primary validation",
+   "problem": "The report describes 16/20 recovery as validation of support-recovery guarantees, but supplies neither the minimum amplitude threshold nor confirmation that the injected sources satisfy the separation condition. Attributing four misses to bounded noise does not establish consistency with a guarantee that already accounts for bounded noise.",
+   "fix": "State the applicable amplitude and separation thresholds and whether this experiment satisfies them. If it does, reconcile the misses with the theorem; otherwise describe the experiment as performance outside the guaranteed regime and provide separate evidence for any claimed validation.",
+   "from_task_review": "pub2-foundation-records-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4; Task 1",
+   "where": "phd_progress_report.md, Extension to Archival Records; brief.md, known masking operator",
+   "problem": "The proposed transfer conflates knowing which entries are missing with knowing the outcome-dependent selection mechanism. A realised mask does not identify the historical distribution when recording depends on unobserved weather or detections. Fourier sparsity of the underlying conditions is also an untested additional assumption, not a consequence of the imaging theorem.",
+   "fix": "Make these distinctions explicit in the progress report. Frame the extension around testing sparsity and selection assumptions, using outcome-dependent masking experiments and sensitivity bounds or partial identification where point reconstruction is unsupported. Leave those assumptions as prospective research questions.",
+   "from_task_review": "pub2-foundation-records-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml, F18",
+   "problem": "F18 says that 'Local processing, public simulated frames, and stripped derived numerical catalogs are allowed to be uploaded to external services.' This merges local processing permission with upload permission and misstates the agreement underlying the trap.",
+   "fix": "Separate the facts: raw frames may be processed locally on secured departmental infrastructure; public simulated frames and qualifying derived numerical catalogs may be uploaded externally.",
+   "from_task_review": "pub2-foundation-records-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml, F08–F12 and F20",
+   "problem": "The registry omits quantitative conditions needed to interpret the reported result, including the ±5-photon noise bound, minimum separation of 2 FWHM, 150-photon injected flux, 3.2-pixel PSF FWHM, frame dimensions and 1-pixel detection tolerance. The target archive's 1998–2010 coverage is marked nonsalient despite defining the proposed inquiry.",
+   "fix": "Register these experimental conditions with their exact values and identify the single-frame primary validation separately from the 500-frame scaling work. Mark the target records' coverage and pending retrieval status as salient.",
+   "from_task_review": "pub2-foundation-records-stretch"
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 8; Task 1",
+   "where": "dossier.yaml, G1",
+   "problem": "G1 treats an external-compute quotation as information every proposal needs. A fully compliant design can use the existing workstation and request no external compute services, making the quotation irrelevant. The gap's prescribed placeholder would therefore penalise a feasible alternative design.",
+   "fix": "Remove G1 as a universally required gap, or make it explicitly conditional on proposing external compute expenditure and accept omission when the design uses local resources.",
+   "from_task_review": "pub2-foundation-records-stretch"
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "phd_progress_report.md: Results; dossier.yaml: F12",
+   "problem": "Zero false positives in one validation frame does not support an upper bound of 0.23 false positives at 95% confidence. Under a Poisson model, the one-sided 95% upper bound on the expected count is approximately 3.00 for the observed search exposure. The stated frame also contains 16,777,216 pixels, so any rate needs an explicit denominator.",
+   "fix": "State the statistical model and exposure. For the single 4096 × 4096 frame, report zero observed false positives and, under a Poisson assumption, an upper bound of approximately 3.00 expected false positives per equivalent frame, or 0.179 per million pixels. Update F12 consistently.",
+   "from_task_review": "pub2-foundation-signals-close"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4; Task 1",
+   "where": "phd_progress_report.md: theoretical guarantees, simulation results and Important Note",
+   "problem": "The report presents a run with four missed sources as validation of support-recovery guarantees under idealised assumptions, while explaining that those sources fell below the theorem's detection threshold. It never supplies the minimum amplitude bound or confirms the required separation for the injected sources. Consequently, the applicant cannot determine which guarantees the experiment actually tests. Numerical recovery results also do not constitute mathematical validation of a theorem.",
+   "fix": "Specify the relevant amplitude and separation conditions and whether the validation run satisfies them. If the misses arise outside the guaranteed regime, describe the run as an exploratory performance test outside that regime. Distinguish the proof, numerical checks and empirical detection performance.",
+   "from_task_review": "pub2-foundation-signals-close"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml: F08, F16, F18 and F22; omitted simulation parameters",
+   "problem": "The registry omits proposal-relevant numerical conditions, including the 2 FWHM separation, ±5-photon noise bound, 150-photon source flux, frame dimensions, 3.2-pixel PSF FWHM and 1-pixel detection tolerance. F16 omits the agreement's permission for digitised logbook frames. F18 incorrectly includes 'Local processing' among things allowed to be uploaded, obscuring the local-only raw-data restriction. F22 omits the explicit exception to the indirect-cost policy.",
+   "fix": "Register the missing quantitative conditions and distinguish contractual logbook permission from requested retrieval of the specific records. Rewrite F18 as separate local-processing and permitted-upload facts. Preserve the indirect-cost exception exactly.",
+   "from_task_review": "pub2-foundation-signals-close"
+  }
+ ]
+}

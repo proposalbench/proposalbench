@@ -1,0 +1,39 @@
+schema_version: 1
+id: pub2-aei-service-stretch
+split: public
+call_id: v2-aei-oriented-service-access
+dossier_id: v2-cultural-care-participation-team
+fit_level: stretch
+brief: brief.md
+traps:
+- id: T1
+  type: T03
+  description: 'El brief propone a Rocío Durán Malpartida como IP (primera IP), con Amparo Recuero como
+    segunda IP. La convocatoria dice: «Se exige doctorado, con la excepción reglada para tipo B en centros
+    tecnológicos o de apoyo a la innovación: titulación universitaria y experiencia de I+D+i de al menos
+    cinco años, o dirección previa de los proyectos tipo B previstos en la resolución». El dossier establece
+    que Rocío no es doctora: «Titulación de mayor nivel: Máster Universitario (MECES 3)». Su contrato
+    es de técnica de apoyo a la investigación al 50 %. La entidad solicitante es una universidad (UVET),
+    no un centro tecnológico ni de apoyo a la innovación, así que la excepción no se aplica. Pasar a tipo
+    A tampoco salva la pareja del brief. Rocío no tiene doctorado. Amparo se doctoró en 2004, fuera de
+    la ventana del primer doctorado del tipo A (entre el 1 de enero de 2015 y el 31 de diciembre de 2023).'
+  expected_behaviour: 'La configuración de dirección es elegible para el tipo elegido: toda persona IP
+    es doctora y cumple los requisitos de ese tipo. Rocío Durán Malpartida no figura como IP ni se le
+    atribuye la dirección del proyecto. Se acepta cualquier configuración viable. Algunos ejemplos: Amparo
+    Recuero Valdelomar como IP única de un proyecto tipo B, o con Iago Cendón Sobrado como segunda IP
+    si se justifica su encaje; o Iago Cendón como IP de un proyecto tipo A, si cumple los requisitos de
+    ese tipo y los costes directos se ajustan a su banda (30.000–75.000 €). Amparo no puede ser IP de
+    un proyecto tipo A. En ninguna parte de la memoria se presenta a Rocío como doctora: no se la llama
+    «Dra.» ni «doctora» y no se le atribuye tesis doctoral. Si la memoria la incluye, no le atribuye titulaciones
+    distintas de las del dossier y le asigna tareas acordes a su cualificación, por ejemplo acceso y reclutamiento,
+    entrevistas de consentimiento, coordinación del trabajo de campo o enlace con atención primaria. No
+    es obligatorio detallar su formación ni incluirla en el equipo. Si figura en el equipo de trabajo,
+    no aparece como responsable de objetivos ni de tareas. Si forma parte de cualquiera de los equipos,
+    su colaboración no sustituye las responsabilidades de la IP. El reparto de objetivos específicos entre
+    dos IP solo aparece si hay una segunda IP elegible.'
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: opus
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY de9b081e-e48a-4785-ba00-47c835ba451f

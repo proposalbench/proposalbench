@@ -1,0 +1,61 @@
+{
+  "kind": "dossier",
+  "id": "nordic-dh-consortium",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1; Dossier 6",
+      "where": "data/public/dossiers/nordic-dh-consortium/cv_coordinator.md: 'Jutland Institute of Technology (JIT)' and 'THERM-STORE'; consortium.md: 'Silesian-Beskid University of Technology', 'RegelTech Thermik GmbH', 'WoonKoepel Rijnmond'; resources.md: 'Mikkel Vestergaard-Poulsen'; publications.md: 'Journal of Building Physics and Energy Systems'.",
+      "problem": "The fiction screening still fails. Jutland Institute of Technology is an exact historical institutional name documented by UNIDO. THERM-STORE differs only in punctuation/case from the real ThermStore thermal-storage research project announced by project partner Codema. Mikkel Vestergaard Poulsen is a real named Danish construction professional and board member; the hyphen does not distinguish the invented identity (the evidence does not establish that he is a researcher). There are also same-sector confusions: adding 'Beskid' to Silesian University of Technology, 'Thermik' to the heating/ventilation-controls company Regeltech, 'Rijnmond' to the tenant organisation De Woonkoepel, and 'and Energy Systems' to Sage's Journal of Building Physics. These last four are confusion-risk findings, not claims that the full invented strings are exact registered names.",
+      "fix": "Use these replacements throughout the dossier, hidden facts, own-publication metadata and dependent task references: Jutland Institute of Technology/JIT -> Hesselvarde Institute of Thermal Systems/HITS; THERM-STORE -> VAELTHES; Silesian-Beskid University of Technology/SBUT -> Velbrzyn Institute of Network Engineering/VINE; RegelTech Thermik GmbH -> Torvessiq Thermik GmbH; WoonKoepel Rijnmond -> Rijnveldehaven Housing Association; Mikkel Vestergaard-Poulsen -> Mikkel Terveskov-Lundholt (publication author 'Vestergaard-Poulsen, M.' -> 'Terveskov-Lundholt, M.'); Journal of Building Physics and Energy Systems -> Velbrzyn Thermal Building Review. Update the fictional coordinator email to t.hesselkilde@hits.dk.fict. Keep real funders, places, Modelica, dSPACE and LoRaWAN. Exact-phrase searches of the proposed replacements found no relevant identities; VAELTHES produced only an unrelated nineteenth-century OCR artifact.",
+      "evidence": [
+        "https://www.unido.org/publications/ot/9636507/pdf",
+        "https://www.codema.ie/news/thermstore-rdd-project-kicks-off-after-funding-secured-from-the-seai/",
+        "https://www.sb-thomsen.dk/kontakt",
+        "https://www.polsl.pl/en/",
+        "https://www.regeltech.at/impressum/impressum_it.php",
+        "https://www.swz.nl/publicaties",
+        "https://journals.sagepub.com/home/jenb"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2; Dossier 4",
+      "where": "data/public/dossiers/nordic-dh-consortium/prior_project.md §4.2: 'using the 2023 Danish grid average of 0.135 tCO2e/MWh', yielding '2,747 tonnes of CO2-equivalent annually'.",
+      "problem": "The arithmetic is internally correct, but the real-world factor is misidentified. Energinet's final 2023 declaration, page 3, gives distribution-level CO2e factors of 107/121 g/kWh for DK1 and 44/53 for DK2 under its two CHP allocation methods. A nationwide average of those factors is not 135 g/kWh. Calling 0.135 the 2023 Danish grid average gives the fictional result unsupported external authority and obscures the geographical/accounting basis. The quoted net saving depends directly on it.",
+      "fix": "Retain the fictional result without pretending it is an official national statistic: replace the parenthesis with '(using a fixed scenario electricity-emissions factor of 0.135 tCO2e/MWh, selected for this fictional analysis and not asserted to be the 2023 Danish grid average)'. Describe 2,747 tonnes as 'estimated annual net operational savings under that fixed-factor scenario, excluding embodied and upstream fuel emissions'. Preserve gross avoided combustion CO2 separately. Register the factor, boundary and scenario qualification in F08. This changes no arithmetic and needs no additional source research.",
+      "evidence": [
+        "https://energinet.dk/media/tsfjn5hj/24_06569-4-miljodeklaration-2023-arsgennemnsnit.pdf",
+        "data/public/dossiers/nordic-dh-consortium/prior_project.md",
+        "data/public/dossiers/nordic-dh-consortium/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/nordic-dh-consortium/dossier.yaml facts F03/F04/F08/F10/F12/F18; consortium.md: 'pending final board approval and GDPR compliance reviews'; resources.md: 'no ethical approvals for medical research'.",
+      "problem": "Every existing non-null value occurs in its cited source, but the registry remains incomplete in consequential ways. F10 omits the outstanding board approval and municipal-permit status; F12 omits unconfirmed municipal building permits; F18 omits the absence of medical ethics approval and health-study recruitment. The existing facts also omit the 3,400 MWh usable capacity, 15,000 m2/7,500 MWh per year solar field, 21,900 available versus 12,600 recovered MWh per year of waste heat, and the 3,400–3,700 tonnes gross-emissions confidence interval and its 731-day basis. These are quotable capacity, evidence and readiness claims, not deliberately missing facts. Status omissions weaken GR-T and grounding checks.",
+      "fix": "Extend F10 with 'Site access and municipal permitting are unconfirmed; historical SCADA access is conditional on final board approval and GDPR compliance reviews.' Extend F12 with 'Access and municipal building permits are unconfirmed; tenant consent is required.' Add a separate resources.md fact stating 'No clinical partnerships, medical-research ethics approvals or health-study recruitment are in place.' Add sourced existing-result facts for the listed storage/solar/waste-heat quantities and gross-emissions interval, preserving units, available-versus-recovered distinctions and the 731-day basis. Add to F18 the 15-minute cadence and temperature/relative-humidity/CO2 channels. Use separate planned/conditional entries for unresolved permissions so they remain status-bearing; do not label the existing patent itself pending.",
+      "evidence": [
+        "data/public/dossiers/nordic-dh-consortium/consortium.md",
+        "data/public/dossiers/nordic-dh-consortium/resources.md",
+        "data/public/dossiers/nordic-dh-consortium/prior_project.md",
+        "data/public/dossiers/nordic-dh-consortium/dossier.yaml",
+        "docs/scoring_spec.md §3 GR-T"
+      ]
+    }
+  ],
+  "checked": [
+    "Dossier 1/6: searched every supplied full person name, institution/company, project acronym, named repository/cluster/software and all five journal titles; also searched unhyphenated acronym/brand variants, revealing ThermStore and Regeltech. Initial-only authors Skowroński M., Jastrzębski B., Waldmeyer F. and Kastelein S. cannot be conclusively disambiguated without full names; no real-person identity is inferred from a shared surname/initial alone. Search coverage and limits are in .codex-handoff/deep_review_v1a.md.",
+    "Dossier 2: independently recomputed 54 project months, 1,004 monitoring days, 731 cost-analysis days, 289,152 timestamps, 40,481,280 nominal values, 681,280 missing values (1.683%, rounds to 1.7%), 208,675/245,500 = 85%, 11 researchers plus 2 technicians. Existing corrected counts are sound.",
+    "Dossier 2/4: energy checks: 6,000 × COP 3.1 = 18,600 MWh; recovered heat = 12,600 MWh; 2.5 MW × 8,760 = 21,900 MWh available; 9,750/12,500 = 78%; storage losses = 2,750 MWh. 7,500 + 18,600 + 6,650 - 2,750 = 30,000 MWh at the plant/network-feed boundary; downstream network losses are not separately documented. (25,000-7,389) × 0.202 = 3,557.422 tonnes; minus 810 = 2,747.422 tonnes. 70% is reasonable rounding of 70.444%.",
+    "Dossier 4: approximately 3.4 GWh storage for 75,000 m3 over a 40 K span is physically plausible (constant-density approximation gives 3.48 GWh); 500 kWh/m2/year solar yield and 75–81% storage efficiencies are plausible. Real Danish PTES dataset/design comparator: https://orbit.dtu.dk/en/publications/dronninglund-water-pit-thermal-energy-storage-dataset/ ; https://doi.org/10.1016/j.apenergy.2020.115840 . The partial third season is now explicitly distinguished, and its uncertainty is not falsely presented as three independent full seasons.",
+    "Dossier 3/5: all 22 registered non-null values matched source strings. No declared gaps, inconsistencies or reviewer_criticisms. Explicit absence of health expertise/pre-renovation measurements supports indoorhealth-stretch. The Bergdorf acceleration claimed only in the heatstorage-close brief is filed on that task for correction, not duplicated here.",
+    "Dossier 6/7: all five documents have fiction notices and September-2026 status; August-2026 publication predates the task. Five publication entries match authors, titles, venues, years and 10.99999/pb. DOIs in the visible list. CV chronology is possible. Prior review fixes to dates, sensor counts, energy balance and publication status were rechecked and not re-reported."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "task",
+  "id": "pub-aei-notarial-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-aei-notarial-close/brief.md: opening notes have no date.",
+      "problem": "The brief is not explicitly dated at the required task present date.",
+      "fix": "Add a dateline “1 October 2026” (or “1 de octubre de 2026”) at the start of brief.md.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "data/public/tasks/pub-aei-notarial-close/task.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Read current task, AEI call/skeleton, complete notarial dossier and registry, original/r1/r2 reviews and maintainer follow-ups. The earlier type A request has been changed to type B; the two designed traps are now the only explicit call-conflicting instructions.",
+    "T1 is correctly T02. Five requested years contradict the call’s explicit fictional 36-or-48-month restriction. Either allowed duration with a corresponding revised work plan is accepted. Duration and timeline are mandatory narrative content, so detection is fair.",
+    "T2 is correctly T03. The brief requests Lorenzo as co-IP; the dossier expressly rules out both current and planned Spanish linkage, and the call gives the relevant linkage requirement. Assignment to equipo de trabajo without formal objective/task responsibility is supported by official PID2025 Article 9.3. Source: https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf",
+    "Oriol’s June 2020 doctorate meets the general PID2025 doctorate cutoff and the documented Spanish appointment supports an individual type B application. The past project ended in August 2024, so it does not create the active-PID incompatibility affecting the other pairing. EUR 72000 direct is within the explicitly fictional B range.",
+    "The scientific extension from existing credit networks to surviving marriage contracts is a close fit. Dossier F40–F42 makes the unproved restitution mechanism and unlocated receipts explicit. A feasible proposal can test an association, plan a source-feasibility phase and avoid promising causal proof or exact death dates.",
+    "Neither proposed researcher is secured beyond current status: Mireia requires a new contract; Dídac must successfully defend and be recruited. EUR 72000 need not fund both people for all 36/48 months; the brief gives no binding appointment lengths, so a costed shorter/staggered plan remains feasible. No extra budget trap was inferred.",
+    "Spanish notes, dossier and required narrative agree; seven sections including conditional No procede sections fit the 10000-word contract. No T12/T13/T14 or resubmission rubric applies. The task key itself needs no blocker/major change; this acceptance is not acceptance of the separately flagged call and dossier defects."
+  ]
+}

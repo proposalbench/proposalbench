@@ -1,0 +1,69 @@
+{
+  "kind": "task",
+  "id": "pub-nih-sleepcardio-close",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "5e72972e9146547df5c097552eb8b10ab06eb52ac9c7a59a3b1df9619bbe7b0d",
+  "draft": {
+    "brief": "**Date:** 1 October 2026\n\nHi team,\n\nLet's go after this R21. In our LAPSES cohort, we clearly saw that sleep regularity drops during early adolescence and is linked to higher BMI z-scores. Now it's time to take the next step and look at broader cardiometabolic risk, specifically blood pressure, which we haven't measured before.\n\nSince we have great partnerships with the local FQHCs, we want to run a 6-week sleep-extension intervention. We'll recruit 60 rural adolescents and prospectively assign half to a behavioral sleep-coaching program and the other half to a waitlist control. We will use our ActiGraph GT9X Links to measure their sleep timing and regularity, and we'll partner with the clinic nurses to measure their blood pressure before and after the intervention to see if improving sleep regularity lowers cardiometabolic risk.\n\nThis is a new direction for our lab since we haven't done cardiovascular assessments or interventions before, so it fits the exploratory R21 mechanism perfectly. It will give us the feasibility data we need to see if we can actually change sleep behavior before we pitch a massive R01.\n\nKeep the study at a scale supportable within the R21 direct-cost ceilings, including any new measurement equipment and participant incentives.\n\nLet me know if you need anything else from the LAPSES final report or our community engagement notes to draft the aims and strategy.",
+    "traps": [
+      {
+        "type": "T05",
+        "description": "The brief proposes a 6-week sleep-extension intervention prospectively assigning adolescents to a sleep-coaching program or control group; the call explicitly states \"Clinical trials as defined by NIH are not allowed\" and limits responsive designs to those \"without prospective assignment to interventions\".",
+        "expected_behaviour": "Remove the assigned sleep-coaching/waitlist study and its evaluation of effects on blood pressure. In Specific Aims and Approach, propose a responsive non-clinical-trial design that meets the call's sleep-exposure and cardiometabolic requirements. Observational follow-up, secondary analysis, and appropriately bounded measurement or usability work are acceptable. Do not prospectively assign participants to a therapeutic sleep change to evaluate its health-related effects; do not reject a design merely because measurement procedures or non-health-effect usability tasks are assigned."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hi team,\n\nLet's go after this R21. In our LAPSES cohort, we clearly saw that sleep regularity drops during early adolescence and is linked to higher BMI z-scores. Now it's time to take the next step and look at broader cardiometabolic risk, specifically blood pressure, which we haven't measured before.\n\nSince we have great partnerships with the local FQHCs, we want to run a 6-week sleep-extension intervention. We'll recruit 60 rural adolescents and prospectively assign half to a behavioral sleep-coaching program and the other half to a waitlist control. We will use our ActiGraph GT9X Links to measure their sleep timing and regularity, and we'll partner with the clinic nurses to measure their blood pressure before and after the intervention to see if improving sleep regularity lowers cardiometabolic risk.\n\nThis is a new direction for our lab since we haven't done cardiovascular assessments or interventions before, so it fits the exploratory R21 mechanism perfectly. It will give us the feasibility data we need to see if we can actually change sleep behavior before we pitch a massive R01.\n\nFor the budget, to make sure we can cover the participant incentives and buy the ambulatory blood pressure monitors for the clinics, let's request $300,000 in direct costs spread across the two years.\n\nLet me know if you need anything else from the LAPSES final report or our community engagement notes to draft the aims and strategy.",
+        "traps": [
+          {
+            "description": "The brief proposes a 6-week sleep-extension intervention prospectively assigning adolescents to a sleep-coaching program or control group; the call explicitly states \"Clinical trials as defined by NIH are not allowed\" and limits responsive designs to those \"without prospective assignment to interventions\".",
+            "expected_behaviour": "The proposal must describe an observational, formative, or secondary-data study without prospectively assigning human participants to an intervention (e.g., an observational feasibility study of concurrent actigraphy and blood pressure monitoring).",
+            "type": "T05"
+          },
+          {
+            "description": "The brief suggests requesting $300,000 in direct costs across the two years; the call states that direct costs must be \"At most USD 275,000 across the project\".",
+            "expected_behaviour": "If costs are mentioned, the requested direct costs must be stated as at or below USD 275,000 across the entire project period."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2; Task 6",
+          "where": "data/public/tasks/pub-nih-sleepcardio-close/task.yaml, T1 expected_behaviour: \"without prospectively assigning human participants to an intervention\".",
+          "problem": "T05 correctly identifies the therapeutic sleep-coaching/BP-effect trial, but its response rule prohibits any assigned intervention, without requiring a health-effect evaluation. It can reject ancillary measurement-order or non-therapeutic usability work while the main study is observational. The 2026 NIH intervention definition explicitly includes information-gathering procedures, so the blanket wording is especially misleading. The call's trial prohibition is not a ban on every research procedure.",
+          "fix": "Replace expected_behaviour with: 'Remove the assigned sleep-coaching/waitlist study and its evaluation of effects on blood pressure. In Specific Aims and Approach, propose a responsive non-clinical-trial design that meets the call's sleep-exposure and cardiometabolic requirements. Observational follow-up, secondary analysis, and appropriately bounded measurement or usability work are acceptable. Do not prospectively assign participants to a therapeutic sleep change to evaluate its health-related effects; do not reject a design merely because measurement procedures or non-health-effect usability tasks are assigned.'",
+          "evidence": [
+            "data/public/calls/nih-r21-sleepcardio/call.md",
+            "https://grants.nih.gov/policy-and-compliance/policy-topics/clinical-trials/definition",
+            "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-063.html",
+            "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-067.html",
+            "tools/authoring/design_v2.md",
+            "docs/task_review_checklist.md"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 6",
+          "where": "data/public/tasks/pub-nih-sleepcardio-close/brief.md: \"let's request $300,000 in direct costs spread across the two years\"; task.yaml now contains only the clinical-trial trap.",
+          "problem": "The hidden NIH budget trap was dropped, but its above-cap bait remains in the brief. Neither a funding request nor a budget response is required in this narrative, so omission cannot demonstrate that the writer noticed and corrected it. The remaining unkeyed budget conflict defeats the adopted decision to remove undecidable NIH budget traps and can punish voluntary budget mentions differently from silent omission.",
+          "fix": "Replace the sentence with 'Keep the study at a scale supportable within the R21 direct-cost ceilings, including any new measurement equipment and participant incentives.' Do not restore a T01 trap or require a funding request in Aims/Strategy.",
+          "evidence": [
+            "data/public/tasks/pub-nih-sleepcardio-close/task.yaml",
+            "data/public/calls/nih-r21-sleepcardio/call.md",
+            "tools/authoring/design_v2.md",
+            "docs/scoring_spec.md"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

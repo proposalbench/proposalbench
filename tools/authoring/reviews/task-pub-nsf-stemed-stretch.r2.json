@@ -1,0 +1,24 @@
+{
+  "kind": "task",
+  "id": "pub-nsf-stemed-stretch",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "cv_pi.md, prior_project.md, and publications.md",
+      "problem": "There is a chronological paradox regarding the IRB approval. The CV and project report state that the user study and FeedbackCalib-Code dataset were conducted under IRB Protocol #LU-2026-0087, approved in April 2026. However, the FeedbackCalib dataset was published in NeurIPS 2025 (Publication 4), and the user study was published in AAAI 2026 (Publication 3, which would have been submitted in mid-2025). A dataset and study cannot be published before their IRB protocol is approved.",
+      "fix": "Change the IRB protocol approval date in `cv_pi.md` and `prior_project.md` to an earlier date, such as October 2024 (e.g., Protocol #LU-2024-0087), so it precedes the 2025 submissions. Update Fact F19 in `dossier.yaml` to match the new date and protocol number."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, cv_pi.md, and resources_team.md",
+      "problem": "Several salient resources with specific numbers that a proposal might quote to demonstrate adequate support are missing from the facts registry. These include the Lakeridge University Faculty Startup grant ($85,000), Google Cloud credits ($12,000), local lab servers (2 workstations with 2x RTX 4090 GPUs), and departmental support (1 RA line).",
+      "fix": "Add these resources as facts to the `facts` list in `dossier.yaml`."
+    }
+  ]
+}

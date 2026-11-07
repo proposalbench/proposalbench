@@ -1,0 +1,5 @@
+id: direct-cc-claude-opus-5.5
+kind: cli
+# Model track: the direct baseline prompt through Claude Code in print mode, tools disabled,
+# baseline system prompt (one call). Default reasoning settings.
+cli: {tool: claude, model: claude-opus-5-5, mode: direct, timeout_s: 3600}

@@ -1,0 +1,59 @@
+{
+  "kind": "task",
+  "id": "pub-erc-notarial-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "All dossier files, brief.md and task.yaml: personal names",
+      "problem": "The people do not meet the explicit coined-name requirement. Oriol, Lorenzo, Mireia and Dídac are established given names; Guinovart, Balcells, Squarcione, Castellnou and Llorca are established surnames. A fictional-document notice does not satisfy the requirement to invent distinctive given names and surnames.",
+      "fix": "Replace the personal names with distinctive coined names throughout the documents, publication author lists, registry and trap descriptions."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "task.yaml: T2 expected_behaviour",
+      "problem": "The requirement that the proposal 'does not mention using parish registers' can reject a correct proposal that explicitly discusses and rejects the applicant's suggestion. The suggested alternative also changes the question: marriage contracts can inform dowries and economic status, but do not by themselves establish an exact date of widowhood. The expected behaviour does not clearly distinguish rejecting an unsupported source strategy from abandoning the demographic question.",
+      "fix": "Require the proposal to reject reliance on systematic parish registers for the specified corpus, while permitting explicit discussion of that limitation. Require a qualified strategy using available notarial evidence, with uncertain or interval-censored widowhood dates where necessary; do not treat marriage contracts as automatically establishing widowhood dates."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 2; Dossier 5",
+      "where": "informe_proyecto_previo.md §3.1 and task.yaml: T2",
+      "problem": "The source statement concerns the prior notarial study, whereas the proposed project extends to several regions. It states that systematic parish registers are absent, which is narrower than establishing that no potentially relevant parish material exists anywhere in the expanded geography. The trap turns this into a categorical prohibition without supplying a geographically defined source assessment.",
+      "fix": "State the source limitation for the proposed regions and period explicitly, or narrow the expected behaviour to rejecting the proposed systematic linkage and promise of exact widowhood dates. Allow verification of exceptional surviving material as planned exploratory work."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml: facts",
+      "problem": "The registry omits numerous salient results, limitations and resource conditions. Examples include the 12,540 instruments, 3,450 individuals, 15,800 edges, 1,450,000-sueldo total, creditor and debtor denominators, loan means with sample sizes and standard deviations, HTR confidence intervals and character counts, NLP F1 estimates and intervals, and the 45/750 identity errors. It also omits the parish-register limitation underlying T2, the unconfirmed dowry mechanism, corpus languages, restricted image access, noncommercial licensing, storage capacity and planned appointments.",
+      "fix": "Add source-linked facts for all proposal-relevant estimates with their uncertainty and denominators, methodological limitations, access and licensing conditions, existing resources and planned recruitment. Register the source limitation supporting T2 explicitly."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "informe_proyecto_previo.md §2.3: identity-resolution error propagation",
+      "problem": "The report transfers a 6.0% error rate among homonym-disambiguation decisions directly to 6.0% of network edges. These are different units and potentially different populations. Identity merges and splits can affect several incident edges together; randomly reassigning individual edges does not establish a calibrated uncertainty estimate for those errors. The reported ±0.002 also lacks a defined interval level and statistical interpretation.",
+      "fix": "Describe an empirically calibrated node-merge and node-split simulation that maps adjudicated identity errors to affected records and edges. Define the centrality estimand and interval calculation. Alternatively, label the existing calculation as an illustrative perturbation sensitivity analysis rather than an estimated uncertainty margin."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 1; Task 3",
+      "where": "brief.md: 'contrataremos a Dídac como postdoc en cuanto lea la tesis en enero'; equipo_y_recursos.md: future-project funding",
+      "problem": "The brief schedules the postdoctoral appointment immediately after the anticipated January 2027 defence, but the proposed funding application is not due until March 2027. No funding for an appointment before the award is identified. The instruction therefore cannot be implemented as written using the stated resources.",
+      "fix": "Make the appointment conditional on both successful defence and the start of the awarded project. If immediate January recruitment is essential, document a separate secured funding source and its duration."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 7",
+      "where": "informe_proyecto_previo.md and publicaciones.md: document dates",
+      "problem": "Neither document has an issue or update date. The project's 2021–2024 execution period and the publications' bibliographic years do not date the documents themselves. This fails the explicit requirement that dossier documents be dated no later than September 2026 and leaves the currency of publication and repository statuses unspecified.",
+      "fix": "Add an explicit issue date to the historical final report and a September 2026 update date to the publication register. Add a dated September 2026 confirmation of current repository access and release statuses where those historical statements are intended to remain current."
+    }
+  ]
+}

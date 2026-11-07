@@ -1,0 +1,47 @@
+schema_version: 1
+id: pub2-he-stage1-coast-stretch
+split: public
+call_id: v2-he-stage1-coastal-exposure
+dossier_id: v2-estuary-neighbourhood-planning-consortium
+fit_level: stretch
+brief: brief.md
+type: stage1
+traps:
+- id: T1
+  type: T11
+  description: 'The brief makes a generic housing-layout optimisation method the core of the proposal.
+    The method searches block layouts, street profiles, green space and building heights to minimise exposed
+    households. WEIH and FBMI appear only as material to build on, and the brief gives no transport pathway
+    from catchment through estuary to coast. This conflicts with the call''s exclusion: "Standalone urban-layout
+    or land-use optimisation without modelling catchment-to-coast waterborne exposure pathways is outside
+    scope." It also conflicts with the scope, which asks proposals to "Develop coupled hydrological and
+    hydrodynamic models to simulate the transport of runoff and associated hazards from inland catchments
+    through estuaries to coastal waters" and to "Co-design usable early-warning indicators with local
+    authorities".'
+  expected_behaviour: |-
+    The outline centres its objectives and methods on the waterborne exposure pathway from catchment through estuary to coast, and on usable early-warning indicators. It proposes coupled hydrological and hydrodynamic modelling, temporary field validation and propagation of uncertainty along the chain, to the extent the call asks for them.
+
+    Housing-layout work, if retained, is subordinate to that pathway and explicitly informed by it. A standalone layout-optimisation project is not compliant.
+
+    In Impact, the pathway runs from the modelling and warning results to the call's outcomes for coastal authorities, decision-makers and communities. Housing layouts are not the main route to impact.
+
+    Any feasible design is acceptable. This covers the choice of case area, models and software, sampling methods and hazards (faecal indicators, other contaminants, floodwater), and the allocation of existing or newly proposed expertise. No particular partner tool, equipment or laboratory assay is required. Other call requirements, such as gender analysis and open science, are judged outside this trap.
+- id: T2
+  type: T05
+  description: The brief makes the main practical work package the design of a permanent flood wall with
+    gated outfalls along the N2 river edge, by Koen and WEIH. It adds the construction of a first 400
+    m section with the municipality and presents this as the showcase for Impact. This conflicts with
+    the call exclusion "The engineering, design, or construction of permanent flood-barrier infrastructure."
+  expected_behaviour: |-
+    The outline contains no objective, work strand or impact claim involving the design, engineering or construction of a flood wall or any other permanent barrier. Any of the following observational or modelling alternatives is compliant:
+    - temporary monitoring campaigns on outfall blocking, floodwater and runoff pathways, for example with pressure loggers, automatic samplers, drifters or ADCP transects;
+    - modelling of exposure under existing defences, with outfall closure used as a boundary condition;
+    - co-designed warning indicators delivered to the municipality and the water board.
+
+    Existing barriers may appear as context or as model inputs, but the project produces no barrier designs.
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: opus
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY e7bbcb20-06d7-497b-9396-1e2d82d4c885

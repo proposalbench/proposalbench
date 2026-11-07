@@ -1,0 +1,31 @@
+{
+  "kind": "dossier",
+  "id": "v2-chemical-sensing-erc-pi",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "team.md, Recruitment; calisorb_summary_report.md, grant duration",
+      "problem": "The advertised four-year WP3 doctoral position is planned to start in January 2027, approximately 16 months before CALISORB ends on 30 April 2028. Its remaining approximately 32 months have no identified funding or host commitment. The dossier therefore does not establish how this advertised appointment can be supported.",
+      "fix": "State the funding source and commitment covering the appointment after April 2028, or revise the advertised duration and recruitment status to reflect the funding actually secured. Register the resulting commitment or funding limitation in dossier.yaml."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts F01–F24",
+      "problem": "The registry omits numerous proposal-relevant quantitative facts and resource limitations: team contract end dates and committed effort; planned doctoral recruitment; reader precision, battery life and cost; chip stock, production capacity and cost; LC-MS/MS access cost; 27-minute assay duration; 90-day storage performance; the eight-hour fouling-study limit; untested mixtures and remaining ERC work; publication totals; and the workshop's cost and screening-use responses. F05 also attributes the absence of additional transfer funding to cv_pi.md, although that statement occurs in the summary report.",
+      "fix": "Add source-linked facts for these results, capacities, commitments and limitations, preserving their exact quantities, qualifications and statuses. Distinguish current resources from prospective availability. Split F05 so that each assertion points to the document that actually states it."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "calisorb_summary_report.md, Methods and Analytical performance; resources_ip_permissions.md, Portable prototype readers",
+      "problem": "The central sensitivity claim needs a physically credible quantitative basis. At the stated diclofenac LOD of 0.06 µg/L, the 10 mL sample delivered during enrichment contains only 0.6 ng of analyte. Detecting this through the direct refractive-index response of a β-cyclodextrin-grafted top layer, using a reader with 0.02 nm peak-position precision, is a demanding claim. The dossier supplies no measured wavelength sensitivity, differential blank noise, effective sensing area or enrichment capacity connecting the assay to that LOD. Standard addition and temperature correction do not themselves establish sufficient optical sensitivity.",
+      "fix": "Supply a mutually consistent measured calibration slope in nm per µg/L, differential blank variability, active sensing geometry and enrichment measurements supporting the LOD and linear range. Explain any improvement of differential precision over the quoted reader precision. If those quantities cannot support the claim, revise the analytical performance or sensing mechanism and propagate the changes through the report and facts registry."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "dossier",
+  "id": "renovation-health-consortium",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Dossier 1: individually searched all 10 full person names; University of Carraventh and its population-health centre; the Portuguese, Slovenian, Belgian, Italian and Brazilian institutions; Dervaneth fund/DHHRF-2020-061; CALDERVANE; and all five journal titles. No relevant exact identity collision found. Search engines sometimes returned unquoted unrelated results; these were not treated as matches. No separately named external dataset is claimed.",
+    "Dossier 2: 432+240=672, 396+216=612; 276/300=92%; 104+196=300; 96+180=276; losses 8+16=24; 84/300=28%; 92 summer days × 9 night-hours=828; staffing 0.6+1+1+1+1+0.2=4.8 FTE. Six expenditure categories sum to EUR 1,221,460; plus returned EUR 26,540 equals EUR 1,248,000. Vulnerability groups are nested, not additional participants.",
+    "Dossier 2/4: 264 baseline, 246 paired overheating dwellings/558 occupants and 276 main-analysis dwellings/612 occupants are distinct consistent analysis populations. 900 room loggers, 300 CO2 monitors and 60 rotating PM monitors in 120 homes (108 paired) are feasible. Renovation chronology 2022 baseline/2023 works/2024 follow-up/2025 analysis/2026 accepted report is coherent.",
+    "Dossier 4: checked environmental and symptom measures against primary studies. Housing-insulation trial measured indoor conditions and health directly (https://pubmed.ncbi.nlm.nih.gov/17324975/); visible-mould study reports adjusted wheeze ORs in the 1.30–3.56 range (https://pubmed.ncbi.nlm.nih.gov/28779500/), making fictional OR 1.62 plausible. The dossier properly labels associations, nonrandom allocation and inability to test pre-trends. Wheeze difference -3.8 pp has a CI crossing zero; no proven benefit is asserted. Literature supports plausibility, not verification of invented observations.",
+    "Dossier 3/5: all 25 non-null fact values appear in their cited files; all substantive status claims reconciled manually. The 400-home extension is ethics-approved but unfunded, uncontracted and entirely unrecruited; no existing heat network or access rights; Brazil contact is not a member; five established EU collaborators remain distinct from national-grant beneficiaries. Existing staff are occupied and equipment inventory is not certified ready.",
+    "Dossier 6/7: five visible publications match every hidden author, title, year, venue and 10.99999/pb. DOI; all documents carry fiction notices and 30 September 2026 status. No result claims extension recruitment or post-cutoff completion. CV dates and academic stage are plausible.",
+    "Dossier 8/9: no declared intentional gaps or inconsistencies and no resubmission/reviewer-criticism material. No accidental conflict found. Read tools/authoring/reviews/dossier-renovation-health-consortium.json and its maintainer review for historical context; old date/name criticisms were not assumed to remain valid."
+  ]
+}

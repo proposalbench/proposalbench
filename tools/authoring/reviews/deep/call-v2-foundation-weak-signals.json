@@ -1,0 +1,18 @@
+{
+  "kind": "call",
+  "id": "v2-foundation-weak-signals",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read call.md, call.yaml and tools/authoring/schemes/foundation_concept.yaml. Explicitly wholly fictional, with no named funder: no invented rule is passed off as an official foundation condition.",
+    "Exact item-text comparison passed for all expected outcomes, scope, exclusions and mandatory elements. Six narrative headings, 1,500 words/3 notional pages, zero tolerance, title/reference exemptions, EUR 25,000–100,000 including indirect costs and 12–24 months agree.",
+    "Verified award weights sum to 100 (30/20/25/15/10), stated 70-point invitation threshold and no subthresholds. Per-item EUR 20,000 equipment exclusion is explicit. Budget outline concerns this grant and separates prospective contributions.",
+    "Methods and expected outcomes are checkable in a concept note; no mandatory work-package or detailed cost annex. A 1,500-word allocation can cover problem/aims, method and decision criteria, team, indicative budget and impact.",
+    "Recovery under missing observations is scientifically plausible; theoretical tests and controlled omission are permitted, as are within-domain projects. Audio inpainting is a documented research method: https://arxiv.org/abs/2206.13768. Spatial recovery under explicit operator/noise assumptions is supported by https://arxiv.org/abs/1707.00808.",
+    "Read the earlier automated reviews. Their claims that an unnamed fictional foundation is inherently impermissible, or that the current call lacks a 12-month minimum, do not apply to the supplied design/current files."
+  ]
+}

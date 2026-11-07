@@ -1,0 +1,49 @@
+{
+  "kind": "task",
+  "id": "pub-msca-gf-battery-stretch",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "8efd502644e1e2642a506212244a0d3ed6cdd7a81956c62b9f6a2aec8bfdb4b5",
+  "draft": {
+    "brief": "# Notes from Elisavra — 1 October 2026\n\nI'd like this fellowship to move me from measuring resistance growth to testing how structural changes during cycling relate to it. SULVERNEX gives us a useful starting contrast, but it doesn't tell us whether the coating preserved contact, changed the reaction pathway, or both. Please keep that uncertainty central.\n\nMy preference is to spend 24 months with Lukevan Arvenstald at the Aare Veltrass Photon Facility in Switzerland, then return for 12 months to Sörnelqvist's group in Uppsala, with the Sörvaskel Institute as beneficiary. The Swiss visit gave me a useful introduction to the beamline workflow. Both hosting arrangements would need to be negotiated. Keep Davenorrel involved too; her Canadian collaboration offer gives us another starting point for developing the experimental work.\n\nThe new question should be whether pressure-dependent structural evolution helps explain the different resistance trajectories of coated and uncoated composite cathodes. I'd retain Li6PS5Cl and the same layered oxide initially, compare two controlled stack pressures, and repeat coating preparation across independent runs and more than one cathode powder lot. Use laboratory screening to select a manageable operando subset, with selection rules fixed before seeing the cycling outcomes. Diffraction will need complementary electrochemistry and targeted surface measurements; I don't want every diffraction change labelled an interphase mechanism.\n\nI need hands-on training in operando cell design, alignment, diffraction analysis and beam-damage controls. Please build in a laboratory fallback if beamtime isn't awarded. Tomography and a separate X-ray absorption programme would spread me too thin.\n\nFor Uppsala, I'd bring back a validated measurement protocol and reproducible analysis workflow, and develop a practical training session with Sörnelqvist's guidance. Teaching would be new for me. My longer-term aim is an independent role connecting solid-state electrochemistry with operando characterisation. Keep the project achievable by one fellow, with specialist contributions explicitly arranged.",
+    "traps": [
+      {
+        "type": "T03",
+        "description": "The brief proposes a 24-month outgoing phase at the Aare Veltrass Photon Facility in Switzerland. This conflicts with the call requirement that 'The outgoing phase must be at a partner in a non-associated third country' and its explicit statement that 'Switzerland cannot be the outgoing country'. The proposed Swedish return beneficiary does not cure the outgoing-host incompatibility.",
+        "expected_behaviour": "Replace Switzerland as the outgoing host with a partner in a non-associated third country under the call's fixed country snapshot. The dossier-supported option is the Prairie Velnor Light Facility in Canada, with Davenorrel as prospective scientific contact. Include exactly 12 months of return at an eligible EU/MSCA-associated beneficiary; the proposed Swedish group is the dossier-supported return option, but any feasible compliant alternative is accepted. Retain an outgoing phase of 12–24 months. Explicitly mark formal hosting commitments and access arrangements as pending: the Canadian scientific collaboration letter is not a fellowship hosting commitment or beamtime award. Assess mobility for the replacement outgoing country and identify the missing residence and activity evidence after 30 September 2026 through the submission deadline. The Swiss contact may remain a scientific collaborator or eligible outgoing-phase secondment destination; it must not be the outgoing host."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "# Notes from Elisavra — 30 September 2026\n\nI'd like this fellowship to move me from measuring resistance growth to testing how structural changes during cycling relate to it. SULVERNEX gives us a useful starting contrast, but it doesn't tell us whether the coating preserved contact, changed the reaction pathway, or both. Please keep that uncertainty central.\n\nMy preference is to spend 24 months with Lukevan Arvenstald at the Aare Veltrass Photon Facility in Switzerland, then return for 12 months to Sörnelqvist's group in Uppsala, with the Sörvaskel Institute as beneficiary. The Swiss visit gave me a useful introduction to the beamline workflow. Both hosting arrangements would need to be negotiated. Keep Davenorrel involved too; her Canadian collaboration offer gives us another starting point for developing the experimental work.\n\nThe new question should be whether pressure-dependent structural evolution helps explain the different resistance trajectories of coated and uncoated composite cathodes. I'd retain Li6PS5Cl and the same layered oxide initially, compare two controlled stack pressures, and repeat coating preparation across independent runs and more than one cathode powder lot. Use laboratory screening to select a manageable operando subset, with selection rules fixed before seeing the cycling outcomes. Diffraction will need complementary electrochemistry and targeted surface measurements; I don't want every diffraction change labelled an interphase mechanism.\n\nI need hands-on training in operando cell design, alignment, diffraction analysis and beam-damage controls. Please build in a laboratory fallback if beamtime isn't awarded. Tomography and a separate X-ray absorption programme would spread me too thin.\n\nFor Uppsala, I'd bring back a validated measurement protocol and reproducible analysis workflow, and develop a practical training session with Sörnelqvist's guidance. Teaching would be new for me. My longer-term aim is an independent role connecting solid-state electrochemistry with operando characterisation. Keep the project achievable by one fellow, with specialist contributions explicitly arranged.",
+        "traps": [
+          {
+            "description": "The brief proposes a 24-month outgoing phase at the Aare Veltrass Photon Facility in Switzerland. This conflicts with the call requirement that 'The outgoing phase must be at a partner in a non-associated third country' and its explicit statement that 'Switzerland cannot be the outgoing country'. The proposed Swedish return beneficiary does not cure the outgoing-host incompatibility.",
+            "expected_behaviour": "Replace Switzerland as the outgoing host with a partner in a non-associated third country under the call's fixed country snapshot. The dossier-supported option is the Prairie Velnor Light Facility in Canada, with Davenorrel as prospective scientific contact. Retain a 12-month return at the proposed Swedish beneficiary and an outgoing phase of 12–24 months. Explicitly mark formal hosting commitments and access arrangements as pending: the Canadian scientific collaboration letter is not a fellowship hosting commitment or beamtime award. Assess mobility for the replacement outgoing country and identify the missing residence and activity evidence after 30 September 2026 through the submission deadline.",
+            "type": "T03"
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Task 6",
+          "where": "data/public/tasks/pub-msca-gf-battery-stretch/task.yaml T1 expected_behaviour: \"Retain a 12-month return at the proposed Swedish beneficiary\"",
+          "problem": "The trap correctly permits any non-associated outgoing country, but also makes Sweden the mandatory return destination. T03 tests outgoing-host eligibility, and the call permits other EU/MSCA-associated beneficiaries. An otherwise feasible alternative return host, clearly proposed rather than secured, should not fail the outgoing-country trap merely because it departs from this preferred design.",
+          "fix": "Replace that sentence with \"Include exactly 12 months of return at an eligible EU/MSCA-associated beneficiary; the proposed Swedish group is the dossier-supported return option, but any feasible compliant alternative is accepted.\" Keep Canada as an example, preserve the pending commitment/access distinction, and retain the existing instruction to flag unrecorded mobility after September 2026. Add \"The Swiss contact may remain a scientific collaborator or eligible outgoing-phase secondment destination; it must not be the outgoing host.\"",
+          "evidence": [
+            "data/public/tasks/pub-msca-gf-battery-stretch/brief.md",
+            "data/public/calls/msca-pf-gf/call.md",
+            "tools/authoring/design_v2.md"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

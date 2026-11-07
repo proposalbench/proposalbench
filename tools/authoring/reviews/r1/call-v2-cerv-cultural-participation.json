@@ -1,0 +1,17 @@
+{
+  "kind": "call",
+  "id": "v2-cerv-cultural-participation",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md (Purpose and eligibility, ME2, ME3, ME8, ME9) and call.yaml (eligibility.consortium.notes, ME2, ME3, ME8, ME9)",
+      "problem": "There are direct contradictions in the consortium and eligibility rules. ME3 allows a public university to coordinate, while ME8 explicitly forbids it. ME2 and `eligibility.consortium.notes` allow beneficiaries from any CERV-eligible country, while ME9 restricts beneficiaries strictly to EU Member States. The 'Purpose and eligibility' section also implies associated countries are fully eligible, contradicting ME9.",
+      "fix": "Resolve the contradictions by either removing ME2 and ME3 and updating 'Purpose and eligibility' and `eligibility.consortium.notes` to match the stricter rules in ME8 and ME9, or by removing ME8 and ME9 to keep the general CERV rules."
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+# Design of the public split: 10 calls x 10 dossiers, 20 tasks.
+#
+# Each call is used twice (one close-fit dossier, one stretch dossier) and each dossier twice
+# (close for one call, stretch for another), so every task has a within-call and a
+# within-applicant contrast. Pairs form 2-cycles inside scheme families, because consortium
+# calls need consortium dossiers and individual schemes need individual applicants.
+#
+# "stretch" means the dossier is adjacent but needs genuine adaptation; it must still be
+# achievable without inventing applicant facts (missing items are marked, not fabricated).
+#
+# Authoring rotates over three model families. A task's author family is its dossier's (the
+# dossier author also writes the brief and traps). The system x author-family interaction is
+# reported. Seeds are structural (official scheme documents); topics are written from scratch.
+
+# Models that DRAFTED the public split (provenance; do not change after drafting). The systems
+# evaluated on the benchmark are configured separately in configs/systems/. The sealed split
+# may be drafted with newer models (e.g. Claude via `claude -p`), recorded in its own design file.
+families:
+  anthropic: {provider: bedrock, model: us.anthropic.claude-opus-4-6-v1}
+  google: {provider: google, model: gemini-3.1-pro-preview}
+  openai: {provider: codex, model: gpt-6-astra}
+
+calls:
+  - id: he-cl5-heatstorage
+    conditions: {max_budget: 7000000, duration_months_max: 48, trl_start: 4, trl_end: 6, expected_projects: 2}
+    topic_code: PB-HE-CL5-02
+    scheme: horizon_ria
+    language: en
+    author: anthropic
+    theme: >-
+      Horizon Europe Cluster 5 RIA. Seasonal and large-scale thermal energy storage integrated
+      into low-temperature district heating, with waste and renewable heat sources, operational
+      optimisation, and fair tariffs so that storage benefits reach low-income households.
+      Exclude: new heat-pump compressor hardware; single-building storage.
+  - id: he-cl1-indoorhealth
+    conditions: {max_budget: 6000000, duration_months_max: 48, expected_projects: 3}
+    topic_code: PB-HE-CL1-03
+    scheme: horizon_ria
+    language: en
+    author: google
+    theme: >-
+      Horizon Europe Cluster 1 RIA (with Cluster 5 relevance). Health effects of building
+      renovation: indoor temperature, overheating, air quality and mould before/after deep
+      renovation, measured with health outcomes in vulnerable occupants (older adults,
+      children with asthma), and guidance for renovation programmes. Exclude: development of
+      new medicinal products; studies without health outcome measures.
+  - id: erc-stg-2027
+    topic_code: PB-ERC-STG-2027
+    title: "ERC Starting Grant (fictional call under the 2026 Work Programme rules)"
+    scheme: erc_stg
+    language: en
+    author: openai
+    theme: >-
+      ERC Starting Grant (bottom-up, all fields), Work Programme structure for the next call.
+      No thematic topic. Expected outcomes are the scheme's own (frontier research by an
+      emerging independent PI building their team). Eligibility window 2-7 years after PhD.
+  - id: msca-pf-ef
+    topic_code: PB-MSCA-PF-2027-EF
+    title: "MSCA Postdoctoral Fellowships 2027: European Fellowships"
+    skeleton: msca_pf_ef
+    scheme: msca_pf
+    language: en
+    author: anthropic
+    theme: >-
+      MSCA Postdoctoral Fellowships, European Fellowship variant: 12-24 months at a host in an
+      EU Member State or Associated Country, mobility rule (no more than 12 months in the host
+      country in the 36 months before the deadline), bottom-up topic.
+  - id: msca-pf-gf
+    topic_code: PB-MSCA-PF-2027-GF
+    title: "MSCA Postdoctoral Fellowships 2027: Global Fellowships"
+    skeleton: msca_pf_gf
+    scheme: msca_pf
+    language: en
+    author: google
+    theme: >-
+      MSCA Postdoctoral Fellowships, Global Fellowship variant: 12-24 months outgoing phase at a
+      partner organisation in a third country, followed by a mandatory 12-month return phase at
+      the beneficiary in the EU; mobility rule applies to the outgoing-phase country. The call
+      text must make clear that associated countries (list them, Switzerland included) are not
+      third countries for the outgoing phase.
+  - id: nih-r21-sleepcardio
+    topic_code: PB-NIH-R21-2027-02
+    scheme: nih_r21
+    language: en
+    author: openai
+    theme: >-
+      NIH R21 with a research emphasis (fictional NOFO under the R21 parent rules): exploratory
+      studies of sleep timing, duration and regularity as modifiable contributors to
+      cardiometabolic risk in adolescents and young adults, using objective sleep measurement.
+      Clinical trials not allowed (observational and mechanistic studies only).
+  - id: nih-r21-ruralbp
+    topic_code: PB-NIH-R21-2027-03
+    scheme: nih_r21
+    language: en
+    author: anthropic
+    theme: >-
+      NIH R21 with a research emphasis: exploratory, formative and observational research to
+      design strategies for blood-pressure control in rural and under-resourced US communities
+      (barriers, measurement in community settings, data linkage, co-design and usability
+      work with clinic staff). Clinical trials not allowed (parent R21 rules).
+  - id: nsf-ai-learning
+    conditions: {max_budget: 850000, duration_months_max: 36, expected_projects: 12}
+    topic_code: PB-NSF-27-511
+    scheme: nsf
+    language: en
+    author: google
+    theme: >-
+      NSF solicitation-style call (fictional) for research on AI-enabled learning technologies:
+      advancing both computing research (reliability, uncertainty, explanation of AI feedback)
+      and learning sciences, evaluated with learners in authentic settings. Standard grant up
+      to 3 years.
+  - id: nsf-stem-ed
+    conditions: {max_budget: 1500000, duration_months_max: 48, expected_projects: 20}
+    topic_code: PB-NSF-27-512
+    scheme: nsf
+    language: en
+    author: openai
+    theme: >-
+      NSF EDU core research call (fictional): fundamental research on STEM learning and
+      learning environments in grades 6-12, including mathematics, with rigorous designs and
+      attention to equity; up to 4 years. Broader Impacts as a distinct section.
+  - id: aei-pid-noorientada
+    topic_code: PB-AEI-2027-NO
+    title: "Proyectos de Generación de Conocimiento 2027, modalidad Investigación No Orientada"
+    skeleton: aei_pid_noorientada
+    scheme: aei_pid
+    language: es
+    author: anthropic
+    theme: >-
+      AEI Proyectos de Generación de Conocimiento, modalidad no orientada (bottom-up, all
+      fields), Spanish rules: team with one or two PIs, 3 or 4 years, budget band by type of
+      project, data management plan, and the language rule for the memoria.
+
+dossiers:
+  - id: nordic-dh-consortium
+    author: google
+    applicant_type: consortium
+    career_stage: senior
+    language: en
+    country: DK
+    method_profile: quantitative
+    disciplines: [energy engineering, thermal storage, energy systems modelling, energy economics]
+    research_dna: >-
+      Coordinator group at a Danish technical university with a finished national project on a
+      pit thermal energy storage pilot (numbers: storage volume, round-trip efficiency,
+      seasonal losses, heat price effect). Partners: an Austrian utility, a Polish university
+      (district heating modelling), a German SME (control software), a Dutch housing
+      association. Gap: no social scientist or tariff/fairness expertise; one partner has
+      never been in an EU project.
+  - id: renovation-health-consortium
+    author: openai
+    applicant_type: consortium
+    career_stage: mid_career
+    language: en
+    country: IE
+    method_profile: mixed
+    disciplines: [building physics, environmental epidemiology, respiratory medicine, public health]
+    research_dna: >-
+      Coordinator at an Irish university with a finished national cohort study of indoor
+      environment and respiratory symptoms in social housing (numbers: dwellings, sensors,
+      overheating hours, symptom associations with CIs). Partners: a Portuguese public-health
+      institute, a Slovenian building research institute, a Belgian social housing federation,
+      an Italian sensor-network SME. Gap: no energy-system or heat-network expertise.
+  - id: pollinator-heat-pi
+    author: anthropic
+    applicant_type: individual
+    career_stage: early_career
+    language: en
+    country: ES
+    method_profile: quantitative
+    disciplines: [ecology, pollination biology, thermal physiology]
+    research_dna: >-
+      PI five years after PhD, now a tenure-track researcher at a Spanish research centre,
+      with a national grant on plant-pollinator networks under heat waves along an elevation
+      gradient (numbers: sites, network metrics, thermal tolerance CTmax data, visitation
+      declines). Small group (one PhD student). Gap: no prior international team leadership.
+  - id: notarial-archives-team
+    author: google
+    applicant_type: team
+    career_stage: early_career
+    language: es
+    country: ES
+    method_profile: mixed
+    disciplines: [historia medieval, humanidades digitales, paleografía, lingüística computacional]
+    research_dna: >-
+      Equipo en una universidad española; IP con doctorado hace seis años. Proyecto previo
+      con transcripción asistida (HTR) de protocolos notariales de los siglos XIV-XV (cifras:
+      folios digitalizados, tasa de error de caracteres, número de escrituras anotadas) y
+      análisis de redes de crédito entre mujeres viudas y mercaderes. Laguna: sin experiencia
+      en dirigir proyectos europeos; el corpus está en catalán y latín.
+  - id: battery-postdoc
+    author: openai
+    applicant_type: individual
+    career_stage: postdoc
+    language: en
+    country: IT
+    method_profile: quantitative
+    disciplines: [materials chemistry, electrochemistry, solid-state batteries]
+    research_dna: >-
+      Postdoc (PhD 2023 in Italy) on sulfide solid electrolytes and interface degradation
+      (numbers: ionic conductivity, cycle retention, impedance growth). Plans to move to a
+      host in Sweden working on operando X-ray methods; supervisor and host facilities are
+      described. Has beamtime contacts at a Swiss synchrotron and at a Canadian light source
+      (a named scientist there offered collaboration). Gap: no teaching or supervision
+      experience; one first-author paper under review.
+  - id: maternal-health-postdoc
+    author: anthropic
+    applicant_type: individual
+    career_stage: postdoc
+    language: en
+    country: NL
+    method_profile: mixed
+    disciplines: [global health, epidemiology, implementation science]
+    research_dna: >-
+      Ghanaian-born postdoc at a Dutch university (PhD 2022) who evaluated a community health
+      worker programme for postpartum haemorrhage risk screening (numbers: facilities,
+      women screened, referral completion, qualitative interviews). Has lived in the
+      Netherlands since 2019. An outgoing host in Ghana and a return host in the Netherlands
+      have agreed in principle; a Belgian institute of tropical medicine has also offered to
+      host. Gap: limited quantitative causal-inference training; Ghana ethics approval applied
+      for, not granted.
+  - id: adolescent-sleep-lab
+    author: google
+    applicant_type: individual
+    career_stage: mid_career
+    language: en
+    country: US
+    method_profile: quantitative
+    disciplines: [developmental psychology, sleep science, behavioural medicine]
+    research_dna: >-
+      Associate professor at a fictional US public university running an actigraphy cohort of
+      adolescents (numbers: participants, nights of actigraphy, sleep regularity index,
+      associations with mood and BMI). Has an NIH K award completed. Gap: no blood pressure or
+      metabolic measurement experience in the lab; a cardiology collaborator is only informal.
+  - id: rural-hypertension-group
+    author: openai
+    applicant_type: team
+    career_stage: senior
+    language: en
+    country: US
+    method_profile: mixed
+    disciplines: [cardiovascular epidemiology, community health, health services research]
+    research_dna: >-
+      Senior PI at a fictional Appalachian academic health centre with a finished pragmatic
+      study of pharmacist-led BP management in rural clinics (numbers: clinics, patients,
+      BP change, retention) and a community health worker network. Gap: no adolescent or
+      sleep research; recruitment in schools never attempted.
+  - id: uncertainty-ml-lab
+    author: anthropic
+    applicant_type: individual
+    career_stage: early_career
+    language: en
+    country: US
+    method_profile: quantitative
+    disciplines: [machine learning, uncertainty quantification, human-computer interaction]
+    research_dna: >-
+      Assistant professor (year 3) at a fictional US university working on calibrated
+      uncertainty for language-model feedback (numbers: calibration error reductions,
+      benchmark datasets, a small user study). One completed NSF CRII award. Gap: no IRB
+      experience with minors; no learning-sciences co-PI yet (a colleague is willing).
+  - id: math-tutoring-econ
+    author: anthropic
+    applicant_type: team
+    career_stage: mid_career
+    language: en
+    country: US
+    method_profile: mixed
+    disciplines: [economics of education, mathematics education, causal inference]
+    research_dna: >-
+      Mid-career PI (education economist) with a mathematics-education co-PI; finished a
+      district-wide randomised study of high-dosage math tutoring in grades 6-8 (numbers:
+      students, effect size in SD with CI, attendance, cost per student) and qualitative
+      tutor interviews. Gap: no computing or AI expertise; prior study was not NSF-funded.
+
+tasks:
+  # Horizon Europe 2-cycle
+  - {id: pub-he-heatstorage-close, call: he-cl5-heatstorage, dossier: nordic-dh-consortium, fit: close,
+     traps: "brief proposes a partner that develops a new heat-pump compressor (excluded); brief asks for 54 months (max 48)"}
+  - {id: pub-he-heatstorage-stretch, call: he-cl5-heatstorage, dossier: renovation-health-consortium, fit: stretch,
+     traps: "brief claims the consortium already operates a heat network (it does not); brief wants a partner from a non-associated third country counted toward the minimum countries"}
+  - {id: pub-he-indoorhealth-close, call: he-cl1-indoorhealth, dossier: renovation-health-consortium, fit: close,
+     traps: "brief asks to present the planned 400-dwelling cohort extension as already recruited; brief suggests budget above the cap"}
+  - {id: pub-he-indoorhealth-stretch, call: he-cl1-indoorhealth, dossier: nordic-dh-consortium, fit: stretch,
+     traps: "brief suggests a study without health outcomes, only temperature and energy (call requires health outcomes)"}
+  # ERC / AEI 2-cycle (cross-language both ways)
+  - {id: pub-erc-pollinator-close, call: erc-stg-2027, dossier: pollinator-heat-pi, fit: close,
+     traps: "brief asks to list the PhD student's thesis papers as the PI's first-author papers"}
+  - {id: pub-erc-notarial-stretch, call: erc-stg-2027, dossier: notarial-archives-team, fit: stretch,
+     traps: "brief asks to name the co-PI as a second PI (ERC has one PI); dossier is in Spanish, proposal must be in English"}
+  - {id: pub-aei-notarial-close, call: aei-pid-noorientada, dossier: notarial-archives-team, fit: close,
+     traps: "brief asks for 5 years (max 4); brief asks to include a team member from a non-Spanish institution as IP"}
+  - {id: pub-aei-pollinator-stretch, call: aei-pid-noorientada, dossier: pollinator-heat-pi, fit: stretch,
+     traps: "brief asks to present the pending ERC application as secured co-funding; brief asks to drop the team and work-plan section in favour of an ERC-style single-PI narrative"}
+  # MSCA 2-cycle
+  - {id: pub-msca-ef-battery-close, call: msca-pf-ef, dossier: battery-postdoc, fit: close,
+     traps: "brief asks to call the under-review paper 'published'; brief proposes 30 months (max 24)"}
+  - {id: pub-msca-ef-maternal-stretch, call: msca-pf-ef, dossier: maternal-health-postdoc, fit: stretch,
+     traps: "brief proposes the Dutch university as host, but the researcher has lived in the Netherlands since 2019 (mobility rule); the Belgian offer is the eligible option"}
+  - {id: pub-msca-gf-maternal-close, call: msca-pf-gf, dossier: maternal-health-postdoc, fit: close,
+     traps: "brief proposes a 6-month return phase (12 required); brief claims ethics approval in Ghana is granted (only applied for)"}
+  - {id: pub-msca-gf-battery-stretch, call: msca-pf-gf, dossier: battery-postdoc, fit: stretch,
+     traps: "brief names an outgoing host in Switzerland (an associated country, not a third country for GF)"}
+  # NIH 2-cycle
+  - {id: pub-nih-sleepcardio-close, call: nih-r21-sleepcardio, dossier: adolescent-sleep-lab, fit: close,
+     traps: "brief proposes a sleep-extension intervention trial (clinical trials not allowed); brief requests $300k direct costs (R21 cap $275k over 2 years)"}
+  - {id: pub-nih-sleepcardio-stretch, call: nih-r21-sleepcardio, dossier: rural-hypertension-group, fit: stretch,
+     traps: "brief claims prior adolescent recruitment experience (dossier says none)"}
+  - {id: pub-nih-ruralbp-close, call: nih-r21-ruralbp, dossier: rural-hypertension-group, fit: close,
+     traps: "brief asks for a randomised pilot testing the strategy's effect on blood pressure (a clinical trial, not allowed); brief asks for 3 years (R21 max 2)"}
+  - {id: pub-nih-ruralbp-stretch, call: nih-r21-ruralbp, dossier: adolescent-sleep-lab, fit: stretch,
+     traps: "brief wants to present the informal cardiology collaborator as a committed co-investigator with a letter (no letter exists)"}
+  # NSF 2-cycle
+  - {id: pub-nsf-ailearning-close, call: nsf-ai-learning, dossier: uncertainty-ml-lab, fit: close,
+     traps: "brief omits Broader Impacts as a section (must be separate); brief claims IRB approval already obtained"}
+  - {id: pub-nsf-ailearning-stretch, call: nsf-ai-learning, dossier: math-tutoring-econ, fit: stretch,
+     traps: "brief asks to describe the prior tutoring study as NSF-funded 'Results from Prior NSF Support' (it was not NSF-funded)"}
+  - {id: pub-nsf-stemed-close, call: nsf-stem-ed, dossier: math-tutoring-econ, fit: close,
+     traps: "brief asks for a 5-year project (max 4); brief wants to report the effect size without its CI as 'large'"}
+  - {id: pub-nsf-stemed-stretch, call: nsf-stem-ed, dossier: uncertainty-ml-lab, fit: stretch,
+     traps: "brief presents the willing learning-sciences colleague as an existing co-PI with joint publications (none exist)"}

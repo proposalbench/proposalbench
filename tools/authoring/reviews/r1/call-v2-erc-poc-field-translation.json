@@ -1,0 +1,80 @@
+{
+  "kind": "call",
+  "id": "v2-erc-poc-field-translation",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md 'Purpose and eligibility' ('Eligible main grants are Starting, Consolidator, Advanced, Synergy and ERC Plus under the 2027 programme'); call.md and call.yaml ME2 ('...ending on or after 1 January 2026, under the 2027 Work Programme')",
+      "problem": "Both passages say the main grant itself must be awarded under the 2027 programme or Work Programme. That misstates the eligibility rule. PoC eligibility is set by the 2027 Work Programme, but the frontier-research grant can come from any earlier ERC work programme. No 2027 frontier grant could be running by a 15 September 2027 cut-off, so a careful system would rule any real dossier PI ineligible. 'Ongoing' also has no reference date, and it is redundant next to 'ending on or after 1 January 2026'.",
+      "fix": "Rewrite both passages as: 'Under the 2027 Work Programme, the PI must lead an ERC Starting, Consolidator, Advanced, Synergy [or ERC Plus, if the WP section confirms it] grant from any earlier work programme that is ongoing or ended on or after 1 January 2026.' Use the same wording in ME2 and in call.md."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml length_contract.source_note ('Tables and captions count.') vs call.md 'Length contract'",
+      "problem": "call.yaml counts tables and captions inside the counted sections, but call.md never says so. A proposal that puts a milestone table or Gantt chart in the approach section cannot tell whether that text counts against its 3,000 words. With zero tolerance, any overrun is disregarded. The counting rule therefore differs between the two files.",
+      "fix": "Add to call.md 'Length contract': 'Text in tables, figures and captions within the idea, approach and leadership sections counts towards that section's limit; only the separately headed risk mitigation table, the title and references are exempt.' Keep the call.yaml note identical."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 3",
+      "where": "call.md 'Length contract' ('The risk mitigation table, title and references are exempt') and 'Risk mitigation table' ('do not use it to hide extra approach prose') vs call.yaml length_contract.exempt [title, references]",
+      "problem": "call.md lists three exempt elements; the call.yaml `exempt` list has two. The risk table drops out only implicitly, through `counted_sections`, so a counter that applies `exempt` to the whole text would count it. The exemption also has no size limit. 'Do not hide extra approach prose' is not checkable, which leaves an unbounded word-free section.",
+      "fix": "Add `risk_table` to `exempt` in call.yaml. In both files, set a concrete bound, e.g. 'at most 12 rows; columns: risk, type (technical/non-technical), likelihood, trigger, response; at most 40 words per cell'. Alternatively, count words beyond 600 in the table against the approach limit."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 1",
+      "where": "call.md 'Purpose and eligibility', 'Award criteria', 'Length contract', 'Sources'; call.yaml length_contract.source_note",
+      "problem": "Several scheme rules are attributed to WP2027 but cited only to the whole WP PDF:\n- ERC Plus as an eligible main grant\n- the cap of 3 PoCs per StG/CoG/AdG/ERC Plus project and 6 per Synergy project\n- the research-integrity bar for the 2025/2026 Work Programmes\n- 0–5 scoring in half points with a threshold of 3 from a majority of experts\n- ranking in the order 1.a > 1.b > 1.c\n- the 10-page limit in 'section 2.1.5.1'\nOnly the last has a section reference, and it appears in call.yaml only. The template sections, the 3/6/1 subdivision and the risk-table exemption come from a 2026 guide. call.md itself says 'the 2027-specific application form subdivision was not independently verified'. Fidelity to the real scheme is therefore asserted, not established. The hedge sentence is also an authoring note shown to systems.",
+      "fix": "In call.md 'Sources', give the WP2027 section or page for each rule listed above, and check the Part B template against the 2027 Information for Applicants. If the 2027 template cannot be obtained, state the 3/6/1 split and the risk-table exemption as benchmark conventions without attributing them to WP2027. Move the 'not independently verified' remark to provenance.notes. Drop any rule (e.g. ERC Plus, the integrity bar) that the cited section does not contain."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml ME6",
+      "problem": "ME6 bundles four demands across two sections: the PI's strategic decisions, the time commitment and project management (leadership section), and the technical and non-technical risks (risk table). One judgement cannot record a proposal that states a time commitment but has no non-technical risks.",
+      "fix": "Split ME6 into two items, in both files:\n- ME6: 'State the PI's time commitment to the PoC (percentage or person-months) and show that, with any ongoing main-grant commitment, it does not exceed 100%; name the decision points the PI owns.'\n- ME7: 'The risk mitigation table lists at least one technical and one non-technical risk, each with a trigger and a specific response.'"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml ME1 ('using only dossier-supported award facts'), ME2 ('an ordinary national grant is not a substitute'), ME4 ('do not claim consent exists unless the dossier supports it')",
+      "problem": "These clauses are benchmark hallucination guards, not funder requirements. They name 'the dossier' inside the call and read as hints at specific traps: a national grant offered as the main grant, and unsupported Synergy consent. ME4 is also conditional and has no rule for non-Synergy PIs, so graders cannot score it consistently.",
+      "fix": "Rewrite in funder language:\n- ME1: 'Identify the ERC main grant (type, acronym, grant number, duration) and the specific result the PoC builds on.'\n- ME2: as in the eligibility fix above, without the national-grant clause.\n- ME4: 'If the main grant is a Synergy grant, state that the other PIs have given written consent.'\nAdd `applies_if: main_grant_type == synergy` to ME4 in call.yaml, or move it to eligibility notes."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml EO1",
+      "problem": "EO1 restates the scheme purpose and overlaps SC1 and ME1. Any PoC proposal satisfies it, so it separates nothing.",
+      "fix": "Make it a concrete outcome, e.g. 'By month 18, deliver evidence (validated prototype or pilot, user or stakeholder tests, IP or freedom-to-operate position) sufficient for a documented go/no-go decision on a named next step (licence, spin-off, follow-on investment or funding, or adoption by a named user group).'"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml ME3 ('explain necessary non-financial resources without an activity-by-cost-category budget breakdown')",
+      "problem": "'Non-financial resources' is undefined: it could mean staff, in-kind access, main-grant infrastructure or partner time. The item also mixes an instruction (state the lump sum) with a prohibition. Real applicants request the lump sum in the administrative forms, so the narrative part is a benchmark convention and should be stated as one.",
+      "fix": "Replace ME3 with: 'State the EUR 150,000 lump sum and 18-month duration, and describe who carries out each activity, at what effort, and which equipment, facilities, data or external services are used (including any provided free of charge by the host or main grant). Do not give a cost breakdown.'"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md 'Award criteria' ('These funder criteria do not replace ProposalBench's component weights'); EX2 ('outside this fictional call (benchmark restriction)'); 'Sources' ('Verified 2026-10-31')",
+      "problem": "Benchmark meta text sits in the funder-facing call:\n- The rubric sentence reveals that a separate weighting exists.\n- EX2 is an invented exclusion outside the categories the checklist allows to be invented.\n- The verification date shown to systems falls after the benchmark's present date of 1 October 2026.",
+      "fix": "Delete the ProposalBench weights sentence. Rephrase EX2 as a paraphrase of the WP's own statement of what PoC funding is for, with its section reference, or drop it. Remove the verification date from call.md and keep it only in provenance."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 3",
+      "where": "call.yaml title ('Proof of Concept: innovation arising from ERC research, window A') vs call.md heading ('# PB2-ERC-POC-01')",
+      "problem": "The call title appears only in call.yaml. 'Window A' implies the first of several cut-offs, yet the only deadline given is 15 September 2027, normally the last PoC cut-off of the year. call.md mentions no windows.",
+      "fix": "Put the same title in the call.md heading. Either drop 'window A' or name the cut-off consistently in both files (e.g. 'cut-off 3, 15 September 2027')."
+    }
+  ]
+}

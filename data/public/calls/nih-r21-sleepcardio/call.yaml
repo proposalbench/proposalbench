@@ -1,0 +1,106 @@
+schema_version: 1
+id: nih-r21-sleepcardio
+scheme: nih_r21
+language: en
+title: Objective Sleep Patterns and Cardiometabolic Risk in Adolescents and Young Adults
+topic_code: PB-NIH-R21-2027-02
+proposal_type: full
+length_contract:
+  max_words: 4200
+  enforcement: inadmissible
+  tolerance: 0.03
+  counted_sections:
+  - aims
+  - strategy
+  exempt:
+  - references
+  - title
+  per_section_max_words:
+    aims: 600
+    strategy: 3600
+  page_limit: 7
+  words_per_page: 600
+  source_note: 'PA-25-304 and the NIH Table of Page Limits specify 1 page of Specific Aims and 6 pages
+    of Research Strategy, separately binding. NIH Format Attachments permits Arial 11 pt on US Letter
+    with minimum 0.5-inch margins, no more than 15 characters per inch and 6 lines per vertical inch.
+    Benchmark estimate: 50 prose lines x 12 words = 600 words/page, allowing paragraph and heading space.
+    Tables count; title and references do not. Section ceilings cannot be pooled. Sources checked 2026-10-30;
+    URLs are in call.md. This conversion is not NIH policy.'
+required_sections:
+- id: aims
+  title: Specific Aims
+- id: strategy
+  title: Research Strategy
+- id: significance
+  title: Significance
+  parent: strategy
+- id: innovation
+  title: Innovation
+  parent: strategy
+- id: approach
+  title: Approach
+  parent: strategy
+expected_outcomes:
+- id: EO1
+  text: Investigators will have evidence of whether objective sleep assessment linked to cardiometabolic
+    measurements yields sufficiently complete and interpretable data in the selected adolescent or young-adult
+    population.
+- id: EO2
+  text: Researchers will have estimates, with uncertainty, that clarify a specified relationship between
+    sleep patterns and cardiometabolic risk, including what remains unresolved when findings do not support
+    the proposed hypothesis.
+- id: EO3
+  text: Investigators planning a larger study will have evidence-based criteria for proceeding, revising
+    the hypothesis or measurement strategy, or discontinuing the proposed line of investigation.
+scope:
+- id: SC1
+  text: Evaluate a bounded hypothesis linking objectively measured sleep timing, duration, or regularity
+    to a specified cardiometabolic phenotype, explaining how correlated sleep characteristics will inform
+    interpretation.
+- id: SC2
+  text: Assess a plausible biological pathway or temporal relationship using observational comparisons,
+    repeated measurements, or existing data, with explicit consideration of confounding and reverse causation.
+- id: SC3
+  text: Determine whether the proposed measurement and recruitment or data-access strategy can support
+    a larger investigation, identifying uncertainties that exploratory findings must resolve.
+exclusions:
+- id: EX1
+  text: Clinical trials as defined by NIH are not allowed.
+mandatory_elements:
+- id: ME1
+  text: Specific objectives and expected scientific contribution appropriate to an exploratory project.
+- id: ME2
+  text: Critical appraisal of the rigor of supporting published or unpublished evidence and an Approach
+    that addresses its weaknesses; preliminary data are optional.
+- id: ME3
+  text: Units of analysis, sample-size rationale, comparisons or controls, measures against bias, and
+    plans for data collection, analysis, and interpretation.
+- id: ME4
+  text: Feasibility strategy, anticipated problems, alternatives, and success criteria achievable within
+    24 months.
+- id: ME5
+  text: Relevant biological variables such as sex and age in design and analysis, with justified restrictions,
+    and inclusion across sex/gender, race, ethnicity and age where human participants are involved.
+- id: ME6
+  text: Explain the scientific use of personnel and resources, including relevant expertise, resource
+    access and the status of planned arrangements.
+- id: ME7
+  text: Use objective sleep measurements to derive the primary sleep exposure, and justify the instrument,
+    recording schedule, and exposure definition for the selected population. Distinguish behavioral sleep
+    timing from endogenous circadian phase; claims about circadian phase require an appropriate phase
+    measure.
+- id: ME8
+  text: Specify sleep-data quality procedures covering valid recording periods, nonwear or signal loss,
+    sleep–wake classification, and missingness. Explain how sampling across school, work, and free days
+    supports the proposed timing, duration, or regularity estimates.
+eligibility:
+  budget_in_narrative: false
+  currency: USD
+  max_budget: 275000
+  duration_months_max: 24
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 75678646-0ef6-4ec2-8cc6-e5bcefe287ad

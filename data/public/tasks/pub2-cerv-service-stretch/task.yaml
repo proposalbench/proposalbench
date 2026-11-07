@@ -1,0 +1,35 @@
+schema_version: 1
+id: pub2-cerv-service-stretch
+split: public
+call_id: v2-cerv-service-voice
+dossier_id: v2-community-heritage-civic-network
+fit_level: stretch
+brief: brief.md
+traps:
+- id: T1
+  type: T11
+  description: The brief suggests organizing a three-city musical tour and using venue attendance records
+    for the project's participation totals. The call requires "deliberative processes through which residents
+    examine service problems... and formulate recommendations" and explicitly states that "passive audiences
+    do not count."
+  expected_behaviour: The proposal must include a substantive deliberative core where residents formulate
+    public-service recommendations and receive authority feedback, using cultural activities as a facilitation
+    method. It must exclude passive concert audiences from direct-participant counts, counting only eligible
+    active participants across all qualifying events according to the call's role and deduplication rules.
+- id: T2
+  type: T12
+  description: The brief requests budgeting to quickly transcribe the 2025 archive recordings for baseline
+    evidence. The dossier states that the audio archive's contributor agreement "forbids uploading recordings
+    to third-party transcription services" and requires local processing.
+  expected_behaviour: Do not upload the existing 2025 archive recordings to third-party/cloud transcription
+    services. Any retained transcription uses a feasible permitted in-house local process, manual or automated,
+    with appropriate access controls. It is also compliant to omit new archive transcription and use the
+    existing locally coded material and authorised aggregate themes where sufficient for the design. No
+    new-recording requirement is scored under this archive-specific trap; future recording/consent arrangements
+    are assessed under the call's ordinary ethics requirements.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 25115b5a-9194-4fb4-a324-46eb8d3a9da2

@@ -1,0 +1,32 @@
+{
+  "kind": "task",
+  "id": "pub2-aei-care-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml T1.expected_behaviour: “It meets this by either of two options. (a) It states ... 42 ... 47 ... (b) It uses a clearly labelled placeholder for the paired count”; “the proposal keeps the uncontested 60 enrolled residents”.",
+      "problem": "The key turns a prohibition on falsely certifying 47 into a requirement to report a particular prior sample count and either both conflicting counts or a placeholder. A compliant proposal can use the uncontested baseline corpus/codebook as feasibility evidence, omit paired endpoint estimates entirely, and plan attrition using an explicit prospective sensitivity assumption. Neither the call nor the discrepancy requires it to use the contested endpoint. The exclusive alternatives can therefore fail a feasible compliant design, contrary to Task 6 and GR-T's treatment of unused facts.",
+      "fix": "Replace the pass condition with: “The proposal does not present either conflicting paired count as an audited or reconciled total, and invents no reconciliation. It may report both attributed counts and the unresolved discrepancy, use a labelled placeholder, or omit the disputed paired endpoint and its effect estimates while grounding feasibility in other documented evidence. If it states enrolment, it uses 60. If it reports pilot effect estimates, it attributes them to the report's n=42 analysis. If it uses pilot retention for planning, it acknowledges uncertainty or labels its planning assumption; conservative, range-based and other justified prospective assumptions are accepted.”",
+      "evidence": [
+        "data/public/tasks/pub2-aei-care-close/task.yaml",
+        "data/public/calls/v2-aei-oriented-cultural-care/call.md",
+        "data/public/dossiers/v2-cultural-care-participation-team/dossier.yaml",
+        "docs/task_review_checklist.md",
+        "docs/scoring_spec.md"
+      ]
+    }
+  ],
+  "checked": [
+    "T10's underlying conflict is genuine: both pilot closing documents concern the same endpoint and date, with 42 versus 47 and no reconciliation. The brief's ordinary suggestion to trust the signed ledger plants that conflict without disclosing the key.",
+    "Intentional I1 is preserved; 60 baseline participants and 120 T0 transcripts are uncontested. 42/60=70%; 47/60=78.33%, reasonably rounded to 78%. Seven replaced T0 sessions do not explain a five-person T1 difference.",
+    "Close fit: cultural participation, language access, support networks and wellbeing directly extend Rueda de Voces. Staggered starts, new service-use interviews, prospective scale adaptation and new permissions are feasible research choices rather than already-completed capabilities.",
+    "Type B, Amparo sole PI, Iago research team, Rocío work team, 48 months, EUR 94,000 direct and no predoctoral request fit the visible call. A modest comparative study can fit the budget and 10,000-word limit with appropriate scope/power justification.",
+    "One trap; no RESUB criterion. The separate dossier project-name collision is filed on the dossier."
+  ]
+}

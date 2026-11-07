@@ -1,0 +1,40 @@
+# Agencia Estatal de Investigación, Proyectos de Generación de Conocimiento (PID2025 call,
+# Annexes I and VII). Memoria sections 1-7. Items are written in English; proposals are judged in
+# their own language and quotes stay in Spanish.
+
+roles:
+  objectives: ["3"]
+  state_of_the_art: ["2"]
+  methods: ["3"]
+  workplan: ["3"]
+  risks: ["3"]
+  team: ["3", "6"]
+  impact: ["4"]
+
+items:
+  - id: AEI01
+    component: call_responsiveness
+    sections: ["2"]
+    taxonomy: [P06, P07]
+    question: Does section 2 state an explicit starting hypothesis (hipótesis de partida) and explain its novelty relative to the state of knowledge?
+    yes: A hypothesis is stated as such and its novelty is argued against prior work. Quote the hypothesis.
+    partial: There are research questions or aims but no explicit hypothesis, or novelty is only asserted.
+    no: Absent.
+
+  - id: AEI02
+    component: call_responsiveness
+    sections: ["3"]
+    taxonomy: [P03, P12]
+    question: If the proposal requests staff to be hired (including a predoctoral contract), does section 3 justify the need, the required qualification and the tasks of that person?
+    yes: Need, qualification and tasks are all stated. Quote it.
+    partial: Only some of these are stated.
+    no: Staff are requested without this justification.
+
+  - id: AEI03
+    component: substance
+    sections: ["5", "3"]
+    taxonomy: [P15]
+    question: Is the requested budget consistent with the work plan (each main cost item serves identified activities, and the amounts are plausible)?
+    yes: Main budget items are tied to specific activities and the amounts are plausible. Quote one budget justification.
+    partial: The budget is justified only in general terms or some items are not tied to activities.
+    no: No coherent link between budget and plan.

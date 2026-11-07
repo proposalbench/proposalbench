@@ -1,0 +1,6 @@
+id: agent-claude-opus-4.6
+kind: agent
+model: {provider: bedrock, id: us.anthropic.claude-opus-4-6-v1, max_output_tokens: 64000}
+# Crossref search with Crossref and Semantic Scholar abstracts. OpenAlex is off: its daily quota
+# is per key and the evaluator's reference checks need it (docs/decision-log.md, 2026-10-31).
+agent: {openalex: false}

@@ -1,0 +1,26 @@
+{
+  "kind": "call",
+  "id": "v2-he-stage1-coastal-exposure",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, Exclusions, first bullet; call.yaml, EX1",
+      "problem": "The exclusion combines two unrelated subjects. 'Offshore cosmology' is not a meaningful research category, and excluding it provides no useful boundary for a catchment-to-coast research topic.",
+      "fix": "Replace EX1 in both files with a scientifically relevant, single exclusion, such as: 'Studies confined to offshore marine processes without examining their connection to catchment-derived waterborne exposure are excluded.'",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, Specific conditions and mandatory elements, sixth bullet; call.yaml, ME6",
+      "problem": "ME6 repeats ME4's requirement to explain the causal route from results to outcomes for beneficiaries. Its section-placement and implementation-detail instructions also repeat the required narrative for section 2.1, leaving no distinct substantive requirement.",
+      "fix": "Remove ME6 from both files. ME4 and the existing section 2.1 instructions already require the relevant impact explanation and establish its location and level of detail.",
+      "part": "topic"
+    }
+  ]
+}

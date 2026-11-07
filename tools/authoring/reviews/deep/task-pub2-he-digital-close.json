@@ -1,0 +1,19 @@
+{
+  "kind": "task",
+  "id": "pub2-he-digital-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read both task files and all paired full-call/robotics-dossier files. Missing explicit type is valid: docs/scoring_spec.md and schema default ordinary tasks to full. Brief date/language agree.",
+    "T01 is decidable in the required 3.1 funding request: EUR 5.8m exceeds the fictional hard EUR 5.0m ceiling. The revised key correctly accepts any feasible scope/resource allocation within the ceiling, not mandatory scope reduction.",
+    "T07 is supported literally by resources_and_infrastructure.md: 30 fleet devices planned, zero acquired, six existing bench robots. Prospective procurement or a smaller prospective validation design both avoid the misrepresentation.",
+    "Close fit is credible: TUF fault/replay evidence, ALV robotics, IMAA microbiology and AKK operations supply the central domains. New SSH/human-factors input and food-specific effectiveness validation can be proposed in the full narrative.",
+    "AKK's refrigeration-control restriction still applies although it is not a planted trap here. A food-logistics demonstrator can use read-only streams, advisory decisions, isolated thermal experiments and gated deployment; no need to assume unrestricted commercial refrigeration control.",
+    "42 months is within the call; food-safety/loss outcomes, operator involvement, public test scenarios, coordinated disclosure and human oversight can coexist in 18,000 words. Budget and robot-status corrections do not require unsupported commitments.",
+    "Confirmed person/project/venue collisions are assigned to the robotics dossier; substitutions must propagate here, including Elias's optional rename. The call's template/length defects are assigned to the call. No task-specific blocker/major remains."
+  ]
+}

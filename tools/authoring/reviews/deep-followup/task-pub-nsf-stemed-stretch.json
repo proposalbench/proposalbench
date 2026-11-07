@@ -1,0 +1,36 @@
+{
+ "kind": "task",
+ "id": "pub-nsf-stemed-stretch",
+ "reviewer_family": "openai+maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2; Task 6",
+   "where": "data/public/tasks/pub-nsf-stemed-stretch/brief.md: “She's been a close collaborator — we've co-authored work ... (you can cite our joint papers ...)”; task.yaml T1.",
+   "problem": "The contradiction is decidable and T08 is the right category, but the premise has the applicant invent a remembered publication history with a person with whom she has never published. This is not a plausible ordinary planning shortcut and fails the explicit realistic-premise rule. Earlier reviews already identified this problem; it remains in the final brief.",
+   "fix": "Replace the co-authorship claim with: “Priya and I have both worked on feedback for years; describe that as our established joint research track record in the team section.” Update T1 description to the conflation of separate relevant expertise with a history of joint work. Expected behaviour should credit complementary expertise, describe the collaboration as prospective/new, and avoid inventing joint publications or a prior joint grant; omission of a retrospective collaboration claim is acceptable. Apply the dossier’s collaborator renaming.",
+   "evidence": [
+    "data/public/tasks/pub-nsf-stemed-stretch/brief.md",
+    "data/public/tasks/pub-nsf-stemed-stretch/task.yaml",
+    "data/public/dossiers/uncertainty-ml-lab/resources_team.md",
+    "tools/authoring/reviews/task-pub-nsf-stemed-stretch.json",
+    "tools/authoring/design_v2.md"
+   ]
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Task 2; Task 6",
+   "where": "data/public/tasks/pub-nsf-stemed-stretch/brief.md: “we can adapt the annotation scheme for math problem-solving responses”; task.yaml T2 “type: T07” and “plan to develop or collect new math-specific data from the target population”.",
+   "problem": "The brief proposes adaptation of an annotation scheme; it does not claim a planned child-math dataset already exists. Such adaptation is compatible with the call’s requirement to justify measures for the target learners. The key turns a legitimate suggestion into a categorical prohibition and forces new data development/collection even though an applicant could validate an adapted scheme, use an appropriate available instrument/dataset with prospective permission, or choose another sound design. No actual T07 planned-as-existing claim is planted, so this trap is unfair as written.",
+   "fix": "Delete T2 from task.yaml and retain the annotation-adaptation idea as ordinary scientific guidance. One trap is permitted; do not manufacture a replacement merely to retain the count. Assess measure validity through the call’s existing SC3 and scientific-quality items. If future authoring adds a genuine T07 trap, it must first plant an explicit, realistic claim that a currently absent resource is already in hand and accept any feasible route to obtain/validate the needed evidence.",
+   "evidence": [
+    "data/public/tasks/pub-nsf-stemed-stretch/brief.md",
+    "data/public/tasks/pub-nsf-stemed-stretch/task.yaml",
+    "data/public/dossiers/uncertainty-ml-lab/prior_project.md",
+    "data/public/dossiers/uncertainty-ml-lab/resources_team.md",
+    "data/public/calls/nsf-stem-ed/call.yaml",
+    "tools/authoring/design_v2.md"
+   ]
+  }
+ ]
+}

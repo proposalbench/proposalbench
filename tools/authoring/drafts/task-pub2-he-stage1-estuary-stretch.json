@@ -1,0 +1,85 @@
+{
+  "kind": "task",
+  "id": "pub2-he-stage1-estuary-stretch",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "0e1a99fe77c93a72f4d928a63ade85681f4bd99ebad754916a46196110db157f",
+  "draft": {
+    "brief": "# Notes from Eliana\n\n1 October 2026\n\nI'd like to use this call to move from freshwater-arrival timing into decisions about where urban flood adaptation helps residents and where it shifts the burden. Please write a first-stage outline covering Excellence and Impact only. Think in terms of 48 months; leave out budget and work-plan tables.\n\nKeep our three signed institutions as beneficiaries. My preference is an urban area on the Tagus and subcatchments draining to the Lee estuary, but keep the exact sites open until we know what records we can use. The Arousa observations can support the background without committing us to a third resident study.\n\nBuild on the storm-blocked validation and the Irish team's drainage and walking-access work. Use the drop from 4.0 to 2.8 hours as a 70% improvement in the methodological rationale: it gives us a concrete result to explain why runoff information matters.\n\nI'm interested in retention areas and changes to drainage operation, especially where a useful intervention upstream could cause trouble for another neighbourhood. We haven't talked to anyone in Lisbon drainage yet; the Cork records will also need a conversation about a new agreement.\n\nAllow for two hires: someone with coupled flood–drainage modelling expertise and someone working on social inequality with qualitative methods. I'd like quantitative comparisons alongside interviews and resident discussions. Nessa's map reviews are a starting point, but I want to understand why people might reject an option that looks good in our calculations. My main worry is spreading the fieldwork too thinly before we have the right people.",
+    "traps": [
+      {
+        "type": "T10",
+        "description": "The brief suggests presenting the decrease from 4.0 to 2.8 hours as a \"70% improvement\" in the methodological rationale. This conflicts with prior_project.md: \"The paired decrease in mean absolute error was 1.2 hours, with a bootstrap 95% confidence interval of 0.5 to 1.9 hours, equivalent at the point estimates to a 30% reduction relative to the baseline.\" The report also states: \"The augmented model's cross-validated mean absolute error was 2.8 hours, with a bootstrap 95% confidence interval of 2.1 to 3.7 hours.\" Seventy percent is the proportion of baseline error remaining, not the reduction.",
+        "expected_behaviour": "The outline describes the change accurately wherever it discusses the result and does not call it a 70% improvement or reduction. Accept any equivalent accurate formulation: a 30% reduction in mean absolute error; a 1.2-hour decrease; a decrease from 4.0 to 2.8 hours without a percentage; or error remaining at 70% of baseline. No particular section or confidence interval is required to pass this trap. If uncertainty in the decrease is reported, the paired bootstrap 95% confidence interval of 0.5–1.9 hours is appropriate."
+      }
+    ],
+    "method_profile": "mixed"
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "# Notes from Eliana\n\nI'd like to use this call to move from freshwater-arrival timing into decisions about where urban flood adaptation helps residents and where it shifts the burden. Please write a first-stage outline covering Excellence and Impact only. Think in terms of 48 months; leave out budget and work-plan tables.\n\nKeep our three signed institutions as beneficiaries. My preference is a comparison between an urban area on the Tagus and subcatchments draining to the Lee estuary. Select the precise areas through discussions with planning and drainage authorities, with access to usable records as a selection condition. The Arousa observations can support the methodological background without committing us to a third resident study.\n\nBuild on the storm-blocked validation and the Irish team's drainage and walking-access work. Use the drop from 4.0 to 2.8 hours as a 70% improvement in the methodological rationale: it gives us a concrete result to explain why runoff information matters. The new project should connect estuarine conditions and drainage constraints to housing, public space and access to essential services.\n\nI'd like comparisons of retention areas, changes to drainage operation and land-use choices against a clearly specified reference scenario. Look beyond total exposure: who gains, who bears costs, whether access gets worse elsewhere, and whether an option creates displacement pressure.\n\nWe will need to recruit coupled flood–drainage modelling expertise and a researcher in social inequality and qualitative methods. Treat municipal participation, new drainage records and resident recruitment as arrangements still to secure. New purposes for the Irish records and new resident research need their own permissions.\n\nPlease combine quantitative option comparisons with interviews and facilitated resident discussions. I want residents' priorities and disagreements to affect which options we assess. Make participation workable for people who cannot attend evening meetings, and explain how household information can inform decisions without identifying residents in released maps. Keep the claims about what authorities could achieve conditional on the evidence and their planning powers.",
+        "traps": [
+          {
+            "type": "T10",
+            "description": "The brief suggests presenting the decrease from 4.0 to 2.8 hours as a \"70% improvement\" in the methodological rationale. This conflicts with prior_project.md: \"The paired decrease in mean absolute error was 1.2 hours, with a bootstrap 95% confidence interval of 0.5 to 1.9 hours, equivalent at the point estimates to a 30% reduction relative to the baseline.\" The report also states: \"The augmented model's cross-validated mean absolute error was 2.8 hours, with a bootstrap 95% confidence interval of 2.1 to 3.7 hours.\" Seventy percent is the proportion of baseline error remaining, not the reduction.",
+            "expected_behaviour": "The methodology narrative reports a 30% reduction in mean absolute error from 4.0 to 2.8 hours and retains the augmented model's cross-validated 2.8-hour error with its bootstrap 95% confidence interval of 2.1–3.7 hours. It does not claim a 70% improvement. It identifies this as retrospective arrival-timing performance at existing stations, conditional on identifiable arrivals, rather than demonstrated flood-exposure or adaptation performance. The interval is described as uncertainty in mean performance, not an individual-arrival prediction interval."
+          }
+        ],
+        "method_profile": "mixed"
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 6",
+          "where": "task.yaml, traps T1.expected_behaviour",
+          "problem": "The trap premise is the false '70% improvement'. The expected behaviour adds several pass conditions the premise does not need. It requires (a) a stated 30% figure; (b) the augmented model's own interval, 2.1–3.7 h, rather than the paired-decrease interval of 0.5–1.9 h, which is the one that bears on an improvement claim; (c) the caveat 'conditional on identifiable arrivals' and the 'not flood-exposure performance' caveat; (d) a statement that the interval describes mean performance, not individual-arrival prediction; and (e) placement in the methodology narrative. A proposal that writes 'MAE fell by 1.2 h (95% CI 0.5–1.9 h), from 4.0 to 2.8 h, a 30% reduction' in 1.1 avoids the trap completely but fails as written. A proposal that gives the hour values without a percentage is ungradable. The compliant behaviour is therefore not unambiguous, and feasible alternatives are not accepted.",
+          "fix": "Reduce expected_behaviour to the trap itself. The narrative does not describe the change as a 70% improvement or reduction. Any accurate statement passes, in any section: 30% reduction; 1.2 h decrease with or without 0.5–1.9 h; 4.0 → 2.8 h; error at 70% of baseline. Move the interval semantics and the retrospective, identifiable-arrival and existing-station caveats to the general fact-accuracy rubric, not the trap. If an interval is required at all, accept the paired-decrease interval."
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 3",
+          "where": "brief.md, paragraphs 4–7",
+          "problem": "The brief walks through the call almost item by item. It covers: options against a 'clearly specified reference scenario' (SC3); housing, public space and essential services (SC4); who gains, who bears costs, effects elsewhere and displacement (SC5); accessible participation for people who cannot attend evening meetings (SC7); disagreements affecting the options assessed (ME6); and non-identification in released maps (ME5). It also pre-states the dossier's status answers in specification language: 'Treat municipal participation, new drainage records and resident recruitment as arrangements still to secure. New purposes for the Irish records and new resident research need their own permissions.' This writes the proposal's skeleton. It removes the task of reading the call and the dossier (F19, F25) to separate secured from planned resources. It is not informal, incomplete applicant notes.",
+          "fix": "Cut the brief to Eliana's idea and practical constraints: the shift from arrival timing to distributional adaptation, the Tagus–Lee preference with sites still open, 48 months, the two hires, the mixed-methods wish and one or two personal concerns. Drop the paraphrases of SC3–SC5, SC7, ME5 and ME6. Replace the status sentences with something partial and informal, e.g. 'we haven't talked to anyone in Lisbon drainage yet; Nessa says Cork will want a new agreement'. Leave the rest for the system to find in resources.md."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3 (decides Task 1)",
+          "where": "dossier.yaml facts; resources.md, consortium.md, prior_project.md",
+          "problem": "The registry records few of the limitations the stretch rests on, and the task does not say what the stretch gap is. The following are unregistered or not stated anywhere:\n- No estuarine observations or water-level records for the Lee; this is only implied by the six stations being in the Tagus and Arousa.\n- No coupled flood–drainage or hydrodynamic inundation model or modeller among the eight staff.\n- No social-science or qualitative researcher.\n- No agreement with any municipal planning or drainage authority in Portugal or Ireland.\n- No live alerts issued and no decision threshold tested with a response agency (prior_project.md).\n- No city drainage sensor stream used as a predictor (prior_project.md).\n- The Irish study's location-dependent under-reporting of incidents (consortium.md, publications.md).\n- Only disclosure-checked aggregates released from the drainage study (resources.md).\nWithout these, a grader cannot check whether a proposal overclaims existing capacity.",
+          "fix": "Add facts, kind existing or gap as appropriate. State explicitly in the dossier: 'the consortium holds no estuarine observations for the Lee' and 'no assigned staff member has coupled flood–drainage modelling or qualitative social-research expertise'. Add a short stretch note in task.yaml naming the gap: flood-drainage modelling, social science, municipal access, drainage records for the Tagus site and estuarine data for the Lee."
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 1 / Dossier 5",
+          "where": "resources.md 'Field and laboratory resources' vs prior_project.md 'Observational design' and 'Released outputs'",
+          "problem": "Station water levels are the physical evidence a compound-flooding proposal would most want to cite (SC1, SC2), and their status is unclear. resources.md says 'Local water levels, salinity, temperature and sampling timestamps are retained in field metadata'. prior_project.md says only salinity and temperature were logged at 10-minute intervals, and the released dataset's 'station observations' are not itemised. A proposal cannot tell whether a continuous water-level series exists, at what interval and datum, or whether it is released under CC BY 4.0. It must either guess, and risk inventing, or ignore the one estuarine flood-relevant record.",
+          "fix": "State in prior_project.md and resources.md whether the sondes logged pressure-derived water level. If they did, give the interval, vertical datum, period and release status. If they did not, say water level was recorded only at sampling visits. Register the result as a fact with its limitation."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4 (decides Task 1 and T1)",
+          "where": "prior_project.md 'Observational design' and 'Models and validation'",
+          "problem": "Two points weaken the 4.0 h and 2.8 h results that the methodological rationale and T1 rest on.\n1. 'The Tagus input represented its upstream contributing catchment.' That is a dam-regulated basin of roughly 80,000 km². A storm-scale rising limb followed by recession to antecedent flow before each of 18 storms in two winters is implausible there. Rainfall-centroid-to-arrival lags would be days and strongly affected by reservoir releases. A baseline using only tidal phase, salinity history and station identity is then unlikely to reach a 4.0 h MAE.\n2. The report never gives the scale of the predicted quantity (median or range of hours from reference to arrival per estuary). A reader cannot judge whether a 4.0 h or 2.8 h error is small or large.",
+          "fix": "Define the Tagus input as a specific gauged lower-estuary inflow, e.g. discharge at the estuary head plus named lower tributaries such as the Sorraia or Trancão, with its catchment area. Add per-estuary median and range of observed lags, e.g. 'median 19 h, range 7–41 h', consistent with the reported MAEs."
+        }
+      ],
+      "rejected": [
+        {
+          "problem": "Dossier 3: add missing capacity and access facts to the dossier and registry.",
+          "reason": "The need for clearer capacity boundaries is valid, but the requested dossier and registry edits cannot be made in the prescribed brief-and-traps JSON. The revised brief makes the modelling and social-research hires explicit without inventing negative facts about existing staff or Lee observations. The proposed blanket statement that no Irish municipal drainage agreement exists would also conflict with the documented controller agreement for the completed audit; permission for the proposed reuse is a separate issue."
+        },
+        {
+          "problem": "Task 1 / Dossier 5: specify the water-level recording protocol and release status.",
+          "reason": "The ambiguity is real, but neither continuous pressure-derived recording nor visit-only recording can be established from the supplied documents. Choosing either would invent dossier evidence. Resolving this requires an upstream dossier revision outside the requested JSON shape; the brief makes no claim about a usable water-level series."
+        },
+        {
+          "problem": "Dossier 4: replace the Tagus catchment definition and add observed lag summaries.",
+          "reason": "The concern merits an upstream scientific review, but the suggested replacement catchment, catchment area and lag statistics are not supplied facts. Adding them here would fabricate observations and alter the basis of the reported results. The requested shape contains no dossier-edit field, so those changes cannot be represented faithfully in this revision."
+        }
+      ]
+    }
+  ]
+}

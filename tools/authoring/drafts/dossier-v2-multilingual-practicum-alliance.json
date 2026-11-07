@@ -1,0 +1,1263 @@
+{
+  "kind": "dossier",
+  "id": "v2-multilingual-practicum-alliance",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "7ef1e53753a77b3968572c99fdb3d2b53c51a8100f6013c7ee4702facda3c3af",
+  "draft": {
+    "applicant_type": "consortium",
+    "career_stage": "mid_career",
+    "disciplines": [
+      "lingüística aplicada",
+      "educación superior",
+      "evaluación del aprendizaje"
+    ],
+    "method_profile": "mixed",
+    "country": "ES",
+    "files": [
+      {
+        "path": "cv_coordinador.md",
+        "role": "cv",
+        "content": "> Documento ficticio creado para ProposalBench.\n\n# Currículum Vitae: Dr. Carlos Mendoza Rivas\n\n**Fecha de actualización:** 15 de septiembre de 2026\n\n## 1. Datos Personales y de Contacto\n- **Nombre completo:** Carlos Mendoza Rivas\n- **Institución actual:** Universidad Pública de Valdencira (UVD), España\n- **Categoría profesional:** Profesor Titular de Universidad\n- **Departamento:** Facultad de Lingüística Aplicada (departamento interno de la UVD)\n- **Correo electrónico:** c.mendoza@uvd.example.invalid\n\n## 2. Perfil Académico y Líneas de Investigación\nSoy investigador en la etapa intermedia de mi carrera (mid-career), especializado en lingüística aplicada, educación superior y evaluación del aprendizaje en entornos multilingües. Mi trabajo se centra en el desarrollo de competencias comunicativas y la evaluación de resultados de aprendizaje mediante metodologías mixtas, combinando el análisis cuantitativo de datos de evaluación con estudios cualitativos sobre la experiencia del estudiante. \n\n## 3. Formación Académica\n- **2012:** Doctorado en Lingüística Aplicada, Universidad Pública de Valdencira (UVD), España. Tesis: *Evaluación de competencias transversales en programas de inmersión lingüística*. Calificación: Sobresaliente Cum Laude.\n- **2008:** Máster en Investigación en Educación Superior, Universidad Pública de Valdencira (UVD), España.\n- **2006:** Licenciatura en Filología, Universidad Pública de Valdencira (UVD), España.\n\n## 4. Trayectoria Profesional\n- **2019 – Presente:** Profesor Titular, Facultad de Lingüística Aplicada, Universidad Pública de Valdencira (UVD).\n- **2014 – 2019:** Profesor Ayudante Doctor, Facultad de Lingüística Aplicada, Universidad Pública de Valdencira (UVD).\n- **2012 – 2014:** Investigador Postdoctoral, Instituto de Evaluación Educativa, Madrid.\n\n## 5. Experiencia en Gestión y Coordinación\n- **2023 – Presente:** Coordinador del Grupo de Innovación Docente en Entornos Multilingües (GIEM-VALDENCIRA) de la UVD.\n- **2024 – 2025:** Investigador Principal (IP) y Coordinador General del proyecto \"Piloto de Prácticas Multilingües\", liderando un consorcio internacional con socios en Portugal y Eslovenia.\n- **2021 – 2023:** Vicedecano de Relaciones Internacionales, Facultad de Lingüística Aplicada, UVD.\n\n## 6. Proyectos de Investigación Financiados (Selección)\n- **Piloto de Prácticas Multilingües (2024–2025):** Proyecto financiado por el Programa de Innovación Educativa de la UVD y fondos propios de las instituciones asociadas. Presupuesto total: 85.000 EUR. Rol: Investigador Principal y Coordinador.\n- **EVAL-LING (2020–2023):** *Nuevas métricas para la evaluación del aprendizaje de segundas lenguas en la educación superior*. Financiado por la Agencia Estatal de Investigación (PID2019-104582RB-I00). Presupuesto: 42.000 EUR. Rol: Investigador Colaborador.\n- **TRAMA-LIN-172 (2017–2019):** *Barreras de acceso lingüístico en aulas universitarias*. Financiado por el Ministerio de Educación. Presupuesto: 28.000 EUR. Rol: Investigador Principal.\n\n## 7. Docencia\nImparto docencia regular en los grados y posgrados de la UVD, destacando las asignaturas de \"Evaluación del Aprendizaje de Lenguas\" (Máster) y \"Metodología de la Investigación en Lingüística Aplicada\" (Grado). He dirigido 4 tesis doctorales (3 defendidas, 1 en curso) y más de 25 trabajos de fin de máster."
+      },
+      {
+        "path": "consorcio_alianza.md",
+        "role": "other",
+        "content": "> Documento ficticio creado para ProposalBench.\n\n# Descripción del Consorcio Institucional\n\n**Fecha del documento:** 10 de septiembre de 2026\n\nEste documento detalla la estructura, el estatus legal y las capacidades de las tres instituciones de educación superior (IES) que conforman nuestra alianza estratégica internacional. \n\n## 1. Estructura General de la Alianza\nEl consorcio está formado por tres instituciones de educación superior independientes, ubicadas en tres países distintos (España, Portugal y Eslovenia). Las tres instituciones son titulares de la Carta Erasmus de Educación Superior (ECHE) en vigor y han existido de forma ininterrumpida desde antes de 2018, contando con una amplia trayectoria en el Espacio Europeo de Educación Superior.\n\nActualmente no contamos con acuerdos previos ni capacidad operativa conjunta con instituciones de otros países del programa que pudieran integrarse como socios de pleno derecho a corto plazo para sustituir a la institución portuguesa o a la eslovena.\n\n## 2. Institución Coordinadora: Universidad Pública de Valdencira (UVD), España\n- **Año de fundación:** 1992 (existente antes de 2018).\n- **Estatus ECHE:** Titular de una carta ECHE válida.\n- **Naturaleza jurídica:** Institución de Educación Superior pública e independiente.\n- **Estructura interna participante:** La participación de la UVD se articula a través de dos de sus facultades: la Facultad de Lingüística Aplicada y la Facultad de Ciencias de la Educación. Ambas facultades operan como departamentos internos de la UVD, sin personalidad jurídica propia ni autonomía financiera, por lo que la universidad actúa a todos los efectos como un único solicitante y coordinador.\n\n## 3. Institución Socia 1: Instituto Superior de Estudos do Mondego (ISEM), Portugal\n- **Año de fundación:** 2001 (existente antes de 2018).\n- **Estatus ECHE:** Titular de una carta ECHE válida.\n- **Naturaleza jurídica:** Institución de Educación Superior independiente.\n- **Perfil:** El ISEM es una institución de referencia en la región centro de Portugal, especializada en ciencias sociales, humanidades y accesibilidad. Aporta al consorcio una sólida experiencia en la integración de estudiantes con barreras de acceso y en el desarrollo de metodologías inclusivas. Su departamento de lenguas modernas cuenta con instalaciones adaptadas que han sido clave en colaboraciones previas.\n\n## 4. Institución Socia 2: Univerza v Savinjski Dolini (USD), Eslovenia\n- **Año de fundación:** 2006 (existente antes de 2018).\n- **Estatus ECHE:** Titular de una carta ECHE válida.\n- **Naturaleza jurídica:** Institución de Educación Superior pública e independiente.\n- **Perfil:** La USD destaca por su enfoque innovador en la evaluación del aprendizaje y la educación superior. Su Instituto de Pedagogía Aplicada ha desarrollado marcos de evaluación de competencias que se integraron con éxito en nuestro proyecto piloto anterior. Aportan el rigor metodológico necesario para la validación de resultados de aprendizaje a nivel transnacional.\n\n## 5. Estado Actual de la Colaboración\nActualmente, existe un acuerdo de colaboración firmado entre la UVD, el ISEM y la USD. Este acuerdo formal cubre exclusivamente el diseño curricular conjunto. A través de este marco, los equipos docentes de las tres instituciones han estandarizado los sílabos y los criterios de evaluación para módulos multilingües.\n\nA fecha de hoy (septiembre de 2026), no se están reclutando nuevos estudiantes para prácticas. La fase de reclutamiento del piloto anterior concluyó en 2025, y el acuerdo actual se limita al mantenimiento y actualización del diseño curricular teórico, a la espera de futuras iniciativas."
+      },
+      {
+        "path": "informe_piloto_2024_25.md",
+        "role": "prior_project",
+        "content": "> Documento ficticio creado para ProposalBench.\n\n# Informe Final: Piloto de Prácticas Multilingües (2024–2025)\n\n**Fecha de publicación del informe:** 5 de septiembre de 2026\n**Coordinador:** Dr. Carlos Mendoza Rivas (UVD)\n\n## 1. Resumen Ejecutivo\nEntre enero de 2024 y diciembre de 2025, la Universidad Pública de Valdencira (UVD, España), el Instituto Superior de Estudos do Mondego (ISEM, Portugal) y la Univerza v Savinjski Dolini (USD, Eslovenia) llevaron a cabo el \"Piloto de Prácticas Multilingües\". El objetivo principal fue evaluar el impacto de un currículo integrado en el desarrollo de competencias lingüísticas y profesionales de estudiantes universitarios.\n\n## 2. Participantes y Muestra\nLa cohorte inicial constó de **120 estudiantes matriculados**, distribuidos equitativamente a razón de 40 estudiantes por cada Institución de Educación Superior (40 en UVD, 40 en ISEM, 40 en USD). \n\nDe esta cohorte, **96 estudiantes proporcionaron evaluaciones emparejadas** (completaron tanto la prueba inicial como la final). Los **24 estudiantes sin evaluación emparejada** causaron baja por motivos médicos, abandono del programa o ausencia el día de la prueba final, representando una atrición del 20% de la muestra original.\n\n## 3. Metodología y Limitaciones\nSe utilizó un diseño pre-post sin grupo de control ni asignación aleatoria. La evaluación consistió en una rúbrica compuesta de 50 puntos (25 para destrezas orales, 25 para interacción profesional) administrada en las tres instituciones. Para permitir la agregación transnacional, las puntuaciones brutas se estandarizaron utilizando la desviación estándar agrupada de la línea base de las tres instituciones. \n\nLos resultados reflejan el cambio intra-sujeto, pero la ausencia de un grupo comparador, la posible familiaridad con la prueba, la maduración de los estudiantes durante el semestre y el sesgo de atrición impiden atribuir causalmente la mejora a la intervención educativa. Además, persisten limitaciones en la comparabilidad exacta de las rúbricas aplicadas en tres idiomas distintos (español, portugués y esloveno).\n\n## 4. Resultados Principales\nEl análisis de los 96 estudiantes con datos emparejados (mediante prueba t pareada) mostró un incremento medio intra-sujeto de **0.24 DE** (desviaciones estándar). El intervalo de confianza del 95% para esta mejora media se sitúa entre **0.05 y 0.43**. \n\nEn el contexto de la evaluación de segundas lenguas en educación superior, un cambio de esta magnitud sugiere un progreso práctico modesto durante el periodo de prácticas, aunque debe interpretarse con cautela dadas las limitaciones metodológicas expuestas.\n\n## 5. Conclusiones y Estado Actual\nEl piloto demostró la viabilidad de implementar un marco de evaluación común en tres países diferentes. Sin embargo, tras la finalización del proyecto en diciembre de 2025, las actividades de campo se detuvieron. Como se documenta en los registros institucionales a fecha de septiembre de 2026, actualmente no se están reclutando nuevos estudiantes para prácticas. El consorcio se encuentra en una fase de consolidación de resultados y mantenimiento del diseño curricular."
+      },
+      {
+        "path": "equipo_y_recursos.md",
+        "role": "team",
+        "content": "> Documento ficticio creado para ProposalBench.\n\n# Descripción del Equipo Docente y Recursos Disponibles\n\n**Fecha:** 20 de septiembre de 2026\n\n## 1. Composición del Equipo Interdisciplinar\nEl equipo de las facultades y departamentos involucrados en la alianza combina perfiles altamente especializados para abordar los retos de la educación superior inclusiva. Las disciplinas principales representadas en nuestro equipo son la lingüística aplicada, la educación superior y la accesibilidad.\n\nEl personal clave incluye:\n- **Dr. Carlos Mendoza Rivas (UVD, España):** Coordinador. Especialista en lingüística aplicada y evaluación del aprendizaje.\n- **Dra. Sofia Taveirães (ISEM, Portugal):** Investigadora principal por parte de Portugal. Experta en accesibilidad cognitiva y barreras de lenguaje en entornos académicos.\n- **Dr. Matej Brinovšek (USD, Eslovenia):** Investigador principal por parte de Eslovenia. Especialista en ciencias de la educación y diseño de rúbricas de evaluación transnacionales.\n- **Dra. Elena Valderquena (UVD, España):** Educadora de artes. Su incorporación al equipo aporta una perspectiva única sobre la expresión creativa y el aprendizaje no verbal. Es la única educadora de artes del consorcio, y su rol es fundamental para explorar rutas de educación artística y práctica profesional.\n- **Prof. Filipe Castanheirães (ISEM, Portugal):** Especialista en tecnologías de apoyo y educación superior inclusiva.\n\n## 2. Recursos Físicos y Pedagógicos Existentes\nLas tres instituciones cuentan con infraestructuras consolidadas para la docencia. Actualmente, disponemos de docencia consolidada en grupos reducidos (aulas de seminario equipadas con tecnología audiovisual básica, diseñadas para ratios de 1 profesor por cada 15 estudiantes). \n\nNuestra evaluación técnica indica que esta docencia en grupos reducidos puede transferirse a estudios colaborativos accesibles. La infraestructura espacial existe, pero requiere una reconceptualización metodológica para funcionar como verdaderos estudios de co-creación.\n\n## 3. Necesidades y Recursos Planificados\nPara superar las barreras de acceso sensorial y lingüístico identificadas durante el piloto 2024-2025, hemos identificado dos áreas críticas que actualmente no están cubiertas y que deben ser planificadas para cualquier futura implementación:\n\n1. **Formación especializada en audiodescripción:** El personal docente actual carece de las competencias técnicas necesarias para proporcionar audiodescripción en tiempo real o en materiales pregrabados. Esta formación especializada para el personal está planificada como una necesidad ineludible.\n2. **Prácticas externas:** Aunque el diseño curricular interno está acordado, las ubicaciones para prácticas externas en empresas o instituciones colaboradoras no están aseguradas en este momento y deben ser planificadas y negociadas desde cero para futuras cohortes."
+      },
+      {
+        "path": "publicaciones.md",
+        "role": "publications",
+        "content": "> Documento ficticio creado para ProposalBench.\n\n# Listado de Publicaciones Relevantes del Equipo\n\n**Fecha:** 1 de septiembre de 2026\n\n1. Mendoza Rivas, C., & Taveirães, S. (2025). \"Evaluación de competencias en entornos multilingües: lecciones de un estudio cuasiexperimental en educación superior\". *Revista Iberoamericana de Lingüística y Evaluación*, 14(2), 112-130. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2025.1\n\n2. Brinovšek, M., Mendoza Rivas, C., & Castanheirães, F. (2025). \"El impacto de la docencia en grupos reducidos en la retención de estudiantes con barreras lingüísticas\". *Journal of Practicum Language Access*, 8(1), 45-62. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2025.2\n\n3. Valderquena, E., & Mendoza Rivas, C. (2024). \"Integración de la educación artística en currículos de lingüística aplicada: un enfoque de co-creación\". *Cuadernos de Pedagogía Universitaria y Artes*, 22(4), 88-105. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2024.1\n\n4. Taveirães, S., Castanheirães, F., & Brinovšek, M. (2024). \"Diseño curricular conjunto en el Espacio Europeo de Educación Superior: retos de estandarización\". *Revista de Políticas de Educación Superior*, 19(3), 210-228. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2024.2"
+      }
+    ],
+    "facts": [
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "El consorcio está formado por tres instituciones de educación superior independientes en España, Portugal y Eslovenia.",
+        "value": "tres",
+        "salient": true,
+        "source": "consorcio_alianza.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Las tres instituciones son titulares de la Carta Erasmus de Educación Superior (ECHE) en vigor.",
+        "value": null,
+        "salient": true,
+        "source": "consorcio_alianza.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Las tres instituciones de educación superior han existido desde antes de 2018.",
+        "value": "2018",
+        "salient": true,
+        "source": "consorcio_alianza.md"
+      },
+      {
+        "category": "identity",
+        "kind": "existing",
+        "text": "La Universidad Pública de Valdencira fue fundada en 1992 y es una institución pública e independiente.",
+        "value": "1992",
+        "salient": true,
+        "source": "consorcio_alianza.md"
+      },
+      {
+        "category": "identity",
+        "kind": "existing",
+        "text": "El Instituto Superior de Estudos do Mondego fue fundado en 2001 y es una institución independiente.",
+        "value": "2001",
+        "salient": true,
+        "source": "consorcio_alianza.md"
+      },
+      {
+        "category": "identity",
+        "kind": "existing",
+        "text": "La Univerza v Savinjski Dolini fue fundada en 2006 y es una institución pública e independiente.",
+        "value": "2006",
+        "salient": true,
+        "source": "consorcio_alianza.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "La Facultad de Lingüística Aplicada y la Facultad de Ciencias de la Educación operan como departamentos internos de la UVD, sin personalidad jurídica propia.",
+        "value": null,
+        "salient": true,
+        "source": "consorcio_alianza.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "No contamos con acuerdos previos ni capacidad operativa conjunta con instituciones de otros países que pudieran integrarse a corto plazo.",
+        "value": null,
+        "salient": true,
+        "source": "consorcio_alianza.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Existe un acuerdo de colaboración firmado que cubre exclusivamente el diseño curricular conjunto.",
+        "value": null,
+        "salient": true,
+        "source": "consorcio_alianza.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "La cohorte inicial del piloto constó de 120 estudiantes matriculados.",
+        "value": "120",
+        "salient": true,
+        "source": "informe_piloto_2024_25.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Se matricularon 40 estudiantes por cada institución (UVD, ISEM, USD).",
+        "value": "40",
+        "salient": true,
+        "source": "informe_piloto_2024_25.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "De los matriculados, 96 estudiantes proporcionaron evaluaciones emparejadas.",
+        "value": "96",
+        "salient": true,
+        "source": "informe_piloto_2024_25.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Hubo 24 estudiantes sin evaluación emparejada debido a bajas, abandonos o ausencias.",
+        "value": "24",
+        "salient": true,
+        "source": "informe_piloto_2024_25.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "La evaluación consistió en una rúbrica compuesta de 50 puntos (25 para destrezas orales, 25 para interacción profesional).",
+        "value": "50",
+        "salient": true,
+        "source": "informe_piloto_2024_25.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "El análisis mostró un incremento medio intra-sujeto de 0.24 DE.",
+        "value": "0.24 DE",
+        "salient": true,
+        "source": "informe_piloto_2024_25.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "El intervalo de confianza del 95% para la mejora media se sitúa entre 0.05 y 0.43.",
+        "value": "0.05 y 0.43",
+        "salient": true,
+        "source": "informe_piloto_2024_25.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Se utilizó un diseño pre-post sin grupo de control ni asignación aleatoria.",
+        "value": null,
+        "salient": true,
+        "source": "informe_piloto_2024_25.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Las puntuaciones se estandarizaron utilizando la desviación estándar agrupada de la línea base.",
+        "value": null,
+        "salient": true,
+        "source": "informe_piloto_2024_25.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Actualmente no se están reclutando nuevos estudiantes para prácticas.",
+        "value": null,
+        "salient": true,
+        "source": "informe_piloto_2024_25.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "La Dra. Sofia Taveirães es la investigadora principal por parte de Portugal y experta en accesibilidad cognitiva.",
+        "value": null,
+        "salient": true,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "El Dr. Matej Brinovšek es el investigador principal por parte de Eslovenia y especialista en diseño de rúbricas.",
+        "value": null,
+        "salient": true,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "El Prof. Filipe Castanheirães es especialista en tecnologías de apoyo y educación superior inclusiva.",
+        "value": null,
+        "salient": true,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "El consorcio cuenta con una única educadora de artes, la Dra. Elena Valderquena.",
+        "value": "única",
+        "salient": true,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "La docencia consolidada en grupos reducidos tiene una ratio de 1 profesor por cada 15 estudiantes.",
+        "value": "15",
+        "salient": true,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "La docencia en grupos reducidos puede transferirse a estudios colaborativos accesibles.",
+        "value": null,
+        "salient": true,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "El personal docente actual carece de competencias técnicas para proporcionar audiodescripción.",
+        "value": null,
+        "salient": true,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "resource",
+        "kind": "planned",
+        "text": "Las ubicaciones para prácticas externas no están aseguradas y deben ser planificadas.",
+        "value": null,
+        "salient": true,
+        "source": "equipo_y_recursos.md"
+      },
+      {
+        "category": "budget",
+        "kind": "existing",
+        "text": "El proyecto Piloto de Prácticas Multilingües tuvo un presupuesto de 85.000 EUR.",
+        "value": "85.000 EUR",
+        "salient": true,
+        "source": "cv_coordinador.md"
+      },
+      {
+        "category": "budget",
+        "kind": "existing",
+        "text": "El proyecto EVAL-LING tuvo un presupuesto de 42.000 EUR.",
+        "value": "42.000 EUR",
+        "salient": true,
+        "source": "cv_coordinador.md"
+      },
+      {
+        "category": "budget",
+        "kind": "existing",
+        "text": "El proyecto TRAMA-LIN-172 tuvo un presupuesto de 28.000 EUR.",
+        "value": "28.000 EUR",
+        "salient": true,
+        "source": "cv_coordinador.md"
+      },
+      {
+        "category": "education",
+        "kind": "existing",
+        "text": "El coordinador ha dirigido 4 tesis doctorales: 3 defendidas y 1 en curso.",
+        "value": "3 defendidas, 1 en curso",
+        "salient": true,
+        "source": "cv_coordinador.md"
+      },
+      {
+        "category": "position",
+        "kind": "existing",
+        "text": "El coordinador es Profesor Titular desde 2019.",
+        "value": "2019",
+        "salient": true,
+        "source": "cv_coordinador.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "mendoza2025",
+        "authors": [
+          "Mendoza Rivas, C.",
+          "Taveirães, S."
+        ],
+        "year": 2025,
+        "title": "Evaluación de competencias en entornos multilingües: lecciones de un estudio cuasiexperimental en educación superior",
+        "venue": "Revista Iberoamericana de Lingüística y Evaluación",
+        "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2025.1"
+      },
+      {
+        "key": "brinovsek2025",
+        "authors": [
+          "Brinovšek, M.",
+          "Mendoza Rivas, C.",
+          "Castanheirães, F."
+        ],
+        "year": 2025,
+        "title": "El impacto de la docencia en grupos reducidos en la retención de estudiantes con barreras lingüísticas",
+        "venue": "Journal of Practicum Language Access",
+        "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2025.2"
+      },
+      {
+        "key": "valderquena2024",
+        "authors": [
+          "Valderquena, E.",
+          "Mendoza Rivas, C."
+        ],
+        "year": 2024,
+        "title": "Integración de la educación artística en currículos de lingüística aplicada: un enfoque de co-creación",
+        "venue": "Cuadernos de Pedagogía Universitaria y Artes",
+        "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2024.1"
+      },
+      {
+        "key": "taveiraes2024",
+        "authors": [
+          "Taveirães, S.",
+          "Castanheirães, F.",
+          "Brinovšek, M."
+        ],
+        "year": 2024,
+        "title": "Diseño curricular conjunto en el Espacio Europeo de Educación Superior: retos de estandarización",
+        "venue": "Revista de Políticas de Educación Superior",
+        "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2024.2"
+      }
+    ],
+    "reviewer_criticisms": [],
+    "gaps": [],
+    "inconsistencies": []
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "lingüística aplicada",
+          "educación superior",
+          "evaluación del aprendizaje"
+        ],
+        "method_profile": "mixed",
+        "country": "ES",
+        "files": [
+          {
+            "path": "cv_coordinador.md",
+            "role": "cv",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Currículum Vitae: Dr. Carlos Mendoza Rivas\n\n**Fecha de actualización:** 15 de septiembre de 2026\n\n## 1. Datos Personales y de Contacto\n- **Nombre completo:** Carlos Mendoza Rivas\n- **Institución actual:** Universidad de San Valero (USV), España\n- **Categoría profesional:** Profesor Titular de Universidad\n- **Departamento:** Facultad de Lingüística Aplicada (departamento interno de la USV)\n- **Correo electrónico:** c.mendoza@usv.edu.es\n\n## 2. Perfil Académico y Líneas de Investigación\nSoy investigador en la etapa intermedia de mi carrera (mid-career), especializado en lingüística aplicada, educación superior y evaluación del aprendizaje en entornos multilingües. Mi trabajo se centra en el desarrollo de competencias comunicativas y la evaluación de resultados de aprendizaje mediante metodologías mixtas, combinando el análisis cuantitativo de datos de evaluación con estudios cualitativos sobre la experiencia del estudiante. \n\n## 3. Formación Académica\n- **2012:** Doctorado en Lingüística Aplicada, Universidad de San Valero (USV), España. Tesis: *Evaluación de competencias transversales en programas de inmersión lingüística*. Calificación: Sobresaliente Cum Laude.\n- **2008:** Máster en Investigación en Educación Superior, Universidad de San Valero (USV), España.\n- **2006:** Licenciatura en Filología, Universidad de San Valero (USV), España.\n\n## 4. Trayectoria Profesional\n- **2019 – Presente:** Profesor Titular, Facultad de Lingüística Aplicada, Universidad de San Valero (USV).\n- **2014 – 2019:** Profesor Ayudante Doctor, Facultad de Lingüística Aplicada, Universidad de San Valero (USV).\n- **2012 – 2014:** Investigador Postdoctoral, Instituto de Evaluación Educativa, Madrid.\n\n## 5. Experiencia en Gestión y Coordinación\n- **2023 – Presente:** Coordinador del Grupo de Innovación Docente en Entornos Multilingües (GIDEM) de la USV.\n- **2024 – 2025:** Investigador Principal (IP) y Coordinador General del proyecto \"Piloto de Prácticas Multilingües\", liderando un consorcio internacional con socios en Portugal y Eslovenia.\n- **2021 – 2023:** Vicedecano de Relaciones Internacionales, Facultad de Lingüística Aplicada, USV.\n\n## 6. Proyectos de Investigación Financiados (Selección)\n- **Piloto de Prácticas Multilingües (2024–2025):** Proyecto financiado por el Programa de Innovación Educativa de la USV y fondos propios de las instituciones asociadas. Presupuesto total: 85.000 EUR. Rol: Investigador Principal y Coordinador.\n- **EVAL-LING (2020–2023):** *Nuevas métricas para la evaluación del aprendizaje de segundas lenguas en la educación superior*. Financiado por la Agencia Estatal de Investigación (PID2019-104582RB-I00). Presupuesto: 42.000 EUR. Rol: Investigador Colaborador.\n- **INCLU-ED (2017–2019):** *Barreras de acceso lingüístico en aulas universitarias*. Financiado por el Ministerio de Educación. Presupuesto: 28.000 EUR. Rol: Investigador Principal.\n\n## 7. Docencia\nImparto docencia regular en los grados y posgrados de la USV, destacando las asignaturas de \"Evaluación del Aprendizaje de Lenguas\" (Máster) y \"Metodología de la Investigación en Lingüística Aplicada\" (Grado). He dirigido 4 tesis doctorales (3 defendidas, 1 en curso) y más de 25 trabajos de fin de máster."
+          },
+          {
+            "path": "consorcio_alianza.md",
+            "role": "consortium",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Descripción del Consorcio Institucional\n\n**Fecha del documento:** 10 de septiembre de 2026\n\nEste documento detalla la estructura, el estatus legal y las capacidades de las tres instituciones de educación superior (IES) que conforman nuestra alianza estratégica internacional. \n\n## 1. Estructura General de la Alianza\nEl consorcio está formado por tres instituciones de educación superior independientes, ubicadas en tres países distintos (España, Portugal y Eslovenia). Las tres instituciones son titulares de la Carta Erasmus de Educación Superior (ECHE) en vigor y han existido de forma ininterrumpida desde antes de 2018, contando con una amplia trayectoria en el Espacio Europeo de Educación Superior.\n\nEs fundamental señalar que **no existe ninguna alternativa de un tercer país** con la que tengamos acuerdos previos o capacidad operativa que pueda sustituir a la institución portuguesa o a la eslovena en caso de que alguna de ellas fuera eliminada del consorcio. La viabilidad de nuestra colaboración transnacional depende estrictamente de esta configuración tripartita.\n\n## 2. Institución Coordinadora: Universidad de San Valero (USV), España\n- **Año de fundación:** 1992 (existente antes de 2018).\n- **Estatus ECHE:** Titular de una carta ECHE válida.\n- **Naturaleza jurídica:** Institución de Educación Superior pública e independiente.\n- **Estructura interna participante:** La participación de la USV se articula a través de dos de sus facultades: la **Facultad de Lingüística Aplicada** y la **Facultad de Ciencias de la Educación**. Es imperativo aclarar que ambas facultades son **departamentos internos de la USV, no entidades separadas**. No poseen personalidad jurídica propia ni autonomía financiera independiente de la universidad matriz. A efectos legales y de consorcio, la USV actúa como un único solicitante y coordinador.\n\n## 3. Institución Socia 1: Instituto Superior de Estudos do Mondego (ISEM), Portugal\n- **Año de fundación:** 2001 (existente antes de 2018).\n- **Estatus ECHE:** Titular de una carta ECHE válida.\n- **Naturaleza jurídica:** Institución de Educación Superior independiente.\n- **Perfil:** El ISEM es una institución de referencia en la región centro de Portugal, especializada en ciencias sociales, humanidades y accesibilidad. Aporta al consorcio una sólida experiencia en la integración de estudiantes con barreras de acceso y en el desarrollo de metodologías inclusivas. Su departamento de lenguas modernas cuenta con instalaciones adaptadas que han sido clave en colaboraciones previas.\n\n## 4. Institución Socia 2: Univerza v Savinjski Dolini (USD), Eslovenia\n- **Año de fundación:** 2006 (existente antes de 2018).\n- **Estatus ECHE:** Titular de una carta ECHE válida.\n- **Naturaleza jurídica:** Institución de Educación Superior pública e independiente.\n- **Perfil:** La USD destaca por su enfoque innovador en la evaluación del aprendizaje y la educación superior. Su Instituto de Pedagogía Aplicada ha desarrollado marcos de evaluación de competencias que se integraron con éxito en nuestro proyecto piloto anterior. Aportan el rigor metodológico necesario para la validación de resultados de aprendizaje a nivel transnacional.\n\n## 5. Estado Actual de la Colaboración\nActualmente, existe un **acuerdo de colaboración firmado** entre la USV, el ISEM y la USD. Este acuerdo formal cubre exclusivamente el **diseño curricular conjunto**. A través de este marco, los equipos docentes de las tres instituciones han estandarizado los sílabos y los criterios de evaluación para módulos multilingües.\n\nCabe destacar que, a fecha de hoy (septiembre de 2026), **no se están reclutando nuevos estudiantes para prácticas**. La fase de reclutamiento del piloto anterior concluyó en 2025, y el acuerdo actual se limita al mantenimiento y actualización del diseño curricular teórico, a la espera de futuras iniciativas que permitan reactivar la movilidad y las prácticas aplicadas."
+          },
+          {
+            "path": "informe_piloto_2024_25.md",
+            "role": "prior_project",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Informe Final: Piloto de Prácticas Multilingües (2024–2025)\n\n**Fecha de publicación del informe:** 5 de septiembre de 2026\n**Coordinador:** Dr. Carlos Mendoza Rivas (USV)\n\n## 1. Resumen Ejecutivo\nEntre enero de 2024 y diciembre de 2025, la Universidad de San Valero (USV, España), el Instituto Superior de Estudos do Mondego (ISEM, Portugal) y la Univerza v Savinjski Dolini (USD, Eslovenia) llevaron a cabo el \"Piloto de Prácticas Multilingües\". El objetivo principal fue evaluar el impacto de un currículo integrado en el desarrollo de competencias lingüísticas y profesionales de estudiantes universitarios, utilizando un enfoque de evaluación del aprendizaje basado en evidencias.\n\n## 2. Participantes y Muestra\nEl programa piloto contó con una cohorte total de **120 estudiantes matriculados**. Para garantizar la equidad y la comparabilidad entre los socios del consorcio, la distribución fue exactamente de **40 estudiantes por cada Institución de Educación Superior (IES)** (40 en USV, 40 en ISEM, 40 en USD).\n\nEs crucial distinguir entre el número total de estudiantes matriculados y aquellos que completaron el ciclo completo de evaluación:\n- **120 estudiantes matriculados** en total.\n- **96 estudiantes proporcionaron evaluaciones emparejadas** (es decir, completaron tanto la prueba de nivel inicial como la evaluación final de competencias tras las prácticas).\n- **24 estudiantes sin evaluación emparejada**. Es importante mantener visibles a estos 24 estudiantes en los registros del proyecto. La ausencia de datos emparejados en este subgrupo se debió a diversas razones (bajas médicas, abandono del programa piloto, o ausencia el día de la prueba final), pero formaron parte integral de la cohorte matriculada y recibieron la docencia inicial.\n\n## 3. Metodología de Evaluación\nSe utilizó un diseño pre-post para medir la mejora en las competencias comunicativas y profesionales. Las pruebas fueron diseñadas conjuntamente bajo el acuerdo de diseño curricular de la alianza y administradas en las tres instituciones. \n\n**Limitaciones metodológicas:** El estudio se llevó a cabo **sin asignación aleatoria**. Los estudiantes se inscribieron voluntariamente en el piloto, lo que introduce un posible sesgo de autoselección. Los resultados deben interpretarse teniendo en cuenta esta limitación fundamental del diseño cuasiexperimental.\n\n## 4. Resultados Principales\nEl análisis estadístico se centró en los 96 estudiantes con evaluaciones emparejadas. Los resultados indican un impacto positivo y medible de la intervención educativa:\n\n- **Mejora media:** Se observó una mejora media de **0.24 DE** (Desviaciones Estándar) en las puntuaciones compuestas de competencias multilingües entre la evaluación inicial y la final.\n- **Incertidumbre y precisión:** El intervalo de confianza del 95% para esta mejora media se sitúa entre **0.05 y 0.43** (IC del 95%: 0.05 a 0.43). \n\nEstos datos confirman que, a pesar de las limitaciones metodológicas (ausencia de aleatorización), el piloto logró un tamaño del efecto estadísticamente significativo, aunque de magnitud moderada, en el aprendizaje de los estudiantes.\n\n## 5. Conclusiones y Estado Actual\nEl piloto demostró la viabilidad de implementar un marco de evaluación común en tres países diferentes. Sin embargo, tras la finalización del proyecto en diciembre de 2025, las actividades de campo se detuvieron. Como se documenta en los registros institucionales a fecha de septiembre de 2026, **actualmente no se están reclutando nuevos estudiantes para prácticas**. El consorcio se encuentra en una fase de consolidación de resultados y mantenimiento del diseño curricular."
+          },
+          {
+            "path": "equipo_y_recursos.md",
+            "role": "team",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Descripción del Equipo Docente y Recursos Disponibles\n\n**Fecha:** 20 de septiembre de 2026\n\n## 1. Composición del Equipo Interdisciplinar\nEl equipo de las facultades y departamentos involucrados en la alianza combina perfiles altamente especializados para abordar los retos de la educación superior inclusiva. Las disciplinas principales representadas en nuestro equipo son la **lingüística aplicada**, la **educación superior** y la **accesibilidad**.\n\nEl personal clave incluye:\n- **Dr. Carlos Mendoza Rivas (USV, España):** Coordinador. Especialista en lingüística aplicada y evaluación del aprendizaje.\n- **Dra. Sofía Tavares (ISEM, Portugal):** Investigadora principal por parte de Portugal. Experta en accesibilidad cognitiva y barreras de lenguaje en entornos académicos.\n- **Dr. Matej Kovač (USD, Eslovenia):** Investigador principal por parte de Eslovenia. Especialista en ciencias de la educación y diseño de rúbricas de evaluación transnacionales.\n- **Dra. Elena Vargas (USV, España):** Educadora de artes. Su incorporación al equipo aporta una perspectiva única sobre la expresión creativa y el aprendizaje no verbal. Es la **única educadora de artes** del consorcio, y su rol es fundamental para explorar rutas de educación artística y práctica profesional.\n- **Prof. Tiago Silva (ISEM, Portugal):** Especialista en tecnologías de apoyo y educación superior inclusiva.\n\n## 2. Recursos Físicos y Pedagógicos Existentes\nLas tres instituciones cuentan con infraestructuras consolidadas para la docencia. Actualmente, disponemos de **docencia consolidada en grupos reducidos** (aulas de seminario equipadas con tecnología audiovisual básica, diseñadas para ratios de 1 profesor por cada 15 estudiantes). \n\nNuestra evaluación técnica indica que esta docencia en grupos reducidos **puede transferirse a estudios colaborativos accesibles**. La infraestructura espacial existe, pero requiere una reconceptualización metodológica para funcionar como verdaderos estudios de co-creación.\n\n## 3. Necesidades y Recursos Planificados\nPara superar las barreras de acceso sensorial y lingüístico identificadas durante el piloto 2024-2025, hemos identificado dos áreas críticas que actualmente no están cubiertas y que **deben ser planificadas** para cualquier futura implementación:\n\n1. **Formación especializada en audiodescripción:** El personal docente actual carece de las competencias técnicas necesarias para proporcionar audiodescripción en tiempo real o en materiales pregrabados. Esta formación especializada para el personal (staff development) está planificada como una necesidad ineludible.\n2. **Prácticas externas:** Aunque el diseño curricular interno está acordado, las ubicaciones para prácticas externas (external placements) en empresas o instituciones colaboradoras no están aseguradas en este momento y deben ser planificadas y negociadas desde cero para futuras cohortes."
+          },
+          {
+            "path": "publicaciones.md",
+            "role": "publications",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Listado de Publicaciones Relevantes del Equipo\n\n**Fecha:** 1 de septiembre de 2026\n\n1. Mendoza Rivas, C., & Tavares, S. (2025). \"Evaluación de competencias en entornos multilingües: lecciones de un estudio cuasiexperimental en educación superior\". *Revista Iberoamericana de Lingüística y Evaluación*, 14(2), 112-130. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2025.1\n\n2. Kovač, M., Mendoza Rivas, C., & Silva, T. (2025). \"El impacto de la docencia en grupos reducidos en la retención de estudiantes con barreras lingüísticas\". *European Journal of Inclusive Higher Education*, 8(1), 45-62. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2025.2\n\n3. Vargas, E., & Mendoza Rivas, C. (2024). \"Integración de la educación artística en currículos de lingüística aplicada: un enfoque de co-creación\". *Cuadernos de Pedagogía Universitaria y Artes*, 22(4), 88-105. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2024.1\n\n4. Tavares, S., Silva, T., & Kovač, M. (2024). \"Diseño curricular conjunto en el Espacio Europeo de Educación Superior: retos de estandarización\". *Revista de Políticas de Educación Superior*, 19(3), 210-228. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2024.2"
+          }
+        ],
+        "facts": [
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "El consorcio está formado por tres instituciones de educación superior independientes en España, Portugal y Eslovenia.",
+            "value": "tres",
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Las tres instituciones son titulares de la Carta Erasmus de Educación Superior (ECHE) en vigor.",
+            "value": null,
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Las tres instituciones de educación superior han existido desde antes de 2018.",
+            "value": "2018",
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "La Facultad de Lingüística Aplicada y la Facultad de Ciencias de la Educación son departamentos internos de la USV, no entidades separadas.",
+            "value": null,
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "No existe ninguna alternativa de un tercer país que pueda sustituir a la institución portuguesa o eslovena.",
+            "value": null,
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Existe un acuerdo de colaboración firmado que cubre exclusivamente el diseño curricular conjunto.",
+            "value": null,
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "El piloto de prácticas multilingües 2024-2025 contó con 120 estudiantes matriculados.",
+            "value": "120",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "La distribución de estudiantes en el piloto fue de 40 por cada Institución de Educación Superior.",
+            "value": "40",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "De los matriculados, 96 estudiantes proporcionaron evaluaciones emparejadas.",
+            "value": "96",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Hubo 24 estudiantes sin evaluación emparejada que deben mantenerse visibles en los registros.",
+            "value": "24",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "La mejora media en las evaluaciones emparejadas fue de 0.24 DE.",
+            "value": "0.24 DE",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "El intervalo de confianza del 95% para la mejora media se sitúa entre 0.05 y 0.43.",
+            "value": "0.05 y 0.43",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "El estudio piloto se llevó a cabo sin asignación aleatoria.",
+            "value": null,
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Actualmente no se están reclutando nuevos estudiantes para prácticas.",
+            "value": null,
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "El equipo combina disciplinas de lingüística aplicada, educación superior y accesibilidad.",
+            "value": null,
+            "salient": false,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "El consorcio cuenta con una única educadora de artes, la Dra. Elena Vargas.",
+            "value": "única",
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "La docencia consolidada en grupos reducidos puede transferirse a estudios colaborativos accesibles.",
+            "value": null,
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "Se debe planificar la formación especializada en audiodescripción para el personal docente.",
+            "value": null,
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "Las prácticas externas deben ser planificadas ya que actualmente no están aseguradas.",
+            "value": null,
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "mendoza2025",
+            "authors": [
+              "Mendoza Rivas, C.",
+              "Tavares, S."
+            ],
+            "year": 2025,
+            "title": "Evaluación de competencias en entornos multilingües: lecciones de un estudio cuasiexperimental en educación superior",
+            "venue": "Revista Iberoamericana de Lingüística y Evaluación",
+            "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2025.1"
+          },
+          {
+            "key": "kovac2025",
+            "authors": [
+              "Kovač, M.",
+              "Mendoza Rivas, C.",
+              "Silva, T."
+            ],
+            "year": 2025,
+            "title": "El impacto de la docencia en grupos reducidos en la retención de estudiantes con barreras lingüísticas",
+            "venue": "European Journal of Inclusive Higher Education",
+            "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2025.2"
+          },
+          {
+            "key": "vargas2024",
+            "authors": [
+              "Vargas, E.",
+              "Mendoza Rivas, C."
+            ],
+            "year": 2024,
+            "title": "Integración de la educación artística en currículos de lingüística aplicada: un enfoque de co-creación",
+            "venue": "Cuadernos de Pedagogía Universitaria y Artes",
+            "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2024.1"
+          },
+          {
+            "key": "tavares2024",
+            "authors": [
+              "Tavares, S.",
+              "Silva, T.",
+              "Kovač, M."
+            ],
+            "year": 2024,
+            "title": "Diseño curricular conjunto en el Espacio Europeo de Educación Superior: retos de estandarización",
+            "venue": "Revista de Políticas de Educación Superior",
+            "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2024.2"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "errors": [
+        "dossier does not validate: 1 validation error for Dossier\nfiles.1.role\n  Input should be 'cv', 'prior_project', 'publications', 'resources', 'team' or 'other' [type=literal_error, input_value='consortium', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/literal_error"
+      ]
+    },
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "lingüística aplicada",
+          "educación superior",
+          "evaluación del aprendizaje"
+        ],
+        "method_profile": "mixed",
+        "country": "ES",
+        "files": [
+          {
+            "path": "cv_coordinador.md",
+            "role": "cv",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Currículum Vitae: Dr. Carlos Mendoza Rivas\n\n**Fecha de actualización:** 15 de septiembre de 2026\n\n## 1. Datos Personales y de Contacto\n- **Nombre completo:** Carlos Mendoza Rivas\n- **Institución actual:** Universidad de San Valero (USV), España\n- **Categoría profesional:** Profesor Titular de Universidad\n- **Departamento:** Facultad de Lingüística Aplicada (departamento interno de la USV)\n- **Correo electrónico:** c.mendoza@usv.edu.es\n\n## 2. Perfil Académico y Líneas de Investigación\nSoy investigador en la etapa intermedia de mi carrera (mid-career), especializado en lingüística aplicada, educación superior y evaluación del aprendizaje en entornos multilingües. Mi trabajo se centra en el desarrollo de competencias comunicativas y la evaluación de resultados de aprendizaje mediante metodologías mixtas, combinando el análisis cuantitativo de datos de evaluación con estudios cualitativos sobre la experiencia del estudiante. \n\n## 3. Formación Académica\n- **2012:** Doctorado en Lingüística Aplicada, Universidad de San Valero (USV), España. Tesis: *Evaluación de competencias transversales en programas de inmersión lingüística*. Calificación: Sobresaliente Cum Laude.\n- **2008:** Máster en Investigación en Educación Superior, Universidad de San Valero (USV), España.\n- **2006:** Licenciatura en Filología, Universidad de San Valero (USV), España.\n\n## 4. Trayectoria Profesional\n- **2019 – Presente:** Profesor Titular, Facultad de Lingüística Aplicada, Universidad de San Valero (USV).\n- **2014 – 2019:** Profesor Ayudante Doctor, Facultad de Lingüística Aplicada, Universidad de San Valero (USV).\n- **2012 – 2014:** Investigador Postdoctoral, Instituto de Evaluación Educativa, Madrid.\n\n## 5. Experiencia en Gestión y Coordinación\n- **2023 – Presente:** Coordinador del Grupo de Innovación Docente en Entornos Multilingües (GIDEM) de la USV.\n- **2024 – 2025:** Investigador Principal (IP) y Coordinador General del proyecto \"Piloto de Prácticas Multilingües\", liderando un consorcio internacional con socios en Portugal y Eslovenia.\n- **2021 – 2023:** Vicedecano de Relaciones Internacionales, Facultad de Lingüística Aplicada, USV.\n\n## 6. Proyectos de Investigación Financiados (Selección)\n- **Piloto de Prácticas Multilingües (2024–2025):** Proyecto financiado por el Programa de Innovación Educativa de la USV y fondos propios de las instituciones asociadas. Presupuesto total: 85.000 EUR. Rol: Investigador Principal y Coordinador.\n- **EVAL-LING (2020–2023):** *Nuevas métricas para la evaluación del aprendizaje de segundas lenguas en la educación superior*. Financiado por la Agencia Estatal de Investigación (PID2019-104582RB-I00). Presupuesto: 42.000 EUR. Rol: Investigador Colaborador.\n- **INCLU-ED (2017–2019):** *Barreras de acceso lingüístico en aulas universitarias*. Financiado por el Ministerio de Educación. Presupuesto: 28.000 EUR. Rol: Investigador Principal.\n\n## 7. Docencia\nImparto docencia regular en los grados y posgrados de la USV, destacando las asignaturas de \"Evaluación del Aprendizaje de Lenguas\" (Máster) y \"Metodología de la Investigación en Lingüística Aplicada\" (Grado). He dirigido 4 tesis doctorales (3 defendidas, 1 en curso) y más de 25 trabajos de fin de máster."
+          },
+          {
+            "path": "consorcio_alianza.md",
+            "role": "other",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Descripción del Consorcio Institucional\n\n**Fecha del documento:** 10 de septiembre de 2026\n\nEste documento detalla la estructura, el estatus legal y las capacidades de las tres instituciones de educación superior (IES) que conforman nuestra alianza estratégica internacional. \n\n## 1. Estructura General de la Alianza\nEl consorcio está formado por tres instituciones de educación superior independientes, ubicadas en tres países distintos (España, Portugal y Eslovenia). Las tres instituciones son titulares de la Carta Erasmus de Educación Superior (ECHE) en vigor y han existido de forma ininterrumpida desde antes de 2018, contando con una amplia trayectoria en el Espacio Europeo de Educación Superior.\n\nEs fundamental señalar que **no existe ninguna alternativa de un tercer país** con la que tengamos acuerdos previos o capacidad operativa que pueda sustituir a la institución portuguesa o a la eslovena en caso de que alguna de ellas fuera eliminada del consorcio. La viabilidad de nuestra colaboración transnacional depende estrictamente de esta configuración tripartita.\n\n## 2. Institución Coordinadora: Universidad de San Valero (USV), España\n- **Año de fundación:** 1992 (existente antes de 2018).\n- **Estatus ECHE:** Titular de una carta ECHE válida.\n- **Naturaleza jurídica:** Institución de Educación Superior pública e independiente.\n- **Estructura interna participante:** La participación de la USV se articula a través de dos de sus facultades: la **Facultad de Lingüística Aplicada** y la **Facultad de Ciencias de la Educación**. Es imperativo aclarar que ambas facultades son **departamentos internos de la USV, no entidades separadas**. No poseen personalidad jurídica propia ni autonomía financiera independiente de la universidad matriz. A efectos legales y de consorcio, la USV actúa como un único solicitante y coordinador.\n\n## 3. Institución Socia 1: Instituto Superior de Estudos do Mondego (ISEM), Portugal\n- **Año de fundación:** 2001 (existente antes de 2018).\n- **Estatus ECHE:** Titular de una carta ECHE válida.\n- **Naturaleza jurídica:** Institución de Educación Superior independiente.\n- **Perfil:** El ISEM es una institución de referencia en la región centro de Portugal, especializada en ciencias sociales, humanidades y accesibilidad. Aporta al consorcio una sólida experiencia en la integración de estudiantes con barreras de acceso y en el desarrollo de metodologías inclusivas. Su departamento de lenguas modernas cuenta con instalaciones adaptadas que han sido clave en colaboraciones previas.\n\n## 4. Institución Socia 2: Univerza v Savinjski Dolini (USD), Eslovenia\n- **Año de fundación:** 2006 (existente antes de 2018).\n- **Estatus ECHE:** Titular de una carta ECHE válida.\n- **Naturaleza jurídica:** Institución de Educación Superior pública e independiente.\n- **Perfil:** La USD destaca por su enfoque innovador en la evaluación del aprendizaje y la educación superior. Su Instituto de Pedagogía Aplicada ha desarrollado marcos de evaluación de competencias que se integraron con éxito en nuestro proyecto piloto anterior. Aportan el rigor metodológico necesario para la validación de resultados de aprendizaje a nivel transnacional.\n\n## 5. Estado Actual de la Colaboración\nActualmente, existe un **acuerdo de colaboración firmado** entre la USV, el ISEM y la USD. Este acuerdo formal cubre exclusivamente el **diseño curricular conjunto**. A través de este marco, los equipos docentes de las tres instituciones han estandarizado los sílabos y los criterios de evaluación para módulos multilingües.\n\nCabe destacar que, a fecha de hoy (septiembre de 2026), **no se están reclutando nuevos estudiantes para prácticas**. La fase de reclutamiento del piloto anterior concluyó en 2025, y el acuerdo actual se limita al mantenimiento y actualización del diseño curricular teórico, a la espera de futuras iniciativas que permitan reactivar la movilidad y las prácticas aplicadas."
+          },
+          {
+            "path": "informe_piloto_2024_25.md",
+            "role": "prior_project",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Informe Final: Piloto de Prácticas Multilingües (2024–2025)\n\n**Fecha de publicación del informe:** 5 de septiembre de 2026\n**Coordinador:** Dr. Carlos Mendoza Rivas (USV)\n\n## 1. Resumen Ejecutivo\nEntre enero de 2024 y diciembre de 2025, la Universidad de San Valero (USV, España), el Instituto Superior de Estudos do Mondego (ISEM, Portugal) y la Univerza v Savinjski Dolini (USD, Eslovenia) llevaron a cabo el \"Piloto de Prácticas Multilingües\". El objetivo principal fue evaluar el impacto de un currículo integrado en el desarrollo de competencias lingüísticas y profesionales de estudiantes universitarios, utilizando un enfoque de evaluación del aprendizaje basado en evidencias.\n\n## 2. Participantes y Muestra\nEl programa piloto contó con una cohorte total de **120 estudiantes matriculados**. Para garantizar la equidad y la comparabilidad entre los socios del consorcio, la distribución fue exactamente de **40 estudiantes por cada Institución de Educación Superior (IES)** (40 en USV, 40 en ISEM, 40 en USD).\n\nEs crucial distinguir entre el número total de estudiantes matriculados y aquellos que completaron el ciclo completo de evaluación:\n- **120 estudiantes matriculados** en total.\n- **96 estudiantes proporcionaron evaluaciones emparejadas** (es decir, completaron tanto la prueba de nivel inicial como la evaluación final de competencias tras las prácticas).\n- **24 estudiantes sin evaluación emparejada**. Es importante mantener visibles a estos 24 estudiantes en los registros del proyecto. La ausencia de datos emparejados en este subgrupo se debió a diversas razones (bajas médicas, abandono del programa piloto, o ausencia el día de la prueba final), pero formaron parte integral de la cohorte matriculada y recibieron la docencia inicial.\n\n## 3. Metodología de Evaluación\nSe utilizó un diseño pre-post para medir la mejora en las competencias comunicativas y profesionales. Las pruebas fueron diseñadas conjuntamente bajo el acuerdo de diseño curricular de la alianza y administradas en las tres instituciones. \n\n**Limitaciones metodológicas:** El estudio se llevó a cabo **sin asignación aleatoria**. Los estudiantes se inscribieron voluntariamente en el piloto, lo que introduce un posible sesgo de autoselección. Los resultados deben interpretarse teniendo en cuenta esta limitación fundamental del diseño cuasiexperimental.\n\n## 4. Resultados Principales\nEl análisis estadístico se centró en los 96 estudiantes con evaluaciones emparejadas. Los resultados indican un impacto positivo y medible de la intervención educativa:\n\n- **Mejora media:** Se observó una mejora media de **0.24 DE** (Desviaciones Estándar) en las puntuaciones compuestas de competencias multilingües entre la evaluación inicial y la final.\n- **Incertidumbre y precisión:** El intervalo de confianza del 95% para esta mejora media se sitúa entre **0.05 y 0.43** (IC del 95%: 0.05 a 0.43). \n\nEstos datos confirman que, a pesar de las limitaciones metodológicas (ausencia de aleatorización), el piloto logró un tamaño del efecto estadísticamente significativo, aunque de magnitud moderada, en el aprendizaje de los estudiantes.\n\n## 5. Conclusiones y Estado Actual\nEl piloto demostró la viabilidad de implementar un marco de evaluación común en tres países diferentes. Sin embargo, tras la finalización del proyecto en diciembre de 2025, las actividades de campo se detuvieron. Como se documenta en los registros institucionales a fecha de septiembre de 2026, **actualmente no se están reclutando nuevos estudiantes para prácticas**. El consorcio se encuentra en una fase de consolidación de resultados y mantenimiento del diseño curricular."
+          },
+          {
+            "path": "equipo_y_recursos.md",
+            "role": "team",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Descripción del Equipo Docente y Recursos Disponibles\n\n**Fecha:** 20 de septiembre de 2026\n\n## 1. Composición del Equipo Interdisciplinar\nEl equipo de las facultades y departamentos involucrados en la alianza combina perfiles altamente especializados para abordar los retos de la educación superior inclusiva. Las disciplinas principales representadas en nuestro equipo son la **lingüística aplicada**, la **educación superior** y la **accesibilidad**.\n\nEl personal clave incluye:\n- **Dr. Carlos Mendoza Rivas (USV, España):** Coordinador. Especialista en lingüística aplicada y evaluación del aprendizaje.\n- **Dra. Sofía Tavares (ISEM, Portugal):** Investigadora principal por parte de Portugal. Experta en accesibilidad cognitiva y barreras de lenguaje en entornos académicos.\n- **Dr. Matej Kovač (USD, Eslovenia):** Investigador principal por parte de Eslovenia. Especialista en ciencias de la educación y diseño de rúbricas de evaluación transnacionales.\n- **Dra. Elena Vargas (USV, España):** Educadora de artes. Su incorporación al equipo aporta una perspectiva única sobre la expresión creativa y el aprendizaje no verbal. Es la **única educadora de artes** del consorcio, y su rol es fundamental para explorar rutas de educación artística y práctica profesional.\n- **Prof. Tiago Silva (ISEM, Portugal):** Especialista en tecnologías de apoyo y educación superior inclusiva.\n\n## 2. Recursos Físicos y Pedagógicos Existentes\nLas tres instituciones cuentan con infraestructuras consolidadas para la docencia. Actualmente, disponemos de **docencia consolidada en grupos reducidos** (aulas de seminario equipadas con tecnología audiovisual básica, diseñadas para ratios de 1 profesor por cada 15 estudiantes). \n\nNuestra evaluación técnica indica que esta docencia en grupos reducidos **puede transferirse a estudios colaborativos accesibles**. La infraestructura espacial existe, pero requiere una reconceptualización metodológica para funcionar como verdaderos estudios de co-creación.\n\n## 3. Necesidades y Recursos Planificados\nPara superar las barreras de acceso sensorial y lingüístico identificadas durante el piloto 2024-2025, hemos identificado dos áreas críticas que actualmente no están cubiertas y que **deben ser planificadas** para cualquier futura implementación:\n\n1. **Formación especializada en audiodescripción:** El personal docente actual carece de las competencias técnicas necesarias para proporcionar audiodescripción en tiempo real o en materiales pregrabados. Esta formación especializada para el personal (staff development) está planificada como una necesidad ineludible.\n2. **Prácticas externas:** Aunque el diseño curricular interno está acordado, las ubicaciones para prácticas externas (external placements) en empresas o instituciones colaboradoras no están aseguradas en este momento y deben ser planificadas y negociadas desde cero para futuras cohortes."
+          },
+          {
+            "path": "publicaciones.md",
+            "role": "publications",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Listado de Publicaciones Relevantes del Equipo\n\n**Fecha:** 1 de septiembre de 2026\n\n1. Mendoza Rivas, C., & Tavares, S. (2025). \"Evaluación de competencias en entornos multilingües: lecciones de un estudio cuasiexperimental en educación superior\". *Revista Iberoamericana de Lingüística y Evaluación*, 14(2), 112-130. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2025.1\n\n2. Kovač, M., Mendoza Rivas, C., & Silva, T. (2025). \"El impacto de la docencia en grupos reducidos en la retención de estudiantes con barreras lingüísticas\". *European Journal of Inclusive Higher Education*, 8(1), 45-62. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2025.2\n\n3. Vargas, E., & Mendoza Rivas, C. (2024). \"Integración de la educación artística en currículos de lingüística aplicada: un enfoque de co-creación\". *Cuadernos de Pedagogía Universitaria y Artes*, 22(4), 88-105. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2024.1\n\n4. Tavares, S., Silva, T., & Kovač, M. (2024). \"Diseño curricular conjunto en el Espacio Europeo de Educación Superior: retos de estandarización\". *Revista de Políticas de Educación Superior*, 19(3), 210-228. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2024.2"
+          }
+        ],
+        "facts": [
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "El consorcio está formado por tres instituciones de educación superior independientes en España, Portugal y Eslovenia.",
+            "value": "tres",
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Las tres instituciones son titulares de la Carta Erasmus de Educación Superior (ECHE) en vigor.",
+            "value": null,
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Las tres instituciones de educación superior han existido desde antes de 2018.",
+            "value": "2018",
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "La Facultad de Lingüística Aplicada y la Facultad de Ciencias de la Educación son departamentos internos de la USV, no entidades separadas.",
+            "value": null,
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "No existe ninguna alternativa de un tercer país que pueda sustituir a la institución portuguesa o eslovena.",
+            "value": null,
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Existe un acuerdo de colaboración firmado que cubre exclusivamente el diseño curricular conjunto.",
+            "value": null,
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "El piloto de prácticas multilingües 2024-2025 contó con 120 estudiantes matriculados.",
+            "value": "120",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "La distribución de estudiantes en el piloto fue de 40 por cada Institución de Educación Superior.",
+            "value": "40",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "De los matriculados, 96 estudiantes proporcionaron evaluaciones emparejadas.",
+            "value": "96",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Hubo 24 estudiantes sin evaluación emparejada que deben mantenerse visibles en los registros.",
+            "value": "24",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "La mejora media en las evaluaciones emparejadas fue de 0.24 DE.",
+            "value": "0.24 DE",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "El intervalo de confianza del 95% para la mejora media se sitúa entre 0.05 y 0.43.",
+            "value": "0.05 y 0.43",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "El estudio piloto se llevó a cabo sin asignación aleatoria.",
+            "value": null,
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Actualmente no se están reclutando nuevos estudiantes para prácticas.",
+            "value": null,
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "El equipo combina disciplinas de lingüística aplicada, educación superior y accesibilidad.",
+            "value": null,
+            "salient": false,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "El consorcio cuenta con una única educadora de artes, la Dra. Elena Vargas.",
+            "value": "única",
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "La docencia consolidada en grupos reducidos puede transferirse a estudios colaborativos accesibles.",
+            "value": null,
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "Se debe planificar la formación especializada en audiodescripción para el personal docente.",
+            "value": null,
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "Las prácticas externas deben ser planificadas ya que actualmente no están aseguradas.",
+            "value": null,
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "mendoza2025",
+            "authors": [
+              "Mendoza Rivas, C.",
+              "Tavares, S."
+            ],
+            "year": 2025,
+            "title": "Evaluación de competencias en entornos multilingües: lecciones de un estudio cuasiexperimental en educación superior",
+            "venue": "Revista Iberoamericana de Lingüística y Evaluación",
+            "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2025.1"
+          },
+          {
+            "key": "kovac2025",
+            "authors": [
+              "Kovač, M.",
+              "Mendoza Rivas, C.",
+              "Silva, T."
+            ],
+            "year": 2025,
+            "title": "El impacto de la docencia en grupos reducidos en la retención de estudiantes con barreras lingüísticas",
+            "venue": "European Journal of Inclusive Higher Education",
+            "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2025.2"
+          },
+          {
+            "key": "vargas2024",
+            "authors": [
+              "Vargas, E.",
+              "Mendoza Rivas, C."
+            ],
+            "year": 2024,
+            "title": "Integración de la educación artística en currículos de lingüística aplicada: un enfoque de co-creación",
+            "venue": "Cuadernos de Pedagogía Universitaria y Artes",
+            "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2024.1"
+          },
+          {
+            "key": "tavares2024",
+            "authors": [
+              "Tavares, S.",
+              "Silva, T.",
+              "Kovač, M."
+            ],
+            "year": 2024,
+            "title": "Diseño curricular conjunto en el Espacio Europeo de Educación Superior: retos de estandarización",
+            "venue": "Revista de Políticas de Educación Superior",
+            "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2024.2"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "equipo_y_recursos.md, personal clave: «Prof. Tiago Silva»",
+          "problem": "Tiago Silva is the name of a known Portuguese professional footballer. Assigning that name a fictional academic role does not satisfy the prohibition on names belonging to known public figures.",
+          "fix": "Replace it with a distinctive invented full name and update the corresponding publication authors in publicaciones.md and dossier.yaml."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, facts F01–F19",
+          "problem": "The registry omits numerous quotable numbers and statuses: institutional founding years and legal forms; the coordinator’s qualifications, appointments and leadership dates; all three project budgets and funding statuses; doctoral supervision counts; the 1:15 teaching ratio; most named staff roles; and the explicit absence of audiodescription competence. F05 also broadens the source’s absence of an operational replacement with prior agreements into an unqualified absence of any replacement.",
+          "fix": "Add source-linked facts for the omitted numbers and statuses, preserving exact values and distinguishing existing capabilities from needs. Rewrite F05 to preserve the source’s qualifications and distinguish an available replacement from a prospective partner."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "informe_piloto_2024_25.md, sections 3–4",
+          "problem": "The report describes a voluntary pre–post study with no comparison group reported, but concludes that the intervention produced a confirmed positive impact. Nonrandomisation is not the only limitation: maturation, concurrent teaching, test familiarity and selective availability of follow-up measurements can explain observed change. The 24 missing pairs represent 20% of enrolment. Calling 0.24 SD a moderate effect also lacks a stated substantive interpretation.",
+          "fix": "Describe an observed within-participant improvement among 96 students, without attributing it causally to the intervention. Explicitly address the absence of a reported comparator and potential attrition bias. Describe practical importance cautiously or supply a justified field-specific interpretation."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 2; Dossier 4",
+          "where": "informe_piloto_2024_25.md, methodology and reported improvement of 0.24 DE with 95% CI 0.05–0.43",
+          "problem": "The standardized outcome is insufficiently defined to interpret or check. The report does not identify the composite’s components, scoring, standardizing SD, or confidence-interval method. Different standardizers produce different effect sizes for paired observations. It also does not explain how scores were made comparable across the three institutions and language contexts.",
+          "fix": "Specify the assessment and composite scoring, the denominator used for standardization, the paired-data analysis and CI calculation, and the basis for pooling institutional results. State any unresolved comparability limitations and register these methodological facts."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "consorcio_alianza.md, sections 1–2; informe_piloto_2024_25.md, section 2",
+          "problem": "Several passages read as instructions for avoiding the planned traps rather than institutional documentation: the hypothetical elimination of a partner, emphatic instructions about counting faculties, and directions to keep the 24 students visible. The categorical claim that collaboration depends strictly on the current partners also overstates what the absence of an existing replacement establishes.",
+          "fix": "Present these facts as ordinary dated records: legal entities participating in the agreement, faculties’ legal status, the absence of another established partner arrangement, and an enrolment-to-analysis accounting. Remove instructions to the reader and hypothetical proposal corrections while preserving the facts needed to decide the traps."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "mid_career",
+        "disciplines": [
+          "lingüística aplicada",
+          "educación superior",
+          "evaluación del aprendizaje"
+        ],
+        "method_profile": "mixed",
+        "country": "ES",
+        "files": [
+          {
+            "path": "cv_coordinador.md",
+            "role": "cv",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Currículum Vitae: Dr. Carlos Mendoza Rivas\n\n**Fecha de actualización:** 15 de septiembre de 2026\n\n## 1. Datos Personales y de Contacto\n- **Nombre completo:** Carlos Mendoza Rivas\n- **Institución actual:** Universidad de San Valero (USV), España\n- **Categoría profesional:** Profesor Titular de Universidad\n- **Departamento:** Facultad de Lingüística Aplicada (departamento interno de la USV)\n- **Correo electrónico:** c.mendoza@usv.edu.es\n\n## 2. Perfil Académico y Líneas de Investigación\nSoy investigador en la etapa intermedia de mi carrera (mid-career), especializado en lingüística aplicada, educación superior y evaluación del aprendizaje en entornos multilingües. Mi trabajo se centra en el desarrollo de competencias comunicativas y la evaluación de resultados de aprendizaje mediante metodologías mixtas, combinando el análisis cuantitativo de datos de evaluación con estudios cualitativos sobre la experiencia del estudiante. \n\n## 3. Formación Académica\n- **2012:** Doctorado en Lingüística Aplicada, Universidad de San Valero (USV), España. Tesis: *Evaluación de competencias transversales en programas de inmersión lingüística*. Calificación: Sobresaliente Cum Laude.\n- **2008:** Máster en Investigación en Educación Superior, Universidad de San Valero (USV), España.\n- **2006:** Licenciatura en Filología, Universidad de San Valero (USV), España.\n\n## 4. Trayectoria Profesional\n- **2019 – Presente:** Profesor Titular, Facultad de Lingüística Aplicada, Universidad de San Valero (USV).\n- **2014 – 2019:** Profesor Ayudante Doctor, Facultad de Lingüística Aplicada, Universidad de San Valero (USV).\n- **2012 – 2014:** Investigador Postdoctoral, Instituto de Evaluación Educativa, Madrid.\n\n## 5. Experiencia en Gestión y Coordinación\n- **2023 – Presente:** Coordinador del Grupo de Innovación Docente en Entornos Multilingües (GIDEM) de la USV.\n- **2024 – 2025:** Investigador Principal (IP) y Coordinador General del proyecto \"Piloto de Prácticas Multilingües\", liderando un consorcio internacional con socios en Portugal y Eslovenia.\n- **2021 – 2023:** Vicedecano de Relaciones Internacionales, Facultad de Lingüística Aplicada, USV.\n\n## 6. Proyectos de Investigación Financiados (Selección)\n- **Piloto de Prácticas Multilingües (2024–2025):** Proyecto financiado por el Programa de Innovación Educativa de la USV y fondos propios de las instituciones asociadas. Presupuesto total: 85.000 EUR. Rol: Investigador Principal y Coordinador.\n- **EVAL-LING (2020–2023):** *Nuevas métricas para la evaluación del aprendizaje de segundas lenguas en la educación superior*. Financiado por la Agencia Estatal de Investigación (PID2019-104582RB-I00). Presupuesto: 42.000 EUR. Rol: Investigador Colaborador.\n- **INCLU-ED (2017–2019):** *Barreras de acceso lingüístico en aulas universitarias*. Financiado por el Ministerio de Educación. Presupuesto: 28.000 EUR. Rol: Investigador Principal.\n\n## 7. Docencia\nImparto docencia regular en los grados y posgrados de la USV, destacando las asignaturas de \"Evaluación del Aprendizaje de Lenguas\" (Máster) y \"Metodología de la Investigación en Lingüística Aplicada\" (Grado). He dirigido 4 tesis doctorales (3 defendidas, 1 en curso) y más de 25 trabajos de fin de máster."
+          },
+          {
+            "path": "consorcio_alianza.md",
+            "role": "other",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Descripción del Consorcio Institucional\n\n**Fecha del documento:** 10 de septiembre de 2026\n\nEste documento detalla la estructura, el estatus legal y las capacidades de las tres instituciones de educación superior (IES) que conforman nuestra alianza estratégica internacional. \n\n## 1. Estructura General de la Alianza\nEl consorcio está formado por tres instituciones de educación superior independientes, ubicadas en tres países distintos (España, Portugal y Eslovenia). Las tres instituciones son titulares de la Carta Erasmus de Educación Superior (ECHE) en vigor y han existido de forma ininterrumpida desde antes de 2018, contando con una amplia trayectoria en el Espacio Europeo de Educación Superior.\n\nActualmente no contamos con acuerdos previos ni capacidad operativa conjunta con instituciones de otros países del programa que pudieran integrarse como socios de pleno derecho a corto plazo para sustituir a la institución portuguesa o a la eslovena.\n\n## 2. Institución Coordinadora: Universidad de San Valero (USV), España\n- **Año de fundación:** 1992 (existente antes de 2018).\n- **Estatus ECHE:** Titular de una carta ECHE válida.\n- **Naturaleza jurídica:** Institución de Educación Superior pública e independiente.\n- **Estructura interna participante:** La participación de la USV se articula a través de dos de sus facultades: la Facultad de Lingüística Aplicada y la Facultad de Ciencias de la Educación. Ambas facultades operan como departamentos internos de la USV, sin personalidad jurídica propia ni autonomía financiera, por lo que la universidad actúa a todos los efectos como un único solicitante y coordinador.\n\n## 3. Institución Socia 1: Instituto Superior de Estudos do Mondego (ISEM), Portugal\n- **Año de fundación:** 2001 (existente antes de 2018).\n- **Estatus ECHE:** Titular de una carta ECHE válida.\n- **Naturaleza jurídica:** Institución de Educación Superior independiente.\n- **Perfil:** El ISEM es una institución de referencia en la región centro de Portugal, especializada en ciencias sociales, humanidades y accesibilidad. Aporta al consorcio una sólida experiencia en la integración de estudiantes con barreras de acceso y en el desarrollo de metodologías inclusivas. Su departamento de lenguas modernas cuenta con instalaciones adaptadas que han sido clave en colaboraciones previas.\n\n## 4. Institución Socia 2: Univerza v Savinjski Dolini (USD), Eslovenia\n- **Año de fundación:** 2006 (existente antes de 2018).\n- **Estatus ECHE:** Titular de una carta ECHE válida.\n- **Naturaleza jurídica:** Institución de Educación Superior pública e independiente.\n- **Perfil:** La USD destaca por su enfoque innovador en la evaluación del aprendizaje y la educación superior. Su Instituto de Pedagogía Aplicada ha desarrollado marcos de evaluación de competencias que se integraron con éxito en nuestro proyecto piloto anterior. Aportan el rigor metodológico necesario para la validación de resultados de aprendizaje a nivel transnacional.\n\n## 5. Estado Actual de la Colaboración\nActualmente, existe un acuerdo de colaboración firmado entre la USV, el ISEM y la USD. Este acuerdo formal cubre exclusivamente el diseño curricular conjunto. A través de este marco, los equipos docentes de las tres instituciones han estandarizado los sílabos y los criterios de evaluación para módulos multilingües.\n\nA fecha de hoy (septiembre de 2026), no se están reclutando nuevos estudiantes para prácticas. La fase de reclutamiento del piloto anterior concluyó en 2025, y el acuerdo actual se limita al mantenimiento y actualización del diseño curricular teórico, a la espera de futuras iniciativas."
+          },
+          {
+            "path": "informe_piloto_2024_25.md",
+            "role": "prior_project",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Informe Final: Piloto de Prácticas Multilingües (2024–2025)\n\n**Fecha de publicación del informe:** 5 de septiembre de 2026\n**Coordinador:** Dr. Carlos Mendoza Rivas (USV)\n\n## 1. Resumen Ejecutivo\nEntre enero de 2024 y diciembre de 2025, la Universidad de San Valero (USV, España), el Instituto Superior de Estudos do Mondego (ISEM, Portugal) y la Univerza v Savinjski Dolini (USD, Eslovenia) llevaron a cabo el \"Piloto de Prácticas Multilingües\". El objetivo principal fue evaluar el impacto de un currículo integrado en el desarrollo de competencias lingüísticas y profesionales de estudiantes universitarios.\n\n## 2. Participantes y Muestra\nLa cohorte inicial constó de **120 estudiantes matriculados**, distribuidos equitativamente a razón de 40 estudiantes por cada Institución de Educación Superior (40 en USV, 40 en ISEM, 40 en USD). \n\nDe esta cohorte, **96 estudiantes proporcionaron evaluaciones emparejadas** (completaron tanto la prueba inicial como la final). Los **24 estudiantes sin evaluación emparejada** causaron baja por motivos médicos, abandono del programa o ausencia el día de la prueba final, representando una atrición del 20% de la muestra original.\n\n## 3. Metodología y Limitaciones\nSe utilizó un diseño pre-post sin grupo de control ni asignación aleatoria. La evaluación consistió en una rúbrica compuesta de 50 puntos (25 para destrezas orales, 25 para interacción profesional) administrada en las tres instituciones. Para permitir la agregación transnacional, las puntuaciones brutas se estandarizaron utilizando la desviación estándar agrupada de la línea base de las tres instituciones. \n\nLos resultados reflejan el cambio intra-sujeto, pero la ausencia de un grupo comparador, la posible familiaridad con la prueba, la maduración de los estudiantes durante el semestre y el sesgo de atrición impiden atribuir causalmente la mejora a la intervención educativa. Además, persisten limitaciones en la comparabilidad exacta de las rúbricas aplicadas en tres idiomas distintos (español, portugués y esloveno).\n\n## 4. Resultados Principales\nEl análisis de los 96 estudiantes con datos emparejados (mediante prueba t pareada) mostró un incremento medio intra-sujeto de **0.24 DE** (desviaciones estándar). El intervalo de confianza del 95% para esta mejora media se sitúa entre **0.05 y 0.43**. \n\nEn el contexto de la evaluación de segundas lenguas en educación superior, un cambio de esta magnitud sugiere un progreso práctico modesto durante el periodo de prácticas, aunque debe interpretarse con cautela dadas las limitaciones metodológicas expuestas.\n\n## 5. Conclusiones y Estado Actual\nEl piloto demostró la viabilidad de implementar un marco de evaluación común en tres países diferentes. Sin embargo, tras la finalización del proyecto en diciembre de 2025, las actividades de campo se detuvieron. Como se documenta en los registros institucionales a fecha de septiembre de 2026, actualmente no se están reclutando nuevos estudiantes para prácticas. El consorcio se encuentra en una fase de consolidación de resultados y mantenimiento del diseño curricular."
+          },
+          {
+            "path": "equipo_y_recursos.md",
+            "role": "team",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Descripción del Equipo Docente y Recursos Disponibles\n\n**Fecha:** 20 de septiembre de 2026\n\n## 1. Composición del Equipo Interdisciplinar\nEl equipo de las facultades y departamentos involucrados en la alianza combina perfiles altamente especializados para abordar los retos de la educación superior inclusiva. Las disciplinas principales representadas en nuestro equipo son la lingüística aplicada, la educación superior y la accesibilidad.\n\nEl personal clave incluye:\n- **Dr. Carlos Mendoza Rivas (USV, España):** Coordinador. Especialista en lingüística aplicada y evaluación del aprendizaje.\n- **Dra. Sofía Tavares (ISEM, Portugal):** Investigadora principal por parte de Portugal. Experta en accesibilidad cognitiva y barreras de lenguaje en entornos académicos.\n- **Dr. Matej Kovač (USD, Eslovenia):** Investigador principal por parte de Eslovenia. Especialista en ciencias de la educación y diseño de rúbricas de evaluación transnacionales.\n- **Dra. Elena Vargas (USV, España):** Educadora de artes. Su incorporación al equipo aporta una perspectiva única sobre la expresión creativa y el aprendizaje no verbal. Es la única educadora de artes del consorcio, y su rol es fundamental para explorar rutas de educación artística y práctica profesional.\n- **Prof. Filipe Castanheira (ISEM, Portugal):** Especialista en tecnologías de apoyo y educación superior inclusiva.\n\n## 2. Recursos Físicos y Pedagógicos Existentes\nLas tres instituciones cuentan con infraestructuras consolidadas para la docencia. Actualmente, disponemos de docencia consolidada en grupos reducidos (aulas de seminario equipadas con tecnología audiovisual básica, diseñadas para ratios de 1 profesor por cada 15 estudiantes). \n\nNuestra evaluación técnica indica que esta docencia en grupos reducidos puede transferirse a estudios colaborativos accesibles. La infraestructura espacial existe, pero requiere una reconceptualización metodológica para funcionar como verdaderos estudios de co-creación.\n\n## 3. Necesidades y Recursos Planificados\nPara superar las barreras de acceso sensorial y lingüístico identificadas durante el piloto 2024-2025, hemos identificado dos áreas críticas que actualmente no están cubiertas y que deben ser planificadas para cualquier futura implementación:\n\n1. **Formación especializada en audiodescripción:** El personal docente actual carece de las competencias técnicas necesarias para proporcionar audiodescripción en tiempo real o en materiales pregrabados. Esta formación especializada para el personal está planificada como una necesidad ineludible.\n2. **Prácticas externas:** Aunque el diseño curricular interno está acordado, las ubicaciones para prácticas externas en empresas o instituciones colaboradoras no están aseguradas en este momento y deben ser planificadas y negociadas desde cero para futuras cohortes."
+          },
+          {
+            "path": "publicaciones.md",
+            "role": "publications",
+            "content": "> Documento ficticio creado para ProposalBench.\n\n# Listado de Publicaciones Relevantes del Equipo\n\n**Fecha:** 1 de septiembre de 2026\n\n1. Mendoza Rivas, C., & Tavares, S. (2025). \"Evaluación de competencias en entornos multilingües: lecciones de un estudio cuasiexperimental en educación superior\". *Revista Iberoamericana de Lingüística y Evaluación*, 14(2), 112-130. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2025.1\n\n2. Kovač, M., Mendoza Rivas, C., & Castanheira, F. (2025). \"El impacto de la docencia en grupos reducidos en la retención de estudiantes con barreras lingüísticas\". *European Journal of Inclusive Higher Education*, 8(1), 45-62. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2025.2\n\n3. Vargas, E., & Mendoza Rivas, C. (2024). \"Integración de la educación artística en currículos de lingüística aplicada: un enfoque de co-creación\". *Cuadernos de Pedagogía Universitaria y Artes*, 22(4), 88-105. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2024.1\n\n4. Tavares, S., Castanheira, F., & Kovač, M. (2024). \"Diseño curricular conjunto en el Espacio Europeo de Educación Superior: retos de estandarización\". *Revista de Políticas de Educación Superior*, 19(3), 210-228. DOI: 10.99999/pb.v2-multilingual-practicum-alliance.2024.2"
+          }
+        ],
+        "facts": [
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "El consorcio está formado por tres instituciones de educación superior independientes en España, Portugal y Eslovenia.",
+            "value": "tres",
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Las tres instituciones son titulares de la Carta Erasmus de Educación Superior (ECHE) en vigor.",
+            "value": null,
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Las tres instituciones de educación superior han existido desde antes de 2018.",
+            "value": "2018",
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "La Universidad de San Valero fue fundada en 1992 y es una institución pública e independiente.",
+            "value": "1992",
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "El Instituto Superior de Estudos do Mondego fue fundado en 2001 y es una institución independiente.",
+            "value": "2001",
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "La Univerza v Savinjski Dolini fue fundada en 2006 y es una institución pública e independiente.",
+            "value": "2006",
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "La Facultad de Lingüística Aplicada y la Facultad de Ciencias de la Educación operan como departamentos internos de la USV, sin personalidad jurídica propia.",
+            "value": null,
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "No contamos con acuerdos previos ni capacidad operativa conjunta con instituciones de otros países que pudieran integrarse a corto plazo.",
+            "value": null,
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Existe un acuerdo de colaboración firmado que cubre exclusivamente el diseño curricular conjunto.",
+            "value": null,
+            "salient": true,
+            "source": "consorcio_alianza.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "La cohorte inicial del piloto constó de 120 estudiantes matriculados.",
+            "value": "120",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "De los matriculados, 96 estudiantes proporcionaron evaluaciones emparejadas.",
+            "value": "96",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Hubo 24 estudiantes sin evaluación emparejada debido a bajas, abandonos o ausencias.",
+            "value": "24",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "El análisis mostró un incremento medio intra-sujeto de 0.24 DE.",
+            "value": "0.24 DE",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "El intervalo de confianza del 95% para la mejora media se sitúa entre 0.05 y 0.43.",
+            "value": "0.05 y 0.43",
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Se utilizó un diseño pre-post sin grupo de control ni asignación aleatoria.",
+            "value": null,
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Las puntuaciones se estandarizaron utilizando la desviación estándar agrupada de la línea base.",
+            "value": null,
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Actualmente no se están reclutando nuevos estudiantes para prácticas.",
+            "value": null,
+            "salient": true,
+            "source": "informe_piloto_2024_25.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "El consorcio cuenta con una única educadora de artes, la Dra. Elena Vargas.",
+            "value": "única",
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "La docencia consolidada en grupos reducidos tiene una ratio de 1 profesor por cada 15 estudiantes.",
+            "value": "15",
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "La docencia en grupos reducidos puede transferirse a estudios colaborativos accesibles.",
+            "value": null,
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "El personal docente actual carece de competencias técnicas para proporcionar audiodescripción.",
+            "value": null,
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "Las ubicaciones para prácticas externas no están aseguradas y deben ser planificadas.",
+            "value": null,
+            "salient": true,
+            "source": "equipo_y_recursos.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "El proyecto Piloto de Prácticas Multilingües tuvo un presupuesto de 85.000 EUR.",
+            "value": "85.000 EUR",
+            "salient": true,
+            "source": "cv_coordinador.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "El proyecto EVAL-LING tuvo un presupuesto de 42.000 EUR.",
+            "value": "42.000 EUR",
+            "salient": true,
+            "source": "cv_coordinador.md"
+          },
+          {
+            "category": "budget",
+            "kind": "existing",
+            "text": "El proyecto INCLU-ED tuvo un presupuesto de 28.000 EUR.",
+            "value": "28.000 EUR",
+            "salient": true,
+            "source": "cv_coordinador.md"
+          },
+          {
+            "category": "education",
+            "kind": "existing",
+            "text": "El coordinador ha dirigido 4 tesis doctorales.",
+            "value": "4",
+            "salient": true,
+            "source": "cv_coordinador.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "El coordinador es Profesor Titular desde 2019.",
+            "value": "2019",
+            "salient": true,
+            "source": "cv_coordinador.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "mendoza2025",
+            "authors": [
+              "Mendoza Rivas, C.",
+              "Tavares, S."
+            ],
+            "year": 2025,
+            "title": "Evaluación de competencias en entornos multilingües: lecciones de un estudio cuasiexperimental en educación superior",
+            "venue": "Revista Iberoamericana de Lingüística y Evaluación",
+            "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2025.1"
+          },
+          {
+            "key": "kovac2025",
+            "authors": [
+              "Kovač, M.",
+              "Mendoza Rivas, C.",
+              "Castanheira, F."
+            ],
+            "year": 2025,
+            "title": "El impacto de la docencia en grupos reducidos en la retención de estudiantes con barreras lingüísticas",
+            "venue": "European Journal of Inclusive Higher Education",
+            "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2025.2"
+          },
+          {
+            "key": "vargas2024",
+            "authors": [
+              "Vargas, E.",
+              "Mendoza Rivas, C."
+            ],
+            "year": 2024,
+            "title": "Integración de la educación artística en currículos de lingüística aplicada: un enfoque de co-creación",
+            "venue": "Cuadernos de Pedagogía Universitaria y Artes",
+            "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2024.1"
+          },
+          {
+            "key": "tavares2024",
+            "authors": [
+              "Tavares, S.",
+              "Castanheira, F.",
+              "Kovač, M."
+            ],
+            "year": 2024,
+            "title": "Diseño curricular conjunto en el Espacio Europeo de Educación Superior: retos de estandarización",
+            "venue": "Revista de Políticas de Educación Superior",
+            "doi": "10.99999/pb.v2-multilingual-practicum-alliance.2024.2"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1; Dossier 6",
+          "where": "data/public/dossiers/v2-multilingual-practicum-alliance/equipo_y_recursos.md: \"Dra. Sofía Tavares\", \"Dr. Matej Kovač\", \"Dra. Elena Vargas\", \"Prof. Filipe Castanheira\"; corresponding authors in publicaciones.md and dossier.yaml.",
+          "problem": "Four fictional team identities collide with public real identities. Sofia Tavares is an Évora psychology academic; Matej Kovač is a Slovenian rehabilitation professional and published author; Elena Vargas is a Madrid music educator and Suena Tetuán co-founder; Filipe Castanheira appears on Grand Valley State University's public varsity roster. Several collisions are in the same country and closely related teaching/accessibility fields. Accent differences do not make Sofía a separate fictional identity.",
+          "fix": "Replace consistently: Sofía/Sofia Tavares → Sofia Taveirães; Matej Kovač → Matej Brinovšek; Elena Vargas → Elena Valderquena; Filipe Castanheira → Filipe Castanheirães. Update initials/surnames in every publication entry, facts and dependent briefs. Exact quoted searches of the proposed full replacement names returned no matches.",
+          "evidence": [
+            "https://siiue-ws.uevora.pt/files/anexo_informacao/627808",
+            "https://skaa2025.si/faculty/matej-kovac",
+            "https://ibmi.mf.uni-lj.si/rehabilitacija/vsebina/Rehabilitacija_2020_No2_p33-38.pdf",
+            "https://www.tetuancrea.com/socios-1/project-three-sng7y-jkgxx-kmlk5-rslaw-j2h5a-67gzg-jr376-wwzfw-3pgzz",
+            "https://gvsulakers.com/sports/mens-tennis/roster/filipe-castanheira/6460"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "data/public/dossiers/v2-multilingual-practicum-alliance/cv_coordinador.md and consorcio_alianza.md: \"Universidad de San Valero (USV)\".",
+          "problem": "The invented university uses the distinctive San Valero educational identity. The real Spanish Grupo San Valero operates higher-education institutions and established Universidad Dominicana San Valero (UNISVA), approved in 2024. This is a credible institutional confusion, not merely a shared ordinary word; the dossier also invents a history, degree awards and email address under that identity.",
+          "fix": "Rename throughout to Universidad Pública de Valdencira (UVD), retain the fictional Spanish location, public status and 1992 foundation, and use c.mendoza@uvd.example.invalid for the fictional contact. Propagate UVD to both faculty descriptions, publications and every dependent task brief/key. The replacement full university name returned no exact search match.",
+          "evidence": [
+            "https://www.gruposanvalero.es/fr/node/4484",
+            "https://gruposanvalero.es/actualidad/noticias/el-mescyt-firma-un-acuerdo-para-becas-con-la-universidad-dominicana-san-valero",
+            "data/public/dossiers/v2-multilingual-practicum-alliance/consorcio_alianza.md"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "data/public/dossiers/v2-multilingual-practicum-alliance/cv_coordinador.md: \"Grupo de Innovación Docente en Entornos Multilingües (GIDEM)\" and \"INCLU-ED (2017–2019)\".",
+          "problem": "GIDEM is already the acronym of a real UAM education research group working on inclusion, technology and music education. INCLU-ED is also readily confused with INCLUD-ED, the real EU educational-inclusion project. The user explicitly excludes names that would be confused with real projects, even where the spelling is not identical.",
+          "fix": "Use the group acronym GIEM-VALDENCIRA and replace INCLU-ED with TRAMA-LIN-172 (keep the invented expanded project title, dates, role and budget). Update dossier.yaml F25 and any dependent references. Exact searches of these replacement identifiers returned no match.",
+          "evidence": [
+            "https://www.uam.es/uam/investigacion/grupos-de-investigacion/detalle/f1-667",
+            "https://cordis.europa.eu/project/id/28603",
+            "data/public/dossiers/v2-multilingual-practicum-alliance/cv_coordinador.md"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1; Dossier 6",
+          "where": "data/public/dossiers/v2-multilingual-practicum-alliance/publicaciones.md and dossier.yaml, kovac2025 venue: \"European Journal of Inclusive Higher Education\".",
+          "problem": "The fictional venue differs by only 'Higher' from the established European Journal of Inclusive Education, an EERA-network journal covering education across age groups. In this same subject area it is liable to be read as the real journal or a mistaken citation to it.",
+          "fix": "Replace the venue in both bibliography and own_publications with Journal of Practicum Language Access, retaining the fictional DOI and article metadata apart from the author renames above. No exact match was found for the replacement title.",
+          "evidence": [
+            "https://tidsskrift.dk/ejie",
+            "https://portal.issn.org/resource/ISSN/2794-4417",
+            "data/public/dossiers/v2-multilingual-practicum-alliance/publicaciones.md"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "data/public/dossiers/v2-multilingual-practicum-alliance/dossier.yaml F26: \"El coordinador ha dirigido 4 tesis doctorales\"; cv_coordinador.md: \"4 tesis doctorales (3 defendidas, 1 en curso)\".",
+          "problem": "The registry loses the completed-versus-ongoing status, allowing the four to be treated as completed doctorates. Other readily quotable pilot design and staff-capacity facts are absent: the 50-point rubric split, 40 students per institution, and the Portuguese/Slovenian lead and assistive-technology roles. This weakens factual-integrity and GR-T assessment precisely where proposals need evidence of delivery capacity.",
+          "fix": "Replace F26 text with 'El coordinador ha dirigido 4 tesis doctorales: 3 defendidas y 1 en curso' and value with '3 defendidas, 1 en curso'. Add salient existing facts sourced to informe_piloto_2024_25.md for 40 enrolled per institution and a 50-point rubric with 25 oral-communication and 25 professional-interaction points. Add salient team facts sourced to equipo_y_recursos.md identifying the Portuguese accessibility lead, Slovenian rubric-design lead and assistive-technology specialist, using the replacement names above. Do not turn absent external placements or audiodescription competence into existing capacity.",
+          "evidence": [
+            "data/public/dossiers/v2-multilingual-practicum-alliance/cv_coordinador.md",
+            "data/public/dossiers/v2-multilingual-practicum-alliance/informe_piloto_2024_25.md",
+            "data/public/dossiers/v2-multilingual-practicum-alliance/equipo_y_recursos.md",
+            "docs/scoring_spec.md"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

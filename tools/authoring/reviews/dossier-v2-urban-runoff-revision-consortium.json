@@ -1,0 +1,129 @@
+{
+  "kind": "dossier",
+  "id": "v2-urban-runoff-revision-consortium",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2 / Dossier 7",
+      "where": "cv_coordinator.md, header 'Curriculum vitae updated 18 September 2026' and section 'Supervision and professional contribution': 'approved its amended dependency record on 23 September 2026'",
+      "problem": "A CV dated 18 September 2026 reports an approval on 23 September 2026, five days after the document date. The dates are out of order and the CV cannot be the current version.",
+      "fix": "Change the CV date to 25 September 2026, which is after the 24 September resources register. Alternatively, delete the 23 September approval from the CV and keep only the 22 July chairing."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4 / Dossier 9",
+      "where": "previous_application.md, sections 1–3",
+      "problem": "The 'submitted' application states its own weaknesses in the ESR's words. No applicant writes this in a Part B. Examples: 'The proposal does not reserve an untouched event set in advance or distinguish a final external test from continuing parameter adjustment'; 'It does not identify a named official responsible for accepting the system at each site … a formal procedure for approving them is not specified'; 'The work plan contains no separate resident recruitment route, community partnership or compensated co-design activity'; 'the submitted schedule does not assign a specific duration or funded owner to every interface check'; 'without a separate estimate of each deployment dependency'; 'not accompanied by a dependency-level procurement schedule'. The text also contains meta comments that are not applicant prose: 'The application uses this as evidence that…' and 'These allocations sum to the same requested contribution.' The result reads as an answer key, not an archived proposal.",
+      "fix": "Rewrite the extract in the applicant's voice so that the weaknesses appear as what the text plans or leaves out, never as admissions. Suggested wording: 'Performance on the withheld intervals will be re-assessed after each model refinement'; 'Thresholds will be agreed with participating technical departments during the demonstrations'; 'Municipal officers will relay the needs of older residents and households in low-lying areas'; give WP descriptions without interface tasks. Delete the meta sentences."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4 / Task 4",
+      "where": "All files. Examples: cv_coordinator.md 'does not claim specialist competence in numerical estuarine circulation modelling', 'has not conducted research involving children, clinical populations…'; consortium_record.md 'It does not operate a municipal warning centre or possess authority to close public access to water'; publications.md 'no additional storm collection is implied by publication in a later reporting package'; technical_review_record.md 'it supplies no evidence that the coupled system passes that test', 'The shorter dependency map cannot be treated as a proportionate reduction of the earlier budget', 'No funded-work assumption in this map extends beyond M36'; resources_and_access.md 'Storage ownership does not establish a right to reinstall'",
+      "problem": "Every document is written as a list of disclaimers. Many sentences state the expected answer to a planned trap rather than a dated status: the protocol proves nothing (T13), no proportional budget scaling (T01), nothing beyond M36 (T02). Real CVs, team records and board minutes do not enumerate what their subjects cannot do. The effect is benchmark-specification prose that pre-solves the traps.",
+      "fix": "State each status once, as a dated record in the document where it naturally belongs. For example, in the technical review: 'Protocol execution: not started; prospective storms enrolled: 0; held-out set: none'. Delete negative capability statements that no trap or criticism depends on. Remove the conclusions that tell the reader how to handle the brief, such as the budget-proportionality and beyond-M36 sentences; the underlying facts (unpriced costs, the M1–M36 map) suffice."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 9",
+      "where": "evaluation_summary_report.md, header and score table",
+      "problem": "The report does not follow the Horizon Europe ESR format. It has no call/topic identifier, proposal number, acronym or duration. Scores appear in a summary table rather than per criterion as 'Score: 3.00 (Threshold: 3/5.00, Weight: -)', with the total as 'Total score: 8.50 (Threshold: 10)'. There is no scope line. It closes with non-standard sentences such as 'The proposal does not request an exception to the applicable funding conditions'. Excellence receives 3.0 although its comment calls the leakage problem 'a significant shortcoming'. In the HE scale that wording corresponds to 2 ('Fair … significant weaknesses'); 3 means 'a number of shortcomings'.",
+      "fix": "Add an obviously fictional topic identifier and proposal number, the acronym and duration (48 months). Restructure the scores per criterion in the real layout. Replace the closing paragraph with standard ESR content. Either change 'significant shortcoming' to 'shortcoming' or lower Excellence to 2.5 and recompute the total (8.0)."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml facts",
+      "problem": "Several salient values and limitations have no fact entry. (1) The research officer's contract ends 30 June 2027 and the Rivenne modeller's ends 31 December 2027. Both fall inside any 2027 start, and the modeller is central to M7–M21. (2) The previous cost split: EUR 3,060,000 personnel, EUR 1,020,000 other direct costs, EUR 1,020,000 indirect costs at 25%; also the WP allocations. These are needed to rebuild the budget under T01. (3) The dependency-map milestones: permissions M1–M6, code lock M21, acquisition ends M24, held-out evaluation M25–M30. These are needed for T02. (4) The nine held-out events. (5) ESR date 12 February 2026 and submission date 18 September 2025. (6) Ethics approval UVL-ETH-2022-06 (F24 has value null). (7) The 11 March 2026 reproducibility check. (8) No reserved cloud service, live data feed or production platform. In addition, F05 bundles catchment areas with sample counts. F18 is tagged 'existing' although the 36-month envelope and 18-storm configuration are planned.",
+      "fix": "Add facts with values exactly as written in each source file: '30 June 2027' and '31 December 2027'; 'EUR 3,060,000' and the other cost lines; 'M21'; 'nine held-out events'; '12 February 2026'; 'UVL-ETH-2022-06'; '11 March 2026'. Split F05 into catchment areas and samples. Split F18 into an existing fact (analysis completed 22 July 2026) and a planned fact (36-month envelope, 18 storms)."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4 / Task 1",
+      "where": "resources_and_access.md, data-inventory paragraphs; technical_review_record.md, evaluation specification",
+      "problem": "The project is framed as forecasting and warning for 2–3 km² urban catchments with response times well under an hour. Yet the dossier names no forecast or nowcast rainfall input. The inventory lists only gauge observations, public rainfall records, terrain data and ERA5-Land, which is explicitly not live. Without one, any proposal must invent the forecast source, the lead time and its access terms, or describe hindcast simulation as forecasting.",
+      "fix": "Add to the 15 July 2026 inventory whether national radar composites and nowcasts were assessed (AEMET, IPMA, the Italian Civil Protection Department radar mosaic). Give their terms, latency and status, for example: 'assessed; no operational feed arranged'. Record the outcome as a fact, or as a deliberate gap in dossier.yaml."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 5 / Task 1",
+      "where": "resources_and_access.md, 'Data and permissions'; prior_project_report.md, 'Record and limitations'",
+      "problem": "Only the Spanish Drainage Atlas licence is documented. The dossier never says which drainage representation was used for catchments B (Portugal) and C (Italy), or whether access to it continues. The T12 trap rests on loss of connected-drainage detail. A proposal cannot tell whether the loss is confined to catchment A or applies to all three sites, so claims about B and C access cannot be graded consistently.",
+      "fix": "In the resources register, state the source and current access status of the drainage representation for B and C. For example: 'municipal data-sharing letters limited to the 2022–2024 measurement period; no current agreement' or 'open regional layers, no expiry'. Say explicitly that the Spanish licence covers catchment A only. Add the status as a fact."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4 / Dossier 2",
+      "where": "technical_review_record.md, protocol and dependency map ('six per site … Event acquisition occupies M7–M24'); prior_project_report.md ('12 storms, four per catchment, between October 2022 and November 2024')",
+      "problem": "The prior project captured 4 eligible storms per catchment in about 26 months, using manual timed sampling that depended on safe staff access. The plan needs 6 per site in 18 months, roughly double the rate. The inventory lists no autosamplers or other change in sampling method. The dossier gives no basis for the rate, and the response to R1 and the 36-month envelope depend on it.",
+      "fix": "Add to the technical review the expected frequency of eligible storms per site, from gauge climatology and the prior capture record. State the sampling change that makes the rate achievable (for example, automatic samplers identified as an unpriced requirement), or the estimated probability of reaching 18 events by M24. Record the result as a fact."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "prior_project_report.md, 'Fifteen-minute level records'; technical_review_record.md, 'error in peak discharge, pulse-arrival timing'",
+      "problem": "A 15-minute logging interval is coarse for 2–3 km² urban catchments. It limits peak-discharge and pulse-timing evaluation, which are the protocol's main metrics, and the dossier does not acknowledge this.",
+      "fix": "Either state a 2- or 5-minute logging interval, or have the protocol record a planned change to a finer interval for the prospective campaign."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "technical_review_record.md, 'It removed the continuous operational-service demonstration'; previous_application.md",
+      "problem": "The archived application describes municipal demonstrations from M25 to M45 but never a 'continuous operational-service demonstration'. The reduction cites a component the earlier plan does not contain.",
+      "fix": "Reword as 'shortened the municipal demonstration phase (M25–M45)', or add a continuous demonstration to the archived WP description."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "previous_application.md, 'A new field campaign will seek 36 additional storms … during the demonstration period' vs 'Catchment observations and runoff modelling run from M1 to M30'",
+      "problem": "The archived plan places the storm campaign in the demonstration period (M25–M45), while the observation work package ends at M30. It also expects 12 storms per site in about 20 months, against a demonstrated 4 per site in 26 months.",
+      "fix": "Place the campaign within WP2 (for example M7–M30) and keep the target. The implausibility can stay as a weakness of the old plan, but the timing must be consistent."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "technical_review_record.md, header 'Amendment approved: 23 September 2026'",
+      "problem": "The record never says what was amended on 23 September as distinct from what was decided on 22 July. The CV also refers to an 'amended dependency record'.",
+      "fix": "Add a short dated amendment note. For example: '23 September 2026: handover owners added; liaison and consultation agreements cross-referenced'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "cv_coordinator.md, 'Selected output and limitations' and 'Research leadership'",
+      "problem": "A full professor 19 years after her doctorate shows only four joint articles and one internal grant. The CV gives no total output, no doctoral-era publications and no other funding. This is thin for the coordinator of a EUR 5 million action.",
+      "fix": "Add a summary line: total peer-reviewed articles, other competitive grants with fictional references, and 'selected' before the four joint articles."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 9",
+      "where": "dossier.yaml reviewer_criticisms vs evaluation_summary_report.md",
+      "problem": "Two ESR points are not represented in the hidden criticisms. Criterion 1 asks for a clearer account of uncertainty propagation through the coupled components. Criterion 3 notes overlapping modelling and deployment 'without adequate gates or contingency'; R4 covers owners, durations and costs, not gates or contingency.",
+      "fix": "Add the gates and contingency to R4, and either add R5 for uncertainty propagation or soften that ESR sentence so it is not a criticism."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "resources_and_access.md, 'The national Spanish catchment-data licence … issued by Fundación Cartográfica de Valdemarea'",
+      "problem": "A private foundation issuing a 'national' Spanish catchment-data licence is implausible.",
+      "fix": "Describe it as a licence from a fictional regional drainage-data provider or a commercial cartographic firm, and drop 'national'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "previous_application.md, 'The anticipated start date in the application was 1 January 2027'",
+      "problem": "A start 15 months after a September 2025 submission is unusual given Horizon Europe's 8-month time-to-grant.",
+      "fix": "Use a start around 1 September 2026, or delete the anticipated start date."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 6",
+      "where": "dossier.yaml own_publications titles",
+      "problem": "Titles end with a full stop. This does not match normal bibliographic records or the titles in publications.md.",
+      "fix": "Remove the trailing periods."
+    }
+  ]
+}

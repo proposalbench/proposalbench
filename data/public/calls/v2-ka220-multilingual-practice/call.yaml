@@ -1,0 +1,181 @@
+schema_version: 1
+id: v2-ka220-multilingual-practice
+scheme: erasmus_ka220
+language: en
+title: Inclusive multilingual teaching and assessment in practical higher-education courses
+topic_code: PB2-KA220-HED-01
+proposal_type: full
+length_contract:
+  max_words: 6000
+  enforcement: inadmissible
+  tolerance: 0.0
+  exempt:
+  - title
+  - references
+  page_limit: 12
+  words_per_page: 500
+  source_note: 'Verified 2026-10-31. https://erasmus-plus.ec.europa.eu/programme-guide/part-b/key-action-2/cooperation-partnerships;
+    https://erasmus-plus.ec.europa.eu/sites/default/files/2025-11/Call%202026%20Cooperation%20partnerships%20in%20higher%20education%20%28KA220-HED%29_watermark.pdf.
+    Benchmark conversion: 12 pages x 500 words/page = 6000 words; prose estimate, not a funder word-count
+    rule. Tables and captions count. The 2026 online form has no verified overall narrative page limit;
+    12 pages is an INVENTED benchmark allowance, not its 17-page blank-form length or a conversion of
+    character fields.'
+required_sections:
+- id: summary
+  title: Project summary
+- id: budget
+  title: Budget
+- id: organisations
+  title: Participating organisations
+- id: relevance
+  title: Relevance of the project
+- id: partnership
+  title: Partnership and cooperation arrangements
+- id: impact
+  title: Impact and dissemination
+- id: implementation
+  title: Project design and implementation
+- id: management
+  title: 'WP1: Project management'
+  parent: implementation
+- id: activities
+  title: Other work packages and activities
+  parent: implementation
+expected_outcomes:
+- id: EO1
+  text: Learners whose first or strongest language differs from the language of instruction take full
+    part in practical teaching and are assessed on the competences the courses target. This includes international
+    and migrant-background students, sign-language users and speakers of regional or minority languages.
+- id: EO2
+  text: Teaching and technical staff at the participating higher-education institutions, and practice
+    supervisors at organisations hosting pilot placements, use tested multilingual approaches in practical
+    teaching and assessment.
+- id: EO3
+  text: Participating higher-education institutions have written the approaches into approved module descriptors,
+    programme specifications or assessment regulations, so that the approaches continue without project
+    funding.
+- id: EO4
+  text: Participating higher-education institutions have evaluation evidence on which multilingual approaches
+    improve learner outcomes in practical courses, and for which learner groups.
+- id: EO5
+  text: Participating higher-education institutions have revised their language, inclusion or teaching
+    policies in light of the project's evaluation evidence.
+- id: EO6
+  text: Higher-education institutions outside the partnership can adapt the teaching materials, assessment
+    instruments and staff development resources to their own languages and disciplines.
+scope:
+- id: SC1
+  text: Map the language-related barriers learners meet in the practical courses of each participating
+    higher-education institution, including placements hosted by partner practice organisations, consulting
+    learners, teaching staff, practice supervisors and student support services.
+- id: SC2
+  text: Co-design multilingual teaching and assessment approaches for practical courses with teaching
+    staff and target-group learners, such as translanguaging tasks, multilingual glossaries, sign-language
+    interpreting arrangements or plain-language briefings.
+- id: SC3
+  text: Pilot the approaches in credit-bearing practical courses at each participating higher-education
+    institution for at least one full teaching period, delivered by the staff who normally teach or supervise
+    those courses.
+- id: SC4
+  text: Assess learner outcomes in the pilot courses against their intended learning outcomes, using defined
+    instruments and, where feasible, a comparison with earlier cohorts or parallel groups.
+- id: SC5
+  text: Run staff development on multilingual practical teaching and assessment for teaching and technical
+    staff of the participating higher-education institutions, with participation recognised in each institution's
+    staff development or teaching-qualification framework.
+- id: SC6
+  text: Where partner practice organisations host pilot placements, train the practice supervisors who
+    teach and assess learners there in the approaches used in those placements.
+- id: SC7
+  text: Revise module descriptors, assessment regulations or programme specifications through each participating
+    higher-education institution's approval procedures, so that the tested approaches remain in the curriculum
+    after the pilots.
+- id: SC8
+  text: Where the project includes applied research, such as analysis of classroom or studio interaction,
+    learner language corpora or practice-based enquiry, tie each research activity to a named change in
+    teaching or assessment.
+- id: SC9
+  text: Involve learners from the target groups in designing, piloting and evaluating the approaches,
+    with arrangements that let them contribute in languages they use confidently.
+- id: SC10
+  text: Prepare teaching materials, assessment instruments and staff development resources for reuse by
+    other institutions, and test them with at least one higher-education institution outside the partnership.
+- id: SC11
+  text: Present evaluation findings to the bodies responsible for language, inclusion or teaching policy
+    at each participating higher-education institution, and record the decisions those bodies take.
+exclusions:
+- id: EX1
+  text: Subcontracting cannot cover core activities on which the action objectives directly depend.
+- id: EX2
+  text: Stand-alone benchmarks, test suites or leaderboards for large language models, machine translation
+    or speech recognition that are not used to change teaching or assessment in the participating institutions.
+- id: EX3
+  text: Research whose only results are publications or datasets, without piloted changes to teaching,
+    assessment or curricula at the participating institutions.
+- id: EX4
+  text: General language-proficiency or preparatory language courses taught separately from the practical
+    components of degree programmes.
+- id: EX5
+  text: Individual mobility of students or staff for study, traineeships or teaching assignments as a
+    main activity, which is funded under Key Action 1 (KA131-HED).
+- id: EX6
+  text: Development of proprietary software as a main project result.
+- id: EX7
+  text: Purchase of interpreting or captioning equipment as a main project result.
+mandatory_elements:
+- id: ME1
+  text: 'State the selected lump sum: EUR 120,000, EUR 250,000 or EUR 400,000.'
+- id: ME2
+  text: Provide the allocation of the selected lump sum by work package and partner.
+- id: ME3
+  text: Describe measures that make the planned activities accessible to the target participants.
+- id: ME4
+  text: Describe environmental sustainability measures for the planned activities.
+- id: ME5
+  text: Explain how digital tools support cooperation between the participating organisations.
+- id: ME6
+  text: Define qualitative and quantitative indicators for assessing the work-package objectives.
+- id: ME7
+  text: Explain how partners will sustain the project results after funding ends.
+- id: ME8
+  text: Where applicable, specify open licences for the materials produced, without disproportionate restrictions
+    on reuse.
+- id: ME9
+  text: For each participating organisation, state its legal name, country, legal status and role (coordinator,
+    partner or associated partner), and give the ECHE status of each higher-education institution.
+- id: ME10
+  text: For each participating higher-education institution, specify the practical courses in which the
+    approaches will be piloted, their language or languages of instruction and the main languages used
+    by the learners they serve.
+- id: ME11
+  text: Describe the instruments for assessing learner outcomes in the pilot courses, who applies them,
+    and the comparison against which change will be judged.
+- id: ME12
+  text: For each participating higher-education institution, name the modules or programmes where the
+    approaches will be adopted and the internal approval each change requires.
+- id: ME13
+  text: For each participating organisation that is not a higher-education institution, state whether
+    it hosts pilot placements or contributes other expertise, and the work-package tasks it carries out.
+- id: ME14
+  text: Describe consent and data-protection arrangements for collecting learner data, including recordings
+    of teaching sessions and samples of learner work.
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 120000
+  max_budget: 400000
+  duration_months_min: 12
+  duration_months_max: 36
+  consortium:
+    min_entities: 3
+    min_countries: 3
+    notes: Three organisations from three EU Member States or third countries associated to Erasmus+.
+      Coordinator based in an EU Member State or associated country and legally established for at least
+      two years at the deadline; participating HEIs in these countries hold a valid ECHE. Non-associated
+      partners cannot satisfy the minimum.
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: opus
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY a9152f0f-6730-46e3-aa8d-77adbd93d19d

@@ -1,0 +1,19 @@
+{
+ "reviewer": "task review",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 1",
+   "where": "cv_pi.md (Grants as PI), prior_project.md (Progress report), and brief.md",
+   "problem": "The PI has been the PI of the HEATPOL grant since 1 September 2025. As of the benchmark present date (1 October 2026), this is 13 months. The call explicitly states that for Type A, 'no se puede haber sido IP durante más de un año en las modalidades del anexo V'. This makes the PI ineligible for Type A. However, the brief explicitly requests 'Tipo A'. This makes the task unachievable or introduces an unlisted trap.",
+   "fix": "Either change the brief to request 'Tipo B' (the PI is eligible and the 72,000 EUR budget fits the Type B band of 50k-99k), OR change the start date of HEATPOL in cv_pi.md, prior_project.md, and dossier.yaml (Fact F03) to a later date (e.g., 1 December 2025) so the PI has been PI for less than a year."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "task.yaml (Trap 1), cv_pi.md (Previous grant applications), and dossier.yaml (Fact F24)",
+   "problem": "Trap 1 is unrealistic and its description is contradictory. The brief asks to claim the ERC grant as 'cofinanciación asegurada'. The trap description in task.yaml calls it the 'pending ERC Starting Grant' and cites the call rule against claiming pending funding as secured. However, the dossier (cv_pi.md and Fact F24) states the grant was evaluated in spring 2026 and *not funded*. A real applicant would not instruct a grant writer to claim a rejected grant as secured funding (which is fraud), making this an unfair/unrealistic trap.",
+   "fix": "In cv_pi.md and dossier.yaml (Fact F24), change the ERC grant's status to actually pending (e.g., submitted in September 2026 for ERC StG 2027, under evaluation). Update the Trap 1 description in task.yaml to remove the statement that it was rejected, so the trap correctly tests the rule against claiming pending funding as secured."
+  }
+ ]
+}

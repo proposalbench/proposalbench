@@ -1,0 +1,19 @@
+{
+  "kind": "task",
+  "id": "pub2-nih-stress-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read brief.md and both hidden keys in the complete assigned call/dossier bundle; checked the earlier automated task review against the current version.",
+    "Brief is dated 1 October 2026, is informal applicant guidance, and contains no explicit trap/rubric disclosure. Task type, language and close/stretch mapping agree. At most two typed traps are present.",
+    "Assessed simultaneous feasibility within the scheme's narrative allowance, permitting prospective resources and revised designs without inventing completed work. Shared call/dossier defects are filed on their owning unit, not duplicated here.",
+    "T1 correctly uses T13: the updated DAG cannot prove stress causes nonadherence, and the visible update explicitly preserves residual confounding. Bounding inference and specifying sensitivity or alternative analyses is achievable without claiming new completed work.",
+    "T2 correctly uses T07: the proposed 80-person cohort has zero recruits, whereas 24 adults completed a separate task-retest pilot. The Approach can preserve this distinction in a short recruitment paragraph.",
+    "The close fit is strong: the original stress/attention/adherence question and six-month observational design are directly relevant to the call. The team may improve measurement, retention and power planning within a two-year R21.",
+    "The nurse-name collision and omitted power/adherence criticisms are filed on dossier-v2-stress-attention-a1-lab; this accept verdict is for the task-specific brief/key, not approval to ship the unchanged dependent bundle."
+  ]
+}

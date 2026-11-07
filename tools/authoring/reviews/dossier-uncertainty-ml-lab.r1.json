@@ -1,0 +1,38 @@
+{
+  "kind": "dossier",
+  "id": "uncertainty-ml-lab",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "cv_pi.md, prior_project.md, dossier.yaml",
+      "problem": "Timeline contradiction. The CV lists the NSF CRII grant (Sep 2023 – Aug 2025) as \"(completed)\", and `prior_project.md` is a \"Final Project Report\" covering the full period up to August 31, 2025. However, other dates imply the current time is early 2025 (e.g., a March 2025 preprint, Ph.D. students in their 2nd/3rd years, an open position for Fall 2025 \"To be recruited\", and teaching only listed through Fall 2024).",
+      "fix": "Make the grant active. In `cv_pi.md`, change \"(completed)\" to \"(active)\". In `prior_project.md`, change \"Final Project Report\" to \"Annual Project Report\" (or \"Progress Report\"). In `dossier.yaml`, update Fact F02 to state the award is active rather than completed."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md, dossier.yaml",
+      "problem": "Publication count contradiction. `prior_project.md` claims \"5 peer-reviewed publications\" resulted from the CRII project. However, the publications list only contains 4 peer-reviewed publications from the project period (2024-2025); the 5th peer-reviewed publication is from 2021, before the grant started.",
+      "fix": "In `prior_project.md`, change \"5 peer-reviewed publications\" to \"4 peer-reviewed publications\". In `dossier.yaml`, update Fact F18 text to \"4 peer-reviewed publications\" and its value to '6' (4 peer-reviewed + 1 workshop + 1 preprint)."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md (Section 3.1 and 3.3), dossier.yaml",
+      "problem": "Mathematical contradiction in the abstention results. The text states that removing 14% of statements increased precision from 0.72 to 0.89. However, if you start with 100 statements (72 correct, 28 incorrect) and remove 14 statements (of which 27% are correct, i.e., ~3.8 correct and ~10.2 incorrect), the remaining 86 statements have ~68.2 correct, yielding a maximum possible precision of 68.2 / 86 = 0.79, not 0.89.",
+      "fix": "Adjust the numbers to be mathematically consistent. For example, change the abstention rate to 25% (removing 25 statements: 27% correct = 6.75, 73% incorrect = 18.25; new precision = 65.25 / 75 = 0.87). Update Facts F06 and F21 accordingly."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md (Section 3.2)",
+      "problem": "The statistical test for the rejection rate is reported as a chi-square test with `n = 64` (`χ² = 8.74, p = 0.003, n = 64`). Since participants revised 6 essays each, the rejection rate is a continuous proportion per participant, making a chi-square test with n=64 statistically inappropriate (it implies a single binary outcome per participant).",
+      "fix": "Change the statistical test for the rejection rate to a t-test (e.g., `t(62) = 3.98, p < 0.001`) to match the continuous nature of the rate and align with the provided confidence intervals."
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+<title>ProposalBench v2 Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: a reviewer's desk. Sticky header with progress, tabs, then one reading column of
+   review cards; each card carries its verdict controls in its header row. */
+:root {
+  --bg: #f2f4f6;
+  --surface: #ffffff;
+  --sunk: #e9edf1;
+  --ink: #18222c;
+  --muted: #5a6672;
+  --line: #d5dce3;
+  --accent: #1d5c86;
+  --accent-soft: #e2edf5;
+  --ok: #2c7a4c;
+  --ok-soft: #e1f1e7;
+  --fix: #a94f12;
+  --fix-soft: #f8e9dc;
+  --font-ui: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-doc: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-id: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --step-0: 0.875rem;
+  --step-1: 1rem;
+  --step-2: 1.2rem;
+  --step-3: 1.5rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10161c; --surface: #172029; --sunk: #1d2731; --ink: #e2e8ee; --muted: #94a1ad;
+    --line: #2b3742; --accent: #82b8de; --accent-soft: #1d3346; --ok: #74c895;
+    --ok-soft: #1b3326; --fix: #eea36a; --fix-soft: #3a2616; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10161c; --surface: #172029; --sunk: #1d2731; --ink: #e2e8ee; --muted: #94a1ad;
+  --line: #2b3742; --accent: #82b8de; --accent-soft: #1d3346; --ok: #74c895;
+  --ok-soft: #1b3326; --fix: #eea36a; --fix-soft: #3a2616; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font-ui); font-size: var(--step-0);
+  line-height: 1.5;
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  z-index: 10; background: var(--surface);
+}
+.wrap {
+  max-width: 920px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+header.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+header.top .wrap { padding-block: 14px 0; display: grid; gap: 10px; }
+h1 { font-size: var(--step-2); margin: 0; font-weight: 600; text-wrap: balance; }
+.sub { color: var(--muted); margin: 0; }
+.meters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.meter { display: grid; gap: 4px; min-width: 0; }
+.meter b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.meter .bar { height: 6px; background: var(--sunk); border-radius: 3px; display: flex; overflow: hidden; }
+.meter .bar span { display: block; height: 100%; }
+.meter .bar .ok { background: var(--ok); }
+.meter .bar .fix { background: var(--fix); }
+.meter small { color: var(--muted); font-variant-numeric: tabular-nums; }
+.status { font-size: 0.8rem; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+.status::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--muted); flex: none; }
+.status[data-state="ok"]::before { background: var(--ok); }
+.status[data-state="warn"]::before, .status[data-state="err"]::before { background: var(--fix); }
+nav.tabs { display: flex; gap: 2px; overflow-x: auto; }
+nav.tabs button {
+  font: inherit; font-weight: 500; background: none; border: 0; color: var(--muted);
+  padding: 8px 12px; border-bottom: 2px solid transparent; cursor: pointer; white-space: nowrap;
+}
+nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+main .wrap { padding-block: 16px 64px; display: grid; gap: 14px; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface); }
+.seg button { font: inherit; background: none; border: 0; padding: 6px 10px; color: var(--muted); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--ink); font-weight: 500; }
+.count { color: var(--muted); font-variant-numeric: tabular-nums; }
+.card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
+  display: grid; gap: 10px; padding: 14px 16px; min-width: 0;
+  border-left: 4px solid var(--line);
+}
+.card[data-verdict="ok"] { border-left-color: var(--ok); }
+.card[data-verdict="fix"] { border-left-color: var(--fix); }
+.card-head { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: flex-start; justify-content: space-between; }
+.card-title { display: grid; gap: 4px; min-width: 0; flex: 1 1 320px; }
+.card-title h2, .card-title h3 { margin: 0; font-size: var(--step-1); font-weight: 600; text-wrap: balance; }
+.id { font-family: var(--font-id); font-size: 0.78rem; color: var(--muted); overflow-wrap: anywhere; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font-size: 0.75rem; padding: 1px 8px; border-radius: 999px; background: var(--sunk);
+  color: var(--muted); letter-spacing: 0.01em; white-space: nowrap;
+}
+.chip.strong { background: var(--accent-soft); color: var(--ink); }
+.chip.warn { background: var(--fix-soft); color: var(--fix); }
+.verdict { display: grid; gap: 6px; flex: 0 1 260px; min-width: 0; }
+.verdict .btns { display: flex; gap: 6px; }
+.verdict button {
+  font: inherit; font-size: 0.8rem; font-weight: 500; flex: 1; cursor: pointer;
+  padding: 6px 8px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+}
+.verdict button.ok[aria-pressed="true"] { background: var(--ok-soft); border-color: var(--ok); color: var(--ok); }
+.verdict button.fix[aria-pressed="true"] { background: var(--fix-soft); border-color: var(--fix); color: var(--fix); }
+.verdict textarea {
+  font: inherit; font-size: 0.82rem; width: 100%; min-height: 34px; resize: vertical;
+  padding: 6px 8px; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+}
+button:focus-visible, textarea:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+dl.facts { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 14px; margin: 0; }
+dl.facts dt { color: var(--muted); }
+dl.facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; margin: 0 0 2px; }
+.block { display: grid; gap: 2px; }
+.block p { margin: 0; }
+.prose { font-family: var(--font-doc); font-size: 0.98rem; line-height: 1.6; max-width: 68ch; overflow-wrap: anywhere; }
+.prose table { border-collapse: collapse; font-family: var(--font-ui); font-size: 0.82rem; }
+.prose th, .prose td { border: 1px solid var(--line); padding: 4px 8px; vertical-align: top; text-align: left; }
+.prose h1, .prose h2, .prose h3, .prose h4 { font-family: var(--font-ui); line-height: 1.3; text-wrap: balance; }
+.prose h1 { font-size: 1.15rem; } .prose h2 { font-size: 1.05rem; } .prose h3, .prose h4 { font-size: 0.95rem; }
+.prose blockquote { margin: 0; padding-left: 12px; border-left: 3px solid var(--line); color: var(--muted); }
+.scroll { overflow-x: auto; }
+details { border-top: 1px solid var(--line); padding-top: 8px; }
+summary { cursor: pointer; color: var(--accent); font-weight: 500; }
+details[open] > summary { margin-bottom: 8px; }
+ul.plain { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+.review-line { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.rejected { display: grid; gap: 8px; }
+.rejected .item { background: var(--sunk); border-radius: 6px; padding: 8px 10px; display: grid; gap: 4px; }
+.rejected .item p { margin: 0; }
+.linkish { font: inherit; background: none; border: 0; padding: 0; color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.type-head { display: grid; gap: 2px; padding-top: 10px; }
+.type-head h2 { margin: 0; font-size: var(--step-2); font-weight: 600; }
+.type-head p { margin: 0; color: var(--muted); font-variant-numeric: tabular-nums; }
+.guide { display: grid; gap: 16px; }
+.guide section { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
+.guide h2 { margin: 0 0 6px; font-size: var(--step-1); }
+.guide p, .guide li { max-width: 70ch; }
+.empty { color: var(--muted); padding: 24px 0; text-align: center; }
+a { color: var(--accent); overflow-wrap: anywhere; }
+@media (max-width: 560px) {
+  header.top { position: static; }
+  .meters { grid-template-columns: 1fr; gap: 6px; }
+  .verdict { flex-basis: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div>
+      <h1>ProposalBench v2 review</h1>
+      <p class="sub" id="sub"></p>
+    </div>
+    <div class="meters" id="meters"></div>
+    <div class="status" id="status" data-state="idle">Connecting to saved verdicts…</div>
+    <nav class="tabs" role="tablist" id="tabs">
+      <button role="tab" data-tab="calls" aria-selected="true">Calls</button>
+      <button role="tab" data-tab="traps" aria-selected="false">Traps</button>
+      <button role="tab" data-tab="tasks" aria-selected="false">Sample tasks</button>
+      <button role="tab" data-tab="guide" aria-selected="false">What to check</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="toolbar" id="toolbar">
+      <div class="seg" role="group" aria-label="Show">
+        <button data-filter="all" aria-pressed="true">All</button>
+        <button data-filter="open" aria-pressed="false">Not reviewed</button>
+        <button data-filter="fix" aria-pressed="false">Needs a fix</button>
+        <button data-filter="ok" aria-pressed="false">Looks right</button>
+      </div>
+      <span class="count" id="count"></span>
+    </div>
+    <section id="view-calls" role="tabpanel"></section>
+    <section id="view-traps" role="tabpanel" hidden></section>
+    <section id="view-tasks" role="tabpanel" hidden></section>
+    <section id="view-guide" role="tabpanel" hidden></section>
+  </div>
+</main>
+
+<script type="application/json" id="data">/*__DATA__*/{}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script>
+"use strict";
+const DATA = JSON.parse(document.getElementById("data").textContent);
+const KINDS = { calls: "call", traps: "trap", tasks: "task" };
+const state = { tab: "calls", filter: "all", verdicts: {} };
+const controls = {};          // key -> {card, ok, fix, note, kind, ref}
+let db = null, canWrite = true;
+
+function h(tag, attrs, ...kids) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === "class") el.className = v;
+    else if (k === "text") el.textContent = v;
+    else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+    else el.setAttribute(k, v === true ? "" : v);
+  }
+  for (const kid of kids.flat()) if (kid != null && kid !== false) el.append(kid);
+  return el;
+}
+const chip = (text, cls) => h("span", { class: "chip" + (cls ? " " + cls : ""), text });
+function md(text) {
+  const box = h("div", { class: "prose scroll" });
+  try { box.innerHTML = window.marked ? window.marked.parse(text) : ""; } catch (_) { box.innerHTML = ""; }
+  if (!box.innerHTML) box.append(h("pre", { style: "white-space:pre-wrap", text }));
+  return box;
+}
+function lazy(summary, render) {
+  const d = h("details", {}, h("summary", { text: summary }));
+  let done = false;
+  d.addEventListener("toggle", () => { if (d.open && !done) { d.append(render()); done = true; } });
+  return d;
+}
+function money(c) {
+  if (!c.max_budget) return "not stated";
+  const f = (n) => Number(n).toLocaleString("en-GB");
+  return (c.min_budget ? `${c.currency} ${f(c.min_budget)}–` : `up to ${c.currency} `) + f(c.max_budget);
+}
+function reviewLine(reviews) {
+  if (!reviews.length) return h("span", { class: "count", text: "No automated review on file" });
+  return h("div", { class: "review-line" }, reviews.map((r, i) => chip(
+    `${i ? "then " : ""}${r.reviewer}: ${r.verdict}` +
+    (r.blocker + r.major + r.minor ? ` (${r.blocker} blocker, ${r.major} major, ${r.minor} minor)` : ""),
+    r.verdict === "accept" ? "" : "strong")));
+}
+function rejectedBlock(list, where) {
+  if (!list.length) return null;
+  return h("details", {},
+    h("summary", { text: `Reviewer points the author declined to fix${where ? " " + where : ""} (${list.length})` }),
+    h("div", { class: "rejected" }, list.map((r) => h("div", { class: "item" },
+      h("p", {}, h("span", { class: "label", text: "Reviewer  " }), r.problem || "(the author\u2019s reply does not say which point)"),
+      h("p", {}, h("span", { class: "label", text: "Author  " }), r.reason)))));
+}
+
+// --- verdicts ---------------------------------------------------------------------------
+function verdictControls(key, kind, ref, card) {
+  const ok = h("button", { class: "ok", type: "button", "aria-pressed": "false", text: "Looks right" });
+  const fix = h("button", { class: "fix", type: "button", "aria-pressed": "false", text: "Needs a fix" });
+  const note = h("textarea", { id: "note-" + key, rows: "1", placeholder: "Note (what to change)", "aria-label": "Note" });
+  let timer = null;
+  const choose = (v) => {
+    const cur = state.verdicts[key] || {};
+    record(key, kind, ref, { verdict: cur.verdict === v ? "" : v, note: note.value });
+  };
+  ok.addEventListener("click", () => choose("ok"));
+  fix.addEventListener("click", () => { choose("fix"); if (state.verdicts[key].verdict === "fix") note.focus(); });
+  note.addEventListener("input", () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => record(key, kind, ref, { verdict: (state.verdicts[key] || {}).verdict || "", note: note.value }), 900);
+  });
+  note.addEventListener("blur", () => {
+    clearTimeout(timer);
+    if ((state.verdicts[key] || {}).note !== note.value)
+      record(key, kind, ref, { verdict: (state.verdicts[key] || {}).verdict || "", note: note.value });
+  });
+  controls[key] = { card, ok, fix, note, kind, ref };
+  return h("div", { class: "verdict" }, h("div", { class: "btns" }, ok, fix), note);
+}
+function paint(key) {
+  const c = controls[key]; if (!c) return;
+  const v = state.verdicts[key] || {};
+  c.ok.setAttribute("aria-pressed", String(v.verdict === "ok"));
+  c.fix.setAttribute("aria-pressed", String(v.verdict === "fix"));
+  c.card.dataset.verdict = v.verdict || "";
+  if (document.activeElement !== c.note && (v.note || "") !== c.note.value) c.note.value = v.note || "";
+}
+const writing = {}, pending = {};
+function record(key, kind, ref, patch) {
+  state.verdicts[key] = { kind, ref, verdict: patch.verdict, note: patch.note, at: new Date().toISOString() };
+  paint(key); refreshCounts(); applyFilter();
+  save(key);
+}
+async function save(key) {
+  if (!db || !canWrite) return;
+  if (writing[key]) { pending[key] = true; return; }
+  writing[key] = true;
+  try {
+    await db.collection("verdicts").doc(key).set({ ...state.verdicts[key] });
+  } catch (e) {
+    if (e && e.code === "invalid_argument") {
+      canWrite = false;
+      setStatus("warn", "You can read these verdicts but not change them on this page.");
+    } else if (e && e.code === "unavailable") {
+      setTimeout(() => save(key), 1500 + Math.random() * 1500);
+    } else {
+      setStatus("err", "A verdict was not saved. Reload the page and try again.");
+    }
+  } finally {
+    writing[key] = false;
+    if (pending[key]) { pending[key] = false; save(key); }
+  }
+}
+function setStatus(s, text) { const el = document.getElementById("status"); el.dataset.state = s; el.textContent = text; }
+
+// --- views ------------------------------------------------------------------------------
+function callCard(c) {
+  const key = "call__" + c.id;
+  const card = h("article", { class: "card", id: "card-" + key });
+  const head = h("div", { class: "card-head" },
+    h("div", { class: "card-title" },
+      h("h2", { text: c.title }),
+      h("span", { class: "id", text: `${c.id} · ${c.topic_code}` }),
+      h("div", { class: "chips" }, chip(c.template, "strong"), chip(c.language.toUpperCase()),
+        c.proposal_type !== "full" && chip(c.proposal_type.replace("_", " ")), chip("drafted by " + c.author))),
+    verdictControls(key, "call", c.id, card));
+  const facts = h("dl", { class: "facts" },
+    h("dt", { text: "Award" }), h("dd", { text: money(c) }),
+    h("dt", { text: "Duration" }), h("dd", { text: c.duration_max ? `up to ${c.duration_max} months` : "not stated" }),
+    h("dt", { text: "Length" }), h("dd", { text: `${c.max_words.toLocaleString("en-GB")} words (${c.enforcement.replace("_", " ")})` }),
+    h("dt", { text: "Sections" }), h("dd", { text: c.sections.join(" · ") }),
+    h("dt", { text: "Official sources" }), h("dd", {}, c.sources.length
+      ? h("ul", { class: "plain" }, c.sources.map((u) => h("li", {}, h("a", { href: u, target: "_blank", rel: "noopener", text: u.replace(/^https?:\/\//, "") }))))
+      : "none: every condition is invented"),
+    h("dt", { text: "Used by" }), h("dd", { text: c.tasks.map((t) => `${t.id} (${t.fit})`).join(", ") }),
+    h("dt", { text: "Automated review" }), h("dd", {}, reviewLine(c.reviews)));
+  card.append(head, facts);
+  const rej = rejectedBlock(c.rejected); if (rej) card.append(rej);
+  card.append(lazy("Read the call", () => md(c.text)));
+  return card;
+}
+function trapCard(t) {
+  const card = h("article", { class: "card", id: "card-" + t.key });
+  const head = h("div", { class: "card-head" },
+    h("div", { class: "card-title" },
+      h("h3", { text: t.call_title }),
+      h("span", { class: "id", text: `${t.task} · ${t.trap}` }),
+      h("div", { class: "chips" }, chip(t.fit), t.task_type !== "full" && chip(t.task_type.replace("_", " ")),
+        t.variant.map((v) => chip(v, "warn")))),
+    verdictControls(t.key, "trap", `${t.task}/${t.trap}`, card));
+  card.append(head,
+    h("div", { class: "block" }, h("p", { class: "label", text: "Premise and conflict" }), h("p", { class: "prose", text: t.description })),
+    h("div", { class: "block" }, h("p", { class: "label", text: "A compliant proposal" }), h("p", { class: "prose", text: t.expected })),
+    h("div", {}, h("button", { class: "linkish", type: "button", text: "Open the call", onclick: () => goTo("calls", "card-call__" + t.call) })));
+  const rej = rejectedBlock(t.rejected, "on this task"); if (rej) card.append(rej);
+  card.append(lazy("Read the brief", () => md(DATA.briefs[t.task] || "")));
+  return card;
+}
+function taskCard(s) {
+  const key = "task__" + s.id;
+  const card = h("article", { class: "card", id: "card-" + key });
+  const head = h("div", { class: "card-head" },
+    h("div", { class: "card-title" },
+      h("h2", { text: s.call_title }),
+      h("span", { class: "id", text: s.id }),
+      h("div", { class: "chips" }, chip(s.scheme, "strong"), chip(s.fit), s.task_type !== "full" && chip(s.task_type.replace("_", " ")),
+        s.author && chip("dossier by " + s.author), s.variant.map((v) => chip(v, "warn")))),
+    verdictControls(key, "task", s.id, card));
+  const key_ = h("div", { class: "block" }, h("p", { class: "label", text: "Hidden key" }),
+    h("ul", { class: "plain" },
+      s.traps.map((t) => h("li", {}, h("b", { text: `${t.id} ${t.type || ""}: ` }), t.description,
+        h("br"), h("i", { text: "Compliant: " }), t.expected)),
+      s.gaps.map((g) => h("li", {}, h("b", { text: "Intended gap: " }), g)),
+      s.inconsistencies.map((g) => h("li", {}, h("b", { text: "Intended inconsistency: " }), g)),
+      s.criticisms.map((c) => h("li", {}, h("b", { text: `Reviewer criticism ${c.id}: ` }), c.text))));
+  card.append(head, key_,
+    h("dl", { class: "facts" },
+      h("dt", { text: "Task review" }), h("dd", {}, reviewLine(s.reviews)),
+      h("dt", { text: "Dossier review" }), h("dd", {}, reviewLine(s.dossier_reviews))));
+  const rej = rejectedBlock(s.rejected); if (rej) card.append(rej);
+  card.append(h("div", {}, h("button", { class: "linkish", type: "button", text: "Open the call", onclick: () => goTo("calls", "card-call__" + s.call) })));
+  card.append(lazy("Brief", () => md(s.brief)));
+  for (const f of s.files) card.append(lazy("Dossier: " + f.path, () => md(f.text)));
+  card.append(lazy(`Dossier facts in the hidden key (${s.facts.length})`, () => h("div", { class: "scroll" },
+    h("table", { class: "prose" }, h("thead", {}, h("tr", {}, ["Id", "Kind", "Fact", "Value", "Source"].map((x) => h("th", { text: x })))),
+      h("tbody", {}, s.facts.map((f) => h("tr", {}, [f.id, f.kind, f.text, f.value ?? "", f.source].map((x) => h("td", { text: String(x) })))))))));
+  return card;
+}
+function guide() {
+  const sec = (title, items) => h("section", {}, h("h2", { text: title }), h("ul", { class: "plain" }, items.map((t) => h("li", { text: t }))));
+  return h("div", { class: "guide" },
+    sec("Calls (all 20)", [
+      "Structure, eligibility, limits and criteria match the real scheme: open the official sources listed on the card.",
+      "Every invented restriction is labelled as a benchmark restriction; nothing contradicts the official rules.",
+      "The topic is one this programme could plausibly publish, and its scope items are checkable in a proposal.",
+      "Look at the reviewer points the author declined to fix: decide who was right.",
+    ]),
+    sec("Traps (every v2 trap)", [
+      "The premise is something a real applicant could ask for, and the brief asks for it as an ordinary suggestion.",
+      "The conflict is decidable from what a proposal for this scheme must state (no budget traps where the narrative has no budget).",
+      "The compliant behaviour is unambiguous, and any feasible alternative design is accepted.",
+      "Silent dossier facts (T12) are ordinary dated facts in the dossier; reviewer-criticism traps (T13) accept a reasoned rebuttal.",
+    ]),
+    sec("Sample tasks (10, one per scheme)", [
+      "Read the bundle as the writer would receive it: brief, dossier files, then the call.",
+      "The dossier is coherent and specific, except where the hidden key lists an intended gap or inconsistency.",
+      "The hidden key is right: traps, gaps, inconsistencies and reviewer criticisms match what the files say.",
+      "Names of people, institutions and projects are fictional and do not collide with real ones.",
+    ]),
+    h("p", { class: "count", text: "Verdicts and notes save as you go. Pressing a chosen verdict again clears it." }));
+}
+
+function build() {
+  document.getElementById("sub").textContent =
+    `${DATA.calls.length} new calls, ${DATA.traps.length} new traps and ${DATA.sample.length} sample tasks. Built ${DATA.built}.`;
+  const vc = document.getElementById("view-calls");
+  DATA.calls.forEach((c) => vc.append(callCard(c)));
+  const vt = document.getElementById("view-traps");
+  for (const ty of DATA.trap_types) {
+    const list = DATA.traps.filter((t) => t.type === ty.type);
+    if (!list.length) continue;
+    const group = h("div", { class: "trap-group", "data-type": ty.type, style: "display:grid;gap:14px" },
+      h("div", { class: "type-head" }, h("h2", { text: `${ty.type} · ${ty.name}` }),
+        h("p", { text: `${ty.total} across the 60 public tasks (${ty.v2} new) · target at least ${ty.target}` + (ty.total >= ty.target ? "" : " · below target") })),
+      list.map(trapCard));
+    vt.append(group);
+  }
+  const vk = document.getElementById("view-tasks");
+  DATA.sample.forEach((s) => vk.append(taskCard(s)));
+  document.getElementById("view-guide").append(guide());
+  for (const k of Object.keys(controls)) paint(k);
+  refreshCounts(); applyFilter();
+}
+
+function refreshCounts() {
+  const box = document.getElementById("meters"); box.textContent = "";
+  for (const [tab, label, total] of [["calls", "Calls", DATA.calls.length], ["traps", "Traps", DATA.traps.length], ["tasks", "Sample tasks", DATA.sample.length]]) {
+    const keys = Object.keys(controls).filter((k) => controls[k].kind === KINDS[tab]);
+    const ok = keys.filter((k) => (state.verdicts[k] || {}).verdict === "ok").length;
+    const fix = keys.filter((k) => (state.verdicts[k] || {}).verdict === "fix").length;
+    box.append(h("div", { class: "meter" },
+      h("span", {}, h("b", { text: `${ok + fix} of ${total}` }), ` ${label.toLowerCase()} reviewed`),
+      h("div", { class: "bar", role: "img", "aria-label": `${ok} look right, ${fix} need a fix` },
+        h("span", { class: "ok", style: `width:${(100 * ok) / total}%` }), h("span", { class: "fix", style: `width:${(100 * fix) / total}%` })),
+      h("small", { text: `${ok} look right · ${fix} need a fix` })));
+  }
+}
+function applyFilter() {
+  const kind = KINDS[state.tab];
+  document.getElementById("toolbar").hidden = !kind;
+  if (!kind) return;
+  let shown = 0, total = 0;
+  for (const [k, c] of Object.entries(controls)) {
+    if (c.kind !== kind) continue;
+    total++;
+    const v = (state.verdicts[k] || {}).verdict || "";
+    const show = state.filter === "all" || (state.filter === "open" ? !v : v === state.filter);
+    c.card.hidden = !show; if (show) shown++;
+  }
+  document.querySelectorAll(".trap-group").forEach((g) => { g.hidden = !g.querySelector(".card:not([hidden])"); });
+  document.getElementById("count").textContent = `${shown} of ${total} shown`;
+}
+function showTab(tab) {
+  if (!["calls", "traps", "tasks", "guide"].includes(tab)) tab = "calls";
+  state.tab = tab;
+  document.querySelectorAll("#tabs button").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === tab)));
+  for (const t of ["calls", "traps", "tasks", "guide"]) document.getElementById("view-" + t).hidden = t !== tab;
+  applyFilter();
+}
+function goTo(tab, id) {
+  state.filter = "all";
+  document.querySelectorAll("#toolbar [data-filter]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.filter === "all")));
+  location.hash = tab; showTab(tab);
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ block: "start" });
+}
+document.getElementById("tabs").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-tab]"); if (!b) return;
+  location.hash = b.dataset.tab; showTab(b.dataset.tab); window.scrollTo(0, 0);
+});
+document.getElementById("toolbar").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-filter]"); if (!b) return;
+  state.filter = b.dataset.filter;
+  document.querySelectorAll("#toolbar [data-filter]").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+  applyFilter();
+});
+window.addEventListener("hashchange", () => showTab(location.hash.slice(1)));
+
+build();
+showTab(location.hash.slice(1) || "calls");
+
+(async () => {
+  try { db = window.claude && window.claude.use ? await window.claude.use("db") : null; } catch (_) { db = null; }
+  if (!db) { setStatus("warn", "Verdicts are not being saved: open this page on claude.ai while signed in."); return; }
+  const timer = setTimeout(() => setStatus("warn", "Saved verdicts can't be reached yet. New verdicts may not be saved."), 10000);
+  db.collection("verdicts").onSnapshot((snap) => {
+    for (const d of snap.docs) {
+      const body = d.data();
+      if (!body || writing[d.id]) continue;
+      state.verdicts[d.id] = body;
+      paint(d.id);
+    }
+    refreshCounts(); applyFilter();
+    if (!snap.metadata.fromCache) {
+      clearTimeout(timer);
+      if (canWrite) setStatus("ok", "Verdicts and notes are saved as you go.");
+    }
+  }, (e) => {
+    clearTimeout(timer);
+    setStatus("err", e && e.code === "revoked" ? "This page can no longer reach its saved verdicts." : "Saved verdicts could not be loaded. Reload the page to try again.");
+  });
+})();
+</script>

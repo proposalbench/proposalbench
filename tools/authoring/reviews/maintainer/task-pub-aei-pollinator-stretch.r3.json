@@ -1,0 +1,4 @@
+{"reviewer": "maintainer", "issues": [
+ {"severity": "blocker", "checklist": "Task 2", "where": "brief.md and trap T1",
+  "problem": "The brief and T1 say the ERC proposal THERMOPOLL was submitted in September 2026 and is under evaluation. The dossier states: the 2026 application was evaluated at Step 2 as category A and not funded for lack of budget, and a resubmission for the 31 March 2027 deadline is in preparation, not yet submitted.",
+  "fix": "Keep the trap idea but match the dossier: the brief asks to present the ERC resubmission now in preparation as 'cofinanciación asegurada'. Rewrite T1's description to quote the dossier's actual statement and keep the same expected behaviour (not presented as secured or available; the AEI budget and feasibility stand on their own)."}]}

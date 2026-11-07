@@ -1,0 +1,131 @@
+{
+  "kind": "call",
+  "id": "v2-he-stage1-coastal-exposure",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "22dc1b1456687404d72826c5cd13cd1fc838231ad1df58dc58739873c21c8424",
+  "draft": {
+    "title": "HORIZON-CL6-2027-COASTAL-01-01: Integrated modelling of catchment-to-coast exposure pathways for early-warning systems",
+    "expected_outcomes_intro": "Projects are expected to contribute to the protection of coastal communities and ecosystems by improving the predictability of compounding waterborne hazards. Successful proposals will deliver actionable evidence that enhances regional preparedness and supports the implementation of integrated coastal zone management policies.",
+    "expected_outcomes": [
+      "Coastal authorities and environmental agencies benefit from validated early-warning indicators that link upstream catchment runoff to coastal hazard exposure.",
+      "Local decision-makers utilize improved predictive models that quantify the transport of pollutants and floodwaters through estuarine systems.",
+      "Vulnerable coastal communities experience reduced risk through the timely deployment of evidence-based mitigation and evacuation strategies."
+    ],
+    "scope_intro": "The intensification of extreme weather events accelerates the transfer of hazardous runoff from inland catchments through estuaries to coastal zones. Current early-warning systems often treat riverine and coastal dynamics in isolation, leaving communities vulnerable to compounding waterborne hazards. There is a critical need to bridge this gap by tracing exposure pathways across the entire hydrological continuum.\n\nProposals should develop and test integrated monitoring and modelling frameworks that capture the complex transport mechanisms from catchments to the coast. Research must formulate clear hypotheses regarding estuarine transport dynamics and design robust sampling or modelling strategies to quantify uncertainty in early-warning evidence.",
+    "scope": [
+      "Develop coupled hydrological and hydrodynamic models to simulate the transport of runoff and associated hazards from inland catchments through estuaries to coastal waters.",
+      "Design and implement temporary monitoring campaigns to collect high-resolution field data on waterborne exposure pathways, validating the proposed transport models.",
+      "Quantify the cascading uncertainties within the modelling chain, from catchment precipitation inputs to coastal exposure outputs, to ensure reliable early-warning thresholds.",
+      "Co-design usable early-warning indicators with local authorities, translating complex estuarine transport data into actionable evidence for coastal risk management."
+    ],
+    "exclusions": [
+      "Standalone urban-layout or land-use optimisation without modelling catchment-to-coast waterborne exposure pathways is outside scope.",
+      "The engineering, design, or construction of permanent flood-barrier infrastructure."
+    ],
+    "mandatory_elements": [
+      "Detail the hypotheses, sampling or modelling design, and uncertainty quantification methods exclusively within the Excellence section."
+    ],
+    "conditions": {
+      "max_budget": 5000000,
+      "duration_months_max": 48,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": 0
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "HORIZON-CL6-2027-COASTAL-01-01: Integrated modelling of catchment-to-coast exposure pathways for early-warning systems",
+        "expected_outcomes_intro": "Projects are expected to contribute to the protection of coastal communities and ecosystems by improving the predictability of compounding waterborne hazards. Successful proposals will deliver actionable evidence that enhances regional preparedness and supports the implementation of integrated coastal zone management policies.",
+        "expected_outcomes": [
+          "Coastal authorities and environmental agencies benefit from validated early-warning indicators that link upstream catchment runoff to coastal hazard exposure.",
+          "Local decision-makers utilize improved predictive models that quantify the transport of pollutants and floodwaters through estuarine systems.",
+          "Vulnerable coastal communities experience reduced risk through the timely deployment of evidence-based mitigation and evacuation strategies."
+        ],
+        "scope_intro": "The intensification of extreme weather events accelerates the transfer of hazardous runoff from inland catchments through estuaries to coastal zones. Current early-warning systems often treat riverine and coastal dynamics in isolation, leaving communities vulnerable to compounding waterborne hazards. There is a critical need to bridge this gap by tracing exposure pathways across the entire hydrological continuum.\n\nProposals should develop and test integrated monitoring and modelling frameworks that capture the complex transport mechanisms from catchments to the coast. Research must formulate clear hypotheses regarding estuarine transport dynamics and design robust sampling or modelling strategies to quantify uncertainty in early-warning evidence.",
+        "scope": [
+          "Develop coupled hydrological and hydrodynamic models to simulate the transport of runoff and associated hazards from inland catchments through estuaries to coastal waters.",
+          "Design and implement temporary monitoring campaigns to collect high-resolution field data on waterborne exposure pathways, validating the proposed transport models.",
+          "Quantify the cascading uncertainties within the modelling chain, from catchment precipitation inputs to coastal exposure outputs, to ensure reliable early-warning thresholds.",
+          "Co-design usable early-warning indicators with local authorities, translating complex estuarine transport data into actionable evidence for coastal risk management."
+        ],
+        "exclusions": [
+          "Studies solely of offshore cosmology or generic terrestrial urban design, as methods and outputs must concern waterborne exposure pathways.",
+          "The engineering, design, or construction of permanent flood-barrier infrastructure."
+        ],
+        "mandatory_elements": [
+          "Detail the hypotheses, sampling or modelling design, and uncertainty quantification methods exclusively within the Excellence section.",
+          "Articulate the beneficiary outcomes and the causal route to usable early-warning evidence within the Impact section, without referencing detailed implementation plans."
+        ],
+        "conditions": {
+          "max_budget": 5000000,
+          "duration_months_max": 48,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": 0
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md, Exclusions, first bullet; call.yaml, EX1",
+          "problem": "The exclusion combines two unrelated subjects. 'Offshore cosmology' is not a meaningful research category, and excluding it provides no useful boundary for a catchment-to-coast research topic.",
+          "fix": "Replace EX1 in both files with a scientifically relevant, single exclusion, such as: 'Studies confined to offshore marine processes without examining their connection to catchment-derived waterborne exposure are excluded.'",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md, Specific conditions and mandatory elements, sixth bullet; call.yaml, ME6",
+          "problem": "ME6 repeats ME4's requirement to explain the causal route from results to outcomes for beneficiaries. Its section-placement and implementation-detail instructions also repeat the required narrative for section 2.1, leaving no distinct substantive requirement.",
+          "fix": "Remove ME6 from both files. ME4 and the existing section 2.1 instructions already require the relevant impact explanation and establish its location and level of detail.",
+          "part": "topic"
+        }
+      ],
+      "rejected": [
+        {
+          "problem": "The exclusion combines two unrelated subjects. 'Offshore cosmology' is not a meaningful research category, and excluding it provides no useful boundary for a catchment-to-coast research topic.",
+          "reason": "The prompt explicitly dictates that 'Studies solely of offshore cosmology or generic terrestrial urban design are not responsive; methods and outputs must concern waterborne exposure pathways.' The exclusion directly implements this mandatory instruction."
+        }
+      ]
+    },
+    {
+      "draft": {
+        "title": "HORIZON-CL6-2027-COASTAL-01-01: Integrated modelling of catchment-to-coast exposure pathways for early-warning systems",
+        "expected_outcomes_intro": "Projects are expected to contribute to the protection of coastal communities and ecosystems by improving the predictability of compounding waterborne hazards. Successful proposals will deliver actionable evidence that enhances regional preparedness and supports the implementation of integrated coastal zone management policies.",
+        "expected_outcomes": [
+          "Coastal authorities and environmental agencies benefit from validated early-warning indicators that link upstream catchment runoff to coastal hazard exposure.",
+          "Local decision-makers utilize improved predictive models that quantify the transport of pollutants and floodwaters through estuarine systems.",
+          "Vulnerable coastal communities experience reduced risk through the timely deployment of evidence-based mitigation and evacuation strategies."
+        ],
+        "scope_intro": "The intensification of extreme weather events accelerates the transfer of hazardous runoff from inland catchments through estuaries to coastal zones. Current early-warning systems often treat riverine and coastal dynamics in isolation, leaving communities vulnerable to compounding waterborne hazards. There is a critical need to bridge this gap by tracing exposure pathways across the entire hydrological continuum.\n\nProposals should develop and test integrated monitoring and modelling frameworks that capture the complex transport mechanisms from catchments to the coast. Research must formulate clear hypotheses regarding estuarine transport dynamics and design robust sampling or modelling strategies to quantify uncertainty in early-warning evidence.",
+        "scope": [
+          "Develop coupled hydrological and hydrodynamic models to simulate the transport of runoff and associated hazards from inland catchments through estuaries to coastal waters.",
+          "Design and implement temporary monitoring campaigns to collect high-resolution field data on waterborne exposure pathways, validating the proposed transport models.",
+          "Quantify the cascading uncertainties within the modelling chain, from catchment precipitation inputs to coastal exposure outputs, to ensure reliable early-warning thresholds.",
+          "Co-design usable early-warning indicators with local authorities, translating complex estuarine transport data into actionable evidence for coastal risk management."
+        ],
+        "exclusions": [
+          "Studies solely of offshore cosmology or generic terrestrial urban design, as methods and outputs must concern waterborne exposure pathways.",
+          "The engineering, design, or construction of permanent flood-barrier infrastructure."
+        ],
+        "mandatory_elements": [
+          "Detail the hypotheses, sampling or modelling design, and uncertainty quantification methods exclusively within the Excellence section."
+        ],
+        "conditions": {
+          "max_budget": 5000000,
+          "duration_months_max": 48,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": 0
+        }
+      },
+      "maintainer_edit": "deep review: 'offshore cosmology' is not a coastal-research category; EX1 keeps only the urban-design restriction the stretch task relies on",
+      "date": "2026-10-31"
+    }
+  ]
+}

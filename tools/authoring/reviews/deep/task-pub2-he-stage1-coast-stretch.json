@@ -1,0 +1,31 @@
+{
+  "kind": "task",
+  "id": "pub2-he-stage1-coast-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "data/public/tasks/pub2-he-stage1-coast-stretch/task.yaml, T1 expected_behaviour: “catchment runoff, modelled with WEIH's rainfall-runoff models”; “estuarine transport, modelled with TELEMAC-2D or the 1D network model”; “campaigns that use FBMI's field equipment and its accredited faecal-indicator laboratory”; “Housing-layout optimisation is not an objective.”",
+      "problem": "The key goes beyond correcting scope drift and prescribes the partners' particular models, equipment and biological assay route. The call also permits other suitable coupled models, alternative hazard measurements, and a subordinate planning objective embedded in the required waterborne early-warning pathway. Such compliant designs could fail this key.",
+      "fix": "Replace T1 expected_behaviour with: “The outline centres its objectives and methods on catchment-to-estuary-to-coast waterborne exposure and usable early-warning indicators. It proposes coupled hydrological/hydrodynamic modelling, temporary field validation and uncertainty propagation sufficient for the call. Housing-layout work, if retained, is subordinate to and explicitly informed by that pathway; a standalone layout-optimisation project is not compliant. Any feasible case area, model, sampling method, hazard choice and allocation of existing or proposed expertise is acceptable. Do not require particular software, partner equipment or faecal assays. Assess the remaining call items separately.” Keep T2's permanent-barrier exclusion unchanged.",
+      "evidence": [
+        "data/public/calls/v2-he-stage1-coastal-exposure/call.md",
+        "tools/authoring/design_v2.md (Adopted from the second opinion, Trap rules)",
+        "docs/task_review_checklist.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read both task files and all paired call/dossier material. Two ordinary applicant suggestions create distinct T11 scope-drift and T05 excluded-infrastructure traps; 1 October 2026 date, English language and stage1 type agree.",
+    "The 400 m permanent flood wall is unambiguously forbidden by EX2 even though permanent-barrier comparison would be allowed in the other call. T2 correctly permits existing-defence context and observational/modelling alternatives.",
+    "The scope pivot is achievable using WEIH runoff/hydrodynamics, FBMI field and indicator capability, ZUT exposure/co-design methods, proposed transport expertise and prospective authorities. 48 months is within range; no detailed cost/work-package output is required despite the applicant using 'work package' informally.",
+    "Planned LC-MS/MS, expiring doctoral/postdoc appointments, ethics renewal and household restrictions are identified without turning them into additional planted traps. The dossier's result percentages are used with the correct endpoints.",
+    "Checked feasibility within the 5,000-word limit. External science context: https://pubmed.ncbi.nlm.nih.gov/24095592/ ; https://connect-portal.lnec.pt/static/docs/Tagus_3D_baroclinic_EN.pdf . Method-choice restriction above is a key defect, not an infeasible science pivot.",
+    "Real BUURTPEIL/journal/institution collisions are filed on the dossier; the nonsensical offshore-cosmology exclusion is filed on the call. Apply those upstream terminology fixes to the brief and T1 quotation without counting duplicate issues."
+  ]
+}

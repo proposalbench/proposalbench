@@ -1,0 +1,117 @@
+schema_version: 1
+id: nih-r21-ruralbp
+scheme: nih_r21
+language: en
+title: Exploratory Research on Blood-Pressure Measurement, Data Integration, and Community-Engaged Strategy
+  Design for Hypertension Control in Rural and Under-Resourced US Settings
+topic_code: PB-NIH-R21-2027-03
+proposal_type: full
+length_contract:
+  max_words: 4200
+  enforcement: inadmissible
+  tolerance: 0.03
+  counted_sections:
+  - aims
+  - strategy
+  exempt:
+  - references
+  - title
+  per_section_max_words:
+    aims: 600
+    strategy: 3600
+  page_limit: 7
+  words_per_page: 600
+  source_note: 'PA-25-304 and the NIH Table of Page Limits specify 1 page of Specific Aims and 6 pages
+    of Research Strategy, separately binding. NIH Format Attachments permits Arial 11 pt on US Letter
+    with minimum 0.5-inch margins, no more than 15 characters per inch and 6 lines per vertical inch.
+    Benchmark estimate: 50 prose lines x 12 words = 600 words/page, allowing paragraph and heading space.
+    Tables count; title and references do not. Section ceilings cannot be pooled. Sources checked 2026-10-30;
+    URLs are in call.md. This conversion is not NIH policy.'
+required_sections:
+- id: aims
+  title: Specific Aims
+- id: strategy
+  title: Research Strategy
+- id: significance
+  title: Significance
+  parent: strategy
+- id: innovation
+  title: Innovation
+  parent: strategy
+- id: approach
+  title: Approach
+  parent: strategy
+expected_outcomes:
+- id: EO1
+  text: Characterized, empirically grounded understanding of modifiable barriers to blood-pressure monitoring
+    and follow-up in at least one rural or under-resourced US community, with explicit decision criteria
+    for which barriers a subsequent intervention study should prioritize.
+- id: EO2
+  text: Demonstrated feasibility—or documented infeasibility with reasons—of a specific approach to linking
+    community-collected blood-pressure data with electronic health records or public-health surveillance
+    systems, including quantified data-quality metrics and an assessment of consent, privacy, and governance
+    requirements.
+- id: EO3
+  text: A co-designed strategy, workflow, or decision aid for blood-pressure control developed with clinic
+    staff and community stakeholders, accompanied by structured usability findings and pre-specified criteria
+    that would justify advancing the strategy to a controlled evaluation.
+scope:
+- id: SC1
+  text: Formative research—interviews, focus groups, direct observation, or survey methods—to identify
+    and rank barriers to blood-pressure measurement, treatment adherence, or follow-up among residents
+    and healthcare workers in rural or under-resourced US communities.
+- id: SC2
+  text: Observational or methods-development studies that assess the accuracy, reliability, or practical
+    validity of blood-pressure measurement approaches (e.g., automated kiosk, community health worker–operated
+    devices, home telemonitoring) when deployed outside traditional clinical environments in the target
+    populations.
+- id: SC3
+  text: Feasibility and data-quality analyses of linking community-generated blood-pressure readings with
+    clinic electronic health records, pharmacy dispensing data, or public-health registries, including
+    assessment of missingness, identifier matching, and governance constraints.
+exclusions:
+- id: EX1
+  text: Clinical trials as defined by NIH are not allowed.
+- id: EX2
+  text: Development or validation of pharmacological agents, devices requiring FDA clearance for a new
+    indication, or digital therapeutics intended for regulatory submission.
+mandatory_elements:
+- id: ME1
+  text: Specific objectives and expected scientific contribution appropriate to an exploratory project.
+- id: ME2
+  text: Critical appraisal of the rigor of supporting published or unpublished evidence and an Approach
+    that addresses its weaknesses; preliminary data are optional.
+- id: ME3
+  text: Units of analysis, sample-size rationale, comparisons or controls, measures against bias, and
+    plans for data collection, analysis, and interpretation.
+- id: ME4
+  text: Feasibility strategy, anticipated problems, alternatives, and success criteria achievable within
+    24 months.
+- id: ME5
+  text: Relevant biological variables such as sex and age in design and analysis, with justified restrictions,
+    and inclusion across sex/gender, race, ethnicity and age where human participants are involved.
+- id: ME6
+  text: Explain the scientific use of personnel and resources, including relevant expertise, resource
+    access and the status of planned arrangements.
+- id: ME7
+  text: All blood-pressure values collected as primary study data must be obtained with validated, automated
+    devices using a documented measurement protocol that specifies cuff sizing, rest period, number of
+    readings, and posture; self-reported blood-pressure values may be used only as a secondary or contextual
+    variable, not as the primary outcome of a measurement-quality aim.
+- id: ME8
+  text: The application must describe a concrete community-engagement plan that includes at least one
+    structured mechanism (e.g., community advisory board, participatory design sessions, or stakeholder
+    working group) through which residents or frontline clinic staff from the target community contribute
+    to study design, data interpretation, or product refinement during the award period; engagement activities
+    must be distinguishable from data-collection procedures.
+eligibility:
+  budget_in_narrative: false
+  currency: USD
+  max_budget: 275000
+  duration_months_max: 24
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: us.anthropic.claude-opus-4-6-v1
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY cf3b542f-0e63-447c-b32a-af3f88fb76a9

@@ -1,0 +1,40 @@
+{
+  "kind": "task",
+  "id": "pub-msca-gf-battery-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-msca-gf-battery-stretch/task.yaml T1 expected_behaviour: \"Retain a 12-month return at the proposed Swedish beneficiary\"",
+      "problem": "The trap correctly permits any non-associated outgoing country, but also makes Sweden the mandatory return destination. T03 tests outgoing-host eligibility, and the call permits other EU/MSCA-associated beneficiaries. An otherwise feasible alternative return host, clearly proposed rather than secured, should not fail the outgoing-country trap merely because it departs from this preferred design.",
+      "fix": "Replace that sentence with \"Include exactly 12 months of return at an eligible EU/MSCA-associated beneficiary; the proposed Swedish group is the dossier-supported return option, but any feasible compliant alternative is accepted.\" Keep Canada as an example, preserve the pending commitment/access distinction, and retain the existing instruction to flag unrecorded mobility after September 2026. Add \"The Swiss contact may remain a scientific collaborator or eligible outgoing-phase secondment destination; it must not be the outgoing host.\"",
+      "evidence": [
+        "data/public/tasks/pub-msca-gf-battery-stretch/brief.md",
+        "data/public/calls/msca-pf-gf/call.md",
+        "tools/authoring/design_v2.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-msca-gf-battery-stretch/brief.md: \"# Notes from Elisavra — 30 September 2026\"",
+      "problem": "The brief is not dated 1 October 2026 as required by Task 6. This has no demonstrated scoring consequence here because no T12 silent dated fact is planted.",
+      "fix": "Date the applicant notes \"1 October 2026\"; preserve all September dossier statuses.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "T03 premise verified against the supplied call and current official country list: Switzerland is associated for MSCA, while Canada’s association is limited to Pillar II. The earlier automated review’s obsolete Swiss objection is rejected: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/list-3rd-country-participation_horizon-euratom_en.pdf",
+    "The brief’s 24-month outgoing + 12-month return is itself valid. Italy citizenship satisfies Global nationality; Canadian zero presence is documented through September 2026. The key appropriately refuses to certify later residence and does not equate a collaboration letter with hosting commitment or beamtime.",
+    "Stretch fit is achievable: the Canadian facility has relevant capabilities and a prospective scientific contact, with conditional hosting/access and laboratory fallback to be arranged. The plan is bounded to diffraction/electrochemistry and limited surface characterisation, not an unsupported tomography/XAS programme.",
+    "T03 is visible in hosting and implementation sections. The brief does not mention the association conflict. English, full type, one trap and 5,000-word feasibility checked; no T12/T13/RESUB or budget trap. Shared call issues are filed on the call."
+  ]
+}

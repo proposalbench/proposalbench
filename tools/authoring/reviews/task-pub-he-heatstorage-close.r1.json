@@ -1,0 +1,52 @@
+{
+  "kind": "task",
+  "id": "pub-he-heatstorage-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "cv_coordinator.md and all occurrences of Søren Vestergaard",
+      "problem": "Søren Vestergaard is the name of a real Danish music producer. The fictional-document notice does not satisfy the requirement that invented people avoid collisions with real public figures.",
+      "fix": "Replace the coordinator's name throughout the brief, dossier, publication authors, citation keys and hidden registry with a distinctive fictional name."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md, sections 1 and 4.1; resources.md, section 2.3",
+      "problem": "The report presents three seasonal efficiencies but defines each efficiency using annual charge and discharge between equal inventory endpoints. Commissioning in September 2020 and monitoring from 1 October 2020 to 30 June 2023 provide only 1,003 days, insufficient for three complete annual cycles. Three heating seasons fit these dates; three annual storage balances do not.",
+      "fix": "Give explicit measurement windows for each efficiency. Report two complete annual balances and a separately identified partial third period, or consistently extend commissioning, monitoring and reporting dates. Recalculate the pooled efficiency and uncertainty using the corrected windows."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md, section 4.1, Stratification; dossier.yaml, F09",
+      "problem": "The claim that the thermocline was thinner than 1.5 m during 85% of operational time is supported by a sample already filtered to periods of active stratification. That conditional sample cannot establish the fraction of all operational time without the excluded periods and denominator being accounted for. The eligible 245,500 timestamps themselves comprise approximately 85% of the nominal monitoring timestamps, further obscuring which percentage is intended.",
+      "fix": "State the number of eligible timestamps meeting the thickness threshold and report the percentage explicitly among eligible observations. If retaining an all-operation claim, provide its separate numerator, denominator and treatment of missing or unstratified periods."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md, sections 2 and 4.2, annual energy flows and net emissions",
+      "problem": "The net emissions estimate cannot be reconciled with a documented annual heat-pump energy balance. Subtracting 3,850 from 4,242 tonnes and dividing by 0.135 tCO2e/MWh implies approximately 2,904 MWh/year of heat-pump electricity. At COP 3.1 this produces approximately 9,001 MWh/year of heat, but neither electricity consumption nor operating hours nor the allocation between storage charging and direct network supply is reported. A continuous waste-heat stream does not establish how much was actually recovered.",
+      "fix": "Add the measured annual heat-pump electricity consumption, recovered heat, delivered heat and operating period, with uncertainty. Distinguish available waste heat from recovered heat, identify direct-to-network flows, and show the emissions calculation and accounting boundary."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts",
+      "problem": "The registry omits several proposal-relevant quantities and qualifications: the explicit 54-month duration and extension, individual seasonal efficiencies, 2.5 MW waste-heat availability, 30°C source temperature, COP 3.1, net emissions savings, economic comparison dates and price assumptions, team composition, and repository completeness figures. Access qualifications are also abbreviated: F17 omits municipal permits, and F15 does not preserve the conditional SCADA access and GDPR review.",
+      "fix": "Add facts containing these exact values and qualifications. Preserve the distinction between secured datasets, conditional demonstration access and proposed installations, and register the corrected measurement windows and denominators."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4; Task 1",
+      "where": "brief.md, proposed pilots; consortium.md, AlpenWärme and WoonStichting profiles",
+      "problem": "The claimed close fit lacks enough site evidence to support a competitive implementation plan. The Austrian network has conditional access but no documented candidate storage site, supply temperature or heat sources. The Dutch evidence establishes building-data access, not a district network connecting the blocks. The new Danish site has no identified operator or location. None of the proposed pilots has a documented basis for integrating two sources and obtaining two complete seasonal cycles within 48 months.",
+      "fix": "Add short candidate-site notes specifying known network connections and temperatures, prospective heat sources, storage options, access and permitting status, and indicative commissioning schedules. Explicitly mark unconfirmed elements as planned. If these remain entirely prospective, revise the close-fit designation and brief to acknowledge a site-development task."
+    }
+  ]
+}

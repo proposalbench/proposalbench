@@ -1,0 +1,395 @@
+schema_version: 1
+id: v2-community-heritage-civic-network
+language: en
+applicant_type: consortium
+career_stage: mid_career
+disciplines:
+- music
+- cultural heritage
+- migration sociology
+- public administration
+method_profile: qualitative
+country: IT
+files:
+- path: consortium_team.md
+  role: team
+- path: prior_project_report.md
+  role: prior_project
+- path: cv_coordinator.md
+  role: cv
+- path: publications.md
+  role: publications
+- path: resources.md
+  role: resources
+facts:
+- id: F01
+  category: identity
+  kind: existing
+  text: The consortium coordinator is an Italian nonprofit civil-society body.
+  value: nonprofit civil-society body
+  salient: true
+  source: consortium_team.md
+- id: F02
+  category: partner
+  kind: existing
+  text: The consortium includes independent Greek and Spanish nonprofit beneficiaries.
+  value: independent nonprofit
+  salient: true
+  source: consortium_team.md
+- id: F03
+  category: partner
+  kind: existing
+  text: The consortium operates under a signed collaboration agreement.
+  value: signed collaboration
+  salient: true
+  source: consortium_team.md
+- id: F04
+  category: partner
+  kind: existing
+  text: The formal collaboration agreement was executed on 12 May 2026.
+  value: 12 May 2026
+  salient: true
+  source: consortium_team.md
+- id: F05
+  category: identity
+  kind: existing
+  text: AVP was founded in 2015.
+  value: '2015'
+  salient: false
+  source: consortium_team.md
+- id: F06
+  category: partner
+  kind: existing
+  text: KP was established in 2017.
+  value: '2017'
+  salient: false
+  source: consortium_team.md
+- id: F07
+  category: partner
+  kind: existing
+  text: REC was founded in 2016.
+  value: '2016'
+  salient: false
+  source: consortium_team.md
+- id: F08
+  category: team
+  kind: existing
+  text: The consortium employs three experienced community facilitators.
+  value: three
+  salient: true
+  source: consortium_team.md
+- id: F09
+  category: team
+  kind: existing
+  text: Valerio Ruggianese has seven years of experience facilitating listening workshops.
+  value: seven years
+  salient: false
+  source: consortium_team.md
+- id: F10
+  category: team
+  kind: existing
+  text: Eleni Samaras has spent five years running participatory interpretation sessions.
+  value: five years
+  salient: false
+  source: consortium_team.md
+- id: F11
+  category: team
+  kind: existing
+  text: Javier Olaberdiza has six years of experience facilitating assemblies.
+  value: six years
+  salient: false
+  source: consortium_team.md
+- id: F12
+  category: team
+  kind: planned
+  text: Public-service specialists are planned to adapt the facilitation method for service-access deliberation.
+  value: planned
+  salient: true
+  source: consortium_team.md
+- id: F13
+  category: team
+  kind: planned
+  text: Two public-service specialists are planned to be contracted.
+  value: two
+  salient: true
+  source: consortium_team.md
+- id: F14
+  category: team
+  kind: planned
+  text: Neither planned specialist has signed a contract or formally agreed to participate.
+  value: neither specialist has signed a contract
+  salient: true
+  source: consortium_team.md
+- id: F15
+  category: team
+  kind: existing
+  text: Retention of the three experienced community facilitators is not secured beyond December 2026.
+  value: not secured
+  salient: true
+  source: resources.md
+- id: F16
+  category: result
+  kind: existing
+  text: The completed 2025 listening workshops produced 48 interviews.
+  value: '48'
+  salient: true
+  source: prior_project_report.md
+- id: F17
+  category: result
+  kind: existing
+  text: The 48 interviewees came from 14 different countries of origin.
+  value: '14'
+  salient: true
+  source: prior_project_report.md
+- id: F18
+  category: result
+  kind: existing
+  text: Interviews were conducted in Arabic, French, and Italian.
+  value: Arabic, French, and Italian
+  salient: true
+  source: prior_project_report.md
+- id: F19
+  category: result
+  kind: existing
+  text: The project generated 120 coded recommendations from the workshops.
+  value: '120'
+  salient: true
+  source: prior_project_report.md
+- id: F20
+  category: result
+  kind: existing
+  text: The recommendations included 38 on municipal housing and tenant rights.
+  value: '38'
+  salient: false
+  source: prior_project_report.md
+- id: F21
+  category: result
+  kind: existing
+  text: The recommendations included 25 on language and translation services.
+  value: '25'
+  salient: false
+  source: prior_project_report.md
+- id: F22
+  category: result
+  kind: existing
+  text: The recommendations included 15 on cultural space utilization.
+  value: '15'
+  salient: false
+  source: prior_project_report.md
+- id: F23
+  category: result
+  kind: existing
+  text: The civic dossier was presented to municipal departments in October 2025.
+  value: October 2025
+  salient: true
+  source: prior_project_report.md
+- id: F24
+  category: result
+  kind: existing
+  text: 18 recommendations received a written municipal response.
+  value: '18'
+  salient: true
+  source: prior_project_report.md
+- id: F25
+  category: result
+  kind: existing
+  text: 15% of the 120 recommendations received a written municipal response.
+  value: 15%
+  salient: true
+  source: prior_project_report.md
+- id: F26
+  category: result
+  kind: existing
+  text: No verified implementation of the municipal commitments has been documented to date.
+  value: No verified implementation
+  salient: true
+  source: prior_project_report.md
+- id: F27
+  category: grant
+  kind: existing
+  text: A EUR 40,000 municipal application remains pending as of 30 September 2026, with no award letter.
+  value: EUR 40,000
+  salient: true
+  source: prior_project_report.md
+- id: F28
+  category: grant
+  kind: existing
+  text: The EUR 40,000 municipal application remains pending as of 30 September 2026.
+  value: 30 September 2026
+  salient: true
+  source: prior_project_report.md
+- id: F29
+  category: grant
+  kind: existing
+  text: The pending municipal application was submitted in July 2026.
+  value: July 2026
+  salient: true
+  source: prior_project_report.md
+- id: F30
+  category: grant
+  kind: planned
+  text: The pending municipal application is intended for the 2027 fiscal year.
+  value: '2027'
+  salient: true
+  source: prior_project_report.md
+- id: F31
+  category: grant
+  kind: existing
+  text: The Echoes of the Agora project ran from 1 January 2024 to 31 December 2025.
+  value: 1 January 2024 to 31 December 2025
+  salient: true
+  source: prior_project_report.md
+- id: F32
+  category: grant
+  kind: existing
+  text: The Echoes of the Agora project had a budget of EUR 150,000 and ran from 2024 to 2025.
+  value: EUR 150,000
+  salient: true
+  source: cv_coordinator.md
+- id: F33
+  category: grant
+  kind: existing
+  text: The Harmonic Integration project had a budget of EUR 85,000 and ran from 2020 to 2022.
+  value: EUR 85,000
+  salient: true
+  source: cv_coordinator.md
+- id: F34
+  category: resource
+  kind: existing
+  text: The Fucina Civica Mediterranea is a 300-square-meter community cultural space.
+  value: 300-square-meter
+  salient: true
+  source: resources.md
+- id: F35
+  category: resource
+  kind: existing
+  text: The Fucina Civica Mediterranea in Palermo is fully accessible.
+  value: fully accessible
+  salient: true
+  source: resources.md
+- id: F36
+  category: resource
+  kind: existing
+  text: Espacio Ágora in Valencia includes translation booths to support multilingual assemblies.
+  value: translation booths
+  salient: true
+  source: resources.md
+- id: F37
+  category: resource
+  kind: existing
+  text: The central audio archive is hosted on an encrypted, air-gapped local server.
+  value: encrypted, air-gapped
+  salient: true
+  source: resources.md
+- id: F38
+  category: resource
+  kind: existing
+  text: The audio archive's contributor agreement permits internal noncommercial analysis but forbids
+    uploading recordings to third-party transcription services.
+  value: forbids uploading recordings to third-party transcription services
+  salient: true
+  source: resources.md
+- id: F39
+  category: resource
+  kind: existing
+  text: Local transcription is permitted and an existing offline workstation is available.
+  value: existing offline workstation
+  salient: true
+  source: resources.md
+- id: F40
+  category: resource
+  kind: existing
+  text: The offline workstation is equipped with 64GB of RAM.
+  value: 64GB
+  salient: false
+  source: resources.md
+- id: F41
+  category: resource
+  kind: existing
+  text: The restriction on third-party transcription uploads applies equally to consented recordings.
+  value: applies equally to consented recordings
+  salient: true
+  source: resources.md
+- id: F42
+  category: resource
+  kind: existing
+  text: Public outputs may use authorised aggregate themes.
+  value: authorised aggregate themes
+  salient: true
+  source: resources.md
+- id: F43
+  category: budget
+  kind: existing
+  text: AVP has EUR 12,000 in residual funds permitted for general administrative use until 31 December
+    2026.
+  value: EUR 12,000
+  salient: true
+  source: resources.md
+- id: F44
+  category: budget
+  kind: planned
+  text: Contingency arrangements for 2027 employment coverage are currently unresourced proposals.
+  value: unresourced proposals
+  salient: true
+  source: resources.md
+- id: F45
+  category: position
+  kind: existing
+  text: Dr. Livia Morante is a mid-career researcher who completed her PhD in 2014.
+  value: '2014'
+  salient: false
+  source: cv_coordinator.md
+- id: F46
+  category: result
+  kind: existing
+  text: The 120 coded recommendations included 42 on healthcare access and navigability.
+  value: '42'
+  salient: false
+  source: prior_project_report.md
+own_publications:
+- key: Morante2026
+  authors:
+  - Morante, L.
+  - Ruggianese, V.
+  year: 2026
+  title: 'From Melody to Mandate: Adapting Cultural Facilitation for Service-Access Deliberation'
+  venue: Journal of Civic Heritage
+  doi: 10.99999/pb.v2-community-heritage-civic-network.2026.1
+- key: Voulgaris2025
+  authors:
+  - Voulgaris, Y.
+  - Morante, L.
+  year: 2025
+  title: 'Acoustic Agoras: Shared Cultural Spaces as Venues for Democratic Inclusion'
+  venue: Qualitative Sociology of Music
+  doi: 10.99999/pb.v2-community-heritage-civic-network.2025.1
+- key: Carballo2024
+  authors:
+  - Carballo, I.
+  - Olaberdiza, J.
+  - Morante, L.
+  year: 2024
+  title: 'Measuring Municipal Uptake: The Efficacy of Community-Led Dossiers in Southern Europe'
+  venue: Public Administration and Community Dialogue
+  doi: 10.99999/pb.v2-community-heritage-civic-network.2024.1
+- key: Morante2023
+  authors:
+  - Morante, L.
+  year: 2023
+  title: 'The Ethics of Voice: Data Protection and Vulnerability in Migration Sociology'
+  venue: Mediterranean Migration Studies
+  doi: 10.99999/pb.v2-community-heritage-civic-network.2023.1
+- key: Samaras2022
+  authors:
+  - Samaras, E.
+  - Voulgaris, Y.
+  year: 2022
+  title: 'Harmonizing the Margins: Ethnomusicology and Civic Action in Athens'
+  venue: Journal of Civic Heritage
+  doi: 10.99999/pb.v2-community-heritage-civic-network.2022.1
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 8c2c3a4d-355e-4339-8e1e-0d7ec800b1bb

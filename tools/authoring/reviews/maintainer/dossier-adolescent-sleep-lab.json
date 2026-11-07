@@ -1,0 +1,89 @@
+{
+ "reviewer": "maintainer",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 7",
+   "where": "all files",
+   "problem": "The documents are not consistently current as of the benchmark's present date, 1 October 2026 (some are written as of 2024 or early 2025, leaving unexplained gaps before calls with 2027 deadlines).",
+   "fix": "Make every document current as of September 2026: update 'as of' dates, contract periods, CV entries, publication lists through 2026, statuses of submissions, reviews, ethics approvals and recruitments, keeping the same career stage and every fact the traps rely on (re-dated consistently). Keep all numbers internally consistent after the shift."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "all files",
+   "problem": "Names of people, institutions, companies, projects or journals may collide with real ones.",
+   "fix": "Replace every person name with a coined, distinctive name (no common names such as Matteo Rossi); replace every real institution, research centre, archive, company, project or journal name of the applicant's world with a fictional one; the applicant's own publications appear in fictional journals. Real funders, real places and real funding schemes stay."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "publications.md and dossier.yaml: vance2016, Journal of Youth Development",
+   "problem": "Journal of Youth Development is a real journal. Using its name for a fabricated publication conflicts with the requirement to avoid names belonging to real media or institutions.",
+   "fix": "Give this publication an invented journal name that does not collide with an existing journal, and update the venue consistently in both files."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "prior_project.md: Data Yield and Scoring",
+   "problem": "The report says the ActiGraph GT9X Link devices' ambient-light sensors helped identify sleep periods. This model does not provide an ambient-light sensor, so the stated processing configuration could not have been implemented as described. The report explicitly attributes every yield and estimate to that configuration.",
+   "fix": "Describe the actual available inputs, such as concurrent diaries and activity records, or explicitly document a separate light-measuring instrument if one was used. Reconcile the resulting processing description and any affected yields or estimates across the report, publications and registry."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "prior_project.md: valid-night definition and SRI calculation; publications.md: vance2024",
+   "problem": "More than 10 hours of wear during a 24-hour period does not establish that a night contains usable sleep data: an entirely daytime recording could pass. Seven such days also do not establish adequate coverage for a 24-hour sleep–wake regularity measure incorporating naps. Excluding missing pairs from the SRI denominator does not resolve selective coverage. The documents nevertheless present the resulting valid-night yield as evidence of successful sleep monitoring without acknowledging these limitations.",
+   "fix": "State the actual requirements for coverage of the principal sleep interval and for usable epoch pairs across the full day. Explain how naps were identified. If the permissive historical thresholds were genuinely used, retain them but explicitly record the resulting coverage and selection limitations, and qualify the feasibility claims."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml: facts",
+   "problem": "The registry omits several salient quantities and limitations that a proposal could quote: Wave 3 n = 346 and 84% retention; baseline SRI SD 8.1; the 85 and 142 participants in the sleep-duration comparison; 50 Actiwatch 2 devices; two FQHC relationships; the named staff and formal statistical consulting; and the inability to separate developmental from pandemic-period effects. It also fails to distinguish the absence of cardiometabolic measurements in the existing cohort from the laboratory's lack of measurement capacity.",
+   "fix": "Add source-linked facts for these quantities, roles and limitations, including the relevant dates. Record the absence of existing blood-pressure and metabolic data separately from equipment and expertise gaps. Preserve the distinction between established usability relationships and any future clinical measurement or data-access arrangements."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "dossier.yaml: file header",
+   "problem": "This file lacks the fictional-document notice required in every dossier file.",
+   "fix": "Add the notice as a YAML comment at the start of the file."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml: facts",
+   "problem": "The registry omits numerous proposal-relevant facts: Wave 2 n = 381; 1,139 participant-waves; collection dates; ownership of 150 GT9X Link monitors; $685,000 K01 direct costs; the additional 1.5-point annual SRI decline and its interval; the +0.42 BMI z-score association and its interval; the PHQ-9 association's uncertainty and adjustment; 45 focus-group participants; two graduate students; and the 2018 publication's sample and estimates. Career dates, the current appointment, and the reported EHR integration limitation are also absent. These omissions leave substantial parts of a grounded proposal outside the answer key.",
+   "fix": "Register each salient result, resource, qualification, partnership limitation, and status with its source, exact value, units, uncertainty, sample or analysis population, and relevant date. Preserve distinctions between baseline and longitudinal results and between existing access and future permissions."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "prior_project.md: Methodology and Sample, Data Yield and Scoring and Measures",
+   "problem": "The unconditional rule defining nonwear as more than 60 minutes of zero activity can classify prolonged sleep immobility as nonwear. The report does not explain how sleep is protected from that classification. It also reports valid nights without specifying valid paired 24-hour observations or missing-data handling for SRI. Consequently, the reported sleep and regularity estimates lack a reproducible, scientifically defensible processing description.",
+   "fix": "Specify the wrist placement and processing configuration, how nonwear is distinguished from sleep, the valid-night and valid-wave thresholds, and how SRI uses paired observed epochs 24 hours apart, including naps and missing intervals. Confirm that the reported yields and estimates derive from that processing."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "prior_project.md: Project Overview, collection dates, Key Results and Limitations; publications.md: 2023 abstract",
+   "problem": "The study interprets changes across Fall 2019, Fall 2020 and Fall 2021 as developmental decline without addressing pandemic-related changes to schooling and daily schedules. Calendar period and aging advance together in this cohort. The school-start-time finding is especially difficult to interpret without knowing actual attendance modes and schedules at each wave.",
+   "fix": "State the districts' attendance modes and actual school schedules during each measurement period, and describe any relevant analyses supported by those data. Explicitly acknowledge that developmental and calendar-period effects cannot be cleanly separated; describe the estimates as observed cohort changes rather than attributing them to puberty."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 2; Dossier 4",
+   "where": "publications.md: 2019 methodological paper; prior_project.md: Data Yield and Scoring",
+   "problem": "The 2019 paper reports the same 11.8-night yield as the completed three-wave dataset, whose final collection occurred in Fall 2021. The paper does not identify a pilot or baseline-only dataset, give its sample size, or otherwise explain how its estimate predates completion of LAMPS. This leaves the result's chronology and provenance unresolved.",
+   "fix": "Identify the earlier dataset explicitly and provide its collection dates, sample size, valid-night total and corresponding mean. If the paper actually reports the completed three-wave yield, move its publication date after final collection and update its DOI, registry entry and bibliographic key consistently."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4; Dossier 3",
+   "where": "prior_project.md: BMI Associations; publications.md: 2021 BMI paper",
+   "problem": "The +0.42 BMI z-score estimate appears in the final report under a longitudinal study and mixed-effects analysis description, while the publication identifies it as a cross-sectional baseline result. The report does not distinguish this analysis from the longitudinal analyses. The publication also claims adjustment for socioeconomic status and physical activity without documenting how either was measured.",
+   "fix": "Label the +0.42 estimate explicitly as a baseline cross-sectional association, state its analysis sample and sleep-category counts, and document the adjustment measures. Separately identify the analysis population, temporal interpretation and adjustment set for the +0.18 SRI association. Carry those distinctions into the facts registry."
+  }
+ ]
+}

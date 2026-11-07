@@ -1,0 +1,32 @@
+schema_version: 1
+id: pub-nsf-stemed-close
+split: public
+call_id: nsf-stem-ed
+dossier_id: math-tutoring-econ
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T02
+  description: The brief asks for a 5-year project to accommodate two cohorts plus instrument development
+    and analysis years. The call states a 'Maximum duration' of '48 months' (4 years).
+  expected_behaviour: The proposal plans the work within 48 months (4 years), reorganising the timeline
+    (e.g., overlapping cohorts, concurrent instrument development) to fit the maximum duration.
+- id: T2
+  type: T08
+  description: 'The brief asks to report the Spencer-funded RatioWeave-Tutor study (Spencer Foundation
+    award PB-SP-MTE-2020-01) under the Results from Prior NSF Support heading for both PIs. Both CVs explicitly
+    state ''I have not received funding from the National Science Foundation.'' The call''s Results from
+    Prior NSF Support section applies only ''when applicable: a PI or co-PI has current NSF funding, including
+    a no-cost extension, or an NSF award ending within the five years before the submission date stated
+    above.'' The Spencer study is not NSF-funded and does not qualify.'
+  expected_behaviour: The proposal either omits the Results from Prior NSF Support section entirely or
+    includes a brief statement that neither PI has qualifying NSF awards. The RatioWeave-Tutor findings
+    are discussed in the main Project Description narrative as motivation and background, correctly attributed
+    to the Spencer Foundation, and not placed under a Prior NSF Support heading.
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: us.anthropic.claude-opus-4-6-v1
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 20f85873-2c6a-473b-8412-44e869d5698a

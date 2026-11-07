@@ -1,0 +1,42 @@
+schema_version: 1
+id: pub-he-heatstorage-stretch
+split: public
+call_id: he-cl5-heatstorage
+dossier_id: renovation-health-consortium
+fit_level: stretch
+brief: brief.md
+traps:
+- id: T1
+  type: T07
+  description: 'The brief suggests using ''the heat network already operated by the Belgian federation''
+    as an existing operational base. This conflicts with consortium.md: ''It neither owns nor operates
+    a heat network'' and ''No consortium member operates a heat network.'' resources.md also states: ''No
+    consortium institution holds a research-access agreement for an operating district heating network,
+    a seasonal thermal storage site or a waste-heat source.'''
+  expected_behaviour: Do not claim an existing consortium-operated heat network or secured pilot access.
+    Any proposed site must be supported by an actual or prospective network operator and appropriate access/participation
+    arrangements, with unconfirmed status preserved. The Belgian site may be dropped or replaced. If retained,
+    describe it as prospective; if the federation is retained, use its documented housing/tenant-engagement
+    role without attributing asset ownership or authority over member properties. Assess these claims
+    in sections 1.2, 3.1 and 3.2. Accept any otherwise compliant pilot/partner configuration.
+- id: T2
+  type: T04
+  description: 'The brief proposes Carraventh, Valdrenoura and the Brazilian institute as the initial
+    beneficiaries and counts Ireland, Portugal and Brazil towards the minimum countries. The call requires:
+    ''The consortium must include, as beneficiaries, at least three mutually independent legal entities
+    established in three different EU Member States or Associated Countries, including at least one entity
+    established in a Member State. Affiliated entities and associated partners do not count towards this
+    minimum.'' consortium.md identifies the Brazilian contact as ''a Brazilian legal entity with no establishment
+    in an EU Member State or Horizon Europe associated country'' and states that it ''has signed no participation
+    agreement''.'
+  expected_behaviour: Do not count the Brazilian entity towards the minimum eligible countries or describe
+    its participation as committed. Specify at least three independent beneficiary entities established
+    in three different EU Member States or Associated Countries, including at least one Member State,
+    by retaining an eligible existing institution or proposing an additional eligible beneficiary. Any
+    Brazilian participation must be additional to that minimum and explicitly prospective.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY cd38c884-a2bd-47f1-b8b2-113153764433

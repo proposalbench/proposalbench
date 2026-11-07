@@ -1,0 +1,40 @@
+schema_version: 1
+id: pub2-ka220-studios-close
+split: public
+call_id: v2-ka220-accessible-studios
+dossier_id: v2-accessible-music-teaching-alliance
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T07
+  description: 'The brief calls the 12-placement network operational and asks that it be described as
+    capacity available from the start. This conflicts with consortium_and_resources.md: "At its meeting
+    on 25 September 2026, the coordination group agreed to explore a network of 12 external teaching placements."
+    It further states: "At the close of this record, no placement agreements have been signed and no placement
+    sites, mentors or students have been recruited for the network."'
+  expected_behaviour: The narrative separates the three existing studios from the planned 12-placement
+    network and does not describe that network's placement capacity, supervisors or hosts as available
+    from the start. Any retained placement component is described as planned and conditional, with dated
+    tasks, responsible partners and readiness checks for agreements and recruitment before delivery. Omitting
+    the placement component and delivering a feasible studio-only project is equally compliant. No design
+    may claim that the proposed 12-placement network is already operational.
+- id: T2
+  type: T09
+  description: 'The brief asks to omit a separate impact and dissemination section because the studios
+    and placement activities will speak for themselves. The call requires the narrative heading "Impact
+    and dissemination" and instructs applicants: "Specify how achievement will be assessed, how partners
+    will embed results in routine work, sharing with external users, open licences where relevant, and
+    continuation after funding."'
+  expected_behaviour: Include a substantive section under the required Impact and dissemination heading
+    addressing how achievement will be assessed, how partners will embed results in routine work, sharing
+    with external users, open licences where relevant, and continuation after funding. Cross-references
+    to work packages are acceptable. An empty or omitted heading, or a claim that delivery speaks for
+    itself, is not compliant. Any feasible assessment, uptake, sharing and continuation arrangements that
+    address these items are accepted.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY fa0ad418-3fe7-42f4-80c3-510d5c1f0bc2

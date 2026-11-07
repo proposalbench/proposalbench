@@ -1,0 +1,38 @@
+{
+  "kind": "call",
+  "id": "v2-he-stage1-coastal-exposure",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml: eligibility.duration_months_min; call.md: eligibility table",
+      "problem": "The YAML imposes a minimum duration of 36 months, but the applicant-facing call states only a maximum of 48 months. Applicants cannot discover the minimum-duration requirement.",
+      "fix": "State a duration of 36–48 months in call.md, or remove the minimum from call.yaml."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md: Award criteria, description of Impact",
+      "problem": "The first-stage Impact criterion includes the likely scale and significance of the project's contributions, alongside the credibility of its pathways. The award-criteria summary omits scale and significance. Mentioning them in the narrative instructions does not accurately state their role in evaluation.",
+      "fix": "Include the likely scale and significance of contributions in the first-stage Impact award criterion, using the cited General Annexes wording."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 4",
+      "where": "call.md: Exclusions, first bullet; call.yaml: EX1",
+      "problem": "“Offshore cosmology” is not a meaningful research category in this context. Its pairing with generic terrestrial urban design reads as an artificial exclusion rather than a plausible boundary for a catchment-to-coast research topic.",
+      "fix": "Replace EX1 in both files with a relevant boundary, such as studies confined to offshore processes that do not investigate a catchment-to-estuary-to-coast exposure pathway."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md: Expected outcomes, third bullet; call.yaml: EO3",
+      "problem": "“Communities experience reduced risk” through “timely deployment” supplies no concrete assessment basis. It is unclear whether a proposal must establish operational deployment, demonstrate reduced exposure in simulations or exercises, or merely describe a future contribution. Those interpretations require materially different commitments.",
+      "fix": "Define a checkable outcome in both files, for example that coastal authorities demonstrate, through scenario exercises, how warning-triggered protective actions reduce modelled community exposure relative to current warning practice."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+ "kind": "dossier",
+ "id": "v2-community-heritage-civic-network",
+ "reviewer_family": "task-reviews",
+ "issues": [
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml: facts; resources.md and prior_project_report.md",
+   "problem": "Several salient, quotable facts are missing from the registry. These include the explicit lack of secured facilitator retention beyond December 2026, the 15% written-response rate, the interview languages, the accessible Palermo venue, the Valencia translation booths, and the encrypted, air-gapped archive. The exact prior-project start and end dates are also reduced to years. These omissions affect staffing, accessibility, methods, sustainability and evidence-of-impact assessment.",
+   "fix": "Add source-linked facts containing the exact dates, values and statuses. Record the absence of secured facilitator retention separately from the fact that contingency proposals are unresourced.",
+   "from_task_review": "pub2-cerv-culture-close"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "publications.md: Morante2026 abstract; prior_project_report.md: methodology",
+   "problem": "The publication claims to demonstrate that musical heritage sharing effectively lowers participation barriers, but the supplied study consists of snowball-recruited interviews and facilitators' qualitative observations of rapport. It supplies no comparison, before-and-after participation evidence, or participant accounts establishing that barriers were reduced. Rapport among people already recruited does not establish improved access for excluded nonparticipants.",
+   "fix": "Limit the abstract to the supported exploratory finding that facilitators observed rapport during the sessions, and state the sampling and attribution limitations. Alternatively, add a plausible documented evaluation supporting the stronger claim, with its methods, sample and results.",
+   "from_task_review": "pub2-cerv-culture-close"
+  }
+ ]
+}

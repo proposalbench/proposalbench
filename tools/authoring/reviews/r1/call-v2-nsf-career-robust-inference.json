@@ -1,0 +1,45 @@
+{
+  "kind": "call",
+  "id": "v2-nsf-career-robust-inference",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, mandatory element on PI eligibility; call.yaml, ME4",
+      "problem": "“NSF-supported doctorate” incorrectly implies that NSF must have supported the degree. CAREER requires a doctoral degree in a field supported by NSF. The earlier eligibility paragraph states this correctly, creating an internal contradiction.",
+      "fix": "Replace “NSF-supported doctorate” with “doctoral degree in a field supported by NSF” in both files."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md, award-conditions table and project-period instructions; call.yaml, eligibility.duration_months_min and duration_months_max",
+      "problem": "The YAML requires exactly 60 months, while the table labels 60 months only as a maximum. Instructions to use the table's period and provide a five-year education plan leave the duration requirement unnecessarily ambiguous.",
+      "fix": "State “Required project duration: 60 months (five years)” in call.md and use that fixed duration consistently throughout."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, Scope introductory paragraph and scope bullets; call.yaml, SC1–SC3",
+      "problem": "The introduction permits fundamental theory or systems methods, but the listed requirements demand mathematical limits and proofs, systems methods, and robot-system experiments. It is unclear whether a theory-focused proposal without systems development is eligible.",
+      "fix": "Either state explicitly that proposals must address all three scope requirements, or identify alternative tracks and specify which requirements apply to each in both files."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, Exclusions and Specific conditions; call.yaml, EX1, ME4, ME6 and ME7",
+      "problem": "Several keyed items combine independently assessable requirements. ME6 combines the prohibition on co-PIs with annual submission and lifetime competition limits; ME4 combines multiple eligibility tests; ME7 combines duration and funding requirements; EX1 combines URL and appendix prohibitions. A proposal can satisfy some parts while violating others.",
+      "fix": "Split these entries into individually keyed requirements and mirror the revised items in call.md. Keep conditional explanations attached to the requirement they qualify."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 1",
+      "where": "call.md, Policy sources; call.yaml, length_contract.source_note",
+      "problem": "The policy verification date is 31 October 2026, after the benchmark's present date of 1 October 2026. The assertion about the current PAPPG and effective supplements therefore uses a later policy snapshot than the task permits applicants to know.",
+      "fix": "Anchor the call to policies effective on or before 1 October 2026, identify the applicable supplements and their effective dates, and replace the future-dated verification claims with an accurate account of that policy snapshot."
+    }
+  ]
+}

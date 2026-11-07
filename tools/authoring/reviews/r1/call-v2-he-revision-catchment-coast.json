@@ -1,0 +1,87 @@
+{
+  "kind": "call",
+  "id": "v2-he-revision-catchment-coast",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Specific conditions, 4th bullet ('Where an earlier proposal received an Evaluation Summary Report…'); call.yaml ME4",
+      "problem": "This condition adds three rules that Horizon Europe RIAs do not have: (1) address a previous ESR's criticisms; (2) no response attachment or extra pages; (3) state the requested EU contribution in section 3.1, although in Horizon Europe the requested contribution is entered in Part A and evaluators do not receive earlier ESRs. The notice says the template and evaluation follow the real scheme and lists only the topic, identifier, budget and duration as invented, so the benchmark adaptations are presented as genuine scheme rules. The condition also names the criticised areas (open-science methodology, dissemination and exploitation, work planning) and four risk types (staffing, observations, computing, stakeholder participation). These read as a copy of one dossier's ESR, which a real topic would never contain and which tells applicants what a hidden answer key expects.",
+      "fix": "Delete the bullet from Specific conditions. Under 'Length', add a second labelled paragraph: 'Benchmark adaptation: a proposal that revises an earlier submission addresses the criticisms in its Evaluation Summary Report within the standard Part B sections; no separate response section or extra length is allowed. Section 3.1 states the requested EU contribution, which Horizon Europe records in Part A.' Do not list specific criticised sections or risk types. Mention the adaptations in the opening notice and mirror the new wording in call.yaml."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Award criteria and scoring, criterion 1 (Excellence)",
+      "problem": "The real Excellence criterion ends: 'the quality of open science practices, including sharing and management of research outputs and engagement of citizens, civil society and end users where appropriate'. The call shortens this to 'including research data management' and drops end-user engagement. This topic depends on engaging water managers and underserved users, so the change alters what evaluators score while the call claims to use the real criteria.",
+      "fix": "Replace the end of criterion 1 with the General Annexes wording: '…and the quality of open science practices, including sharing and management of research outputs and engagement of citizens, civil society and end users where appropriate.'"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 1",
+      "where": "call.md, Proposal template, 3.1 description ('justification of other direct costs above 15% of personnel costs')",
+      "problem": "The real form requires justification of purchase costs when travel and subsistence, equipment and other goods, works and services together exceed 15% of a participant's personnel costs. 'Other direct costs' is a wider category that includes subcontracting and other cost categories. The description also omits the subcontracting table (3.1g), other cost categories (3.1i) and in-kind contributions (3.1j). Subcontracting matters for a topic built on laboratory and sensor-based contaminant monitoring.",
+      "fix": "Rewrite the tail of 3.1 as: '…a table of staff effort (person-months per participant and work package), and, where applicable, the justification of subcontracting costs, of purchase costs (travel and subsistence, equipment, other goods, works and services) exceeding 15% of a participant's personnel costs, of other cost categories and of in-kind contributions.'"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml ME4 (and the same bullet in call.md)",
+      "problem": "One item combines unrelated demands that cannot be graded as a unit:\n- a conditional ESR response;\n- a formatting prohibition (no attachment, no extra pages), which cannot be 'found addressed' in a proposal;\n- a budget statement;\n- a resource-allocation explanation;\n- coverage of four named risk types.\nA proposal without an earlier ESR leaves half the item undefined.",
+      "fix": "Split ME4 into separate items:\n- ME4: conditional. Where an ESR exists, its criticisms are answered within the matching Part B sections. Mark it as applying only to resubmissions.\n- ME6: section 3.1 states the requested EU contribution and explains how resources are allocated across participants and work packages.\nMove the no-attachment/no-extra-length rule into length_contract notes. Drop the four enumerated risk types, or keep a general 'critical risks with mitigation' requirement that the real template already contains."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 4",
+      "where": "call.md, Scope, 2nd paragraph ('This follow-on opportunity closes on 15 September 2027… Either research direction may be revised while retaining its core scientific aims; previous funding under a particular programme is not required.')",
+      "problem": "This paragraph reads like a benchmark specification, not a work-programme topic:\n- Horizon Europe topics are not 'follow-on opportunities' and never tell applicants that a 'research direction may be revised while retaining its core scientific aims'.\n- 'Either research direction' has no clear referent for an applicant.\n- It calls the topic follow-on and then says prior funding is not required, which contradicts itself.\n- The deadline sits inside the scope text instead of the topic conditions.\nThe topic code segment 'REV' adds to the signal that this is a revision task.",
+      "fix": "Delete the paragraph. Add a table row 'Deadline | 15 September 2027, 17:00:00 Brussels time'. If building on prior work is meant to be assessed, write it as one plain scope sentence, e.g. 'Proposals should build on existing urban-runoff or receiving-water models and monitoring records', and add it to call.yaml. Rename the code without 'REV' (e.g. PB2-HE-CL6-WATER-02)."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 3",
+      "where": "call.md Scope paragraph 2 vs call.yaml (scope list, no deadline field)",
+      "problem": "call.md contains a requirement and a date that call.yaml does not hold: 'Proposals should advance prior urban-runoff or receiving-water research…' and the 15 September 2027 deadline. A grader working from call.yaml cannot check the first. Any timeline check cannot use the second.",
+      "fix": "Either remove the sentence from call.md (preferred, see the previous issue) or add it to call.yaml as a scope item. Add the deadline to call.yaml in the schema's deadline field so both files carry the same value."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Scope introduction, SC1, SC2, EX1, EX2",
+      "problem": "The topic speaks only of 'stormwater' and excludes 'routine operation of … wastewater treatment infrastructure'. It never says whether combined sewer overflows are in scope. In many European coastal cities with combined sewers, CSO spills are the main storm-driven source of faecal contamination at bathing and shellfish waters. Graders could therefore disagree on whether a CSO-centred proposal meets SC1/SC2 or falls under EX1/EX2, so the items are not reliably decidable.",
+      "fix": "Add to the Scope introduction: 'Both urban runoff from separate systems and storm water overflows from combined systems are in scope; improving the operation of treatment plants is not.' Keep EX1 as written."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 4",
+      "where": "call.md, Scope introduction",
+      "problem": "Real Cluster 6 topics tie their scope to EU policy and to the destination's expected impacts. This one cites none, so the Impact criterion's reference to 'impacts specified in the work programme' has nothing to link to. Natural anchors exist:\n- the integrated urban wastewater management plans for storm water overflows and urban runoff in the recast Urban Wastewater Treatment Directive (EU) 2024/3019;\n- short-term pollution management under the Bathing Water Directive 2006/7/EC;\n- the Zero Pollution Action Plan.",
+      "fix": "Add one or two sentences linking the topic to these instruments. Add a one-line fictional destination impact, e.g. 'contributes to reducing pollution of coastal waters under the Zero Pollution Action Plan'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 4",
+      "where": "call.md topic table ('Maximum duration | 36 months', 'up to EUR 4.8 million')",
+      "problem": "Horizon Europe topics state an indicative contribution ('around EUR X million') and rarely cap duration. The 36-month cap is also tight for the required work:\n- event-based monitoring at contrasting sites;\n- calibration data kept separate from independent validation data (SC3);\n- co-developed thresholds;\n- operational validation (SC6).\nSet-up would leave about two storm seasons.",
+      "fix": "Either raise the cap to 48 months or remove it. In the benchmark-adaptation note, state that the EUR 4.8 million is treated as a ceiling for the benchmark."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.yaml EO2/SC3/SC6; EO3/SC5/ME2/ME3; ME5; ME1",
+      "problem": "Several items overlap, so one passage can satisfy several items and grades get double-counted:\n- Transfer and applicability limits appear in EO2, SC3 and SC6. SC6 ('validate … in relevant environments') largely repeats SC3.\n- Underserved users are required four times (EO3, SC5, ME2, ME3).\n- ME5 repeats the eligibility row.\n- ME1 is a noun phrase restating a general grant-agreement obligation, not a topic condition.",
+      "fix": "Narrow each item:\n- Restrict SC6 to an operational trial with managers (e.g. running the forecasts and thresholds alongside existing practice for at least one bathing season, with documented maintenance procedures). Keep transfer in SC3 only.\n- Drop ME5 from mandatory_elements, since eligibility already holds the rule.\n- Rephrase ME1 as 'Proposals must describe FAIR data management and open access to publications, and state which data and tools will be released openly.'"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md Expected outcome and Scope ('underserved users', 'restrictions on water use and coastal access', 'organisations maintaining forecasting services')",
+      "problem": "The key terms are undefined:\n- 'Underserved users' is never specified.\n- In a coastal stormwater context, 'restrictions on water use' is unclear: it could mean bathing, shellfish harvesting or abstraction.\n- EO4 brings in forecasting-service operators, but ME2 never requires them as participants.\nA reader cannot tell what a proposal must cover.",
+      "fix": "Make three edits:\n- Define underserved users in the Scope, e.g. 'users with limited access to official warnings or greater dependence on affected waters, such as informal and small-scale shellfish harvesters, low-income beach users and residents with limited language access'.\n- Replace 'water use' with 'bathing, shellfish harvesting and other uses of coastal waters'.\n- Add forecasting-service operators to ME2, or remove them from EO4."
+    }
+  ]
+}

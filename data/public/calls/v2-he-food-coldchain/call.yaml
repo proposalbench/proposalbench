@@ -1,0 +1,134 @@
+schema_version: 1
+id: v2-he-food-coldchain
+scheme: horizon_ria
+language: en
+title: Mitigating microbial hazards and spoilage in interrupted food cold chains
+topic_code: PB2-HE-CL6-FOOD-02
+proposal_type: full
+length_contract:
+  max_words: 18000
+  enforcement: disregard_excess
+  tolerance: 0.0
+  counted_sections:
+  - '1'
+  - '2'
+  - '3'
+  exempt:
+  - references
+  - title
+  page_limit: 40
+  words_per_page: 450
+  source_note: 'Horizon Europe General Annexes 2026-2027 and standard application form: Part B of actual-cost
+    RIA/IA proposals limited to 40 pages (45 for lump-sum RIA/IA); excess pages are disregarded by evaluators.
+    The benchmark calls are actual-cost RIAs. Converted at 450 words per page (A4, 11 pt, 15 mm margins,
+    typical table density), tables included.'
+required_sections:
+- id: '1'
+  title: Excellence
+- id: '1.1'
+  title: Objectives and ambition
+  parent: '1'
+- id: '1.2'
+  title: Methodology
+  parent: '1'
+- id: '2'
+  title: Impact
+- id: '2.1'
+  title: Project's pathways towards impact
+  parent: '2'
+  aliases:
+  - Pathways towards impact
+  - Pathways to impact
+- id: '2.2'
+  title: 'Measures to maximise impact: dissemination, exploitation and communication'
+  parent: '2'
+  aliases:
+  - Measures to maximise impact
+  - Dissemination, exploitation and communication
+- id: '2.3'
+  title: Summary
+  parent: '2'
+  aliases:
+  - Summary of the impact section
+  - Key elements of the impact section
+- id: '3'
+  title: Quality and efficiency of the implementation
+  aliases:
+  - Implementation
+- id: '3.1'
+  title: Work plan and resources
+  parent: '3'
+- id: '3.2'
+  title: Capacity of participants and consortium as a whole
+  parent: '3'
+  aliases:
+  - Capacity of participants
+  - Consortium as a whole
+expected_outcomes:
+- id: EO1
+  text: Food business operators and logistics providers adopt validated decision-support tools to predict
+    and manage microbial risks during cold chain interruptions.
+- id: EO2
+  text: Public health authorities and food safety agencies access improved data on the dynamics of spoilage
+    and pathogen proliferation under fluctuating temperature regimes.
+- id: EO3
+  text: Reduction of food waste and foodborne illness incidents linked to temperature abuse in the transport
+    and storage of perishable goods.
+- id: EO4
+  text: Enhanced resilience of local and cross-border food supply chains through the implementation of
+    standardized, safe sampling and monitoring protocols.
+scope:
+- id: SC1
+  text: Characterize the growth dynamics and uncertainty of key spoilage organisms and pathogens under
+    realistic, interrupted cold chain scenarios, distinguishing controlled bench results from field validation.
+- id: SC2
+  text: Develop and test sensor-based monitoring systems that capture continuous temperature and environmental
+    data across different stages of the food logistics chain.
+- id: SC3
+  text: Create predictive decision-support models that translate environmental data into actionable risk
+    assessments for food business operators, incorporating uncertainty margins.
+- id: SC4
+  text: Design and validate standardized sampling procedures for field environments to ensure accurate
+    microbial data collection without cross-contamination.
+- id: SC5
+  text: Assess the socio-economic barriers to the adoption of new monitoring and decision-support technologies
+    by logistics providers, retailers, and producers.
+exclusions:
+- id: EX1
+  text: The development or testing of new antimicrobial veterinary medicines or chemical food preservatives.
+- id: EX2
+  text: Proposals focusing solely on the development of new refrigeration hardware or cooling vehicles
+    without addressing microbial dynamics and decision support.
+mandatory_elements:
+- id: ME1
+  text: Open science practices, including FAIR research data management and open access to publications
+    and, where possible, data and tools.
+- id: ME2
+  text: Proposals must implement the multi-actor approach, ensuring the active involvement of food producers,
+    logistics providers, retailers, and food safety authorities.
+- id: ME3
+  text: Proposals must integrate the social sciences and humanities (SSH) to address behavioural and organizational
+    barriers affecting the adoption of monitoring technologies.
+- id: ME4
+  text: Proposals must include a dedicated task specifying biosafety arrangements for handling microbial
+    hazards during field validation.
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  consortium:
+    min_entities: 3
+    min_countries: 3
+    notes: The consortium must include, as beneficiaries, at least three mutually independent legal entities
+      established in three different EU Member States or Associated Countries, including at least one
+      entity established in a Member State. Affiliated entities and associated partners do not count towards
+      this minimum.
+  max_budget: 5500000
+  duration_months_max: 42
+  trl_start: 3
+  trl_end: 6
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 2f74107d-9873-4ac3-a9b5-bcaacf8993d7

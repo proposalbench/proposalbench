@@ -1,0 +1,101 @@
+{
+  "kind": "call",
+  "id": "v2-nih-a1-care-transitions",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md, 'Required research narrative': 'Submit one Markdown document with these two main sections, in order:'",
+      "problem": "The sentence announces two main sections, but three follow (Introduction to Resubmission, Specific Aims, Research Strategy). call.yaml required_sections also lists three top-level sections, and call.md later says 'Only the Introduction, Specific Aims and Research Strategy with its three children are required.' A system could reasonably treat Specific Aims as a child of the Introduction, or drop it, which breaks the section contract.",
+      "fix": "Change the sentence to 'Submit one Markdown document with these three main sections, in order:'."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, 'Review criteria', paragraph after the table listing the Additional Review Criteria",
+      "problem": "This is an A1-only notice, yet the Additional Review Criteria omit the Resubmissions criterion that the real Simplified Review Framework and the parent R21 apply. Under that criterion, reviewers evaluate the application as now presented, taking into consideration the responses to comments from the previous scientific review group and the changes made to the project. The scoring contract therefore does not match the real scheme for this application type. The inclusion criterion is also truncated to 'inclusion across the lifespan'; the real criterion is 'Inclusion of Women, Minorities, and Individuals Across the Lifespan'.",
+      "fix": "Add: 'Resubmissions: the committee evaluates the application as now presented, taking into consideration the responses to comments from the previous scientific review group and changes made to the project.' List it with Protections for Human Subjects, Inclusion of Women, Minorities, and Individuals Across the Lifespan, Vertebrate Animals and Biohazards as unscored criteria that inform Overall Impact."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 3",
+      "where": "call.md title 'PB2-NIH-R21-A1-01' vs topic-specific requirement and ME10 'This fictional PA-style emphasis, PB-PA-27-146'; call.yaml topic_code",
+      "problem": "The notice has two identifiers for itself. The title and call.yaml topic_code use PB2-NIH-R21-A1-01. The requirements list and ME10 call the same notice PB-PA-27-146. The rule that the A0 must have been submitted under this emphasis or under companion emphasis PB-PA-26-145 also appears only in free text; call.yaml eligibility does not encode it. That eligibility rule is likely to decide a resubmission trap. In addition, an FY2027-style number ('27') cannot have received an A0 whose summary statement was issued before 1 October 2026, so 'submitted under this emphasis' is impossible on the stated dates.",
+      "fix": "Use one identifier throughout, the topic_code. Rename the companion to a clearly distinct fictional code (e.g. PB2-NIH-R21-A0-01). Add call.yaml eligibility fields, e.g. resubmission: A1_only, resubmission_window_months: 37, accepted_prior_notices: [<companion code>]. Drop 'this emphasis' from the accepted-A0 list, or explain how an A0 could have been submitted under it."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 5",
+      "where": "call.md and call.yaml ME10: 'PB-PA-27-146', 'PB-PA-26-145'",
+      "problem": "Both codes embed NIH-format numbers ('PA-26-145', 'PA-27-146'). NIH issues PA-26-xxx and PA-27-xxx notices in exactly this numbering series, so a search for the core string will probably return a real NIH program announcement. The rules ask for identifiers that a search would not confuse with real ones.",
+      "fix": "Replace both with codes outside the NIH PA/RFA/PAR/NOT pattern, e.g. 'PB2-EMPH-CT-01' and 'PB2-EMPH-CT-00'."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml mandatory_elements ME9 and ME10 (and the matching bullets in call.md)",
+      "problem": "ME9 ('only one A1 ... within 37 months ... after its summary statement is issued; this is not an A2') and ME10 ('accepts eligible A1 applications whose unfunded R21 A0 was submitted under ...; neither is an RFA') are eligibility conditions on the submission, not content a reader can find addressed in a proposal. A grader cannot score them as present or absent in the narrative. ME10 also contains the word 'fictional' inside a requirement.",
+      "fix": "Move both into call.yaml eligibility, as in the identifier fix above. Replace them with one checkable element: 'The Introduction identifies the application as the A1 of the named unfunded A0 (notice under which the A0 was submitted, A0 submission date, summary statement) and does not present it as a new application or a second resubmission.'"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml ME3, ME5, ME13, ME16 (and matching call.md bullets)",
+      "problem": "Several items bundle separately scorable demands. ME3 lists six: units of analysis, sample-size rationale, comparisons/controls, bias measures, data collection, and analysis/interpretation. ME5 joins biological variables in design and analysis with inclusion across sex/gender, race, ethnicity and age. ME13 joins construct identification and validity evidence with distinguishing medication-taking from four other constructs. ME16 joins assessment reactivity, the argument for remaining observational, and the handling of clinically concerning findings. A proposal can satisfy half of each item, and the grade becomes arbitrary.",
+      "fix": "Split the items. ME3 becomes (a) unit of analysis and sample-size rationale, (b) comparisons/controls and bias measures, (c) data-collection and analysis/interpretation plan. ME5 becomes (a) sex and age in design and analysis with justified restrictions, (b) inclusion plan. ME13 becomes (a) construct and validity evidence per principal measure, (b) medication-taking distinguished from knowledge, confidence, prescription availability and assistance. ME16 becomes (a) potential for assessments or care-team contact to alter medication management, (b) protocol for clinically concerning findings that does not assign an intervention."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml SC2 ('direct assessments or validated behavioral measures') and ME13 ('the behavioral construct represented by each principal measure')",
+      "problem": "Stress is normally measured by validated self-report (e.g. the Perceived Stress Scale) or by physiological indicators (cortisol, heart-rate variability). Neither is a 'behavioral' measure, and self-report is arguably not a 'direct assessment'. Validated self-report adherence scales and EMA are standard for medication-taking. As written, SC2 and ME13 leave a grader unable to decide whether a proposal using self-reported stress or adherence complies, and ME13 asks for a 'behavioral construct' behind measures that are not behavioral.",
+      "fix": "Rewrite SC2: 'Measure attention with performance-based assessments, stress with validated self-report and/or physiological indicators, and medication self-management with a measure of medication-taking behavior (e.g. electronic monitoring, pill counts, validated self-report or ecological momentary assessment), each justified for the population and setting.' In ME13, change 'behavioral construct' to 'construct'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md, 'Purpose and award conditions', clinical-trial paragraph",
+      "problem": "The paragraph says observational and formative research is allowed. It does not say that experimental manipulation of stress or attention in participants, such as a laboratory stressor task, meets the NIH clinical-trial definition (basic experimental studies with humans) and is excluded under a Clinical Trial Not Allowed notice. The scope invites 'direct assessments' of stress, so a proposal could plausibly include such a task.",
+      "fix": "Add: 'Experimental manipulation of stress, attention or other exposures in participants, including laboratory stress-induction tasks, meets the NIH clinical-trial definition and is not allowed; measurement-only procedures are permitted.'"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 3",
+      "where": "call.yaml eligibility (max_budget: 275000) vs call.md budget tables",
+      "problem": "call.md says USD 275,000 is a project-wide direct-cost ceiling with at most USD 200,000 in any year. call.yaml records only max_budget: 275000 and says neither that it is direct costs nor that there is an annual cap. Labelling 275,000 'Maximum award' in call.md is also inaccurate: NIH awards add F&A on top of direct costs.",
+      "fix": "In call.yaml, add cost_basis: direct and max_budget_per_year: 200000. In the call.md table, rename 'Maximum award' to 'Maximum direct costs (project total)' and add a row 'Maximum direct costs in any year: USD 200,000'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.yaml ME4 ('the maximum duration in the table above'), ME7, ME8",
+      "problem": "ME4 points to a table that exists only in call.md; the YAML item should state '24 months'. ME7 repeats the section and length contract and overlaps with ME12 ('address every major criticism'). ME8 forbids bold and italics in the Research Strategy, yet call.md itself presents the child headings as bold run-in labels ('**Significance:**'). A grader cannot tell whether bold structural labels violate ME8.",
+      "fix": "In ME4, write 'within 24 months'. Reduce ME7 to 'Integrate the changes summarised in the Introduction into the revised Specific Aims and Research Strategy.' In ME8, add 'structural headings and emphasis unrelated to marking revisions are permitted', and format the child headings in call.md as headings rather than bold labels."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 4",
+      "where": "call.md, 'Resubmission conditions': 'The fictional deadline is 15 September 2027.'",
+      "problem": "A program announcement uses the NIH standard due dates. For R21 resubmissions these are 16 March, 16 July and 16 November; 15 September is not an R21 due date. A single fixed deadline is an RFA feature, which conflicts with the call's own statement that neither emphasis is an RFA.",
+      "fix": "Use a standard R21 resubmission date, e.g. 'Target due date: 16 July 2027 (standard R21 resubmission cycle)'. Then confirm it falls within 37 months of the dossier's A0 submission date."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md blockquote: 'NIH guidance checked on 31 October 2026'",
+      "problem": "The benchmark's present date is 1 October 2026. A call document that reports checking guidance on 31 October 2026 is dated after the benchmark present, which breaks the fictional timeline that the resubmission dates depend on.",
+      "fix": "Remove the check date from call.md, or write 'as of 1 October 2026'. Keep the real verification date only in call.yaml source_note and provenance."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md: 'Only modify aims and plans on the basis of evidence actually available in the dossier'; 'Use the dossier's earlier application...'; 'including the dossier's work if used'; 'Do not manufacture these separate submissions'; heading 'Topic-specific requirements' over generic resubmission rules; 'a second A1/A2 is not allowed'",
+      "problem": "Several passages read as benchmark instructions rather than NIH notice text, which departs from the real scheme's register. The heading 'Topic-specific requirements' sits over items that are generic NIH resubmission rules (ME7–ME9). 'A1/A2' is garbled.",
+      "fix": "Replace 'dossier' with 'the prior application, its summary statement and the supporting materials'. Move the resubmission rules under a 'Resubmission requirements' heading. Write 'a second resubmission (A2) is not accepted'."
+    }
+  ]
+}

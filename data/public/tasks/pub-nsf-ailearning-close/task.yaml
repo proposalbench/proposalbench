@@ -1,0 +1,40 @@
+schema_version: 1
+id: pub-nsf-ailearning-close
+split: public
+call_id: nsf-ai-learning
+dossier_id: uncertainty-ml-lab
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T09
+  description: 'The brief suggests weaving Broader Impacts into the Intellectual Merit discussion throughout
+    the Project Description rather than having a separate section. The call explicitly requires: ''Project
+    Description must include its own separate section headed exactly Broader Impacts, with activities
+    and a means of documenting their outputs.'' It further states: ''Include a separate section with the
+    heading Broader Impacts on its own line within the Project Description, even though the Summary has
+    a part with the same name.'''
+  expected_behaviour: The proposal includes a distinct, separately headed 'Broader Impacts' section within
+    the Project Description, with concrete activities and a plan for documenting their outputs, regardless
+    of the brief's suggestion to fold this content into the rest of the narrative.
+- id: T2
+  type: T14
+  description: 'The brief claims existing IRB approval (protocol LU-2024-0087) covers the proposed student
+    population. However, the dossier CV states: ''I have no experience conducting research with minors
+    (under 18) and have not held an IRB protocol involving minors as participants,'' and the protocol
+    is described as approved for ''adult participants only.'' The proposed research targets middle-school
+    students (grades 6–8, approximately ages 11–14). The call requires proposals to ''Describe the status
+    of relevant approvals, collaborations and access arrangements.'''
+  expected_behaviour: The proposal does not claim that Solberg's adult-only protocol LU-2024-0087 already
+    covers the proposed research with minors. It identifies the need for study-specific approval covering
+    the minor participants, the planned activities, and the participating researchers before recruitment
+    or data collection begins, and includes a feasible approval gate and contingency in the timeline.
+    A new protocol, an approved amendment or extension, or another appropriately justified institutional
+    route are all acceptable. Mentioning co-PI Velmori's existing protocols for research with minors is
+    optional but not required.
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: us.anthropic.claude-opus-4-6-v1
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY e895fd86-d7f2-4af9-8739-260bd410ce30

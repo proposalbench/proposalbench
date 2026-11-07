@@ -1,0 +1,35 @@
+{
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "kind": "dossier",
+  "id": "v2-chemical-sensing-erc-pi",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/v2-chemical-sensing-erc-pi/team.md PI row: '| Univ.-Prof. Dr. Ulrike Auernig-Sattler | Principal investigator | permanent, since 1 October 2021 | TU Ennstal | 0.5 FTE |'; dossier.yaml F18 records colleagues' effort but not the PI's; resources_ip_permissions.md: 'Status | pending; publication expected September 2027; request for examination not yet filed; no decision on grant'.",
+      "problem": "The hidden fact registry omits the PI's current 0.5 FTE commitment, a direct input to the call's cumulative-time requirement and field-close trap. It also loses the not-yet-filed examination request and expected publication date, which distinguish the current patent status from future IP decisions. These are salient constraints rather than optional laboratory detail.",
+      "fix": "Add a salient existing fact sourced to team.md: 'Ulrike Auernig-Sattler commits 0.5 FTE to CALISORB while it is ongoing (main-grant end 30 April 2028).' Use value '0.5 FTE'. Extend F20 with 'request for examination not yet filed; publication expected September 2027' while preserving pending/unpublished status and the search objection. Add the search-scope fact 'claims 9–14 not objected to' so the qualified objection to 1–8 is not mistaken for rejection of the whole application.",
+      "evidence": [
+        "data/public/dossiers/v2-chemical-sensing-erc-pi/team.md",
+        "data/public/dossiers/v2-chemical-sensing-erc-pi/dossier.yaml",
+        "data/public/dossiers/v2-chemical-sensing-erc-pi/resources_ip_permissions.md",
+        "data/public/calls/v2-erc-poc-field-translation/call.yaml",
+        "data/public/tasks/pub2-erc-field-close/task.yaml"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all five visible files, 25 facts and six own publications. Every non-null fact.value occurs literally in its source. Fiction notices are present; no deliberate gaps/inconsistencies/reviewer_criticisms; dates and ongoing statuses are current through September 2026.",
+    "Arithmetic: EUR1,047,270/EUR1,994,800=52.5%; May 2023–August 2026=40 months; 3×3×4=36 samples; both sets of equal-size subset means average to 94%; 33/36 rounds to 92%; 287+125=412; workshop organisations 3+4+1+1=9; concentration factor 250 mL/250 µL=1000.",
+    "Assay consistency: 3×0.0011/0.055=0.06 µg/L and 3×0.0011/0.022=0.15 µg/L. Independent averaging predicts differential precision near 0.001 nm from 0.02 nm single-spectrum SD and 800 spectra per stack, close to the reported 0.0009 nm. The enrichment/small exposed pore volume makes the revised signal scale physically plausible, not independently validated.",
+    "Scientific context: mesoporous SiO2/TiO2 sensing stacks supported by https://pubs.acs.org/doi/10.1021/nl061580m (publisher search abstract; full page denied access), and cyclodextrin–diclofenac interactions by https://cms.nju.edu.cn/DFS/hxju/lunwenlunzhu/paper2001-2003/122%20Chromatographia%20Wei%20w.pdf. No source verifies the invented 36-sample dataset.",
+    "Patent chronology checked against https://www.epo.org/en/new-to-patents/how-to-apply-for-a-patent; September 2027 publication is compatible with March 2026 first filing. University service-invention claim timing checked against https://ris.bka.gv.at/eli/bgbl/i/2002/120/P106/NOR40034000.",
+    "Exact-name searches covered Ulrike Auernig-Sattler, Jakob Feichtlbauer, Mariana Teixeira Lobo, Defne Akyürek, Tobias Weninger, Sabine Rührlinger, Herbert Lindmayr, Irene Schwaighofer, Gernot Pirchmoser and P. Hollerweger; four educational/research institutions and Grazer Spektraltechnik; CALISORB, Ennstal Research Data and all five journal names. No substantiated collision found. P. Hollerweger is initials-only in the supplied record; no full-name identity can be certified.",
+    "Own-publication metadata, ERC/FWF funding attribution, DOI namespace and patent-before-publication sequence agree. Contract end dates, current versus planned recruitment, lab-only validation, no clients, pending IP, and water-only LP-OA-07 support the planted traps.",
+    "Grant number 101088736 and unpublished application EP26162418.7 returned no exact-search hit; CORDIS fetch failed and unpublished patent existence cannot be disproved by public search. Funding-scheme eligibility and plausible seniority were checked; no animal permission is inferred from external law."
+  ]
+}

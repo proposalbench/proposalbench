@@ -1,0 +1,369 @@
+schema_version: 1
+id: v2-secure-food-robotics-consortium
+language: en
+applicant_type: consortium
+career_stage: mid_career
+disciplines:
+- computer security
+- robotics
+- food microbiology
+- systems engineering
+method_profile: quantitative
+country: DE
+files:
+- path: cv_pi.md
+  role: cv
+- path: consortium_profile.md
+  role: team
+- path: prior_project_report.md
+  role: prior_project
+- path: resources_and_infrastructure.md
+  role: resources
+- path: publications.md
+  role: publications
+facts:
+- id: F01
+  category: result
+  kind: existing
+  text: In 2025, replay tests on 80 independent sensor traces detected 68 injected faults.
+  value: '68'
+  salient: true
+  source: prior_project_report.md
+- id: F02
+  category: result
+  kind: existing
+  text: The fault detection rate was 85 percent (Wilson 95% CI approximately 76 to 91 percent).
+  value: 85 percent
+  salient: true
+  source: prior_project_report.md
+- id: F03
+  category: result
+  kind: existing
+  text: The replay tests were simulations, not live warehouse validations.
+  value: null
+  salient: true
+  source: prior_project_report.md
+- id: F04
+  category: resource
+  kind: planned
+  text: A planned 30-device robot fleet has zero units acquired, as procurement is contingent on future
+    capital expenditure approvals.
+  value: zero
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F05
+  category: resource
+  kind: existing
+  text: Six existing bench robots suffice for an initial bounded study.
+  value: six
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F06
+  category: resource
+  kind: existing
+  text: An operator notice dated 21 September 2026 withdraws access to live refrigeration control interfaces.
+  value: 21 September 2026
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F07
+  category: resource
+  kind: existing
+  text: Read-only monitoring remains authorised.
+  value: null
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F08
+  category: resource
+  kind: existing
+  text: An isolated thermal bench is available.
+  value: null
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F09
+  category: identity
+  kind: existing
+  text: No medicinal-product development expertise or approval exists.
+  value: null
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F10
+  category: resource
+  kind: existing
+  text: The lab can assay food samples.
+  value: null
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F11
+  category: other
+  kind: existing
+  text: Full validation of changed operating policies must be planned with access gates.
+  value: null
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F12
+  category: partner
+  kind: existing
+  text: Cold-chain adaptation can combine the Spanish laboratory and Austrian operator.
+  value: null
+  salient: true
+  source: consortium_profile.md
+- id: F13
+  category: partner
+  kind: existing
+  text: A Canadian informal contact is not a participating beneficiary and does not count as an EU/associated-country
+    entity for the stated minimum.
+  value: null
+  salient: true
+  source: consortium_profile.md
+- id: F14
+  category: partner
+  kind: existing
+  text: Fictional German university coordinator, independent Italian robotics SME, Spanish food microbiology
+    institute and Austrian logistics cooperative have signed participation agreements.
+  value: null
+  salient: true
+  source: consortium_profile.md
+- id: F15
+  category: resource
+  kind: existing
+  text: The project collected over 4,500 hours of baseline sensor data.
+  value: 4,500 hours
+  salient: true
+  source: prior_project_report.md
+- id: F16
+  category: result
+  kind: existing
+  text: The engine was evaluated over 1,200 hours of healthy validation data, maintaining a false positive
+    rate of 2.4%.
+  value: 2.4%
+  salient: true
+  source: prior_project_report.md
+- id: F17
+  category: result
+  kind: existing
+  text: The edge-optimised detection algorithm achieved an average inference time of 14 milliseconds,
+    well within the 50-millisecond requirement.
+  value: 14 milliseconds
+  salient: true
+  source: prior_project_report.md
+- id: F18
+  category: publication
+  kind: existing
+  text: The project resulted in four peer-reviewed publications.
+  value: four
+  salient: true
+  source: prior_project_report.md
+- id: F19
+  category: resource
+  kind: existing
+  text: The RESIL-BOT Warehouse Sensor Corpus is an open dataset containing 2.5 TB of data published under
+    a CC BY 4.0 license.
+  value: CC BY 4.0
+  salient: true
+  source: prior_project_report.md
+- id: F20
+  category: grant
+  kind: existing
+  text: The RESIL-BOT project ran from 1 January 2022 to 31 December 2025.
+  value: 1 January 2022 to 31 December 2025
+  salient: true
+  source: prior_project_report.md
+- id: F21
+  category: team
+  kind: existing
+  text: Currently supervising 5 PhD students and 2 postdoctoral researchers.
+  value: '5'
+  salient: true
+  source: cv_pi.md
+- id: F22
+  category: resource
+  kind: existing
+  text: ALV maintains a dedicated 800-square-meter mechatronics testing facility.
+  value: 800-square-meter
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F23
+  category: resource
+  kind: existing
+  text: The IMAA facility includes four walk-in environmental chambers.
+  value: Four
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F24
+  category: resource
+  kind: existing
+  text: AKK provides access to a 12,000 square meters distribution centre equipped with sensors logging
+    at 5-minute intervals.
+  value: 12,000 square meters
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F25
+  category: position
+  kind: existing
+  text: W2 Professor since 2019.
+  value: '2019'
+  salient: true
+  source: cv_pi.md
+- id: F26
+  category: education
+  kind: existing
+  text: Dr. rer. nat. in Computer Science obtained in 2014.
+  value: '2014'
+  salient: true
+  source: cv_pi.md
+- id: F27
+  category: grant
+  kind: existing
+  text: RESIL-BOT project total budget was EUR 1,200,000.
+  value: EUR 1,200,000
+  salient: true
+  source: prior_project_report.md
+- id: F28
+  category: grant
+  kind: existing
+  text: RESIL-BOT grant number is RB-2022-8849-TUF.
+  value: RB-2022-8849-TUF
+  salient: true
+  source: prior_project_report.md
+- id: F29
+  category: grant
+  kind: existing
+  text: PB-THERMOSEAL-20 total budget was EUR 850,000.
+  value: EUR 850,000
+  salient: true
+  source: cv_pi.md
+- id: F30
+  category: grant
+  kind: existing
+  text: TUF share for PB-THERMOSEAL-20 was EUR 320,000.
+  value: EUR 320,000
+  salient: true
+  source: cv_pi.md
+- id: F31
+  category: grant
+  kind: existing
+  text: AutoLog-Sec total budget was EUR 400,000.
+  value: EUR 400,000
+  salient: true
+  source: cv_pi.md
+- id: F32
+  category: result
+  kind: existing
+  text: The anomaly detection engine was trained on 3,300 hours of healthy data.
+  value: 3,300 hours
+  salient: true
+  source: prior_project_report.md
+- id: F33
+  category: result
+  kind: existing
+  text: The validation data was partitioned into 72,000 one-minute decision windows.
+  value: 72,000
+  salient: true
+  source: prior_project_report.md
+- id: F34
+  category: result
+  kind: existing
+  text: The engine flagged 1,728 windows as anomalous.
+  value: 1,728
+  salient: true
+  source: prior_project_report.md
+- id: F35
+  category: result
+  kind: existing
+  text: The latency had an SD of 2.1 ms.
+  value: 2.1 ms
+  salient: true
+  source: prior_project_report.md
+- id: F36
+  category: result
+  kind: existing
+  text: The latency was measured over n = 10,000 inferences.
+  value: 10,000
+  salient: true
+  source: prior_project_report.md
+- id: F37
+  category: result
+  kind: existing
+  text: The inference was performed on a standard ARM Cortex-A76 edge node.
+  value: ARM Cortex-A76
+  salient: true
+  source: prior_project_report.md
+- id: F38
+  category: partner
+  kind: existing
+  text: Participation agreements were signed as of 10 September 2026.
+  value: 10 September 2026
+  salient: true
+  source: consortium_profile.md
+- id: F39
+  category: resource
+  kind: existing
+  text: IMAA operates a 400-square-meter BSL-2 laboratory.
+  value: 400-square-meter
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F40
+  category: resource
+  kind: existing
+  text: The IMAA laboratory is BSL-2 certified.
+  value: BSL-2
+  salient: true
+  source: resources_and_infrastructure.md
+- id: F41
+  category: resource
+  kind: existing
+  text: The AKK distribution centre features three distinct temperature zones.
+  value: three
+  salient: true
+  source: resources_and_infrastructure.md
+own_publications:
+- key: Varnkoetter2024
+  authors:
+  - Varnkötter, L.
+  - Klein, H.
+  year: 2024
+  title: Adversarial Robustness of Edge-Based Anomaly Detection in Cyber-Physical Logistics Networks
+  venue: Journal of Secure Systems Engineering
+  doi: 10.99999/pb.v2-secure-food-robotics-consortium.2024.1
+- key: Moretti2025
+  authors:
+  - Moretti, A.
+  - Rossi, G.
+  - Varnkötter, L.
+  year: 2025
+  title: Sim-to-Real Challenges in Fault-Tolerant Navigation for Autonomous Guided Vehicles
+  venue: International Journal of Industrial Robotics
+  doi: 10.99999/pb.v2-secure-food-robotics-consortium.2025.1
+- key: GarciaLopez2023
+  authors:
+  - García-López, M.
+  - Fernández, S.
+  year: 2023
+  title: Predictive Modelling of Listeria monocytogenes Growth Dynamics During Cold Chain Interruptions
+  venue: European Food Microbiology Review
+  doi: 10.99999/pb.v2-secure-food-robotics-consortium.2023.1
+- key: Varnkoetter2023
+  authors:
+  - Varnkötter, L.
+  - Weber, T.
+  - Moretti, A.
+  year: 2023
+  title: Lightweight Cryptographic Verification of Sensor Data Streams in Resource-Constrained Environments
+  venue: Transactions on Applied Cryptography
+  doi: 10.99999/pb.v2-secure-food-robotics-consortium.2023.2
+- key: Fernandez2025
+  authors:
+  - Fernández, S.
+  - García-López, M.
+  - Huber, K.
+  year: 2025
+  title: Correlating Volatile Organic Compounds with Microbial Spoilage in Packaged Poultry under Fluctuating
+    Temperatures
+  venue: Journal of Agricultural and Food Quality
+  doi: 10.99999/pb.v2-secure-food-robotics-consortium.2025.2
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY d1de659f-6d04-4d9f-b301-145715afbd5b

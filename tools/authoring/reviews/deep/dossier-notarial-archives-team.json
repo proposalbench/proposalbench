@@ -1,0 +1,73 @@
+{
+  "kind": "dossier",
+  "id": "notarial-archives-team",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2; Dossier 4",
+      "where": "data/public/dossiers/notarial-archives-team/cv_ip.md: “Fecha de obtención del doctorado: 15 de junio de 2020” and “Investigador Principal JIN”; informe_proyecto_previo.md: “PID2020-112233RJ-I00 (Modalidad JIN - Jóvenes Investigadores sin vinculación)” and “contrato del IP por 3 años [85.000 EUR]”.",
+      "problem": "The named real 2020 JIN scheme could not have funded this PI with this career date. PID2020 Article 6.3.c requires type A/JIN doctorates obtained in 2010–2017; the PI defended in 2020. JIN also belongs to the RTI branch, not the claimed Generación de Conocimiento branch, and Article 9.3.a sets EUR 35450 per year for the PI contract (EUR 106350 over three years), not EUR 85000. These are scheme-history defects, even though the dossier’s EUR 115000 subtotal adds correctly.",
+      "fix": "Preserve the June 2020 PhD, which is essential for the ERC task. Recast NOTAR-NET as “ayuda institucional ficticia para grupos emergentes de la Universitat de Puig-rodon, referencia PB-UPR-2021-NN01”, financed by the fictional university rather than AEI. Replace “Investigador Principal JIN (Contrato de acceso al SECTI)” with “Investigador principal, contrato institucional de acceso posdoctoral”. Keep the 2021–2024 dates and EUR 115000 direct-cost budget, but state that the EUR 85000 contract allocation is a condition of that fictional institutional award. Propagate grant/funder/reference changes through CV, report and F03/F04/F18. Do not backdate the PhD to fit JIN, which would break ERC eligibility.",
+      "evidence": [
+        "https://www.aei.gob.es/sites/default/files/convocatory_info/2020-12/ConvocatoriaPID2020_Resolucion20201111.pdf#page=15",
+        "https://www.aei.gob.es/sites/default/files/convocatory_info/2020-12/ConvocatoriaPID2020_Resolucion20201111.pdf#page=18",
+        "https://www.aei.gob.es/sites/default/files/convocatory_info/2020-12/ConvocatoriaPID2020_Resolucion20201111.pdf#page=21",
+        "data/public/dossiers/notarial-archives-team/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/notarial-archives-team/equipo_y_recursos.md: “Consorcio de Servicios Universitarios”; cv_ip.md: “Digital Middle Ages” and “Onda Comarcal”.",
+      "problem": "The backup-provider name is readily confused with the real Consorcio de Servicios Universitarios de Cataluña (CSUC). “Digital Middle Ages” is already an academic event/initiative title, and Onda Comarcal is an existing radio station name. These are invented institutional relationships or service claims carrying real/confusable names, which the supplied fiction policy prohibits. The literal hardware model names are separately allowed and are not part of this finding.",
+      "fix": "Replace the provider with “Consorcio Académico de Datos de Puig-rodon”, the conference with “Protocolos Digitales de Boira”, and the programme/station name with “Veus de Boira”. Keep the reported dates/counts and label the conference and radio programme fictional under the existing document notice. Exact-name web searches of these replacements returned no matching organisation/event. Propagate the provider replacement into any new fact-registry entry.",
+      "evidence": [
+        "https://www.csuc.cat/sites/default/files/2021-02/estatutos_del_csuc.pdf",
+        "https://www.mfn.uni-wuerzburg.de/en/lecture-series/the-digital-middle-ages/",
+        "https://www.oeaw.ac.at/imafo/veranstaltungen/detail/unberechenbare-konflikte-1",
+        "https://guiadelaradio.com/emisoras-granada",
+        "docs/task_review_checklist.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/notarial-archives-team/dossier.yaml, F14/F15/F17/F32–F38 and facts list; informe_proyecto_previo.md: “n=315”, “n=228”, “n=85 individuos”, “620 relaciones de deuda”, “1.250 menciones de personas”.",
+      "problem": "The registry still drops salient denominators and uncertainty qualifiers, despite registering the corresponding point estimates. Missing examples are 315 widow creditors, 228 widow debtors, 85 merchants, 1250 evaluated person mentions, 620 evaluated debt relations, both F1 confidence intervals, and the merchant/artisan SDs. F12 omits the source’s pooled-network/all-node normalisation qualifier. The availability of marriage contracts in the same series is implicit in F40 but not registered as an available resource. These omissions affect grounding and feasibility assessment; none is an intentional hidden gap.",
+      "fix": "Add sourced facts for the five counts above; add or extend the role F1 fact to “0,92 (IC 95%: 0,89-0,95)” and quantity F1 to “0,89 (IC 95%: 0,85-0,93)”; retain loan SDs 12 and 45 and centrality SDs 0,008 and 0,012 in the corresponding facts. Extend F12 with “betweenness normalizada, promediada sobre todos los nodos en la red agregada”. Add an existing-resource fact that marriage contracts survive in the same notarial series, separately from F41/F42’s unlocated restitution receipts and planned search. Also register the 15.000 EUR postdoc and 15.000 EUR equipment/travel components when repairing the grant record.",
+      "evidence": [
+        "data/public/dossiers/notarial-archives-team/informe_proyecto_previo.md",
+        "data/public/dossiers/notarial-archives-team/dossier.yaml",
+        "docs/scoring_spec.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/notarial-archives-team/equipo_y_recursos.md, Lorenzo’s role: “Nota de elegibilidad”.",
+      "problem": "The explicit eligibility label makes an otherwise useful ordinary affiliation statement look authored to cue the co-PI trap.",
+      "fix": "Remove only “Nota de elegibilidad:” and retain the factual statement about Italian-only affiliation and the absence of a planned Spanish appointment.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all four visible Markdown files and every one of 64 facts and five own-publication records; all non-null fact.value strings occur literally in their named source. No gaps, inconsistencies or reviewer_criticisms are declared; the defects above are not protected intentional inconsistencies.",
+    "Recomputed 315/1432=21.9972% ->22.0%; 228/2850=8%; (0.045/0.032-1)=40.625% ->40.6%; 45/750=6%. The 45 widows in both roles cause no count contradiction. EUR 85000+15000+15000=115000; historical loan subtotals do not exceed the stated total.",
+    "Reconciled 2000+250+250=2500 folios, 8+2+2=12 hands, 270000+180000=450000 test characters and the larger 4.5m-character ground truth. Ten decade windows cover 1350–1449; exclusion of 1450 is now explicit. Five notaries can have multiple scribal hands.",
+    "HTR/CRNN/Kraken and low-single-digit within-domain CER with deterioration on harder hands are scientifically plausible, not verified empirical observations. External manuscript transfer can be much worse. Sources: https://zenodo.org/records/7401833 ; https://www.archives-nationales.culture.gouv.fr/innovation-et-recherche/lectaurep-la-lecture-automatique-de-repertoires-de-notaires",
+    "Historical credit/dowry hypothesis is plausible, while contracts alone do not prove restitution or a husband’s death date. Systematic Spanish sacramental registers postdate this corpus; exceptional earlier material must not be ruled out across all expanded regions. Sources: https://www.bne.es/es/Micrositios/Guias/Genealogia/busqueda_antepasados/documentacion_eclesiastica/ ; https://scholarworks.wmich.edu/masters_theses/195/ ; https://www.cambridge.org/core/journals/continuity-and-change/article/abs/rural-courts-notaries-and-credit-in-the-county-of-empuries-12901348/80A750A4E0737A2E320C6CB5FE6B8679",
+    "Exact-name searches covered Oriol Guinovart i Balcells, Lorenzo Squarcione, Mireia Castellnou, Dídac Llorca; Universitat de Puig-rodon; Università degli Studi di Roccafluvione; Institut de Recherche Historique de Val-de-Fier; Archivo Histórico del Marquesado de Noli; Archivo Histórico Comarcal/Consejo Comarcal de la Vall de Boira; Agencia de Evaluación Científica de la Generalitat; NOTAR-NET, its dataset, Digital Approaches to Mediterranean Trade and Tinta y Pergamino. No credible exact researcher/institution collision was established for these beyond the separately reported event/provider names. A textbook fictional Dídac Llorca and an inaccurate page calling Francesco Squarcione “Lorenzo” do not establish researcher collisions.",
+    "Searched all five own-publication journal titles: Revue of Computational Diplomatics, Mediterranean Journal of Medieval Economy, Historical Network Analysis Review, Open Data in Historical Studies and Iberian Medieval Studies. No exact journal collision established; all five DOI strings use 10.99999/pb. and metadata agree with the visible list.",
+    "All visible files carry fiction notices and dates no later than September 2026. Dídac’s defence and recruitment remain planned; Mireia is not currently contracted; reproduction restrictions and CC BY-NC data status are explicit. The 2022 dataset paper is earlier than the 2024 final report but is not itself an impossible date.",
+    "RTX 3090 24GB and 64-core AMD EPYC specifications are real and plausible; commercial instrument names are allowed. Sources: https://www.nvidia.com/en-eu/geforce/graphics-cards/30-series/rtx-3090/ ; https://www.amd.com/content/dam/amd/en/documents/epyc-business-docs/product-briefs/211182001-A_en_AMDEPYCProcessorsforVirtualizedInfrastructureWorkloads-Feb2022_pdf.pdf. Tirant is also a real UV computer name; the dossier expressly describes a local server with different specifications, so no false assertion of access to the real UV installation was inferred.",
+    "Earlier automated/maintainer findings were checked against current bytes, not repeated wholesale: date, window, denominator, error-propagation and parish-source repairs already present were recognised."
+  ]
+}

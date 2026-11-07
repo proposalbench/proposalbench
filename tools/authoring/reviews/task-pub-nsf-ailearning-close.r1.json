@@ -1,0 +1,17 @@
+{
+  "kind": "task",
+  "id": "pub-nsf-ailearning-close",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "cv_pi.md, prior_project.md, publications.md, resources_team.md, dossier.yaml",
+      "problem": "The call submission date is September 2027, but the dossier is written from the perspective of early 2025 (e.g., the CV lists teaching only up to Fall 2024, the CRII award is active until August 2025, the annual report ends January 2025, cloud credits expire December 2025, and an open PhD position is to be recruited in Fall 2025). This creates a 2.5-year temporal gap where the PI appears to have done nothing.",
+      "fix": "Shift all dates in the dossier forward by 2 years to align with a 2027 submission. For example, update the PI's appointment to August 2024, the CRII award to September 2025 – August 2027, the report period to end January 2027, teaching to include 2025/2026, and publication years/DOIs to 2023–2027. Update the corresponding facts and `own_publications` in `dossier.yaml`."
+    }
+  ]
+}

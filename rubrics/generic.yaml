@@ -1,0 +1,208 @@
+# Generic checklist items, applied to every task. Each cites pitfall-taxonomy ids
+# (docs/pitfall_taxonomy.md). Phrase every item so that "yes" is the good outcome, and require
+# quotes for verdicts that assert something is present.
+#
+# Roles are mapped to each scheme's sections in rubrics/schemes/<scheme>.yaml.
+
+items:
+  - id: G01
+    component: substance
+    roles: [objectives]
+    taxonomy: [P05]
+    question: Are the project's objectives specific enough that an evaluator could tell, at the end, whether each was achieved?
+    criteria:
+      - {id: a, text: "Each objective states what will be produced or answered (a result, tool, dataset or bounded research question), not only a direction such as 'improve' or 'contribute to'."}
+      - {id: b, text: "Objectives carry measurable targets or explicit success criteria (numbers, thresholds, or for qualitative/theoretical work a stated standard of what counts as answered)."}
+      - {id: c, text: "Each objective is linked to the work packages, aims or activities that deliver it."}
+
+  - id: G02
+    component: substance
+    roles: [state_of_the_art, objectives]
+    taxonomy: [P06, P07]
+    question: Does the proposal position its contribution against the state of the art in the field, i.e. specific prior work by other researchers?
+    criteria:
+      - {id: a, text: "Discusses specific prior studies, methods or results by researchers OTHER than the applicant team, with citations. The applicant's own earlier projects and papers do not count for this criterion.", requires: "external_references >= 1"}
+      - {id: b, text: "States a specific limitation or gap of that prior work."}
+      - {id: c, text: "States what this project does that the prior work did not, in concrete terms."}
+      - {id: d, text: "The reference list contains at least three verified works that are not the applicant's own.", check: "verified_external_references >= 3"}
+
+  - id: G03
+    component: substance
+    roles: [methods]
+    taxonomy: [P08]
+    applies_if: {method_profile: [quantitative, mixed]}
+    question: For the quantitative work, are design, data and analysis described in enough detail for an expert to judge whether it can answer the questions?
+    criteria:
+      - {id: a, text: "Names the study or experimental design (e.g. factorial split-plot, cohort, randomised, quasi-experimental)."}
+      - {id: b, text: "Gives the units and their numbers (sites, plots, participants, samples, replicates)."}
+      - {id: c, text: "Specifies what is measured and how (variables, instruments or protocols, frequency)."}
+      - {id: d, text: "Names the statistical or analytical method and links it to the hypotheses or questions."}
+      - {id: e, text: "Justifies the sample size (power analysis, precision target or explicit rationale)."}
+
+  - id: G04
+    component: substance
+    roles: [methods]
+    taxonomy: [P08]
+    applies_if: {method_profile: [qualitative, mixed]}
+    question: For the qualitative work, are sampling, data collection and analysis described concretely?
+    criteria:
+      - {id: a, text: "States who will be studied and how they are selected (sampling strategy and criteria)."}
+      - {id: b, text: "States how many, or how saturation or sufficiency will be judged."}
+      - {id: c, text: "Describes the data collection method (e.g. interview type, guide topics, observation setting)."}
+      - {id: d, text: "Names the analytic approach (e.g. thematic, framework, grounded theory analysis) and how rigour is ensured (coding procedure, double coding, reflexivity)."}
+
+  - id: G05
+    component: substance
+    roles: [methods]
+    taxonomy: [P08, P09]
+    applies_if: {method_profile: [theoretical]}
+    question: For theoretical or conceptual work, is the approach (framework, sources, line of argument) specific enough to evaluate?
+    yes: Names the framework, the material or sources, and how the argument or model will be built and tested. Quote it.
+    partial: The approach is described in general terms only.
+    no: No identifiable approach.
+
+  - id: G06
+    component: substance
+    roles: [methods, workplan]
+    taxonomy: [P09]
+    question: Does each objective or aim have a stated way of checking whether the work succeeded (success criteria, validation, or a decision point)?
+    yes: Success criteria or validation steps are stated for the main aims. Quote one.
+    partial: Stated for some aims only, or only in general terms.
+    no: Not stated.
+
+  - id: G07
+    component: substance
+    roles: [risks, workplan, methods]
+    taxonomy: [P11]
+    question: Are the main risks to the work identified with specific mitigation or fallback plans?
+    criteria:
+      - {id: a, text: "Identifies at least three risks specific to this project's science or field work (generic management risks such as 'delays' or 'partner leaves' do not count)."}
+      - {id: b, text: "Each identified risk has a concrete mitigation or fallback (not 'close monitoring' or 'regular meetings')."}
+      - {id: c, text: "Risks are tied to the affected work package, task or objective."}
+      - {id: d, text: "Likelihood or severity of the risks is assessed."}
+
+  - id: G08
+    component: substance
+    roles: [workplan]
+    taxonomy: [P10, P15]
+    question: Does the work plan turn the objectives into scheduled activities?
+    criteria:
+      - {id: a, text: "Every objective is served by identifiable work packages, tasks or activities."}
+      - {id: b, text: "Activities have timing (months, years or phases)."}
+      - {id: c, text: "Deliverables or milestones have due dates."}
+      - {id: d, text: "Dependencies or the flow between activities are stated (what feeds what)."}
+
+  - id: G09
+    component: substance
+    roles: [workplan, team]
+    taxonomy: [P10]
+    question: Is the amount of work realistic for the team, resources and duration described?
+    yes: The scope is focused and the effort, staff and duration plausibly match it. Quote the passage that shows effort or staffing.
+    partial: Some parts look over-ambitious for the resources, or resources are not stated for parts of the plan.
+    no: The plan is clearly unrealistic or diffuse for the resources and time.
+
+  - id: G10
+    component: substance
+    roles: [team]
+    taxonomy: [P12]
+    question: Is it clear who does what, and does each key task have someone with the relevant expertise?
+    yes: Tasks are assigned to named people or partners whose stated expertise matches them; any gap is acknowledged and addressed. Quote one assignment.
+    partial: Roles are described but the match between tasks and expertise is unclear for some key tasks.
+    no: No assignment of tasks to people or partners.
+
+  - id: G11
+    component: substance
+    roles: [impact]
+    taxonomy: [P13]
+    question: Is the pathway from results to impact specific?
+    criteria:
+      - {id: a, text: "Names the target users or beneficiaries specifically (not 'stakeholders' or 'society')."}
+      - {id: b, text: "Explains the route by which specific results reach them (uptake mechanism)."}
+      - {id: c, text: "Gives quantified indicators or targets for outcomes or impact."}
+      - {id: d, text: "Gives a time frame for when outcomes or impacts are expected."}
+
+  - id: G12
+    component: substance
+    roles: [impact]
+    taxonomy: [P14]
+    question: Are dissemination, communication and (where relevant) exploitation activities specific to this project's audiences?
+    criteria:
+      - {id: a, text: "Activities are matched to specific audiences (who gets what)."}
+      - {id: b, text: "Names concrete outputs or channels beyond the generic list of conferences, website, social media and open-access papers."}
+      - {id: c, text: "Gives timing or frequency for the main activities."}
+      - {id: d, text: "Sets targets or indicators for dissemination or communication (e.g. number of farmers reached)."}
+
+  - id: G13
+    component: substance
+    taxonomy: [P20]
+    question: Are the proposal's claims about expected results and impact proportionate to the evidence and the size of the project?
+    yes: Claims are qualified and plausible for the scale of the project.
+    partial: Some claims are inflated (e.g. "will transform", "will solve") but the core case is proportionate. Quote one inflated claim.
+    no: The proposal repeatedly promises outcomes far beyond what the work could deliver. Quote examples.
+    evidence: [partial, no]
+
+  - id: G14
+    component: substance
+    taxonomy: [P17, P23]
+    question: Is the proposal written for this call and funder, with its central idea clear and the evaluation criteria addressed visibly?
+    yes: The central idea is stated early and consistently, and the text makes it easy to find how each evaluation criterion is met. Quote the statement of the central idea.
+    partial: The idea is clear but the link to the call's criteria must be inferred, or the text reads as a generic proposal adapted to this call.
+    no: The central idea is unclear or the proposal does not engage with this call.
+
+  - id: G15
+    component: substance
+    roles: [impact, workplan]
+    taxonomy: [P16]
+    question: Does the proposal say what happens after the project (follow-up research, sustainability of outputs, next funding steps)?
+    yes: Concrete plans for continuation or sustainability of results and outputs. Quote them.
+    partial: Mentioned in passing.
+    no: Absent.
+
+  - id: GR1
+    component: grounding
+    taxonomy: [P22]
+    question: Does the proposal use the applicant's prior results and existing resources (as given in the dossier) to show that the work is feasible and well founded?
+    criteria:
+      - {id: a, text: "States at least one specific prior result of the applicant with its actual finding or number (naming the earlier project alone does not count)."}
+      - {id: b, text: "Explicitly connects a prior result to a specific aim, hypothesis, method or design choice of the new project."}
+      - {id: c, text: "Uses at least one existing resource from the dossier (data, sites, cohort, equipment, network or partner) in the plan and says what it will be used for."}
+
+  - id: GR2
+    component: grounding
+    taxonomy: [P22, P12]
+    question: Does the proposal respond to the limitations of the applicant's prior work that the dossier states?
+    criteria:
+      - {id: a, text: "Names at least one limitation or gap of the prior work that the dossier states."}
+      - {id: b, text: "Includes a concrete design element (method, site, partner, measurement or analysis) that addresses that limitation."}
+
+  - id: GR3
+    component: grounding
+    taxonomy: [P12]
+    question: Are the team's and partners' stated capabilities matched to their roles?
+    criteria:
+      - {id: a, text: "Key tasks are assigned to named team members or partners."}
+      - {id: b, text: "The assignments are justified by the expertise, track record or resources the dossier attributes to them."}
+      - {id: c, text: "Any capability the dossier shows the team lacks for the planned work is acknowledged with a way to fill it (hire, partner, training, collaborator); answer na if the dossier shows no such gap."}
+
+  - id: PC1
+    component: substance
+    taxonomy: [P04, P10, P15]
+    question: Does the plan add up? (Deterministic checks on the fact sheet the panel extracts; checks the sheet cannot support are left out.)
+    criteria:
+      - {id: a, text: "Project duration within the call's maximum.", check: "plan_duration_over_max_ok >= 1"}
+      - {id: b, text: "No work package, deliverable or milestone after the end of the project.", check: "plan_activity_after_end_ok >= 1"}
+      - {id: c, text: "No work package starts after it ends.", check: "plan_wp_month_order_ok >= 1"}
+      - {id: d, text: "Every referenced work package is defined.", check: "plan_undefined_wp_ok >= 1"}
+      - {id: e, text: "Requested budget within the call's cap.", check: "plan_budget_over_cap_ok >= 1"}
+      - {id: f, text: "Requested budget above the call's minimum.", check: "plan_budget_below_minimum_ok >= 1"}
+      - {id: g, text: "Total budget stated consistently.", check: "plan_budget_inconsistent_ok >= 1"}
+      - {id: h, text: "Person-month total matches the work-package figures.", check: "plan_person_months_mismatch_ok >= 1"}
+      - {id: i, text: "Consortium meets the call's minimum entities and countries.", check: "plan_consortium_below_minimum_ok >= 1"}
+
+  - id: EV1
+    component: substance
+    taxonomy: [P06, P08]
+    question: Does the proposal rest on an evidence base of external literature? (Deterministic; thresholds set on the anchor proposals, see docs/decision-log.md.)
+    criteria:
+      - {id: a, text: "At least one external (non-applicant) reference cited in the text per 1,000 counted words (at most three references per citing sentence count).", check: "external_references_per_1k_words >= 1"}
+      - {id: b, text: "At least five verified external references cited in the text (at most three per citing sentence count).", check: "verified_external_references >= 5"}

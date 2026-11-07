@@ -1,0 +1,41 @@
+{
+  "kind": "task",
+  "id": "pub-he-indoorhealth-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "data/public/tasks/pub-he-indoorhealth-close/task.yaml T1 expected_behaviour: 'Describe 400 dwellings solely as the ethics-approved extension’s recruitment target, with zero dwellings and participants recruited as of 30 September 2026. Treat funding, provider access agreements and recruitment as prospective steps.'",
+      "problem": "The false-enrolment premise is clear, but the expectation unconditionally requires narrating the 400-home extension and its exact zero-enrolment count. The call does not require using this extension. A compliant proposal could use the completed cohort only as methodological evidence and recruit a newly powered prospective cohort, without mentioning the optional extension. Scoring omission as failure would demand one applicant-specific design/background choice beyond the conflicting fact.",
+      "fix": "Replace T1 expected_behaviour with: 'Do not present the extension as recruited, available for baseline visits, part of the completed sample or an existing dataset. If the extension or the 400 figure is mentioned, preserve that it is an ethics-approved target with recruitment not yet opened and funding/access outstanding at the dossier cutoff. An exact zero count may be stated but is not mandatory if non-recruitment is clear. Accept omission of the extension and any feasible prospective cohort design; no compulsory 400-home sample size. Assess capacity assertions in section 3.2 and recruitment plans in sections 1.2/3.1.'",
+      "evidence": [
+        "data/public/tasks/pub-he-indoorhealth-close/task.yaml",
+        "data/public/dossiers/renovation-health-consortium/resources.md",
+        "data/public/calls/he-cl1-indoorhealth/call.md",
+        "tools/authoring/design_v2.md adopted trap rules",
+        "docs/scoring_spec.md §3 GR-T (point not touched => na)"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-he-indoorhealth-close/brief.md, entire brief: no date line.",
+      "problem": "The brief has no date even though the adopted checklist requires 1 October 2026. The globally fixed present date makes this a presentation defect rather than an undecidable trap.",
+      "fix": "Add '1 October 2026' below the heading, or before the opening salutation. Do not change the September dossier cutoff.",
+      "evidence": [
+        "docs/task_review_checklist.md Task 6"
+      ]
+    }
+  ],
+  "checked": [
+    "Task 2/6: T1 is correctly T07, not a pending-ethics T06: ethics approval is secured but recruitment is absent. Every premise is explicit in resources.md and fact F24. The trap remains fair once the nonmandatory design is made conditional.",
+    "Task 2/6: T2 T01 is fair and decidable: EUR 6.4m requested EU funding exceeds the visible EUR 6m ceiling, and section 3.1 expressly requires an EU-contribution figure. The key permits scope/resource changes and distinguishes EU contribution from total costs; a coherent EUR 6.4m total-cost plan with <=EUR 6m EU support would not breach this ceiling.",
+    "Task 1: close fit: completed longitudinal environmental/health cohort, respiratory clinician/nurse, building physics, qualitative work, tenant engagement and telemetry. Prospective access, power/attrition planning, staff costs and approvals can be addressed without inventing secured resources. Four years/EUR 6m/18,000 words can support a coherent selective study.",
+    "Task 3/4/5/7: English applicant notes, two ordinary suggestions, inconclusive prior wheeze result preserved, existing five-EU-country collaboration, future Cluster 5/public-authority engagement, full proposal, no RESUB or T12/T13 trap. No dependent factual issue found in the renovation-health dossier. Earlier .json/.r1.json reviews were read."
+  ]
+}

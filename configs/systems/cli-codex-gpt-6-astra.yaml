@@ -1,0 +1,4 @@
+id: cli-codex-gpt-6-astra
+kind: cli
+# Codex CLI (OpenAI) driving GPT-6 astra headless; a product with its own prompt and tools.
+cli: {tool: codex, model: gpt-6-astra, effort: high, timeout_s: 3600, isolation: docker}

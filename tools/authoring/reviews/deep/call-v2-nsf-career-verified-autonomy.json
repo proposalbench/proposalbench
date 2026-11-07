@@ -1,0 +1,57 @@
+{
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "kind": "call",
+  "id": "v2-nsf-career-verified-autonomy",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "data/public/calls/v2-nsf-career-verified-autonomy/call.md, award conditions: 'USD 400,000, rising to USD 500,000 for BIO, ENG or OPP'; data/public/calls/v2-nsf-career-verified-autonomy/call.yaml: 'min_budget: 400000'.",
+      "problem": "The structured eligibility key has no directorate-dependent minimum, although the visible call allows engineering proposals. A USD 450,000 ENG proposal satisfies the encoded floor and violates the visible one. The skeleton's author note explains the simplification but does not make the two requirements equivalent.",
+      "fix": "Make the fictional floor uniformly USD 500,000: set eligibility.min_budget to 500000 and add to the visible award conditions, 'For this fictional call, the minimum total request is USD 500,000 for all proposals; this is an additional restriction of this call.' Retain the accurately described real CAREER minima as background. Alternatively, explicitly restrict both files to CISE and retain a uniform USD 400,000 floor. Update any scope sentence saying the fictional minimum depends on the reviewing directorate to match the chosen uniform floor or CISE-only restriction.",
+      "evidence": [
+        "data/public/calls/v2-nsf-career-verified-autonomy/call.md",
+        "data/public/calls/v2-nsf-career-verified-autonomy/call.yaml",
+        "tools/authoring/schemes/nsf_career.yaml",
+        "https://www.nsf.gov/funding/opportunities/career-faculty-early-career-development-program/nsf22-586/solicitation"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "data/public/calls/v2-nsf-career-verified-autonomy/call.md, Expected outcomes: 'A project need not reach every outcome below. Each proposal should state which outcomes it targets'; data/public/calls/v2-nsf-career-verified-autonomy/call.yaml, EO1–EO6 are unconditional.",
+      "problem": "Applicants are explicitly allowed to select outcomes, but the answer key independently tests all six. The item generator uses the individual YAML texts, which do not carry this permission. A proposal following the visible choice can therefore lose responsiveness credit for an outcome it was allowed not to target.",
+      "fix": "Replace those two sentences with 'Proposals must address all six outcomes below, with the scale of each contribution proportionate to the project.' This aligns the visible call with the existing key and remains achievable through theory or security-led work. If optional outcomes are intended, instead put the conditional applicability explicitly into each affected YAML and visible item.",
+      "evidence": [
+        "data/public/calls/v2-nsf-career-verified-autonomy/call.md",
+        "data/public/calls/v2-nsf-career-verified-autonomy/call.yaml",
+        "docs/scoring_spec.md",
+        "src/proposalbench/judge/items.py"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "data/public/calls/v2-nsf-career-verified-autonomy/call.yaml ME5: 'Explain how achievement of the educational objectives will be assessed'; SC8: 'Assess student learning against those objectives using named instruments at stated times'; ME8: 'For each educational objective, name the learners, the assessment instrument, when data are collected, and the comparison or baseline'.",
+      "problem": "The educational assessment design is counted in three separately scored items. ME5 is wholly subsumed by ME8, and SC8 repeats the instrument/timing requirement before adding revision. This creates avoidable extra weight for the same evidence.",
+      "fix": "Keep ME8 as the single assessment-design requirement; remove ME5 from the call's scored item list and matching visible bullets. Replace SC8 in both files with 'Use interim assessment findings at stated decision points to revise the educational activities during the award.' Keep broader research–education integration separate.",
+      "evidence": [
+        "data/public/calls/v2-nsf-career-verified-autonomy/call.md",
+        "data/public/calls/v2-nsf-career-verified-autonomy/call.yaml",
+        "docs/task_review_checklist.md",
+        "docs/scoring_spec.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Call 1: CAREER eligibility, one PI/no co-PIs, appointment and competition rules, five-year term, minima and departmental letter checked against https://www.nsf.gov/funding/opportunities/career-faculty-early-career-development-program/nsf22-586/solicitation.",
+    "Call 1: Summary/Description/prior-support page limits, conditional prior-support contents, URL/appendix rules checked against https://www.nsf.gov/policies/pappg/24-1/ch-2-proposal-preparation; review criteria checked against https://www.nsf.gov/policies/pappg/24-1/ch-3-proposal-processing-review.",
+    "Current NSF policy checked at https://www.nsf.gov/policies/pappg and its linked Supplements 1 and 2; NSF 24-1 remains the current version. Fictional ceiling/deadline and word conversion are labelled.",
+    "Call 2–4: compared every EO/SC/EX/ME text literally after whitespace normalization between call.md and call.yaml; all item texts match. Checked 600/9000/3000 section caps, 9600 total, zero tolerance and 60-month bounds.",
+    "Call 4–6: topic is plausible for fundamental computing/robotics and education; requirements fit the narrative allowance. No dossier references or trap instructions in the call. The canary is a repository provenance marker, not an answer-key disclosure."
+  ]
+}

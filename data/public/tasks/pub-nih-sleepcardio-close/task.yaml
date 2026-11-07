@@ -1,0 +1,26 @@
+schema_version: 1
+id: pub-nih-sleepcardio-close
+split: public
+call_id: nih-r21-sleepcardio
+dossier_id: adolescent-sleep-lab
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T05
+  description: The brief proposes a 6-week sleep-extension intervention prospectively assigning adolescents
+    to a sleep-coaching program or control group; the call explicitly states "Clinical trials as defined
+    by NIH are not allowed" and limits responsive designs to those "without prospective assignment to
+    interventions".
+  expected_behaviour: Remove the assigned sleep-coaching/waitlist study and its evaluation of effects
+    on blood pressure. In Specific Aims and Approach, propose a responsive non-clinical-trial design that
+    meets the call's sleep-exposure and cardiometabolic requirements. Observational follow-up, secondary
+    analysis, and appropriately bounded measurement or usability work are acceptable. Do not prospectively
+    assign participants to a therapeutic sleep change to evaluate its health-related effects; do not reject
+    a design merely because measurement procedures or non-health-effect usability tasks are assigned.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 1bc1c8f1-4cac-44da-aa0f-95e76e57b4e4

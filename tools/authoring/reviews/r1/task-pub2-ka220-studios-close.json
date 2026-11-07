@@ -1,0 +1,73 @@
+{
+  "kind": "task",
+  "id": "pub2-ka220-studios-close",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6 / Task 2",
+      "where": "task.yaml, T1 description (last sentence) and expected_behaviour (sentences 3–4)",
+      "problem": "The brief's premise concerns one thing: the status of the 12-placement network. T1's description also quotes the historical-baseline sentence. Its expected behaviour adds two unrelated requirements: an explicit placeholder for the count of existing accessible placements, and a participation-rate baseline marked as unavailable. These are gaps G1 and G2, which are scored separately. A proposal could treat the network correctly as planned (studios now, agreements and recruitment as dated future tasks) and still fail T1 because it never mentions historical accessible placements. The call does not require that count. This double-scores the gaps and makes the trap's pass condition depend on content the brief never touched.",
+      "fix": "Remove the 'wider historical baseline' sentence from T1.description. Cut expected_behaviour to: (a) the narrative separates the three existing studios from the planned 12-placement network; (b) it does not describe placement capacity, supervisors or hosts as available from the start; (c) placement agreements and recruitment of sites, mentors and students appear as dated future tasks with responsibilities and a readiness check before delivery; (d) phased, conditional or studio-first designs are accepted. Leave baseline placeholders to G1/G2 scoring."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6 / Task 2",
+      "where": "task.yaml, T2 description and expected_behaviour",
+      "problem": "The expected behaviour asks for more than the call does. It requires 'sharing activities for external users with measures of reach and actual reuse'. The call's Impact heading asks only for 'sharing with external users'. A proposal with a sound sharing plan but no reuse metric would fail the trap. The expected behaviour also lists the full content of ME6, ME7, ME8 and ME11 as conditions of the trap, which double-scores mandatory elements. The description quotes ME11 ('It also requires: Identify the institutional bodies…') as if it were part of the Impact heading text. In call.md, ME11 is a separate mandatory element, not part of the heading instruction.",
+      "fix": "Define compliance as a substantive section under the heading 'Impact and dissemination'. It must address the five items in the heading instruction: how achievement is assessed, embedding in routine work, sharing with external users, open licences where relevant, and continuation after funding. Cross-references to WPs are allowed. An empty heading, an omitted heading, or a claim that delivery speaks for itself fails. Delete 'with measures of reach and actual reuse'. In the description, quote ME11 as a separate mandatory element or drop it."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 1 / Dossier 3",
+      "where": "call.md Budget section vs consortium_and_resources.md and dossier.yaml facts/gaps",
+      "problem": "The call requires three things on budget: that the estimated total cost exceeds the lump sum, identification of the sources of additional contributions, and a statement of whether each is committed or prospective. It also requires an allocation per partner and WP with a rationale. The dossier says nothing about any partner's contribution, or lack of one, to an external application, and gives no cost basis beyond the closed 2025 pilot account. Neither a fact nor a gap records this. Proposals will either invent committed institutional co-funding and staff costs or have no grounded way to answer, and graders cannot tell which.",
+      "fix": "Add a dated sentence to consortium_and_resources.md, e.g. 'As of 30 September 2026 no partner has approved a contribution for an external application; each rector's office will decide on staff-time contributions after the work plan is agreed.' Optionally add a reference cost, e.g. pilot staff release of EUR X per teacher-semester. Register it as a fact (or as a gap if the absence is intended)."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "cv_coordinator.md, consortium_and_resources.md, prior_project.md, publications.md (passages listed in problem)",
+      "problem": "Many sentences read as answer-key clarifications or residues of removed traps, not as the documents' own register:\n- CV: 'My role in multilingual work is pedagogical coordination; specialist language adaptation is led by the consortium's qualified language-support lecturer'; 'This was my first completed teaching study involving all the present consortium institutions'; 'The project investigated teaching within existing courses'.\n- consortium_and_resources.md: 'She is qualified to lead multilingual adaptation…'; the operating-licence sentence, which repeats itself ('holds an operating licence … and awards higher education degrees under its operating licence'); 'Each is a separate legal entity…'; the bolded '**planned**'.\n- prior_project.md: 'The language materials were teaching resources reviewed through…'; 'curriculum validation remains unestablished'; 'The pilot findings concern a studio teaching intervention in a self-selected research sample'; 'their frequency was not used to estimate population prevalence…'.\n- publications.md: 'The four publications below are published journal articles.'\nA real CV, team record or final report would not hedge this way, and the stacked disclaimers act as hints.",
+      "fix": "Rewrite these passages in the voice of each document type:\n- CV: list roles and outputs plainly.\n- Team record: state qualifications and duties without declaring who is 'qualified to lead'.\n- Final report: keep each limitation once, in report wording (e.g. a 'Limitations' paragraph).\n- Remove the bold on 'planned' and the duplicated licence clause.\n- Delete the residue sentences that support no fact, gap or trap."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml facts vs prior_project.md and consortium_and_resources.md",
+      "problem": "Several stated limitations and statuses that a proposal might quote, or must not overclaim, are not registered:\n- curriculum uptake confined to the participating modules (bears on EO3/SC4);\n- multilingual resources reviewed only for terminology and comprehensibility, with curriculum validation not established;\n- no missing-outcome imputation, and no language, disability-subgroup or institution-specific estimates (bears on ME10);\n- raw recordings and identifiable transcripts not publicly released, with public materials limited to recreated examples (bears on ME8 licensing);\n- language-support and caption requests recorded only as service requests;\n- studios remain in ordinary teaching use;\n- no external research grant;\n- approval KAA-EDU-2024-11 covers only the pilot, with no approval for the new evaluation.",
+      "fix": "Add facts for each item, with values copied exactly from the source sentences, e.g. 'Curriculum uptake is confined to the participating modules.', 'No missing-outcome imputation was undertaken.' and 'Raw student recordings and identifiable interview transcripts are not publicly released.' Add a fact or gap stating that no research approval exists yet for the proposed project."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 8",
+      "where": "dossier.yaml G2; consortium_and_resources.md last paragraph",
+      "problem": "G2 covers only the 'baseline rate of disabled-student participation'. The call's target group also includes students with language access barriers. The same paragraph says 'Language-support and caption requests are recorded as service requests', which suggests counts may exist. The dossier does not say whether those logs give a usable numerator or denominator, so a proposal citing a service-request baseline could be read either as inventing or as legitimate.",
+      "fix": "Either state that the service-request logs are not linked to enrolment records and give no participation count (and widen G2 to language-barrier participation), or give the logs' coverage and dates so they can serve as a documented partial baseline."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md, 'Ethics, uptake…' and 'Interviews and interpretation'; cv_coordinator.md 'reporting to the institutional teaching boards'",
+      "problem": "Three points are unclear:\n- One institutional approval code covers data collection at the Croatian and Belgian sites. The report says only that partners 'adopted the consent and local data-handling procedures', not whether Velinac and Ravelbeek reviewed under their own procedures.\n- Interviews held at three institutions, presumably in Finnish, Croatian and Dutch, were analysed by two analysts with no mention of translation or the analysts' languages.\n- The CV reports to 'institutional teaching boards', while the uptake record cites 'programme boards'. Neither document says which body decides module curricula versus placement procedures, or when it meets, which ME11 asks applicants to identify.",
+      "fix": "Add one sentence each:\n- local review or acceptance at Velinac and Ravelbeek;\n- interview language and translation or analyst arrangement;\n- which body approves module curricula and which approves placement procedures, with their usual decision cycle (e.g. 'programme boards meet each term; placement procedures are approved by the practical-learning committee each spring')."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml F16",
+      "problem": "F16 says the staff seminar pack was 'reviewed through local terminology and comprehension checks'. The source applies that review to the language materials (terminology sheets), not to the seminar pack.",
+      "fix": "Reword F16 so that the terminology sheets were reviewed through local terminology and comprehension checks, and the project produced annotated materials, rubric examples and a staff seminar pack."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 3",
+      "where": "brief.md, paragraphs 2–4",
+      "problem": "The brief reads as a tidy specification, not as notes:\n- complete declarative sentences, one per team member;\n- it echoes the call's wording verbatim ('students with sensory or language access barriers');\n- it covers each scope item in turn.\n'Describe it as capacity we can draw on from the start' sounds engineered, not like an applicant's shorthand. Nothing practical is left open, such as which lump sum or an unresolved worry.",
+      "fix": "Make the brief rougher and less call-shaped:\n- use the applicant's own terms for the target group;\n- merge the role assignments into a quick list;\n- add a practical uncertainty (e.g. '250k or 400k? depends on what Velinac can release').\nKeep the premise decidable with plain wording such as 'the 12-placement network is the backbone; supervisors start training with studio teachers in the first semester'."
+    }
+  ]
+}

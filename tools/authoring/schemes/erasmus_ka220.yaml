@@ -1,0 +1,184 @@
+name: erasmus_ka220
+scheme: erasmus_ka220
+language: en
+topic_code_prefix: PB-ERASMUS-KA220
+bottom_up: false
+# Programme rules: discrete lump sums and the 12–36 month duration range.
+fixed_values_in_text:
+  max_budget: [120000, 250000, 400000]
+  duration_months_max: [36]
+proposal_type: full
+length_contract:
+  max_words: 6000
+  enforcement: inadmissible
+  tolerance: 0.0
+  exempt:
+  - title
+  - references
+  page_limit: 12
+  words_per_page: 500
+  source_note: 'Verified 2026-10-31. https://erasmus-plus.ec.europa.eu/programme-guide/part-b/key-action-2/cooperation-partnerships;
+    https://erasmus-plus.ec.europa.eu/sites/default/files/2025-11/Call%202026%20Cooperation%20partnerships%20in%20higher%20education%20%28KA220-HED%29_watermark.pdf.
+    Benchmark conversion: 12 pages x 500 words/page = 6000 words; prose estimate, not a funder word-count
+    rule. Tables and captions count. The 2026 online form has no verified overall narrative page limit;
+    12 pages is an INVENTED benchmark allowance, not its 17-page blank-form length or a conversion of
+    character fields.'
+required_sections:
+- id: summary
+  title: Project summary
+- id: budget
+  title: Budget
+- id: organisations
+  title: Participating organisations
+- id: relevance
+  title: Relevance of the project
+- id: partnership
+  title: Partnership and cooperation arrangements
+- id: impact
+  title: Impact and dissemination
+- id: implementation
+  title: Project design and implementation
+- id: management
+  title: 'WP1: Project management'
+  parent: implementation
+- id: activities
+  title: Other work packages and activities
+  parent: implementation
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 120000
+  max_budget: 400000
+  duration_months_min: 12
+  duration_months_max: 36
+  consortium:
+    min_entities: 3
+    min_countries: 3
+    notes: Three organisations from three EU Member States or third countries associated to Erasmus+.
+      Coordinator based in an EU Member State or associated country and legally established for at least two years at the deadline; participating HEIs in these countries hold a valid ECHE.
+      Non-associated partners cannot satisfy the minimum.
+fixed_items:
+  expected_outcomes: []
+  scope: []
+  exclusions:
+  - id: EX1
+    text: Subcontracting cannot cover core activities on which the action objectives directly depend.
+  mandatory_elements:
+  - id: ME1
+    text: 'State the selected lump sum: EUR 120,000, EUR 250,000 or EUR 400,000.'
+  - id: ME2
+    text: Provide the allocation of the selected lump sum by work package and partner.
+  - id: ME3
+    text: Describe measures that make the planned activities accessible to the target participants.
+  - id: ME4
+    text: Describe environmental sustainability measures for the planned activities.
+  - id: ME5
+    text: Explain how digital tools support cooperation between the participating organisations.
+  - id: ME6
+    text: Define qualitative and quantitative indicators for assessing the work-package objectives.
+  - id: ME7
+    text: Explain how partners will sustain the project results after funding ends.
+  - id: ME8
+    text: Where applicable, specify open licences for the materials produced, without disproportionate
+      restrictions on reuse.
+sources:
+- url: https://erasmus-plus.ec.europa.eu/programme-guide/part-b/key-action-2/cooperation-partnerships
+  verified: '2026-10-31'
+- url: https://erasmus-plus.ec.europa.eu/sites/default/files/2025-11/Call%202026%20Cooperation%20partnerships%20in%20higher%20education%20%28KA220-HED%29_watermark.pdf
+  verified: '2026-10-31'
+author_notes: |
+  MEs cover eight distinct narrative requirements. Duration, consortium, coordinator establishment
+  and ECHE are eligibility rules. Priority/needs analysis remains in Relevance; co-financing and
+  the management cap remain explicit in Budget, without a bundled checklist item.
+  eligibility_bounds:
+    max_budget: {min: 400000, max: 400000}
+    duration_months_max: {min: 36, max: 36}
+  Sources: Programme Guide 2026 Cooperation Partnerships and KA220-HED form (17-page blank template, not a page limit). Narrative ids consolidate fields rather than copying the questionnaire. Preserve the three discrete lump sums in ME1; eligibility only encodes their envelope. The management limit, co-financing and ECHE rules are official. The 12-page allowance and strict enforcement are invented. Do not claim a current open 2026 call. A higher-education research topic must produce education/cooperation outcomes rather than only a research publication.
+  Preserve all fixed items and section ids. Topic slots contain merged fixed and topic items,
+  using unused EO/SC/EX/ME ids. Each item must be a single narrative-visible requirement.
+  Put eligibility and submission rules in eligibility prose and consortium notes, not MEs.
+  Use the stated fictional deadline 15 September 2027 where a deadline is needed; do not imply
+  an actual open call. Preserve proposal_type in call.yaml; task.type is separate metadata.
+  Rights: independently paraphrased public policy; no copied official narrative or logos.
+  Register source attribution when integrating calls; this skeleton does not update data/.
+call_md: |
+  # {{title}} — {{topic_code}}
+
+  > Fictional ProposalBench KA220-HED partnership topic, adapted from the Erasmus+ Programme Guide 2026 and the 2026 application form. Theme, deadline and narrative word contract are invented.
+
+  ## Purpose and eligibility
+
+  Support transnational cooperation that improves higher-education practices and institutional capacity. Choose one of the three fixed lump sums and 12–36 months. At least three organisations from three EU Member States or associated countries are required. Public and private organisations active in education or related sectors may participate; the coordinator must be based in an EU Member State or associated country and legally established for at least two years at the deadline. Participating HEIs in programme countries require ECHE. Organisations from eligible non-associated regions 1–3 (excluding Belarus) can be additional partners only when they bring essential added value, cannot coordinate, and do not satisfy the minimum. Associated partners receive no grant and do not substitute for the minimum beneficiaries. A consortium submits once to one agency per deadline. Apply through the coordinator's National Agency in this National Agency HED variant. The fictional deadline is 15 September 2027.
+
+  {{header_table}}
+
+  ## Expected outcomes
+
+  {{expected_outcomes_intro}}
+
+  {{expected_outcomes}}
+
+  ## Scope
+
+  {{scope_intro}}
+
+  {{scope}}
+
+  ## Exclusions
+
+  {{exclusions}}
+
+  ## Specific conditions and mandatory elements
+
+  {{specific_conditions}}
+
+  ## Required narrative
+
+  ### Project summary
+  Summarise objectives, activities and results for a general audience.
+
+  ### Budget
+  State the selected lump sum and its allocation per partner and work package. Intermediate grant amounts are not available. Project management may receive at most 20 percent of the grant. Explain co-financing: the estimated total project cost must exceed the requested lump sum. Identify the sources of additional contributions and whether they are committed or prospective.
+
+  ### Participating organisations
+  Identify the coordinator and partners, countries, legal status, relevant experience and ECHE status where applicable.
+
+  ### Relevance of the project
+  Name at least one horizontal Erasmus+ priority or at least one higher-education priority of the Programme Guide that the project addresses, and connect it to the needs and target groups; explain innovation, complementarity and European added value.
+
+  ### Partnership and cooperation arrangements
+  Explain why the partners are needed, task allocation, coordination, decisions and conflict resolution. Justify additional non-associated partners where relevant.
+
+  ### Impact and dissemination
+  Specify how achievement will be assessed, how partners will embed results in routine work, sharing with external users, open licences where relevant, and continuation after funding.
+
+  ### Project design and implementation
+
+  #### WP1: Project management
+  Describe monitoring, risk handling, financial control and the management allocation (at most 20%).
+
+  #### Other work packages and activities
+  For each work package describe objectives, results, activities, dates, participants, responsible partners, qualitative and quantitative indicators, and the rationale for its allocation. Describe inclusion, digital and green practices. For learning activities explain recognition of learning outcomes. The repeated WP2+ fields are consolidated under this narrative heading. Administrative context, declarations and annex uploads are outside this narrative.
+
+  ## Award criteria
+
+  Relevance: 25 points; quality of design and implementation: 30; quality of partnership and cooperation: 20; impact: 25. Funding consideration requires at least 70/100 and minima of 13, 15, 10 and 13 respectively. Ties prioritise relevance, then impact.
+
+  ## Length contract
+
+  The application is an online form, not a fixed-page narrative. For this benchmark only, allow 12 notional pages at 500 words/page = {{max_words}} words. This invented allowance consolidates the narrative fields; it is not an official page or character limit. Title and references are exempt; tables and captions count. Exceeding the ceiling is inadmissible with zero tolerance (a benchmark enforcement choice).
+
+  ## Sources
+
+  Verified 2026-10-31; policy paraphrases, not an official funding notice.
+  - https://erasmus-plus.ec.europa.eu/programme-guide/part-b/key-action-2/cooperation-partnerships
+  - https://erasmus-plus.ec.europa.eu/sites/default/files/2025-11/Call%202026%20Cooperation%20partnerships%20in%20higher%20education%20%28KA220-HED%29_watermark.pdf
+
+  <!-- {{canary}} -->
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+  notes: Official rules checked on 2026-10-31; fictional adaptations identified. No human review claimed.
+render_fixed_conditions: true

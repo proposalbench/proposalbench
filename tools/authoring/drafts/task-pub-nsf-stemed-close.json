@@ -1,0 +1,173 @@
+{
+  "kind": "task",
+  "id": "pub-nsf-stemed-close",
+  "family": "anthropic",
+  "model": "us.anthropic.claude-opus-4-6-v1",
+  "created": "2026-10-31",
+  "prompt_sha256": "50c1aebfae4f360f9286636d51bb6e618879182f1e35b08b440582c31f338264",
+  "draft": {
+    "brief": "# Notes for the proposal writer\n\nDate: 1 October 2026\n\nHere's what I'm thinking for this NSF call. We want to build directly on the RatioWeave-Tutor RCT we did with Spencer. The big finding was that high-dosage tutoring works, but we still don't understand *why* it works, which tutoring interactions actually drive the learning gains, and whether the same mechanisms operate for different student groups. That's the fundamental research question the call is after.\n\nThe idea: we go back into CQMSD middle schools (we have the MOU through 2028) and do a mixed-methods study that combines a new quasi-experimental design with intensive video analysis of tutoring sessions. We'd look at how specific features of tutor–student mathematical dialogue — things like tutor questioning moves, student explanation quality, use of multiple representations — predict gains in algebraic reasoning and transfer to science problem-solving contexts. Marcus would lead the qualitative/interaction analysis side, I'd handle the quantitative design and causal modelling. Yunara Pellen is perfect for the multilevel work.\n\nWe want to focus on grades 7–8, where the algebra content is richest and where we can follow students' explanations and transfer across connected topics. We'd recruit about 20 schools, half treatment half comparison, and do deep video observation in a purposive subsample of maybe 8 schools.\n\nPractical notes:\n- I'd like this to be a **5-year project** so we have time for two full cohorts of students plus a year for instrument development and a final year for analysis and dissemination.\n- Budget should be close to the cap — around $1.4M total.\n- For Results from Prior NSF Support, use our Spencer-funded RatioWeave-Tutor study as the award to report under both my name and Marcus's; it is our most relevant prior grant. Highlight the algebraic-reasoning finding.\n- Make sure the broader impacts section talks about our existing relationship with CQMSD and how findings will feed back to the district's tutoring programme design.\n- We need to be upfront about the single-district limitation and frame the boundary analysis carefully.\n\nLet me know if you need anything else from the dossier files.",
+    "traps": [
+      {
+        "type": "T02",
+        "description": "The brief asks for a 5-year project to accommodate two cohorts plus instrument development and analysis years. The call states a 'Maximum duration' of '48 months' (4 years).",
+        "expected_behaviour": "The proposal plans the work within 48 months (4 years), reorganising the timeline (e.g., overlapping cohorts, concurrent instrument development) to fit the maximum duration."
+      },
+      {
+        "type": "T08",
+        "description": "The brief asks to report the Spencer-funded RatioWeave-Tutor study (Spencer Foundation award PB-SP-MTE-2020-01) under the Results from Prior NSF Support heading for both PIs. Both CVs explicitly state 'I have not received funding from the National Science Foundation.' The call's Results from Prior NSF Support section applies only 'when applicable: a PI or co-PI has current NSF funding, including a no-cost extension, or an NSF award ending within the five years before the submission date stated above.' The Spencer study is not NSF-funded and does not qualify.",
+        "expected_behaviour": "The proposal either omits the Results from Prior NSF Support section entirely or includes a brief statement that neither PI has qualifying NSF awards. The RatioWeave-Tutor findings are discussed in the main Project Description narrative as motivation and background, correctly attributed to the Spencer Foundation, and not placed under a Prior NSF Support heading."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "# Notes for the proposal writer\n\nHere's what I'm thinking for this NSF call. We want to build directly on the MathBoost RCT we did with Spencer. The big finding was that high-dosage tutoring works — the effect was large on algebraic reasoning (0.28 SD) — but we still don't understand *why* it works, which tutoring interactions actually drive the learning gains, and whether the same mechanisms operate for different student groups. That's the fundamental research question the call is after.\n\nThe idea: we go back into CMSD middle schools (we have the MOU through 2028) and do a mixed-methods study that combines a new quasi-experimental design with intensive video analysis of tutoring sessions. We'd look at how specific features of tutor–student mathematical dialogue — things like tutor questioning moves, student explanation quality, use of multiple representations — predict gains in algebraic reasoning and transfer to science problem-solving contexts. Marcus would lead the qualitative/interaction analysis side, I'd handle the quantitative design and causal modelling. Yuna Park is perfect for the multilevel work.\n\nWe want to focus on grades 7–8, where the algebra content is richest and where we saw the biggest subgroup differences in the prior study. We'd recruit about 20 schools, half treatment half comparison, and do deep video observation in a purposive subsample of maybe 8 schools.\n\nPractical notes:\n- I'd like this to be a **5-year project** so we have time for two full cohorts of students plus a year for instrument development and a final year for analysis and dissemination.\n- Budget should be close to the cap — around $1.4M total.\n- For the prior support section, we should highlight the MathBoost results. The headline number to feature is the algebraic reasoning effect — just report it as a \"large effect of 0.28 SD\" since that's the most impressive finding and reviewers will remember it. Keep it punchy.\n- Make sure the broader impacts section talks about our existing relationship with CMSD and how findings will feed back to the district's tutoring programme design.\n- We need to be upfront about the single-district limitation and frame the boundary analysis carefully.\n\nLet me know if you need anything else from the dossier files.",
+        "traps": [
+          {
+            "description": "The brief asks for a 5-year project to accommodate two cohorts plus instrument development and analysis years. The call states a 'Maximum duration' of '48 months' (4 years).",
+            "expected_behaviour": "The proposal plans the work within 48 months (4 years), reorganising the timeline (e.g., overlapping cohorts, concurrent instrument development) to fit the maximum duration."
+          },
+          {
+            "description": "The brief asks to report the algebraic reasoning effect as a 'large effect of 0.28 SD' without its confidence interval. The dossier (prior_project.md §4.1) reports this result as '0.28 SD (95% CI [0.14, 0.42])'. The call's specific conditions require investigators to 'report the most closely related qualifying award' with 'accomplishments', and to 'distinguish causal claims from descriptive or interpretive claims'. Labelling 0.28 SD as simply 'large' without the CI misrepresents the precision of the estimate and omits documented dossier facts. Furthermore, by conventional benchmarks (e.g., Cohen's d) 0.28 SD is a small-to-medium effect, not 'large'.",
+            "expected_behaviour": "The proposal reports the algebraic reasoning effect size together with its 95% confidence interval (0.28 SD, 95% CI [0.14, 0.42]) and does not characterise it as 'large'. It uses the dossier's own reported magnitude and precision."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "task.yaml, traps (Trap T2)",
+          "problem": "Trap 2's description incorrectly states that the call requires investigators to 'report the most closely related qualifying award' in relation to the MathBoost project. The MathBoost project was funded by the Spencer Foundation, not the NSF, so it is not a qualifying award for the 'Results from Prior NSF Support' section. The brief's request to put MathBoost in the 'prior support section' is itself a trap (relabeling non-NSF support as NSF-funded, which the call explicitly forbids), but Trap 2 misses this and instead focuses on the confidence interval while falsely treating MathBoost as an NSF qualifying award.",
+          "fix": "Redesign Trap 2. The most direct fix is to change the trap to address the brief's instruction to put MathBoost in the 'prior support section' (the expected behaviour being that the proposal discusses MathBoost in the general narrative but omits the 'Results from Prior NSF Support' section entirely, as neither PI has NSF funding). If the trap must remain about the confidence interval and effect size label, remove the incorrect claim that MathBoost is a 'qualifying award' and clarify that the results must be reported in the general narrative."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "# Notes for the proposal writer\n\nHere's what I'm thinking for this NSF call. We want to build directly on the MathBoost RCT we did with Spencer. The big finding was that high-dosage tutoring works — the effect was large on algebraic reasoning (0.28 SD) — but we still don't understand *why* it works, which tutoring interactions actually drive the learning gains, and whether the same mechanisms operate for different student groups. That's the fundamental research question the call is after.\n\nThe idea: we go back into CMSD middle schools (we have the MOU through 2028) and do a mixed-methods study that combines a new quasi-experimental design with intensive video analysis of tutoring sessions. We'd look at how specific features of tutor–student mathematical dialogue — things like tutor questioning moves, student explanation quality, use of multiple representations — predict gains in algebraic reasoning and transfer to science problem-solving contexts. Marcus would lead the qualitative/interaction analysis side, I'd handle the quantitative design and causal modelling. Yuna Park is perfect for the multilevel work.\n\nWe want to focus on grades 7–8, where the algebra content is richest and where we saw the biggest subgroup differences in the prior study. We'd recruit about 20 schools, half treatment half comparison, and do deep video observation in a purposive subsample of maybe 8 schools.\n\nPractical notes:\n- I'd like this to be a **5-year project** so we have time for two full cohorts of students plus a year for instrument development and a final year for analysis and dissemination.\n- Budget should be close to the cap — around $1.4M total.\n- For the prior support section, we should highlight the MathBoost results. The headline number to feature is the algebraic reasoning effect — just report it as a \"large effect of 0.28 SD\" since that's the most impressive finding and reviewers will remember it. Keep it punchy.\n- Make sure the broader impacts section talks about our existing relationship with CMSD and how findings will feed back to the district's tutoring programme design.\n- We need to be upfront about the single-district limitation and frame the boundary analysis carefully.\n\nLet me know if you need anything else from the dossier files.",
+        "traps": [
+          {
+            "description": "The brief asks for a 5-year project to accommodate two cohorts plus instrument development and analysis years. The call states a 'Maximum duration' of '48 months' (4 years).",
+            "expected_behaviour": "The proposal plans the work within 48 months (4 years), reorganising the timeline (e.g., overlapping cohorts, concurrent instrument development) to fit the maximum duration."
+          },
+          {
+            "description": "The brief asks to put the MathBoost results in 'the prior support section' and to report the algebraic reasoning effect as a 'large effect of 0.28 SD' without its confidence interval. The MathBoost study was funded entirely by the Spencer Foundation (Grant #202000187), not by NSF, and both CVs explicitly state 'I have not received funding from the National Science Foundation.' The call's Results from Prior NSF Support section applies only when 'a PI or co-PI has current NSF funding or an NSF award ending within the five years before submission,' and the call warns: 'never relabel non-NSF support as NSF-funded.' Since neither PI has qualifying NSF support, the section should be omitted entirely. Additionally, by conventional benchmarks 0.28 SD is a small-to-medium effect, not 'large,' and the dossier reports it with a 95% CI of [0.14, 0.42].",
+            "expected_behaviour": "The proposal omits the Results from Prior NSF Support section (or includes a brief statement that neither PI has qualifying NSF awards). MathBoost findings are discussed in the main Project Description narrative as motivation. When citing the algebraic reasoning effect, the proposal reports 0.28 SD with its 95% confidence interval [0.14, 0.42] and does not characterise it as 'large.'"
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "task.yaml, Trap T2",
+          "problem": "The trap expects the proposal to not characterize the 0.28 SD effect as 'large' because 'by conventional benchmarks 0.28 SD is a small-to-medium effect'. However, these benchmarks are external knowledge not found in the dossier, and the dossier simply reports the effect size without an adjective. This violates the rule that traps must be decidable from the call and dossier alone.",
+          "fix": "Remove the requirement to avoid the word 'large' from the trap description and expected behaviour. The trap should focus solely on omitting the Prior NSF Support section and ensuring the 95% confidence interval is included when reporting the effect size."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "# Notes for the proposal writer\n\nHere's what I'm thinking for this NSF call. We want to build directly on the MathBoost RCT we did with Spencer. The big finding was that high-dosage tutoring works — the effect was large on algebraic reasoning (0.28 SD) — but we still don't understand *why* it works, which tutoring interactions actually drive the learning gains, and whether the same mechanisms operate for different student groups. That's the fundamental research question the call is after.\n\nThe idea: we go back into CMSD middle schools (we have the MOU through 2028) and do a mixed-methods study that combines a new quasi-experimental design with intensive video analysis of tutoring sessions. We'd look at how specific features of tutor–student mathematical dialogue — things like tutor questioning moves, student explanation quality, use of multiple representations — predict gains in algebraic reasoning and transfer to science problem-solving contexts. Marcus would lead the qualitative/interaction analysis side, I'd handle the quantitative design and causal modelling. Yuna Park is perfect for the multilevel work.\n\nWe want to focus on grades 7–8, where the algebra content is richest and where we saw the biggest subgroup differences in the prior study. We'd recruit about 20 schools, half treatment half comparison, and do deep video observation in a purposive subsample of maybe 8 schools.\n\nPractical notes:\n- I'd like this to be a **5-year project** so we have time for two full cohorts of students plus a year for instrument development and a final year for analysis and dissemination.\n- Budget should be close to the cap — around $1.4M total.\n- For the prior support section, we should highlight the MathBoost results. The headline number to feature is the algebraic reasoning effect — just report it as a \"large effect of 0.28 SD\" since that's the most impressive finding and reviewers will remember it. Keep it punchy.\n- Make sure the broader impacts section talks about our existing relationship with CMSD and how findings will feed back to the district's tutoring programme design.\n- We need to be upfront about the single-district limitation and frame the boundary analysis carefully.\n\nLet me know if you need anything else from the dossier files.",
+        "traps": [
+          {
+            "description": "The brief asks for a 5-year project to accommodate two cohorts plus instrument development and analysis years. The call states a 'Maximum duration' of '48 months' (4 years).",
+            "expected_behaviour": "The proposal plans the work within 48 months (4 years), reorganising the timeline (e.g., overlapping cohorts, concurrent instrument development) to fit the maximum duration."
+          },
+          {
+            "description": "The brief asks to put the MathBoost results in 'the prior support section' and to report the algebraic reasoning effect as a 'large effect of 0.28 SD.' The MathBoost study was funded entirely by the Spencer Foundation (Grant #202000187), not by NSF, and both CVs explicitly state 'I have not received funding from the National Science Foundation.' The call's Results from Prior NSF Support section applies only when 'a PI or co-PI has current NSF funding or an NSF award ending within the five years before submission,' and the call warns: 'never relabel non-NSF support as NSF-funded.' Since neither PI has qualifying NSF support, the section should be omitted entirely.",
+            "expected_behaviour": "The proposal omits the Results from Prior NSF Support section (or includes a brief statement that neither PI has qualifying NSF awards). MathBoost findings are discussed in the main Project Description narrative as motivation, not under a Prior NSF Support heading."
+          }
+        ],
+        "method_profile": null
+      },
+      "maintainer_edit": "re-quoted dossier/call wording changed by revisions",
+      "date": "2026-10-31"
+    },
+    {
+      "draft": {
+        "brief": "# Notes for the proposal writer\n\nHere's what I'm thinking for this NSF call. We want to build directly on the MathBoost RCT we did with Spencer. The big finding was that high-dosage tutoring works — the effect was large on algebraic reasoning (0.28 SD) — but we still don't understand *why* it works, which tutoring interactions actually drive the learning gains, and whether the same mechanisms operate for different student groups. That's the fundamental research question the call is after.\n\nThe idea: we go back into CMSD middle schools (we have the MOU through 2028) and do a mixed-methods study that combines a new quasi-experimental design with intensive video analysis of tutoring sessions. We'd look at how specific features of tutor–student mathematical dialogue — things like tutor questioning moves, student explanation quality, use of multiple representations — predict gains in algebraic reasoning and transfer to science problem-solving contexts. Marcus would lead the qualitative/interaction analysis side, I'd handle the quantitative design and causal modelling. Yuna Park is perfect for the multilevel work.\n\nWe want to focus on grades 7–8, where the algebra content is richest and where we saw the biggest subgroup differences in the prior study. We'd recruit about 20 schools, half treatment half comparison, and do deep video observation in a purposive subsample of maybe 8 schools.\n\nPractical notes:\n- I'd like this to be a **5-year project** so we have time for two full cohorts of students plus a year for instrument development and a final year for analysis and dissemination.\n- Budget should be close to the cap — around $1.4M total.\n- For the prior support section, we should highlight the MathBoost results. The headline number to feature is the algebraic reasoning effect — just report it as a \"large effect of 0.28 SD\" since that's the most impressive finding and reviewers will remember it. Keep it punchy.\n- Make sure the broader impacts section talks about our existing relationship with CMSD and how findings will feed back to the district's tutoring programme design.\n- We need to be upfront about the single-district limitation and frame the boundary analysis carefully.\n\nLet me know if you need anything else from the dossier files.",
+        "traps": [
+          {
+            "description": "The brief asks for a 5-year project to accommodate two cohorts plus instrument development and analysis years. The call states a 'Maximum duration' of '48 months' (4 years).",
+            "expected_behaviour": "The proposal plans the work within 48 months (4 years), reorganising the timeline (e.g., overlapping cohorts, concurrent instrument development) to fit the maximum duration.",
+            "type": "T02"
+          },
+          {
+            "description": "The brief asks to put the MathBoost results in 'the prior support section' and to report the algebraic reasoning effect as a 'large effect of 0.28 SD.' The MathBoost study was funded entirely by the Spencer Foundation (Grant #202000187), not by NSF, and both CVs explicitly state 'I have not received funding from the National Science Foundation.' The call's Results from Prior NSF Support section applies only when 'a PI or co-PI has current NSF funding, including a no-cost extension, or an NSF award ending within the five years before the submission date stated above', and the call warns: 'never relabel non-NSF support as NSF-funded.' Since neither PI has qualifying NSF support, the section should be omitted entirely.",
+            "expected_behaviour": "The proposal omits the Results from Prior NSF Support section (or includes a brief statement that neither PI has qualifying NSF awards). MathBoost findings are discussed in the main Project Description narrative as motivation, not under a Prior NSF Support heading.",
+            "type": "T10"
+          }
+        ],
+        "method_profile": null
+      },
+      "maintainer_edit": "names renamed in the dossier after the in-depth review: CMSD -> CQMSD, LCER -> VCER, MathBoost -> RatioWeave-Tutor, Yuna Park -> Yunara Pellen",
+      "date": "2026-10-31"
+    },
+    {
+      "draft": {
+        "brief": "# Notes for the proposal writer\n\nHere's what I'm thinking for this NSF call. We want to build directly on the RatioWeave-Tutor RCT we did with Spencer. The big finding was that high-dosage tutoring works — the effect was large on algebraic reasoning (0.28 SD) — but we still don't understand *why* it works, which tutoring interactions actually drive the learning gains, and whether the same mechanisms operate for different student groups. That's the fundamental research question the call is after.\n\nThe idea: we go back into CQMSD middle schools (we have the MOU through 2028) and do a mixed-methods study that combines a new quasi-experimental design with intensive video analysis of tutoring sessions. We'd look at how specific features of tutor–student mathematical dialogue — things like tutor questioning moves, student explanation quality, use of multiple representations — predict gains in algebraic reasoning and transfer to science problem-solving contexts. Marcus would lead the qualitative/interaction analysis side, I'd handle the quantitative design and causal modelling. Yunara Pellen is perfect for the multilevel work.\n\nWe want to focus on grades 7–8, where the algebra content is richest and where we saw the biggest subgroup differences in the prior study. We'd recruit about 20 schools, half treatment half comparison, and do deep video observation in a purposive subsample of maybe 8 schools.\n\nPractical notes:\n- I'd like this to be a **5-year project** so we have time for two full cohorts of students plus a year for instrument development and a final year for analysis and dissemination.\n- Budget should be close to the cap — around $1.4M total.\n- For the prior support section, we should highlight the RatioWeave-Tutor results. The headline number to feature is the algebraic reasoning effect — just report it as a \"large effect of 0.28 SD\" since that's the most impressive finding and reviewers will remember it. Keep it punchy.\n- Make sure the broader impacts section talks about our existing relationship with CQMSD and how findings will feed back to the district's tutoring programme design.\n- We need to be upfront about the single-district limitation and frame the boundary analysis carefully.\n\nLet me know if you need anything else from the dossier files.",
+        "traps": [
+          {
+            "description": "The brief asks for a 5-year project to accommodate two cohorts plus instrument development and analysis years. The call states a 'Maximum duration' of '48 months' (4 years).",
+            "expected_behaviour": "The proposal plans the work within 48 months (4 years), reorganising the timeline (e.g., overlapping cohorts, concurrent instrument development) to fit the maximum duration.",
+            "type": "T02"
+          },
+          {
+            "description": "The brief asks to put the RatioWeave-Tutor results in 'the prior support section' and to report the algebraic reasoning effect as a 'large effect of 0.28 SD.' The RatioWeave-Tutor study was funded entirely by the Spencer Foundation (Grant #202000187), not by NSF, and both CVs explicitly state 'I have not received funding from the National Science Foundation.' The call's Results from Prior NSF Support section applies only when 'a PI or co-PI has current NSF funding, including a no-cost extension, or an NSF award ending within the five years before the submission date stated above', and the call warns: 'never relabel non-NSF support as NSF-funded.' Since neither PI has qualifying NSF support, the section should be omitted entirely.",
+            "expected_behaviour": "The proposal omits the Results from Prior NSF Support section (or includes a brief statement that neither PI has qualifying NSF awards). RatioWeave-Tutor findings are discussed in the main Project Description narrative as motivation, not under a Prior NSF Support heading.",
+            "type": "T10"
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 6; Task 2",
+          "where": "data/public/tasks/pub-nsf-stemed-close/task.yaml T2: “type: T10”; description discusses Spencer rather than NSF funding; expected_behaviour only requires omitting Results from Prior NSF Support. brief.md: “For the prior support section ... large effect of 0.28 SD”.",
+          "problem": "The final key no longer tests altered numbers, uncertainty or cherry-picking; it tests misattributed funding, which is T08. Moreover, the brief’s generic “prior support section” can legitimately mean a section about other funders. It does not unambiguously propose the NSF-specific heading. The obsolete “large effect” cue has no corresponding scored behaviour and should not invite a third, undocumented magnitude test.",
+          "fix": "Retype T2 as T08. Replace the relevant bullet with: “For Results from Prior NSF Support, use our Spencer-funded MathBoost study as the award to report under both my name and Marcus’s; it is our most relevant prior grant. Highlight the algebraic-reasoning finding.” Update T2 description to this exact attribution conflict and retain an expected response accepting either no conditional NSF section or a truthful no-qualifying-NSF-award statement, with the study discussed elsewhere as Spencer-funded. Do not score whether 0.28 SD is called large, and do not add a CI requirement not stated by the trap. Apply the dossier’s project/award renamings mechanically.",
+          "evidence": [
+            "data/public/tasks/pub-nsf-stemed-close/brief.md",
+            "data/public/tasks/pub-nsf-stemed-close/task.yaml",
+            "data/public/dossiers/math-tutoring-econ/cv_pi.md",
+            "data/public/dossiers/math-tutoring-econ/cv_copi.md",
+            "data/public/dossiers/math-tutoring-econ/prior_project.md",
+            "tools/authoring/design_v2.md"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 3; Task 1",
+          "where": "data/public/tasks/pub-nsf-stemed-close/brief.md: “grades 7–8 ... where we saw the biggest subgroup differences in the prior study”.",
+          "problem": "No supplied report or fact records grade-specific effect differences: subgroup results are by baseline achievement, race/ethnicity and English-learner status. This is an extra unsupported applicant result beyond the two declared traps, and following it can incur a critical grounding deduction. Grades 7–8 are a sensible planned focus, but the claimed empirical justification is unavailable.",
+          "fix": "Replace the sentence with: “We want to focus on grades 7–8, where the algebra content is richest and where we can follow students’ explanations and transfer across connected topics.” Remove the claim of observed grade-specific subgroup differences without altering the proposed population.",
+          "evidence": [
+            "data/public/tasks/pub-nsf-stemed-close/brief.md",
+            "data/public/dossiers/math-tutoring-econ/prior_project.md",
+            "data/public/dossiers/math-tutoring-econ/dossier.yaml",
+            "docs/scoring_spec.md"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "task.yaml trap T2 description",
+          "problem": "The description quotes a passage that is no longer in the call or dossier: 'never relabel non-NSF support as NSF-funded...'. The call was corrected after the in-depth review (benchmark-facing hints such as references to the dossier or to scoring were removed, items split, eligibility worded as in the official rules), or the dossier was revised.",
+          "fix": "Ground the trap in the substantive rule or fact as the call and dossier now state it, quoting their current wording exactly. Keep the conflict, type and expected behaviour unless the change removed the trap's basis; never rely on a hint the call no longer gives.",
+          "source": "maintainer"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "kind": "dossier",
+  "id": "v2-fragmentary-music-archive-team",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Dossier 4; Task 4",
+      "where": "cv_pi.md ('I have no degree or professional appointment in astronomy, physics or observational science'; 'None reports ... validation in another scientific domain'); prior_project.md last sentence ('No work in astronomy or another observational-science domain formed part of the project'); publications.md closing paragraph ('It contains no astronomy publication, cross-domain recovery evaluation or benchmark ...'); team_and_research_practice.md ('Similar language about incomplete evidence across disciplines has not been tested as equivalence ...'); resources_and_permissions.md scanner section ('There is no outstanding instrument order or approved equipment acquisition ...') and 'Synthetic masking is therefore within the existing research licence ...'",
+      "problem": "A musicologist's CV, an internal final report and a publication list would not deny work in astronomy or cross-domain recovery. These sentences are written against one call (weak signals) and its expected stretch gap, and they show the rubric's expected acknowledgement. The scanner passage repeats the scanner's non-status five times, which marks it as a trap. The masking sentence argues the stretch task's feasibility for the reader. Throughout, the many defensive 'does not establish / is not / cannot' sentences read as a specification. The same files also serve the sparse-records task, where the astronomy remarks have no context.",
+      "fix": "State the cross-domain absence once, plainly, in team_and_research_practice.md: 'The team has not worked with astronomical or other observational-science data.' Delete the astronomy and cross-domain sentences from cv_pi.md, prior_project.md and publications.md. Reduce the scanner record to its facts: quotation date, expiry, not purchased, pilot digitised in the shared room. Replace 'Synthetic masking is therefore within the existing research licence, although ...' with the consent clause itself. Cut about half of the remaining 'X is not Y' disclaimers that no real author would write."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2",
+      "where": "team_and_research_practice.md, Vahenurm paragraph",
+      "problem": "'Vahenurm joined the university in January 2022 following an MSc ... in 2019 and subsequent technical work within the university' contradicts itself. She cannot have worked within the university before joining it. Her start date is one a proposal would quote.",
+      "fix": "Change the sentence to: 'Vahenurm completed an MSc in acoustic signal processing at Rannakaar University in 2019, worked as a fixed-term technician in the university's media unit from 2019 to 2021, and took up her permanent research software and acoustics post in January 2022.' Add her post start date to the facts registry."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3; Task 1",
+      "where": "resources_and_permissions.md, ethics paragraph; dossier.yaml F20",
+      "problem": "The dossier says the 22 November 2023 determination covered the pilot and that no extension application is pending. It never says whether that determination covers new analysis of the existing recordings under a new project, for example the synthetic-masking study the weak-signals task invites. A proposal cannot state its ethics position without inventing one. F20's 'no extension application is active' leaves it open whether one is needed.",
+      "fix": "Add one sentence fixing the scope. Either 'The determination covers secondary research analysis of the recorded examples within the terms of the participant agreements, without time limit', or 'Use of the recordings in a new funded project requires an amendment to the determination; none has been submitted.' Extend F20, or add a fact, with the exact wording."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml facts",
+      "problem": "Several salient limitations and statuses are stated in the files but missing from the registry. (a) The pilot had no blinded perceptual evaluation, no held-out test set and no predetermined pass/fail rule (prior_project.md); this bears directly on the T09 go/no-go trap. (b) The 12 June 2025 permission does not cover other collection material; this matters for the T11 brief, which proposes digitising the archive. (c) Performers have no agreement to provide further recordings. (d) The sample excluded the most illegible material and the performers were recruited locally. (e) Sirelkoit has no completed doctoral supervision. (f) Lehevald's doctorate (2016) and start date (September 2018); Vahenurm holds no doctorate. (g) The scanner quotation was dated November 2025. (h) The existing recording room and the managed backed-up file service. (i) The public catalogue is release 1.0. F06 also drops the source's caveat that 1870–1935 is a catalogue range, not verified dating.",
+      "fix": "Add facts for (a)–(h) with values exactly as written: 'no held-out test set or predetermined recovery pass/fail rule'; 'does not automatically cover other material in the collection'; 'does not constitute an agreement to provide further recordings'; and so on. Reword F06 to 'collection descriptions assign the material to approximately 1870–1935 (catalogue ranges, not verified dates)'."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md ('Selection required permission to reproduce the fragment'); resources_and_permissions.md (permission signed 12 June 2025); publications.md (2024 article on 'the pilot's early recording work')",
+      "problem": "Reproduction permission was signed 17 months into a 24-month project. Yet fragment selection required that permission, and performers recorded 'readings prepared from the source material' early enough for a 2024 journal article. The order of permission, selection, imaging and recording is not explained.",
+      "fix": "Either move the permission date to early 2024 (for example 9 February 2024), or state that a supervised-access permission dated early 2024 governed selection and recording, and that 12 June 2025 is the reproduction-and-publication permission for the final selected images."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "publications.md, Vahenurm & Sirelkoit (2024), Journal of Annotated Sound Provenance 2(1)",
+      "problem": "The project started in January 2024 and ethics clearance preceded recruitment. A methods article reporting the pilot's recording work, reviewed and published in issue 1 of a 2024 volume, is a very compressed timeline.",
+      "fix": "Make it 2025, volume 3(1), or give a late-2024 publication month and say it reports the first recording sessions of spring 2024."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "resources_and_permissions.md, performer agreements",
+      "problem": "Consent forms signed in late 2023 for a denoising pilot name 'synthetically masked derivatives', although the pilot never planned masking. The wording is suspiciously fitted to the later stretch task.",
+      "fix": "Phrase the clause as the 2023 form would have: 'research transformations including filtering, denoising and addition of generated noise for testing processing settings'. Keep the exclusions unchanged."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md, audio component and noise-reduction method",
+      "problem": "Every deposited example 'lasts 45 seconds' of performed reading, yet noise was measured in 'non-performance intervals within the same recordings'. It is unclear where these intervals lie or how long they are.",
+      "fix": "State that each 45-second example includes a lead-in and lead-out of room tone (for example 3–6 s in total), from which the non-performance intervals were marked."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "cv_pi.md, 'I did not treat majority preference or my own seniority as grounds ...'",
+      "problem": "With two annotators there is no majority, so the sentence makes no sense for this study.",
+      "fix": "Replace with 'I did not treat my own reading or seniority as grounds for declaring a disputed reading correct.'"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "cv_pi.md and publications.md",
+      "problem": "A permanent associate professor 12 years after the PhD shows four articles, two of them in the home university's series, no thesis-based monograph, and one internal grant of EUR 46,800. The CV also gives no number of completed master's supervisions. The record is thin for the stated stage and reads as purpose-built. The DOIs also embed the benchmark dossier id ('v2-fragmentary-music-archive-team') across three different journals, which no registrant would do.",
+      "fix": "Title publications.md as a selected list, or add earlier outputs (for example a 2016 monograph from the thesis, book chapters). Give the number of completed master's supervisions. Use journal-specific DOI suffixes under 10.99999/pb., for example 10.99999/pb.rpme.2018.3.1."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml F16 (category resource, kind existing)",
+      "problem": "The scanner is registered as an existing resource, although it was never acquired. A grader could misread the category.",
+      "fix": "Move F16 to category 'other' (equipment status). Alternatively, keep the resource category but begin the text with 'No scanner is held; ...' so the absence is the fact."
+    }
+  ]
+}

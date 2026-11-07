@@ -1,0 +1,31 @@
+{
+ "kind": "dossier",
+ "id": "v2-sensor-security-career-pi",
+ "reviewer_family": "task-reviews",
+ "issues": [
+  {
+   "severity": "major",
+   "checklist": "Dossier 4 / Task 4",
+   "where": "prior_project.md ('public-road deployments: 0'; 'Collision risk, coordinated agent failures, and communication-dependent behavior were outside the measured outcomes'); resources_team.md ('Outdoor test area | None', 'Road test facility | None', 'Funded vacancies: none. Recruitment searches: none. Approved future appointments: none.', 'External agreements in force: none. External facility-access allocations: none. Continuing external personnel commitments: none.'); publications.md ('This is Halwick's only joint paper with Pelloran and her only joint paper with a national-laboratory researcher'); cv_pi.md ('Concurrent faculty appointments: none'); teaching_record.md ('inference-performance measurement')",
+   "problem": "These passages are negative enumerations written to support trap and rubric checks. They are not what a final report, an inventory or a publication list contains. A road-test count in an indoor-localization report, or 'only joint paper' statements in a publication record, point the reader at exactly the answer-key items and make the documents read like a specification.",
+   "fix": "Rewrite in the documents' natural form. The resources table lists what exists. Personnel status reads 'No other paid positions in the group'. The limitations section says the study was a single-robot, offline replay in one room. Remove the road-test line, the 'only joint paper' sentence and the agreements enumeration; collaborator roles already follow from the contribution statements. Update the F12 and F20 values to the new exact wording.",
+   "from_task_review": "pub2-nsf-autonomy-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "publications.md, item 4: 'This is Halwick's only joint paper with Pelloran and her only joint paper with a national-laboratory researcher.'",
+   "problem": "A publication and contribution record does not annotate an article as the author's 'only joint paper with a national-laboratory researcher'. The sentence exists to settle the trap and reads like answer-key scaffolding. The four-item list, the CV appointments and the resources_team.md collaborator record already settle the point.",
+   "fix": "Delete the sentence. Keep an ordinary funding and data statement, e.g. 'Funding: none. No Calderfen Laboratory data, systems or facilities were used.' Drop the 'only joint paper' wording from F15.",
+   "from_task_review": "pub2-nsf-inference-close"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "cv_pi.md 'Professional development: Formal methods: no prior coursework or publications.'; teaching_record.md 'formal verification is outside the current syllabus'; prior_project.md 'public-road deployments: 0' and 'Collision risk, coordinated agent failures, and communication-dependent behavior were outside the measured outcomes'; resources_team.md rows 'Outdoor test area: None', 'Road test facility: None'",
+   "problem": "These absence statements match no trap in this task. They look like leftovers of removed traps (formal verification, road testing, multi-agent safety). Real CVs do not list coursework never taken. An indoor bench-robot final report does not count public-road deployments. The documents read as a specification.",
+   "fix": "Remove the formal-methods line from the CV and the 'public-road deployments: 0' clause. Drop the outdoor and road rows unless a planned trap needs them; if one does, state the limitation in ordinary report language. Update F06, F12 and F17 accordingly.",
+   "from_task_review": "pub2-nsf-inference-close"
+  }
+ ]
+}

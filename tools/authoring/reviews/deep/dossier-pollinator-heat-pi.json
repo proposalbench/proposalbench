@@ -1,0 +1,166 @@
+{
+  "kind": "dossier",
+  "id": "pollinator-heat-pi",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1; Dossier 6",
+      "where": "data/public/dossiers/pollinator-heat-pi/cv_pi.md/resources_team.md/publications.md: “Prof. Hanna Lindqvist, University of Lund”; “CEDER is a research centre of the Consejo Superior de Investigaciones Científicas (CSIC)”; “HEATPOL”; “Iberian Pollination Network (RedPol)”; real universities and service/target journals.",
+      "problem": "Several fictional relationships reuse real names. Hanna Lindqvist is a real SLU researcher (also the name of a Swedish public figure). Murcia, Autónoma de Madrid, Granada, Almería, Córdoba and Lund are real universities; CSIC is a real employer/organisation and the email uses its real domain. CEDER is already a Spanish public research-centre acronym at CIEMAT. HEATPOL is an existing manufacturer; REDPOL is an actual CREAF pollination-network project. The European Ecological Federation and Spanish Ecological Society are real organisations, and International Pollination Symposium is a real conference series. The CV’s reviewing venues and manuscript target venues are real journals. The document-level fiction notice does not satisfy the requested no-real-identity policy for these invented affiliations, service, awards and projects. Own published papers already use fictional journal titles and reserved DOIs; that part should be preserved.",
+      "fix": "Apply this replacement map throughout the dossier, hidden facts/publication authors and dependent briefs/trap quotations: Hanna Lindqvist -> Hanna Vinterholm Norén (bibliographies Vinterholm-Norén, H.); CEDER/Centre for Dryland Ecosystem Research -> CESERAL/Centro de Ecología de Seralba, an independent fictional public research institute in Almería, removing CSIC affiliation and replacing the CSIC contract with an institutional tenure-track contract; remove the email or use e.miravet@ceseral.example. Universidad de Murcia -> Universidad de Valdemora del Sureste; Universidad Autónoma de Madrid -> Universidad de Altasierra Oriental; Universidad de Granada -> Universidad de Rambla Serena; Universidad de Almería -> Universidad de Sierra Umbría; Universidad de Córdoba -> Universidad de Campoluz; University of Lund -> Universitetet i Skogervik (Sweden). HEATPOL -> PB-FILATHERM; RedPol/Iberian Pollination Network -> RedSeralba, a fictional pollination research network. Replace the society award and EEF presentation with a fictional Seralba Ecological Forum (retain Sevilla 2025 and Lisbon 2024 as places/dates); replace the symposium with Seralba Pollination Workshop (Zürich, June 2026). Replace the four reviewing journals with the dossier’s existing fictional journals Revista Ibérica de Ecología Animal, European Journal of Functional Ecology, Advances in Community Ecology and Entomología Ecológica Ibérica. Replace New Phytologist and Journal of Ecology target venues with Mediterranean Ecology Letters and Advances in Community Ecology. Keep real funders, schemes, geographic places and commercial instruments. Exact searches of the proposed distinctive replacements found no matching entities; this is search-bounded, not a global uniqueness guarantee.",
+      "evidence": [
+        "https://www.slu.se/profilsidor/l/hanna-lindqvist/",
+        "https://www.riksdagen.se/sv/ledamoter-och-partier/ledamot/hanna-lindqvist_ee8f8234-a20f-4bce-a060-a02d814d6088/",
+        "https://www.uam.es/uam/inicio",
+        "https://www.ugr.es/",
+        "https://www.ual.es/",
+        "https://www.uco.es/",
+        "https://www.lunduniversity.lu.se/",
+        "https://www.miteco.gob.es/es/biodiversidad/temas/desertificacion-restauracion/lucha-contra-la-desertificacion/listado-centros.html",
+        "https://www.juntadeandalucia.es/organismos/agriculturapescaaguaydesarrollorural/areas/agricultura/sostenibilidad/paginas/fitogen-instituciones.html",
+        "https://www.ciemat.es/w/el-ceder-ciemat-estrena-su-nueva-p%C3%A1gina-web",
+        "https://heatpol.pl/",
+        "https://www.creaf.cat/es/investigacion/directorio-de-investigacionredes-de-polinizacion-en-una-comunidad-arbustiva-mediterranea",
+        "https://www.europeanecology.org/",
+        "https://servicios.urjc.es/pdi/ver/carlos.lara/cv",
+        "https://www.pollinationecology.org/index.php/jpe/issue/archive",
+        "https://www.blackwellpublishing.com/pdf/Ecology_Catalogue_2006.pdf",
+        "docs/task_review_checklist.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2; Dossier 4",
+      "where": "data/public/dossiers/pollinator-heat-pi/cv_pi.md: “PhD ... 2020 (defended 12 June 2020)” and “Oct 2020 – Aug 2022 | Postdoctoral researcher (Juan de la Cierva Incorporación)”; funded role “IJC2019-041283”.",
+      "problem": "The real Juan de la Cierva Incorporación 2019 call required a doctorate obtained in 2015–2017 (2013–2017 for the disability track). A doctorate defended in June 2020 cannot qualify, including under extensions, which move the lower boundary earlier. This is an impossible claimed prior award, not merely a short appointment.",
+      "fix": "Keep the June 2020 doctorate. Replace the appointment and funded-role row with “Institutional postdoctoral fellowship (fictional), PB-CESERAL-PD-2020-01, October 2020–August 2022”, funded by the fictional host. Remove Juan de la Cierva Incorporación/IJC2019-041283 from both places. This preserves the existing career chronology without changing ERC eligibility.",
+      "evidence": [
+        "https://www.aei.gob.es/convocatorias/buscador-convocatorias/ayudas-contratos-juan-cierva-incorporacion-2019",
+        "data/public/dossiers/pollinator-heat-pi/cv_pi.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2; Dossier 7; Dossier 8",
+      "where": "data/public/dossiers/pollinator-heat-pi/cv_pi.md, research summary: “A second full field season was completed in 2026”; prior_project.md: “2026 (first full season). A second season (2027) is planned”; dossier.yaml F20.",
+      "problem": "The September CV asserts a completed second season, while the progress report, dataset description and hidden F20 all establish exactly one completed season, in 2026. No intentional inconsistency is declared. A proposal can be penalised for faithfully choosing one visible account over the other.",
+      "fix": "Replace the final CV sentence with “The first full field season was completed in 2026; the second is planned for 2027.” Keep F20 and the 18742-record dataset assigned to Season 1. Do not add an inconsistency key: this dossier is not one of the designated inconsistent v2 dossiers.",
+      "evidence": [
+        "data/public/dossiers/pollinator-heat-pi/cv_pi.md",
+        "data/public/dossiers/pollinator-heat-pi/prior_project.md",
+        "data/public/dossiers/pollinator-heat-pi/resources_team.md",
+        "data/public/dossiers/pollinator-heat-pi/dossier.yaml",
+        "docs/scoring_spec.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2; Dossier 3; Dossier 8",
+      "where": "data/public/dossiers/pollinator-heat-pi/resources_team.md: “Collaboration limited to the 2019 research stay and one co-authored paper”; publications.md items 2 and 7; dossier.yaml F21.",
+      "problem": "The PI and Hanna Lindqvist are co-authors on two separate 2022 papers, not one: the CTmax paper lists Miravet-Solana/Castaño-Heredia/Lindqvist, and the comparative-physiology paper lists Lindqvist/Bergström/Miravet-Solana. F21 repeats the incorrect one-paper limit. This directly alters how much prior collaboration a proposal may claim.",
+      "fix": "Change “one co-authored paper” to “two co-authored papers (both 2022)” in resources_team.md and F21; retain the 2019 stay and absence of any current joint grant or formal agreement. Apply the person-name replacement consistently. No publication needs to be removed.",
+      "evidence": [
+        "data/public/dossiers/pollinator-heat-pi/publications.md",
+        "data/public/dossiers/pollinator-heat-pi/resources_team.md",
+        "data/public/dossiers/pollinator-heat-pi/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2; Dossier 3; Dossier 7",
+      "where": "data/public/dossiers/pollinator-heat-pi/resources_team.md (September 2026): “embargo until first publication”; publications.md (September 2026), published Season 1 papers 4 and 5; prior_project.md: “embargo until first publication, expected late 2026” and “two manuscripts ... in preparation”.",
+      "problem": "The current repository status conflicts with the current publication list: two named Season 1 papers are already presented as published, yet the September resources sheet still describes their data as under a first-publication embargo. The August report can legitimately be older, but no September status update reconciles its manuscripts-in-preparation/late-2026 expectation with the publication list. The hidden F19 retains the stale embargo. This leaves released versus restricted data undecidable.",
+      "fix": "Preserve the eight accepted/published articles and add a September 2026 update to the report: “The two main Season 1 papers listed as publications 4 and 5 were published in September 2026; the interaction and CTmax datasets were released at first publication under CC BY 4.0. The in-preparation and embargo statements in the August report below describe the earlier status.” In resources_team.md and F19 replace the embargo phrase with “openly released in September 2026 under CC BY 4.0”. Mark publications 4 and 5 as online publications in September 2026 instead of assigning unexplained issue numbers that might imply publication before the March–July field season. Keep paper 8 in press and paper 9 under review.",
+      "evidence": [
+        "data/public/dossiers/pollinator-heat-pi/resources_team.md",
+        "data/public/dossiers/pollinator-heat-pi/publications.md",
+        "data/public/dossiers/pollinator-heat-pi/prior_project.md",
+        "data/public/dossiers/pollinator-heat-pi/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 4; Dossier 3; Task 1",
+      "where": "data/public/dossiers/pollinator-heat-pi/prior_project.md: “PID2024-142385RA-I00 (AEI, Proyectos de Generación de Conocimiento, modalidad no orientada)”, “1 September 2025 – 31 August 2028”, “including 21% indirect costs”; cv_pi.md and F03/F22 repeat the award.",
+      "problem": "The active award makes the AEI pairing ineligible: the supplied call incorporates Article 8.2 of PID2025, whose paragraph d.2 excludes a PI in an Annex V project ending after 31 August 2026. PID2024 is listed in Annex V and HEATPOL ends in August 2028. Choosing type B does not remove that incompatibility. Separately, the claimed real PID2024 award uses a 21% indirect-cost rate, whereas the scheme prescribes 25%. The existing 21% arithmetic is correct, but its attribution to PID2024 is not. These are defects in the dossier’s funding history, not additional intended traps.",
+      "fix": "Recast the active award as a fictional institutional grant from the fictional host: “PB-FILATHERM, reference PB-CESERAL-2025-01, Institutional Emerging Groups Programme (fictional), 1 September 2025–31 August 2028; EUR 150000 direct plus EUR 31500 indirect, total EUR 181500. The 21% indirect rate is a condition of this fictional award. Its terms permit participation in other projects, subject to compatible effort and no double funding.” Replace the AEI/PID2024 attribution in the report, CV and F03/F22; keep dates, direct-cost rows, expenditure and total arithmetic. Replace the linked “FPI” contract with a separately funded institutional predoctoral contract, retaining October 2025–September 2029, throughout CV, resources, report, F13 and the ERC brief. This is outside Annex V and avoids inventing an exception to the real call. As a companion clarification in call.md §2, spell out the imported compatibility restriction and first-doctorate cutoff before 1 January 2024 rather than leaving them only in the Article 8.2 reference. Preserve the existing type B task. If PID2024 is instead retained, merely correcting indirect costs to EUR 37500 awarded / EUR 21800 spent (totals EUR 187500 / EUR 109000) does not fix eligibility; that alternative needs a different eligible applicant or task pairing.",
+      "evidence": [
+        "https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf#page=14",
+        "https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf#page=72",
+        "https://www.aei.gob.es/sites/default/files/convocatory_info/file/2026-02/Instrucciones_ejecuci%C3%B3n_justificaci%C3%B3n_PID_2024_23022026_0.pdf",
+        "data/public/dossiers/pollinator-heat-pi/prior_project.md",
+        "data/public/dossiers/pollinator-heat-pi/cv_pi.md",
+        "data/public/dossiers/pollinator-heat-pi/dossier.yaml",
+        "data/public/tasks/pub-erc-pollinator-close/brief.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/pollinator-heat-pi/dossier.yaml F08: “from 4.7 to 2.1 visits flower⁻¹ h⁻¹”; prior_project.md §3.3: “Overall visitation rate across all sites and weeks: 4.7”.",
+      "problem": "F08 assigns the pooled all-sites/all-weeks rate to the lowland non-heat-wave baseline. The source does not say that. A rounded 55% decrease to 2.1 suggests a baseline near 4.67 but does not establish the exact published pooled 4.7 as the lowland baseline. The fact.value substring audit passes because its value is only 55%; the semantic mismatch remains.",
+      "fix": "Replace F08.text with “During heat waves at 450 m, visitation was 2.1 visits flower⁻¹ h⁻¹, a 55% decline (95% CI 44–66%) relative to non-heat-wave weeks at that elevation.” Add a separate source-linked fact for the all-sites/all-weeks mean 4.7 visits flower⁻¹ h⁻¹ (SE 0.3). Do not supply an exact lowland baseline that is not in the visible report.",
+      "evidence": [
+        "data/public/dossiers/pollinator-heat-pi/prior_project.md",
+        "data/public/dossiers/pollinator-heat-pi/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4; Dossier 3",
+      "where": "data/public/dossiers/pollinator-heat-pi/prior_project.md, §§2–4: “Four permanent plots along an elevation gradient”; “Network metrics were computed separately for heat-wave weeks and non-heat-wave weeks”; numerical confidence intervals and “declined significantly”.",
+      "problem": "There is only one plot at each elevation, so elevation is completely confounded with site. Network connectance/NODF also depend on sampling completeness, while the report separates heat-wave from ordinary weeks without specifying effort/completeness adjustment. Its limitations mention one mountain range and three heat waves but omit the absence of independent elevation replication. This materially affects whether a new proposal can describe the observed elevation gradient as evidence of general buffering rather than four site-specific associations. The supplied summaries do not establish that the reported confidence intervals are numerically wrong; their analysis unit and calculation cannot be verified.",
+      "fix": "Add to limitations and the hidden registry: “One plot was sampled at each elevation; elevation and site are confounded. These are exploratory within-site heat-wave associations, not a replicated causal estimate of elevation buffering. The present report does not document effort/completeness standardisation or the sampling unit used for its confidence intervals; network robustness to unequal sampling completeness remains unverified.” Qualify the elevation-buffering interpretation accordingly. Retain the reported point estimates and uncertainty as reported exploratory summaries; do not invent a resampling procedure or delete intervals solely because raw data are unavailable. New proposals should treat replicated sites and effort-standardised network comparison as prospective validation.",
+      "evidence": [
+        "https://pubmed.ncbi.nlm.nih.gov/22919906/",
+        "https://www.nature.com/articles/s41467-021-24149-x",
+        "data/public/dossiers/pollinator-heat-pi/prior_project.md",
+        "data/public/dossiers/pollinator-heat-pi/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3; Dossier 6",
+      "where": "data/public/dossiers/pollinator-heat-pi/dossier.yaml, facts/own_publications; resources_team.md: “9,316 interaction records”, “48 units”, “8 units”, “EUR 8,400”; publications.md item 9: “under review (submitted July 2026). No DOI yet.”",
+      "problem": "The 24-fact registry omits several feasibility-bearing resources and limitations: the 9316-record open PhD dataset; loggers/cameras and computational capacity; the lack of a whole-community chamber; the informal Requena collaboration; and the chamber cost. It also lacks a bibliographic own_publications record for the under-review paper that ERC trap T1 explicitly asks the system to handle. The source-supported highland thermal margin, fruit-set non-effect and sampling design/limitations are not fully registered. These are not declared intentional gaps.",
+      "fix": "Add source-linked facts for the open historical dataset (9316, 2017–2019), 48 loggers, eight cameras, 128-core/512-GB cluster, the absence of a whole-community chamber, informal Requena discussions with no joint publications/grants, and EUR 8400 for six ordered chambers (ordered, not deployed). Register 9.7 °C (SD 2.5) highland thermal margin, 360 marked plants across 12 focal species and the current one-site-per-elevation limitation. Add own_publications metadata for “Trait-based vulnerability of hoverflies to heat waves along an elevation gradient”, Gallego-Ruiz and Miravet-Solana, year 2026, Entomología Ecológica Ibérica, doi: null; retain its under-review status in a distinct source-linked fact rather than counting it among eight accepted papers. Preserve uncertainty qualifiers for any estimates retained after the analysis-status repair. Also register the four-site network table (both connectance and NODF by condition), NODF declines and their CIs, highland visitation 4.3 visits flower⁻¹ h⁻¹ and 8% decline (95% CI −3 to 19%), lowland/highland CTmax means 47.9 °C (SD 2.4) / 44.6 °C (SD 2.9), highland fruit-set difference 7% (95% CI −4 to 18%), and the status that full fruit-set data are expected only after the 2027 season. Register the 18 weekly rounds, 15-minute bouts, 0.25 °C min⁻¹ ramp after 2 h acclimation, and institutional DNA-barcoding access at approximately EUR 3 per sample. Use the source’s exact numeric strings, distinguish observed estimates from planned completeness, and do not treat omitted registry entries as missing visible data.",
+      "evidence": [
+        "data/public/dossiers/pollinator-heat-pi/resources_team.md",
+        "data/public/dossiers/pollinator-heat-pi/prior_project.md",
+        "data/public/dossiers/pollinator-heat-pi/publications.md",
+        "data/public/dossiers/pollinator-heat-pi/dossier.yaml",
+        "data/public/tasks/pub-erc-pollinator-close/task.yaml",
+        "docs/scoring_spec.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/pollinator-heat-pi/cv_pi.md: “ORCID: 0000-0002-XXXX-4718” and “Científica Titular en formación”.",
+      "problem": "The ORCID is visibly not a valid identifier, and the Spanish job label suggests a civil-service rank while the job is described as tenure track. These details reduce documentary realism independently of the substantive eligibility checks.",
+      "fix": "Remove the ORCID line; use “Investigadora con contrato institucional de incorporación y evaluación para estabilización” consistently with the fictional independent-host replacement, keeping the September 2022 start.",
+      "evidence": [
+        "data/public/dossiers/pollinator-heat-pi/cv_pi.md",
+        "https://www.csic.es/sites/default/files/665726.pdf"
+      ]
+    }
+  ],
+  "checked": [
+    "Read every visible file, all 24 hidden facts and all eight own_publication entries. Every non-null fact.value is a literal substring of its source; F08 nevertheless fails the semantic source check. No gaps, inconsistencies or reviewer_criticisms are declared.",
+    "Budget rows sum to EUR 150000 direct awarded and EUR 87200 direct spent; 21% computations and totals are arithmetically correct, but the real PID2024 attribution creates both a rate and an eligibility defect. The recommended institutional-award recast preserves those numbers. 812/64=12.6875 ->12.7; 4 sites x3 focal species x30 plants=360. Connectance and NODF relative declines round correctly to 26%, 4%, 23%, 17%. No spurious arithmetic defect is inferred from pooled versus site-specific network metrics.",
+    "Five PI first/corresponding papers plus the in-press student paper give six; seven published plus one in press give eight accepted articles. Paper 9 under review is properly excluded from that total. Eight DOIs use 10.99999/pb. and match the visible bibliographic list. The singular “following paper” is only editorial, not evidence that paper 9 was accepted.",
+    "Thermal ramping at 0.25 °C/min, loss-of-control endpoints and CTmax in the mid/high 40s are plausible. Thermal safety margins are exposure proxies, not demographic vital rates. Sources: https://www.nature.com/articles/s41598-020-73391-8 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC10979511/ (search-index abstract accessible; direct full text returned a browser challenge) ; https://doi.org/10.1038/s41467-026-73689-7",
+    "Julabo FP50-ME programmable bath, Sable Systems FoxBox O2/CO2 measurement and iButton temperature/humidity logging are real and technically appropriate; instrument/manufacturer names are expressly allowed. Sources: https://www.julabo.us/wp-content/uploads/products/datasheets/JULABO-FP50-ME--9162650.pdf ; https://www.sablesys.com/products/classic-line/foxbox-respirometry-system-classic/ ; https://www.analog.com/en/products/ds1923.html. Discontinued status today does not prove a September 2025 purchase impossible.",
+    "All full person names were searched: Elena Miravet Solana, Marcos Gallego Ruiz, Ramón Castaño Heredia, Hanna Lindqvist and Tomás Requena Ibáñez. Hanna has confirmed researcher/public-figure collisions. Other exact results did not establish known researchers/public figures; an ordinary-person administrative notice for Marcos was not treated as a known-researcher collision. J.A. Peñalver-Ortiz and K. Bergström occur only as initials, so identity-level exclusion cannot be certified.",
+    "Searched every own-publication journal title, HEATPOL, THERMOPOLL, NETTHERM, RedPol, the CEDER full name and acronym, named universities, societies, meetings and grant references. No exact journal collision was established for the eight fictional publication venues; similar real journal names alone were not counted as exact matches. HEATPOL/RedPol/CEDER and real CV organisations are reported above. No credible exact project match was found for THERMOPOLL or NETTHERM.",
+    "All four files carry the fiction notice and are dated by September 2026. Current and planned staffing and the ordered/not-yet-deployed warming chambers are distinguishable; climate-controlled insectaries do not contradict the stated lack of a whole-community chamber. First-versus-second season and publication/release conflicts are separate defects.",
+    "ERC 2026 Step 2 category A without funding is a legitimate outcome and permits a fresh attempt. Interviews were in early June and Step 2 results in late August 2026, compatible with knowing the result by September; “spring” is imprecise but June can fall within astronomical spring, so no blocker was manufactured from that word. Source: https://erc.europa.eu/timeframe-starting-grant-2026-evaluation",
+    "Read earlier automated reviews and maintainer task follow-ups. Already repaired arithmetic, accepted-paper count and A-versus-B previous ERC outcome were not repeated as defects.",
+    "The cross-Mediterranean ERC pivot is achievable through planned recruitment/new measurements. The AEI IPM pivot requires planned survival, reproduction and state-transition evidence or justified external parameters; CTmax/visitation alone cannot identify extinction probabilities. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4258094/ . The active-PID compatibility conflict is filed here with the funding-history repair; the official call need not acquire a fictional eligibility waiver."
+  ]
+}

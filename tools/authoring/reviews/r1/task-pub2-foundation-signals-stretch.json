@@ -1,0 +1,73 @@
+{
+  "kind": "task",
+  "id": "pub2-foundation-signals-stretch",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Dossier 3 / Task 1",
+      "where": "prior_project.md 'Purpose and material' and 'Audio processing results'; team_and_research_practice.md; brief.md (Tõnis 'ambiguous text placement'); dossier.yaml facts F08, F13",
+      "problem": "The brief's central question is note-onset recovery, but no file says what the 24 examples contain. It is not stated whether they are sung or played, solo or ensemble, or with or without text. It is also not stated whether any reference onset annotation exists. The brief gives Lehevald 'ambiguous text placement', which implies sung examples, but the dossier never says the performances carry text. A proposal must define the signal (SC2), the ground truth for 'events that were never in the recording' (ME5, ME7) and each member's task (ME4). Without these, a writer must either guess the performance medium or stay vague about the signal being recovered. dossier.yaml has no gaps section recording this absence.",
+      "fix": "In prior_project.md, state the medium and texture of the examples, for example: '24 unaccompanied sung examples with underlaid text; 12 performers sang, ...' or a stated mix with counts per performer. Add one sentence that no onset reference annotation exists, or that one exists, with method and count. Register both as facts. If the absence of onset references is meant to be a planned activity, record it as a gap in dossier.yaml."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3 / Task 1",
+      "where": "resources_and_permissions.md 'Host confirmation'; prior_project.md 'Delivery, expenditure and limitations'; task.yaml T2 expected_behaviour",
+      "problem": "T2 requires 'an internally consistent indicative allocation ... including indirect costs', and the call requires indirect costs within the ceiling. The dossier gives no cost basis for this. There is no institutional indirect-cost rate; the pilot's EUR 4,800 on EUR 42,000 direct implies about 11.4%, but no rate is stated. There are no staff cost rates or person-month costs, and no basis for a statistical adviser's cost. There is no internal charge for the shared digitisation room, although the pilot paid EUR 4,800 for 'collection handling and digitisation services', so the T2 alternative may itself carry a charge. Any budget after removing the scanner rests on numbers the system must invent, and graders cannot judge internal consistency against a dossier anchor.",
+      "fix": "Add to the host confirmation or resources file: the university's indirect-cost rate for external grants (for example 'calculated at 15% of direct costs'); indicative monthly employer costs for the three staff grades or the school's standard research-hour rate; and the internal booking charge for the digitisation room and collection handling. Register these as facts. Alternatively, record them as gaps and loosen T2 so it does not grade budget arithmetic."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "team_and_research_practice.md ('The team has not worked with astronomical or other observational-science data'; 'signed cross-domain collaboration agreements'); prior_project.md ('The project did not generate synthetic masking trials, quantify recovery under controlled signal-to-noise ratios or train a model to fill missing musical passages'); resources_and_permissions.md ('does not require a dedicated graphics processor, a new scanner or a new musical instrument' and the separate 'Scanner quotation record' section)",
+      "problem": "Several statements answer this particular call and trap rather than reading as the team's own documents. A musicology team statement would not mention astronomy, which is the call's illustrative domain, or 'cross-domain' agreements, which echo the call's 'transfer between domains'. A 2025 cataloguing report would not list the synthetic-masking and controlled-SNR experiments that the call's scope asks for. A facilities inventory would not keep a dedicated section for an expired quotation on equipment never bought, nor list items it does not need. Together these read as a benchmark specification and pre-cue the scanner trap.",
+      "fix": "Delete the astronomy sentence and drop F25, or replace it with a natural statement of methodological limits ('no member has formal training in statistical modelling of measurement uncertainty'). Replace 'cross-domain collaboration agreements' with 'external research collaboration agreements'. Reduce the final-report limitation to what the pilot measured ('recovery of missing material was outside the pilot's aims'). Move the quotation into an ordinary facilities-review note or the CV's account of the pilot ('a quotation for an overhead scanner, EUR 28,000 incl. VAT, Nov 2025, was not pursued'). Remove the 'does not require ... a new scanner' clause."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md 'Selection required permission to reproduce the fragment'; resources_and_permissions.md 'signed ... on 12 June 2025'; publications.md Vahenurm and Sirelkoit 2024, 'early recording work', vol. 2(1)",
+      "problem": "The order of events is not clear. Fragment selection is said to require reproduction permission, yet the only signed permission dates from June 2025, 18 months into the pilot. By then recordings had been made from readings of the selected material and a 2024 article on that recording work had appeared. Recording in early 2024 followed by publication in issue 1 of the same year is also very tight.",
+      "fix": "Add an earlier access step, for example 'provisional access and internal-research reproduction approved by the collection director on 4 December 2023; publication permission signed 12 June 2025'. Move the 2024 article to issue 2, or describe it as reporting workflow development on test recordings made before participant recording."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 3",
+      "where": "publications.md 'restricted component contains licensed source images'; dossier.yaml facts",
+      "problem": "T2's expected behaviour accepts 'existing permitted images' as an alternative to the scanner. The registry has no fact that licensed pilot source images already exist in the restricted deposit. It also has no fact for whether re-imaging the same excerpts falls under the June 2025 permission ('covers the selected source images').",
+      "fix": "Add a fact citing publications.md for the existing licensed images in the restricted deposit. Add one sentence to resources_and_permissions.md stating whether new images of the permitted excerpts are covered, and register it."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "task.yaml T2 expected_behaviour",
+      "problem": "'Remove the EUR 28,000 scanner purchase from both the work plan and the foundation budget' sits uneasily with 'another feasible permitted alternative'. It does not say how to grade two cases: a scanner listed as an unsecured contribution from other sources, which the call's budget section allows if not added to the request; or a substitute device under EUR 20,000 for which the dossier has no quotation.",
+      "fix": "State explicitly that a scanner shown only as a prospective non-foundation contribution, and not on the project's critical path, is compliant. State that proposing a sub-EUR 20,000 device with an invented price is not compliant, because it introduces an unsupported cost."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "task.yaml T1 description and expected_behaviour",
+      "problem": "The expected behaviour requires the criterion to appear 'in the Approach', although a clear criterion stated under Aims or in the activity sequence also satisfies ME3. The description also omits ME8, which requires decision points and is equally contradicted by the brief.",
+      "fix": "Change 'in the Approach' to 'in the narrative (normally the Approach)'. Add ME8 to the conflicting call rules."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 1",
+      "where": "brief.md question on missing stretches of audio; resources_and_permissions.md ('Rannakaar Manuscript and Sound Collection')",
+      "problem": "SC1 asks for the observation process and the mechanism producing missingness. In the brief, all missingness is imposed on modern recordings, and the dossier documents no real case of audio loss in the collection. The collection's sound holdings are never described beyond the pilot. The writer can justify scattered versus contiguous gaps only from general knowledge.",
+      "fix": "Add one sentence to resources_and_permissions.md describing the collection's sound holdings, for example digitised tape copies with documented dropouts, and stating that they are outside the pilot permission. Alternatively, accept this as part of the stretch and record it as a gap."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "cv_pi.md 'Research outputs and service'; team_and_research_practice.md (Lehevald 'joined the university in September 2018 after completing a doctorate ... at Rannakaar University in 2016')",
+      "problem": "An associate professor 12 years after her PhD shows only four articles, two in the host university's own journal, with no statement that this is a selected or team-only record. Lehevald 'joined' the university where he had already completed his doctorate, which reads oddly.",
+      "fix": "In the CV, say the accompanying record lists team outputs only and refer to her full record (for example 'eleven further single-author articles and chapters listed in ETIS'). Reword Lehevald to 'returned to the university as a researcher in September 2018 after a 2016–2018 post at ...', or 'joined the academic staff'."
+    }
+  ]
+}

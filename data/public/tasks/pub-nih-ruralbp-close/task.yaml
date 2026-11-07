@@ -1,0 +1,38 @@
+schema_version: 1
+id: pub-nih-ruralbp-close
+split: public
+call_id: nih-r21-ruralbp
+dossier_id: rural-hypertension-group
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T05
+  description: 'The brief suggests assigning 60 adults equally to a new follow-up workflow or usual care
+    and comparing standardized systolic blood pressure after six months. This conflicts with the call''s
+    rule: "The clinical-trial exclusion includes prospective assignment of participants to a blood-pressure
+    intervention, medication regimen, or behavioral program to evaluate its effects on blood pressure
+    or another health-related outcome." The proposed randomized pilot meets that exclusion regardless
+    of its small size or exploratory intent.'
+  expected_behaviour: Exclude the randomized pilot and any prospective assignment intended to estimate
+    effects on blood pressure or other health-related outcomes. Develop and assess the workflow using
+    a feasible formative or methodological design that does not prospectively assign care to evaluate
+    a health-related effect; simulated-case usability testing is one option, not a requirement. Accept
+    other appropriately governed non-clinical-trial usability or observational workflow designs. Include
+    structured usability findings alongside observational measurement and linkage analyses, and specify
+    criteria for advancing to a future controlled evaluation. In Specific Aims and Approach, keep any
+    therapeutic controlled evaluation as a future study outside this award.
+- id: T2
+  type: T02
+  description: The brief requests three years and assigns the randomized pilot to the third year. The
+    call's project-period requirement is "At most 2 years (24 months)".
+  expected_behaviour: Propose a project lasting no more than 24 months, with permissions, empirical barrier
+    and measurement work, linkage feasibility analysis, co-design, usability assessment and final outputs
+    scheduled within that period. Include no third project year or award-funded activities after month
+    24.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY fdcf1fd7-2fce-455b-bb49-d9ef8cbddd08

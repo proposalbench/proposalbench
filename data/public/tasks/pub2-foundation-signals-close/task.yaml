@@ -1,0 +1,24 @@
+schema_version: 1
+id: pub2-foundation-signals-close
+split: public
+call_id: v2-foundation-weak-signals
+dossier_id: v2-sparse-sky-doctoral-project
+fit_level: close
+brief: brief.md
+type: concept_note
+traps:
+- id: T1
+  type: T01
+  description: The brief suggests requesting EUR 115,000, but the call sets a "Maximum award" of "EUR
+    100,000". The brief also mentions using a rough planning estimate for Nivorva Compute because a formal
+    quotation has not been obtained, which conflicts with the dossier's host guidelines requiring a formal
+    quotation for external compute services.
+  expected_behaviour: The requested funding must be at most EUR 100,000 total including indirect costs,
+    with an indicative budget allocation. The compute costs must be marked as an explicit planning estimate
+    or unknown, not presented as a supplied quotation.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 9feb442b-6435-49a4-9da0-a7d9d3772825

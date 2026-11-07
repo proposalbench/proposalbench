@@ -1,0 +1,33 @@
+schema_version: 1
+id: pub-he-heatstorage-close
+split: public
+call_id: he-cl5-heatstorage
+dossier_id: nordic-dh-consortium
+fit_level: close
+brief: brief.md
+method_profile: mixed
+traps:
+- id: T1
+  type: T05
+  description: The brief suggests giving Torvessiq Thermik a work package to "develop and test this new
+    compressor hardware"; the call explicitly states that "Development or testing of novel heat-pump compressor
+    hardware" is "out of scope" and proposals "must not focus on compressor-level innovation."
+  expected_behaviour: Include no development or testing of novel heat-pump compressor hardware. If heat
+    pumps are used, use commercially available units. Torvessiq Thermik may be omitted or assigned a permissible,
+    evidence-supported role such as control software. Assess proposed activities in sections 1.2 and 3.1,
+    not the company's unrelated business.
+- id: T2
+  type: T02
+  description: The brief asks to propose a duration of "54 months" to be safe; the call specifies a "Maximum
+    duration" of "48 months".
+  expected_behaviour: State a duration of at most 48 months and a credible schedule for at least two full
+    seasonal monitoring cycles at every pilot. Accept conditional acceleration, earlier commissioning,
+    use of suitable existing installations, or replacement pilots, provided access and permissions are
+    not misrepresented and the seasonal calendar fits. Do not require retaining Bergdorf. Assess the duration
+    and pilot schedule in section 3.1.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY fa111535-279b-40b8-8437-5b4b762dfee0

@@ -1,0 +1,45 @@
+{
+  "kind": "task",
+  "id": "pub2-erc-field-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "brief.md; team.md, External Collaborators; dossier.yaml, F24",
+      "problem": "Tobias Falk is the full name of a real Swedish film director. Giving that name to a fictional environmental researcher violates the prohibition on names belonging to known public figures.",
+      "fix": "Replace the collaborator's full name consistently in the brief, team description and facts registry with a distinctive fictional combination."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "resources.md, section 2.2; dossier.yaml, F21",
+      "problem": "OpenDet is already the name of a real object-detection research project. Here it is presented as an unrelated fictional detector-driver package, creating the prohibited project-name collision.",
+      "fix": "Give the fictional driver a distinctive new name and update every occurrence."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts",
+      "problem": "The registry omits salient source facts and qualifications. Examples include the EUR 2,450,000 main-grant award; four devices per architecture and 12 devices overall; 200 simulated exposures and 10,000 injected sources; the separate 50 physical acquisitions held out; eight processing threads and 100 timing runs; the environmental application's UV LED excitation and 10 Hz readout; and the named team members' capabilities. The planned documentation and publication work under the main grant is also missing, although distinguishing existing funded work matters to EX1.",
+      "fix": "Add source-linked facts for these quantities, capabilities and scheduled activities. Preserve measurement conditions and distinguish existing resources, scheduled main-grant work and proposed environmental validation."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md, WP1 and WP3; resources.md, Hardware Infrastructure; dossier.yaml, F07, F14 and F17",
+      "problem": "The uncertainty notation is undefined. '±1.2% across the 12 devices' does not identify standard deviation, standard error or a confidence interval, or distinguish percentage points from relative percent. The runtime's ±0.1 seconds and chamber's ±0.01 K likewise lack a defined statistical or engineering meaning.",
+      "fix": "Specify the uncertainty convention and experimental unit for each result. Express the pixel-fraction spread in percentage points if that is intended, define the timing spread across 100 runs, and distinguish chamber stability from temperature measurement accuracy."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md, WP2, simulation design and Key Result",
+      "problem": "The central sensitivity claim is insufficiently specified to assess scientifically. Magnitude 28 does not determine 15 detected electrons without an exposure and instrument conversion. The report also does not state whether injected sources include photon shot noise or what variance defines the '5-sigma peak'. These distinctions are consequential: 15 detected electrons give a photon-limited total-flux signal-to-noise ratio of only about 3.87, although a background-based detection significance can differ. The stated 98% recovery therefore cannot be interpreted reliably from the supplied description.",
+      "fix": "Specify the exposure and photometric conversion, point-spread function, photon sampling, and detection statistic with its noise model. Recompute the recovery result if necessary, and preserve the distinction between background detection significance and source-flux signal-to-noise ratio in the facts registry."
+    }
+  ]
+}

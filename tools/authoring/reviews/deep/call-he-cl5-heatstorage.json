@@ -1,0 +1,40 @@
+{
+  "kind": "call",
+  "id": "he-cl5-heatstorage",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "data/public/calls/he-cl5-heatstorage/call.md, Eligibility: 'At least three independent legal entities, each established in a different EU Member State or Associated Country, at least one of them in a Member State.' The same wording appears in call.yaml eligibility.consortium.notes.",
+      "problem": "The minimum is missing the requirement that these entities participate as beneficiaries. Annex B requires three independent beneficiaries, not merely three participating entities. Affiliated entities and associated partners cannot supply the minimum. As written, an applicant can satisfy the visible wording with two beneficiaries and an independent associated partner in a third eligible country; the real scheme would reject that arrangement. This matters especially to heatstorage-stretch, whose hidden T2 correctly requires beneficiaries although the call never says so.",
+      "fix": "Replace the eligibility sentence in both files with: 'The consortium must include, as beneficiaries, at least three mutually independent legal entities established in three different EU Member States or Associated Countries, including at least one entity established in a Member State. Affiliated entities and associated partners do not count towards this minimum.' Preserve min_entities: 3 and min_countries: 3.",
+      "evidence": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf",
+        "data/public/calls/he-cl5-heatstorage/call.yaml",
+        "data/public/tasks/pub-he-heatstorage-stretch/task.yaml"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 4",
+      "where": "data/public/calls/he-cl5-heatstorage/call.md, Scope opening: 'Heating accounts for roughly half of final energy consumption in the EU'.",
+      "problem": "The Commission's commonly cited approximately one-half figure covers heating and cooling together. This is background wording, not a scored requirement.",
+      "fix": "Replace 'Heating accounts' with 'Heating and cooling account'.",
+      "evidence": [
+        "https://energy.ec.europa.eu/news/have-your-say-eus-electrification-action-plan-and-heating-and-cooling-strategy-2025-08-28_en"
+      ]
+    }
+  ],
+  "checked": [
+    "Call 1: independently checked Annexes A/B/D/G and RIA/IA application form V5.1 (22 January 2026): actual-cost funding, 40-page ceiling, excess-page treatment, full Part B structure and current resource-table instructions. Existing template corrections are correct and are not reopened. Sources: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf ; https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia_en.pdf",
+    "Call 1: 0–5 scoring, half marks, 3 per criterion, 10 overall, and unweighted RIA criteria verified against evaluation form V4.0 (12 November 2025): https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/ef/ef_he-ria-ia_en.pdf",
+    "Call 1/3: invented topic, conditions, amounts and duration are disclosed; optional official section 2.3 is explicitly required as a benchmark restriction; 40 × 450 = 18,000 words, zero tolerance, exempt title/references and narrative EU-contribution request are explicit adaptations. Compared all required section ids, eligibility values and every EO/SC/EX/ME text with call.md; no text/value mismatch.",
+    "Call 2/4: checked 4 outcomes, 6 scope items, 2 exclusions and 5 mandatory elements. Three district-connected pilots, two sources each, <=55 C, two complete seasonal cycles, tariff research, open tools/data and DNSH can coexist within 48 months through early commissioning or existing-site retrofits. EUR 7m is plausible for research/retrofit pilots, not an assumed allowance for three wholly new commercial plants. Sector and scale comparators: https://cordis.europa.eu/project/id/101136136 ; https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-8-climate-energy-and-mobility_horizon-2026-2027_en.pdf",
+    "Call 5/6: PB-HE identifiers are explicitly fictional; no real named applicant/project or hidden trap/rubric language. Earlier reviews read as context only: tools/authoring/reviews/call-he-cl5-heatstorage.json."
+  ]
+}

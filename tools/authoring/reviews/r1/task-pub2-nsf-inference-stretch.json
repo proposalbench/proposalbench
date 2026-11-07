@@ -1,0 +1,31 @@
+{
+  "kind": "task",
+  "id": "pub2-nsf-inference-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "brief.md, 'just accepted'; task.yaml, T1; publications.md, status dated 25 September 2026",
+      "problem": "The publication-status trap is temporally ambiguous. The brief is undated, and acceptance could have occurred after 25 September but before the benchmark present date. The supplied documents therefore do not unambiguously establish that the applicant's acceptance claim is false.",
+      "fix": "Date the brief and provide a publication-status record explicitly current through that date, confirming that the manuscript remains under review. Preserve the applicant's mistaken suggestion without adding a warning to the brief."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md, section 3; publications.md, sensor-fault manuscript abstract; dossier.yaml, F12–F13",
+      "problem": "The sensor-fault guarantee lacks a necessary distinction between fixed and changing attack support. The model permits f(k) to have any s nonzero entries at each time, but ordinary 2s-sparse observability concerns removing a fixed set of sensor channels over an observation horizon. That condition alone does not establish recovery when attacked channels can change arbitrarily at every step. 'Graph observability matrix' and '2s-sparse strong observability' are also undefined, leaving the central preliminary result impossible to assess.",
+      "fix": "Define the observation horizon and observability operator. Either restrict faults to an unknown fixed set of at most s sensor channels and state the corresponding sparse-observability condition, or supply the stronger distinguishability condition required for changing support. Define isolation as recovery of nonzero injected faults, distinguishing it from identifying compromised sensors that inject zero. Update the abstract and registry consistently."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts; prior_project.md, sections 2 and 5; resources_team.md, section 2",
+      "problem": "The facts registry omits proposal-relevant conditions and resources. F09 records the delay inequality without the fixed, undirected graph, symmetric Laplacian, uniform delay, and continuous-history assumptions that limit the theorem. The registry also omits the four GPU nodes with four GPUs each, existing software/container resources, and the remaining seed-grant expenditure amounts and support durations.",
+      "fix": "Add sourced facts for the theorem's complete assumptions, the GPU and software resources, and the $24,000 graduate support over two semesters, $3,500 travel, and $6,000 publication/computing expenditure. Distinguish existing ROS2/container access from the planned sensor-fault validation framework."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "call",
+  "id": "v2-nih-a1-stress-adherence",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "data/public/calls/v2-nih-a1-stress-adherence/call.md, Review criteria: \"Protections for human subjects, inclusion of women, minorities and individuals across the lifespan, vertebrate-animal welfare and biohazards are Additional Review Criteria when applicable.\"",
+      "problem": "Inclusion is incorrectly classified as an Additional Review Criterion. Under the simplified framework applicable to these 2027 R21 submissions, inclusion is assessed within scored Factor 2. The call expressly claims to use that framework; this is not an identified fictional restriction.",
+      "fix": "Remove 'inclusion of women, minorities and individuals across the lifespan' from the Additional Review Criteria sentence. Add to the Factor 2 focus: 'Appropriateness of inclusion for the scientific question, and feasibility of recruiting and retaining the proposed population across age, race, ethnicity and sex.' Keep human-subject protections, vertebrate-animal protections and biohazards as Additional Review Criteria.",
+      "evidence": [
+        "https://grants.nih.gov/policy-and-compliance/policy-topics/peer-review/simplifying-review/framework",
+        "https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html"
+      ]
+    }
+  ],
+  "checked": [
+    "Read call.md and call.yaml, the NIH resubmission skeleton, checklist, design_v2 second-opinion decisions, scoring_spec and pitfall_taxonomy. Earlier automated reviews were treated as leads, not accepted without rechecking.",
+    "Verified R21 purpose, optional preliminary data, direct-cost limits USD 275,000 total / USD 200,000 per year, two-year maximum, applicant eligibility, trial prohibition and factor scoring against https://grants.nih.gov/grants/guide/pa-files/PA-25-304.html.",
+    "Verified single A1, summary statement first, 37-month window, Introduction and no revision markup against https://grants.nih.gov/grants-process/submit/submission-policies/resubmission-applications.",
+    "Verified 1/1/6-page Introduction/Aims/Strategy and attachment-format basis against https://grants.nih.gov/grants-process/write-application/how-to-apply-application-guide/page-limits and https://grants.nih.gov/grants-process/write-application/how-to-apply-application-guide/format-attachments.",
+    "Clinical-trial definition checked against https://grants.nih.gov/policy-and-compliance/policy-topics/clinical-trials/definition. Observational measurement and retention contact can remain eligible; an assigned adherence intervention would need a different notice.",
+    "Visible and hidden outcomes, scope, exclusions and mandatory elements match after whitespace normalization. The 600/600/3,600 sectional ceilings, combined 4,800 words, zero tolerance, budget, duration and language agree.",
+    "Fictional identifiers, emphasis and deadline are identified as fictional; invented topic restrictions are scientifically plausible. Both assigned dossiers can retain their underlying A0 while changing measures, sampling and inference, with pending resources represented as conditional."
+  ]
+}

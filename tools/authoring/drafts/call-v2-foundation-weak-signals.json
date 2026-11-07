@@ -1,0 +1,114 @@
+{
+  "kind": "call",
+  "id": "v2-foundation-weak-signals",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "23f6d1e86359a1593af4a59350a4591c5a7a81fa730c1d8f5c9e11cd1a0822a6",
+  "draft": {
+    "title": "Recovering weak signals from incomplete observations",
+    "expected_outcomes_intro": "Projects should help researchers and communities responsible for scientific or cultural records judge what incomplete observations can support. The intended advance is a defensible basis for interpreting weak signals and deciding whether further investigation is warranted.",
+    "expected_outcomes": [
+      "Researchers can better distinguish weak signals from noise and artefacts introduced by missing observations, with clearer grounds for accepting or rejecting an interpretation.",
+      "Users of incomplete scientific or cultural records understand which conclusions remain credible under uncertainty and which require additional evidence.",
+      "Teams and prospective research partners can make better-supported decisions about further observation, methodological development or discontinuing an unpromising approach."
+    ],
+    "scope_intro": "Incomplete observations can obscure a signal or create an apparent pattern through selective recording, uneven coverage or loss. Proposals should investigate a bounded recovery problem in which the distinction matters for scientific understanding or cultural interpretation.\n\nAstronomy and cultural acoustics are illustrative domains, not required fields or a required pairing. Proposals may develop a method within one domain or examine its transfer between domains. Initial feasibility may be established through theoretical reasoning, documented source characteristics, simulation or existing evidence; new preliminary data are not required.",
+    "scope": [
+      "Characterise the observation process and the mechanism producing missingness, identifying how each could obscure the signal or generate a misleading pattern.",
+      "Develop or adapt a recovery method for a defined signal and source of incomplete observations.",
+      "Evaluate the proposed method against a relevant alternative using an appropriate theoretical test, simulation, controlled omission or independent evidence.",
+      "Assess how uncertainty in noise, missingness and modelling assumptions changes the interpretation of recovered signals.",
+      "Identify the additional evidence or methodological change that would most usefully inform a subsequent research decision."
+    ],
+    "exclusions": [
+      "Methods evaluated only on complete observations, without investigating the consequences of missing evidence.",
+      "Restoration undertaken solely for aesthetic enhancement or presentation quality, without evaluating whether recovered features are supported by the observations.",
+      "Reconstruction that treats inferred cultural content or scientific measurements as authenticated observations without retaining their inferred status and uncertainty."
+    ],
+    "mandatory_elements": [
+      "State a falsifiable central question and identify a result or observation that would count against the proposed explanation or method.",
+      "Explain initial feasibility using available evidence or reasoned methodological grounds, and distinguish demonstrated capability from assumptions still to be tested.",
+      "Identify the principal uncertainty, how it will be assessed, and any circumstances in which the signal would remain indistinguishable from noise or missingness artefacts.",
+      "Provide an indicative sequence of activities and decision points, showing when feasibility and interpretation will be assessed.",
+      "For each data source, archive, instrument or collaboration on which the project depends, state whether access is confirmed, requested or prospective.",
+      "For a doctoral lead, explain the responsible faculty sponsor's oversight role at the established host and state whether that responsibility has been agreed; the named supervisor may fulfil this role."
+    ],
+    "conditions": {
+      "max_budget": 100000,
+      "duration_months_max": 24,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": null
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Recovering weak signals from incomplete observations",
+        "expected_outcomes_intro": "Projects should help researchers and communities responsible for scientific or cultural records judge what incomplete observations can support. The intended advance is a defensible basis for interpreting weak signals and deciding whether further investigation is warranted.",
+        "expected_outcomes": [
+          "Researchers can better distinguish weak signals from noise and artefacts introduced by missing observations, with clearer grounds for accepting or rejecting an interpretation.",
+          "Users of incomplete scientific or cultural records understand which conclusions remain credible under uncertainty and which require additional evidence.",
+          "Teams and prospective research partners can make better-supported decisions about further observation, methodological development or discontinuing an unpromising approach."
+        ],
+        "scope_intro": "Incomplete observations can obscure a signal or create an apparent pattern through selective recording, uneven coverage or loss. Proposals should investigate a bounded recovery problem in which the distinction matters for scientific understanding or cultural interpretation.\n\nAstronomy and cultural acoustics are illustrative domains, not required fields or a required pairing. Proposals may develop a method within one domain or examine its transfer between domains. Initial feasibility may be established through theoretical reasoning, documented source characteristics, simulation or existing evidence; new preliminary data are not required.",
+        "scope": [
+          "Characterise the observation process and the mechanism producing missingness, identifying how each could obscure the signal or generate a misleading pattern.",
+          "Develop or adapt a recovery method for a defined signal and source of incomplete observations.",
+          "Evaluate the proposed method against a relevant alternative using an appropriate theoretical test, simulation, controlled omission or independent evidence.",
+          "Assess how uncertainty in noise, missingness and modelling assumptions changes the interpretation of recovered signals.",
+          "Identify the additional evidence or methodological change that would most usefully inform a subsequent research decision."
+        ],
+        "exclusions": [
+          "Methods evaluated only on complete observations, without investigating the consequences of missing evidence.",
+          "Restoration undertaken solely for aesthetic enhancement or presentation quality, without evaluating whether recovered features are supported by the observations.",
+          "Reconstruction that treats inferred cultural content or scientific measurements as authenticated observations without retaining their inferred status and uncertainty."
+        ],
+        "mandatory_elements": [
+          "State a falsifiable central question and identify a result or observation that would count against the proposed explanation or method.",
+          "Explain initial feasibility using available evidence or reasoned methodological grounds, and distinguish demonstrated capability from assumptions still to be tested.",
+          "Identify the principal uncertainty, how it will be assessed, and any circumstances in which the signal would remain indistinguishable from noise or missingness artefacts.",
+          "Provide an indicative sequence of activities and decision points, showing when feasibility and interpretation will be assessed.",
+          "Describe the team's relevant capacity and essential access dependencies. Identify whether access, collaboration and contributions are confirmed, requested or prospective, using only dossier-supported claims.",
+          "For a doctoral lead, explain the responsible faculty sponsor's oversight role at the established host and state whether that responsibility has been agreed; the named supervisor may fulfil this role.",
+          "Define an observable decision criterion for continuing, revising or stopping the proposed line of inquiry, and explain how each outcome would shape the next research step."
+        ],
+        "conditions": {
+          "max_budget": 100000,
+          "duration_months_max": 24,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": null
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Call 6",
+          "where": "call.md 'Specific conditions and mandatory elements', ninth bullet, and call.yaml ME9: '…confirmed, requested or prospective, using only dossier-supported claims.'",
+          "problem": "The applicant-facing call names the benchmark's dossier and warns against making unsupported claims. Both are benchmark mechanics that a funder's text would never contain.",
+          "fix": "Delete 'using only dossier-supported claims' from ME9 in both files. The rewrite in the next issue avoids it.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md and call.yaml ME11: 'Define an observable decision criterion for continuing, revising or stopping the proposed line of inquiry, and explain how each outcome would shape the next research step.'",
+          "problem": "ME11 restates the fixed template element ME3 ('Specify the evidence-based criterion for deciding … whether to continue, redirect or stop the research'). Only the verbs differ. Its second clause overlaps SC5 (evidence that would inform a subsequent research decision). The same go/stop demand therefore appears in ME3, ME8, ME11, SC5 and EO3, so one passage would satisfy several items.",
+          "fix": "Delete ME11 from both files. If the 'how each outcome shapes the next step' requirement is wanted, add it to SC5, e.g. 'Identify the additional evidence or methodological change that each end-of-project outcome would call for in a subsequent proposal.'",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md and call.yaml ME9: 'Describe the team's relevant capacity and essential access dependencies. Identify whether access, collaboration and contributions are confirmed, requested or prospective…'",
+          "problem": "ME9 bundles four demands: team capacity, access dependencies, collaboration status and contribution status.\n- Team capacity repeats fixed ME4 and the Team section.\n- Contribution status repeats the Budget outline section, which uses different categories ('committed' vs 'prospective'). ME9 uses 'confirmed/requested/prospective', so the two status vocabularies conflict.",
+          "fix": "Replace ME9 in both files with: 'For each data source, archive, instrument or collaboration on which the project depends, state whether access is confirmed, requested or prospective.' Leave team capacity to ME4 and co-funding status to the Budget outline section.",
+          "part": "topic"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

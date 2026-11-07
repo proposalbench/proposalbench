@@ -1,0 +1,33 @@
+schema_version: 1
+id: pub2-he-stage1-coast-close
+split: public
+call_id: v2-he-stage1-coastal-exposure
+dossier_id: v2-coastal-transport-observatory
+fit_level: close
+brief: brief.md
+type: stage1
+traps:
+- id: T1
+  type: T12
+  description: 'The brief requests plume sampling in November 2028–March 2029, including transects towards
+    the Tagus channel, which invites an assumption of existing vessel access. Only resources.md reveals
+    the constraint: "This was the only research vessel held by any participating institution. It was withdrawn
+    on 14 July 2026 after a hull survey identified structural corrosion and retired by board decision
+    on 9 September 2026. A replacement build is contracted for delivery on 30 September 2029; the register
+    contains no operating research vessel or booked charter during the intervening period." Thus institutional
+    vessel access cannot support the proposed first-season transects.'
+  expected_behaviour: Excellence must present a feasible sampling design that accounts for the absence
+    of an operating institutional vessel in November 2028–March 2029. Compliant alternatives include a
+    shore-based design with explicit limits on channel inference, a charter-dependent transect campaign
+    with access still to be secured and a workable fallback, or moving vessel-dependent sampling to a
+    later season after replacement delivery and commissioning. The contracted replacement may be planned
+    conditionally for seasons after delivery and commissioning, never as access for November 2028–March
+    2029. Any feasible alternative respecting the recorded access constraint is acceptable. The proposal
+    must not claim an existing operating vessel or booked charter; naming the vessel-owning institution
+    is unnecessary.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY bd2f3a87-fa10-4368-94a4-52957550e683

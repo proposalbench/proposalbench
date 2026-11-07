@@ -1,0 +1,1078 @@
+{
+  "kind": "dossier",
+  "id": "v2-estuary-neighbourhood-planning-consortium",
+  "family": "anthropic",
+  "model": "opus",
+  "created": "2026-10-31",
+  "prompt_sha256": "ffc41425c19a78b09fcffadeade71d66dc9496da99336c790cfc5fcc5100c97f",
+  "draft": {
+    "applicant_type": "consortium",
+    "career_stage": "phd",
+    "disciplines": [
+      "architecture and urban planning",
+      "oceanography",
+      "public administration"
+    ],
+    "method_profile": "mixed",
+    "country": "NL",
+    "files": [
+      {
+        "path": "cv_coordinator.md",
+        "role": "cv",
+        "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae\n\n**Prof. dr. ir. Geertje Hoogvliet-Ramaker**  \nProfessor of Urban Water Planning, Section Urban Water Planning, Faculty of Architecture and Spatial Planning  \nZuidwaard University of Technology (ZUT), Dordrecht, the Netherlands  \nVersion of September 2026\n\n## Current position\n\nFull professor of Urban Water Planning at ZUT since 1 March 2017. Chair of the Section Urban Water Planning, which had 14 staff and 6 PhD candidates in September 2026.\n\nCoordinator of the Delta Neighbourhood Water Consortium. The other members are the Weser-Ems Institut für Hydrologie e.V. and the Fanø Bay Marine Institute. Signed the consortium participation agreement on behalf of ZUT on 18 June 2026.\n\n## Previous positions\n\n- 2010–2017 Associate professor, Urban Water Planning, ZUT\n- 2004–2010 Assistant professor, Department of Urbanism, Zilverweerd University, Zwolle\n- 2002–2004 Postdoctoral researcher, Department of Urbanism, Zilverweerd University\n\n## Education\n\n- 2002 PhD, Zilverweerd University. Thesis: *Room for water in post-war neighbourhoods: drainage, open space and maintenance in three Dutch towns*\n- 1996 MSc (ir.) Civil Engineering, ZUT, specialisation urban drainage\n\n## Research grants as principal investigator\n\n| Period | Funder and scheme | Project | Amount |\n|---|---|---|---|\n| 2024–2026 | ZUT Delta Futures Fund (internal competition), grant DFF-2023-06 | PB-BUURTGETIJ-26: neighbourhood flood exposure and adaptation choices in a tidal delta city | EUR 214,000 |\n| 2014–2016 | Stichting Rivierenland Kennisfonds | Maintenance and performance of retrofitted swales | EUR 96,000 |\n| 2008–2013 | NWO, Vidi | Open space as water storage in post-war neighbourhoods | EUR 600,000 |\n\nI have not coordinated a project under an EU framework programme. From 2018 to 2021 I led the Dutch case study in a transnational network on the maintenance of urban green-blue infrastructure. The partners funded that network from their own budgets.\n\n## Supervision\n\n- 9 PhD candidates supervised to completion as promotor (2010–2025).\n- 3 current PhD candidates, among them Mirthe Zwanenburg-Teeuw (since 1 September 2023; spatial analysis of neighbourhood flood exposure).\n- 31 MSc theses supervised since 2017.\n\n## Research output\n\n- 54 peer-reviewed journal articles (1999–2026), 2 edited volumes and 11 reports for municipalities and water authorities.\n- Topics: drainage-led neighbourhood design, maintenance of green-blue infrastructure, and the distribution of benefits from adaptation measures.\n- Selected recent publications are listed in the consortium publication file.\n\n## Service and advisory roles\n\n- Member, ZUT Human Research Ethics Committee, 2019–2023\n- Advisory member of the climate-adaptation working group of the municipalities in the Drechtsteden region, since 2021\n- Editorial board, *Review of Estuarine Neighbourhood Design*, since 2019\n- Reviewer for NWO Open Competition panels, 2018, 2021 and 2024\n\n## Teaching\n\n- Urban water systems (MSc, 5 EC, since 2011)\n- Design studio Delta Neighbourhoods (MSc, 15 EC, since 2017), co-taught with the Section of Urban Design\n"
+      },
+      {
+        "path": "consortium_partners.md",
+        "role": "other",
+        "content": "> Fictional document created for ProposalBench.\n\n# Delta Neighbourhood Water Consortium: partners\n\nStatus: September 2026\n\nThe consortium consists of three legal entities in three EU member states. None is owned or controlled by another, and they have no common board. The partners have worked together since January 2024 in PB-BUURTGETIJ-26 (see final report).\n\nThe consortium participation agreement was signed by ZUT on 18 June 2026, by WEIH on 25 June 2026 and by FBMI on 2 July 2026. It covers roles, background intellectual property, publication rules and the application of existing data agreements. It runs until 31 December 2029.\n\n| Partner | Country | Legal form | Lead person | Main expertise |\n|---|---|---|---|---|\n| Zuidwaard University of Technology (ZUT), Dordrecht | NL | Public university | Prof. dr. ir. Geertje Hoogvliet-Ramaker (coordinator) | Urban water planning, spatial analysis, resident co-design |\n| Weser-Ems Institut für Hydrologie e.V. (WEIH), Oldenburg | DE | Registered non-profit association | Dr. Jannis Bruhnkötter | Catchment runoff and estuarine hydrodynamics |\n| Fanø Bay Marine Institute (FBMI), Esbjerg | DK | Self-governing non-profit research institution | Dr. Ejnar Skovsende | Coastal field oceanography and water sampling |\n\n## ZUT (coordinator)\n\nThe Section Urban Water Planning studies drainage-led neighbourhood design and how the benefits of adaptation measures are distributed among households. Prof. Hoogvliet-Ramaker is the legal and scientific coordinator and signs for ZUT.\n\nThe doctoral candidate Mirthe Zwanenburg-Teeuw leads the spatial analysis: block-level exposure, distributional statistics and uncertainty estimation. She works under the supervision of Prof. Hoogvliet-Ramaker and Dr. ir. Koen Stamhuis-Weel and has no consortium management role.\n\nZUT runs the 1D–2D urban drainage model used in PB-BUURTGETIJ-26, owns the temporary logger network and hosts the household survey data. ZUT has no marine field capacity and no water-quality laboratory.\n\n## WEIH\n\nWEIH was founded in 1989 and has 52 staff, of whom 31 are scientists. Its Department of Estuarine and Catchment Hydrology is led by Dr. Bruhnkötter and covers:\n\n- rainfall-runoff modelling in lowland catchments of the Ems and Weser basins;\n- tidal hydrodynamics, salinity and suspended sediment in the Ems and Weser estuaries, using TELEMAC-2D and an in-house 1D network model.\n\nWEIH operates 14 water-level and discharge gauges in Lower Saxony. It runs a research ensemble discharge forecast for two catchments; this forecast is not an operational warning service.\n\nIn PB-BUURTGETIJ-26, WEIH set up a 1D network model of the tidal rivers around the Island of Dordrecht and produced the 50-member ensemble of river-level boundary conditions. WEIH has not modelled the transport or decay of faecal bacteria or chemical contaminants.\n\nTrack record: two DFG research grants on estuarine sediment dynamics (2016–2019, 2020–2024).\n\n## FBMI\n\nFBMI was founded in 1996 and has 38 staff. Dr. Skovsende heads Field Oceanography. FBMI measures in the Danish Wadden Sea and along the North Sea coast:\n\n- CTD and turbidity transects;\n- currents with ADCP;\n- surface flow with GPS drifter releases.\n\nBetween 2019 and 2024 FBMI collected 1,240 bathing-water samples at 18 beaches for *E. coli* and intestinal enterococci. Its ISO/IEC 17025 scope includes *E. coli* in surface waters by ISO 9308-3 (most probable number), intestinal enterococci by ISO 7899-2 (membrane filtration), and dissolved nutrients.\n\nFor six of these beaches, sampled once or twice a week in the 2019–2022 bathing seasons and two to three times a week in 2023, FBMI developed a logistic model that predicts exceedances from 48-hour rainfall, discharge at the nearest stream outlet, wind direction and tidal phase. An exceedance is a single sample above 500 MPN/100 mL *E. coli* or above 200 CFU/100 mL intestinal enterococci. These are study alarm thresholds that borrow the numbers of the 'good quality' class for coastal waters in Directive 2006/7/EC. The Directive assesses those numbers as 95th percentiles over a multi-season record, so an exceedance in this model is not a regulatory classification of the sample. The model was fitted to 486 samples from 2019–2022 (61 exceedances) and tested on the 2023 season at the same beaches: 192 samples, 34 exceedances and 158 non-exceedances. ROC AUC was 0.81 (95% CI 0.71 to 0.89). The interval comes from a bootstrap over sampling days (2,000 replicates) that kept all beaches sampled on the same day together. With six beaches, dependence between repeated samples at the same beach was not resampled separately, and the interval may be too narrow. The evaluation is documented in FBMI technical note FN-2024-03.\n\nIn PB-BUURTGETIJ-26, FBMI checked logger calibration and ran a floodwater sampling pilot (31 samples).\n\nFBMI has no in-house assays for chemical contaminants such as PFAS or pharmaceutical residues. The FBMI board approved the purchase of an LC-MS/MS system on 12 May 2026, and delivery is expected in the second quarter of 2027. Method validation has not started and no measurements exist.\n\n## Joint record\n\n- PB-BUURTGETIJ-26 (2024–2026): shared fieldwork, ensemble modelling and three co-authored PB-BUURTGETIJ-26 articles.\n- Partner meeting and model exchange workshop, Oldenburg, 18–19 November 2025.\n\nThe parts of a chain from catchment runoff through estuarine transport to coastal sites exist at separate partners, but the consortium has not yet coupled them in one study. No partner has built or operated a public early-warning service.\n"
+      },
+      {
+        "path": "prior_project.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n# Final report: PB-BUURTGETIJ-26 (2024–2026)\n\n**Neighbourhood flood exposure and adaptation choices in a tidal delta city**\n\nFunded by the ZUT Delta Futures Fund, grant DFF-2023-06, EUR 214,000, 1 January 2024 to 30 June 2026. In-kind contributions: WEIH 8 person-months, FBMI 6 person-months.  \nPrincipal investigator: Prof. dr. ir. Geertje Hoogvliet-Ramaker (ZUT).  \nSpatial analysis: Mirthe Zwanenburg-Teeuw, doctoral candidate (ZUT), supervised by the PI and Dr. ir. Koen Stamhuis-Weel.  \nPartners: Weser-Ems Institut für Hydrologie e.V. (river boundary ensemble); Fanø Bay Marine Institute (logger checks, floodwater sampling pilot).  \nReport submitted 28 July 2026. Revised 15 September 2026: section 5 brought up to date at the request of the Delta Futures Fund after its closing review.\n\n## 1. Objectives\n\n1. Estimate flood depth per urban block under combined rainfall and tidal river conditions, with validated uncertainty.\n2. Identify which households are exposed by linking modelled depth to household characteristics.\n3. Compare three adaptation options for their effect on the number and distribution of exposed and inundated households.\n4. Test a two-round co-design format with adult residents.\n\n## 2. Study area and data\n\n- **Area.** Three post-war neighbourhoods (N1–N3) on the Island of Dordrecht, bounded by tidal reaches of the Rhine–Meuse delta. They contain 240 urban blocks and 9,860 residential addresses, of which 5,170 have a ground-floor dwelling; 51% of addresses are rented.\n- **Terrain and sewers.** AHN4 elevation (0.5 m), resampled to a 2 m grid. Sewer network from the municipal sewer database (2023 version), which records house connections but not non-return valves.\n- **Address attributes.** Building year from the Basisregistratie Adressen en Gebouwen (BAG); tenure (owner-occupied, social rented, private rented) from the municipal housing register, 2024.\n- **Entrance survey, April 2024.** Threshold height above street level measured at 212 ground-floor entrances, sampled across 6 strata of building type and construction period.\n- **Household survey, May–July 2024.** 4,800 addresses were invited and 1,127 households responded (23.5%). Renters made up 38% of respondents. 214 respondents consented to be contacted for further research.\n- **Temporary monitoring, 15 August 2024 to 30 April 2025.** 38 pressure loggers at street low points in 31 blocks, plus 2 tipping-bucket rain gauges. Two loggers were lost; 36 produced complete records.\n\n## 3. Methods\n\n- **Model.** Coupled 1D sewer (SWMM 5.2) and 2D overland flow model. Outfalls with non-return flaps close when the river level exceeds the outfall level. River levels come from the WEIH 1D tidal network model.\n- **Forcing.** The design case combines 100-year rainfall (KNMI'23 high scenario for 2050) with a river level 0.5 m above mean high water. An ensemble of 50 further runs combines rainfall (KNMI'23 scenarios for 2050), river discharge, surge and tidal phase.\n- **Validation.** Seven rainfall events between September 2024 and March 2025 produced 186 logger-event peak depths (ponding above 0.02 m). Uncertainty in the error statistics was estimated with a spatial block bootstrap that resampled the 31 logger blocks (2,000 replicates).\n- **Endpoints.**\n  - *Block exposure.* A block counts as exposed when modelled depth at any street frontage exceeds 0.30 m, the median threshold height of the 212 surveyed entrances. It is reported as exposed blocks and as addresses in exposed blocks, and describes street conditions only.\n  - *Property inundation.* A ground-floor address counts as inundated when modelled depth at its frontage exceeds its entrance threshold, or when modelled sewer head at its house connection rises above the threshold level (backflow). Surveyed entrances keep their measured threshold; other addresses take the median of their stratum. No non-return valves were assumed at baseline.\n- **Distribution.** Logistic regression of living in an exposed block on income tercile, tenure, age of household head and building year. Survey weights were applied for tenure and building year; standard errors were clustered by block. For each option, the share of avoided property inundation falling to the lowest income tercile was computed among respondents in ground-floor dwellings, with the same weights.\n- **Options.** Each option was run on the design case and on all 50 ensemble members. Every option run was paired with a baseline run on identical forcing.\n  - (A) Distributed green-blue retrofit: bioswales and permeable paving that disconnect 6.8 ha of roof and paved area.\n  - (B) Two water squares with 2,900 m³ storage in total.\n  - (C) Property-level protection: at adopting addresses, thresholds raised by 0.20 m and a non-return valve fitted on the house connection. Street depths are unchanged. Uptake was set at 40% among owner-occupiers and 15% among rented dwellings, taken from stated survey intentions, and assigned to individual addresses by random draws within tenure groups (500 draws). Results are means over draws.\n- **Uncertainty in option effects.** Point estimates refer to the design case. Ranges are the 5th–95th percentiles of the paired percentage reductions across the 50 ensemble members. They show how effects vary with forcing; they are not confidence intervals and do not include model error, threshold uncertainty or, for option C, uptake. Variation across uptake draws is reported separately.\n- **Co-design.** Two workshop rounds (October 2024, March 2025), each held at two locations. Materials were 3D block models, option cards and modelled depth maps. Participants ranked the options at the end of each round.\n- **Floodwater pilot.** FBMI sampled ponded street water at 12 locations during three events (October 2024 to February 2025) and analysed *E. coli* (ISO 9308-3, most probable number) and intestinal enterococci (ISO 7899-2, membrane filtration).\n\n## 4. Results\n\n**Model performance.** Against the 186 observed peaks, flood-depth RMSE was 0.19 m (spatial bootstrap 95% CI 0.15 to 0.25 m) and mean bias +0.04 m. Error was larger where entrances lie below street level (41 peaks, RMSE 0.27 m). The largest observed event had a rainfall return period of about 8 years.\n\n**Exposure in the design case.**\n\n- Block exposure: 61 of 240 blocks (25.4%), containing 2,214 of 9,860 addresses (22.5%). Across the ensemble, the number of exposed blocks ranged from 44 to 79 (5th–95th percentile). With the same rainfall at low water, 47 blocks were exposed.\n- Property inundation: 1,034 of 5,170 ground-floor addresses (20.0%), 712 through the entrance and 322 through sewer backflow alone. Of these 1,034 addresses, 486 were owner-occupied and 548 rented.\n\n**Who is exposed.** Households in the lowest income tercile were more likely to live in an exposed block (odds ratio 1.7, 95% CI 1.2 to 2.4). The same held for social-housing renters (odds ratio 1.4, 95% CI 1.0 to 2.0).\n\n**Options.** Design case; ranges are ensemble 5th–95th percentiles of paired reductions.\n\n| Option | Addresses in exposed blocks; reduction (range) | Inundated ground-floor addresses; reduction (range) | Share of avoided inundation in lowest income tercile (respondents) |\n|---|---|---|---|\n| Baseline | 2,214 | 1,034 | – |\n| A Green-blue retrofit | 1,528; 31% (22–39%) | 690; 33% (25–41%) | 39% |\n| B Water squares | 1,815; 18% (11–26%) | 858; 17% (10–25%) | 21% |\n| C Property-level protection | 2,214; 0% | 798; 23% (16–30%) | 26% |\n\n- Exposed blocks fell from 61 to 42 under option A and to 50 under option B. Option C does not change street depths, so block exposure is unchanged.\n- The benefits of option B were concentrated in N2, where both squares lie.\n- For option C, avoided inundation in the design case ranged from 214 to 259 addresses across the 500 uptake draws (2.5th–97.5th percentile). With full uptake it would avoid 879 of 1,034 inundated addresses (85.0%). With uptake of 40% in both tenures, the lowest-tercile share of avoided inundation was 35%.\n- Among respondents, 121 of the 586 households in ground-floor dwellings were inundated at baseline, and 44% of them (weighted) were in the lowest income tercile. The shares in the table rest on 40 (A), 21 (B) and 28 (C, mean over draws) avoided cases.\n\n**Co-design.**\n\n- 36 adults took part: 20 women and 16 men, aged 21–79; 11 (31%) were social-housing renters.\n- 33 took part in round 1, 32 in round 2 and 29 in both. Six participants used an interpreter (Turkish or Arabic).\n- In round 2, 23 of 32 participants (72%) ranked option A first. 19 named the maintenance of bioswales as their main concern.\n- Residents marked 14 low points that the model did not represent. After field checks, 7 were added to the terrain model.\n\n**Floodwater pilot.** In 31 samples, median *E. coli* was 1,900 MPN/100 mL (IQR 640–5,300), and 22 of 31 samples (71%) exceeded 1,000 MPN/100 mL. Median intestinal enterococci was 420 CFU/100 mL. The pilot was not designed to attribute sources and was not linked to any transport model.\n\n## 5. Data management and ethics\n\n- **Ethics approval.** The ZUT Human Research Ethics Committee granted approval HREC-2024-031 on 2 April 2024. Amendment 1 (second workshop round, interpreters) was approved on 21 January 2025. The approval is valid until 31 December 2027.\n- **Participants.** The approved protocol covers residents aged 18 and over. It does not allow recruitment of minors until an amendment has been approved and a parent or guardian consent and assent process is in place. As of 15 September 2026 no such amendment has been submitted and no guardian process has been drafted.\n- Household geolocations (address points linked to survey answers) fall under the PB-BUURTGETIJ-26 data access agreement of 14 March 2024: analysis is permitted only in the ZUT Secure Research Environment, row-level data may not be transferred to partner laptops, and partners may receive aggregates after disclosure checking (at least 10 households per cell).\n- **Published data and code.**\n  - Block-level dataset v1.1, March 2026 (Zenodo, CC BY 4.0): 240 blocks with modelled depths, ensemble percentiles and aggregated survey indicators; cells below 10 households are suppressed.\n  - Logger time series (CC BY 4.0).\n  - Model configuration and scripts (MIT licence).\n\n## 6. Limitations\n\n- The study covers one town and three neighbourhoods; transfer to other estuaries is untested.\n- Validation rests on seven events, the largest with a rainfall return period of about 8 years. Performance for 100-year events is extrapolated.\n- No coastal surge overtopping or dike breach was modelled. River levels were imposed as boundaries, not dynamically coupled.\n- Thresholds outside the 212 surveyed entrances are stratum medians. Existing non-return valves are not recorded, so baseline backflow may be overstated.\n- Option ranges reflect forcing only; option C also depends on the assumed uptake.\n- Owner-occupiers are over-represented in the survey (renters 38% against 51% in the area). Weighting reduces but does not remove this bias. Income shares of avoided inundation rest on 121 inundated respondent households and are imprecise.\n- Co-design involved 36 self-selected adults, not a representative sample.\n- Water quality was covered only by the 31-sample pilot. No contaminant transport modelling and no chemical analyses were done.\n\n## 7. Outputs\n\n- Three peer-reviewed articles and one manuscript under review.\n- Three chapters of the doctoral thesis of M. Zwanenburg-Teeuw.\n- Four briefing sessions with municipal planners (2025–2026).\n- Oral presentation at the Estuarine Cities Research Forum 2025, Vienna.\n\n## 8. Expenditure\n\n| Category | Budget (EUR) |\n|---|---|\n| Personnel | 132,000 |\n| Temporary loggers and fieldwork | 41,500 |\n| Workshops (venues, interpreters, participant vouchers) | 18,700 |\n| Data and computing | 9,800 |\n| Publication and dissemination | 12,000 |\n| **Total** | **214,000** |\n\nActual expenditure was EUR 211,640 (98.9% of budget).\n"
+      },
+      {
+        "path": "publications.md",
+        "role": "publications",
+        "content": "> Fictional document created for ProposalBench.\n\n# Publications of the Delta Neighbourhood Water Consortium, 2022–2026\n\nConsortium staff: Hoogvliet-Ramaker, Stamhuis-Weel and Zwanenburg-Teeuw (ZUT); Bruhnkötter and Harmsbrück (WEIH); Skovsende and Kjeldbæk (FBMI). Status as of September 2026.\n\n## Peer-reviewed articles\n\n1. Zwanenburg-Teeuw, M., Hoogvliet-Ramaker, G., Bruhnkötter, J. (2026). Who gains from neighbourhood flood adaptation? Distributional effects of three options in a Dutch estuary town. *Planning for Water and Society*, 9, 45–68. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2026.1\n2. Zwanenburg-Teeuw, M., Stamhuis-Weel, K., Bruhnkötter, J., Hoogvliet-Ramaker, G. (2025). Block-level flood depth in a tidal delta city: validating a coupled drainage model with temporary loggers. *Review of Estuarine Neighbourhood Design*, 14(2), 112–131. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.1\n3. Hoogvliet-Ramaker, G., Zwanenburg-Teeuw, M., Skovsende, E. (2025). Adult residents as co-designers of flood adaptation: a two-round workshop format. *Participatory Planning Review*, 7(1), 23–41. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.2\n4. Bruhnkötter, J., Harmsbrück, G., Stamhuis-Weel, K. (2024). Tidal outfall blocking and urban drainage in estuarine towns: a one-dimensional ensemble approach. *Estuarine Hydrology Letters*, 11, e2024017. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2024.1\n5. Skovsende, E., Kjeldbæk, L. (2023). Rainfall-driven faecal indicator exceedances at Danish North Sea bathing beaches, 2019–2022. *Journal of Nearshore Water Quality*, 5(3), 201–219. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2023.1\n6. Hoogvliet-Ramaker, G. (2022). Water squares after ten years: storage, use and maintenance in four Dutch cities. *Review of Estuarine Neighbourhood Design*, 11(4), 301–322. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2022.1\n\nArticles 1–3 report PB-BUURTGETIJ-26 results. Article 4 describes the river-boundary method used in PB-BUURTGETIJ-26.\n\n## Under review\n\n- Zwanenburg-Teeuw, M., Skovsende, E., Hoogvliet-Ramaker, G. Faecal indicator bacteria in ponded floodwater: a pilot in a tidal delta town. Submitted to *Journal of Nearshore Water Quality* on 3 June 2026; under review as of September 2026.\n\n## Datasets and software\n\n- PB-BUURTGETIJ-26 block dataset, version 1.1 (2026). Zenodo, CC BY 4.0.\n- PB-BUURTGETIJ-26 temporary logger time series, 2024–2025 (2025). Zenodo, CC BY 4.0.\n- pb-buurtgetij-26-model: SWMM and 2D model configuration and analysis scripts (2026). MIT licence.\n\n## Presentations\n\n- Zwanenburg-Teeuw, M. Block-level flood exposure in a tidal delta town. Oral presentation, Estuarine Cities Research Forum 2025, Vienna.\n- Skovsende, E. Rain, rivers and bathing water: short-term exceedance prediction on the Danish North Sea coast. Invited talk, partner workshop, Oldenburg, November 2025.\n"
+      },
+      {
+        "path": "team_resources.md",
+        "role": "resources",
+        "content": "> Fictional document created for ProposalBench.\n\n# Team and resources\n\nStatus: September 2026\n\n## Doctoral researcher\n\n**Mirthe Zwanenburg-Teeuw, MSc**, PhD candidate, Section Urban Water Planning, ZUT.\n\n- **Appointment.** 1 September 2023 to 31 August 2027, 1.0 FTE, funded by the ZUT Faculty of Architecture and Spatial Planning. First-year evaluation passed on 12 July 2024. Planned thesis submission: May 2027.\n- **Supervision.** Prof. dr. ir. Geertje Hoogvliet-Ramaker (promotor) and Dr. ir. Koen Stamhuis-Weel (co-promotor). Dr. Jannis Bruhnkötter (WEIH) advises on river boundary conditions.\n- **Education.** MSc Urbanism, Zilverweerd University, 2022 (thesis on pluvial flooding and street design); BSc Spatial Planning, Zilverweerd University, 2020.\n- **Role.** Leads the spatial analysis under supervision: block delineation, linkage of modelled depth to survey data, distributional regression and spatial bootstrap. Co-facilitated both workshop rounds.\n- **Methods and tools.** QGIS, Python (geopandas, xarray), R, SWMM 5.2, batch runs on the ZUT computing cluster.\n- **Not covered.** No experience in marine fieldwork, laboratory chemistry, consortium management or research with minors.\n\n## Staff by partner\n\n| Partner | Person | Position | Role in joint work |\n|---|---|---|---|\n| ZUT | Prof. dr. ir. Geertje Hoogvliet-Ramaker | Full professor | Coordinator, promotor |\n| ZUT | Dr. ir. Koen Stamhuis-Weel | Assistant professor, hydraulic modelling | 1D–2D drainage model, co-promotor |\n| ZUT | Dr. Hanan Ouarda-Lievense | Postdoctoral researcher, participatory methods (contract to 31 March 2027) | Workshop design and facilitation |\n| ZUT | Bram Okkerse-Lindhout | Research software engineer, 0.3 FTE | Model pipeline, data publication |\n| WEIH | Dr. Jannis Bruhnkötter | Head, Estuarine and Catchment Hydrology | Estuarine and runoff modelling |\n| WEIH | Dr. Gesa Harmsbrück | Hydrodynamic modeller | 1D tidal network model, ensembles |\n| FBMI | Dr. Ejnar Skovsende | Head, Field Oceanography | Sampling design, coastal measurements |\n| FBMI | Lise Kjeldbæk | Senior field technician | Sampling, logger calibration, laboratory |\n\nApproved hire: on 9 September 2026 the ZUT faculty board approved a 0.5 FTE data steward position for the Section Urban Water Planning. The vacancy is open; the planned start date is 1 January 2027.\n\n## Existing equipment and infrastructure\n\n- **ZUT**\n  - 36 operational pressure loggers (38 bought in 2024, 2 lost) and 2 tipping-bucket rain gauges.\n  - 3D-printed block models of N1–N3 at 1:1000.\n  - Computing cluster access (faculty allocation of 200,000 core-hours per year).\n  - ZUT Secure Research Environment (managed virtual desktops), which hosts the PB-BUURTGETIJ-26 household data.\n- **WEIH**\n  - Institute computing cluster (1,920 cores).\n  - 14 water-level and discharge gauges in Lower Saxony.\n  - Working set-ups of TELEMAC-2D and the in-house 1D network model.\n- **FBMI**\n  - 9.5 m coastal survey boat.\n  - 2 CTD profilers, 1 ADCP (600 kHz), 6 automatic water samplers and 20 GPS surface drifters.\n  - Laboratory with ISO/IEC 17025 accreditation for *E. coli* in surface waters (ISO 9308-3), intestinal enterococci (ISO 7899-2) and dissolved nutrients.\n\n## Planned equipment\n\n- FBMI: LC-MS/MS system. The FBMI board approved the purchase on 12 May 2026, and delivery is expected in the second quarter of 2027. Methods for PFAS and pharmaceutical residues have not been validated.\n\n## Participants and ethics\n\n- Approval HREC-2024-031 covers adults aged 18 and over and is valid until 31 December 2027.\n- The recruitment pool consists of the 214 survey respondents who agreed to further contact. Their consent runs to 31 December 2027.\n- No team member has carried out research with minors, and none holds a current certificate of conduct (VOG) for work with children.\n- No amendment for minors has been submitted to the ethics committee, and no parent or guardian consent and assent procedure has been drafted.\n"
+      }
+    ],
+    "facts": [
+      {
+        "category": "identity",
+        "kind": "existing",
+        "text": "Prof. dr. ir. Geertje Hoogvliet-Ramaker, full professor of Urban Water Planning at ZUT since 1 March 2017, coordinates the consortium, signed its participation agreement for ZUT on 18 June 2026 and has not previously coordinated an EU framework programme project.",
+        "value": "1 March 2017",
+        "salient": true,
+        "source": "cv_coordinator.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "As principal investigator the coordinator held an NWO Vidi grant (2008–2013) on open space as water storage in post-war neighbourhoods.",
+        "value": "EUR 600,000",
+        "salient": true,
+        "source": "cv_coordinator.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "As principal investigator the coordinator held a 2014–2016 Stichting Rivierenland Kennisfonds grant on the maintenance and performance of retrofitted swales.",
+        "value": "EUR 96,000",
+        "salient": true,
+        "source": "cv_coordinator.md"
+      },
+      {
+        "category": "publication",
+        "kind": "existing",
+        "text": "The coordinator has 54 peer-reviewed journal articles (1999–2026), 2 edited volumes and 11 reports, has supervised 9 PhD candidates to completion (2010–2025), currently supervises 3 PhD candidates and has supervised 31 MSc theses since 2017.",
+        "value": "54",
+        "salient": true,
+        "source": "cv_coordinator.md"
+      },
+      {
+        "category": "position",
+        "kind": "existing",
+        "text": "Doctoral candidate Mirthe Zwanenburg-Teeuw (ZUT appointment 1 September 2023 to 31 August 2027, planned thesis submission May 2027) leads the spatial analysis under supervision and has no experience in marine fieldwork, laboratory chemistry, consortium management or research with minors.",
+        "value": "31 August 2027",
+        "salient": true,
+        "source": "team_resources.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "ZUT (NL, coordinator), WEIH (DE) and FBMI (DK) are independent legal entities in three EU member states; all signed the participation agreement in June–July 2026, and it runs until 31 December 2029.",
+        "value": "31 December 2029",
+        "salient": true,
+        "source": "consortium_partners.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "WEIH models lowland catchment runoff and Ems/Weser estuarine hydrodynamics (TELEMAC-2D, in-house 1D network model) and operates 14 gauges but has not modelled faecal bacteria or chemical contaminant transport; its ensemble discharge forecast is not an operational warning service, no partner has built or operated a public early-warning service, and the runoff–estuary–coast chain has not yet been coupled in one study.",
+        "value": "14",
+        "salient": true,
+        "source": "consortium_partners.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "FBMI collected 1,240 bathing-water samples at 18 beaches (2019–2024); its rainfall-based model, fitted to 486 samples from six beaches (2019–2022), predicted single-sample exceedances of study alarm thresholds (500 MPN/100 mL E. coli, 200 CFU/100 mL enterococci) in the 2023 hold-out season (192 samples, 34 exceedances) with ROC AUC 0.81 (95% CI 0.71 to 0.89, bootstrap over sampling days, between-beach dependence not resampled).",
+        "value": "0.81",
+        "salient": true,
+        "source": "consortium_partners.md"
+      },
+      {
+        "category": "resource",
+        "kind": "planned",
+        "text": "FBMI's board approved an LC-MS/MS purchase on 12 May 2026 with delivery expected in the second quarter of 2027; no chemical assays are validated and no measurements exist.",
+        "value": "second quarter of 2027",
+        "salient": true,
+        "source": "consortium_partners.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "Existing capacity: FBMI 9.5 m coastal survey boat, 2 CTD profilers, a 600 kHz ADCP, 6 automatic water samplers, 20 GPS drifters and an ISO/IEC 17025 laboratory for E. coli, enterococci and nutrients; ZUT 36 pressure loggers, 2 rain gauges, 200,000 core-hours per year and the Secure Research Environment; WEIH a 1,920-core cluster.",
+        "value": "9.5 m",
+        "salient": true,
+        "source": "team_resources.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "PB-BUURTGETIJ-26 was funded by the ZUT Delta Futures Fund (DFF-2023-06) from 1 January 2024 to 30 June 2026, with in-kind contributions from WEIH (8 person-months) and FBMI (6 person-months).",
+        "value": "EUR 214,000",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "budget",
+        "kind": "existing",
+        "text": "Actual PB-BUURTGETIJ-26 expenditure was EUR 211,640, 98.9% of the EUR 214,000 budget.",
+        "value": "EUR 211,640",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "PB-BUURTGETIJ-26 covered 240 urban blocks with 9,860 residential addresses (5,170 with a ground-floor dwelling) on the Island of Dordrecht; the household survey received 1,127 responses from 4,800 invited addresses (23.5%), and 214 respondents consented to further contact.",
+        "value": "240",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Against 186 logger peaks from seven events, flood-depth RMSE was 0.19 m (spatial bootstrap 95% CI 0.15 to 0.25 m), with mean bias +0.04 m.",
+        "value": "0.19 m",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "In the design case (100-year rainfall, KNMI'23 high 2050, with river 0.5 m above mean high water), 61 of 240 blocks (25.4%) containing 2,214 addresses exceeded 0.30 m at a street frontage (ensemble 44–79 blocks), and 1,034 of 5,170 ground-floor addresses (20.0%) were inundated through the entrance or sewer backflow.",
+        "value": "61 of 240 blocks (25.4%)",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Lowest-income-tercile households were more likely to live in an exposed block (odds ratio 1.7, 95% CI 1.2 to 2.4), as were social-housing renters (odds ratio 1.4, 95% CI 1.0 to 2.0).",
+        "value": "1.7",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "In paired design-case runs, the green-blue retrofit (A) reduced addresses in exposed blocks by 31% (ensemble 5th–95th percentile 22–39%) and inundated ground-floor addresses by 33%; two water squares (B) reduced them by 18% and 17%, with benefits concentrated in N2.",
+        "value": "31% (22–39%)",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Property-level protection (C), with assumed uptake of 40% among owner-occupiers and 15% among rented dwellings, left block exposure unchanged and reduced inundated ground-floor addresses by 23% (ensemble range 16–30%); 26% of avoided inundation among respondents went to the lowest income tercile.",
+        "value": "23% (16–30%)",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Two workshop rounds involved 36 adults (11 social-housing renters, 6 with interpreters); 23 of 32 round-2 participants ranked option A first, and residents identified 14 unmodelled low points, 7 of which were added to the terrain model.",
+        "value": "36",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "In FBMI's floodwater pilot, 22 of 31 ponded-street samples (71%) exceeded 1,000 MPN/100 mL E. coli (median 1,900 MPN/100 mL, IQR 640–5,300); the pilot was not linked to any transport model.",
+        "value": "22 of 31",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Under the PB-BUURTGETIJ-26 data access agreement of 14 March 2024, household geolocations may be analysed only in the ZUT Secure Research Environment, row-level data may not be transferred to partner laptops, and partners may receive aggregates after disclosure checking with at least 10 households per cell.",
+        "value": "at least 10 households per cell",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Ethics approval HREC-2024-031 (valid to 31 December 2027) covers residents aged 18 and over; as of 15 September 2026 no amendment for minors had been submitted and no guardian consent and assent process had been drafted.",
+        "value": "HREC-2024-031",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "Participatory-methods postdoc Dr. Hanan Ouarda-Lievense, responsible for workshop design and facilitation, has a contract ending 31 March 2027; the recruitment pool of 214 survey respondents who agreed to further contact has consent running to 31 December 2027.",
+        "value": "31 March 2027",
+        "salient": true,
+        "source": "team_resources.md"
+      },
+      {
+        "category": "team",
+        "kind": "planned",
+        "text": "On 9 September 2026 the ZUT faculty board approved a 0.5 FTE data steward position; the vacancy was open in September 2026 and the planned start date is 1 January 2027.",
+        "value": "1 January 2027",
+        "salient": true,
+        "source": "team_resources.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Validation covered seven events, the largest with a rainfall return period of about 8 years, so 100-year performance is extrapolated; surge overtopping and dike breaches were not modelled, river levels were not dynamically coupled, and transfer beyond one town is untested.",
+        "value": "about 8 years",
+        "salient": true,
+        "source": "prior_project.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "zwanenburg2026distribution",
+        "authors": [
+          "Zwanenburg-Teeuw, M.",
+          "Hoogvliet-Ramaker, G.",
+          "Bruhnkötter, J."
+        ],
+        "year": 2026,
+        "title": "Who gains from neighbourhood flood adaptation? Distributional effects of three options in a Dutch estuary town",
+        "venue": "Planning for Water and Society",
+        "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2026.1"
+      },
+      {
+        "key": "zwanenburg2025validation",
+        "authors": [
+          "Zwanenburg-Teeuw, M.",
+          "Stamhuis-Weel, K.",
+          "Bruhnkötter, J.",
+          "Hoogvliet-Ramaker, G."
+        ],
+        "year": 2025,
+        "title": "Block-level flood depth in a tidal delta city: validating a coupled drainage model with temporary loggers",
+        "venue": "Review of Estuarine Neighbourhood Design",
+        "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.1"
+      },
+      {
+        "key": "hoogvliet2025codesign",
+        "authors": [
+          "Hoogvliet-Ramaker, G.",
+          "Zwanenburg-Teeuw, M.",
+          "Skovsende, E."
+        ],
+        "year": 2025,
+        "title": "Adult residents as co-designers of flood adaptation: a two-round workshop format",
+        "venue": "Participatory Planning Review",
+        "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.2"
+      },
+      {
+        "key": "bruhnkotter2024outfall",
+        "authors": [
+          "Bruhnkötter, J.",
+          "Harmsbrück, G.",
+          "Stamhuis-Weel, K."
+        ],
+        "year": 2024,
+        "title": "Tidal outfall blocking and urban drainage in estuarine towns: a one-dimensional ensemble approach",
+        "venue": "Estuarine Hydrology Letters",
+        "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2024.1"
+      },
+      {
+        "key": "skovsende2023bathing",
+        "authors": [
+          "Skovsende, E.",
+          "Kjeldbæk, L."
+        ],
+        "year": 2023,
+        "title": "Rainfall-driven faecal indicator exceedances at Danish North Sea bathing beaches, 2019–2022",
+        "venue": "Journal of Nearshore Water Quality",
+        "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2023.1"
+      },
+      {
+        "key": "hoogvliet2022squares",
+        "authors": [
+          "Hoogvliet-Ramaker, G."
+        ],
+        "year": 2022,
+        "title": "Water squares after ten years: storage, use and maintenance in four Dutch cities",
+        "venue": "Review of Estuarine Neighbourhood Design",
+        "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2022.1"
+      }
+    ],
+    "reviewer_criticisms": [],
+    "gaps": [],
+    "inconsistencies": []
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "phd",
+        "disciplines": [
+          "architecture and urban planning",
+          "oceanography",
+          "public administration"
+        ],
+        "method_profile": "mixed",
+        "country": "NL",
+        "files": [
+          {
+            "path": "cv_coordinator.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae\n\n**Prof. dr. ir. Geertje Hoogvliet-Ramaker**  \nProfessor of Urban Water Planning, Section Urban Water Planning, Faculty of Architecture and Spatial Planning  \nZuidwaard University of Technology (ZUT), Dordrecht, the Netherlands  \nVersion of September 2026\n\n## Current position\n\nFull professor of Urban Water Planning at ZUT since 1 March 2017. Chair of the Section Urban Water Planning, which had 14 staff and 6 PhD candidates in September 2026.\n\nCoordinator of the Delta Neighbourhood Water Consortium. The other members are the Weser-Ems Institut für Hydrologie e.V. and the Fanø Bay Marine Institute. Signed the consortium participation agreement on behalf of ZUT on 18 June 2026.\n\n## Previous positions\n\n- 2010–2017 Associate professor, Urban Water Planning, ZUT\n- 2004–2010 Assistant professor, Department of Urbanism, IJsselland University, Zwolle\n- 2002–2004 Postdoctoral researcher, Department of Urbanism, IJsselland University\n\n## Education\n\n- 2002 PhD, IJsselland University. Thesis: *Room for water in post-war neighbourhoods: drainage, open space and maintenance in three Dutch towns*\n- 1996 MSc (ir.) Civil Engineering, ZUT, specialisation urban drainage\n\n## Research grants as principal investigator\n\n| Period | Funder and scheme | Project | Amount |\n|---|---|---|---|\n| 2024–2026 | ZUT Delta Futures Fund (internal competition), grant DFF-2023-06 | BUURTPEIL: neighbourhood flood exposure and adaptation choices in a tidal delta city | EUR 214,000 |\n| 2014–2016 | Stichting Rivierenland Kennisfonds | Maintenance and performance of retrofitted swales | EUR 96,000 |\n| 2008–2013 | NWO, Vidi | Open space as water storage in post-war neighbourhoods | EUR 600,000 |\n\nI have not coordinated a project under an EU framework programme. From 2018 to 2021 I led the Dutch case study in a transnational network on the maintenance of urban green-blue infrastructure. The partners funded that network from their own budgets.\n\n## Supervision\n\n- 9 PhD candidates supervised to completion as promotor (2010–2025).\n- 3 current PhD candidates, among them Mirthe Zwanenburg-Teeuw (since 1 September 2023; spatial analysis of neighbourhood flood exposure).\n- 31 MSc theses supervised since 2017.\n\n## Research output\n\n- 54 peer-reviewed journal articles (1999–2026), 2 edited volumes and 11 reports for municipalities and water authorities.\n- Topics: drainage-led neighbourhood design, maintenance of green-blue infrastructure, and the distribution of benefits from adaptation measures.\n- Selected recent publications are listed in the consortium publication file.\n\n## Service and advisory roles\n\n- Member, ZUT Human Research Ethics Committee, 2019–2023\n- Advisory member of the climate-adaptation working group of the municipalities in the Drechtsteden region, since 2021\n- Editorial board, *Journal of Delta Urbanism*, since 2019\n- Reviewer for NWO Open Competition panels, 2018, 2021 and 2024\n\n## Teaching\n\n- Urban water systems (MSc, 5 EC, since 2011)\n- Design studio Delta Neighbourhoods (MSc, 15 EC, since 2017), co-taught with the Section of Urban Design\n"
+          },
+          {
+            "path": "consortium_partners.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# Delta Neighbourhood Water Consortium: partners\n\nStatus: September 2026\n\nThe consortium consists of three legal entities in three EU member states. None is owned or controlled by another, and they have no common board. The partners have worked together since January 2024 in BUURTPEIL (see final report).\n\nThe consortium participation agreement was signed by ZUT on 18 June 2026, by WEIH on 25 June 2026 and by FBMI on 2 July 2026. It covers roles, background intellectual property, publication rules and the application of existing data agreements. It runs until 31 December 2029.\n\n| Partner | Country | Legal form | Lead person | Main expertise |\n|---|---|---|---|---|\n| Zuidwaard University of Technology (ZUT), Dordrecht | NL | Public university | Prof. dr. ir. Geertje Hoogvliet-Ramaker (coordinator) | Urban water planning, spatial analysis, resident co-design |\n| Weser-Ems Institut für Hydrologie e.V. (WEIH), Oldenburg | DE | Registered non-profit association | Dr. Jannis Bruhnkötter | Catchment runoff and estuarine hydrodynamics |\n| Fanø Bay Marine Institute (FBMI), Esbjerg | DK | Self-governing non-profit research institution | Dr. Ejnar Skovsende | Coastal field oceanography and water sampling |\n\n## ZUT (coordinator)\n\nThe Section Urban Water Planning studies drainage-led neighbourhood design and how the benefits of adaptation measures are distributed among households. Prof. Hoogvliet-Ramaker is the legal and scientific coordinator and signs for ZUT.\n\nThe doctoral candidate Mirthe Zwanenburg-Teeuw leads the spatial analysis: block-level exposure, distributional statistics and uncertainty estimation. She works under the supervision of Prof. Hoogvliet-Ramaker and Dr. ir. Koen Stamhuis-Weel and has no consortium management role.\n\nZUT runs the 1D–2D urban drainage model used in BUURTPEIL, owns the temporary logger network and hosts the household survey data. ZUT has no marine field capacity and no water-quality laboratory.\n\n## WEIH\n\nWEIH was founded in 1989 and has 52 staff, of whom 31 are scientists. Its Department of Estuarine and Catchment Hydrology is led by Dr. Bruhnkötter and covers:\n\n- rainfall-runoff modelling in lowland catchments of the Ems and Weser basins;\n- tidal hydrodynamics, salinity and suspended sediment in the Ems and Weser estuaries, using TELEMAC-2D and an in-house 1D network model.\n\nWEIH operates 14 water-level and discharge gauges in Lower Saxony. It runs a research ensemble discharge forecast for two catchments; this forecast is not an operational warning service.\n\nIn BUURTPEIL, WEIH set up a 1D network model of the tidal rivers around the Island of Dordrecht and produced the 50-member ensemble of river-level boundary conditions. WEIH has not modelled the transport or decay of faecal bacteria or chemical contaminants.\n\nTrack record: two DFG research grants on estuarine sediment dynamics (2016–2019, 2020–2024).\n\n## FBMI\n\nFBMI was founded in 1996 and has 38 staff. Dr. Skovsende heads Field Oceanography. FBMI measures in the Danish Wadden Sea and along the North Sea coast:\n\n- CTD and turbidity transects;\n- currents with ADCP;\n- surface flow with GPS drifter releases.\n\nBetween 2019 and 2024 FBMI collected 1,240 bathing-water samples at 18 beaches for *E. coli* and intestinal enterococci. Its laboratory is accredited to ISO/IEC 17025 for both indicators by membrane filtration (ISO 9308-1, ISO 7899-2) and for dissolved nutrients. A rainfall-based model developed by FBMI predicted indicator exceedances at six beaches with ROC AUC 0.81 (95% CI 0.76–0.86) in the 2023 hold-out season.\n\nIn BUURTPEIL, FBMI checked logger calibration and ran a floodwater sampling pilot (31 samples).\n\nFBMI has no in-house assays for chemical contaminants such as PFAS or pharmaceutical residues. The FBMI board approved the purchase of an LC-MS/MS system on 12 May 2026, and delivery is expected in the second quarter of 2027. Method validation has not started and no measurements exist.\n\n## Joint record\n\n- BUURTPEIL (2024–2026): shared fieldwork, ensemble modelling and three co-authored BUURTPEIL articles.\n- Partner meeting and model exchange workshop, Oldenburg, 18–19 November 2025.\n\nThe parts of a chain from catchment runoff through estuarine transport to coastal sites exist at separate partners, but the consortium has not yet coupled them in one study. No partner has built or operated a public early-warning service.\n"
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final report: BUURTPEIL (2024–2026)\n\n**Neighbourhood flood exposure and adaptation choices in a tidal delta city**\n\nFunded by the ZUT Delta Futures Fund, grant DFF-2023-06, EUR 214,000, 1 January 2024 to 30 June 2026. In-kind contributions: WEIH 8 person-months, FBMI 6 person-months.  \nPrincipal investigator: Prof. dr. ir. Geertje Hoogvliet-Ramaker (ZUT).  \nSpatial analysis: Mirthe Zwanenburg-Teeuw, doctoral candidate (ZUT), supervised by the PI and Dr. ir. Koen Stamhuis-Weel.  \nPartners: Weser-Ems Institut für Hydrologie e.V. (river boundary ensemble); Fanø Bay Marine Institute (logger checks, floodwater sampling pilot).  \nReport submitted 28 July 2026.\n\n## 1. Objectives\n\n1. Estimate flood depth per urban block under combined rainfall and tidal river conditions, with validated uncertainty.\n2. Identify which households are exposed by linking modelled depth to household characteristics.\n3. Compare three adaptation options for their effect on the number and distribution of exposed households.\n4. Test a two-round co-design format with adult residents.\n\n## 2. Study area and data\n\n- **Area.** Three post-war neighbourhoods (N1–N3) on the Island of Dordrecht, bounded by tidal reaches of the Rhine–Meuse delta. They contain 240 urban blocks and 9,860 residential addresses; 51% of addresses are rented.\n- **Terrain and sewers.** AHN4 elevation (0.5 m), resampled to a 2 m grid. Sewer network from the municipal sewer database (2023 version).\n- **Household survey, May–July 2024.** 4,800 addresses were invited and 1,127 households responded (23.5%). Renters made up 38% of respondents. 214 respondents consented to be contacted for further research.\n- **Temporary monitoring, 15 August 2024 to 30 April 2025.** 38 pressure loggers at street low points in 31 blocks, plus 2 tipping-bucket rain gauges. Two loggers were lost; 36 produced complete records.\n\n## 3. Methods\n\n- **Model.** Coupled 1D sewer (SWMM 5.2) and 2D overland flow model. Outfalls with non-return flaps close when the river level exceeds the outfall level. River levels come from the WEIH 1D tidal network model.\n- **Ensemble.** 50 combinations of rainfall (KNMI'23 scenarios for 2050), river discharge, surge and tidal phase.\n- **Validation.** Seven rainfall events between September 2024 and March 2025 produced 186 logger-event peak depths (ponding above 0.02 m). Uncertainty in the error statistics was estimated with a spatial block bootstrap that resampled the 31 logger blocks (2,000 replicates).\n- **Exposure.** A block counts as exposed when modelled depth at any street frontage exceeds 0.30 m. This is the median threshold height of 212 ground-floor entrances surveyed in the area.\n- **Distribution.** Logistic regression of living in an exposed block on income tercile, tenure, age of household head and building year. Survey weights were applied for tenure and building year; standard errors were clustered by block.\n- **Options.**\n  - (A) Distributed green-blue retrofit: bioswales and permeable paving that disconnect 6.8 ha of roof and paved area.\n  - (B) Two water squares with 2,900 m³ storage in total.\n  - (C) Property-level protection (raised thresholds, non-return valves). Uptake was set at 40% among owner-occupiers and 15% among rented dwellings, taken from stated survey intentions.\n- **Co-design.** Two workshop rounds (October 2024, March 2025), each held at two locations. Materials were 3D block models, option cards and modelled depth maps. Participants ranked the options at the end of each round.\n- **Floodwater pilot.** FBMI sampled ponded street water at 12 locations during three events (October 2024 to February 2025) and analysed *E. coli* and intestinal enterococci.\n\n## 4. Results\n\n**Model performance.** Against the 186 observed peaks, flood-depth RMSE was 0.19 m (spatial bootstrap 95% CI 0.15 to 0.25 m) and mean bias +0.04 m. Error was larger where entrances lie below street level (41 peaks, RMSE 0.27 m). The largest observed event had a rainfall return period of about 8 years.\n\n**Exposure.** The design case combines 100-year rainfall (KNMI'23 high scenario for 2050) with a river level 0.5 m above mean high water. In this case 61 of 240 blocks (25.4%) and 2,214 of 9,860 addresses (22.5%) were exposed. Across the ensemble, the number of exposed blocks ranged from 44 to 79 (5th–95th percentile). With the same rainfall at low water, 47 blocks were exposed.\n\n**Who is exposed.** Households in the lowest income tercile were more likely to live in an exposed block (odds ratio 1.7, 95% CI 1.2 to 2.4). The same held for social-housing renters (odds ratio 1.4, 95% CI 1.0 to 2.0).\n\n**Options.**\n\n| Option | Reduction in exposed addresses (95% CI) | Share of avoided exposure in lowest income tercile |\n|---|---|---|\n| A Green-blue retrofit | 31% (22–39%) | 39% |\n| B Water squares | 18% (11–26%) | 21% |\n| C Property-level protection | 24% (15–32%) | 26% |\n\nThe benefits of option B were concentrated in N2, where both squares lie. Results for option C depend on the assumed uptake.\n\n**Co-design.**\n\n- 36 adults took part: 20 women and 16 men, aged 21–79; 11 (31%) were social-housing renters.\n- 33 took part in round 1, 32 in round 2 and 29 in both. Six participants used an interpreter (Turkish or Arabic).\n- In round 2, 23 of 32 participants (72%) ranked option A first. 19 named the maintenance of bioswales as their main concern.\n- Residents marked 14 low points that the model did not represent. After field checks, 7 were added to the terrain model.\n\n**Floodwater pilot.** In 31 samples, median *E. coli* was 1,900 CFU/100 mL (IQR 640–5,300), and 22 of 31 samples (71%) exceeded 1,000 CFU/100 mL. Median intestinal enterococci was 420 CFU/100 mL. The pilot was not designed to attribute sources and was not linked to any transport model.\n\n## 5. Data management and ethics\n\n- **Ethics approval.** The ZUT Human Research Ethics Committee granted approval HREC-2024-031 on 2 April 2024. Amendment 1 (second workshop round, interpreters) was approved on 21 January 2025. The approval is valid until 31 December 2027.\n- **Participants.** The approved protocol covers residents aged 18 and over. It does not allow recruitment of minors until an amendment has been approved and a parent or guardian consent and assent process is in place. As of September 2026 no such amendment has been submitted and no guardian process has been drafted.\n- Household geolocations (address points linked to survey answers) fall under the BUURTPEIL data access agreement of 14 March 2024: analysis is permitted only in the ZUT Secure Research Environment, row-level data may not be transferred to partner laptops, and partners may receive aggregates after disclosure checking (at least 10 households per cell).\n- **Published data and code.**\n  - Block-level dataset v1.1, March 2026 (Zenodo, CC BY 4.0): 240 blocks with modelled depths, ensemble percentiles and aggregated survey indicators; cells below 10 households are suppressed.\n  - Logger time series (CC BY 4.0).\n  - Model configuration and scripts (MIT licence).\n\n## 6. Limitations\n\n- The study covers one town and three neighbourhoods; transfer to other estuaries is untested.\n- Validation rests on seven events, the largest about an 8-year rainfall event. Performance for 100-year events is extrapolated.\n- No coastal surge overtopping or dike breach was modelled. River levels were imposed as boundaries, not dynamically coupled.\n- Owner-occupiers are over-represented in the survey (renters 38% against 51% in the area). Weighting reduces but does not remove this bias.\n- Co-design involved 36 self-selected adults, not a representative sample.\n- Water quality was covered only by the 31-sample pilot. No contaminant transport modelling and no chemical analyses were done.\n\n## 7. Outputs\n\n- Three peer-reviewed articles and one manuscript under review.\n- Three chapters of the doctoral thesis of M. Zwanenburg-Teeuw.\n- Four briefing sessions with municipal planners (2025–2026).\n- Oral presentation at the EGU General Assembly 2025.\n\n## 8. Expenditure\n\n| Category | Budget (EUR) |\n|---|---|\n| Personnel | 132,000 |\n| Temporary loggers and fieldwork | 41,500 |\n| Workshops (venues, interpreters, participant vouchers) | 18,700 |\n| Data and computing | 9,800 |\n| Publication and dissemination | 12,000 |\n| **Total** | **214,000** |\n\nActual expenditure was EUR 211,640 (98.9% of budget).\n"
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications of the Delta Neighbourhood Water Consortium, 2022–2026\n\nConsortium staff: Hoogvliet-Ramaker, Stamhuis-Weel and Zwanenburg-Teeuw (ZUT); Bruhnkötter and Harmsbrück (WEIH); Skovsende and Kjeldbæk (FBMI). Status as of September 2026.\n\n## Peer-reviewed articles\n\n1. Zwanenburg-Teeuw, M., Hoogvliet-Ramaker, G., Bruhnkötter, J. (2026). Who gains from neighbourhood flood adaptation? Distributional effects of three options in a Dutch estuary town. *Planning for Water and Society*, 9, 45–68. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2026.1\n2. Zwanenburg-Teeuw, M., Stamhuis-Weel, K., Bruhnkötter, J., Hoogvliet-Ramaker, G. (2025). Block-level flood depth in a tidal delta city: validating a coupled drainage model with temporary loggers. *Journal of Delta Urbanism*, 14(2), 112–131. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.1\n3. Hoogvliet-Ramaker, G., Zwanenburg-Teeuw, M., Skovsende, E. (2025). Adult residents as co-designers of flood adaptation: a two-round workshop format. *Participatory Planning Review*, 7(1), 23–41. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.2\n4. Bruhnkötter, J., Harmsbrück, G., Stamhuis-Weel, K. (2024). Tidal outfall blocking and urban drainage in estuarine towns: a one-dimensional ensemble approach. *Estuarine Hydrology Letters*, 11, e2024017. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2024.1\n5. Skovsende, E., Kjeldbæk, L. (2023). Rainfall-driven faecal indicator exceedances at Danish North Sea bathing beaches, 2019–2022. *Journal of Nearshore Water Quality*, 5(3), 201–219. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2023.1\n6. Hoogvliet-Ramaker, G. (2022). Water squares after ten years: storage, use and maintenance in four Dutch cities. *Journal of Delta Urbanism*, 11(4), 301–322. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2022.1\n\nArticles 1–3 report BUURTPEIL results. Article 4 describes the river-boundary method used in BUURTPEIL.\n\n## Under review\n\n- Zwanenburg-Teeuw, M., Skovsende, E., Hoogvliet-Ramaker, G. Faecal indicator bacteria in ponded floodwater: a pilot in a tidal delta town. Submitted to *Journal of Nearshore Water Quality* on 3 June 2026; under review.\n\n## Datasets and software\n\n- BUURTPEIL block dataset, version 1.1 (2026). Zenodo, CC BY 4.0.\n- BUURTPEIL temporary logger time series, 2024–2025 (2025). Zenodo, CC BY 4.0.\n- buurtpeil-model: SWMM and 2D model configuration and analysis scripts (2026). MIT licence.\n\n## Presentations\n\n- Zwanenburg-Teeuw, M. Block-level flood exposure in a tidal delta town. Oral presentation, EGU General Assembly 2025, Vienna.\n- Skovsende, E. Rain, rivers and bathing water: short-term exceedance prediction on the Danish North Sea coast. Invited talk, partner workshop, Oldenburg, November 2025.\n"
+          },
+          {
+            "path": "team_resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Team and resources\n\nStatus: September 2026\n\n## Doctoral researcher\n\n**Mirthe Zwanenburg-Teeuw, MSc**, PhD candidate, Section Urban Water Planning, ZUT.\n\n- **Appointment.** 1 September 2023 to 31 August 2027, 1.0 FTE, funded by the ZUT Faculty of Architecture and Spatial Planning. First-year evaluation passed on 12 July 2024. Planned thesis submission: May 2027.\n- **Supervision.** Prof. dr. ir. Geertje Hoogvliet-Ramaker (promotor) and Dr. ir. Koen Stamhuis-Weel (co-promotor). Dr. Jannis Bruhnkötter (WEIH) advises on river boundary conditions.\n- **Education.** MSc Urbanism, IJsselland University, 2022 (thesis on pluvial flooding and street design); BSc Spatial Planning, IJsselland University, 2020.\n- **Role.** Leads the spatial analysis under supervision: block delineation, linkage of modelled depth to survey data, distributional regression and spatial bootstrap. Co-facilitated both workshop rounds.\n- **Methods and tools.** QGIS, Python (geopandas, xarray), R, SWMM 5.2, batch runs on the ZUT computing cluster.\n- **Not covered.** No experience in marine fieldwork, laboratory chemistry, consortium management or research with minors.\n\n## Staff by partner\n\n| Partner | Person | Position | Role in joint work |\n|---|---|---|---|\n| ZUT | Prof. dr. ir. Geertje Hoogvliet-Ramaker | Full professor | Coordinator, promotor |\n| ZUT | Dr. ir. Koen Stamhuis-Weel | Assistant professor, hydraulic modelling | 1D–2D drainage model, co-promotor |\n| ZUT | Dr. Hanan Ouarda-Lievense | Postdoctoral researcher, participatory methods (contract to 31 March 2027) | Workshop design and facilitation |\n| ZUT | Bram Okkerse-Lindhout | Research software engineer, 0.3 FTE | Model pipeline, data publication |\n| WEIH | Dr. Jannis Bruhnkötter | Head, Estuarine and Catchment Hydrology | Estuarine and runoff modelling |\n| WEIH | Dr. Gesa Harmsbrück | Hydrodynamic modeller | 1D tidal network model, ensembles |\n| FBMI | Dr. Ejnar Skovsende | Head, Field Oceanography | Sampling design, coastal measurements |\n| FBMI | Lise Kjeldbæk | Senior field technician | Sampling, logger calibration, laboratory |\n\nApproved hire: on 9 September 2026 the ZUT faculty board approved a 0.5 FTE data steward position for the Section Urban Water Planning. The vacancy is open; the planned start date is 1 January 2027.\n\n## Existing equipment and infrastructure\n\n- **ZUT**\n  - 36 operational pressure loggers (38 bought in 2024, 2 lost) and 2 tipping-bucket rain gauges.\n  - 3D-printed block models of N1–N3 at 1:1000.\n  - Computing cluster access (faculty allocation of 200,000 core-hours per year).\n  - ZUT Secure Research Environment (managed virtual desktops), which hosts the BUURTPEIL household data.\n- **WEIH**\n  - Institute computing cluster (1,920 cores).\n  - 14 water-level and discharge gauges in Lower Saxony.\n  - Working set-ups of TELEMAC-2D and the in-house 1D network model.\n- **FBMI**\n  - 9.5 m coastal survey boat.\n  - 2 CTD profilers, 1 ADCP (600 kHz), 6 automatic water samplers and 20 GPS surface drifters.\n  - Laboratory accredited to ISO/IEC 17025 for *E. coli*, intestinal enterococci and dissolved nutrients.\n\n## Planned equipment\n\n- FBMI: LC-MS/MS system. The FBMI board approved the purchase on 12 May 2026, and delivery is expected in the second quarter of 2027. Methods for PFAS and pharmaceutical residues have not been validated.\n\n## Participants and ethics\n\n- Approval HREC-2024-031 covers adults aged 18 and over and is valid until 31 December 2027.\n- The recruitment pool consists of the 214 survey respondents who agreed to further contact. Their consent runs to 31 December 2027.\n- No team member has carried out research with minors, and none holds a current certificate of conduct (VOG) for work with children.\n- No amendment for minors has been submitted to the ethics committee.\n"
+          }
+        ],
+        "facts": [
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "Prof. dr. ir. Geertje Hoogvliet-Ramaker, full professor at ZUT, coordinates the consortium and signed the participation agreement for ZUT on 18 June 2026.",
+            "value": "18 June 2026",
+            "salient": true,
+            "source": "cv_coordinator.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "The focal doctoral candidate Mirthe Zwanenburg-Teeuw holds a ZUT PhD appointment from 1 September 2023 to 31 August 2027.",
+            "value": "31 August 2027",
+            "salient": true,
+            "source": "team_resources.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The doctoral candidate leads the spatial analysis under supervision of the coordinator and co-promotor and has no consortium management role.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_partners.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "ZUT (NL), WEIH (DE) and FBMI (DK) are independent legal entities with a participation agreement that runs until 31 December 2029.",
+            "value": "31 December 2029",
+            "salient": true,
+            "source": "consortium_partners.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "WEIH models catchment runoff and estuarine hydrodynamics and operates 14 gauges, but has not modelled bacterial or chemical contaminant transport, and its ensemble forecast is not an operational warning service.",
+            "value": "14",
+            "salient": true,
+            "source": "consortium_partners.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "FBMI collected 1,240 bathing-water samples at 18 beaches (2019–2024) and runs an accredited laboratory for faecal indicator bacteria and nutrients.",
+            "value": "1,240",
+            "salient": true,
+            "source": "consortium_partners.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "FBMI's rainfall-based model predicted indicator exceedances at six beaches with ROC AUC 0.81 (95% CI 0.76–0.86) in the 2023 hold-out season.",
+            "value": "0.81",
+            "salient": true,
+            "source": "consortium_partners.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "FBMI's purchase of an LC-MS/MS system for chemical assays was approved on 12 May 2026, with delivery expected in Q2 2027; no methods are validated and no measurements exist.",
+            "value": "second quarter of 2027",
+            "salient": true,
+            "source": "consortium_partners.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "BUURTPEIL was funded by the ZUT Delta Futures Fund (DFF-2023-06) from 1 January 2024 to 30 June 2026.",
+            "value": "EUR 214,000",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The BUURTPEIL analysis covered 240 urban blocks with 9,860 residential addresses on the Island of Dordrecht.",
+            "value": "240",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Against 186 logger peaks, flood-depth RMSE was 0.19 m (spatial bootstrap 95% CI 0.15 to 0.25 m), with mean bias +0.04 m.",
+            "value": "0.19 m",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In the 100-year rainfall plus high-river design case, 61 of 240 blocks (25.4%) and 22.5% of addresses were exposed above 0.30 m.",
+            "value": "25.4%",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Lowest-income-tercile households were more likely to live in exposed blocks (odds ratio 1.7, 95% CI 1.2 to 2.4).",
+            "value": "1.7",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The green-blue retrofit reduced exposed addresses by 31% (22–39%), with 39% of avoided exposure going to the lowest income tercile.",
+            "value": "31% (22–39%)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The household survey received 1,127 responses from 4,800 invited addresses (23.5%); renters were under-represented.",
+            "value": "1,127",
+            "salient": false,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Resident co-design workshops involved 36 adults across two rounds; 72% of round-2 participants ranked the green-blue retrofit first.",
+            "value": "36",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The FBMI floodwater pilot (31 samples) found median E. coli of 1,900 CFU/100 mL; it was not linked to any transport model.",
+            "value": "1,900 CFU/100 mL",
+            "salient": false,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Under the data access agreement of 14 March 2024, household geolocations may be analysed only in the ZUT Secure Research Environment, with no row-level transfer to partner laptops; partners may receive disclosure-checked aggregates.",
+            "value": "14 March 2024",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Ethics approval HREC-2024-031 covers adults only until 31 December 2027; as of September 2026 no amendment for minors has been submitted and no guardian consent process exists.",
+            "value": "HREC-2024-031",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "ZUT owns 36 operational temporary pressure loggers (38 bought in 2024, 2 lost).",
+            "value": "36",
+            "salient": false,
+            "source": "team_resources.md"
+          },
+          {
+            "category": "team",
+            "kind": "planned",
+            "text": "A 0.5 FTE data steward position at ZUT was approved on 9 September 2026, with a planned start of 1 January 2027.",
+            "value": "1 January 2027",
+            "salient": false,
+            "source": "team_resources.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "The coordinator held an NWO Vidi grant (2008–2013) on open space as water storage.",
+            "value": "EUR 600,000",
+            "salient": false,
+            "source": "cv_coordinator.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "No partner has built or operated a public early-warning service, and the runoff–estuary–coast chain has not yet been coupled in one study.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_partners.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "The coordinator has not previously coordinated an EU framework programme project.",
+            "value": null,
+            "salient": true,
+            "source": "cv_coordinator.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "A manuscript on faecal indicator bacteria in floodwater has been under review since 3 June 2026.",
+            "value": "3 June 2026",
+            "salient": false,
+            "source": "publications.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "zwanenburg2026distribution",
+            "authors": [
+              "Zwanenburg-Teeuw, M.",
+              "Hoogvliet-Ramaker, G.",
+              "Bruhnkötter, J."
+            ],
+            "year": 2026,
+            "title": "Who gains from neighbourhood flood adaptation? Distributional effects of three options in a Dutch estuary town",
+            "venue": "Planning for Water and Society",
+            "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2026.1"
+          },
+          {
+            "key": "zwanenburg2025validation",
+            "authors": [
+              "Zwanenburg-Teeuw, M.",
+              "Stamhuis-Weel, K.",
+              "Bruhnkötter, J.",
+              "Hoogvliet-Ramaker, G."
+            ],
+            "year": 2025,
+            "title": "Block-level flood depth in a tidal delta city: validating a coupled drainage model with temporary loggers",
+            "venue": "Journal of Delta Urbanism",
+            "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.1"
+          },
+          {
+            "key": "hoogvliet2025codesign",
+            "authors": [
+              "Hoogvliet-Ramaker, G.",
+              "Zwanenburg-Teeuw, M.",
+              "Skovsende, E."
+            ],
+            "year": 2025,
+            "title": "Adult residents as co-designers of flood adaptation: a two-round workshop format",
+            "venue": "Participatory Planning Review",
+            "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.2"
+          },
+          {
+            "key": "bruhnkotter2024outfall",
+            "authors": [
+              "Bruhnkötter, J.",
+              "Harmsbrück, G.",
+              "Stamhuis-Weel, K."
+            ],
+            "year": 2024,
+            "title": "Tidal outfall blocking and urban drainage in estuarine towns: a one-dimensional ensemble approach",
+            "venue": "Estuarine Hydrology Letters",
+            "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2024.1"
+          },
+          {
+            "key": "skovsende2023bathing",
+            "authors": [
+              "Skovsende, E.",
+              "Kjeldbæk, L."
+            ],
+            "year": 2023,
+            "title": "Rainfall-driven faecal indicator exceedances at Danish North Sea bathing beaches, 2019–2022",
+            "venue": "Journal of Nearshore Water Quality",
+            "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2023.1"
+          },
+          {
+            "key": "hoogvliet2022squares",
+            "authors": [
+              "Hoogvliet-Ramaker, G."
+            ],
+            "year": 2022,
+            "title": "Water squares after ten years: storage, use and maintenance in four Dutch cities",
+            "venue": "Journal of Delta Urbanism",
+            "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2022.1"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 2",
+          "where": "prior_project.md, sections 3–4: exposure definition and option C",
+          "problem": "Exposure is defined by street-frontage water depth at block level, but option C reports a 24% reduction in exposed addresses from raised thresholds and non-return valves. These measures can reduce water entering buildings without changing whether their blocks exceed the street-depth threshold. The reported benefit does not follow from the stated outcome definition.",
+          "fix": "Distinguish street/block exposure from property inundation. Specify how individual thresholds, valve effects and uptake determine protected addresses, then report all three options against a consistent endpoint or clearly separate their endpoints and recalculate the results."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 2; Dossier 7",
+          "where": "prior_project.md, report submission date and section 5",
+          "problem": "The report is dated 28 July 2026 but states that no minors amendment or guardian process exists 'as of September 2026'. No revision or addendum date explains how the July document contains a later status assessment.",
+          "fix": "Retain the original submission date and add an explicit September 2026 revision date or a dated September status addendum containing the later statements."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "prior_project.md, section 3 uncertainty methods and section 4 adaptation-options table",
+          "problem": "The three adaptation reductions have 95% confidence intervals, but the only described bootstrap estimates uncertainty in validation error statistics. The report does not explain how uncertainty in adaptation benefits was calculated, which reference scenario supplies the point estimates, or whether the intervals instead describe variation across the heterogeneous forcing ensemble.",
+          "fix": "State the reference scenario and denominator, describe paired baseline/intervention runs and the uncertainty calculation, and identify which uncertainties are included. If these are ensemble percentile ranges, label them accordingly rather than as confidence intervals."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 2; Dossier 4",
+          "where": "consortium_partners.md, FBMI rainfall-based prediction result",
+          "problem": "The 2023 hold-out AUC has a confidence interval but no evaluation sample size or numbers of exceedances and non-exceedances. The 1,240 samples cover a different period and a larger beach set. It is also unclear whether the endpoint concerns E. coli, enterococci or either indicator, and whether the interval accounts for repeated observations within beaches.",
+          "fix": "Provide the hold-out observation count, outcome counts, indicator endpoint and exceedance definition. State the training period and how the confidence interval handles temporal and beach clustering."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, facts",
+          "problem": "The registry omits substantial proposal-relevant evidence and constraints. Examples include the 10-household disclosure threshold; recruitment consent expiry; the participatory postdoc's contract end; the open status of the data-steward vacancy; existing boat, sampling and computing capacities; options B and C and their uptake assumptions; and limitations concerning extreme-event extrapolation, omitted overtopping/breaches and untested transferability. The coastal pilot's exceedance count and uncertainty summary are also absent.",
+          "fix": "Add source-linked facts with exact values for these resources, results, restrictions and limitations. Record recruitment and appointment status separately from planned availability, and mark central scientific evidence and delivery constraints as salient."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml, F25; publications.md, Under review",
+          "problem": "F25 says the manuscript has been under review since 3 June 2026. The source establishes submission on that date and under-review status in September, but does not establish when review began.",
+          "fix": "Change F25 to state that the manuscript was submitted on 3 June 2026 and was under review as of September 2026."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "applicant_type": "consortium",
+        "career_stage": "phd",
+        "disciplines": [
+          "architecture and urban planning",
+          "oceanography",
+          "public administration"
+        ],
+        "method_profile": "mixed",
+        "country": "NL",
+        "files": [
+          {
+            "path": "cv_coordinator.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Curriculum vitae\n\n**Prof. dr. ir. Geertje Hoogvliet-Ramaker**  \nProfessor of Urban Water Planning, Section Urban Water Planning, Faculty of Architecture and Spatial Planning  \nZuidwaard University of Technology (ZUT), Dordrecht, the Netherlands  \nVersion of September 2026\n\n## Current position\n\nFull professor of Urban Water Planning at ZUT since 1 March 2017. Chair of the Section Urban Water Planning, which had 14 staff and 6 PhD candidates in September 2026.\n\nCoordinator of the Delta Neighbourhood Water Consortium. The other members are the Weser-Ems Institut für Hydrologie e.V. and the Fanø Bay Marine Institute. Signed the consortium participation agreement on behalf of ZUT on 18 June 2026.\n\n## Previous positions\n\n- 2010–2017 Associate professor, Urban Water Planning, ZUT\n- 2004–2010 Assistant professor, Department of Urbanism, IJsselland University, Zwolle\n- 2002–2004 Postdoctoral researcher, Department of Urbanism, IJsselland University\n\n## Education\n\n- 2002 PhD, IJsselland University. Thesis: *Room for water in post-war neighbourhoods: drainage, open space and maintenance in three Dutch towns*\n- 1996 MSc (ir.) Civil Engineering, ZUT, specialisation urban drainage\n\n## Research grants as principal investigator\n\n| Period | Funder and scheme | Project | Amount |\n|---|---|---|---|\n| 2024–2026 | ZUT Delta Futures Fund (internal competition), grant DFF-2023-06 | BUURTPEIL: neighbourhood flood exposure and adaptation choices in a tidal delta city | EUR 214,000 |\n| 2014–2016 | Stichting Rivierenland Kennisfonds | Maintenance and performance of retrofitted swales | EUR 96,000 |\n| 2008–2013 | NWO, Vidi | Open space as water storage in post-war neighbourhoods | EUR 600,000 |\n\nI have not coordinated a project under an EU framework programme. From 2018 to 2021 I led the Dutch case study in a transnational network on the maintenance of urban green-blue infrastructure. The partners funded that network from their own budgets.\n\n## Supervision\n\n- 9 PhD candidates supervised to completion as promotor (2010–2025).\n- 3 current PhD candidates, among them Mirthe Zwanenburg-Teeuw (since 1 September 2023; spatial analysis of neighbourhood flood exposure).\n- 31 MSc theses supervised since 2017.\n\n## Research output\n\n- 54 peer-reviewed journal articles (1999–2026), 2 edited volumes and 11 reports for municipalities and water authorities.\n- Topics: drainage-led neighbourhood design, maintenance of green-blue infrastructure, and the distribution of benefits from adaptation measures.\n- Selected recent publications are listed in the consortium publication file.\n\n## Service and advisory roles\n\n- Member, ZUT Human Research Ethics Committee, 2019–2023\n- Advisory member of the climate-adaptation working group of the municipalities in the Drechtsteden region, since 2021\n- Editorial board, *Journal of Delta Urbanism*, since 2019\n- Reviewer for NWO Open Competition panels, 2018, 2021 and 2024\n\n## Teaching\n\n- Urban water systems (MSc, 5 EC, since 2011)\n- Design studio Delta Neighbourhoods (MSc, 15 EC, since 2017), co-taught with the Section of Urban Design\n"
+          },
+          {
+            "path": "consortium_partners.md",
+            "role": "other",
+            "content": "> Fictional document created for ProposalBench.\n\n# Delta Neighbourhood Water Consortium: partners\n\nStatus: September 2026\n\nThe consortium consists of three legal entities in three EU member states. None is owned or controlled by another, and they have no common board. The partners have worked together since January 2024 in BUURTPEIL (see final report).\n\nThe consortium participation agreement was signed by ZUT on 18 June 2026, by WEIH on 25 June 2026 and by FBMI on 2 July 2026. It covers roles, background intellectual property, publication rules and the application of existing data agreements. It runs until 31 December 2029.\n\n| Partner | Country | Legal form | Lead person | Main expertise |\n|---|---|---|---|---|\n| Zuidwaard University of Technology (ZUT), Dordrecht | NL | Public university | Prof. dr. ir. Geertje Hoogvliet-Ramaker (coordinator) | Urban water planning, spatial analysis, resident co-design |\n| Weser-Ems Institut für Hydrologie e.V. (WEIH), Oldenburg | DE | Registered non-profit association | Dr. Jannis Bruhnkötter | Catchment runoff and estuarine hydrodynamics |\n| Fanø Bay Marine Institute (FBMI), Esbjerg | DK | Self-governing non-profit research institution | Dr. Ejnar Skovsende | Coastal field oceanography and water sampling |\n\n## ZUT (coordinator)\n\nThe Section Urban Water Planning studies drainage-led neighbourhood design and how the benefits of adaptation measures are distributed among households. Prof. Hoogvliet-Ramaker is the legal and scientific coordinator and signs for ZUT.\n\nThe doctoral candidate Mirthe Zwanenburg-Teeuw leads the spatial analysis: block-level exposure, distributional statistics and uncertainty estimation. She works under the supervision of Prof. Hoogvliet-Ramaker and Dr. ir. Koen Stamhuis-Weel and has no consortium management role.\n\nZUT runs the 1D–2D urban drainage model used in BUURTPEIL, owns the temporary logger network and hosts the household survey data. ZUT has no marine field capacity and no water-quality laboratory.\n\n## WEIH\n\nWEIH was founded in 1989 and has 52 staff, of whom 31 are scientists. Its Department of Estuarine and Catchment Hydrology is led by Dr. Bruhnkötter and covers:\n\n- rainfall-runoff modelling in lowland catchments of the Ems and Weser basins;\n- tidal hydrodynamics, salinity and suspended sediment in the Ems and Weser estuaries, using TELEMAC-2D and an in-house 1D network model.\n\nWEIH operates 14 water-level and discharge gauges in Lower Saxony. It runs a research ensemble discharge forecast for two catchments; this forecast is not an operational warning service.\n\nIn BUURTPEIL, WEIH set up a 1D network model of the tidal rivers around the Island of Dordrecht and produced the 50-member ensemble of river-level boundary conditions. WEIH has not modelled the transport or decay of faecal bacteria or chemical contaminants.\n\nTrack record: two DFG research grants on estuarine sediment dynamics (2016–2019, 2020–2024).\n\n## FBMI\n\nFBMI was founded in 1996 and has 38 staff. Dr. Skovsende heads Field Oceanography. FBMI measures in the Danish Wadden Sea and along the North Sea coast:\n\n- CTD and turbidity transects;\n- currents with ADCP;\n- surface flow with GPS drifter releases.\n\nBetween 2019 and 2024 FBMI collected 1,240 bathing-water samples at 18 beaches for *E. coli* and intestinal enterococci. Its laboratory is accredited to ISO/IEC 17025 for both indicators by membrane filtration (ISO 9308-1, ISO 7899-2) and for dissolved nutrients.\n\nFor six of these beaches, sampled once or twice a week in the 2019–2022 bathing seasons and two to three times a week in 2023, FBMI developed a logistic model that predicts exceedances from 48-hour rainfall, discharge at the nearest stream outlet, wind direction and tidal phase. An exceedance is a single sample above 500 CFU/100 mL *E. coli* or above 200 CFU/100 mL intestinal enterococci (the coastal-water 'good quality' values of Directive 2006/7/EC, applied to single samples). The model was fitted to 486 samples from 2019–2022 (61 exceedances) and tested on the 2023 season at the same beaches: 192 samples, 34 exceedances and 158 non-exceedances. ROC AUC was 0.81 (95% CI 0.71 to 0.89). The interval comes from a bootstrap over sampling days (2,000 replicates) that kept all beaches sampled on the same day together. With six beaches, dependence between repeated samples at the same beach was not resampled separately, and the interval may be too narrow. The evaluation is documented in FBMI technical note FN-2024-03.\n\nIn BUURTPEIL, FBMI checked logger calibration and ran a floodwater sampling pilot (31 samples).\n\nFBMI has no in-house assays for chemical contaminants such as PFAS or pharmaceutical residues. The FBMI board approved the purchase of an LC-MS/MS system on 12 May 2026, and delivery is expected in the second quarter of 2027. Method validation has not started and no measurements exist.\n\n## Joint record\n\n- BUURTPEIL (2024–2026): shared fieldwork, ensemble modelling and three co-authored BUURTPEIL articles.\n- Partner meeting and model exchange workshop, Oldenburg, 18–19 November 2025.\n\nThe parts of a chain from catchment runoff through estuarine transport to coastal sites exist at separate partners, but the consortium has not yet coupled them in one study. No partner has built or operated a public early-warning service.\n"
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final report: BUURTPEIL (2024–2026)\n\n**Neighbourhood flood exposure and adaptation choices in a tidal delta city**\n\nFunded by the ZUT Delta Futures Fund, grant DFF-2023-06, EUR 214,000, 1 January 2024 to 30 June 2026. In-kind contributions: WEIH 8 person-months, FBMI 6 person-months.  \nPrincipal investigator: Prof. dr. ir. Geertje Hoogvliet-Ramaker (ZUT).  \nSpatial analysis: Mirthe Zwanenburg-Teeuw, doctoral candidate (ZUT), supervised by the PI and Dr. ir. Koen Stamhuis-Weel.  \nPartners: Weser-Ems Institut für Hydrologie e.V. (river boundary ensemble); Fanø Bay Marine Institute (logger checks, floodwater sampling pilot).  \nReport submitted 28 July 2026. Revised 15 September 2026: section 5 brought up to date at the request of the Delta Futures Fund after its closing review.\n\n## 1. Objectives\n\n1. Estimate flood depth per urban block under combined rainfall and tidal river conditions, with validated uncertainty.\n2. Identify which households are exposed by linking modelled depth to household characteristics.\n3. Compare three adaptation options for their effect on the number and distribution of exposed and inundated households.\n4. Test a two-round co-design format with adult residents.\n\n## 2. Study area and data\n\n- **Area.** Three post-war neighbourhoods (N1–N3) on the Island of Dordrecht, bounded by tidal reaches of the Rhine–Meuse delta. They contain 240 urban blocks and 9,860 residential addresses, of which 5,170 have a ground-floor dwelling; 51% of addresses are rented.\n- **Terrain and sewers.** AHN4 elevation (0.5 m), resampled to a 2 m grid. Sewer network from the municipal sewer database (2023 version), which records house connections but not non-return valves.\n- **Address attributes.** Building year from the Basisregistratie Adressen en Gebouwen (BAG); tenure (owner-occupied, social rented, private rented) from the municipal housing register, 2024.\n- **Entrance survey, April 2024.** Threshold height above street level measured at 212 ground-floor entrances, sampled across 6 strata of building type and construction period.\n- **Household survey, May–July 2024.** 4,800 addresses were invited and 1,127 households responded (23.5%). Renters made up 38% of respondents. 214 respondents consented to be contacted for further research.\n- **Temporary monitoring, 15 August 2024 to 30 April 2025.** 38 pressure loggers at street low points in 31 blocks, plus 2 tipping-bucket rain gauges. Two loggers were lost; 36 produced complete records.\n\n## 3. Methods\n\n- **Model.** Coupled 1D sewer (SWMM 5.2) and 2D overland flow model. Outfalls with non-return flaps close when the river level exceeds the outfall level. River levels come from the WEIH 1D tidal network model.\n- **Forcing.** The design case combines 100-year rainfall (KNMI'23 high scenario for 2050) with a river level 0.5 m above mean high water. An ensemble of 50 further runs combines rainfall (KNMI'23 scenarios for 2050), river discharge, surge and tidal phase.\n- **Validation.** Seven rainfall events between September 2024 and March 2025 produced 186 logger-event peak depths (ponding above 0.02 m). Uncertainty in the error statistics was estimated with a spatial block bootstrap that resampled the 31 logger blocks (2,000 replicates).\n- **Endpoints.**\n  - *Block exposure.* A block counts as exposed when modelled depth at any street frontage exceeds 0.30 m, the median threshold height of the 212 surveyed entrances. It is reported as exposed blocks and as addresses in exposed blocks, and describes street conditions only.\n  - *Property inundation.* A ground-floor address counts as inundated when modelled depth at its frontage exceeds its entrance threshold, or when modelled sewer head at its house connection rises above the threshold level (backflow). Surveyed entrances keep their measured threshold; other addresses take the median of their stratum. No non-return valves were assumed at baseline.\n- **Distribution.** Logistic regression of living in an exposed block on income tercile, tenure, age of household head and building year. Survey weights were applied for tenure and building year; standard errors were clustered by block. For each option, the share of avoided property inundation falling to the lowest income tercile was computed among respondents in ground-floor dwellings, with the same weights.\n- **Options.** Each option was run on the design case and on all 50 ensemble members. Every option run was paired with a baseline run on identical forcing.\n  - (A) Distributed green-blue retrofit: bioswales and permeable paving that disconnect 6.8 ha of roof and paved area.\n  - (B) Two water squares with 2,900 m³ storage in total.\n  - (C) Property-level protection: at adopting addresses, thresholds raised by 0.20 m and a non-return valve fitted on the house connection. Street depths are unchanged. Uptake was set at 40% among owner-occupiers and 15% among rented dwellings, taken from stated survey intentions, and assigned to individual addresses by random draws within tenure groups (500 draws). Results are means over draws.\n- **Uncertainty in option effects.** Point estimates refer to the design case. Ranges are the 5th–95th percentiles of the paired percentage reductions across the 50 ensemble members. They show how effects vary with forcing; they are not confidence intervals and do not include model error, threshold uncertainty or, for option C, uptake. Variation across uptake draws is reported separately.\n- **Co-design.** Two workshop rounds (October 2024, March 2025), each held at two locations. Materials were 3D block models, option cards and modelled depth maps. Participants ranked the options at the end of each round.\n- **Floodwater pilot.** FBMI sampled ponded street water at 12 locations during three events (October 2024 to February 2025) and analysed *E. coli* and intestinal enterococci.\n\n## 4. Results\n\n**Model performance.** Against the 186 observed peaks, flood-depth RMSE was 0.19 m (spatial bootstrap 95% CI 0.15 to 0.25 m) and mean bias +0.04 m. Error was larger where entrances lie below street level (41 peaks, RMSE 0.27 m). The largest observed event had a rainfall return period of about 8 years.\n\n**Exposure in the design case.**\n\n- Block exposure: 61 of 240 blocks (25.4%), containing 2,214 of 9,860 addresses (22.5%). Across the ensemble, the number of exposed blocks ranged from 44 to 79 (5th–95th percentile). With the same rainfall at low water, 47 blocks were exposed.\n- Property inundation: 1,034 of 5,170 ground-floor addresses (20.0%), 712 through the entrance and 322 through sewer backflow alone. Of these 1,034 addresses, 486 were owner-occupied and 548 rented.\n\n**Who is exposed.** Households in the lowest income tercile were more likely to live in an exposed block (odds ratio 1.7, 95% CI 1.2 to 2.4). The same held for social-housing renters (odds ratio 1.4, 95% CI 1.0 to 2.0).\n\n**Options.** Design case; ranges are ensemble 5th–95th percentiles of paired reductions.\n\n| Option | Addresses in exposed blocks; reduction (range) | Inundated ground-floor addresses; reduction (range) | Share of avoided inundation in lowest income tercile (respondents) |\n|---|---|---|---|\n| Baseline | 2,214 | 1,034 | – |\n| A Green-blue retrofit | 1,528; 31% (22–39%) | 690; 33% (25–41%) | 39% |\n| B Water squares | 1,815; 18% (11–26%) | 858; 17% (10–25%) | 21% |\n| C Property-level protection | 2,214; 0% | 798; 23% (16–30%) | 26% |\n\n- Exposed blocks fell from 61 to 42 under option A and to 50 under option B. Option C does not change street depths, so block exposure is unchanged.\n- The benefits of option B were concentrated in N2, where both squares lie.\n- For option C, avoided inundation in the design case ranged from 214 to 259 addresses across the 500 uptake draws (2.5th–97.5th percentile). With full uptake it would avoid 879 of 1,034 inundated addresses (85.0%). With uptake of 40% in both tenures, the lowest-tercile share of avoided inundation was 35%.\n- Among respondents, 121 of the 586 households in ground-floor dwellings were inundated at baseline, and 44% of them (weighted) were in the lowest income tercile. The shares in the table rest on 40 (A), 21 (B) and 28 (C, mean over draws) avoided cases.\n\n**Co-design.**\n\n- 36 adults took part: 20 women and 16 men, aged 21–79; 11 (31%) were social-housing renters.\n- 33 took part in round 1, 32 in round 2 and 29 in both. Six participants used an interpreter (Turkish or Arabic).\n- In round 2, 23 of 32 participants (72%) ranked option A first. 19 named the maintenance of bioswales as their main concern.\n- Residents marked 14 low points that the model did not represent. After field checks, 7 were added to the terrain model.\n\n**Floodwater pilot.** In 31 samples, median *E. coli* was 1,900 CFU/100 mL (IQR 640–5,300), and 22 of 31 samples (71%) exceeded 1,000 CFU/100 mL. Median intestinal enterococci was 420 CFU/100 mL. The pilot was not designed to attribute sources and was not linked to any transport model.\n\n## 5. Data management and ethics\n\n- **Ethics approval.** The ZUT Human Research Ethics Committee granted approval HREC-2024-031 on 2 April 2024. Amendment 1 (second workshop round, interpreters) was approved on 21 January 2025. The approval is valid until 31 December 2027.\n- **Participants.** The approved protocol covers residents aged 18 and over. It does not allow recruitment of minors until an amendment has been approved and a parent or guardian consent and assent process is in place. As of 15 September 2026 no such amendment has been submitted and no guardian process has been drafted.\n- Household geolocations (address points linked to survey answers) fall under the BUURTPEIL data access agreement of 14 March 2024: analysis is permitted only in the ZUT Secure Research Environment, row-level data may not be transferred to partner laptops, and partners may receive aggregates after disclosure checking (at least 10 households per cell).\n- **Published data and code.**\n  - Block-level dataset v1.1, March 2026 (Zenodo, CC BY 4.0): 240 blocks with modelled depths, ensemble percentiles and aggregated survey indicators; cells below 10 households are suppressed.\n  - Logger time series (CC BY 4.0).\n  - Model configuration and scripts (MIT licence).\n\n## 6. Limitations\n\n- The study covers one town and three neighbourhoods; transfer to other estuaries is untested.\n- Validation rests on seven events, the largest with a rainfall return period of about 8 years. Performance for 100-year events is extrapolated.\n- No coastal surge overtopping or dike breach was modelled. River levels were imposed as boundaries, not dynamically coupled.\n- Thresholds outside the 212 surveyed entrances are stratum medians. Existing non-return valves are not recorded, so baseline backflow may be overstated.\n- Option ranges reflect forcing only; option C also depends on the assumed uptake.\n- Owner-occupiers are over-represented in the survey (renters 38% against 51% in the area). Weighting reduces but does not remove this bias. Income shares of avoided inundation rest on 121 inundated respondent households and are imprecise.\n- Co-design involved 36 self-selected adults, not a representative sample.\n- Water quality was covered only by the 31-sample pilot. No contaminant transport modelling and no chemical analyses were done.\n\n## 7. Outputs\n\n- Three peer-reviewed articles and one manuscript under review.\n- Three chapters of the doctoral thesis of M. Zwanenburg-Teeuw.\n- Four briefing sessions with municipal planners (2025–2026).\n- Oral presentation at the EGU General Assembly 2025.\n\n## 8. Expenditure\n\n| Category | Budget (EUR) |\n|---|---|\n| Personnel | 132,000 |\n| Temporary loggers and fieldwork | 41,500 |\n| Workshops (venues, interpreters, participant vouchers) | 18,700 |\n| Data and computing | 9,800 |\n| Publication and dissemination | 12,000 |\n| **Total** | **214,000** |\n\nActual expenditure was EUR 211,640 (98.9% of budget).\n"
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications of the Delta Neighbourhood Water Consortium, 2022–2026\n\nConsortium staff: Hoogvliet-Ramaker, Stamhuis-Weel and Zwanenburg-Teeuw (ZUT); Bruhnkötter and Harmsbrück (WEIH); Skovsende and Kjeldbæk (FBMI). Status as of September 2026.\n\n## Peer-reviewed articles\n\n1. Zwanenburg-Teeuw, M., Hoogvliet-Ramaker, G., Bruhnkötter, J. (2026). Who gains from neighbourhood flood adaptation? Distributional effects of three options in a Dutch estuary town. *Planning for Water and Society*, 9, 45–68. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2026.1\n2. Zwanenburg-Teeuw, M., Stamhuis-Weel, K., Bruhnkötter, J., Hoogvliet-Ramaker, G. (2025). Block-level flood depth in a tidal delta city: validating a coupled drainage model with temporary loggers. *Journal of Delta Urbanism*, 14(2), 112–131. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.1\n3. Hoogvliet-Ramaker, G., Zwanenburg-Teeuw, M., Skovsende, E. (2025). Adult residents as co-designers of flood adaptation: a two-round workshop format. *Participatory Planning Review*, 7(1), 23–41. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.2\n4. Bruhnkötter, J., Harmsbrück, G., Stamhuis-Weel, K. (2024). Tidal outfall blocking and urban drainage in estuarine towns: a one-dimensional ensemble approach. *Estuarine Hydrology Letters*, 11, e2024017. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2024.1\n5. Skovsende, E., Kjeldbæk, L. (2023). Rainfall-driven faecal indicator exceedances at Danish North Sea bathing beaches, 2019–2022. *Journal of Nearshore Water Quality*, 5(3), 201–219. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2023.1\n6. Hoogvliet-Ramaker, G. (2022). Water squares after ten years: storage, use and maintenance in four Dutch cities. *Journal of Delta Urbanism*, 11(4), 301–322. https://doi.org/10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2022.1\n\nArticles 1–3 report BUURTPEIL results. Article 4 describes the river-boundary method used in BUURTPEIL.\n\n## Under review\n\n- Zwanenburg-Teeuw, M., Skovsende, E., Hoogvliet-Ramaker, G. Faecal indicator bacteria in ponded floodwater: a pilot in a tidal delta town. Submitted to *Journal of Nearshore Water Quality* on 3 June 2026; under review as of September 2026.\n\n## Datasets and software\n\n- BUURTPEIL block dataset, version 1.1 (2026). Zenodo, CC BY 4.0.\n- BUURTPEIL temporary logger time series, 2024–2025 (2025). Zenodo, CC BY 4.0.\n- buurtpeil-model: SWMM and 2D model configuration and analysis scripts (2026). MIT licence.\n\n## Presentations\n\n- Zwanenburg-Teeuw, M. Block-level flood exposure in a tidal delta town. Oral presentation, EGU General Assembly 2025, Vienna.\n- Skovsende, E. Rain, rivers and bathing water: short-term exceedance prediction on the Danish North Sea coast. Invited talk, partner workshop, Oldenburg, November 2025.\n"
+          },
+          {
+            "path": "team_resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Team and resources\n\nStatus: September 2026\n\n## Doctoral researcher\n\n**Mirthe Zwanenburg-Teeuw, MSc**, PhD candidate, Section Urban Water Planning, ZUT.\n\n- **Appointment.** 1 September 2023 to 31 August 2027, 1.0 FTE, funded by the ZUT Faculty of Architecture and Spatial Planning. First-year evaluation passed on 12 July 2024. Planned thesis submission: May 2027.\n- **Supervision.** Prof. dr. ir. Geertje Hoogvliet-Ramaker (promotor) and Dr. ir. Koen Stamhuis-Weel (co-promotor). Dr. Jannis Bruhnkötter (WEIH) advises on river boundary conditions.\n- **Education.** MSc Urbanism, IJsselland University, 2022 (thesis on pluvial flooding and street design); BSc Spatial Planning, IJsselland University, 2020.\n- **Role.** Leads the spatial analysis under supervision: block delineation, linkage of modelled depth to survey data, distributional regression and spatial bootstrap. Co-facilitated both workshop rounds.\n- **Methods and tools.** QGIS, Python (geopandas, xarray), R, SWMM 5.2, batch runs on the ZUT computing cluster.\n- **Not covered.** No experience in marine fieldwork, laboratory chemistry, consortium management or research with minors.\n\n## Staff by partner\n\n| Partner | Person | Position | Role in joint work |\n|---|---|---|---|\n| ZUT | Prof. dr. ir. Geertje Hoogvliet-Ramaker | Full professor | Coordinator, promotor |\n| ZUT | Dr. ir. Koen Stamhuis-Weel | Assistant professor, hydraulic modelling | 1D–2D drainage model, co-promotor |\n| ZUT | Dr. Hanan Ouarda-Lievense | Postdoctoral researcher, participatory methods (contract to 31 March 2027) | Workshop design and facilitation |\n| ZUT | Bram Okkerse-Lindhout | Research software engineer, 0.3 FTE | Model pipeline, data publication |\n| WEIH | Dr. Jannis Bruhnkötter | Head, Estuarine and Catchment Hydrology | Estuarine and runoff modelling |\n| WEIH | Dr. Gesa Harmsbrück | Hydrodynamic modeller | 1D tidal network model, ensembles |\n| FBMI | Dr. Ejnar Skovsende | Head, Field Oceanography | Sampling design, coastal measurements |\n| FBMI | Lise Kjeldbæk | Senior field technician | Sampling, logger calibration, laboratory |\n\nApproved hire: on 9 September 2026 the ZUT faculty board approved a 0.5 FTE data steward position for the Section Urban Water Planning. The vacancy is open; the planned start date is 1 January 2027.\n\n## Existing equipment and infrastructure\n\n- **ZUT**\n  - 36 operational pressure loggers (38 bought in 2024, 2 lost) and 2 tipping-bucket rain gauges.\n  - 3D-printed block models of N1–N3 at 1:1000.\n  - Computing cluster access (faculty allocation of 200,000 core-hours per year).\n  - ZUT Secure Research Environment (managed virtual desktops), which hosts the BUURTPEIL household data.\n- **WEIH**\n  - Institute computing cluster (1,920 cores).\n  - 14 water-level and discharge gauges in Lower Saxony.\n  - Working set-ups of TELEMAC-2D and the in-house 1D network model.\n- **FBMI**\n  - 9.5 m coastal survey boat.\n  - 2 CTD profilers, 1 ADCP (600 kHz), 6 automatic water samplers and 20 GPS surface drifters.\n  - Laboratory accredited to ISO/IEC 17025 for *E. coli*, intestinal enterococci and dissolved nutrients.\n\n## Planned equipment\n\n- FBMI: LC-MS/MS system. The FBMI board approved the purchase on 12 May 2026, and delivery is expected in the second quarter of 2027. Methods for PFAS and pharmaceutical residues have not been validated.\n\n## Participants and ethics\n\n- Approval HREC-2024-031 covers adults aged 18 and over and is valid until 31 December 2027.\n- The recruitment pool consists of the 214 survey respondents who agreed to further contact. Their consent runs to 31 December 2027.\n- No team member has carried out research with minors, and none holds a current certificate of conduct (VOG) for work with children.\n- No amendment for minors has been submitted to the ethics committee, and no parent or guardian consent and assent procedure has been drafted.\n"
+          }
+        ],
+        "facts": [
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "Prof. dr. ir. Geertje Hoogvliet-Ramaker, full professor at ZUT, coordinates the consortium, signed the participation agreement for ZUT on 18 June 2026 and has not previously coordinated an EU framework programme project.",
+            "value": "18 June 2026",
+            "salient": true,
+            "source": "cv_coordinator.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Doctoral candidate Mirthe Zwanenburg-Teeuw (ZUT appointment 1 September 2023 to 31 August 2027, planned thesis submission May 2027) leads the spatial analysis under supervision and has no experience in marine fieldwork, laboratory chemistry, consortium management or research with minors.",
+            "value": "31 August 2027",
+            "salient": true,
+            "source": "team_resources.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "ZUT (NL, coordinator), WEIH (DE) and FBMI (DK) are independent legal entities in three EU member states; all signed the participation agreement in June–July 2026, and it runs until 31 December 2029.",
+            "value": "31 December 2029",
+            "salient": true,
+            "source": "consortium_partners.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "WEIH models lowland catchment runoff and Ems/Weser estuarine hydrodynamics (TELEMAC-2D, in-house 1D network model) and operates 14 gauges, but has not modelled faecal bacteria or chemical contaminant transport, and its ensemble discharge forecast is not an operational warning service.",
+            "value": "14",
+            "salient": true,
+            "source": "consortium_partners.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "FBMI collected 1,240 bathing-water samples at 18 beaches (2019–2024); its rainfall-based model, fitted to 486 samples from six beaches (2019–2022), predicted single-sample E. coli or enterococci exceedances in the 2023 hold-out season (192 samples, 34 exceedances) with ROC AUC 0.81 (95% CI 0.71 to 0.89, bootstrap over sampling days, between-beach dependence not resampled).",
+            "value": "0.81",
+            "salient": true,
+            "source": "consortium_partners.md"
+          },
+          {
+            "category": "resource",
+            "kind": "planned",
+            "text": "FBMI's board approved an LC-MS/MS purchase on 12 May 2026 with delivery expected in the second quarter of 2027; no chemical assays are validated and no measurements exist.",
+            "value": "second quarter of 2027",
+            "salient": true,
+            "source": "consortium_partners.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "Existing capacity: FBMI 9.5 m coastal survey boat, 2 CTD profilers, a 600 kHz ADCP, 6 automatic water samplers, 20 GPS drifters and an ISO/IEC 17025 laboratory for E. coli, enterococci and nutrients; ZUT 36 pressure loggers, 2 rain gauges, 200,000 core-hours per year and the Secure Research Environment; WEIH a 1,920-core cluster.",
+            "value": "9.5 m",
+            "salient": true,
+            "source": "team_resources.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "BUURTPEIL was funded by the ZUT Delta Futures Fund (DFF-2023-06) from 1 January 2024 to 30 June 2026, with in-kind contributions from WEIH (8 person-months) and FBMI (6 person-months).",
+            "value": "EUR 214,000",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "BUURTPEIL covered 240 urban blocks with 9,860 residential addresses (5,170 with a ground-floor dwelling) on the Island of Dordrecht; the household survey received 1,127 responses from 4,800 invited addresses (23.5%).",
+            "value": "240",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Against 186 logger peaks from seven events, flood-depth RMSE was 0.19 m (spatial bootstrap 95% CI 0.15 to 0.25 m), with mean bias +0.04 m.",
+            "value": "0.19 m",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In the design case (100-year rainfall, KNMI'23 high 2050, with river 0.5 m above mean high water), 61 of 240 blocks (25.4%) containing 2,214 addresses exceeded 0.30 m at a street frontage (ensemble 44–79 blocks), and 1,034 of 5,170 ground-floor addresses (20.0%) were inundated through the entrance or sewer backflow.",
+            "value": "61 of 240 blocks (25.4%)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Lowest-income-tercile households were more likely to live in an exposed block (odds ratio 1.7, 95% CI 1.2 to 2.4), as were social-housing renters (odds ratio 1.4, 95% CI 1.0 to 2.0).",
+            "value": "1.7",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In paired design-case runs, the green-blue retrofit (A) reduced addresses in exposed blocks by 31% (ensemble 5th–95th percentile 22–39%) and inundated ground-floor addresses by 33%; two water squares (B) reduced them by 18% and 17%, with benefits concentrated in N2.",
+            "value": "31% (22–39%)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Property-level protection (C), with assumed uptake of 40% among owner-occupiers and 15% among rented dwellings, left block exposure unchanged and reduced inundated ground-floor addresses by 23% (ensemble range 16–30%); 26% of avoided inundation among respondents went to the lowest income tercile.",
+            "value": "23% (16–30%)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Two workshop rounds involved 36 adults (11 social-housing renters, 6 with interpreters); 23 of 32 round-2 participants ranked option A first, and residents identified 14 unmodelled low points, 7 of which were added to the terrain model.",
+            "value": "36",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In FBMI's floodwater pilot, 22 of 31 ponded-street samples (71%) exceeded 1,000 CFU/100 mL E. coli (median 1,900 CFU/100 mL, IQR 640–5,300); the pilot was not linked to any transport model.",
+            "value": "22 of 31",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Under the data access agreement of 14 March 2024, household geolocations may be analysed only in the ZUT Secure Research Environment, row-level data may not be transferred to partner laptops, and partners may receive aggregates after disclosure checking with at least 10 households per cell.",
+            "value": "at least 10 households per cell",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Ethics approval HREC-2024-031 (valid to 31 December 2027) covers residents aged 18 and over; as of 15 September 2026 no amendment for minors had been submitted and no guardian consent and assent process had been drafted.",
+            "value": "HREC-2024-031",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The recruitment pool consists of 214 survey respondents who agreed to further contact, with consent running to 31 December 2027.",
+            "value": "214",
+            "salient": true,
+            "source": "team_resources.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "Participatory-methods postdoc Dr. Hanan Ouarda-Lievense, responsible for workshop design and facilitation, has a contract ending 31 March 2027.",
+            "value": "31 March 2027",
+            "salient": true,
+            "source": "team_resources.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The ZUT faculty board approved a 0.5 FTE data steward position on 9 September 2026; as of September 2026 the vacancy was open.",
+            "value": "9 September 2026",
+            "salient": true,
+            "source": "team_resources.md"
+          },
+          {
+            "category": "team",
+            "kind": "planned",
+            "text": "The data steward's planned start date is 1 January 2027.",
+            "value": "1 January 2027",
+            "salient": false,
+            "source": "team_resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Validation covered seven events, the largest with a rainfall return period of about 8 years, so 100-year performance is extrapolated; surge overtopping and dike breaches were not modelled, river levels were not dynamically coupled, and transfer beyond one town is untested.",
+            "value": "about 8 years",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "No partner has built or operated a public early-warning service, and the runoff–estuary–coast chain has not yet been coupled in one study.",
+            "value": null,
+            "salient": true,
+            "source": "consortium_partners.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "A manuscript on faecal indicator bacteria in ponded floodwater was submitted to the Journal of Nearshore Water Quality on 3 June 2026 and was under review as of September 2026.",
+            "value": "3 June 2026",
+            "salient": false,
+            "source": "publications.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "zwanenburg2026distribution",
+            "authors": [
+              "Zwanenburg-Teeuw, M.",
+              "Hoogvliet-Ramaker, G.",
+              "Bruhnkötter, J."
+            ],
+            "year": 2026,
+            "title": "Who gains from neighbourhood flood adaptation? Distributional effects of three options in a Dutch estuary town",
+            "venue": "Planning for Water and Society",
+            "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2026.1"
+          },
+          {
+            "key": "zwanenburg2025validation",
+            "authors": [
+              "Zwanenburg-Teeuw, M.",
+              "Stamhuis-Weel, K.",
+              "Bruhnkötter, J.",
+              "Hoogvliet-Ramaker, G."
+            ],
+            "year": 2025,
+            "title": "Block-level flood depth in a tidal delta city: validating a coupled drainage model with temporary loggers",
+            "venue": "Journal of Delta Urbanism",
+            "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.1"
+          },
+          {
+            "key": "hoogvliet2025codesign",
+            "authors": [
+              "Hoogvliet-Ramaker, G.",
+              "Zwanenburg-Teeuw, M.",
+              "Skovsende, E."
+            ],
+            "year": 2025,
+            "title": "Adult residents as co-designers of flood adaptation: a two-round workshop format",
+            "venue": "Participatory Planning Review",
+            "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.2"
+          },
+          {
+            "key": "bruhnkotter2024outfall",
+            "authors": [
+              "Bruhnkötter, J.",
+              "Harmsbrück, G.",
+              "Stamhuis-Weel, K."
+            ],
+            "year": 2024,
+            "title": "Tidal outfall blocking and urban drainage in estuarine towns: a one-dimensional ensemble approach",
+            "venue": "Estuarine Hydrology Letters",
+            "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2024.1"
+          },
+          {
+            "key": "skovsende2023bathing",
+            "authors": [
+              "Skovsende, E.",
+              "Kjeldbæk, L."
+            ],
+            "year": 2023,
+            "title": "Rainfall-driven faecal indicator exceedances at Danish North Sea bathing beaches, 2019–2022",
+            "venue": "Journal of Nearshore Water Quality",
+            "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2023.1"
+          },
+          {
+            "key": "hoogvliet2022squares",
+            "authors": [
+              "Hoogvliet-Ramaker, G."
+            ],
+            "year": 2022,
+            "title": "Water squares after ten years: storage, use and maintenance in four Dutch cities",
+            "venue": "Journal of Delta Urbanism",
+            "doi": "10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2022.1"
+          }
+        ],
+        "reviewer_criticisms": [],
+        "gaps": [],
+        "inconsistencies": []
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1; Dossier 6",
+          "where": "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/publications.md items 2 and 6 and cv_coordinator.md service: “Journal of Delta Urbanism”; dossier.yaml own_publications venues.",
+          "problem": "Journal of Delta Urbanism is a real TU Delft OPEN journal. The dossier invents articles and editorial-board service in that real journal; the fictional DOI prefix does not cure the collision.",
+          "fix": "Replace the venue everywhere in this dossier, including both own_publications entries and the CV service line, with “Review of Estuarine Neighbourhood Design”. Preserve article titles, dates and fictional DOIs.",
+          "evidence": [
+            "https://journals.open.tudelft.nl/jdu",
+            "https://publishers.issn.org/resource/ISSN/2666-7851"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/prior_project.md heading: “BUURTPEIL (2024–2026)”; publications.md: “BUURTPEIL block dataset” and “buurtpeil-model”.",
+          "problem": "BuurtPeil is an existing Dutch neighbourhood participation platform and process offered by Factor 80/20. The shared name and same resident-engagement setting create a direct project/product confusion.",
+          "fix": "Rename the fictional project “PB-BUURTGETIJ-26” throughout the dossier, dataset titles, code name (pb-buurtgetij-26-model), fact texts and relevant brief/task references. Preserve its subtitle, dates, award and results.",
+          "evidence": [
+            "https://buurtpeil.nl/",
+            "https://buurtpeil.nl/contact/",
+            "data/public/tasks/pub2-he-stage1-coast-stretch/brief.md",
+            "data/public/tasks/pub2-he-stage1-estuary-close/brief.md"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/cv_coordinator.md: “2002 PhD, IJsselland University”; team_resources.md: “MSc Urbanism, IJsselland University, 2022”.",
+          "problem": "The institutional name is readily confused with the real Hogeschool IJsselland, also published in English as a University of Higher Professional Education, a predecessor of Saxion. A different city and an invented PhD do not provide sufficient separation.",
+          "fix": "Replace “IJsselland University” with “Zilverweerd University” in all education and appointment entries. Retain Zwolle, the qualification titles and dates.",
+          "evidence": [
+            "https://files.eric.ed.gov/fulltext/ED446597.pdf",
+            "https://www.saxion.nl/binaries/content/assets/over-saxion/organisatie/academies/amm/eigen-kracht-in-perspectief-amm-nov2022.pdf"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/publications.md, Presentations: “Oral presentation, EGU General Assembly 2025, Vienna”; prior_project.md section 7.",
+          "problem": "The dossier invents a presentation in the programme of the real European Geosciences Union assembly. This is a fabricated output attributed to a real scientific organisation/event, outside the permitted real-funder/place/method exceptions.",
+          "fix": "Replace both event references with “Estuarine Cities Research Forum 2025, Vienna”, an explicitly fictional meeting under the existing document notice. Keep the presentation title, author and year.",
+          "evidence": [
+            "https://www.egu25.eu/about/general_information.html",
+            "docs/task_review_checklist.md"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/consortium_partners.md, FBMI: “accredited to ISO/IEC 17025 for both indicators by membrane filtration (ISO 9308-1, ISO 7899-2)”; prior_project.md floodwater pilot.",
+          "problem": "Current ISO 9308-1 is a low-background-flora E. coli method; ISO explicitly warns that surface-water background growth can make enumeration unreliable. The dossier presents it without qualification as the method underpinning polluted bathing-water and floodwater measurements. This undermines the claimed transferable microbiology capability.",
+          "fix": "Use ISO 9308-3 for E. coli in these surface-water matrices, retaining ISO 7899-2 for enterococci. Replace the accreditation sentence with “Its ISO/IEC 17025 scope includes E. coli in surface waters by ISO 9308-3 (most probable number), intestinal enterococci by ISO 7899-2 (membrane filtration), and dissolved nutrients.” Change the dossier's measured E. coli units to MPN/100 mL, retaining all numeric results and enterococci CFU units; synchronize F05/F16 and the coastal-stretch brief's pilot units. Explain that 500/200 are study alarm thresholds borrowing the Directive's coastal good-quality numbers, not regulatory single-sample classifications.",
+          "evidence": [
+            "https://www.iso.org/standard/55832.html",
+            "https://www.iso.org/standard/20878.html",
+            "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32006L0007",
+            "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/prior_project.md"
+          ]
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/cv_coordinator.md: “EUR 96,000”, “EUR 600,000”, “54 peer-reviewed journal articles”, “9 PhD candidates supervised to completion”; dossier.yaml facts F01–F25.",
+          "problem": "The registry now captures the project results and major constraints, but still omits salient coordinator funding and track-record evidence a proposal is likely to quote. These are not intentional gaps: the values are supplied in the CV.",
+          "fix": "Add salient existing facts sourced to cv_coordinator.md for the 2014–2016 EUR 96,000 grant; 2008–2013 NWO Vidi EUR 600,000 grant; 54 articles, 2 edited volumes and 11 reports; 9 completed/3 current PhD supervisions and 31 MSc theses; and professor appointment since 1 March 2017. Add a prior_project.md fact for EUR 211,640 actual expenditure (98.9% of EUR 214,000). Use exact source values and keep planned recruitment distinct.",
+          "evidence": [
+            "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/cv_coordinator.md",
+            "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/prior_project.md",
+            "data/public/dossiers/v2-estuary-neighbourhood-planning-consortium/dossier.yaml"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

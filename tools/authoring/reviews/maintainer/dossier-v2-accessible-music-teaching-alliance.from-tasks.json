@@ -1,0 +1,31 @@
+{
+ "kind": "dossier",
+ "id": "v2-accessible-music-teaching-alliance",
+ "reviewer_family": "task-reviews",
+ "issues": [
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "cv_coordinator.md 'Methodological experience' last paragraph; consortium_and_resources.md Maija and Eeva paragraphs and 'status **planned**'; publications.md intro; prior_project.md final paragraph",
+   "problem": "Several passages read as answer-key guards rather than document prose. The CV says 'My role in multilingual work is pedagogical coordination; specialist language adaptation is led by the consortium's qualified language-support lecturer', which a CV would not say. The consortium file says 'She is qualified to lead multilingual adaptation…' and puts the status in bold: '**planned**'. Publications.md has 'The four publications below are published journal articles. The list includes…'. Prior_project.md closes with a run of disclaimers, including the obscure 'curriculum validation remains unestablished' and 'self-selected research sample'.",
+   "fix": "Rewrite in each document's register. CV: list the languages she teaches in and her experience; drop the role disclaimers. Team file: describe Maija's duties and Eeva's job description; remove the bold. State the placement minute as minuted ('The group agreed to explore a network of 12 placements; no agreements have been signed'). Publications: plain reference list with one-line annotations. Final report: a 'Limitations' subsection in report style. Replace 'curriculum validation remains unestablished' with a concrete statement, e.g. 'the terminology sheets have not been reviewed by programme boards'.",
+   "from_task_review": "pub2-ka220-multilingual-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "cv_coordinator.md, consortium_and_resources.md, prior_project.md, publications.md (passages listed in problem)",
+   "problem": "Many sentences read as answer-key clarifications or residues of removed traps, not as the documents' own register:\n- CV: 'My role in multilingual work is pedagogical coordination; specialist language adaptation is led by the consortium's qualified language-support lecturer'; 'This was my first completed teaching study involving all the present consortium institutions'; 'The project investigated teaching within existing courses'.\n- consortium_and_resources.md: 'She is qualified to lead multilingual adaptation…'; the operating-licence sentence, which repeats itself ('holds an operating licence … and awards higher education degrees under its operating licence'); 'Each is a separate legal entity…'; the bolded '**planned**'.\n- prior_project.md: 'The language materials were teaching resources reviewed through…'; 'curriculum validation remains unestablished'; 'The pilot findings concern a studio teaching intervention in a self-selected research sample'; 'their frequency was not used to estimate population prevalence…'.\n- publications.md: 'The four publications below are published journal articles.'\nA real CV, team record or final report would not hedge this way, and the stacked disclaimers act as hints.",
+   "fix": "Rewrite these passages in the voice of each document type:\n- CV: list roles and outputs plainly.\n- Team record: state qualifications and duties without declaring who is 'qualified to lead'.\n- Final report: keep each limitation once, in report wording (e.g. a 'Limitations' paragraph).\n- Remove the bold on 'planned' and the duplicated licence clause.\n- Delete the residue sentences that support no fact, gap or trap.",
+   "from_task_review": "pub2-ka220-studios-close"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml facts vs prior_project.md and consortium_and_resources.md",
+   "problem": "Several stated limitations and statuses that a proposal might quote, or must not overclaim, are not registered:\n- curriculum uptake confined to the participating modules (bears on EO3/SC4);\n- multilingual resources reviewed only for terminology and comprehensibility, with curriculum validation not established;\n- no missing-outcome imputation, and no language, disability-subgroup or institution-specific estimates (bears on ME10);\n- raw recordings and identifiable transcripts not publicly released, with public materials limited to recreated examples (bears on ME8 licensing);\n- language-support and caption requests recorded only as service requests;\n- studios remain in ordinary teaching use;\n- no external research grant;\n- approval KAA-EDU-2024-11 covers only the pilot, with no approval for the new evaluation.",
+   "fix": "Add facts for each item, with values copied exactly from the source sentences, e.g. 'Curriculum uptake is confined to the participating modules.', 'No missing-outcome imputation was undertaken.' and 'Raw student recordings and identifiable interview transcripts are not publicly released.' Add a fact or gap stating that no research approval exists yet for the proposed project.",
+   "from_task_review": "pub2-ka220-studios-close"
+  }
+ ]
+}

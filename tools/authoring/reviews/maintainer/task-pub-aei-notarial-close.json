@@ -1,0 +1,12 @@
+{
+ "reviewer": "task review",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Task 2",
+   "where": "brief.md: «Me presento yo por el tipo A, ya que leí la tesis en 2020»; cv_ip.md, section 4; task.yaml: traps",
+   "problem": "The brief introduces a third eligibility trap. Oriol's doctorate falls within the type A window, but the dossier records three years as IP of an AEI Generación de Conocimiento project, from September 2021 through August 2024. This conflicts with the supplied call's restriction on previous leadership exceeding one year. Correcting the two registered traps—duration and Lorenzo's appointment—therefore still leaves the requested type A application ineligible. The hidden task does not account for this additional misleading instruction.",
+   "fix": "Change the brief to request type B, retaining the €72,000 direct-cost budget, which falls within that band's limits. Record the previous project's scheme and three-year IP status explicitly in the facts registry, and align the intended proposal configuration with type B. This preserves the two existing traps without adding another."
+  }
+ ]
+}

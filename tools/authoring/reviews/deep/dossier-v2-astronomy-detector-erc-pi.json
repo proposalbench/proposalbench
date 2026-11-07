@@ -1,0 +1,90 @@
+{
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "kind": "dossier",
+  "id": "v2-astronomy-detector-erc-pi",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "data/public/dossiers/v2-astronomy-detector-erc-pi/cv_pi.md: 'Elias Nordström'; data/public/dossiers/v2-astronomy-detector-erc-pi/team.md: 'Linnea Holmberg', 'Arvid Lindström', 'Sofia Berggren', 'Jesper Kvarnström', 'Sara Jansson', 'Marcus Nordin', 'Elsa Ström'; corresponding publication authors.",
+      "problem": "These are not safely fictional identities. Elias Nordström is a publicly documented footballer; Linnea/Linnéa Holmberg is a Stockholm University academic; Arvid Lindström was a Swedish electrical-engineering professor; Sofia Berggren and Jesper Kvarnström have official international sports profiles; Sara Jansson is a Lund researcher. Marcus Nordin has a mathematics-education article and seminar record at Gothenburg's NCM, and Elsa Ström is an identified author of KTH research/thesis material. The latter two are also identifiable scholarly authors, not evidence of invented names. Changing the field or adding 'Dr.' does not remove a full-name collision.",
+      "fix": "Rename consistently in the dossier, own-publication author arrays, and linked briefs: Elias Nordström → Elias Mattis Norväng; Linnea Holmberg → Linnea Signe Holmervik; Arvid Lindström → Arvid Torsten Lindekvist; Sofia Berggren → Sofia Elin Bergelund; Jesper Kvarnström → Jesper Alrik Kvarnevik; Sara Jansson → Sara Elvira Jannervik; Marcus Nordin → Marcus Ivar Norliden; Elsa Ström → Elsa Linnea Strömvik. Update initials/surnames in citations and the contact address (use a reserved example.org address). Exact-phrase searches for these proposed full combinations found no matches in this review.",
+      "evidence": [
+        "https://fotbolltransfers.com/nyheter/officiellt-jonkopings-sodra-lanar-elias-nordstrom--igen/182961",
+        "https://www.su.se/profiles/l/liho5380",
+        "https://runeberg.org/tektid/1944/1327.html",
+        "https://www.worldaquatics.com/athletes/1032649/sofia-berggren/profile",
+        "https://fimspeedway.com/riders/jesper-kvarnstrom",
+        "https://portal.research.lu.se/en/persons/sara-jansson/",
+        "https://ncm.gu.se/pdf/namnaren/0310_18_4.pdf",
+        "https://kth.diva-portal.org/smash/get/diva2%3A1998552/FULLTEXT01.pdf",
+        "data/public/dossiers/v2-astronomy-detector-erc-pi/team.md"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1; Dossier 6",
+      "where": "data/public/dossiers/v2-astronomy-detector-erc-pi/publications.md items 1 and 2: 'Journal of Astronomical Instrumentation and Methods' and 'Computational Astrophysics'; matching dossier.yaml own_publications.",
+      "problem": "The first venue copies the complete name of the real Journal of Astronomical Instrumentation and adds 'and Methods'. The second is a readily confused shortened form of the real Computational Astrophysics and Cosmology. Both are used as journal names in the same subject areas as the real venues. These are confusable fictional scholarly identities under the user's explicit collision rule, even though the full invented strings need not be exact registered titles.",
+      "fix": "Rename the first venue to 'Skarvholm Calibration Studies' and the second to 'Vasterled Detector Computing Reports', in publications.md and the matching own_publications entries. Keep the DOIs in the existing 10.99999/pb. namespace. Exact searches for both replacement titles returned no match.",
+      "evidence": [
+        "https://portal.issn.org/resource/ISSN/2251-1725",
+        "https://portal.issn.org/resource/ISSN/2197-7909",
+        "https://link.springer.com/journals/c/2",
+        "data/public/dossiers/v2-astronomy-detector-erc-pi/publications.md",
+        "data/public/dossiers/v2-astronomy-detector-erc-pi/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2; Dossier 4",
+      "where": "data/public/dossiers/v2-astronomy-detector-erc-pi/prior_project.md WP2: 'magnitude 28 equivalent in the V-band, corresponding to 15 detected electrons per source'; '300-second exposure on an 8-meter telescope with 60% total system throughput'.",
+      "problem": "The new observing assumptions still do not support the brightness conversion. Using a standard approximate V zero point of 1.0×10^8 photons s^-1 m^-2 nm^-1, an 86 nm band, area π×4² m², 300 s and efficiency 0.60 gives about 491 electrons at V=28, roughly 33 times the stated 15. Fifteen electrons would instead require about 1.83% total throughput, a 9.17 s exposure, or V≈31.79 with the other assumptions fixed. A different narrow band or severe extra loss is not specified and cannot silently be folded into '60% total'. The 3.87 source-only SNR is consistent with 15 electrons, so simply replacing 15 with 491 would also change the simulated experiment.",
+      "fix": "Preserve the synthetic experiment without an unsupported on-sky sensitivity claim: replace the magnitude/conversion sentences with 'The simulations injected 10,000 artificial point sources with a Poisson mean of 15 detected electrons per source into empirical detector-noise backgrounds. No astronomical-magnitude or full telescope-sensitivity equivalence is claimed for this detector-only validation.' Delete the 300-second/8-meter/60% conversion and replace F07 with this detector-only limitation; retain 15 electrons and sqrt(15)≈3.87 as a source-shot-noise upper bound, not an on-sky SNR. State that sky background and a detector plate scale were not specified, so the reported recovery must not be extrapolated to real-sky completeness.",
+      "evidence": [
+        "https://vikdhillon.staff.shef.ac.uk/teaching/phy217/instruments/phy217_inst_phot_problems.html",
+        "data/public/dossiers/v2-astronomy-detector-erc-pi/prior_project.md",
+        "data/public/dossiers/v2-astronomy-detector-erc-pi/dossier.yaml"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/v2-astronomy-detector-erc-pi/dossier.yaml facts F01–F22 versus prior_project.md ('4 million pixels', '4.2 terabytes', '8.5 seconds'), resources.md ('provided under non-disclosure agreements by the manufacturers for research purposes'), and team.md ('External Collaborators (Unfunded)').",
+      "problem": "The registry remains incomplete after the earlier revisions. Missing salient facts include the four-million-pixel device size and 100–200 K characterization range, 4.2 TB archive, 1960/2000 recovery denominator, 8.5-second baseline and same-hardware comparison, three research-use/NDA evaluation boards, unfunded external collaborator, and the planned Nordic Optical Telescope archival integration under the main grant. Those constraints affect feasibility, transfer rights and separation of main-grant versus PoC work. The workflow-close brief additionally asserts that the Q1 2027 sessions are already main-grant-funded, but resources.md and its F20 do not substantiate that funding status.",
+      "fix": "Add source-linked facts for each listed item, preserving the exact quoted values and limitations: 4 million pixels/device; 100 K to 200 K; 4.2 terabytes; 1,960 of 2,000; baseline 8.5 seconds on identical hardware/workload; three research-only NDA boards; Tobias Lindvret as an unfunded adviser; planned archival integration in months 55–60. In resources.md §3.1 add 'The Q1 2027 sessions are funded from CALIFAINT and are preparatory activities before any PoC award; their results are not yet available as of this record.' Include that status in F20. Incorporate the photometric correction above rather than re-registering the invalid conversion.",
+      "evidence": [
+        "data/public/dossiers/v2-astronomy-detector-erc-pi/dossier.yaml",
+        "data/public/dossiers/v2-astronomy-detector-erc-pi/prior_project.md",
+        "data/public/dossiers/v2-astronomy-detector-erc-pi/resources.md",
+        "data/public/dossiers/v2-astronomy-detector-erc-pi/team.md",
+        "data/public/tasks/pub2-erc-workflow-close/brief.md",
+        "docs/scoring_spec.md"
+      ]
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/v2-astronomy-detector-erc-pi/cv_pi.md, invited presentations: 'European Astronomical Society Annual Meeting, Padua, Italy (2025)'.",
+      "problem": "The location/year pair is wrong: the official EAS archive places the 2025 meeting in Cork and Padova in 2024. This is a concrete error in a claimed invited-talk credential.",
+      "fix": "Replace the entry with '*Calibration Challenges for the Next Decade of Optical Astronomy*, Keynote at the Fjordlight Detector Methods Symposium, Padua, Italy (2025).' This replacement event title returned no exact search match and avoids attributing a fictional credential to the real EAS meeting. For factual reference, the actual EAS 2025 location was Cork, Ireland.",
+      "evidence": [
+        "https://eas.unige.ch/ewass.jsp?tab=org",
+        "data/public/dossiers/v2-astronomy-detector-erc-pi/cv_pi.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all five visible files and all 22 facts/five own-publication entries. Every non-null fact.value occurs literally in its source. All files have fiction notices; no declared gaps, inconsistencies or reviewer_criticisms; all current records are dated by September 2026.",
+    "Arithmetic: 3×4=12 devices; 14% of 4,000,000=560,000; 1960/2000=98%; false-positive reduction 40−26=14 lies within [5,23]; April 2022–September 2026 is 54 months. Timing 1.2 s/frame meets 2 s/frame but does not establish 10 Hz operation.",
+    "Science: non-Gaussian sCMOS/RTN and mitigation are plausible in primary work https://arxiv.org/abs/2605.19022 and https://arxiv.org/html/2505.24540v1; the stated synthetic measurements cannot be independently reproduced without raw data.",
+    "Name search covered all nine named people, all invented educational/employment institutions, Swedish Institute for Environmental Physics, CALIFAINT, FaintCal, DetControl-Pro, SkarvDrive, all five journal titles and the grant number. Remaining exact labels returned no substantiated collision. Negative searches are bounded, not proof of uniqueness.",
+    "Own DOIs all use 10.99999/pb.; author order/year/title/venue match the visible publication list. CORDIS lookup of 101055999 failed through the browser and exact-number search found no match, so real-number noncollision is not certified.",
+    "Patent-free core code and restricted driver are compatible; future environmental transfer is explicitly a hypothesis with an early feasibility gate. No completed physical field validation is claimed. Astronomy-derived software can support a PoC after the 2027 main-grant end.",
+    "Earlier automated dossier and linked-task reviews used only as context; rechecked the revised denominators, uncertainty labels and driver name rather than carrying forward superseded findings."
+  ]
+}

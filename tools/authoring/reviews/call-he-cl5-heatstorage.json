@@ -1,0 +1,17 @@
+{
+  "kind": "call",
+  "id": "he-cl5-heatstorage",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Call 3",
+      "where": "call.md Technology readiness table row and call.yaml trl_start/trl_end",
+      "problem": "call.md states 'activities should reach TRL 4–6 by the end of the project', which implies the final TRL is anywhere between 4 and 6. However, call.yaml specifies trl_start: 4 and trl_end: 6, which means the project starts at TRL 4 and ends at TRL 6.",
+      "fix": "Update call.md to match the yaml, e.g., 'Activities are expected to start at TRL 4 and achieve TRL 6 by the end of the project.'"
+    }
+  ]
+}

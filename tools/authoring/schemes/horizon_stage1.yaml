@@ -1,0 +1,145 @@
+name: horizon_stage1
+scheme: horizon_stage1
+language: en
+topic_code_prefix: PB-HORIZON-STAGE1
+bottom_up: false
+proposal_type: stage1
+length_contract:
+  max_words: 5000
+  enforcement: disregard_excess
+  tolerance: 0.0
+  exempt: []
+  page_limit: 10
+  words_per_page: 500
+  source_note: 'Verified 2026-10-31. https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia-stage-1_en.pdf;
+    https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf.
+    Benchmark conversion: 10 pages x 500 words/page = 5000 words; prose estimate, not a funder word-count
+    rule. Tables and captions count.'
+required_sections:
+- id: '1'
+  title: Excellence
+- id: '1.1'
+  title: Objectives and ambition
+  parent: '1'
+- id: '1.2'
+  title: Methodology
+  parent: '1'
+- id: '2'
+  title: Impact
+- id: '2.1'
+  title: Project’s pathways towards impact
+  parent: '2'
+eligibility:
+  budget_in_narrative: false
+  currency: EUR
+  max_budget: 5000000
+  duration_months_min: 36
+  duration_months_max: 48
+  consortium:
+    min_entities: 3
+    min_countries: 3
+    notes: At least three independent legal entities in three different EU Member States or Associated
+      Countries, at least one in an EU Member State. Only eligible beneficiaries count; associated partners do not satisfy the minimum. The minimum applies at first-stage submission and at the second stage.
+fixed_items:
+  expected_outcomes: []
+  scope: []
+  exclusions: []
+  mandatory_elements:
+  - id: ME1
+    text: Explain how the methodological concepts, models and assumptions enable the project objectives.
+  - id: ME2
+    text: Address sex and gender analysis in the research content, or give a project-specific justification
+      for its irrelevance.
+  - id: ME3
+    text: Explain the open science practices used in the methodology, with project-specific reasons
+      for any exceptions.
+  - id: ME4
+    text: Explain the causal route by which the project results would deliver the stated topic outcomes
+      for the target beneficiaries.
+sources:
+- url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia-stage-1_en.pdf
+  verified: '2026-10-31'
+- url: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf
+  verified: '2026-10-31'
+author_notes: |
+  Keep consortium composition in eligibility, not narrative MEs. Topic-specific ethics, data-protection
+  and gender requirements must be separate, proportionate stage-1 items; do not add a bundled ME6.
+  eligibility_bounds:
+    max_budget: {min: 3000000, max: 10000000}
+    duration_months_max: {min: 36, max: 60}
+  Keep the 2026–2027 stage-1 sections exactly; scheme=horizon_stage1 and proposal_type=stage1, task.type=stage1. Matrix conditions set the fictional award ceiling and maximum duration within these bounds; show them only in the header. Do not impose a stage-2 implementation rubric. The non-blind choice is fictional, not a claim that every Horizon stage-1 call is non-blind. Source: form pp. 15–21 and General Annexes A, B, D, F. Generic benchmark checks remain distinct from the official two-criterion evaluation.
+  Preserve all fixed items and section ids. Topic slots contain merged fixed and topic items,
+  using unused EO/SC/EX/ME ids. Each item must be a single narrative-visible requirement.
+  Put eligibility and submission rules in eligibility prose and consortium notes, not MEs.
+  Use the stated fictional deadline 15 September 2027 where a deadline is needed; do not imply
+  an actual open call. Preserve proposal_type in call.yaml; task.type is separate metadata.
+  Rights: independently paraphrased public policy; no copied official narrative or logos.
+  Register source attribution when integrating calls; this skeleton does not update data/.
+call_md: |
+  # {{title}} — {{topic_code}}
+
+  > Fictional ProposalBench two-stage RIA call. Topic, identifier, award ceiling, duration and deadline are invented. Stage-1 structure follows the 2026–2027 standard form (V5.0, 5 November 2025).
+
+  ## Purpose and eligibility
+
+  Submit the first-stage outline only. Eligibility is checked at each stage: the consortium declared at this first stage must already meet the three-entity, three-country rule stated below, and any change for the second stage must keep meeting it. No detailed budget or implementation section is requested at this stage. The award ceiling and maximum duration are fictional topic conditions stated in the table below. The fictional stage-1 deadline is 15 September 2027. This benchmark variant does not use blind evaluation; the General Annexes require anonymity only where the topic specifies it.
+
+  {{header_table}}
+
+  ## Expected outcomes
+
+  {{expected_outcomes_intro}}
+
+  {{expected_outcomes}}
+
+  ## Scope
+
+  {{scope_intro}}
+
+  {{scope}}
+
+  ## Exclusions
+
+  {{exclusions}}
+
+  ## Specific conditions and mandatory elements
+
+  {{specific_conditions}}
+
+  ## Required narrative
+
+  ### 1. Excellence
+
+  #### 1.1 Objectives and ambition
+  State verifiable objectives, relevance to the topic, the advance over existing knowledge and the starting and intended maturity where relevant.
+
+  #### 1.2 Methodology
+  Explain the overall approach, assumptions and links from methods to objectives. Address methodological challenges, interdisciplinarity where relevant, gender in research content, and proportionate open science. This is a concise outline, not the full implementation plan.
+
+  ### 2. Impact
+
+  #### 2.1 Project’s pathways towards impact
+  Explain who benefits, how results contribute to the stated topic outcomes, and the assumptions and external barriers. Provide quantified estimates where possible and meaningful. Consider mitigations for uptake barriers. Do not add stage-2 sections 2.2, 2.3 or 3; a detailed dissemination/exploitation/communication plan and implementation tables are outside this deliverable.
+
+  ## Award criteria
+
+  Excellence and Impact alone are evaluated, each 0–5 with equal weight. Excellence covers the objectives, ambition beyond the state of the art and soundness of the overall methodology, including its concepts, models, assumptions, interdisciplinary approaches, sex/gender analysis and open science practices. Impact covers the credibility of the pathways to the specified outcomes and impacts. This fictional topic specifies its expected effects through those outcomes. Only the first-stage aspects of the General Annexes apply. Each criterion requires at least 4. The overall threshold is set per budget envelope to admit proposals requesting as close as possible to three times, and not less than twice, the available budget. It is normally 8 or 8.5, not a guaranteed fixed 8. Passing invites a full second-stage application; it is not an award.
+
+  ## Length contract
+
+  The official first-stage limit is 10 pages for all Part B material, including references, tables and figures. At 500 words/page (A4, 11-point reference font, at least 15 mm margins), the binding benchmark ceiling is {{max_words}} words, counting all narrative, headings and references. Excess text is disregarded with zero tolerance. This is a practical prose estimate, not an official word limit.
+
+  ## Sources
+
+  Verified 2026-10-31; policy paraphrases, not an official funding notice.
+  - https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia-stage-1_en.pdf
+  - https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf
+
+  <!-- {{canary}} -->
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+  notes: Official rules checked on 2026-10-31; fictional adaptations identified. No human review claimed.
+render_fixed_conditions: true

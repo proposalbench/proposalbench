@@ -1,0 +1,1111 @@
+# Public split v2: 20 additional calls, 20 dossiers, 40 tasks; v1 remains unchanged.
+# All biographies, institutions, projects and prior awards are fictional. As-of: 2026-10-01.
+# All call deadlines: 2027-09-15 (fictional, not a real scheme deadline).
+# Skeletons supply fixed rules; themes below supply explicit fictional topic conditions.
+# Authors are planned assignments, not claims that generation/review has already happened.
+# Variants are recorded in research_dna: exactly two thin, two inconsistent, two cross-language,
+# and four resubmission dossiers. Do not repair away an intentional unresolved inconsistency.
+# All T12 conflicting facts stay in dossier documents only; ideas are hidden authoring notes.
+# v1 trap baseline: the audited classification in v1_trap_types.yaml (37); v2 adds 63.
+families:
+  anthropic: {provider: claude, model: opus}
+  google: {provider: google, model: gemini-3.1-pro-preview}
+  openai: {provider: codex, model: gpt-6-astra}
+
+calls:
+  - id: v2-ka220-multilingual-practice
+    scheme: erasmus_ka220
+    skeleton: erasmus_ka220
+    language: en
+    author: anthropic
+    topic_code: PB2-KA220-HED-01
+    conditions: {max_budget: 400000, duration_months_max: 36}
+    title: "Multilingual practice studios in higher education"
+    theme: >-
+      Fictional KA220-HED topic, deadline 15 September 2027, following the frozen 2026
+      cooperation partnership structure. Develop and embed inclusive multilingual practical
+      teaching across a partnership that meets the programme rule of at least three
+      organisations from three programme countries (participating HEIs hold a valid charter;
+      faculties of one HEI are one organisation), with assessed learner outcomes, staff
+      development and sustainable curriculum adoption. Linguistics, arts and professional
+      education routes are welcome. Research supports teaching improvement; a stand-alone
+      language-model benchmark is outside the topic. Grant choice is one of EUR 120,000,
+      250,000 or 400,000, not an arbitrary amount below a cap. The narrative must state the
+      selected lump sum and allocate it coherently to work packages. Describe partner legal
+      identities, charter status and country, inclusion and evaluation.
+  - id: v2-ka220-accessible-studios
+    scheme: erasmus_ka220
+    skeleton: erasmus_ka220
+    language: en
+    author: google
+    topic_code: PB2-KA220-HED-02
+    conditions: {max_budget: 400000, duration_months_max: 36}
+    title: "Accessible collaborative studios and placement learning"
+    theme: >-
+      Fictional KA220-HED topic, deadline 15 September 2027. Co-create accessible
+      collaborative studios and placement teaching for students with sensory or language
+      access barriers; compare participation and assessed learning, train staff and secure
+      institutional uptake. The programme rule applies: at least three organisations from
+      three programme countries, participating HEIs with a valid charter; multiple departments
+      of one HEI remain one organisation. Arts or language-practice routes are possible. Grant
+      choice EUR 120,000, 250,000 or 400,000; state and allocate the selected lump sum in the
+      narrative. Include the skeleton's impact and dissemination content, accessibility
+      measures, baseline limitations and an evaluation plan.
+  - id: v2-cerv-service-voice
+    scheme: cerv
+    skeleton: cerv
+    language: en
+    author: openai
+    topic_code: PB2-CERV-CIV-01
+    conditions: {max_budget: 300000, duration_months_max: 24}
+    title: "Equal voice in local public-service decisions"
+    theme: >-
+      Fictional CERV citizens-engagement sub-priority 2.1 topic, deadline 15 September 2027.
+      Enable residents facing language and migration-related barriers to participate in
+      deliberation about public services, with accessible assemblies, feedback to authorities
+      and documented responses, connecting deliberation to EU policymaking on inclusion and
+      access. Follow sub-priority 2.1's eligibility as stated in the skeleton (at least two
+      independent beneficiaries in two eligible countries); add no narrower consortium
+      restriction. Associated participants do not replace beneficiaries. Explain roles,
+      recruitment, safeguarding, meaningful participation and outcome evaluation in the
+      narrative. Migration-status casework and academic publications alone do not deliver this
+      topic.
+  - id: v2-cerv-cultural-participation
+    scheme: cerv
+    skeleton: cerv
+    language: en
+    author: anthropic
+    topic_code: PB2-CERV-CIV-02
+    conditions: {max_budget: 300000, duration_months_max: 24}
+    title: "Shared cultural spaces for civic participation"
+    theme: >-
+      Fictional CERV citizens-engagement sub-priority 2.1 topic, deadline 15 September 2027.
+      Use community cultural spaces and participatory interpretation of local heritage to
+      involve excluded residents in democratic decisions, including an actionable dialogue
+      with local authorities. Attendance at performances alone is insufficient; explain how
+      residents influence decisions and how responses inform EU policymaking on inclusion and
+      cultural participation. Apply sub-priority 2.1's two-beneficiary/two-country rule as
+      stated in the skeleton; add no narrower consortium restriction. Associated entities do
+      not count. Describe participant protection, accessible engagement, event-based work
+      packages with verifiable direct participation, and public outputs.
+  - id: v2-he-stage1-coastal-exposure
+    scheme: horizon_stage1
+    skeleton: horizon_stage1
+    language: en
+    author: google
+    topic_code: PB2-HE-S1-COAST-01
+    conditions: {max_budget: 5000000, duration_months_max: 48}
+    title: "Coastal exposure pathways after extreme rainfall: stage 1"
+    theme: >-
+      Fictional HE two-stage RIA topic, stage-1 deadline 15 September 2027. Link catchment runoff,
+      estuarine transport and coastal exposure pathways to usable early-warning evidence.
+      Explain hypotheses, sampling or modelling design, uncertainty and beneficiary outcomes
+      in Excellence and Impact only, under the reduced skeleton template. At least three
+      independent legal entities in three EU/associated countries including an EU member.
+      No detailed implementation or budget narrative is requested; no cost traps. This is
+      the skeleton's explicitly non-blind benchmark variant, not a rule for all stage-1 calls.
+      Studies solely of offshore cosmology or generic terrestrial urban design are not responsive;
+      methods and outputs must concern waterborne exposure pathways. Permanent flood-barrier
+      construction is excluded; temporary monitoring and modelling research are allowed.
+  - id: v2-he-stage1-estuary-planning
+    scheme: horizon_stage1
+    skeleton: horizon_stage1
+    language: en
+    author: openai
+    topic_code: PB2-HE-S1-ESTUARY-02
+    conditions: {max_budget: 5000000, duration_months_max: 48}
+    title: "Evidence for equitable estuarine flood adaptation: stage 1"
+    theme: >-
+      Fictional HE two-stage RIA topic, stage-1 deadline 15 September 2027. Combine estuarine flood
+      and drainage science with urban planning to evaluate distributional effects of adaptation
+      options. Physical observations or validated simulations must inform spatial choices and
+      residents' exposure; uncertainty and co-design are part of the methodology. Construction
+      of permanent flood barriers is excluded; comparative research and temporary monitoring
+      are allowed. Three independent entities in three EU/associated countries including an EU
+      member. Excellence and Impact only, in the skeleton's non-blind benchmark variant; no budget
+      narrative or stage-2 work-package tables. Describe safe handling of resident-level data.
+  - id: v2-he-digital-food-logistics
+    scheme: horizon_ria
+    skeleton: horizon_ria
+    language: en
+    author: anthropic
+    topic_code: PB2-HE-CL4-FOOD-01
+    conditions: {max_budget: 5000000, duration_months_max: 42}
+    title: "Secure and verifiable AI for distributed food logistics"
+    theme: >-
+      Fictional Cluster 4 RIA, deadline 15 September 2027. Develop and evaluate resilient AI decision
+      support for food logistics under sensor faults and adversarial data, with food-safety
+      and loss outcomes, meaningful baselines, security evaluation and human override. Partners
+      must supply both computing and food-domain competence. Generic factory robotics without
+      a food-logistics demonstrator is outside the topic. Three independent entities in three
+      EU/associated countries including an EU member. The implementation narrative must state
+      the requested EU contribution, a consistent resource allocation and partner roles.
+  - id: v2-he-food-coldchain
+    scheme: horizon_ria
+    skeleton: horizon_ria
+    language: en
+    author: google
+    topic_code: PB2-HE-CL6-FOOD-02
+    conditions: {max_budget: 5500000, duration_months_max: 42}
+    title: "Safe low-loss food chains under interrupted refrigeration"
+    theme: >-
+      Fictional Cluster 6 food-systems RIA, deadline 15 September 2027. Explain and reduce spoilage
+      and microbial hazards across interrupted cold chains, linking validated measurements,
+      decision support and adoption by food-chain actors. Include uncertainty and distinguish
+      bench results from field validation. Creating antimicrobial veterinary medicines is
+      excluded; monitoring and process research are allowed. Three independent entities in
+      three EU/associated countries including an EU member. State the requested EU contribution
+      and coherent costs in Implementation, with partner roles and safe sampling procedures.
+  - id: v2-nih-a1-care-transitions
+    scheme: nih_r21_resubmission
+    skeleton: nih_r21_resubmission
+    language: en
+    author: openai
+    topic_code: PB2-NIH-R21-A1-01
+    title: "Exploratory mechanisms of medication self-management after care transitions"
+    theme: >-
+      Fictional PA-style R21 emphasis accepting A1, deadline 15 September 2027, clinical trials not
+      allowed. Observe links between adult patients' transitions between services, attention,
+      stress and medication self-management; direct or validated behavioural measurements and
+      bounded feasibility outcomes are expected. Accept revisions of prior R21 A0 applications
+      under either of this pair's compatible PA-style emphases; neither is an RFA. Preserve the
+      prior application's scientific identity. Include the one-page Introduction to
+      Resubmission plus Specific Aims and Research Strategy, separate length caps, responses
+      to all major criticisms and limitations of changes. No narrative budget requested.
+  - id: v2-nih-a1-stress-adherence
+    scheme: nih_r21_resubmission
+    skeleton: nih_r21_resubmission
+    language: en
+    author: anthropic
+    topic_code: PB2-NIH-R21-A1-02
+    title: "Stress, attention and medication routines in adult outpatient care"
+    theme: >-
+      Fictional PA-style R21 emphasis accepting A1, deadline 15 September 2027, clinical trials not
+      allowed. Examine stress and attention as potential mechanisms of medication routines,
+      including after discharge, through observational and measurement-feasibility research.
+      A nursing or psychological starting point can qualify. This and PB2-NIH-R21-A1-01 accept
+      the same underlying revised R21 histories within the permitted resubmission window;
+      keep the original core question rather than inventing a different A0. One-page
+      Introduction to Resubmission, Specific Aims and Research Strategy with separate caps;
+      respond to all major criticisms. Participant protections belong in Approach. No budget.
+  - id: v2-he-revision-urban-water
+    scheme: horizon_ria
+    skeleton: horizon_ria
+    language: en
+    author: google
+    topic_code: PB2-HE-REV-WATER-01
+    conditions: {max_budget: 4800000, duration_months_max: 36}
+    title: "Urban runoff warnings linked to equitable water planning"
+    theme: >-
+      Fictional RIA topic, deadline 15 September 2027, on storm runoff, contamination and
+      public decisions across urban catchments and receiving waters. Require credible warning
+      validation and adoption routes for municipalities; coastal and urban starting points are
+      compatible. Three independent entities in three EU/associated countries including an EU
+      member. Standard RIA Part B only, with requested EU contribution and resource
+      allocation. The call text says nothing about earlier applications: some applicants will
+      resubmit, as in any open topic.
+  - id: v2-he-revision-catchment-coast
+    scheme: horizon_ria
+    skeleton: horizon_ria
+    language: en
+    author: openai
+    topic_code: PB2-HE-REV-WATER-02
+    conditions: {max_budget: 4800000, duration_months_max: 36}
+    title: "Catchment-to-coast contamination forecasts with usable response thresholds"
+    theme: >-
+      Fictional RIA topic, deadline 15 September 2027. Connect stormwater transport and
+      coastal contamination forecasts to operational response thresholds for public water
+      managers. Evaluate uncertainty, transfer between sites and effects on underserved users.
+      Three independent entities in three EU/associated countries including an EU member.
+      Standard RIA Part B, requested EU contribution and resource allocation; include
+      dissemination/exploitation, open-science methodology and resource risks. The call text
+      says nothing about earlier applications: some applicants will resubmit, as in any open
+      topic.
+  - id: v2-nsf-career-verified-autonomy
+    scheme: nsf_career
+    skeleton: nsf_career
+    language: en
+    author: anthropic
+    topic_code: PB2-NSF-CAREER-01
+    title: "CAREER-style emphasis: verifiable distributed autonomy"
+    theme: >-
+      Fictional CAREER-style solicitation, deadline 15 September 2027, preserving the frozen
+      eligibility, five-year period and research-education integration rules. Broad emphasis
+      on mathematical or computational foundations of reliable distributed autonomous systems.
+      A theorem-led programme or a security-led robotics programme is possible. Explain
+      research-education integration and assess student learning; use the required distinct
+      Broader Impacts section. A single eligible assistant-professor PI, no co-PIs; mentors may
+      have bounded roles. Do not demand departmental letters inside the research narrative.
+      No budget trap because budget forms are outside the requested narrative.
+  - id: v2-nsf-career-robust-inference
+    scheme: nsf_career
+    skeleton: nsf_career
+    language: en
+    author: google
+    topic_code: PB2-NSF-CAREER-02
+    title: "CAREER-style emphasis: robust inference from constrained sensors"
+    theme: >-
+      Fictional CAREER-style solicitation, deadline 15 September 2027. Advance fundamental theory
+      or systems methods for inference under faulty, sparse or adversarial sensing, with a
+      five-year integrated research and education plan. Mathematical limits, proof techniques
+      and testable robot-system hypotheses are all appropriate. A generic commercial robot
+      demonstration without an inference contribution is outside this fictional emphasis.
+      Same single-PI eligibility as the paired CAREER call; no co-PIs. State educational
+      objectives, evaluation and Broader Impacts. No narrative budget or invented attachments.
+  - id: v2-erc-poc-field-translation
+    scheme: erc_poc
+    skeleton: erc_poc
+    language: en
+    author: openai
+    topic_code: PB2-ERC-POC-01
+    title: "Proof of Concept: innovation arising from ERC research, window A"
+    theme: >-
+      Fictional ERC PoC window, deadline 15 September 2027; bottom-up, without subject restrictions.
+      EUR 150,000 lump sum over 18 months under the frozen skeleton structure (2027 work
+      programme eligibility). Applicants must be
+      the eligible PI of an ongoing or qualifying recently ended ERC main grant, with the
+      innovation demonstrably arising from it. Field translation of sensing methods is an
+      illustrative opportunity, not a required topic or route. Explain innovation potential,
+      feasibility and validation, stakeholder needs, rights and exploitation strategy.
+      Continued frontier research without testing innovation potential is insufficient.
+      Routine commercial sales rollout without proof-of-concept work is excluded.
+  - id: v2-erc-poc-workflow-transfer
+    scheme: erc_poc
+    skeleton: erc_poc
+    language: en
+    author: anthropic
+    topic_code: PB2-ERC-POC-02
+    title: "Proof of Concept: innovation arising from ERC research, window B"
+    theme: >-
+      Fictional ERC PoC window, deadline 15 September 2027; same bottom-up eligibility and EUR
+      150,000, 18-month structure as window A. Transfer of a research workflow into an adoptable
+      service or tool is illustrative, not a thematic eligibility test. Both social and
+      commercial innovation qualify. Include a credible link to the applicant's ERC main grant,
+      feasibility and user validation, intellectual-property position and route to uptake.
+      Routine commercial sales rollout without proof-of-concept work is excluded in this
+      fictional topic; validation of a prototype or service is allowed. Do not promise
+      regulatory approval or uptake unsupported by the dossier.
+  - id: v2-aei-oriented-service-access
+    scheme: aei_pid_orientada
+    skeleton: aei_pid_orientada
+    language: es
+    author: google
+    topic_code: PB2-AEI-OR-01
+    title: "Investigación orientada: barreras lingüísticas y acceso rural a los cuidados"
+    theme: >-
+      Convocatoria ficticia, cierre 15 de septiembre de 2027, basada en la estructura AEI de
+      investigación orientada. Prioridad Cultura, creatividad y sociedad inclusiva: estudiar
+      barreras lingüísticas, administrativas y territoriales en el acceso a cuidados de
+      personas mayores, con hipótesis contrastables, participación de usuarios y transferencia
+      a servicios locales. Memoria en español; describir incertidumbre, equipo, plan y gestión
+      de datos. Proyecto individual; tipos, duraciones y bandas de presupuesto según la
+      plantilla, sin restringirlos más; IP elegible con vinculación con entidad española.
+      Estudiantes o profesionales sin los requisitos de IP pueden colaborar, pero no sustituir
+      al IP. No inventar autorizaciones de acceso, resultados ni colaboraciones establecidas.
+  - id: v2-aei-oriented-cultural-care
+    scheme: aei_pid_orientada
+    skeleton: aei_pid_orientada
+    language: es
+    author: openai
+    topic_code: PB2-AEI-OR-02
+    title: "Investigación orientada: participación cultural y redes rurales de cuidados"
+    theme: >-
+      Convocatoria ficticia, cierre 15 de septiembre de 2027. Prioridad Cultura, creatividad y
+      sociedad inclusiva: investigar cómo la participación cultural y la accesibilidad
+      lingüística afectan a las redes de apoyo y al acceso a cuidados de personas mayores. Una
+      comparación rigurosa debe distinguir participación de efectos causales sobre bienestar.
+      Memoria en español con equipo, plan, riesgos y datos; tipos, duraciones y bandas de
+      presupuesto según la plantilla, sin restringirlos más. IP vinculado a entidad española y
+      elegible según la plantilla. Protocolos de consentimiento y acceso a centros deben
+      distinguir permisos existentes y futuros. La investigación debe superar la mera
+      prestación de talleres.
+  - id: v2-foundation-weak-signals
+    scheme: foundation_concept
+    skeleton: foundation_concept
+    language: en
+    author: openai
+    topic_code: PB2-FOUNDATION-01
+    conditions: {max_budget: 100000, duration_months_max: 24}
+    title: "Fictional research foundation: recovering weak signals"
+    theme: >-
+      Entirely fictional private foundation, no claim of fidelity to a named funder. Deadline
+      15 September 2027. Two-to-three-page concept note on methods for recovering weak signals from
+      incomplete scientific or cultural observations; specify a falsifiable question, initial
+      feasibility, uncertainty and a follow-on decision. Astronomy and cultural acoustics are
+      illustrative domains. Required short funding request, indicative allocation, timeline,
+      team capacity and a decision criterion, using the reduced skeleton section set.
+      EUR 25,000–100,000 total including indirect costs over 12–24 months. Doctoral leads are
+      allowed with an established host
+      and responsible faculty sponsor. Purchase of major equipment above EUR 20,000 is excluded.
+  - id: v2-foundation-sparse-records
+    scheme: foundation_concept
+    skeleton: foundation_concept
+    language: en
+    author: google
+    topic_code: PB2-FOUNDATION-02
+    conditions: {max_budget: 100000, duration_months_max: 24}
+    title: "Fictional research foundation: auditable inference from sparse records"
+    theme: >-
+      Entirely fictional private foundation, deadline 15 September 2027. Two-to-three-page concept
+      note on reproducible interpretation of incomplete scientific or cultural records, with
+      provenance, missingness and uncertainty central to the method. Archival, linguistic and
+      observational-science projects qualify; generic digitisation without an inference
+      question is outside scope. Require a short funding request and indicative allocation,
+      feasible work plan and a go/no-go decision, following the reduced skeleton section set.
+      EUR 25,000–100,000 total including indirect costs over 12–24 months; no major equipment
+      purchase above EUR 20,000. Doctoral
+      leads need an existing host and responsible faculty sponsor. No full-grant attachments.
+
+dossiers:
+  - id: v2-multilingual-practicum-alliance
+    author: google
+    applicant_type: consortium
+    career_stage: mid_career
+    language: es
+    country: ES
+    method_profile: mixed
+    disciplines: [lingüística aplicada, educación superior, evaluación del aprendizaje]
+    research_dna: >-
+      Variant cross-language: all dossier documents in Spanish, proposals in English. As of
+      1 October 2026, a fictional Spanish HEI coordinates independent Portuguese and Slovenian
+      HEIs; all three hold valid ECHE charters and have existed since before 2018. Two Spanish
+      faculties are departments of the coordinator, not separate entities. A completed 2024-25
+      multilingual placement pilot involved 120 students (40 per HEI); 96 supplied paired
+      assessments, mean improvement 0.24 SD, 95% CI 0.05 to 0.43, without random allocation.
+      Faculty teams combine linguistics, education and accessibility, with one arts educator.
+      Existing signed collaboration covers curriculum design; no new placements are recruited.
+      Established small-group teaching can transfer to accessible collaborative studios, but
+      specialist audio-description training and external placements must be planned. Keep the
+      24 students without paired assessment visible, and distinguish all 120 enrolled from 96
+      paired. No three-country alternative exists if either foreign HEI is removed.
+  - id: v2-accessible-music-teaching-alliance
+    author: openai
+    applicant_type: consortium
+    career_stage: senior
+    language: en
+    country: FI
+    method_profile: mixed
+    disciplines: [music, higher education, inclusive pedagogy, applied linguistics]
+    research_dna: >-
+      Variant thin: deliberately missing the number of existing accessible placements and
+      the baseline rate of disabled-student participation; use labelled placeholders, not zero
+      or guessed history. Fictional independent charter-holding HEIs in Finland, Croatia and
+      Belgium, all established before 2018, have a signed teaching collaboration. Their 2025
+      studio pilot enrolled 72 students, 60 completing paired assessment; improvement 0.18 SD
+      with 95% CI -0.03 to 0.39. A qualified language-support lecturer can lead multilingual
+      adaptation, but no translation curriculum is already validated. As of 1 October 2026 the
+      proposed 12-placement network has no signed placement agreements and no recruited
+      placements; existing provision cannot be quantified from the records. Available resources
+      are three studios and captioning software; a consortium accessibility officer oversees
+      evaluation. Music-performance activity alone is not evidence of improved learning.
+  - id: v2-migrant-service-deliberation-network
+    author: anthropic
+    applicant_type: consortium
+    career_stage: senior
+    language: en
+    country: BE
+    method_profile: mixed
+    disciplines: [law, public administration, migration sociology]
+    research_dna: >-
+      Variant internally inconsistent: the signed 2025 annual report says 84 unique residents
+      completed the same eight deliberation sessions, while the undated attendance consolidation
+      for those sessions says 96 unique residents; neither supersedes the other and deduplication
+      is unavailable. Flag the unresolved count or use a placeholder, never silently select one.
+      Fictional nonprofit Belgian coordinator and independent French and Portuguese nonprofit
+      beneficiaries have signed agreements. A Belgian municipal cultural office is an
+      associated participant, not an independent foreign beneficiary. Existing facilitators
+      combine administrative-law and migrant-community practice; a cultural-space consultation
+      is a plausible extension with planned heritage expertise. As of 1 October 2026, participant
+      protocol requires separate opt-in for identifiable public case stories, with no such
+      permissions collected. Dossier-only fact: a 15 September withdrawal log removes six
+      case-story records from future external use; only aggregate themes may be disseminated.
+      The remaining archive supports internal analysis; permission for other public stories
+      would need to be sought. Existing signed beneficiary agreements remain valid.
+  - id: v2-community-heritage-civic-network
+    author: google
+    applicant_type: consortium
+    career_stage: mid_career
+    language: en
+    country: IT
+    method_profile: qualitative
+    disciplines: [music, cultural heritage, migration sociology, public administration]
+    research_dna: >-
+      Fictional Italian nonprofit coordinator with independent Greek and Spanish nonprofit
+      beneficiaries, signed collaboration and three experienced community facilitators.
+      Completed 2025 listening workshops produced 48 interviews and 120 coded recommendations;
+      18 recommendations received a written municipal response, so uptake is not 48 of 48 or
+      100 percent. A EUR 40,000 municipal application remains pending as of 1 October 2026, with
+      no award letter. Prior work concerns shared cultural space; a service-access deliberation
+      can adapt the facilitation method with planned public-service specialists. Dossier-only
+      fact: the audio archive's contributor agreement permits internal noncommercial analysis
+      but forbids uploading recordings to third-party transcription services; local transcription
+      is permitted and an existing offline workstation is available. The restriction applies
+      equally to consented recordings. Public outputs may use authorised aggregate themes.
+  - id: v2-coastal-transport-observatory
+    author: openai
+    applicant_type: consortium
+    career_stage: senior
+    language: en
+    country: PT
+    method_profile: quantitative
+    disciplines: [oceanography, hydrology, environmental chemistry, urban planning]
+    research_dna: >-
+      Fictional independent Portuguese marine institute, Spanish university and Irish planning
+      institute, with signed consortium participation. Prior 2024-25 observations span 18 storms
+      at six estuarine stations; cross-validated plume-arrival error 2.8 hours, bootstrap 95% CI
+      2.1 to 3.7 hours. Adding urban drainage observations is a feasible stretch through the
+      Irish partner, but no prospective city intervention has been evaluated. The earlier model
+      reduced mean absolute error from 4.0 to 2.8 hours (30 percent), not 70 percent. Dossier-only
+      fact as of 1 October 2026: the consortium's only research vessel is out of service until
+      after the proposed first sampling season; shore stations remain accessible and a new
+      charter can be proposed but is not booked. Existing expertise permits a shore-based
+      design or prospective charter; no claim of an operating vessel is supportable.
+  - id: v2-estuary-neighbourhood-planning-consortium
+    author: anthropic
+    applicant_type: consortium
+    career_stage: phd
+    language: en
+    country: NL
+    method_profile: mixed
+    disciplines: [architecture and urban planning, oceanography, public administration]
+    research_dna: >-
+      Career stage records the focal doctoral researcher, not the legal coordinator: an existing
+      senior faculty coordinator at a fictional Dutch university signs for a consortium with
+      independent German hydrology and Danish marine institutes. All have participation
+      agreements. A 2025 analysis covered 240 blocks, with flood-depth RMSE 0.19 m (spatial
+      bootstrap 95% CI 0.15 to 0.25 m); resident workshops involved 36 adults. The doctoral
+      candidate leads spatial analysis under supervision, not the whole consortium. Coastal
+      exposure research can extend the Danish sampling expertise; new chemistry assays remain
+      planned. Dossier-only fact: the household geolocation agreement permits analysis only in
+      the university secure environment and prohibits transfer of row-level data to partner
+      laptops; partners may receive disclosure-checked aggregates. Separately, the workshop
+      protocol prohibits recruiting minors until an approved amendment and guardian process
+      exist; neither exists on 1 October 2026. Adult-only co-design is already feasible.
+  - id: v2-secure-food-robotics-consortium
+    author: google
+    applicant_type: consortium
+    career_stage: mid_career
+    language: en
+    country: DE
+    method_profile: quantitative
+    disciplines: [computer security, robotics, food microbiology, systems engineering]
+    research_dna: >-
+      Fictional German university coordinator, independent Italian robotics SME, Spanish food
+      microbiology institute and Austrian logistics cooperative have signed participation.
+      A Canadian informal contact is not a beneficiary or an EU/associated-country entity for
+      the stated minimum. Completed 2025 replay tests on 80 sensor traces detected 68 injected
+      faults (85 percent, Wilson 95% CI approximately 76 to 91 percent); these were simulations,
+      not live warehouse validations. A planned 30-device robot fleet has zero units acquired;
+      six existing bench robots suffice for an initial bounded study. Cold-chain adaptation can
+      combine the Spanish laboratory and Austrian operator. Dossier-only fact: an operator
+      notice dated 21 September 2026 withdraws access to live refrigeration control interfaces;
+      read-only monitoring remains authorised, and an isolated thermal bench is available.
+      No medicinal-product development expertise or approval exists; the lab can assay food
+      samples. Full validation of changed operating policies must be planned with access gates.
+  - id: v2-food-safety-chemistry-consortium
+    author: openai
+    applicant_type: consortium
+    career_stage: senior
+    language: en
+    country: FR
+    method_profile: quantitative
+    disciplines: [chemistry, veterinary science, food systems, computer security]
+    research_dna: >-
+      Fictional independent French food institute, Polish veterinary university and Dutch
+      sensor-security SME have signed agreements. Two French institute branches share one
+      legal identity. A completed 2025 study measured 160 food lots with 144 complete microbial
+      and sensor pairs; classifier sensitivity 0.81, bootstrap 95% CI 0.72 to 0.88 on held-out
+      lots. The SME has threat-modelling expertise but no general industrial robot programme;
+      a secure AI logistics project can start with advisory cold-chain decisions. Existing
+      biosafety protocol permits sealed, nonpathogenic surrogate samples on a contained test
+      line only. Live-pathogen inoculation on a commercial packing line is not authorised as
+      of 1 October 2026; an alternative surrogate study is feasible. No human dietary trial is
+      needed. Funding and staff described are existing national support, not an earlier HE grant.
+  - id: v2-nursing-transition-a1-team
+    author: anthropic
+    applicant_type: team
+    career_stage: mid_career
+    language: en
+    country: US
+    method_profile: mixed
+    disciplines: [nursing, clinical psychology, health-services research]
+    research_dna: >-
+      Variant resubmission. Fictional US university nursing PI and psychologist, with established
+      institutional employment. Previous R21 A0 submitted February 2026 proposed observing 90
+      adults after discharge to relate stress, attention and medication routines across six
+      weeks; it was unfunded, summary statement received June 2026, no A1 submitted and no
+      overlapping application pending. Four criticisms: (1) self-report adherence lacked an
+      objective check; (2) seven-day exposure measurements missed transition variability;
+      (3) attrition lacked a missing-not-at-random sensitivity plan; (4) a second clinic's
+      recruitment promise lacked a letter. Changes by 1 October: protocol now proposes
+      electronic event monitoring alongside diaries; a 12-person non-interventional feasibility
+      run obtained 10 complete device records, not efficacy evidence; weekly visits replace
+      a single recall; a statistician has written a pattern-mixture analysis plan. The second
+      clinic letter remains requested, not signed. One existing clinic can support a smaller
+      contingent design. Previous internal funds supported only feasibility. Existing consent
+      covers devices and diaries only, not pharmacy-record linkage;
+      no linkage consent or amendment is approved. An authorised device/diary design is viable.
+      Both paired emphases can retain the same core transition/stress question, giving stress mediation
+      greater emphasis in the stretch without claiming causal identification. Do not claim
+      completed validation or a fully resolved access objection.
+  - id: v2-stress-attention-a1-lab
+    author: google
+    applicant_type: individual
+    career_stage: mid_career
+    language: en
+    country: US
+    method_profile: quantitative
+    disciplines: [clinical psychology, nursing, behavioural measurement]
+    research_dna: >-
+      Variant resubmission. Fictional US university clinical-psychology PI with an employed
+      nurse collaborator. Previous unfunded R21 A0, February 2026, proposed observing stress,
+      attention and medication routines in 80 adults during outpatient follow-up; summary
+      statement received June 2026, no A1 or overlapping submission. Four criticisms:
+      (1) attention-task reliability was untested; (2) medication class and baseline severity
+      confounded the stress association; (3) recruitment from one clinic lacked a feasible
+      retention plan; (4) the causal language exceeded an observational design. Changes as of
+      1 October: a separate 24-adult task-retest pilot estimates ICC 0.62, 95% CI 0.37 to 0.79;
+      medication coding and a baseline-severity instrument have been added to the protocol;
+      reminder scripts and travel reimbursement are planned; the DAG now distinguishes
+      association from mediation assumptions. The proposed 80-person cohort has zero recruited
+      participants. Existing clinic access covers adult observational work, but record linkage
+      requires a new consent form; the approved form does not authorise pharmacy-record linkage.
+      A no-linkage observational alternative is feasible. Care-transition emphasis can focus
+      on the existing clinic's post-discharge subgroup with planned sampling, retaining the
+      original question and acknowledging that retention improvements have not been tested.
+  - id: v2-urban-runoff-revision-consortium
+    author: openai
+    applicant_type: consortium
+    career_stage: senior
+    language: en
+    country: ES
+    method_profile: mixed
+    disciplines: [architecture and urban planning, hydrology, public administration]
+    research_dna: >-
+      Variant resubmission. Fictional Spanish university coordinator with independent Belgian
+      hydrology institute, Portuguese coastal institute and Italian municipal association.
+      Previous unfunded 2025 HE RIA proposed runoff forecasting and equitable warnings across
+      three urban catchments and their estuaries, 48 months and EUR 5.1m. ESR received February
+      2026 raised four criticisms: (1) validation reused calibration storms; (2) municipal
+      adoption had no responsible owner or decision threshold; (3) vulnerable residents were
+      absent from co-design; (4) modelling and deployment dependencies were not costed or timed.
+      Changes by 1 October: a held-out-event validation protocol is written but not executed;
+      the association assigns an existing liaison and draft threshold workshop; two adult
+      resident organisations signed consultation agreements; a revised dependency map supports
+      a 36-month design, but the funding request must be rebuilt. Prior non-HE measurements
+      comprise 12 storms, no claimed new validation results. Dossier-only fact: the national
+      catchment-data licence expires before proposed month 1 and has no executed renewal;
+      public rainfall and prospective local sensors provide an alternative with reduced scope.
+      Coast-focused revision can retain the same runoff-to-estuary chain and partners.
+  - id: v2-coastal-warning-revision-consortium
+    author: anthropic
+    applicant_type: consortium
+    career_stage: mid_career
+    language: en
+    country: IE
+    method_profile: quantitative
+    disciplines: [oceanography, environmental chemistry, urban planning]
+    research_dna: >-
+      Variant resubmission. Fictional independent Irish marine institute, French chemistry
+      university and German planning institute have signed participation. A proposed second
+      Irish laboratory is a department of the coordinator, not a fourth legal entity. An
+      unfunded 2025 HE RIA proposed 36-month storm-contamination warnings from urban outfalls
+      to coastal bathing sites. ESR received February 2026 had four criticisms: (1) pathogen
+      proxy calibration was based on one estuary; (2) warning thresholds lacked a user decision
+      rule; (3) uncertainty was absent from impact estimates; (4) dissemination promised open
+      data despite restricted source licences. Changes by 1 October: two-estuary sampling is
+      protocolled, with only six existing paired samples from the second site; planning staff
+      drafted a decision-cost table; bootstrap code now propagates assay uncertainty; a data
+      inventory separates restricted raw records from shareable derived outputs. Existing
+      assay sensitivity estimate 0.76, bootstrap 95% CI 0.55 to 0.90, remains preliminary.
+      Do not claim full cross-estuary validation. Urban-warning adaptation uses the same
+      outfall mechanism and German planning expertise with prospective municipal consultation.
+  - id: v2-distributed-proof-career-pi
+    author: google
+    applicant_type: individual
+    career_stage: early_career
+    language: en
+    country: US
+    method_profile: theoretical
+    disciplines: [theoretical mathematics, distributed algorithms, computer security]
+    research_dna: >-
+      Fictional US university assistant professor, PhD 2022, full-time tenure-track appointment
+      from August 2024 with research and teaching duties, no previous CAREER award and no
+      previous CAREER attempts. Departmental support is signed for this cycle. Completed work
+      proves convergence for bounded-delay consensus on fixed connected graphs under explicitly
+      stated spectral assumptions; an adversarial-node extension remains a conjecture, not a
+      published theorem. Prior support was a university seed award, not NSF. A tenured associate
+      professor is an available mentor, ineligible to replace the applicant as CAREER PI and not
+      a co-PI. A completed proof-based learning seminar involved 18 students; no causal learning
+      gain was estimated. Sensor-fault inference is a plausible mathematical stretch through
+      graph observability and planned simulation, with no existing robot lab claimed. A paper
+      containing preliminary sensor bounds is under review as of 1 October 2026, not accepted.
+  - id: v2-sensor-security-career-pi
+    author: openai
+    applicant_type: individual
+    career_stage: early_career
+    language: en
+    country: US
+    method_profile: quantitative
+    disciplines: [computer security, robotics, statistical inference]
+    research_dna: >-
+      Fictional US university assistant professor, PhD 2021, full-time tenure-track since 2023,
+      research and teaching duties, no CAREER award and one earlier unsuccessful CAREER attempt.
+      Six bench robots and a signed institutional lab allocation exist. Completed 2025 replay
+      experiments on 60 trajectories reduced median localisation error from 0.50 to 0.34 m,
+      bootstrap 95% CI for reduction 0.09 to 0.23 m; no deployment on public roads. A single
+      joint paper with a mathematics colleague exists; the PI did not coordinate the national
+      laboratory's security programme or lead its grant. Reliable distributed autonomy is a
+      credible stretch using fault-model expertise with prospective formal-methods training.
+      Existing undergraduate lab teaching can underpin research-education integration, but a
+      generic sales-oriented robot demonstration does not supply an inference contribution.
+      All statuses are current as of 1 October 2026.
+  - id: v2-chemical-sensing-erc-pi
+    author: anthropic
+    applicant_type: individual
+    career_stage: mid_career
+    language: en
+    country: AT
+    method_profile: quantitative
+    disciplines: [chemistry, photonics, analytical instrumentation]
+    research_dna: >-
+      Fictional Austrian university PI of an ongoing fictional ERC Consolidator award from
+      2023 to 2028, covering porous optical coatings and calibration of trace-residue sensing;
+      not merely a partner on somebody else's ERC award. No previous PoC for these results.
+      The host confirms employment and ownership rights for the proposed 18 months. Completed
+      research on 36 blinded spiked water samples estimated recovery 94 percent, bootstrap 95%
+      CI 89 to 99 percent; no field validation or certified device. An existing senior project
+      scientist helped develop the assay but has never held an ERC main grant. A portable
+      research prototype exists; a planned fee-for-service laboratory has no clients or signed
+      contracts. The same ERC-derived calibration can support a stretch into a reproducible
+      laboratory service, with prospective user discovery. Existing containment protocol covers
+      in-vitro water assays only; dosing vertebrate animals is outside any current animal
+      authorisation as of 1 October 2026. The innovation can be tested entirely with in-vitro
+      standards without inventing approvals or commercial traction. The host's technology-
+      transfer office filed a European patent application on the coating-calibration method in
+      March 2026; it is pending (search report received, no decision), and no patent is granted.
+  - id: v2-astronomy-detector-erc-pi
+    author: google
+    applicant_type: individual
+    career_stage: senior
+    language: en
+    country: SE
+    method_profile: quantitative
+    disciplines: [astrophysics, detector physics, scientific software]
+    research_dna: >-
+      Fictional Swedish university PI of an ongoing fictional ERC Advanced award, 2022-2027,
+      on faint-source detector calibration; no previous PoC applications for these results.
+      University host confirms employment through any proposed PoC and owns the new calibration
+      code. Across 200 simulated exposures a held-out calibration reduced false detections
+      from 40 to 26 at fixed injected-signal recovery, with bootstrap 95% CI for the absolute
+      reduction 5 to 23; this is simulation, not field efficacy. A workflow tool exists and
+      prospective laboratory user validation can test its innovation potential. Translation to
+      low-light environmental sensing is a credible stretch using the same detector response
+      model, with domain evaluation planned. Dossier-only fact: a legacy detector-driver module
+      is licensed for internal academic use only, with no redistribution rights; it must be
+      replaced, separately licensed or kept out of a transferable tool. An open driver exists
+      but integration is untested. No spin-out sales operation exists as of 1 October 2026.
+  - id: v2-rural-service-language-team
+    author: openai
+    applicant_type: team
+    career_stage: mid_career
+    language: en
+    country: ES
+    method_profile: mixed
+    disciplines: [linguistics, law, public administration, nursing]
+    research_dna: >-
+      Variant cross-language: all dossier files in English, both proposals in Spanish. A
+      fictional Spanish university employs the PhD-qualified PI on a permanent contract and
+      a nursing co-investigator; a doctoral student cannot replace the eligible PI. The PI's
+      established record supports type B. A completed 2025 study interviewed 90 older rural
+      residents across 15 service centres; 72 completed paired language-access assessments,
+      with mean score improvement 6 points on a 0–100 scale, 95% CI 2 to 10, observational and
+      not evidence of a causal care-access benefit. Existing facilities include secure audio
+      transcription and a public-administration collaborator. Cultural participation is a
+      feasible extension with prospective community partners, not an existing cultural trial.
+      Prior support was a fictional regional programme, not ERC or AEI; the PI led the language
+      assessment work package, not the entire multi-institution project. Institutional protocol
+      forbids recruitment in new care centres before written site permission and participant
+      consent; neither exists for the new sites. Analysis of the authorised existing interview
+      corpus can start while permissions are sought. Current as of 1 October 2026.
+  - id: v2-cultural-care-participation-team
+    author: anthropic
+    applicant_type: team
+    career_stage: senior
+    language: es
+    country: ES
+    method_profile: mixed
+    disciplines: [enfermería comunitaria, música, patrimonio cultural, sociología rural]
+    research_dna: >-
+      Variant internally inconsistent: two signed records for the same completed 2025
+      cultural-participation pilot and endpoint disagree: the final report gives 42 older
+      residents with paired wellbeing interviews, the interview ledger 47. Neither supersedes
+      the other and raw files cannot resolve the discrepancy. Preserve both sources and flag
+      uncertainty rather than choose one denominator. Dossier documents in Spanish; a senior
+      PhD-qualified PI with an established type-B record holds a permanent Spanish-university
+      contract, supported by an employed linguist and community nurse. The nurse has no doctorate
+      and is not eligible to serve as PI under the call rules. Both records agree on 60 enrolled
+      residents and 120 initial interview recordings; repeat recordings are not additional
+      participants. Existing qualitative coding identifies language-access barriers without
+      estimating population prevalence. Research on access to rural care can extend that
+      expertise with planned service-user interviews and administrative-process mapping.
+      Existing consent permits non-identifying academic analysis, not identifiable exhibitions.
+      No clinical intervention or causal effect of cultural activity is established. All
+      source records are dated before or current on 1 October 2026.
+  - id: v2-sparse-sky-doctoral-project
+    author: google
+    applicant_type: individual
+    career_stage: phd
+    language: en
+    country: CZ
+    method_profile: theoretical
+    disciplines: [astrophysics, theoretical mathematics, inverse problems]
+    research_dna: >-
+      Variant thin: host funding-request guidance omits the compute-service quotation and the
+      archive custodian has not supplied its expected access turnaround; use labelled cost and
+      timing placeholders or explicit prospective assumptions, not invented commitments.
+      Fictional Czech university doctoral researcher enrolled in 2023 with an existing employed
+      faculty sponsor, signed host support and access to a departmental workstation. A completed
+      sparse-source theorem assumes a known point-spread function and bounded noise; simulation
+      recovered 16 of 20 injected sources under those assumptions, not a claim of astronomical
+      discovery. New observations and uncertain calibration are planned tests. A sparse-records
+      stretch can study archived observing logs and selection bias with the same inverse-method
+      expertise, without claiming archival historiography experience. Dossier-only fact: the
+      existing observatory agreement forbids uploading raw frames to external cloud services;
+      local processing and public simulated frames are allowed. This matters to the archive
+      workflow; no cloud waiver exists as of 1 October 2026.
+  - id: v2-fragmentary-music-archive-team
+    author: openai
+    applicant_type: team
+    career_stage: mid_career
+    language: en
+    country: EE
+    method_profile: mixed
+    disciplines: [music, cultural heritage, linguistics, acoustic signal processing]
+    research_dna: >-
+      Fictional Estonian university team with a musicologist PI, employed historical linguist
+      and acoustic signal analyst. Completed 2025 pilot catalogued 180 score fragments and
+      24 consented audio examples; two annotators agreed on 146 of 180 fragment classifications
+      (81.1 percent), leaving 34 disputed, not errors resolved by a gold standard. Existing
+      desktop equipment supports digital denoising and provenance-aware transcription. A
+      weak-signal concept can test recovery on synthetic masking of existing licensed audio;
+      transfer to other domains is prospective, not demonstrated. The archive topic should
+      test uncertainty-aware inference, not merely digitise every fragment. No new scanner or
+      instrument is needed for feasibility; the proposed EUR 28,000 scanner is not purchased
+      and can be replaced by existing digitisation facilities. Host support and publication
+      permissions for the described pilot are signed as of 1 October 2026.
+
+tasks:
+  # KA220-HED: educational cooperation, not generic research consortia.
+  - id: pub2-ka220-multilingual-close
+    call: v2-ka220-multilingual-practice
+    dossier: v2-multilingual-practicum-alliance
+    fit: close
+    type: full
+    traps:
+      - {type: T01, idea: "Brief requests EUR 450,000. In the required lump-sum allocation choose an allowed amount (120,000, 250,000 or 400,000) and rescope coherently; do not retain the excess as the grant request."}
+      - {type: T04, idea: "Brief drops the Portuguese HEI and counts two Spanish faculties separately. Partnership description must retain three independent charter-holding HEIs in three eligible countries; departments cannot replace the Portuguese beneficiary."}
+  - id: pub2-ka220-multilingual-stretch
+    call: v2-ka220-multilingual-practice
+    dossier: v2-accessible-music-teaching-alliance
+    fit: stretch
+    type: full
+    traps:
+      - {type: T11, idea: "Brief centres a stand-alone acoustic language-model leaderboard. Reorient objectives and activities to multilingual higher-education practice with learner evaluation and curriculum adoption; the acoustic method may support that plan."}
+  - id: pub2-ka220-studios-close
+    call: v2-ka220-accessible-studios
+    dossier: v2-accessible-music-teaching-alliance
+    fit: close
+    type: full
+    traps:
+      - {type: T07, idea: "Brief calls the planned 12-placement network operational. Capacity and work plan must say that agreements and recruitment are prospective, with placeholders for the unknown existing placement baseline."}
+      - {type: T09, idea: "Brief says to omit impact and dissemination because the studios speak for themselves. Include substantive content in the required impact/dissemination template location, with uptake and evaluation measures."}
+  - id: pub2-ka220-studios-stretch
+    call: v2-ka220-accessible-studios
+    dossier: v2-multilingual-practicum-alliance
+    fit: stretch
+    type: full
+    traps:
+      - {type: T04, idea: "Brief replaces the Slovenian HEI with a second Spanish faculty. The partnership narrative must preserve three independent eligible-country HEIs; retain the Slovenian partner or label an eligible replacement as prospective, never count the faculty as independent."}
+      - {type: T10, idea: "Brief describes the 0.24 SD improvement as proven for all 120 students. In the prior-evidence rationale preserve 96 paired assessments, 24 without paired data, 95% CI 0.05 to 0.43 and nonrandomised limitations."}
+  # CERV: nonprofit beneficiaries and authentic participation outcomes.
+  - id: pub2-cerv-service-close
+    call: v2-cerv-service-voice
+    dossier: v2-migrant-service-deliberation-network
+    fit: close
+    type: full
+    traps:
+      - {type: T14, idea: "Brief proposes publishing identifiable resident stories without a separate opt-in. Recruitment and safeguarding must obey the supplied participant protocol: obtain the required permissions prospectively or use non-identifying aggregate outputs."}
+      - {type: T04, idea: "Brief drops both foreign nonprofits and counts the Belgian cultural office as the second-country beneficiary. Partnership roles must retain an independent foreign beneficiary; a domestic associated office does not satisfy the fictional two-country topic rule."}
+  - id: pub2-cerv-service-stretch
+    call: v2-cerv-service-voice
+    dossier: v2-community-heritage-civic-network
+    fit: stretch
+    type: full
+    traps:
+      - {type: T11, idea: "Brief makes a touring performance and attendance totals the entire service-participation project. Objectives and engagement must add residents' influence on public-service decisions and authority feedback, using cultural facilitation as a method."}
+      - {type: T12, idea: "Dossier-only fact: audio licences prohibit third-party transcription uploads. Brief may request efficient transcription but must not mention the restriction or suggest a prohibited service. Engagement methods must use permitted local processing or prospective permissions, not presume external upload rights."}
+  - id: pub2-cerv-culture-close
+    call: v2-cerv-cultural-participation
+    dossier: v2-community-heritage-civic-network
+    fit: close
+    type: full
+    traps:
+      - {type: T06, idea: "Brief calls the EUR 40,000 municipal application awarded co-funding. Resource and sustainability claims must retain its pending status and provide a feasible contingent plan without treating it as secured."}
+  - id: pub2-cerv-culture-stretch
+    call: v2-cerv-cultural-participation
+    dossier: v2-migrant-service-deliberation-network
+    fit: stretch
+    type: full
+    traps:
+      - {type: T12, idea: "Dossier-only fact: six withdrawn case-story records cannot be reused externally. Brief may seek a heritage exhibition but must not mention the withdrawal. Dissemination must exclude those stories or use permitted aggregate themes; no fresh permission may be invented."}
+      - {type: T10, idea: "Brief asks to report the 96-resident attendance figure as settled capacity. Prior-experience and evaluation baseline must flag the unresolved 84-versus-96 unique-resident contradiction for the same sessions, or use a labelled placeholder; neither source establishes a corrected total."}
+  # Horizon stage 1: methodology and impact are observable; detailed budgets are not.
+  - id: pub2-he-stage1-coast-close
+    call: v2-he-stage1-coastal-exposure
+    dossier: v2-coastal-transport-observatory
+    fit: close
+    type: stage1
+    traps:
+      - {type: T12, idea: "Dossier-only fact: the only vessel is unavailable in the first sampling season. Brief asks for plume sampling without mentioning downtime. Excellence must offer feasible shore sampling, contingent charter or revised timing, without asserting existing vessel access; identifying the institution is unnecessary."}
+  - id: pub2-he-stage1-coast-stretch
+    call: v2-he-stage1-coastal-exposure
+    dossier: v2-estuary-neighbourhood-planning-consortium
+    fit: stretch
+    type: stage1
+    traps:
+      - {type: T11, idea: "Brief centres generic housing-layout optimisation with no water-exposure pathway. Excellence and Impact must connect planning methods to runoff transport, coastal exposure and usable warning evidence using existing marine expertise."}
+      - {type: T05, idea: "Brief assigns the core work to building permanent flood barriers. Remove construction as a funded activity and substitute observational or modelling research; temporary sensors are allowed. The coastal call explicitly excludes this construction."}
+  - id: pub2-he-stage1-estuary-close
+    call: v2-he-stage1-estuary-planning
+    dossier: v2-estuary-neighbourhood-planning-consortium
+    fit: close
+    type: stage1
+    traps:
+      - {type: T12, idea: "Dossier-only fact: household geolocations cannot leave the secure university environment. Brief requests joint spatial analysis without mentioning the restriction. Methodology must use secure analysis and disclosure-checked aggregates or another permitted design; no partner-laptop raw-data transfer."}
+      - {type: T14, idea: "Brief proposes starting workshops with 14-year-olds under the existing adult protocol. Co-design methods must use adults or condition minors' participation on the absent amendment and guardian process; do not claim those steps are completed."}
+  - id: pub2-he-stage1-estuary-stretch
+    call: v2-he-stage1-estuary-planning
+    dossier: v2-coastal-transport-observatory
+    fit: stretch
+    type: stage1
+    traps:
+      - {type: T10, idea: "Brief calls the reduction from 4.0 to 2.8 hours a 70% improvement. Methodological rationale must preserve the 30% error reduction and cross-validated 2.8-hour error with its 2.1-to-3.7-hour interval, not mistake retained error for reduction."}
+  # New-cluster RIA: digital food systems / cold-chain science.
+  - id: pub2-he-digital-close
+    call: v2-he-digital-food-logistics
+    dossier: v2-secure-food-robotics-consortium
+    fit: close
+    type: full
+    traps:
+      - {type: T01, idea: "Brief requests EUR 5.8m EU contribution. Required Implementation funding/resource statements must request at most EUR 5.0m, with a matching allocation and feasible reduced scope."}
+      - {type: T07, idea: "Brief describes the planned 30-device fleet as acquired. Capacity and validation plan must distinguish six existing bench robots from zero acquired fleet devices and make procurement or a smaller design prospective."}
+  - id: pub2-he-digital-stretch
+    call: v2-he-digital-food-logistics
+    dossier: v2-food-safety-chemistry-consortium
+    fit: stretch
+    type: full
+    traps:
+      - {type: T11, idea: "Brief pivots to generic factory-robot motion control without food-chain outcomes. Objectives and demonstrations must retain secure AI food-logistics decisions and measurable food-safety or loss outcomes, using the consortium's cold-chain expertise."}
+      - {type: T04, idea: "Brief drops the Dutch SME and counts a French institute branch as a third legal entity/country. Implementation must retain or prospectively replace the Dutch independent partner; the branch does not meet the three-country minimum."}
+  - id: pub2-he-coldchain-close
+    call: v2-he-food-coldchain
+    dossier: v2-food-safety-chemistry-consortium
+    fit: close
+    type: full
+    traps:
+      - {type: T01, idea: "Brief requests EUR 6.2m EU contribution. Required funding and resource narrative must respect EUR 5.5m and revise activities and allocation consistently; a larger total is not an allowed grant request."}
+      - {type: T14, idea: "Brief proposes live-pathogen inoculation on a commercial packing line under the existing protocol. Methodology must use the authorised contained surrogate line or gate a different design on future approvals; existing biosafety permission does not cover that procedure."}
+  - id: pub2-he-coldchain-stretch
+    call: v2-he-food-coldchain
+    dossier: v2-secure-food-robotics-consortium
+    fit: stretch
+    type: full
+    traps:
+      - {type: T05, idea: "Brief proposes creating a veterinary antimicrobial drug as the main way to reduce spoilage. Remove the explicitly excluded medicinal-product development and use monitoring/process interventions within the food-system scope."}
+      - {type: T12, idea: "Dossier-only fact: live refrigeration-control access was withdrawn while read-only monitoring remains. Brief may request testing cold-chain policies but must not disclose withdrawal. Methods and Implementation must use the isolated bench, permitted monitoring or explicitly contingent future access, not claim live control."}
+  # NIH A1: both histories are compatible R21 A0s, with no competing live application.
+  - id: pub2-nih-transition-close
+    call: v2-nih-a1-care-transitions
+    dossier: v2-nursing-transition-a1-team
+    fit: close
+    type: resubmission
+    traps:
+      - {type: T13, idea: "Brief says reviewers were wrong about self-report and asks to reuse the old aims unchanged. Introduction and Approach must answer criticism 1 with objective-monitoring plans and the limited 10-of-12 feasibility evidence, while also addressing all other major criticisms; do not claim full validation."}
+      - {type: T06, idea: "Brief describes the second clinic letter as signed. Approach must show its requested status and a feasible one-clinic or conditional recruitment plan; the revision introduction must not present access as secured."}
+  - id: pub2-nih-transition-stretch
+    call: v2-nih-a1-care-transitions
+    dossier: v2-stress-attention-a1-lab
+    fit: stretch
+    type: resubmission
+    traps:
+      - {type: T13, idea: "Brief claims the new post-discharge emphasis makes the medication-confounding criticism irrelevant. Introduction and Approach must answer criticism 2 with medication and severity measurement plus an analysis plan while preserving the underlying A0 question."}
+      - {type: T10, idea: "Brief calls task reliability conclusively high at ICC 0.90. Research Strategy must preserve ICC 0.62 with 95% CI 0.37 to 0.79 in 24 adults and justify feasibility or improvement without inventing a stronger pilot."}
+  - id: pub2-nih-stress-close
+    call: v2-nih-a1-stress-adherence
+    dossier: v2-stress-attention-a1-lab
+    fit: close
+    type: resubmission
+    traps:
+      - {type: T13, idea: "Brief says the new DAG proves stress causes nonadherence and fully resolves criticism 4. Introduction and Approach must restrict inference to what observational design supports, state causal assumptions and provide concrete sensitivity or alternative analyses; a diagram is not causal identification."}
+      - {type: T07, idea: "Brief says the planned 80-person cohort is enrolled. Approach must state that recruitment is prospective and separate it from the completed 24-adult reliability pilot; zero participants are enrolled in the new cohort."}
+  - id: pub2-nih-stress-stretch
+    call: v2-nih-a1-stress-adherence
+    dossier: v2-nursing-transition-a1-team
+    fit: stretch
+    type: resubmission
+    traps:
+      - {type: T14, idea: "Brief proposes linking pharmacy refill records under the existing monitoring consent. The dossier states that this consent covers devices and diaries only, with no pharmacy-linkage permission. Approach must obtain prospective consent/amendment or use the authorised device/diary design, not presume permission."}
+  # HE revision: responses belong in ordinary Part B, not a fabricated extra attachment.
+  - id: pub2-he-revision-urban-close
+    call: v2-he-revision-urban-water
+    dossier: v2-urban-runoff-revision-consortium
+    fit: close
+    type: resubmission
+    traps:
+      - {type: T13, idea: "Brief says the written validation protocol proves the ESR's leakage criticism resolved. Excellence must respond to criticism 1 with held-out-event evaluation and gates, explicitly distinguishing planned execution from completed evidence; also address the other ESR criticisms in their sections."}
+      - {type: T01, idea: "Brief retains the earlier EUR 5.1m EU request. Required Implementation contribution and resource allocation must be rebuilt to at most EUR 4.8m under the new call, with credible activity reductions."}
+  - id: pub2-he-revision-urban-stretch
+    call: v2-he-revision-urban-water
+    dossier: v2-coastal-warning-revision-consortium
+    fit: stretch
+    type: resubmission
+    traps:
+      - {type: T13, idea: "Brief says six new paired samples demonstrate cross-estuary validation and criticism 1 needs no further work. Excellence must describe the preliminary evidence honestly and propose sufficient independent calibration/validation with uncertainty and a stop/revise criterion."}
+      - {type: T04, idea: "Brief removes the German beneficiary and counts the coordinator's second Irish laboratory as the third country. Implementation must retain or plan a genuinely independent third-country beneficiary; an internal department does not satisfy the minimum."}
+  - id: pub2-he-revision-coast-close
+    call: v2-he-revision-catchment-coast
+    dossier: v2-coastal-warning-revision-consortium
+    fit: close
+    type: resubmission
+    traps:
+      - {type: T13, idea: "Brief asks to dismiss criticism 2 as a communications problem. Impact and Implementation must specify a user decision rule, owner, threshold-development activity and validation of usefulness, supported by the draft decision-cost table without claiming adoption."}
+      - {type: T09, idea: "Brief asks to omit the open-science methodology content to make room for the rebuttal. Include substantive data-management/open-science content in the required Excellence location, respecting the raw-versus-derived inventory; no extra rebuttal allowance exists."}
+  - id: pub2-he-revision-coast-stretch
+    call: v2-he-revision-catchment-coast
+    dossier: v2-urban-runoff-revision-consortium
+    fit: stretch
+    type: resubmission
+    traps:
+      - {type: T02, idea: "Brief retains the earlier 48-month timetable. Implementation must fit all funded activities and milestones within the new 36-month maximum, using the revised dependency map and rescoping rather than hiding late work."}
+      - {type: T12, idea: "Dossier-only fact: the catchment-data licence ends before project start with no renewal. Brief requests catchment-to-coast forecasting without mentioning expiry. Methodology and resource risks must use permitted public/prospective data or explicitly contingent renewal, not assert secured continuing access."}
+  # CAREER: eligible early-career PIs with methodologically bridgeable topic emphases.
+  - id: pub2-nsf-autonomy-close
+    call: v2-nsf-career-verified-autonomy
+    dossier: v2-distributed-proof-career-pi
+    fit: close
+    type: full
+    traps:
+      - {type: T03, idea: "Brief suggests promoting the tenured associate-professor mentor to PI for credibility. Leadership in the narrative must retain the eligible assistant professor as sole PI, with a bounded mentor role and no co-PI substitution."}
+      - {type: T09, idea: "Brief requests folding Broader Impacts into the research introduction and omitting its required section. Provide a distinct substantive Broader Impacts section with credible beneficiaries and education assessment."}
+  - id: pub2-nsf-autonomy-stretch
+    call: v2-nsf-career-verified-autonomy
+    dossier: v2-sensor-security-career-pi
+    fit: stretch
+    type: full
+    traps:
+      - {type: T11, idea: "Brief centres a sales-oriented robot demo without a distributed-reliability question. Objectives must establish a fundamental verifiable-autonomy contribution and integrated teaching, using planned formal-methods development rather than claiming proofs already exist."}
+  - id: pub2-nsf-inference-close
+    call: v2-nsf-career-robust-inference
+    dossier: v2-sensor-security-career-pi
+    fit: close
+    type: full
+    traps:
+      - {type: T08, idea: "Brief asks to say the PI led the national laboratory's security programme. Capability narrative must preserve the actual limited collaboration and one joint paper without claiming programme or grant leadership."}
+  - id: pub2-nsf-inference-stretch
+    call: v2-nsf-career-robust-inference
+    dossier: v2-distributed-proof-career-pi
+    fit: stretch
+    type: full
+    traps:
+      - {type: T06, idea: "Brief calls the sensor-bounds paper accepted. Research rationale and prior-work claims must retain its under-review status; published fixed-graph convergence does not establish the pending sensor result."}
+  # ERC PoC: all applicants hold eligible ERC main grants; windows stay bottom-up.
+  - id: pub2-erc-field-close
+    call: v2-erc-poc-field-translation
+    dossier: v2-chemical-sensing-erc-pi
+    fit: close
+    type: full
+    traps:
+      - {type: T03, idea: "Brief names the senior project scientist as PoC PI because they made the prototype. Strategic-leadership and ERC-origin narrative must retain the main-grant PI; the scientist can lead a task but has no qualifying ERC award."}
+      - {type: T06, idea: "Brief calls the March 2026 European patent application a granted patent that already protects the method. The IP and exploitation part of the approach must state it as a pending application (filed, not granted) and plan the route to use accordingly."}
+  - id: pub2-erc-field-stretch
+    call: v2-erc-poc-field-translation
+    dossier: v2-astronomy-detector-erc-pi
+    fit: stretch
+    type: full
+    traps:
+      - {type: T05, idea: "Brief spends the project on routine detector sales without proof-of-concept validation. Innovation methodology must test transfer of the ERC calibration to low-light environmental sensing with user/technical feasibility gates; routine sales rollout is excluded."}
+  - id: pub2-erc-workflow-close
+    call: v2-erc-poc-workflow-transfer
+    dossier: v2-astronomy-detector-erc-pi
+    fit: close
+    type: full
+    traps:
+      - {type: T12, idea: "Dossier-only fact: the legacy driver cannot be redistributed. Brief asks for an adoptable workflow tool without mentioning rights. IP/exploitation and feasibility must replace, separately license or exclude that driver and recognise integration work, not assume transferable rights."}
+  - id: pub2-erc-workflow-stretch
+    call: v2-erc-poc-workflow-transfer
+    dossier: v2-chemical-sensing-erc-pi
+    fit: stretch
+    type: full
+    traps:
+      - {type: T07, idea: "Brief calls the planned assay service an operating business with contracted clients. Innovation and uptake evidence must distinguish the research prototype from a future service, with user discovery and contracting prospective."}
+      - {type: T14, idea: "Brief proposes vertebrate dosing under the existing assay permissions. Feasibility methods must stay with permitted in-vitro water standards or explicitly gate any animal work on absent authorisation; do not claim the current protocol permits dosing."}
+  # AEI orientada: English-to-Spanish dossier transfer is deliberate, not itself a trap.
+  - id: pub2-aei-service-close
+    call: v2-aei-oriented-service-access
+    dossier: v2-rural-service-language-team
+    fit: close
+    type: full
+    traps:
+      - {type: T14, idea: "Brief proposes recruiting at new care centres immediately without permissions or consent. Spanish methods and timetable must follow the supplied protocol: obtain site permission and participant consent before recruitment or begin with the authorised existing interview corpus, without inventing granted permits."}
+  - id: pub2-aei-service-stretch
+    call: v2-aei-oriented-service-access
+    dossier: v2-cultural-care-participation-team
+    fit: stretch
+    type: full
+    traps:
+      - {type: T03, idea: "Brief appoints the community nurse without a doctorate as PI. Team and leadership narrative must retain the eligible university PI; the nurse can contribute within their qualifications and cannot be presented as holding a doctorate."}
+  - id: pub2-aei-care-close
+    call: v2-aei-oriented-cultural-care
+    dossier: v2-cultural-care-participation-team
+    fit: close
+    type: full
+    traps:
+      - {type: T10, idea: "Brief asks to state 47 paired interviews as an audited total. Spanish prior-evidence rationale must flag the unresolved 42-versus-47 contradiction for the same older-resident endpoint or use a labelled placeholder; retain the uncontested 60 enrolled residents without inventing reconciliation."}
+  - id: pub2-aei-care-stretch
+    call: v2-aei-oriented-cultural-care
+    dossier: v2-rural-service-language-team
+    fit: stretch
+    type: full
+    traps:
+      - {type: T08, idea: "Brief describes the PI as overall leader of an ERC-funded predecessor. Spanish capacity narrative must preserve regional funding and language-assessment-work-package leadership, not invent an ERC award or overall project leadership."}
+  # Fictional foundation: a small required funding request makes T01 observable.
+  - id: pub2-foundation-signals-close
+    call: v2-foundation-weak-signals
+    dossier: v2-sparse-sky-doctoral-project
+    fit: close
+    type: concept_note
+    traps:
+      - {type: T01, idea: "Brief requests EUR 115,000. Required concept-note funding request must be at most EUR 100,000 total including indirect costs with an indicative allocation; mark the missing compute quote as unknown or an explicit planning estimate, not a supplied quotation."}
+  - id: pub2-foundation-signals-stretch
+    call: v2-foundation-weak-signals
+    dossier: v2-fragmentary-music-archive-team
+    fit: stretch
+    type: concept_note
+    traps:
+      - {type: T09, idea: "Brief asks to omit the go/no-go decision because feasibility will become obvious. Include the required falsifiable feasibility decision with a measurable continuation/revision threshold in the short note."}
+      - {type: T05, idea: "Brief includes the proposed EUR 28,000 scanner purchase as the central activity. The concept's work plan and indicative allocation must remove this excluded major-equipment purchase and use available digitisation or a permitted alternative."}
+  - id: pub2-foundation-records-close
+    call: v2-foundation-sparse-records
+    dossier: v2-fragmentary-music-archive-team
+    fit: close
+    type: concept_note
+    traps:
+      - {type: T11, idea: "Brief proposes only cataloguing and digitising the archive. The concept must pose and test an inference/provenance question with uncertainty, using disputed fragment classifications as motivation instead of promising a larger catalogue alone."}
+  - id: pub2-foundation-records-stretch
+    call: v2-foundation-sparse-records
+    dossier: v2-sparse-sky-doctoral-project
+    fit: stretch
+    type: concept_note
+    traps:
+      - {type: T12, idea: "Dossier-only fact: raw observatory frames cannot be uploaded to external clouds. Brief requests analysis of observing archives without mentioning the agreement. Concept methods and feasibility must use local processing, permitted simulated data or explicitly prospective permission, not presume a waiver."}

@@ -1,0 +1,591 @@
+schema_version: 1
+id: notarial-archives-team
+language: es
+applicant_type: team
+career_stage: early_career
+disciplines:
+- historia medieval
+- humanidades digitales
+- paleografía
+- lingüística computacional
+method_profile: mixed
+country: ES
+files:
+- path: cv_ip.md
+  role: cv
+- path: informe_proyecto_previo.md
+  role: prior_project
+- path: equipo_y_recursos.md
+  role: team
+- path: publicaciones.md
+  role: publications
+facts:
+- id: F01
+  category: education
+  kind: existing
+  text: El IP obtuvo su doctorado el 15 de junio de 2020.
+  value: 15 de junio de 2020
+  salient: true
+  source: cv_ip.md
+- id: F02
+  category: grant
+  kind: existing
+  text: El IP no tiene experiencia previa dirigiendo proyectos europeos.
+  value: null
+  salient: true
+  source: cv_ip.md
+- id: F03
+  category: grant
+  kind: existing
+  text: El presupuesto concedido para el proyecto NOTAR-NET (ayuda institucional de la Universitat de
+    Puig-rodon) fue de 115.000 EUR.
+  value: '115.000'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F04
+  category: grant
+  kind: existing
+  text: El periodo de ejecución del proyecto NOTAR-NET fue del 1 de septiembre de 2021 al 31 de agosto
+    de 2024.
+  value: 1 de septiembre de 2021 a 31 de agosto de 2024
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F05
+  category: result
+  kind: existing
+  text: Se digitalizaron 45.200 folios a 400 dpi.
+  value: '45.200'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F06
+  category: result
+  kind: existing
+  text: Se generó un Ground Truth mediante la transcripción manual de 2.500 folios.
+  value: '2.500'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F07
+  category: result
+  kind: existing
+  text: El corpus se dividió en 8 manos para entrenamiento, 2 para validación y 2 para test.
+  value: '8'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F08
+  category: result
+  kind: existing
+  text: El modelo HTR alcanzó un CER del 4,2% en el conjunto de test para escrituras góticas cursivas
+    de finales del siglo XIV.
+  value: 4,2%
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F09
+  category: result
+  kind: existing
+  text: El CER aumentó al 8,5% en el conjunto de test al procesar escrituras cursivas degeneradas de 1440-1450.
+  value: 8,5%
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F10
+  category: result
+  kind: existing
+  text: La extracción de entidades se evaluó sobre una muestra aleatoria adjudicada manualmente de 500
+    escrituras.
+  value: '500'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F11
+  category: result
+  kind: existing
+  text: La vinculación de entidades presentó una tasa de error del 6,0% en la desambiguación de homónimos.
+  value: 6,0%
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F12
+  category: result
+  kind: existing
+  text: La estimación de la centralidad de intermediación media (betweenness normalizada, promediada sobre
+    todos los nodos en la red agregada) fue de 0,028, con un intervalo de incertidumbre por simulación
+    condicional del 95% de [0,026, 0,030].
+  value: '[0,026, 0,030]'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F13
+  category: result
+  kind: existing
+  text: El análisis de sensibilidad de la conversión monetaria arrojó una desviación máxima del ±5%.
+  value: ±5%
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F14
+  category: result
+  kind: existing
+  text: Las viudas que actuaron como acreedoras constituyeron el 22,0% de los acreedores únicos en el
+    periodo 1360-1400.
+  value: 22,0%
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F15
+  category: result
+  kind: existing
+  text: Las viudas que actuaron como deudoras representaron el 8,0% de los deudores únicos en el periodo
+    1360-1400.
+  value: 8,0%
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F16
+  category: result
+  kind: existing
+  text: Un total de 45 viudas ocuparon ambos roles (acreedora y deudora) en distintos momentos.
+  value: '45'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F17
+  category: result
+  kind: existing
+  text: Los mercaderes profesionales mostraron una centralidad de intermediación un 40,6% superior a la
+    media de los artesanos urbanos.
+  value: 40,6%
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F18
+  category: budget
+  kind: existing
+  text: El presupuesto de NOTAR-NET incluyó 85.000 EUR para el contrato del IP por 3 años como condición
+    de la ayuda institucional.
+  value: '85.000'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F19
+  category: position
+  kind: existing
+  text: El IP es actualmente Profesor Ayudante Doctor.
+  value: Profesor Ayudante Doctor
+  salient: true
+  source: cv_ip.md
+- id: F20
+  category: team
+  kind: existing
+  text: El Dr. Lorenzo Squarcione participa en el equipo sin vinculación con instituciones españolas ni
+    previsión de incorporación.
+  value: null
+  salient: true
+  source: equipo_y_recursos.md
+- id: F21
+  category: team
+  kind: existing
+  text: La Dra. Mireia Castellnou se encuentra actualmente sin vinculación contractual.
+  value: null
+  salient: true
+  source: equipo_y_recursos.md
+- id: F22
+  category: team
+  kind: existing
+  text: El contrato FPI de Dídac Llorca finaliza en diciembre de 2026.
+  value: diciembre de 2026
+  salient: true
+  source: equipo_y_recursos.md
+- id: F23
+  category: team
+  kind: planned
+  text: La lectura de tesis de Dídac Llorca está prevista para enero de 2027.
+  value: enero de 2027
+  salient: true
+  source: equipo_y_recursos.md
+- id: F24
+  category: resource
+  kind: existing
+  text: El servidor Tirant está equipado con 4 tarjetas gráficas NVIDIA RTX 3090 de 24GB VRAM.
+  value: '4'
+  salient: true
+  source: equipo_y_recursos.md
+- id: F25
+  category: education
+  kind: existing
+  text: El IP ha dirigido 4 TFM entre 2021 y 2025.
+  value: '4'
+  salient: true
+  source: cv_ip.md
+- id: F26
+  category: result
+  kind: existing
+  text: Se aislaron y estructuraron 12.540 escrituras anotadas de carácter crediticio.
+  value: '12.540'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F27
+  category: result
+  kind: existing
+  text: La red económica reconstruida está compuesta por 3.450 individuos únicos.
+  value: '3.450'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F28
+  category: result
+  kind: existing
+  text: La red contiene 15.800 relaciones de deuda (aristas).
+  value: '15.800'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F29
+  category: result
+  kind: existing
+  text: El volumen total nominal de crédito analizado ascendió a 1.450.000 sueldos jaqueses.
+  value: 1.450.000
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F30
+  category: result
+  kind: existing
+  text: Hubo 1.432 acreedores únicos en la red del periodo 1360-1400.
+  value: '1.432'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F31
+  category: result
+  kind: existing
+  text: Hubo 2.850 deudores únicos en la red del periodo 1360-1400.
+  value: '2.850'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F32
+  category: result
+  kind: existing
+  text: El tamaño medio del préstamo otorgado por viudas (n=1.850) fue de 45 sueldos jaqueses (DE = 12).
+  value: '45'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F33
+  category: result
+  kind: existing
+  text: El tamaño medio del préstamo otorgado por mercaderes (n=3.420) fue de 120 sueldos jaqueses (DE
+    = 45).
+  value: '120'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F34
+  category: result
+  kind: existing
+  text: El CER del 4,2% para el siglo XIV tiene un IC 95% de 3,9% - 4,5% sobre n=270.000 caracteres.
+  value: 3,9% - 4,5%
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F35
+  category: result
+  kind: existing
+  text: El CER del 8,5% para el siglo XV tiene un IC 95% de 7,8% - 9,2% sobre n=180.000 caracteres.
+  value: 7,8% - 9,2%
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F36
+  category: result
+  kind: existing
+  text: 'El modelo NLP alcanzó un F1-score de 0,92 (IC 95%: 0,89-0,95) para roles.'
+  value: '0,92 (IC 95%: 0,89-0,95)'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F37
+  category: result
+  kind: existing
+  text: 'El modelo NLP alcanzó un F1-score de 0,89 (IC 95%: 0,85-0,93) para cantidades.'
+  value: '0,89 (IC 95%: 0,85-0,93)'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F38
+  category: result
+  kind: existing
+  text: La vinculación de entidades presentó 45 errores sobre 750 decisiones.
+  value: '45'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F39
+  category: result
+  kind: existing
+  text: No existen registros parroquiales sistemáticos para esta época, lo que impide establecer la fecha
+    exacta de viudedad.
+  value: null
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F40
+  category: result
+  kind: existing
+  text: Los capítulos matrimoniales conservados no demuestran por sí solos el pago efectivo de la restitución
+    de la dote.
+  value: null
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F41
+  category: result
+  kind: existing
+  text: Hasta la fecha no se han localizado recibos de restitución o cartas de pago equivalentes.
+  value: null
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F42
+  category: result
+  kind: planned
+  text: La búsqueda de recibos de restitución constituirá una fase de viabilidad planificada, con una
+    estrategia alternativa basada en asociaciones temporales.
+  value: null
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F43
+  category: result
+  kind: existing
+  text: El corpus íntegro está compuesto por textos en catalán antiguo y latín.
+  value: null
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F44
+  category: resource
+  kind: existing
+  text: Las imágenes digitales están bajo acceso restringido para investigación no comercial.
+  value: null
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F45
+  category: resource
+  kind: existing
+  text: Las transcripciones y datos están publicados bajo licencia CC BY-NC 4.0.
+  value: CC BY-NC 4.0
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F46
+  category: resource
+  kind: existing
+  text: El sistema NAS tiene 50 TB de capacidad bruta.
+  value: 50 TB
+  salient: true
+  source: equipo_y_recursos.md
+- id: F47
+  category: team
+  kind: planned
+  text: Se planifica la reincorporación a tiempo completo de la Dra. Mireia Castellnou.
+  value: null
+  salient: true
+  source: equipo_y_recursos.md
+- id: F48
+  category: team
+  kind: planned
+  text: Se planifica la contratación de Dídac Llorca como investigador postdoctoral.
+  value: null
+  salient: true
+  source: equipo_y_recursos.md
+- id: F49
+  category: result
+  kind: existing
+  text: El subconjunto analizado para la agencia de las viudas consta de 6.200 escrituras.
+  value: '6.200'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F50
+  category: result
+  kind: existing
+  text: El grupo comparador de artesanos urbanos consta de 145 individuos.
+  value: '145'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F51
+  category: result
+  kind: existing
+  text: La centralidad de intermediación media de los artesanos urbanos fue de 0,032 (DE = 0,008).
+  value: 0,032
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F52
+  category: result
+  kind: existing
+  text: La centralidad de intermediación media de los mercaderes fue de 0,045 (DE = 0,012).
+  value: 0,045
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F53
+  category: result
+  kind: existing
+  text: La simulación de Montecarlo para evaluar errores de vinculación utilizó 1.000 iteraciones.
+  value: '1.000'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F54
+  category: result
+  kind: existing
+  text: Las conversiones monetarias utilizaron anclajes en 1362, 1389 y 1412.
+  value: 1362, 1389 y 1412
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F55
+  category: result
+  kind: existing
+  text: Se aplicó interpolación lineal y extrapolación plana para los periodos 1350-1361 y 1413-1450.
+  value: 1350-1361 y 1413-1450
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F56
+  category: result
+  kind: existing
+  text: El corpus de entrenamiento HTR consistió en 2.000 folios.
+  value: '2.000'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F57
+  category: result
+  kind: existing
+  text: El corpus de validación HTR consistió en 250 folios.
+  value: '250'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F58
+  category: result
+  kind: existing
+  text: El corpus de test HTR consistió en 250 folios.
+  value: '250'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F59
+  category: position
+  kind: existing
+  text: El IP inició su contrato como Profesor Ayudante Doctor el 1 de septiembre de 2024.
+  value: 1 de septiembre de 2024
+  salient: true
+  source: cv_ip.md
+- id: F60
+  category: position
+  kind: existing
+  text: El IP está Acreditado a Profesor Titular.
+  value: Acreditado a Profesor Titular
+  salient: true
+  source: cv_ip.md
+- id: F61
+  category: team
+  kind: existing
+  text: La Dra. Mireia Castellnou estuvo contratada 12 meses a tiempo parcial con cargo al proyecto NOTAR-NET.
+  value: '12'
+  salient: true
+  source: equipo_y_recursos.md
+- id: F62
+  category: resource
+  kind: existing
+  text: Existe un convenio marco con el Archivo Histórico Comarcal de la Vall de Boira que permite la
+    cesión de derechos de reproducción digital exclusivamente para fines de investigación no comercial.
+  value: null
+  salient: true
+  source: equipo_y_recursos.md
+- id: F63
+  category: result
+  kind: existing
+  text: El material datado en 1450 fue excluido del análisis de red.
+  value: '1450'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F64
+  category: result
+  kind: existing
+  text: La red se dividió en 10 ventanas temporales no superpuestas de 10 años (de 1350-1359 a 1440-1449).
+  value: '10'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F65
+  category: budget
+  kind: existing
+  text: El presupuesto de NOTAR-NET incluyó 15.000 EUR para un contrato postdoctoral de 12 meses a tiempo
+    parcial.
+  value: '15.000'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F66
+  category: budget
+  kind: existing
+  text: El presupuesto de NOTAR-NET incluyó 15.000 EUR para equipamiento y viajes.
+  value: '15.000'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F67
+  category: result
+  kind: existing
+  text: Las viudas que actuaron como acreedoras fueron 315.
+  value: '315'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F68
+  category: result
+  kind: existing
+  text: Las viudas que actuaron como deudoras fueron 228.
+  value: '228'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F69
+  category: result
+  kind: existing
+  text: Los mercaderes profesionales en la red fueron 85 individuos.
+  value: '85'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F70
+  category: result
+  kind: existing
+  text: La muestra de evaluación contenía 1.250 menciones de personas.
+  value: '1.250'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F71
+  category: result
+  kind: existing
+  text: La muestra de evaluación contenía 620 relaciones de deuda.
+  value: '620'
+  salient: true
+  source: informe_proyecto_previo.md
+- id: F72
+  category: resource
+  kind: existing
+  text: Los capítulos matrimoniales (contratos de dote) se conservan en la misma serie notarial.
+  value: null
+  salient: true
+  source: informe_proyecto_previo.md
+own_publications:
+- key: guinovart2024
+  authors:
+  - Guinovart, O.
+  - Castellnou, M.
+  - Squarcione, L.
+  year: 2024
+  title: 'Automated transcription of 14th-century notarial registers: A deep learning approach for Old
+    Catalan and Latin'
+  venue: Revue of Computational Diplomatics
+  doi: 10.99999/pb.notarial-archives-team.2024.1
+- key: guinovart2023
+  authors:
+  - Guinovart, O.
+  year: 2023
+  title: 'Widows as creditors: Female economic agency in the post-plague Crown of Aragon'
+  venue: Mediterranean Journal of Medieval Economy
+  doi: 10.99999/pb.notarial-archives-team.2023.1
+- key: llorca2023
+  authors:
+  - Llorca, D.
+  - Guinovart, O.
+  year: 2023
+  title: 'Topology of rural credit: Network analysis of merchants and peasants in the Vall de Boira'
+  venue: Historical Network Analysis Review
+  doi: 10.99999/pb.notarial-archives-team.2023.2
+- key: castellnou2022
+  authors:
+  - Castellnou, M.
+  - Squarcione, L.
+  - Guinovart, O.
+  year: 2022
+  title: 'The NOTAR-NET Dataset: 45,200 digitized folios of medieval notarial protocols'
+  venue: Open Data in Historical Studies
+  doi: 10.99999/pb.notarial-archives-team.2022.1
+- key: guinovart2021
+  authors:
+  - Guinovart, O.
+  year: 2021
+  title: Estructuras de deuda y fiscalidad en la Cataluña Nueva (1350-1400)
+  venue: Iberian Medieval Studies
+  doi: 10.99999/pb.notarial-archives-team.2021.1
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 78653a22-1cee-4cbd-94b4-e0bcd810ca99

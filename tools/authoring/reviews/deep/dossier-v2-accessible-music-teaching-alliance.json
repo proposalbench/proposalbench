@@ -1,0 +1,20 @@
+{
+  "kind": "dossier",
+  "id": "v2-accessible-music-teaching-alliance",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Dossiers 1, 6: searched all full personal names (Aino Kaarnevuo, Petra Vraneković, Lotte Verhaegelin, Maija Kuusentola, Eeva Rantakoski), all three institutional names and legal-name variants, Studio Instructions and Shared Access, approval code KAA-EDU-2024-11 and all four journal titles. No credible exact-name collision found. Search absence is not proof of nonexistence.",
+    "Dossier 2: EUR 48,000 = 3 × EUR 16,000 = EUR 30,000 + 9,000 + 6,000 + 3,000. Enrolment 72 = 3 × 24; pairs 60 = 3 × 20; 12 missing = 3 × 4; 60/72 rounds to 83.3%. Interviews 18 students + 9 teachers agree with site subtotals. Sources: prior_project.md and dossier.yaml.",
+    "Dossiers 2, 4: 0.18 baseline-SD change with CI −0.03 to 0.39 is numerically possible for 60 paired observations (implied change-score SD about 0.81 baseline SD under the stated paired-t calculation). The report explicitly limits its inference: no comparator/randomisation, complete cases, unadjusted class influences and no subgroup effects. No causal efficacy claim is required.",
+    "Dossier 4: corrected captions, written instructions, multilingual terminology and difficulty dividing visual attention during music practice are plausible; consulted empirical caption-user research https://pubmed.ncbi.nlm.nih.gov/30713197/. This supports method plausibility, not the fictional pilot's numerical results.",
+    "Dossiers 3, 5: all non-null values among the 25 facts were checked in their named source files; reviewed null-valued facts semantically. Existing studios, equipment and staff are distinguished from the uncontracted 12-placement proposal and future evaluation approval.",
+    "Dossier 8: G1 accessible-placement baseline and G2 disability-participation baseline really are unavailable across the files; no number can be derived from enrolment or access-service requests. The gaps are intentional and must remain unresolved rather than being filled with zero.",
+    "Dossiers 6, 7, 9: own-publication records and source bibliography agree; four fictional journal articles use 10.99999/pb. DOIs. Career, pilot, approval and adoption dates are ordered and no dossier document is later than September 2026. No resubmission material or reviewer_criticisms is required.",
+    "Read all files listed by dossier.yaml and earlier automated reviews. Checked the June 2024 agreement, 2025 pilot, February 2026 account/report closure and September adoption/placement statuses against each other."
+  ]
+}

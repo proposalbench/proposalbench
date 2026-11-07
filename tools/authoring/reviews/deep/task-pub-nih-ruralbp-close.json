@@ -1,0 +1,43 @@
+{
+  "kind": "task",
+  "id": "pub-nih-ruralbp-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 2; Task 6",
+      "where": "data/public/tasks/pub-nih-ruralbp-close/task.yaml, T1 expected_behaviour: \"Develop and assess the workflow through formative co-design and structured usability tasks using simulated cases\".",
+      "problem": "The clinical-trial trap is sound, but the key makes simulated cases mandatory. The call requires structured usability evidence, not a particular source of test cases. A non-therapeutic usability study using appropriately governed existing/de-identified records, or observational workflow assessment without assigned care, can satisfy it. A valid proposal could therefore fail the trap solely for choosing another compliant method.",
+      "fix": "Replace the prescriptive sentence with 'Develop and assess the workflow using a feasible formative or methodological design that does not prospectively assign care to evaluate a health-related effect; simulated-case usability testing is one option, not a requirement. Accept other appropriately governed non-clinical-trial usability or observational workflow designs. In Specific Aims and Approach, keep any therapeutic controlled evaluation as a future study outside this award.' Retain the prohibition on the brief's randomized BP-effect pilot.",
+      "evidence": [
+        "data/public/calls/nih-r21-ruralbp/call.md",
+        "https://grants.nih.gov/policy-and-compliance/policy-topics/clinical-trials/definition",
+        "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-26-063.html",
+        "tools/authoring/design_v2.md",
+        "docs/task_review_checklist.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-nih-ruralbp-close/brief.md: the opening notes have no date.",
+      "problem": "The revised checklist requires briefs dated 1 October 2026. The task-wide present date makes this omission recoverable, so it is polish rather than an undecidable trap.",
+      "fix": "Add '**Date: 1 October 2026**' above the notes.",
+      "evidence": [
+        "docs/task_review_checklist.md",
+        "tools/authoring/design_v2.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Task 1, 3: strong close fit to adult rural BP measurement, record linkage, interviews and paper-workflow experience. Existing clinic relationships do not guarantee new staff time, record access or recruitment; the brief preserves that distinction.",
+    "Task 2, 6: T1 is correctly T05. Randomizing the 60 adults to a follow-up workflow/usual care and evaluating six-month systolic BP is a clinical trial even if labelled a pilot. T2 is correctly T02: the requested third award year contradicts the explicit 24-month cap.",
+    "Task 2, 6: T2 expected behaviour correctly permits any ≤24-month schedule covering the call outcomes and excludes only award work after month 24; it does not forbid describing a separately funded later evaluation. The two planted mistakes can be corrected together by moving empirical/formative work into a two-year schedule.",
+    "Task 1: a 60-adult, two-clinic measurement/linkage study plus bounded co-design and usability work can meet all outcomes within an R21; no definitive treatment effect or new intervention evidence is required. Six hundred Aims words and 3,600 Strategy words are adequate.",
+    "Task 4, 5, 7: ordinary English applicant notes, two keyed traps, full new application. No silent/reviewer-criticism/ethics trap; RESUB does not apply. The duplicated call exclusion and historical-analysis issue are filed on the call/dossier, not repeated here."
+  ]
+}

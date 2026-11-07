@@ -1,0 +1,114 @@
+{
+  "kind": "call",
+  "id": "v2-nih-a1-care-transitions",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "call.md 'Topic-specific requirements' and call.yaml ME10: 'justify substantive changes using the supplied evidence'",
+      "problem": "A funder would not write 'the supplied evidence'. The phrase points to a supplied evidence pack, which is the dossier. It is benchmark mechanics in the applicant-facing call. (The template's 'supplied summary statement' can be defended, because NIH does supply the summary statement. Nothing comparable supplies 'evidence'.)",
+      "fix": "Replace the phrase with funder wording, e.g. 'justify each substantive change with the review comment, published findings or preliminary results that motivate it'. Make the identical edit in call.md and call.yaml.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md 'Topic-specific requirements' and call.yaml ME9 ('This fictional PA-style emphasis, PB-PA-27-146, accepts eligible A1 applications whose unfunded R21 A0 was submitted under this emphasis or the compatible companion emphasis PB-PA-26-145 ... neither is an RFA')",
+      "problem": "ME9 is a pure eligibility and submission rule: which announcement the A0 may have gone to, and PA versus RFA status. The narrative cannot state or demonstrate it, so it cannot be scored as a mandatory element. It also gives the notice a second identifier, PB-PA-27-146, that contradicts the heading and topic_code PB2-NIH-R21-A1-01, and the fictional-notice line mentions only one invented identifier. 'PA-style emphasis' is also not an NIH vehicle; an emphasis on a parent R21 would be a Notice of Special Interest.",
+      "fix": "Delete ME9 from both files. Move one sentence into the scope introduction paragraph: 'Resubmissions are accepted where the unfunded R21 A0 was submitted under this notice or its predecessor, Attention and Medication Routines During Adult Care Transitions (PB2-NIH-R21-A0-01).' Use a predecessor identifier in the same PB2- format as the topic code, and drop the PB-PA-NN-NNN codes that imitate NIH numbering.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml ME11 vs ME8 (template); same passages in call.md",
+      "problem": "ME11's first sentence ('address every major criticism ... through an identifiable revision or an evidence-based rebuttal') repeats ME8 and the template's Introduction instructions. ME11 then bundles three further demands: limitations of the changes, unresolved concerns, and reduced conclusions. Two items will be scored on the same text.",
+      "fix": "Rewrite ME11 to carry only what ME8 lacks: 'In the Introduction to Resubmission, identify any major criticism that the revision does not fully resolve and state how it limits the conclusions the study can support.'",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml ME10 vs EX5; same passages in call.md",
+      "problem": "Two items cover one requirement. ME10 opens with 'Preserve the prior application's scientific identity', which is the positive form of exclusion EX5 ('A replacement scientific project presented as a revision'). ME10 also bundles preserving identity, explaining continuity on four dimensions, and justifying changes.",
+      "fix": "Keep EX5 as the exclusion. Rewrite ME10 as one narrative demand: 'State how the central question, population, transition setting and proposed mechanisms compare with the A0, and give the reason for each substantive change.'",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml ME14 vs EO3 and SC5; same passages in call.md",
+      "problem": "ME14 ('explain how their results will inform continuation, modification, or discontinuation of the proposed measurement approach') restates EO3 ('suitable for a subsequent study, requires modification, or should be discontinued') almost word for word. Its feasibility content overlaps SC5. It adds a separate demand, keeping feasibility apart from hypothesis evidence.",
+      "fix": "Make ME14 distinct and checkable: 'Prespecify numeric thresholds for each feasibility outcome (e.g. enrolment rate, proportion of scheduled repeated assessments completed, retention at final follow-up) and state which result leads to continuation, modification or discontinuation.' Move 'keep feasibility conclusions distinct from evidence for the hypothesis' into the EO3 text, or drop it.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml ME13 vs SC3 and EO1; same passages in call.md",
+      "problem": "ME13's first sentence ('Explain how observation timing supports the proposed temporal interpretation') repeats SC3 ('through observations timed to the proposed scientific question'). It then bundles two more demands: association versus causation, and reciprocal relationships.",
+      "fix": "Drop the timing sentence from ME13 and keep one demand: 'State which directions of effect the design can and cannot distinguish, including effects of medication difficulties on stress and attention, and do not present associations as causal effects.'",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 4",
+      "where": "call.yaml SC2 ('direct assessments or validated behavioral measures'), EX3 ('behavioral assessment of the proposed attention, stress, and self-management relationships'), ME12 ('Identify the behavioral construct represented by each principal measure'); same in call.md",
+      "problem": "Attention is a cognitive construct and stress is an affective or physiological one; neither is behavioral. Standard measures are performance-based attention tasks, validated self-report stress scales or EMA ratings, and cortisol or heart-rate variability. Under the current wording an applicant cannot tell whether a perceived-stress scale or cortisol sampling complies. A reviewer cannot decide SC2, EX3 or ME12 consistently.",
+      "fix": "SC2: 'Measure attention with performance-based tests, stress with validated self-report or physiological measures, and medication self-management with objective or validated behavioral measures, each appropriate to the population and setting.' EX3: replace 'behavioral assessment of' with 'direct assessment of'. ME12: replace 'behavioral construct' with 'construct'.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.yaml ME12 vs SC2; same in call.md",
+      "problem": "ME12's 'evidence supporting its use in the proposed population and setting' repeats SC2 ('validated ... appropriate to the population and observation setting'). ME12 also bundles a second, unrelated demand: distinguishing medication-taking from knowledge, confidence, availability and assistance.",
+      "fix": "Leave validity for the population and setting to SC2. Reduce ME12 to the distinct demand: 'Distinguish measured medication-taking behavior from medication knowledge, confidence, prescription availability and assistance received.'",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.yaml EX4; same in call.md",
+      "problem": "EX4 bundles three exclusions. One of them, 'clinical effectiveness testing', is already covered by EX1 (clinical trials) and EX2 (intervention evaluation).",
+      "fix": "Rewrite as 'Definitive validation of a prediction tool, or implementation at scale, as the purpose of the study.'",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.yaml ME15; same in call.md",
+      "problem": "ME15 bundles three demands: possible measurement or feedback reactivity, why the procedures remain observational, and the handling of concerning findings. The observational-status part overlaps EX1 and the template's Approach requirement on risks to participants and protections.",
+      "fix": "Keep the topic-specific core: 'Describe whether assessments, feedback or contact with care teams could change participants' medication management, and a procedure for clinically concerning findings that applies to all participants alike.'",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.yaml EO2; same in call.md",
+      "problem": "EO2 names care teams as recipients of evidence on circumstances that 'warrant further investigation'. Further investigation is a research action, not a care-team one. The audience is mismatched, and the outcome edges toward the risk identification that EX4 excludes for an exploratory study.",
+      "fix": "Rewrite as 'Researchers and care teams have candidate transition circumstances in which medication self-management difficulties warrant further study, with uncertainty and limits on transferability made explicit.'",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md heading 'Topic-specific requirements:' above ME1–ME15",
+      "problem": "The heading labels the scheme-level items ME1–ME8 (rigor, sample size, bias, sex as a biological variable, inclusion, Introduction to Resubmission) as topic-specific. These are NIH-wide requirements, not part of the topic.",
+      "fix": "Retitle the list 'Required elements', or render ME1–ME8 under a scheme heading and ME9 onward under 'Topic-specific requirements'.",
+      "part": "template"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 4",
+      "where": "call.md 'Resubmission conditions': 'The fictional deadline is 15 September 2027'",
+      "problem": "R21 resubmissions use NIH standard dates: 16 March, 16 July and 16 November, or 7 January, 7 May and 7 September for AIDS-related applications. 15 September is not one of them, so the invented date looks unlike an NIH cycle.",
+      "fix": "Use a standard resubmission date after the present date, e.g. 16 July 2027 or 16 November 2027.",
+      "part": "template"
+    }
+  ]
+}

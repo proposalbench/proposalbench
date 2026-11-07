@@ -1,0 +1,43 @@
+{
+  "kind": "dossier",
+  "id": "v2-food-safety-chemistry-consortium",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [
+    {
+      "severity": "minor",
+      "checklist": "Dossier 4",
+      "where": "data/public/dossiers/v2-food-safety-chemistry-consortium/prior_project.md: “4 °C” / “10 °C”; “final surrogate count above 6.0 log10 CFU/g”.",
+      "problem": "The results are numerically coherent, and L. lactis growth at a 10 °C excursion is not inherently impossible, but the summary omits starting inoculum, total storage duration and excursion duration. Consequently its large endpoint-positive fraction cannot be independently assessed as a growth experiment. This is not evidence that the reported classification counts are impossible.",
+      "fix": "Add after the endpoint definition: “This report summary does not specify starting inoculum, total storage duration or excursion duration; its end-point classification results therefore do not establish a growth rate or time to threshold.” Record that limitation in F25. A reviser may instead supply an internally consistent fictional schedule, but should not infer one from the existing counts.",
+      "evidence": [
+        "data/public/dossiers/v2-food-safety-chemistry-consortium/prior_project.md",
+        "https://pubmed.ncbi.nlm.nih.gov/9175562/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12408634/"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "data/public/dossiers/v2-food-safety-chemistry-consortium/cv_pi.md: “IIMAV's Nantes branch”.",
+      "problem": "The legal register calls Nantes the registered seat; only Ghent is the registered foreign branch. This loose wording does not undo the explicit Ghent legal-identity fact, but is avoidable.",
+      "fix": "Replace with “IIMAV's Nantes headquarters”.",
+      "evidence": [
+        "data/public/dossiers/v2-food-safety-chemistry-consortium/consortium.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all five files, all 25 facts and four own publications; every non-null fact.value is literally supported by its named source. Fictional notices present; no declared gaps/inconsistencies/reviewer criticisms.",
+    "Recomputed EUR 502,000+118,000+104,000+116,000=840,000; 16×7+8×6=160 lots; 80+80=160; 144/160=90%; 10+6=16 nonoverlapping missing records; missing-batch pattern 7+3+1=11 batches and 7+6+3=16 lots; fold counts sum to 144.",
+    "Classification counts reconcile: 100+44=144, TP81/FN19/TN36/FP8, sensitivity .81 and specificity 36/44=.818; baselines use the same denominators; replay TP20/24 and FP2/24 are not conflated with classifier performance. The batch interval is plausible but not reproducible without synthetic raw data.",
+    "Staff rows count 6+4+2=12 people; FTE 4.2+2.8+1.4=8.4. National support currencies and dates stay distinct; committed effort is not represented as free new-project capacity.",
+    "Verified chronology of BS-IIMAV-22-11 (before experiments), its 2024 replacement and September 2026 review; all inoculated work is confined to Lyon, removing the earlier unexplained Nantes–Lyon transit. Ghent is explicitly part of IIMAV, and Polish pathogen authorisation is explicitly absent.",
+    "Exact-name searches covered all six people, both French institution names, Polish/English university names, Kelderspoor, Mésurafroid-25/paired-lot dataset, Matrice-Repère, Étalon-Frais and all four journals. No relevant exact collision established. ANR/NCN/RVO are permitted real funders; award references use fictional PB identifiers.",
+    "All four publications use 10.99999/pb. DOIs and match the hidden registry; 2026 publication predates the present date. Fictional strain identifier is not confused with a public culture collection accession.",
+    "Predictive microbiology under variable temperatures and the surrogate/pathogen distinction are sound: https://pmc.ncbi.nlm.nih.gov/articles/PMC8883828/ ; https://food.ec.europa.eu/system/files/2016-10/biosafety_fh_mc_guidance_document_lysteria.pdf . Both tasks remain achievable with proposed operator/SSH capacity and appropriately authorised future pathogen evidence."
+  ]
+}

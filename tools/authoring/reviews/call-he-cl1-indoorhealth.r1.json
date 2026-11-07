@@ -1,0 +1,45 @@
+{
+  "kind": "call",
+  "id": "he-cl1-indoorhealth",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md: introductory notice, award criteria and proposal template; call.yaml: length_contract.source_note",
+      "problem": "The call claims fidelity to the 2026–2027 scheme without citing the applicable General Annexes or a dated application template. The introductory notice also says that 'conditions are invented', although the checklist permits invention only of the topic, identifiers, budgets and dates. This leaves the status of eligibility and award conditions unclear.",
+      "fix": "Cite the official General Annexes and the applicable RIA lump-sum application template, including versions and relevant sections. Reconcile the criteria, template and award conditions with those sources. Narrow the fictionalisation notice to the permitted invented elements and identify benchmark adaptations separately."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md: Type of action and Length; call.yaml: length_contract",
+      "problem": "The call specifies a lump-sum RIA but uses the ordinary 40-page RIA/IA limit. The 2026–2027 lump-sum RIA/IA limit is 45 pages. The source note does not account for that distinction.",
+      "fix": "Use the applicable 45-page lump-sum limit and update both files. At the stated conversion of 450 words per page, the corresponding limit is 20,250 words. Alternatively, change the funding form and consistently apply its actual requirements."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md: Length; call.yaml: length_contract.tolerance",
+      "problem": "The public call states a strict 18,000-word limit and says excess text is disregarded, but the hidden contract includes a 3% tolerance. That represents 540 words of undisclosed allowance or enforcement discretion.",
+      "fix": "Set tolerance to zero, or state precisely in call.md how the 3% tolerance affects evaluation. Keep the public and hidden enforcement rules identical after correcting the underlying page limit."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md: Specific conditions; call.yaml: ME1 and ME2",
+      "problem": "Mandatory elements combine independently assessable obligations. ME1 combines FAIR data management, publication access and conditional access to data and tools. ME2 combines SSH work on occupant behaviour, energy poverty and social acceptance. A proposal could satisfy only part of either item, leaving item-level compliance ambiguous.",
+      "fix": "Split these into separately identified requirements in both files. Preserve the qualification on sharing data and tools, and specify that justified restrictions on sensitive health data are compatible with compliance."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md: fourth expected outcome; call.yaml: EO4",
+      "problem": "EO4 combines adoption into renovation passports and energy-efficiency directives across national and regional levels, without defining what constitutes a health criterion. It also conflates EU directives with national or regional implementing instruments. Compliance is consequently difficult to assess and the policy targets are imprecise.",
+      "fix": "Separate the passport and policy outcomes. Refer explicitly to national or regional renovation-passport frameworks and legislation or programmes implementing EU energy-efficiency requirements. Specify identifiable proposed health criteria, such as overheating exposure or ventilation performance, and the evidence of uptake expected."
+    }
+  ]
+}

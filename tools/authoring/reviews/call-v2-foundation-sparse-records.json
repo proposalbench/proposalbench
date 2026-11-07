@@ -1,0 +1,34 @@
+{
+  "kind": "call",
+  "id": "v2-foundation-sparse-records",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Scope, third bullet, and mandatory elements, sixth bullet; call.yaml SC3 and ME6",
+      "problem": "SC3 and ME6 repeat the requirement for a go/no-go decision point assessing methodological feasibility. Incorporating that decision into a work plan does not make it a distinct requirement.",
+      "fix": "Keep the methodological feasibility decision in SC3 and replace ME6 with a distinct requirement, such as identifying the principal dependency governing the proposed sequence of activities. Preserve the distinction between SC3's feasibility decision and ME3's end-of-project continuation decision. Update both files.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Expected outcomes, first bullet, and Scope, second bullet; call.yaml EO1 and SC2",
+      "problem": "EO1 substantially repeats SC2's requirement to develop a reproducible framework addressing missingness. 'Robust frameworks' does not identify a distinct, checkable outcome beyond producing the methodology.",
+      "fix": "Rewrite EO1 as a distinct intended result, such as demonstrating which conclusions remain supported when explicitly stated assumptions about missing records are varied. Keep SC2 as the methodological design requirement and update both files.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Exclusions, fifth bullet; call.yaml EX5",
+      "problem": "The exception for 'independent methodological scrutiny' leaves the exclusion insufficiently decidable. It does not establish whether published descriptions, executable access, independent output validation, or source-code inspection would permit use of a proprietary imputation method.",
+      "fix": "Specify what access or documentation makes such a method permissible and require the narrative to explain how independent scrutiny will be enabled. For example, require independent reviewers to have access to a sufficiently detailed method specification and an executable implementation for testing. Update both files.",
+      "part": "topic"
+    }
+  ]
+}

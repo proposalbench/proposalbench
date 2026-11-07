@@ -1,0 +1,73 @@
+{
+  "kind": "task",
+  "id": "pub-erc-notarial-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "cv_ip.md, equipo_y_recursos.md, publicaciones.md, brief.md and hidden registries: collaborator and student names",
+      "problem": "Several names collide with real people. Laia Pujol is associated with research in digital heritage, Matteo Rossi with computer science, and Carlos Giménez is a well-known Spanish comics author. These violate the explicit restriction on names that searches would confuse with real researchers or public figures.",
+      "fix": "Replace these names with distinctive fictional names throughout the documents, publication authors, facts and trap expectations."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "informe_proyecto_previo.md §3.2; dossier.yaml F25",
+      "problem": "The stated centrality means imply an increase of (0.045 / 0.032 − 1) × 100 = 40.625%, whereas the report and registry state 40% without qualification. Rounded underlying means might explain the difference, but that is not documented.",
+      "fix": "Report approximately 40.6% using the displayed means, or explicitly describe 40% as an approximation and provide the underlying values used. Update F25 consistently."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "publicaciones.md publication 4; dossier.yaml own_publications.pujol2022",
+      "problem": "The dataset publication title specifies 45,000 folios, while its own summary and the project report specify 45,200. No rounding convention or earlier dataset version explains the difference.",
+      "fix": "Change the fictional publication title to 45,200 in both locations, or explicitly document a 45,000-folio release and distinguish it from the later 45,200-folio corpus."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "informe_proyecto_previo.md §3: monetary units and exchange-rate reconstruction",
+      "problem": "The report calls the sueldo jaqués the regional reference currency for material situated in the Ribera d'Ebre, in Catalonia, where the Barcelona monetary system requires consideration. A common analytical conversion unit is possible, but it needs justification. The reconstruction also claims interpolation across 1350–1450 using only rate-table dates of 1362, 1389 and 1412; those anchors cannot support interpolation before 1362 or after 1412. The asserted Cortes tables are not identified sufficiently to establish their denominations, territorial applicability or coverage.",
+      "fix": "Distinguish original local denominations from the chosen analytical unit. Provide historically defensible conversion sources and their coverage, explain treatment of dates outside the anchors, and report sensitivity to those assumptions. Remove unsupported claims that a single official equivalence system covered the corpus."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "informe_proyecto_previo.md §2.2: train/validation/test split",
+      "problem": "Splitting by notarial register does not by itself establish generalisation to unseen hands: the same notary or clerk can write multiple registers. The report claims unseen-hand evaluation without identifying how writers were separated across the three partitions.",
+      "fix": "Specify the grouping unit and the numbers of distinct hands in each partition, and establish that held-out writers are absent from training. If writers overlap, describe the evaluation as generalisation to held-out registers and qualify the performance claim accordingly."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 2 and Dossier 4",
+      "where": "informe_proyecto_previo.md §§2.3 and 3.2; dossier.yaml F16 and F25",
+      "problem": "The ±4% centrality uncertainty is not interpretable: its confidence level, relative or absolute scale, target statistic and simulation procedure are unspecified. A 6% error rate among homonym-resolution decisions cannot automatically be treated as a random edge-rewiring rate; identity errors can merge or split nodes and affect several edges together. The artisan comparison also lacks its sample size and an explanation of how individuals and temporal windows contribute to the reported means and standard deviations.",
+      "fix": "Define the centrality estimand, aggregation and uncertainty scale; supply the artisan sample size and simulation details. Calibrate perturbations to observed identity-error types, or describe the ±4% result narrowly as sensitivity under an explicitly specified rewiring scenario rather than a general uncertainty bound."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml facts, compared with all four dossier documents",
+      "problem": "The registry omits substantial proposal-relevant evidence and qualifications. Examples include the HTR split sizes, character counts and confidence intervals; the 1,250 person mentions and 620 debt relations; the 45 errors among 750 disambiguation decisions; the 1360–1400 restriction and 45 widows appearing in both roles; the centrality means and standard deviations; the prior grant's cost breakdown; the PI's 2019 archive visit; Laia's current lack of a contract and previous part-time appointment; and Carlos's anticipated defence date. These omissions are particularly consequential for performance claims, staffing and the basis for the Genoa extension.",
+      "fix": "Add facts preserving these exact values and qualifications, with source references and appropriate existing or planned status. Record the Genoa visit as historical experience and explicitly document the current status of prospective Genoa access and collaboration rather than allowing historical contacts to imply secured access."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml F19; informe_proyecto_previo.md §3",
+      "problem": "F19 presents ±5% as a property of monetary conversion generally. The source reports a sensitivity comparison using an alternative set of market exchange rates. That comparison does not establish a ±5% accuracy bound for the conversion procedure.",
+      "fix": "Rewrite F19 to preserve the sensitivity-analysis interpretation and its tested alternatives. Clarify in the source what quantity changed by at most 5%, over which observations, and how that maximum was calculated."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Task 3",
+      "where": "brief.md: 'en cuanto defienda su tesis este septiembre'; task.yaml creation date; dossier documents dated May 2026",
+      "problem": "The undated brief treats September as forthcoming, while the task was created on 31 October 2026 and targets a March 2027 deadline. The May dossier establishes only an anticipated September 2026 defence, so neither completion nor continued doctoral status is established at the later dates.",
+      "fix": "Date the brief explicitly as an earlier planning note, or update the documents to a consistent application-planning date and state the defence outcome or continuing uncertainty. Preserve the postdoctoral appointment as conditional if completion remains unconfirmed."
+    }
+  ]
+}

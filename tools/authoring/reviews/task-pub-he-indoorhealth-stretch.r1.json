@@ -1,0 +1,52 @@
+{
+  "kind": "task",
+  "id": "pub-he-indoorhealth-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 1",
+      "where": "brief.md, first bullet; resources.md, section 3.1; consortium.md, WoonStichting Randstad profile",
+      "problem": "The proposed before-and-after study uses the same 15 blocks that resources.md describes as already renovated. No pre-renovation health measurements exist, and no forthcoming renovation phase or alternative study buildings are identified. Access to existing building data does not establish a feasible prospective health baseline at this testbed.",
+      "fix": "Identify a forthcoming renovation tranche and its indicative timetable, distinguishing existing sensor access from proposed installations and conditional participant recruitment. Revise the brief to use those buildings for the prospective study and the completed blocks only where methodologically appropriate."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 2",
+      "where": "task.yaml, T1 expected_behaviour",
+      "problem": "The answer key requires recruiting a new partner, although the substantive requirement is direct health measurement supported by appropriate expertise. A proposal could meet that requirement through planned qualified hires and suitable clinical arrangements. Requiring one organisational solution unfairly rejects otherwise compliant responses.",
+      "fix": "Accept a planned clinical or public-health partner, suitably qualified hires, or another credible arrangement that provides clinical measurement capability, participant access and the necessary approvals. Retain direct clinical and patient-reported outcome measurement as mandatory."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "consortium.md, OptiControl GmbH; corresponding references in brief.md and dossier.yaml",
+      "problem": "OptiControl is already the name of a real building-control research project. Reusing it for a fictional predictive-control company in the same field creates precisely the search confusion prohibited by the fiction requirement.",
+      "fix": "Replace OptiControl with a distinctive fictional company name throughout the bundle."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md, section 4.1 Stratification; resources.md, section 2.3; dossier.yaml, F09",
+      "problem": "The report claims a thermocline thinner than 1.5 metres during 85% of operational time, but its denominator includes only observations selected for active stratification. Those 245,500 timestamps are approximately 85.0% of the full 288,864-timestamp grid. A percentage calculated within this selected subset cannot establish the stated percentage of all operational time.",
+      "fix": "Specify the actual numerator and denominator. If 85% refers to eligible observations, describe it as such and limit the conclusion to periods of active stratification. If it refers to all operational time, provide the corresponding calculation and explain treatment of excluded periods. Update F09."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts, especially F17 and F24",
+      "problem": "The registry omits consequential resource statuses and restrictions. F24 does not record that the 15 instrumented blocks are already renovated, their measurement channels or their 15-minute sampling interval. F17 omits municipal building permits from the conditions on new pilot installations. These omissions affect whether a proposal correctly distinguishes existing data access from permission to conduct new research.",
+      "fix": "Add explicit facts for renovation status, sensor channels and sampling interval. Record tenant consent and municipal permits as separate conditions, and distinguish secured building-data access from unapproved new installations and health-study recruitment."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts; cv_coordinator.md; resources.md; prior_project.md",
+      "problem": "Numerous quotable numbers and statuses lack registry coverage, including the coordinator's appointments and other grant budgets, supervision counts, the research team's staffing counts, OptiControl's 2025 patent status, and the reported net emissions saving of 3,850 tonnes CO2-equivalent annually. The registry therefore cannot support complete checking of proposal claims against the supplied dossier.",
+      "fix": "Add facts for the remaining salient achievements, staffing, grants, resource statuses and results, preserving units, dates, uncertainty and qualifications from their source passages."
+    }
+  ]
+}

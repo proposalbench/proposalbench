@@ -1,0 +1,42 @@
+{
+  "kind": "call",
+  "id": "v2-ka220-multilingual-practice",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 6",
+      "where": "call.md, Length contract and final HTML comment",
+      "problem": "The applicant-facing text explicitly describes benchmark mechanics through “For this benchmark only” and “a benchmark enforcement choice”. The PROPOSALBENCH-CANARY comment also exposes benchmark instrumentation in the supplied Markdown. A fictional-call notice is permitted, but these operational details are not.",
+      "fix": "Describe the 6,000-word ceiling, exemptions and inadmissibility rule as restrictions of this fictional call. Remove the enforcement commentary and canary from applicant-facing Markdown; retain provenance and instrumentation in hidden metadata.",
+      "part": "template"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Scope and mandatory elements; call.yaml SC7 and ME13",
+      "problem": "SC7 requires every proposal to conduct applied research linked to teaching or assessment changes. ME13 repeats that linkage but introduces it with “Where the project includes research”, suggesting research is optional. This creates an unclear applicability rule and duplicates the same substantive requirement.",
+      "fix": "Choose whether research is mandatory. If optional, make SC7 conditional and consolidate the research-to-teaching linkage there, removing ME13. If mandatory, retain one unconditional requirement covering the research activity and the teaching or assessment change it informs.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Scope introduction, SC1, SC5 and SC10; corresponding call.yaml items",
+      "problem": "The scope explicitly permits hospitals, schools, cultural institutions and migrant-support associations as partners, but requires barrier mapping, institutional recognition of staff development and decisions by language, inclusion or teaching policy bodies at every partner institution. It does not distinguish HEIs and practical-teaching hosts from partners contributing other expertise. Consequently, the requirements have unclear applicability to explicitly permitted partner types.",
+      "fix": "Require curriculum-related mapping, institutional staff-development recognition and policy decisions at participating HEIs. Specify which additional requirements apply to practice hosts delivering pilots, and require other organisations to contribute according to their stated roles. Apply the same distinctions in both files.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Expected outcomes EO4 and Exclusions EX6; corresponding call.yaml items",
+      "problem": "EO4 combines two independently assessable outcomes: producing evidence about learner outcomes and revising institutional policies. EX6 combines two independently applicable exclusions: proprietary software development and equipment purchasing as a main result. Each item can be partly satisfied or violated, preventing a single clear assessment.",
+      "fix": "Split EO4 into separate evidence and policy-adoption outcomes. Split EX6 into separate exclusions for proprietary software development and interpreting or captioning equipment purchasing. Keep the resulting items identical across Markdown and YAML.",
+      "part": "topic"
+    }
+  ]
+}

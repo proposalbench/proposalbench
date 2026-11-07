@@ -1,0 +1,156 @@
+{
+  "kind": "call",
+  "id": "v2-nih-a1-care-transitions",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "13752f5658fbbef01e922fe0d1d54cd98ba67b9fb8d93127560ed7fd1b7d2f21",
+  "draft": {
+    "title": "Attention, Stress, and Medication Self-Management Across Adult Service Transitions",
+    "expected_outcomes_intro": "Successful projects will provide researchers and care teams with evidence about how attention and stress relate to medication self-management when adults move between health services. Findings should clarify mechanisms worth investigating and establish whether the proposed observational methods can support subsequent research.",
+    "expected_outcomes": [
+      "Researchers have a clearer account of the temporal relationships among service transitions, attention, stress, and medication self-management, including findings that challenge the proposed relationships.",
+      "Care teams have evidence identifying transition circumstances in which medication self-management difficulties warrant further investigation, with uncertainty and limits on transferability made explicit.",
+      "Investigators have an empirically grounded basis for deciding whether the measurement and follow-up approach is suitable for a subsequent study, requires modification, or should be discontinued."
+    ],
+    "scope_intro": "Transitions between inpatient, outpatient, primary care, specialty, and community services can change medication instructions, daily routines, and responsibility for treatment management. Associations between these transitions and medication difficulties do not establish whether attention or stress contributes to those difficulties, reflects them, or shares other causes.\n\nThis emphasis supports exploratory observational research linking defined adult service transitions to attention, stress, and medication self-management. Proposals should examine naturally occurring variation and use measurements capable of distinguishing the proposed processes from administrative indicators of service use. Resubmissions are accepted where the unfunded R21 A0 was submitted under this notice or its predecessor, Attention and Medication Routines During Adult Care Transitions (PB2-NIH-R21-A0-01).",
+    "scope": [
+      "Define the service transition and observation period in relation to changes in medication routines, instructions, or responsibility for self-management.",
+      "Measure attention with performance-based tests, stress with validated self-report or physiological measures, and medication self-management with objective or validated behavioral measures, each appropriate to the population and setting.",
+      "Characterize temporal relationships among transition events, attention, stress, and medication self-management through observations timed to the proposed scientific question.",
+      "Examine alternative explanations for observed relationships, including illness burden, regimen complexity, medication changes, and available assistance.",
+      "Assess the feasibility of recruitment, repeated measurement, and follow-up, including participant burden, missing observations, and the interpretability of collected measures."
+    ],
+    "exclusions": [
+      "Development or evaluation of a service-redesign, medication-coaching, reminder, or attention-training intervention as the principal scientific objective.",
+      "Studies limited to readmissions, appointment attendance, prescription claims, or other administrative indicators without direct assessment of the proposed attention, stress, and self-management relationships.",
+      "Definitive prediction-tool validation, clinical effectiveness testing, or implementation at scale presented as the purpose of the exploratory study.",
+      "A replacement scientific project presented as a revision of the prior application."
+    ],
+    "mandatory_elements": [
+      "State how the central question, population, transition setting and proposed mechanisms compare with the A0, and give the reason for each substantive change.",
+      "In the Introduction to Resubmission, identify any major criticism that the revision does not fully resolve and state how it limits the conclusions the study can support.",
+      "Distinguish measured medication-taking behavior from medication knowledge, confidence, prescription availability and assistance received.",
+      "State which directions of effect the design can and cannot distinguish, including effects of medication difficulties on stress and attention, and do not present associations as causal effects.",
+      "Prespecify numeric thresholds for each feasibility outcome (e.g. enrollment rate, proportion of scheduled repeated assessments completed, retention at final follow-up) and state which result leads to continuation, modification or discontinuation.",
+      "Describe whether study assessments, feedback, or contact with care teams could alter medication management. Explain how these procedures remain observational and how clinically concerning findings will be handled without introducing a prospectively assigned intervention."
+    ],
+    "conditions": {
+      "max_budget": null,
+      "duration_months_max": null,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": null
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Attention, Stress, and Medication Self-Management Across Adult Service Transitions",
+        "expected_outcomes_intro": "Successful projects will provide researchers and care teams with evidence about how attention and stress relate to medication self-management when adults move between health services. Findings should clarify mechanisms worth investigating and establish whether the proposed observational methods can support subsequent research.",
+        "expected_outcomes": [
+          "Researchers have a clearer account of the temporal relationships among service transitions, attention, stress, and medication self-management, including findings that challenge the proposed relationships.",
+          "Care teams have evidence identifying transition circumstances in which medication self-management difficulties warrant further investigation, with uncertainty and limits on transferability made explicit.",
+          "Investigators have an empirically grounded basis for deciding whether the measurement and follow-up approach is suitable for a subsequent study, requires modification, or should be discontinued."
+        ],
+        "scope_intro": "Transitions between inpatient, outpatient, primary care, specialty, and community services can change medication instructions, daily routines, and responsibility for treatment management. Associations between these transitions and medication difficulties do not establish whether attention or stress contributes to those difficulties, reflects them, or shares other causes.\n\nThis emphasis supports exploratory observational research linking defined adult service transitions to attention, stress, and medication self-management. Proposals should examine naturally occurring variation and use measurements capable of distinguishing the proposed processes from administrative indicators of service use.",
+        "scope": [
+          "Define the service transition and observation period in relation to changes in medication routines, instructions, or responsibility for self-management.",
+          "Measure attention, stress, and medication self-management using direct assessments or validated behavioral measures appropriate to the population and observation setting.",
+          "Characterize temporal relationships among transition events, attention, stress, and medication self-management through observations timed to the proposed scientific question.",
+          "Examine alternative explanations for observed relationships, including illness burden, regimen complexity, medication changes, and available assistance.",
+          "Assess the feasibility of recruitment, repeated measurement, and follow-up, including participant burden, missing observations, and the interpretability of collected measures."
+        ],
+        "exclusions": [
+          "Development or evaluation of a service-redesign, medication-coaching, reminder, or attention-training intervention as the principal scientific objective.",
+          "Studies limited to readmissions, appointment attendance, prescription claims, or other administrative indicators without behavioral assessment of the proposed attention, stress, and self-management relationships.",
+          "Definitive prediction-tool validation, clinical effectiveness testing, or implementation at scale presented as the purpose of the exploratory study.",
+          "A replacement scientific project presented as a revision of the prior application."
+        ],
+        "mandatory_elements": [
+          "This fictional PA-style emphasis, PB-PA-27-146, accepts eligible A1 applications whose unfunded R21 A0 was submitted under this emphasis or the compatible companion emphasis PB-PA-26-145, Attention and Medication Routines During Adult Care Transitions. Both are program announcements; neither is an RFA.",
+          "Preserve the prior application's scientific identity. Explain how the revised central question, population, transition setting, and proposed mechanisms remain connected to the A0, and justify substantive changes using the supplied evidence.",
+          "In the Introduction, address every major criticism in the prior summary statement through an identifiable revision or an evidence-based rebuttal. Explain limitations of the changes, unresolved concerns, and any resulting reduction in the conclusions the study can support.",
+          "Identify the behavioral construct represented by each principal measure and the evidence supporting its use in the proposed population and setting. Distinguish medication-taking behavior from knowledge, confidence, prescription availability, and assistance received.",
+          "Explain how observation timing supports the proposed temporal interpretation. Distinguish association from causal inference and address reciprocal relationships among stress, attention, and medication self-management.",
+          "Define bounded feasibility outcomes and explain how their results will inform continuation, modification, or discontinuation of the proposed measurement approach. Keep feasibility conclusions distinct from evidence for the scientific hypothesis.",
+          "Describe whether study assessments, feedback, or contact with care teams could alter medication management. Explain how these procedures remain observational and how clinically concerning findings will be handled without introducing a prospectively assigned intervention."
+        ],
+        "conditions": {
+          "max_budget": null,
+          "duration_months_max": null,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": null
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Call 6",
+          "where": "call.md 'Topic-specific requirements' and call.yaml ME10: 'justify substantive changes using the supplied evidence'",
+          "problem": "A funder would not write 'the supplied evidence'. The phrase points to a supplied evidence pack, which is the dossier. It is benchmark mechanics in the applicant-facing call. (The template's 'supplied summary statement' can be defended, because NIH does supply the summary statement. Nothing comparable supplies 'evidence'.)",
+          "fix": "Replace the phrase with funder wording, e.g. 'justify each substantive change with the review comment, published findings or preliminary results that motivate it'. Make the identical edit in call.md and call.yaml.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md 'Topic-specific requirements' and call.yaml ME9 ('This fictional PA-style emphasis, PB-PA-27-146, accepts eligible A1 applications whose unfunded R21 A0 was submitted under this emphasis or the compatible companion emphasis PB-PA-26-145 ... neither is an RFA')",
+          "problem": "ME9 is a pure eligibility and submission rule: which announcement the A0 may have gone to, and PA versus RFA status. The narrative cannot state or demonstrate it, so it cannot be scored as a mandatory element. It also gives the notice a second identifier, PB-PA-27-146, that contradicts the heading and topic_code PB2-NIH-R21-A1-01, and the fictional-notice line mentions only one invented identifier. 'PA-style emphasis' is also not an NIH vehicle; an emphasis on a parent R21 would be a Notice of Special Interest.",
+          "fix": "Delete ME9 from both files. Move one sentence into the scope introduction paragraph: 'Resubmissions are accepted where the unfunded R21 A0 was submitted under this notice or its predecessor, Attention and Medication Routines During Adult Care Transitions (PB2-NIH-R21-A0-01).' Use a predecessor identifier in the same PB2- format as the topic code, and drop the PB-PA-NN-NNN codes that imitate NIH numbering.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.yaml ME11 vs ME8 (template); same passages in call.md",
+          "problem": "ME11's first sentence ('address every major criticism ... through an identifiable revision or an evidence-based rebuttal') repeats ME8 and the template's Introduction instructions. ME11 then bundles three further demands: limitations of the changes, unresolved concerns, and reduced conclusions. Two items will be scored on the same text.",
+          "fix": "Rewrite ME11 to carry only what ME8 lacks: 'In the Introduction to Resubmission, identify any major criticism that the revision does not fully resolve and state how it limits the conclusions the study can support.'",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.yaml ME10 vs EX5; same passages in call.md",
+          "problem": "Two items cover one requirement. ME10 opens with 'Preserve the prior application's scientific identity', which is the positive form of exclusion EX5 ('A replacement scientific project presented as a revision'). ME10 also bundles preserving identity, explaining continuity on four dimensions, and justifying changes.",
+          "fix": "Keep EX5 as the exclusion. Rewrite ME10 as one narrative demand: 'State how the central question, population, transition setting and proposed mechanisms compare with the A0, and give the reason for each substantive change.'",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.yaml ME14 vs EO3 and SC5; same passages in call.md",
+          "problem": "ME14 ('explain how their results will inform continuation, modification, or discontinuation of the proposed measurement approach') restates EO3 ('suitable for a subsequent study, requires modification, or should be discontinued') almost word for word. Its feasibility content overlaps SC5. It adds a separate demand, keeping feasibility apart from hypothesis evidence.",
+          "fix": "Make ME14 distinct and checkable: 'Prespecify numeric thresholds for each feasibility outcome (e.g. enrolment rate, proportion of scheduled repeated assessments completed, retention at final follow-up) and state which result leads to continuation, modification or discontinuation.' Move 'keep feasibility conclusions distinct from evidence for the hypothesis' into the EO3 text, or drop it.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.yaml ME13 vs SC3 and EO1; same passages in call.md",
+          "problem": "ME13's first sentence ('Explain how observation timing supports the proposed temporal interpretation') repeats SC3 ('through observations timed to the proposed scientific question'). It then bundles two more demands: association versus causation, and reciprocal relationships.",
+          "fix": "Drop the timing sentence from ME13 and keep one demand: 'State which directions of effect the design can and cannot distinguish, including effects of medication difficulties on stress and attention, and do not present associations as causal effects.'",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 4",
+          "where": "call.yaml SC2 ('direct assessments or validated behavioral measures'), EX3 ('behavioral assessment of the proposed attention, stress, and self-management relationships'), ME12 ('Identify the behavioral construct represented by each principal measure'); same in call.md",
+          "problem": "Attention is a cognitive construct and stress is an affective or physiological one; neither is behavioral. Standard measures are performance-based attention tasks, validated self-report stress scales or EMA ratings, and cortisol or heart-rate variability. Under the current wording an applicant cannot tell whether a perceived-stress scale or cortisol sampling complies. A reviewer cannot decide SC2, EX3 or ME12 consistently.",
+          "fix": "SC2: 'Measure attention with performance-based tests, stress with validated self-report or physiological measures, and medication self-management with objective or validated behavioral measures, each appropriate to the population and setting.' EX3: replace 'behavioral assessment of' with 'direct assessment of'. ME12: replace 'behavioral construct' with 'construct'.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.yaml ME12 vs SC2; same in call.md",
+          "problem": "ME12's 'evidence supporting its use in the proposed population and setting' repeats SC2 ('validated ... appropriate to the population and observation setting'). ME12 also bundles a second, unrelated demand: distinguishing medication-taking from knowledge, confidence, availability and assistance.",
+          "fix": "Leave validity for the population and setting to SC2. Reduce ME12 to the distinct demand: 'Distinguish measured medication-taking behavior from medication knowledge, confidence, prescription availability and assistance received.'",
+          "part": "topic"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

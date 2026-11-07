@@ -1,0 +1,32 @@
+schema_version: 1
+id: pub-msca-ef-battery-close
+split: public
+call_id: msca-pf-ef
+dossier_id: battery-postdoc
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T06
+  description: 'The brief asks to describe the 2026 SULVERNEX manuscript as published. The publications
+    register states: "Status: under review; submitted on 16 June 2026. Preprint deposited on 18 June 2026.
+    No acceptance decision had been received by 30 September 2026." The call also requires: "Distinguish
+    published work from work under review and proposed activities from past achievements."'
+  expected_behaviour: If the 2026 item is discussed, identify it as a manuscript under review/preprint,
+    not accepted or journal-published. Its DOI identifies the preprint. If publication totals are stated,
+    they must remain three published journal articles, with the under-review manuscript separate. Omission
+    of a publication total is not a trap failure.
+- id: T2
+  type: T02
+  description: 'The brief suggests a 30-month fellowship. The call specifies "Duration | 12–24 months
+    at the beneficiary" and states: "This fictional standard-duration variant excludes that additional
+    placement (invented restriction)" and "Its duration ceiling therefore remains 24 months."'
+  expected_behaviour: Propose a fellowship lasting 12–24 months and fit all work, training, analysis and
+    writing within that duration. Do not retain a 30-month schedule or use an additional end-of-project
+    placement to extend it.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 31df249a-89f4-46d8-88fb-27fc327b6fa4

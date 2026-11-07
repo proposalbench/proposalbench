@@ -1,0 +1,306 @@
+schema_version: 1
+id: v2-chemical-sensing-erc-pi
+language: en
+applicant_type: individual
+career_stage: mid_career
+disciplines:
+- chemistry
+- photonics
+- analytical instrumentation
+method_profile: quantitative
+country: AT
+files:
+- path: cv_pi.md
+  role: cv
+- path: calisorb_summary_report.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: team.md
+  role: team
+- path: resources_ip_permissions.md
+  role: resources
+facts:
+- id: F01
+  category: position
+  kind: existing
+  text: Ulrike Auernig-Sattler has been permanent full professor (Universitätsprofessorin, § 98 UG 2002)
+    of Optical Analytical Chemistry at TU Ennstal, Steyr, Austria, since October 2021.
+  value: since 10/2021
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: grant
+  kind: existing
+  text: She is principal investigator of the ongoing ERC Consolidator Grant CALISORB (ERC-2022-COG, No.
+    101088736) hosted by TU Ennstal, EUR 1,994,800, running 1 May 2023 – 30 April 2028, with 52.5% spent
+    by 31 August 2026.
+  value: EUR 1,994,800
+  salient: true
+  source: calisorb_summary_report.md
+- id: F03
+  category: grant
+  kind: existing
+  text: Her grant record as principal investigator lists the ERC Consolidator Grant, two FWF Stand-Alone
+    Projects and a TU Ennstal start-up fund, and no ERC Proof of Concept grant; her output comprises 31
+    peer-reviewed journal articles and 1 book chapter, h-index 17 (Web of Science, September 2026).
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F04
+  category: budget
+  kind: existing
+  text: CALISORB has received no additional funding for transfer activities; patent costs are borne by
+    the Technology Transfer Office budget.
+  value: null
+  salient: true
+  source: calisorb_summary_report.md
+- id: F05
+  category: result
+  kind: existing
+  text: The completed blinded recovery study used 36 laboratory-spiked water samples (tap, river and treated
+    effluent; 0.2, 1.0 and 5.0 µg/L; four per matrix and level), extracted by SPE and measured on prototype
+    reader PR2-A.
+  value: '36'
+  salient: true
+  source: calisorb_summary_report.md
+- id: F06
+  category: result
+  kind: existing
+  text: 'Mean diclofenac recovery over the 36 blinded samples was 94% (bootstrap 95% CI 89–99%): 98% in
+    tap, 95% in river and 89% (95% CI 79–99%) in effluent; 33 of 36 fell within 80–120%.'
+  value: 94%
+  salient: true
+  source: calisorb_summary_report.md
+- id: F07
+  category: result
+  kind: existing
+  text: Conventional external calibration on the same data gave 78% mean recovery (95% CI 70–86%; 64%
+    in effluent), and Passing–Bablok regression against LC-MS/MS gave slope 0.94 (95% CI 0.89–0.99).
+  value: 78%
+  salient: true
+  source: calisorb_summary_report.md
+- id: F08
+  category: result
+  kind: existing
+  text: With 250 mL SPE (nominal concentration factor 1,000), a slope of 0.055 nm per µg/L and a procedural
+    blank SD of 0.0011 nm, the diclofenac LOD is 0.06 µg/L (linear range 0.2–5.0 µg/L), supported by a
+    coating partition coefficient of 2.3 × 10³ and bulk sensitivity of 162 nm per RIU.
+  value: 0.06 µg/L
+  salient: true
+  source: calisorb_summary_report.md
+- id: F09
+  category: result
+  kind: existing
+  text: Each analysis requires off-line laboratory SPE (about 2.5 h per batch of 12 samples) plus 27 min
+    of reader time per extract.
+  value: 27 min
+  salient: true
+  source: calisorb_summary_report.md
+- id: F10
+  category: result
+  kind: existing
+  text: Intermediate precision was 8.9% RSD (n = 25, five days, two operators); between-batch CV of coating
+    sensitivity was 7.8% over 9 wafer batches; chips stored dry for 90 days kept 96% of sensitivity (n
+    = 12).
+  value: 8.9%
+  salient: false
+  source: calisorb_summary_report.md
+- id: F11
+  category: other
+  kind: existing
+  text: All validation samples were spiked in the laboratory from one river and one treatment plant; there
+    have been no on-site or field measurements, SPE losses are not corrected, only diclofenac was blinded-tested,
+    there were no external operators or interlaboratory comparison, and the device is not CE-marked and
+    the method not accredited.
+  value: null
+  salient: true
+  source: calisorb_summary_report.md
+- id: F12
+  category: other
+  kind: existing
+  text: Fouling has been studied only up to 8 h of continuous effluent exposure, mixtures are untested,
+    and competitive adsorption, RDC for carbamazepine and sulfamethoxazole and antifouling coatings remain
+    CALISORB work for months 41–60.
+  value: 8 h
+  salient: true
+  source: calisorb_summary_report.md
+- id: F13
+  category: resource
+  kind: existing
+  text: Two portable prototype readers (PR2-A, PR2-B) exist, built in 2025, assessed as TRL 4, not CE-marked,
+    with 412 laboratory measurements to date.
+  value: TRL 4
+  salient: true
+  source: resources_ip_permissions.md
+- id: F14
+  category: resource
+  kind: existing
+  text: Each PR2 reader weighs 2.1 kg, runs 6 h on battery, has single-spectrum peak precision of 0.02
+    nm (0.0009 nm averaged differential) and costs EUR 3,400 in parts; SPE is not integrated in the reader.
+  value: EUR 3,400 per unit
+  salient: true
+  source: resources_ip_permissions.md
+- id: F15
+  category: resource
+  kind: existing
+  text: The group holds 132 coated chips (batches 7–9) and can produce 20 chips per wafer and two wafers
+    per week at about EUR 11 material cost per chip.
+  value: '132'
+  salient: true
+  source: resources_ip_permissions.md
+- id: F16
+  category: resource
+  kind: existing
+  text: LC-MS/MS reference analyses are available from the Department of Environmental Analytics at the
+    internal rate of EUR 38 per injection.
+  value: EUR 38 per injection
+  salient: true
+  source: resources_ip_permissions.md
+- id: F17
+  category: team
+  kind: existing
+  text: Ulrike Auernig-Sattler commits 0.5 FTE to CALISORB for the duration of the main grant, which ends
+    30 April 2028.
+  value: 0.5 FTE
+  salient: true
+  source: team.md
+- id: F18
+  category: team
+  kind: existing
+  text: Senior Scientist Dr. Jakob Feichtlbauer (permanent) built the prototype readers and co-developed
+    the assay; his only grant as PI is a TU Ennstal seed fund of EUR 18,000, and he is employed on the
+    PI's CALISORB grant.
+  value: EUR 18,000
+  salient: true
+  source: team.md
+- id: F19
+  category: team
+  kind: existing
+  text: Fixed-term CALISORB contracts end 31 August 2027 (postdoc Teixeira Lobo), 30 September 2027 (Akyürek)
+    and 31 January 2028 (Weninger); Feichtlbauer works 0.6 FTE and Rührlinger 0.5 FTE on CALISORB until
+    30 April 2028.
+  value: 31 August 2027
+  salient: true
+  source: team.md
+- id: F20
+  category: team
+  kind: planned
+  text: A CALISORB-funded postdoctoral position for WP3 multi-analyte calibration (1.0 FTE, fixed-term
+    within the grant period) was advertised on 1 September 2026, closing 15 October 2026.
+  value: 1 January 2027 – 30 April 2028
+  salient: false
+  source: team.md
+- id: F21
+  category: other
+  kind: existing
+  text: TU Ennstal filed European patent application EP26162418.7 on the coating-calibration method on
+    17 March 2026; it is pending and unpublished (publication expected September 2027), the request for
+    examination has not yet been filed and there is no decision on grant; the search opinion of 27 August
+    2026 raises an inventive-step objection to claims 1–8 while claims 9–14 are not objected to; no licences
+    or options exist.
+  value: EP26162418.7
+  salient: true
+  source: resources_ip_permissions.md
+- id: F22
+  category: other
+  kind: planned
+  text: A university laboratory service exists only as a concept note submitted on 2 June 2026; the unit
+    is not established and has no clients, no signed contracts, no price list, no staff and no accreditation
+    application.
+  value: null
+  salient: true
+  source: resources_ip_permissions.md
+- id: F23
+  category: other
+  kind: existing
+  text: Laboratory protocol LP-OA-07 covers in-vitro assays on filtered water samples spiked with certified
+    reference standards; the group holds no authorisation under the Austrian Animal Experiments Act (TVG
+    2012), and the ERC ethics self-assessment recorded no animal use.
+  value: LP-OA-07
+  salient: true
+  source: resources_ip_permissions.md
+- id: F24
+  category: other
+  kind: existing
+  text: The Vice-Rector letter of 21 September 2026 confirms permanent employment and TU Ennstal ownership
+    of CALISORB results and commits to maintain employment, laboratories and rights for at least 18 months
+    of a follow-on validation project.
+  value: 18 months
+  salient: true
+  source: resources_ip_permissions.md
+- id: F25
+  category: partner
+  kind: existing
+  text: A stakeholder workshop on 20 May 2026 drew 14 participants from 9 organisations; of 12 feedback
+    forms, 10 named turnaround time and 8 cost per sample as limitations, 6 required accredited or standardised
+    methods for compliance, and 7 would use screening to select samples for LC-MS/MS.
+  value: '14'
+  salient: true
+  source: calisorb_summary_report.md
+own_publications:
+- key: auernig2019reference
+  authors:
+  - Auernig-Sattler, U.
+  - Feichtlbauer, J.
+  - Hollerweger, P.
+  year: 2019
+  title: Humidity-independent readout of mesoporous silica Bragg stacks with a co-deposited reference
+    stack
+  venue: Journal of Photonic Coatings
+  doi: 10.99999/pb.v2-chemical-sensing-erc-pi.2019.1
+- key: hollerweger2022cyclodextrin
+  authors:
+  - Hollerweger, P.
+  - Auernig-Sattler, U.
+  year: 2022
+  title: β-Cyclodextrin-grafted mesoporous silica photonic stacks for the enrichment of diclofenac from
+    water
+  venue: Porous Film Science
+  doi: 10.99999/pb.v2-chemical-sensing-erc-pi.2022.1
+- key: auernig2024review
+  authors:
+  - Auernig-Sattler, U.
+  - Weninger, T.
+  - Feichtlbauer, J.
+  year: 2024
+  title: 'Calibration practice in optical chemosensors for water analysis: a critical review'
+  venue: European Journal of Sensor Calibration
+  doi: 10.99999/pb.v2-chemical-sensing-erc-pi.2024.1
+- key: teixeira2025batch
+  authors:
+  - Teixeira Lobo, M.
+  - Akyürek, D.
+  - Rührlinger, S.
+  - Auernig-Sattler, U.
+  year: 2025
+  title: Batch-to-batch reproducibility of evaporation-induced self-assembled Bragg stacks on 100 mm wafers
+  venue: Porous Film Science
+  doi: 10.99999/pb.v2-chemical-sensing-erc-pi.2025.1
+- key: weninger2025temperature
+  authors:
+  - Weninger, T.
+  - Auernig-Sattler, U.
+  year: 2025
+  title: Temperature and ionic-strength effects on the refractive-index readout of porous photonic coatings
+    in natural waters
+  venue: Journal of Optical Chemosensing
+  doi: 10.99999/pb.v2-chemical-sensing-erc-pi.2025.2
+- key: auernig2026blinded
+  authors:
+  - Auernig-Sattler, U.
+  - Feichtlbauer, J.
+  - Weninger, T.
+  - Lindmayr, H.
+  - Teixeira Lobo, M.
+  year: 2026
+  title: Blinded recovery study of a reference-stack calibrated porous photonic sensor for diclofenac
+    in tap, river and effluent water
+  venue: Trace Water Analytics
+  doi: 10.99999/pb.v2-chemical-sensing-erc-pi.2026.1
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: opus
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 05284fb7-163f-42ee-8bf0-d40e1d15d458

@@ -1,0 +1,38 @@
+{
+  "kind": "call",
+  "id": "he-cl1-indoorhealth",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md opening notice, award criteria and proposal template; call.yaml length_contract.source_note",
+      "problem": "The claimed scheme fidelity is not supported by identifiable source citations. The YAML names the General Annexes and an unspecified standard application form, but provides no version, section or link. The applicant-facing call supplies neither source. This leaves the prescribed template, page limit and award conditions unverifiable against the claimed programme edition.",
+      "fix": "Cite the official 2026–2027 General Annexes and the applicable version of the actual-cost RIA/IA application form in call.md, with links and relevant sections. Reconcile the criteria, mandatory headings, resource tables and page limit against those sources, and record the same references in call.yaml."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md opening notice: 'The topic identifier, budget and conditions are invented.'",
+      "problem": "The notice permits invented conditions without distinguishing topic-specific provisions from the scheme's real eligibility and award conditions. The checklist permits invention only of the topic, identifiers, budgets and dates. The notice also fails to explicitly identify the topic content as invented.",
+      "fix": "State explicitly that the topic content, identifier and budget are fictional. Identify the word conversion separately as a benchmark adaptation, and state that scheme eligibility, evaluation and award conditions follow the cited official sources. Remove the blanket statement that conditions are invented."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md Length; call.yaml length_contract.tolerance",
+      "problem": "The public call states a strict 18,000-word limit and says excess text is disregarded, whereas the hidden contract allows a 0.03 tolerance. A 3% allowance is 540 words, potentially moving the effective boundary to 18,540 words without informing applicants.",
+      "fix": "Set tolerance to 0 to match the public rule, or explicitly state the tolerance and its precise enforcement effect in call.md and align both files."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Scope, third bullet; call.yaml scope.SC3",
+      "problem": "The requirement describes summer overheating and inadequate ventilation as examples of adverse health effects. They are environmental exposures or building-performance conditions, not measured human health outcomes. This makes it unclear whether identifying exposure problems alone satisfies SC3, despite the call's requirement for direct health measurement.",
+      "fix": "Require identification of renovation practices and building characteristics associated with measured adverse health outcomes, such as asthma exacerbations or heat-related symptoms, and identify overheating and inadequate ventilation separately as potential exposure pathways. Apply the same wording in both files."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "kind": "call",
+  "id": "v2-he-food-coldchain",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "fe0f6d1e16e866c24e2b890a0cb6b3df6dcf560869223447a5b02e2aa47147e6",
+  "draft": {
+    "title": "Mitigating microbial hazards and spoilage in interrupted food cold chains",
+    "expected_outcomes_intro": "Project results are expected to contribute to all of the following expected outcomes:",
+    "expected_outcomes": [
+      "Food business operators and logistics providers adopt validated decision-support tools to predict and manage microbial risks during cold chain interruptions.",
+      "Public health authorities and food safety agencies access improved data on the dynamics of spoilage and pathogen proliferation under fluctuating temperature regimes.",
+      "Reduction of food waste and foodborne illness incidents linked to temperature abuse in the transport and storage of perishable goods.",
+      "Enhanced resilience of local and cross-border food supply chains through the implementation of standardized, safe sampling and monitoring protocols."
+    ],
+    "scope_intro": "Temperature fluctuations and interruptions in the cold chain remain a primary cause of food spoilage and microbial contamination, leading to significant food waste and public health risks. Current monitoring often lacks the predictive capacity to account for the uncertainty of microbial behaviour when exposed to repeated or prolonged temperature abuse. Proposals should develop and validate integrated approaches that combine precise environmental measurements with predictive modelling to support decision-making across the food supply chain.",
+    "scope": [
+      "Characterize the growth dynamics and uncertainty of key spoilage organisms and pathogens under realistic, interrupted cold chain scenarios, distinguishing controlled bench results from field validation.",
+      "Develop and test sensor-based monitoring systems that capture continuous temperature and environmental data across different stages of the food logistics chain.",
+      "Create predictive decision-support models that translate environmental data into actionable risk assessments for food business operators, incorporating uncertainty margins.",
+      "Design and validate standardized sampling procedures for field environments to ensure accurate microbial data collection without cross-contamination.",
+      "Assess the socio-economic barriers to the adoption of new monitoring and decision-support technologies by logistics providers, retailers, and producers."
+    ],
+    "exclusions": [
+      "The development or testing of new antimicrobial veterinary medicines or chemical food preservatives.",
+      "Proposals focusing solely on the development of new refrigeration hardware or cooling vehicles without addressing microbial dynamics and decision support."
+    ],
+    "mandatory_elements": [
+      "Proposals must implement the multi-actor approach, ensuring the active involvement of food producers, logistics providers, retailers, and food safety authorities.",
+      "Proposals must integrate the social sciences and humanities (SSH) to address behavioural and organizational barriers affecting the adoption of monitoring technologies.",
+      "Proposals must include a dedicated task specifying biosafety arrangements for handling microbial hazards during field validation."
+    ],
+    "conditions": {
+      "max_budget": 5500000,
+      "duration_months_max": 42,
+      "trl_start": 3,
+      "trl_end": 6,
+      "expected_projects": 2,
+      "deadline": "15 September 2027 17:00:00 Brussels time"
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Mitigating microbial hazards and spoilage in interrupted food cold chains",
+        "expected_outcomes_intro": "Project results are expected to contribute to all of the following expected outcomes:",
+        "expected_outcomes": [
+          "Food business operators and logistics providers adopt validated decision-support tools to predict and manage microbial risks during cold chain interruptions.",
+          "Public health authorities and food safety agencies access improved data on the dynamics of spoilage and pathogen proliferation under fluctuating temperature regimes.",
+          "Reduction of food waste and foodborne illness incidents linked to temperature abuse in the transport and storage of perishable goods.",
+          "Enhanced resilience of local and cross-border food supply chains through the implementation of standardized, safe sampling and monitoring protocols."
+        ],
+        "scope_intro": "Temperature fluctuations and interruptions in the cold chain remain a primary cause of food spoilage and microbial contamination, leading to significant food waste and public health risks. Current monitoring often lacks the predictive capacity to account for the uncertainty of microbial behaviour when exposed to repeated or prolonged temperature abuse. Proposals should develop and validate integrated approaches that combine precise environmental measurements with predictive modelling to support decision-making across the food supply chain.",
+        "scope": [
+          "Characterize the growth dynamics and uncertainty of key spoilage organisms and pathogens under realistic, interrupted cold chain scenarios, distinguishing controlled bench results from field validation.",
+          "Develop and test sensor-based monitoring systems that capture continuous temperature and environmental data across different stages of the food logistics chain.",
+          "Create predictive decision-support models that translate environmental data into actionable risk assessments for food business operators, incorporating uncertainty margins.",
+          "Design and validate safe, standardized sampling procedures for field environments to ensure accurate microbial data collection without cross-contamination.",
+          "Assess the socio-economic barriers to the adoption of new monitoring and decision-support technologies by logistics providers, retailers, and producers."
+        ],
+        "exclusions": [
+          "The development or testing of new antimicrobial veterinary medicines or chemical food preservatives.",
+          "Proposals focusing solely on the development of new refrigeration hardware or cooling vehicles without addressing microbial dynamics and decision support."
+        ],
+        "mandatory_elements": [
+          "Proposals must implement the multi-actor approach, ensuring the active involvement of food producers, logistics providers, retailers, and food safety authorities.",
+          "Proposals must integrate the social sciences and humanities (SSH) to address behavioural and organizational barriers affecting the adoption of monitoring technologies.",
+          "Proposals must include a dedicated task detailing safe sampling procedures and biosafety protocols for handling microbial hazards during field validation."
+        ],
+        "conditions": {
+          "max_budget": 5500000,
+          "duration_months_max": 42,
+          "trl_start": 3,
+          "trl_end": 5,
+          "expected_projects": 2
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Call 1",
+          "where": "call.md: Specific conditions and call information table",
+          "problem": "No submission deadline is supplied. The call therefore lacks an actionable closing date and does not establish that its deadline falls after the benchmark present date of 1 October 2026.",
+          "fix": "Add a fictional submission deadline after 1 October 2026, including the closing time and time zone, and explicitly include the deadline among the invented call particulars.",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md: Scope fourth bullet and Specific conditions fourth bullet; call.yaml: SC4 and ME4",
+          "problem": "SC4 and ME4 both require safe field-sampling procedures. ME4 adds a dedicated task and biosafety protocols, but repeats the sampling obligation, allowing the same narrative content to satisfy overlapping checklist items.",
+          "fix": "Keep sampling design and validation in SC4. Narrow ME4 to a distinct dedicated task specifying biosafety arrangements for handling microbial hazards during field validation. Apply the same changes in both files.",
+          "part": "topic"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

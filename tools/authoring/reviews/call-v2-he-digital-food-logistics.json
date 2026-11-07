@@ -1,0 +1,58 @@
+{
+  "kind": "call",
+  "id": "v2-he-digital-food-logistics",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml: length_contract.tolerance; call.md: Length",
+      "problem": "The YAML specifies a 3% tolerance, whereas the applicant-facing text states an absolute 18,000-word limit with excess text disregarded. These describe different enforcement boundaries; 3% corresponds to 540 words.",
+      "fix": "Set tolerance to zero, or explicitly describe the same tolerance and its enforcement in call.md.",
+      "part": "template"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml: EO1 and SC1",
+      "problem": "EO1 requires adoption for routing, stock rotation and cold-chain interventions across three operator groups, while SC1 presents those functions as alternatives. It is unclear whether a project addressing only one function and operator group can satisfy the required outcomes.",
+      "fix": "Specify that EO1 concerns one or more selected logistics functions and relevant operator groups, or explicitly require all listed functions and groups throughout the scope.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml: EO5",
+      "problem": "“Better prepared” has no observable completion condition, and the item combines readiness for NIS2 obligations with application of AI Act principles. A general statement about regulatory awareness could satisfy its wording without demonstrating either result.",
+      "fix": "Separate the two outcomes and specify an assessable result for each, such as an operator-tested cybersecurity responsibility and risk-management procedure addressing applicable NIS2 requirements, and a documented assessment of accuracy, robustness, cybersecurity and human oversight.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml: SC3",
+      "problem": "SC3 combines two independently satisfiable requirements: comparative evaluation and public release of a benchmark. A proposal could complete either without completing the other, making this an unsuitable single checkable item.",
+      "fix": "Split SC3 into a comparative-evaluation requirement and a separate requirement to release the test scenarios as an open benchmark, subject to ME4.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md: Specific conditions; call.yaml: ME2 and eligibility",
+      "problem": "ME2 mixes a narrative requirement concerning consortium expertise with a consortium-composition eligibility condition requiring an operator participant. The latter belongs in eligibility rather than inside a mandatory narrative element.",
+      "fix": "Move the operator-participation condition into the eligibility provisions in both files. Retain a narrative requirement to demonstrate the computing, food-domain and operational expertise and explain access to the demonstrator.",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml: ME5; call.md: Part B sections 3.1 and 3.2",
+      "problem": "ME5 repeats the template requirements to state the requested contribution, describe participant roles and provide person-month allocations. Its additional requirement for costs per participant and work package is embedded among these repeated demands.",
+      "fix": "Limit ME5 to the additional requirement: provide costs by participant and work package that reconcile with the requested EU contribution. Leave participant roles, the contribution statement and staff effort to the existing template requirements.",
+      "part": "topic"
+    }
+  ]
+}

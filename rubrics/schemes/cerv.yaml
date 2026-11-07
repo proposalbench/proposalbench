@@ -1,0 +1,117 @@
+# CERV-2026-CITIZENS-CIV sub-priority 2.1; 40/40/20 and 25 relevance/70 total thresholds.
+# Sources and verification dates: tools/authoring/schemes/cerv.yaml
+# Official award weights do not alter benchmark component weights.
+
+roles:
+  objectives:
+  - '1.1'
+  - '1.2'
+  state_of_the_art:
+  - '1.2'
+  - '1.3'
+  methods:
+  - '2.1'
+  workplan:
+  - '4.1'
+  - '4.2'
+  risks:
+  - '2.7'
+  team:
+  - '2.2'
+  - '2.3'
+  - '2.4'
+  impact:
+  - '3.1'
+  - '3.2'
+  - '3.3'
+items:
+- id: CERV01
+  component: substance
+  sections:
+  - '1.1'
+  - '1.2'
+  - '2.1'
+  taxonomy:
+  - P01
+  - P02
+  - P17
+  question: Does the selected citizens-engagement action connect participation to democratic decisions?
+  criteria:
+  - id: a
+    text: Names the EU policy or democratic decision process that the activities seek to influence or
+      make accessible.
+  - id: b
+    text: Describes how citizens actively deliberate, shape outputs or contribute to that process; a
+      passive publicity audience is insufficient.
+- id: CERV02
+  component: substance
+  sections:
+  - '1.3'
+  - '2.2'
+  taxonomy:
+  - P04
+  - P13
+  question: Is transnational added value supported by the partner arrangement?
+  criteria:
+  - id: a
+    text: Identifies at least two beneficiaries in two eligible countries, rather than counting associated
+      partners or affiliated entities towards the minimum.
+  - id: b
+    text: Explains what the cross-country work enables beyond separate national events.
+- id: CERV03
+  component: substance
+  sections:
+  - '2.6'
+  - '4.2'
+  taxonomy:
+  - P03
+  - P15
+  question: Are event work packages credible inputs to the selected call’s lump-sum model?
+  criteria:
+  - id: a
+    text: Each work package identifies a defined event or set of activities with direct citizen or stakeholder
+      participation, rather than a management-only package.
+  - id: b
+    text: States the expected direct participants and eligible-country coverage per event/work package
+      and how participation will be verified. Social-media impressions alone do not count.
+  - id: c
+    text: Links each event allocation to its scope and expected output without claiming an invented
+      official tariff or counting EU officials as eligible direct participants.
+- id: CERV04
+  component: substance
+  sections:
+  - '1.2'
+  - '2.1'
+  - '5.1'
+  taxonomy:
+  - P03
+  - P09
+  question: Are participation safeguards specific to the people and activities?
+  criteria:
+  - id: a
+    text: Identifies a relevant access or gender-related barrier and a practical measure to reduce it
+      in the planned events.
+  - id: b
+    text: Explains personal-data protection and consent for the proposed participant evidence, or a
+      specific reason no personal data are collected.
+  - id: c
+    text: For work with children or vulnerable participants, identifies a relevant safeguard and who
+      implements it; answer na if those groups are not involved.
+- id: CERV05
+  component: substance
+  sections:
+  - '3.1'
+  - '3.2'
+  - '3.3'
+  taxonomy:
+  - P13
+  - P14
+  - P16
+  question: Can the participation outputs have an effect after the events?
+  criteria:
+  - id: a
+    text: Identifies who will receive a concrete participation output and what decision, practice or
+      action it can inform.
+  - id: b
+    text: Names the owner and a practical continuation step for a result after EU funding ends; a promise
+      of lasting impact alone is insufficient.

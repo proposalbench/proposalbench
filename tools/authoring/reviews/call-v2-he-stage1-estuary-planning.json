@@ -1,0 +1,82 @@
+{
+  "kind": "call",
+  "id": "v2-he-stage1-estuary-planning",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Award criteria: \"to admit proposals requesting as close as possible to three times, and not less than twice, the available budget\"",
+      "problem": "The Horizon Europe General Annexes set the first-stage overall threshold so that admitted proposals request as close as possible to three times the available budget and not less than 2.5 times it. The 2021–2022, 2023–2024 and 2025 annexes all use 2.5. 'Twice' misstates the real scheme rule.",
+      "fix": "Check the cited 2026–2027 General Annexes. If they keep the rule, change the clause to \"as close as possible to three times, and not less than 2.5 times, the available budget\".",
+      "part": "template"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 1",
+      "where": "call.md, Purpose and eligibility: \"This benchmark variant does not use blind evaluation; the General Annexes require anonymity only where the topic specifies it.\"",
+      "problem": "From the 2024 work programme onward, blind evaluation applied by default to first-stage proposals in two-stage calls. Applicants were told not to name organisations, acronyms, logos or personnel in Part B. The statement that the General Annexes require anonymity only where a topic specifies it is probably wrong for the cited 2026–2027 annexes. The call also does not label its departure from the real scheme as a condition of this fictional call. It frames it as a 'benchmark variant' instead.",
+      "fix": "Check the blind-evaluation provision in the cited 2026–2027 General Annexes. If blind first-stage evaluation is the default, delete the claim about the annexes and write: \"Unlike the standard first stage, this fictional call does not apply blind evaluation; applicants may name their organisations and staff.\"",
+      "part": "template"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml, ME5 (resident-level data handling)",
+      "problem": "ME5 bundles six separate demands: lawful collection and use, data minimisation, controlled access, retention, deletion, and protection against re-identification in linked data and outputs. A reader cannot judge partial coverage. Most of these demands are implementation-level data-protection detail. In Horizon Europe that detail belongs in the ethics self-assessment and the later data management plan, not in a 10-page stage-1 Part B whose only sections are 1.1, 1.2 and 2.1. Controlled access and publication exceptions also repeat ME3, which already asks for project-specific reasons for exceptions to open practice.",
+      "fix": "Reduce ME5 to the one demand specific to this topic: \"Explain how resident-level data linked to spatial exposure estimates will be protected against re-identification of individuals or households in published maps, datasets and other outputs.\"",
+      "part": "topic"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml, ME6",
+      "problem": "ME6 bundles three demands: how residents' contributions inform option selection and interpretation, how disagreements are recorded, and how findings are returned to communities. The first demand repeats SC7 (co-design of options and assessment priorities with residents). The third overlaps EO3 (residents understand the consequences for their neighbourhoods). A grader cannot tell which part is decisive.",
+      "fix": "Keep the one element not covered elsewhere: \"Specify how disagreements among residents, planning authorities and drainage managers about adaptation options will be recorded and reflected in the comparison of options.\" Drop the other two clauses, because SC7 and EO3 already cover them.",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml, SC5",
+      "problem": "SC5 asks for five distinct distributional analyses in one item: exposure changes, adaptation costs, access to benefits, potential displacement, and effects transferred beyond intervention areas. Displacement through housing-market or land-use change needs different methods from exposure and cost incidence. Partial coverage cannot be scored consistently.",
+      "fix": "Narrow SC5 to \"Assess how exposure changes and adaptation costs are distributed across population groups and neighbourhoods, including effects transferred beyond intervention areas.\" Then either drop displacement or move it to its own scope item: \"Assess the risk that adaptation measures displace existing residents through housing-cost or land-use change.\"",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml, SC3: \"including land-use planning, water retention, nature-based measures or changes to drainage operation\"",
+      "problem": "The 'including … or' construction leaves it unclear whether the comparison must cover all four option types or whether they are examples. A reader cannot decide whether a proposal comparing two types satisfies the item.",
+      "fix": "Rephrase as \"Compare at least two spatial adaptation options, drawn from land-use planning, water retention, nature-based measures or changes to drainage operation, against an explicit reference scenario.\"",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md and call.yaml, EO3",
+      "problem": "EO3 joins two outcomes: residents influence adaptation choices, and residents understand consequences for their neighbourhoods. The second already follows from EO2. 'An evidenced route' is vague; almost any engagement plan could claim it.",
+      "fix": "Rewrite as \"Residents, including groups poorly represented in planning processes, can influence which adaptation options are selected for their neighbourhoods.\"",
+      "part": "topic"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md, Purpose and eligibility: \"The award ceiling and maximum duration are fictional topic conditions\"; table: \"Duration | 36 to 48 months\"",
+      "problem": "The table imposes a 36-month minimum, but the prose labels only the maximum as a fictional topic condition. Real Horizon Europe topics rarely fix a minimum duration, so this restriction should be labelled too.",
+      "fix": "Change the prose to \"The award ceiling and the duration range of 36 to 48 months are fictional topic conditions stated in the table below.\"",
+      "part": "template"
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 6",
+      "where": "call.md, Purpose and eligibility (\"This benchmark variant\") and Length contract (\"the binding benchmark ceiling is 5,000 words\")",
+      "problem": "Beyond the fictional-call notice, the applicant-facing text refers to 'the benchmark' in the body. The call should read as the funder's text with a fictional notice.",
+      "fix": "Replace \"This benchmark variant\" with \"This fictional call\". Replace \"the binding benchmark ceiling\" with \"the binding ceiling for this fictional call\".",
+      "part": "template"
+    }
+  ]
+}

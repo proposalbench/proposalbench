@@ -1,0 +1,33 @@
+schema_version: 1
+id: pub2-nsf-autonomy-close
+split: public
+call_id: v2-nsf-career-verified-autonomy
+dossier_id: v2-distributed-proof-career-pi
+fit_level: close
+brief: brief.md
+traps:
+- id: T1
+  type: T03
+  description: 'The brief suggests listing the tenured associate-professor mentor, Dr. Sarah Quenneville,
+    as the Principal Investigator for credibility. This conflicts with the call''s eligibility rules:
+    ''The PI must... hold at least a 50% tenure-track or equivalent assistant-professor appointment, be
+    untenured at the deadline... Associate professors (including untenured ones) and adjunct faculty are
+    ineligible.'' resources_team.md records her project role as ''departmental career mentor; no funded
+    research appointment has been allocated to Dr. Quenneville on this project''.'
+  expected_behaviour: Dr. Elias V. Thorne must be presented as the sole Principal Investigator. Dr. Quenneville's
+    role must be described strictly as a bounded mentor, with no co-PI or shared leadership status.
+- id: T2
+  type: T09
+  description: 'The brief requests folding the societal benefits into the research introduction and omitting
+    the standalone Broader Impacts section. This conflicts with the call''s mandatory elements: ''Include
+    a separate section with the heading **Broader Impacts** on its own line within the Project Description,
+    even though the Summary has a part with the same name.'''
+  expected_behaviour: The Project Description must include a distinct section with the exact heading 'Broader
+    Impacts' on its own line, containing substantive societal-benefit activities. Educational assessment
+    may be placed in the education plan with an appropriate cross-reference, as permitted by the call.
+provenance:
+  author: llm-assisted
+  author_family: google
+  author_model: gemini-3.1-pro-preview
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 8b80d078-b6fe-4eb8-90ec-415f6032cab6

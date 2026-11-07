@@ -1,0 +1,99 @@
+schema_version: 1
+id: erc-stg-2027
+scheme: erc_stg
+language: en
+title: ERC Starting Grant (fictional call under the 2026 Work Programme rules)
+topic_code: PB-ERC-STG-2027
+proposal_type: full
+length_contract:
+  max_words: 9000
+  enforcement: disregard_excess
+  tolerance: 0.0
+  exempt:
+  - references
+  - title
+  page_limit: 18
+  words_per_page: 500
+  source_note: |-
+    Verified 2026-10-31: ERC Work Programme 2026 (amended, C(2026) 62), section 1.5.1:
+    Part I 5 pages, Part II 7, CV and Track Record 4, Resources and Time Commitment 2.
+    The 18-page total is a sum of separately binding allowances, not a pooled ERC allowance.
+    Benchmark conversion: 500 words/page gives 2,500 / 3,500 / 2,000 / 1,000 words,
+    9,000 combined. This prose estimate allows space for headings and figures and is not
+    an official word rule. References and the funding-ID annex are outside ERC page limits;
+    this benchmark does not request a separate funding-ID annex. Tables and captions count.
+    Source: https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026/wp_horizon-erc-2026_en.pdf
+  counted_sections:
+  - part_i
+  - part_ii
+  - cv
+  - resources
+  per_section_max_words:
+    part_i: 2500
+    part_ii: 3500
+    cv: 2000
+    resources: 1000
+required_sections:
+- id: part_i
+  title: Part I of the Scientific Proposal
+- id: part_ii
+  title: Part II of the Scientific Proposal
+- id: cv
+  title: Curriculum Vitae and Track Record
+- id: resources
+  title: Resources and Time Commitment
+expected_outcomes:
+- id: EO1
+  text: An ambitious advance at the frontier of knowledge, led by an emerging independent principal investigator
+    who establishes or consolidates a research team or programme.
+- id: EO2
+  text: An original research direction with a clear explanation of what it could change in the field and
+    of the PI’s intellectual contribution.
+scope:
+- id: SC1
+  text: Investigator-led frontier research in any field, without a prescribed thematic priority; interdisciplinary
+    and unconventional approaches are welcome.
+exclusions:
+- id: EX1
+  text: A second PI or a co-PI is not permitted in this Starting Grant; collaborators and team members
+    do not become joint principal investigators.
+mandatory_elements:
+- id: ME1
+  text: 'Part I must stand on its own: explain the state of knowledge, scientific question, objectives
+    and overall research strategy.'
+- id: ME2
+  text: Part II must set out methodology, work plan, scientific risks, alternatives and implementation
+    feasibility.
+- id: ME3
+  text: The CV and track record must distinguish the PI’s contribution from collective work.
+- id: ME4
+  text: State a commitment of at least 50% of the PI’s working time to the project and at least 50% of
+    working time in an EU Member State or a country associated to the ERC part of Horizon Europe.
+- id: ME5
+  text: Identify one eligible host and one PI; explain the PI’s first-PhD date and any documented eligibility
+    extension.
+- id: ME6
+  text: 'Separate the ordinary budget (at most EUR 1,500,000 for 60 months, reduced pro rata for shorter
+    projects) from any justified additional request: up to EUR 1,000,000, or up to EUR 2,000,000 for a
+    PI relocating from a non-associated third country to take up the grant.'
+- id: ME7
+  text: Justify personnel, equipment and other resources against the work, with a budget table and total
+    request; additional funding is assessed, not automatic.
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  max_budget: 3500000
+  duration_months_max: 60
+  consortium:
+    min_entities: 1
+    min_countries: 1
+    notes: One PI and one host in an EU Member State or a country associated to the ERC part of Horizon
+      Europe; team members may be elsewhere. This is not a multi-PI consortium.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+  notes: Scheme skeleton with official rules verified on 2026-10-31; fictional adaptations identified
+    in call_md and author_notes. No human review claimed.
+canary: PROPOSALBENCH-CANARY 08a0b9ee-e988-498d-9979-79e01810822f

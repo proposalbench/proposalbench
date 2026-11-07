@@ -1,0 +1,14 @@
+{
+  "kind": "dossier",
+  "id": "v2-sparse-sky-doctoral-project",
+  "reviewer_family": "maintainer",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "phd_progress_report.md, validation results: 'Zero false positives were recorded in this 16-megapixel search area (upper bound 0.23 false positives at 95% confidence).'",
+      "problem": "Zero false positives in one search area cannot give an upper bound of 0.23 expected false positives at 95% confidence: under a Poisson model the one-sided 95% upper bound for zero observed counts is about 3.0 expected false positives for that exposure (rule of three). The bound must match the stated exposure.",
+      "fix": "Either state the exposure that the bound refers to so that it is correct (e.g. 0 false positives over 13 equivalent search areas gives about 0.23 per area), or report zero false positives with the correct one-sided 95% upper bound of about 3.0 for the single area. Keep every other value and the intentional gaps unchanged; update the matching fact in the facts list."
+    }
+  ]
+}

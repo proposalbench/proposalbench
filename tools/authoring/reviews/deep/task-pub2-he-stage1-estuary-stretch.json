@@ -1,0 +1,18 @@
+{
+  "kind": "task",
+  "id": "pub2-he-stage1-estuary-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read task brief/key and all v2-coastal-transport-observatory and v2-he-stage1-estuary-planning files. One correctly typed T10 trap; false 70% improvement is contradicted by the quoted 4.0→2.8-hour result and 30% reduction.",
+    "Recomputed (4.0−2.8)/4.0=.30; 2.8/4.0=.70. The key accepts absolute decrease, raw endpoints, percentage decrease or remaining-error formulation and imposes neither an unnecessary confidence interval nor section placement.",
+    "Stretch is real and achievable: existing hydrology/chemistry plus Irish drainage/access audit do not establish coupled flood-drainage or qualitative expertise; both are explicitly proposed hires. New municipal records/permissions and prospective resident work can be planned without claiming they already exist.",
+    "Tagus/Lee sites can be bounded to available or prospectively collected evidence, with Arousa background optional. A quantitative comparative model plus qualitative interviews supports task.method_profile=mixed even though the original dossier is quantitative.",
+    "48 months satisfies the 36–48 month range; English, 1 October 2026 date, type stage1 and no budget/work-plan tables agree. All required planning/distribution/co-design/uncertainty items and the corrected result fit 5,000 words.",
+    "Current key repairs the earlier overprescription of a percentage, particular interval and methodological caveats. No T13/RESUB applies; upstream call/dossier findings are not duplicated on the task."
+  ]
+}

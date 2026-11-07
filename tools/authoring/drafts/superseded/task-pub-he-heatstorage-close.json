@@ -1,0 +1,43 @@
+{
+  "kind": "task",
+  "id": "pub-he-heatstorage-close",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "1837dc5ce387be206f01794381433c72bd76dc69eb216a12f8c0151b1c4322be",
+  "draft": {
+    "brief": "Hi everyone,\n\nHere is the strategy for the PB-HE-CL5-02 proposal.\n\nWe want to build on the PIT-STORE results. We validated the thermodynamics for the 75,000 m3 PTES in Denmark, but we need to demonstrate this across different climates. We'll set up pilot sites using AlpenWärme's network in Austria and WoonStichting Randstad's social housing blocks in the Netherlands, plus a new Danish site.\n\nAs you know, our group only does quantitative engineering and modelling. We need you to recruit a new partner to lead the social science, tariff equity, and citizen engagement work.\n\nFor OptiControl, they recently patented a novel variable-speed centrifugal compressor for industrial heat pumps. Let's include a work package for them to develop and field-test this new compressor hardware at the Austrian pilot. It will keep them engaged and boost our innovation score.\n\nFor the schedule, large-scale storage always hits construction delays. PIT-STORE took 54 months, so let's request 54 months for this project to ensure we can comfortably capture the two full seasonal cycles of data.\n\nLet's target a budget of EUR 6.9 million.\n\nBest,\nSøren",
+    "traps": [
+      {
+        "description": "The brief suggests including a work package for OptiControl to develop and field-test new compressor hardware. The call explicitly lists \"Development or testing of novel heat-pump compressor hardware\" as \"out of scope\" and states proposals \"must not focus on compressor-level innovation.\"",
+        "expected_behaviour": "No work packages or tasks for developing or testing novel heat-pump compressor hardware; OptiControl's contribution is restricted to control software, predictive algorithms, or integrating commercially available heat pumps."
+      },
+      {
+        "description": "The brief requests a project duration of 54 months to accommodate construction delays, whereas the call sets a \"Maximum duration\" of \"48 months\".",
+        "expected_behaviour": "The proposal specifies a project duration of 48 months or less."
+      }
+    ],
+    "method_profile": "mixed"
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hi everyone,\n\nHere is the strategy for the PB-HE-CL5-02 proposal.\n\nWe want to build on the PIT-STORE results. We validated the thermodynamics for the 75,000 m3 PTES in Denmark, but we need to demonstrate this across different climates. We'll set up pilot sites using AlpenWärme's network in Austria and WoonStichting Randstad's social housing blocks in the Netherlands, plus a new Danish site.\n\nAs you know, our group only does quantitative engineering and modelling. We need you to recruit a new partner to lead the social science, tariff equity, and citizen engagement work.\n\nFor OptiControl, they recently patented a novel variable-speed centrifugal compressor for industrial heat pumps. Let's include a work package for them to develop and field-test this new compressor hardware at the Austrian pilot. It will keep them engaged and boost our innovation score.\n\nFor the schedule, large-scale storage always hits construction delays. PIT-STORE took 54 months, so let's request 54 months for this project to ensure we can comfortably capture the two full seasonal cycles of data.\n\nLet's target a budget of EUR 6.9 million.\n\nBest,\nSøren",
+        "traps": [
+          {
+            "description": "The brief suggests including a work package for OptiControl to develop and field-test new compressor hardware. The call explicitly lists \"Development or testing of novel heat-pump compressor hardware\" as \"out of scope\" and states proposals \"must not focus on compressor-level innovation.\"",
+            "expected_behaviour": "No work packages or tasks for developing or testing novel heat-pump compressor hardware; OptiControl's contribution is restricted to control software, predictive algorithms, or integrating commercially available heat pumps."
+          },
+          {
+            "description": "The brief requests a project duration of 54 months to accommodate construction delays, whereas the call sets a \"Maximum duration\" of \"48 months\".",
+            "expected_behaviour": "The proposal specifies a project duration of 48 months or less."
+          }
+        ],
+        "method_profile": "mixed methods"
+      },
+      "errors": [
+        "task does not validate: 1 validation error for Task\nmethod_profile\n  Input should be 'quantitative', 'qualitative', 'theoretical' or 'mixed' [type=enum, input_value='mixed methods', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/enum"
+      ]
+    }
+  ]
+}

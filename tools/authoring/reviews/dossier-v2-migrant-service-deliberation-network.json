@@ -1,0 +1,66 @@
+{
+  "kind": "dossier",
+  "id": "v2-migrant-service-deliberation-network",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "annual_report_2025.md, Summary and Sessions; dossier.yaml, F03",
+      "problem": "The report claims nine public bodies, but the session table identifies only eight: CPAS, CCAS, departmental services, local health unit, regional transport operator, municipal education service, municipal housing company and city population service. CCAS appears twice.",
+      "fix": "Identify the ninth distinct body and its session, or change the total to eight throughout. If 'departmental services' encompasses separate bodies, name them separately."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "consortium.md, associated participant; cv_coordinator.md, Professional activities",
+      "problem": "The associated participant is explicitly part of the real City of Liège, and the CV claims an expert hearing at the real Parliament of Wallonia. These are real institutional identities, not merely geographical references or permitted real funders. Inventing an office name does not make its stated parent institution fictional.",
+      "fix": "Use distinct fictional institutional identities for the associated participant and hearing host. Retain Liège and Wallonia as locations and real public authorities where they act as permitted funders."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 7",
+      "where": "attendance_consolidation_2025.md; publications.md; cv_coordinator.md",
+      "problem": "The attendance consolidation is explicitly undated, and the publications list and CV lack document issue or revision dates. Dates of sessions and publications do not establish when these documents were prepared. The attendance consolidation therefore cannot be placed securely before October 2026 or relative to the destruction of its underlying sign-in sheets.",
+      "fix": "Date each document no later than 30 September 2026. Give the attendance consolidation a plausible preparation date before the sheets were destroyed, or explain that it reproduces an earlier retained aggregate. Preserve the unresolved 84-versus-96 discrepancy without declaring either document authoritative."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "annual_report_2025.md, Evaluation, Results and Limitations; resources.md, Data holdings",
+      "problem": "The evaluation reports confidence intervals using 61 questionnaires and 48 pre/post pairs, but residents could attend multiple sessions and the anonymous instruments cannot be linked to attendance. Nothing establishes whether these are distinct respondents or repeated observations from some residents. Consequently, the independence assumptions underlying the reported precision are unclear.",
+      "fix": "State the questionnaire collection and repeat-response rules and the interval method. If distinct respondents cannot be established, describe n as forms or session-level pairs, disclose possible repeat respondents, and qualify intervals as unadjusted exploratory summaries. Register that limitation."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts; annual_report_2025.md, Results and Limitations",
+      "problem": "Several quotable results and substantive limitations have no facts-registry entry: the 66% and 39% questionnaire results and intervals; officials' counts of ten and five; implementation checks for only three recommendations; absence of a comparison group; self-selection and inability to link questionnaires to attendance; and under-representation of younger residents and evening-shift workers. F07 also changes self-reported agreement into an unqualified statement that respondents could express their views.",
+      "fix": "Add source-linked facts with the exact results, denominators, uncertainty and limitations. Rewrite F07 to preserve the source's wording that respondents agreed with the statement."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts; consortium.md, cv_coordinator.md and resources.md",
+      "problem": "The registry omits material capacity and status information a proposal could quote: the final technical report's submission and pending assessment; venue capacities and the cultural office's annual slot limit; interpretation equipment and the contract's December 2026 expiry; partner incomes and staffing; the absence of heritage expertise in the associated office; and protocol restrictions on recording, referrals and retention. These omissions weaken the distinction between secured capacity, expiring provision and missing expertise.",
+      "fix": "Add facts for these resources, dates, statuses and restrictions, preserving their scope and exact values. Include the other historical grants and current operating subsidy where prior funding and financial capacity may be quoted."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "consortium.md, Seuil Commun legal identity",
+      "problem": "The Belgian enterprise number 0712.384.659 fails the standard checksum: the first eight digits leave remainder 69 modulo 97, requiring check digits 28 rather than 59. It therefore cannot function as the asserted legal registration number.",
+      "fix": "Remove the unnecessary registration number, or supply a clearly fictional identifier whose treatment does not misrepresent an invalid number as a valid Belgian registration."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "planned tasks, pub2-cerv-culture-stretch, T10 expected behaviour",
+      "problem": "The expected behaviour permits only flagging the discrepancy or using a placeholder. A proposal could instead omit the disputed unique-resident total and support capacity with uncontested evidence such as eight sessions and 187 attendances, explicitly labelled as attendances. That is a feasible compliant alternative and should not fail the trap.",
+      "fix": "Accept omission of the disputed unique-resident total and use of correctly labelled uncontested measures, as well as explicit qualification of the conflicting figures. Require that neither 84 nor 96 be presented as an established unique-resident total."
+    }
+  ]
+}

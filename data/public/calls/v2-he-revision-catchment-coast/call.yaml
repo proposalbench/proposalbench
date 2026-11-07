@@ -1,0 +1,146 @@
+schema_version: 1
+id: v2-he-revision-catchment-coast
+scheme: horizon_ria
+language: en
+title: Stormwater-to-coast forecasts for equitable public water management
+topic_code: PB2-HE-REV-WATER-02
+proposal_type: full
+length_contract:
+  max_words: 18000
+  enforcement: disregard_excess
+  tolerance: 0.0
+  counted_sections:
+  - '1'
+  - '2'
+  - '3'
+  exempt:
+  - references
+  - title
+  page_limit: 40
+  words_per_page: 450
+  source_note: 'Horizon Europe General Annexes 2026-2027 and standard application form: Part B of actual-cost
+    RIA/IA proposals limited to 40 pages (45 for lump-sum RIA/IA); excess pages are disregarded by evaluators.
+    The benchmark calls are actual-cost RIAs. Converted at 450 words per page (A4, 11 pt, 15 mm margins,
+    typical table density), tables included.'
+required_sections:
+- id: '1'
+  title: Excellence
+- id: '1.1'
+  title: Objectives and ambition
+  parent: '1'
+- id: '1.2'
+  title: Methodology
+  parent: '1'
+- id: '2'
+  title: Impact
+- id: '2.1'
+  title: Project's pathways towards impact
+  parent: '2'
+  aliases:
+  - Pathways towards impact
+  - Pathways to impact
+- id: '2.2'
+  title: 'Measures to maximise impact: dissemination, exploitation and communication'
+  parent: '2'
+  aliases:
+  - Measures to maximise impact
+  - Dissemination, exploitation and communication
+- id: '2.3'
+  title: Summary
+  parent: '2'
+  aliases:
+  - Summary of the impact section
+  - Key elements of the impact section
+- id: '3'
+  title: Quality and efficiency of the implementation
+  aliases:
+  - Implementation
+- id: '3.1'
+  title: Work plan and resources
+  parent: '3'
+- id: '3.2'
+  title: Capacity of participants and consortium as a whole
+  parent: '3'
+  aliases:
+  - Capacity of participants
+  - Consortium as a whole
+expected_outcomes:
+- id: EO1
+  text: Public water managers can use forecasts of stormwater-driven coastal contamination to trigger
+    timely, locally appropriate responses, with explicit consideration of forecast uncertainty and the
+    consequences of missed events and false alarms.
+- id: EO2
+  text: Public authorities and forecasting services have evidence on forecast reliability across contrasting
+    catchments and coastal receiving waters, enabling informed decisions about transfer, local calibration
+    and limits of use.
+- id: EO3
+  text: Underserved users benefit from more accessible warnings and response arrangements that account
+    for unequal exposure, access to services and ability to act on advice.
+- id: EO4
+  text: Public water managers and service providers have reusable forecasting and decision-support workflows,
+    with defined responsibilities and resource needs for their adoption and maintenance.
+scope:
+- id: SC1
+  text: Develop coupled stormwater transport and coastal contamination forecasts, explaining contaminant
+    selection, source pathways, observational requirements and the representation of relevant catchment
+    and coastal processes.
+- id: SC2
+  text: Define operational response thresholds with public water managers, linking forecast information
+    to responsibilities, feasible actions and applicable water-quality obligations, and assess these through
+    exercises in relevant environments.
+- id: SC3
+  text: Quantify and propagate observation, forcing, parameter and model uncertainties; evaluate forecast
+    calibration, lead times and decision consequences against observed events and existing management
+    practices.
+- id: SC4
+  text: Test transfer between contrasting catchments and coastal receiving waters using independent validation,
+    identifying local calibration needs, performance limitations and conditions under which forecasts
+    should not inform action.
+- id: SC5
+  text: Assess how exposure, warning accessibility and response measures affect underserved users, including
+    the distribution of benefits and burdens and practical barriers to acting on advice.
+- id: SC6
+  text: Estimate the staff time, computing and maintenance effort participating public managers need to
+    operate forecasting and decision-support workflows after the project ends, identifying needs not covered
+    by their current resources.
+exclusions:
+- id: EX1
+  text: Marine pollution forecasting that does not address contaminant transport from stormwater pathways
+    and its implications for public water-management decisions.
+- id: EX2
+  text: Construction of full-scale drainage or treatment infrastructure.
+- id: EX3
+  text: Routine commercial rollout of forecasting services.
+mandatory_elements:
+- id: ME1
+  text: Open science practices, including FAIR research data management and open access to publications
+    and, where possible, data and tools.
+- id: ME2
+  text: A multi-actor approach is required, involving public water managers and representatives of affected
+    users in defining decision needs, designing response arrangements and assessing results.
+- id: ME3
+  text: Proposals must integrate social sciences and humanities expertise, with defined tasks and effort
+    in the work plan, and must analyse relevant sex and gender differences in exposure to contaminated
+    water and in responses to warnings.
+- id: ME4
+  text: Proposals must state, for each monitoring and operational data stream used, which participant
+    or third party provides and grants access to it, the status of the corresponding access agreement,
+    and the fallback used if the agreement is delayed or the observations are unavailable.
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  consortium:
+    min_entities: 3
+    min_countries: 3
+    notes: The consortium must include, as beneficiaries, at least three mutually independent legal entities
+      established in three different EU Member States or Associated Countries, including at least one
+      entity established in a Member State. Affiliated entities and associated partners do not count towards
+      this minimum.
+  max_budget: 4800000
+  duration_months_max: 36
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 6698d123-e5e6-460e-878d-2501d926d82c

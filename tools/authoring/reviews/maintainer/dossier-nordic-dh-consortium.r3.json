@@ -1,0 +1,81 @@
+{
+ "reviewer": "task reviews r3",
+ "issues": [
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 5; Task 2",
+   "where": "task.yaml T1; resources.md §3.1; consortium.md §5; brief.md",
+   "problem": "Several facts essential to T1 appear only in the brief. The dossier does not explicitly establish that sensor deployment followed renovation, that no usable pre-renovation environmental or health records exist for the 15 blocks, or that the five proposed blocks are scheduled for deep renovation in month 12. The consortium document describes proposed pilot installations and month-24 commissioning, which do not establish the renovation schedule.",
+   "fix": "Add these facts to dated dossier documents and register them in dossier.yaml. Distinguish the proposed renovation schedule from pilot commissioning, retaining the unconfirmed access, permits and tenant-consent conditions."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "prior_project.md §4.1; resources.md §2.3; dossier.yaml F19",
+   "problem": "The monitoring period from 1 October 2022 through 30 June 2025 contains 1,004 calendar days, not 1,003. At 288 observations per day, the complete grid contains 289,152 timestamps and 40,481,280 values across 140 channels. The supplied totals instead describe 1,003 days. The separate 731-day economic-analysis period correctly includes its final day, making the counting convention inconsistent.",
+   "fix": "Correct the monitoring duration and nominal totals throughout, then reconcile valid and missing counts against that grid. If 39,800,000 valid values is retained, the missing count becomes 681,280, or 1.7% rounded to one decimal place. Alternatively, explicitly document a different monitoring endpoint and reconcile all dependent analyses."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml facts, particularly F05, F11, F12, F19 and F21",
+   "problem": "The registry omits material qualifications and quotable facts. F05 omits that the 81% efficiency covers a partial season; F11 omits the outstanding board approval for SCADA access; F12 omits pending full-scale field validation. Monitoring missingness, the earlier grants and their budgets, and several proposed-site capacities and commissioning dates are unregistered. F21 attributes 14 completed Ph.D. supervisions to resources.md, although that number appears only in cv_coordinator.md.",
+   "fix": "Register the omitted salient results, resource conditions, dates and limitations with their source wording and appropriate existing/planned status. Preserve the partial-season qualification in F05 and split or correct F21 so each claim points to its actual source."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "prior_project.md §§2 and 4.2, heat sources and fossil-fuel displacement",
+   "problem": "The claimed gas displacement lacks a credible, auditable whole-system heat balance. Gas-derived heat falls from 22,500 to 3,600 MWh/year, a reduction of 18,900 MWh/year. The heat pump supplies only 9,001 MWh/year, while storage loses 2,750 MWh/year. At unchanged delivered demand, solar or another source must therefore supply an additional 12,649 MWh/year beyond the baseline. Neither baseline nor post-intervention solar delivery is given. That additional contribution alone is approximately 843 kWh per square metre annually from the stated collector field, demanding an explanation for a Danish installation.",
+   "fix": "Provide comparable baseline and operational annual balances covering delivered heat demand, solar production and curtailment, heat-pump output, boiler output and losses. Explain any demand or system-boundary changes, and revise the displacement and emissions results if the balanced figures require it."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 7",
+   "where": "publications.md; prior_project.md",
+   "problem": "These documents lack document dates or an explicit September 2026 status cutoff. In particular, the 2026 publication is presented as published without establishing that publication occurred by September. The project end date in the final report does not establish its issue date.",
+   "fix": "Date the final report and publication list no later than September 2026. Give the 2026 publication's publication date or its actual status at the cutoff, and align the hidden publication record with that status."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 1",
+   "where": "resources.md, core team; publications.md, publications 3 and 4; cv_coordinator.md, FLEXI-GRID",
+   "problem": "Rasmus Krogslund is the name of a real Danish researcher in wireless communications and RFID. FLEXI-GRID also reuses an existing European research project name. The fictional-document notice does not resolve these identity collisions.",
+   "fix": "Replace the person and project names with distinctive coined names, updating all document references, publication authors and hidden records consistently."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 2",
+   "where": "prior_project.md, monitoring period and efficiency uncertainty; resources.md, Fjordkøbing PTES Data Repository; dossier.yaml, F19",
+   "problem": "1 October 2022 through 30 June 2025 comprises 1,004 days, not 1,003. The stated timestamp and channel-value totals propagate this error. At 288 timestamps per day and 140 channels, the complete grid contains 289,152 timestamps and 40,481,280 channel values.",
+   "fix": "Correct the duration and dependent totals. If 39,800,000 valid values is exact, the missing or invalid count becomes 681,280, approximately 1.7%. Alternatively, document the actual shorter acquisition interval and its boundaries. Update the uncertainty description and F19 accordingly."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "prior_project.md, system architecture and fossil-fuel displacement",
+   "problem": "The claimed gas displacement lacks a reconcilable system heat balance. Boiler heat falls from 22,500 to 3,600 MWh/year, a reduction of 18,900 MWh/year. The new heat pump supplies only 9,001 MWh/year, and storage loses 2,750 MWh/year. With unchanged demand and useful solar production, these figures leave 12,649 MWh/year unexplained. Solar thermal already existed in the baseline, but neither its baseline and intervention yields nor changes in demand are reported.",
+   "fix": "Provide annual baseline and intervention heat balances covering demand, useful solar production, direct heat delivery, storage flows, losses and curtailment. Identify any solar expansion or demand reduction explicitly, and revise the displacement and emissions results if those balances do not support them."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml, facts registry",
+   "problem": "Several proposal-critical facts are absent from the registry: Bergdorf's month-36 commissioning, 75°C connection, planned 20,000 m3 tank and heat-source capacities; Rotterdam's month-24 commissioning, 70°C connection and currently identified single source; and ThermoNet-3D's proprietary status. These omissions conceal constraints directly relevant to feasibility and open-tool commitments.",
+   "fix": "Register these exact quantities and statuses with their sources, preserving planned versus existing distinctions. After reconciling the brief, register its dated supporting assessments for accelerated commissioning, temperature conversion and the proposed Rotterdam configuration in dossier documents."
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3",
+   "where": "dossier.yaml, F05 and F21",
+   "problem": "F05 lists 81% alongside complete seasonal efficiencies without retaining that it covers only October 2024–June 2025. F21 attributes the coordinator's 14 completed Ph.D. supervisions to resources.md, which does not contain that fact. These records can cause the answer key to reward an overstated result or rely on an unsupported source attribution.",
+   "fix": "Include the exact observation periods and partial-season qualification in F05. Split F21 into team composition sourced to resources.md and completed supervision sourced to cv_coordinator.md."
+  },
+  {
+   "severity": "blocker",
+   "checklist": "Dossier 5",
+   "problem": "The health stretch task's trap relies on facts stated only in its brief: whether the monitored blocks were renovated before sensors were installed, whether pre-renovation records exist, and whether other blocks will be deeply renovated during a future project.",
+   "fix": "State these plainly in the dossier: the sensors in the 15 monitored blocks were installed after their renovation, so no pre-renovation environmental or health records exist for them; the housing partner has five further blocks scheduled for deep renovation in 2027-2029, with no measurements yet."
+  }
+ ]
+}

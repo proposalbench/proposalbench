@@ -1,0 +1,36 @@
+{
+  "kind": "dossier",
+  "id": "v2-urban-runoff-revision-consortium",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Dossier 9",
+      "where": "data/public/dossiers/v2-urban-runoff-revision-consortium/evaluation_summary_report.md, Excellence: \"Its assessment will depend on a clearer account of how uncertainty propagates through the coupled components\"; dossier.yaml R1 covers leakage and independent warning skill but not propagation.",
+      "problem": "The hidden key drops the coupled-component uncertainty criticism. The urban-close T13 explicitly tests it, but the coast-stretch task has duration and licence traps, so the same dossier's RESUB assessment does not consistently cover this methodological response.",
+      "fix": "Append R5: 'The proposed coupling to receiving-water transport lacks a sufficiently clear account of how uncertainty propagates through the coupled components within validation.' Keep it separate from the leakage criterion so a proposal cannot satisfy both merely by holding out whole storms.",
+      "evidence": [
+        "data/public/dossiers/v2-urban-runoff-revision-consortium/evaluation_summary_report.md",
+        "data/public/dossiers/v2-urban-runoff-revision-consortium/dossier.yaml",
+        "data/public/tasks/pub2-he-revision-urban-close/task.yaml",
+        "data/public/tasks/pub2-he-revision-coast-stretch/task.yaml",
+        "tools/authoring/design_v2.md:85",
+        "docs/scoring_spec.md:87"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all eight visible documents, all 25 facts, four own publications and earlier automated reviews. Every non-null fact value appears in the cited source. No intentional gaps/inconsistencies are declared.",
+    "Recomputed 12 storms x 6 rounds x 3 stations = 216 scheduled samples, minus 12 = 204; interview counts 24=8 per country and 18+6=24. EUR 420,000 expenditure balances; old partner/work-package/cost-category totals all equal EUR 5.1 million, including 25% indirect costs on EUR 4.08 million direct costs.",
+    "Checked 3.00+3.00+2.50=8.50 and failure of both individual Implementation and total thresholds. The prospective 18-event protocol has 9 development and 9 held-out events, with whole-weather-system grouping and a code lock; it is not executed validation.",
+    "Episode rates 96/12=8, 108/12=9 and 84/12=7 per year yield 7.8, 8.8 and 6.8 usable episodes over 18 months at the explicitly unmeasured 65% capture assumption. Approximate Poisson intervals are compatible with the counts; procurement and event-yield contingencies remain necessary.",
+    "Suspended-solids mean 86 mg/L is plausible relative to measured urban-runoff concentrations: https://pubs.usgs.gov/sir/2020/5004/sir20205004.pdf and https://www.mdpi.com/2073-4441/13/9/1312. In-sample RMSE is correctly labelled; no observed microbial outcome or forecast skill is manufactured.",
+    "ERA5-Land's hourly ~9 km scale checked against https://www.ecmwf.int/en/era5-land. The dossier correctly distinguishes public input availability from usable latency, radar reuse permission and operational feed access.",
+    "Full-name searches for four leads, four beneficiaries, community organisations, provider, projects, dataset and journals produced no supported collision; queries in .codex-handoff/deep_review_c_sources/search_audit.json. Four 10.99999/pb. publication records match visible authors/titles/venues.",
+    "Reviewed 31 December 2026 analytical-use cessation, B/C audit-only extracts, uncontracted microbial service, unsubmitted resident ethics amendment, temporary staff contracts and non-committed municipal operating roles. These limitations permit planned conditional work and meaningful fallbacks rather than making either task impossible."
+  ]
+}

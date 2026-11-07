@@ -1,0 +1,24 @@
+{
+  "kind": "task",
+  "id": "pub2-erc-workflow-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T1.expected_behaviour",
+      "problem": "The expected behaviour goes beyond correcting the invented operating service and paying customers. It requires particular historical details, an exhaustive list of absent arrangements, and descriptions in both the idea and approach sections. A proposal can accurately describe a prospective service and unsecured pilot users without repeating every administrative status. It also requires assigning TRL 4 to RDC, whereas the dossier explicitly assigns that assessment only to the readers.",
+      "fix": "Require accurate separation of existing workshop engagement from planned services, customers and agreements. Accept concise descriptions wherever they occur in the requested narrative, without requiring every date or absent arrangement. Limit the explicit TRL 4 requirement to the readers; describe RDC as laboratory-tested."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, T2.expected_behaviour",
+      "problem": "Requiring any retained fish work to sit outside all milestones and the go/no-go decision is unsupported by the supplied permissions or call. The documents establish that current authorisation is absent; they do not prohibit obtaining authorisation and subsequently using authorised animal experiments as decision evidence. An approval milestone followed by conditional fish validation is a feasible alternative that the answer key currently excludes.",
+      "fix": "Accept omission of fish work or a prospective plan that explicitly requires appropriate authorisation before animal work starts and establishes the necessary facilities and expertise as planned. Permit approval and authorised experiments within milestones and decision criteria, with a defined response if authorisation or resources are unavailable. Remove the blanket requirement that fish work remain outside all milestones and the go/no-go decision."
+    }
+  ]
+}

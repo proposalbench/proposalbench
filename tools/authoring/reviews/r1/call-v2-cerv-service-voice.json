@@ -1,0 +1,80 @@
+{
+  "kind": "call",
+  "id": "v2-cerv-service-voice",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md 'Specific conditions' ME3 vs ME8; call.yaml mandatory_elements ME3/ME8 and eligibility.consortium.notes",
+      "problem": "Two mandatory elements set different coordinator rules. ME3 allows 'a private nonprofit legal entity or a public university'. ME8 limits the coordinator to 'a private nonprofit civil-society legal entity' and excludes public universities. call.yaml eligibility.consortium.notes repeats only the ME3 version, so the structured eligibility contradicts ME8. The call never says which rule a grader applies to a university-led consortium.",
+      "fix": "Keep one coordinator rule. Delete 'or a public university' from ME3, or merge ME3 and ME8 into one item: 'The coordinator must be a private nonprofit civil-society legal entity; public universities may not coordinate under this topic.' Rewrite eligibility.consortium.notes to the same wording."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md 'Purpose and eligibility' paragraph; ME2; ME3 ('international organisations'); ME9; call.yaml eligibility.consortium.notes",
+      "problem": "Country and beneficiary eligibility conflict in four places. (1) The Purpose paragraph gives the eligible-country basis as EU Member States 'and countries associated to CERV' and explains the rules for associated countries. (2) ME2 and the yaml notes require 'two different CERV-eligible countries'. (3) ME9 requires every beneficiary to be established in an EU Member State and says associated countries do not satisfy eligibility. (4) ME3 admits international organisations as co-applicants, which ME9's establishment rule appears to exclude. It is also unclear whether OCT entities count as 'established in EU Member States' under ME9. A proposal with a partner from an associated country, an OCT or an international organisation cannot be judged eligible or ineligible from the call alone.",
+      "fix": "In the Purpose paragraph, ME2 and the yaml notes, state: 'All beneficiaries must be established in EU Member States; at least two independent beneficiaries from two different Member States.' Say explicitly whether OCT entities and international organisations may be beneficiaries, and remove 'or international organisations' from ME3 if they may not. Say whether entities from associated countries may join as associated partners. Remove the sentence on associated countries negotiating association, or limit it to associated partners."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md fictional-topic notice ('topic details, deadline and upper grant cap are invented'); ME8; ME9",
+      "problem": "ME8 and ME9 narrow the official scheme's eligibility: no public-university coordinator, beneficiaries from Member States only, associated countries excluded. These are departures from the real scheme's eligibility rules, not topic content, identifiers, budgets or dates, and the notice does not disclose them. Readers are told only the topic, deadline and cap are invented, so they will take the remaining rules as official.",
+      "fix": "Either drop ME8/ME9 and keep the official eligibility, or extend the notice: 'This fictional topic also narrows eligibility: coordinators must be private nonprofit civil-society entities and all beneficiaries must be established in EU Member States.' Then remove the conflicting official statements as described in the previous issue."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md ME7, §2.6 ('do not invent tariff bands'), §4.2 ('allocated grant' per work package); call.yaml ME7",
+      "problem": "The call requires per-event grant allocations under 'prefixed event lump sums based on direct participants and eligible countries'. It supplies no lump-sum values and tells applicants not to invent tariff bands. A proposal cannot state correct event allocations, and a reviewer cannot check them, because any figure is either invented or unverifiable. The EUR 300,000 cap therefore cannot be checked against the allocations.",
+      "fix": "Add an explicitly fictional lump-sum table to call.md and call.yaml: EUR per event by direct-participant band × number of eligible countries, plus a separate rate for online events. Budgets may be invented under Call 1. Alternatively, rewrite ME7 and §4.2 to require only the total requested grant and, for each event, planned direct participants and countries, and remove 'allocated grant' from §4.2."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md ME4, ME7, ME11 ('participants eligible for the official event calculation'); Purpose ('Activities take place in eligible countries')",
+      "problem": "ME11 asks applicants to separate the target resident population from participants who count for the lump sum. Apart from excluding EU officials, the call never defines who counts. It leaves open: country of residence versus nationality, non-EU-citizen residents, minors, staff, facilitators, interpreters and speakers, minimum attendance and proof, and online participants. It also does not say how an event's 'eligible countries' are counted. Any distinction a proposal draws therefore satisfies ME11, and a trap built on participant eligibility would not be decidable from the call.",
+      "fix": "Add a definition. For example: 'A direct participant is a person attending an event in person or online, resident in an EU Member State regardless of nationality, recorded on a signed or logged attendance list; project staff, facilitators, interpreters, speakers and EU officials do not count; an event's eligible countries are the Member States in which counted participants reside.' Adjust each element to the intended rule and mirror it in call.yaml."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md/call.yaml ME11, ME5, ME12, ME10, SC4, SC6–SC8, ME14–ME16",
+      "problem": "Some items bundle unrelated demands, and several pairs duplicate each other, which double-weights the same content in grading. (1) ME11 joins a recruitment-method requirement with a lump-sum accounting distinction. (2) ME5 bundles accessibility, gender sensitivity and influence; influence overlaps ME12 and SC4, and accessibility overlaps SC3. (3) ME10 crosses four actor types with four responsibilities in one item. (4) SC4 and ME12 both cover agenda-setting, validation and keeping disagreement. (5) SC6 and ME14 both cover authority responses. (6) SC7 and ME15 both cover EU channels. (7) SC8 and ME16 both cover outcome evaluation.",
+      "fix": "Split ME11 into 'recruitment of residents facing language/migration barriers, including non-EU citizens' and 'distinguish target population from counted participants'. Remove influence from ME5 so it covers accessibility and gender sensitivity only. Split ME10 into roles and responsibilities. For each SC/ME pair, keep the scope item as the activity and limit the ME to what it adds: confirmed versus planned commitments and reporting of absent responses for ME14; responsibility for communicating developments for ME15; starting evidence and limitations for ME16. Alternatively, delete the duplicate."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md ME4 ('direct, verifiable target-group participation') vs §4.2 ('Each work package must gather citizens or stakeholders')",
+      "problem": "ME4 requires target-group participation in every work-package event. §4.2 accepts 'citizens or stakeholders'. It is unclear whether a follow-up dialogue with authorities only (SC6) is a valid work package.",
+      "fix": "Use one wording in both places. For example, state that every work-package event must include counted residents from the target group, and that authorities attend in addition."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md Exclusions EX1 ('Financial support to third parties is not permitted') with SC1/SC2 (caring responsibilities, outreach via community organisations)",
+      "problem": "Residents' assemblies commonly pay participant stipends, childcare or travel costs, and community intermediaries are often paid. The call does not say whether these count as prohibited financial support to third parties or are covered by the lump sum. An applicant cannot tell whether such a plan breaches EX1.",
+      "fix": "Add one sentence. For example: 'Participant travel, childcare and accessibility costs and paid services from community organisations are covered by the event lump sums and are not financial support to third parties; cash grants to organisations or individuals are.' Use whichever rule is intended."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 4",
+      "where": "call.md notice and Purpose ('modelled on CERV-2026-CITIZENS-CIV'; 'The fictional deadline is 15 September 2027')",
+      "problem": "A topic presented as a 2026 CERV call has a deadline in September 2027, outside the funder's annual cycle.",
+      "fix": "Present the topic as a fictional 2027 topic modelled on the 2026 call fiche, or move the deadline into the 2026–27 window, for example February 2027."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md §1 ('Use the following three subsections'), §2.3 ('using dossier-supported capabilities'), §2.6 ('do not invent tariff bands'), Sources ('Verified 2026-10-31')",
+      "problem": "Some guidance is written as benchmark instruction rather than funder text. 'Dossier-supported capabilities' and 'do not invent tariff bands' signal what graders check. The visible verification date, 31 October 2026, is after the benchmark's present date of 1 October 2026.",
+      "fix": "Rephrase §2.3 as funder guidance, e.g. 'Describe the staff and experts assigned and their relevant experience.' Handle §2.6 through the lump-sum fix above. Keep the verification date in call.yaml provenance/source_note only, or date it no later than 1 October 2026 in call.md."
+    }
+  ]
+}

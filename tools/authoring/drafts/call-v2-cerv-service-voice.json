@@ -1,0 +1,123 @@
+{
+  "kind": "call",
+  "id": "v2-cerv-service-voice",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "47c90df249d7c5554507f9c909020da022fc36515454bdfdc4da5e0cd2742ae8",
+  "draft": {
+    "title": "Residents’ deliberation on inclusive access to public services",
+    "expected_outcomes_intro": "Projects should strengthen democratic participation among residents facing language and migration-related barriers and improve the connection between their experience of public services and public decision-making. Projects are expected to contribute to the following outcomes.",
+    "expected_outcomes": [
+      "Residents facing language and migration-related barriers have greater confidence and practical opportunities to deliberate about public services and contribute to decisions affecting their communities.",
+      "Participating organisations sustain deliberative practices that enable residents with different language skills and migration experiences to shape recommendations together.",
+      "Public authorities respond more transparently to residents’ recommendations, making proposed action, reasons for non-adoption and opportunities for follow-up visible to participants.",
+      "Residents’ experience informs dialogue on EU policies concerning inclusion and access to services, supported by learning across participating countries."
+    ],
+    "scope_intro": "Language barriers, unfamiliarity with decision-making processes and concerns linked to migration experiences can limit residents’ participation in debates about public services. Proposals should establish accessible deliberative processes through which residents examine service problems, consider different perspectives and formulate recommendations for responsible authorities. Participation should encompass residents affected by these barriers, including those who are not EU citizens.\n\nActions should connect deliberation in participating countries with EU policymaking on inclusion and access to services.",
+    "scope": [
+      "Work with affected residents to identify public-service access problems suitable for collective deliberation.",
+      "Recruit residents through trusted community channels, such as community organisations, language courses, faith groups and local service points.",
+      "Convene accessible assemblies using interpretation, translated materials and facilitation adapted to participants’ language and communication needs.",
+      "Support residents to develop recommendations through informed discussion of different experiences, options and trade-offs.",
+      "Organise exchanges with responsible public authorities to present recommendations and obtain documented responses.",
+      "Return authorities’ responses to participants in accessible formats and provide opportunities to discuss subsequent action.",
+      "Bring residents from participating countries into dialogue with actors involved in EU policymaking on inclusion and access to services."
+    ],
+    "exclusions": [
+      "Individual migration-status casework, including advice or representation in residence or asylum proceedings, is excluded; projects may refer participants to existing advice services."
+    ],
+    "mandatory_elements": [
+      "State the target share of assembly places for residents not connected to established community organisations, the outreach used to reach them, and how attainment will be checked during recruitment.",
+      "Distinguish the responsibilities of resident participants, community intermediaries, facilitators and public-authority representatives within the assemblies.",
+      "Describe safeguards enabling residents to discuss service barriers without pressure to disclose migration status or personal experiences of harm.",
+      "Specify how recommendations and authorities’ responses will be tracked, including responsibility for seeking responses where none are received.",
+      "Explain how recommendations produced in different countries and languages will be compiled for EU-level dialogue while each remains traceable to the assembly that produced it.",
+      "Set out how evaluation will assess changes in residents’ ability to participate and the uptake of recommendations, using baseline evidence and participant feedback."
+    ],
+    "conditions": {
+      "max_budget": 300000,
+      "duration_months_max": 24,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": null
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Residents’ deliberation on inclusive access to public services",
+        "expected_outcomes_intro": "Projects should strengthen democratic participation among residents facing language and migration-related barriers and improve the connection between their experience of public services and public decision-making. Projects are expected to contribute to the following outcomes.",
+        "expected_outcomes": [
+          "Residents facing language and migration-related barriers have greater confidence and practical opportunities to deliberate about public services and contribute to decisions affecting their communities.",
+          "Participating organisations sustain deliberative practices that enable residents with different language skills and migration experiences to shape recommendations together.",
+          "Public authorities respond more transparently to residents’ recommendations, making proposed action, reasons for non-adoption and opportunities for follow-up visible to participants.",
+          "Residents’ experience informs dialogue on EU policies concerning inclusion and access to services, supported by learning across participating countries."
+        ],
+        "scope_intro": "Language barriers, unfamiliarity with decision-making processes and concerns linked to migration experiences can limit residents’ participation in debates about public services. Proposals should establish accessible deliberative processes through which residents examine service problems, consider different perspectives and formulate recommendations for responsible authorities. Participation should encompass residents affected by these barriers, including those who are not EU citizens.\n\nActions should connect deliberation in participating countries with EU policymaking on inclusion and access to services. Consortia must include at least two independent beneficiaries established in two different eligible countries. Associated participants do not replace beneficiaries.",
+        "scope": [
+          "Work with affected residents to identify public-service access problems suitable for collective deliberation.",
+          "Recruit residents through trusted community channels and outreach beyond organisations’ existing membership.",
+          "Convene accessible assemblies using interpretation, translated materials and facilitation adapted to participants’ language and communication needs.",
+          "Support residents to develop recommendations through informed discussion of different experiences, options and trade-offs.",
+          "Organise exchanges with responsible public authorities to present recommendations and obtain documented responses.",
+          "Return authorities’ responses to participants in accessible formats and provide opportunities to discuss subsequent action.",
+          "Bring residents from participating countries into dialogue with actors involved in EU policymaking on inclusion and access to services."
+        ],
+        "exclusions": [
+          "Individual migration-status casework, including representation in residence or asylum proceedings, as a substitute for collective deliberation about public services."
+        ],
+        "mandatory_elements": [
+          "Explain how recruitment will address the underrepresentation of residents who are not connected to established community organisations.",
+          "Distinguish the responsibilities of resident participants, community intermediaries, facilitators and public-authority representatives within the assemblies.",
+          "Describe safeguards enabling residents to discuss service barriers without pressure to disclose migration status or personal experiences of harm.",
+          "Specify how recommendations and authorities’ responses will be tracked, including responsibility for seeking responses where none are received.",
+          "Identify the EU policy processes or interlocutors to which residents’ recommendations will be directed.",
+          "Set out how evaluation will assess changes in residents’ ability to participate and the uptake of recommendations, using baseline evidence and participant feedback."
+        ],
+        "conditions": {
+          "max_budget": 300000,
+          "duration_months_max": 24,
+          "trl_start": null,
+          "trl_end": null,
+          "expected_projects": null
+        }
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Call 3",
+          "where": "call.md, Scope introduction, second paragraph: \"Consortia must include at least two independent beneficiaries established in two different eligible countries. Associated participants do not replace beneficiaries.\"",
+          "problem": "This sentence restates the consortium rule, and the restatement differs from the eligibility text in call.md and from call.yaml eligibility.consortium ('Two beneficiaries from two eligible CERV countries; affiliated entities and associated partners do not count'). It adds 'independent', which is neither in the template nor in call.yaml. 'Independent' is a Horizon Europe condition, not a CERV one, and the call does not label it as a restriction of this fictional call. So two linked nonprofits from two countries would meet the eligibility text but fail the scope text. The passage also uses 'associated participants' instead of the template's 'associated partners', and it leaves out affiliated entities. The call therefore states the consortium rule in two different ways.",
+          "fix": "Delete both sentences from the scope introduction. Consortium rules already appear under Purpose and eligibility. If a pointer is wanted, write 'Consortium requirements are set out under Purpose and eligibility.'",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md Exclusions and call.yaml EX5: \"Individual migration-status casework, including representation in residence or asylum proceedings, as a substitute for collective deliberation about public services.\"",
+          "problem": "The item is a fragment with no verb, so it does not say whether anything is excluded. The qualifier 'as a substitute for collective deliberation' also implies that casework or legal representation is acceptable when it sits alongside deliberation. That reading is implausible for a CERV citizens'-engagement grant, since asylum and residence representation belongs to other instruments. It also leaves no clear test for whether a proposal that offers some casework next to its assemblies is compliant.",
+          "fix": "Replace with: \"Individual migration-status casework, including advice or representation in residence or asylum proceedings, is excluded; projects may refer participants to existing advice services.\"",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md Scope SC2 (\"…and outreach beyond organisations’ existing membership\") and Specific conditions ME9 (\"Explain how recruitment will address the underrepresentation of residents who are not connected to established community organisations\")",
+          "problem": "The second half of SC2 and ME9 make the same demand: reach residents outside the organisations' networks. A single recruitment paragraph satisfies both items, so they are not separately checkable. SC2 also bundles two recruitment requirements, recruitment through community channels and outreach beyond them.",
+          "fix": "Limit SC2 to: \"Recruit residents through trusted community channels, such as community organisations, language courses, faith groups and local service points.\" Make ME9 distinct and concrete: \"State the target share of assembly places for residents not connected to established community organisations, the outreach used to reach them, and how attainment will be checked during recruitment.\"",
+          "part": "topic"
+        },
+        {
+          "severity": "major",
+          "checklist": "Call 2",
+          "where": "call.md Scope SC7 (\"Bring residents … into dialogue with actors involved in EU policymaking on inclusion and access to services\") and ME13 (\"Identify the EU policy processes or interlocutors to which residents’ recommendations will be directed\"); see also EO4 and the scope introduction",
+          "problem": "Any description of the SC7 dialogue has to name the EU actors involved, and naming them already satisfies ME13. The two items therefore repeat each other. The same EU-policy link also appears in the scope introduction and in EO4, so four passages make one demand while other parts of the design go unasked.",
+          "fix": "Keep SC7 as the activity. Replace ME13 with a requirement that is not already covered, for example: \"Explain how recommendations produced in different countries and languages will be compiled for EU-level dialogue while each remains traceable to the assembly that produced it.\" Alternatively, delete ME13 and add 'named' before 'actors' in SC7.",
+          "part": "topic"
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

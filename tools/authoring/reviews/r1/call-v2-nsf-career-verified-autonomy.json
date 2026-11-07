@@ -1,0 +1,31 @@
+{
+  "kind": "call",
+  "id": "v2-nsf-career-verified-autonomy",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md (Specific conditions and mandatory elements) and call.yaml (mandatory_elements ME4, ME6, ME7)",
+      "problem": "ME4 (PI eligibility), ME6 (submission limits), and ME7 (budget minimums) are eligibility and budget rules that cannot be checked in the proposal narrative, especially since `budget_in_narrative: false` and biosketches are excluded.",
+      "fix": "Remove ME4, ME6, and ME7 from the `mandatory_elements` list in `call.yaml` and from the 'Specific conditions and mandatory elements' section in `call.md` (the information is already stated in 'Purpose and award conditions')."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md (Specific conditions and mandatory elements) and call.yaml (mandatory_elements ME3)",
+      "problem": "ME3 requires reporting prior support 'Where any PI or co-PI has current NSF funding', but the call explicitly forbids co-PIs ('Only one PI is allowed, with no co-PIs').",
+      "fix": "Remove 'or co-PI' from ME3 in both `call.md` and `call.yaml`."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 7",
+      "where": "call.md (Policy sources) and call.yaml (source_note, provenance)",
+      "problem": "The policy sources and provenance are dated '31 October 2026' or '2026-10-31', which is after the benchmark's present date of 1 October 2026. The call cannot be verified in the future.",
+      "fix": "Change all instances of '31 October 2026' and '2026-10-31' to '1 October 2026' or '2026-10-01'."
+    }
+  ]
+}

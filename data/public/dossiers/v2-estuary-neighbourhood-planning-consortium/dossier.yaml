@@ -1,0 +1,305 @@
+schema_version: 1
+id: v2-estuary-neighbourhood-planning-consortium
+language: en
+applicant_type: consortium
+career_stage: phd
+disciplines:
+- architecture and urban planning
+- oceanography
+- public administration
+method_profile: mixed
+country: NL
+files:
+- path: cv_coordinator.md
+  role: cv
+- path: consortium_partners.md
+  role: other
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: team_resources.md
+  role: resources
+facts:
+- id: F01
+  category: identity
+  kind: existing
+  text: Prof. dr. ir. Geertje Hoogvliet-Ramaker, full professor of Urban Water Planning at ZUT since 1
+    March 2017, coordinates the consortium, signed its participation agreement for ZUT on 18 June 2026
+    and has not previously coordinated an EU framework programme project.
+  value: 1 March 2017
+  salient: true
+  source: cv_coordinator.md
+- id: F02
+  category: grant
+  kind: existing
+  text: As principal investigator the coordinator held an NWO Vidi grant (2008–2013) on open space as
+    water storage in post-war neighbourhoods.
+  value: EUR 600,000
+  salient: true
+  source: cv_coordinator.md
+- id: F03
+  category: grant
+  kind: existing
+  text: As principal investigator the coordinator held a 2014–2016 Stichting Rivierenland Kennisfonds
+    grant on the maintenance and performance of retrofitted swales.
+  value: EUR 96,000
+  salient: true
+  source: cv_coordinator.md
+- id: F04
+  category: publication
+  kind: existing
+  text: The coordinator has 54 peer-reviewed journal articles (1999–2026), 2 edited volumes and 11 reports,
+    has supervised 9 PhD candidates to completion (2010–2025), currently supervises 3 PhD candidates and
+    has supervised 31 MSc theses since 2017.
+  value: '54'
+  salient: true
+  source: cv_coordinator.md
+- id: F05
+  category: position
+  kind: existing
+  text: Doctoral candidate Mirthe Zwanenburg-Teeuw (ZUT appointment 1 September 2023 to 31 August 2027,
+    planned thesis submission May 2027) leads the spatial analysis under supervision and has no experience
+    in marine fieldwork, laboratory chemistry, consortium management or research with minors.
+  value: 31 August 2027
+  salient: true
+  source: team_resources.md
+- id: F06
+  category: partner
+  kind: existing
+  text: ZUT (NL, coordinator), WEIH (DE) and FBMI (DK) are independent legal entities in three EU member
+    states; all signed the participation agreement in June–July 2026, and it runs until 31 December 2029.
+  value: 31 December 2029
+  salient: true
+  source: consortium_partners.md
+- id: F07
+  category: partner
+  kind: existing
+  text: WEIH models lowland catchment runoff and Ems/Weser estuarine hydrodynamics (TELEMAC-2D, in-house
+    1D network model) and operates 14 gauges but has not modelled faecal bacteria or chemical contaminant
+    transport; its ensemble discharge forecast is not an operational warning service, no partner has built
+    or operated a public early-warning service, and the runoff–estuary–coast chain has not yet been coupled
+    in one study.
+  value: '14'
+  salient: true
+  source: consortium_partners.md
+- id: F08
+  category: result
+  kind: existing
+  text: FBMI collected 1,240 bathing-water samples at 18 beaches (2019–2024); its rainfall-based model,
+    fitted to 486 samples from six beaches (2019–2022), predicted single-sample exceedances of study alarm
+    thresholds (500 MPN/100 mL E. coli, 200 CFU/100 mL enterococci) in the 2023 hold-out season (192 samples,
+    34 exceedances) with ROC AUC 0.81 (95% CI 0.71 to 0.89, bootstrap over sampling days, between-beach
+    dependence not resampled).
+  value: '0.81'
+  salient: true
+  source: consortium_partners.md
+- id: F09
+  category: resource
+  kind: planned
+  text: FBMI's board approved an LC-MS/MS purchase on 12 May 2026 with delivery expected in the second
+    quarter of 2027; no chemical assays are validated and no measurements exist.
+  value: second quarter of 2027
+  salient: true
+  source: consortium_partners.md
+- id: F10
+  category: resource
+  kind: existing
+  text: 'Existing capacity: FBMI 9.5 m coastal survey boat, 2 CTD profilers, a 600 kHz ADCP, 6 automatic
+    water samplers, 20 GPS drifters and an ISO/IEC 17025 laboratory for E. coli, enterococci and nutrients;
+    ZUT 36 pressure loggers, 2 rain gauges, 200,000 core-hours per year and the Secure Research Environment;
+    WEIH a 1,920-core cluster.'
+  value: 9.5 m
+  salient: true
+  source: team_resources.md
+- id: F11
+  category: grant
+  kind: existing
+  text: PB-BUURTGETIJ-26 was funded by the ZUT Delta Futures Fund (DFF-2023-06) from 1 January 2024 to
+    30 June 2026, with in-kind contributions from WEIH (8 person-months) and FBMI (6 person-months).
+  value: EUR 214,000
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: budget
+  kind: existing
+  text: Actual PB-BUURTGETIJ-26 expenditure was EUR 211,640, 98.9% of the EUR 214,000 budget.
+  value: EUR 211,640
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: result
+  kind: existing
+  text: PB-BUURTGETIJ-26 covered 240 urban blocks with 9,860 residential addresses (5,170 with a ground-floor
+    dwelling) on the Island of Dordrecht; the household survey received 1,127 responses from 4,800 invited
+    addresses (23.5%), and 214 respondents consented to further contact.
+  value: '240'
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: result
+  kind: existing
+  text: Against 186 logger peaks from seven events, flood-depth RMSE was 0.19 m (spatial bootstrap 95%
+    CI 0.15 to 0.25 m), with mean bias +0.04 m.
+  value: 0.19 m
+  salient: true
+  source: prior_project.md
+- id: F15
+  category: result
+  kind: existing
+  text: In the design case (100-year rainfall, KNMI'23 high 2050, with river 0.5 m above mean high water),
+    61 of 240 blocks (25.4%) containing 2,214 addresses exceeded 0.30 m at a street frontage (ensemble
+    44–79 blocks), and 1,034 of 5,170 ground-floor addresses (20.0%) were inundated through the entrance
+    or sewer backflow.
+  value: 61 of 240 blocks (25.4%)
+  salient: true
+  source: prior_project.md
+- id: F16
+  category: result
+  kind: existing
+  text: Lowest-income-tercile households were more likely to live in an exposed block (odds ratio 1.7,
+    95% CI 1.2 to 2.4), as were social-housing renters (odds ratio 1.4, 95% CI 1.0 to 2.0).
+  value: '1.7'
+  salient: true
+  source: prior_project.md
+- id: F17
+  category: result
+  kind: existing
+  text: In paired design-case runs, the green-blue retrofit (A) reduced addresses in exposed blocks by
+    31% (ensemble 5th–95th percentile 22–39%) and inundated ground-floor addresses by 33%; two water squares
+    (B) reduced them by 18% and 17%, with benefits concentrated in N2.
+  value: 31% (22–39%)
+  salient: true
+  source: prior_project.md
+- id: F18
+  category: result
+  kind: existing
+  text: Property-level protection (C), with assumed uptake of 40% among owner-occupiers and 15% among
+    rented dwellings, left block exposure unchanged and reduced inundated ground-floor addresses by 23%
+    (ensemble range 16–30%); 26% of avoided inundation among respondents went to the lowest income tercile.
+  value: 23% (16–30%)
+  salient: true
+  source: prior_project.md
+- id: F19
+  category: result
+  kind: existing
+  text: Two workshop rounds involved 36 adults (11 social-housing renters, 6 with interpreters); 23 of
+    32 round-2 participants ranked option A first, and residents identified 14 unmodelled low points,
+    7 of which were added to the terrain model.
+  value: '36'
+  salient: true
+  source: prior_project.md
+- id: F20
+  category: result
+  kind: existing
+  text: In FBMI's floodwater pilot, 22 of 31 ponded-street samples (71%) exceeded 1,000 MPN/100 mL E.
+    coli (median 1,900 MPN/100 mL, IQR 640–5,300); the pilot was not linked to any transport model.
+  value: 22 of 31
+  salient: true
+  source: prior_project.md
+- id: F21
+  category: other
+  kind: existing
+  text: Under the PB-BUURTGETIJ-26 data access agreement of 14 March 2024, household geolocations may
+    be analysed only in the ZUT Secure Research Environment, row-level data may not be transferred to
+    partner laptops, and partners may receive aggregates after disclosure checking with at least 10 households
+    per cell.
+  value: at least 10 households per cell
+  salient: true
+  source: prior_project.md
+- id: F22
+  category: other
+  kind: existing
+  text: Ethics approval HREC-2024-031 (valid to 31 December 2027) covers residents aged 18 and over; as
+    of 15 September 2026 no amendment for minors had been submitted and no guardian consent and assent
+    process had been drafted.
+  value: HREC-2024-031
+  salient: true
+  source: prior_project.md
+- id: F23
+  category: team
+  kind: existing
+  text: Participatory-methods postdoc Dr. Hanan Ouarda-Lievense, responsible for workshop design and facilitation,
+    has a contract ending 31 March 2027; the recruitment pool of 214 survey respondents who agreed to
+    further contact has consent running to 31 December 2027.
+  value: 31 March 2027
+  salient: true
+  source: team_resources.md
+- id: F24
+  category: team
+  kind: planned
+  text: On 9 September 2026 the ZUT faculty board approved a 0.5 FTE data steward position; the vacancy
+    was open in September 2026 and the planned start date is 1 January 2027.
+  value: 1 January 2027
+  salient: true
+  source: team_resources.md
+- id: F25
+  category: other
+  kind: existing
+  text: Validation covered seven events, the largest with a rainfall return period of about 8 years, so
+    100-year performance is extrapolated; surge overtopping and dike breaches were not modelled, river
+    levels were not dynamically coupled, and transfer beyond one town is untested.
+  value: about 8 years
+  salient: true
+  source: prior_project.md
+own_publications:
+- key: zwanenburg2026distribution
+  authors:
+  - Zwanenburg-Teeuw, M.
+  - Hoogvliet-Ramaker, G.
+  - Bruhnkötter, J.
+  year: 2026
+  title: Who gains from neighbourhood flood adaptation? Distributional effects of three options in a Dutch
+    estuary town
+  venue: Planning for Water and Society
+  doi: 10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2026.1
+- key: zwanenburg2025validation
+  authors:
+  - Zwanenburg-Teeuw, M.
+  - Stamhuis-Weel, K.
+  - Bruhnkötter, J.
+  - Hoogvliet-Ramaker, G.
+  year: 2025
+  title: 'Block-level flood depth in a tidal delta city: validating a coupled drainage model with temporary
+    loggers'
+  venue: Review of Estuarine Neighbourhood Design
+  doi: 10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.1
+- key: hoogvliet2025codesign
+  authors:
+  - Hoogvliet-Ramaker, G.
+  - Zwanenburg-Teeuw, M.
+  - Skovsende, E.
+  year: 2025
+  title: 'Adult residents as co-designers of flood adaptation: a two-round workshop format'
+  venue: Participatory Planning Review
+  doi: 10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2025.2
+- key: bruhnkotter2024outfall
+  authors:
+  - Bruhnkötter, J.
+  - Harmsbrück, G.
+  - Stamhuis-Weel, K.
+  year: 2024
+  title: 'Tidal outfall blocking and urban drainage in estuarine towns: a one-dimensional ensemble approach'
+  venue: Estuarine Hydrology Letters
+  doi: 10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2024.1
+- key: skovsende2023bathing
+  authors:
+  - Skovsende, E.
+  - Kjeldbæk, L.
+  year: 2023
+  title: Rainfall-driven faecal indicator exceedances at Danish North Sea bathing beaches, 2019–2022
+  venue: Journal of Nearshore Water Quality
+  doi: 10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2023.1
+- key: hoogvliet2022squares
+  authors:
+  - Hoogvliet-Ramaker, G.
+  year: 2022
+  title: 'Water squares after ten years: storage, use and maintenance in four Dutch cities'
+  venue: Review of Estuarine Neighbourhood Design
+  doi: 10.99999/pb.v2-estuary-neighbourhood-planning-consortium.2022.1
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: opus
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY edf79207-8511-4011-b873-9fd1ea33634e

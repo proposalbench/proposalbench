@@ -1,0 +1,59 @@
+{
+  "kind": "call",
+  "id": "v2-he-revision-urban-water",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Award criteria and scoring",
+      "problem": "The stated overall threshold of 10 follows the earlier Horizon Europe rules. The standard overall threshold for full RIA/IA proposals under the 2026–2027 Work Programme is 12 out of 15.",
+      "fix": "Change the overall threshold to 12 and cite the applicable provision in the dated 2026–2027 General Annexes."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml, length_contract.tolerance; call.md, Length",
+      "problem": "The YAML permits a 3% tolerance, while the public call states an absolute 18,000-word limit and says excess text is disregarded. A 3% allowance amounts to 540 additional words and is undisclosed.",
+      "fix": "Set tolerance to zero, or state the exact tolerance and its enforcement in call.md so both files define identical treatment."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md, Proposal template, section 3.1",
+      "problem": "The cost-table instructions misstate the standard actual-cost template. The 15% personnel-cost trigger concerns purchase costs, not all 'other direct costs'. Subcontracting and other applicable cost categories have separate reporting requirements that this purportedly exact template omits.",
+      "fix": "Reproduce the applicable standard template's table requirements and conditional instructions, distinguishing purchase costs, subcontracting, other cost categories and applicable in-kind contributions. Apply the 15% trigger per participant to purchase costs."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 1",
+      "where": "call.md, call conditions and Sources; call.yaml",
+      "problem": "No submission deadline is supplied. The call therefore lacks a usable submission schedule and cannot establish compliance with the requirement that deadlines fall after 1 October 2026.",
+      "fix": "Add an invented deadline after 1 October 2026, including time and time zone, record it consistently in both files, and include dates in the fictional-call declaration."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, Scope and Specific conditions; call.yaml, SC3, SC4, ME1 and ME3",
+      "problem": "Several answer-key items combine independently satisfiable requirements. SC4 combines socio-economic impact assessment with comparative cost-effectiveness evaluation; ME1 combines data management, publication access and access to data and tools; ME3 combines three distinct SSH contributions. SC3 similarly combines an adoption route with two different governance outputs. A proposal can satisfy only part of each item, making a single compliance judgment ambiguous.",
+      "fix": "Split these into separately identifiable requirements in both files, preserving the intended obligations and any conditional wording."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md, Specific conditions, open science bullet; call.yaml, ME1",
+      "problem": "'Where possible, data and tools' leaves the condition for withholding outputs undefined. It also obscures the distinction between mandatory Horizon Europe research-data obligations and optional openness of other outputs.",
+      "fix": "State the applicable FAIR data-management and open-access obligations, including permitted data-access exceptions and their justification. State separately whether open release of tools is mandatory, conditional or encouraged."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 1",
+      "where": "call.md, Sources",
+      "problem": "The sources do not identify the versions supporting the claimed exact fidelity. One link is a general reference-document landing page and the other is a mutable application-template URL. This is particularly consequential when combining a 2026–2027 page limit with scoring and template instructions that may come from earlier versions.",
+      "fix": "Cite the exact General Annexes document and the application form's version and date, with relevant sections or pages. Reconcile the complete section list, including the status of the impact-summary table, against that same applicable template."
+    }
+  ]
+}

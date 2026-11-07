@@ -1,0 +1,20 @@
+{
+  "kind": "dossier",
+  "id": "v2-rural-service-language-team",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [],
+  "checked": [
+    "Read all five Markdown files and dossier.yaml; fictional notices present, chronology current to 24 September 2026, all non-null values across the 25 registered facts literally present in their source files, and facts' roles/statuses supported. No intentional gaps, inconsistencies or reviewer criticisms are declared.",
+    "Checked 15 centres×6=90; 72/90=80%; 11+7=18; 90+72=162 assessments; 16+16=32 double-scored; (72×52+18×49)/90=51.4; 58−52=6; EUR 120,000+64,000=184,000.",
+    "ICC .86 with .73–.93 interval at n=32 is plausible. Each reported rounded binary kappa (.78,.77,.75) is attainable with n=18; wide intervals and centre-level bootstrap limitations are acknowledged. No unsupported inference of population prevalence, intervention efficacy or wellbeing change is made.",
+    "Rural access barriers and mixed qualitative/quantitative service research are plausible: https://doi.org/10.1016/j.jrurstud.2026.104024. Comprehension is properly separated from access to care; no unmeasured cultural exposure is represented as a validated measure.",
+    "PhD 2012, accreditation 2017, permanent post 2018, two research periods and doctoral supervision since 2023 are ordered plausibly. March/June 2026 articles follow 2025 fieldwork. Current PI's predecessor work-package role is consistently distinguished from overall coordination.",
+    "Governance: existing secondary-analysis scope, 15-centre/90-participant registers, prior site permission/ethics/individual consent, cultural change-of-purpose restriction, retention through 2030 and prospective partner status all align with the hidden key.",
+    "Exact-name searches covered Maite Sorell Valdeza, Alba Nereda Soláns, Tomás Brizuela Laredo, Elena Valtuerña Saz, Berta Lascuén Aroza, Rocío Cendal Orduña, both institutions, both prospective cultural organisations, both project titles, PAISP programme/award and all five journals. No substantiated exact collision found.",
+    "All five own publications and 10.99999/pb. DOIs agree with the visible publication list. English dossier paired with Spanish AEI calls is deliberate in tools/authoring/design_v2.md; translation is feasible. No RESUB material is needed for these full tasks."
+  ]
+}

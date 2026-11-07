@@ -1,0 +1,101 @@
+{
+  "kind": "call",
+  "id": "v2-aei-oriented-cultural-care",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.md, Ámbito, first paragraph: 'Dentro de las condiciones generales, este tema se dirige a proyectos de tipo B de 36 meses.'",
+      "problem": "This sentence restricts the topic to type B and 36 months. Every other statement allows more. The conditions table offers types A or B and 36 or 48 months. §2 says 'proyectos individuales de tres o cuatro años'. SC1 says 'tipo A o B'. ME1 asks for 'el tipo A o B'. ME6 gives bands for both A and B. call.yaml sets min_budget 30000 (the type-A floor) and duration_months_max 48. A reader cannot tell whether a type-A or 48-month proposal is admissible, and the yaml checks would accept proposals that this sentence rules out.",
+      "fix": "Choose one rule and apply it everywhere. Option 1: delete the sentence and keep A/B and 36/48 throughout. Option 2: make the restriction explicit as an invented condition in the §2 table, §2 text, SC1, ME1 and ME6 in both files, and set call.yaml min_budget 50000, duration_months_min 36 and duration_months_max 36."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml eligibility (min_budget 30000, max_budget 99000, duration_months_min 36, duration_months_max 48) vs call.md §2 table and ME6",
+      "problem": "call.md sets two budget bands that depend on type: A, 30.000–75.000 EUR; B, 50.000–99.000 EUR. It also sets a discrete duration choice of 36 or 48 months. call.yaml stores only the union, 30.000–99.000 EUR and 36–48 months. As a result, a type-A request of 90.000 EUR, a type-B request of 40.000 EUR or a 42-month project passes the yaml check but breaks the call. The budget and duration rules are therefore not stated 'exactly as in call.yaml'.",
+      "fix": "Add per-type bands and allowed durations to call.yaml, e.g. budget_bands: {A: [30000, 75000], B: [50000, 99000]} and allowed_durations_months: [36, 48]. If the schema cannot hold them, restrict the call to one type so that min_budget and max_budget are exact, and state that restriction in call.md."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md §1 ('la prioridad temática del Plan Estatal nombrada en los resultados esperados') vs SC1 ('una prioridad temática del Plan Estatal adecuada al tema'), EO1, EO2, ME2 ('la prioridad temática seleccionada'), in both files",
+      "problem": "§1 and the Resultados esperados intro fix the priority as «Cultura, creatividad y sociedad inclusiva». SC1 instead lets the applicant pick any suitable Plan Estatal priority, and EO1, EO2 and ME2 refer to 'la prioridad seleccionada'. A proposal framed under «Salud», which suits care access, would satisfy SC1 and ME2 but contradict §1. The items are not checkable against one requirement.",
+      "fix": "Replace 'una prioridad temática del Plan Estatal adecuada al tema' and 'la prioridad temática seleccionada' with 'la prioridad «Cultura, creatividad y sociedad inclusiva»' in SC1, EO1, EO2 and ME2 in both files. Alternatively, rewrite §1 to state that the applicant chooses among the anexo III priorities and justifies the choice."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 4",
+      "where": "call.md, closing lines: 'La fecha límite ficticia es el 15 de septiembre de 2027', read with the header 'Adapta la resolución … de 29 de octubre de 2025' and §2 type-A window '1 de enero de 2015 y el 31 de diciembre de 2023'",
+      "problem": "The call applies the 2025 resolution, including its type-A doctorate window, which is tied to the 2025 call year. Yet the deadline falls almost two years after that resolution and about 11.5 months after the benchmark present date. AEI PID application windows open shortly after the BOE extract and last a few weeks, and a call closing in 2027 would carry its own eligibility window. The timeline is implausible for the funder. It also leaves eligibility status (for example months as IP or contract status) ambiguous between October 2026 and September 2027.",
+      "fix": "Give a short fictional application window just after the present date, e.g. 'Plazo ficticio de presentación: del 15 de octubre al 12 de noviembre de 2026; se aplican sin cambios las reglas de la resolución de 29 de octubre de 2025'. If a 2027 deadline is kept, state explicitly that the 2025 rules and type-A window are applied unchanged to a fictional 2027 call."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md/call.yaml EO2, ME2, ME3, ME4, ME5, ME11, ME13; overlap EO1/ME2 and EO2/ME5",
+      "problem": "Several items bundle unrelated demands, so a proposal can address part of an item and the scorer cannot tell whether it is met. EO2 bundles six (scientific contribution, social and economic effects, communication, open access, divulgación, transfer). ME3 bundles six (objectives, methodology, critical stages, contingency, available means, prior results). ME4 joins a timeline with IP allocation and personnel justification. ME5 bundles seven, including the DMP summary and gender. ME11 joins comparisons per conclusion, selection, reverse causality, attrition, causal assumptions and an association disclaimer. ME13 joins comprehensible consent, communication supports and independence from services. EO1 also repeats ME2, and EO2 repeats ME5, so the same text earns credit twice.",
+      "fix": "Split the items into single requirements:\n- ME3: ME3a design and methods; ME3b critical stages and contingency plan; ME3c available means and prior team results.\n- ME4: ME4a timeline with milestones and responsibilities, including IP allocation; ME4b justification of requested personnel.\n- ME5: ME5a communication, internationalisation, open access and divulgación; ME5b DMP summary; ME5c gender in content and impact.\n- ME11: ME11a comparisons, selection, reverse causality and attrition; ME11b assumptions and limits of causal claims.\n- ME13: ME13a comprehensible consent with communication supports; ME13b participation or withdrawal does not affect services.\nRewrite EO1 and EO2 as topic-specific outcomes, or delete them because ME2 and ME5 cover them."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "call.md Exclusiones and call.yaml EX2: 'No se pueden incluir actividades de entidades que no participan en el proyecto.'",
+      "problem": "The item does not say which activities or which entities it covers. The topic requires studying cultural activities run by outside cultural entities and care services (SC2, SC5, SC7) and recruiting through centres under access agreements (ME14). Read literally, EX2 excludes the object of study. Read narrowly, it is unclear what a proposal must avoid. No source article is given for it.",
+      "fix": "Reword EX2 as a concrete rule tied to a cited article, e.g. 'No se asignan tareas del plan de trabajo ni costes a entidades que no forman parte de la solicitud; los centros y entidades colaboradoras solo facilitan acceso en los términos de acuerdos documentados'. Otherwise delete it."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 1",
+      "where": "call.md §2, §3 and §4 instructions, and ME14 in both files",
+      "problem": "The call contains wording a funder would not write. It refers to a dossier, warns against fabrication and points to specific trap types, so it signals the hidden traps (Task 4 leakage). None of this appears in the anexo VII memoria template. The passages are:\n- §2: 'Identificar los requisitos acreditados y la documentación que falte, sin inventar contratos ni autorizaciones'; 'la nacionalidad extranjera por sí sola no es una exclusión'.\n- §4.1: 'Utilizar los datos del dossier; distinguir la identidad y afiliación acreditadas de las relaciones que todavía se proponen'.\n- §4.3: 'No presentar recursos o colaboraciones pendientes como disponibles'.\n- §4.5: 'No presentar financiación pendiente como concedida ni cargar dos veces el mismo coste'.\n- §4.6: 'Usar solo antecedentes del dossier'.\n- §4.7: 'No fabricar certificados ni documentos administrativos'.\n- ME14: 'sin atribuir ese alcance a meras cartas de interés'.\n- §3: 'independientes de los componentes de puntuación del benchmark'.",
+      "fix": "Delete these sentences and keep neutral template wording. Examples:\n- §4.7: 'Indicar las autorizaciones obtenidas y las que se solicitarán.'\n- ME14: 'Indicar qué actividades (contacto, reclutamiento, observación, consulta de registros) ampara cada acuerdo de acceso.'\n- §4.1: 'Indicar personas IP, tipo, duración, título y acrónimo en español e inglés.'\nDrop the reference to benchmark scoring from §3."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 3",
+      "where": "call.md §2 ('La ayuda para formación predoctoral es opcional…'), §4.6, ME6, ME7",
+      "problem": "The call does not say whether a requested predoctoral contract counts toward the 30.000–75.000 or 50.000–99.000 EUR direct-cost bands. It also does not say whether it counts toward the 100.000 EUR threshold that triggers English. A proposal requesting predoctoral aid cannot be checked for budget compliance. Under the real scheme the predoctoral contract is funded through the associated predoctoral contracts call, not from project direct costs.",
+      "fix": "Add one sentence to the §2 table or text and to ME6, worded as in the resolution, e.g. 'La ayuda para contratos predoctorales no forma parte de los costes directos solicitados ni de las bandas'. Cite the article that supports it."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md Fuentes ('artículos 2, 7–10, 14 y 18.2.a, criterios del anexo I.b, prioridades del anexo III y memoria del anexo VII') and call.yaml source_note",
+      "problem": "The text relies on provisions missing from the source list: artículo 11.4 for the 25% indirect costs, anexo IV for the specific execution conditions in §4.7, and anexo V for the type-A limit on prior IP time.",
+      "fix": "Add artículo 11.4, anexo IV and anexo V to Fuentes and to the yaml source_note, after checking each against the resolution."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "call.md §2 table, Duración: 'Elegir 36 o 48 meses; 48 si hay campañas oceanográficas'",
+      "problem": "The clause reads as if 48 months were reserved for projects with oceanographic campaigns. That contradicts 'Elegir 36 o 48' and 'tres o cuatro años', and the clause has no bearing on this topic.",
+      "fix": "Write '36 o 48 meses'. If the resolution has a specific rule for campaigns, quote it exactly in a note; otherwise drop the clause."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 3",
+      "where": "call.md, last lines: 'Fuentes verificadas el 31 de octubre de 2026'",
+      "problem": "The visible call carries a date after the benchmark present date of 1 October 2026, which systems reading the call at that date would see as an anachronism.",
+      "fix": "Remove the verification date from call.md and keep it only in call.yaml source_note and provenance."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.yaml/call.md ME14; call.md §4.3 ('los integrantes de este último no figuran como responsables de objetivos y tareas')",
+      "problem": "ME14 applies unconditionally, yet a design may recruit outside centres. Separately, the §4.3 rule separating the research team from the work team is checkable but has no item in call.yaml.",
+      "fix": "Prefix ME14 with 'Cuando el contacto, el reclutamiento o la observación dependan de centros,'. Either add an item such as 'Solo los miembros del equipo de investigación figuran como responsables de objetivos y tareas' or drop the sentence from §4.3."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 2",
+      "where": "call.md Exclusiones and call.yaml EX1, EX3",
+      "problem": "EX1 and EX3 are eligibility rules that carry benchmark commentary ('son restricciones inventadas del benchmark, no prohibiciones generales de PID2025'). EX3 also bundles two separate exclusions: coordinated projects and the two-year exception.",
+      "fix": "Use EX1 'Proyectos RTA', EX3a 'Proyectos coordinados' and EX3b 'Proyectos de 24 meses'. Keep the single statement in §2 that these restrictions are invented."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "kind": "call",
+  "id": "he-cl5-heatstorage",
+  "family": "anthropic",
+  "model": "us.anthropic.claude-opus-4-6-v1",
+  "created": "2026-10-31",
+  "prompt_sha256": "e3d7f08b5ec4a0d67d29ca9b4ee815cfcb0c2ddbc8e7b79298cb94f9540730ed",
+  "draft": {
+    "title": "Seasonal and large-scale thermal energy storage for equitable low-temperature district heating",
+    "expected_outcomes_intro": "Projects are expected to contribute to all of the following expected outcomes, supporting the EU's ambition to decarbonise heating and cooling while ensuring that the energy transition is socially fair:",
+    "expected_outcomes": [
+      "District heating operators and urban planners have access to validated, replicable system designs that integrate seasonal or large-scale thermal energy storage (pit, tank, borehole or aquifer) with low-temperature district heating networks supplied by waste heat and renewable sources, demonstrated at no fewer than three climatically diverse pilot sites.",
+      "Network operators can deploy open, interoperable digital tools for predictive operational optimisation of storage charge–discharge cycles, demand forecasting and source scheduling, reducing annual thermal losses from storage by at least 15 % compared with rule-based control at the pilot sites.",
+      "Municipal authorities and regulators have evidence-based tariff frameworks and policy recommendations that ensure the economic benefits of thermal energy storage—lower marginal heat costs and improved supply security—are passed on to end-users, with specific mechanisms to protect energy-poor and low-income households from disproportionate cost burdens.",
+      "The European research and industry community benefits from publicly available, harmonised performance data and life-cycle assessments covering technical, economic, environmental and social dimensions of large-scale thermal storage integrated into district heating, enabling benchmarking across storage technologies and climatic zones."
+    ],
+    "scope_intro": "Heating and cooling account for roughly half of final energy consumption in the EU, and district heating serves a growing share of urban demand. Seasonal and large-scale thermal energy storage can bridge the mismatch between summer heat surpluses—from solar thermal, industrial waste heat, data-centre cooling and combined heat and power—and winter demand peaks. However, current deployments remain fragmented: storage sizing and operation are rarely co-optimised with network hydraulics and variable renewable supply; monitoring data are scarce and not comparable across sites; and tariff structures seldom reflect the system-level savings that storage enables, leaving low-income households without tangible benefit.\n\nProposals should demonstrate integrated thermal-storage–district-heating systems at pilot scale (TRL 4 to TRL 6) across multiple sites, combining technical innovation in storage integration and operational control with social-science research on equitable tariff design and citizen engagement. Interdisciplinary consortia bringing together engineering, data science, economics, social sciences and district heating utilities are expected.",
+    "scope": [
+      "Design, build or retrofit and operate at least three pilot-scale seasonal or large-scale thermal energy storage units (pit, tank, borehole field or aquifer) connected to low-temperature (≤ 55 °C supply) district heating networks in at least two EU Member States or Associated Countries.",
+      "Integrate at least two different waste or renewable heat sources per pilot site—such as solar thermal, industrial or commercial waste heat, geothermal, sewage heat recovery or surplus from combined heat and power—and characterise their temporal availability and quality.",
+      "Develop and validate model-predictive or data-driven operational optimisation strategies that jointly schedule storage charging and discharging, source dispatch and network flow, accounting for weather forecasts, demand profiles and electricity-market signals.",
+      "Conduct social-science research, including household surveys and participatory workshops, to design and test tariff structures and subsidy mechanisms that allocate storage-related cost savings equitably, with explicit provisions for energy-poor and low-income consumers.",
+      "Establish a common monitoring and reporting protocol across all pilot sites, collecting at least two full seasonal cycles of thermal, hydraulic, economic and user-satisfaction data, and publish the resulting datasets under open licences.",
+      "Perform comparative life-cycle assessment and life-cycle costing of the demonstrated storage–network configurations, including sensitivity analysis for different climatic zones, urban densities and regulatory contexts, to support replication planning."
+    ],
+    "exclusions": [
+      "Development or testing of novel heat-pump compressor hardware; proposals may use commercially available heat pumps as system components but must not focus on compressor-level innovation.",
+      "Thermal energy storage systems serving a single building or single building block; all storage units must be connected to a district-level heating network serving multiple buildings or a neighbourhood."
+    ],
+    "mandatory_elements": [
+      "Proposals must adopt a multi-actor approach, involving at least one district heating utility, one municipal or regional authority and one organisation representing low-income or energy-poor communities as consortium partners or through a formal collaboration agreement.",
+      "Proposals must integrate social sciences and humanities expertise to address tariff equity, energy poverty and user acceptance; at least one work package must be led by a partner with demonstrated competence in these disciplines.",
+      "Proposals must include a citizen and stakeholder engagement plan describing how residents—particularly those from low-income households—at each pilot site will be involved in co-designing tariff mechanisms and evaluating service quality throughout the project.",
+      "Proposals must include a do-no-significant-harm assessment in line with the EU Taxonomy Regulation, covering potential environmental impacts of underground storage (groundwater quality, land use, subsurface thermal pollution) and describing mitigation measures."
+    ],
+    "conditions": {
+      "max_budget": 7000000,
+      "duration_months_max": 48,
+      "trl_start": 4,
+      "trl_end": 6,
+      "expected_projects": 2
+    }
+  },
+  "history": [
+    {
+      "draft": {
+        "title": "Seasonal and large-scale thermal energy storage for equitable low-temperature district heating",
+        "expected_outcomes_intro": "Projects are expected to contribute to all of the following expected outcomes, supporting the EU's ambition to decarbonise heating and cooling while ensuring that the energy transition is socially fair:",
+        "expected_outcomes": [
+          "District heating operators and urban planners have access to validated, replicable system designs that integrate seasonal or large-scale thermal energy storage (pit, tank, borehole or aquifer) with low-temperature district heating networks supplied by waste heat and renewable sources, demonstrated at no fewer than three climatically diverse pilot sites.",
+          "Network operators can deploy open, interoperable digital tools for predictive operational optimisation of storage charge–discharge cycles, demand forecasting and source scheduling, reducing annual thermal losses from storage by at least 15 % compared with rule-based control at the pilot sites.",
+          "Municipal authorities and regulators have evidence-based tariff frameworks and policy recommendations that ensure the economic benefits of thermal energy storage—lower marginal heat costs and improved supply security—are passed on to end-users, with specific mechanisms to protect energy-poor and low-income households from disproportionate cost burdens.",
+          "The European research and industry community benefits from publicly available, harmonised performance data and life-cycle assessments covering technical, economic, environmental and social dimensions of large-scale thermal storage integrated into district heating, enabling benchmarking across storage technologies and climatic zones."
+        ],
+        "scope_intro": "Heating accounts for roughly half of final energy consumption in the EU, and district heating serves a growing share of urban demand. Seasonal and large-scale thermal energy storage can bridge the mismatch between summer heat surpluses—from solar thermal, industrial waste heat, data-centre cooling and combined heat and power—and winter demand peaks. However, current deployments remain fragmented: storage sizing and operation are rarely co-optimised with network hydraulics and variable renewable supply; monitoring data are scarce and not comparable across sites; and tariff structures seldom reflect the system-level savings that storage enables, leaving low-income households without tangible benefit.\n\nProposals should demonstrate integrated thermal-storage–district-heating systems at pilot scale (TRL 4 to TRL 6) across multiple sites, combining technical innovation in storage integration and operational control with social-science research on equitable tariff design and citizen engagement. Interdisciplinary consortia bringing together engineering, data science, economics, social sciences and district heating utilities are expected.",
+        "scope": [
+          "Design, build or retrofit and operate at least three pilot-scale seasonal or large-scale thermal energy storage units (pit, tank, borehole field or aquifer) connected to low-temperature (≤ 55 °C supply) district heating networks in at least two EU Member States or Associated Countries.",
+          "Integrate at least two different waste or renewable heat sources per pilot site—such as solar thermal, industrial or commercial waste heat, geothermal, sewage heat recovery or surplus from combined heat and power—and characterise their temporal availability and quality.",
+          "Develop and validate model-predictive or data-driven operational optimisation strategies that jointly schedule storage charging and discharging, source dispatch and network flow, accounting for weather forecasts, demand profiles and electricity-market signals.",
+          "Conduct social-science research, including household surveys and participatory workshops, to design and test tariff structures and subsidy mechanisms that allocate storage-related cost savings equitably, with explicit provisions for energy-poor and low-income consumers.",
+          "Establish a common monitoring and reporting protocol across all pilot sites, collecting at least two full seasonal cycles of thermal, hydraulic, economic and user-satisfaction data, and publish the resulting datasets under open licences.",
+          "Perform comparative life-cycle assessment and life-cycle costing of the demonstrated storage–network configurations, including sensitivity analysis for different climatic zones, urban densities and regulatory contexts, to support replication planning."
+        ],
+        "exclusions": [
+          "Development or testing of novel heat-pump compressor hardware; proposals may use commercially available heat pumps as system components but must not focus on compressor-level innovation.",
+          "Thermal energy storage systems serving a single building or single building block; all storage units must be connected to a district-level heating network serving multiple buildings or a neighbourhood."
+        ],
+        "mandatory_elements": [
+          "Proposals must adopt a multi-actor approach, involving at least one district heating utility, one municipal or regional authority and one organisation representing low-income or energy-poor communities as consortium partners or through a formal collaboration agreement.",
+          "Proposals must integrate social sciences and humanities expertise to address tariff equity, energy poverty and user acceptance; at least one work package must be led by a partner with demonstrated competence in these disciplines.",
+          "Proposals must include a citizen and stakeholder engagement plan describing how residents—particularly those from low-income households—at each pilot site will be involved in co-designing tariff mechanisms and evaluating service quality throughout the project.",
+          "Proposals must include a do-no-significant-harm assessment in line with the EU Taxonomy Regulation, covering potential environmental impacts of underground storage (groundwater quality, land use, subsurface thermal pollution) and describing mitigation measures."
+        ],
+        "conditions": {
+          "max_budget": 7000000,
+          "duration_months_max": 48,
+          "trl_start": 4,
+          "trl_end": 6,
+          "expected_projects": 2
+        }
+      },
+      "maintainer_edit": "Apply deep-review minor Call 4: the EU roughly-half energy share covers heating and cooling together (European Commission, 28 August 2025).",
+      "date": "2026-10-31"
+    }
+  ]
+}

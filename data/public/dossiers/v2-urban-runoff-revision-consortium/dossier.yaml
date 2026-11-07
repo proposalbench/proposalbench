@@ -1,0 +1,325 @@
+schema_version: 1
+id: v2-urban-runoff-revision-consortium
+language: en
+applicant_type: consortium
+career_stage: senior
+disciplines:
+- architecture and urban planning
+- hydrology
+- public administration
+method_profile: mixed
+country: ES
+files:
+- path: cv_coordinator.md
+  role: cv
+- path: consortium_record.md
+  role: team
+- path: prior_project_report.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources_and_access.md
+  role: resources
+- path: previous_application.md
+  role: other
+- path: evaluation_summary_report.md
+  role: other
+- path: technical_review_record.md
+  role: other
+facts:
+- id: F01
+  category: identity
+  kind: existing
+  text: Elena Sorlí Valderra completed her doctorate in 2007, has held a permanent professorship since
+    September 2022, supervised four completed doctorates and coordinates two current doctoral candidates,
+    with European collaboration experience comprising joint research agreements and the unsuccessful 2025
+    Horizon Europe submission.
+  value: '2007'
+  salient: true
+  source: cv_coordinator.md
+- id: F02
+  category: partner
+  kind: existing
+  text: The consortium comprises four independent legal entities in Spain, Belgium, Portugal and Italy,
+    with hydrology lead Bastien Delvaux Orsanne holding a doctorate awarded in 2011, coastal lead Madalena
+    Seabra Valmouro holding a doctorate awarded in 2010 and administrative lead Giulia Nardelli Vescora
+    employed by the municipal association since 2017.
+  value: four independent legal entities
+  salient: true
+  source: consortium_record.md
+- id: F03
+  category: team
+  kind: existing
+  text: The municipal association assigned its existing employee Giulia Nardelli Vescora as liaison for
+    municipal adoption discussions, with responsibility for maintaining the responsibility register, collecting
+    comments and recording decisions.
+  value: 7 April 2026
+  salient: true
+  source: consortium_record.md
+- id: F04
+  category: other
+  kind: existing
+  text: Nardelli Vescora circulated a draft threshold-workshop agenda distinguishing model probability
+    thresholds, administrative escalation rules and public communication decisions, while agreement on
+    a meeting date remained outstanding.
+  value: 8 September 2026
+  salient: true
+  source: consortium_record.md
+- id: F05
+  category: other
+  kind: existing
+  text: The university signed agreements with Spanish and Portuguese adult resident organisations on 12
+    May 2026 and 2 June 2026, limited to organisational consultation on accessibility, meeting arrangements
+    and information-sheet wording, while individual participation requires a separate invitation and consent
+    process.
+  value: organisational consultation
+  salient: true
+  source: consortium_record.md
+- id: F06
+  category: other
+  kind: existing
+  text: Operational-owner and approving-authority fields remain unfilled for all three catchments, numerical
+    thresholds and operating procedures await municipal endorsement, consultation sessions and individual
+    recruitment have not begun, and the Bologna-area community organisation has not signed an agreement.
+  value: null
+  salient: true
+  source: consortium_record.md
+- id: F07
+  category: grant
+  kind: existing
+  text: Runoff–Reception Ledger ran from 1 January 2022 to 31 December 2024 under university award UVL-TS-2021-17
+    of EUR 420,000, spent as EUR 250,000 personnel, EUR 60,000 instruments and consumables, EUR 45,000
+    laboratory analysis, EUR 30,000 travel and transcription and EUR 35,000 institutional support, with
+    zero EU contribution and closing balance.
+  value: EUR 420,000
+  salient: true
+  source: prior_project_report.md
+- id: F08
+  category: result
+  kind: existing
+  text: The collection covers 12 manually sampled storms, four in each catchment of 2.1, 3.4 and 2.8 square
+    kilometres between October 2022 and November 2024, yielding 204 valid suspended-solids measurements
+    from 216 scheduled samples after twelve exclusions, but excludes the most severe locally reported
+    flooding.
+  value: '204'
+  salient: true
+  source: prior_project_report.md
+- id: F09
+  category: result
+  kind: existing
+  text: Mean outlet suspended solids across twelve event means were 86 mg/L with a 95% event-bootstrap
+    interval of 61–111 mg/L, but the turbidity–suspended-solids relationship differed between sites, a
+    transferable estuarine transport model remains unestablished, and microbial, nutrient and chemical-toxicity
+    endpoints were outside the analytical programme.
+  value: 86 mg/L
+  salient: true
+  source: prior_project_report.md
+- id: F10
+  category: result
+  kind: existing
+  text: Discharge RMSE was 0.18 m³/s with a 95% event-bootstrap interval of 0.12–0.25 m³/s, calculated
+    in-sample after all twelve storms had informed parameters and processing choices.
+  value: 0.18 m³/s
+  salient: true
+  source: prior_project_report.md
+- id: F11
+  category: result
+  kind: existing
+  text: The administrative study interviewed 24 municipal employees, eight per country, of whom eighteen
+    identified an information-distributing office and six identified a documented route to an authorised
+    decision, with recruitment confined to employees.
+  value: '24'
+  salient: true
+  source: prior_project_report.md
+- id: F12
+  category: budget
+  kind: existing
+  text: The application submitted on 18 September 2025 proposed 48 months from 1 January 2027 and requested
+    EUR 5,100,000, allocated to Valdebruma, Rivenne, Enseada Clara and Acque Civiche as EUR 2,040,000,
+    EUR 1,275,000, EUR 1,020,000 and EUR 765,000, to coordination, catchment modelling, receiving-water
+    modelling, demonstrations and transfer as EUR 510,000, EUR 1,530,000, EUR 1,275,000, EUR 1,020,000
+    and EUR 765,000, and to personnel, other direct costs and indirect costs as EUR 3,060,000, EUR 1,020,000
+    and EUR 1,020,000, with indirect costs at 25% of EUR 4,080,000 eligible direct costs and no subcontracting.
+  value: EUR 5,100,000
+  salient: true
+  source: previous_application.md
+- id: F13
+  category: other
+  kind: existing
+  text: The ESR dated 12 February 2026 awarded 3.00 for Excellence, 3.00 for Impact and 2.50 for Implementation,
+    totalling 8.50 and failing both the Implementation threshold of 3 and the overall threshold of 10.
+  value: '8.50'
+  salient: true
+  source: evaluation_summary_report.md
+- id: F14
+  category: resource
+  kind: existing
+  text: Protocol version 1.0 deposited on 19 June 2026 classifies all twelve historical storms as development
+    evidence and specifies eighteen prospective storms including nine held-out events with weather-system
+    grouping and a baseline-improvement gate, but execution and prospective collection had not begun by
+    September, while the 11 March 2026 reproducibility check only recovered the original fitted-model
+    error.
+  value: 19 June 2026
+  salient: true
+  source: technical_review_record.md
+- id: F15
+  category: other
+  kind: planned
+  text: The unexecuted protocol specifies 15-minute and 30-minute forecast horizons conditional on timestamped
+    rainfall inputs passing latency and coverage checks, using only information available at issue time
+    and recording experiments driven by subsequently observed rainfall separately as hydrological hindcasts.
+  value: 15-minute and 30-minute horizons
+  salient: true
+  source: technical_review_record.md
+- id: F16
+  category: other
+  kind: planned
+  text: The protocol's leave-one-site-out transfer analysis excludes destination-site outcomes from fitting
+    but remains exploratory with three sites.
+  value: With three sites, this analysis is exploratory.
+  salient: true
+  source: technical_review_record.md
+- id: F17
+  category: other
+  kind: planned
+  text: The dependency configuration documented on 22 July 2026 and amended on 23 September 2026 uses
+    a 36-month envelope with permissions in M1–M6, acquisition in M7–M24, model development in M7–M21,
+    code lock at M21, evaluation in M25–M30 and interpretation, bounded demonstrations and synthesis in
+    M31–M36, assigns institutional handover owners and removes continuous operational-service demonstration
+    and extended transfer, while equipment, staffing and support requirements remain unpriced.
+  value: 36-month envelope
+  salient: true
+  source: technical_review_record.md
+- id: F18
+  category: result
+  kind: existing
+  text: The sampling review counted 96, 108 and 84 candidate episodes over 2012–2023 at A, B and C, giving
+    annual rates of 8.0, 9.0 and 7.0 with approximate 95% Poisson intervals of 6.5–9.8, 7.4–10.9 and 5.6–8.7,
+    and estimated eighteen-month usable counts of 7.8, 8.8 and 6.8 under an unmeasured 65% capture assumption
+    requiring three automatic samplers whose quotations and procurement lead times remain outstanding.
+  value: 65%
+  salient: true
+  source: technical_review_record.md
+- id: F19
+  category: resource
+  kind: existing
+  text: The Spanish Drainage Atlas Series licence covers catchment A only, expires on 31 December 2026
+    without an executed renewal and requires analytical use to cease at expiry.
+  value: 31 December 2026
+  salient: true
+  source: resources_and_access.md
+- id: F20
+  category: resource
+  kind: existing
+  text: Catchments B and C retain municipal extracts only for audit under letters limited to the 2022–2024
+    measurement period, while the 15 July 2026 inventory identifies a reduced-detail public-rainfall,
+    terrain and prospective-local-sensor route whose collection has not started, with radar reuse clearance
+    incomplete, delivery latency unmeasured and an operational nowcast feed unarranged.
+  value: 15 July 2026
+  salient: true
+  source: resources_and_access.md
+- id: F21
+  category: resource
+  kind: existing
+  text: The partners have eleven associated staff distributed 3, 3, 3 and 2, with the university research
+    officer and Rivenne modeller contracted until 30 June 2027 and 31 December 2027 respectively, six
+    functional level loggers, three turbidity probes including one awaiting an unordered repair part,
+    three stored rain gauges, Enseada Clara's suspended-solids laboratory and Rivenne's shared computational
+    server, but staff allocations and recruitment against anticipated awards remain unauthorised.
+  value: 11 staff members
+  salient: true
+  source: resources_and_access.md
+- id: F22
+  category: resource
+  kind: existing
+  text: Microbial analysis requires an external laboratory arrangement, and Enseada Clara has not contracted
+    a provider.
+  value: Microbial analysis requires an external laboratory arrangement; Enseada Clara has not contracted
+    a provider.
+  salient: true
+  source: resources_and_access.md
+- id: F23
+  category: other
+  kind: existing
+  text: Approval UVL-ETH-2022-06 covers the completed employee-interview and environmental-observation
+    study, while the resident-study amendment remains in preparation and unsubmitted, fresh installation
+    access has not been agreed and municipal discussions have not produced operational service-level agreements.
+  value: UVL-ETH-2022-06
+  salient: true
+  source: resources_and_access.md
+- id: F24
+  category: publication
+  kind: existing
+  text: The collaboration lists four published peer-reviewed articles from 2023–2026 covering the event
+    framework, fitted runoff error, estuarine pulses and employee interviews.
+  value: four peer-reviewed articles
+  salient: true
+  source: publications.md
+- id: F25
+  category: budget
+  kind: existing
+  text: The archived 2025 application remains the only fully costed joint work plan, with dependency-review
+    requirements received for costing and the revised contribution request and partner shares awaiting
+    approval.
+  value: only fully costed joint work plan
+  salient: true
+  source: resources_and_access.md
+own_publications:
+- key: responsibility-framework
+  authors:
+  - Sorlí Valderra, E.
+  - Delvaux Orsanne, B.
+  - Nardelli Vescora, G.
+  year: 2023
+  title: 'Recording drainage responsibility alongside storm observations: a three-country field framework.'
+  venue: Journal of Urban Water Institutions
+  doi: 10.99999/pb.v2-urban-runoff-revision-consortium.2023.1
+- key: event-grouping
+  authors:
+  - Delvaux Orsanne, B.
+  - Sorlí Valderra, E.
+  - Seabra Valmouro, M.
+  year: 2024
+  title: Event grouping and fitted runoff error in small coastal urban catchments.
+  venue: Methods in Drainage Observation
+  doi: 10.99999/pb.v2-urban-runoff-revision-consortium.2024.2
+- key: estuarine-pulses
+  authors:
+  - Seabra Valmouro, M.
+  - Delvaux Orsanne, B.
+  - Sorlí Valderra, E.
+  year: 2025
+  title: Interpreting suspended-material pulses between urban outlets and estuarine stations.
+  venue: Estuarine Field Systems Quarterly
+  doi: 10.99999/pb.v2-urban-runoff-revision-consortium.2025.3
+- key: authorised-decision
+  authors:
+  - Nardelli Vescora, G.
+  - Sorlí Valderra, E.
+  year: 2026
+  title: 'From an information contact to an authorised decision: interviews on municipal water warnings.'
+  venue: Review of Municipal Evidence and Practice
+  doi: 10.99999/pb.v2-urban-runoff-revision-consortium.2026.4
+reviewer_criticisms:
+- id: R1
+  text: Validation withholds time steps from storms already used to select parameters and preprocessing,
+    without an untouched event allocation, protection against test-set tuning or a gate establishing independent
+    warning skill.
+- id: R2
+  text: The municipal adoption route lacks a responsible operational owner and an approved decision threshold
+    connecting a forecast to an authorised action.
+- id: R3
+  text: The equity objective relies on municipal officers to represent underserved residents, with no
+    direct co-design participation, recruitment pathway or resources addressing participation barriers.
+- id: R4
+  text: The schedule and budget omit owners, durations and identifiable costs for critical data, permission,
+    modelling-interface and deployment handovers.
+- id: R5
+  text: The proposed coupling to receiving-water transport lacks a sufficiently clear account of how uncertainty
+    propagates through the coupled components within validation.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY ef5d11b9-b71a-441d-829d-92f31181f471

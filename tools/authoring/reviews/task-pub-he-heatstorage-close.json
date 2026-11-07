@@ -1,0 +1,52 @@
+{
+  "kind": "task",
+  "id": "pub-he-heatstorage-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 1",
+      "where": "resources.md, core team; publications.md, publications 3 and 4; cv_coordinator.md, FLEXI-GRID",
+      "problem": "Rasmus Krogslund is the name of a real Danish researcher in wireless communications and RFID. FLEXI-GRID also reuses an existing European research project name. The fictional-document notice does not resolve these identity collisions.",
+      "fix": "Replace the person and project names with distinctive coined names, updating all document references, publication authors and hidden records consistently."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "prior_project.md, monitoring period and efficiency uncertainty; resources.md, Fjordkøbing PTES Data Repository; dossier.yaml, F19",
+      "problem": "1 October 2022 through 30 June 2025 comprises 1,004 days, not 1,003. The stated timestamp and channel-value totals propagate this error. At 288 timestamps per day and 140 channels, the complete grid contains 289,152 timestamps and 40,481,280 channel values.",
+      "fix": "Correct the duration and dependent totals. If 39,800,000 valid values is exact, the missing or invalid count becomes 681,280, approximately 1.7%. Alternatively, document the actual shorter acquisition interval and its boundaries. Update the uncertainty description and F19 accordingly."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 1; Task 2; Dossier 5",
+      "where": "brief.md, Bergdorf fast-track confirmation; consortium.md, GipfelWärme candidate site; task.yaml, T2",
+      "problem": "The brief asserts newly confirmed fast-track permitting and commissioning at month 20, while the September dossier retains unconfirmed access and permitting and month-36 commissioning. No dated update reconciles these accounts. Month 36 leaves only 12 months within the permitted project duration, making two full annual storage cycles impossible. T2 nevertheless requires month-20 commissioning as though its supporting status were settled.",
+      "fix": "Add a dated September update distinguishing confirmed commitments from proposed acceleration, reconcile the site schedule throughout the bundle, and provide a credible route to two complete cycles within 48 months. Make T2 assess the duration limit and feasible monitoring schedule without imposing month 20 as the uniquely acceptable solution."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 4",
+      "where": "prior_project.md, system architecture and fossil-fuel displacement",
+      "problem": "The claimed gas displacement lacks a reconcilable system heat balance. Boiler heat falls from 22,500 to 3,600 MWh/year, a reduction of 18,900 MWh/year. The new heat pump supplies only 9,001 MWh/year, and storage loses 2,750 MWh/year. With unchanged demand and useful solar production, these figures leave 12,649 MWh/year unexplained. Solar thermal already existed in the baseline, but neither its baseline and intervention yields nor changes in demand are reported.",
+      "fix": "Provide annual baseline and intervention heat balances covering demand, useful solar production, direct heat delivery, storage flows, losses and curtailment. Identify any solar expansion or demand reduction explicitly, and revise the displacement and emissions results if those balances do not support them."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts registry",
+      "problem": "Several proposal-critical facts are absent from the registry: Bergdorf's month-36 commissioning, 75°C connection, planned 20,000 m3 tank and heat-source capacities; Rotterdam's month-24 commissioning, 70°C connection and currently identified single source; and ThermoNet-3D's proprietary status. These omissions conceal constraints directly relevant to feasibility and open-tool commitments.",
+      "fix": "Register these exact quantities and statuses with their sources, preserving planned versus existing distinctions. After reconciling the brief, register its dated supporting assessments for accelerated commissioning, temperature conversion and the proposed Rotterdam configuration in dossier documents."
+    },
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, F05 and F21",
+      "problem": "F05 lists 81% alongside complete seasonal efficiencies without retaining that it covers only October 2024–June 2025. F21 attributes the coordinator's 14 completed Ph.D. supervisions to resources.md, which does not contain that fact. These records can cause the answer key to reward an overstated result or rely on an unsupported source attribution.",
+      "fix": "Include the exact observation periods and partial-season qualification in F05. Split F21 into team composition sourced to resources.md and completed supervision sourced to cv_coordinator.md."
+    }
+  ]
+}

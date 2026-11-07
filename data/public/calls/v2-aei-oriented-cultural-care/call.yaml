@@ -1,0 +1,157 @@
+schema_version: 1
+id: v2-aei-oriented-cultural-care
+scheme: aei_pid
+language: es
+title: Participación cultural y accesibilidad lingüística en las redes de apoyo y el acceso a cuidados
+  de las personas mayores
+topic_code: PB2-AEI-OR-02
+proposal_type: full
+length_contract:
+  max_words: 10000
+  enforcement: inadmissible
+  tolerance: 0.0
+  exempt:
+  - references
+  page_limit: 20
+  words_per_page: 500
+  source_note: |-
+    Verificado el 2026-10-31: resolución AEI PID2025 de 29 de octubre de 2025,
+    artículo 18.2.a y anexo VII: máximo de 20 páginas para proyectos individuales,
+    incluidos todos los apartados; 35 para coordinados (fuera de esta convocatoria ficticia).
+    La aplicación no admite memorias que excedan ese límite. Formato recomendado:
+    Times New Roman, Calibri o Arial, mínimo 11 puntos, márgenes laterales de 2,5 cm,
+    superior/inferior de 1,5 cm e interlineado mínimo sencillo. Adaptación: 20 x 500
+    palabras por página = 10.000 palabras, sin tolerancia. Las 500 palabras son una
+    estimación de prosa con espacio para títulos y tablas, no una regla de la AEI.
+    Se excluyen las referencias SOLO por adaptación del benchmark; la fuente no les
+    concede una exención de páginas. Se cuentan títulos de apartados, tablas y pies.
+    Resolución: https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf
+    Extracto BOE publicado el 31 de octubre, no el 29: https://www.boe.es/boe/dias/2025/10/31/pdfs/BOE-B-2025-39643.pdf
+required_sections:
+- id: '1'
+  title: Datos de la propuesta
+- id: '2'
+  title: Justificación y novedad de la propuesta
+- id: '3'
+  title: Objetivos, metodología y plan de trabajo
+- id: '4'
+  title: Impacto esperado de los resultados
+- id: '5'
+  title: Justificación del presupuesto solicitado
+- id: '6'
+  title: Capacidad formativa
+  core: false
+- id: '7'
+  title: Condiciones específicas para la ejecución del proyecto
+  core: false
+expected_outcomes:
+- id: EO1
+  text: La comunidad investigadora dispondrá de evidencia sobre los mecanismos que vinculan participación
+    cultural, accesibilidad lingüística, redes de apoyo y acceso a cuidados.
+- id: EO2
+  text: Las entidades culturales y los servicios de cuidados comprenderán mejor qué barreras lingüísticas
+    y sociales dificultan la participación de las personas mayores y cómo esas barreras afectan a sus
+    oportunidades de recibir apoyo.
+- id: EO3
+  text: Las administraciones y organizaciones que atienden a personas mayores contarán con criterios fundamentados
+    para valorar iniciativas culturales y medidas de accesibilidad lingüística.
+- id: EO4
+  text: Las personas mayores y las organizaciones que las representan dispondrán de resultados accesibles
+    sobre las condiciones que favorecen o limitan su participación cultural y su acceso a apoyos y cuidados.
+scope:
+- id: SC1
+  text: Delimitar las formas de participación cultural y las condiciones de accesibilidad lingüística
+    estudiadas, atendiendo a las lenguas utilizadas, la comprensión de la información y las posibilidades
+    de interacción.
+- id: SC2
+  text: Comparar situaciones de participación y accesibilidad mediante un diseño que examine diferencias
+    previas en salud, recursos económicos, movilidad y redes, selección de participantes y temporalidad,
+    explicitando supuestos de atribución causal y explicaciones alternativas.
+- id: SC3
+  text: Analizar los mecanismos por los que la participación cultural y la accesibilidad lingüística pueden
+    modificar la composición, disponibilidad y reciprocidad de las redes de apoyo.
+- id: SC4
+  text: Examinar la relación entre las redes de apoyo y el acceso efectivo a cuidados, diferenciando necesidades,
+    búsqueda de ayuda, utilización de servicios y necesidades no atendidas.
+- id: SC5
+  text: Evaluar la relación con el bienestar con instrumentos disponibles o adaptados en las lenguas de
+    las personas participantes.
+- id: SC6
+  text: Incorporar las perspectivas de personas mayores con distintas experiencias lingüísticas y de participación
+    cultural, incluidas aquellas que encuentran barreras para participar.
+- id: SC7
+  text: Derivar implicaciones para entidades culturales y servicios de cuidados, indicando las condiciones
+    en que los resultados podrían trasladarse a otros contextos.
+exclusions:
+- id: EX1
+  text: No se asignarán tareas del plan de trabajo a entidades ajenas a la participación descrita en la
+    solicitud; estudiar sus actividades o acceder a ellas mediante colaboración no las convierte en ejecutoras
+    de tareas del proyecto (convención del benchmark para aplicar el anexo VII).
+- id: EX2
+  text: Propuestas centradas exclusivamente en organizar talleres, visitas o programación cultural, sin
+    hipótesis de investigación ni una estrategia de comparación y análisis.
+- id: EX3
+  text: Evaluaciones que utilicen únicamente asistencia, satisfacción o número de actividades como prueba
+    de mejoras en el bienestar o en el acceso a cuidados.
+- id: EX4
+  text: Desarrollo de materiales traducidos o herramientas de accesibilidad como único resultado, sin
+    estudiar su relación con la participación cultural, las redes de apoyo y el acceso a cuidados.
+mandatory_elements:
+- id: ME1
+  text: Explicar cómo los objetivos contribuyen a resolver un problema concreto de la prioridad temática
+    nombrada en los resultados esperados.
+- id: ME2
+  text: Describir un plan de contingencia para las etapas críticas del proyecto.
+- id: ME3
+  text: Presentar un cronograma que sitúe las tareas y sus responsables en el tiempo.
+- id: ME4
+  text: Incluir un resumen del plan de gestión de los datos de investigación.
+- id: ME5
+  text: Cuando proceda, explicar cómo se considera la dimensión de género en el contenido de la investigación;
+    justificar su falta de pertinencia en otro caso.
+- id: ME6
+  text: Justificar cada partida de costes directos solicitados por su relación con las actividades del
+    proyecto.
+- id: ME7
+  text: Cuando proceda por solicitarse ayuda predoctoral asociada, describir el programa formativo previsto;
+    en otro caso indicar «No procede».
+- id: ME8
+  text: Cuando proceda, indicar las autorizaciones necesarias para ejecutar la investigación y su estado
+    de tramitación; en otro caso indicar «No procede».
+- id: ME9
+  text: Definir operativamente redes de apoyo, acceso a cuidados y bienestar, con el instrumento o la
+    fuente de cada medida, y qué cambios permitirán responder a cada hipótesis.
+- id: ME10
+  text: Justificar el número de participantes previsto para cada comparación o, en los componentes cualitativos,
+    el número de casos, y el tratamiento de las pérdidas de seguimiento cuando proceda.
+- id: ME11
+  text: Describir un procedimiento de consentimiento comprensible en las lenguas pertinentes, con apoyos
+    ajustados a las necesidades de las personas participantes. Explicar cómo se garantizará que rechazar
+    o abandonar la investigación no afecte al acceso a actividades o cuidados.
+- id: ME12
+  text: Identificar cada centro, servicio o vía por la que se contactará a las personas participantes
+    u obtendrán datos, indicando qué datos procederán de cada fuente y quién los recogerá.
+- id: ME13
+  text: Especificar cómo se protegerá la información sobre terceras personas mencionadas al estudiar redes
+    de apoyo y cómo se evitará su identificación en los resultados difundidos.
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 30000
+  max_budget: 99000
+  duration_months_min: 36
+  duration_months_max: 48
+  consortium:
+    min_entities: 1
+    min_countries: 1
+    notes: Proyecto individual con una o dos IP y entidad beneficiaria elegible con residencia fiscal
+      o establecimiento permanente en España; no se exige un consorcio internacional. Condiciones adicionales
+      de esta convocatoria ficticia, que se aplican junto con los límites numéricos; costes directos tipo
+      A, 30.000-75.000 EUR; tipo B, 50.000-99.000 EUR; duración de 36 o 48 meses exclusivamente, 48 meses
+      obligatorios si hay campañas oceanográficas.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 05a9b9f7-e2ec-436f-94ec-7cd7eb597c2d

@@ -1,0 +1,299 @@
+schema_version: 1
+id: v2-coastal-transport-observatory
+language: en
+applicant_type: consortium
+career_stage: senior
+disciplines:
+- oceanography
+- hydrology
+- environmental chemistry
+- urban planning
+method_profile: quantitative
+country: PT
+files:
+- path: cv_pi.md
+  role: cv
+- path: consortium.md
+  role: team
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources.md
+  role: resources
+facts:
+- id: F01
+  category: position
+  kind: existing
+  text: Eliana Seabra Vilar, who completed her physical-oceanography doctorate in December 2010, has been
+    Senior Research Scientist at the independent nonprofit Instituto Marinho de Vale Sereno in Lisbon
+    since October 2018 and Head of Estuarine Processes since January 2021.
+  value: October 2018
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: grant
+  kind: existing
+  text: Seabra Vilar was principal investigator of Tidal Exchange along Inhabited Margins, funded externally
+    by Fundação Lameiral de Estudos Ambientais through award FL-EA-2014-18 for EUR 184,000 during 2015–2018,
+    with final acceptance on 28 June 2019.
+  value: EUR 184,000
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: grant
+  kind: existing
+  text: Seabra Vilar was co-investigator and Portuguese lead of Freshwater Retention across Estuarine
+    Seasons during 2019–2022 under Fundação Verdança de Ciência Costeira award FV-CC-2018-06, whose EUR
+    426,000 comprised EUR 300,000 for the Spanish coordinator and EUR 126,000 for the Portuguese institute,
+    with final acceptance on 12 May 2023.
+  value: EUR 426,000
+  salient: true
+  source: cv_pi.md
+- id: F04
+  category: publication
+  kind: existing
+  text: Seabra Vilar's record comprises 22 peer-reviewed journal articles, three represented in the consortium's
+    four selected articles, alongside 4 completed doctoral supervisions split equally between principal
+    and co-supervision, 11 completed master's dissertations, and current supervision of 2 doctoral researchers
+    and 3 master's students.
+  value: '22'
+  salient: true
+  source: cv_pi.md
+- id: F05
+  category: partner
+  kind: existing
+  text: Instituto Marinho de Vale Sereno in Portugal, Universidad de la Ensenada de Lóbriga in Spain and
+    Brackenquay Institute for Spatial Planning in Ireland signed their standing participation agreement
+    on 8 September 2026 and are three independent legal entities in three EU member states.
+  value: 8 September 2026
+  salient: true
+  source: consortium.md
+- id: F06
+  category: team
+  kind: existing
+  text: The eight assigned staff comprise three in Portugal, three in Spain and two in Ireland, including
+    hydrology lead Mateo Cendral Viedma, whose doctorate and appointment date from 2008 and 2017, planning
+    lead Nessa Kervane Doyle, whose doctorate, employment and senior fellowship date from 2012, 2015 and
+    2021, and Arousa technician Iria Soneira Valcedo, responsible for local stations since 2023, but no
+    assigned staff member has coupled flood–drainage modelling or qualitative social-research expertise
+    and the skills register contains no hydrodynamic inundation modeller or social-science researcher.
+  value: eight existing staff
+  salient: true
+  source: consortium.md
+- id: F07
+  category: grant
+  kind: existing
+  text: Stormwater Transit at Estuary Margins received EUR 360,000 under internal award IMVS-RE-2023-07
+    for 1 January 2023–31 December 2025, and the award is closed with its final report accepted on 16
+    February 2026.
+  value: EUR 360,000
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: The 2024–2025 design covered 18 paired Atlantic frontal storms at three Tagus and three Arousa
+    shore stations, used rainfall centroids over the 293 km² Trancão domain and combined Ulla–Umia domain
+    respectively, separated runoff episodes by an intervening recession and at least 24 hours without
+    catchment-mean rainfall exceeding 1 mm per hour, logged at 10-minute intervals, defined arrivals by
+    a salinity decrease of at least 2 practical-salinity units sustained for 30 minutes, and recorded
+    48 identifiable arrivals per estuary with median lags of 19 hours in the Tagus and 14 hours in Arousa
+    and respective ranges of 7 to 41 and 5 to 32 hours.
+  value: 18 storms
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: Of 108 storm–station opportunities, 96 had identifiable arrivals, eight lacked sufficient sensor
+    data and four failed to cross the threshold, so reported arrival errors are conditional on identifiable
+    arrivals and non-arrival discrimination remains untested.
+  value: '96'
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: Shore-based automatic sampling yielded 216 environmental samples, two per storm–station opportunity
+    and 108 per estuary, plus 24 field duplicates and 12 blanks for 252 submissions, with sampling density
+    insufficient for event-integrated contaminant loads and salinity insufficient as a general contaminant
+    proxy.
+  value: '252'
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: Retrospective validation used six outer folds withholding three whole storms across both estuaries,
+    equal weighting of 18 storm-level errors and 2,000 paired whole-storm bootstrap resamples, but did
+    not test operational forecasts, transfer to an unobserved estuary or unfamiliar reservoir-release
+    regimes, because completed-event rainfall and discharge records represented regulation through observed
+    flows, including the Tagus boundary at Almourol, whose future uncertainty cannot be resolved by rainfall
+    forecasts alone.
+  value: 2,000
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: result
+  kind: existing
+  text: The baseline storm-balanced cross-validated mean absolute arrival-time error was 4.0 hours with
+    a bootstrap 95% confidence interval of 3.2 to 5.0 hours.
+  value: 4.0 hours
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: result
+  kind: existing
+  text: The runoff-augmented storm-balanced cross-validated mean absolute arrival-time error was 2.8 hours
+    with a bootstrap 95% confidence interval of 2.1 to 3.7 hours.
+  value: 2.8 hours
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: result
+  kind: existing
+  text: The paired mean absolute error decrease was 1.2 hours with a bootstrap 95% confidence interval
+    of 0.5 to 1.9 hours, equivalent to a 30% reduction at the point estimates, and the augmented model
+    had lower error in 14 of 18 storms.
+  value: 30%
+  salient: true
+  source: prior_project.md
+- id: F15
+  category: other
+  kind: existing
+  text: The completed project evaluated no prospective city intervention, produced no causal estimate
+    of adaptation benefits or their distribution across residents, issued no live alerts, tested no decision
+    threshold with a response agency and included no city drainage sensor stream as a predictor.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F16
+  category: resource
+  kind: existing
+  text: Estuary Margin Storm Records version 1.1 releases observations, chemical results, eligibility
+    metadata and scripts under CC BY 4.0, with the 4 September 2026 correction limited to descriptive
+    station labels and leaving observations and reported errors unchanged.
+  value: CC BY 4.0
+  salient: true
+  source: prior_project.md
+- id: F17
+  category: result
+  kind: existing
+  text: The Irish partner's Drainage Access and Street Exposure Review examined 12 urban subcatchments
+    in Cork draining to the Lee estuary during 2022–2024 using drainage assets, surcharge incidents, terrain,
+    walking routes, area-level deprivation categories and facilitated map review, but location-dependent
+    under-reporting and unestimated reporting probabilities prevent direct comparison of underlying incident
+    frequencies.
+  value: 12 urban subcatchments
+  salient: true
+  source: consortium.md
+- id: F18
+  category: resource
+  kind: existing
+  text: Irish drainage records remain subject to a municipal controller's completed-audit agreement requiring
+    permission for new purposes or onward transfer, while the consortium holds no drainage asset or incident
+    records for its Tagus and Arousa catchments and has no agreement with a Portuguese or Irish planning
+    or drainage authority for joint monitoring, operational data access or adaptation evaluation.
+  value: null
+  salient: true
+  source: resources.md
+- id: F19
+  category: other
+  kind: existing
+  text: The consortium holds no Lee estuarine observations or water-level records, its software inventory
+    contains no coupled flood–drainage or hydrodynamic inundation model, and its drainage and estuarine
+    archives retain separate event definitions without a validated coupled dataset.
+  value: null
+  salient: true
+  source: resources.md
+- id: F20
+  category: resource
+  kind: existing
+  text: The six shore stations have six multiparameter sondes and six automatic water samplers with current
+    maintenance records and access agreements valid through 31 December 2030 for maintenance and temporary
+    shore sampling, excluding permanent flood defences and drainage modifications.
+  value: 31 December 2030
+  salient: true
+  source: resources.md
+- id: F21
+  category: resource
+  kind: existing
+  text: The participating institutions' only research vessel, Margem Serena, belonged to Instituto Marinho
+    de Vale Sereno, installed Tagus stations in 2023, was withdrawn for structural corrosion on 14 July
+    2026 and retired on 9 September 2026, with no operating research vessel or booked charter during the
+    interval before the contracted replacement delivery.
+  value: 9 September 2026
+  salient: true
+  source: resources.md
+- id: F22
+  category: resource
+  kind: planned
+  text: A replacement research vessel build is contracted for delivery on 30 September 2029.
+  value: 30 September 2029
+  salient: true
+  source: resources.md
+- id: F23
+  category: resource
+  kind: existing
+  text: The Portuguese laboratory has an inductively coupled plasma mass spectrometer and validated nutrient
+    and dissolved-metal workflows, while a validated microbiological pathogen workflow is absent.
+  value: inductively coupled plasma mass spectrometer
+  salient: true
+  source: resources.md
+- id: F24
+  category: other
+  kind: existing
+  text: The Irish institute's ethics committee approved the completed retrospective drainage study on
+    16 May 2022 for its specified administrative records and facilitated sessions.
+  value: 16 May 2022
+  salient: true
+  source: resources.md
+- id: F25
+  category: other
+  kind: existing
+  text: No new resident-level study has ethics approval as of 25 September 2026, existing personal-data
+    procedures require a documented purpose and lawful basis, minimisation, controlled and encrypted storage,
+    separate re-identification keys, controller-approved retention and disclosure review, and only disclosure-checked
+    aggregates from the completed drainage study have been released outside the controlled environment.
+  value: 25 September 2026
+  salient: true
+  source: resources.md
+own_publications:
+- key: arrival-definition-2024
+  authors:
+  - Seabra Vilar, E.
+  - Cendral Viedma, M.
+  year: 2024
+  title: Event definitions for freshwater arrival at tidally varying estuarine margins.
+  venue: Journal of Estuarine Measurement Practice
+  doi: 10.99999/pb.v2-coastal-transport-observatory.2024.1
+- key: drainage-access-2025
+  authors:
+  - Kervane Doyle, N.
+  year: 2025
+  title: 'Drainage surcharge records and unequal pedestrian access: a retrospective spatial audit.'
+  venue: Review of Urban Water and Spatial Decisions
+  doi: 10.99999/pb.v2-coastal-transport-observatory.2025.2
+- key: storm-validation-2026
+  authors:
+  - Seabra Vilar, E.
+  - Cendral Viedma, M.
+  year: 2026
+  title: Storm-blocked validation of runoff-informed estuarine arrival estimates.
+  venue: Estuarine Transport and Observation
+  doi: 10.99999/pb.v2-coastal-transport-observatory.2026.3
+- key: chemical-timing-2026
+  authors:
+  - Seabra Vilar, E.
+  - Cendral Viedma, M.
+  year: 2026
+  title: Interpreting scheduled chemical samples around freshwater-plume arrivals.
+  venue: Coastal Chemical Observation Methods
+  doi: 10.99999/pb.v2-coastal-transport-observatory.2026.4
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 00800d99-cd31-4a55-9597-5e7dc27f474a

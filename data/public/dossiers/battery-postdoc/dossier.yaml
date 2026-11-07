@@ -1,0 +1,278 @@
+schema_version: 1
+id: battery-postdoc
+language: en
+applicant_type: individual
+career_stage: postdoc
+disciplines:
+- materials chemistry
+- electrochemistry
+- solid-state batteries
+method_profile: quantitative
+country: IT
+files:
+- path: cv_pi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources_and_collaborations.md
+  role: resources
+- path: residence_and_activity_record.md
+  role: other
+facts:
+- id: F01
+  category: identity
+  kind: existing
+  text: Elisavra Vardessolvi is an Italian citizen whose current employment, institutional affiliation
+    and principal residence are in Italy.
+  value: Italian citizen
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: education
+  kind: existing
+  text: Vardessolvi began her doctorate on 1 November 2019 and received her PhD in Materials Chemistry
+    from the Università di Rocca Selvaronda on 20 July 2023.
+  value: 20 July 2023
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: position
+  kind: existing
+  text: Vardessolvi has held continuous full-time postdoctoral employment in Italy since 1 October 2023,
+    with no extended career interruptions, and her current fixed-term contract runs through 30 September
+    2027.
+  value: 30 September 2027
+  salient: true
+  source: cv_pi.md
+- id: F04
+  category: other
+  kind: existing
+  text: Vardessolvi has no teaching experience and no formal or informal student-supervision experience.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F05
+  category: other
+  kind: existing
+  text: Vardessolvi has assisted with ex situ synchrotron work but has not independently designed or led
+    an operando experiment, developed an X-ray-compatible cell, analysed X-ray absorption spectroscopy
+    data or reconstructed tomography.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F06
+  category: other
+  kind: existing
+  text: During 1 October 2023–30 September 2026, Vardessolvi spent 14 days in Sweden on 10–23 June 2025
+    and 7 days in Switzerland on 3–9 November 2025, with all other physical presence in Italy.
+  value: '14'
+  salient: true
+  source: residence_and_activity_record.md
+- id: F07
+  category: other
+  kind: existing
+  text: Vardessolvi had 0 days of physical presence in Canada during the recorded 36-month interval and
+    had never entered Canada by 30 September 2026.
+  value: 0 days
+  salient: true
+  source: residence_and_activity_record.md
+- id: F08
+  category: grant
+  kind: existing
+  text: SULVERNEX ran from 1 October 2023 to 31 March 2026 under award URS-MAT-2023-017, with Bellorvessi
+    as principal investigator and Vardessolvi as experimental lead; its final report was approved on 30
+    April 2026.
+  value: URS-MAT-2023-017
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: budget
+  kind: existing
+  text: The closed SULVERNEX award spent EUR 84,000, comprising EUR 52,000 for personnel, EUR 18,000 for
+    consumables, EUR 10,000 for instrument access and EUR 4,000 for travel.
+  value: EUR 84,000
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: SULVERNEX used six independent electrolyte synthesis batches supplying 18 conductivity pellets
+    and 24 cycling cells, with 12 cycling cells per cathode condition and all cells completing the protocol.
+  value: 24 cells
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: Li6PS5Cl conductivity at 25 °C was 3.1 ± 0.4 mS cm−1, expressed as the mean and sample standard
+    deviation of six batch means from three pellets each.
+  value: 3.1 ± 0.4 mS cm−1
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: result
+  kind: existing
+  text: Cycle-5 discharge capacity was 154 ± 9 mAh g−1 for coated cathodes and 157 ± 10 mAh g−1 for uncoated
+    cathodes, with sample standard deviations across 12 cells per condition.
+  value: 154 ± 9 mAh g−1
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: result
+  kind: existing
+  text: Cycle-100 retention relative to cycle 5 was 84.6 ± 4.3% for coated cathodes and 69.8 ± 6.1% for
+    uncoated cathodes, a difference of 14.8 percentage points with a batch-resampled 95% confidence interval
+    of 9.6–20.0 percentage points.
+  value: 84.6 ± 4.3%
+  salient: true
+  source: prior_project.md
+- id: F14
+  category: result
+  kind: existing
+  text: Fitted non-ohmic area-specific resistance rose from 38 ± 7 to 92 ± 18 Ω cm² for coated cathodes
+    and from 41 ± 8 to 176 ± 31 Ω cm² for uncoated cathodes between cycles 5 and 100, with sample standard
+    deviations across 12 cells per condition.
+  value: 92 ± 18 Ω cm²
+  salient: true
+  source: prior_project.md
+- id: F15
+  category: result
+  kind: existing
+  text: Mean resistance growth was 54 Ω cm² versus 135 Ω cm², giving 60.0% less growth for coated cathodes
+    and an absolute contrast of 81 Ω cm² with a batch-resampled 95% confidence interval of 58–104 Ω cm².
+  value: 60.0%
+  salient: true
+  source: prior_project.md
+- id: F16
+  category: other
+  kind: existing
+  text: The lithium–indium pellet cells used 2.0 ± 0.2 mg cm−2 active-material loading and 500 ± 40 µm
+    separators and were cycled at 25 °C, 10 MPa, 2.2–3.6 V and 18 mA g−1, equivalent to C/10 on a 180
+    mAh g−1 basis.
+  value: 10 MPa
+  salient: true
+  source: prior_project.md
+- id: F17
+  category: other
+  kind: existing
+  text: SULVERNEX used one cathode lot and one coating preparation, lacked operando evidence and practical-format
+    validation, and could not uniquely attribute measured resistance growth to a chemically isolated cathode
+    interphase.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F18
+  category: resource
+  kind: existing
+  text: The archived SULVERNEX outputs include all 24 cycling cells and 18 conductivity pellets with raw
+    files, manifests and scripts; data are licensed CC BY 4.0 and code under the MIT licence.
+  value: CC BY 4.0
+  salient: true
+  source: prior_project.md
+- id: F19
+  category: publication
+  kind: existing
+  text: Vardessolvi has three published journal articles, including two as first author, and one additional
+    first-author manuscript under review.
+  value: three published journal articles
+  salient: true
+  source: cv_pi.md
+- id: F20
+  category: publication
+  kind: existing
+  text: Cathode surface treatment moderates resistance growth in Li6PS5Cl composite cells was submitted
+    on 16 June 2026 and remained under review on 30 September 2026; its DOI identifies the preprint deposited
+    on 18 June 2026.
+  value: under review
+  salient: true
+  source: publications.md
+- id: F21
+  category: resource
+  kind: existing
+  text: The Italian laboratory has operating sulfide-synthesis and electrochemical equipment but no dedicated
+    operando beamline or in-house X-ray absorption instrument, and no equipment purchase or additional
+    staff appointment has been approved for Vardessolvi's international collaborations.
+  value: null
+  salient: true
+  source: resources_and_collaborations.md
+- id: F22
+  category: team
+  kind: existing
+  text: Sörnelqvist's Swedish group has six members—its permanent leader and accredited doctoral supervisor,
+    two postdoctoral researchers, two doctoral researchers and one engineer—and existing operando laboratory
+    diffraction, cell holders, electrochemistry and computing resources.
+  value: six people
+  salient: true
+  source: resources_and_collaborations.md
+- id: F23
+  category: partner
+  kind: existing
+  text: Sörnelqvist has collaborated with Vardessolvi since February 2024 as co-author and external adviser,
+    but Vardessolvi has no Swedish appointment or employment and Sörnelqvist has not been her formal supervisor.
+  value: February 2024
+  salient: true
+  source: resources_and_collaborations.md
+- id: F24
+  category: partner
+  kind: existing
+  text: Lukevan Arvenstald at the Aare Veltrass Photon Facility near Villigen is Vardessolvi's established
+    Swiss beamline contact from an ex situ experiment under Bellorvessi's allocation, but Vardessolvi
+    holds no active beamtime allocation or appointment there.
+  value: Aare Veltrass Photon Facility
+  salient: true
+  source: resources_and_collaborations.md
+- id: F25
+  category: partner
+  kind: existing
+  text: Mirelvane Davenorrel at the Prairie Velnor Light Facility in Saskatoon offered scientific collaboration
+    in a signed letter dated 22 May 2026, without awarded beamtime, salary support or a visiting appointment;
+    Vardessolvi has submitted no beamtime application there.
+  value: 22 May 2026
+  salient: true
+  source: resources_and_collaborations.md
+own_publications:
+- key: vardessolvi2021geometry
+  authors:
+  - Nestravelli, D.
+  - Vardessolvi, E.
+  - Bellorvessi, M.
+  year: 2021
+  title: Pellet geometry and contact contributions in impedance measurements of lithium argyrodites
+  venue: Selvaronda Journal of Inorganic Ion Transport
+  doi: 10.99999/pb.battery-postdoc.2021.1
+- key: vardessolvi2023batches
+  authors:
+  - Vardessolvi, E.
+  - Nestravelli, D.
+  - Bellorvessi, M.
+  year: 2023
+  title: Batch variability in mechanochemically prepared Li6PS5Cl solid electrolytes
+  venue: Velnarion Materials Chemistry and Ionic Transport
+  doi: 10.99999/pb.battery-postdoc.2023.1
+- key: vardessolvi2024resistance
+  authors:
+  - Vardessolvi, E.
+  - Bellorvessi, M.
+  - Sörnelqvist, L.
+  year: 2024
+  title: Reproducible resistance extraction from pressure-controlled sulfide composite cells
+  venue: Sörvaskel Electrochemical Measurement Methods
+  doi: 10.99999/pb.battery-postdoc.2024.1
+- key: vardessolvi2026interfaces
+  authors:
+  - Vardessolvi, E.
+  - Nestravelli, D.
+  - Sörnelqvist, L.
+  - Bellorvessi, M.
+  year: 2026
+  title: Cathode surface treatment moderates resistance growth in Li6PS5Cl composite cells
+  venue: Arvenquell Electrochemical Interfaces (under review); Selvaronda Research Archive (preprint)
+  doi: 10.99999/pb.battery-postdoc.2026.1
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 63504fd8-b08e-42d2-824b-c8bf3be12d4c

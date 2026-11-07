@@ -1,0 +1,22 @@
+[
+  {
+    "name": "invented",
+    "raw": "Smith, J., & Jones, A. (2024). Quantum marmalade networks for lunar tuberculosis. Nature.",
+    "expected": "not_found"
+  },
+  {
+    "name": "wrong_authors",
+    "raw": "Smith, J., & Jones, A. (2025). Delving into LLM-assisted writing in biomedical publications through excess vocabulary. Science Advances.",
+    "expected": "misattributed"
+  },
+  {
+    "name": "wrong_doi",
+    "raw": "Kobak, D. (2025). Delving into LLM-assisted writing in biomedical publications through excess vocabulary. Science Advances. https://doi.org/10.5281/zenodo.3727209",
+    "expected": "misattributed"
+  },
+  {
+    "name": "unresolved_doi",
+    "raw": "Smith, J., & Jones, A. (2024). Quantum marmalade networks for lunar tuberculosis. Nature. https://doi.org/10.5555/proposalbench.nonexistent.2030",
+    "expected": "doi_unresolved"
+  }
+]

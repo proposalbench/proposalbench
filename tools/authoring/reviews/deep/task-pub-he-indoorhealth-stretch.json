@@ -1,0 +1,29 @@
+{
+  "kind": "task",
+  "id": "pub-he-indoorhealth-stretch",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [
+    {
+      "severity": "minor",
+      "checklist": "Task 6",
+      "where": "data/public/tasks/pub-he-indoorhealth-stretch/brief.md, entire brief: no date line.",
+      "problem": "The brief has no date even though the adopted checklist requires 1 October 2026. The globally fixed present date makes this a presentation defect rather than an undecidable trap.",
+      "fix": "Add '1 October 2026' below the heading, or before the opening salutation. Do not change the September dossier cutoff.",
+      "evidence": [
+        "docs/task_review_checklist.md Task 6"
+      ]
+    }
+  ],
+  "checked": [
+    "Task 2/6: T1 T09 is supported by SC1's before/after field-measurement requirement and resources.md's explicit lack of pre-renovation records at the 15 already-renovated blocks. National baselines cannot replace the required site-level pre-renovation observations. The key permits the 5 upcoming blocks OR another prospective cohort; it does not require an unachievable reconstruction of missing historical data.",
+    "Task 2/6: T2 T05 matches EX2's exclusion of environment-only studies and SC2's requirement for validated clinical and patient-reported health outcomes. Missing clinical expertise and approvals are explicit dossier facts. The current key accepts new partners or qualified hires and requires prospective ethics/recruitment arrangements; it no longer requires a particular organisational solution.",
+    "Task 1: bridgeable stretch from engineering/sensor networks to environmental health through explicitly planned clinical and SSH capacity. Existing 15-block data can support exposure modelling; future renovation sites can provide baseline/follow-up. Calendar 2027–2029 renovations are prospective as of 1 October 2026; month-24 pilot commissioning is not confused with an already secured health-study start. Conditional site access and fresh consent remain necessary.",
+    "Task 1/3/5/7: EUR 5.8m <= EUR 6m; duration 48 months; full 18,000-word Part B leaves room for direct health measures, prospective power/attrition design, predictive modelling, SSH and implementation. Brief is informal English and carries exactly two suggestions without labelling them wrong.",
+    "Task 4/6: no hidden-key leak, T12, T13 or resubmission obligation. Traps require no outside-law knowledge. Future ethics is a feasible work-plan prerequisite, not an existing-approval eligibility rule. Shared Nordic identity/fact-registry/emissions defects and the call beneficiary wording are filed once on their owner units; acceptance here is not whole-bundle clearance.",
+    "Read earlier task .json, .r1.json, .r2.json and maintainer r4 context; current source files now contain the previously missing renovation/measurement history and current T2 accepts alternative staffing arrangements."
+  ]
+}

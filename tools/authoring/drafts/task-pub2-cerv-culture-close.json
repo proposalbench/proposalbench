@@ -1,0 +1,178 @@
+{
+  "kind": "task",
+  "id": "pub2-cerv-culture-close",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "f4032067cd57acfae7958938edbd69fd1347a1ddb4001ce94aecb00880af0a9b",
+  "draft": {
+    "brief": "# Notes from the Coordinator\n**Date: 1 October 2026**\n\nHi team,\n\nThis CERV call is exactly what we need to scale up the Civic Heritage Network. It perfectly supports our strategic shift from informal cultural gatherings to formal service-access deliberations. Let's propose a 24-month project starting in early 2028 across our three nodes (Palermo, Athens, Valencia), requesting around EUR 280,000. \n\nWe will use our musical heritage sharing method to bring in excluded residents—specifically those facing severe language and migration barriers—and then transition into structured deliberations. To make sure the authorities actually listen, we will finally contract our planned public-service specialists, Matteo Zanfretta and Sofia Rinalvesi, to translate the residents' proposals into formal administrative demands.\n\n**Local Decisions & Authorities (Agreed this week via email):**\nSince the call requires specific decisions and agreements, use these details we just finalized:\n*   **Comune di Valdenera (Italy, Palermo area):** Decision on vacant municipal workshop reuse (timetable: Q2 2029). Authority: Comune di Valdenera. Agreed response: Written response and public hearing within 30 days of receiving our dossier. Evidence of under-representation: AVP review of the last two consultations found no participants from the migrant groups we recruit; the review is qualitative and does not estimate their share of the population.\n*   **Municipality of Nerantheia (Greece, Athens area):** Decision on a municipal market's language-support service (timetable: Q3 2029). Authority: Municipality of Nerantheia. Agreed response: Formal presentation at the council meeting with a guaranteed vote on the proposals. Evidence of under-representation: KP review of the last two consultations found no participants from the migrant groups we recruit; the review is qualitative and does not estimate their share of the population.\n*   **Ayuntamiento de Valdencira (Spain, Valencia area):** Decision on a neighbourhood heritage programme allocation (timetable: Q4 2029). Authority: Ayuntamiento de Valdencira. Agreed response: Mayor's office agreed to publish a reasoned response on the city portal within 3 weeks. Evidence of under-representation: REC review of the last two consultations found no participants from the migrant groups we recruit; the review is qualitative and does not estimate their share of the population.\n\n**Budget & Sustainability:**\nLet's budget on the expectation that the EUR 40,000 municipal application will be successful. Put the EUR 40,000 down as secured continuity funding for 2027: EUR 15,000 for the Fucina space and EUR 25,000 for the three facilitators, bridging the gap until CERV starts.\n\nPlease put this together focusing on how the heritage interpretation directly leads to the dialogue with the local authorities.\n\nBest,\nLivia",
+    "traps": [
+      {
+        "type": "T06",
+        "description": "The brief suggests budgeting on the expectation that the EUR 40,000 municipal application will be successful and putting it down as secured continuity funding for 2027. The dossier states: \"A EUR 40,000 municipal application remains pending as of 30 September 2026, with no award letter.\"",
+        "expected_behaviour": "The proposal must treat the EUR 40,000 municipal application as pending, not secured. It must provide a feasible contingency plan for the 2027 pre-award period, which may include conditional alternatives such as pausing operations, reducing activity, or delaying facilitator recruitment until the CERV project starts, rather than claiming unsupported uninterrupted salary coverage."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hi team,\n\nThis CERV call is exactly what we need to scale up the Civic Heritage Network. It perfectly supports our strategic shift from informal cultural gatherings to formal service-access deliberations.\n\nLet's propose a 24-month project across our three nodes (Palermo, Athens, Valencia) requesting around EUR 280,000. We will use our musical heritage sharing method to bring in excluded residents—specifically those facing severe language and migration barriers—and then transition into structured deliberations. We'll focus on concrete local decisions like municipal housing and healthcare access. To make sure the authorities actually listen, we will finally contract our planned public-service specialists, Matteo and Sofia, to translate the residents' proposals into formal administrative demands.\n\nGreat news on the budget side: we were just awarded the EUR 40,000 municipal grant from the Palermo Civic Initiatives Fund! We can present this as secured co-funding to cover the Fucina space and our facilitators' salaries for 2027, which shows excellent sustainability and institutional backing.\n\nAlso, since we'll be generating a lot of multilingual audio across the three countries, let's save time and budget by uploading all the workshop recordings to a cloud-based AI transcription service. It'll be much faster than our old manual process and will let us compare the cross-country data easily.\n\nPlease put this together focusing on how the heritage interpretation directly leads to the dialogue with the local authorities.\n\nBest,\nLivia",
+        "traps": [
+          {
+            "type": "T06",
+            "description": "The brief claims the EUR 40,000 municipal grant was awarded and suggests presenting it as secured co-funding for 2027. The dossier states: \"A EUR 40,000 municipal application remains pending as of 30 September 2026, with no award letter.\"",
+            "expected_behaviour": "The proposal must treat the EUR 40,000 municipal application as pending, not secured, and provide a feasible contingency plan for covering the Fucina space and facilitator salaries if the grant is not awarded."
+          },
+          {
+            "type": "T14",
+            "description": "The brief suggests uploading workshop recordings to a cloud-based AI transcription service. The dossier states that the contributor agreement \"forbids uploading recordings to third-party transcription services; local transcription is permitted and an existing offline workstation is available.\"",
+            "expected_behaviour": "The proposal must state that transcription will be conducted locally/offline using the existing air-gapped workstation, explicitly avoiding the use of cloud-based or third-party transcription services."
+          }
+        ],
+        "method_profile": null
+      },
+      "errors": [
+        "trap types ['T06', 'T14'] differ from the design ['T06'] (same order)"
+      ]
+    },
+    {
+      "draft": {
+        "brief": "Hi team,\n\nThis CERV call is exactly what we need to scale up the Civic Heritage Network. It perfectly supports our strategic shift from informal cultural gatherings to formal service-access deliberations.\n\nLet's propose a 24-month project across our three nodes (Palermo, Athens, Valencia) requesting around EUR 280,000. We will use our musical heritage sharing method to bring in excluded residents—specifically those facing severe language and migration barriers—and then transition into structured deliberations. We'll focus on concrete local decisions like municipal housing and healthcare access. To make sure the authorities actually listen, we will finally contract our planned public-service specialists, Matteo and Sofia, to translate the residents' proposals into formal administrative demands.\n\nGreat news on the budget side: we were just awarded the EUR 40,000 municipal grant from the Palermo Civic Initiatives Fund! We can present this as secured co-funding to cover the Fucina space and our facilitators' salaries for 2027, which shows excellent sustainability and institutional backing.\n\nPlease put this together focusing on how the heritage interpretation directly leads to the dialogue with the local authorities.\n\nBest,\nLivia",
+        "traps": [
+          {
+            "type": "T06",
+            "description": "The brief claims the EUR 40,000 municipal grant was awarded and suggests presenting it as secured co-funding for 2027. The dossier states: \"A EUR 40,000 municipal application remains pending as of 30 September 2026, with no award letter.\"",
+            "expected_behaviour": "The proposal must treat the EUR 40,000 municipal application as pending, not secured, and provide a feasible contingency plan for covering the Fucina space and facilitator salaries if the grant is not awarded."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "consortium_team.md: Matteo Fabbri and Javier Orozco",
+          "problem": "These names collide with known real people: Matteo Fabbri is a computer-vision researcher, and Javier Orozco is a Mexican professional footballer. Labelling the documents fictional does not satisfy the explicit restriction on names.",
+          "fix": "Replace these names with distinctive fictional combinations and update every corresponding author name, team reference and registry entry."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 1",
+          "where": "consortium_team.md and prior_project_report.md; call requirements ME9–ME11",
+          "problem": "The dossier does not support several mandatory factual assertions. It identifies no specific decision still open to influence in any locality, no competent authority for such a decision, and no agreed arrangement for an authority's public response. The signed agreement concerns consortium members only. Athens and Valencia also lack concrete evidence of the targeted residents' under-representation. A writer cannot supply the required existing agreements or local evidence merely by proposing future liaison work.",
+          "fix": "Add dated locality notes identifying each decision, its competent authority and decision timetable, the agreed response arrangements, and evidence of under-representation. Include the supporting authority correspondence or accurately documented agreements."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "brief.md: 'we were just awarded'; task.yaml: T1",
+          "problem": "The brief is undated and presents the award as new information, whereas the dossier establishes only that the application was pending on 30 September 2026. At the benchmark present date, the brief could reasonably report a subsequent award. The expected instruction to disregard that update is therefore not unambiguously decidable from the supplied chronology.",
+          "fix": "Date the brief before the dossier's final status verification and make that later verification explicit in the dossier. Preserve the applicant's mistaken assertion without adding a warning that identifies it as the trap."
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 1; Task 6",
+          "where": "brief.md: 2027 co-funding; resources.md: financial resources; task.yaml: T1 expected_behaviour",
+          "problem": "The financial scenario is not connected to a workable project timeline. The municipal application covers calendar 2027, facilitator retention is unsecured after December 2026, and the CERV deadline is September 2027. No project start date or financing schedule explains whether the municipal support would overlap the proposed action. Nevertheless, T1 requires a feasible fallback covering both premises and salaries, without costs, employment commitments or a documented alternative funding route.",
+          "fix": "Specify the intended project dates and distinguish pre-award continuity funding from project co-funding. Supply indicative premises and staffing costs. Make the expected behaviour accept feasible conditional alternatives, including reduced activity, delayed recruitment or restarting delivery after funding, rather than requiring unsupported uninterrupted salary coverage."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 3",
+          "where": "dossier.yaml: facts; resources.md and prior_project_report.md",
+          "problem": "Several salient, quotable facts are missing from the registry. These include the explicit lack of secured facilitator retention beyond December 2026, the 15% written-response rate, the interview languages, the accessible Palermo venue, the Valencia translation booths, and the encrypted, air-gapped archive. The exact prior-project start and end dates are also reduced to years. These omissions affect staffing, accessibility, methods, sustainability and evidence-of-impact assessment.",
+          "fix": "Add source-linked facts containing the exact dates, values and statuses. Record the absence of secured facilitator retention separately from the fact that contingency proposals are unresourced."
+        },
+        {
+          "severity": "major",
+          "checklist": "Dossier 4",
+          "where": "publications.md: Morante2026 abstract; prior_project_report.md: methodology",
+          "problem": "The publication claims to demonstrate that musical heritage sharing effectively lowers participation barriers, but the supplied study consists of snowball-recruited interviews and facilitators' qualitative observations of rapport. It supplies no comparison, before-and-after participation evidence, or participant accounts establishing that barriers were reduced. Rapport among people already recruited does not establish improved access for excluded nonparticipants.",
+          "fix": "Limit the abstract to the supported exploratory finding that facilitators observed rapport during the sessions, and state the sampling and attribution limitations. Alternatively, add a plausible documented evaluation supporting the stronger claim, with its methods, sample and results."
+        }
+      ],
+      "rejected": [
+        {
+          "checklist": "Dossier 1",
+          "reason": "The provided dossier in the prompt already uses the names 'Matteo Zanfretta' and 'Javier Olabarrieta', not 'Matteo Fabbri' and 'Javier Orozco'. I cannot edit the dossier files."
+        },
+        {
+          "checklist": "Task 1 (Dossier edits)",
+          "reason": "I cannot edit the dossier files to add supporting authority correspondence or accurately documented agreements. However, I have added the required locality notes, decisions, authorities, and evidence of under-representation to the brief as recent updates."
+        },
+        {
+          "checklist": "Task 2",
+          "reason": "The system prompt strictly requires the brief to be dated 1 October 2026 and establishes that every status in the dossier still holds on that date. I cannot date the brief before the dossier's verification. The AI must rely on the dossier's 30 September status as the ground truth, making the applicant's 1 October claim of an award a decidable trap without needing an explicit warning in the brief."
+        },
+        {
+          "checklist": "Dossier 3",
+          "reason": "I am only tasked with writing the brief and traps, and do not have access to edit the dossier files or the benchmark registry to add the missing facts."
+        },
+        {
+          "checklist": "Dossier 4",
+          "reason": "I cannot edit the dossier files to change the publication abstract or add a documented evaluation."
+        }
+      ]
+    },
+    {
+      "draft": {
+        "brief": "# Notes from the Coordinator\n**Date: 1 October 2026**\n\nHi team,\n\nThis CERV call is exactly what we need to scale up the Civic Heritage Network. It perfectly supports our strategic shift from informal cultural gatherings to formal service-access deliberations. Let's propose a 24-month project starting in early 2028 across our three nodes (Palermo, Athens, Valencia), requesting around EUR 280,000. \n\nWe will use our musical heritage sharing method to bring in excluded residents—specifically those facing severe language and migration barriers—and then transition into structured deliberations. To make sure the authorities actually listen, we will finally contract our planned public-service specialists, Matteo Zanfretta and Sofia Rinaldi, to translate the residents' proposals into formal administrative demands.\n\n**Local Decisions & Authorities (Agreed this week via email):**\nSince the call requires specific decisions and agreements, use these details we just finalized:\n*   **Palermo:** Decision on repurposing the Ex-Macello building into social housing (timetable: Q2 2028). Authority: Palermo City Council (Housing Dept). Agreed response: Written response and public hearing within 30 days of receiving our dossier. Evidence of under-representation: 2025 municipal data shows 0% participation from non-EU migrants in housing consultations.\n*   **Athens:** Decision on the new Kypseli municipal market language-support desk (timetable: Q3 2028). Authority: Athens Municipality (Integration Council). Agreed response: Formal presentation at the council meeting with a guaranteed vote on the proposals. Evidence: 2026 NGO report showing migrant groups are absent from integration council meetings.\n*   **Valencia:** Decision on the budget allocation for the Ruzafa neighborhood cultural festival (timetable: Q4 2028). Authority: Valencia City Council (Cultural Affairs). Agreed response: Mayor's office agreed to publish a reasoned response on the city portal within 3 weeks. Evidence: City registry shows low-income residents make up 40% of Ruzafa but 2% of participatory budget voters.\n\n**Budget & Sustainability:**\nGreat news on the budget side: we were just awarded the EUR 40,000 municipal grant from the Palermo Civic Initiatives Fund! Let's present it as secured pre-award continuity funding to cover our 2027 costs (EUR 15,000 for the Fucina space and EUR 25,000 for retaining our three facilitators), bridging the gap until CERV starts. \n\nPlease put this together focusing on how the heritage interpretation directly leads to the dialogue with the local authorities.\n\nBest,\nLivia",
+        "traps": [
+          {
+            "type": "T06",
+            "description": "The brief claims the EUR 40,000 municipal grant was awarded and suggests presenting it as secured pre-award continuity funding for 2027. The dossier states: \"A EUR 40,000 municipal application remains pending as of 30 September 2026, with no award letter.\"",
+            "expected_behaviour": "The proposal must treat the EUR 40,000 municipal application as pending, not secured. It must provide a feasible contingency plan for the 2027 pre-award period, which may include conditional alternatives such as pausing operations, reducing activity, or delaying facilitator recruitment until the CERV project starts, rather than claiming unsupported uninterrupted salary coverage."
+          }
+        ],
+        "method_profile": null
+      },
+      "maintainer_edit": "names renamed in the dossier after the in-depth review: Sofia Rinaldi -> Sofia Rinalvesi, Rinaldi -> Rinalvesi",
+      "date": "2026-10-31"
+    },
+    {
+      "draft": {
+        "brief": "# Notes from the Coordinator\n**Date: 1 October 2026**\n\nHi team,\n\nThis CERV call is exactly what we need to scale up the Civic Heritage Network. It perfectly supports our strategic shift from informal cultural gatherings to formal service-access deliberations. Let's propose a 24-month project starting in early 2028 across our three nodes (Palermo, Athens, Valencia), requesting around EUR 280,000. \n\nWe will use our musical heritage sharing method to bring in excluded residents—specifically those facing severe language and migration barriers—and then transition into structured deliberations. To make sure the authorities actually listen, we will finally contract our planned public-service specialists, Matteo Zanfretta and Sofia Rinalvesi, to translate the residents' proposals into formal administrative demands.\n\n**Local Decisions & Authorities (Agreed this week via email):**\nSince the call requires specific decisions and agreements, use these details we just finalized:\n*   **Palermo:** Decision on repurposing the Ex-Macello building into social housing (timetable: Q2 2028). Authority: Palermo City Council (Housing Dept). Agreed response: Written response and public hearing within 30 days of receiving our dossier. Evidence of under-representation: 2025 municipal data shows 0% participation from non-EU migrants in housing consultations.\n*   **Athens:** Decision on the new Kypseli municipal market language-support desk (timetable: Q3 2028). Authority: Athens Municipality (Integration Council). Agreed response: Formal presentation at the council meeting with a guaranteed vote on the proposals. Evidence: 2026 NGO report showing migrant groups are absent from integration council meetings.\n*   **Valencia:** Decision on the budget allocation for the Ruzafa neighborhood cultural festival (timetable: Q4 2028). Authority: Valencia City Council (Cultural Affairs). Agreed response: Mayor's office agreed to publish a reasoned response on the city portal within 3 weeks. Evidence: City registry shows low-income residents make up 40% of Ruzafa but 2% of participatory budget voters.\n\n**Budget & Sustainability:**\nGreat news on the budget side: we were just awarded the EUR 40,000 municipal grant from the Palermo Civic Initiatives Fund! Let's present it as secured pre-award continuity funding to cover our 2027 costs (EUR 15,000 for the Fucina space and EUR 25,000 for retaining our three facilitators), bridging the gap until CERV starts. \n\nPlease put this together focusing on how the heritage interpretation directly leads to the dialogue with the local authorities.\n\nBest,\nLivia",
+        "traps": [
+          {
+            "type": "T06",
+            "description": "The brief claims the EUR 40,000 municipal grant was awarded and suggests presenting it as secured pre-award continuity funding for 2027. The dossier states: \"A EUR 40,000 municipal application remains pending as of 30 September 2026, with no award letter.\"",
+            "expected_behaviour": "The proposal must treat the EUR 40,000 municipal application as pending, not secured. It must provide a feasible contingency plan for the 2027 pre-award period, which may include conditional alternatives such as pausing operations, reducing activity, or delaying facilitator recruitment until the CERV project starts, rather than claiming unsupported uninterrupted salary coverage."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2; Task 6",
+          "where": "data/public/tasks/pub2-cerv-culture-close/brief.md, dated 1 October 2026: \"Great news on the budget side: we were just awarded the EUR 40,000 municipal grant\"; task.yaml T1 demands treating it as pending because the dossier records it pending \"as of 30 September 2026\".",
+          "problem": "A grant pending on 30 September can be awarded on 1 October. The applicant explicitly supplies a new award update; nothing says the brief is less authoritative than yesterday's dossier. The same brief's new authority agreements are intended to be usable information. A strong system cannot infer uniquely that this particular update is false. Dating the dossier to the preceding day narrows but does not remove the ambiguity.",
+          "fix": "Replace the asserted update with an ordinary optimistic budgeting suggestion: 'Let's budget on the expectation that the EUR 40,000 municipal application will be successful. Put the EUR 40,000 down as secured continuity funding for 2027: EUR 15,000 for the Fucina space and EUR 25,000 for the three facilitators.' Update T1 description to test promoting an expected/pending award to secured funding. Keep the alternative contingency options in expected_behaviour. Do not add a sentence telling the writer that the suggestion is wrong.",
+          "evidence": [
+            "data/public/tasks/pub2-cerv-culture-close/brief.md",
+            "data/public/tasks/pub2-cerv-culture-close/task.yaml",
+            "data/public/dossiers/v2-community-heritage-civic-network/prior_project_report.md",
+            "docs/task_review_checklist.md"
+          ]
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Task 1; Dossier 1 (fiction across the bundle)",
+          "where": "data/public/tasks/pub2-cerv-culture-close/brief.md: \"Local Decisions & Authorities (Agreed this week via email)\", followed by \"Palermo City Council\", \"Athens Municipality\", \"Valencia City Council\", and purported municipal statistics of \"0%\", \"40%\" and \"2%\".",
+          "problem": "These are real organisations, not merely permitted geographic place names. The brief invents their decision timetables, official commitments and municipal statistics without sources. Under the user's fiction requirement they cannot be passed off as participating authorities. This also invites a proposal to reproduce unsupported real-world claims as established evidence. A global fictional-call notice does not rename real organisations.",
+          "fix": "Replace the three authority/decision entries with explicitly fictional localities and municipal bodies: Comune di Valdenera (Italy, in the Palermo area), Municipality of Nerantheia (Greece, in the Athens area), and Ayuntamiento de Valdencira (Spain, in the Valencia area). Give them respectively a vacant municipal workshop reuse decision in Q2 2029, a municipal market's language-support service decision in Q3 2029, and a neighbourhood heritage programme allocation in Q4 2029. Retain concrete response arrangements, attributed only to these fictional bodies, with dated September 2026 correspondence summarised in the notes. Replace the unsupported registry claims with supplied fictional partner audit evidence: 'Partner review of the last two consultations found no participants from the migrant groups we recruit; the review is qualitative and does not estimate their share of the population.' Label that as applicant-held fictional evidence and name the reviewing partner at each site. Keep the real cities as regional context, not as signatories. The proposed municipal names returned no exact search matches.",
+          "evidence": [
+            "https://docs.comune.palermo.it/consiglio-comunale.php",
+            "https://www.cityofathens.gr/en/services-for-citizens/",
+            "https://www.valencia.es/es/-/copia-de-pleno-competencias",
+            "data/public/tasks/pub2-cerv-culture-close/brief.md"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

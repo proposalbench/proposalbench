@@ -1,0 +1,47 @@
+{
+  "kind": "call",
+  "id": "nsf-stem-ed",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "2c8ed353b6b79098e2fd829e8ccc1a538022cbbe2dcc2e96e58b0e065bb8414e",
+  "draft": {
+    "title": "Mathematical Reasoning and Equitable Participation in Grades 6–12 STEM Learning",
+    "expected_outcomes_intro": "Projects should advance fundamental understanding of how learning environments shape mathematical reasoning and participation in grades 6–12 STEM education. Successful research should produce knowledge that researchers and educators can use to explain learning, identify barriers and inform subsequent educational design.",
+    "expected_outcomes": [
+      "Learning researchers gain stronger explanations of how instructional interactions and representations influence students’ mathematical reasoning and transfer across STEM contexts.",
+      "Educators and curriculum designers gain evidence about the conditions under which learning environments support sustained participation and conceptual understanding among students with differing educational opportunities.",
+      "Researchers and education partners can distinguish broadly applicable findings from findings that depend on particular learners, instructional settings or implementation conditions.",
+      "The research community gains usable measures, documented methods and findings that support replication and further investigation while protecting student privacy."
+    ],
+    "scope_intro": "Mathematical reasoning connects learning across STEM disciplines, yet students may use procedures successfully without understanding their underlying relationships or applying them in unfamiliar contexts. Opportunities to explain, represent and revise ideas also vary across classrooms and student groups.\n\nThis topic supports fundamental research on how learning environments influence these processes in grades 6–12, including mathematics classrooms and other STEM settings. Proposals should investigate explanatory questions about learning and participation through theoretically grounded designs that connect features of the environment to observable processes and outcomes.",
+    "scope": [
+      "Develop a theoretical account linking specified features of a learning environment to mathematical reasoning, participation or transfer across STEM contexts.",
+      "Investigate learning processes in grades 6–12 through a rigorous quantitative, qualitative or mixed-methods design appropriate to the research questions.",
+      "Assess conceptual understanding or transfer using measures whose interpretation is justified for the participating learners and settings.",
+      "Examine how access to learning opportunities and features of the environment contribute to differences in participation or learning.",
+      "Analyse contextual and implementation evidence to establish where the proposed explanations apply and where they require qualification.",
+      "Produce documented research materials and findings that enable subsequent inquiry, with access arrangements appropriate to consent, confidentiality and permitted reuse."
+    ],
+    "exclusions": [
+      "Curriculum development, teacher professional development or service delivery whose principal purpose is implementation without an accompanying fundamental research question about learning.",
+      "Technology development or product evaluation focused solely on usability, adoption or commercial performance.",
+      "Studies confined to postsecondary education, adult workforce training or grades below grade 6.",
+      "Studies limited to achievement comparisons without investigating learning processes or features of the learning environment."
+    ],
+    "mandatory_elements": [
+      "Identify the focal grades, STEM content, learning environment and proposed explanatory mechanism; explain how the research can refine or challenge existing theory.",
+      "Justify participant and setting selection, measures and analysis. Address clustering, attrition, statistical power or qualitative evidentiary adequacy as applicable, and distinguish causal claims from descriptive or interpretive claims.",
+      "Explain how equity informs the research questions, recruitment, measurement and interpretation. Justify any group comparisons and avoid treating group membership itself as an explanation of learning differences.",
+      "Specify evidence that would support, qualify or contradict the proposed explanation, and describe how alternative explanations will be examined."
+    ],
+    "conditions": {
+      "max_budget": 1500000,
+      "duration_months_max": 48,
+      "trl_start": null,
+      "trl_end": null,
+      "expected_projects": 20
+    }
+  },
+  "history": []
+}

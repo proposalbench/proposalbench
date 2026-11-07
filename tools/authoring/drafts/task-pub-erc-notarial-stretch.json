@@ -1,0 +1,127 @@
+{
+  "kind": "task",
+  "id": "pub-erc-notarial-stretch",
+  "family": "google",
+  "model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "prompt_sha256": "eae9cba5788edba0262f519d24934190a5d0bc92d062b2fac4e69e35b9f0b378",
+  "draft": {
+    "brief": "Hola, te paso mis notas para armar la propuesta del ERC Starting Grant.\n\nLa idea es dar un salto enorme respecto a lo que aprendimos en NOTAR-NET. Ya no nos quedaremos solo en la Vall de Boira, sino que vamos a escalar el análisis de la agencia económica femenina a todo el Mediterráneo Occidental (Corona de Aragón, Génova y el sur de Francia) entre 1350 y 1450.\n\nEl objetivo central es demostrar nuestra hipótesis sobre el microcrédito: queremos probar a gran escala que las viudas inyectaban liquidez en las economías locales utilizando la restitución de sus dotes. Para ello, vamos a entrenar nuevos modelos HTR que superen el escollo que tuvimos con la letra cursiva degenerada de mediados del siglo XV (donde el error nos subía al 8,5%) y aplicarlos no solo a manuales de deuda, sino a los capítulos matrimoniales.\n\nA nivel de equipo, recuperaremos a Mireia a tiempo completo para la paleografía catalana y latina, y contrataremos a Dídac como postdoc en cuanto empiece el proyecto, asumiendo que lea la tesis en enero como está previsto. Como daremos el salto a Italia y Francia, en la propuesta debes incluir la planificación para contratar a dos nuevos investigadores expertos en paleografía italiana y occitana, ya que nosotros no dominamos esos archivos.\n\nDos detalles importantes para la redacción:\nPrimero, como Lorenzo Squarcione tiene mucha experiencia y es clave para el NLP, ponlo como co-IP del proyecto; así le damos más peso a la candidatura y él dirige ese paquete de trabajo con total autonomía.\nSegundo, para confirmar de forma irrefutable el estado civil y demográfico de estas mujeres, cruzaremos los contratos notariales con los registros parroquiales de la época, lo que nos dará la fecha exacta de viudedad.\n\nPide los 60 meses completos y el presupuesto base máximo de 1,5 millones de euros, que con las nuevas contrataciones y las campañas de digitalización en el extranjero los vamos a necesitar.",
+    "traps": [
+      {
+        "type": "T03",
+        "description": "The brief asks to name Lorenzo Squarcione as a co-PI; the call explicitly states \"A second PI or a co-PI is not permitted in this Starting Grant\".",
+        "expected_behaviour": "Oriol Guinovart is presented as the sole Principal Investigator; Lorenzo Squarcione is included only as a team member, collaborator, or advisor."
+      },
+      {
+        "type": "T12",
+        "description": "The brief suggests cross-referencing notarial contracts with parish registers to obtain exact widowhood dates. This conflicts with a negative fact in the dossier (informe_proyecto_previo.md §3.1, September 2024 report, valid as of September 2026), which states that systematic parish registers do not exist for this period. The conflict must be resolved in Part II (methods/risks).",
+        "expected_behaviour": "The proposal does not treat a systematic parish-register series for the existing 1350–1450 corpus as available or promise exact widowhood dates from it. It uses a feasible, qualified source strategy, such as dated notarial attestations and interval-censored widowhood dates, a planned search for corroborating death/payment evidence, or a narrower research question. Any feasible alternative is accepted; searching for exceptional material in new regions is allowed as planned exploratory work, not as secured access. Dowry contracts or receipts must not automatically be equated with an exact death date."
+      }
+    ],
+    "method_profile": null
+  },
+  "history": [
+    {
+      "draft": {
+        "brief": "Hola, te paso mis notas para armar la propuesta del ERC Starting Grant.\n\nLa idea es dar un salto enorme respecto a lo que aprendimos en NOTAR-NET. Ya no nos quedaremos solo en la Vall de Boira, sino que vamos a escalar el análisis de la agencia económica femenina a todo el Mediterráneo Occidental (Corona de Aragón, Génova y el sur de Francia) entre 1350 y 1450.\n\nEl objetivo central es demostrar nuestra hipótesis sobre el microcrédito: queremos probar a gran escala que las viudas inyectaban liquidez en las economías locales utilizando la restitución de sus dotes. Para ello, vamos a entrenar nuevos modelos HTR que superen el escollo que tuvimos con la letra cursiva degenerada de mediados del siglo XV (donde el error nos subía al 8,5%) y aplicarlos no solo a manuales de deuda, sino a los capítulos matrimoniales.\n\nA nivel de equipo, recuperaremos a Mireia a tiempo completo para la paleografía catalana y latina, y contrataremos a Dídac como postdoc en cuanto lea la tesis en enero. Como daremos el salto a Italia y Francia, en la propuesta debes incluir la planificación para contratar a dos nuevos investigadores expertos en paleografía italiana y occitana, ya que nosotros no dominamos esos archivos.\n\nDos detalles importantes para la redacción:\nPrimero, como Lorenzo Squarcione tiene mucha experiencia y es clave para el NLP, ponlo como co-IP del proyecto; así le damos más peso a la candidatura y él dirige ese paquete de trabajo con total autonomía.\nSegundo, para confirmar de forma irrefutable el estado civil y demográfico de estas mujeres, cruzaremos los contratos notariales con los registros parroquiales de la época, lo que nos dará la fecha exacta de viudedad.\n\nPide los 60 meses completos y el presupuesto base máximo de 1,5 millones de euros, que con las nuevas contrataciones y las campañas de digitalización en el extranjero los vamos a necesitar.",
+        "traps": [
+          {
+            "description": "The brief asks to name Lorenzo Squarcione as a co-PI; the call explicitly states \"A second PI or a co-PI is not permitted in this Starting Grant\".",
+            "expected_behaviour": "Oriol Guinovart is presented as the sole Principal Investigator; Lorenzo Squarcione is included only as a team member, collaborator, or advisor."
+          },
+          {
+            "description": "The brief suggests cross-referencing notarial contracts with parish registers to confirm widowhood; the dossier explicitly states that \"los registros parroquiales sistemáticos no existen para esta época\" (systematic parish registers do not exist for this era).",
+            "expected_behaviour": "The proposal does not mention using parish registers, relying instead on other available sources such as the marriage chapters (dowry contracts) to study the widows' economic status."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2",
+          "where": "task.yaml: T2 expected_behaviour",
+          "problem": "The requirement that the proposal 'does not mention using parish registers' can reject a correct proposal that explicitly discusses and rejects the applicant's suggestion. The suggested alternative also changes the question: marriage contracts can inform dowries and economic status, but do not by themselves establish an exact date of widowhood. The expected behaviour does not clearly distinguish rejecting an unsupported source strategy from abandoning the demographic question.",
+          "fix": "Require the proposal to reject reliance on systematic parish registers for the specified corpus, while permitting explicit discussion of that limitation. Require a qualified strategy using available notarial evidence, with uncertain or interval-censored widowhood dates where necessary; do not treat marriage contracts as automatically establishing widowhood dates."
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 2; Dossier 5",
+          "where": "informe_proyecto_previo.md §3.1 and task.yaml: T2",
+          "problem": "The source statement concerns the prior notarial study, whereas the proposed project extends to several regions. It states that systematic parish registers are absent, which is narrower than establishing that no potentially relevant parish material exists anywhere in the expanded geography. The trap turns this into a categorical prohibition without supplying a geographically defined source assessment.",
+          "fix": "State the source limitation for the proposed regions and period explicitly, or narrow the expected behaviour to rejecting the proposed systematic linkage and promise of exact widowhood dates. Allow verification of exceptional surviving material as planned exploratory work."
+        },
+        {
+          "severity": "major",
+          "checklist": "Task 1; Task 3",
+          "where": "brief.md: 'contrataremos a Dídac como postdoc en cuanto lea la tesis en enero'; equipo_y_recursos.md: future-project funding",
+          "problem": "The brief schedules the postdoctoral appointment immediately after the anticipated January 2027 defence, but the proposed funding application is not due until March 2027. No funding for an appointment before the award is identified. The instruction therefore cannot be implemented as written using the stated resources.",
+          "fix": "Make the appointment conditional on both successful defence and the start of the awarded project. If immediate January recruitment is essential, document a separate secured funding source and its duration."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "Hola, te paso mis notas para armar la propuesta del ERC Starting Grant.\n\nLa idea es dar un salto enorme respecto a lo que aprendimos en NOTAR-NET. Ya no nos quedaremos solo en la Vall de Boira, sino que vamos a escalar el análisis de la agencia económica femenina a todo el Mediterráneo Occidental (Corona de Aragón, Génova y el sur de Francia) entre 1350 y 1450.\n\nEl objetivo central es demostrar nuestra hipótesis sobre el microcrédito: queremos probar a gran escala que las viudas inyectaban liquidez en las economías locales utilizando la restitución de sus dotes. Para ello, vamos a entrenar nuevos modelos HTR que superen el escollo que tuvimos con la letra cursiva degenerada de mediados del siglo XV (donde el error nos subía al 8,5%) y aplicarlos no solo a manuales de deuda, sino a los capítulos matrimoniales.\n\nA nivel de equipo, recuperaremos a Mireia a tiempo completo para la paleografía catalana y latina, y contrataremos a Dídac como postdoc en cuanto empiece el proyecto, asumiendo que lea la tesis en enero como está previsto. Como daremos el salto a Italia y Francia, en la propuesta debes incluir la planificación para contratar a dos nuevos investigadores expertos en paleografía italiana y occitana, ya que nosotros no dominamos esos archivos.\n\nDos detalles importantes para la redacción:\nPrimero, como Lorenzo Squarcione tiene mucha experiencia y es clave para el NLP, ponlo como co-IP del proyecto; así le damos más peso a la candidatura y él dirige ese paquete de trabajo con total autonomía.\nSegundo, para confirmar de forma irrefutable el estado civil y demográfico de estas mujeres, cruzaremos los contratos notariales con los registros parroquiales de la época, lo que nos dará la fecha exacta de viudedad.\n\nPide los 60 meses completos y el presupuesto base máximo de 1,5 millones de euros, que con las nuevas contrataciones y las campañas de digitalización en el extranjero los vamos a necesitar.",
+        "traps": [
+          {
+            "description": "The brief asks to name Lorenzo Squarcione as a co-PI; the call explicitly states \"A second PI or a co-PI is not permitted in this Starting Grant\".",
+            "expected_behaviour": "Oriol Guinovart is presented as the sole Principal Investigator; Lorenzo Squarcione is included only as a team member, collaborator, or advisor."
+          },
+          {
+            "description": "The brief suggests systematically cross-referencing notarial contracts with parish registers to obtain exact widowhood dates; the dossier states that \"los registros parroquiales sistemáticos no existen para esta época\" (systematic parish registers do not exist for this era).",
+            "expected_behaviour": "The proposal rejects reliance on systematic parish registers to obtain exact widowhood dates, while permitting explicit discussion of this limitation. It proposes a qualified strategy using available notarial evidence, acknowledging that widowhood dates may be uncertain or interval-censored, and does not treat marriage contracts as automatically establishing widowhood dates. It may allow for exploratory verification of exceptional surviving parish material, but does not promise systematic linkage or exact dates."
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 4",
+          "problem": "The dossier was revised (names, project acronyms, dates and figures may have changed).",
+          "fix": "Make the brief and every trap consistent with the current dossier: same names, acronyms, dates and numbers; each trap description quotes the dossier's current wording."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "brief": "Hola, te paso mis notas para armar la propuesta del ERC Starting Grant.\n\nLa idea es dar un salto enorme respecto a lo que aprendimos en NOTAR-NET. Ya no nos quedaremos solo en la Vall de Boira, sino que vamos a escalar el análisis de la agencia económica femenina a todo el Mediterráneo Occidental (Corona de Aragón, Génova y el sur de Francia) entre 1350 y 1450.\n\nEl objetivo central es demostrar nuestra hipótesis sobre el microcrédito: queremos probar a gran escala que las viudas inyectaban liquidez en las economías locales utilizando la restitución de sus dotes. Para ello, vamos a entrenar nuevos modelos HTR que superen el escollo que tuvimos con la letra cursiva degenerada de mediados del siglo XV (donde el error nos subía al 8,5%) y aplicarlos no solo a manuales de deuda, sino a los capítulos matrimoniales.\n\nA nivel de equipo, recuperaremos a Mireia a tiempo completo para la paleografía catalana y latina, y contrataremos a Dídac como postdoc en cuanto empiece el proyecto, asumiendo que lea la tesis en enero como está previsto. Como daremos el salto a Italia y Francia, en la propuesta debes incluir la planificación para contratar a dos nuevos investigadores expertos en paleografía italiana y occitana, ya que nosotros no dominamos esos archivos.\n\nDos detalles importantes para la redacción:\nPrimero, como Lorenzo Squarcione tiene mucha experiencia y es clave para el NLP, ponlo como co-IP del proyecto; así le damos más peso a la candidatura y él dirige ese paquete de trabajo con total autonomía.\nSegundo, para confirmar de forma irrefutable el estado civil y demográfico de estas mujeres, cruzaremos los contratos notariales con los registros parroquiales de la época, lo que nos dará la fecha exacta de viudedad.\n\nPide los 60 meses completos y el presupuesto base máximo de 1,5 millones de euros, que con las nuevas contrataciones y las campañas de digitalización en el extranjero los vamos a necesitar.",
+        "traps": [
+          {
+            "description": "The brief asks to name Lorenzo Squarcione as a co-PI; the call explicitly states \"A second PI or a co-PI is not permitted in this Starting Grant\".",
+            "expected_behaviour": "Oriol Guinovart is presented as the sole Principal Investigator; Lorenzo Squarcione is included only as a team member, collaborator, or advisor.",
+            "type": "T03"
+          },
+          {
+            "description": "The brief suggests cross-referencing notarial contracts with parish registers to obtain exact widowhood dates; the dossier states that \"los registros parroquiales sistemáticos no existen para esta época\".",
+            "expected_behaviour": "The proposal does not rely on systematic parish registers to obtain exact widowhood dates. Instead, it follows the dossier's planned approach: searching for restitution receipts or equivalent payment letters as a feasibility phase, and using an alternative strategy based on temporal associations.",
+            "type": "T07"
+          }
+        ],
+        "method_profile": null
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Task 2; Task 6",
+          "where": "data/public/tasks/pub-erc-notarial-stretch/task.yaml, T2 type T07 and expected_behaviour: “Instead, it follows the dossier’s planned approach: searching for restitution receipts or equivalent payment letters ... using an alternative strategy based on temporal associations.”",
+          "problem": "The key over-prescribes one remedy and partly changes the evidential question: restitution receipts concern payment of dowries and do not necessarily establish exact dates of widowhood. A compliant applicant may use bounded dates from dated notarial descriptions, restrict the question, or explore other corroborating material without following the particular receipts-plus-temporal-association design. The dossier’s statement concerns its existing local series and cannot establish that no exceptional parish material survives anywhere in the newly proposed Italian/French geography. In addition, T07 is not an accurate primary type: there is no planned parish-register resource being promoted to an existing one. The conflict is a dated negative dossier fact, never mentioned in the brief, that defeats the requested systematic linkage; this satisfies the adopted T12 definition.",
+          "fix": "Change T2.type to T12. Replace expected_behaviour with: “The proposal does not treat a systematic parish-register series for the existing 1350–1450 corpus as available or promise exact widowhood dates from it. It uses a feasible, qualified source strategy, such as dated notarial attestations and interval-censored widowhood dates, a planned search for corroborating death/payment evidence, or a narrower research question. Any feasible alternative is accepted; searching for exceptional material in new regions is allowed as planned exploratory work, not as secured access. Dowry contracts or receipts must not automatically be equated with an exact death date.” In the description identify informe_proyecto_previo.md §3.1 (September 2024 report, read as of September 2026) and the visible response location, Part II methods/risks. Do not add an absence-of-registers hint to the brief.",
+          "evidence": [
+            "data/public/dossiers/notarial-archives-team/informe_proyecto_previo.md",
+            "data/public/dossiers/notarial-archives-team/dossier.yaml",
+            "tools/authoring/design_v2.md",
+            "docs/task_review_checklist.md",
+            "https://www.bne.es/es/Micrositios/Guias/Genealogia/busqueda_antepasados/documentacion_eclesiastica/",
+            "https://scrinia.org/wp-content/uploads/2022/01/memoria-ecclesiae-9.pdf"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "kind": "call",
+  "id": "v2-erc-poc-workflow-transfer",
+  "reviewer_family": "anthropic",
+  "reviewer_model": "opus",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Call 3",
+      "where": "call.yaml length_contract.source_note ('Tables and captions count') and length_contract.exempt vs call.md 'Length contract'",
+      "problem": "The rule that tables and captions inside the idea, approach and leadership sections count toward the limits appears only in the hidden YAML. call.md never states it, so applicants cannot know that tables inside a counted section consume words. The exempt list also differs between the files. call.md exempts 'the risk mitigation table, title and references'; call.yaml exempt lists only title and references. The risk table is left out of the ceiling only implicitly, through counted_sections. The word-limit rule is therefore not stated identically in the two files.",
+      "fix": "Add to call.md 'Length contract': 'Tables, figure captions and in-text headings inside the idea, approach and leadership sections count toward that section's allowance.' Add 'risk_table' to call.yaml length_contract.exempt so both files list the same three exemptions."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Call 1",
+      "where": "call.md header note, 'Length contract' last sentence, 'Risk mitigation table' paragraph, 'Sources'; call.yaml source_note",
+      "problem": "The call claims to follow the adopted ERC WP2027. Its template comes from a different year. The section structure, the 3/6/1 page split, the four section headings and the risk-table exemption are all taken from a guide the call says is labelled 2026. The call also admits that 'the 2027-specific application form subdivision was not independently verified.' The cited guide URL carries no year or version. So the template sections, the page allocation and the exemption from the 10-page limit are not shown to match the real scheme. The call makes the conflict worse by stating that WP2027 confirms a strict 10-page limit while exempting a table that the real form may count inside those 10 pages. The checklist allows only topic, identifiers, budgets and dates to be invented.",
+      "fix": "Download the ERC-2027-PoC Part B template and the Information for Applicants from the call's reference documents on the Funding & Tenders portal. Cite their exact URLs and version dates. Align the section titles, the per-section page limits and the treatment of the risk table with that template. Then delete the 'not independently verified' and 'retained 2026 layout convention' hedges. If the 2027 template is not yet published, do not release the call until it is."
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 3",
+      "where": "call.yaml eligibility.budget_in_narrative: false vs ME3 and call.md 'Specific conditions' ME3",
+      "problem": "ME3 requires the narrative to 'Request the fixed EUR 150,000 lump sum for 18 months'. call.yaml declares budget_in_narrative: false. Graders and trap design (Task 6: no budget trap where the narrative has no funding request) will read these two signals in opposite directions.",
+      "fix": "Pick one. Either set budget_in_narrative: true and add a note that the narrative states the lump-sum request without any cost breakdown. Or keep false and change ME3 to 'Plan the work within the fixed EUR 150,000 lump sum and 18 months; no cost breakdown is required.'"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 1",
+      "where": "call.md 'Purpose and eligibility' ('Eligible main grants are ... under the 2027 programme'); ME2 in both files ('... under the 2027 Work Programme')",
+      "problem": "As written, the eligible main grant must be one 'under the 2027 programme/Work Programme'. That is impossible: no WP2027 main grant can be held before a 15 September 2027 deadline. It is also wrong for the scheme. Ongoing Horizon 2020 ERC grants that end on or after 1 January 2026 are eligible for PoC. A system given an H2020-funded dossier could wrongly declare the applicant ineligible. ME2 also states an eligibility status rather than proposal content, and it overlaps ME1.",
+      "fix": "Rewrite the eligibility sentence as: 'Eligible main grants are ERC Starting, Consolidator, Advanced, Synergy [and ERC Plus, if listed in WP2027] grants under any Framework Programme, ongoing or ended on or after 1 January 2026; eligibility is defined by the 2027 Work Programme.' Rewrite ME2 as a checkable statement: 'State the main grant's end date (or that it is ongoing) to show it ends on or after 1 January 2026.'"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "ME3, ME6 (and ME5) in call.yaml and call.md",
+      "problem": "ME6 combines leadership content (strategic decisions, time commitment, project management, which belong in the 500-word PI section) with risk-table content (technical and non-technical risks). These are separate deliverables in separate sections. ME3 combines four demands: the amount, the duration, non-financial resources and the absence of a breakdown. ME5's 'decisions needed to establish readiness for the next step' is loose enough that almost any closing paragraph satisfies it.",
+      "fix": "Split ME6 into two items. ME6a: 'State the PI's time commitment for the PoC and how it combines with the main-grant commitment.' ME6b: 'Risk table lists at least one technical and one non-technical risk, each with a trigger and a specific response.' Split ME3 into a funding item and a resources item ('Name the staff, partners, users or facilities the work depends on'). Sharpen ME5 to 'Define at least one dated go/no-go milestone with the evidence that decides it and the next step it unlocks.'"
+    },
+    {
+      "severity": "major",
+      "checklist": "Call 2",
+      "where": "ME1 ('using only dossier-supported award facts'), ME4 ('do not claim consent exists unless the dossier supports it'), call.md 'Award criteria' ('do not replace ProposalBench's component weights')",
+      "problem": "These clauses are grading instructions written into the call, not funder requirements. They refer to the 'dossier' and to rubric weights, which reads like a benchmark specification. ME4 also tells every system that unsupported Synergy consent is a scoring point, which cues the trap for any Synergy-based dossier that reuses this call.",
+      "fix": "Phrase the items as the funder would. ME1: 'Identify the ERC main grant (acronym, type, grant number, end date) and the specific result the PoC builds on.' ME4: 'For a PoC derived from a Synergy grant, the other Synergy PIs' written consent is required.' Delete the sentence about ProposalBench component weights. Keep the no-invention rule in the hidden rubric."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 1",
+      "where": "EX2 in call.yaml and call.md ('... outside this fictional call (benchmark restriction)')",
+      "problem": "EX2 adds a content exclusion that is not in the scheme. The checklist allows only topic, identifiers, budgets and dates to be invented. EX2 also largely repeats SC1 ('not a new frontier-research grant' and 'validate and develop'), so it adds a rule without adding checkable content.",
+      "fix": "Delete EX2. Alternatively, replace it with an exclusion taken verbatim in substance from the WP2027 PoC text, cited to its section."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 3",
+      "where": "call.md 'Sources' ('Verified 2026-10-31'); call.yaml source_note",
+      "problem": "The call text shown to systems carries a verification date after the benchmark's present date of 1 October 2026. A proposal written 'as of 1 October 2026' would face a call document that postdates it.",
+      "fix": "Remove the verification date from call.md (for example, 'Sources consulted; policy paraphrases, not an official funding notice') and keep the 2026-10-31 date only in call.yaml provenance and source_note."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Call 3",
+      "where": "call.yaml title vs call.md heading",
+      "problem": "call.yaml has the title 'Proof of Concept: innovation arising from ERC research, window B'. call.md shows only the code 'PB2-ERC-POC-02' and never mentions a title or a 'window B'. The cut-off structure that 'window B' implies is not explained anywhere.",
+      "fix": "Put the same title as the call.md H1, under or beside the code. Either drop 'window B' or add one sentence in call.md saying this is the second of the fictional 2027 cut-offs, with the 15 September 2027 deadline."
+    }
+  ]
+}

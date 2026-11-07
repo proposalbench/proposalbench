@@ -1,0 +1,24 @@
+{
+  "kind": "dossier",
+  "id": "math-tutoring-econ",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "major",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, facts",
+      "problem": "The checklist requires every salient number and all gaps/limitations to be recorded as facts. However, highly salient tutoring dosage parameters (3 students per tutor, 3 sessions per week, 45 minutes, 80 hours training) and the effect size for high attenders (0.27 SD) are missing. Furthermore, limitations 1-4 from `prior_project.md` (single urban district, business-as-usual control, unknown long-term persistence, qualitative sample limits) are not recorded as facts.",
+      "fix": "Add facts for the tutoring model parameters, the high-attender effect size, and the remaining limitations from `prior_project.md`."
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 3",
+      "where": "dossier.yaml, fact F18",
+      "problem": "Fact F18 states that neither Ostrander nor Treviño has received NSF funding, but it only cites `cv_pi.md` as the source. `cv_pi.md` only contains Ostrander's statement; Treviño's statement is in `cv_copi.md`.",
+      "fix": "Split F18 into two facts, one for Ostrander citing `cv_pi.md` and one for Treviño citing `cv_copi.md`."
+    }
+  ]
+}

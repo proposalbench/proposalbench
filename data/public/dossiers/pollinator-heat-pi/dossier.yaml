@@ -1,0 +1,391 @@
+schema_version: 1
+id: pollinator-heat-pi
+language: en
+applicant_type: individual
+career_stage: early_career
+disciplines:
+- ecology
+- pollination biology
+- thermal physiology
+method_profile: quantitative
+country: ES
+files:
+- path: cv_pi.md
+  role: cv
+- path: prior_project.md
+  role: prior_project
+- path: publications.md
+  role: publications
+- path: resources_team.md
+  role: resources
+facts:
+- id: F01
+  category: position
+  kind: existing
+  text: PI holds a tenure-track researcher position at CESERAL, Almería, since September 2022.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F02
+  category: education
+  kind: existing
+  text: PhD in Ecology defended on 12 June 2020 at Universidad de Valdemora del Sureste.
+  value: 12 June 2020
+  salient: true
+  source: cv_pi.md
+- id: F03
+  category: grant
+  kind: existing
+  text: PB-FILATHERM (PB-CESERAL-2025-01), CESERAL Institutional Emerging Groups Programme, EUR 181,500,
+    September 2025 to August 2028, PI is sole PI.
+  value: 181,500
+  salient: true
+  source: cv_pi.md
+- id: F04
+  category: result
+  kind: existing
+  text: 'Total interaction events recorded across 4 sites in the 2026 season: 18,742.'
+  value: 18,742
+  salient: true
+  source: prior_project.md
+- id: F05
+  category: result
+  kind: existing
+  text: 147 pollinator species observed and 83 plant species in flower; 1,214 unique pairwise links.
+  value: 1,214
+  salient: true
+  source: prior_project.md
+- id: F06
+  category: result
+  kind: existing
+  text: At 450 m, network connectance dropped by 26% (95% CI 18–34%) during heat waves.
+  value: 26%
+  salient: true
+  source: prior_project.md
+- id: F07
+  category: result
+  kind: existing
+  text: At 1,900 m, connectance decline was only 4% (95% CI −2 to 10%), not statistically significant.
+  value: 4%
+  salient: true
+  source: prior_project.md
+- id: F08
+  category: result
+  kind: existing
+  text: During heat waves at 450 m, visitation was 2.1 visits flower⁻¹ h⁻¹, a 55% decline (95% CI 44–66%)
+    relative to non-heat-wave weeks at that elevation.
+  value: 55%
+  salient: true
+  source: prior_project.md
+- id: F09
+  category: result
+  kind: existing
+  text: CTmax measured for 64 pollinator species (n = 812 individuals); mean CTmax 46.8 °C (SD 3.1).
+  value: 46.8 °C
+  salient: true
+  source: prior_project.md
+- id: F10
+  category: result
+  kind: existing
+  text: Lowland (450 m) pollinators had a thermal safety margin of only 3.2 °C (SD 1.8).
+  value: 3.2 °C
+  salient: true
+  source: prior_project.md
+- id: F11
+  category: result
+  kind: existing
+  text: Thermal safety margin was the strongest predictor of species-level visitation decline during heat
+    waves (R² = 0.41, P < 0.001, n = 64).
+  value: '0.41'
+  salient: true
+  source: prior_project.md
+- id: F12
+  category: result
+  kind: existing
+  text: Fruit set at 450 m was 31% lower (95% CI 19–43%) when flowering coincided with a heat wave.
+  value: 31%
+  salient: true
+  source: prior_project.md
+- id: F13
+  category: team
+  kind: existing
+  text: Current group consists of the PI and one PhD student (Marcos Gallego Ruiz, institutional predoctoral
+    contract, Oct 2025 – Sep 2029); no postdoc or technician.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F14
+  category: resource
+  kind: existing
+  text: Four permanent 50 × 50 m plots in Sierra de los Filabres at 450, 950, 1,450 and 1,900 m elevation.
+  value: '4'
+  salient: true
+  source: prior_project.md
+- id: F15
+  category: resource
+  kind: planned
+  text: Six open-top warming chambers ordered in August 2026 for deployment at 950 m and 1,450 m in spring
+    2027; cost EUR 8,400.
+  value: '6'
+  salient: true
+  source: resources_team.md
+- id: F16
+  category: publication
+  kind: existing
+  text: PI has 8 peer-reviewed articles published or in press (6 as first or corresponding author), h-index
+    5.
+  value: '8'
+  salient: true
+  source: publications.md
+- id: F17
+  category: publication
+  kind: existing
+  text: PhD student Gallego-Ruiz has 1 paper in press and 1 under review, both as first author with PI
+    as corresponding author.
+  value: null
+  salient: true
+  source: publications.md
+- id: F18
+  category: other
+  kind: existing
+  text: PI has no experience leading an international team or coordinating a multi-partner project.
+  value: null
+  salient: true
+  source: cv_pi.md
+- id: F19
+  category: resource
+  kind: existing
+  text: Plant–pollinator interaction dataset of 18,742 records and CTmax dataset of 812 measurements openly
+    released in September 2026 under CC BY 4.0 in the CESERAL repository.
+  value: 18,742
+  salient: true
+  source: resources_team.md
+- id: F20
+  category: result
+  kind: existing
+  text: Only one full field season (2026) completed; second season (2027) is planned.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F21
+  category: partner
+  kind: existing
+  text: Informal collaboration with Prof. Hanna Vinterholm Norén (Universitetet i Skogervik, Sweden) limited
+    to a 2019 research stay and two co-authored papers (both 2022); no current joint project or formal
+    agreement.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F22
+  category: budget
+  kind: existing
+  text: 'PB-FILATHERM budget execution at 12 months: EUR 105,512 of 181,500 spent (direct costs 87,200
+    of 150,000; indirect costs 18,312 of 31,500).'
+  value: 105,512
+  salient: false
+  source: prior_project.md
+- id: F23
+  category: result
+  kind: existing
+  text: Three natural heat-wave episodes occurred during the 2026 season, totalling 14 heat-wave days.
+  value: '14'
+  salient: false
+  source: prior_project.md
+- id: F24
+  category: grant
+  kind: existing
+  text: ERC Starting Grant 2026 application (THERMOPOLL, EUR 1,498,000) submitted October 2025; evaluated
+    at Step 2 as category A but not funded for lack of budget; a resubmission for the 31 March 2027 deadline
+    is in preparation and not yet submitted.
+  value: not funded for lack of budget
+  salient: true
+  source: cv_pi.md
+- id: F25
+  category: result
+  kind: existing
+  text: 'Overall visitation rate across all sites and weeks: 4.7 visits flower⁻¹ h⁻¹ (SE 0.3).'
+  value: '4.7'
+  salient: true
+  source: prior_project.md
+- id: F26
+  category: result
+  kind: existing
+  text: Highland (1,900 m) species had a thermal safety margin of 9.7 °C (SD 2.5).
+  value: 9.7 °C
+  salient: true
+  source: prior_project.md
+- id: F27
+  category: result
+  kind: existing
+  text: Lowland (450 m) species had a mean CTmax of 47.9 °C (SD 2.4); highland (1,900 m) species had a
+    mean CTmax of 44.6 °C (SD 2.9).
+  value: 47.9 °C
+  salient: true
+  source: prior_project.md
+- id: F28
+  category: result
+  kind: existing
+  text: At 1,900 m, fruit-set difference was 7% (95% CI −4 to 18%), not significant; full fruit-set data
+    for all 12 focal species and 360 plants will be available after the 2027 season.
+  value: 7%
+  salient: true
+  source: prior_project.md
+- id: F29
+  category: resource
+  kind: existing
+  text: 'Historical pollinator records from PhD fieldwork (2017–2019): 9,316 interaction records, published
+    and openly available.'
+  value: 9,316
+  salient: true
+  source: resources_team.md
+- id: F30
+  category: resource
+  kind: existing
+  text: 48 iButton temperature/humidity loggers and 8 time-lapse cameras deployed at the four field sites.
+  value: '48'
+  salient: true
+  source: resources_team.md
+- id: F31
+  category: resource
+  kind: existing
+  text: Access to CESERAL Linux cluster (128 cores, 512 GB RAM) for network analyses and null-model permutations.
+  value: '128'
+  salient: false
+  source: resources_team.md
+- id: F32
+  category: resource
+  kind: existing
+  text: CESERAL does not have a controlled-environment room large enough for whole-community thermal experiments;
+    the current setup handles individual insects only.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F33
+  category: partner
+  kind: existing
+  text: Informal discussions with Dr. Tomás Requena Ibáñez (Universidad de Campoluz) on fruit-set protocols;
+    no joint publications or grants.
+  value: null
+  salient: true
+  source: resources_team.md
+- id: F34
+  category: resource
+  kind: existing
+  text: Access to CESERAL molecular ecology lab for DNA barcoding at approximately EUR 3 per sample.
+  value: '3'
+  salient: false
+  source: resources_team.md
+- id: F35
+  category: result
+  kind: existing
+  text: Nestedness (NODF) declined significantly at 450 m (−23%, 95% CI −31 to −15%) and 950 m (−17%,
+    95% CI −25 to −9%), but not at 1,450 m or 1,900 m.
+  value: −23%
+  salient: true
+  source: prior_project.md
+- id: F36
+  category: result
+  kind: existing
+  text: At 1,900 m, heat-wave visitation was 4.3 visits flower⁻¹ h⁻¹, a non-significant decline of 8%
+    (95% CI −3 to 19%).
+  value: 8%
+  salient: true
+  source: prior_project.md
+- id: F37
+  category: result
+  kind: existing
+  text: 'Sampling design: 15-minute observation bouts, 18 weekly rounds from March to July 2026; CTmax
+    ramping at 0.25 °C min⁻¹ after 2 h acclimation; 360 marked plants across 12 focal species.'
+  value: '18'
+  salient: true
+  source: prior_project.md
+- id: F38
+  category: other
+  kind: existing
+  text: Each elevation is represented by a single site (one 50 × 50 m plot per elevation); spatial replication
+    within elevations is lacking.
+  value: null
+  salient: true
+  source: prior_project.md
+- id: F39
+  category: publication
+  kind: existing
+  text: Gallego-Ruiz and Miravet-Solana (2026) 'Trait-based vulnerability of hoverflies to heat waves
+    along an elevation gradient' is under review at Entomología Ecológica Ibérica (submitted July 2026);
+    no DOI yet.
+  value: null
+  salient: true
+  source: publications.md
+own_publications:
+- key: miravet2021thermal
+  authors:
+  - Miravet-Solana, E.
+  - Castaño-Heredia, R.
+  year: 2021
+  title: Thermal sensitivity of pollinator visitation in semi-arid Mediterranean shrublands
+  venue: Revista Ibérica de Ecología Animal
+  doi: 10.99999/pb.pollinator-heat-pi.2021.1
+- key: miravet2022ctmax
+  authors:
+  - Miravet-Solana, E.
+  - Castaño-Heredia, R.
+  - Vinterholm-Norén, H.
+  year: 2022
+  title: 'Critical thermal maxima of Mediterranean wild bees: phylogenetic signal and body-size effects'
+  venue: European Journal of Functional Ecology
+  doi: 10.99999/pb.pollinator-heat-pi.2022.1
+- key: miravet2023metaanalysis
+  authors:
+  - Miravet-Solana, E.
+  year: 2023
+  title: 'Plant–pollinator network rewiring under experimental warming: a meta-analysis'
+  venue: Advances in Community Ecology
+  doi: 10.99999/pb.pollinator-heat-pi.2023.1
+- key: miravet2026elevation
+  authors:
+  - Miravet-Solana, E.
+  - Gallego-Ruiz, M.
+  year: 2026
+  title: Elevation buffers plant–pollinator networks against heat-wave disruption in a Mediterranean mountain
+  venue: Mediterranean Ecology Letters
+  doi: 10.99999/pb.pollinator-heat-pi.2026.1
+- key: miravet2026safety
+  authors:
+  - Miravet-Solana, E.
+  - Gallego-Ruiz, M.
+  year: 2026
+  title: Thermal safety margins predict species-level pollinator decline during heat waves
+  venue: Global Environmental Change Biology
+  doi: 10.99999/pb.pollinator-heat-pi.2026.2
+- key: castano2020drought
+  authors:
+  - Castaño-Heredia, R.
+  - Miravet-Solana, E.
+  - Peñalver-Ortiz, J.A.
+  year: 2020
+  title: 'Drought and pollination failure in Thymus hyemalis: a five-year study'
+  venue: Entomología Ecológica Ibérica
+  doi: 10.99999/pb.pollinator-heat-pi.2020.1
+- key: vinterholm2022comparative
+  authors:
+  - Vinterholm-Norén, H.
+  - Bergström, K.
+  - Miravet-Solana, E.
+  year: 2022
+  title: Comparative thermal physiology of solitary bees across a European latitudinal gradient
+  venue: Nordic Journal of Thermal Biology
+  doi: 10.99999/pb.pollinator-heat-pi.2022.2
+- key: gallego2026bodysize
+  authors:
+  - Gallego-Ruiz, M.
+  - Miravet-Solana, E.
+  year: 2026
+  title: Body-size-dependent foraging cessation under heat stress in Anthophora plumipes
+  venue: Iberian Insect Studies
+  doi: 10.99999/pb.pollinator-heat-pi.2026.3
+provenance:
+  author: llm-assisted
+  author_family: anthropic
+  author_model: us.anthropic.claude-opus-4-6-v1
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY f078d494-e1c3-4a94-95f0-2ea9ea234964

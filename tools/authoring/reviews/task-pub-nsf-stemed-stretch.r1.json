@@ -1,0 +1,24 @@
+{
+  "kind": "task",
+  "id": "pub-nsf-stemed-stretch",
+  "reviewer_family": "google",
+  "reviewer_model": "gemini-3.1-pro-preview",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Dossier 2",
+      "where": "cv_pi.md, prior_project.md, brief.md, task.yaml (Trap 2), dossier.yaml",
+      "problem": "The call has a submission date of 15 September 2027, but the dossier and brief are written from the perspective of early 2025 (e.g., the PI is in year 3 starting from 2022, the CRII grant ends in August 2025 but the brief calls it \"still active\", publications go up to 2025). This creates a two-year time gap and contradicts the brief's claim that the grant is active.",
+      "fix": "Shift all dates in the dossier, brief, facts registry, and task.yaml forward by two years (e.g., PhD in 2022, Assistant Prof start in 2024, CRII grant 2025–2027, publications 2023–2027) so the applicant's present day is 2027."
+    },
+    {
+      "severity": "major",
+      "checklist": "Task 2",
+      "where": "brief.md, \"We've been publishing together on formative assessment and AI feedback\"",
+      "problem": "Trap 1 relies on the applicant stating a blatant falsehood about their own life in their private notes. Real applicants do not hallucinate their own publication history.",
+      "fix": "Change the phrasing to an instruction that assumes the existence of the publications, such as \"Let's highlight our joint publications on formative assessment and AI feedback to show our track record.\""
+    }
+  ]
+}

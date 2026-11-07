@@ -1,0 +1,43 @@
+schema_version: 1
+id: pub2-he-revision-coast-stretch
+split: public
+call_id: v2-he-revision-catchment-coast
+dossier_id: v2-urban-runoff-revision-consortium
+fit_level: stretch
+brief: brief.md
+type: resubmission
+traps:
+- id: T1
+  type: T02
+  description: 'The brief explicitly retains the earlier 48-month timetable and reserves M37–M48 for synthesis,
+    training and transfer. This conflicts with the call''s "Maximum duration" of "36 months". The dossier''s
+    amended dependency record supplies an alternative: "The planned configuration has a 36-month envelope",
+    with administrative interpretation, bounded demonstrations and synthesis in M31–M36.'
+  expected_behaviour: The implementation narrative, work-package schedules, deliverables, milestones and
+    funded resources must all fit within M1–M36. Use the revised dependency map to rescope and sequence
+    acquisition, model locking, independent evaluation, demonstrations and transfer, preserving their
+    dependencies and providing contingencies. Do not merely relabel the 48-month plan or move necessary
+    funded work into an unfunded tail. The documented 36-month configuration or another feasible design
+    respecting the maximum is compliant.
+- id: T2
+  type: T12
+  description: 'The brief requests coupled catchment-to-coast forecasts built around the earlier catchment
+    layers, without mentioning access expiry. Only resources_and_access.md states: "The national Spanish
+    catchment-data licence for the Drainage Atlas Series, issued by Cartografía Hídrica de Valdemarea,
+    S.L., a Spanish geospatial data provider, covers catchment A only and ends on 31 December 2026; no
+    renewal has been executed as of this register date." It further states: "Its terms require cessation
+    of analytical use at expiry, with a sealed audit copy retained solely for contractual record-keeping."
+    Continuing analytical access therefore cannot be presented as secured.'
+  expected_behaviour: The proposal does not rely on catchment-A Drainage Atlas layers, including the audit
+    copy, for analysis after 31 December 2026 unless renewed access is explicitly contingent on a new
+    agreement and supported by a feasible permitted-data fallback. The expiry or unsecured access status
+    is visible in the data discussion or risks; mentioning the audit copy is unnecessary if it is not
+    used. A design using permitted public inputs, retained permitted records or prospective observations
+    is acceptable. It must not present the B/C extracts or uncleared radar retrieval arrangements as secured
+    substitutes. Any feasible design respecting these permissions is compliant.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 7269d5eb-ecc4-4fa4-8267-82954498edb7

@@ -1,0 +1,3321 @@
+{
+ "meta": {
+  "release": "2026-11",
+  "title": "November 2026 run (public-v1)",
+  "eval_id": "public-v1",
+  "headline_system": "proposia-pro-v2",
+  "headline_tasks": [
+   "pub-he-heatstorage-close",
+   "pub-he-heatstorage-stretch",
+   "pub-he-indoorhealth-stretch",
+   "pub-msca-ef-maternal-stretch",
+   "pub-msca-gf-battery-stretch",
+   "pub-nih-ruralbp-stretch",
+   "pub-nih-sleepcardio-stretch",
+   "pub-nsf-ailearning-close",
+   "pub-nsf-stemed-stretch",
+   "pub2-aei-care-stretch",
+   "pub2-aei-service-close",
+   "pub2-aei-service-stretch",
+   "pub2-cerv-culture-stretch",
+   "pub2-cerv-service-stretch",
+   "pub2-erc-field-stretch",
+   "pub2-erc-workflow-close",
+   "pub2-erc-workflow-stretch",
+   "pub2-foundation-records-stretch",
+   "pub2-foundation-signals-stretch",
+   "pub2-he-coldchain-stretch",
+   "pub2-he-digital-stretch",
+   "pub2-he-revision-coast-close",
+   "pub2-he-revision-coast-stretch",
+   "pub2-he-revision-urban-stretch",
+   "pub2-he-stage1-coast-stretch",
+   "pub2-he-stage1-estuary-close",
+   "pub2-he-stage1-estuary-stretch",
+   "pub2-ka220-multilingual-stretch",
+   "pub2-ka220-studios-stretch",
+   "pub2-nih-stress-stretch",
+   "pub2-nih-transition-stretch",
+   "pub2-nsf-autonomy-stretch",
+   "pub2-nsf-inference-close",
+   "pub2-nsf-inference-stretch"
+  ],
+  "development_tasks": [
+   "pub-aei-notarial-close",
+   "pub-aei-pollinator-stretch",
+   "pub-erc-notarial-stretch",
+   "pub-erc-pollinator-close",
+   "pub-he-indoorhealth-close",
+   "pub-msca-ef-battery-close",
+   "pub-msca-gf-maternal-close",
+   "pub-nih-ruralbp-close",
+   "pub-nih-sleepcardio-close",
+   "pub-nsf-ailearning-stretch",
+   "pub-nsf-stemed-close",
+   "pub2-aei-care-close",
+   "pub2-cerv-culture-close",
+   "pub2-cerv-service-close",
+   "pub2-erc-field-close",
+   "pub2-foundation-records-close",
+   "pub2-foundation-signals-close",
+   "pub2-he-coldchain-close",
+   "pub2-he-digital-close",
+   "pub2-he-revision-urban-close",
+   "pub2-he-stage1-coast-close",
+   "pub2-ka220-multilingual-close",
+   "pub2-ka220-studios-close",
+   "pub2-nih-stress-close",
+   "pub2-nih-transition-close",
+   "pub2-nsf-autonomy-close"
+  ],
+  "tasks_in_split": 60,
+  "exported_at": "2026-11-07T00:03:43+00:00"
+ },
+ "systems": {
+  "proposia-pro-v2": {
+   "name": "Proposia Pro",
+   "kind": "product",
+   "summary": "Commercial grant-writing pipeline (Claude Opus 5.5 writes, Claude Sonnet 5.5 audits and revises).",
+   "models": [
+    "claude-opus-5-5",
+    "claude-sonnet-5-5"
+   ],
+   "versions": [
+    "8713993c893d"
+   ],
+   "generated": [
+    "2026-11-05",
+    "2026-11-06"
+   ],
+   "subscription": false,
+   "samples": 34
+  },
+  "cli-claude-code-opus": {
+   "name": "Claude Code (Opus 5.5)",
+   "kind": "agent",
+   "summary": "Claude Code CLI working on the task folder, with web search.",
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "versions": [
+    "3a31aa5d67ae"
+   ],
+   "generated": [
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "subscription": true,
+   "samples": 60
+  },
+  "cli-codex-gpt-6-astra": {
+   "name": "Codex (GPT-6 Astra)",
+   "kind": "agent",
+   "summary": "Codex CLI working on the task folder, with web search, reasoning effort high.",
+   "models": [
+    "gpt-6-astra"
+   ],
+   "versions": [
+    "9fee4787e118"
+   ],
+   "generated": [
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "subscription": true,
+   "samples": 120
+  },
+  "agent-claude-opus-4.6": {
+   "name": "Baseline agent (Claude Opus 4.6)",
+   "kind": "agent",
+   "summary": "A simple open agent built for the benchmark as a baseline (literature retrieval through Crossref, one critique and revision pass); not a product, and not Claude Opus 4.6 alone.",
+   "models": [
+    "us.anthropic.claude-opus-4-6-v1"
+   ],
+   "versions": [
+    "3793a5ce7f2a",
+    "872e977c577b"
+   ],
+   "generated": [
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "subscription": false,
+   "samples": 120
+  },
+  "direct-cc-claude-opus-5.5": {
+   "name": "Claude Opus 5.5",
+   "kind": "direct",
+   "summary": "The baseline prompt with the task bundle, no tools.",
+   "models": [
+    "claude-opus-5-5"
+   ],
+   "versions": [
+    "abffeeaba565"
+   ],
+   "generated": [
+    "2026-11-01",
+    "2026-11-02"
+   ],
+   "subscription": true,
+   "samples": 105
+  },
+  "direct-cc-claude-sonnet-5.5": {
+   "name": "Claude Sonnet 5.5",
+   "kind": "direct",
+   "summary": "The baseline prompt with the task bundle, no tools.",
+   "models": [
+    "claude-sonnet-5-5"
+   ],
+   "versions": [
+    "0631597d199c"
+   ],
+   "generated": [
+    "2026-11-02",
+    "2026-11-02"
+   ],
+   "subscription": true,
+   "samples": 60
+  },
+  "direct-cc-claude-haiku-5.5": {
+   "name": "Claude Haiku 5.5",
+   "kind": "direct",
+   "summary": "The baseline prompt with the task bundle, no tools.",
+   "models": [
+    "claude-haiku-5-5"
+   ],
+   "versions": [
+    "7244051a245b"
+   ],
+   "generated": [
+    "2026-11-01",
+    "2026-11-02"
+   ],
+   "subscription": true,
+   "samples": 59
+  },
+  "direct-codex-gpt-6-astra": {
+   "name": "GPT-6 Astra",
+   "kind": "direct",
+   "summary": "The baseline prompt with the task bundle, no tools.",
+   "models": [
+    "gpt-6-astra"
+   ],
+   "versions": [
+    "cda7959dde16"
+   ],
+   "generated": [
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "subscription": true,
+   "samples": 120
+  },
+  "direct-codex-gpt-6-sol": {
+   "name": "GPT-6 Sol",
+   "kind": "direct",
+   "summary": "The baseline prompt with the task bundle, no tools.",
+   "models": [
+    "gpt-6-sol"
+   ],
+   "versions": [
+    "54c4219f1e4b"
+   ],
+   "generated": [
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "subscription": true,
+   "samples": 120
+  },
+  "direct-codex-gpt-6-luna": {
+   "name": "GPT-6 Luna",
+   "kind": "direct",
+   "summary": "The baseline prompt with the task bundle, no tools.",
+   "models": [
+    "gpt-6-luna"
+   ],
+   "versions": [
+    "5a358055a80d"
+   ],
+   "generated": [
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "subscription": true,
+   "samples": 120
+  },
+  "direct-gemini-3.1-pro": {
+   "name": "Gemini 3.1 Pro",
+   "kind": "direct",
+   "summary": "The baseline prompt with the task bundle, no tools.",
+   "models": [
+    "gemini-3.1-pro-preview"
+   ],
+   "versions": [
+    "9f4886b733ca"
+   ],
+   "generated": [
+    "2026-10-31",
+    "2026-10-31"
+   ],
+   "subscription": false,
+   "samples": 120
+  },
+  "direct-gemini-3.8-flash": {
+   "name": "Gemini 3.8 Flash",
+   "kind": "direct",
+   "summary": "The baseline prompt with the task bundle, no tools.",
+   "models": [
+    "gemini-3.8-flash"
+   ],
+   "versions": [
+    "1c726ec8b93e"
+   ],
+   "generated": [
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "subscription": false,
+   "samples": 120
+  }
+ },
+ "headline": {
+  "leaderboard": [
+   {
+    "system": "proposia-pro-v2",
+    "samples": 34,
+    "score": 96.56,
+    "ci_low": 94.59,
+    "ci_high": 97.95,
+    "quality": 97.15,
+    "components": {
+     "call_responsiveness": 98.54,
+     "substance": 94.49,
+     "grounding": 99.71
+    },
+    "admissible": 1.0,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.91,
+    "refs_verified": 0.86,
+    "refs_not_found": 0.01,
+    "gen_minutes": 13.2,
+    "gen_cost": null,
+    "gen_cost_basis": "not_disclosed",
+    "subscription": false,
+    "judge_cost": 2.68,
+    "judge_cost_basis": "measured",
+    "name": "Proposia Pro"
+   },
+   {
+    "system": "cli-claude-code-opus",
+    "samples": 34,
+    "score": 93.29,
+    "ci_low": 90.89,
+    "ci_high": 94.94,
+    "quality": 94.06,
+    "components": {
+     "call_responsiveness": 98.89,
+     "substance": 86.47,
+     "grounding": 99.61
+    },
+    "admissible": 1.0,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.72,
+    "refs_verified": 0.66,
+    "refs_not_found": 0.14,
+    "gen_minutes": 6.8,
+    "gen_cost": 1.31,
+    "gen_cost_basis": "recorded",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Claude Code (Opus 5.5)"
+   },
+   {
+    "system": "direct-cc-claude-opus-5.5",
+    "samples": 34,
+    "score": 92.34,
+    "ci_low": 90.21,
+    "ci_high": 93.84,
+    "quality": 93.09,
+    "components": {
+     "call_responsiveness": 98.13,
+     "substance": 84.69,
+     "grounding": 99.8
+    },
+    "admissible": 1.0,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.67,
+    "refs_verified": 0.47,
+    "refs_not_found": 0.24,
+    "gen_minutes": 14.4,
+    "gen_cost": 2.33,
+    "gen_cost_basis": "recorded",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Claude Opus 5.5"
+   },
+   {
+    "system": "cli-codex-gpt-6-astra",
+    "samples": 34,
+    "score": 89.36,
+    "ci_low": 75.92,
+    "ci_high": 93.27,
+    "quality": 92.54,
+    "components": {
+     "call_responsiveness": 98.94,
+     "substance": 82.51,
+     "grounding": 99.8
+    },
+    "admissible": 0.97,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.72,
+    "refs_verified": 0.35,
+    "refs_not_found": 0.38,
+    "gen_minutes": 7.7,
+    "gen_cost": 6.01,
+    "gen_cost_basis": "upper_bound",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Codex (GPT-6 Astra)"
+   },
+   {
+    "system": "direct-codex-gpt-6-astra",
+    "samples": 34,
+    "score": 88.85,
+    "ci_low": 86.64,
+    "ci_high": 90.77,
+    "quality": 89.25,
+    "components": {
+     "call_responsiveness": 97.6,
+     "substance": 75.73,
+     "grounding": 99.61
+    },
+    "admissible": 1.0,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.62,
+    "refs_verified": 0.02,
+    "refs_not_found": 0.5,
+    "gen_minutes": 4.0,
+    "gen_cost": 0.6,
+    "gen_cost_basis": "upper_bound",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "GPT-6 Astra"
+   },
+   {
+    "system": "direct-codex-gpt-6-sol",
+    "samples": 34,
+    "score": 86.47,
+    "ci_low": 83.15,
+    "ci_high": 89.01,
+    "quality": 86.76,
+    "components": {
+     "call_responsiveness": 95.53,
+     "substance": 71.71,
+     "grounding": 99.34
+    },
+    "admissible": 1.0,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.43,
+    "refs_verified": 0.01,
+    "refs_not_found": 0.35,
+    "gen_minutes": 2.1,
+    "gen_cost": 0.11,
+    "gen_cost_basis": "upper_bound",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "GPT-6 Sol"
+   },
+   {
+    "system": "direct-cc-claude-haiku-5.5",
+    "samples": 34,
+    "score": 83.27,
+    "ci_low": 79.12,
+    "ci_high": 86.62,
+    "quality": 84.77,
+    "components": {
+     "call_responsiveness": 93.02,
+     "substance": 69.02,
+     "grounding": 99.8
+    },
+    "admissible": 1.0,
+    "critical_share": 0.03,
+    "words_vs_limit": 0.53,
+    "refs_verified": 0.16,
+    "refs_not_found": 0.3,
+    "gen_minutes": 1.7,
+    "gen_cost": 0.01,
+    "gen_cost_basis": "recorded",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Claude Haiku 5.5"
+   },
+   {
+    "system": "direct-codex-gpt-6-luna",
+    "samples": 34,
+    "score": 79.55,
+    "ci_low": 67.08,
+    "ci_high": 84.46,
+    "quality": 82.44,
+    "components": {
+     "call_responsiveness": 92.59,
+     "substance": 64.25,
+     "grounding": 98.54
+    },
+    "admissible": 0.97,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.55,
+    "refs_verified": 0.0,
+    "refs_not_found": 0.22,
+    "gen_minutes": 1.0,
+    "gen_cost": 0.01,
+    "gen_cost_basis": "upper_bound",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "GPT-6 Luna"
+   },
+   {
+    "system": "direct-cc-claude-sonnet-5.5",
+    "samples": 34,
+    "score": 78.21,
+    "ci_low": 58.68,
+    "ci_high": 89.51,
+    "quality": 89.19,
+    "components": {
+     "call_responsiveness": 96.62,
+     "substance": 76.65,
+     "grounding": 99.42
+    },
+    "admissible": 0.88,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.64,
+    "refs_verified": 0.24,
+    "refs_not_found": 0.21,
+    "gen_minutes": 3.2,
+    "gen_cost": 0.32,
+    "gen_cost_basis": "recorded",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Claude Sonnet 5.5"
+   },
+   {
+    "system": "direct-gemini-3.1-pro",
+    "samples": 34,
+    "score": 75.37,
+    "ci_low": 68.68,
+    "ci_high": 81.49,
+    "quality": 79.91,
+    "components": {
+     "call_responsiveness": 87.37,
+     "substance": 63.87,
+     "grounding": 97.08
+    },
+    "admissible": 1.0,
+    "critical_share": 0.21,
+    "words_vs_limit": 0.28,
+    "refs_verified": 0.0,
+    "refs_not_found": 0.06,
+    "gen_minutes": 1.2,
+    "gen_cost": 0.13,
+    "gen_cost_basis": "estimated",
+    "subscription": false,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Gemini 3.1 Pro"
+   },
+   {
+    "system": "agent-claude-opus-4.6",
+    "samples": 34,
+    "score": 68.02,
+    "ci_low": 48.52,
+    "ci_high": 82.06,
+    "quality": 94.53,
+    "components": {
+     "call_responsiveness": 98.47,
+     "substance": 88.07,
+     "grounding": 99.56
+    },
+    "admissible": 0.88,
+    "critical_share": 0.56,
+    "words_vs_limit": 0.76,
+    "refs_verified": 0.67,
+    "refs_not_found": 0.09,
+    "gen_minutes": 14.8,
+    "gen_cost": 3.75,
+    "gen_cost_basis": "estimated",
+    "subscription": false,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Baseline agent (Claude Opus 4.6)"
+   },
+   {
+    "system": "direct-gemini-3.8-flash",
+    "samples": 34,
+    "score": 59.83,
+    "ci_low": 37.7,
+    "ci_high": 76.37,
+    "quality": 89.59,
+    "components": {
+     "call_responsiveness": 96.46,
+     "substance": 78.02,
+     "grounding": 98.98
+    },
+    "admissible": 0.79,
+    "critical_share": 0.44,
+    "words_vs_limit": 0.8,
+    "refs_verified": 0.08,
+    "refs_not_found": 0.08,
+    "gen_minutes": 1.9,
+    "gen_cost": 0.06,
+    "gen_cost_basis": "estimated",
+    "subscription": false,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Gemini 3.8 Flash"
+   }
+  ],
+  "versus_headline": {
+   "cli-claude-code-opus": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 93.29,
+    "diff": 3.28,
+    "ci_low": 1.04,
+    "ci_high": 6.02,
+    "wins": 27,
+    "ties": 0,
+    "losses": 7
+   },
+   "direct-cc-claude-opus-5.5": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 92.34,
+    "diff": 4.22,
+    "ci_low": 2.24,
+    "ci_high": 6.74,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "cli-codex-gpt-6-astra": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 89.36,
+    "diff": 7.2,
+    "ci_low": 2.85,
+    "ci_high": 20.67,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "direct-codex-gpt-6-astra": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 88.85,
+    "diff": 7.71,
+    "ci_low": 5.41,
+    "ci_high": 10.11,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "direct-codex-gpt-6-sol": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 86.47,
+    "diff": 10.09,
+    "ci_low": 7.37,
+    "ci_high": 13.21,
+    "wins": 34,
+    "ties": 0,
+    "losses": 0
+   },
+   "direct-cc-claude-haiku-5.5": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 83.27,
+    "diff": 13.29,
+    "ci_low": 9.75,
+    "ci_high": 17.8,
+    "wins": 34,
+    "ties": 0,
+    "losses": 0
+   },
+   "direct-codex-gpt-6-luna": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 79.55,
+    "diff": 17.02,
+    "ci_low": 11.84,
+    "ci_high": 29.16,
+    "wins": 34,
+    "ties": 0,
+    "losses": 0
+   },
+   "direct-cc-claude-sonnet-5.5": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 78.21,
+    "diff": 18.35,
+    "ci_low": 6.92,
+    "ci_high": 37.73,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "direct-gemini-3.1-pro": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 75.37,
+    "diff": 21.19,
+    "ci_low": 14.87,
+    "ci_high": 28.53,
+    "wins": 34,
+    "ties": 0,
+    "losses": 0
+   },
+   "agent-claude-opus-4.6": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 68.02,
+    "diff": 28.54,
+    "ci_low": 14.17,
+    "ci_high": 47.98,
+    "wins": 31,
+    "ties": 0,
+    "losses": 3
+   },
+   "direct-gemini-3.8-flash": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 59.83,
+    "diff": 36.73,
+    "ci_low": 20.29,
+    "ci_high": 58.5,
+    "wins": 34,
+    "ties": 0,
+    "losses": 0
+   }
+  },
+  "pairs": {
+   "proposia-pro-v2|cli-claude-code-opus": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 93.29,
+    "diff": 3.28,
+    "ci_low": 1.04,
+    "ci_high": 6.02,
+    "wins": 27,
+    "ties": 0,
+    "losses": 7
+   },
+   "proposia-pro-v2|direct-cc-claude-opus-5.5": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 92.34,
+    "diff": 4.22,
+    "ci_low": 2.24,
+    "ci_high": 6.74,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "proposia-pro-v2|cli-codex-gpt-6-astra": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 89.36,
+    "diff": 7.2,
+    "ci_low": 2.85,
+    "ci_high": 20.67,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "proposia-pro-v2|direct-codex-gpt-6-astra": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 88.85,
+    "diff": 7.71,
+    "ci_low": 5.41,
+    "ci_high": 10.11,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "proposia-pro-v2|direct-codex-gpt-6-sol": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 86.47,
+    "diff": 10.09,
+    "ci_low": 7.37,
+    "ci_high": 13.21,
+    "wins": 34,
+    "ties": 0,
+    "losses": 0
+   },
+   "proposia-pro-v2|direct-cc-claude-haiku-5.5": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 83.27,
+    "diff": 13.29,
+    "ci_low": 9.75,
+    "ci_high": 17.8,
+    "wins": 34,
+    "ties": 0,
+    "losses": 0
+   },
+   "proposia-pro-v2|direct-codex-gpt-6-luna": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 79.55,
+    "diff": 17.02,
+    "ci_low": 11.84,
+    "ci_high": 29.16,
+    "wins": 34,
+    "ties": 0,
+    "losses": 0
+   },
+   "proposia-pro-v2|direct-cc-claude-sonnet-5.5": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 78.21,
+    "diff": 18.35,
+    "ci_low": 6.92,
+    "ci_high": 37.73,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "proposia-pro-v2|direct-gemini-3.1-pro": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 75.37,
+    "diff": 21.19,
+    "ci_low": 14.87,
+    "ci_high": 28.53,
+    "wins": 34,
+    "ties": 0,
+    "losses": 0
+   },
+   "proposia-pro-v2|agent-claude-opus-4.6": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 68.02,
+    "diff": 28.54,
+    "ci_low": 14.17,
+    "ci_high": 47.98,
+    "wins": 31,
+    "ties": 0,
+    "losses": 3
+   },
+   "proposia-pro-v2|direct-gemini-3.8-flash": {
+    "n": 34,
+    "mean_a": 96.56,
+    "mean_b": 59.83,
+    "diff": 36.73,
+    "ci_low": 20.29,
+    "ci_high": 58.5,
+    "wins": 34,
+    "ties": 0,
+    "losses": 0
+   },
+   "cli-claude-code-opus|direct-cc-claude-opus-5.5": {
+    "n": 34,
+    "mean_a": 93.29,
+    "mean_b": 92.34,
+    "diff": 0.95,
+    "ci_low": -1.89,
+    "ci_high": 3.51,
+    "wins": 18,
+    "ties": 2,
+    "losses": 14
+   },
+   "cli-claude-code-opus|cli-codex-gpt-6-astra": {
+    "n": 34,
+    "mean_a": 93.29,
+    "mean_b": 89.36,
+    "diff": 3.92,
+    "ci_low": -1.1,
+    "ci_high": 17.84,
+    "wins": 26,
+    "ties": 0,
+    "losses": 8
+   },
+   "cli-claude-code-opus|direct-codex-gpt-6-astra": {
+    "n": 34,
+    "mean_a": 93.29,
+    "mean_b": 88.85,
+    "diff": 4.43,
+    "ci_low": 1.4,
+    "ci_high": 6.94,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "cli-claude-code-opus|direct-codex-gpt-6-sol": {
+    "n": 34,
+    "mean_a": 93.29,
+    "mean_b": 86.47,
+    "diff": 6.82,
+    "ci_low": 3.03,
+    "ci_high": 10.19,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "cli-claude-code-opus|direct-cc-claude-haiku-5.5": {
+    "n": 34,
+    "mean_a": 93.29,
+    "mean_b": 83.27,
+    "diff": 10.01,
+    "ci_low": 5.24,
+    "ci_high": 14.54,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "cli-claude-code-opus|direct-codex-gpt-6-luna": {
+    "n": 34,
+    "mean_a": 93.29,
+    "mean_b": 79.55,
+    "diff": 13.74,
+    "ci_low": 8.07,
+    "ci_high": 25.34,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "cli-claude-code-opus|direct-cc-claude-sonnet-5.5": {
+    "n": 34,
+    "mean_a": 93.29,
+    "mean_b": 78.21,
+    "diff": 15.07,
+    "ci_low": 3.61,
+    "ci_high": 34.75,
+    "wins": 28,
+    "ties": 0,
+    "losses": 6
+   },
+   "cli-claude-code-opus|direct-gemini-3.1-pro": {
+    "n": 34,
+    "mean_a": 93.29,
+    "mean_b": 75.37,
+    "diff": 17.92,
+    "ci_low": 11.03,
+    "ci_high": 25.2,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "cli-claude-code-opus|agent-claude-opus-4.6": {
+    "n": 34,
+    "mean_a": 93.29,
+    "mean_b": 68.02,
+    "diff": 25.26,
+    "ci_low": 10.67,
+    "ci_high": 44.85,
+    "wins": 30,
+    "ties": 0,
+    "losses": 4
+   },
+   "cli-claude-code-opus|direct-gemini-3.8-flash": {
+    "n": 34,
+    "mean_a": 93.29,
+    "mean_b": 59.83,
+    "diff": 33.45,
+    "ci_low": 17.1,
+    "ci_high": 54.76,
+    "wins": 34,
+    "ties": 0,
+    "losses": 0
+   },
+   "direct-cc-claude-opus-5.5|cli-codex-gpt-6-astra": {
+    "n": 34,
+    "mean_a": 92.34,
+    "mean_b": 89.36,
+    "diff": 2.97,
+    "ci_low": -1.48,
+    "ci_high": 16.76,
+    "wins": 20,
+    "ties": 0,
+    "losses": 14
+   },
+   "direct-cc-claude-opus-5.5|direct-codex-gpt-6-astra": {
+    "n": 34,
+    "mean_a": 92.34,
+    "mean_b": 88.85,
+    "diff": 3.48,
+    "ci_low": 0.99,
+    "ci_high": 5.99,
+    "wins": 29,
+    "ties": 0,
+    "losses": 5
+   },
+   "direct-cc-claude-opus-5.5|direct-codex-gpt-6-sol": {
+    "n": 34,
+    "mean_a": 92.34,
+    "mean_b": 86.47,
+    "diff": 5.87,
+    "ci_low": 2.94,
+    "ci_high": 9.12,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "direct-cc-claude-opus-5.5|direct-cc-claude-haiku-5.5": {
+    "n": 34,
+    "mean_a": 92.34,
+    "mean_b": 83.27,
+    "diff": 9.06,
+    "ci_low": 5.74,
+    "ci_high": 13.8,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "direct-cc-claude-opus-5.5|direct-codex-gpt-6-luna": {
+    "n": 34,
+    "mean_a": 92.34,
+    "mean_b": 79.55,
+    "diff": 12.79,
+    "ci_low": 7.28,
+    "ci_high": 25.12,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "direct-cc-claude-opus-5.5|direct-cc-claude-sonnet-5.5": {
+    "n": 34,
+    "mean_a": 92.34,
+    "mean_b": 78.21,
+    "diff": 14.12,
+    "ci_low": 2.94,
+    "ci_high": 33.75,
+    "wins": 29,
+    "ties": 0,
+    "losses": 5
+   },
+   "direct-cc-claude-opus-5.5|direct-gemini-3.1-pro": {
+    "n": 34,
+    "mean_a": 92.34,
+    "mean_b": 75.37,
+    "diff": 16.97,
+    "ci_low": 10.38,
+    "ci_high": 24.25,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "direct-cc-claude-opus-5.5|agent-claude-opus-4.6": {
+    "n": 34,
+    "mean_a": 92.34,
+    "mean_b": 68.02,
+    "diff": 24.32,
+    "ci_low": 10.14,
+    "ci_high": 44.37,
+    "wins": 29,
+    "ties": 0,
+    "losses": 5
+   },
+   "direct-cc-claude-opus-5.5|direct-gemini-3.8-flash": {
+    "n": 34,
+    "mean_a": 92.34,
+    "mean_b": 59.83,
+    "diff": 32.5,
+    "ci_low": 16.03,
+    "ci_high": 54.96,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "cli-codex-gpt-6-astra|direct-codex-gpt-6-astra": {
+    "n": 34,
+    "mean_a": 89.36,
+    "mean_b": 88.85,
+    "diff": 0.51,
+    "ci_low": -13.49,
+    "ci_high": 5.12,
+    "wins": 28,
+    "ties": 0,
+    "losses": 6
+   },
+   "cli-codex-gpt-6-astra|direct-codex-gpt-6-sol": {
+    "n": 34,
+    "mean_a": 89.36,
+    "mean_b": 86.47,
+    "diff": 2.89,
+    "ci_low": -11.34,
+    "ci_high": 8.4,
+    "wins": 31,
+    "ties": 0,
+    "losses": 3
+   },
+   "cli-codex-gpt-6-astra|direct-cc-claude-haiku-5.5": {
+    "n": 34,
+    "mean_a": 89.36,
+    "mean_b": 83.27,
+    "diff": 6.09,
+    "ci_low": -7.69,
+    "ci_high": 12.3,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "cli-codex-gpt-6-astra|direct-codex-gpt-6-luna": {
+    "n": 34,
+    "mean_a": 89.36,
+    "mean_b": 79.55,
+    "diff": 9.82,
+    "ci_low": -3.25,
+    "ci_high": 22.18,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "cli-codex-gpt-6-astra|direct-cc-claude-sonnet-5.5": {
+    "n": 34,
+    "mean_a": 89.36,
+    "mean_b": 78.21,
+    "diff": 11.15,
+    "ci_low": -6.6,
+    "ci_high": 32.0,
+    "wins": 27,
+    "ties": 0,
+    "losses": 7
+   },
+   "cli-codex-gpt-6-astra|direct-gemini-3.1-pro": {
+    "n": 34,
+    "mean_a": 89.36,
+    "mean_b": 75.37,
+    "diff": 13.99,
+    "ci_low": 0.54,
+    "ci_high": 22.57,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "cli-codex-gpt-6-astra|agent-claude-opus-4.6": {
+    "n": 34,
+    "mean_a": 89.36,
+    "mean_b": 68.02,
+    "diff": 21.34,
+    "ci_low": 1.91,
+    "ci_high": 42.09,
+    "wins": 29,
+    "ties": 0,
+    "losses": 5
+   },
+   "cli-codex-gpt-6-astra|direct-gemini-3.8-flash": {
+    "n": 34,
+    "mean_a": 89.36,
+    "mean_b": 59.83,
+    "diff": 29.53,
+    "ci_low": 10.58,
+    "ci_high": 52.08,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "direct-codex-gpt-6-astra|direct-codex-gpt-6-sol": {
+    "n": 34,
+    "mean_a": 88.85,
+    "mean_b": 86.47,
+    "diff": 2.38,
+    "ci_low": -0.04,
+    "ci_high": 4.53,
+    "wins": 26,
+    "ties": 1,
+    "losses": 7
+   },
+   "direct-codex-gpt-6-astra|direct-cc-claude-haiku-5.5": {
+    "n": 34,
+    "mean_a": 88.85,
+    "mean_b": 83.27,
+    "diff": 5.58,
+    "ci_low": 2.28,
+    "ci_high": 9.49,
+    "wins": 29,
+    "ties": 0,
+    "losses": 5
+   },
+   "direct-codex-gpt-6-astra|direct-codex-gpt-6-luna": {
+    "n": 34,
+    "mean_a": 88.85,
+    "mean_b": 79.55,
+    "diff": 9.31,
+    "ci_low": 4.69,
+    "ci_high": 21.2,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "direct-codex-gpt-6-astra|direct-cc-claude-sonnet-5.5": {
+    "n": 34,
+    "mean_a": 88.85,
+    "mean_b": 78.21,
+    "diff": 10.64,
+    "ci_low": -0.89,
+    "ci_high": 30.52,
+    "wins": 19,
+    "ties": 0,
+    "losses": 15
+   },
+   "direct-codex-gpt-6-astra|direct-gemini-3.1-pro": {
+    "n": 34,
+    "mean_a": 88.85,
+    "mean_b": 75.37,
+    "diff": 13.49,
+    "ci_low": 7.49,
+    "ci_high": 20.65,
+    "wins": 33,
+    "ties": 0,
+    "losses": 1
+   },
+   "direct-codex-gpt-6-astra|agent-claude-opus-4.6": {
+    "n": 34,
+    "mean_a": 88.85,
+    "mean_b": 68.02,
+    "diff": 20.83,
+    "ci_low": 6.21,
+    "ci_high": 40.27,
+    "wins": 25,
+    "ties": 0,
+    "losses": 9
+   },
+   "direct-codex-gpt-6-astra|direct-gemini-3.8-flash": {
+    "n": 34,
+    "mean_a": 88.85,
+    "mean_b": 59.83,
+    "diff": 29.02,
+    "ci_low": 12.41,
+    "ci_high": 51.59,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "direct-codex-gpt-6-sol|direct-cc-claude-haiku-5.5": {
+    "n": 34,
+    "mean_a": 86.47,
+    "mean_b": 83.27,
+    "diff": 3.19,
+    "ci_low": 0.39,
+    "ci_high": 7.25,
+    "wins": 25,
+    "ties": 0,
+    "losses": 9
+   },
+   "direct-codex-gpt-6-sol|direct-codex-gpt-6-luna": {
+    "n": 34,
+    "mean_a": 86.47,
+    "mean_b": 79.55,
+    "diff": 6.92,
+    "ci_low": 2.5,
+    "ci_high": 20.03,
+    "wins": 27,
+    "ties": 0,
+    "losses": 7
+   },
+   "direct-codex-gpt-6-sol|direct-cc-claude-sonnet-5.5": {
+    "n": 34,
+    "mean_a": 86.47,
+    "mean_b": 78.21,
+    "diff": 8.26,
+    "ci_low": -3.53,
+    "ci_high": 28.53,
+    "wins": 15,
+    "ties": 0,
+    "losses": 19
+   },
+   "direct-codex-gpt-6-sol|direct-gemini-3.1-pro": {
+    "n": 34,
+    "mean_a": 86.47,
+    "mean_b": 75.37,
+    "diff": 11.1,
+    "ci_low": 5.92,
+    "ci_high": 17.58,
+    "wins": 32,
+    "ties": 0,
+    "losses": 2
+   },
+   "direct-codex-gpt-6-sol|agent-claude-opus-4.6": {
+    "n": 34,
+    "mean_a": 86.47,
+    "mean_b": 68.02,
+    "diff": 18.45,
+    "ci_low": 3.44,
+    "ci_high": 38.8,
+    "wins": 24,
+    "ties": 0,
+    "losses": 10
+   },
+   "direct-codex-gpt-6-sol|direct-gemini-3.8-flash": {
+    "n": 34,
+    "mean_a": 86.47,
+    "mean_b": 59.83,
+    "diff": 26.63,
+    "ci_low": 9.02,
+    "ci_high": 50.25,
+    "wins": 28,
+    "ties": 0,
+    "losses": 6
+   },
+   "direct-cc-claude-haiku-5.5|direct-codex-gpt-6-luna": {
+    "n": 34,
+    "mean_a": 83.27,
+    "mean_b": 79.55,
+    "diff": 3.73,
+    "ci_low": -1.76,
+    "ci_high": 17.03,
+    "wins": 22,
+    "ties": 0,
+    "losses": 12
+   },
+   "direct-cc-claude-haiku-5.5|direct-cc-claude-sonnet-5.5": {
+    "n": 34,
+    "mean_a": 83.27,
+    "mean_b": 78.21,
+    "diff": 5.06,
+    "ci_low": -7.51,
+    "ci_high": 25.91,
+    "wins": 6,
+    "ties": 0,
+    "losses": 28
+   },
+   "direct-cc-claude-haiku-5.5|direct-gemini-3.1-pro": {
+    "n": 34,
+    "mean_a": 83.27,
+    "mean_b": 75.37,
+    "diff": 7.91,
+    "ci_low": 3.01,
+    "ci_high": 14.18,
+    "wins": 29,
+    "ties": 0,
+    "losses": 5
+   },
+   "direct-cc-claude-haiku-5.5|agent-claude-opus-4.6": {
+    "n": 34,
+    "mean_a": 83.27,
+    "mean_b": 68.02,
+    "diff": 15.25,
+    "ci_low": 0.38,
+    "ci_high": 34.98,
+    "wins": 21,
+    "ties": 0,
+    "losses": 13
+   },
+   "direct-cc-claude-haiku-5.5|direct-gemini-3.8-flash": {
+    "n": 34,
+    "mean_a": 83.27,
+    "mean_b": 59.83,
+    "diff": 23.44,
+    "ci_low": 5.95,
+    "ci_high": 46.1,
+    "wins": 22,
+    "ties": 0,
+    "losses": 12
+   },
+   "direct-codex-gpt-6-luna|direct-cc-claude-sonnet-5.5": {
+    "n": 34,
+    "mean_a": 79.55,
+    "mean_b": 78.21,
+    "diff": 1.33,
+    "ci_low": -16.12,
+    "ci_high": 23.22,
+    "wins": 6,
+    "ties": 0,
+    "losses": 28
+   },
+   "direct-codex-gpt-6-luna|direct-gemini-3.1-pro": {
+    "n": 34,
+    "mean_a": 79.55,
+    "mean_b": 75.37,
+    "diff": 4.18,
+    "ci_low": -10.05,
+    "ci_high": 12.76,
+    "wins": 25,
+    "ties": 0,
+    "losses": 9
+   },
+   "direct-codex-gpt-6-luna|agent-claude-opus-4.6": {
+    "n": 34,
+    "mean_a": 79.55,
+    "mean_b": 68.02,
+    "diff": 11.53,
+    "ci_low": -1.93,
+    "ci_high": 29.82,
+    "wins": 19,
+    "ties": 1,
+    "losses": 14
+   },
+   "direct-codex-gpt-6-luna|direct-gemini-3.8-flash": {
+    "n": 34,
+    "mean_a": 79.55,
+    "mean_b": 59.83,
+    "diff": 19.71,
+    "ci_low": 2.98,
+    "ci_high": 42.33,
+    "wins": 19,
+    "ties": 1,
+    "losses": 14
+   },
+   "direct-cc-claude-sonnet-5.5|direct-gemini-3.1-pro": {
+    "n": 34,
+    "mean_a": 78.21,
+    "mean_b": 75.37,
+    "diff": 2.84,
+    "ci_low": -19.61,
+    "ci_high": 16.66,
+    "wins": 28,
+    "ties": 0,
+    "losses": 6
+   },
+   "direct-cc-claude-sonnet-5.5|agent-claude-opus-4.6": {
+    "n": 34,
+    "mean_a": 78.21,
+    "mean_b": 68.02,
+    "diff": 10.19,
+    "ci_low": -13.71,
+    "ci_high": 31.85,
+    "wins": 23,
+    "ties": 1,
+    "losses": 10
+   },
+   "direct-cc-claude-sonnet-5.5|direct-gemini-3.8-flash": {
+    "n": 34,
+    "mean_a": 78.21,
+    "mean_b": 59.83,
+    "diff": 18.38,
+    "ci_low": 2.2,
+    "ci_high": 38.84,
+    "wins": 24,
+    "ties": 3,
+    "losses": 7
+   },
+   "direct-gemini-3.1-pro|agent-claude-opus-4.6": {
+    "n": 34,
+    "mean_a": 75.37,
+    "mean_b": 68.02,
+    "diff": 7.35,
+    "ci_low": -7.83,
+    "ci_high": 28.48,
+    "wins": 14,
+    "ties": 0,
+    "losses": 20
+   },
+   "direct-gemini-3.1-pro|direct-gemini-3.8-flash": {
+    "n": 34,
+    "mean_a": 75.37,
+    "mean_b": 59.83,
+    "diff": 15.53,
+    "ci_low": -2.96,
+    "ci_high": 39.87,
+    "wins": 18,
+    "ties": 0,
+    "losses": 16
+   },
+   "agent-claude-opus-4.6|direct-gemini-3.8-flash": {
+    "n": 34,
+    "mean_a": 68.02,
+    "mean_b": 59.83,
+    "diff": 8.19,
+    "ci_low": -9.02,
+    "ci_high": 31.37,
+    "wins": 20,
+    "ties": 3,
+    "losses": 11
+   }
+  },
+  "by_scheme": {
+   "agent-claude-opus-4.6": {
+    "aei_pid": {
+     "mean": 84.42,
+     "n": 3
+    },
+    "cerv": {
+     "mean": 46.48,
+     "n": 2
+    },
+    "erasmus_ka220": {
+     "mean": 60.71,
+     "n": 2
+    },
+    "erc_poc": {
+     "mean": 57.17,
+     "n": 3
+    },
+    "foundation": {
+     "mean": 45.1,
+     "n": 2
+    },
+    "horizon_ria": {
+     "mean": 71.81,
+     "n": 8
+    },
+    "horizon_stage1": {
+     "mean": 86.27,
+     "n": 3
+    },
+    "msca_pf": {
+     "mean": 89.46,
+     "n": 2
+    },
+    "nih_r21": {
+     "mean": 46.65,
+     "n": 4
+    },
+    "nsf": {
+     "mean": 84.64,
+     "n": 2
+    },
+    "nsf_career": {
+     "mean": 71.78,
+     "n": 3
+    }
+   },
+   "cli-claude-code-opus": {
+    "aei_pid": {
+     "mean": 91.2,
+     "n": 3
+    },
+    "cerv": {
+     "mean": 96.08,
+     "n": 2
+    },
+    "erasmus_ka220": {
+     "mean": 94.28,
+     "n": 2
+    },
+    "erc_poc": {
+     "mean": 96.85,
+     "n": 3
+    },
+    "foundation": {
+     "mean": 93.41,
+     "n": 2
+    },
+    "horizon_ria": {
+     "mean": 95.36,
+     "n": 8
+    },
+    "horizon_stage1": {
+     "mean": 91.36,
+     "n": 3
+    },
+    "msca_pf": {
+     "mean": 92.8,
+     "n": 2
+    },
+    "nih_r21": {
+     "mean": 91.09,
+     "n": 4
+    },
+    "nsf": {
+     "mean": 93.16,
+     "n": 2
+    },
+    "nsf_career": {
+     "mean": 88.93,
+     "n": 3
+    }
+   },
+   "cli-codex-gpt-6-astra": {
+    "aei_pid": {
+     "mean": 91.26,
+     "n": 3
+    },
+    "cerv": {
+     "mean": 92.21,
+     "n": 2
+    },
+    "erasmus_ka220": {
+     "mean": 92.64,
+     "n": 2
+    },
+    "erc_poc": {
+     "mean": 93.86,
+     "n": 3
+    },
+    "foundation": {
+     "mean": 91.11,
+     "n": 2
+    },
+    "horizon_ria": {
+     "mean": 80.72,
+     "n": 8
+    },
+    "horizon_stage1": {
+     "mean": 90.26,
+     "n": 3
+    },
+    "msca_pf": {
+     "mean": 92.65,
+     "n": 2
+    },
+    "nih_r21": {
+     "mean": 88.52,
+     "n": 4
+    },
+    "nsf": {
+     "mean": 95.53,
+     "n": 2
+    },
+    "nsf_career": {
+     "mean": 94.72,
+     "n": 3
+    }
+   },
+   "direct-cc-claude-haiku-5.5": {
+    "aei_pid": {
+     "mean": 83.1,
+     "n": 3
+    },
+    "cerv": {
+     "mean": 88.7,
+     "n": 2
+    },
+    "erasmus_ka220": {
+     "mean": 75.62,
+     "n": 2
+    },
+    "erc_poc": {
+     "mean": 85.49,
+     "n": 3
+    },
+    "foundation": {
+     "mean": 86.85,
+     "n": 2
+    },
+    "horizon_ria": {
+     "mean": 79.71,
+     "n": 8
+    },
+    "horizon_stage1": {
+     "mean": 76.81,
+     "n": 3
+    },
+    "msca_pf": {
+     "mean": 86.07,
+     "n": 2
+    },
+    "nih_r21": {
+     "mean": 85.83,
+     "n": 4
+    },
+    "nsf": {
+     "mean": 83.19,
+     "n": 2
+    },
+    "nsf_career": {
+     "mean": 91.09,
+     "n": 3
+    }
+   },
+   "direct-cc-claude-opus-5.5": {
+    "aei_pid": {
+     "mean": 91.89,
+     "n": 3
+    },
+    "cerv": {
+     "mean": 93.89,
+     "n": 2
+    },
+    "erasmus_ka220": {
+     "mean": 95.46,
+     "n": 2
+    },
+    "erc_poc": {
+     "mean": 92.38,
+     "n": 3
+    },
+    "foundation": {
+     "mean": 91.44,
+     "n": 2
+    },
+    "horizon_ria": {
+     "mean": 90.85,
+     "n": 8
+    },
+    "horizon_stage1": {
+     "mean": 92.19,
+     "n": 3
+    },
+    "msca_pf": {
+     "mean": 93.16,
+     "n": 2
+    },
+    "nih_r21": {
+     "mean": 91.33,
+     "n": 4
+    },
+    "nsf": {
+     "mean": 93.91,
+     "n": 2
+    },
+    "nsf_career": {
+     "mean": 94.09,
+     "n": 3
+    }
+   },
+   "direct-cc-claude-sonnet-5.5": {
+    "aei_pid": {
+     "mean": 87.32,
+     "n": 3
+    },
+    "cerv": {
+     "mean": 89.16,
+     "n": 2
+    },
+    "erasmus_ka220": {
+     "mean": 88.0,
+     "n": 2
+    },
+    "erc_poc": {
+     "mean": 89.22,
+     "n": 3
+    },
+    "foundation": {
+     "mean": 0.0,
+     "n": 2
+    },
+    "horizon_ria": {
+     "mean": 86.51,
+     "n": 8
+    },
+    "horizon_stage1": {
+     "mean": 84.51,
+     "n": 3
+    },
+    "msca_pf": {
+     "mean": 87.22,
+     "n": 2
+    },
+    "nih_r21": {
+     "mean": 67.38,
+     "n": 4
+    },
+    "nsf": {
+     "mean": 96.49,
+     "n": 2
+    },
+    "nsf_career": {
+     "mean": 64.23,
+     "n": 3
+    }
+   },
+   "direct-codex-gpt-6-astra": {
+    "aei_pid": {
+     "mean": 88.03,
+     "n": 3
+    },
+    "cerv": {
+     "mean": 89.16,
+     "n": 2
+    },
+    "erasmus_ka220": {
+     "mean": 91.03,
+     "n": 2
+    },
+    "erc_poc": {
+     "mean": 91.27,
+     "n": 3
+    },
+    "foundation": {
+     "mean": 89.97,
+     "n": 2
+    },
+    "horizon_ria": {
+     "mean": 89.28,
+     "n": 8
+    },
+    "horizon_stage1": {
+     "mean": 83.19,
+     "n": 3
+    },
+    "msca_pf": {
+     "mean": 89.69,
+     "n": 2
+    },
+    "nih_r21": {
+     "mean": 88.8,
+     "n": 4
+    },
+    "nsf": {
+     "mean": 84.36,
+     "n": 2
+    },
+    "nsf_career": {
+     "mean": 91.91,
+     "n": 3
+    }
+   },
+   "direct-codex-gpt-6-luna": {
+    "aei_pid": {
+     "mean": 80.75,
+     "n": 3
+    },
+    "cerv": {
+     "mean": 84.17,
+     "n": 2
+    },
+    "erasmus_ka220": {
+     "mean": 84.44,
+     "n": 2
+    },
+    "erc_poc": {
+     "mean": 82.95,
+     "n": 3
+    },
+    "foundation": {
+     "mean": 86.6,
+     "n": 2
+    },
+    "horizon_ria": {
+     "mean": 80.29,
+     "n": 8
+    },
+    "horizon_stage1": {
+     "mean": 70.28,
+     "n": 3
+    },
+    "msca_pf": {
+     "mean": 82.28,
+     "n": 2
+    },
+    "nih_r21": {
+     "mean": 65.31,
+     "n": 4
+    },
+    "nsf": {
+     "mean": 83.97,
+     "n": 2
+    },
+    "nsf_career": {
+     "mean": 85.38,
+     "n": 3
+    }
+   },
+   "direct-codex-gpt-6-sol": {
+    "aei_pid": {
+     "mean": 86.38,
+     "n": 3
+    },
+    "cerv": {
+     "mean": 88.9,
+     "n": 2
+    },
+    "erasmus_ka220": {
+     "mean": 90.36,
+     "n": 2
+    },
+    "erc_poc": {
+     "mean": 88.91,
+     "n": 3
+    },
+    "foundation": {
+     "mean": 91.28,
+     "n": 2
+    },
+    "horizon_ria": {
+     "mean": 84.46,
+     "n": 8
+    },
+    "horizon_stage1": {
+     "mean": 78.14,
+     "n": 3
+    },
+    "msca_pf": {
+     "mean": 85.86,
+     "n": 2
+    },
+    "nih_r21": {
+     "mean": 87.8,
+     "n": 4
+    },
+    "nsf": {
+     "mean": 88.53,
+     "n": 2
+    },
+    "nsf_career": {
+     "mean": 87.62,
+     "n": 3
+    }
+   },
+   "direct-gemini-3.1-pro": {
+    "aei_pid": {
+     "mean": 74.68,
+     "n": 3
+    },
+    "cerv": {
+     "mean": 78.22,
+     "n": 2
+    },
+    "erasmus_ka220": {
+     "mean": 69.65,
+     "n": 2
+    },
+    "erc_poc": {
+     "mean": 89.06,
+     "n": 3
+    },
+    "foundation": {
+     "mean": 87.03,
+     "n": 2
+    },
+    "horizon_ria": {
+     "mean": 69.14,
+     "n": 8
+    },
+    "horizon_stage1": {
+     "mean": 71.14,
+     "n": 3
+    },
+    "msca_pf": {
+     "mean": 76.09,
+     "n": 2
+    },
+    "nih_r21": {
+     "mean": 79.14,
+     "n": 4
+    },
+    "nsf": {
+     "mean": 80.4,
+     "n": 2
+    },
+    "nsf_career": {
+     "mean": 68.5,
+     "n": 3
+    }
+   },
+   "direct-gemini-3.8-flash": {
+    "aei_pid": {
+     "mean": 79.84,
+     "n": 3
+    },
+    "cerv": {
+     "mean": 66.94,
+     "n": 2
+    },
+    "erasmus_ka220": {
+     "mean": 45.15,
+     "n": 2
+    },
+    "erc_poc": {
+     "mean": 79.68,
+     "n": 3
+    },
+    "foundation": {
+     "mean": 0.0,
+     "n": 2
+    },
+    "horizon_ria": {
+     "mean": 73.5,
+     "n": 8
+    },
+    "horizon_stage1": {
+     "mean": 80.6,
+     "n": 3
+    },
+    "msca_pf": {
+     "mean": 83.76,
+     "n": 2
+    },
+    "nih_r21": {
+     "mean": 0.0,
+     "n": 4
+    },
+    "nsf": {
+     "mean": 72.0,
+     "n": 2
+    },
+    "nsf_career": {
+     "mean": 63.45,
+     "n": 3
+    }
+   },
+   "proposia-pro-v2": {
+    "aei_pid": {
+     "mean": 98.16,
+     "n": 3
+    },
+    "cerv": {
+     "mean": 97.41,
+     "n": 2
+    },
+    "erasmus_ka220": {
+     "mean": 97.69,
+     "n": 2
+    },
+    "erc_poc": {
+     "mean": 97.2,
+     "n": 3
+    },
+    "foundation": {
+     "mean": 97.48,
+     "n": 2
+    },
+    "horizon_ria": {
+     "mean": 97.14,
+     "n": 8
+    },
+    "horizon_stage1": {
+     "mean": 95.17,
+     "n": 3
+    },
+    "msca_pf": {
+     "mean": 91.89,
+     "n": 2
+    },
+    "nih_r21": {
+     "mean": 93.61,
+     "n": 4
+    },
+    "nsf": {
+     "mean": 98.27,
+     "n": 2
+    },
+    "nsf_career": {
+     "mean": 98.16,
+     "n": 3
+    }
+   }
+  },
+  "by_fit": {
+   "agent-claude-opus-4.6": {
+    "close": {
+     "mean": 82.29,
+     "n": 7
+    },
+    "stretch": {
+     "mean": 64.32,
+     "n": 27
+    }
+   },
+   "cli-claude-code-opus": {
+    "close": {
+     "mean": 94.28,
+     "n": 7
+    },
+    "stretch": {
+     "mean": 93.03,
+     "n": 27
+    }
+   },
+   "cli-codex-gpt-6-astra": {
+    "close": {
+     "mean": 92.96,
+     "n": 7
+    },
+    "stretch": {
+     "mean": 88.43,
+     "n": 27
+    }
+   },
+   "direct-cc-claude-haiku-5.5": {
+    "close": {
+     "mean": 81.12,
+     "n": 7
+    },
+    "stretch": {
+     "mean": 83.83,
+     "n": 27
+    }
+   },
+   "direct-cc-claude-opus-5.5": {
+    "close": {
+     "mean": 91.89,
+     "n": 7
+    },
+    "stretch": {
+     "mean": 92.45,
+     "n": 27
+    }
+   },
+   "direct-cc-claude-sonnet-5.5": {
+    "close": {
+     "mean": 75.3,
+     "n": 7
+    },
+    "stretch": {
+     "mean": 78.97,
+     "n": 27
+    }
+   },
+   "direct-codex-gpt-6-astra": {
+    "close": {
+     "mean": 89.12,
+     "n": 7
+    },
+    "stretch": {
+     "mean": 88.78,
+     "n": 27
+    }
+   },
+   "direct-codex-gpt-6-luna": {
+    "close": {
+     "mean": 81.81,
+     "n": 7
+    },
+    "stretch": {
+     "mean": 78.96,
+     "n": 27
+    }
+   },
+   "direct-codex-gpt-6-sol": {
+    "close": {
+     "mean": 86.02,
+     "n": 7
+    },
+    "stretch": {
+     "mean": 86.59,
+     "n": 27
+    }
+   },
+   "direct-gemini-3.1-pro": {
+    "close": {
+     "mean": 75.49,
+     "n": 7
+    },
+    "stretch": {
+     "mean": 75.34,
+     "n": 27
+    }
+   },
+   "direct-gemini-3.8-flash": {
+    "close": {
+     "mean": 85.03,
+     "n": 7
+    },
+    "stretch": {
+     "mean": 53.3,
+     "n": 27
+    }
+   },
+   "proposia-pro-v2": {
+    "close": {
+     "mean": 95.76,
+     "n": 7
+    },
+    "stretch": {
+     "mean": 96.77,
+     "n": 27
+    }
+   }
+  },
+  "metrics": {
+   "agent-claude-opus-4.6": {
+    "proposals": 34,
+    "refs_per_proposal": 7,
+    "unverifiable_refs": 0.1303,
+    "fabricated_refs": 0.0,
+    "supported_citations": 0.5346,
+    "unsupported_citations": 0.0597,
+    "applicant_claims_per_proposal": 3.2647,
+    "dossier_miscited_per_proposal": 0.4118,
+    "traps_caught": 0.95,
+    "rejected": 0.1176,
+    "em_dashes_per_1k": 7.1113,
+    "buzzwords_per_1k": 0.4122
+   },
+   "cli-claude-code-opus": {
+    "proposals": 34,
+    "refs_per_proposal": 25.5294,
+    "unverifiable_refs": 0.1855,
+    "fabricated_refs": 0.0,
+    "supported_citations": 0.8142,
+    "unsupported_citations": 0.0,
+    "applicant_claims_per_proposal": 0.1765,
+    "dossier_miscited_per_proposal": 0.6176,
+    "traps_caught": 1.0,
+    "rejected": 0.0,
+    "em_dashes_per_1k": 0.392,
+    "buzzwords_per_1k": 0.1661
+   },
+   "cli-codex-gpt-6-astra": {
+    "proposals": 34,
+    "refs_per_proposal": 6.9706,
+    "unverifiable_refs": 0.5316,
+    "fabricated_refs": 0.0042,
+    "supported_citations": 0.9032,
+    "unsupported_citations": 0.0,
+    "applicant_claims_per_proposal": 0,
+    "dossier_miscited_per_proposal": 0.6471,
+    "traps_caught": 1.0,
+    "rejected": 0.0294,
+    "em_dashes_per_1k": 0.7186,
+    "buzzwords_per_1k": 0.1148
+   },
+   "direct-cc-claude-haiku-5.5": {
+    "proposals": 34,
+    "refs_per_proposal": 4.8235,
+    "unverifiable_refs": 0.6463,
+    "fabricated_refs": 0.0061,
+    "supported_citations": 0.6765,
+    "unsupported_citations": 0.0294,
+    "applicant_claims_per_proposal": 0.3529,
+    "dossier_miscited_per_proposal": 0.9412,
+    "traps_caught": 0.9706,
+    "rejected": 0.0,
+    "em_dashes_per_1k": 0.3654,
+    "buzzwords_per_1k": 0.1096
+   },
+   "direct-cc-claude-opus-5.5": {
+    "proposals": 34,
+    "refs_per_proposal": 16.4412,
+    "unverifiable_refs": 0.2773,
+    "fabricated_refs": 0.0,
+    "supported_citations": 0.788,
+    "unsupported_citations": 0.0057,
+    "applicant_claims_per_proposal": 0.0588,
+    "dossier_miscited_per_proposal": 0.5882,
+    "traps_caught": 1.0,
+    "rejected": 0.0,
+    "em_dashes_per_1k": 0.1601,
+    "buzzwords_per_1k": 0.0731
+   },
+   "direct-cc-claude-sonnet-5.5": {
+    "proposals": 34,
+    "refs_per_proposal": 5.1176,
+    "unverifiable_refs": 0.3908,
+    "fabricated_refs": 0.0,
+    "supported_citations": 0.8395,
+    "unsupported_citations": 0.0,
+    "applicant_claims_per_proposal": 0.0882,
+    "dossier_miscited_per_proposal": 0.8529,
+    "traps_caught": 1.0,
+    "rejected": 0.1176,
+    "em_dashes_per_1k": 0.0626,
+    "buzzwords_per_1k": 0.1249
+   },
+   "direct-codex-gpt-6-astra": {
+    "proposals": 34,
+    "refs_per_proposal": 4.3824,
+    "unverifiable_refs": 0.9463,
+    "fabricated_refs": 0.0,
+    "supported_citations": 1.0,
+    "unsupported_citations": 0.0,
+    "applicant_claims_per_proposal": 0.0588,
+    "dossier_miscited_per_proposal": 0.7353,
+    "traps_caught": 1.0,
+    "rejected": 0.0,
+    "em_dashes_per_1k": 1.0943,
+    "buzzwords_per_1k": 0.1353
+   },
+   "direct-codex-gpt-6-luna": {
+    "proposals": 34,
+    "refs_per_proposal": 1.4706,
+    "unverifiable_refs": 0.98,
+    "fabricated_refs": 0.0,
+    "supported_citations": null,
+    "unsupported_citations": null,
+    "applicant_claims_per_proposal": 0.1176,
+    "dossier_miscited_per_proposal": 0.8235,
+    "traps_caught": 0.9242,
+    "rejected": 0.0294,
+    "em_dashes_per_1k": 0.8799,
+    "buzzwords_per_1k": 0.0841
+   },
+   "direct-codex-gpt-6-sol": {
+    "proposals": 34,
+    "refs_per_proposal": 1.7941,
+    "unverifiable_refs": 0.9508,
+    "fabricated_refs": 0.0,
+    "supported_citations": 1.0,
+    "unsupported_citations": 0.0,
+    "applicant_claims_per_proposal": 0.0588,
+    "dossier_miscited_per_proposal": 0.5294,
+    "traps_caught": 0.9706,
+    "rejected": 0.0,
+    "em_dashes_per_1k": 1.0401,
+    "buzzwords_per_1k": 0.0561
+   },
+   "direct-gemini-3.1-pro": {
+    "proposals": 34,
+    "refs_per_proposal": 0.3529,
+    "unverifiable_refs": 0.9167,
+    "fabricated_refs": 0.0,
+    "supported_citations": null,
+    "unsupported_citations": null,
+    "applicant_claims_per_proposal": 1.4118,
+    "dossier_miscited_per_proposal": 0.9706,
+    "traps_caught": 0.75,
+    "rejected": 0.0,
+    "em_dashes_per_1k": 1.6092,
+    "buzzwords_per_1k": 0.9743
+   },
+   "direct-gemini-3.8-flash": {
+    "proposals": 34,
+    "refs_per_proposal": 1.7647,
+    "unverifiable_refs": 0.4333,
+    "fabricated_refs": 0.0,
+    "supported_citations": 0.4,
+    "unsupported_citations": 0.2,
+    "applicant_claims_per_proposal": 3.6176,
+    "dossier_miscited_per_proposal": 0.8824,
+    "traps_caught": 0.8426,
+    "rejected": 0.2059,
+    "em_dashes_per_1k": 1.5296,
+    "buzzwords_per_1k": 0.6739
+   },
+   "proposia-pro-v2": {
+    "proposals": 34,
+    "refs_per_proposal": 32.7647,
+    "unverifiable_refs": 0.0072,
+    "fabricated_refs": 0.0,
+    "supported_citations": 0.895,
+    "unsupported_citations": 0.0028,
+    "applicant_claims_per_proposal": 0.0882,
+    "dossier_miscited_per_proposal": 0.0882,
+    "traps_caught": 0.9559,
+    "rejected": 0.0,
+    "em_dashes_per_1k": 0.2006,
+    "buzzwords_per_1k": 0.1512
+   }
+  }
+ },
+ "full": {
+  "leaderboard": [
+   {
+    "system": "cli-claude-code-opus",
+    "samples": 60,
+    "score": 93.15,
+    "ci_low": 91.44,
+    "ci_high": 94.54,
+    "quality": 94.24,
+    "components": {
+     "call_responsiveness": 98.92,
+     "substance": 86.94,
+     "grounding": 99.47
+    },
+    "admissible": 1.0,
+    "critical_share": 0.02,
+    "words_vs_limit": 0.73,
+    "refs_verified": 0.67,
+    "refs_not_found": 0.14,
+    "gen_minutes": 6.5,
+    "gen_cost": 1.27,
+    "gen_cost_basis": "recorded",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Claude Code (Opus 5.5)"
+   },
+   {
+    "system": "cli-codex-gpt-6-astra",
+    "samples": 120,
+    "score": 90.9,
+    "ci_low": 86.5,
+    "ci_high": 92.84,
+    "quality": 92.1,
+    "components": {
+     "call_responsiveness": 98.68,
+     "substance": 81.71,
+     "grounding": 99.72
+    },
+    "admissible": 0.99,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.72,
+    "refs_verified": 0.34,
+    "refs_not_found": 0.36,
+    "gen_minutes": 7.6,
+    "gen_cost": 5.62,
+    "gen_cost_basis": "upper_bound",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Codex (GPT-6 Astra)"
+   },
+   {
+    "system": "direct-codex-gpt-6-astra",
+    "samples": 120,
+    "score": 88.91,
+    "ci_low": 87.47,
+    "ci_high": 90.19,
+    "quality": 89.31,
+    "components": {
+     "call_responsiveness": 98.01,
+     "substance": 75.45,
+     "grounding": 99.61
+    },
+    "admissible": 1.0,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.63,
+    "refs_verified": 0.02,
+    "refs_not_found": 0.51,
+    "gen_minutes": 4.5,
+    "gen_cost": 0.6,
+    "gen_cost_basis": "upper_bound",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "GPT-6 Astra"
+   },
+   {
+    "system": "direct-cc-claude-opus-5.5",
+    "samples": 105,
+    "score": 87.74,
+    "ci_low": 74.93,
+    "ci_high": 93.09,
+    "quality": 92.67,
+    "components": {
+     "call_responsiveness": 98.03,
+     "substance": 83.82,
+     "grounding": 99.67
+    },
+    "admissible": 0.95,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.66,
+    "refs_verified": 0.43,
+    "refs_not_found": 0.21,
+    "gen_minutes": 10.5,
+    "gen_cost": 2.01,
+    "gen_cost_basis": "recorded",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Claude Opus 5.5"
+   },
+   {
+    "system": "direct-codex-gpt-6-sol",
+    "samples": 120,
+    "score": 86.5,
+    "ci_low": 84.38,
+    "ci_high": 88.24,
+    "quality": 86.8,
+    "components": {
+     "call_responsiveness": 95.81,
+     "substance": 71.42,
+     "grounding": 99.53
+    },
+    "admissible": 1.0,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.44,
+    "refs_verified": 0.01,
+    "refs_not_found": 0.36,
+    "gen_minutes": 2.4,
+    "gen_cost": 0.11,
+    "gen_cost_basis": "upper_bound",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "GPT-6 Sol"
+   },
+   {
+    "system": "direct-cc-claude-haiku-5.5",
+    "samples": 59,
+    "score": 83.63,
+    "ci_low": 80.41,
+    "ci_high": 86.21,
+    "quality": 84.99,
+    "components": {
+     "call_responsiveness": 93.37,
+     "substance": 69.28,
+     "grounding": 99.66
+    },
+    "admissible": 1.0,
+    "critical_share": 0.03,
+    "words_vs_limit": 0.51,
+    "refs_verified": 0.16,
+    "refs_not_found": 0.3,
+    "gen_minutes": 1.6,
+    "gen_cost": 0.01,
+    "gen_cost_basis": "recorded",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Claude Haiku 5.5"
+   },
+   {
+    "system": "direct-codex-gpt-6-luna",
+    "samples": 120,
+    "score": 82.39,
+    "ci_low": 78.02,
+    "ci_high": 85.13,
+    "quality": 83.52,
+    "components": {
+     "call_responsiveness": 93.65,
+     "substance": 65.72,
+     "grounding": 98.83
+    },
+    "admissible": 0.99,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.54,
+    "refs_verified": 0.0,
+    "refs_not_found": 0.21,
+    "gen_minutes": 0.9,
+    "gen_cost": 0.01,
+    "gen_cost_basis": "upper_bound",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "GPT-6 Luna"
+   },
+   {
+    "system": "direct-cc-claude-sonnet-5.5",
+    "samples": 60,
+    "score": 81.64,
+    "ci_low": 66.74,
+    "ci_high": 89.45,
+    "quality": 89.55,
+    "components": {
+     "call_responsiveness": 97.32,
+     "substance": 76.82,
+     "grounding": 99.5
+    },
+    "admissible": 0.92,
+    "critical_share": 0.0,
+    "words_vs_limit": 0.64,
+    "refs_verified": 0.23,
+    "refs_not_found": 0.2,
+    "gen_minutes": 3.2,
+    "gen_cost": 0.32,
+    "gen_cost_basis": "recorded",
+    "subscription": true,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Claude Sonnet 5.5"
+   },
+   {
+    "system": "direct-gemini-3.1-pro",
+    "samples": 120,
+    "score": 76.81,
+    "ci_low": 71.95,
+    "ci_high": 81.16,
+    "quality": 81.62,
+    "components": {
+     "call_responsiveness": 90.58,
+     "substance": 65.03,
+     "grounding": 96.88
+    },
+    "admissible": 1.0,
+    "critical_share": 0.23,
+    "words_vs_limit": 0.29,
+    "refs_verified": 0.0,
+    "refs_not_found": 0.04,
+    "gen_minutes": 1.2,
+    "gen_cost": 0.12,
+    "gen_cost_basis": "estimated",
+    "subscription": false,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Gemini 3.1 Pro"
+   },
+   {
+    "system": "agent-claude-opus-4.6",
+    "samples": 120,
+    "score": 67.45,
+    "ci_low": 50.78,
+    "ci_high": 79.17,
+    "quality": 94.9,
+    "components": {
+     "call_responsiveness": 98.75,
+     "substance": 88.75,
+     "grounding": 99.52
+    },
+    "admissible": 0.87,
+    "critical_share": 0.53,
+    "words_vs_limit": 0.77,
+    "refs_verified": 0.73,
+    "refs_not_found": 0.05,
+    "gen_minutes": 15.0,
+    "gen_cost": 3.94,
+    "gen_cost_basis": "estimated",
+    "subscription": false,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Baseline agent (Claude Opus 4.6)"
+   },
+   {
+    "system": "direct-gemini-3.8-flash",
+    "samples": 120,
+    "score": 56.84,
+    "ci_low": 37.71,
+    "ci_high": 72.22,
+    "quality": 89.86,
+    "components": {
+     "call_responsiveness": 96.95,
+     "substance": 78.4,
+     "grounding": 98.63
+    },
+    "admissible": 0.77,
+    "critical_share": 0.43,
+    "words_vs_limit": 0.8,
+    "refs_verified": 0.08,
+    "refs_not_found": 0.08,
+    "gen_minutes": 2.0,
+    "gen_cost": 0.06,
+    "gen_cost_basis": "estimated",
+    "subscription": false,
+    "judge_cost": 2.42,
+    "judge_cost_basis": "run_average",
+    "name": "Gemini 3.8 Flash"
+   }
+  ],
+  "by_scheme": {
+   "agent-claude-opus-4.6": {
+    "aei_pid": {
+     "mean": 81.4,
+     "n": 12
+    },
+    "cerv": {
+     "mean": 52.06,
+     "n": 8
+    },
+    "erasmus_ka220": {
+     "mean": 68.67,
+     "n": 8
+    },
+    "erc_poc": {
+     "mean": 63.96,
+     "n": 8
+    },
+    "erc_stg": {
+     "mean": 77.25,
+     "n": 4
+    },
+    "foundation": {
+     "mean": 44.48,
+     "n": 8
+    },
+    "horizon_ria": {
+     "mean": 70.56,
+     "n": 24
+    },
+    "horizon_stage1": {
+     "mean": 87.65,
+     "n": 8
+    },
+    "msca_pf": {
+     "mean": 87.05,
+     "n": 8
+    },
+    "nih_r21": {
+     "mean": 38.68,
+     "n": 16
+    },
+    "nsf": {
+     "mean": 81.46,
+     "n": 8
+    },
+    "nsf_career": {
+     "mean": 76.64,
+     "n": 8
+    }
+   },
+   "cli-claude-code-opus": {
+    "aei_pid": {
+     "mean": 92.18,
+     "n": 6
+    },
+    "cerv": {
+     "mean": 95.63,
+     "n": 4
+    },
+    "erasmus_ka220": {
+     "mean": 94.8,
+     "n": 4
+    },
+    "erc_poc": {
+     "mean": 96.76,
+     "n": 4
+    },
+    "erc_stg": {
+     "mean": 92.03,
+     "n": 2
+    },
+    "foundation": {
+     "mean": 93.83,
+     "n": 4
+    },
+    "horizon_ria": {
+     "mean": 95.09,
+     "n": 12
+    },
+    "horizon_stage1": {
+     "mean": 90.63,
+     "n": 4
+    },
+    "msca_pf": {
+     "mean": 91.9,
+     "n": 4
+    },
+    "nih_r21": {
+     "mean": 91.31,
+     "n": 8
+    },
+    "nsf": {
+     "mean": 93.24,
+     "n": 4
+    },
+    "nsf_career": {
+     "mean": 88.2,
+     "n": 4
+    }
+   },
+   "cli-codex-gpt-6-astra": {
+    "aei_pid": {
+     "mean": 91.43,
+     "n": 12
+    },
+    "cerv": {
+     "mean": 92.19,
+     "n": 8
+    },
+    "erasmus_ka220": {
+     "mean": 93.41,
+     "n": 8
+    },
+    "erc_poc": {
+     "mean": 93.48,
+     "n": 8
+    },
+    "erc_stg": {
+     "mean": 88.71,
+     "n": 4
+    },
+    "foundation": {
+     "mean": 91.64,
+     "n": 8
+    },
+    "horizon_ria": {
+     "mean": 87.92,
+     "n": 24
+    },
+    "horizon_stage1": {
+     "mean": 90.54,
+     "n": 8
+    },
+    "msca_pf": {
+     "mean": 91.61,
+     "n": 8
+    },
+    "nih_r21": {
+     "mean": 88.58,
+     "n": 16
+    },
+    "nsf": {
+     "mean": 93.55,
+     "n": 8
+    },
+    "nsf_career": {
+     "mean": 94.75,
+     "n": 8
+    }
+   },
+   "direct-cc-claude-haiku-5.5": {
+    "aei_pid": {
+     "mean": 82.96,
+     "n": 6
+    },
+    "cerv": {
+     "mean": 87.75,
+     "n": 4
+    },
+    "erasmus_ka220": {
+     "mean": 80.25,
+     "n": 4
+    },
+    "erc_poc": {
+     "mean": 86.01,
+     "n": 4
+    },
+    "erc_stg": {
+     "mean": 82.95,
+     "n": 2
+    },
+    "foundation": {
+     "mean": 87.61,
+     "n": 4
+    },
+    "horizon_ria": {
+     "mean": 78.08,
+     "n": 11
+    },
+    "horizon_stage1": {
+     "mean": 76.6,
+     "n": 4
+    },
+    "msca_pf": {
+     "mean": 85.3,
+     "n": 4
+    },
+    "nih_r21": {
+     "mean": 85.85,
+     "n": 8
+    },
+    "nsf": {
+     "mean": 87.98,
+     "n": 4
+    },
+    "nsf_career": {
+     "mean": 89.75,
+     "n": 4
+    }
+   },
+   "direct-cc-claude-opus-5.5": {
+    "aei_pid": {
+     "mean": 92.56,
+     "n": 12
+    },
+    "cerv": {
+     "mean": 93.13,
+     "n": 8
+    },
+    "erasmus_ka220": {
+     "mean": 96.23,
+     "n": 4
+    },
+    "erc_poc": {
+     "mean": 91.7,
+     "n": 8
+    },
+    "erc_stg": {
+     "mean": 90.82,
+     "n": 4
+    },
+    "foundation": {
+     "mean": 34.74,
+     "n": 8
+    },
+    "horizon_ria": {
+     "mean": 90.65,
+     "n": 24
+    },
+    "horizon_stage1": {
+     "mean": 92.7,
+     "n": 5
+    },
+    "msca_pf": {
+     "mean": 91.36,
+     "n": 8
+    },
+    "nih_r21": {
+     "mean": 91.82,
+     "n": 12
+    },
+    "nsf": {
+     "mean": 93.31,
+     "n": 8
+    },
+    "nsf_career": {
+     "mean": 94.77,
+     "n": 4
+    }
+   },
+   "direct-cc-claude-sonnet-5.5": {
+    "aei_pid": {
+     "mean": 86.68,
+     "n": 6
+    },
+    "cerv": {
+     "mean": 88.91,
+     "n": 4
+    },
+    "erasmus_ka220": {
+     "mean": 89.97,
+     "n": 4
+    },
+    "erc_poc": {
+     "mean": 89.22,
+     "n": 4
+    },
+    "erc_stg": {
+     "mean": 90.06,
+     "n": 2
+    },
+    "foundation": {
+     "mean": 23.48,
+     "n": 4
+    },
+    "horizon_ria": {
+     "mean": 86.68,
+     "n": 12
+    },
+    "horizon_stage1": {
+     "mean": 83.96,
+     "n": 4
+    },
+    "msca_pf": {
+     "mean": 89.21,
+     "n": 4
+    },
+    "nih_r21": {
+     "mean": 78.36,
+     "n": 8
+    },
+    "nsf": {
+     "mean": 95.44,
+     "n": 4
+    },
+    "nsf_career": {
+     "mean": 72.62,
+     "n": 4
+    }
+   },
+   "direct-codex-gpt-6-astra": {
+    "aei_pid": {
+     "mean": 88.14,
+     "n": 12
+    },
+    "cerv": {
+     "mean": 89.11,
+     "n": 8
+    },
+    "erasmus_ka220": {
+     "mean": 91.86,
+     "n": 8
+    },
+    "erc_poc": {
+     "mean": 91.66,
+     "n": 8
+    },
+    "erc_stg": {
+     "mean": 86.0,
+     "n": 4
+    },
+    "foundation": {
+     "mean": 91.28,
+     "n": 8
+    },
+    "horizon_ria": {
+     "mean": 89.1,
+     "n": 24
+    },
+    "horizon_stage1": {
+     "mean": 84.02,
+     "n": 8
+    },
+    "msca_pf": {
+     "mean": 89.53,
+     "n": 8
+    },
+    "nih_r21": {
+     "mean": 88.26,
+     "n": 16
+    },
+    "nsf": {
+     "mean": 87.83,
+     "n": 8
+    },
+    "nsf_career": {
+     "mean": 89.35,
+     "n": 8
+    }
+   },
+   "direct-codex-gpt-6-luna": {
+    "aei_pid": {
+     "mean": 79.88,
+     "n": 12
+    },
+    "cerv": {
+     "mean": 85.91,
+     "n": 8
+    },
+    "erasmus_ka220": {
+     "mean": 87.48,
+     "n": 8
+    },
+    "erc_poc": {
+     "mean": 84.6,
+     "n": 8
+    },
+    "erc_stg": {
+     "mean": 83.44,
+     "n": 4
+    },
+    "foundation": {
+     "mean": 88.08,
+     "n": 8
+    },
+    "horizon_ria": {
+     "mean": 80.65,
+     "n": 24
+    },
+    "horizon_stage1": {
+     "mean": 72.32,
+     "n": 8
+    },
+    "msca_pf": {
+     "mean": 83.15,
+     "n": 8
+    },
+    "nih_r21": {
+     "mean": 80.45,
+     "n": 16
+    },
+    "nsf": {
+     "mean": 84.07,
+     "n": 8
+    },
+    "nsf_career": {
+     "mean": 85.93,
+     "n": 8
+    }
+   },
+   "direct-codex-gpt-6-sol": {
+    "aei_pid": {
+     "mean": 85.44,
+     "n": 12
+    },
+    "cerv": {
+     "mean": 87.8,
+     "n": 8
+    },
+    "erasmus_ka220": {
+     "mean": 89.79,
+     "n": 8
+    },
+    "erc_poc": {
+     "mean": 89.39,
+     "n": 8
+    },
+    "erc_stg": {
+     "mean": 84.29,
+     "n": 4
+    },
+    "foundation": {
+     "mean": 91.53,
+     "n": 8
+    },
+    "horizon_ria": {
+     "mean": 84.59,
+     "n": 24
+    },
+    "horizon_stage1": {
+     "mean": 78.32,
+     "n": 8
+    },
+    "msca_pf": {
+     "mean": 88.25,
+     "n": 8
+    },
+    "nih_r21": {
+     "mean": 87.1,
+     "n": 16
+    },
+    "nsf": {
+     "mean": 86.42,
+     "n": 8
+    },
+    "nsf_career": {
+     "mean": 87.68,
+     "n": 8
+    }
+   },
+   "direct-gemini-3.1-pro": {
+    "aei_pid": {
+     "mean": 77.72,
+     "n": 12
+    },
+    "cerv": {
+     "mean": 80.76,
+     "n": 8
+    },
+    "erasmus_ka220": {
+     "mean": 77.7,
+     "n": 8
+    },
+    "erc_poc": {
+     "mean": 88.05,
+     "n": 8
+    },
+    "erc_stg": {
+     "mean": 79.2,
+     "n": 4
+    },
+    "foundation": {
+     "mean": 86.61,
+     "n": 8
+    },
+    "horizon_ria": {
+     "mean": 70.45,
+     "n": 24
+    },
+    "horizon_stage1": {
+     "mean": 71.34,
+     "n": 8
+    },
+    "msca_pf": {
+     "mean": 73.47,
+     "n": 8
+    },
+    "nih_r21": {
+     "mean": 78.15,
+     "n": 16
+    },
+    "nsf": {
+     "mean": 78.63,
+     "n": 8
+    },
+    "nsf_career": {
+     "mean": 71.79,
+     "n": 8
+    }
+   },
+   "direct-gemini-3.8-flash": {
+    "aei_pid": {
+     "mean": 73.87,
+     "n": 12
+    },
+    "cerv": {
+     "mean": 74.81,
+     "n": 8
+    },
+    "erasmus_ka220": {
+     "mean": 41.72,
+     "n": 8
+    },
+    "erc_poc": {
+     "mean": 82.49,
+     "n": 8
+    },
+    "erc_stg": {
+     "mean": 77.11,
+     "n": 4
+    },
+    "foundation": {
+     "mean": 0.0,
+     "n": 8
+    },
+    "horizon_ria": {
+     "mean": 65.17,
+     "n": 24
+    },
+    "horizon_stage1": {
+     "mean": 83.02,
+     "n": 8
+    },
+    "msca_pf": {
+     "mean": 83.55,
+     "n": 8
+    },
+    "nih_r21": {
+     "mean": 4.89,
+     "n": 16
+    },
+    "nsf": {
+     "mean": 59.6,
+     "n": 8
+    },
+    "nsf_career": {
+     "mean": 72.7,
+     "n": 8
+    }
+   }
+  },
+  "consistency": {
+   "agent-claude-opus-4.6": {
+    "n": 60,
+    "mean_abs_diff": 16.79,
+    "pearson_r": 0.603
+   },
+   "cli-codex-gpt-6-astra": {
+    "n": 60,
+    "mean_abs_diff": 3.51,
+    "pearson_r": -0.03
+   },
+   "direct-cc-claude-opus-5.5": {
+    "n": 45,
+    "mean_abs_diff": 8.83,
+    "pearson_r": 0.36
+   },
+   "direct-codex-gpt-6-astra": {
+    "n": 60,
+    "mean_abs_diff": 2.09,
+    "pearson_r": 0.568
+   },
+   "direct-codex-gpt-6-luna": {
+    "n": 60,
+    "mean_abs_diff": 4.39,
+    "pearson_r": 0.259
+   },
+   "direct-codex-gpt-6-sol": {
+    "n": 60,
+    "mean_abs_diff": 1.78,
+    "pearson_r": 0.844
+   },
+   "direct-gemini-3.1-pro": {
+    "n": 60,
+    "mean_abs_diff": 7.39,
+    "pearson_r": 0.539
+   },
+   "direct-gemini-3.8-flash": {
+    "n": 60,
+    "mean_abs_diff": 12.97,
+    "pearson_r": 0.801
+   }
+  }
+ },
+ "judges": {
+  "panel": [
+   "us.moonshotai.kimi-k3",
+   "zai.glm-5",
+   "deepseek.v3.2"
+  ],
+  "measured": {
+   "evaluations": 34,
+   "mean_usd": 2.92,
+   "median_usd": 2.68
+  },
+  "run_average": {
+   "per_evaluation_usd": 2.42,
+   "total_usd": 3426,
+   "evaluations": 1413,
+   "basis": "run_average",
+   "source": "AWS Cost Explorer, gross usage before credits (filter RECORD_TYPE=Usage), Bedrock judge models (Kimi K3 $2,823, GLM-5 $389, DeepSeek V3.2 $214), 2026-10-30 to 2026-11-02; judged before per-stage token recording",
+   "recorded": "2026-11-05"
+  },
+  "agreement": [
+   {
+    "family": "call exclusions",
+    "kind": "ternary",
+    "units": 3954,
+    "alpha": 0.342,
+    "ci": [
+     0.24,
+     0.44
+    ],
+    "exact": 0.948
+   },
+   {
+    "family": "call mandatory elements",
+    "kind": "ternary",
+    "units": 9968,
+    "alpha": 0.632,
+    "ci": [
+     0.61,
+     0.66
+    ],
+    "exact": 0.906
+   },
+   {
+    "family": "call outcomes and scope (criteria)",
+    "kind": "binary",
+    "units": 36757,
+    "alpha": 0.528,
+    "ci": [
+     0.51,
+     0.54
+    ],
+    "exact": 0.936
+   },
+   {
+    "family": "generic items (criteria)",
+    "kind": "binary",
+    "units": 30828,
+    "alpha": 0.75,
+    "ci": [
+     0.74,
+     0.76
+    ],
+    "exact": 0.856
+   },
+   {
+    "family": "generic items (yes/partial/no)",
+    "kind": "ternary",
+    "units": 6666,
+    "alpha": 0.664,
+    "ci": [
+     0.65,
+     0.68
+    ],
+    "exact": 0.714
+   },
+   {
+    "family": "grounding (criteria)",
+    "kind": "binary",
+    "units": 11232,
+    "alpha": 0.218,
+    "ci": [
+     0.14,
+     0.29
+    ],
+    "exact": 0.987
+   },
+   {
+    "family": "scheme items",
+    "kind": "binary",
+    "units": 7949,
+    "alpha": 0.633,
+    "ci": [
+     0.6,
+     0.67
+    ],
+    "exact": 0.954
+   },
+   {
+    "family": "scheme items",
+    "kind": "ternary",
+    "units": 2350,
+    "alpha": 0.669,
+    "ci": [
+     0.64,
+     0.69
+    ],
+    "exact": 0.682
+   },
+   {
+    "family": "traps",
+    "kind": "ternary",
+    "units": 1825,
+    "alpha": 0.703,
+    "ci": [
+     0.63,
+     0.76
+    ],
+    "exact": 0.947
+   }
+  ]
+ },
+ "featured": [
+  {
+   "task": "pub-he-heatstorage-close",
+   "scheme": "horizon_ria",
+   "fit": "close",
+   "call_title": "Seasonal and large-scale thermal energy storage for equitable low-temperature district heating",
+   "max_words": 18000
+  },
+  {
+   "task": "pub2-erc-field-stretch",
+   "scheme": "erc_poc",
+   "fit": "stretch",
+   "call_title": "Proof of Concept: innovation arising from ERC research, window A",
+   "max_words": 5000
+  },
+  {
+   "task": "pub-msca-ef-maternal-stretch",
+   "scheme": "msca_pf",
+   "fit": "stretch",
+   "call_title": "MSCA Postdoctoral Fellowships 2027: European Fellowships",
+   "max_words": 5000
+  },
+  {
+   "task": "pub-nih-ruralbp-stretch",
+   "scheme": "nih_r21",
+   "fit": "stretch",
+   "call_title": "Exploratory Research on Blood-Pressure Measurement, Data Integration, and Community-Engaged Strategy Design for Hypertension Control in Rural and Under-Resourced US Settings",
+   "max_words": 4200
+  },
+  {
+   "task": "pub2-nsf-autonomy-stretch",
+   "scheme": "nsf_career",
+   "fit": "stretch",
+   "call_title": "Foundations of Reliable Distributed Autonomous Systems: Integrated Research and Education for Early-Career Faculty",
+   "max_words": 9600
+  },
+  {
+   "task": "pub2-ka220-multilingual-stretch",
+   "scheme": "erasmus_ka220",
+   "fit": "stretch",
+   "call_title": "Inclusive multilingual teaching and assessment in practical higher-education courses",
+   "max_words": 6000
+  }
+ ]
+}

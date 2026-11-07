@@ -1,0 +1,31 @@
+{
+ "kind": "dossier",
+ "id": "v2-fragmentary-music-archive-team",
+ "reviewer_family": "task-reviews",
+ "issues": [
+  {
+   "severity": "major",
+   "checklist": "Dossier 3 / Task 1",
+   "where": "prior_project.md 'Purpose and material' and 'Audio processing results'; team_and_research_practice.md; brief.md (Tõnis 'ambiguous text placement'); dossier.yaml facts F08, F13",
+   "problem": "The brief's central question is note-onset recovery, but no file says what the 24 examples contain. It is not stated whether they are sung or played, solo or ensemble, or with or without text. It is also not stated whether any reference onset annotation exists. The brief gives Lehevald 'ambiguous text placement', which implies sung examples, but the dossier never says the performances carry text. A proposal must define the signal (SC2), the ground truth for 'events that were never in the recording' (ME5, ME7) and each member's task (ME4). Without these, a writer must either guess the performance medium or stay vague about the signal being recovered. dossier.yaml has no gaps section recording this absence.",
+   "fix": "In prior_project.md, state the medium and texture of the examples, for example: '24 unaccompanied sung examples with underlaid text; 12 performers sang, ...' or a stated mix with counts per performer. Add one sentence that no onset reference annotation exists, or that one exists, with method and count. Register both as facts. If the absence of onset references is meant to be a planned activity, record it as a gap in dossier.yaml.",
+   "from_task_review": "pub2-foundation-signals-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 3 / Task 1",
+   "where": "resources_and_permissions.md 'Host confirmation'; prior_project.md 'Delivery, expenditure and limitations'; task.yaml T2 expected_behaviour",
+   "problem": "T2 requires 'an internally consistent indicative allocation ... including indirect costs', and the call requires indirect costs within the ceiling. The dossier gives no cost basis for this. There is no institutional indirect-cost rate; the pilot's EUR 4,800 on EUR 42,000 direct implies about 11.4%, but no rate is stated. There are no staff cost rates or person-month costs, and no basis for a statistical adviser's cost. There is no internal charge for the shared digitisation room, although the pilot paid EUR 4,800 for 'collection handling and digitisation services', so the T2 alternative may itself carry a charge. Any budget after removing the scanner rests on numbers the system must invent, and graders cannot judge internal consistency against a dossier anchor.",
+   "fix": "Add to the host confirmation or resources file: the university's indirect-cost rate for external grants (for example 'calculated at 15% of direct costs'); indicative monthly employer costs for the three staff grades or the school's standard research-hour rate; and the internal booking charge for the digitisation room and collection handling. Register these as facts. Alternatively, record them as gaps and loosen T2 so it does not grade budget arithmetic.",
+   "from_task_review": "pub2-foundation-signals-stretch"
+  },
+  {
+   "severity": "major",
+   "checklist": "Dossier 4",
+   "where": "team_and_research_practice.md ('The team has not worked with astronomical or other observational-science data'; 'signed cross-domain collaboration agreements'); prior_project.md ('The project did not generate synthetic masking trials, quantify recovery under controlled signal-to-noise ratios or train a model to fill missing musical passages'); resources_and_permissions.md ('does not require a dedicated graphics processor, a new scanner or a new musical instrument' and the separate 'Scanner quotation record' section)",
+   "problem": "Several statements answer this particular call and trap rather than reading as the team's own documents. A musicology team statement would not mention astronomy, which is the call's illustrative domain, or 'cross-domain' agreements, which echo the call's 'transfer between domains'. A 2025 cataloguing report would not list the synthetic-masking and controlled-SNR experiments that the call's scope asks for. A facilities inventory would not keep a dedicated section for an expired quotation on equipment never bought, nor list items it does not need. Together these read as a benchmark specification and pre-cue the scanner trap.",
+   "fix": "Delete the astronomy sentence and drop F25, or replace it with a natural statement of methodological limits ('no member has formal training in statistical modelling of measurement uncertainty'). Replace 'cross-domain collaboration agreements' with 'external research collaboration agreements'. Reduce the final-report limitation to what the pilot measured ('recovery of missing material was outside the pilot's aims'). Move the quotation into an ordinary facilities-review note or the CV's account of the pilot ('a quotation for an overhead scanner, EUR 28,000 incl. VAT, Nov 2025, was not pursued'). Remove the 'does not require ... a new scanner' clause.",
+   "from_task_review": "pub2-foundation-signals-stretch"
+  }
+ ]
+}

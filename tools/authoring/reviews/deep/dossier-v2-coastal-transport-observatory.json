@@ -1,0 +1,43 @@
+{
+  "kind": "dossier",
+  "id": "v2-coastal-transport-observatory",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "mode": "deep",
+  "created": "2026-10-31",
+  "verdict": "accept",
+  "issues": [
+    {
+      "severity": "minor",
+      "checklist": "Dossier 3",
+      "where": "data/public/dossiers/v2-coastal-transport-observatory/resources.md: “Local water levels, salinity, temperature and sampling timestamps are retained in field metadata.”",
+      "problem": "The summary does not establish whether the water-level information is a continuous series, spot observations or deployment metadata. This is relevant background for the estuary-planning pivot, but a compliant proposal can avoid claiming an existing continuous record.",
+      "fix": "Replace with “Field metadata include local water-level observations, salinity, temperature and sampling timestamps. This register does not establish a continuous, datum-referenced water-level series suitable for inundation-model validation.” Add that limitation to F20; leave acquisition of a suitable series as proposed work.",
+      "evidence": [
+        "data/public/dossiers/v2-coastal-transport-observatory/resources.md",
+        "data/public/dossiers/v2-coastal-transport-observatory/prior_project.md"
+      ]
+    },
+    {
+      "severity": "minor",
+      "checklist": "Dossier 2",
+      "where": "data/public/dossiers/v2-coastal-transport-observatory/consortium.md: “assigns an oceanographer, an environmental chemist and a field technician”; later “eight existing staff ... three in Portugal”.",
+      "problem": "The eight-person total is consistent only if the Portuguese oceanographer is the coordinator, which the CV implies but the team record leaves implicit.",
+      "fix": "Change to “The institute assigns Eliana Seabra Vilar as oceanographer and coordinator, an environmental chemist and a field technician.”",
+      "evidence": [
+        "data/public/dossiers/v2-coastal-transport-observatory/consortium.md",
+        "data/public/dossiers/v2-coastal-transport-observatory/cv_pi.md"
+      ]
+    }
+  ],
+  "checked": [
+    "Read all five visible files and all 25 facts/publication entries. Every non-null fact.value occurs literally in its named source. Fictional notices are present throughout; no gaps, inconsistencies or reviewer_criticisms are declared; none is needed for these ordinary tasks.",
+    "Recomputed 18×6=108 opportunities; 96+8+4=108; 48+48=96 arrivals; 216+24+12=252 submissions; six folds×three storms=18; (4.0−2.8)/4.0=30%; EUR 300,000+126,000=426,000; 3+3+2=8 staff. Paired storm bootstrap and conditional-arrival caveats are scientifically coherent.",
+    "Reviewed all CV, project, acceptance, publication and access dates. Latest records precede October 2026; the 2029 vessel delivery and 2030 station expiry are explicitly future commitments. Replacement timing supports the November 2028–March 2029 T12 trap without requiring an impossible sampling design.",
+    "Exact-name searches found no identified researcher/institution collision for Eliana Seabra Vilar, Mateo Cendral Viedma, Nessa Kervane Doyle, Iria Soneira Valcedo, Instituto Marinho de Vale Sereno, Universidad de la Ensenada de Lóbriga, Brackenquay Institute for Spatial Planning, Universidade da Costa de Alvéria, or either named foundation.",
+    "Searched all named projects, Estuary Margin Storm Records, vessel Margem Serena and all four journal titles. No relevant project/dataset/journal/vessel collision established; a same-phrase vehicle-dealer name is not evidence that the research vessel is a real organisation. Search absence is not proof of uniqueness.",
+    "All four own publications match the visible list and use 10.99999/pb. DOIs. Selected publications are consistent with the CV's 22-article career total.",
+    "Verified Trancão's 293 km² catchment against the Portuguese basin plan: https://sniambgeoviewer.apambiente.pt/GeoDocs/geoportaldocs/ARHTejo/PBHTejo/Fase1_Analise_Diagn_Sit_Referencia/Volume3_CaractGeral_BaciaHidro/PBHTejo_Fase1_VolumeIII_ParteC.pdf ; Almourol boundary and flow-sensitive Tagus transport against https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2021.734814/full and https://connect-portal.lnec.pt/static/docs/Tagus_3D_baroclinic_EN.pdf . Local threshold-arrival lags are not equated with whole-estuary residence time.",
+    "Prior review's storm simultaneity, catchment extent, technician coverage and retrospective/forecast confusion have been repaired in the current files. No raw synthetic observations were supplied to reproduce the bootstrap intervals."
+  ]
+}

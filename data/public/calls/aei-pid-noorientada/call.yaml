@@ -1,0 +1,128 @@
+schema_version: 1
+id: aei-pid-noorientada
+scheme: aei_pid
+language: es
+title: Proyectos de Generación de Conocimiento 2027, modalidad Investigación No Orientada
+topic_code: PB-AEI-2027-NO
+proposal_type: full
+length_contract:
+  max_words: 10000
+  enforcement: inadmissible
+  tolerance: 0.0
+  exempt:
+  - references
+  page_limit: 20
+  words_per_page: 500
+  source_note: |-
+    Verificado el 2026-10-31: resolución AEI PID2025 de 29 de octubre de 2025,
+    artículo 18.2.a y anexo VII: máximo de 20 páginas para proyectos individuales,
+    incluidos todos los apartados; 35 para coordinados (fuera de esta convocatoria ficticia).
+    La aplicación no admite memorias que excedan ese límite. Formato recomendado:
+    Times New Roman, Calibri o Arial, mínimo 11 puntos, márgenes laterales de 2,5 cm,
+    superior/inferior de 1,5 cm e interlineado mínimo sencillo. Adaptación: 20 x 500
+    palabras por página = 10.000 palabras, sin tolerancia. Las 500 palabras son una
+    estimación de prosa con espacio para títulos y tablas, no una regla de la AEI.
+    Se excluyen las referencias SOLO por adaptación del benchmark; la fuente no les
+    concede una exención de páginas. Se cuentan títulos de apartados, tablas y pies.
+    Resolución: https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf
+    Extracto BOE publicado el 31 de octubre, no el 29: https://www.boe.es/boe/dias/2025/10/31/pdfs/BOE-B-2025-39643.pdf
+required_sections:
+- id: '1'
+  title: Datos de la propuesta
+- id: '2'
+  title: Justificación y novedad de la propuesta
+- id: '3'
+  title: Objetivos, metodología y plan de trabajo
+- id: '4'
+  title: Impacto esperado de los resultados
+- id: '5'
+  title: Justificación del presupuesto solicitado
+- id: '6'
+  title: Capacidad formativa
+  core: false
+- id: '7'
+  title: Condiciones específicas para la ejecución del proyecto
+  core: false
+expected_outcomes:
+- id: EO1
+  text: Avance del conocimiento científico-técnico mediante una hipótesis explícita y novedosa, sin una
+    prioridad temática preestablecida ni exigencia de aplicación inmediata.
+- id: EO2
+  text: Resultados con una contribución científica justificada y posibles efectos sociales y económicos
+    plausibles.
+scope:
+- id: SC1
+  text: Proyectos individuales de Investigación No Orientada, tipo A o B, con una o dos personas IP; cualquier
+    área científico-técnica. La limitación a proyectos individuales es una elección de esta convocatoria
+    ficticia.
+exclusions:
+- id: EX1
+  text: No se admiten proyectos tipo RTA, que en la resolución de 2025 pertenecen exclusivamente a Investigación
+    Orientada.
+- id: EX2
+  text: No se pueden incluir actividades de entidades que no participan en el proyecto.
+- id: EX3
+  text: Esta convocatoria ficticia excluye proyectos coordinados y la excepción de duración de dos años;
+    son restricciones inventadas del benchmark, no prohibiciones generales de PID2025.
+mandatory_elements:
+- id: ME1
+  text: Identificar las personas IP, el tipo A o B, la duración y el presupuesto solicitado, con título
+    y acrónimo en español y en inglés.
+- id: ME2
+  text: Explicitar la hipótesis de partida y su novedad frente al estado del conocimiento, justificando
+    la adecuación a Investigación No Orientada.
+- id: ME3
+  text: Definir objetivos, metodología, etapas críticas, plan de contingencia, medios disponibles y resultados
+    previos del equipo que avalan la propuesta.
+- id: ME4
+  text: Presentar un cronograma con fases, hitos y responsabilidades; con dos IP, asignar expresamente
+    los objetivos específicos a cada una. Justificar necesidad, formación y tareas del personal solicitado.
+- id: ME5
+  text: Incluir un plan de comunicación científica de los resultados.
+- id: ME10
+  text: Incluir un plan de internacionalización de los resultados.
+- id: ME11
+  text: Definir una estrategia de publicación en acceso abierto.
+- id: ME12
+  text: Incluir un plan de divulgación a los públicos pertinentes.
+- id: ME13
+  text: Describir un plan de transferencia y valorización cuando se prevean resultados transferibles;
+    en otro caso, justificar que no procede.
+- id: ME14
+  text: Incluir un resumen del plan de gestión de datos de investigación.
+- id: ME15
+  text: Explicar la relevancia del género en el contenido de la investigación y en el impacto esperado,
+    o justificar razonadamente su no pertinencia.
+- id: ME6
+  text: 'Justificar cualitativamente cada partida y vincular el presupuesto a las actividades; respetar
+    la banda inventada del tipo elegido: A, 30.000–75.000 EUR; B, 50.000–99.000 EUR de costes directos.'
+- id: ME7
+  text: Si se solicita formación predoctoral, describir el programa de formación y doctorado, tesis realizadas
+    o en curso y trayectoria de personas egresadas en los últimos diez años; en otro caso indicar que
+    no procede.
+- id: ME8
+  text: Cuando proceda, explicar protocolos, instalaciones y autorizaciones requeridos por la investigación;
+    distinguir autorizaciones disponibles de las que se prevé solicitar o están en tramitación.
+- id: ME9
+  text: Justificar la vinculación de cada IP con una entidad elegible de los artículos 7.1 o 7.2; una
+    afiliación exclusivamente a una institución extranjera sin esa vinculación no basta.
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 30000
+  max_budget: 99000
+  duration_months_min: 36
+  duration_months_max: 48
+  consortium:
+    min_entities: 1
+    min_countries: 1
+    notes: Proyecto individual con una o dos IP y entidad beneficiaria elegible con residencia fiscal
+      o establecimiento permanente en España; no se exige un consorcio internacional.
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+  notes: Scheme skeleton with official rules verified on 2026-10-31; fictional adaptations identified
+    in call_md and author_notes. No human review claimed.
+canary: PROPOSALBENCH-CANARY afb70f61-b2ef-4a1f-a59c-a26a6c9fffd6

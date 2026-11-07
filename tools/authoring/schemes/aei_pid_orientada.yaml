@@ -1,0 +1,346 @@
+name: aei_pid_orientada
+scheme: aei_pid
+language: es
+topic_code_prefix: PB-AEI-ORIENTADA
+bottom_up: false
+render_fixed_conditions: true
+# Frozen call bands (invented) and programme duration choices; the Spanish table is fixed.
+fixed_values_in_text:
+  max_budget: [99000]
+  duration_months_max: [48]
+length_contract:
+  max_words: 10000
+  enforcement: inadmissible
+  tolerance: 0.0
+  exempt:
+  - references
+  page_limit: 20
+  words_per_page: 500
+  source_note: |-
+    Verificado el 2026-10-31: resolución AEI PID2025 de 29 de octubre de 2025,
+    artículo 18.2.a y anexo VII: máximo de 20 páginas para proyectos individuales,
+    incluidos todos los apartados; 35 para coordinados (fuera de esta convocatoria ficticia).
+    La aplicación no admite memorias que excedan ese límite. Formato recomendado:
+    Times New Roman, Calibri o Arial, mínimo 11 puntos, márgenes laterales de 2,5 cm,
+    superior/inferior de 1,5 cm e interlineado mínimo sencillo. Adaptación: 20 x 500
+    palabras por página = 10.000 palabras, sin tolerancia. Las 500 palabras son una
+    estimación de prosa con espacio para títulos y tablas, no una regla de la AEI.
+    Se excluyen las referencias SOLO por adaptación del benchmark; la fuente no les
+    concede una exención de páginas. Se cuentan títulos de apartados, tablas y pies.
+    Resolución: https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf
+    Extracto BOE publicado el 31 de octubre, no el 29: https://www.boe.es/boe/dias/2025/10/31/pdfs/BOE-B-2025-39643.pdf
+required_sections:
+- id: '1'
+  title: Datos de la propuesta
+- id: '2'
+  title: Justificación y novedad de la propuesta
+- id: '3'
+  title: Objetivos, metodología y plan de trabajo
+- id: '4'
+  title: Impacto esperado de los resultados
+- id: '5'
+  title: Justificación del presupuesto solicitado
+- id: '6'
+  title: Capacidad formativa
+  core: false
+- id: '7'
+  title: Condiciones específicas para la ejecución del proyecto
+  core: false
+eligibility:
+  budget_in_narrative: true
+  currency: EUR
+  min_budget: 30000
+  max_budget: 99000
+  duration_months_min: 36
+  duration_months_max: 48
+  consortium:
+    min_entities: 1
+    min_countries: 1
+    notes: Proyecto individual con una o dos IP y entidad beneficiaria elegible con residencia fiscal
+      o establecimiento permanente en España; no se exige un consorcio internacional. Condiciones
+      adicionales de esta convocatoria ficticia, que se aplican junto con los límites numéricos;
+      costes directos tipo A, 30.000-75.000 EUR; tipo B, 50.000-99.000 EUR; duración de 36 o 48
+      meses exclusivamente, 48 meses obligatorios si hay campañas oceanográficas.
+fixed_items:
+  expected_outcomes: []
+  scope: []
+  exclusions:
+  - id: EX1
+    text: No se asignarán tareas del plan de trabajo a entidades ajenas a la participación descrita
+      en la solicitud; estudiar sus actividades o acceder a ellas mediante colaboración no las convierte
+      en ejecutoras de tareas del proyecto (convención del benchmark para aplicar el anexo VII).
+  mandatory_elements:
+  - id: ME1
+    text: Explicar cómo los objetivos contribuyen a resolver un problema concreto de la prioridad
+      temática nombrada en los resultados esperados.
+  - id: ME2
+    text: Describir un plan de contingencia para las etapas críticas del proyecto.
+  - id: ME3
+    text: Presentar un cronograma que sitúe las tareas y sus responsables en el tiempo.
+  - id: ME4
+    text: Incluir un resumen del plan de gestión de los datos de investigación.
+  - id: ME5
+    text: Cuando proceda, explicar cómo se considera la dimensión de género en el contenido de la
+      investigación; justificar su falta de pertinencia en otro caso.
+  - id: ME6
+    text: Justificar cada partida de costes directos solicitados por su relación con las actividades
+      del proyecto.
+  - id: ME7
+    text: Cuando proceda por solicitarse ayuda predoctoral asociada, describir el programa formativo
+      previsto; en otro caso indicar «No procede».
+  - id: ME8
+    text: Cuando proceda, indicar las autorizaciones necesarias para ejecutar la investigación y su
+      estado de tramitación; en otro caso indicar «No procede».
+author_notes: |
+  La lista fija selecciona ocho exigencias narrativas evaluables; los demás detalles de la
+  memoria siguen en sus apartados. Las antiguas EO/SC genéricas se sustituyen por resultados
+  y ámbito propios del tema. La prioridad debe ser la nombrada por el autor de la convocatoria.
+  La vinculación de IP, RTA, formato coordinado y duraciones se tratan en elegibilidad.
+  La precisión operativa de la antigua EX2 se etiqueta como convención: el anexo VII, p. 75,
+  solo contiene la prohibición general, sin delimitar la observación de entidades externas.
+  La separación presupuestaria se verifica en artículos 11, 13 y 14.2–3; la exclusión expresa
+  de la ayuda predoctoral del umbral de inglés no figura en 18.2.a y se etiqueta como convención.
+  eligibility_bounds:
+    max_budget: {min: 99000, max: 99000}
+    duration_months_max: {min: 48, max: 48}
+  Fuentes verificadas 2026-10-31: https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf.
+  Se conservan los ids 1–7; la prioridad se elige para cada tema, sin modificar el piloto. El anexo I.b confirma pesos 40/30/20/10, umbrales 30/20/10 y subcriterios
+  calidad 25, viabilidad 15. El artículo 11.4 fija indirectos del 25%, no el 21% del piloto.
+  La memoria de 20 páginas se convierte a 10000 palabras (500/página), cero tolerancia;
+  exención de referencias es convención del benchmark. Apartados 6 y 7 condicionales.
+  Se mantiene el máximo inventado de 99000 EUR directos para ser coherente con español;
+  el piloto permitía 150000 pese a exigir inglés desde 100000. Bandas ficticias por tipo:
+  A 30000–75000, B 50000–99000. La resolución no establece esas bandas. Indirectos aparte.
+  Elegir UNA prioridad real del Plan Estatal 2024–2027 que encaje con el tema de la matriz.
+  Lista verificada en el anexo III (p. 66) de la resolución PID2025 enlazada arriba:
+  - Salud.
+  - Cultura, creatividad y sociedad inclusiva.
+  - Seguridad para la sociedad.
+  - Digitalización y telecomunicaciones.
+  - Industria.
+  - Espacio y defensa.
+  - Energía y movilidad.
+  - Alimentación, bioeconomía, recursos naturales, agricultura, clima y medioambiente.
+  Nombrar literalmente la prioridad elegida en expected_outcomes_intro y explicar su relación
+  con el tema. Para residuos antimicrobianos, ganadería, agua y exposición rural, valorar
+  Salud o Alimentación, bioeconomía, recursos naturales, agricultura, clima y medioambiente
+  según el foco científico; no arrastrar la prioridad del piloto ni inventar una prioridad oficial.
+  Desarrollar el énfasis ficticio en español mediante title, expected_outcomes_intro,
+  expected_outcomes, scope_intro, scope, exclusions y mandatory_elements. En scope_intro
+  distinguir expresamente la prioridad real del énfasis inventado. Los elementos fijos
+  se incorporan primero; añadir requisitos temáticos sin repetirlos. Conservar la tabla
+  española, las bandas fijas y la elección de 36 o 48 meses; no generar otra tabla.
+  Tipo A: primer doctorado 2015–2023 inclusive y límite de experiencia IP de la resolución
+  2025, con ampliaciones documentadas; no actualizar fechas sin declararlo inventado.
+  Tipo B: requisitos generales y trayectoria consolidada. Vinculación de IP y entidad española
+  según artículos 7–8; no confundir nacionalidad con afiliación. 36 o 48 meses, no valores
+  intermedios; 48 con campañas oceanográficas. Exclusiones de coordinados, RTA y duración
+  excepcional de dos años son restricciones ficticias, no reglas de toda Investigación Orientada.
+  La formación predoctoral es opcional. Artículos 11 y 13–14: financiación de proyectos y ayudas predoctorales asociadas diferenciadas; artículo 18.2.a: umbral del idioma sobre costes directos del proyecto.
+  Fecha límite ficticia 15 septiembre 2027. Reutilizar rúbrica aei_pid; la prioridad es EO/SC/ME,
+  no un nuevo valor de Scheme. Fuente de derechos: resolución oficial, art. 13 LPI;
+  paráfrasis propia y encuadre ficticio. No se modifica data/ ni el manifiesto de fuentes.
+call_md: |
+  # {{topic_code}}: {{title}}
+
+  Proyectos de Generación de Conocimiento — Investigación Orientada
+
+  > Convocatoria ficticia redactada para ProposalBench. Adapta la resolución de la Agencia
+  > Estatal de Investigación de 29 de octubre de 2025, cuyo extracto se publicó en el BOE
+  > el 31 de octubre de 2025. El identificador, las bandas de presupuesto y las restricciones
+  > particulares indicadas son inventados. Se conserva la estructura de la memoria y los
+  > criterios de la modalidad Investigación Orientada. No es una convocatoria oficial abierta.
+
+  ## 1. Objeto y modalidad
+
+  Financiar investigación dirigida a resolver problemas de la prioridad temática del Plan
+  Estatal nombrada en los resultados esperados. La prioridad es real; el énfasis concreto
+  desarrollado en el ámbito es inventado para este benchmark. La propuesta debe formular
+  una hipótesis novedosa y explicar cómo sus objetivos contribuyen a un problema concreto
+  de esa prioridad.
+
+  ## 2. Condiciones principales
+
+  | Condición | Requisito |
+  |---|---|
+  | Modalidad | Investigación Orientada |
+  | Formato | Proyecto individual con una o dos personas IP |
+  | Tipos | A, para investigadores emergentes; B, para investigadores consolidados |
+  | Duración | Elegir 36 o 48 meses; 48 obligatorios si hay campañas oceanográficas |
+  | Banda tipo A | 30.000–75.000 euros de costes directos, inventada para este benchmark |
+  | Banda tipo B | 50.000–99.000 euros de costes directos, inventada para este benchmark |
+  | Entidad | Entidad elegible con residencia fiscal o establecimiento permanente en España |
+  | Idioma | Memoria en español para este benchmark; título y acrónimo también en inglés |
+
+  Las bandas no proceden de la resolución oficial: en ella la cuantía depende del coste
+  financiable y de la disponibilidad presupuestaria. Aquí son condiciones particulares
+  inventadas. Los costes indirectos se tratan separadamente y no se incluyen en esas bandas. La
+  resolución de 2025 los fija en el 25% de los costes directos (artículo 11.4).
+  El presupuesto de la memoria debe indicar el total de costes directos y justificar las
+  partidas en relación con el plan de trabajo.
+
+  La regla oficial permite español o inglés y exige inglés cuando se solicitan **100.000
+  euros o más de costes directos**; en coordinados se considera la suma de subproyectos.
+  Se recomienda inglés con carácter general. Esta convocatoria ficticia mantiene todas sus
+  solicitudes por debajo de ese umbral y pide español como elección del benchmark.
+
+  Los tipos A y B siguen los perfiles de la resolución de 2025. En tipo A, el primer
+  doctorado debe haberse obtenido entre el 1 de enero de 2015 y el 31 de diciembre de
+  2023, salvo ampliaciones documentadas previstas en el artículo 8.3.c, y no se puede haber
+  sido IP durante más de un año en las modalidades del anexo V o equivalentes indicadas
+  en la resolución. Con dos IP, ambas deben cumplir estos requisitos. El tipo B requiere
+  una trayectoria consolidada y los requisitos generales del artículo 8.2; no aplica la
+  ventana del tipo A. Se exige doctorado, con la excepción reglada para tipo B en centros
+  tecnológicos o de apoyo a la innovación: titulación universitaria y experiencia de I+D+i
+  de al menos cinco años, o dirección previa de los proyectos tipo B previstos en la resolución.
+
+  Cada IP debe cumplir el requisito de vinculación con una entidad elegible de los artículos
+  7.1 o 7.2, que puede ser distinta de la solicitante con autorización expresa. La entidad
+  solicitante debe garantizar la vinculación durante la ejecución en los términos del
+  artículo 8.2.b. La elegibilidad depende de esa vinculación, no de la nacionalidad.
+
+  La resolución real permite proyectos coordinados y, excepcionalmente, proyectos de dos
+  años por causas justificadas. **Esta convocatoria ficticia se limita a proyectos
+  individuales de tres o cuatro años: ambas restricciones son inventadas.** Los proyectos RTA existen en Investigación Orientada, pero se excluyen de esta
+  convocatoria ficticia centrada en la prioridad indicada; no es una exclusión general de la modalidad. La ayuda para formación
+  predoctoral es opcional y requiere justificar la capacidad formativa; no se presume solicitada.
+  La ayuda predoctoral asociada de los artículos 13 y 14.3 se financia separadamente del
+  presupuesto del proyecto regulado en el artículo 11. Para estas bandas inventadas y para
+  el umbral de idioma se cuentan solo los costes directos del proyecto: se excluye la ayuda
+  predoctoral asociada (convención explícita del benchmark para el cómputo del umbral,
+  coherente con el artículo 18.2.a). El personal contratado con cargo al propio presupuesto
+  del proyecto sí forma parte de sus costes directos.
+
+  La prohibición de incluir actividades de entidades no participantes del anexo VII se aplica
+  aquí a la asignación de tareas de ejecución. Observar servicios de otras entidades o
+  contar con ellas para facilitar acceso no les atribuye tareas de ejecución; esta precisión
+  es una convención del benchmark. Describir su participación cuando ejecuten tareas.
+
+  ## Resultados esperados
+
+  {{expected_outcomes_intro}}
+
+  {{expected_outcomes}}
+
+  ## Ámbito
+
+  {{scope_intro}}
+
+  {{scope}}
+
+  ## Exclusiones
+
+  {{exclusions}}
+
+  ## Elementos obligatorios
+
+  {{specific_conditions}}
+
+  ## 3. Criterios de evaluación de Investigación Orientada
+
+  | Criterio | Puntuación | Umbral |
+  |---|---|---|
+  | Calidad y viabilidad de la propuesta | 0–40 | 30 |
+  | Calidad de la propuesta | 0–25, dentro del criterio anterior | — |
+  | Viabilidad de la propuesta | 0–15, dentro del criterio anterior | — |
+  | Calidad y trayectoria de los componentes del proyecto | 0–30 | 20 |
+  | Impacto científico, económico y social esperado de los resultados | 0–20 | 10 |
+  | Adecuación del presupuesto solicitado | 0–10 | — |
+
+  La calidad considera adecuación a la modalidad, relevancia y novedad de la hipótesis y
+  contribución de los objetivos a problemas concretos de la prioridad temática seleccionada. La viabilidad considera metodología,
+  cronograma, resultados previos pertinentes, distribución de tareas, recursos y contingencias.
+  El equipo se valora por sus contribuciones, complementariedad, formación e internacionalización,
+  con relación a las actividades propuestas. El impacto comprende contribución científica,
+  comunicación y divulgación, posibles efectos sociales y económicos y, cuando corresponda,
+  gestión de datos y dimensión de género. El presupuesto se juzga por su claridad y
+  adecuación a los objetivos.
+
+  ## 4. Contenido de la memoria científico-técnica
+
+  ### 1. Datos de la propuesta
+
+  Indicar personas IP, tipo A o B, duración, título y acrónimo en español e inglés.
+
+  ### 2. Justificación y novedad de la propuesta
+
+  Justificar la adecuación a esta modalidad, situar la motivación en el estado del
+  conocimiento y formular explícitamente la hipótesis de partida y su novedad. Explicar
+  qué avance aportaría su contraste y su contribución a los problemas de la prioridad temática.
+
+  ### 3. Objetivos, metodología y plan de trabajo
+
+  Definir objetivos generales y específicos realistas. Con dos IP, repartir los objetivos
+  específicos entre ellas. Explicar diseño, métodos, análisis, etapas críticas y contingencias;
+  los medios materiales e infraestructuras; y los resultados previos del equipo que avalan
+  la propuesta. Dar un cronograma de fases e hitos con participación y responsabilidades.
+  Si se solicita personal, justificar necesidad, titulación o formación y tareas. Distinguir
+  el equipo de investigación del equipo de trabajo: los integrantes de este último no
+  figuran como responsables de objetivos y tareas. Explicar la estrategia interdisciplinar
+  cuando proceda.
+
+  ### 4. Impacto esperado de los resultados
+
+  Explicar el impacto científico-técnico nacional e internacional, los efectos sociales y
+  económicos plausibles y la dimensión de género. Incluir comunicación científica,
+  internacionalización, publicación en acceso abierto y divulgación a los públicos pertinentes.
+  Describir transferencia y valorización cuando se prevean resultados transferibles.
+  Incluir un resumen del plan de gestión de datos y los efectos de considerar el género
+  en el contenido de la investigación, justificando su pertinencia o no pertinencia.
+
+  ### 5. Justificación del presupuesto solicitado
+
+  Indicar el total de costes directos y las principales partidas, con una justificación
+  cualitativa de su necesidad y conexión con las actividades. Respetar la banda inventada
+  del tipo elegido. La ayuda predoctoral asociada se presenta separadamente y no se suma
+  al total de costes directos del proyecto para las bandas ni para el umbral de idioma.
+
+  ### 6. Capacidad formativa
+
+  Solo si se solicita formación predoctoral: describir el programa formativo, programa de
+  doctorado y universidad, especialización y estancias previstas; las tesis realizadas o
+  en curso en los últimos diez años; y la trayectoria científica o profesional de quienes
+  se han doctorado en el equipo. Si no se solicita,
+  conservar el encabezado e indicar «No procede», como convención de este benchmark.
+
+  ### 7. Condiciones específicas para la ejecución del proyecto
+
+  Cuando la investigación esté afectada por las condiciones del anexo IV, describir los
+  procedimientos y protocolos, instalaciones y autorizaciones necesarios. Por ejemplo,
+  explicar ética y protección de datos cuando se investigue con personas. Distinguir lo
+  autorizado de lo solicitado o previsto. Si no corresponde ninguna condición, conservar
+  el encabezado e indicar «No procede».
+
+  ## 5. Extensión
+
+  La resolución permite **20 páginas** para una memoria individual, incluidos todos los
+  apartados, y la aplicación no admite archivos que excedan ese límite. **Adaptación para
+  el benchmark:** 20 páginas por 500 palabras dan **{{max_words}} palabras** para la memoria,
+  sin tolerancia porcentual. Se cuentan los encabezados, tablas, pies y citas en el texto;
+  se excluye únicamente la lista de referencias bibliográficas por convención del benchmark,
+  no por una exención de páginas de la AEI. Una memoria que exceda el límite es **inadmisible**.
+  Las palabras por página son una estimación de prosa, no una regla oficial de la convocatoria.
+
+  ## Fuentes
+
+  - [Resolución AEI de 29 de octubre de 2025](https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf): artículos 2, 7–11, 13–14 y 18.2.a; criterios del anexo I.b, prioridades del anexo III, condiciones del anexo IV, incompatibilidades del anexo V y memoria del anexo VII.
+  - [Extracto publicado en el BOE de 31 de octubre de 2025](https://www.boe.es/boe/dias/2025/10/31/pdfs/BOE-B-2025-39643.pdf): identificación y fecha de publicación de la convocatoria.
+
+  La fecha límite ficticia es el 15 de septiembre de 2027. Por convención inventada, se
+  aplican sin desplazar las fechas de elegibilidad de la resolución de 2025, incluida la
+  ventana de doctorado del tipo A.
+
+  Fuentes verificadas el 31 de octubre de 2026. Las reglas se parafrasean; los importes
+  particulares y las restricciones ficticias se identifican como inventados.
+
+  <!-- {{canary}} -->
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+  notes: Official rules checked on 2026-10-31; fictional adaptations identified. No human review claimed.
+proposal_type: full
+sources:
+- url: https://www.aei.gob.es/sites/default/files/convocatory_info/file/2025-10/Resolucion%20convocatoria_ProyectosGeneraci%C3%B3nConocimiento_PID2025_.pdf
+  verified: '2026-10-31'

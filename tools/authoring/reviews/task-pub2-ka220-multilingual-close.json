@@ -1,0 +1,31 @@
+{
+  "kind": "task",
+  "id": "pub2-ka220-multilingual-close",
+  "reviewer_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "verdict": "revise",
+  "issues": [
+    {
+      "severity": "blocker",
+      "checklist": "Task 1",
+      "where": "consorcio_alianza.md, sections 2–5; cv_coordinador.md, section 7; equipo_y_recursos.md",
+      "problem": "The dossier does not supply the institutional facts needed to satisfy mandatory elements ME10 and ME12. It identifies no credit-bearing practical courses at the Portuguese or Slovenian institutions, no pilot-site teaching and learner languages, and no applicable curriculum approval procedures. The coordinator's two named teaching subjects do not establish practical pilot sites. An applicant would have to invent existing courses, learner populations or governance requirements, or leave mandatory elements unanswered.",
+      "fix": "Add a dated planning note identifying feasible practical courses at each institution, their credit-bearing status, teaching languages, main learner languages, modules or programmes intended for adoption, and the approval procedures required. Distinguish existing provision from proposed adaptations and approvals still to be obtained."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, traps[T1].expected_behaviour; brief.md, budget paragraph",
+      "problem": "The expected behaviour unnecessarily requires rescoping activities to the grant ceiling. The brief estimates total costs of EUR 450,000, and the call expressly requires total project costs to exceed the requested lump sum. A compliant proposal could retain EUR 450,000 of activities, request EUR 400,000, and identify EUR 50,000 of prospective additional contributions. The answer key does not explicitly accept this feasible alternative and risks treating total costs as capped.",
+      "fix": "Require selection of an allowed grant amount, consistent allocation, and total costs exceeding that grant with identified committed or prospective contributions. Explicitly accept EUR 450,000 total costs funded by a EUR 400,000 request plus EUR 50,000 of additional contributions, without requiring activity reductions."
+    },
+    {
+      "severity": "blocker",
+      "checklist": "Task 6",
+      "where": "task.yaml, traps[T2].expected_behaviour; consorcio_alianza.md, section 1",
+      "problem": "The answer key accepts only retaining ISEM, although the call permits other eligible organisations. The dossier rules out readily available replacements at September 2026, not recruiting a replacement before the September 2027 deadline. A proposal could acknowledge that no replacement is secured and describe a credible recruitment plan. Requiring the original three HEIs excludes feasible alternative designs.",
+      "fix": "Accept either retaining ISEM with a credible workload arrangement or proposing recruitment of an eligible independent organisation from a third eligible country before submission. Require truthful partnership status, a feasible recruitment timetable and satisfaction of the minimum partnership at submission; continue to reject counting the two USV faculties separately."
+    }
+  ]
+}

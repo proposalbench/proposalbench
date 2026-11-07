@@ -1,0 +1,30 @@
+schema_version: 1
+id: pub-msca-gf-battery-stretch
+split: public
+call_id: msca-pf-gf
+dossier_id: battery-postdoc
+fit_level: stretch
+brief: brief.md
+traps:
+- id: T1
+  type: T03
+  description: The brief proposes a 24-month outgoing phase at the Aare Veltrass Photon Facility in Switzerland.
+    This conflicts with the call requirement that 'The outgoing phase must be at a partner in a non-associated
+    third country' and its explicit statement that 'Switzerland cannot be the outgoing country'. The proposed
+    Swedish return beneficiary does not cure the outgoing-host incompatibility.
+  expected_behaviour: 'Replace Switzerland as the outgoing host with a partner in a non-associated third
+    country under the call''s fixed country snapshot. The dossier-supported option is the Prairie Velnor
+    Light Facility in Canada, with Davenorrel as prospective scientific contact. Include exactly 12 months
+    of return at an eligible EU/MSCA-associated beneficiary; the proposed Swedish group is the dossier-supported
+    return option, but any feasible compliant alternative is accepted. Retain an outgoing phase of 12–24
+    months. Explicitly mark formal hosting commitments and access arrangements as pending: the Canadian
+    scientific collaboration letter is not a fellowship hosting commitment or beamtime award. Assess mobility
+    for the replacement outgoing country and identify the missing residence and activity evidence after
+    30 September 2026 through the submission deadline. The Swiss contact may remain a scientific collaborator
+    or eligible outgoing-phase secondment destination; it must not be the outgoing host.'
+provenance:
+  author: llm-assisted
+  author_family: openai
+  author_model: gpt-6-astra
+  created: '2026-10-31'
+canary: PROPOSALBENCH-CANARY 253a4721-477d-4000-b93a-4ba472bee83b

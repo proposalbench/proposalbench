@@ -1,0 +1,86 @@
+# Wholly fictional foundation concept-note criteria; no named-funder fidelity claim.
+# Sources and verification dates: tools/authoring/schemes/foundation_concept.yaml
+# Official award weights do not alter benchmark component weights.
+
+roles:
+  objectives:
+  - aims
+  state_of_the_art:
+  - problem
+  methods:
+  - approach
+  workplan:
+  - approach
+  risks:
+  - approach
+  team:
+  - team
+  impact:
+  - impact
+items:
+- id: FND01
+  component: substance
+  sections:
+  - problem
+  - aims
+  taxonomy:
+  - P07
+  - P10
+  - P17
+  question: Does the concept note make an actionable case for a focused inquiry?
+  criteria:
+  - id: a
+    text: Identifies a bounded unresolved question rather than only a broad societal challenge.
+  - id: b
+    text: Explains how the proposed aims resolve that question in a way relevant to the fictional foundation
+      call.
+- id: FND02
+  component: substance
+  sections:
+  - approach
+  taxonomy:
+  - P08
+  - P09
+  - P16
+  question: Does the short approach support an informed invitation decision?
+  criteria:
+  - id: a
+    text: Identifies the central evidence, experiment or line of argument that will test the idea; a
+      full protocol is not required.
+  - id: b
+    text: States what finding or decision criterion would justify developing a full proposal, allowing
+      a reasoned negative result.
+- id: FND03
+  component: substance
+  sections:
+  - budget
+  - approach
+  - team
+  taxonomy:
+  - P04
+  - P15
+  question: Does the budget outline match the concept’s scale?
+  criteria:
+  - id: a
+    text: States a total request within EUR 25000–100000 including indirect costs and a duration within
+      12–24 months.
+  - id: b
+    text: Connects the main cost categories to proposed activities or essential capabilities; an exact
+      procurement budget is not required.
+  - id: c
+    text: Distinguishes requested or prospective funds from resources already available; pending support
+      cannot be treated as awarded.
+- id: FND04
+  component: substance
+  sections:
+  - impact
+  taxonomy:
+  - P13
+  - P20
+  question: Is the potential benefit credible at concept-note stage?
+  criteria:
+  - id: a
+    text: Names a specific intended scientific user, community or beneficiary.
+  - id: b
+    text: Explains how the anticipated finding could benefit that group and identifies a necessary uptake
+      or follow-on step; guaranteed impact is not required.

@@ -1,0 +1,941 @@
+{
+  "kind": "dossier",
+  "id": "rural-hypertension-group",
+  "family": "openai",
+  "model": "gpt-6-astra",
+  "created": "2026-10-31",
+  "prompt_sha256": "a3805ab12fc745e15348e35e65ff4bf748a29f3cbd264b2e65569603b27d391c",
+  "draft": {
+    "applicant_type": "team",
+    "career_stage": "senior",
+    "disciplines": [
+      "cardiovascular epidemiology",
+      "community health",
+      "health services research"
+    ],
+    "method_profile": "mixed",
+    "country": "US",
+    "files": [
+      {
+        "path": "cv_pi.md",
+        "role": "cv",
+        "content": "> Fictional document created for ProposalBench.\n\n# Adrelisse Pellavreth, PhD, MPH\n\nProfessor of Cardiovascular Epidemiology and Director, Rural Cardiovascular Research Unit  \nVeylorn Ridge Academic Health Center, West Virginia, United States  \nCurriculum vitae updated 30 September 2026\n\n## Education and appointments\n\nDr. Pellavreth received a BS in statistics from Keldavren College in 1996, an MPH in epidemiology from Ordelvane Institute of Public Health in 1998, and a PhD in epidemiology from the same institution in 2003. Her dissertation examined differences between routinely recorded and standardized blood-pressure measurements in adult outpatient care. She completed a postdoctoral appointment in health services research at Veylorn Ridge Academic Health Center from 2003 to 2005.\n\nHer appointments at Veylorn Ridge have been Assistant Professor, 2005–2011; Associate Professor, 2011–2018; and Professor, 2018–present. She has directed the Rural Cardiovascular Research Unit since 2019. Veylorn Ridge is an academic health center with outpatient services, graduate research training, and an institutional review board. It is organizationally separate from the community clinic network described in this dossier.\n\n## Research experience\n\nDr. Pellavreth studies hypertension care in rural adult populations, with particular attention to measurement conditions, medication access, follow-up, and the interpretation of routine clinical records. Her work combines clinic-based quantitative studies with interviews conducted by community health workers and qualitative researchers. She has served as principal investigator on pragmatic intervention research and as an epidemiologic collaborator on observational analyses of adult primary care.\n\nShe was principal investigator of the Veylorn Rural Medication and Pressure Study, abbreviated V-RMAPS. This completed study examined pharmacist-led management in rural primary-care clinics. She was responsible for the protocol, allocation procedures, analysis oversight, research governance, and final reporting. A licensed pharmacist directed medication management; Dr. Pellavreth did not prescribe or make individual treatment decisions. Her main analytic responsibilities included defining the blood-pressure endpoint, assessing differential follow-up, and interpreting the limitations of a small number of randomized clinics.\n\nHer qualitative experience includes developing interview guides with community health workers, reviewing coding frameworks, and integrating interview findings with clinic-level implementation records. She is not the team's lead qualitative interviewer. That responsibility belongs to Dr. Tessavelle Brindelvane, whose training and work are described in the team record.\n\n## Completed research support\n\n**V-RMAPS: Veylorn Rural Medication and Pressure Study.** Veylorn Community Care Research Trust, award VCCRT-20-047; principal investigator, Adrelisse Pellavreth; 1 January 2021–31 December 2024. The completed award totaled $576,000, comprising $480,000 in direct costs and $96,000 in indirect costs. The final scientific report was accepted on 28 February 2025, and the financial account is closed. This was foundation support, not an NIH award. No unspent award balance remains available to the unit.\n\nCurrent unit salaries, record retention, and equipment maintenance receive institutional support. This support is not recorded as an external research grant, and the unit does not describe the completed V-RMAPS award as current funding. From award closeout through September 2026, her work on V-RMAPS has concerned dissemination, approved secondary analysis, and archive oversight; recruitment and intervention delivery have not resumed.\n\n## Teaching, supervision, and scope of expertise\n\nDr. Pellavreth teaches graduate epidemiologic methods and supervises work on missing outcome data and measurement in routine care. She chairs the health center's research measurement working group. Her publications through September 2026 are listed separately, with distinctions between published work and a manuscript still under review.\n\nHer direct recruitment and intervention experience concerns adults receiving primary care. Neither she nor the current research team has recruited adolescents, conducted research in schools, or completed a sleep research study. Her completed V-RMAPS cohort contained no participant younger than 30 years. She has not supervised actigraphy processing, polysomnography, circadian phase assessment, or adolescent assent procedures. These activities are not included among her established research competencies."
+      },
+      {
+        "path": "prior_project.md",
+        "role": "prior_project",
+        "content": "> Fictional document created for ProposalBench.\n\n# Final scientific report: Veylorn Rural Medication and Pressure Study\n\n**V-RMAPS; reporting period 1 January 2021–31 December 2024**  \nPrincipal investigator: Adrelisse Pellavreth, PhD, MPH  \nHost: Veylorn Ridge Academic Health Center  \nFunder: Veylorn Community Care Research Trust, VCCRT-20-047  \nFinal report accepted: 28 February 2025  \nArchive copy and closeout status reviewed: 30 September 2026\n\n## Purpose and setting\n\nV-RMAPS evaluated pharmacist-led blood-pressure management embedded in rural adult primary care. The study addressed medication reconciliation, treatment adjustment under collaborative practice agreements, and practical barriers to follow-up. Celdavreth Trace Community Clinics contributed eight clinics: four in West Virginia and four in Kentucky. These clinics served rural catchment areas and used the same electronic health record platform, although staffing patterns and appointment capacity differed.\n\nThe project was a pragmatic cluster-randomized clinical trial. Clinics were allocated in a 1:1 ratio, with four assigned to pharmacist-led management and four to usual care. Allocation was stratified by state, giving two clinics per study arm in each state. An independent statistician generated the allocation sequence after clinic participation agreements were signed. The protocol and primary analysis specification were deposited in the health center's dated research archive before allocation.\n\n## Participants and procedures\n\nRecruitment ran from 1 July 2021 to 30 June 2022. The study enrolled 480 patients, with 60 at each clinic and 240 in each arm. Participants were aged 30–79 years, had a recorded hypertension diagnosis, and had uncontrolled blood pressure confirmed at a research measurement visit. The age eligibility criteria excluded adolescents and adults younger than 30. Recruitment used clinic lists, clinician referrals, telephone invitations, and community health worker follow-up. Schools were not recruitment sites or referral partners.\n\nThe intervention offered pharmacist medication review and management during a six-month follow-up period. Pharmacists could recommend or implement medication changes within their signed collaborative practice agreements. Community health workers assisted with appointment reminders, transport arrangements, and communication about medication access. Usual-care clinics continued their existing clinical services. Both groups received the same research measurement schedule; neither participants nor clinical staff were blinded to allocation.\n\nThe primary endpoint was standardized seated systolic blood pressure at six months, adjusted for baseline systolic blood pressure and the state allocation stratum. Trained research assistants obtained three upper-arm readings after five minutes of seated rest and averaged the last two. Cuff size was selected from measured arm circumference. Staff documented recent smoking, caffeine consumption, and deviations from the measurement procedure. Whenever staffing allowed, the endpoint assessor was someone other than the participant's community health worker, but assessor masking was not assured.\n\nThe final six-month assessment window closed on 31 January 2023. Record reconciliation, qualitative analysis, and workflow assessment continued during the remaining award period. The quantitative database was locked on 30 September 2024.\n\n## Participant accounting and blood-pressure results\n\nStandardized six-month measurements were obtained for 408 of 480 (85.0%) participants. Follow-up was completed by 208 of 240 (86.7%) in the pharmacist arm and 200 of 240 (83.3%) in usual care. The Wilson 95% confidence interval for overall retention was 81.5%–87.9%. The 72 participants without a standardized endpoint comprised 68 participants alive at six months with missing measurements and four who died before six months. Among the 68 survivors with missing measurements, 36 could not be contacted, 20 declined the endpoint visit, and 12 moved outside the service area. Deaths were recorded as all-cause terminal events, distinct from missing measurements among survivors; the trial was not designed to estimate mortality effects.\n\nBaseline systolic blood pressure averaged 153.2 mmHg, with a standard deviation of 12.4 mmHg, across all 480 participants. Arm-specific baseline means were 153.6 mmHg in pharmacist clinics and 152.8 mmHg in usual-care clinics. Among participants with paired research measurements, the unadjusted mean change was −11.4 mmHg in the pharmacist arm and −5.1 mmHg in usual care. These descriptive changes use the retained participants and are not the primary between-arm effect estimate.\n\nThe adjusted between-arm difference in six-month systolic blood pressure was −6.0 mmHg (95% CI −9.8 to −2.2), favoring pharmacist-led management. The prespecified linear mixed model included a clinic random intercept and used a small-sample degrees-of-freedom correction. Participants were analyzed according to their clinic's allocation. The primary estimate used the 408 observed standardized endpoints and represents an adjusted contrast among participants who survived and attended the endpoint assessment, rather than a treatment effect for all 480 enrollees.\n\nThe four deaths were handled as terminal events and were not assigned or imputed six-month blood-pressure values. The multiple-imputation sensitivity analysis was restricted to the 476 participants alive at six months, imputing the 68 missing measurements among those survivors. It estimated a survivor-conditional adjusted contrast of −5.5 mmHg (95% CI −9.6 to −1.4). Imputation included clinic, allocation, baseline blood pressure, age, and available routine follow-up measurements. This analysis assumed missingness was explainable by the observed variables among survivors. It did not establish robustness to unmeasured reasons for nonattendance. Both this contrast and the observed-endpoint analysis may be affected by post-randomization survival and attendance selection and do not estimate a treatment effect for all 480 enrollees. Neither estimate establishes a reduction in cardiovascular events.\n\n## Records, interviews, and workflow findings\n\nElectronic record linkage succeeded for 456 of 480 (95.0%) participants. Of the 24 unresolved linkages, 16 involved inactive legacy records and eight involved identifier discrepancies that could not be resolved within the approved linkage procedure. Successful linkage meant a verified match to a clinical record; it did not mean that every follow-up field was complete or that a standardized endpoint had been obtained. Routine blood-pressure readings were not substituted for missing primary endpoints.\n\nThe qualitative component included 32 individual interviews: 20 patients, six clinic staff members, and six community health workers. Sampling sought variation in attendance and clinic location rather than statistical representativeness. Participants described transport dependence, uncertainty about medication costs, difficulty reaching the clinic by telephone, and discomfort discussing missed doses. Staff described repeated reconciliation work when medication lists differed between clinical encounters. These were interpreted themes, not prevalence estimates. Interviews were recorded with consent, transcribed, and coded using a shared framework with documented disagreement resolution.\n\nA separate workflow exercise involved 18 clinic staff members using a paper prototype for reconciling community blood-pressure records. In the first session, 12 of 18 (66.7%) completed the matching task without assistance. After revisions to labels and field order, 16 of 18 (88.9%) completed it without assistance in a second session. The same staff attended both sessions. These descriptive results are susceptible to practice effects and do not demonstrate improved patient blood pressure. No treatment allocation or medication changes were part of this workflow exercise.\n\n## Limitations and closeout\n\nThe trial included only eight clinics within one network. Shared leadership and a common record system limit transferability to independently governed practices. Patient and staff masking was infeasible, and differences in contact intensity may have influenced follow-up. The retention difference and the small number of clusters constrain interpretation despite the prespecified analysis and sensitivity assessment.\n\nThe study measured office blood pressure and care processes. It did not collect objective sleep measurements, sleep diaries, sleep timing, sleep duration, or sleep regularity. It also did not collect research-grade physical activity monitoring, ambulatory blood pressure, or a biospecimen collection. The project provides no adolescent data and no evidence about recruiting through schools.\n\nAs of 30 September 2026, intervention delivery and recruitment remain ended. The award account is closed, while approved retention and secondary analysis of study records continue. No additional participants or follow-up measurements have been added since the database lock. The published main analysis, interview paper, linkage paper, and the separately identified workflow manuscript are documented in the publications list."
+      },
+      {
+        "path": "publications.md",
+        "role": "publications",
+        "content": "> Fictional document created for ProposalBench.\n\n# Publications and manuscript status\n\nRural Cardiovascular Research Unit, Veylorn Ridge Academic Health Center  \nRecord checked: 30 September 2026\n\nThe following four articles are published. Author order, titles, publication years, and DOI strings below are the unit's bibliographic record. All concern adult rural primary care or methods used in that setting. None reports adolescent recruitment, school-based research, or sleep measurement.\n\n## Published articles\n\n**Pellavreth, A.; Norravick, C.; Ellsvareth, N.; Arvendrel, L.; Brindelvane, T. (2022).** Pharmacist-led blood-pressure management in rural primary care: protocol for the V-RMAPS cluster-randomized trial. *Veylorn Journal of Rural Cardiovascular Practice*, 7(2), 81–93. DOI: 10.99999/pb.rural-hypertension-group.2022.1\n\nThis protocol describes clinic allocation, adult eligibility, pharmacist responsibilities, the standardized blood-pressure endpoint, and the original analysis specification. It contains no outcome results. The participant age range begins at 30 years. Its description of community health worker involvement concerns appointment support and contact through adult clinics, not recruitment through educational institutions.\n\n**Brindelvane, T.; Densavren, R.; Ellsvareth, N.; Pellavreth, A. (2024).** Medication access and follow-up in rural hypertension care: interviews with patients, clinic staff, and community health workers. *Ordelvane Community Care Methods*, 11(3), 144–158. DOI: 10.99999/pb.rural-hypertension-group.2024.1\n\nThis article reports the interview component of V-RMAPS. It includes the sampling rationale, coding process, and accounts of transport, cost uncertainty, telephone access, and medication reconciliation. The findings describe experiences among purposively selected interview participants. The article does not estimate the proportion of all clinic patients who encounter each barrier.\n\n**Pellavreth, A.; Arvendrel, L.; Norravick, C.; Ellsvareth, N.; Brindelvane, T.; Densavren, R. (2025).** Six-month blood-pressure outcomes of pharmacist-led management in eight rural clinics: the V-RMAPS trial. *Veylorn Journal of Rural Cardiovascular Practice*, 10(1), 15–30. DOI: 10.99999/pb.rural-hypertension-group.2025.1\n\nThis is the primary outcome article. It reports the adjusted between-arm systolic blood-pressure difference, participant retention, and missing-data sensitivity analysis. The primary adjusted contrast was −6.0 mmHg (95% CI −9.8 to −2.2) among the 408 participants with observed endpoints, distinct from within-arm descriptive changes. The four deaths were treated as terminal events without assigned or imputed six-month blood-pressure values. Multiple imputation covered the 68 missing measurements among the 476 participants alive at six months, yielding a survivor-conditional adjusted contrast of −5.5 mmHg (95% CI −9.6 to −1.4) under an observed-variable missingness assumption among survivors. Both analyses may be affected by post-randomization survival and attendance selection and do not estimate a treatment effect for all 480 enrollees. Follow-up ends at six months; it does not establish durability after intervention completion or effects on cardiovascular events.\n\n**Ellsvareth, N.; Arvendrel, L.; Pellavreth, A.; Densavren, R. (2026).** Reconciling research and electronic clinical records in a rural hypertension cohort. *Keldavren Health Services Measurement and Linkage*, 4(2), 62–76. DOI: 10.99999/pb.rural-hypertension-group.2026.1\n\nThis methods article describes verified record matches, unresolved identifiers, and differences between routine clinical readings and standardized research measurements. Its linkage success denominator is the enrolled cohort, not only participants retained at the endpoint visit. Successful linkage is not treated as evidence of complete longitudinal data. The paper documents the approved matching procedure without releasing direct patient identifiers.\n\n## Manuscript under review\n\n**Brindelvane, T.; Ellsvareth, N.; Densavren, R.; Pellavreth, A.** Staff use of a paper reconciliation form for community blood-pressure records: a repeated-session workflow assessment. Submitted to *Ordelvane Community Care Methods* on 18 August 2026; under review as of 30 September 2026.\n\nThis manuscript has not been accepted or published and has no assigned DOI. It reports the repeated-session exercise with clinic staff described in the final report. The unit's publication count above excludes this submission. No journal endorsement or peer-reviewed validation of these workflow findings is claimed."
+      },
+      {
+        "path": "team.md",
+        "role": "team",
+        "content": "> Fictional document created for ProposalBench.\n\n# Team and community relationships\n\nRural Cardiovascular Research Unit, Veylorn Ridge Academic Health Center  \nCurrent record: 30 September 2026\n\n## Core staff\n\n**Adrelisse Pellavreth, PhD, MPH — unit director and cardiovascular epidemiologist.** Dr. Pellavreth leads study governance and quantitative interpretation. She has experience coordinating pragmatic adult clinic research and integrating standardized measurements with health services data. Her current appointment is salaried by the health center. She is not a physician, and the unit does not assign her clinical prescribing responsibilities.\n\n**Calverin Norravick, PharmD — clinical pharmacy lead.** Norravick supervised medication review and pharmacist documentation during V-RMAPS. His work included checking reconciliation records, documenting treatment recommendations, and maintaining communication with primary-care clinicians. He retains a clinical appointment at Veylorn Ridge. His completed research experience is in adult hypertension care. He has no pediatric research appointment and has not delivered a sleep intervention or interpreted clinical sleep studies.\n\n**Tessavelle Brindelvane, PhD — qualitative health services researcher.** Brindelvane led the interview analysis and workflow exercise. Her methods include semistructured interviews, framework analysis, observation of clinical workflows, and cognitive testing of paper forms. She maintained the coding decision log and separated participant accounts from staff interpretations. She has worked with adults in clinical and community meeting settings; her research record does not include interviewing minors or conducting school-based fieldwork.\n\n**Lurencio Arvendrel, MS — biostatistician.** Arvendrel maintains the analysis archive and contributed to the mixed-model and missing-data analyses. His experience includes clustered clinical data, small-sample inference, and reproducible record linkage checks. He has not developed or validated algorithms for actigraphy, sleep staging, circadian phase estimation, or wearable-derived sleep regularity.\n\n**Naomelle Ellsvareth, MPH — research operations and data manager.** Ellsvareth coordinated clinic agreements, staff measurement training, endpoint tracking, and reconciliation of research and electronic records. She maintains the data dictionary and access log. Her experience concerns consent by adults with capacity to consent. The unit has no completed experience administering adolescent assent and parental permission procedures.\n\n**Ruthavelle Densavren — community health worker coordinator.** Densavren supervises the community health worker network and maintains contact with clinic coordinators. She helped develop interview language and procedures for contacting participants who missed visits. Her role includes participant navigation and community communication, not medication prescribing or independent clinical diagnosis.\n\nThese six people are current members of the unit. Their appointments do not constitute unrestricted availability: clinical duties, institutional teaching, and existing service responsibilities remain part of their work. There is no sleep scientist, pediatric investigator, or school liaison among the core staff, and no external collaborator in those specialties has a signed research agreement with the unit.\n\n## Community health worker network\n\nThe current network comprises 12 community health workers: seven based in West Virginia and five in Kentucky. Densavren is one of the 12, not an additional worker. Members are employed by the clinic network or its community services arm rather than all being employees of Veylorn Ridge. Their present service responsibilities include helping adult patients navigate appointments, understand clinic instructions, and communicate practical barriers to care.\n\nWorkers received study-specific training in adult consent, standardized blood-pressure procedures, confidentiality, and escalation of concerning readings during V-RMAPS. Prior training does not confer permission to collect data for another study. The network has no experience recruiting adolescents, recruiting within schools, or administering sleep research devices. Existing contacts are adult patients, clinic personnel, and community service organizations; they are not a school recruitment infrastructure.\n\n## Clinic partnership and community input\n\nCeldavreth Trace Community Clinics remains a service partner across the same eight clinics. Its standing memorandum with Veylorn Ridge supports staff liaison, discussion of completed findings, and institutionally approved record retention. It remains in force as of 30 September 2026. It does not provide standing permission to enroll patients or release identifiable records for new research.\n\nA community advisory group includes former adult participants, caregivers, and clinic representatives. It reviewed the wording of V-RMAPS participant materials and helped interpret practical barriers reported in interviews. It is advisory rather than a consent authority or a source of guaranteed enrollment. Neither the clinic memorandum nor the advisory group's membership includes a school district, youth organization, or adolescent-serving research partner."
+      },
+      {
+        "path": "resources.md",
+        "role": "resources",
+        "content": "> Fictional document created for ProposalBench.\n\n# Existing facilities, equipment, and data holdings\n\nVeylorn Ridge Academic Health Center, Rural Cardiovascular Research Unit  \nInventory and access statement: 30 September 2026\n\n## Measurement equipment and space\n\nThe unit owns 24 automated upper-arm blood-pressure monitors of a model independently validated for adult clinical measurement. Sixteen are assigned to clinic measurement rooms, with two at each participating clinic, and eight are stored centrally for training and replacement. The inventory includes adult cuffs covering arm circumferences from 22 to 52 cm. Equipment logs record cuff condition, device checks, and removal from use when readings or physical inspection indicate a problem. Adult validation and cuff availability are not documented as pediatric validation.\n\nAll 24 monitors remain in the inventory after V-RMAPS closeout. They are spot-measurement instruments, not ambulatory blood-pressure monitors. Their readings do not measure sleep, physical activity, or circadian phase. Research assistants have a written seated blood-pressure procedure and competency checklist used during the completed study. Community readings require documentation of location, posture, cuff size, and recent activity because these conditions are not uniformly controlled outside clinic rooms.\n\nThe health center provides secure interview rooms, an encrypted audio recorder, transcription software, and a restricted-access analysis environment. Clinic rooms belong to Celdavreth Trace and remain subject to clinical scheduling. Their use during the completed trial does not reserve them for other research activities.\n\nThe unit owns no actigraphs, polysomnography equipment, sleep-specific wearable devices, or ambulatory blood-pressure monitors. No such equipment is on order. There is no sleep laboratory within the unit, and no signed access agreement with an external sleep laboratory. The equipment inventory contains no instruments represented as already available for objective sleep assessment.\n\n## V-RMAPS data archive\n\nThe retained archive contains 480 baseline participant records, 408 standardized six-month blood-pressure endpoints, and verified electronic record links for 456 participants. These counts refer to overlapping groups rather than additive samples. A participant can have a verified clinical record link while lacking the standardized endpoint. The archive retains flags distinguishing research measurements from routine readings and documents the reasons for unresolved matches.\n\nAvailable baseline fields include age, sex recorded in the clinical record, hypertension treatment, standardized blood pressure, and reported difficulty attending appointments. Routine records contain encounter dates, medication lists, and clinical blood-pressure entries with variable completeness. The archive also includes the interview coding framework, redacted interview transcripts, workflow observation sheets, the analysis specification, and executable analysis scripts. Interview transcripts are not treated as anonymous merely because names have been removed; accounts of local services can still be identifying.\n\nNo participant in the archived cohort was younger than 30 at enrollment. The archive contains no adolescent observations, no participants aged 18–29, and no school-level information. It has no objective sleep records, sleep diaries, sleep timing variables, sleep-duration variables, or sleep-regularity measures. Encounter timestamps describe healthcare contacts and have not been validated as proxies for sleep or circadian behavior. There are no retained research biospecimens or standardized research lipid or glycemic measurements.\n\n## Access, permissions, and present status\n\nThe clinical record custodian is Celdavreth Trace Community Clinics. Veylorn Ridge maintains the research copy under the completed study's data-use agreement and institutional review board approval. As of 30 September 2026, that agreement and approval remain applicable to record retention and approved secondary analyses; they do not authorize resumed enrollment or intervention delivery. The linkage key is held separately from the analysis files. Approved unit analysts have access through named accounts; the community health worker network has no general access to research analysis files.\n\nThe original consent covered the completed trial, its specified interviews, record linkage, and approved secondary analyses of hypertension care. It did not authorize unrestricted recontact, school recruitment, or collection of additional physiological measurements. New participant contact and new data collection require their own institutional determination and applicable permissions. The archived dataset is controlled access and is not an openly downloadable resource.\n\nThe original study is closed to enrollment and intervention delivery. Retained records remain subject to the approved retention schedule, access controls, and disclosure review. Existing institutional computing support covers storage and maintenance of the completed archive. The closed foundation award provides no continuing funds, and clinic partnership status does not transfer ownership of clinical records to the research unit."
+      }
+    ],
+    "facts": [
+      {
+        "category": "identity",
+        "kind": "existing",
+        "text": "Adrelisse Pellavreth leads the Rural Cardiovascular Research Unit at Veylorn Ridge Academic Health Center in West Virginia, United States.",
+        "value": "Adrelisse Pellavreth",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "position",
+        "kind": "existing",
+        "text": "Pellavreth has held a professor appointment since 2018 and has directed the unit since 2019.",
+        "value": "2018–present",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "education",
+        "kind": "existing",
+        "text": "Pellavreth completed her BS in 1996, MPH in 1998, PhD in 2003, and postdoctoral appointment during 2003–2005.",
+        "value": "2003",
+        "salient": false,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "grant",
+        "kind": "existing",
+        "text": "Foundation award VCCRT-20-047 supported V-RMAPS from 1 January 2021 through 31 December 2024 with $576,000 total funding, comprising $480,000 direct and $96,000 indirect costs, and is financially closed with no remaining balance.",
+        "value": "$576,000",
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "V-RMAPS was a completed cluster-randomized clinical trial involving eight clinics, four in each state and four in each study arm, with two clinics per arm within each state.",
+        "value": "eight clinics",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "V-RMAPS recruited 480 adults aged 30–79 during July 2021–June 2022, with 60 participants per clinic and 240 per arm, and completed its final six-month assessment window on 31 January 2023.",
+        "value": "480",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Six-month retention was 408 of 480 participants, or 85.0% with a Wilson 95% confidence interval of 81.5%–87.9%, including 208 of 240 in pharmacist care and 200 of 240 in usual care.",
+        "value": "408 of 480 (85.0%)",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The 72 participants without standardized endpoints comprised 68 survivors with missing measurements—36 who could not be contacted, 20 who declined assessment, and 12 who moved away—and four deaths before six months treated as terminal events without assigned or imputed six-month blood-pressure values.",
+        "value": "72",
+        "salient": false,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Baseline systolic blood pressure averaged 153.2 mmHg with standard deviation 12.4 mmHg overall, with arm means of 153.6 and 152.8 mmHg, while paired unadjusted changes were −11.4 mmHg in pharmacist care and −5.1 mmHg in usual care.",
+        "value": "−11.4 mmHg",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The primary adjusted between-arm contrast in six-month systolic blood pressure was −6.0 mmHg with a 95% confidence interval from −9.8 to −2.2, estimated using 408 observed endpoints and a clinic random-intercept model with a small-sample correction, and may be affected by post-randomization survival and attendance selection rather than estimating a treatment effect for all 480 enrollees.",
+        "value": "−6.0 mmHg (95% CI −9.8 to −2.2)",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The multiple-imputation sensitivity analysis imputed 68 missing measurements among 476 six-month survivors, excluding four deaths as terminal events, and estimated a survivor-conditional adjusted contrast of −5.5 mmHg with a 95% confidence interval from −9.6 to −1.4 under an observed-variable missingness assumption among survivors, with possible post-randomization survival and attendance selection and no treatment-effect estimate for all 480 enrollees.",
+        "value": "−5.5 mmHg (95% CI −9.6 to −1.4)",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "Record linkage succeeded for 456 of 480 participants, or 95.0%, while 16 inactive legacy records and eight unresolved identifier discrepancies accounted for the 24 unsuccessful matches.",
+        "value": "456 of 480 (95.0%)",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "The qualitative component comprised 32 interviews with 20 patients, six clinic staff, and six community health workers and identified transport, cost uncertainty, telephone access, and medication reconciliation barriers without estimating their population prevalence.",
+        "value": "32",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "result",
+        "kind": "existing",
+        "text": "In a repeated-session workflow exercise with 18 staff, unaided task completion increased from 12 of 18, or 66.7%, to 16 of 18, or 88.9%, after form revisions, with practice effects unresolved and no patient blood-pressure effect measured.",
+        "value": "16 of 18 (88.9%)",
+        "salient": true,
+        "source": "prior_project.md"
+      },
+      {
+        "category": "publication",
+        "kind": "existing",
+        "text": "The unit lists four published articles from 2022, 2024, 2025, and 2026, while its workflow manuscript submitted on 18 August 2026 remained under review on 30 September 2026 with no acceptance or assigned DOI.",
+        "value": "under review as of 30 September 2026",
+        "salient": true,
+        "source": "publications.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "The six current core members cover cardiovascular epidemiology, clinical pharmacy, qualitative health services research, biostatistics, research operations, and community health worker coordination.",
+        "value": "six",
+        "salient": true,
+        "source": "team.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "The community health worker network has 12 members, including coordinator Ruthavelle Densavren, with seven based in West Virginia and five in Kentucky.",
+        "value": "12 community health workers",
+        "salient": true,
+        "source": "team.md"
+      },
+      {
+        "category": "partner",
+        "kind": "existing",
+        "text": "Celdavreth Trace Community Clinics remains a partner across eight clinics under a memorandum in force as of 30 September 2026 that does not authorize new patient enrollment or release of identifiable records.",
+        "value": "Celdavreth Trace Community Clinics",
+        "salient": true,
+        "source": "team.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The unit owns 24 adult-validated upper-arm blood-pressure monitors, with 16 assigned as two per clinic and eight held centrally, and adult cuffs covering arm circumferences of 22 to 52 cm.",
+        "value": "24",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The controlled-access archive holds 480 baseline records, 408 standardized endpoints, 456 verified record links, redacted interview transcripts, workflow records, and analysis scripts, with the participant groups overlapping rather than additive.",
+        "value": "480 baseline participant records",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "Neither Pellavreth nor the current team has recruited adolescents or conducted school research, and their completed V-RMAPS cohort contained no participant younger than 30.",
+        "value": null,
+        "salient": true,
+        "source": "cv_pi.md"
+      },
+      {
+        "category": "team",
+        "kind": "existing",
+        "text": "The core team has no sleep scientist, pediatric investigator, school liaison, or signed external research collaborator in those specialties, and has no completed adolescent assent and parental permission experience.",
+        "value": null,
+        "salient": true,
+        "source": "team.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The unit has no actigraphs, polysomnography equipment, sleep-specific wearables, ambulatory blood-pressure monitors, equipment orders for those instruments, or signed external sleep-laboratory access agreement.",
+        "value": null,
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "resource",
+        "kind": "existing",
+        "text": "The archive contains no adolescent or age-18–29 observations, objective sleep records, sleep diaries, timing, duration or regularity measures, school-level information, retained biospecimens, or standardized research lipid or glycemic measurements.",
+        "value": "18–29",
+        "salient": true,
+        "source": "resources.md"
+      },
+      {
+        "category": "other",
+        "kind": "existing",
+        "text": "As of 30 September 2026, V-RMAPS remains closed to enrollment and intervention delivery, with approval and data-use arrangements covering retention and approved secondary analyses but not unrestricted recontact, school recruitment, additional physiological measurements, or open dataset release.",
+        "value": null,
+        "salient": true,
+        "source": "resources.md"
+      }
+    ],
+    "own_publications": [
+      {
+        "key": "pellavreth2022protocol",
+        "authors": [
+          "Pellavreth, A.",
+          "Norravick, C.",
+          "Ellsvareth, N.",
+          "Arvendrel, L.",
+          "Brindelvane, T."
+        ],
+        "year": 2022,
+        "title": "Pharmacist-led blood-pressure management in rural primary care: protocol for the V-RMAPS cluster-randomized trial",
+        "venue": "Veylorn Journal of Rural Cardiovascular Practice",
+        "doi": "10.99999/pb.rural-hypertension-group.2022.1"
+      },
+      {
+        "key": "brindelvane2024interviews",
+        "authors": [
+          "Brindelvane, T.",
+          "Densavren, R.",
+          "Ellsvareth, N.",
+          "Pellavreth, A."
+        ],
+        "year": 2024,
+        "title": "Medication access and follow-up in rural hypertension care: interviews with patients, clinic staff, and community health workers",
+        "venue": "Ordelvane Community Care Methods",
+        "doi": "10.99999/pb.rural-hypertension-group.2024.1"
+      },
+      {
+        "key": "pellavreth2025outcomes",
+        "authors": [
+          "Pellavreth, A.",
+          "Arvendrel, L.",
+          "Norravick, C.",
+          "Ellsvareth, N.",
+          "Brindelvane, T.",
+          "Densavren, R."
+        ],
+        "year": 2025,
+        "title": "Six-month blood-pressure outcomes of pharmacist-led management in eight rural clinics: the V-RMAPS trial",
+        "venue": "Veylorn Journal of Rural Cardiovascular Practice",
+        "doi": "10.99999/pb.rural-hypertension-group.2025.1"
+      },
+      {
+        "key": "ellsvareth2026linkage",
+        "authors": [
+          "Ellsvareth, N.",
+          "Arvendrel, L.",
+          "Pellavreth, A.",
+          "Densavren, R."
+        ],
+        "year": 2026,
+        "title": "Reconciling research and electronic clinical records in a rural hypertension cohort",
+        "venue": "Keldavren Health Services Measurement and Linkage",
+        "doi": "10.99999/pb.rural-hypertension-group.2026.1"
+      }
+    ],
+    "reviewer_criticisms": [],
+    "gaps": [],
+    "inconsistencies": []
+  },
+  "history": [
+    {
+      "draft": {
+        "applicant_type": "team",
+        "career_stage": "senior",
+        "disciplines": [
+          "cardiovascular epidemiology",
+          "community health",
+          "health services research"
+        ],
+        "method_profile": "mixed",
+        "country": "US",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Adrienne Pelliver, PhD, MPH\n\nProfessor of Cardiovascular Epidemiology and Director, Rural Cardiovascular Research Unit  \nLaurel Fork Academic Health Center, West Virginia, United States  \nCurriculum vitae updated 30 September 2026\n\n## Education and appointments\n\nDr. Pelliver received a BS in statistics from Pennridge College in 1996, an MPH in epidemiology from Great Valley Institute of Public Health in 1998, and a PhD in epidemiology from the same institution in 2003. Her dissertation examined differences between routinely recorded and standardized blood-pressure measurements in adult outpatient care. She completed a postdoctoral appointment in health services research at Laurel Fork Academic Health Center from 2003 to 2005.\n\nHer appointments at Laurel Fork have been Assistant Professor, 2005–2011; Associate Professor, 2011–2018; and Professor, 2018–present. She has directed the Rural Cardiovascular Research Unit since 2019. Laurel Fork is an academic health center with outpatient services, graduate research training, and an institutional review board. It is organizationally separate from the community clinic network described in this dossier.\n\n## Research experience\n\nDr. Pelliver studies hypertension care in rural adult populations, with particular attention to measurement conditions, medication access, follow-up, and the interpretation of routine clinical records. Her work combines clinic-based quantitative studies with interviews conducted by community health workers and qualitative researchers. She has served as principal investigator on pragmatic intervention research and as an epidemiologic collaborator on observational analyses of adult primary care.\n\nShe was principal investigator of the Rural Medication and Pressure Study, abbreviated R-MAPS. This completed study examined pharmacist-led management in rural primary-care clinics. She was responsible for the protocol, allocation procedures, analysis oversight, research governance, and final reporting. A licensed pharmacist directed medication management; Dr. Pelliver did not prescribe or make individual treatment decisions. Her main analytic responsibilities included defining the blood-pressure endpoint, assessing differential follow-up, and interpreting the limitations of a small number of randomized clinics.\n\nHer qualitative experience includes developing interview guides with community health workers, reviewing coding frameworks, and integrating interview findings with clinic-level implementation records. She is not the team's lead qualitative interviewer. That responsibility belongs to Dr. Tessa Brindleford, whose training and work are described in the team record.\n\n## Completed research support\n\n**R-MAPS: Rural Medication and Pressure Study.** Allegheny Community Care Research Trust, award ACCRT-20-047; principal investigator, Adrienne Pelliver; 1 January 2021–31 December 2024. The completed award totaled $576,000, comprising $480,000 in direct costs and $96,000 in indirect costs. The final scientific report was accepted on 28 February 2025, and the financial account is closed. This was foundation support, not an NIH award. No unspent award balance remains available to the unit.\n\nCurrent unit salaries, record retention, and equipment maintenance receive institutional support. This support is not recorded as an external research grant, and the unit does not describe the completed R-MAPS award as current funding.\n\n## Teaching, supervision, and scope of expertise\n\nDr. Pelliver teaches graduate epidemiologic methods and supervises work on missing outcome data and measurement in routine care. She chairs the health center's research measurement working group. Her recent publications are listed separately, with distinctions between published work and a manuscript still under review.\n\nHer direct recruitment and intervention experience concerns adults receiving primary care. Neither she nor the current research team has recruited adolescents, conducted research in schools, or completed a sleep research study. Her completed R-MAPS cohort contained no participant younger than 30 years. She has not supervised actigraphy processing, polysomnography, circadian phase assessment, or adolescent assent procedures. These activities are not included among her established research competencies."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final scientific report: Rural Medication and Pressure Study\n\n**R-MAPS; reporting period 1 January 2021–31 December 2024**  \nPrincipal investigator: Adrienne Pelliver, PhD, MPH  \nHost: Laurel Fork Academic Health Center  \nFunder: Allegheny Community Care Research Trust, ACCRT-20-047  \nFinal report accepted: 28 February 2025\n\n## Purpose and setting\n\nR-MAPS evaluated pharmacist-led blood-pressure management embedded in rural adult primary care. The study addressed medication reconciliation, treatment adjustment under collaborative practice agreements, and practical barriers to follow-up. Cedar Trace Community Clinics contributed eight clinics: four in West Virginia and four in Kentucky. These clinics served rural catchment areas and used the same electronic health record platform, although staffing patterns and appointment capacity differed.\n\nThe project was a pragmatic cluster-randomized clinical trial. Clinics were allocated in a 1:1 ratio, with four assigned to pharmacist-led management and four to usual care. Allocation was stratified by state, giving two clinics per study arm in each state. An independent statistician generated the allocation sequence after clinic participation agreements were signed. The protocol and primary analysis specification were deposited in the health center's dated research archive before allocation.\n\n## Participants and procedures\n\nRecruitment ran from 1 July 2021 to 30 June 2022. The study enrolled 480 patients, with 60 at each clinic and 240 in each arm. Participants were aged 30–79 years, had a recorded hypertension diagnosis, and had uncontrolled blood pressure confirmed at a research measurement visit. The age eligibility criteria excluded adolescents and adults younger than 30. Recruitment used clinic lists, clinician referrals, telephone invitations, and community health worker follow-up. Schools were not recruitment sites or referral partners.\n\nThe intervention offered pharmacist medication review and management during a six-month follow-up period. Pharmacists could recommend or implement medication changes within their signed collaborative practice agreements. Community health workers assisted with appointment reminders, transport arrangements, and communication about medication access. Usual-care clinics continued their existing clinical services. Both groups received the same research measurement schedule; neither participants nor clinical staff were blinded to allocation.\n\nThe primary endpoint was standardized seated systolic blood pressure at six months, adjusted for baseline systolic blood pressure and the state allocation stratum. Trained research assistants obtained three upper-arm readings after five minutes of seated rest and averaged the last two. Cuff size was selected from measured arm circumference. Staff documented recent smoking, caffeine consumption, and deviations from the measurement procedure. Whenever staffing allowed, the endpoint assessor was someone other than the participant's community health worker, but assessor masking was not assured.\n\nThe final six-month assessment window closed on 31 January 2023. Record reconciliation, qualitative analysis, and workflow assessment continued during the remaining award period. The quantitative database was locked on 30 September 2024.\n\n## Participant accounting and blood-pressure results\n\nStandardized six-month measurements were obtained for 408 of 480 (85.0%) participants. Follow-up was completed by 208 of 240 (86.7%) in the pharmacist arm and 200 of 240 (83.3%) in usual care. The Wilson 95% confidence interval for overall retention was 81.5%–87.9%. The 72 participants without a standardized endpoint comprised 36 who could not be contacted, 20 who declined the endpoint visit, 12 who moved outside the service area, and four who died before assessment. Deaths were recorded as all-cause events; the trial was not designed to estimate mortality effects.\n\nBaseline systolic blood pressure averaged 153.2 mmHg, with a standard deviation of 12.4 mmHg, across all 480 participants. Arm-specific baseline means were 153.6 mmHg in pharmacist clinics and 152.8 mmHg in usual-care clinics. Among participants with paired research measurements, the unadjusted mean change was −11.4 mmHg in the pharmacist arm and −5.1 mmHg in usual care. These descriptive changes use the retained participants and are not the primary between-arm effect estimate.\n\nThe adjusted between-arm difference in six-month systolic blood pressure was −6.0 mmHg (95% CI −9.8 to −2.2), favoring pharmacist-led management. The prespecified linear mixed model included a clinic random intercept and used a small-sample degrees-of-freedom correction. Participants were analyzed according to their clinic's allocation. The primary estimate used the 408 observed standardized endpoints and therefore depends on assumptions about outcome availability.\n\nA sensitivity analysis using multiple imputation for missing endpoints gave an adjusted difference of −5.5 mmHg (95% CI −9.6 to −1.4). Imputation included clinic, allocation, baseline blood pressure, age, and available routine follow-up measurements. This analysis assumed missingness was explainable by the observed variables. It did not establish robustness to unmeasured reasons for nonattendance. Neither estimate establishes a reduction in cardiovascular events.\n\n## Records, interviews, and workflow findings\n\nElectronic record linkage succeeded for 456 of 480 (95.0%) participants. Of the 24 unresolved linkages, 16 involved inactive legacy records and eight involved identifier discrepancies that could not be resolved within the approved linkage procedure. Successful linkage meant a verified match to a clinical record; it did not mean that every follow-up field was complete or that a standardized endpoint had been obtained. Routine blood-pressure readings were not substituted for missing primary endpoints.\n\nThe qualitative component included 32 individual interviews: 20 patients, six clinic staff members, and six community health workers. Sampling sought variation in attendance and clinic location rather than statistical representativeness. Participants described transport dependence, uncertainty about medication costs, difficulty reaching the clinic by telephone, and discomfort discussing missed doses. Staff described repeated reconciliation work when medication lists differed between clinical encounters. These were interpreted themes, not prevalence estimates. Interviews were recorded with consent, transcribed, and coded using a shared framework with documented disagreement resolution.\n\nA separate workflow exercise involved 18 clinic staff members using a paper prototype for reconciling community blood-pressure records. In the first session, 12 of 18 (66.7%) completed the matching task without assistance. After revisions to labels and field order, 16 of 18 (88.9%) completed it without assistance in a second session. The same staff attended both sessions. These descriptive results are susceptible to practice effects and do not demonstrate improved patient blood pressure. No treatment allocation or medication changes were part of this workflow exercise.\n\n## Limitations and closeout\n\nThe trial included only eight clinics within one network. Shared leadership and a common record system limit transferability to independently governed practices. Patient and staff masking was infeasible, and differences in contact intensity may have influenced follow-up. The retention difference and the small number of clusters constrain interpretation despite the prespecified analysis and sensitivity assessment.\n\nThe study measured office blood pressure and care processes. It did not collect objective sleep measurements, sleep diaries, sleep timing, sleep duration, or sleep regularity. It also did not collect research-grade physical activity monitoring, ambulatory blood pressure, or a biospecimen collection. The project provides no adolescent data and no evidence about recruiting through schools.\n\nIntervention delivery has ended. The award account is closed, while approved retention of study records continues. The published main analysis, interview paper, linkage paper, and the separately identified workflow manuscript are documented in the publications list."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications and manuscript status\n\nRural Cardiovascular Research Unit, Laurel Fork Academic Health Center  \nRecord checked: 30 September 2026\n\nThe following four articles are published. Author order, titles, publication years, and DOI strings below are the unit's bibliographic record. All concern adult rural primary care or methods used in that setting. None reports adolescent recruitment, school-based research, or sleep measurement.\n\n## Published articles\n\n**Pelliver, A.; Norrick, C.; Ellswick, N.; Arvendal, L.; Brindleford, T. (2022).** Pharmacist-led blood-pressure management in rural primary care: protocol for the R-MAPS cluster-randomized trial. *Journal of Rural Cardiovascular Practice*, 7(2), 81–93. DOI: 10.99999/pb.rural-hypertension-group.2022.1\n\nThis protocol describes clinic allocation, adult eligibility, pharmacist responsibilities, the standardized blood-pressure endpoint, and the original analysis specification. It contains no outcome results. The participant age range begins at 30 years. Its description of community health worker involvement concerns appointment support and contact through adult clinics, not recruitment through educational institutions.\n\n**Brindleford, T.; Denslowe, R.; Ellswick, N.; Pelliver, A. (2024).** Medication access and follow-up in rural hypertension care: interviews with patients, clinic staff, and community health workers. *Community Care Methods*, 11(3), 144–158. DOI: 10.99999/pb.rural-hypertension-group.2024.1\n\nThis article reports the interview component of R-MAPS. It includes the sampling rationale, coding process, and accounts of transport, cost uncertainty, telephone access, and medication reconciliation. The findings describe experiences among purposively selected interview participants. The article does not estimate the proportion of all clinic patients who encounter each barrier.\n\n**Pelliver, A.; Arvendal, L.; Norrick, C.; Ellswick, N.; Brindleford, T.; Denslowe, R. (2025).** Six-month blood-pressure outcomes of pharmacist-led management in eight rural clinics: the R-MAPS trial. *Journal of Rural Cardiovascular Practice*, 10(1), 15–30. DOI: 10.99999/pb.rural-hypertension-group.2025.1\n\nThis is the primary outcome article. It reports the adjusted between-arm systolic blood-pressure difference, participant retention, and missing-data sensitivity analysis. The article distinguishes the primary adjusted contrast from within-arm descriptive changes. Follow-up ends at six months; it does not establish durability after intervention completion or effects on cardiovascular events.\n\n**Ellswick, N.; Arvendal, L.; Pelliver, A.; Denslowe, R. (2026).** Reconciling research and electronic clinical records in a rural hypertension cohort. *Health Services Measurement and Linkage*, 4(2), 62–76. DOI: 10.99999/pb.rural-hypertension-group.2026.1\n\nThis methods article describes verified record matches, unresolved identifiers, and differences between routine clinical readings and standardized research measurements. Its linkage success denominator is the enrolled cohort, not only participants retained at the endpoint visit. Successful linkage is not treated as evidence of complete longitudinal data. The paper documents the approved matching procedure without releasing direct patient identifiers.\n\n## Manuscript under review\n\n**Brindleford, T.; Ellswick, N.; Denslowe, R.; Pelliver, A.** Staff use of a paper reconciliation form for community blood-pressure records: a repeated-session workflow assessment. Submitted to *Community Care Methods* on 18 August 2026; under review as of 30 September 2026.\n\nThis manuscript has not been accepted or published and has no assigned DOI. It reports the repeated-session exercise with clinic staff described in the final report. The unit's publication count above excludes this submission. No journal endorsement or peer-reviewed validation of these workflow findings is claimed."
+          },
+          {
+            "path": "team.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Team and community relationships\n\nRural Cardiovascular Research Unit, Laurel Fork Academic Health Center  \nCurrent record: 30 September 2026\n\n## Core staff\n\n**Adrienne Pelliver, PhD, MPH — unit director and cardiovascular epidemiologist.** Dr. Pelliver leads study governance and quantitative interpretation. She has experience coordinating pragmatic adult clinic research and integrating standardized measurements with health services data. Her current appointment is salaried by the health center. She is not a physician, and the unit does not assign her clinical prescribing responsibilities.\n\n**Caleb Norrick, PharmD — clinical pharmacy lead.** Norrick supervised medication review and pharmacist documentation during R-MAPS. His work included checking reconciliation records, documenting treatment recommendations, and maintaining communication with primary-care clinicians. He retains a clinical appointment at Laurel Fork. His completed research experience is in adult hypertension care. He has no pediatric research appointment and has not delivered a sleep intervention or interpreted clinical sleep studies.\n\n**Tessa Brindleford, PhD — qualitative health services researcher.** Brindleford led the interview analysis and workflow exercise. Her methods include semistructured interviews, framework analysis, observation of clinical workflows, and cognitive testing of paper forms. She maintained the coding decision log and separated participant accounts from staff interpretations. She has worked with adults in clinical and community meeting settings; her research record does not include interviewing minors or conducting school-based fieldwork.\n\n**Luis Arvendal, MS — biostatistician.** Arvendal maintains the analysis archive and contributed to the mixed-model and missing-data analyses. His experience includes clustered clinical data, small-sample inference, and reproducible record linkage checks. He has not developed or validated algorithms for actigraphy, sleep staging, circadian phase estimation, or wearable-derived sleep regularity.\n\n**Naomi Ellswick, MPH — research operations and data manager.** Ellswick coordinated clinic agreements, staff measurement training, endpoint tracking, and reconciliation of research and electronic records. She maintains the data dictionary and access log. Her experience concerns consent by adults with capacity to consent. The unit has no completed experience administering adolescent assent and parental permission procedures.\n\n**Ruth Denslowe — community health worker coordinator.** Denslowe supervises the community health worker network and maintains contact with clinic coordinators. She helped develop interview language and procedures for contacting participants who missed visits. Her role includes participant navigation and community communication, not medication prescribing or independent clinical diagnosis.\n\nThese six people are current members of the unit. Their appointments do not constitute unrestricted availability: clinical duties, institutional teaching, and existing service responsibilities remain part of their work. There is no sleep scientist, pediatric investigator, or school liaison among the core staff, and no external collaborator in those specialties has a signed research agreement with the unit.\n\n## Community health worker network\n\nThe current network comprises 12 community health workers: seven based in West Virginia and five in Kentucky. Denslowe is one of the 12, not an additional worker. Members are employed by the clinic network or its community services arm rather than all being employees of Laurel Fork. Their present service responsibilities include helping adult patients navigate appointments, understand clinic instructions, and communicate practical barriers to care.\n\nWorkers received study-specific training in adult consent, standardized blood-pressure procedures, confidentiality, and escalation of concerning readings during R-MAPS. Prior training does not confer permission to collect data for another study. The network has no experience recruiting adolescents, recruiting within schools, or administering sleep research devices. Existing contacts are adult patients, clinic personnel, and community service organizations; they are not a school recruitment infrastructure.\n\n## Clinic partnership and community input\n\nCedar Trace Community Clinics remains a service partner across the same eight clinics. Its standing memorandum with Laurel Fork supports staff liaison, discussion of completed findings, and institutionally approved record retention. It does not provide standing permission to enroll patients or release identifiable records for new research.\n\nA community advisory group includes former adult participants, caregivers, and clinic representatives. It reviewed the wording of R-MAPS participant materials and helped interpret practical barriers reported in interviews. It is advisory rather than a consent authority or a source of guaranteed enrollment. Neither the clinic memorandum nor the advisory group's membership includes a school district, youth organization, or adolescent-serving research partner."
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Existing facilities, equipment, and data holdings\n\nLaurel Fork Academic Health Center, Rural Cardiovascular Research Unit  \nInventory and access statement: 30 September 2026\n\n## Measurement equipment and space\n\nThe unit owns 24 automated upper-arm blood-pressure monitors of a model independently validated for adult clinical measurement. Sixteen are assigned to clinic measurement rooms, with two at each participating clinic, and eight are stored centrally for training and replacement. The inventory includes adult cuffs covering arm circumferences from 22 to 52 cm. Equipment logs record cuff condition, device checks, and removal from use when readings or physical inspection indicate a problem. Adult validation and cuff availability are not documented as pediatric validation.\n\nAll 24 monitors remain in the inventory after R-MAPS closeout. They are spot-measurement instruments, not ambulatory blood-pressure monitors. Their readings do not measure sleep, physical activity, or circadian phase. Research assistants have a written seated blood-pressure procedure and competency checklist used during the completed study. Community readings require documentation of location, posture, cuff size, and recent activity because these conditions are not uniformly controlled outside clinic rooms.\n\nThe health center provides secure interview rooms, an encrypted audio recorder, transcription software, and a restricted-access analysis environment. Clinic rooms belong to Cedar Trace and remain subject to clinical scheduling. Their use during the completed trial does not reserve them for other research activities.\n\nThe unit owns no actigraphs, polysomnography equipment, sleep-specific wearable devices, or ambulatory blood-pressure monitors. No such equipment is on order. There is no sleep laboratory within the unit, and no signed access agreement with an external sleep laboratory. The equipment inventory contains no instruments represented as already available for objective sleep assessment.\n\n## R-MAPS data archive\n\nThe retained archive contains 480 baseline participant records, 408 standardized six-month blood-pressure endpoints, and verified electronic record links for 456 participants. These counts refer to overlapping groups rather than additive samples. A participant can have a verified clinical record link while lacking the standardized endpoint. The archive retains flags distinguishing research measurements from routine readings and documents the reasons for unresolved matches.\n\nAvailable baseline fields include age, sex recorded in the clinical record, hypertension treatment, standardized blood pressure, and reported difficulty attending appointments. Routine records contain encounter dates, medication lists, and clinical blood-pressure entries with variable completeness. The archive also includes the interview coding framework, redacted interview transcripts, workflow observation sheets, the analysis specification, and executable analysis scripts. Interview transcripts are not treated as anonymous merely because names have been removed; accounts of local services can still be identifying.\n\nNo participant in the archived cohort was younger than 30 at enrollment. The archive contains no adolescent observations, no participants aged 18–29, and no school-level information. It has no objective sleep records, sleep diaries, sleep timing variables, sleep-duration variables, or sleep-regularity measures. Encounter timestamps describe healthcare contacts and have not been validated as proxies for sleep or circadian behavior. There are no retained research biospecimens or standardized research lipid or glycemic measurements.\n\n## Access, permissions, and present status\n\nThe clinical record custodian is Cedar Trace Community Clinics. Laurel Fork maintains the research copy under the completed study's data-use agreement and institutional review board approval. The linkage key is held separately from the analysis files. Approved unit analysts have access through named accounts; the community health worker network has no general access to research analysis files.\n\nThe original consent covered the completed trial, its specified interviews, record linkage, and approved secondary analyses of hypertension care. It did not authorize unrestricted recontact, school recruitment, or collection of additional physiological measurements. New participant contact and new data collection require their own institutional determination and applicable permissions. The archived dataset is controlled access and is not an openly downloadable resource.\n\nThe original study is closed to enrollment and intervention delivery. Retained records remain subject to the approved retention schedule, access controls, and disclosure review. Existing institutional computing support covers storage and maintenance of the completed archive. The closed foundation award provides no continuing funds, and clinic partnership status does not transfer ownership of clinical records to the research unit."
+          }
+        ],
+        "facts": [
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "Adrienne Pelliver leads the Rural Cardiovascular Research Unit at Laurel Fork Academic Health Center in West Virginia, United States.",
+            "value": "Adrienne Pelliver",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Pelliver has held a professor appointment since 2018 and has directed the unit since 2019.",
+            "value": "2018–present",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "education",
+            "kind": "existing",
+            "text": "Pelliver completed her BS in 1996, MPH in 1998, PhD in 2003, and postdoctoral appointment during 2003–2005.",
+            "value": "2003",
+            "salient": false,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Foundation award ACCRT-20-047 supported R-MAPS from 1 January 2021 through 31 December 2024 with $576,000 total funding, comprising $480,000 direct and $96,000 indirect costs, and is financially closed with no remaining balance.",
+            "value": "$576,000",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "R-MAPS was a completed cluster-randomized clinical trial involving eight clinics, four in each state and four in each study arm, with two clinics per arm within each state.",
+            "value": "eight clinics",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "R-MAPS recruited 480 adults aged 30–79 during July 2021–June 2022, with 60 participants per clinic and 240 per arm, and completed its final six-month assessment window on 31 January 2023.",
+            "value": "480",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Six-month retention was 408 of 480 participants, or 85.0% with a Wilson 95% confidence interval of 81.5%–87.9%, including 208 of 240 in pharmacist care and 200 of 240 in usual care.",
+            "value": "408 of 480 (85.0%)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The 72 missing standardized endpoints comprised 36 participants who could not be contacted, 20 who declined assessment, 12 who moved away, and four who died.",
+            "value": "72",
+            "salient": false,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Baseline systolic blood pressure averaged 153.2 mmHg with standard deviation 12.4 mmHg overall, with arm means of 153.6 and 152.8 mmHg, while paired unadjusted changes were −11.4 mmHg in pharmacist care and −5.1 mmHg in usual care.",
+            "value": "−11.4 mmHg",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The primary adjusted between-arm difference in six-month systolic blood pressure was −6.0 mmHg with a 95% confidence interval from −9.8 to −2.2, estimated using 408 observed endpoints and a clinic random-intercept model with a small-sample correction.",
+            "value": "−6.0 mmHg (95% CI −9.8 to −2.2)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The multiple-imputation sensitivity analysis estimated an adjusted difference of −5.5 mmHg with a 95% confidence interval from −9.6 to −1.4 under an assumption that missingness was explainable by observed variables.",
+            "value": "−5.5 mmHg (95% CI −9.6 to −1.4)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Record linkage succeeded for 456 of 480 participants, or 95.0%, while 16 inactive legacy records and eight unresolved identifier discrepancies accounted for the 24 unsuccessful matches.",
+            "value": "456 of 480 (95.0%)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The qualitative component comprised 32 interviews with 20 patients, six clinic staff, and six community health workers and identified transport, cost uncertainty, telephone access, and medication reconciliation barriers without estimating their population prevalence.",
+            "value": "32",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In a repeated-session workflow exercise with 18 staff, unaided task completion increased from 12 of 18, or 66.7%, to 16 of 18, or 88.9%, after form revisions, with practice effects unresolved and no patient blood-pressure effect measured.",
+            "value": "16 of 18 (88.9%)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "The unit lists four published articles from 2022, 2024, 2025, and 2026, while its workflow manuscript submitted on 18 August 2026 remained under review on 30 September 2026 with no acceptance or assigned DOI.",
+            "value": "under review as of 30 September 2026",
+            "salient": true,
+            "source": "publications.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The six current core members cover cardiovascular epidemiology, clinical pharmacy, qualitative health services research, biostatistics, research operations, and community health worker coordination.",
+            "value": "six",
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The community health worker network has 12 members, including coordinator Ruth Denslowe, with seven based in West Virginia and five in Kentucky.",
+            "value": "12 community health workers",
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Cedar Trace Community Clinics remains a partner across eight clinics, but its standing memorandum does not authorize new patient enrollment or release of identifiable records.",
+            "value": "Cedar Trace Community Clinics",
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The unit owns 24 adult-validated upper-arm blood-pressure monitors, with 16 assigned as two per clinic and eight held centrally, and adult cuffs covering arm circumferences of 22 to 52 cm.",
+            "value": "24",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The controlled-access archive holds 480 baseline records, 408 standardized endpoints, 456 verified record links, redacted interview transcripts, workflow records, and analysis scripts, with the participant groups overlapping rather than additive.",
+            "value": "480 baseline participant records",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Neither Pelliver nor the current team has recruited adolescents or conducted school research, and their completed R-MAPS cohort contained no participant younger than 30.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The core team has no sleep scientist, pediatric investigator, school liaison, or signed external research collaborator in those specialties, and has no completed adolescent assent and parental permission experience.",
+            "value": null,
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The unit has no actigraphs, polysomnography equipment, sleep-specific wearables, ambulatory blood-pressure monitors, equipment orders for those instruments, or signed external sleep-laboratory access agreement.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The archive contains no adolescent or age-18–29 observations, objective sleep records, sleep diaries, timing, duration or regularity measures, school-level information, retained biospecimens, or standardized research lipid or glycemic measurements.",
+            "value": "18–29",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "R-MAPS is closed to enrollment and intervention delivery, and its original consent and data-use arrangements do not authorize unrestricted recontact, school recruitment, additional physiological measurements, or open release of the dataset.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "pelliver2022protocol",
+            "authors": [
+              "Pelliver, A.",
+              "Norrick, C.",
+              "Ellswick, N.",
+              "Arvendal, L.",
+              "Brindleford, T."
+            ],
+            "year": 2022,
+            "title": "Pharmacist-led blood-pressure management in rural primary care: protocol for the R-MAPS cluster-randomized trial",
+            "venue": "Journal of Rural Cardiovascular Practice",
+            "doi": "10.99999/pb.rural-hypertension-group.2022.1"
+          },
+          {
+            "key": "brindleford2024interviews",
+            "authors": [
+              "Brindleford, T.",
+              "Denslowe, R.",
+              "Ellswick, N.",
+              "Pelliver, A."
+            ],
+            "year": 2024,
+            "title": "Medication access and follow-up in rural hypertension care: interviews with patients, clinic staff, and community health workers",
+            "venue": "Community Care Methods",
+            "doi": "10.99999/pb.rural-hypertension-group.2024.1"
+          },
+          {
+            "key": "pelliver2025outcomes",
+            "authors": [
+              "Pelliver, A.",
+              "Arvendal, L.",
+              "Norrick, C.",
+              "Ellswick, N.",
+              "Brindleford, T.",
+              "Denslowe, R."
+            ],
+            "year": 2025,
+            "title": "Six-month blood-pressure outcomes of pharmacist-led management in eight rural clinics: the R-MAPS trial",
+            "venue": "Journal of Rural Cardiovascular Practice",
+            "doi": "10.99999/pb.rural-hypertension-group.2025.1"
+          },
+          {
+            "key": "ellswick2026linkage",
+            "authors": [
+              "Ellswick, N.",
+              "Arvendal, L.",
+              "Pelliver, A.",
+              "Denslowe, R."
+            ],
+            "year": 2026,
+            "title": "Reconciling research and electronic clinical records in a rural hypertension cohort",
+            "venue": "Health Services Measurement and Linkage",
+            "doi": "10.99999/pb.rural-hypertension-group.2026.1"
+          }
+        ]
+      },
+      "review_issues": [
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 7",
+          "where": "all files",
+          "problem": "The documents are not consistently current as of the benchmark's present date, 1 October 2026 (some are written as of 2024 or early 2025, leaving unexplained gaps before calls with 2027 deadlines).",
+          "fix": "Make every document current as of September 2026: update 'as of' dates, contract periods, CV entries, publication lists through 2026, statuses of submissions, reviews, ethics approvals and recruitments, keeping the same career stage and every fact the traps rely on (re-dated consistently). Keep all numbers internally consistent after the shift."
+        },
+        {
+          "severity": "blocker",
+          "checklist": "Dossier 1",
+          "where": "all files",
+          "problem": "Names of people, institutions, companies, projects or journals may collide with real ones.",
+          "fix": "Replace every person name with a coined, distinctive name (no common names such as Matteo Rossi); replace every real institution, research centre, archive, company, project or journal name of the applicant's world with a fictional one; the applicant's own publications appear in fictional journals. Real funders, real places and real funding schemes stay."
+        }
+      ],
+      "rejected": []
+    },
+    {
+      "draft": {
+        "applicant_type": "team",
+        "career_stage": "senior",
+        "disciplines": [
+          "cardiovascular epidemiology",
+          "community health",
+          "health services research"
+        ],
+        "method_profile": "mixed",
+        "country": "US",
+        "files": [
+          {
+            "path": "cv_pi.md",
+            "role": "cv",
+            "content": "> Fictional document created for ProposalBench.\n\n# Adrelisse Pellavreth, PhD, MPH\n\nProfessor of Cardiovascular Epidemiology and Director, Rural Cardiovascular Research Unit  \nVeylorn Ridge Academic Health Center, West Virginia, United States  \nCurriculum vitae updated 30 September 2026\n\n## Education and appointments\n\nDr. Pellavreth received a BS in statistics from Keldavren College in 1996, an MPH in epidemiology from Ordelvane Institute of Public Health in 1998, and a PhD in epidemiology from the same institution in 2003. Her dissertation examined differences between routinely recorded and standardized blood-pressure measurements in adult outpatient care. She completed a postdoctoral appointment in health services research at Veylorn Ridge Academic Health Center from 2003 to 2005.\n\nHer appointments at Veylorn Ridge have been Assistant Professor, 2005–2011; Associate Professor, 2011–2018; and Professor, 2018–present. She has directed the Rural Cardiovascular Research Unit since 2019. Veylorn Ridge is an academic health center with outpatient services, graduate research training, and an institutional review board. It is organizationally separate from the community clinic network described in this dossier.\n\n## Research experience\n\nDr. Pellavreth studies hypertension care in rural adult populations, with particular attention to measurement conditions, medication access, follow-up, and the interpretation of routine clinical records. Her work combines clinic-based quantitative studies with interviews conducted by community health workers and qualitative researchers. She has served as principal investigator on pragmatic intervention research and as an epidemiologic collaborator on observational analyses of adult primary care.\n\nShe was principal investigator of the Veylorn Rural Medication and Pressure Study, abbreviated V-RMAPS. This completed study examined pharmacist-led management in rural primary-care clinics. She was responsible for the protocol, allocation procedures, analysis oversight, research governance, and final reporting. A licensed pharmacist directed medication management; Dr. Pellavreth did not prescribe or make individual treatment decisions. Her main analytic responsibilities included defining the blood-pressure endpoint, assessing differential follow-up, and interpreting the limitations of a small number of randomized clinics.\n\nHer qualitative experience includes developing interview guides with community health workers, reviewing coding frameworks, and integrating interview findings with clinic-level implementation records. She is not the team's lead qualitative interviewer. That responsibility belongs to Dr. Tessavelle Brindelvane, whose training and work are described in the team record.\n\n## Completed research support\n\n**V-RMAPS: Veylorn Rural Medication and Pressure Study.** Veylorn Community Care Research Trust, award VCCRT-20-047; principal investigator, Adrelisse Pellavreth; 1 January 2021–31 December 2024. The completed award totaled $576,000, comprising $480,000 in direct costs and $96,000 in indirect costs. The final scientific report was accepted on 28 February 2025, and the financial account is closed. This was foundation support, not an NIH award. No unspent award balance remains available to the unit.\n\nCurrent unit salaries, record retention, and equipment maintenance receive institutional support. This support is not recorded as an external research grant, and the unit does not describe the completed V-RMAPS award as current funding. From award closeout through September 2026, her work on V-RMAPS has concerned dissemination, approved secondary analysis, and archive oversight; recruitment and intervention delivery have not resumed.\n\n## Teaching, supervision, and scope of expertise\n\nDr. Pellavreth teaches graduate epidemiologic methods and supervises work on missing outcome data and measurement in routine care. She chairs the health center's research measurement working group. Her publications through September 2026 are listed separately, with distinctions between published work and a manuscript still under review.\n\nHer direct recruitment and intervention experience concerns adults receiving primary care. Neither she nor the current research team has recruited adolescents, conducted research in schools, or completed a sleep research study. Her completed V-RMAPS cohort contained no participant younger than 30 years. She has not supervised actigraphy processing, polysomnography, circadian phase assessment, or adolescent assent procedures. These activities are not included among her established research competencies."
+          },
+          {
+            "path": "prior_project.md",
+            "role": "prior_project",
+            "content": "> Fictional document created for ProposalBench.\n\n# Final scientific report: Veylorn Rural Medication and Pressure Study\n\n**V-RMAPS; reporting period 1 January 2021–31 December 2024**  \nPrincipal investigator: Adrelisse Pellavreth, PhD, MPH  \nHost: Veylorn Ridge Academic Health Center  \nFunder: Veylorn Community Care Research Trust, VCCRT-20-047  \nFinal report accepted: 28 February 2025  \nArchive copy and closeout status reviewed: 30 September 2026\n\n## Purpose and setting\n\nV-RMAPS evaluated pharmacist-led blood-pressure management embedded in rural adult primary care. The study addressed medication reconciliation, treatment adjustment under collaborative practice agreements, and practical barriers to follow-up. Celdavreth Trace Community Clinics contributed eight clinics: four in West Virginia and four in Kentucky. These clinics served rural catchment areas and used the same electronic health record platform, although staffing patterns and appointment capacity differed.\n\nThe project was a pragmatic cluster-randomized clinical trial. Clinics were allocated in a 1:1 ratio, with four assigned to pharmacist-led management and four to usual care. Allocation was stratified by state, giving two clinics per study arm in each state. An independent statistician generated the allocation sequence after clinic participation agreements were signed. The protocol and primary analysis specification were deposited in the health center's dated research archive before allocation.\n\n## Participants and procedures\n\nRecruitment ran from 1 July 2021 to 30 June 2022. The study enrolled 480 patients, with 60 at each clinic and 240 in each arm. Participants were aged 30–79 years, had a recorded hypertension diagnosis, and had uncontrolled blood pressure confirmed at a research measurement visit. The age eligibility criteria excluded adolescents and adults younger than 30. Recruitment used clinic lists, clinician referrals, telephone invitations, and community health worker follow-up. Schools were not recruitment sites or referral partners.\n\nThe intervention offered pharmacist medication review and management during a six-month follow-up period. Pharmacists could recommend or implement medication changes within their signed collaborative practice agreements. Community health workers assisted with appointment reminders, transport arrangements, and communication about medication access. Usual-care clinics continued their existing clinical services. Both groups received the same research measurement schedule; neither participants nor clinical staff were blinded to allocation.\n\nThe primary endpoint was standardized seated systolic blood pressure at six months, adjusted for baseline systolic blood pressure and the state allocation stratum. Trained research assistants obtained three upper-arm readings after five minutes of seated rest and averaged the last two. Cuff size was selected from measured arm circumference. Staff documented recent smoking, caffeine consumption, and deviations from the measurement procedure. Whenever staffing allowed, the endpoint assessor was someone other than the participant's community health worker, but assessor masking was not assured.\n\nThe final six-month assessment window closed on 31 January 2023. Record reconciliation, qualitative analysis, and workflow assessment continued during the remaining award period. The quantitative database was locked on 30 September 2024.\n\n## Participant accounting and blood-pressure results\n\nStandardized six-month measurements were obtained for 408 of 480 (85.0%) participants. Follow-up was completed by 208 of 240 (86.7%) in the pharmacist arm and 200 of 240 (83.3%) in usual care. The Wilson 95% confidence interval for overall retention was 81.5%–87.9%. The 72 participants without a standardized endpoint comprised 36 who could not be contacted, 20 who declined the endpoint visit, 12 who moved outside the service area, and four who died before assessment. Deaths were recorded as all-cause events; the trial was not designed to estimate mortality effects.\n\nBaseline systolic blood pressure averaged 153.2 mmHg, with a standard deviation of 12.4 mmHg, across all 480 participants. Arm-specific baseline means were 153.6 mmHg in pharmacist clinics and 152.8 mmHg in usual-care clinics. Among participants with paired research measurements, the unadjusted mean change was −11.4 mmHg in the pharmacist arm and −5.1 mmHg in usual care. These descriptive changes use the retained participants and are not the primary between-arm effect estimate.\n\nThe adjusted between-arm difference in six-month systolic blood pressure was −6.0 mmHg (95% CI −9.8 to −2.2), favoring pharmacist-led management. The prespecified linear mixed model included a clinic random intercept and used a small-sample degrees-of-freedom correction. Participants were analyzed according to their clinic's allocation. The primary estimate used the 408 observed standardized endpoints and therefore depends on assumptions about outcome availability.\n\nA sensitivity analysis using multiple imputation for missing endpoints gave an adjusted difference of −5.5 mmHg (95% CI −9.6 to −1.4). Imputation included clinic, allocation, baseline blood pressure, age, and available routine follow-up measurements. This analysis assumed missingness was explainable by the observed variables. It did not establish robustness to unmeasured reasons for nonattendance. Neither estimate establishes a reduction in cardiovascular events.\n\n## Records, interviews, and workflow findings\n\nElectronic record linkage succeeded for 456 of 480 (95.0%) participants. Of the 24 unresolved linkages, 16 involved inactive legacy records and eight involved identifier discrepancies that could not be resolved within the approved linkage procedure. Successful linkage meant a verified match to a clinical record; it did not mean that every follow-up field was complete or that a standardized endpoint had been obtained. Routine blood-pressure readings were not substituted for missing primary endpoints.\n\nThe qualitative component included 32 individual interviews: 20 patients, six clinic staff members, and six community health workers. Sampling sought variation in attendance and clinic location rather than statistical representativeness. Participants described transport dependence, uncertainty about medication costs, difficulty reaching the clinic by telephone, and discomfort discussing missed doses. Staff described repeated reconciliation work when medication lists differed between clinical encounters. These were interpreted themes, not prevalence estimates. Interviews were recorded with consent, transcribed, and coded using a shared framework with documented disagreement resolution.\n\nA separate workflow exercise involved 18 clinic staff members using a paper prototype for reconciling community blood-pressure records. In the first session, 12 of 18 (66.7%) completed the matching task without assistance. After revisions to labels and field order, 16 of 18 (88.9%) completed it without assistance in a second session. The same staff attended both sessions. These descriptive results are susceptible to practice effects and do not demonstrate improved patient blood pressure. No treatment allocation or medication changes were part of this workflow exercise.\n\n## Limitations and closeout\n\nThe trial included only eight clinics within one network. Shared leadership and a common record system limit transferability to independently governed practices. Patient and staff masking was infeasible, and differences in contact intensity may have influenced follow-up. The retention difference and the small number of clusters constrain interpretation despite the prespecified analysis and sensitivity assessment.\n\nThe study measured office blood pressure and care processes. It did not collect objective sleep measurements, sleep diaries, sleep timing, sleep duration, or sleep regularity. It also did not collect research-grade physical activity monitoring, ambulatory blood pressure, or a biospecimen collection. The project provides no adolescent data and no evidence about recruiting through schools.\n\nAs of 30 September 2026, intervention delivery and recruitment remain ended. The award account is closed, while approved retention and secondary analysis of study records continue. No additional participants or follow-up measurements have been added since the database lock. The published main analysis, interview paper, linkage paper, and the separately identified workflow manuscript are documented in the publications list."
+          },
+          {
+            "path": "publications.md",
+            "role": "publications",
+            "content": "> Fictional document created for ProposalBench.\n\n# Publications and manuscript status\n\nRural Cardiovascular Research Unit, Veylorn Ridge Academic Health Center  \nRecord checked: 30 September 2026\n\nThe following four articles are published. Author order, titles, publication years, and DOI strings below are the unit's bibliographic record. All concern adult rural primary care or methods used in that setting. None reports adolescent recruitment, school-based research, or sleep measurement.\n\n## Published articles\n\n**Pellavreth, A.; Norravick, C.; Ellsvareth, N.; Arvendrel, L.; Brindelvane, T. (2022).** Pharmacist-led blood-pressure management in rural primary care: protocol for the V-RMAPS cluster-randomized trial. *Veylorn Journal of Rural Cardiovascular Practice*, 7(2), 81–93. DOI: 10.99999/pb.rural-hypertension-group.2022.1\n\nThis protocol describes clinic allocation, adult eligibility, pharmacist responsibilities, the standardized blood-pressure endpoint, and the original analysis specification. It contains no outcome results. The participant age range begins at 30 years. Its description of community health worker involvement concerns appointment support and contact through adult clinics, not recruitment through educational institutions.\n\n**Brindelvane, T.; Densavren, R.; Ellsvareth, N.; Pellavreth, A. (2024).** Medication access and follow-up in rural hypertension care: interviews with patients, clinic staff, and community health workers. *Ordelvane Community Care Methods*, 11(3), 144–158. DOI: 10.99999/pb.rural-hypertension-group.2024.1\n\nThis article reports the interview component of V-RMAPS. It includes the sampling rationale, coding process, and accounts of transport, cost uncertainty, telephone access, and medication reconciliation. The findings describe experiences among purposively selected interview participants. The article does not estimate the proportion of all clinic patients who encounter each barrier.\n\n**Pellavreth, A.; Arvendrel, L.; Norravick, C.; Ellsvareth, N.; Brindelvane, T.; Densavren, R. (2025).** Six-month blood-pressure outcomes of pharmacist-led management in eight rural clinics: the V-RMAPS trial. *Veylorn Journal of Rural Cardiovascular Practice*, 10(1), 15–30. DOI: 10.99999/pb.rural-hypertension-group.2025.1\n\nThis is the primary outcome article. It reports the adjusted between-arm systolic blood-pressure difference, participant retention, and missing-data sensitivity analysis. The article distinguishes the primary adjusted contrast from within-arm descriptive changes. Follow-up ends at six months; it does not establish durability after intervention completion or effects on cardiovascular events.\n\n**Ellsvareth, N.; Arvendrel, L.; Pellavreth, A.; Densavren, R. (2026).** Reconciling research and electronic clinical records in a rural hypertension cohort. *Keldavren Health Services Measurement and Linkage*, 4(2), 62–76. DOI: 10.99999/pb.rural-hypertension-group.2026.1\n\nThis methods article describes verified record matches, unresolved identifiers, and differences between routine clinical readings and standardized research measurements. Its linkage success denominator is the enrolled cohort, not only participants retained at the endpoint visit. Successful linkage is not treated as evidence of complete longitudinal data. The paper documents the approved matching procedure without releasing direct patient identifiers.\n\n## Manuscript under review\n\n**Brindelvane, T.; Ellsvareth, N.; Densavren, R.; Pellavreth, A.** Staff use of a paper reconciliation form for community blood-pressure records: a repeated-session workflow assessment. Submitted to *Ordelvane Community Care Methods* on 18 August 2026; under review as of 30 September 2026.\n\nThis manuscript has not been accepted or published and has no assigned DOI. It reports the repeated-session exercise with clinic staff described in the final report. The unit's publication count above excludes this submission. No journal endorsement or peer-reviewed validation of these workflow findings is claimed."
+          },
+          {
+            "path": "team.md",
+            "role": "team",
+            "content": "> Fictional document created for ProposalBench.\n\n# Team and community relationships\n\nRural Cardiovascular Research Unit, Veylorn Ridge Academic Health Center  \nCurrent record: 30 September 2026\n\n## Core staff\n\n**Adrelisse Pellavreth, PhD, MPH — unit director and cardiovascular epidemiologist.** Dr. Pellavreth leads study governance and quantitative interpretation. She has experience coordinating pragmatic adult clinic research and integrating standardized measurements with health services data. Her current appointment is salaried by the health center. She is not a physician, and the unit does not assign her clinical prescribing responsibilities.\n\n**Calverin Norravick, PharmD — clinical pharmacy lead.** Norravick supervised medication review and pharmacist documentation during V-RMAPS. His work included checking reconciliation records, documenting treatment recommendations, and maintaining communication with primary-care clinicians. He retains a clinical appointment at Veylorn Ridge. His completed research experience is in adult hypertension care. He has no pediatric research appointment and has not delivered a sleep intervention or interpreted clinical sleep studies.\n\n**Tessavelle Brindelvane, PhD — qualitative health services researcher.** Brindelvane led the interview analysis and workflow exercise. Her methods include semistructured interviews, framework analysis, observation of clinical workflows, and cognitive testing of paper forms. She maintained the coding decision log and separated participant accounts from staff interpretations. She has worked with adults in clinical and community meeting settings; her research record does not include interviewing minors or conducting school-based fieldwork.\n\n**Lurencio Arvendrel, MS — biostatistician.** Arvendrel maintains the analysis archive and contributed to the mixed-model and missing-data analyses. His experience includes clustered clinical data, small-sample inference, and reproducible record linkage checks. He has not developed or validated algorithms for actigraphy, sleep staging, circadian phase estimation, or wearable-derived sleep regularity.\n\n**Naomelle Ellsvareth, MPH — research operations and data manager.** Ellsvareth coordinated clinic agreements, staff measurement training, endpoint tracking, and reconciliation of research and electronic records. She maintains the data dictionary and access log. Her experience concerns consent by adults with capacity to consent. The unit has no completed experience administering adolescent assent and parental permission procedures.\n\n**Ruthavelle Densavren — community health worker coordinator.** Densavren supervises the community health worker network and maintains contact with clinic coordinators. She helped develop interview language and procedures for contacting participants who missed visits. Her role includes participant navigation and community communication, not medication prescribing or independent clinical diagnosis.\n\nThese six people are current members of the unit. Their appointments do not constitute unrestricted availability: clinical duties, institutional teaching, and existing service responsibilities remain part of their work. There is no sleep scientist, pediatric investigator, or school liaison among the core staff, and no external collaborator in those specialties has a signed research agreement with the unit.\n\n## Community health worker network\n\nThe current network comprises 12 community health workers: seven based in West Virginia and five in Kentucky. Densavren is one of the 12, not an additional worker. Members are employed by the clinic network or its community services arm rather than all being employees of Veylorn Ridge. Their present service responsibilities include helping adult patients navigate appointments, understand clinic instructions, and communicate practical barriers to care.\n\nWorkers received study-specific training in adult consent, standardized blood-pressure procedures, confidentiality, and escalation of concerning readings during V-RMAPS. Prior training does not confer permission to collect data for another study. The network has no experience recruiting adolescents, recruiting within schools, or administering sleep research devices. Existing contacts are adult patients, clinic personnel, and community service organizations; they are not a school recruitment infrastructure.\n\n## Clinic partnership and community input\n\nCeldavreth Trace Community Clinics remains a service partner across the same eight clinics. Its standing memorandum with Veylorn Ridge supports staff liaison, discussion of completed findings, and institutionally approved record retention. It remains in force as of 30 September 2026. It does not provide standing permission to enroll patients or release identifiable records for new research.\n\nA community advisory group includes former adult participants, caregivers, and clinic representatives. It reviewed the wording of V-RMAPS participant materials and helped interpret practical barriers reported in interviews. It is advisory rather than a consent authority or a source of guaranteed enrollment. Neither the clinic memorandum nor the advisory group's membership includes a school district, youth organization, or adolescent-serving research partner."
+          },
+          {
+            "path": "resources.md",
+            "role": "resources",
+            "content": "> Fictional document created for ProposalBench.\n\n# Existing facilities, equipment, and data holdings\n\nVeylorn Ridge Academic Health Center, Rural Cardiovascular Research Unit  \nInventory and access statement: 30 September 2026\n\n## Measurement equipment and space\n\nThe unit owns 24 automated upper-arm blood-pressure monitors of a model independently validated for adult clinical measurement. Sixteen are assigned to clinic measurement rooms, with two at each participating clinic, and eight are stored centrally for training and replacement. The inventory includes adult cuffs covering arm circumferences from 22 to 52 cm. Equipment logs record cuff condition, device checks, and removal from use when readings or physical inspection indicate a problem. Adult validation and cuff availability are not documented as pediatric validation.\n\nAll 24 monitors remain in the inventory after V-RMAPS closeout. They are spot-measurement instruments, not ambulatory blood-pressure monitors. Their readings do not measure sleep, physical activity, or circadian phase. Research assistants have a written seated blood-pressure procedure and competency checklist used during the completed study. Community readings require documentation of location, posture, cuff size, and recent activity because these conditions are not uniformly controlled outside clinic rooms.\n\nThe health center provides secure interview rooms, an encrypted audio recorder, transcription software, and a restricted-access analysis environment. Clinic rooms belong to Celdavreth Trace and remain subject to clinical scheduling. Their use during the completed trial does not reserve them for other research activities.\n\nThe unit owns no actigraphs, polysomnography equipment, sleep-specific wearable devices, or ambulatory blood-pressure monitors. No such equipment is on order. There is no sleep laboratory within the unit, and no signed access agreement with an external sleep laboratory. The equipment inventory contains no instruments represented as already available for objective sleep assessment.\n\n## V-RMAPS data archive\n\nThe retained archive contains 480 baseline participant records, 408 standardized six-month blood-pressure endpoints, and verified electronic record links for 456 participants. These counts refer to overlapping groups rather than additive samples. A participant can have a verified clinical record link while lacking the standardized endpoint. The archive retains flags distinguishing research measurements from routine readings and documents the reasons for unresolved matches.\n\nAvailable baseline fields include age, sex recorded in the clinical record, hypertension treatment, standardized blood pressure, and reported difficulty attending appointments. Routine records contain encounter dates, medication lists, and clinical blood-pressure entries with variable completeness. The archive also includes the interview coding framework, redacted interview transcripts, workflow observation sheets, the analysis specification, and executable analysis scripts. Interview transcripts are not treated as anonymous merely because names have been removed; accounts of local services can still be identifying.\n\nNo participant in the archived cohort was younger than 30 at enrollment. The archive contains no adolescent observations, no participants aged 18–29, and no school-level information. It has no objective sleep records, sleep diaries, sleep timing variables, sleep-duration variables, or sleep-regularity measures. Encounter timestamps describe healthcare contacts and have not been validated as proxies for sleep or circadian behavior. There are no retained research biospecimens or standardized research lipid or glycemic measurements.\n\n## Access, permissions, and present status\n\nThe clinical record custodian is Celdavreth Trace Community Clinics. Veylorn Ridge maintains the research copy under the completed study's data-use agreement and institutional review board approval. As of 30 September 2026, that agreement and approval remain applicable to record retention and approved secondary analyses; they do not authorize resumed enrollment or intervention delivery. The linkage key is held separately from the analysis files. Approved unit analysts have access through named accounts; the community health worker network has no general access to research analysis files.\n\nThe original consent covered the completed trial, its specified interviews, record linkage, and approved secondary analyses of hypertension care. It did not authorize unrestricted recontact, school recruitment, or collection of additional physiological measurements. New participant contact and new data collection require their own institutional determination and applicable permissions. The archived dataset is controlled access and is not an openly downloadable resource.\n\nThe original study is closed to enrollment and intervention delivery. Retained records remain subject to the approved retention schedule, access controls, and disclosure review. Existing institutional computing support covers storage and maintenance of the completed archive. The closed foundation award provides no continuing funds, and clinic partnership status does not transfer ownership of clinical records to the research unit."
+          }
+        ],
+        "facts": [
+          {
+            "category": "identity",
+            "kind": "existing",
+            "text": "Adrelisse Pellavreth leads the Rural Cardiovascular Research Unit at Veylorn Ridge Academic Health Center in West Virginia, United States.",
+            "value": "Adrelisse Pellavreth",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "position",
+            "kind": "existing",
+            "text": "Pellavreth has held a professor appointment since 2018 and has directed the unit since 2019.",
+            "value": "2018–present",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "education",
+            "kind": "existing",
+            "text": "Pellavreth completed her BS in 1996, MPH in 1998, PhD in 2003, and postdoctoral appointment during 2003–2005.",
+            "value": "2003",
+            "salient": false,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "grant",
+            "kind": "existing",
+            "text": "Foundation award VCCRT-20-047 supported V-RMAPS from 1 January 2021 through 31 December 2024 with $576,000 total funding, comprising $480,000 direct and $96,000 indirect costs, and is financially closed with no remaining balance.",
+            "value": "$576,000",
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "V-RMAPS was a completed cluster-randomized clinical trial involving eight clinics, four in each state and four in each study arm, with two clinics per arm within each state.",
+            "value": "eight clinics",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "V-RMAPS recruited 480 adults aged 30–79 during July 2021–June 2022, with 60 participants per clinic and 240 per arm, and completed its final six-month assessment window on 31 January 2023.",
+            "value": "480",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Six-month retention was 408 of 480 participants, or 85.0% with a Wilson 95% confidence interval of 81.5%–87.9%, including 208 of 240 in pharmacist care and 200 of 240 in usual care.",
+            "value": "408 of 480 (85.0%)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The 72 missing standardized endpoints comprised 36 participants who could not be contacted, 20 who declined assessment, 12 who moved away, and four who died.",
+            "value": "72",
+            "salient": false,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Baseline systolic blood pressure averaged 153.2 mmHg with standard deviation 12.4 mmHg overall, with arm means of 153.6 and 152.8 mmHg, while paired unadjusted changes were −11.4 mmHg in pharmacist care and −5.1 mmHg in usual care.",
+            "value": "−11.4 mmHg",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The primary adjusted between-arm difference in six-month systolic blood pressure was −6.0 mmHg with a 95% confidence interval from −9.8 to −2.2, estimated using 408 observed endpoints and a clinic random-intercept model with a small-sample correction.",
+            "value": "−6.0 mmHg (95% CI −9.8 to −2.2)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The multiple-imputation sensitivity analysis estimated an adjusted difference of −5.5 mmHg with a 95% confidence interval from −9.6 to −1.4 under an assumption that missingness was explainable by observed variables.",
+            "value": "−5.5 mmHg (95% CI −9.6 to −1.4)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "Record linkage succeeded for 456 of 480 participants, or 95.0%, while 16 inactive legacy records and eight unresolved identifier discrepancies accounted for the 24 unsuccessful matches.",
+            "value": "456 of 480 (95.0%)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "The qualitative component comprised 32 interviews with 20 patients, six clinic staff, and six community health workers and identified transport, cost uncertainty, telephone access, and medication reconciliation barriers without estimating their population prevalence.",
+            "value": "32",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "result",
+            "kind": "existing",
+            "text": "In a repeated-session workflow exercise with 18 staff, unaided task completion increased from 12 of 18, or 66.7%, to 16 of 18, or 88.9%, after form revisions, with practice effects unresolved and no patient blood-pressure effect measured.",
+            "value": "16 of 18 (88.9%)",
+            "salient": true,
+            "source": "prior_project.md"
+          },
+          {
+            "category": "publication",
+            "kind": "existing",
+            "text": "The unit lists four published articles from 2022, 2024, 2025, and 2026, while its workflow manuscript submitted on 18 August 2026 remained under review on 30 September 2026 with no acceptance or assigned DOI.",
+            "value": "under review as of 30 September 2026",
+            "salient": true,
+            "source": "publications.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The six current core members cover cardiovascular epidemiology, clinical pharmacy, qualitative health services research, biostatistics, research operations, and community health worker coordination.",
+            "value": "six",
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The community health worker network has 12 members, including coordinator Ruthavelle Densavren, with seven based in West Virginia and five in Kentucky.",
+            "value": "12 community health workers",
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "partner",
+            "kind": "existing",
+            "text": "Celdavreth Trace Community Clinics remains a partner across eight clinics under a memorandum in force as of 30 September 2026 that does not authorize new patient enrollment or release of identifiable records.",
+            "value": "Celdavreth Trace Community Clinics",
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The unit owns 24 adult-validated upper-arm blood-pressure monitors, with 16 assigned as two per clinic and eight held centrally, and adult cuffs covering arm circumferences of 22 to 52 cm.",
+            "value": "24",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The controlled-access archive holds 480 baseline records, 408 standardized endpoints, 456 verified record links, redacted interview transcripts, workflow records, and analysis scripts, with the participant groups overlapping rather than additive.",
+            "value": "480 baseline participant records",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "Neither Pellavreth nor the current team has recruited adolescents or conducted school research, and their completed V-RMAPS cohort contained no participant younger than 30.",
+            "value": null,
+            "salient": true,
+            "source": "cv_pi.md"
+          },
+          {
+            "category": "team",
+            "kind": "existing",
+            "text": "The core team has no sleep scientist, pediatric investigator, school liaison, or signed external research collaborator in those specialties, and has no completed adolescent assent and parental permission experience.",
+            "value": null,
+            "salient": true,
+            "source": "team.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The unit has no actigraphs, polysomnography equipment, sleep-specific wearables, ambulatory blood-pressure monitors, equipment orders for those instruments, or signed external sleep-laboratory access agreement.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "resource",
+            "kind": "existing",
+            "text": "The archive contains no adolescent or age-18–29 observations, objective sleep records, sleep diaries, timing, duration or regularity measures, school-level information, retained biospecimens, or standardized research lipid or glycemic measurements.",
+            "value": "18–29",
+            "salient": true,
+            "source": "resources.md"
+          },
+          {
+            "category": "other",
+            "kind": "existing",
+            "text": "As of 30 September 2026, V-RMAPS remains closed to enrollment and intervention delivery, with approval and data-use arrangements covering retention and approved secondary analyses but not unrestricted recontact, school recruitment, additional physiological measurements, or open dataset release.",
+            "value": null,
+            "salient": true,
+            "source": "resources.md"
+          }
+        ],
+        "own_publications": [
+          {
+            "key": "pellavreth2022protocol",
+            "authors": [
+              "Pellavreth, A.",
+              "Norravick, C.",
+              "Ellsvareth, N.",
+              "Arvendrel, L.",
+              "Brindelvane, T."
+            ],
+            "year": 2022,
+            "title": "Pharmacist-led blood-pressure management in rural primary care: protocol for the V-RMAPS cluster-randomized trial",
+            "venue": "Veylorn Journal of Rural Cardiovascular Practice",
+            "doi": "10.99999/pb.rural-hypertension-group.2022.1"
+          },
+          {
+            "key": "brindelvane2024interviews",
+            "authors": [
+              "Brindelvane, T.",
+              "Densavren, R.",
+              "Ellsvareth, N.",
+              "Pellavreth, A."
+            ],
+            "year": 2024,
+            "title": "Medication access and follow-up in rural hypertension care: interviews with patients, clinic staff, and community health workers",
+            "venue": "Ordelvane Community Care Methods",
+            "doi": "10.99999/pb.rural-hypertension-group.2024.1"
+          },
+          {
+            "key": "pellavreth2025outcomes",
+            "authors": [
+              "Pellavreth, A.",
+              "Arvendrel, L.",
+              "Norravick, C.",
+              "Ellsvareth, N.",
+              "Brindelvane, T.",
+              "Densavren, R."
+            ],
+            "year": 2025,
+            "title": "Six-month blood-pressure outcomes of pharmacist-led management in eight rural clinics: the V-RMAPS trial",
+            "venue": "Veylorn Journal of Rural Cardiovascular Practice",
+            "doi": "10.99999/pb.rural-hypertension-group.2025.1"
+          },
+          {
+            "key": "ellsvareth2026linkage",
+            "authors": [
+              "Ellsvareth, N.",
+              "Arvendrel, L.",
+              "Pellavreth, A.",
+              "Densavren, R."
+            ],
+            "year": 2026,
+            "title": "Reconciling research and electronic clinical records in a rural hypertension cohort",
+            "venue": "Keldavren Health Services Measurement and Linkage",
+            "doi": "10.99999/pb.rural-hypertension-group.2026.1"
+          }
+        ]
+      },
+      "review_issues": [
+        {
+          "severity": "major",
+          "checklist": "Dossier 4; Dossier 3",
+          "where": "data/public/dossiers/rural-hypertension-group/prior_project.md, Participant accounting: \"four who died before assessment\"; subsequent analysis: \"A sensitivity analysis using multiple imputation for missing endpoints gave an adjusted difference of −5.5 mmHg\". dossier.yaml F08/F11.",
+          "problem": "The report puts deaths among the 72 absent endpoints and then describes imputation for missing endpoints under an ordinary observed-variable missingness assumption, without saying how deaths were treated or what population the BP contrast targets. Six-month BP after death does not exist; it cannot simply be treated as an unobserved living-person measurement. The supplied sensitivity estimate is therefore scientifically ambiguous, especially because the stretch brief explicitly asks the writer to build on this missing-data expertise.",
+          "fix": "Make the fictional historical analysis explicit: 'The four deaths were handled as terminal events and were not assigned or imputed six-month BP values. The multiple-imputation analysis was restricted to the 476 participants alive at six months, imputing the 68 missing measurements among those survivors. It estimated a survivor-conditional adjusted contrast of −5.5 mmHg (95% CI −9.6 to −1.4), under an observed-variable missingness assumption among survivors. Both this contrast and the observed-endpoint analysis may be affected by post-randomization survival/attendance selection and do not estimate a treatment effect for all 480 enrollees.' Distinguish terminal events from missing measurements in F08 and carry the restricted population and limitations into F10/F11 and the primary-publication summary. Do not describe this as an all-participant intention-to-treat robustness check.",
+          "evidence": [
+            "https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf",
+            "data/public/dossiers/rural-hypertension-group/prior_project.md",
+            "data/public/dossiers/rural-hypertension-group/dossier.yaml",
+            "data/public/tasks/pub-nih-sleepcardio-stretch/brief.md"
+          ]
+        }
+      ],
+      "rejected": []
+    }
+  ]
+}
