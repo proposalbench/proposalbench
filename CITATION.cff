@@ -9,6 +9,10 @@ version: "1.0.0"
 license: Apache-2.0
 repository-code: "https://github.com/proposalbench/proposalbench"
 url: "https://proposia.ai/benchmark"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24093638"
+    description: "Results bundle of the November 2026 run (public-v1), archived on Zenodo"
 abstract: >-
   ProposalBench evaluates systems that write research funding proposals from a call and an
   applicant's prior research. It provides 60 public tasks over 12 funding schemes, an open

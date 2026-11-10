@@ -1,5 +1,7 @@
 # ProposalBench
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24093638.svg)](https://doi.org/10.5281/zenodo.24093638)
+
 An open benchmark for **call-conditioned research proposal writing**: given a funding call and an
 applicant's prior research, write the proposal.
 
@@ -109,6 +111,8 @@ submit theirs.
 
 ## Citation and licences
 
-Cite with [`CITATION.cff`](CITATION.cff). Code: Apache-2.0 ([`LICENSE`](LICENSE)). Task data,
+Cite with [`CITATION.cff`](CITATION.cff). The results bundle of the November 2026 run (every
+proposal and judgment, with a checksum manifest) is archived on Zenodo:
+[doi:10.5281/zenodo.24093638](https://doi.org/10.5281/zenodo.24093638). Code: Apache-2.0 ([`LICENSE`](LICENSE)). Task data,
 proposals and judgments: CC BY 4.0 ([`LICENSE-DATA`](LICENSE-DATA)), with sources listed in
 [`data/ATTRIBUTION.md`](data/ATTRIBUTION.md).
